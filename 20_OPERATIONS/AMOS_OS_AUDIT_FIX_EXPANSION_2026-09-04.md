@@ -61,9 +61,9 @@ tags:
 
 ### 2.1 Malformed Wikilink Fix (29 files)
 
-**Problem:** 29 canonical vault files contained `\|` (backslash before pipe) in wikilinks, causing the link target to include the backslash and fail resolution. Example: `[[02_KERNEL/02_KERNEL_MOC|02_KERNEL]]` was parsed as target `02_KERNEL/02_KERNEL_MOC\` which doesn't match any file.
+**Problem:** 29 canonical vault files contained `|` (backslash before pipe) in wikilinks, causing the link target to include the backslash and fail resolution. Example: `[[02_KERNEL/02_KERNEL_MOC|02_KERNEL]]` was parsed as target `02_KERNEL/02_KERNEL_MOC\` which doesn't match any file.
 
-**Fix:** Removed the backslash before the pipe separator in all 29 files using `sed -i '' 's/\[\[\([^]]*\)\\|\([^]]*\)\]\]/[[\1|\2]]/g'`
+**Fix:** Removed the backslash before the pipe separator in all 29 files using `sed -i '' 's/\[\[\([^]]*\)\|\([^]]*\)\]\]/[[\1|\2]]/g'`
 
 **Files Fixed:**
 1. `18_SECURITY/SECURITY_SECURITY_CONTRACT.md`

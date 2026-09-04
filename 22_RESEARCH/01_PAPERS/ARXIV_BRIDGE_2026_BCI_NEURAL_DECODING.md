@@ -52,7 +52,7 @@ This bridge connects 2026 arXiv pre-prints in brain-computer interfaces (BCI), n
 | **arXiv ID** | `2601.06134v2` |
 | **Title** | DeeperBrain: A Neuro-Grounded EEG Foundation Model Towards Universal BCI |
 | **Date** | 2026-01 |
-| **Target Planes** | [[15_INTERFACES/15_INTERFACES_MOC\|15_INTERFACES]], [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC\|05_COGNITIVE_ORGANISM]], [[13_MODELS/13_MODELS_MOC\|13_MODELS]] |
+| **Target Planes** | [[15_INTERFACES/15_INTERFACES_MOC|15_INTERFACES]], [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM]], [[13_MODELS/13_MODELS_MOC|13_MODELS]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | EEG foundation model for universal BCI — directly relevant to AMOS interfaces plane and cognitive organism. Foundation models for EEG enable transfer learning across BCI tasks, paralleling AMOS's multi-scale model deployment. Neuro-grounded pretraining ensures biological plausibility. |
 | **Confidence Ceiling** | `EMPIRICAL` for EEG benchmarks; `SOURCE_CLAIM` for universal BCI claim. |
@@ -64,7 +64,7 @@ This bridge connects 2026 arXiv pre-prints in brain-computer interfaces (BCI), n
 | **arXiv ID** | `2604.14202v1` |
 | **Title** | Bridging scalp and intracranial EEG in BCI via pretrained neural representations |
 | **Date** | 2026-04 |
-| **Target Planes** | [[15_INTERFACES/15_INTERFACES_MOC\|15_INTERFACES]], [[13_MODELS/13_MODELS_MOC\|13_MODELS]], [[22_RESEARCH/22_RESEARCH_MOC\|22_RESEARCH]] |
+| **Target Planes** | [[15_INTERFACES/15_INTERFACES_MOC|15_INTERFACES]], [[13_MODELS/13_MODELS_MOC|13_MODELS]], [[22_RESEARCH/22_RESEARCH_MOC|22_RESEARCH]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | Bridging scalp and intracranial EEG — critical for AMOS interfaces plane. Non-invasive (scalp) to invasive (intracranial) transfer enables AMOS to leverage both BCI modalities. Pretrained neural representations enable cross-modal transfer learning. |
 | **Confidence Ceiling** | `EMPIRICAL` for transfer learning; `SOURCE_CLAIM` for clinical deployment. |
@@ -80,7 +80,7 @@ This bridge connects 2026 arXiv pre-prints in brain-computer interfaces (BCI), n
 | **arXiv ID** | `2605.12408v2` |
 | **Title** | From EEG Cleaning to Decoding: The Role of Artifact Rejection in MI-based BCIs |
 | **Date** | 2026-05 |
-| **Target Planes** | [[15_INTERFACES/15_INTERFACES_MOC\|15_INTERFACES]], [[17_OBSERVABILITY/17_OBSERVABILITY_MOC\|17_OBSERVABILITY]], [[04_RUNTIME/04_RUNTIME_MOC\|04_RUNTIME]] |
+| **Target Planes** | [[15_INTERFACES/15_INTERFACES_MOC|15_INTERFACES]], [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY]], [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | EEG artifact rejection for motor imagery BCI — relevant to AMOS interfaces and observability planes. Artifact rejection is the signal quality gate for BCI systems, paralleling AMOS's provenance validation. Systematic study of cleaning → decoding pipeline informs AMOS's signal processing runtime. |
 | **Confidence Ceiling** | `EMPIRICAL` for MI-BCI benchmarks; `SOURCE_CLAIM` for other BCI paradigms. |
@@ -96,7 +96,7 @@ This bridge connects 2026 arXiv pre-prints in brain-computer interfaces (BCI), n
 | **arXiv ID** | `2603.23358v1` |
 | **Title** | A Synchronous EEG-fNIRS BCI: A Proof-of-Concept for Multimodal Avalanche Analysis |
 | **Date** | 2026-03 |
-| **Target Planes** | [[15_INTERFACES/15_INTERFACES_MOC\|15_INTERFACES]], [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC\|05_COGNITIVE_ORGANISM]], [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_MOC\|L02 Attention]] |
+| **Target Planes** | [[15_INTERFACES/15_INTERFACES_MOC|15_INTERFACES]], [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM]], [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_MOC|L02 Attention]] |
 | **Epistemic Class** | `SOURCE_CLAIM` |
 | **AMOS Relevance** | Synchronous EEG-fNIRS fusion with avalanche analysis — directly relevant to AMOS cross-modal interface ledgers. Neural avalanche analysis connects to AMOS's criticality-based cognitive state transitions. Multimodal fusion (electrical + hemodynamic) provides complementary temporal and spatial resolution. |
 | **Confidence Ceiling** | `SOURCE_CLAIM` — proof-of-concept; clinical validation pending. |
