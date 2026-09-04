@@ -13,64 +13,62 @@ rscf:
   claim_class: AMOS_MODEL
   provenance:
     - 22_RESEARCH/RESEARCH_RESEARCH_CONTRACT
-    - 20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03
   scope: papers_ingestion
 tags:
   - amos-os
   - research
   - papers
   - arxiv
-  - peer-review
 ---
 
 # Research Papers Ingestion & Peer Review Contract
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Status:** `ACTIVE_GOVERNING_CONTRACT`
+## 1. Mandate
+Governs the intake, metadata extraction, mathematical parsing, and peer evaluation of scientific papers, arXiv preprints, and formal monographs.
+
+## 2. Intake Invariants
+1. Every ingested paper must be assigned an immutable RSCF identity: `arxiv-{arxiv_id}-{slug}`.
+2. Abstract, methodology, proofs, and conclusions must be separated into distinct typed sections.
+3. Claims cannot be promoted to verified truth merely by being published in high-impact venues (`M04: SOURCE_CLAIM != VERIFIED`).
+
+## Contract Scope
+This contract governs the full lifecycle of scientific paper ingestion within `22_RESEARCH/01_PAPERS`: from raw intake and identity assignment, through metadata extraction and mathematical parsing, to peer evaluation and archival. It binds all agents and processes that read, write, or route paper artifacts.
+
+Scope inclusions:
+- ArXiv preprints, formal monographs, and scientific papers.
+- RSCF identity assignment and immutable provenance binding.
+- Section separation (abstract, methodology, proofs, conclusions).
+- Peer review evaluation and claim classification.
+
+Scope exclusions:
+- Canon promotion of paper claims to verified truth.
+- Cross-plane dependency establishment for non-research artifacts.
+- Runtime execution or deployment of research-derived models.
+
+## Invariants
+1. **Immutable identity**: every paper receives `arxiv-{arxiv_id}-{slug}` at intake; this identity never changes.
+2. **Section separation**: abstract, methodology, proofs, and conclusions are distinct typed sections — never merged.
+3. **No venue promotion**: publication venue impact does not upgrade `SOURCE_CLAIM` to `VERIFIED` (`M04`).
+4. **Provenance preservation**: the original source URL, author list, and ingestion timestamp are immutable metadata.
+5. **Claim classification**: every extracted claim retains its RSCF `claim_class` — never auto-promoted.
+6. **Fail closed**: ambiguous or unparseable papers remain `UNKNOWN/GAP` until resolved by authoritative review.
+
+## Validation Protocol
+1. **Identity check**: confirm `arxiv-{arxiv_id}-{slug}` matches the source arXiv ID and is unique within the corpus.
+2. **Section check**: verify abstract, methodology, proofs, and conclusions are present and typed correctly.
+3. **Claim check**: verify no claim has been auto-promoted beyond `SOURCE_CLAIM` without peer review evidence.
+4. **Provenance check**: confirm source URL, authors, and ingestion timestamp are present and immutable.
+5. **Peer review check**: if peer evaluation has occurred, confirm the reviewer identity and evaluation timestamp are recorded.
+
+## AMOS Integration
+- Parent contract: [[22_RESEARCH/RESEARCH_RESEARCH_CONTRACT|RESEARCH_RESEARCH_CONTRACT]] — governing Research plane contract.
+- Plane MOC: [[22_RESEARCH/22_RESEARCH_MOC|22_RESEARCH_MOC]] — Research plane navigation.
+- Knowledge index: [[11_KNOWLEDGE/ARXIV_66K_INDEX_MANIFEST|ArXiv 66k Research Manifest]] — structured research index.
+- Root navigation: [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] — vault-wide structural navigation.
+
+## Epistemic Boundary
+This contract is an `AMOS_MODEL` governing ingestion and peer review. It does not prove that ingested claims are true, that peer review is infallible, or that high-impact publication confers verification. `SOURCE_CLAIM != VERIFIED`, `PUBLISHED != PROVEN`, `PEER_REVIEWED != CANON`. Cross-plane dependencies require the referenced artifact's own typed contract.
 
 ---
 
-## 1. Mandate & Epistemic Scope
-Governs the intake, structural normalization, formula parsing, algorithmic extraction, and rigorous peer review of scientific publications, arXiv preprints, technical monographs, and laboratory discovery reports across the AMOS Research Substrate (`22_RESEARCH`).
-
-```
-+------------------------------------------------------------------------------------+
-|               RESEARCH PAPERS INGESTION & AUDIT PIPELINE                           |
-|                                                                                    |
-|  [ Raw Paper / ArXiv Source ] ===> [ Metadata & Mathematical Extraction Engine ]   |
-|                                                     ||                             |
-|                                                     \/                             |
-|  [ Epistemic Labeling (SOURCE_CLAIM) ] <=== [ LaTeX Proof AST Dissection ]         |
-|                 ||                                                                 |
-|                 \/                                                                 |
-|  [ 9-Part Contract Validation ] ===> [ Formal Lean 4 / Python Simulation Sandbox ] |
-|                                                     ||                             |
-|                                                     \/                             |
-|                                     [ Vault Ingestion Receipt Sealed ]             |
-+------------------------------------------------------------------------------------+
-```
-
----
-
-## 2. Ingestion & Admission Invariants
-
-1. **Immutable RSCF Identity (`INV-PAPER-01`):** Every ingested paper must be assigned an immutable RSCF identity formatted as `arxiv-{arxiv_id}-{slug}` or `paper-{doi_hash}-{slug}`.
-2. **Epistemic Classification (`INV-PAPER-02`):** Unreproduced scientific claims must carry `epistemic_class: SOURCE_CLAIM` and `conclusion_class: UNKNOWN/GAP` until verified through numerical simulation or formal theorem checking.
-3. **Venues Do Not Dictate Truth (`INV-PAPER-03`):** In accordance with AMOS Master Axiom `SOURCE_CLAIM != VERIFIED`, publication in high-impact venues (Nature, Science, Physical Review Letters, NeurIPS) confers high prior hypothesis interest, but does not bypass empirical validation within the AMOS runtime.
-4. **Mathematical AST Extraction (`INV-PAPER-04`):** All mathematical theorems, dynamical equations, and loss formulations must be extracted into computable AST representations capable of unit and dimensional analysis.
-5. **Confidence Ceiling (`INV-PAPER-05`):** External preprints carry an absolute confidence ceiling $\mathcal{C} \le 0.85$ until independent verification yields $\mathcal{C} \to 0.99$.
-
----
-
-## 3. Mandatory Nine-Part Contract Specification
-
-1. **ROLE:** Authoritative control contract regulating scientific paper ingestion, structural parsing, LaTeX equation verification, and peer-review synthesis.
-2. **INTERFACES:** `IF-PAPER-INGEST` (PDF/Markdown raw stream), `IF-PAPER-VALIDATE` (LaTeX AST, Python test suite runner).
-3. **DEPENDENCIES:** `03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT.md`, `19_TESTS/TESTS_TEST_CONTRACT.md`, `22_RESEARCH/22_RESEARCH_MOC.md`.
-4. **INVARIANTS:** `INV-PAPER-01` through `INV-PAPER-05` as defined in Section 2.
-5. **AUTHORITY:** AMOS Core Research & Epistemics Plane (`22_RESEARCH`).
-6. **PROVENANCE:** Scientific Epistemics Directorate (Trang Phan).
-7. **TESTS:** Automated syntax validation, equation parser checks, and citation graph cycle detection (`scripts/verify_137_math_formulas.py`).
-8. **FAILURE:** Ingesting malformed YAML, unescaped LaTeX collisions, or unverified claims marked as canon results in immediate quarantine into `24_ARCHIVE/03_EXPERIMENTAL/`.
-9. **RECOVERY:** Automatic schema patcher execution via `scripts/master_vault_validator_2026.py` and re-ingestion audit.
+**Parent:** [[22_RESEARCH/22_RESEARCH_MOC|22_RESEARCH_MOC]]
