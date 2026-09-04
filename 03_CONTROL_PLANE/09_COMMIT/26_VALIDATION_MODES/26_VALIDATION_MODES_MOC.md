@@ -46,7 +46,13 @@ This mode family integrates into the AMOS commit lifecycle by providing speciali
 - [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]] — Commit control plane MOC
 - [[01_CANON/01_CORE_LAWS/L18_GMEF|L18_GMEF]] — GMEF gate compliance for mode activation
 
-_____
+
+
+## Notes
+
+- Modes in this family are registered in the commit control plane mode registry and can be referenced by the orchestrator during any commit phase
+- The spec file defines formal invariants that must hold throughout mode activation, ensuring safety properties are preserved
+- Mode transitions are governed by the GMEF gate framework, which validates that exit conditions are met before transitioning to a new mode
 
 ______________________________________________________________________
 

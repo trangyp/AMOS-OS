@@ -18,36 +18,39 @@ rscf:
 **Path:** `03_CONTROL_PLANE/09_COMMIT/09_GOVERNANCE_MODES`
 **Files:** 3 | **Subdirectories:** 0
 
+## Purpose
+
+Governance modes define the authoritative decision-making patterns that the commit orchestrator uses to approve, defer, or reject commits during the commit lifecycle. These modes encode the governance rules, authority envelopes, and capability-bound checks that determine whether a commit may proceed to finalization. They serve as the primary control surface through which the AMOS capability-bound governance kernel (v4.8) exerts its authority over commit-time mutations, ensuring that every commit satisfies the 8 mandatory gates and 6 non-compensatory refusals before being externalized.
+
+## MECE Domain
+
+This mode belongs to the B — Execution Core & Effect Governance MECE domain, within the 03_CONTROL_PLANE/09_COMMIT sub-plane.
+
 ## Files
 
-- [[03_CONTROL_PLANE/09_COMMIT/09_GOVERNANCE_MODES/GOVERNANCE_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_REGISTRY|GOVERNANCE_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_REGISTRY]]
-- [[03_CONTROL_PLANE/09_COMMIT/09_GOVERNANCE_MODES/GOVERNANCE_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC|GOVERNANCE_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC]]
-- [[03_CONTROL_PLANE/09_COMMIT/09_GOVERNANCE_MODES/GOVERNANCE_MODES_COMMIT_CONTROL_PLANE_README|GOVERNANCE_MODES_COMMIT_CONTROL_PLANE_README]]
+- [[03_CONTROL_PLANE/09_COMMIT/09_GOVERNANCE_MODES/GOVERNANCE_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_REGISTRY|GOVERNANCE_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_REGISTRY]] — Catalogs all governance modes in this family with their activation criteria, invariants, transition rules, and authority envelope boundaries.
+- [[03_CONTROL_PLANE/09_COMMIT/09_GOVERNANCE_MODES/GOVERNANCE_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC|GOVERNANCE_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC]] — Defines the formal properties, preconditions, postconditions, and safety invariants for each governance mode in the family.
+- [[03_CONTROL_PLANE/09_COMMIT/09_GOVERNANCE_MODES/GOVERNANCE_MODES_COMMIT_CONTROL_PLANE_README|GOVERNANCE_MODES_COMMIT_CONTROL_PLANE_README]] — Provides an overview of the governance mode family, its role in the commit lifecycle, and integration guidance for the commit orchestrator.
 
+## Mode Behavior
 
-## Mode Family Purpose
+Governance modes activate when the commit orchestrator enters a phase that requires authoritative decision-making — typically during the pre-commit validation and authorization phases. Each mode governs a specific governance pattern: strict-gate enforcement, delegated authority, capability-bound checks, or escalation routing. The mode evaluates the commit against its governance rules and produces one of three outcomes: APPROVED (commit may proceed), DEFERRED (commit awaits additional evidence or authority), or BLOCKED (commit fails a non-compensatory refusal). Governance modes block any commit that exceeds the autonomous envelope (depth > 2, consequence > 0.35, irreversibility > 0.20) without explicit escalation, and they block all M0-class mutations unconditionally. Mode exit occurs when the governance decision is recorded and the commit transitions to the next lifecycle phase.
 
-Governance modes enforce authority envelopes, policy gates, and capability-bound decision-making during the commit lifecycle, ensuring every commit satisfies the governance kernel before externalization. These modes define specific operational patterns that the commit orchestrator can activate when the corresponding conditions arise during commit processing, ensuring that each phase of the commit lifecycle is governed by the appropriate mode family.
+## Relationships
 
-## Key Concepts
-
-- **Mode Activation**: Modes are activated based on commit-phase conditions and governance rules, with each mode specifying its entry and exit criteria
-- **Family Registry**: The registry file catalogs all modes in this family with their activation criteria, invariants, and transition rules
-- **Mode Specification**: The spec file defines the formal properties, preconditions, postconditions, and safety invariants for each mode
-- **Cross-Mode Composition**: Modes from this family can compose with modes from other families under the commit orchestrator's coordination
+- **Parent:** [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]]
+- **Mode Index:** [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/00_MODE_INDEX_MOC|00_MODE_INDEX_MOC]]
+- **GMEF Law:** [[01_CANON/01_CORE_LAWS/L18_GMEF|L18_GMEF]] — GMEF gate compliance for mode activation
+- **Control Plane Contract:** [[03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT|CONTROL_PLANE_CONTROL_PLANE_CONTRACT]]
+- **Related Family — Validation Modes:** [[03_CONTROL_PLANE/09_COMMIT/26_VALIDATION_MODES/26_VALIDATION_MODES_MOC|26_VALIDATION_MODES_MOC]]
+- **Related Family — Scope Regime Modes:** [[03_CONTROL_PLANE/09_COMMIT/25_SCOPE_REGIME_MODES/25_SCOPE_REGIME_MODES_MOC|25_SCOPE_REGIME_MODES_MOC]]
 
 ## Commit Phase Integration
 
-This mode family integrates into the AMOS commit lifecycle by providing specialized behavior patterns that the commit orchestrator selects based on the current commit context. When a commit enters a phase that requires governance reasoning, the orchestrator activates the appropriate mode from this family, which then governs the commit's behavior until the phase completes or transitions to another mode. The mode family ensures that commit decisions are made with the appropriate operational context and that all governance gates are satisfied before the commit proceeds to finalization.
+This mode family integrates into the AMOS commit lifecycle during the pre-commit authorization phase. When a commit enters a phase that requires governance decision-making, the orchestrator activates the appropriate governance mode, which evaluates the commit against its rule set and produces an APPROVED, DEFERRED, or BLOCKED outcome. The governance decision is recorded as a commit-time receipt with full provenance, ensuring auditability and replay capability. All governance gate evaluations must complete before the commit proceeds to finalization.
 
-## Cross-References
+## Epistemic Boundary
 
-- [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/00_MODE_INDEX_MOC|00_MODE_INDEX_MOC]] — Full mode index
-- [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]] — Commit control plane MOC
-- [[01_CANON/01_CORE_LAWS/L18_GMEF|L18_GMEF]] — GMEF gate compliance for mode activation
+`DOCUMENTED != IMPLEMENTED` — The governance mode family is structurally documented in the vault corpus, but its executable enforcement in a deployed runtime is not established merely by documentation presence.
 
-_____
-
-______________________________________________________________________
-
-**Parent:** [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]]
+`CAPABILITY != AUTHORITY` — The governance mode family describes capability patterns for commit-time decision-making; it does not by itself confer authority to any agent or system. Authority must be independently established through the enforcement root attestation and delegation witness chain.
