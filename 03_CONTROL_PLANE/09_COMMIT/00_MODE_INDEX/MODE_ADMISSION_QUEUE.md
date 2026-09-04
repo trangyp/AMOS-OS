@@ -1,7 +1,4 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
 title: MODE ADMISSION QUEUE
 type: note
 source: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX
@@ -4191,7 +4188,7 @@ The main provenance limit is important: this specification is **derived from AMO
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

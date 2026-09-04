@@ -1,7 +1,4 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
 title: DECOMPOSITION RECOMPOSITION MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/75_DECOMPOSITION_RECOMPOSITION_MODES
@@ -77,7 +74,7 @@ Given an operation touching `DECOMPOSITION RECOMPOSITION MODES COMMIT CONTROL PL
 
 ## Cross-plane bindings
 
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 - Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
 - Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
 - Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
@@ -85,7 +82,7 @@ Given an operation touching `DECOMPOSITION RECOMPOSITION MODES COMMIT CONTROL PL
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

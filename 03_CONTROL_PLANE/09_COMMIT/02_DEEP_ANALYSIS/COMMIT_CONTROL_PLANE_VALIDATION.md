@@ -1,7 +1,4 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
 title: COMMIT CONTROL PLANE VALIDATION
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/02_DEEP_ANALYSIS
@@ -2623,7 +2620,7 @@ This is intentionally much deeper than the placeholder, but it keeps the critica
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

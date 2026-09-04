@@ -209,7 +209,7 @@ This artifact remains `CANDIDATE_CANON / DERIVED` until:
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

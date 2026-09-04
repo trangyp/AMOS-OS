@@ -1,7 +1,4 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
 title: MODE CONFLICT REGISTRY
 type: registry
 source: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX
@@ -4096,7 +4093,7 @@ This should be treated as `DERIVED / CANDIDATE_CANON`, not recovered original ca
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

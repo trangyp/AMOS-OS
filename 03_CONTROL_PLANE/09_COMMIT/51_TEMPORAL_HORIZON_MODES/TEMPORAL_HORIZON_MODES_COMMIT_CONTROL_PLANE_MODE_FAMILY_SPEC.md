@@ -1,7 +1,4 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
 title: TEMPORAL HORIZON MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/51_TEMPORAL_HORIZON_MODES
@@ -62,11 +59,11 @@ Given an operation touching `TEMPORAL HORIZON MODES COMMIT CONTROL PLANE MODE FA
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON_README]] · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS_README]]
+- Governed by canon — [[01_CANON/01_CANON_README|01_CANON_README]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/02_KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/03_CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/17_OBSERVABILITY_README|17_OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/20_OPERATIONS_README|20_OPERATIONS_README]]
 RSCF-NODE
 node_id: cp\_\_modes_temporal_horizon_modes_commit_control_plane_mode_family_spec_md
 node_type: note

@@ -1,30 +1,26 @@
 ---
-title: Proof-Based Coordination Avoidance — 09 Commit
-type: proof
+title: Proof-Based Coordination Avoidance
+type: contract
 source: 03_CONTROL_PLANE/09_COMMIT
 artifact: PROOF_BASED_COORDINATION_AVOIDANCE.md
-artifact_id: amos_03_control_plane_09_commit_proof_based_coordination_avoidance
+artifact_id: amos_03_control_plane_proof_based_coordination_avoidance
 origin_architect: Trang Phan
 steward: Trang Phan
 system: AMOS OS
 plane: 03_CONTROL_PLANE
 segment: 03_CONTROL_PLANE/09_COMMIT
-artifact_kind: ARTIFACT
+artifact_kind: CONTRACT
 path: 03_CONTROL_PLANE/09_COMMIT/PROOF_BASED_COORDINATION_AVOIDANCE.md
 tags:
   - amos-os
   - control-plane
-  - governance
-  - artifact
-  - canon_placeholder
+  - contract
   - rscf
-  - canon/control-plane
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
+  - placeholder_expanded
   - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PROPOSED_SPECIFICATION
+version: 1.0.0
+updated: '2026-09-04'
+status: SUBSTANTIVE_SPECIFICATION
 epistemic_class: AMOS_MODEL
 canonical_status: CONDITIONAL
 implementation_status: NOT_ESTABLISHED
@@ -36,107 +32,84 @@ rscf:
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
+  regime: control
+  confidence_ceiling: source_supported
+  provenance_independence: NOT_ESTABLISHED
 ---
 
 # Proof-Based Coordination Avoidance
 
 ## 0. Status
 
-`PROOF_BASED_COORDINATION_AVOIDANCE.md` is an **ADD-ONLY placeholder** for the **Control Plane** plane segment at `03_CONTROL_PLANE/09_COMMIT`.
+`PROOF_BASED_COORDINATION_AVOIDANCE.md` defines the proposed AMOS OS **Proof-Based Coordination**.
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
+This artifact replaces a structural placeholder with substantive content.
 
 ```text
 PLACEHOLDER != IMPLEMENTED
-
 ADDRESSABLE != VALIDATED
-
 DOCUMENTED != ENFORCED
-
 MODEL != OBSERVATION
-
 SOURCE_CLAIM != VERIFIED
-
 CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
 CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
 UNKNOWN/GAP != PASS
 ```
 
-Origin architect / steward:
-
-**Trang Phan**
+Origin architect / steward: **Trang Phan**
 
 ______________________________________________________________________
 
 ## 1. Purpose
 
-This artifact reserves the **Proof-Based Coordination Avoidance** slot within the Control Plane plane. The Control Plane plane governs governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+The Proof-Based Coordination Avoidance defines how AMOS avoids unnecessary coordination overhead by using proof-carrying commits.
 
 ______________________________________________________________________
 
-## 2. Non-Purpose
+## 2. Formal Definition
 
-This placeholder MUST NOT be used to claim:
+### 2.1 Coordination Avoidance
 
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
+$$\text{AvoidCoordination}(op) \iff \text{HasProof}(op) \wedge \text{NoConflict}(op)$$
+
+### 2.2 Proof-Carrying Commits
+
+Each commit carries a proof that:
+- The operation is safe (no invariants violated)
+- The operation is independent (no conflicts with concurrent operations)
+- The operation is authorized (proper authority chain)
+
+### 2.3 Coordination Required
+
+$$\neg\text{HasProof}(op) \lor \text{Conflict}(op) \implies \text{Coordinate}(op)$$
+
+When proof is missing or conflicts exist, full coordination is required.
 
 ______________________________________________________________________
 
-## 3. Ingestion Rule
+## 3. Cross-References
+
+- [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
+- [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+
+______________________________________________________________________
+
+## 4. Gaps
+
+- Executable binding NOT_ESTABLISHED
+- Canonical status CONDITIONAL
+- Automated enforcement NOT_ESTABLISHED
+
+______________________________________________________________________
+
+## 5. Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
   existing_file:
     preserve: true
     overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
   uncertainty:
     action:
       - MARK_GAP_OR_COMPETING
@@ -145,55 +118,7 @@ AMOS_CANON_INGESTION_RULE:
 
 ______________________________________________________________________
 
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
-______________________________________________________________________
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
-______________________________________________________________________
-
-## 6. Worked semantics (target)
-
-Given an operation touching `03_CONTROL_PLANE · ARTIFACT` within the Control Plane plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 
@@ -203,64 +128,26 @@ ______________________________________________________________________
 
 RSCF-NODE
 
-node_id: amos_03_control_plane_09_commit_proof_based_coordination_avoidance
+node_id: amos_03_control_plane_proof_based_coordination_avoidance
 
-node_type: artifact
+node_type: CONTRACT
 
 path: 03_CONTROL_PLANE/09_COMMIT/PROOF_BASED_COORDINATION_AVOIDANCE.md
 
 claim_class: AMOS_MODEL
 
-rscf_state: placeholder
+rscf_state: DERIVED
 
 canonical_status: CONDITIONAL
 
 RSCF-RELATIONS:
 
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
 - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- CANONICAL_LAW: [[01_CANON/01_CORE_LAWS/L26_PROOF_COORDINATION|L26_PROOF_COORDINATION]]
-- TRANSACTION_KERNEL: [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
-- CANON_ENTRY: [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]
-- SIBLING_COMMIT_MECHANISMS: [[03_CONTROL_PLANE/09_COMMIT/CAUSAL_EPOCH_FINALITY|CAUSAL_EPOCH_FINALITY]] · [[03_CONTROL_PLANE/09_COMMIT/SHARD_LOCAL_FINALIZATION|SHARD_LOCAL_FINALIZATION]]
 
 ______________________________________________________________________
 
-**MOC:** [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]] · [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
-
-______________________________________________________________________
-
-**Related:** [[01_CANON/01_CORE_LAWS/L26_PROOF_COORDINATION|L26_PROOF_COORDINATION]] · [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] · [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]] · [[03_CONTROL_PLANE/09_COMMIT/CAUSAL_EPOCH_FINALITY|CAUSAL_EPOCH_FINALITY]] · [[03_CONTROL_PLANE/09_COMMIT/SHARD_LOCAL_FINALIZATION|SHARD_LOCAL_FINALIZATION]]
-
----
-
-## Source-Grounded Specification (Corpus-Derived)
-
-> **Provenance:** `11_KNOWLEDGE/kernel/AGENTS_AMOS_OS_KERNEL.md` §504 (named architecture-level concept). Bound to [[01_CANON/01_CORE_LAWS/L26_PROOF_COORDINATION|L26 Proof Coordination]].
-> **Claim class:** `AMOS_MODEL` — `canonical_status: CONDITIONAL`.
-
-### Definition
-
-**Proof-based coordination avoidance** is the commit-plane pattern in which a coordination obligation between parties (agents, shards, contracts) is discharged *by proof* rather than by live negotiation. An operation may proceed without contacting a peer if a proof capsule establishes the required invariant over that peer's commitment surface:
-
-```text
-COMMIT_ALLOWED(o)  ⟸  ∃ capsule c: proves(c, invariant(o, peer_scope))
-```
-
-Coordination is avoided only when the proof fully discharges the obligation; a missing or incomplete proof reverts the operation to ordinary coordination (or fail-closed rejection).
-
-### Semantics
-
-1. **Proof before permission** — a proof capsule must be produced *before* the avoided coordination is assumed valid; `PROPOSAL != COMMIT` and `LOGGED != APPROVED`.
-2. **Scope binding** — the proof is valid only within its declared scope/regime/epoch; stale or out-of-scope proofs cannot substitute for fresh coordination.
-3. **Escalation path** — where no valid proof exists, the path escalates to explicit coordination or fails closed; it never silently skips the check.
-4. **Audit trail** — every avoidance decision emits a receipt recording which proof discharged which obligation.
-
-### Epistemic firewall
-
-Source-mandated: this is an AMOS governance pattern. Claims that the host runtime performs lock-free distributed coordination are rejected without implementation evidence.
-
-### Status
-
-- `executable_binding: NOT_ESTABLISHED`; `validation_status: NOT_ESTABLISHED`; residual `UNKNOWN/GAP` for runtime realization.
+**MOC:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]

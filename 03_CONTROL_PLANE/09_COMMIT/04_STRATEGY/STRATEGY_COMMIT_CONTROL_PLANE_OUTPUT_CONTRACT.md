@@ -1,71 +1,108 @@
 ---
-title: Strategy Commit Control Plane Output Contract — Control Plane Authority Specification
-type: control_specification
-source: 03_CONTROL_PLANE
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
+title: STRATEGY COMMIT CONTROL PLANE OUTPUT CONTRACT
+type: control-plane
+source: 03_CONTROL_PLANE/09_COMMIT/04_STRATEGY
+tags:
+  - control-plane
+  - 04_strategy
+  - canon/control-plane
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT
-    - 01_CANON/01_CORE_LAWS/LAW_HIERARCHY
-  scope: control_plane_authority
-tags:
-  - amos-os
-  - control-plane
-  - authority
-  - strategy-commit-control-plane-output-contract
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
-# Strategy Commit Control Plane Output Contract — Control Plane Authority Specification
+# STRATEGY COMMIT CONTROL PLANE OUTPUT CONTRACT
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Conclusion Class:** `AMOS_MODEL`
-> **Status:** `ACTIVE_SPECIFICATION`
+## 0. Status
 
----
+Control Plane-plane contract for **STRATEGY COMMIT CONTROL PLANE OUTPUT CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
-## 1. Purpose & Authority Domain
+## 1. Scope
 
-`STRATEGY_COMMIT_CONTROL_PLANE_OUTPUT_CONTRACT` defines the formal control-plane mechanisms, verification gates, and authority constraints governing execution lifecycle and state mutability within `03_CONTROL_PLANE`.
+Governs governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback as they bear on `STRATEGY COMMIT CONTROL PLANE OUTPUT CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
 
-In the MECE Full Brain OS architecture (**Partition B: Execution Core & Effect Governance**), authority is never derived from capability:
+## 2. Contract terms
 
-```text
-CAPABILITY != AUTHORITY
-PROPOSAL != COMMIT
-INVOCATION != VERIFICATION
-MUTATION != FINALITY
-```
+- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
+- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
+- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
+- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
+- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
 
----
+## 3. Invariants
 
-## 2. Formal Invariants & Pre-Conditions
+- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
+- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
+- Consequential effects emit receipts; rollback basin exists before mutation.
+- Competing hypotheses remain visible when evidence does not discriminate.
 
-1. **Epoch-Bound Validity:** All transactions referencing `STRATEGY_COMMIT_CONTROL_PLANE_OUTPUT_CONTRACT` must validate against the active causal epoch $E_k$.
-2. **Cryptographic Grounding:** Capability tokens must be signed and non-replayable.
-3. **Atomic State Transition:** If any assertion fails during evaluation, state reverts immediately to the pre-transaction snapshot.
-4. **Pre-allocated Rollback Basin:** No mutation may occur without a verified inverse compensation delta $\Delta^{-1}$.
+## 4. Executed reference
 
----
+No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
 
-## 3. Mathematical & Causal Formulation
+## 5. Gaps
 
-Let $\mathcal{T}$ be the transaction set, $\mathcal{S}$ the state space, and $\mathcal{I}$ the system invariant:
+Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
 
-$$\forall T \in \mathcal{T}, \quad \text{Evaluate}_{STRATEGY_COMMIT_CONTROL_PLANE_OUTPUT_CONTRACT}(T, \mathcal{S}) \implies \mathcal{I}(T(\mathcal{S})) = 1$$
+## 6. Falsifiers
 
----
+F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
 
-## 4. Cross-Plane Bindings
+## Worked semantics
 
-- **Governed By:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
-- **Axiomatic Grounding:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- **Monitored In:** [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]]
-- **Recovered Via:** [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+Given an operation touching `STRATEGY COMMIT CONTROL PLANE OUTPUT CONTRACT` within the Control Plane plane:
+
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+
+## Promotion-gate checklist
+
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+
+## Cross-plane bindings
+
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+
+______________________________________________________________________
+
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+
+______________________________________________________________________
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: cp_09_commit_04_strategy_strategy_commit_control_plane_output_contract_md
+node_type: note
+path: 03_CONTROL_PLANE/09_COMMIT/04_STRATEGY/STRATEGY_COMMIT_CONTROL_PLANE_OUTPUT_CONTRACT.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** 04_STRATEGY_MOC
+
+______________________________________________________________________
+
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
