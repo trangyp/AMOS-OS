@@ -1,7 +1,4 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
 title: O03 Binding MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O03_BINDING
@@ -44,9 +41,61 @@ rscf:
 - [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O03_BINDING/O03_BINDING_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_TESTS|O03_BINDING_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_TESTS]]
 - [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O03_BINDING/O03_BINDING_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_WORKFLOWS|O03_BINDING_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_WORKFLOWS]]
 
+## Purpose & Definition
+
+O03 Binding is the **fourth lifecycle operation** — it takes related objects from O02 and binds them into coherent, reusable structures called schemas or bound aggregates. Binding is the act of grouping multiple objects and their relations into a unified whole that can be manipulated as a single entity by downstream operations. A binding is not merely a set; it is a typed aggregation that preserves the internal structure of its constituents while exposing a composite interface.
+
+Binding transforms a relation graph into a collection of manageable units: [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O04_STATE/O04_STATE_MOC|O04 State]] can then capture the state of bound structures, and [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O05_MEMORY/O05_MEMORY_MOC|O05 Memory]] can store and retrieve them as composite entities.
+
+## Key Sub-artifacts and Their Roles
+See the **Files** section above for the complete list of 20 sub-artifacts. Key artifacts:
+| `DEFINITION` | Formal specification of binding semantics, schema types, and composition rules |
+| `CONTRACT` | Input/output contract binding aggregation to the lifecycle |
+| `PRECONDITIONS` | Requires a valid relation graph from O02 with at least one confirmed relation |
+| `POSTCONDITIONS` | All output bindings are typed, validated, and reference-counted |
+| `INVARIANTS` | Binding integrity: constituent objects must remain live; binding must not create cycles |
+
+*...and remaining artifacts (PROTOCOLS, FAILURE_MODES, HML, GAP_MATRIX, DEPENDENCIES, AGENTS, CONTROL_PLANES, SKILLS, WORKFLOWS, TESTS, RSCF, README) — see Files section.*
+
+## Input/Output Contracts
+
+- **Input:** Relation graph from [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O02_RELATION/O02_RELATION_MOC|O02 Relation]] — typed edges between constituted objects.
+- **Output:** Bound structures (schemas) — typed aggregates with composite interfaces, internal structure preservation, and reference metadata. Registered for O04 State capture.
+- **Contract:** `COGNITIVE_MATRIX_O03_BINDING_CONTRACT` — binds aggregation to lifecycle invariants.
+
+## Cross-references to Lifecycle Operations
+
+- **Predecessor:** [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O02_RELATION/O02_RELATION_MOC|O02 Relation]] — provides the relation graph that binding groups into schemas.
+- **Successor:** [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O04_STATE/O04_STATE_MOC|O04 State]] — captures the current state of bound structures.
+- **Chain position:** O00→O01→O02→**O03**→O04→O05→O06→O07→O08→O09→O10→O11→O12→O13→O14→O15
+
+## Canonical Laws
+
+- **L5 (Binding Law):** A binding preserves the identity of its constituents while exposing a composite identity; the composite is distinct from the sum of its parts.
+- **L6 (Acyclicity Law):** Binding structures must not form cycles; cyclic bindings are rejected or broken by the binding validator.
+- **L7 (Observability Law):** Binding formation and dissolution are observable and auditable.
+- **L11 (Reference Law):** Every binding maintains reference counts to its constituents; dangling bindings are garbage-collected.
+- Applicable: L0–L16 operational, L17–L32 governance constraints on binding authority.
+
+## AMOS Architectural Alignment
+
+O03 Binding sits in `02_LIFECYCLE_OPERATIONS` within the 25-plane MECE architecture. Governed by [[25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C05_REPRESENTATION/C05_REPRESENTATION_MOC|C05 Representation]] (binding encoding) and [[25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C01_GOVERNANCE/C01_GOVERNANCE_MOC|C01 Governance]] (binding authority). Bound structures interface with [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O05_MEMORY/O05_MEMORY_MOC|O05 Memory]] for persistence and [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O06_MODEL/O06_MODEL_MOC|O06 Model]] for model construction.
+
+## Implementation Status and Open Questions
+
+- **Status:** `DERIVED` — binding is specified but executable closure is not verified. `DOCUMENTED != IMPLEMENTED`.
+- **Open questions:** How are binding schemas negotiated in multi-agent settings? What is the binding dissolution policy when constituents are deprecated? How are nested bindings (bindings of bindings) validated for acyclicity?
+- **Gaps:** See `GAP_MATRIX` sub-artifact for the full inventory.
+
+## Related Skills, Agents & Workflows
+
+- **Skills:** `amos-schema-formation`, `amos-aggregate-management`, `amos-binding-validation`
+- **Agents:** `amos-binding-agent.json`, `amos-schema-agent.json`
+- **Workflows:** `amos-binding-lifecycle.json`, `amos-schema-negotiation.json`
+
 ## Subdirectories
 
-- [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
+- [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O03_BINDING/00_INDEX/INDEX_O03_BINDING_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_README|INDEX_O03_BINDING_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_README]] — 00_INDEX
 
 ______________________________________________________________________
 

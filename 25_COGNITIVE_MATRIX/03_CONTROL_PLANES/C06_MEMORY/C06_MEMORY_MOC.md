@@ -1,38 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: C06 Memory MOC
-type: moc
-source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: C06 Memory Moc
 tags:
-  - c06-memory
-  - domain/cognitive-matrix
-  - cognitive-matrix-authority
-  - cognitive-matrix-decision-rules
-  - cognitive-matrix-observability
-  - cognitive-matrix-policies
-  - cognitive-matrix-scope
-  - control-planes-cognitive-matrix-agents
-  - control-planes-cognitive-matrix-definition
-  - control-planes-cognitive-matrix-dependencies
-  - control-planes-cognitive-matrix-failure-modes
-  - control-planes-cognitive-matrix-gap-matrix
-  - control-planes-cognitive-matrix-invariants
-  - control-planes-cognitive-matrix-protocols
-  - control-planes-cognitive-matrix-provenance
-  - control-planes-cognitive-matrix-repair
-  - control-planes-cognitive-matrix-rscf
-  - control-planes-cognitive-matrix-skills
-  - control-planes-cognitive-matrix-state
-  - control-planes-cognitive-matrix-tests
-  - control-planes-cognitive-matrix-workflows
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # C06 Memory — Map of Content

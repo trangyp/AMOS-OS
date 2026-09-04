@@ -1,20 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: C04 Reasoning MOC
-type: moc
-source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C04_REASONING
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: C04 Reasoning Moc
 tags:
-  - c04-reasoning
-  - domain/cognitive-matrix
-  - c04-reasoning-control-planes-cognitive-matrix-rscf
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # C04 Reasoning — Map of Content

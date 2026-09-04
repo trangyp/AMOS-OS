@@ -1,96 +1,109 @@
 ---
-title: "Cognitive Matrix Lifecycle Operations Contract — Cell Activation, Contraction & Garbage Collection Specification"
-type: subplane_contract
-plane: 25_COGNITIVE_MATRIX
-subplane: 02_LIFECYCLE_OPERATIONS
-domain: C_COGNITIVE_CAPABILITY
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC
-    - 25_COGNITIVE_MATRIX/01_PRIMITIVES/COGNITIVE_MATRIX_PRIMITIVES_CONTRACT
-    - 12_STATE/STATE_STATE_CONTRACT
-  scope: matrix_cell_lifecycle_operations
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Cognitive Matrix Lifecycle Operations Contract
 tags:
-  - amos-os
-  - 25-cognitive-matrix
-  - cell-lifecycle
-  - tensor-contraction
-  - garbage-collection
-  - epoch-finality
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Cognitive Matrix Lifecycle Operations Contract — Cell Activation, Contraction & Garbage Collection Specification
+# COGNITIVE MATRIX LIFECYCLE OPERATIONS CONTRACT
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Domain Alignment:** Domain C (Cognitive Capability / Orchestration)
-> **Conclusion Class:** `DERIVED` (RSCF Validated)
-> **Status:** `ACTIVE_SPECIFICATION`
+## 0. Status
 
----
+Cognitive Matrix-plane contract for **LIFECYCLE OPERATIONS CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
-## 1. Architectural Scope & Mission
+## 1. Scope
 
-`25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS` defines the finite state machine, tensor charging, contraction phases, and zero-leak garbage collection governing all active cells in the 19x19 AMOS Cognitive Matrix.
+Governs primitives L00–L29, lifecycle operations O00–O16, control planes C01–C09, scales, cell registry, routing, validation, generators as they bear on `LIFECYCLE OPERATIONS CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
 
-```text
-ALLOCATION != UNCONSTRAINED_GROWTH
-CHARGING != EPHEMERAL_MUTATION
-CONTRACTION != LOSS_OF_COHERENCE
-GARBAGE_COLLECTION != DATA_CORRUPTION
-```
+## 2. Contract terms
 
----
+- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
+- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
+- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
+- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
+- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
 
-## 2. Cell Lifecycle State Machine
+## 3. Invariants
 
-```mermaid
-stateDiagram-v2
-    [*] --> DORMANT: System Boot / Initial Allocation
-    DORMANT --> CHARGED: Ingest Task / Belief Vector
-    CHARGED --> CONTRACTING: Contraction Along Virtual Bonds
-    CONTRACTING --> FINALIZED: Output State Tensor Ready
-    FINALIZED --> FLUSHED: Commit Receipt to 12_STATE
-    FLUSHED --> DORMANT: Memory Zeroize & Free
-```
+- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
+- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
+- Consequential effects emit receipts; rollback basin exists before mutation.
+- Competing hypotheses remain visible when evidence does not discriminate.
 
-### State Transitions & Semantics
-1. **`DORMANT`**: Zero memory allocation; resting state awaiting task dispatch.
-2. **`CHARGED`**: High-dimensional belief tensor loaded into Apache Arrow zero-copy memory buffers.
-3. **`CONTRACTING`**: SVD-based tensor contraction executing across neighboring cells.
-4. **`FINALIZED`**: Verified epistemic output capsule generated and signed via BLAKE3.
-5. **`FLUSHED`**: Committed to episodic memory substrate in `10_MEMORY` and zeroized.
+## 4. Executed reference
 
----
+No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
 
-## 3. Contraction Algebra & Complexity Bounds
+## 5. Gaps
 
-Let $\mathcal{C}_{i,j}$ and $\mathcal{C}_{i+1,j}$ be adjacent active cells. The horizontal bond contraction is computed via Singular Value Decomposition (SVD):
+Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
 
-$$\mathbf{M} = \sum_{k=1}^\chi \mathbf{T}_{i,j}^{(\cdot, \cdot, k)} \otimes \mathbf{T}_{i+1,j}^{(k, \cdot, \cdot)} \xrightarrow{\text{SVD}} \mathbf{U} \mathbf{S} \mathbf{V}^\dagger$$
+## 6. Falsifiers
 
-Truncation retains only singular values $\sigma_k$ satisfying $\frac{\sigma_k}{\sigma_1} \ge 10^{-6}$, guaranteeing compression with bounded Frobenius norm error:
-$$\|\mathbf{M} - \tilde{\mathbf{M}}\|_F \le \epsilon_{\text{trunc}}$$
+F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
 
----
+## Worked semantics
 
-## 4. Invariants & Guardrails
+Given an operation touching `COGNITIVE MATRIX · LIFECYCLE OPERATIONS CONTRACT` within the Cognitive Matrix plane:
 
-1. **Zero State Leakage:** Any cell in `FLUSHED` state must be zero-filled before returning to `DORMANT`.
-2. **Deterministic Contraction Order:** Tensor contraction paths are deterministically planned using dynamic programming to minimize intermediate tensor dimensions.
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
----
+## Promotion-gate checklist
 
-## 5. Lineage & Cross-Plane References
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-- **Parent MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
-- **Primitives Contract:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/COGNITIVE_MATRIX_PRIMITIVES_CONTRACT|COGNITIVE_MATRIX_PRIMITIVES_CONTRACT]]
-- **State Storage:** [[12_STATE/STATE_STATE_CONTRACT|12_STATE]]
-- **Episodic Substrate:** [[10_MEMORY/EPISODIC_MEMORY_SUBSTRATE|10_MEMORY]]
+## Cross-plane bindings
+
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+
+______________________________________________________________________
+
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+
+______________________________________________________________________
+
+**Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: cm_02_lifecycle_operations_cognitive_matrix_lifecycle_operations_contract
+node_type: note
+path: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/COGNITIVE_MATRIX_LIFECYCLE_OPERATIONS_CONTRACT.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/02_LIFECYCLE_OPERATIONS_MOC|02_LIFECYCLE_OPERATIONS_MOC]]
+
+______________________________________________________________________
+
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

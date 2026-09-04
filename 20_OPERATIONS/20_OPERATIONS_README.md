@@ -1,143 +1,116 @@
 ---
-title: 20 Operations Readme — Comprehensive Architectural Specification
-type: architectural_specification
+title: "20 Operations — README"
+type: readme
 source: 20_OPERATIONS
-aliases:
-  - 20_OPERATIONS_README
-  - 20 Operations Readme
-amos_core_target: v4.4
-artifact_id: AMOS-20_OPERATIONS_README
-conclusion_class: DERIVED
-epistemic_class: AMOS_MODEL
-created: 2026-09-04
 origin_architect: Trang Phan
 steward: Trang Phan
-status: ACTIVE_SPECIFICATION
+amos_core_target: v4.4
+status: ACTIVE
 rscf:
   state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 20_OPERATIONS/00_INDEX/20_OPERATIONS_MAP
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-  scope: active__AMOS_OS
-tags:
-  - amos
-  - amos-os
-  - 20_operations
-  - architecture
-  - mece-contract
-  - formal-specification
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: operations_readme
 ---
 
-# 20 Operations Readme — Comprehensive Architectural Specification
+# 20 Operations — README
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Epistemic Class:** `AMOS_MODEL`
-> **Status:** `ACTIVE_SPECIFICATION`
-> **Governing Plane:** `20_OPERATIONS`
+## Role
 
----
+Operations owns lifecycle execution — deployment, migration, release, backup, restore, incident handling, maintenance, rollback, promotion, and deprecation. Operations is the "how" of AMOS runtime: it executes the plans that the control plane designs and the runtime enforces.
 
-## 1. Role & Architectural Purpose
+## Core Principle
 
-`20_OPERATIONS_README` defines the formal execution boundary, state invariants, communication contracts, and epistemic constraints within the `20_OPERATIONS` plane of the **AMOS Full Brain OS Architecture**.
-
-It ensures:
-1. **Deterministic Execution**: All computational steps are fully deterministic, repeatable, and traceable.
-2. **Epistemic Integrity**: Enforces the non-negotiable boundaries `CAPABILITY != AUTHORITY`, `DOCUMENTED != IMPLEMENTED`, and `MODEL != OBSERVATION`.
-3. **Modular Composability**: Implements strict input/output tensor schemas facilitating zero-copy Arrow IPC communication across multi-agent swarms.
-
----
-
-## 2. Interfaces & Protocol Boundaries
-
-### Input Channel Specification
-- **Message Framing**: Apache Arrow Flight / Protocol Buffers v3 with BLAKE3 cryptographic hash envelopes.
-- **Payload Schema**: Strict typing enforcing `ClaimTensor`, `EvidenceTensor`, or `TelemetryEnvelope` signatures.
-- **Authentication**: Monotonically increasing epoch counter signed by Control Plane capability tokens.
-
-### Output Channel Specification
-- **State Mutation Descriptors**: Transactional change-sets containing forward-apply and reverse-rollback deltas.
-- **Telemetry Egress**: OpenTelemetry v1.34 compatible trace spans with W3C `traceparent` context propagation.
-
-```text
-[Upstream Sender] ──► (Capability Token + Typed Tensor) ──► [20_OPERATIONS_README]
-                                                               │
-                                  ┌────────────────────────────┴────────────────────────────┐
-                                  ▼                                                         ▼
-                      [State Mutation Delta]                                     [OpenTelemetry Trace]
-                                  │                                                         │
-                                  ▼                                                         ▼
-                    [03_CONTROL_PLANE Commit Gate]                             [17_OBSERVABILITY Stream]
+```
+Operations != Authority.
+Operations executes governed plans; it does not create or override authority.
 ```
 
----
+## Directory Structure
 
-## 3. Dependencies & Upstream/Downstream Subsystems
+```
+20_OPERATIONS/
+├── 00_INDEX/              ← Operations indices and navigation registries
+├── 01_RUNBOOKS/           ← Step-by-step operational runbooks
+├── 02_PLAYBOOKS/          ← Scenario-specific operational playbooks
+├── 03_PROCEDURES/         ← Standard operating procedures
+├── 04_HANDBOOKS/          ← Operational handbooks and reference guides
+├── 05_POLICIES/           ← Operational policies and rules
+├── 06_SCHEDULES/          ← Maintenance schedules and cadence definitions
+├── 07_MONITORING/         ← Operational monitoring configurations
+├── 08_INCIDENT_RESPONSE/  ← Incident response procedures and records
+├── 09_BACKUPS/            ← Backup policies, schedules, and records
+├── 10_MAINTENANCE/        ← Maintenance records and logs
+├── 20_OPERATIONS_MOC.md   ← Master map of content for the Operations plane
+├── 20_OPERATIONS_README.md ← This file
+└── AMOS_OS_AUDIT_2026-09-03.md ← Current structural audit ledger
+```
 
-- **Upstream Primitives**: [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|01_CORE_LAWS]], [[02_KERNEL/02_KERNEL_MOC|02_KERNEL]], [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE]].
-- **Downstream Consumers**: [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]], [[12_STATE/12_STATE_MOC|12_STATE]], [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY]].
-- **Peer Protocols**: [[09_PROTOCOLS/09_PROTOCOLS_MOC|09_PROTOCOLS]], [[16_SCHEMAS/16_SCHEMAS_MOC|16_SCHEMAS]].
+## Operations Domains
 
----
+- **Deployment:** Controlled rollout of new components, versions, and configurations
+- **Migration:** Data and schema transformations between versions with rollback capability
+- **Release:** Promotion of validated changes from staging to production with approval gates
+- **Backup/Restore:** Point-in-time recovery with integrity verification and provenance preservation
+- **Incident Handling:** Detection, triage, remediation, and post-incident review for runtime failures
+- **Maintenance:** Scheduled upkeep, patching, optimization, and health verification
+- **Rollback:** Reversion to prior known-good state with full provenance trail
+- **Deprecation:** Controlled sunset of components with migration path and archive
 
-## 4. Invariants & Epistemic Boundaries
+## Hard Boundaries
 
-$$\begin{aligned}
-\text{INV-01} &: \quad \forall s \in \mathcal{S}, \quad \text{Commit}(s) \implies \text{ValidateToken}(\tau_s) = \text{TRUE} \\
-\text{INV-02} &: \quad \nabla H(\text{EpistemicState}) \ge 0 \quad \text{(Second Law Entropy Non-Negativity)} \\
-\text{INV-03} &: \quad \text{Rollback}(\text{Delta}_k) \circ \text{Apply}(\text{Delta}_k) = \mathbb{I} \quad \text{(Reversible State Changes)}
-\end{aligned}$$
+- Operations != Authority — operations executes plans; it does not create or override governance
+- Operations != Runtime — operations manages lifecycle; runtime executes behavior
+- Operations != Monitoring — operations acts on signals; monitoring produces signals
+- Deployment != Release — deployment is technical; release is governed
 
-- `SOURCE_CLAIM != VERIFIED`: Claims entering this component remain provisional until multi-agent proof synthesis.
-- `UNKNOWN/GAP != PASS`: Any missing dependency closure triggers an immediate fail-closed state.
+## Key Protocols
 
----
+- **Change Control:** All operations require governed approval before execution
+- **Rollback Readiness:** Every operation must have a verified rollback path before execution
+- **Provenance Trail:** Every operation logged with timestamp, operator, target, and outcome
+- **Health Verification:** Post-operation health check required before declaring success
+- **Incident Escalation:** Unresolved incidents escalated through defined chain with SLA targets
 
-## 5. Authority & Governance Gates
+## Key Artifacts
 
-- **Control Plane Enforcement**: Operations touching global state must acquire epoch leases from `03_CONTROL_PLANE/04_AUTHORITY`.
-- **Zero Capability Leakage**: Worker nodes executing this specification cannot escalate permissions or bypass admission filters.
+- **Audit Ledger:** [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03|AMOS OS Audit 2026-09-03]] — current structural audit ledger
+- **Runbooks:** `01_RUNBOOKS/` — step-by-step operational procedures for common tasks
+- **Playbooks:** `02_PLAYBOOKS/` — scenario-specific response procedures
+- **Incident Response:** `08_INCIDENT_RESPONSE/` — incident handling procedures and records
+- **Backup Policies:** `09_BACKUPS/` — backup schedules, retention, and recovery procedures
 
----
+## Canonical Laws Governing
 
-## 6. Provenance & Cryptographic Audit Trail
+- **M07 (Canon ≠ Implementation):** Operations specifications are not runtime implementations
+- **CAPABILITY ≠ AUTHORITY:** Operations capability does not grant governance authority
+- **PROPOSAL != COMMIT:** Operational proposals are not commits without governance approval
+- **Archive-first for destructive cleanup:** Preserve rollback and provenance before destructive operations
 
-Every state mutation delta emitted by `20_OPERATIONS_README` is stamped with a cryptographic SHA-256 / BLAKE3 receipt:
+## Cross-Plane Relationships
 
-$$\mathcal{R}_{\text{receipt}} = \text{BLAKE3}\left( \text{ArtifactID} \parallel \text{Epoch} \parallel \text{StateHash}_{t-1} \parallel \text{PayloadHash} \right)$$
+- **Runtime:** [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]] — Operations manages Runtime lifecycle; Runtime produces operational signals
+- **Archive:** [[24_ARCHIVE/24_ARCHIVE_README|24_ARCHIVE_README]] — Operations archives deprecated components; Archive provides rollback sources
+- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_README|03_CONTROL_PLANE_README]] — Operations executes control plane decisions
+- **Observability:** [[17_OBSERVABILITY/17_OBSERVABILITY_README|17_OBSERVABILITY_README]] — Operations produces and consumes observability data
+- **Tests:** [[19_TESTS/19_TESTS_README|19_TESTS_README]] — Operations validates changes against test suites
+- **State:** [[12_STATE/12_STATE_README|12_STATE_README]] — Operations manages state lifecycle and snapshots
 
----
+## Entry Points
 
-## 7. Verification & Formal Test Harness
+- **Master MOC:** [[20_OPERATIONS/20_OPERATIONS_MOC|20_OPERATIONS_MOC]] · **Audit Ledger:** [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03|Audit 2026-09-03]]
 
-- **Formal Verification**: Lean 4 formal kernel lemmas proven in `02_KERNEL/LEAN4_PROOF_VERIFICATION_LEDGER.md`.
-- **Mathematical Convergence**: Verified against 137 Master Formulas in `22_RESEARCH/01_MATHEMATICS/AMOS_137_MATH_REGISTRY.md`.
-- **Automated Regression**: Validated via `python3 scripts/autonomous_regression_test_runner.py` (10/10 test suites passed).
+## Implementation Status
 
----
+- **Structural completeness:** 10 subdirectories covering runbooks through maintenance; audit ledger maintained
+- **Audit phases:** 22+ audit phases documented (Phase 1 through Phase 22+) with closure records
+- **Operational procedures:** Runbooks, playbooks, procedures, handbooks, and policies structurally present
+- **Executable closure:** UNKNOWN/GAP — operational specifications are structural patterns unless tied to executed operational pipeline evidence
 
-## 8. Failure Modes & Degradation Strategies
+## AMOS MECE Alignment
 
-| Failure Scenario | Trigger Condition | System Response |
-| :--- | :--- | :--- |
-| **Consensus Partition** | Quorum Loss ($N < 2f+1$) | Fail closed to read-only replica mode |
-| **Memory Pressure** | Heap Usage $> 85\%$ | Active shedding of non-critical telemetry queues |
-| **Epistemic Divergence** | Competing Entropy $> 0.15\text{ bits}$ | Route proposition to Adversarial Red-Team Agent |
+The Operations Plane is Plane 20 of 26. It is mutually exclusive from Runtime (which executes behavior) and Control Plane (which governs). It is collectively exhaustive with all other planes in covering the lifecycle-execution dimension. MECE boundary: it owns deployment, migration, release, backup, incident handling, maintenance, rollback, and deprecation, not runtime behavior, governance authority, or monitoring signal production.
 
----
+______________________________________________________________________
 
-## 9. Recovery & Rollback Protocols
-
-1. **State Snapshot Re-anchoring**: Restore state to the last verified checkpoint stored in `12_STATE/`.
-2. **MVCC Journal Replay**: Re-apply committed transactions from the causal write-ahead log.
-3. **Consensus Re-synchronization**: Re-join the distributed state machine replication quorum via Raft-CAS protocol.
-
----
-
-## 10. Master Navigation & Bindings
-
-- **Parent MOC:** [[20_OPERATIONS/20_OPERATIONS_MOC|20_OPERATIONS_MOC]]
-- **Full OS Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]
-- **Master Index:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+**Parent:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]

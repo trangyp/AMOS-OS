@@ -1,20 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: C03 EXECUTIVE CONTROL PLANES COGNITIVE MATRIX WORKFLOWS
-type: note
-source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C03_EXECUTIVE
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: C03 Executive Control Planes Cognitive Matrix Workflows
 tags:
-  - note
-  - c03-executive
-  - domain/cognitive-matrix
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # C03 — Workflows
@@ -44,7 +45,7 @@ UNKNOWN/GAP != PASS
 
 ______________________________________________________________________
 
-[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 
@@ -53,7 +54,7 @@ node_id: c03_planes_workflows
 node_type: note
 path: 03_CONTROL_PLANES/C03_EXECUTIVE/C03_EXECUTIVE_CONTROL_PLANES_COGNITIVE_MATRIX_WORKFLOWS.md
 claim_class: DERIVED
-node_path_note: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C03_EXECUTIVE/C03_EXECUTIVE_CONTROL_PLANES_COGNITIVE_MATRIX_WORKFLOWS.md
+node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C03_EXECUTIVE/C03_EXECUTIVE_CONTROL_PLANES_COGNITIVE_MATRIX_WORKFLOWS.md
 
 ______________________________________________________________________
 

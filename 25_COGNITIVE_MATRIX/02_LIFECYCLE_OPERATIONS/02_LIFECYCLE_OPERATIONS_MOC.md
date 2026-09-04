@@ -1,16 +1,21 @@
 ---
-title: 02 Lifecycle Operations MOC
-type: moc
-source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 02 Lifecycle Operations Moc
 tags:
-  - 02-lifecycle-operations
-  - domain/cognitive-matrix
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 02 Lifecycle Operations — Map of Content
@@ -18,55 +23,10 @@ rscf:
 **Path:** `25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS`
 **Files:** 2 | **Subdirectories:** 18
 
-## Purpose
-
-This MOC indexes the Lifecycle Operations layer of the Cognitive Matrix —
-the seventeen-stage cognitive operation pipeline (O00–O16) that defines
-how the AMOS brain perceives, models, reasons, decides, acts, and learns.
-Each subdirectory corresponds to a discrete cognitive operation in the
-lifecycle, from initial distinction through learning feedback. The
-contract and README bind these operations into a coherent, ordered
-pipeline with explicit interfaces between stages.
-
-## MECE Domain
-
-**C — Cognitive Capability / Lifecycle Operations.**
-
-In the MECE architecture the cognitive matrix owns the representation,
-cognition, and coordination slice of the AMOS Brain. This MOC occupies
-the **lifecycle-operations** sub-slice: the ordered sequence of cognitive
-operations that transform raw distinction into learned knowledge. It is
-distinct from capability domains (which define what can be reasoned
-about) and from control-plane operations (which govern authority and
-commit). The O00–O16 sequence provides a MECE partition of the cognitive
-lifecycle — each operation has a unique functional role with no overlap.
-
 ## Files
 
-- [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/COGNITIVE_MATRIX_LIFECYCLE_OPERATIONS_CONTRACT|COGNITIVE_MATRIX_LIFECYCLE_OPERATIONS_CONTRACT]] — contract binding the lifecycle operations pipeline
-- [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_README|LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_README]] — README for the lifecycle operations subdomain
-
-## Lifecycle Operation Descriptions
-
-The seventeen subdirectories (O00–O16) form the cognitive lifecycle:
-
-- **O00 Distinction** — initial boundary-drawing between signal and noise
-- **O01 Object** — formation of discrete cognitive objects from distinctions
-- **O02 Relation** — identification of relationships between objects
-- **O03 Binding** — binding of relations into stable structures
-- **O04 State** — tracking state transitions of bound structures
-- **O05 Memory** — admission and retention of state history
-- **O06 Model** — construction of internal models from memory
-- **O07 Inference** — derivation of new claims from models
-- **O08 Prediction** — generation of forward-looking predictions
-- **O09 Simulation** — simulation of predicted scenarios
-- **O10 Value** — assignment of value to simulated outcomes
-- **O11 Goal** — selection of goals from valued outcomes
-- **O12 Plan** — construction of plans to achieve goals
-- **O13 Decision** — commitment to a specific plan
-- **O14 Action** — execution of the decided plan
-- **O15 Observation** — observation of action outcomes
-- **O16 Learning** — integration of observations into updated models
+- [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/COGNITIVE_MATRIX_LIFECYCLE_OPERATIONS_CONTRACT|COGNITIVE_MATRIX_LIFECYCLE_OPERATIONS_CONTRACT]]
+- [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_README|LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_README]]
 
 ## Subdirectories
 
@@ -88,22 +48,6 @@ The seventeen subdirectories (O00–O16) form the cognitive lifecycle:
 - [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O14_ACTION/O14_ACTION_MOC|O14_ACTION_MOC]] — O14_ACTION
 - [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O15_OBSERVATION/O15_OBSERVATION_MOC|O15_OBSERVATION_MOC]] — O15_OBSERVATION
 - [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O16_LEARNING/O16_LEARNING_MOC|O16_LEARNING_MOC]] — O16_LEARNING
-
-## Relationships
-
-- **Parent matrix:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
-- **Lifecycle contract:** [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/COGNITIVE_MATRIX_LIFECYCLE_OPERATIONS_CONTRACT|COGNITIVE_MATRIX_LIFECYCLE_OPERATIONS_CONTRACT]]
-- **Cognitive organism:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
-- **Root navigation:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
-
-## Epistemic Boundary
-
-Lifecycle operation artifacts are **DERIVED** models from the AMOS
-corpus. The O00–O16 pipeline specifies how cognitive operations are
-sequenced; it does not prove that the pipeline has been executed in a
-deployed runtime. `SPECIFIED != EXECUTED`; `MODELED != DEPLOYED`. Each
-operation remains a model until implementation evidence is independently
-established for the exact scope and version.
 
 ______________________________________________________________________
 

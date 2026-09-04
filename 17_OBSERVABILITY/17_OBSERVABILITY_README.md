@@ -1,143 +1,114 @@
 ---
-title: 17 Observability Readme — Comprehensive Architectural Specification
-type: architectural_specification
+title: "17 Observability — README"
+type: readme
 source: 17_OBSERVABILITY
-aliases:
-  - 17_OBSERVABILITY_README
-  - 17 Observability Readme
-amos_core_target: v4.4
-artifact_id: AMOS-17_OBSERVABILITY_README
-conclusion_class: DERIVED
-epistemic_class: AMOS_MODEL
-created: 2026-09-04
 origin_architect: Trang Phan
 steward: Trang Phan
-status: ACTIVE_SPECIFICATION
+amos_core_target: v4.4
+status: ACTIVE
 rscf:
   state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 17_OBSERVABILITY/00_INDEX/17_OBSERVABILITY_MAP
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-  scope: active__AMOS_OS
-tags:
-  - amos
-  - amos-os
-  - 17_observability
-  - architecture
-  - mece-contract
-  - formal-specification
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: observability_readme
 ---
 
-# 17 Observability Readme — Comprehensive Architectural Specification
+# 17 Observability — README
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Epistemic Class:** `AMOS_MODEL`
-> **Status:** `ACTIVE_SPECIFICATION`
-> **Governing Plane:** `17_OBSERVABILITY`
+## Role
 
----
+Observability provides evidence of runtime behavior — logs, traces, metrics, health, events, audit records, failure diagnostics, and provenance diagnostics. Observability is the "eyes" of AMOS: it does not act, it only sees and reports.
 
-## 1. Role & Architectural Purpose
+## Core Principle
 
-`17_OBSERVABILITY_README` defines the formal execution boundary, state invariants, communication contracts, and epistemic constraints within the `17_OBSERVABILITY` plane of the **AMOS Full Brain OS Architecture**.
-
-It ensures:
-1. **Deterministic Execution**: All computational steps are fully deterministic, repeatable, and traceable.
-2. **Epistemic Integrity**: Enforces the non-negotiable boundaries `CAPABILITY != AUTHORITY`, `DOCUMENTED != IMPLEMENTED`, and `MODEL != OBSERVATION`.
-3. **Modular Composability**: Implements strict input/output tensor schemas facilitating zero-copy Arrow IPC communication across multi-agent swarms.
-
----
-
-## 2. Interfaces & Protocol Boundaries
-
-### Input Channel Specification
-- **Message Framing**: Apache Arrow Flight / Protocol Buffers v3 with BLAKE3 cryptographic hash envelopes.
-- **Payload Schema**: Strict typing enforcing `ClaimTensor`, `EvidenceTensor`, or `TelemetryEnvelope` signatures.
-- **Authentication**: Monotonically increasing epoch counter signed by Control Plane capability tokens.
-
-### Output Channel Specification
-- **State Mutation Descriptors**: Transactional change-sets containing forward-apply and reverse-rollback deltas.
-- **Telemetry Egress**: OpenTelemetry v1.34 compatible trace spans with W3C `traceparent` context propagation.
-
-```text
-[Upstream Sender] ──► (Capability Token + Typed Tensor) ──► [17_OBSERVABILITY_README]
-                                                               │
-                                  ┌────────────────────────────┴────────────────────────────┐
-                                  ▼                                                         ▼
-                      [State Mutation Delta]                                     [OpenTelemetry Trace]
-                                  │                                                         │
-                                  ▼                                                         ▼
-                    [03_CONTROL_PLANE Commit Gate]                             [17_OBSERVABILITY Stream]
+```
+Observation != Correctness.
+Observed behavior is evidence, not proof.
+Observability data is never treated as authority for governance decisions.
 ```
 
----
+## Directory Structure
 
-## 3. Dependencies & Upstream/Downstream Subsystems
+```
+17_OBSERVABILITY/
+├── 00_INDEX/              ← Observability indices and navigation registries
+├── 17_OBSERVABILITY_MOC.md  ← Master map of content for the Observability plane
+├── 17_OBSERVABILITY_README.md ← This file
+├── OBSERVABILITY_OBSERVABILITY_CONTRACT.md ← Invariant governance contract
+├── DISTRIBUTED_EPISTEMIC_TRACING_FRAMEWORK.md ← Distributed tracing framework
+├── DOM_STREAMING_TELEMETRY_LEDGER.md ← DOM streaming telemetry ledger
+├── EBPF_KERNEL_TELEMETRY_LEDGER.md ← eBPF kernel telemetry ledger
+├── EXECUTED_VALIDATION_LEDGER_2026-09-03.md ← Executed validation ledger
+├── PROVENANCE_TRUST_FIREWALL.md ← Provenance trust firewall
+└── REALTIME_ORDERBOOK_DOM_STREAMING_VISUALIZER.md ← Real-time visualizer
+```
 
-- **Upstream Primitives**: [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|01_CORE_LAWS]], [[02_KERNEL/02_KERNEL_MOC|02_KERNEL]], [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE]].
-- **Downstream Consumers**: [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]], [[12_STATE/12_STATE_MOC|12_STATE]], [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY]].
-- **Peer Protocols**: [[09_PROTOCOLS/09_PROTOCOLS_MOC|09_PROTOCOLS]], [[16_SCHEMAS/16_SCHEMAS_MOC|16_SCHEMAS]].
+## Observability Categories
 
----
+- **Logs:** Structured event records with timestamp, source, level, and context
+- **Traces:** Distributed request paths showing component interactions and timing
+- **Metrics:** Quantitative measurements of system behavior (latency, throughput, error rate, resource usage)
+- **Health:** Component status indicators (healthy, degraded, failed, unknown)
+- **Events:** Significant state changes (deployment, rollback, incident, recovery)
+- **Audit Records:** Governance-relevant actions with actor, target, and outcome
+- **Failure Diagnostics:** Root cause analysis, error chains, and recovery recommendation
+- **Provenance Diagnostics:** Source tracking, claim lineage, and authority verification
 
-## 4. Invariants & Epistemic Boundaries
+## Hard Boundaries
 
-$$\begin{aligned}
-\text{INV-01} &: \quad \forall s \in \mathcal{S}, \quad \text{Commit}(s) \implies \text{ValidateToken}(\tau_s) = \text{TRUE} \\
-\text{INV-02} &: \quad \nabla H(\text{EpistemicState}) \ge 0 \quad \text{(Second Law Entropy Non-Negativity)} \\
-\text{INV-03} &: \quad \text{Rollback}(\text{Delta}_k) \circ \text{Apply}(\text{Delta}_k) = \mathbb{I} \quad \text{(Reversible State Changes)}
-\end{aligned}$$
+- **Observed != Correct** — observed behavior is evidence, not proof
+- **Metric != Truth** — metrics are measurements; measurements have accuracy and precision limits
+- **Alert != Action** — alerts signal potential issues; action requires human or governed judgment
+- **Observability != Control** — observability sees; control acts
 
-- `SOURCE_CLAIM != VERIFIED`: Claims entering this component remain provisional until multi-agent proof synthesis.
-- `UNKNOWN/GAP != PASS`: Any missing dependency closure triggers an immediate fail-closed state.
+## Key Protocols
 
----
+- **Structured Logging:** All logs follow schema with required fields (timestamp, source, level, message)
+- **Trace Propagation:** Request context propagated across component boundaries for end-to-end visibility
+- **Metric Aggregation:** Raw metrics aggregated into meaningful signals (percentiles, rates, trends)
+- **Health Checks:** Regular liveness and readiness checks with defined failure thresholds
+- **Alert Routing:** Alerts routed to appropriate handlers based on severity and domain
+- **Retention Policy:** Observability data retained per governance requirements; expired data archived
 
-## 5. Authority & Governance Gates
+## Key Artifacts
 
-- **Control Plane Enforcement**: Operations touching global state must acquire epoch leases from `03_CONTROL_PLANE/04_AUTHORITY`.
-- **Zero Capability Leakage**: Worker nodes executing this specification cannot escalate permissions or bypass admission filters.
+- **Observability Contract:** [[17_OBSERVABILITY/OBSERVABILITY_OBSERVABILITY_CONTRACT|OBSERVABILITY_OBSERVABILITY_CONTRACT]] — invariant governance
+- **Epistemic Tracing:** [[17_OBSERVABILITY/DISTRIBUTED_EPISTEMIC_TRACING_FRAMEWORK|Distributed Epistemic Tracing]] — distributed tracing framework
+- **eBPF Telemetry:** [[17_OBSERVABILITY/EBPF_KERNEL_TELEMETRY_LEDGER|eBPF Telemetry Ledger]] — kernel-level telemetry
+- **Provenance Trust Firewall:** [[17_OBSERVABILITY/PROVENANCE_TRUST_FIREWALL|Provenance Trust Firewall]] — provenance integrity firewall
+- **Validation Ledger:** [[17_OBSERVABILITY/EXECUTED_VALIDATION_LEDGER_2026-09-03|Validation Ledger]] — executed validation records
 
----
+## Canonical Laws Governing
 
-## 6. Provenance & Cryptographic Audit Trail
+- **M07 (Canon ≠ Implementation):** Observability specifications are not runtime implementations
+- **Observation != Correctness:** Observed behavior is evidence, not proof of correctness
+- **CAPABILITY ≠ AUTHORITY:** Observability capability does not grant governance authority
+- **TEST_SPECIFIED != TEST_EXECUTED:** Test specifications are not executed tests without evidence
 
-Every state mutation delta emitted by `17_OBSERVABILITY_README` is stamped with a cryptographic SHA-256 / BLAKE3 receipt:
+## Cross-Plane Relationships
 
-$$\mathcal{R}_{\text{receipt}} = \text{BLAKE3}\left( \text{ArtifactID} \parallel \text{Epoch} \parallel \text{StateHash}_{t-1} \parallel \text{PayloadHash} \right)$$
+- **Runtime:** [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]] — Runtime produces observability data; observability monitors runtime health
+- **Security:** [[18_SECURITY/18_SECURITY_README|18_SECURITY_README]] — Observability monitors security events; security governs observability access
+- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_README|03_CONTROL_PLANE_README]] — Observability informs control plane decisions; control plane defines observability policies
+- **Operations:** [[20_OPERATIONS/20_OPERATIONS_README|20_OPERATIONS_README]] — Operations responds to observability signals; operations produces operational observability
+- **Tests:** [[19_TESTS/19_TESTS_README|19_TESTS_README]] — Test results are observability data; observability validates test outcomes
+- **Schemas:** [[16_SCHEMAS/16_SCHEMAS_README|16_SCHEMAS_README]] — Schemas validate observability data structure
 
----
+## Entry Points
 
-## 7. Verification & Formal Test Harness
+- **Master MOC:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]] · **Contract:** [[17_OBSERVABILITY/OBSERVABILITY_OBSERVABILITY_CONTRACT|Contract]]
 
-- **Formal Verification**: Lean 4 formal kernel lemmas proven in `02_KERNEL/LEAN4_PROOF_VERIFICATION_LEDGER.md`.
-- **Mathematical Convergence**: Verified against 137 Master Formulas in `22_RESEARCH/01_MATHEMATICS/AMOS_137_MATH_REGISTRY.md`.
-- **Automated Regression**: Validated via `python3 scripts/autonomous_regression_test_runner.py` (10/10 test suites passed).
+## Implementation Status
 
----
+- **Structural completeness:** Observability contract, tracing framework, telemetry ledgers present
+- **eBPF telemetry:** Kernel-level telemetry ledger specified; DOM streaming telemetry ledger maintained
+- **Provenance trust:** Provenance trust firewall specified for source integrity verification
+- **Executable closure:** UNKNOWN/GAP — observability specifications are structural patterns unless tied to executed monitoring pipeline evidence
 
-## 8. Failure Modes & Degradation Strategies
+## AMOS MECE Alignment
 
-| Failure Scenario | Trigger Condition | System Response |
-| :--- | :--- | :--- |
-| **Consensus Partition** | Quorum Loss ($N < 2f+1$) | Fail closed to read-only replica mode |
-| **Memory Pressure** | Heap Usage $> 85\%$ | Active shedding of non-critical telemetry queues |
-| **Epistemic Divergence** | Competing Entropy $> 0.15\text{ bits}$ | Route proposition to Adversarial Red-Team Agent |
+The Observability Plane is Plane 17 of 26. It is mutually exclusive from Control (which acts) and Tests (which validate). It is collectively exhaustive with all other planes in covering the evidence-of-behavior dimension. MECE boundary: it owns observation and reporting of runtime behavior, not control actions, governance authority, or test validation.
 
----
+______________________________________________________________________
 
-## 9. Recovery & Rollback Protocols
-
-1. **State Snapshot Re-anchoring**: Restore state to the last verified checkpoint stored in `12_STATE/`.
-2. **MVCC Journal Replay**: Re-apply committed transactions from the causal write-ahead log.
-3. **Consensus Re-synchronization**: Re-join the distributed state machine replication quorum via Raft-CAS protocol.
-
----
-
-## 10. Master Navigation & Bindings
-
-- **Parent MOC:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]
-- **Full OS Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]
-- **Master Index:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+**Parent:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
