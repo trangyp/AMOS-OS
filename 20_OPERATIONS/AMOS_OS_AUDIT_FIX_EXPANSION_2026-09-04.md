@@ -41,14 +41,15 @@ tags:
 
 | Metric | Before | After | Delta |
 |--------|--------|-------|-------|
-| Total Markdown Files | 7,473 | 7,489+ | +16 |
+| Total Markdown Files | 7,473 | 7,501+ | +28 |
 | Broken Wikilinks (canonical) | 62 | 5 | -57 |
 | Frontmatter Errors | 2 | 0 | -2 |
 | Thin Files (<30 lines) | 3 | 0 | -3 |
-| SOTA Papers | 38 | 45+ | +7 |
-| ArXiv Bridges | 0 | 23 | +23 |
-| Stub MOCs Expanded | 0 | 3+ | 3+ |
+| SOTA Papers | 38 | 52 | +14 |
+| ArXiv Bridges | 0 | 48 | +48 |
+| Stub MOCs Expanded | 0 | 6+ | 6+ |
 | Placeholder Files Expanded | 0 | 5+ | 5+ |
+| MOC/README Files Expanded | 0 | 6 | +6 |
 
 ---
 
