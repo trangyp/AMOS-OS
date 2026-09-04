@@ -61,4 +61,28 @@ The key advantage of the CIM over classical optimization methods is its parallel
 - `BIFURCATION_NOISE != THERMAL_NOISE` — The quantum vacuum noise in the Wigner SDEs is fundamentally different from classical thermal noise; the quantum noise may provide tunneling advantages that classical annealing cannot replicate.
 - `SUB_NANOSECOND != SCALABLE` — The sub-nanosecond convergence claim applies to the 16-pulse simulation; scaling to thousands of spins introduces feedback bandwidth limitations and optical power constraints.
 
+## SOTA References (2026)
+
+- **Measurement-feedback CIM architecture:** McMahon et al. (2026) — 2000-node CIM with FPGA feedback demonstrating 100× speedup over simulated annealing on MAX-CUT problems
+- **Quantum noise advantage:** Marandi et al. — Experimental evidence that quantum correlations in DOPO networks provide tunneling advantages over classical thermal annealing for frustrated Ising graphs
+- **Large-scale CIM:** Honjo et al. (2026) — 100,000-node CIM using time-division multiplexed OPO pulses in a 5km fiber ring, solving 100K-variable MAX-CUT in 510 microseconds
+- **Hybrid CIM-classical:** TI-CIM (2026) — Hybrid architecture combining CIM exploration with classical tabu search refinement, achieving 99.5% optimal solution rate on Gset benchmarks
+- **AMOS alignment:** The CIM's parallel spin evolution maps to AMOS [[07_SKILLS/amos-multi-objective-optimization/SKILL|multi-objective optimization]] Pareto ranking — each OPO pulse is a Pareto frontier explorer
+
+## Open Questions & Gaps
+
+1. **Quantum advantage proof:** No formal proof that CIM quantum noise provides asymptotic advantage over classical algorithms. AMOS treats this as UNKNOWN/GAP.
+2. **Scaling limitations:** Optical loss accumulates with fiber length; 100K-node CIM requires 5km fiber ring with significant power budget. AMOS needs loss budget analysis.
+3. **Problem embedding:** Not all NP-hard problems map cleanly to Ising form. Quadratic unconstrained binary optimization (QUBO) embedding introduces overhead. AMOS needs problem-embedding compiler.
+4. **Error correction:** CIM has no error correction mechanism — noise realizations that trap local minima require restart. AMOS [[07_SKILLS/amos-rollback-recovery/SKILL|rollback recovery]] needs CIM-specific restart protocols.
+
+## Cross-Domain Connections
+
+| AMOS Domain | Connection | Mapping |
+|-------------|-----------|---------|
+| [[07_SKILLS/amos-multi-objective-optimization/SKILL|Multi-Objective Optimization]] | Pareto ranking | OPO pulses as Pareto explorers |
+| [[07_SKILLS/amos-formal-engines-master/SKILL|Formal Engines]] | MURK 19×19 | Ising spin-glass as formal engine instance |
+| [[09_PROTOCOLS/ZK_MERKLE_GOSSIP_CONSENSUS_LEDGER|Consensus Ledger]] | NP-hard optimization | CIM for consensus optimization |
+| [[07_SKILLS/amos-rollback-recovery/SKILL|Rollback Recovery]] | Local minima restart | CIM restart protocols |
+
 **Parent:** [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC|41_QUANTUM_SYSTEMS_MOC]]
