@@ -41,18 +41,19 @@ tags:
 
 | Metric | Before | After | Delta |
 |--------|--------|-------|-------|
-| Total Markdown Files | 7,473 | 7,520+ | +47 |
+| Total Markdown Files | 7,473 | 7,530+ | +57 |
 | Broken Wikilinks (canonical) | 62 | 5 | -57 |
 | Frontmatter Errors | 2 | 0 | -2 |
 | Thin Files (<30 lines) | 3 | 0 | -3 |
-| SOTA Papers | 38 | 60 | +22 |
-| ArXiv Bridges | 0 | 83 | +83 |
-| ArXiv Bridge Files | 0 | 6 | +6 |
+| SOTA Papers | 38 | 81 | +43 |
+| ArXiv Bridges | 0 | 95 | +95 |
+| ArXiv Bridge Files | 0 | 7 | +7 |
+| ArXiv Bridge Total Lines | 0 | 1,873 | +1,873 |
 | Stub MOCs Expanded | 0 | 6+ | 6+ |
 | Placeholder Files Expanded | 0 | 5+ | 5+ |
-| MOC/README Files Expanded | 0 | 20+ | 20+ |
+| MOC/README Files Expanded | 0 | 25+ | 25+ |
 | Content Duplication Fixes | 0 | 81 | +81 |
-| Commits Pushed | 0 | 10 | +10 |
+| Commits Pushed | 0 | 15 | +15 |
 
 ---
 
@@ -60,7 +61,7 @@ tags:
 
 ### 2.1 Malformed Wikilink Fix (29 files)
 
-**Problem:** 29 canonical vault files contained `\|` (backslash before pipe) in wikilinks, causing the link target to include the backslash and fail resolution. Example: `[[02_KERNEL/02_KERNEL_MOC\|02_KERNEL]]` was parsed as target `02_KERNEL/02_KERNEL_MOC\` which doesn't match any file.
+**Problem:** 29 canonical vault files contained `\|` (backslash before pipe) in wikilinks, causing the link target to include the backslash and fail resolution. Example: `[[02_KERNEL/02_KERNEL_MOC|02_KERNEL]]` was parsed as target `02_KERNEL/02_KERNEL_MOC\` which doesn't match any file.
 
 **Fix:** Removed the backslash before the pipe separator in all 29 files using `sed -i '' 's/\[\[\([^]]*\)\\|\([^]]*\)\]\]/[[\1|\2]]/g'`
 
@@ -109,8 +110,8 @@ tags:
 
 | File | Broken Link | Fix |
 |------|-------------|-----|
-| `22_RESEARCH/BCI_AI_QUANTUM_SOTA_2026-09-04.md` | `[[07_SKILLS/amos-c03-physics-cosmos-master]]` (directory, not .md) | Changed to `[[07_SKILLS/amos-c03-physics-cosmos-master/amos-c03-physics-cosmos-master_MOC\|C03 Master Skill]]` |
-| `02_KERNEL/K_GOVERNANCE.md` | `[[05_GOVERNANCE/05_GOVERNANCE_MOC]]` (non-existent directory) | Changed to `[[02_KERNEL/07_AUTHORITY/07_AUTHORITY_MOC\|07_AUTHORITY_MOC]]` |
+| `22_RESEARCH/BCI_AI_QUANTUM_SOTA_2026-09-04.md` | `[[07_SKILLS/amos-c03-physics-cosmos-master/SKILL|amos-c03-physics-cosmos-master]]` (directory, not .md) | Changed to `[[07_SKILLS/amos-c03-physics-cosmos-master/amos-c03-physics-cosmos-master_MOC|C03 Master Skill]]` |
+| `02_KERNEL/K_GOVERNANCE.md` | `[[05_GOVERNANCE/05_GOVERNANCE_MOC]]` (non-existent directory) | Changed to `[[02_KERNEL/07_AUTHORITY/07_AUTHORITY_MOC|07_AUTHORITY_MOC]]` |
 | `docs/brain/brain_MOC.md` | `[[docs/docs_MOC]]` (non-existent file) | Removed broken link |
 
 ### 2.4 Remaining Broken Wikilinks (30, all non-canonical)
