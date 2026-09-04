@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-037 — Zero Unchecked Autonomous Action"
+title: INV-AUTHZ-037 — Zero Unchecked Autonomous Action
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan
@@ -27,7 +27,7 @@ tags:
 
 ## 1. Formal Specification
 
-> **Invariant Statement:**  
+> **Invariant Statement:**
 > `High-stakes operations (Tier 4) require human-in-the-loop review.`
 
 ## 2. Invariant Rule & Mathematical Formulation

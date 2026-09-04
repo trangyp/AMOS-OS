@@ -1,5 +1,5 @@
 ---
-title: "AMOS Environment Engine — Sensory Ingestion, Ambient Telemetry & Spatial Topology Architecture"
+title: AMOS Environment Engine — Sensory Ingestion, Ambient Telemetry & Spatial Topology Architecture
 created: '2026-08-22'
 origin_architect: Trang Phan
 steward: Trang Phan
@@ -29,10 +29,10 @@ tags:
 
 # AMOS Environment Engine — Sensory Ingestion, Ambient Telemetry & Spatial Topology Architecture
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Epistemic Class:** `AMOS_MODEL`  
-> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Epistemic Class:** `AMOS_MODEL`
+> **Conclusion Class:** `DERIVED` (RSCF Validated)
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -96,4 +96,3 @@ Maintains an active directed Riemannian manifold representing agent reachability
 - **Interface Protocol:** [[15_INTERFACES/INTERFACES_INTERFACE_CONTRACT|15_INTERFACES]]
 - **State Bus:** [[12_STATE/HIGH_THROUGHPUT_ARROW_IPC_ZERO_COPY_STATE_BUS|12_STATE]]
 - **Master Engine MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
-

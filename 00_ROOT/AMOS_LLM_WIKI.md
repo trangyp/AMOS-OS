@@ -2392,6 +2392,3 @@ Source-declared:
 ______________________________________________________________________
 
 **MOC:** [[11_KNOWLEDGE/LLM_WIKI/LLM_WIKI_MOC|LLM_WIKI_MOC]]
-
-```
-```

@@ -1,5 +1,5 @@
 ---
-title: "UIE Interaction Engine — Universal Interaction Engine"
+title: UIE Interaction Engine — Universal Interaction Engine
 type: specification
 source: 01_CANON
 origin_architect: Trang Phan
@@ -29,10 +29,10 @@ tags:
 
 # UIE Interaction Engine — Universal Interaction Engine
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
-> **Status:** `PROPOSED_SPECIFICATION`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
+> **Status:** `PROPOSED_SPECIFICATION`
 > **Canonical Status:** `CONDITIONAL`
 
 > **Epistemic Boundary:** UIE is an `AMOS_MODEL` interaction specification. The 7 state layers, 9-step pipeline, 10 goals, and 8 strategy profiles are framework-derived structural contracts. They do not claim psychological or sociological empirical validity.

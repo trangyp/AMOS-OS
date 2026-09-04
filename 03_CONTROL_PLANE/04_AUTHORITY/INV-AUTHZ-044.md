@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-044 — Merkle Tree Proof Verification"
+title: INV-AUTHZ-044 — Merkle Tree Proof Verification
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan
@@ -27,7 +27,7 @@ tags:
 
 ## 1. Formal Specification
 
-> **Invariant Statement:**  
+> **Invariant Statement:**
 > `State root digests must be cryptographically verifiable via logarithmic Merkle paths.`
 
 ## 2. Invariant Rule & Mathematical Formulation

@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-031 — Schema Validation Gating"
+title: INV-AUTHZ-031 — Schema Validation Gating
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan
@@ -27,7 +27,7 @@ tags:
 
 ## 1. Formal Specification
 
-> **Invariant Statement:**  
+> **Invariant Statement:**
 > `Malformed data violating 16_SCHEMAS is rejected at the interface barrier before kernel ingestion.`
 
 ## 2. Invariant Rule & Mathematical Formulation

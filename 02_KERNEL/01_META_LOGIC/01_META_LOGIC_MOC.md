@@ -1505,5 +1505,3 @@ RSCF-RELATIONS:
 ```
 
 The main correction is the `00_INDEX` classification: the supplied link points to `01_CANON/00_INDEX`, so it should be treated as a **cross-plane reference**, not as a verified subdirectory of `02_KERNEL/01_META_LOGIC`. The current Drive search also did not establish the declared 13 kernel files, so the file list is preserved as corpus-supported rather than silently upgraded to a verified live inventory.
-```
-```

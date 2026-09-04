@@ -1,5 +1,5 @@
 ---
-title: "Domains Forex Contract — Quantitative Risk & Execution Governance"
+title: Domains Forex Contract — Quantitative Risk & Execution Governance
 type: control_contract
 source: 21_DOMAINS/03_FOREX
 origin_architect: Trang Phan
@@ -27,9 +27,9 @@ tags:
 
 # Domains Forex Contract — Quantitative Risk & Execution Governance
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Epistemic Class:** `AMOS_MODEL`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Epistemic Class:** `AMOS_MODEL`
 > **Status:** `ACTIVE_GOVERNING_CONTRACT`
 
 ---

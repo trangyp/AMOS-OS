@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-045 — Statutory Jurisdiction Alignment"
+title: INV-AUTHZ-045 — Statutory Jurisdiction Alignment
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan
@@ -27,7 +27,7 @@ tags:
 
 ## 1. Formal Specification
 
-> **Invariant Statement:**  
+> **Invariant Statement:**
 > `Domain operations must declare applicable jurisdiction (e.g. AU, SG, VN, US).`
 
 ## 2. Invariant Rule & Mathematical Formulation

@@ -1,5 +1,5 @@
 ---
-title: "Research Experiments Contract — Empirical Protocol & Statistical Rigor Specification"
+title: Research Experiments Contract — Empirical Protocol & Statistical Rigor Specification
 type: subplane_contract
 plane: 22_RESEARCH
 subplane: 02_EXPERIMENTS
@@ -28,10 +28,10 @@ tags:
 
 # Research Experiments Contract — Empirical Protocol & Statistical Rigor Specification
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Domain Alignment:** Domain F (Assurance, Learning & Lifecycle Evidence)  
-> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Domain Alignment:** Domain F (Assurance, Learning & Lifecycle Evidence)
+> **Conclusion Class:** `DERIVED` (RSCF Validated)
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -105,4 +105,3 @@ $$BF_{10} = \frac{P(\mathcal{D} \mid \mathcal{H}_1)}{P(\mathcal{D} \mid \mathcal
 - **Validation Engine:** [[22_RESEARCH/04_VALIDATION/RESEARCH_VALIDATION_CONTRACT|RESEARCH_VALIDATION_CONTRACT]]
 - **Test Invariants:** [[19_TESTS/TESTS_TEST_CONTRACT|19_TESTS]]
 - **Observability Tracing:** [[17_OBSERVABILITY/OBSERVABILITY_OBSERVABILITY_CONTRACT|17_OBSERVABILITY]]
-

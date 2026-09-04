@@ -1,5 +1,5 @@
 ---
-title: "Research Papers Ingestion & Peer Review Contract"
+title: Research Papers Ingestion & Peer Review Contract
 type: control_contract
 source: 22_RESEARCH/01_PAPERS
 origin_architect: Trang Phan
@@ -25,8 +25,8 @@ tags:
 
 # Research Papers Ingestion & Peer Review Contract
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
 > **Status:** `ACTIVE_GOVERNING_CONTRACT`
 
 ---

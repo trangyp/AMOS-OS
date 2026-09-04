@@ -1,5 +1,5 @@
 ---
-title: "Variable Registry Canon Variable Registry Contract — Plane Governance Specification"
+title: Variable Registry Canon Variable Registry Contract — Plane Governance Specification
 type: specification
 source: 01_CANON
 origin_architect: Trang Phan
@@ -24,9 +24,9 @@ tags:
 
 # Variable Registry Canon Variable Registry Contract — Plane Governance Specification
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---

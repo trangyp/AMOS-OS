@@ -1,5 +1,5 @@
 ---
-title: "Runtime Runtime Contract — Master Execution Core & Virtualized Infrastructure Governance"
+title: Runtime Runtime Contract — Master Execution Core & Virtualized Infrastructure Governance
 type: plane_contract
 plane: 04_RUNTIME
 domain: B_EXECUTION_CORE_EFFECTS
@@ -29,10 +29,10 @@ tags:
 
 # Runtime Runtime Contract — Master Execution Core & Virtualized Infrastructure Governance
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Domain Alignment:** Domain B (Execution Core & Effect Governance)  
-> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Domain Alignment:** Domain B (Execution Core & Effect Governance)
+> **Conclusion Class:** `DERIVED` (RSCF Validated)
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -104,4 +104,3 @@ $$\text{CAS Conflict} \implies \text{Rollback to } S_0 \text{ and Replay with Ex
 - **MVCC Architecture:** [[04_RUNTIME/CAUSAL_CONCURRENCY_MVCC|CAUSAL_CONCURRENCY_MVCC]]
 - **Tool Sandboxing:** [[14_TOOLS/TOOLS_TOOL_CONTRACT|14_TOOLS]]
 - **State Storage:** [[12_STATE/STATE_STATE_CONTRACT|12_STATE]]
-

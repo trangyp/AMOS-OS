@@ -1,5 +1,5 @@
 ---
-title: "Cognitive Matrix Primitives Contract — 19x19 Coordinate Geometry & Cell Manifold Specification"
+title: Cognitive Matrix Primitives Contract — 19x19 Coordinate Geometry & Cell Manifold Specification
 type: subplane_contract
 plane: 25_COGNITIVE_MATRIX
 subplane: 01_PRIMITIVES
@@ -28,10 +28,10 @@ tags:
 
 # Cognitive Matrix Primitives Contract — 19x19 Coordinate Geometry & Cell Manifold Specification
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Domain Alignment:** Domain C (Cognitive Capability / Orchestration)  
-> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Domain Alignment:** Domain C (Cognitive Capability / Orchestration)
+> **Conclusion Class:** `DERIVED` (RSCF Validated)
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -103,4 +103,3 @@ Where:
 - **Holographic Routing:** [[25_COGNITIVE_MATRIX/HOLOGRAPHIC_TENSOR_NETWORK_ROUTING|HOLOGRAPHIC_TENSOR_NETWORK_ROUTING]]
 - **Reality x RSCF Matrix:** [[25_COGNITIVE_MATRIX/REALITY_X_RSCF_MATRIX|REALITY_X_RSCF_MATRIX]]
 - **Agent Orchestration:** [[06_AGENTS/AGENTS_AGENT_CONTRACT|06_AGENTS]]
-

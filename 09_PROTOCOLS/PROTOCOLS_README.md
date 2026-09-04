@@ -1,5 +1,5 @@
 ---
-title: "09_PROTOCOLS — Inter-Agent & System Interaction Architecture"
+title: 09_PROTOCOLS — Inter-Agent & System Interaction Architecture
 type: architecture_specification
 source: 09_PROTOCOLS
 origin_architect: Trang Phan
@@ -46,13 +46,13 @@ graph TD
     A --> C[Proof Exchange Protocol]
     A --> D[Coordination Avoidance Protocol]
     A --> E[Routing & Arbitration Protocol]
-    
+
     B --> B1[Context Capsule Transfer]
     B --> B2[Confidence Ceiling Attenuation]
-    
+
     C --> C1[Cryptographic Token Verification]
     C --> C2[Empirical Grounding Validation]
-    
+
     D --> D1[Shard-Local Finalization]
     D --> D2[Conflict-Free Replicated State]
 ```

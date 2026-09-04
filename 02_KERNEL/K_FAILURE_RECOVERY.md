@@ -1,5 +1,5 @@
 ---
-title: "K_FAILURE_RECOVERY — Universal Failure Recovery & Rollback Kernel"
+title: K_FAILURE_RECOVERY — Universal Failure Recovery & Rollback Kernel
 type: kernel_specification
 source: 02_KERNEL
 tags:
@@ -27,9 +27,9 @@ rscf:
 
 # K_FAILURE_RECOVERY — Universal Failure Recovery & Rollback Kernel
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Epistemic Class:** `AMOS_MODEL`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Epistemic Class:** `AMOS_MODEL`
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -77,7 +77,7 @@ $$\Phi(\mathcal{S}_t) = 0 \iff \forall \mathcal{I} \in \mathbf{Invariants}, \qua
 ### 2.2 Deterministic Rollback Operator
 If $\Phi(\mathcal{S}_t) = 1$ (invariant violation), the kernel applies the rollback operator $\mathcal{R}$:
 
-$$\mathcal{R}(\mathcal{S}_t) = \begin{cases} 
+$$\mathcal{R}(\mathcal{S}_t) = \begin{cases}
 \mathcal{S}_{\tau}^*, & \text{if } \exists \tau < t \text{ s.t. } \Phi(\mathcal{S}_{\tau}^*) = 0 \land \operatorname{Hash}(\mathcal{S}_{\tau}^*) = \mathcal{H}_\tau \\
 \mathcal{S}_0, & \text{otherwise (Null-State Reset Basin)}
 \end{cases}$$
@@ -111,7 +111,7 @@ class FailureRecoveryKernel:
     def commit_epoch(self, epoch: int, new_state: Dict[str, Any], invariants_passed: bool) -> bool:
         if not invariants_passed:
             return self.trigger_fail_closed_recovery(f"Invariant breach at epoch {epoch}")
-        
+
         self.current_epoch = epoch
         self.current_state = new_state.copy()
         self.checkpoints[epoch] = new_state.copy()
@@ -131,7 +131,7 @@ class FailureRecoveryKernel:
                 # Emit recovery audit log
                 print(f"[RECOVERY] Successfully rolled back to epoch {ep}. Reason: {reason}")
                 return True
-        
+
         # Fallback to S_0
         self.current_state = self.null_state.copy()
         self.current_epoch = 0

@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-022 — No Silent Failure"
+title: INV-AUTHZ-022 — No Silent Failure
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan

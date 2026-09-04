@@ -1,5 +1,5 @@
 ---
-title: "23_OPERATING_MODEL — Decision Rights & RACI Matrix"
+title: 23_OPERATING_MODEL — Decision Rights & RACI Matrix
 type: governance_specification
 plane: 23_OPERATING_MODEL
 amos_core_target: v4.4
@@ -17,8 +17,8 @@ rscf:
 
 # Decision Rights & Autonomous RACI Matrix
 
-**Origin Architect / Steward:** Trang Phan  
-**AMOS_CORE Target:** `v4.4`  
+**Origin Architect / Steward:** Trang Phan
+**AMOS_CORE Target:** `v4.4`
 **Epistemic Class:** `AMOS_MODEL`
 
 ---

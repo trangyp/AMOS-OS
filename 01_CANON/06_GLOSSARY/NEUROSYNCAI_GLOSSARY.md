@@ -204,7 +204,7 @@ ______________________________________________________________________
 
 ---
 
-# NeurosyncAI Glossary — Source-Grounded Terms
+## NeurosyncAI Glossary — Source-Grounded Terms
 
 > **Provenance:** [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_FRAMEWORK|NEUROSYNCAI_FRAMEWORK]], [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_MASTER|NEUROSYNCAI_MASTER]], [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_DUAL_SYSTEM_ARCHITECTURE|NEUROSYNCAI_DUAL_SYSTEM_ARCHITECTURE]], [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_RECOVERY_ENGINE|NEUROSYNCAI_RECOVERY_ENGINE]].
 > **Claim class:** `AMOS_MODEL` — human-AI synchrony interface model, not an FDA/clinical-certified device.

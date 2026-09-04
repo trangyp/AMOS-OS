@@ -1,5 +1,5 @@
 ---
-title: "Agents Agent Contract — Plane Governance Specification"
+title: Agents Agent Contract — Plane Governance Specification
 type: plane_contract
 plane: 06_AGENTS
 domain: C_COGNITIVE_CAPABILITY
@@ -26,10 +26,10 @@ tags:
 
 # Agents Agent Contract — Plane Governance Specification
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Domain Alignment:** Domain C (Cognitive Capability / Orchestration)  
-> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Domain Alignment:** Domain C (Cognitive Capability / Orchestration)
+> **Conclusion Class:** `DERIVED` (RSCF Validated)
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -139,14 +139,14 @@ message AgentMessage {
   string recipient_agent_id = 3;
   uint64 causal_epoch = 4;
   bytes capability_token = 5;
-  
+
   oneof payload {
     TaskDispatchPayload task_dispatch = 6;
     EpistemicClaimPayload claim_emission = 7;
     StateCommitPayload state_commit = 8;
     HeartbeatPayload heartbeat = 9;
   }
-  
+
   bytes blake3_signature = 10;
 }
 ```
@@ -194,4 +194,3 @@ Receipts are permanently archived in `17_OBSERVABILITY/receipts/` and indexed in
 - **Runtime Execution:** [[04_RUNTIME/RUNTIME_RUNTIME_CONTRACT|04_RUNTIME]] · [[14_TOOLS/SANDBOX_TOOL_EXECUTION_PROTOCOL|14_TOOLS]]
 - **State & Memory:** [[12_STATE/STATE_STATE_CONTRACT|12_STATE]] · [[10_MEMORY/EPISODIC_MEMORY_SUBSTRATE|10_MEMORY]]
 - **Security & Attestation:** [[18_SECURITY/SECURITY_SECURITY_CONTRACT|18_SECURITY]]
-

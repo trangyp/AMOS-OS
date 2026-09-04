@@ -1,5 +1,5 @@
 ---
-title: "14_TOOLS MOC — Tools & Sandboxed Capability Adapters"
+title: 14_TOOLS MOC — Tools & Sandboxed Capability Adapters
 type: moc
 source: 14_TOOLS
 origin_architect: Trang Phan
@@ -24,8 +24,8 @@ tags:
 
 # 14_TOOLS MOC — Tools & Sandboxed Capability Adapters
 
-**Origin Architect / Steward:** Trang Phan  
-**AMOS_CORE Target:** `v4.4`  
+**Origin Architect / Steward:** Trang Phan
+**AMOS_CORE Target:** `v4.4`
 **Epistemic Class:** `AMOS_MODEL`
 
 ---

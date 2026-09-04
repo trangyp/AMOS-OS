@@ -1,5 +1,5 @@
 ---
-title: "00 Root Coverage — Plane Governance Specification"
+title: 00 Root Coverage — Plane Governance Specification
 type: specification
 source: 00_ROOT
 origin_architect: Trang Phan
@@ -26,9 +26,9 @@ tags:
 
 # 00 Root Coverage — Plane Governance Specification
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---

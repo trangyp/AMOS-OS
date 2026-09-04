@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-046 — Axiomatic Invariant Precedence"
+title: INV-AUTHZ-046 — Axiomatic Invariant Precedence
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan
@@ -27,7 +27,7 @@ tags:
 
 ## 1. Formal Specification
 
-> **Invariant Statement:**  
+> **Invariant Statement:**
 > `M01–M20 core laws override all lower-tier domain policies and operating guidelines.`
 
 ## 2. Invariant Rule & Mathematical Formulation

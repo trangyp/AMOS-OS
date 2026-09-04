@@ -1,5 +1,5 @@
 ---
-title: "Khung Trang Canon Validation Receipt — Plane Governance Specification"
+title: Khung Trang Canon Validation Receipt — Plane Governance Specification
 type: specification
 source: 01_CANON
 origin_architect: Trang Phan
@@ -26,9 +26,9 @@ tags:
 
 # Khung Trang Canon Validation Receipt — Plane Governance Specification
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---

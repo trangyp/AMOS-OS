@@ -204,7 +204,7 @@ ______________________________________________________________________
 
 ---
 
-# Trang Framework Glossary — Source-Grounded Terms
+## Trang Framework Glossary — Source-Grounded Terms
 
 > **Provenance:** [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM|TSS_THE_TRANG_SYSTEM]], [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_META_LAWS|TSS_META_LAWS]], [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_SEVEN_CYCLES|TSS_SEVEN_CYCLES]]
 > **Claim class:** `AMOS_MODEL` — framework model terms.

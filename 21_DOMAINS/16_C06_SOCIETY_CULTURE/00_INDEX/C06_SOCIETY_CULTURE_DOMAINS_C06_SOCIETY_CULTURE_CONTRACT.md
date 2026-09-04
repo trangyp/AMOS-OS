@@ -1,5 +1,5 @@
 ---
-title: "C06 Society Culture Domains C06 Society Culture Contract — Specialist Domain Specification"
+title: C06 Society Culture Domains C06 Society Culture Contract — Specialist Domain Specification
 type: domain_specification
 source: 21_DOMAINS
 origin_architect: Trang Phan
@@ -24,9 +24,9 @@ tags:
 
 # C06 Society Culture Domains C06 Society Culture Contract — Specialist Domain Specification
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---

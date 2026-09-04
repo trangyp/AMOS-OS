@@ -2775,6 +2775,3 @@ No reverse implication is asserted, and no missing canon is fabricated.
 ______________________________________________________________________
 
 **MOC:** [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
-
-```
-```

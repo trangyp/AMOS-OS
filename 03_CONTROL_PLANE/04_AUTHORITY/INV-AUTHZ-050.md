@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-050 — Master Stewardship Immutable Binding"
+title: INV-AUTHZ-050 — Master Stewardship Immutable Binding
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan
@@ -27,7 +27,7 @@ tags:
 
 ## 1. Formal Specification
 
-> **Invariant Statement:**  
+> **Invariant Statement:**
 > `Trang Phan is the sole Origin Architect and Steward of AMOS OS. Agents cannot claim independent authorship.`
 
 ## 2. Invariant Rule & Mathematical Formulation

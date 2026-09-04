@@ -1,5 +1,5 @@
 ---
-title: "05_COGNITIVE_ORGANISM — Organ Coordination Architecture"
+title: 05_COGNITIVE_ORGANISM — Organ Coordination Architecture
 type: architecture_specification
 source: 05_COGNITIVE_ORGANISM
 origin_architect: Trang Phan

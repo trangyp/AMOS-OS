@@ -1,5 +1,5 @@
 ---
-title: "Khung Trang 16 Canonical Laws — Framework Law Set"
+title: Khung Trang 16 Canonical Laws — Framework Law Set
 type: specification
 source: 01_CANON
 origin_architect: Trang Phan
@@ -30,10 +30,10 @@ tags:
 
 # Khung Trang 16 Canonical Laws — Framework Law Set
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
-> **Status:** `PROPOSED_SPECIFICATION`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
+> **Status:** `PROPOSED_SPECIFICATION`
 > **Canonical Status:** `CONDITIONAL`
 
 > **Epistemic Boundary:** The 16 canonical laws are `AMOS_MODEL` / `SOURCE_GROUNDED` propositions derived from the Khung Trang framework's pre-symbolic ontological spine. They are not empirical physical laws. Each law carries a falsifier — a condition under which the law would be invalidated or require revision.

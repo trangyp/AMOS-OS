@@ -150,7 +150,7 @@ Source: `https://github.com/ynulihao/AgentSkillOS`
 </tr>
 </table>
 
-<!-- 
+<!--
 > Capability Tree organizes skills hierarchically → Complementarity-aware Retrieval selects diverse skill sets → Graph-based Orchestration executes them as DAG -->
 
 ## 🏗️ Method

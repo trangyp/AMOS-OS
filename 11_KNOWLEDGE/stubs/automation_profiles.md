@@ -1,5 +1,5 @@
 ---
-title: "AMOS Automation Profiles Master Registry"
+title: AMOS Automation Profiles Master Registry
 type: registry
 source: 11_KNOWLEDGE
 origin_architect: Trang Phan
@@ -23,8 +23,8 @@ tags:
 
 # AMOS Automation Profiles Master Registry
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
 > **Conclusion Class:** `AMOS_MODEL`
 
 ## 1. Profiles Specification

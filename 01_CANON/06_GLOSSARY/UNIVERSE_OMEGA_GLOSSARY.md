@@ -204,7 +204,7 @@ ______________________________________________________________________
 
 ---
 
-# Universe / Omega Glossary — Source-Grounded Terms
+## Universe / Omega Glossary — Source-Grounded Terms
 
 > **Provenance:** [[01_CANON/02_UNIVERSE_CANON/AMOS_7_PART_UNIVERSE_CANON|AMOS_7_PART_UNIVERSE_CANON]], [[01_CANON/02_UNIVERSE_CANON/ABSOLUTE_OMNIVERSE_U_INFINITY_CANON|ABSOLUTE_OMNIVERSE_U_INFINITY_CANON]], [[01_CANON/02_UNIVERSE_CANON/OMEGA_MASTER_CANON|OMEGA_MASTER_CANON]], [[01_CANON/02_UNIVERSE_CANON/OMEGA_ARCHITECTURE_CANON|OMEGA_ARCHITECTURE_CANON]].
 > **Claim class:** `AMOS_MODEL` — universe/omniverse partitions are canonical system abstractions, not empirical cosmology.

@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-042 — Strict Identity Continuity"
+title: INV-AUTHZ-042 — Strict Identity Continuity
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan
@@ -27,7 +27,7 @@ tags:
 
 ## 1. Formal Specification
 
-> **Invariant Statement:**  
+> **Invariant Statement:**
 > `An agent cannot adopt or impersonate the cryptographic identity of another agent.`
 
 ## 2. Invariant Rule & Mathematical Formulation

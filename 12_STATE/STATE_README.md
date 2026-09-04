@@ -1,5 +1,5 @@
 ---
-title: "12_STATE — Causal State Substrate & Epoch Architecture"
+title: 12_STATE — Causal State Substrate & Epoch Architecture
 type: architecture_specification
 source: 12_STATE
 origin_architect: Trang Phan

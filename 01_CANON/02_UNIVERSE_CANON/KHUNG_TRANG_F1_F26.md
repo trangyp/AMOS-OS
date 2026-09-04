@@ -1,5 +1,5 @@
 ---
-title: "Khung Trang F1–F26 — Framework Function Primitives"
+title: Khung Trang F1–F26 — Framework Function Primitives
 type: specification
 source: 01_CANON
 origin_architect: Trang Phan
@@ -29,10 +29,10 @@ tags:
 
 # Khung Trang F1–F26 — Framework Function Primitives
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
-> **Status:** `PROPOSED_SPECIFICATION`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
+> **Status:** `PROPOSED_SPECIFICATION`
 > **Canonical Status:** `CONDITIONAL`
 
 > **Epistemic Boundary:** The F1–F26 function set is an `AMOS_MODEL` functional decomposition of the P→D→R→C→F→M ontological spine. The 26-function count is derived from the framework's compositional structure, not from empirical neuroscience. Functions are typed contracts, not implemented procedures.

@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-039 — Invariant Falsification Obligation"
+title: INV-AUTHZ-039 — Invariant Falsification Obligation
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan
@@ -27,7 +27,7 @@ tags:
 
 ## 1. Formal Specification
 
-> **Invariant Statement:**  
+> **Invariant Statement:**
 > `All proposed theories must include negative test fixtures capable of refuting them.`
 
 ## 2. Invariant Rule & Mathematical Formulation

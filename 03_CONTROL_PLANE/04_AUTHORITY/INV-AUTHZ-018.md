@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-018 — Cryptographic Token Integrity"
+title: INV-AUTHZ-018 — Cryptographic Token Integrity
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan

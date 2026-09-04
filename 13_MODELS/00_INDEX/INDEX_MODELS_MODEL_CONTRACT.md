@@ -4153,9 +4153,3 @@ RSCF-RELATIONS:
 ---
 
 **MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
-
-```
-
-```
-```
-```

@@ -1,5 +1,5 @@
 ---
-title: "06_BIOLOGY — Domain Specification"
+title: 06_BIOLOGY — Domain Specification
 type: domain_specification
 domain: 06_BIOLOGY
 family: C04_BIO_NEURO
@@ -17,8 +17,8 @@ rscf:
 
 # 06_BIOLOGY — Domain Specification & Bio-Logical Computing
 
-**Origin Architect / Steward:** Trang Phan  
-**AMOS_CORE Target:** `v4.4`  
+**Origin Architect / Steward:** Trang Phan
+**AMOS_CORE Target:** `v4.4`
 **Epistemic Class:** `AMOS_MODEL`
 
 ---

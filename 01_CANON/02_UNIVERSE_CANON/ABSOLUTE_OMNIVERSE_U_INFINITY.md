@@ -3797,5 +3797,3 @@ NOT YET ESTABLISHED
 **Promotion rule:** preserve U∞ as the native **content universe**, not as a reasoning or prediction engine; preserve all source-defined categories exactly; resolve its five anchor dependencies and the cross-artifact `UMPL` naming discrepancy; then validate schema integrity, provenance, lineage, and downstream bindings before final canonical promotion.
 
 ```
-```
-```

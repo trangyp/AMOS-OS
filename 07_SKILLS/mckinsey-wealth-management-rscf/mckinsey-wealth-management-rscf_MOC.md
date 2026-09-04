@@ -1,5 +1,5 @@
 ---
-title: "Mckinsey Wealth Management Rscf Moc — Reusable Skill Capability Specification"
+title: Mckinsey Wealth Management Rscf Moc — Reusable Skill Capability Specification
 type: skill_specification
 source: 07_SKILLS
 origin_architect: Trang Phan
@@ -24,9 +24,9 @@ tags:
 
 # Mckinsey Wealth Management Rscf Moc — Reusable Skill Capability Specification
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---

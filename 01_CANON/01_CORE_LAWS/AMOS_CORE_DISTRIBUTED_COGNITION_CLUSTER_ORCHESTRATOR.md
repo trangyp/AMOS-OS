@@ -3324,7 +3324,7 @@ The governing invariant remains:
 ```
 ---
 
-**Related:**  
+**Related:**
 
 ---
 
@@ -3353,10 +3353,3 @@ The governing invariant remains:
 **Validation:** NOT_ESTABLISHED
 
 **Unresolved critical runtime claims:** UNKNOWN/GAP
-
-
-```
-
-```
-```
-```

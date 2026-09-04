@@ -1,5 +1,5 @@
 ---
-title: "Law Stack Enforcement Pipeline Moc — Plane Governance Specification"
+title: Law Stack Enforcement Pipeline Moc — Plane Governance Specification
 type: specification
 source: 08_WORKFLOWS
 origin_architect: Trang Phan
@@ -24,9 +24,9 @@ tags:
 
 # Law Stack Enforcement Pipeline Moc — Plane Governance Specification
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---

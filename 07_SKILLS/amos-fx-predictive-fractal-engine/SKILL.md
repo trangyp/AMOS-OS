@@ -136,7 +136,7 @@ FX predictive fractal engine is an analytical model. It does not prove fractal p
 - **G5 (Equation firewall)**: Equations carry status tags (ESTABLISHED_MATH / SOURCE_DERIVED / AMOS_MODEL / EMPIRICALLY_CALIBRATED / UNVERIFIED).
 - **G6 (Failure mode)**: On validation failure, downgrade confidence, flag the gap, escalate — do not force-fit.
 
-## 
+##
 
 ______________________________________________________________________
 

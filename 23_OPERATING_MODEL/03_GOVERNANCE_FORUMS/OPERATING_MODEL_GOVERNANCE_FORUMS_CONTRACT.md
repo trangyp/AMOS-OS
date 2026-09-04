@@ -1,5 +1,5 @@
 ---
-title: "Operating Model Governance Forums Contract — Alignment Councils, Review Cadences & Consensus Procedures"
+title: Operating Model Governance Forums Contract — Alignment Councils, Review Cadences & Consensus Procedures
 type: subplane_contract
 plane: 23_OPERATING_MODEL
 subplane: 03_GOVERNANCE_FORUMS
@@ -28,10 +28,10 @@ tags:
 
 # Operating Model Governance Forums Contract — Alignment Councils, Review Cadences & Consensus Procedures
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Domain Alignment:** Domain A (Normative & Governance Definition)  
-> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Domain Alignment:** Domain A (Normative & Governance Definition)
+> **Conclusion Class:** `DERIVED` (RSCF Validated)
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -87,4 +87,3 @@ ASYNC_FIRST != ACCOUNTABILITY_VOID
 - **Roles Matrix:** [[23_OPERATING_MODEL/01_ROLES/OPERATING_MODEL_ROLES_CONTRACT|OPERATING_MODEL_ROLES_CONTRACT]]
 - **Decision Rights:** [[23_OPERATING_MODEL/02_DECISION_RIGHTS/OPERATING_MODEL_DECISION_RIGHTS_CONTRACT|OPERATING_MODEL_DECISION_RIGHTS_CONTRACT]]
 - **Operations Log:** [[20_OPERATIONS/20_OPERATIONS_MOC|20_OPERATIONS]]
-

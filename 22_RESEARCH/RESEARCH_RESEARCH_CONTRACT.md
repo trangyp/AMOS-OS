@@ -1,5 +1,5 @@
 ---
-title: "22_RESEARCH Master Research & Scientific Governance Contract"
+title: 22_RESEARCH Master Research & Scientific Governance Contract
 type: control_contract
 source: 22_RESEARCH
 origin_architect: Trang Phan

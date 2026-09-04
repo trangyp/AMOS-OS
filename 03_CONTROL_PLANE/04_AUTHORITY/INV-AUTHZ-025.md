@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-025 — Statutory Legal Gate"
+title: INV-AUTHZ-025 — Statutory Legal Gate
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan

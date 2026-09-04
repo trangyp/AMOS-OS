@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-006 — Multi-Party Authorization for Canon"
+title: INV-AUTHZ-006 — Multi-Party Authorization for Canon
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan

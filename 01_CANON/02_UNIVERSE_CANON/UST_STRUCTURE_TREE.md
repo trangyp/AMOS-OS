@@ -1,5 +1,5 @@
 ---
-title: "UST Structure Tree — Universal Structure Tree"
+title: UST Structure Tree — Universal Structure Tree
 type: specification
 source: 01_CANON
 origin_architect: Trang Phan
@@ -29,10 +29,10 @@ tags:
 
 # UST Structure Tree — Universal Structure Tree
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
-> **Status:** `PROPOSED_SPECIFICATION`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
+> **Status:** `PROPOSED_SPECIFICATION`
 > **Canonical Status:** `CONDITIONAL`
 
 > **Epistemic Boundary:** UST is an `AMOS_MODEL` structural representation specification. It defines hierarchical knowledge organization with dependency cones and compositional engines. It does not claim to be a universal ontology; it is a framework-specific structure tree for AMOS knowledge management.

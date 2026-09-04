@@ -1,5 +1,5 @@
 ---
-title: "PSI Planetary Layer — Planetary-Scale Intelligence Coordination"
+title: PSI Planetary Layer — Planetary-Scale Intelligence Coordination
 type: specification
 source: 01_CANON
 origin_architect: Trang Phan
@@ -29,10 +29,10 @@ tags:
 
 # PSI Planetary Layer — Planetary-Scale Intelligence Coordination
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
-> **Status:** `PROPOSED_SPECIFICATION`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
+> **Status:** `PROPOSED_SPECIFICATION`
 > **Canonical Status:** `CONDITIONAL`
 
 > **Epistemic Boundary:** PSI is an `AMOS_MODEL` specification for planetary-scale cognitive coordination. It does not claim deployment at planetary scale. The routing protocols and domain mappings are specification-level contracts, not verified distributed systems implementations.

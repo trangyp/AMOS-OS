@@ -1,5 +1,5 @@
 ---
-title: "B32A7B01 5632 450A A935 2Ded537Ff5Fe The Seven Cycles Of The Trang System Official Manual Comprehensive Edition — Knowledge Base Synthesis & Reference"
+title: B32A7B01 5632 450A A935 2Ded537Ff5Fe The Seven Cycles Of The Trang System Official Manual Comprehensive Edition — Knowledge Base Synthesis & Reference
 type: knowledge_specification
 source: 11_KNOWLEDGE
 origin_architect: Trang Phan
@@ -24,9 +24,9 @@ tags:
 
 # B32A7B01 5632 450A A935 2Ded537Ff5Fe The Seven Cycles Of The Trang System Official Manual Comprehensive Edition — Knowledge Base Synthesis & Reference
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---

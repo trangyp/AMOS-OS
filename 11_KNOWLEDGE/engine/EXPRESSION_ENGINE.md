@@ -1,5 +1,5 @@
 ---
-title: "AMOS Expression Engine — Multimodal Cognitive Articulation, Semantic Styling & Tone Regulation Architecture"
+title: AMOS Expression Engine — Multimodal Cognitive Articulation, Semantic Styling & Tone Regulation Architecture
 created: '2026-08-22'
 origin_architect: Trang Phan
 steward: Trang Phan
@@ -30,10 +30,10 @@ tags:
 
 # AMOS Expression Engine — Multimodal Cognitive Articulation, Semantic Styling & Tone Regulation Architecture
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Epistemic Class:** `AMOS_MODEL`  
-> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Epistemic Class:** `AMOS_MODEL`
+> **Conclusion Class:** `DERIVED` (RSCF Validated)
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -100,4 +100,3 @@ Every sentence must convey distinct epistemic utility; platitudes, repetitive ap
 - **Cognitive Organism:** [[05_COGNITIVE_ORGANISM/COGNITIVE_ORGANISM_COGNITIVE_ORGANISM_CONTRACT|05_COGNITIVE_ORGANISM]]
 - **Interface Surface:** [[15_INTERFACES/INTERFACES_INTERFACE_CONTRACT|15_INTERFACES]]
 - **Master Engine MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
-

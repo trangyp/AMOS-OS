@@ -8,7 +8,6 @@ source: 00_ROOT
 aliases:
   - 00-Home
   - 00_HOME
-  - AMOS_HOME
   - Home
 canon-group: reference
 rscf-state: derived

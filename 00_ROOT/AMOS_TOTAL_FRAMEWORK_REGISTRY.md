@@ -43,10 +43,10 @@ rscf:
 
 # AMOS Total Framework Registry — Canonical Epistemic Frameworks
 
-**Origin architect / steward:** Trang Phan  
-**Status:** `POPULATED_REGISTRY`  
-**Lineage target:** `AMOS Core v4.4`  
-**Epistemic classification:** `AMOS_MODEL`  
+**Origin architect / steward:** Trang Phan
+**Status:** `POPULATED_REGISTRY`
+**Lineage target:** `AMOS Core v4.4`
+**Epistemic classification:** `AMOS_MODEL`
 
 ---
 

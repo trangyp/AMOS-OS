@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-036 — Multi-Modal Verification Barrier"
+title: INV-AUTHZ-036 — Multi-Modal Verification Barrier
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan
@@ -27,7 +27,7 @@ tags:
 
 ## 1. Formal Specification
 
-> **Invariant Statement:**  
+> **Invariant Statement:**
 > `Cross-modal translations (audio, image, text) must verify semantic invariance.`
 
 ## 2. Invariant Rule & Mathematical Formulation

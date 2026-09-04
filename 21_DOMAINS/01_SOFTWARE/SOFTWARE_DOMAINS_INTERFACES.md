@@ -1,5 +1,5 @@
 ---
-title: "01_SOFTWARE — Interfaces & IPC Protocols"
+title: 01_SOFTWARE — Interfaces & IPC Protocols
 type: domain_interfaces
 domain: 01_SOFTWARE
 family: C01_SYSTEMS_COMPLEXITY
@@ -17,8 +17,8 @@ rscf:
 
 # 01_SOFTWARE — Interfaces & Low-Latency IPC Protocols
 
-**Origin Architect / Steward:** Trang Phan  
-**AMOS_CORE Target:** `v4.4`  
+**Origin Architect / Steward:** Trang Phan
+**AMOS_CORE Target:** `v4.4`
 **Epistemic Class:** `AMOS_MODEL`
 
 ---

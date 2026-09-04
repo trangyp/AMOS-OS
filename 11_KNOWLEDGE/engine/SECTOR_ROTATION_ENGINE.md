@@ -1,5 +1,5 @@
 ---
-title: "AMOS Sector Rotation Engine — Macroeconomic Business Cycle, Yield Curve Inversion & Dynamic Sector Allocation Architecture"
+title: AMOS Sector Rotation Engine — Macroeconomic Business Cycle, Yield Curve Inversion & Dynamic Sector Allocation Architecture
 created: '2026-08-22'
 origin_architect: Trang Phan
 steward: Trang Phan
@@ -29,10 +29,10 @@ tags:
 
 # AMOS Sector Rotation Engine — Macroeconomic Business Cycle, Yield Curve Inversion & Dynamic Sector Allocation Architecture
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Epistemic Class:** `AMOS_MODEL`  
-> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Epistemic Class:** `AMOS_MODEL`
+> **Conclusion Class:** `DERIVED` (RSCF Validated)
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -101,4 +101,3 @@ $$Z_k = 0.40 \cdot Z_{\text{macro-fit}}(k, \hat{S}_t) + 0.35 \cdot Z_{\text{mome
 - **Investment Engine:** [[11_KNOWLEDGE/engine/INVESTMENT_ENGINE|INVESTMENT_ENGINE]]
 - **Political Risk:** [[11_KNOWLEDGE/engine/POLITICAL_RISK_ENGINE|POLITICAL_RISK_ENGINE]]
 - **Master Engine MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
-

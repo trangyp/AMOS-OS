@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-029 — Snapshot Isolation Consistency"
+title: INV-AUTHZ-029 — Snapshot Isolation Consistency
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan
@@ -27,7 +27,7 @@ tags:
 
 ## 1. Formal Specification
 
-> **Invariant Statement:**  
+> **Invariant Statement:**
 > `Transactions read exclusively from immutable committed snapshots at epoch E_read.`
 
 ## 2. Invariant Rule & Mathematical Formulation

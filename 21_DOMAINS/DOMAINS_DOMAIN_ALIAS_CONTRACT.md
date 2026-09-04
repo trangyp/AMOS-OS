@@ -1,5 +1,5 @@
 ---
-title: "Domains Domain Alias Contract — Specialist Domain Specification"
+title: Domains Domain Alias Contract — Specialist Domain Specification
 type: domain_specification
 source: 21_DOMAINS
 origin_architect: Trang Phan
@@ -29,10 +29,10 @@ tags:
 
 # Domains Domain Alias Contract — Specialist Domain Specification
 
-**Origin Architect & Steward:** Trang Phan  
-**Target AMOS Lineage:** v4.4  
-**Plane:** `21_DOMAINS`  
-**Status:** `ACTIVE_GOVERNING_CONTRACT`  
+**Origin Architect & Steward:** Trang Phan
+**Target AMOS Lineage:** v4.4
+**Plane:** `21_DOMAINS`
+**Status:** `ACTIVE_GOVERNING_CONTRACT`
 **Epistemic Classification:** `AMOS_MODEL` / `DERIVED`
 
 ---

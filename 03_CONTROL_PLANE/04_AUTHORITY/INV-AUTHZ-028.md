@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-028 — Single Writer per Shard"
+title: INV-AUTHZ-028 — Single Writer per Shard
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan
@@ -27,7 +27,7 @@ tags:
 
 ## 1. Formal Specification
 
-> **Invariant Statement:**  
+> **Invariant Statement:**
 > `Within a single shard, concurrent write mutations must acquire a local mutex or execute via CAS.`
 
 ## 2. Invariant Rule & Mathematical Formulation

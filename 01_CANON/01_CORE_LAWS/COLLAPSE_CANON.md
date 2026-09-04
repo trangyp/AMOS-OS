@@ -4271,7 +4271,7 @@ UNKNOWN/GAP != PASS
 
 ---
 
-**Related:**  
+**Related:**
 
 ---
 
@@ -4344,10 +4344,3 @@ RSCF-RELATIONS:
 **Executable binding:** NOT_ESTABLISHED
 
 **Validation:** NOT_ESTABLISHED
-
-
-```
-
-```
-```
-```

@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-019 — Emergency Kill-Switch Supremacy"
+title: INV-AUTHZ-019 — Emergency Kill-Switch Supremacy
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan

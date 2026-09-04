@@ -1,5 +1,5 @@
 ---
-title: "Papers Research Papers Contract — Plane Governance Specification"
+title: Papers Research Papers Contract — Plane Governance Specification
 type: specification
 source: 22_RESEARCH
 origin_architect: Trang Phan
@@ -24,9 +24,9 @@ tags:
 
 # Papers Research Papers Contract — Plane Governance Specification
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---

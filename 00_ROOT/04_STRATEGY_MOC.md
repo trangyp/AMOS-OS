@@ -1,6 +1,9 @@
 ---
 title: 04_STRATEGY_MOC (Alias / Redirect)
 type: redirect
+aliases:
+  - 04_STRATEGY_MOC
+  - 04 Strategy MOC
 target: "[[04_RUNTIME/04_RUNTIME_MOC]]"
 origin_architect: Trang Phan
 steward: Trang Phan

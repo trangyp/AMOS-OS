@@ -1,5 +1,5 @@
 ---
-title: "UAI Alignment Interface — Universal Alignment Interface"
+title: UAI Alignment Interface — Universal Alignment Interface
 type: specification
 source: 01_CANON
 origin_architect: Trang Phan
@@ -29,10 +29,10 @@ tags:
 
 # UAI Alignment Interface — Universal Alignment Interface
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
-> **Status:** `PROPOSED_SPECIFICATION`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
+> **Status:** `PROPOSED_SPECIFICATION`
 > **Canonical Status:** `CONDITIONAL`
 
 > **Epistemic Boundary:** UAI is an `AMOS_MODEL` alignment specification. It defines contracts for aligning cognitive outputs with authority and effect boundaries. It does not claim to solve the general AI alignment problem; it defines a bounded, auditable interface within the AMOS operating system.

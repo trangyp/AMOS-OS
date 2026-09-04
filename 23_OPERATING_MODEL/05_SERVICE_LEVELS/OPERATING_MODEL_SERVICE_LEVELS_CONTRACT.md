@@ -1,5 +1,5 @@
 ---
-title: "Operating Model Service Levels Contract — Epistemic SLAs, Latency Bounds & Invariant Coverage Guarantees"
+title: Operating Model Service Levels Contract — Epistemic SLAs, Latency Bounds & Invariant Coverage Guarantees
 type: subplane_contract
 plane: 23_OPERATING_MODEL
 subplane: 05_SERVICE_LEVELS
@@ -28,10 +28,10 @@ tags:
 
 # Operating Model Service Levels Contract — Epistemic SLAs, Latency Bounds & Invariant Coverage Guarantees
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Domain Alignment:** Domain A (Normative & Governance Definition)  
-> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Domain Alignment:** Domain A (Normative & Governance Definition)
+> **Conclusion Class:** `DERIVED` (RSCF Validated)
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -85,4 +85,3 @@ $$\mathcal{E}(t) = \frac{\text{ObservedDowntimeOrDefects}(t)}{\text{AllowedUnava
 - **Observability Tracing:** [[17_OBSERVABILITY/OBSERVABILITY_OBSERVABILITY_CONTRACT|17_OBSERVABILITY]]
 - **Tests Subsystem:** [[19_TESTS/TESTS_TEST_CONTRACT|19_TESTS]]
 - **Escalation Protocol:** [[23_OPERATING_MODEL/04_ESCALATION/OPERATING_MODEL_ESCALATION_CONTRACT|OPERATING_MODEL_ESCALATION_CONTRACT]]
-

@@ -31,9 +31,9 @@ status: ACTIVE_SPECIFICATION
 
 # ENGINEERING STANDARDS LIBRARY
 
-**Origin Architect / Steward:** Trang Phan  
-**AMOS_CORE Target:** `v4.4`  
-**Epistemic Class:** `AMOS_MODEL`  
+**Origin Architect / Steward:** Trang Phan
+**AMOS_CORE Target:** `v4.4`
+**Epistemic Class:** `AMOS_MODEL`
 **Conclusion Class:** `DERIVED`
 
 ---
@@ -184,8 +184,8 @@ Within the [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|Full Brain OS MECE Architec
 
 ## 7. Navigation & Bindings
 
-**Parent MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]  
-**Knowledge MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]  
+**Parent MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
+**Knowledge MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 **Root:** [[00_ROOT/00_HOME|00_HOME]]
 
 **Upstream dependencies:**

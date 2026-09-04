@@ -1,5 +1,5 @@
 ---
-title: "L28 Critical Gap — Plane Governance Specification"
+title: L28 Critical Gap — Plane Governance Specification
 type: specification
 source: 01_CANON
 origin_architect: Trang Phan
@@ -27,9 +27,9 @@ tags:
 
 # L28 Critical Gap — Plane Governance Specification
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
 > **Status:** `PROPOSED_SPECIFICATION` · **Canonical Status:** `CONDITIONAL`
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: "01 Papers MOC — Research Papers Catalog and Lineage"
+title: 01 Papers MOC — Research Papers Catalog and Lineage
 type: moc
 source: 22_RESEARCH/01_PAPERS
 origin_architect: Trang Phan
@@ -24,9 +24,9 @@ tags:
 
 # 01 Papers MOC — Research Papers Catalog and Lineage
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---

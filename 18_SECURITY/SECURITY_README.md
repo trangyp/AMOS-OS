@@ -1,5 +1,5 @@
 ---
-title: "18_SECURITY — Cryptographic & Isolation Envelopes"
+title: 18_SECURITY — Cryptographic & Isolation Envelopes
 type: plane_readme
 plane: 18_SECURITY
 amos_core_target: v4.4
@@ -27,10 +27,10 @@ tags:
 
 # 18_SECURITY — Cryptographic & Isolation Envelopes
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Epistemic Class:** `AMOS_MODEL`  
-> **Conclusion Class:** `DERIVED`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Epistemic Class:** `AMOS_MODEL`
+> **Conclusion Class:** `DERIVED`
 > **Status:** `ACTIVE_README`
 
 ---

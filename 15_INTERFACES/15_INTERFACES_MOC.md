@@ -1,5 +1,5 @@
 ---
-title: "15_INTERFACES MOC — Interfaces & System Surfaces"
+title: 15_INTERFACES MOC — Interfaces & System Surfaces
 type: moc
 source: 15_INTERFACES
 origin_architect: Trang Phan
@@ -24,8 +24,8 @@ tags:
 
 # 15_INTERFACES MOC — Interfaces & System Surfaces
 
-**Origin Architect / Steward:** Trang Phan  
-**AMOS_CORE Target:** `v4.4`  
+**Origin Architect / Steward:** Trang Phan
+**AMOS_CORE Target:** `v4.4`
 **Epistemic Class:** `AMOS_MODEL`
 
 ---

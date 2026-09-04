@@ -1,5 +1,5 @@
 ---
-title: "18_SECURITY MOC — Security & Reality-Bound Authorization"
+title: 18_SECURITY MOC — Security & Reality-Bound Authorization
 type: moc
 source: 18_SECURITY
 origin_architect: Trang Phan
@@ -24,8 +24,8 @@ tags:
 
 # 18_SECURITY MOC — Security & Reality-Bound Authorization
 
-**Origin Architect / Steward:** Trang Phan  
-**AMOS_CORE Target:** `v4.4`  
+**Origin Architect / Steward:** Trang Phan
+**AMOS_CORE Target:** `v4.4`
 **Epistemic Class:** `AMOS_MODEL`
 
 ---

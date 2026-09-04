@@ -1,5 +1,5 @@
 ---
-title: "Memory Memory Contract — Hierarchical Memory Substrate Governance Specification"
+title: Memory Memory Contract — Hierarchical Memory Substrate Governance Specification
 type: plane_contract
 plane: 10_MEMORY
 domain: D_INFORMATION_MEMORY_STATE_MODELS
@@ -28,10 +28,10 @@ tags:
 
 # Memory Memory Contract — Hierarchical Memory Substrate Governance Specification
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Domain Alignment:** Domain D (Information, Memory, State & Model Substrate)  
-> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Domain Alignment:** Domain D (Information, Memory, State & Model Substrate)
+> **Conclusion Class:** `DERIVED` (RSCF Validated)
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -104,4 +104,3 @@ $$\text{Score}(q, e) = \left( \mathbf{v}_q^T \mathbf{v}_e \right) \cdot R(t_e) \
 - **State Storage:** [[12_STATE/STATE_STATE_CONTRACT|12_STATE]]
 - **Mental State Engine:** [[11_KNOWLEDGE/engine/MENTAL_STATE_ENGINE|MENTAL_STATE_ENGINE]]
 - **Security Audit:** [[18_SECURITY/SECURITY_SECURITY_CONTRACT|18_SECURITY]]
-

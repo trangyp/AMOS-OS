@@ -1,5 +1,5 @@
 ---
-title: "03 Forex Moc — Specialist Domain Specification"
+title: 03 Forex Moc — Specialist Domain Specification
 type: domain_specification
 source: 21_DOMAINS
 origin_architect: Trang Phan
@@ -24,8 +24,8 @@ tags:
 
 # 03_FOREX MOC — Forex Market Microstructure & Algorithmic Trading Hub
 
-**Origin Architect / Steward:** Trang Phan  
-**AMOS_CORE Target:** `v4.4`  
+**Origin Architect / Steward:** Trang Phan
+**AMOS_CORE Target:** `v4.4`
 **Epistemic Class:** `AMOS_MODEL`
 
 ---

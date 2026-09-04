@@ -1,5 +1,5 @@
 ---
-title: "Khung Trang 19X19 — Cognitive Grid Formalization"
+title: Khung Trang 19X19 — Cognitive Grid Formalization
 type: specification
 source: 01_CANON
 origin_architect: Trang Phan
@@ -29,10 +29,10 @@ tags:
 
 # Khung Trang 19×19 — Cognitive Grid Formalization
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
-> **Status:** `PROPOSED_SPECIFICATION`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
+> **Status:** `PROPOSED_SPECIFICATION`
 > **Canonical Status:** `CONDITIONAL`
 
 > **Epistemic Boundary:** This specification is `AMOS_MODEL` / `SOURCE_GROUNDED`. The 19×19 grid is a pre-symbolic ontological formalization, not an empirically proven neural topology. The Go board analogy provides structural constraints for cognitive cell composition; it does not claim biological isomorphism.

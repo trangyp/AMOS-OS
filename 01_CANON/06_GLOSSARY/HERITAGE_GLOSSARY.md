@@ -204,7 +204,7 @@ ______________________________________________________________________
 
 ---
 
-# Heritage Glossary — Source-Grounded Terms
+## Heritage Glossary — Source-Grounded Terms
 
 > **Provenance:** [[00_ROOT/AMOS_ORIGIN_HERITAGE_MASTER|AMOS_ORIGIN_HERITAGE_MASTER]], [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_TO_AMOS_BINDING|HERITAGE_TO_AMOS_BINDING]], [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]]
 > **Claim class:** `AMOS_MODEL` — framework model terms.

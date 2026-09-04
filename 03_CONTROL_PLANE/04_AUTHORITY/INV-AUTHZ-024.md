@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-024 — Competing Hypotheses Preservation"
+title: INV-AUTHZ-024 — Competing Hypotheses Preservation
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan

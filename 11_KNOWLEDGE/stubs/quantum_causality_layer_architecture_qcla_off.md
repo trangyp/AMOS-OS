@@ -1,5 +1,5 @@
 ---
-title: "Quantum Causality Layer Architecture Qcla Off — Knowledge Base Synthesis & Reference"
+title: Quantum Causality Layer Architecture Qcla Off — Knowledge Base Synthesis & Reference
 type: knowledge_specification
 source: 11_KNOWLEDGE
 origin_architect: Trang Phan
@@ -24,9 +24,9 @@ tags:
 
 # Quantum Causality Layer Architecture Qcla Off — Knowledge Base Synthesis & Reference
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---

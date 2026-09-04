@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-030 — Byzantine Tolerance Threshold"
+title: INV-AUTHZ-030 — Byzantine Tolerance Threshold
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan
@@ -27,7 +27,7 @@ tags:
 
 ## 1. Formal Specification
 
-> **Invariant Statement:**  
+> **Invariant Statement:**
 > `Consensus across federated cognitive matrix cells requires >= 3f + 1 agreement.`
 
 ## 2. Invariant Rule & Mathematical Formulation

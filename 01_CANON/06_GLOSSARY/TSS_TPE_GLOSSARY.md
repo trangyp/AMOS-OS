@@ -204,7 +204,7 @@ ______________________________________________________________________
 
 ---
 
-# TSS / TPE Glossary — Source-Grounded Terms
+## TSS / TPE Glossary — Source-Grounded Terms
 
 > **Provenance:** [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_META_LAWS|TSS_META_LAWS]], [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_SEVEN_CYCLES|TSS_SEVEN_CYCLES]], [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_TPE_INTEGRATION|TSS_TPE_INTEGRATION]], [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM|TSS_THE_TRANG_SYSTEM]].
 > **Claim class:** `AMOS_MODEL` — systems-dynamics model terms, not empirical law.

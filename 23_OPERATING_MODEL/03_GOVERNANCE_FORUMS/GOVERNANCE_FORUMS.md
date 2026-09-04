@@ -1,5 +1,5 @@
 ---
-title: "23_OPERATING_MODEL — Governance Forums & Review Panels"
+title: 23_OPERATING_MODEL — Governance Forums & Review Panels
 type: governance_specification
 plane: 23_OPERATING_MODEL
 amos_core_target: v4.4
@@ -25,9 +25,9 @@ tags:
 
 # Governance Forums & Review Panels
 
-**Origin Architect / Steward:** Trang Phan  
-**AMOS_CORE Target:** `v4.4`  
-**Epistemic Class:** `AMOS_MODEL`  
+**Origin Architect / Steward:** Trang Phan
+**AMOS_CORE Target:** `v4.4`
+**Epistemic Class:** `AMOS_MODEL`
 **Conclusion Class:** `DERIVED`
 
 ---
@@ -211,7 +211,7 @@ Within the [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|Full Brain OS MECE Architec
 
 ## 8. Navigation & Bindings
 
-**Parent:** [[23_OPERATING_MODEL/23_OPERATING_MODEL_MOC|Operating Model MOC]]  
+**Parent:** [[23_OPERATING_MODEL/23_OPERATING_MODEL_MOC|Operating Model MOC]]
 **Root:** [[00_ROOT/00_HOME|00_HOME]]
 
 **Upstream dependencies:**

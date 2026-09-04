@@ -1,5 +1,5 @@
 ---
-title: "08_LEGAL — Domain Specification"
+title: 08_LEGAL — Domain Specification
 type: domain_specification
 domain: 08_LEGAL
 family: C09_ORG_LAW_POLICY
@@ -17,8 +17,8 @@ rscf:
 
 # 08_LEGAL — Domain Specification & Legal Kernel Engine
 
-**Origin Architect / Steward:** Trang Phan  
-**AMOS_CORE Target:** `v4.4`  
+**Origin Architect / Steward:** Trang Phan
+**AMOS_CORE Target:** `v4.4`
 **Epistemic Class:** `AMOS_MODEL`
 
 ---

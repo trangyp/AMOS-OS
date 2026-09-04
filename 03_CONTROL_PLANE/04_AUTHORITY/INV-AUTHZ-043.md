@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-043 — Non-Interference in Shard Reads"
+title: INV-AUTHZ-043 — Non-Interference in Shard Reads
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan
@@ -27,7 +27,7 @@ tags:
 
 ## 1. Formal Specification
 
-> **Invariant Statement:**  
+> **Invariant Statement:**
 > `Concurrent read operations never block or delay concurrent write operations.`
 
 ## 2. Invariant Rule & Mathematical Formulation

@@ -1,5 +1,5 @@
 ---
-title: "Forex Domain — Provenance & Validation Ledger"
+title: Forex Domain — Provenance & Validation Ledger
 type: provenance_ledger
 source: 21_DOMAINS/03_FOREX
 origin_architect: Trang Phan
@@ -28,9 +28,9 @@ tags:
 
 # Forex Domain — Provenance & Validation Ledger
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `EMPIRICAL / DERIVED`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `EMPIRICAL / DERIVED`
 > **Status:** `ACTIVE_PROVENANCE_LEDGER`
 
 ---
@@ -62,13 +62,14 @@ $$	ext{VPIN} = rac{\sum_{	au=1}^N |V_	au^B - V_	au^A|}{N \cdot V_{bucket}}$$
 
 ### 2.2 Fractional Volatility & Rough Heston Volatility Surface
 $$d
-u_t = \lambda(	heta - 
-u_t)dt + 
+u_t = \lambda(	heta -
+u_t)dt +
 u_t^lpha dW_t^H, \quad H pprox 0.14$$
 *Calibrated to capture intraday kurtosis and fat-tailed flash liquidity crunches in gold (XAUUSD).*
 
 ### 2.3 Dynamic Fractional Kelly Criterion
-$$f^* = \kappa \cdot \left( rac{p(b + 1) - 1}{b} ight), \quad \kappa = 0.25 	ext{ (Quarter-Kelly Safety Bound)}$$
+$$f^* = \kappa \cdot \left( rac{p(b + 1) - 1}{b}
+ight), \quad \kappa = 0.25 	ext{ (Quarter-Kelly Safety Bound)}$$
 
 ---
 

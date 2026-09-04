@@ -1,5 +1,5 @@
 ---
-title: "02_KERNEL — Deterministic Reasoning & Invariant Primitives"
+title: 02_KERNEL — Deterministic Reasoning & Invariant Primitives
 type: architecture_specification
 source: 02_KERNEL
 origin_architect: Trang Phan
@@ -27,9 +27,9 @@ tags:
 
 # 02_KERNEL — Master Kernel Architecture
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---

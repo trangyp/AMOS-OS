@@ -1,5 +1,5 @@
 ---
-title: "AMOS Emotion Engine Model — Affective Computing & Somatic State Estimation Architecture"
+title: AMOS Emotion Engine Model — Affective Computing & Somatic State Estimation Architecture
 created: '2026-08-22'
 origin_architect: Trang Phan
 steward: Trang Phan
@@ -29,10 +29,10 @@ tags:
 
 # AMOS Emotion Engine Model — Affective Computing & Somatic State Estimation Architecture
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Epistemic Class:** `AMOS_MODEL`  
-> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Epistemic Class:** `AMOS_MODEL`
+> **Conclusion Class:** `DERIVED` (RSCF Validated)
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -115,4 +115,3 @@ Where:
 - **Cognitive Organism:** [[05_COGNITIVE_ORGANISM/COGNITIVE_ORGANISM_COGNITIVE_ORGANISM_CONTRACT|05_COGNITIVE_ORGANISM]]
 - **BCI Telemetry:** [[22_RESEARCH/01_PAPERS/SOTA_HOLOGRAPHIC_BCI_BRAIN_MACHINE_CO_ADAPTATION_2026|SOTA_HOLOGRAPHIC_BCI_BRAIN_MACHINE_CO_ADAPTATION_2026]]
 - **Engine Index:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
-

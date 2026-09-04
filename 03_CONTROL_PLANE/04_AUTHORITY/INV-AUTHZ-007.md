@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-007 — Atomic State Transition Barrier"
+title: INV-AUTHZ-007 — Atomic State Transition Barrier
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan

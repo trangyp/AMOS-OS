@@ -1,5 +1,5 @@
 ---
-title: "Khung Trang UKR — Universal Knowledge Registry"
+title: Khung Trang UKR — Universal Knowledge Registry
 type: specification
 source: 01_CANON
 origin_architect: Trang Phan
@@ -29,10 +29,10 @@ tags:
 
 # Khung Trang UKR — Universal Knowledge Registry
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
-> **Status:** `PROPOSED_SPECIFICATION`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
+> **Status:** `PROPOSED_SPECIFICATION`
 > **Canonical Status:** `CONDITIONAL`
 
 > **Epistemic Boundary:** The UKR is an `AMOS_MODEL` knowledge governance specification. It defines admission and provenance contracts for knowledge artifacts within the AMOS vault. It does not claim universal knowledge completeness or empirical ground-truth status for registered artifacts.

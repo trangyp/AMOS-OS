@@ -21,7 +21,7 @@ rscf:
 
 # 04 Runtime — Map of Content
 
-**Path:** `04_RUNTIME`  
+**Path:** `04_RUNTIME`
 **Role:** Governed state-transition, session execution, boot sequencing, and causal finalization environment under AMOS Core v4.4.
 
 ---

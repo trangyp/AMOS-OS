@@ -38,7 +38,7 @@ ______________________________________________________________________
 
 ## on the AMOS core runtime without third-party packages.
 
-## 
+##
 
 ## Internal dependencies:
 
@@ -48,7 +48,7 @@ ______________________________________________________________________
 
 ## - executable_brain_model.py
 
-## 
+##
 
 ## Origin Architect: Trang Phan
 

@@ -4951,5 +4951,3 @@ THE PROMOTION PROCESS
 **Conclusion class: CONDITIONAL / AMOS_MODEL.**
 
 ```
-```
-```

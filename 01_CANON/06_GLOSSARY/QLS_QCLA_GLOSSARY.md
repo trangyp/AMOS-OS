@@ -204,7 +204,7 @@ ______________________________________________________________________
 
 ---
 
-# QLS / QCLA Glossary — Source-Grounded Terms
+## QLS / QCLA Glossary — Source-Grounded Terms
 
 > **Provenance:** [[11_KNOWLEDGE/05_FRAMEWORKS/QLS_FRAMEWORK|QLS_FRAMEWORK]], [[11_KNOWLEDGE/05_FRAMEWORKS/QLS_MASTER|QLS_MASTER]], [[11_KNOWLEDGE/05_FRAMEWORKS/QCLA_MASTER|QCLA_MASTER]], and `11_KNOWLEDGE/quantum/` native sources.
 > **Claim class:** `AMOS_MODEL` — logical/causal model terms, not physics claims.

@@ -27,10 +27,10 @@ tags:
 
 # Operations Operations Contract — Plane Governance Specification
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
-> **Status:** `ACTIVE_SPECIFICATION`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
+> **Status:** `ACTIVE_SPECIFICATION`
 > **Governing Lineage:** `v3.0 → v4.4` Canonical Lineage Boundary
 
 ---

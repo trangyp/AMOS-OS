@@ -1,5 +1,5 @@
 ---
-title: "14_TOOLS — Host Capabilities & Sandboxed Adapters"
+title: 14_TOOLS — Host Capabilities & Sandboxed Adapters
 type: architecture_specification
 source: 14_TOOLS
 origin_architect: Trang Phan

@@ -1,5 +1,5 @@
 ---
-title: "Operating Model Escalation Contract — 4-Tier Automated Escalation Cascades & Deadlock Resolution"
+title: Operating Model Escalation Contract — 4-Tier Automated Escalation Cascades & Deadlock Resolution
 type: subplane_contract
 plane: 23_OPERATING_MODEL
 subplane: 04_ESCALATION
@@ -28,10 +28,10 @@ tags:
 
 # Operating Model Escalation Contract — 4-Tier Automated Escalation Cascades & Deadlock Resolution
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Domain Alignment:** Domain A (Normative & Governance Definition)  
-> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Domain Alignment:** Domain A (Normative & Governance Definition)
+> **Conclusion Class:** `DERIVED` (RSCF Validated)
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -96,4 +96,3 @@ $$a_{\text{victim}} = \arg\min_{a \in \mathcal{A}_{\text{stuck}}} \left( \text{P
 - **Decision Rights:** [[23_OPERATING_MODEL/02_DECISION_RIGHTS/OPERATING_MODEL_DECISION_RIGHTS_CONTRACT|OPERATING_MODEL_DECISION_RIGHTS_CONTRACT]]
 - **Operations Incident Log:** [[20_OPERATIONS/20_OPERATIONS_MOC|20_OPERATIONS]]
 - **Security Protocols:** [[18_SECURITY/SECURITY_SECURITY_CONTRACT|18_SECURITY]]
-

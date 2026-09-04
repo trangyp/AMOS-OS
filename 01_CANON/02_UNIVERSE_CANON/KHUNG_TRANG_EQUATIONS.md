@@ -2447,7 +2447,7 @@ RSCF-RELATIONS:
 
 ---
 
-**Related:**  
+**Related:**
 
 ---
 
@@ -2459,9 +2459,3 @@ One mathematically material issue is preserved rather than silently repaired: in
 ---
 
 **MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
-
-```
-
-```
-```
-```

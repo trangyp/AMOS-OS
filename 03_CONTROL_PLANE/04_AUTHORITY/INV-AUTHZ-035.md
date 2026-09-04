@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-035 — Bounded Context Attention"
+title: INV-AUTHZ-035 — Bounded Context Attention
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan
@@ -27,7 +27,7 @@ tags:
 
 ## 1. Formal Specification
 
-> **Invariant Statement:**  
+> **Invariant Statement:**
 > `Working memory attention cannot exceed token budget limits without triggering context compaction.`
 
 ## 2. Invariant Rule & Mathematical Formulation

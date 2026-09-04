@@ -1,5 +1,5 @@
 ---
-title: "UMPL Meta Pattern Layer — Universe Canon Specification"
+title: UMPL Meta Pattern Layer — Universe Canon Specification
 type: specification
 source: 01_CANON
 origin_architect: Trang Phan
@@ -27,9 +27,9 @@ tags:
 
 # UMPL Meta Pattern Layer — Universe Canon Specification
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
 > **Status:** `PROPOSED_SPECIFICATION` · **Canonical Status:** `CONDITIONAL`
 
 ---

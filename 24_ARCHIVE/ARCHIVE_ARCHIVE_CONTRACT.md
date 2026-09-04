@@ -1,5 +1,5 @@
 ---
-title: "24_ARCHIVE — Archival Contract"
+title: 24_ARCHIVE — Archival Contract
 type: control_contract
 plane: 24_ARCHIVE
 amos_core_target: v4.4

@@ -1,5 +1,5 @@
 ---
-title: "UEL Expression Layer — Universal Expression Layer"
+title: UEL Expression Layer — Universal Expression Layer
 type: specification
 source: 01_CANON
 origin_architect: Trang Phan
@@ -29,10 +29,10 @@ tags:
 
 # UEL Expression Layer — Universal Expression Layer
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
-> **Status:** `PROPOSED_SPECIFICATION`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
+> **Status:** `PROPOSED_SPECIFICATION`
 > **Canonical Status:** `CONDITIONAL`
 
 > **Epistemic Boundary:** UEL is an `AMOS_MODEL` expression and interface specification. It defines how cognitive outputs are translated into external expressions. It does not claim to model human personality or emotion; personality shaping is a structural parameterization, not a psychological model.

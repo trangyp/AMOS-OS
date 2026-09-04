@@ -1,5 +1,5 @@
 ---
-title: "DOMAIN EXTENSION PROTOCOL — Canonical C01-C12 Architecture"
+title: DOMAIN EXTENSION PROTOCOL — Canonical C01-C12 Architecture
 type: protocol_specification
 source: 21_DOMAINS/00_INDEX
 origin_architect: Trang Phan

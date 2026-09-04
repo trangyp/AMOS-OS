@@ -1,5 +1,5 @@
 ---
-title: "AMOS File Scan Engine — Deep Invariant-Aware File System Scanning, AST Static Analysis & Integrity Verification Architecture"
+title: AMOS File Scan Engine — Deep Invariant-Aware File System Scanning, AST Static Analysis & Integrity Verification Architecture
 created: '2026-08-22'
 origin_architect: Trang Phan
 steward: Trang Phan
@@ -29,10 +29,10 @@ tags:
 
 # AMOS File Scan Engine — Deep Invariant-Aware File System Scanning, AST Static Analysis & Integrity Verification Architecture
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Epistemic Class:** `AMOS_MODEL`  
-> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Epistemic Class:** `AMOS_MODEL`
+> **Conclusion Class:** `DERIVED` (RSCF Validated)
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -112,4 +112,3 @@ rscf:
 - **Sandboxed Execution:** [[14_TOOLS/SANDBOX_TOOL_EXECUTION_PROTOCOL|14_TOOLS]]
 - **Security Auditing:** [[18_SECURITY/SECURITY_SECURITY_CONTRACT|18_SECURITY]]
 - **Master Engine MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
-

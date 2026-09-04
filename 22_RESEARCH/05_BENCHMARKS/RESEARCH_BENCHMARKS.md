@@ -1,5 +1,5 @@
 ---
-title: "Research Benchmarks — Master Registry & Comparative SOTA Baseline Catalog"
+title: Research Benchmarks — Master Registry & Comparative SOTA Baseline Catalog
 type: subplane_specification
 plane: 22_RESEARCH
 subplane: 05_BENCHMARKS
@@ -29,10 +29,10 @@ tags:
 
 # Research Benchmarks — Master Registry & Comparative SOTA Baseline Catalog
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Domain Alignment:** Domain F (Assurance, Learning & Lifecycle Evidence)  
-> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Domain Alignment:** Domain F (Assurance, Learning & Lifecycle Evidence)
+> **Conclusion Class:** `DERIVED` (RSCF Validated)
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -111,4 +111,3 @@ To run an official, sealed benchmark audit:
 - **Frontier Research:** [[22_RESEARCH/01_PAPERS/SOTA_HARVEST_2026-09-04|SOTA_HARVEST_2026-09-04]]
 - **Testing Verification:** [[19_TESTS/TESTS_TEST_CONTRACT|19_TESTS]]
 - **Master MOC:** [[22_RESEARCH/05_BENCHMARKS/05_BENCHMARKS_MOC|05_BENCHMARKS_MOC]]
-

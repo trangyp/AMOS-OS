@@ -1,5 +1,5 @@
 ---
-title: "16_SCHEMAS Master Schema & Structural Typing Contract"
+title: 16_SCHEMAS Master Schema & Structural Typing Contract
 type: control_contract
 source: 16_SCHEMAS
 origin_architect: Trang Phan
@@ -29,10 +29,10 @@ tags:
 
 # 16_SCHEMAS Master Schema & Structural Typing Contract
 
-**Origin Architect & Steward:** Trang Phan  
-**Target AMOS Lineage:** v4.4  
-**Plane:** `16_SCHEMAS`  
-**Status:** `ACTIVE_GOVERNING_CONTRACT`  
+**Origin Architect & Steward:** Trang Phan
+**Target AMOS Lineage:** v4.4
+**Plane:** `16_SCHEMAS`
+**Status:** `ACTIVE_GOVERNING_CONTRACT`
 **Epistemic Classification:** `AMOS_MODEL` / `DERIVED`
 
 ---

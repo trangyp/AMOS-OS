@@ -171,7 +171,7 @@ ______________________________________________________________________
 
 ## ![](assets/case3_paper_promotion/scientific_slide.png)
 
-<!-- 
+<!--
 > Capability Tree organizes skills hierarchically → Complementarity-aware Retrieval selects diverse skill sets → Graph-based Orchestration executes them as DAG -->
 
 ## 🏗️ Architecture

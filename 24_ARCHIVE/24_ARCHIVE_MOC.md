@@ -1,5 +1,5 @@
 ---
-title: "24_ARCHIVE MOC — Historical Preservation & Superseded Artifacts"
+title: 24_ARCHIVE MOC — Historical Preservation & Superseded Artifacts
 type: moc
 source: 24_ARCHIVE
 origin_architect: Trang Phan
@@ -24,8 +24,8 @@ tags:
 
 # 24_ARCHIVE MOC — Historical Preservation & Superseded Artifacts
 
-**Origin Architect / Steward:** Trang Phan  
-**AMOS_CORE Target:** `v4.4`  
+**Origin Architect / Steward:** Trang Phan
+**AMOS_CORE Target:** `v4.4`
 **Epistemic Class:** `HISTORICAL_RECORD`
 
 ---

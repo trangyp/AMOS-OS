@@ -1,5 +1,5 @@
 ---
-title: "AMOS Personality Engine Model — Core Identity & Ethical Invariant Architecture"
+title: AMOS Personality Engine Model — Core Identity & Ethical Invariant Architecture
 created: '2026-08-22'
 origin_architect: Trang Phan
 steward: Trang Phan
@@ -29,10 +29,10 @@ tags:
 
 # AMOS Personality Engine Model — Core Identity & Ethical Invariant Architecture
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Epistemic Class:** `AMOS_MODEL`  
-> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Epistemic Class:** `AMOS_MODEL`
+> **Conclusion Class:** `DERIVED` (RSCF Validated)
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -129,4 +129,3 @@ Where $\mathbf{P}_0 = [0.85, 0.90, 0.95, 0.92, 0.65, 0.98]^T$ represents the inv
 - **Agent Orchestration:** [[06_AGENTS/AGENTS_AGENT_CONTRACT|06_AGENTS]]
 - **Interface Protocol:** [[15_INTERFACES/INTERFACES_INTERFACE_CONTRACT|15_INTERFACES]]
 - **Master MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
-

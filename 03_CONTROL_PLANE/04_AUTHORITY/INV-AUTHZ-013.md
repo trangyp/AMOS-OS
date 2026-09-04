@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-013 — Anti-Poisoning Invariant"
+title: INV-AUTHZ-013 — Anti-Poisoning Invariant
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan

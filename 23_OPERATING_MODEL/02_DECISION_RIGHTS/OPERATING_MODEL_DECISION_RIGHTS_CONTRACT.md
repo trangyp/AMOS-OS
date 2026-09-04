@@ -1,5 +1,5 @@
 ---
-title: "Operating Model Decision Rights Contract — Epistemic Authority Lattices & Quorum Specifications"
+title: Operating Model Decision Rights Contract — Epistemic Authority Lattices & Quorum Specifications
 type: subplane_contract
 plane: 23_OPERATING_MODEL
 subplane: 02_DECISION_RIGHTS
@@ -28,10 +28,10 @@ tags:
 
 # Operating Model Decision Rights Contract — Epistemic Authority Lattices & Quorum Specifications
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Domain Alignment:** Domain A (Normative & Governance Definition)  
-> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Domain Alignment:** Domain A (Normative & Governance Definition)
+> **Conclusion Class:** `DERIVED` (RSCF Validated)
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -94,4 +94,3 @@ Where:
 - **Roles Matrix:** [[23_OPERATING_MODEL/01_ROLES/OPERATING_MODEL_ROLES_CONTRACT|OPERATING_MODEL_ROLES_CONTRACT]]
 - **Governance Forums:** [[23_OPERATING_MODEL/03_GOVERNANCE_FORUMS/OPERATING_MODEL_GOVERNANCE_FORUMS_CONTRACT|OPERATING_MODEL_GOVERNANCE_FORUMS_CONTRACT]]
 - **Escalation Engine:** [[23_OPERATING_MODEL/04_ESCALATION/OPERATING_MODEL_ESCALATION_CONTRACT|OPERATING_MODEL_ESCALATION_CONTRACT]]
-

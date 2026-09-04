@@ -1,5 +1,5 @@
 ---
-title: "C04 Biological & Neural Systems Master Domain Specification"
+title: C04 Biological & Neural Systems Master Domain Specification
 type: domain_specification
 plane: 21_DOMAINS
 subplane: 14_C04_BIO_NEURO
@@ -30,10 +30,10 @@ tags:
 
 # C04 Biological & Neural Systems Master Domain Specification
 
-**Origin Architect & Steward:** Trang Phan  
-**Target AMOS Lineage:** v4.4  
-**Plane:** `21_DOMAINS / 14_C04_BIO_NEURO`  
-**Status:** `ACTIVE_GOVERNING_SPECIFICATION`  
+**Origin Architect & Steward:** Trang Phan
+**Target AMOS Lineage:** v4.4
+**Plane:** `21_DOMAINS / 14_C04_BIO_NEURO`
+**Status:** `ACTIVE_GOVERNING_SPECIFICATION`
 **Epistemic Classification:** `AMOS_MODEL` / `DERIVED`
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: "AMOS Cognition Engine Layer Specification"
+title: AMOS Cognition Engine Layer Specification
 created: "2026-08-22"
 origin_architect: Trang Phan
 steward: Trang Phan
@@ -25,9 +25,9 @@ tags:
 
 # AMOS Cognition Engine Layer Specification
 
-**Origin Architect / Steward:** Trang Phan  
-**AMOS_CORE Target:** `v4.4`  
-**Epistemic Class:** `AMOS_MODEL`  
+**Origin Architect / Steward:** Trang Phan
+**AMOS_CORE Target:** `v4.4`
+**Epistemic Class:** `AMOS_MODEL`
 **Conclusion Class:** `DERIVED`
 
 ---
@@ -40,7 +40,7 @@ The AMOS Cognition Engine Layer executes multi-scale cognitive synthesis, Bayesi
 - **In scope:** Perceptual inference, belief updating, goal decomposition, semantic retrieval, working memory orchestration, epistemic invariant auditing, validation depth mapping.
 - **Out of scope:** Emotional valence modulation (delegated to [[11_KNOWLEDGE/engine/AMOS_EMOTION_ENGINE_LAYER|Emotion Engine]]), conscious self-monitoring (delegated to [[11_KNOWLEDGE/engine/AMOS_CONSCIOUSNESS_ENGINE_LAYER|Consciousness Engine]]), personality expression shaping (delegated to [[11_KNOWLEDGE/engine/AMOS_PERSONALITY_ENGINE_LAYER|Personality Engine]]).
 
-**Related skill:** `.devin/skills/amos-cognition-engine-layer`  
+**Related skill:** `.devin/skills/amos-cognition-engine-layer`
 **Source model:** `Cognition_Engine_Model`
 
 ---
@@ -178,9 +178,9 @@ Within the [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|Full Brain OS MECE Architec
 
 ## 7. Navigation & Bindings
 
-**Parent MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]  
-**Knowledge MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]  
-**Kernel MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]  
+**Parent MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
+**Knowledge MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
+**Kernel MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
 **Root:** [[00_ROOT/00_HOME|00_HOME]]
 
 **Upstream dependencies:**

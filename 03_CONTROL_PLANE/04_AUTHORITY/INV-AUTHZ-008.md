@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-008 — Non-Repudiation of Tool Receipts"
+title: INV-AUTHZ-008 — Non-Repudiation of Tool Receipts
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan

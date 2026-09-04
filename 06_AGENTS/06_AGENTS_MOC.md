@@ -1,5 +1,5 @@
 ---
-title: "06_AGENTS — Master Map of Content"
+title: 06_AGENTS — Master Map of Content
 type: moc
 source: 06_AGENTS
 origin_architect: Trang Phan
@@ -24,8 +24,8 @@ tags:
 
 # 06_AGENTS — Master Map of Content
 
-**Origin Architect / Steward:** Trang Phan  
-**Target Core Lineage:** `v4.4`  
+**Origin Architect / Steward:** Trang Phan
+**Target Core Lineage:** `v4.4`
 **Epistemic Class:** `AMOS_MODEL`
 
 ---

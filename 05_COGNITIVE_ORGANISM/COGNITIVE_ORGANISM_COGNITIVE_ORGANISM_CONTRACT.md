@@ -1,5 +1,5 @@
 ---
-title: "05_COGNITIVE_ORGANISM Master Cognitive Organism & Full Brain Architecture Contract"
+title: 05_COGNITIVE_ORGANISM Master Cognitive Organism & Full Brain Architecture Contract
 type: control_contract
 source: 05_COGNITIVE_ORGANISM
 origin_architect: Trang Phan
@@ -30,10 +30,10 @@ tags:
 
 # 05_COGNITIVE_ORGANISM Master Cognitive Organism & Full Brain Architecture Contract
 
-**Origin Architect & Steward:** Trang Phan  
-**Target AMOS Lineage:** v4.4  
-**Plane:** `05_COGNITIVE_ORGANISM`  
-**Status:** `ACTIVE_GOVERNING_CONTRACT`  
+**Origin Architect & Steward:** Trang Phan
+**Target AMOS Lineage:** v4.4
+**Plane:** `05_COGNITIVE_ORGANISM`
+**Status:** `ACTIVE_GOVERNING_CONTRACT`
 **Epistemic Classification:** `AMOS_MODEL` / `DERIVED`
 
 ---

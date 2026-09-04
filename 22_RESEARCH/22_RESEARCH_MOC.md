@@ -19,8 +19,8 @@ rscf:
 
 # 22_RESEARCH MOC — Formal Mathematics, SOTA Papers & Validation Hub
 
-**Origin Architect / Steward:** Trang Phan  
-**AMOS_CORE Target:** `v4.4`  
+**Origin Architect / Steward:** Trang Phan
+**AMOS_CORE Target:** `v4.4`
 **Epistemic Class:** `AMOS_MODEL`
 
 ---

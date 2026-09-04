@@ -1,5 +1,5 @@
 ---
-title: "23_OPERATING_MODEL Master Operating Model & Human-Agent Governance Contract"
+title: 23_OPERATING_MODEL Master Operating Model & Human-Agent Governance Contract
 type: control_contract
 source: 23_OPERATING_MODEL
 origin_architect: Trang Phan
@@ -30,10 +30,10 @@ tags:
 
 # 23_OPERATING_MODEL Master Operating Model & Human-Agent Governance Contract
 
-**Origin Architect & Steward:** Trang Phan  
-**Target AMOS Lineage:** v4.4  
-**Plane:** `23_OPERATING_MODEL`  
-**Status:** `ACTIVE_GOVERNING_CONTRACT`  
+**Origin Architect & Steward:** Trang Phan
+**Target AMOS Lineage:** v4.4
+**Plane:** `23_OPERATING_MODEL`
+**Status:** `ACTIVE_GOVERNING_CONTRACT`
 **Epistemic Classification:** `AMOS_MODEL` / `DERIVED`
 
 ---

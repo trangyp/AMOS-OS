@@ -1,5 +1,5 @@
 ---
-title: "01_SOFTWARE — Domain Specification"
+title: 01_SOFTWARE — Domain Specification
 type: domain_specification
 domain: 01_SOFTWARE
 family: C10_TECH_ENGINEERING
@@ -22,8 +22,8 @@ tags:
 
 # 01_SOFTWARE — Domain Specification & System Architecture
 
-**Origin Architect / Steward:** Trang Phan  
-**AMOS_CORE Target:** `v4.4`  
+**Origin Architect / Steward:** Trang Phan
+**AMOS_CORE Target:** `v4.4`
 **Epistemic Class:** `AMOS_MODEL`
 
 ---
@@ -34,7 +34,9 @@ The Software domain within AMOS OS governs deterministic compilation, abstract s
 
 ### Core Mathematical Invariant (AST Semantic Equivalence)
 For source program $P \in \mathcal{L}_{src}$ and compiled target $P' \in \mathcal{L}_{tgt}$, semantic equivalence under state evaluation $\sigma \in \Sigma$ is defined by bisimulation:
-$$orall \sigma \in \Sigma, \quad \llbracket P rbracket(\sigma) \sim_{\mathcal{R}} \llbracket P' rbracket(\sigma)$$
+$$orall \sigma \in \Sigma, \quad \llbracket P
+rbracket(\sigma) \sim_{\mathcal{R}} \llbracket P'
+rbracket(\sigma)$$
 where $\sim_{\mathcal{R}}$ is an observational equivalence relation preserving epistemic state transitions and RSCF provenance headers.
 
 ---

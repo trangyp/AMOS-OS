@@ -2625,5 +2625,3 @@ ______________________________________________________________________
 The decisive P2 invariants are now explicit: **evidence must be typed**, **measurement is itself part of the observation process**, and **provenance begins at capture**. The source boundary `sensed != true` is preserved as the central firewall, while observer-effect semantics remain domain-specific rather than being promoted into a universal physical claim.
 
 ```
-```
-```

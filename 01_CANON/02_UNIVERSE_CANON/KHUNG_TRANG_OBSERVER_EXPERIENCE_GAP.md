@@ -28,9 +28,9 @@ rscf:
 
 # Khung Trang Observer Experience Gap Principle
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
 > **Status:** `ACTIVE_CANON` · **Canonical Status:** `CONDITIONAL`
 
 ---

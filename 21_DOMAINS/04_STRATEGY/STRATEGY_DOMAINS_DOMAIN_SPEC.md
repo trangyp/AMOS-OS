@@ -1,5 +1,5 @@
 ---
-title: "04_STRATEGY — Domain Specification"
+title: 04_STRATEGY — Domain Specification
 type: domain_specification
 domain: 04_STRATEGY
 family: C08_STRATEGY_GAME
@@ -17,8 +17,8 @@ rscf:
 
 # 04_STRATEGY — Domain Specification & Strategic Intelligence Engine
 
-**Origin Architect / Steward:** Trang Phan  
-**AMOS_CORE Target:** `v4.4`  
+**Origin Architect / Steward:** Trang Phan
+**AMOS_CORE Target:** `v4.4`
 **Epistemic Class:** `AMOS_MODEL`
 
 ---

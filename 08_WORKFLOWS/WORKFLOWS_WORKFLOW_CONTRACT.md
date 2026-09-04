@@ -1,5 +1,5 @@
 ---
-title: "Workflows Workflow Contract — Master DAG Orchestration, Multi-Agent Pipeline & Epistemic Verification Specification"
+title: Workflows Workflow Contract — Master DAG Orchestration, Multi-Agent Pipeline & Epistemic Verification Specification
 type: plane_contract
 plane: 08_WORKFLOWS
 domain: C_COGNITIVE_CAPABILITY
@@ -28,10 +28,10 @@ tags:
 
 # Workflows Workflow Contract — Master DAG Orchestration, Multi-Agent Pipeline & Epistemic Verification Specification
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Domain Alignment:** Domain C (Cognitive Capability / Orchestration)  
-> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Domain Alignment:** Domain C (Cognitive Capability / Orchestration)
+> **Conclusion Class:** `DERIVED` (RSCF Validated)
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -99,4 +99,3 @@ $$\sum_{v \in \mathcal{V}} \text{ComputeCost}(v) \le B_{\text{workflow}}^{\max} 
 - **Agent Governance:** [[06_AGENTS/AGENTS_AGENT_CONTRACT|06_AGENTS]]
 - **Skills Registry:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 - **State Storage:** [[12_STATE/STATE_STATE_CONTRACT|12_STATE]]
-

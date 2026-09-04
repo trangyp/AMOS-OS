@@ -1,5 +1,5 @@
 ---
-title: "TSS 7-Cycle — Governance Cycle System"
+title: TSS 7-Cycle — Governance Cycle System
 type: specification
 source: 01_CANON
 origin_architect: Trang Phan
@@ -29,10 +29,10 @@ tags:
 
 # TSS 7-Cycle — Governance Cycle System
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
-> **Status:** `PROPOSED_SPECIFICATION`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
+> **Status:** `PROPOSED_SPECIFICATION`
 > **Canonical Status:** `CONDITIONAL`
 
 > **Epistemic Boundary:** TSS is an `AMOS_MODEL` governance cycle specification. The 7-cycle structure is derived from the Khung Trang framework's governance economy model. It does not claim empirical validation as a political or economic system; it is a specification for AMOS internal governance.

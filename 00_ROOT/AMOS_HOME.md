@@ -3,7 +3,8 @@ title: Amos Home — Comprehensive Architectural Specification
 type: architectural_specification
 source: 00_ROOT
 aliases:
-  - AMOS_HOME
+  - AMOS_HOME_00_ROOT
+  - AMOS_HOME_SPEC
   - Amos Home
 amos_core_target: v4.4
 artifact_id: AMOS-AMOS_HOME

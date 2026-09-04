@@ -1,5 +1,5 @@
 ---
-title: "17_OBSERVABILITY Master Observability & Epistemic Tracing Contract"
+title: 17_OBSERVABILITY Master Observability & Epistemic Tracing Contract
 type: control_contract
 source: 17_OBSERVABILITY
 origin_architect: Trang Phan
@@ -29,10 +29,10 @@ tags:
 
 # 17_OBSERVABILITY Master Observability & Epistemic Tracing Contract
 
-**Origin Architect & Steward:** Trang Phan  
-**Target AMOS Lineage:** v4.4  
-**Plane:** `17_OBSERVABILITY`  
-**Status:** `ACTIVE_GOVERNING_CONTRACT`  
+**Origin Architect & Steward:** Trang Phan
+**Target AMOS Lineage:** v4.4
+**Plane:** `17_OBSERVABILITY`
+**Status:** `ACTIVE_GOVERNING_CONTRACT`
 **Epistemic Classification:** `AMOS_MODEL` / `DERIVED`
 
 ---

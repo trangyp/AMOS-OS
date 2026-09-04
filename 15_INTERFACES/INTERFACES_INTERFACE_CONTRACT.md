@@ -1,5 +1,5 @@
 ---
-title: "15_INTERFACES Master Interface & System Surface Contract"
+title: 15_INTERFACES Master Interface & System Surface Contract
 type: control_contract
 source: 15_INTERFACES
 origin_architect: Trang Phan
@@ -31,10 +31,10 @@ tags:
 
 # 15_INTERFACES Master Interface & System Surface Contract
 
-**Origin Architect & Steward:** Trang Phan  
-**Target AMOS Lineage:** v4.4  
-**Plane:** `15_INTERFACES`  
-**Status:** `ACTIVE_GOVERNING_CONTRACT`  
+**Origin Architect & Steward:** Trang Phan
+**Target AMOS Lineage:** v4.4
+**Plane:** `15_INTERFACES`
+**Status:** `ACTIVE_GOVERNING_CONTRACT`
 **Epistemic Classification:** `AMOS_MODEL` / `DERIVED`
 
 ---

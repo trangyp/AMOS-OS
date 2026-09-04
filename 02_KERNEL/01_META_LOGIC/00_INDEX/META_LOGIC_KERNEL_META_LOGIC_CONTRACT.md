@@ -1,5 +1,5 @@
 ---
-title: "Meta Logic Kernel Meta Logic Contract — Plane Governance Specification"
+title: Meta Logic Kernel Meta Logic Contract — Plane Governance Specification
 type: specification
 source: 02_KERNEL
 origin_architect: Trang Phan
@@ -24,9 +24,9 @@ tags:
 
 # Meta Logic Kernel Meta Logic Contract — Plane Governance Specification
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---

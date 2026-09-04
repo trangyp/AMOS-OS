@@ -1,5 +1,5 @@
 ---
-title: "TPE Prediction Layer — Trang Prediction Engine"
+title: TPE Prediction Layer — Trang Prediction Engine
 type: specification
 source: 01_CANON
 origin_architect: Trang Phan
@@ -29,10 +29,10 @@ tags:
 
 # TPE Prediction Layer — Trang Prediction Engine
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
-> **Status:** `PROPOSED_SPECIFICATION`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
+> **Status:** `PROPOSED_SPECIFICATION`
 > **Canonical Status:** `CONDITIONAL`
 
 > **Epistemic Boundary:** TPE is an `AMOS_MODEL` predictive coding specification. It defines forward-model and error-correction contracts within the cognitive loop. It does not claim neurobiological accuracy; the predictive coding paradigm is used as a structural analogy for state prediction and error-driven learning.

@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-034 — Epistemic Drift Threshold"
+title: INV-AUTHZ-034 — Epistemic Drift Threshold
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan
@@ -27,7 +27,7 @@ tags:
 
 ## 1. Formal Specification
 
-> **Invariant Statement:**  
+> **Invariant Statement:**
 > `If knowledge drift exceeds 5% per epoch, an automated audit pass is triggered.`
 
 ## 2. Invariant Rule & Mathematical Formulation

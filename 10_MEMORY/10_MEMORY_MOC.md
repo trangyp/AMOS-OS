@@ -1,5 +1,5 @@
 ---
-title: "10_MEMORY MOC — Memory Substrates & Retention"
+title: 10_MEMORY MOC — Memory Substrates & Retention
 type: moc
 source: 10_MEMORY
 origin_architect: Trang Phan
@@ -24,8 +24,8 @@ tags:
 
 # 10_MEMORY MOC — Memory Substrates & Retention
 
-**Origin Architect / Steward:** Trang Phan  
-**AMOS_CORE Target:** `v4.4`  
+**Origin Architect / Steward:** Trang Phan
+**AMOS_CORE Target:** `v4.4`
 **Epistemic Class:** `AMOS_MODEL`
 
 ---

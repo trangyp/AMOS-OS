@@ -49,7 +49,7 @@ The Control Plane is the governance and coordination layer between canonical/ker
   - [[03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_CONTROL_PLANE_README|CAPABILITY CONTROL PLANE README]] — `CAPABILITY CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/02_CAPABILITY`.
   - [[03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_MANIFEST|CAPABILITY MANIFEST]] — This document defines the AMOS OS manifest structure for discovering, indexing, resolving, validating, governing, versioning, and auditing c
   - [[03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_RESOLVER|CAPABILITY RESOLVER]] — So the following is a **substantive candidate replacement**, not recovered pre-existing content.
-  - [[03_CONTROL_PLANE/02_CAPABILITY/CONTROL_PLANE_CAPABILITY_CONTRACT|CONTROL PLANE CAPABILITY CONTRACT]] — This document defines the governed contract by which a capability may be represented, discovered, selected, invoked, supervised, validated, 
+  - [[03_CONTROL_PLANE/02_CAPABILITY/CONTROL_PLANE_CAPABILITY_CONTRACT|CONTROL PLANE CAPABILITY CONTRACT]] — This document defines the governed contract by which a capability may be represented, discovered, selected, invoked, supervised, validated,
 
 ## Policy, Authority & Provenance
 

@@ -237,13 +237,13 @@ If you use XSkill in your research, please cite:
 
 ```bibtex
 @misc{jiang2026xskillcontinuallearningexperience,
-      title={XSkill: Continual Learning from Experience and Skills in Multimodal Agents}, 
+      title={XSkill: Continual Learning from Experience and Skills in Multimodal Agents},
       author={Guanyu Jiang and Zhaochen Su and Xiaoye Qu and Yi R. Fung},
       year={2026},
       eprint={2603.12056},
       archivePrefix={arXiv},
       primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2603.12056}, 
+      url={https://arxiv.org/abs/2603.12056},
 }
 ```
 

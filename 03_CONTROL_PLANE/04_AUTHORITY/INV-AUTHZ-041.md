@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-041 — Episodic Trace Retention"
+title: INV-AUTHZ-041 — Episodic Trace Retention
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan
@@ -27,7 +27,7 @@ tags:
 
 ## 1. Formal Specification
 
-> **Invariant Statement:**  
+> **Invariant Statement:**
 > `Event logs must be retained for at least 7 days in active memory before cold archiving.`
 
 ## 2. Invariant Rule & Mathematical Formulation

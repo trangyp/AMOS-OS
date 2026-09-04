@@ -4860,9 +4860,3 @@ RSCF-RELATIONS:
 ---
 
 **MOC:** [[13_MODELS/13_MODELS_MOC|13_MODELS_MOC]]
-
-```
-
-```
-```
-```

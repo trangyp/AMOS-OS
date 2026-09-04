@@ -18,7 +18,7 @@ rscf:
 
 ## Start here
 - [[00_ROOT/00_ROOT_MOC|AMOS OS Root MOC]] — authoritative structural contract
-- [[_MOC|Root convenience MOC]] — root navigation
+- [[00_ROOT/MOC|Root convenience MOC]] — root navigation
 - [[00_ROOT/ALL_ARTIFACTS_INDEX|All Artifacts Index]] — exhaustive live reachability index for every vault file
 - [[00_ROOT/ORPHAN_LINK_AUDIT|Orphan + Link Integrity Audit]] — live zero-inbound and unresolved-link audit
 - [[AGENTS|AGENTS]] — active root agent control surface
@@ -63,4 +63,4 @@ rscf:
 ## Integrity boundary
 This page is navigation only. It does not convert indexed artifacts into canon, implementation evidence, runtime authority, or empirical validation. Genuine unresolved states remain `UNKNOWN/GAP`.
 
-For a live MOC/index listing, the vault requires the Dataview community plugin. Until that is configured, use the static navigation blocks above or the root [[_MOC|Root MOC]].
+For a live MOC/index listing, the vault requires the Dataview community plugin. Until that is configured, use the static navigation blocks above or the root [[00_ROOT/MOC|Root MOC]].

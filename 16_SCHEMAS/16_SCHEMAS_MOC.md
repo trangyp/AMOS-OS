@@ -1,5 +1,5 @@
 ---
-title: "16_SCHEMAS MOC — Schemas & Typed Data Contracts"
+title: 16_SCHEMAS MOC — Schemas & Typed Data Contracts
 type: moc
 source: 16_SCHEMAS
 origin_architect: Trang Phan
@@ -24,8 +24,8 @@ tags:
 
 # 16_SCHEMAS MOC — Schemas & Typed Data Contracts
 
-**Origin Architect / Steward:** Trang Phan  
-**AMOS_CORE Target:** `v4.4`  
+**Origin Architect / Steward:** Trang Phan
+**AMOS_CORE Target:** `v4.4`
 **Epistemic Class:** `AMOS_MODEL`
 
 ---

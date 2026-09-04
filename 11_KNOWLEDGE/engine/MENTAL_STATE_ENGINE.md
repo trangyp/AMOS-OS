@@ -1,5 +1,5 @@
 ---
-title: "AMOS Mental State Engine — Cognitive Load Tracking, Working Memory Buffer & Attention Focus Architecture"
+title: AMOS Mental State Engine — Cognitive Load Tracking, Working Memory Buffer & Attention Focus Architecture
 created: '2026-08-22'
 origin_architect: Trang Phan
 steward: Trang Phan
@@ -29,10 +29,10 @@ tags:
 
 # AMOS Mental State Engine — Cognitive Load Tracking, Working Memory Buffer & Attention Focus Architecture
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Epistemic Class:** `AMOS_MODEL`  
-> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Epistemic Class:** `AMOS_MODEL`
+> **Conclusion Class:** `DERIVED` (RSCF Validated)
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -101,4 +101,3 @@ $$\mathbf{a}^*(t) = \arg\min_{\mathbf{a}} \mathcal{H}(\text{PosteriorState} \mid
 - **Episodic Substrate:** [[10_MEMORY/EPISODIC_MEMORY_SUBSTRATE|10_MEMORY]]
 - **Emotion Engine:** [[11_KNOWLEDGE/engine/EMOTION_ENGINE_MODEL|EMOTION_ENGINE_MODEL]]
 - **Master Engine MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
-

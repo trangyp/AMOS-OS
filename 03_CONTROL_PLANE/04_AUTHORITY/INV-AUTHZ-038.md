@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-038 — Causal Cycle Prevention"
+title: INV-AUTHZ-038 — Causal Cycle Prevention
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan
@@ -27,7 +27,7 @@ tags:
 
 ## 1. Formal Specification
 
-> **Invariant Statement:**  
+> **Invariant Statement:**
 > `The state dependency graph must remain a strict Directed Acyclic Graph (DAG).`
 
 ## 2. Invariant Rule & Mathematical Formulation

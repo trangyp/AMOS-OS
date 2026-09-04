@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-012 — Reality Grounding Requirement"
+title: INV-AUTHZ-012 — Reality Grounding Requirement
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan

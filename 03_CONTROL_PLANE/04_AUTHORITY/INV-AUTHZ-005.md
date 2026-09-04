@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-005 — No Self-Escalation"
+title: INV-AUTHZ-005 — No Self-Escalation
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan

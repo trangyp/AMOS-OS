@@ -43,10 +43,10 @@ rscf:
 
 # AMOS Total Architecture — Unified Full Brain OS Specification
 
-**Origin architect / steward:** Trang Phan  
-**Status:** `POPULATED_ARCHITECTURE`  
-**Lineage target:** `AMOS Core v4.4`  
-**Epistemic classification:** `AMOS_MODEL`  
+**Origin architect / steward:** Trang Phan
+**Status:** `POPULATED_ARCHITECTURE`
+**Lineage target:** `AMOS Core v4.4`
+**Epistemic classification:** `AMOS_MODEL`
 
 ---
 

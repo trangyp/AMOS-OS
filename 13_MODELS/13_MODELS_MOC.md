@@ -1,5 +1,5 @@
 ---
-title: "13 Models Moc — Plane Governance Specification"
+title: 13 Models Moc — Plane Governance Specification
 type: specification
 source: 13_MODELS
 origin_architect: Trang Phan
@@ -24,9 +24,9 @@ tags:
 
 # 13 Models Moc — Plane Governance Specification
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---

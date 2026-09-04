@@ -1,5 +1,5 @@
 ---
-title: "16 C06 Society Culture Moc — Specialist Domain Specification"
+title: 16 C06 Society Culture Moc — Specialist Domain Specification
 type: domain_specification
 source: 21_DOMAINS
 origin_architect: Trang Phan
@@ -24,9 +24,9 @@ tags:
 
 # 16 C06 Society Culture Moc — Specialist Domain Specification
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---

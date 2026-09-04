@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-048 — Popperian Falsification Floor"
+title: INV-AUTHZ-048 — Popperian Falsification Floor
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan
@@ -27,7 +27,7 @@ tags:
 
 ## 1. Formal Specification
 
-> **Invariant Statement:**  
+> **Invariant Statement:**
 > `Unfalsifiable claims cannot be admitted into 01_CANON or 22_RESEARCH.`
 
 ## 2. Invariant Rule & Mathematical Formulation

@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-047 — Selective Invalidation Granularity"
+title: INV-AUTHZ-047 — Selective Invalidation Granularity
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan
@@ -27,7 +27,7 @@ tags:
 
 ## 1. Formal Specification
 
-> **Invariant Statement:**  
+> **Invariant Statement:**
 > `A failed premise invalidates only its direct and indirect causal descendants, preserving independent state.`
 
 ## 2. Invariant Rule & Mathematical Formulation

@@ -1,5 +1,5 @@
 ---
-title: "UBI 4 Domain — Universal Biological Intelligence Domains"
+title: UBI 4 Domain — Universal Biological Intelligence Domains
 type: specification
 source: 01_CANON
 origin_architect: Trang Phan
@@ -31,10 +31,10 @@ tags:
 
 # UBI 4 Domain — Universal Biological Intelligence Domains
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
-> **Status:** `PROPOSED_SPECIFICATION`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
+> **Status:** `PROPOSED_SPECIFICATION`
 > **Canonical Status:** `CONDITIONAL`
 
 > **Epistemic Boundary:** UBI is an `AMOS_MODEL` specification that maps biological intelligence modalities to AMOS cognitive architecture. The four domains are structural analogies, not claims of biological implementation. The framework is `SOURCE_GROUNDED` in the Khung Trang ontological spine, not in empirical biology.

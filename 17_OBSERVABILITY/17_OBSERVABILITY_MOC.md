@@ -1,5 +1,5 @@
 ---
-title: "17_OBSERVABILITY MOC — Observability & Epistemic Health"
+title: 17_OBSERVABILITY MOC — Observability & Epistemic Health
 type: moc
 source: 17_OBSERVABILITY
 origin_architect: Trang Phan
@@ -24,8 +24,8 @@ tags:
 
 # 17_OBSERVABILITY MOC — Observability & Epistemic Health
 
-**Origin Architect / Steward:** Trang Phan  
-**AMOS_CORE Target:** `v4.4`  
+**Origin Architect / Steward:** Trang Phan
+**AMOS_CORE Target:** `v4.4`
 **Epistemic Class:** `AMOS_MODEL`
 
 ---

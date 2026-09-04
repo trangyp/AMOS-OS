@@ -1,5 +1,5 @@
 ---
-title: "23_OPERATING_MODEL — Service Level Objectives (SLAs & SLOs)"
+title: 23_OPERATING_MODEL — Service Level Objectives (SLAs & SLOs)
 type: governance_specification
 plane: 23_OPERATING_MODEL
 amos_core_target: v4.4
@@ -27,9 +27,9 @@ tags:
 
 # Service Level Objectives (SLAs & SLOs)
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Epistemic Class:** `AMOS_MODEL`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Epistemic Class:** `AMOS_MODEL`
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---

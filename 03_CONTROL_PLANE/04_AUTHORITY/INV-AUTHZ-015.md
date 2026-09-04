@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-015 — Coordination Avoidance Verification"
+title: INV-AUTHZ-015 — Coordination Avoidance Verification
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan

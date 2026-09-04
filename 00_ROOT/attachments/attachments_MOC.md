@@ -1,5 +1,5 @@
 ---
-title: "Attachments Moc — Plane Governance Specification"
+title: Attachments Moc — Plane Governance Specification
 type: specification
 source: 00_ROOT
 origin_architect: Trang Phan
@@ -24,9 +24,9 @@ tags:
 
 # Attachments Moc — Plane Governance Specification
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---

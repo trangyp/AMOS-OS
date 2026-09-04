@@ -1,5 +1,5 @@
 ---
-title: "17_OBSERVABILITY — Telemetry & Epistemic Health"
+title: 17_OBSERVABILITY — Telemetry & Epistemic Health
 type: architecture_specification
 source: 17_OBSERVABILITY
 origin_architect: Trang Phan
@@ -26,10 +26,10 @@ tags:
 
 # 17_OBSERVABILITY — Master Telemetry & Epistemic Health Architecture
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Epistemic Class:** `AMOS_MODEL`  
-> **Conclusion Class:** `DERIVED`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Epistemic Class:** `AMOS_MODEL`
+> **Conclusion Class:** `DERIVED`
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -44,7 +44,7 @@ graph TD
     INGEST --> OTEL["OpenTelemetry Cognitive Tracing Engine"]
     INGEST --> DRIFT["Epistemic Drift & Entropy Analyzer"]
     INGEST --> DOM["DOM Streaming & Real-Time Tick Visualizer"]
-    
+
     OTEL --> WAL["BLAKE3 Append-Only Receipt WAL"]
     DRIFT --> ALARM["Automated Threshold Alarms (23_OPERATING_MODEL)"]
     DOM --> DASH["Live Telemetry Dashboards"]

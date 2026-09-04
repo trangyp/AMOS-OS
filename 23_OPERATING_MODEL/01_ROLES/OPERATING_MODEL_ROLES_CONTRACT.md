@@ -1,5 +1,5 @@
 ---
-title: "Operating Model Roles Contract — Governance Taxonomy, RACI Matrices & Role Invariants"
+title: Operating Model Roles Contract — Governance Taxonomy, RACI Matrices & Role Invariants
 type: subplane_contract
 plane: 23_OPERATING_MODEL
 subplane: 01_ROLES
@@ -28,10 +28,10 @@ tags:
 
 # Operating Model Roles Contract — Governance Taxonomy, RACI Matrices & Role Invariants
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Domain Alignment:** Domain A (Normative & Governance Definition)  
-> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Domain Alignment:** Domain A (Normative & Governance Definition)
+> **Conclusion Class:** `DERIVED` (RSCF Validated)
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -98,4 +98,3 @@ graph TD
 - **Decision Rights:** [[23_OPERATING_MODEL/02_DECISION_RIGHTS/OPERATING_MODEL_DECISION_RIGHTS_CONTRACT|OPERATING_MODEL_DECISION_RIGHTS_CONTRACT]]
 - **Escalation Paths:** [[23_OPERATING_MODEL/04_ESCALATION/OPERATING_MODEL_ESCALATION_CONTRACT|OPERATING_MODEL_ESCALATION_CONTRACT]]
 - **Agent Governance:** [[06_AGENTS/AGENTS_AGENT_CONTRACT|06_AGENTS]]
-

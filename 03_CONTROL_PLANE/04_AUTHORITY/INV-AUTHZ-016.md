@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-016 — Strict Role Separation"
+title: INV-AUTHZ-016 — Strict Role Separation
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan

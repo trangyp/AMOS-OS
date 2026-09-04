@@ -1,5 +1,5 @@
 ---
-title: "AMOS Emotion & Affective Regulation Engine Layer"
+title: AMOS Emotion & Affective Regulation Engine Layer
 created: "2026-08-22"
 origin_architect: Trang Phan
 steward: Trang Phan
@@ -25,9 +25,9 @@ tags:
 
 # AMOS Emotion & Affective Regulation Engine Layer
 
-**Origin Architect / Steward:** Trang Phan  
-**AMOS_CORE Target:** `v4.4`  
-**Epistemic Class:** `AMOS_MODEL`  
+**Origin Architect / Steward:** Trang Phan
+**AMOS_CORE Target:** `v4.4`
+**Epistemic Class:** `AMOS_MODEL`
 **Conclusion Class:** `DERIVED`
 
 ---
@@ -40,7 +40,7 @@ The Emotion Engine Layer formalizes synthetic neuroemotional feedback loops, all
 - **In scope:** Neuromodulatory state modeling, allostatic homeostasis, drive prioritization, emotional valence tagging, affective regulation loops.
 - **Out of scope:** Cognitive belief updating (delegated to [[11_KNOWLEDGE/engine/AMOS_COGNITION_ENGINE_LAYER|Cognition Engine]]), personality expression (delegated to [[11_KNOWLEDGE/engine/AMOS_PERSONALITY_ENGINE_LAYER|Personality Engine]]), conscious self-reflection (delegated to [[11_KNOWLEDGE/engine/AMOS_CONSCIOUSNESS_ENGINE_LAYER|Consciousness Engine]]).
 
-**Related skill:** `.devin/skills/amos-emotion-engine-layer`  
+**Related skill:** `.devin/skills/amos-emotion-engine-layer`
 **Source model:** `Emotion_Engine_Model`
 
 ---
@@ -161,9 +161,9 @@ Within the [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|Full Brain OS MECE Architec
 
 ## 6. Navigation & Bindings
 
-**Parent MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]  
-**Knowledge MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]  
-**Kernel MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]  
+**Parent MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
+**Knowledge MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
+**Kernel MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
 **Root:** [[00_ROOT/00_HOME|00_HOME]]
 
 **Upstream dependencies:**

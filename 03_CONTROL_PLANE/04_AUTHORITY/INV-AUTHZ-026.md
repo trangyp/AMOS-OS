@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-026 — Determinism in Kernel Inferences"
+title: INV-AUTHZ-026 — Determinism in Kernel Inferences
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan
@@ -27,7 +27,7 @@ tags:
 
 ## 1. Formal Specification
 
-> **Invariant Statement:**  
+> **Invariant Statement:**
 > `Given identical inputs and seeds, kernel reasoning primitives must produce identical state transitions.`
 
 ## 2. Invariant Rule & Mathematical Formulation

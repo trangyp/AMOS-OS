@@ -1,5 +1,5 @@
 ---
-title: "24_ARCHIVE — Repository Overview"
+title: 24_ARCHIVE — Repository Overview
 type: plane_readme
 plane: 24_ARCHIVE
 amos_core_target: v4.4

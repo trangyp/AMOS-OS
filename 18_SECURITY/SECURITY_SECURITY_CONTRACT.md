@@ -1,5 +1,5 @@
 ---
-title: "18_SECURITY Master Security & Reality-Bound Authorization Contract"
+title: 18_SECURITY Master Security & Reality-Bound Authorization Contract
 type: control_contract
 source: 18_SECURITY
 origin_architect: Trang Phan
@@ -32,10 +32,10 @@ tags:
 
 # 18_SECURITY Master Security & Reality-Bound Authorization Contract
 
-**Origin Architect & Steward:** Trang Phan  
-**Target AMOS Lineage:** v4.4  
-**Plane:** `18_SECURITY`  
-**Status:** `ACTIVE_GOVERNING_CONTRACT`  
+**Origin Architect & Steward:** Trang Phan
+**Target AMOS Lineage:** v4.4
+**Plane:** `18_SECURITY`
+**Status:** `ACTIVE_GOVERNING_CONTRACT`
 **Epistemic Classification:** `AMOS_MODEL` / `DERIVED`
 
 ---

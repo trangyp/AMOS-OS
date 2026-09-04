@@ -1,5 +1,5 @@
 ---
-title: "Dependency Closure — Control Plane Authority Specification"
+title: Dependency Closure — Control Plane Authority Specification
 type: control_specification
 source: 03_CONTROL_PLANE
 origin_architect: Trang Phan
@@ -24,9 +24,9 @@ tags:
 
 # Dependency Closure — Control Plane Authority Specification
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---

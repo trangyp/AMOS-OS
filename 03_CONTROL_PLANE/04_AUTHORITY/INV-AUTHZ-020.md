@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-020 — Audit Trail Immutability"
+title: INV-AUTHZ-020 — Audit Trail Immutability
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan

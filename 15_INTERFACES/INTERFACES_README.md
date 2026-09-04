@@ -1,5 +1,5 @@
 ---
-title: "15_INTERFACES — Multi-Modal API & Component Protocol Architecture"
+title: 15_INTERFACES — Multi-Modal API & Component Protocol Architecture
 type: architectural_specification
 source: 15_INTERFACES
 amos_core_target: v4.4
@@ -16,8 +16,8 @@ rscf:
 
 # 15_INTERFACES — Multi-Modal API & Component Protocol Architecture
 
-**Origin Architect / Steward:** Trang Phan  
-**AMOS_CORE Target:** `v4.4`  
+**Origin Architect / Steward:** Trang Phan
+**AMOS_CORE Target:** `v4.4`
 **Epistemic Class:** `AMOS_MODEL`
 
 ---

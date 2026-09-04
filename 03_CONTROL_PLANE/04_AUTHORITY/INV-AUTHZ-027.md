@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-027 — Memory Decay without Evidence"
+title: INV-AUTHZ-027 — Memory Decay without Evidence
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan
@@ -27,7 +27,7 @@ tags:
 
 ## 1. Formal Specification
 
-> **Invariant Statement:**  
+> **Invariant Statement:**
 > `Semantic memory associations unsupported by fresh evidence decay according to the phi-exponential curve.`
 
 ## 2. Invariant Rule & Mathematical Formulation

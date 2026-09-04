@@ -28,13 +28,13 @@ steward: Trang Phan
 
 # AMOS Electrical & Power Systems Engine Layer Specification
 
-**Origin Architect / Steward:** Trang Phan  
-**AMOS_CORE Target:** `v4.4`  
-**Epistemic Class:** `AMOS_MODEL`  
+**Origin Architect / Steward:** Trang Phan
+**AMOS_CORE Target:** `v4.4`
+**Epistemic Class:** `AMOS_MODEL`
 **Conclusion Class:** `DERIVED`
 
-> Bridge note — resolves the `amos-electrical-power-engine-layer` link from the Cosmo Brain MOC / daily notes to the real skill in the vault.  
-> **Skill location:** `.devin/skills/amos-electrical-power-engine-layer`  
+> Bridge note — resolves the `amos-electrical-power-engine-layer` link from the Cosmo Brain MOC / daily notes to the real skill in the vault.
+> **Skill location:** `.devin/skills/amos-electrical-power-engine-layer`
 > **Source model:** `Electrical_Power_Model`
 
 ---
@@ -154,9 +154,9 @@ Within the [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|Full Brain OS MECE Architec
 
 ## 6. Navigation & Bindings
 
-**Parent MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]  
-**Knowledge MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]  
-**Kernel MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]  
+**Parent MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
+**Knowledge MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
+**Kernel MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
 **Root:** [[00_ROOT/00_HOME|00_HOME]]
 
 **Upstream dependencies:**

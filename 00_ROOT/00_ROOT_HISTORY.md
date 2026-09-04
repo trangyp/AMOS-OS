@@ -1674,6 +1674,3 @@ This remains a **source-defined AMOS model requirement** until implementation-sp
 ---
 
 **MOC:** [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
-
-```
-```

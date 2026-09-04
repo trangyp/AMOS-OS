@@ -1,5 +1,5 @@
 ---
-title: "04 State Moc — Plane Governance Specification"
+title: 04 State Moc — Plane Governance Specification
 type: specification
 source: 02_KERNEL
 origin_architect: Trang Phan
@@ -24,9 +24,9 @@ tags:
 
 # 04 State Moc — Plane Governance Specification
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---

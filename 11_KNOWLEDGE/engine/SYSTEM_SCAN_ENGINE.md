@@ -1,5 +1,5 @@
 ---
-title: "AMOS System Scan Engine — Distributed Infrastructure Topology, Process Tracing & Microservice Health Architecture"
+title: AMOS System Scan Engine — Distributed Infrastructure Topology, Process Tracing & Microservice Health Architecture
 created: '2026-08-22'
 origin_architect: Trang Phan
 steward: Trang Phan
@@ -29,10 +29,10 @@ tags:
 
 # AMOS System Scan Engine — Distributed Infrastructure Topology, Process Tracing & Microservice Health Architecture
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Epistemic Class:** `AMOS_MODEL`  
-> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Epistemic Class:** `AMOS_MODEL`
+> **Conclusion Class:** `DERIVED` (RSCF Validated)
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -98,4 +98,3 @@ $$\text{Cycles}(\mathcal{D}) \ne \emptyset \implies \text{Trigger Instant Preemp
 - **File Scan Engine:** [[11_KNOWLEDGE/engine/FILE_SCAN_ENGINE|FILE_SCAN_ENGINE]]
 - **Runtime Sandboxing:** [[04_RUNTIME/RUNTIME_RUNTIME_CONTRACT|04_RUNTIME]]
 - **Master Engine MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
-

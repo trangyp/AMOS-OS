@@ -1,5 +1,5 @@
 ---
-title: "Tools Tool Contract — Master Tool Governance & Capability Isolation Specification"
+title: Tools Tool Contract — Master Tool Governance & Capability Isolation Specification
 type: plane_contract
 plane: 14_TOOLS
 domain: E_INTERACTION_SECURITY_EFFECTS
@@ -29,10 +29,10 @@ tags:
 
 # Tools Tool Contract — Master Tool Governance & Capability Isolation Specification
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Domain Alignment:** Domain E (Interaction, Security & Effect Adapters)  
-> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Domain Alignment:** Domain E (Interaction, Security & Effect Adapters)
+> **Conclusion Class:** `DERIVED` (RSCF Validated)
 > **Status:** `ACTIVE_GOVERNING_CONTRACT`
 
 ---
@@ -97,4 +97,3 @@ $$\text{Timeout}(t) \le T_{\max} = 30.0\text{ s}$$
 - **Security Master:** [[18_SECURITY/SECURITY_SECURITY_CONTRACT|18_SECURITY]]
 - **Agent Governance:** [[06_AGENTS/AGENTS_AGENT_CONTRACT|06_AGENTS]]
 - **Observability Logging:** [[17_OBSERVABILITY/OBSERVABILITY_OBSERVABILITY_CONTRACT|17_OBSERVABILITY]]
-

@@ -1,5 +1,5 @@
 ---
-title: "Research Validation Contract — Multi-Modal Epistemic Triangulation & Cross-Corpus Assurance Specification"
+title: Research Validation Contract — Multi-Modal Epistemic Triangulation & Cross-Corpus Assurance Specification
 type: subplane_contract
 plane: 22_RESEARCH
 subplane: 04_VALIDATION
@@ -28,10 +28,10 @@ tags:
 
 # Research Validation Contract — Multi-Modal Epistemic Triangulation & Cross-Corpus Assurance Specification
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Domain Alignment:** Domain F (Assurance, Learning & Lifecycle Evidence)  
-> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Domain Alignment:** Domain F (Assurance, Learning & Lifecycle Evidence)
+> **Conclusion Class:** `DERIVED` (RSCF Validated)
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -103,4 +103,3 @@ A claim cannot be promoted to canonical `DERIVED` status without passing three o
 - **Experiments Protocol:** [[22_RESEARCH/02_EXPERIMENTS/RESEARCH_EXPERIMENTS_CONTRACT|RESEARCH_EXPERIMENTS_CONTRACT]]
 - **Benchmarks Suite:** [[22_RESEARCH/05_BENCHMARKS/RESEARCH_BENCHMARKS_CONTRACT|RESEARCH_BENCHMARKS_CONTRACT]]
 - **Tests Subsystem:** [[19_TESTS/TESTS_TEST_CONTRACT|19_TESTS]]
-

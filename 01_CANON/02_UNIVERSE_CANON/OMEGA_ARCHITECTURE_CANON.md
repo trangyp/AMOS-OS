@@ -2132,5 +2132,3 @@ ______________________________________________________________________
 The decisive boundary is preserved: this node can be expanded structurally as a **placeholder governance specification**, but its missing Omega substance cannot be reconstructed from the placeholder itself. The minimum critical gap is an identifiable native Omega source containing the actual architecture/definitions. Until that dependency is resolved, `canonical_status: UNKNOWN/GAP` and `implementation_status: NOT_ESTABLISHED` remain the strongest supported states.
 
 ```
-```
-```

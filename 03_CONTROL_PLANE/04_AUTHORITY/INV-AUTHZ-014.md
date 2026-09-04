@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-014 — Monotonic Provenance Ledger"
+title: INV-AUTHZ-014 — Monotonic Provenance Ledger
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan

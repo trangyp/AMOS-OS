@@ -1,5 +1,5 @@
 ---
-title: "Research Benchmarks Contract — Standardized Evaluation Suites, BCI Decoding & Quantum Metric Governance"
+title: Research Benchmarks Contract — Standardized Evaluation Suites, BCI Decoding & Quantum Metric Governance
 type: subplane_contract
 plane: 22_RESEARCH
 subplane: 05_BENCHMARKS
@@ -28,10 +28,10 @@ tags:
 
 # Research Benchmarks Contract — Standardized Evaluation Suites, BCI Decoding & Quantum Metric Governance
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Domain Alignment:** Domain F (Assurance, Learning & Lifecycle Evidence)  
-> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Domain Alignment:** Domain F (Assurance, Learning & Lifecycle Evidence)
+> **Conclusion Class:** `DERIVED` (RSCF Validated)
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -88,4 +88,3 @@ To ensure absolute benchmark integrity:
 - **Benchmark Registry:** [[22_RESEARCH/05_BENCHMARKS/RESEARCH_BENCHMARKS|RESEARCH_BENCHMARKS]]
 - **Testing Subsystem:** [[19_TESTS/TESTS_TEST_CONTRACT|19_TESTS]]
 - **Observability Tracing:** [[17_OBSERVABILITY/OBSERVABILITY_OBSERVABILITY_CONTRACT|17_OBSERVABILITY]]
-

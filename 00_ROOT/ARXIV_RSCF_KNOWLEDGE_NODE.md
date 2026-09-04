@@ -22,7 +22,7 @@ The source is preserved below without silently converting its corpus-size, date-
 
 ```markdown
 ---
-title: "Arvix ArXiv Corpus — AMOS-RSCF Knowledge Node"
+title: Arvix ArXiv Corpus — AMOS-RSCF Knowledge Node
 type: knowledge
 source: 00_ROOT
 canon-group: knowledge

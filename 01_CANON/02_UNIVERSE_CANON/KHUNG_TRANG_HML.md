@@ -1,5 +1,5 @@
 ---
-title: "Khung Trang HML — Three-Speed Validation Lens"
+title: Khung Trang HML — Three-Speed Validation Lens
 type: specification
 source: 01_CANON
 origin_architect: Trang Phan
@@ -29,10 +29,10 @@ tags:
 
 # Khung Trang HML — Three-Speed Validation Lens
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
-> **Status:** `PROPOSED_SPECIFICATION`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
+> **Status:** `PROPOSED_SPECIFICATION`
 > **Canonical Status:** `CONDITIONAL`
 
 > **Epistemic Boundary:** HML is an `AMOS_MODEL` retrieval and validation scoping strategy. It does not claim that three levels are universally sufficient; rather, it defines a pragmatic narrowing protocol that minimizes proof scope while preserving rigor.

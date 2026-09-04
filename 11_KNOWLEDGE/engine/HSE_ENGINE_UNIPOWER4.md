@@ -6536,7 +6536,7 @@ social_resilience_band: ["low","medium","high"]
 
 ## - automatic training dataset generation for AI models
 
-## 
+##
 
 ## It is structurally exhaustive (0 structural gap).
 

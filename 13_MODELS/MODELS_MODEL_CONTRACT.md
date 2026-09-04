@@ -1,5 +1,5 @@
 ---
-title: "13_MODELS Master Models & Latent World Representation Contract"
+title: 13_MODELS Master Models & Latent World Representation Contract
 type: control_contract
 source: 13_MODELS
 origin_architect: Trang Phan
@@ -30,10 +30,10 @@ tags:
 
 # 13_MODELS Master Models & Latent World Representation Contract
 
-**Origin Architect & Steward:** Trang Phan  
-**Target AMOS Lineage:** v4.4  
-**Plane:** `13_MODELS`  
-**Status:** `ACTIVE_GOVERNING_CONTRACT`  
+**Origin Architect & Steward:** Trang Phan
+**Target AMOS Lineage:** v4.4
+**Plane:** `13_MODELS`
+**Status:** `ACTIVE_GOVERNING_CONTRACT`
 **Epistemic Classification:** `AMOS_MODEL` / `DERIVED`
 
 ---

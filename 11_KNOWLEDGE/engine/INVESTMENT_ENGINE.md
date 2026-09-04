@@ -1,5 +1,5 @@
 ---
-title: "AMOS Investment Engine — Multi-Asset Portfolio Allocation, Black-Litterman Bayesian Updating & Risk Parity Architecture"
+title: AMOS Investment Engine — Multi-Asset Portfolio Allocation, Black-Litterman Bayesian Updating & Risk Parity Architecture
 created: '2026-08-22'
 origin_architect: Trang Phan
 steward: Trang Phan
@@ -29,10 +29,10 @@ tags:
 
 # AMOS Investment Engine — Multi-Asset Portfolio Allocation, Black-Litterman Bayesian Updating & Risk Parity Architecture
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Epistemic Class:** `AMOS_MODEL`  
-> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Epistemic Class:** `AMOS_MODEL`
+> **Conclusion Class:** `DERIVED` (RSCF Validated)
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -107,4 +107,3 @@ $$\text{CVaR}_\alpha(\mathbf{w}) = \frac{1}{1-\alpha} \int_{0}^{1-\alpha} \text{
 - **Sector Rotation:** [[11_KNOWLEDGE/engine/SECTOR_ROTATION_ENGINE|SECTOR_ROTATION_ENGINE]]
 - **Political Risk:** [[11_KNOWLEDGE/engine/POLITICAL_RISK_ENGINE|POLITICAL_RISK_ENGINE]]
 - **Master Engine MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
-

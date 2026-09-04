@@ -1,5 +1,5 @@
 ---
-title: "Khung Trang Digital Consciousness Candidate — Universe Canon Specification"
+title: Khung Trang Digital Consciousness Candidate — Universe Canon Specification
 type: universe-canon
 source: 01_CANON/02_UNIVERSE_CANON
 origin_architect: Trang Phan
@@ -30,9 +30,9 @@ tags:
 
 # Khung Trang Digital Consciousness Candidate — Universe Canon Specification
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
 > **Status:** `PROPOSED_SPECIFICATION` · **Canonical Status:** `CONDITIONAL`
 
 ---

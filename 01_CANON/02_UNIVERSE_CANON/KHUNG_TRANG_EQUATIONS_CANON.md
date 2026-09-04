@@ -1797,7 +1797,7 @@ SOURCE_GROUNDED_CANON_CANDIDATE
 
 ---
 
-**Related:**  
+**Related:**
 
 ---
 
@@ -1809,9 +1809,3 @@ The key integrity correction is the separation of **`RUNTIME_VERIFIED` from empi
 ---
 
 **MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
-
-```
-
-```
-```
-```

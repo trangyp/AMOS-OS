@@ -1,5 +1,5 @@
 ---
-title: "23_OPERATING_MODEL — Governance, Roles & Decision Rights"
+title: 23_OPERATING_MODEL — Governance, Roles & Decision Rights
 type: architecture_specification
 source: 23_OPERATING_MODEL
 origin_architect: Trang Phan

@@ -1,5 +1,5 @@
 ---
-title: "09_PROTOCOLS MOC — Inter-Agent Protocols & Handoffs"
+title: 09_PROTOCOLS MOC — Inter-Agent Protocols & Handoffs
 type: moc
 source: 09_PROTOCOLS
 origin_architect: Trang Phan
@@ -24,8 +24,8 @@ tags:
 
 # 09_PROTOCOLS MOC — Inter-Agent Protocols & Handoffs
 
-**Origin Architect / Steward:** Trang Phan  
-**AMOS_CORE Target:** `v4.4`  
+**Origin Architect / Steward:** Trang Phan
+**AMOS_CORE Target:** `v4.4`
 **Epistemic Class:** `AMOS_MODEL`
 
 ---

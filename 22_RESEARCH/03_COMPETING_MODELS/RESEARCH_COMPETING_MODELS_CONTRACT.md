@@ -1,5 +1,5 @@
 ---
-title: "Research Competing Models Contract — Hypothesis Preservation & Model Selection Specification"
+title: Research Competing Models Contract — Hypothesis Preservation & Model Selection Specification
 type: subplane_contract
 plane: 22_RESEARCH
 subplane: 03_COMPETING_MODELS
@@ -28,10 +28,10 @@ tags:
 
 # Research Competing Models Contract — Hypothesis Preservation & Model Selection Specification
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Domain Alignment:** Domain F (Assurance, Learning & Lifecycle Evidence)  
-> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Domain Alignment:** Domain F (Assurance, Learning & Lifecycle Evidence)
+> **Conclusion Class:** `DERIVED` (RSCF Validated)
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -118,4 +118,3 @@ discriminating_experiment_ref: "22_RESEARCH/02_EXPERIMENTS/EXP_LMH_VS_TRANSFORME
 - **Experiments Protocol:** [[22_RESEARCH/02_EXPERIMENTS/RESEARCH_EXPERIMENTS_CONTRACT|RESEARCH_EXPERIMENTS_CONTRACT]]
 - **Validation Engine:** [[22_RESEARCH/04_VALIDATION/RESEARCH_VALIDATION_CONTRACT|RESEARCH_VALIDATION_CONTRACT]]
 - **Trang Framework Invariants:** [[11_KNOWLEDGE/trang/TRANG_FRAMEWORK|TRANG_FRAMEWORK]]
-

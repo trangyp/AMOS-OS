@@ -22,7 +22,7 @@ rscf:
 
 # 05 Cognitive Organism — Map of Content
 
-**Path:** `05_COGNITIVE_ORGANISM`  
+**Path:** `05_COGNITIVE_ORGANISM`
 **Role:** Governed cognitive orchestration and organ composition layer within AMOS Full Brain OS.
 
 ---

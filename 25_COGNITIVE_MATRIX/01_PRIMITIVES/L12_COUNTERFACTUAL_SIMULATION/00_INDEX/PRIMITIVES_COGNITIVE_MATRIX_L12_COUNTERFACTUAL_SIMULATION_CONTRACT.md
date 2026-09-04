@@ -1,5 +1,5 @@
 ---
-title: "Primitives Cognitive Matrix L12 Counterfactual Simulation Contract — Cognitive Matrix Cell & Coordinate Specification"
+title: Primitives Cognitive Matrix L12 Counterfactual Simulation Contract — Cognitive Matrix Cell & Coordinate Specification
 type: cognitive_matrix_specification
 source: 25_COGNITIVE_MATRIX
 origin_architect: Trang Phan
@@ -24,9 +24,9 @@ tags:
 
 # Primitives Cognitive Matrix L12 Counterfactual Simulation Contract — Cognitive Matrix Cell & Coordinate Specification
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Conclusion Class:** `AMOS_MODEL`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---

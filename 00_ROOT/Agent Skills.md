@@ -1588,6 +1588,3 @@ Each transition requires its own evidence and governance.
 ______________________________________________________________________
 
 **MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
-
-```
-```

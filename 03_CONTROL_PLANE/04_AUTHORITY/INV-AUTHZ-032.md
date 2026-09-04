@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-032 — No Token Replay"
+title: INV-AUTHZ-032 — No Token Replay
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan
@@ -27,7 +27,7 @@ tags:
 
 ## 1. Formal Specification
 
-> **Invariant Statement:**  
+> **Invariant Statement:**
 > `Capability tokens contain single-use nonces preventing replay attacks across sessions.`
 
 ## 2. Invariant Rule & Mathematical Formulation

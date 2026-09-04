@@ -1,5 +1,5 @@
 ---
-title: "AMOS LLM Wiki Tooling Suite — Ingestion, Hybrid BM25/Vector Search & Knowledge Distillation Specification"
+title: AMOS LLM Wiki Tooling Suite — Ingestion, Hybrid BM25/Vector Search & Knowledge Distillation Specification
 type: tool_specification
 plane: 14_TOOLS
 source: 14_TOOLS
@@ -30,10 +30,10 @@ tags:
 
 # AMOS LLM Wiki Tooling Suite — Ingestion, Hybrid BM25/Vector Search & Knowledge Distillation Specification
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Domain Alignment:** Domain E (Interaction, Security & Effect Adapters)  
-> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Domain Alignment:** Domain E (Interaction, Security & Effect Adapters)
+> **Conclusion Class:** `DERIVED` (RSCF Validated)
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -99,4 +99,3 @@ Where $k_1 = 1.2, b = 0.75, \alpha = 0.40$.
 - **Tools Contract:** [[14_TOOLS/TOOLS_TOOL_CONTRACT|TOOLS_TOOL_CONTRACT]]
 - **Knowledge MOC:** [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]]
 - **Memory Substrate:** [[10_MEMORY/EPISODIC_MEMORY_SUBSTRATE|10_MEMORY]]
-

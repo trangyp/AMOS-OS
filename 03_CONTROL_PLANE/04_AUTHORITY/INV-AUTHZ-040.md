@@ -1,5 +1,5 @@
 ---
-title: "INV-AUTHZ-040 — Resource Exhaustion Failsafe"
+title: INV-AUTHZ-040 — Resource Exhaustion Failsafe
 type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 origin_architect: Trang Phan
@@ -27,7 +27,7 @@ tags:
 
 ## 1. Formal Specification
 
-> **Invariant Statement:**  
+> **Invariant Statement:**
 > `If system memory or token consumption exceeds 85%, low-priority workers are paused.`
 
 ## 2. Invariant Rule & Mathematical Formulation

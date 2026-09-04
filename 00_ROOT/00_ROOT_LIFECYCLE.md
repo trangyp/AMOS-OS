@@ -2729,6 +2729,3 @@ These remain **AMOS source-defined model requirements** until artifact-specific 
 ---
 
 **MOC:** [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
-
-```
-```

@@ -1,5 +1,5 @@
 ---
-title: "AMOS EV Engine — Electric Vehicle Telematics, Grid Balancing & Fleet Optimization Architecture"
+title: AMOS EV Engine — Electric Vehicle Telematics, Grid Balancing & Fleet Optimization Architecture
 created: '2026-08-22'
 origin_architect: Trang Phan
 steward: Trang Phan
@@ -29,10 +29,10 @@ tags:
 
 # AMOS EV Engine — Electric Vehicle Telematics, Grid Balancing & Fleet Optimization Architecture
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Epistemic Class:** `AMOS_MODEL`  
-> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Epistemic Class:** `AMOS_MODEL`
+> **Conclusion Class:** `DERIVED` (RSCF Validated)
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -101,4 +101,3 @@ $$\text{subject to } \text{SoC}_{\min} \le \text{SoC}(t) \le \text{SoC}_{\max}, 
 - **Driver Charging Engine:** [[11_KNOWLEDGE/engine/VN_DRIVER_CHARGING_SUPER_ENGINE_VINFINITY_CLEAN|VN_DRIVER_CHARGING_SUPER_ENGINE_VINFINITY_CLEAN]]
 - **Energy Domain:** [[21_DOMAINS/44_EV_INFRASTRUCTURE/44_EV_INFRASTRUCTURE_MOC|44_EV_INFRASTRUCTURE_MOC]]
 - **Engine Index:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
-

@@ -1,5 +1,5 @@
 ---
-title: "10_MEMORY — Substrate Architecture & Representation"
+title: 10_MEMORY — Substrate Architecture & Representation
 type: architecture_specification
 source: 10_MEMORY
 origin_architect: Trang Phan
@@ -45,7 +45,7 @@ graph TD
     A --> C[Episodic Memory<br/>Temporal Event Logs]
     A --> D[Semantic Memory<br/>Associative Concept Graph]
     A --> E[Procedural Memory<br/>Compiled Skills & Habits]
-    
+
     B -->|Consolidation| C
     C -->|Abstraction & Clustering| D
     D -->|Skill Compilation| E

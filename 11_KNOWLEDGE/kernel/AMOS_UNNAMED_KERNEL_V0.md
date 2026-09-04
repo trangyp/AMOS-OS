@@ -28,10 +28,10 @@ rscf:
 
 # AMOS Super Meta-Kernel `vInfinity` — Unified Orchestration Specification
 
-> **Origin Architect / Steward:** Trang Phan  
-> **AMOS_CORE Target:** `v4.4`  
-> **Epistemic Class:** `AMOS_MODEL`  
-> **Conclusion Class:** `DERIVED`  
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Epistemic Class:** `AMOS_MODEL`
+> **Conclusion Class:** `DERIVED`
 > **Status:** `ACTIVE_SPECIFICATION`
 
 ---
@@ -155,9 +155,9 @@ $$\begin{aligned}
 
 ## 7. Navigation & Cross-Plane Bindings
 
-- **Parent MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]  
-- **Knowledge MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]  
-- **Master Root:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]  
+- **Parent MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+- **Knowledge MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
+- **Master Root:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
 - **Full Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]
 - **Governing Kernel Contract:** [[02_KERNEL/KERNEL_KERNEL_CONTRACT|KERNEL_KERNEL_CONTRACT]]
 

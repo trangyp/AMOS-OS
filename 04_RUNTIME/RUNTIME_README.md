@@ -1,5 +1,5 @@
 ---
-title: "04_RUNTIME — Causal Concurrency & Epoch Execution"
+title: 04_RUNTIME — Causal Concurrency & Epoch Execution
 type: architecture_specification
 source: 04_RUNTIME
 origin_architect: Trang Phan
