@@ -1,31 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS × Heritage Matrix
-type: heritage
-source: 25_COGNITIVE_MATRIX
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Amos X Heritage Matrix
 tags:
-  - amos-os
-  - cognitive-matrix
-  - matrix
-  - heritage
-  - heritage_intelligence
-  - heritage_void
-  - decision_governance
-  - uncertainty
-  - regime_detection
-  - provenance
-  - rscf
-  - domain/cognitive-matrix
-  - amos-cognitive-architecture-matrix
-  - amos-full-brain-os-architecture
-  - law-hierarchy
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AMOS × Heritage Matrix
@@ -3929,7 +3914,7 @@ No AMOS process should replace a genuine gap with fabricated certainty.
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

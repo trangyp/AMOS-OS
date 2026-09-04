@@ -1,20 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Amos-Budget-Aware-Optimizer-Selection-Rscf-Engine MOC
-type: moc
-source: 07_SKILLS/amos-budget-aware-optimizer-selection-rscf-engine
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Budget Aware Optimizer Selection Rscf Engine Moc
 tags:
-  - amos-budget-aware-optimizer-selection-rs
-  - type/skill
-  - skill
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Amos-Budget-Aware-Optimizer-Selection-Rscf-Engine — Map of Content

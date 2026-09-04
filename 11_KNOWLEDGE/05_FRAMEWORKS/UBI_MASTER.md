@@ -1,69 +1,21 @@
 ---
-title: UBI Master
-type: biology
-source: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact: UBI_MASTER.md
-artifact_id: amos_11_knowledge_05_frameworks_ubi_master
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 11_KNOWLEDGE
-segment: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact_kind: MASTER
-path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_MASTER.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Ubi Master
 tags:
-  - amos-os
-  - knowledge
-  - vault
-  - 05_frameworks
-  - ubi_master
-  - biological_master
-  - four_domains
-  - governance
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-  - ubi-framework
-  - amos-ubi-super-engine
-  - ubi-score-framework
-  - unified-biological-intelligence
-  - ubi-wearable-framework
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - UBI_OFFICIAL_MANUAL
-    - UNIFIED_BIOLOGICAL_INTELLIGENCE
-    - AMOS_CORPUS
-  scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - BIOLOGICAL_MASTER
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  framework:
-    artifact:
-      -   - UBI_FRAMEWORK
-  super_engine:
-    artifact:
-      -   - AMOS_UBI_SUPER_ENGINE
-  score_framework:
-    artifact:
-      -   - UBI_SCORE_FRAMEWORK
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  framework_structure: VERIFIED_SOURCE_STRUCTURE
-  master_rules: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # UBI Master Specification

@@ -1,22 +1,21 @@
 ---
-title: AMOS Plane Ownership Matrix
-type: architecture_registry
-source: 00_ROOT
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_DERIVED_REGISTRY
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-updated: 2026-09-03
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-    - 11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE
-    - 11_KNOWLEDGE/AMOS_INFRASTRUCTURE_FULL_BRAIN_AGENT_ARCHITECTURE_ROUND11
-  scope: physical_plane_primary_ownership
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Plane Ownership Matrix
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Plane Ownership Matrix
@@ -49,6 +48,7 @@ Each numbered plane belongs to exactly one domain.
 | 06 Agents | C | bounded goal-bearing worker/orchestrator/auditor identities | root authority; skill semantics |
 | 07 Skills | C | versioned reusable capability procedures | durable authority |
 | 08 Workflows | C | explicit process/state-transition orchestration | domain truth; canon semantics |
+| 08 Planetary | D | biosphere telemetry, carrying capacity limits & Earth digital twins (Omniverse Layer 6) | ungrounded synthetic compute authority |
 | 09 Protocols | E | cross-component interaction and handoff semantics | workflow ownership; policy authority |
 | 10 Memory | D | governed temporal persistence and retrieval | state authority; truth promotion |
 | 11 Knowledge | D | source/evidence/claim/relationship knowledge substrate | canon admission; effect authority |
@@ -73,7 +73,7 @@ Each numbered plane belongs to exactly one domain.
 A = {01, 23}
 B = {02, 03, 04}
 C = {05, 06, 07, 08, 21, 25}
-D = {10, 11, 12, 13, 16}
+D = {10, 11, 12, 13, 16, 08_PLANETARY}
 E = {09, 14, 15, 18}
 F = {17, 19, 20, 22, 24}
 ```

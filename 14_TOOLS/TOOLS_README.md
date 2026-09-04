@@ -1,104 +1,87 @@
 ---
-title: "14_TOOLS — Host Capabilities & Sandboxed Adapters"
-type: architecture_specification
-source: 14_TOOLS
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-    - 18_SECURITY/SECURITY_SECURITY_CONTRACT
-  scope: tools_architecture
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Tools Readme
 tags:
-  - amos-os
-  - tools
-  - sandboxing
-  - capability-adapters
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# 14_TOOLS — Master Tool Architecture
+# TOOLS README
 
-## 1. Plane Purpose
+## Purpose
 
-The `14_TOOLS` plane defines external capability adapters, CLI wrappers, web connectors, and filesystem utilities available to AMOS agents under strict security governance.
+`TOOLS README` is the package readme for the **Tools** plane segment at `14_TOOLS`.
+The Tools plane governs tool bindings; tool availability is never permission. Normative load-bearing content lives in the sibling contract(s); this readme orients navigation.
 
-This plane is the boundary between the AMOS cognitive organism and the external world. Every tool invocation passes through capability-scoped sandboxing, telemetry emission, and least-privilege enforcement before reaching the host system.
+## Sibling artifacts
 
-```text
-TOOL_ACCESS != TOOL_PERMISSION
-CAPABILITY != AUTHORITY
-INVOCATION != SUCCESS
-DOCUMENTED != IMPLEMENTED
-```
+- [[14_TOOLS/TOOLS_TOOL_CONTRACT|TOOLS_TOOL_CONTRACT]]
 
----
+## Contract discipline
 
-## 2. Architecture Overview
+Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
 
-The tools architecture is organized around a five-tier sandbox hierarchy, a formal admission criteria set, and a master tool registry. Each tool is wrapped in an adapter that enforces parameter validation, timeout bounds, failure mode containment, and telemetry emission before any host interaction occurs.
+## Gaps
 
----
+Executable binding PARTIAL unless an executed validation receipt exists for this subsystem ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
 
-## 3. Key Components
+## Worked semantics
 
-### 3.1 Tool Sandbox Tiers
+Given an operation touching `TOOLS README` within the Tools plane:
 
-```text
-TIER 0: PURE INFERENCE (No external tool access)
-TIER 1: READ-ONLY OBSERVATION (File viewing, search, read-only API query)
-TIER 2: BOUNDED MUTATION (Workspace file editing, sandboxed Python scripts)
-TIER 3: SYSTEM CONVENTIONAL (Package installations, external API mutations)
-TIER 4: HIGH-STAKES GOVERNANCE (Canon amendment, destructive deletion, credentials)
-```
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-Each tier requires progressively stronger authorization:
-- Tiers 0-1: Agent-level capability tokens (D0-D1).
-- Tier 2: Orchestrator-signed capability token (D3).
-- Tier 3: Orchestrator-signed token with security plane consultation.
-- Tier 4: Origin Architect explicit signature (D4).
+## Promotion-gate checklist
 
-### 3.2 Tool Admission Criteria
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-Before any tool is registered in `TOOL_REGISTRY_MASTER.md`:
-1. It must have a formal JSON schema defining parameters and return types.
-2. It must have a bounded failure mode and timeout specification.
-3. It must emit full execution telemetry to `17_OBSERVABILITY`.
-4. It must enforce least-privilege scoping.
-5. It must pass security review by the Security Council governance forum.
+## Cross-plane bindings
 
-### 3.3 Tool Registry
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-The `TOOL_REGISTRY_MASTER.md` maintains the canonical list of all admitted tools with:
-- Tool identifier and version hash.
-- Sandbox tier assignment.
-- Capability scope (filesystem paths, network endpoints, system calls).
-- Adapter interface schema.
-- Telemetry emission contract.
+______________________________________________________________________
 
----
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
-## 4. Navigation
+______________________________________________________________________
 
-- **Tool Registry:** [[14_TOOLS/TOOL_REGISTRY_MASTER|TOOL_REGISTRY_MASTER]]
-- **Tools MOC:** [[14_TOOLS/14_TOOLS_MOC|14_TOOLS_MOC]]
-- **Security Plane:** [[18_SECURITY/18_SECURITY_MOC|18_SECURITY_MOC]]
-- **Observability:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]
-- **Runtime (Sandboxing):** [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
-- **Cognitive Organism (Action Organ):** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
-- **Root Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
 
-## 5. Status & Gaps
+RSCF-NODE
+node_id: amos_14_tools_tools_readme_md
+node_type: note
+path: 14_TOOLS/TOOLS_README.md
+claim_class: AMOS_MODEL
 
-- **Status:** `ACTIVE_SPECIFICATION` — sandbox tier hierarchy and admission criteria are documented.
-- **Registry Completeness:** The tool registry master is specified but the full inventory of admitted tools with JSON schemas is not yet complete.
-- **WASI Sandbox Integration:** Tier 2 sandboxed execution is specified to use WASI-based microVMs. Integration with the runtime plane's sandbox environment is `DOCUMENTED != IMPLEMENTED`.
-- **Telemetry Pipeline:** Tool telemetry emission to `17_OBSERVABILITY` is specified. The actual telemetry pipeline with OpenTelemetry-compatible trace spans is not yet operationalized.
-- **Tier 4 Enforcement:** High-stakes governance tools require D4 (Origin Architect) signatures. The cryptographic signature verification pipeline for D4 tool authorization is specified but not yet integrated with the control plane.
+______________________________________________________________________
+
+**MOC:** [[14_TOOLS/14_TOOLS_MOC|14_TOOLS_MOC]]

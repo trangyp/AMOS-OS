@@ -46,7 +46,7 @@ class VaultGraph:
 
     def __init__(self, vault_path: Path, exclude_dirs: set = None):
         self.vault_path = vault_path
-        self.exclude_dirs = exclude_dirs or {".obsidian", ".git", "node_modules", ".gemini", "copilot", "scripts", ".devin"}
+        self.exclude_dirs = exclude_dirs or {".obsidian", ".git", "node_modules", ".gemini", "copilot", "scripts", ".devin", ".opencode", ".github", "24_ARCHIVE", "docs"}
         self.noparse_dirs = {"raw", "_arxiv_md"}
         self.nodes = {}           # rel_path (posix) -> Path
         self.edges = defaultdict(set)  # src_relpath -> set(target_relpaths)
@@ -98,6 +98,11 @@ class VaultGraph:
                         title = fm.get("title")
                         if isinstance(title, str):
                             self._nodes_by_title[title].append(relpath)
+                        aliases = fm.get("aliases")
+                        if isinstance(aliases, list):
+                            for alias in aliases:
+                                if isinstance(alias, str):
+                                    self._nodes_by_title[alias].append(relpath)
                     except Exception:
                         pass
 
@@ -376,10 +381,8 @@ def main():
             print()
         else:
             print(f"=== Broken Wikilinks ({len(graph.broken_links)}) ===")
-            for src, target in graph.broken_links[:50]:
+            for src, target in graph.broken_links:
                 print(f"  {src} -> [[{target}]]")
-            if len(graph.broken_links) > 50:
-                print(f"  ... and {len(graph.broken_links) - 50} more")
         return
 
     if args.hubs:

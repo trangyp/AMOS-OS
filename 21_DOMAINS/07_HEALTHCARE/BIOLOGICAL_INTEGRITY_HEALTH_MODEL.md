@@ -1,62 +1,21 @@
 ---
-title: Biological Integrity Health Model Specification
-type: domain
-source: 21_DOMAINS/07_HEALTHCARE
-artifact: BIOLOGICAL_INTEGRITY_HEALTH_MODEL.md
-artifact_id: amos_21_domains_07_healthcare_biological_integrity_health_model
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 21_DOMAINS
-segment: 21_DOMAINS/07_HEALTHCARE
-artifact_kind: DOMAIN_MODEL
-path: 21_DOMAINS/07_HEALTHCARE/BIOLOGICAL_INTEGRITY_HEALTH_MODEL.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Biological Integrity Health Model
 tags:
-  - amos-os
-  - domain
-  - vault
-  - 07_healthcare
-  - biological_integrity_health_model
-  - homeostatic_resilience
-  - allostatic_load
-  - rscf
-  - canon_candidate
-  - canon/domain
-  - absolute-biological-integrity-framework
-  - ubi-health-application
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK
-    - 21_DOMAINS/07_HEALTHCARE/07_HEALTHCARE_MOC
-    - AMOS_CORPUS
-  scope:
-    - DOMAIN_HEALTHCARE
-    - HEALTH_INTEGRITY_MODEL
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  firewall_framework:
-    artifact:
-      -   - ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK
-  healthcare_moc:
-    artifact:
-      -   - 07_HEALTHCARE_MOC
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  domain_structure: VERIFIED_SOURCE_STRUCTURE
-  health_model: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Biological Integrity Health Model Specification

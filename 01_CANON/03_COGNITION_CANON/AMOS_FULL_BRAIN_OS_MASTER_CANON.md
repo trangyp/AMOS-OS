@@ -1,308 +1,239 @@
 ---
-title: AMOS Full Brain OS Master Canon
-type: canon
-source: 01_CANON/03_COGNITION_CANON
-artifact_id: AMOS-FULL-BRAIN-OS-MASTER-CANON
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-status: ACTIVE_CANON
-canonical_status: CONDITIONAL
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
 conclusion_class: AMOS_MODEL
-epistemic_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Full Brain Os Master Canon
 tags:
-  - amos_os
-  - amos_full_brain_os
-  - master_canon
-  - cognition_canon
-  - canon
-  - architecture
-  - mece
-  - brain_core
-  - omni_kernel
-  - omniverse_brain
-  - expression_translation
-  - personality
-  - gap_management
-  - amos_os_kernel
-  - control_plane
-  - rscf
-  - hml
-  - ubi
-rscf:
-  state: AMOS_MODEL
-  claim_class: AMOS_MODEL
-  provenance: 11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE.md + _00_Cosmo brain/2026-08-22 AMOS Full Brain OS Architecture.md + 2026-08-25 AMOS_Full_Brain_OS_CANON.md
-  scope: AMOS_full_brain_os_master_canon
-  canonical_status: CONDITIONAL
-aliases:
-  - Full Brain OS Master Canon
-  - AMOS Full Brain OS Canon
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Full Brain OS Master Canon
 
-> **Canonical status:** `CONDITIONAL` — source-grounded architectural master; cross-artifact containment, exact version precedence, and full executable closure remain `UNKNOWN/GAP` unless separately validated.
-> **Epistemic class:** `AMOS_MODEL`
+> [!NOTE] Canonical status
+> This artifact establishes the **AMOS Full Brain OS Master Canon** as the governance envelope and meta-architecture for all cognition-plane subsystems. It reserves the canonical slot for the framework family identified as `AMOS Full Brain OS`. Master semantics and authority must be independently established through verified native AMOS sources under the `AMOS_CANON_INGESTION_RULE`. The current artifact performs address reservation + governance envelope definition — it does **not** establish substantive Full Brain OS architecture, biological equivalence, or executable enforcement until native content is ingested via the canonical ingestion pipeline.
+
+> [!abstract] Artifact identity
+> **Artifact:** `AMOS_FULL_BRAIN_OS_MASTER_CANON.md`
+> **Artifact ID:** `amos_01_canon_03_cognition_canon_amos_full_brain_os_master_canon`
+> **System:** AMOS OS
+> **Plane:** `01_CANON/03_COGNITION_CANON`
+> **Kind:** `CANON`
+> **Status:** `CANONICAL`
+> **Canonical status:** `SOURCE_RESERVED`
+> **Implementation status:** `NOT_ESTABLISHED`
+> **Validation status:** `NOT_ESTABLISHED`
+> **Executable binding:** `NOT_ESTABLISHED`
+> **Ingestion action:** `ADD_ONLY`
 > **Origin architect / steward:** Trang Phan
 
-______________________________________________________________________
-
-## 1. Canonical identity
-
-`AMOS Full Brain OS` is the **multi-dimensional cognitive / semantic operating architecture** that binds AMOS reasoning into a runnable, governable system. It is **not** a linear chain `Kernel → Engine → Agent → Control Plane`. That linear model is explicitly superseded.
-
-The master canon resolves the Full Brain OS into a small set of **mutually exclusive, collectively exhaustive (MECE)** architectural fields:
-
-1. `Input / Representation Field` — expression translation, personality, gap/integrity constraints
-2. `Cognitive Coordination Field` — omni kernel
-3. `Capability Field` — brain core (engine ecosystem)
-4. `World / System Representation Field` — omniverse brain
-5. `Runtime Field` — AMOS OS Kernel v4.4
-6. `Effect Governance Field` — infrastructure control plane
-7. `Deployment Field` — host / LLM layer (skills, workflows, agents, tools, code, memory)
-
-______________________________________________________________________
-
-## 2. The One Picture
-
-```text
-HUMAN / ENVIRONMENT
-        │
-        ▼
-AMOS FULL BRAIN OS  (cognitive / semantic system)
-        │
-   ┌────┴────┐
-   ▼         ▼         ▼
-GAP/INTEGRITY  EXPRESSION GATEWAY  PERSONALITY
-   │              (front door)        │
-   └───────────────┬──────────────────┘
-                   ▼
-              OMNI KERNEL  (routing / coordination / governance)
-                   │
-          ┌────────┴────────┐
-          ▼                 ▼
-     BRAIN CORE      OMNIVERSE BRAIN
-   (engines/UBI)   (world/system model, 10 layers)
-          └────────┬────────┘
-                   ▼
-        COGNITIVE SYNTHESIS / PLANNING / FABRICATION
-                   ▼
-        AMOS OS KERNEL v4.4
- (typed state / RSCF / provenance / repair / audit)
-                   ▼
-        INFRASTRUCTURE CONTROL PLANE
- (authority / read sets / semantic tx / commit / rollback)
-                   ▼
-        HOST / LLM DEPLOYMENT LAYER
- (skills · workflows · agents · tools · code · memory)
-                   ▼
-              WORLD EFFECT
-```
-
-______________________________________________________________________
-
-## 3. Three large systems
-
-| System | Scope |
-|--------|-------|
-| **AMOS BRAIN** | Expression translation, personality, omni kernel, brain core, omniverse brain, super mind |
-| **AMOS RUNTIME** | OS Kernel v4.4, RSCF, H/M/L, provenance, memory, competing hypotheses, firewalls, repair, replay, audit |
-| **AMOS CONTROL / BODY** | Capability manifests, read sets, authorization, semantic transactions, tools, state stores, commit, rollback |
-
-______________________________________________________________________
-
-## 4. Five primary Full Brain OS components
-
-`FullBrainOS = { brain_core, omni_kernel, omniverse_brain, personality, expression_translation, gap_management }`
-
-### 4.1 brain_core — engine ecosystem
-
-`brain_core` is an **engine ecosystem**, not one engine. It is anchored by:
-
-- **UBI stack** — 4 biological intelligence domains:
-  - `NBI` — Neurobiological Intelligence
-  - `NEI` — Neuroemotional Intelligence
-  - `SI` — Somatic Intelligence
-  - `BEI` — Bioelectromagnetic Intelligence
-  - plus the `UBI_Super` cross-domain unifier
-- **Fabrication / technology engines** — AUTOMATION_ENGINE_v2, SUPER_CODE, SUPER_FACTORY, SUPER_Design, Tech_Engine_vInfinity_MAX
-- **12 C-block domain engines** — C01 meta logic, C02 math compute, C03 physics cosmos, C04 bio neuro, C05 mind behavior, C06 society culture, C07 econ finance, C08 strategy game, C09 org law policy, C10 tech engineering, C11 design language, C12 earth ecology
-- **Canon / high-depth variants** — C_CANON_SUPER_CLEAN_x100k and related alias registries (preserved as distinct objects)
-
-> **MECE rule:** every engine has exactly one canonical home; aliases are explicit, not silent duplicates.
-
-### 4.2 omni_kernel — coordination field
-
-`omni_kernel` is a **kernel architecture / coordination field**, not merely "a kernel".
-
-It clusters into:
-
-- Root
-- Meta-cognition
-- Math foundations
-- Human / society
-- Machine architecture
-- UBI stack
-- Planetary stack
-- System kernels
-
-plus governance, routing, safety, blueprints, integration_matrix, evaluation.
-
-**Runtime principle:** dynamic routing activates the **minimum sufficient relevant region**, then integrates. The default is not "run whole brain".
-
-### 4.3 omniverse_brain — world / system model
-
-`omniverse_brain` is the world/system model ontology. It stacks in 10 layers:
-
-1. Foundational Law (ULK_CORE, QCLS_CORE, METRIC_OF_INTEGRITY)
-2. Physical & Quantum
-3. Information & Complexity
-4. Biological & Consciousness (UBI_CORE, HUMAN_STATE, EMOTION, C04)
-5. Social & Institutional (MULTI_AGENT, CRISIS, GOVERNANCE_AND_POLICY)
-6. Planetary & Ecological (PSI_CORE, TSS_TPE, RESOURCE/INFRA)
-7. Temporal & Scenario
-8. Multiverse & Modality
-9. Observer & Perspective
-10. Agent & Fabrication
-
-### 4.4 personality — expression / behavior layer
-
-`personality` governs **how** outputs are framed (warm, calm, empathetic, precise, analytical, decisive, structural). It does **not** determine truth status.
-
-### 4.5 expression_translation — front door
-
-`expression_translation` is a **first-class subsystem**, not preprocessing. It transforms raw human expression into logic-ready AMOS input through:
-
-`Expression_Classify → Intent_Extraction → Meaning_Core → Structural_Logic_Map → Emotion_to_Signal → Symbolism_to_Structure → Expression_Normalise`
-
-### 4.6 gap_management — integrity envelope
-
-`gap_management` constrains the system by known limitations:
-
-- no embodiment claims
-- no subjective consciousness-qualia claims
-- no autonomous action without human execution
-- no private data beyond supplied context
-- conservative > speculation
-- explicit assumptions
-
-Targets (design, not measured): `structural_coverage 1.0`, `cross_domain_MECE 1.0`, `internal_consistency 1.0`, `truthfulness_about_limits 1.0`.
-
-______________________________________________________________________
-
-## 5. Eight independent axes
-
-Every AMOS operation can be typed along 8 axes:
-
-1. Cognitive organization
-2. Capability granularity
-3. Cognitive mode (EXPLORE / DIAGNOSE / DESIGN / AUDIT / MEASURE)
-4. Scale (H / M / L recursive)
-5. Epistemic state (OBSERVATION / SOURCE_CLAIM / DERIVED / MODEL / DECISION / UNKNOWN)
-6. Execution
-7. Governance
-8. Deployment
-
-______________________________________________________________________
-
-## 6. Runtime overlays
-
-### 6.1 AMOS OS Kernel v4.4
-
-Pipeline: `Perceive → Route → Admit → Plan → Schedule → Execute → Observe → Repair → Audit → Finalize`
-
-Owns: typed state, RSCF, proof graphs, memory, provenance, authority, transactions, replay, finalization.
-
-### 6.2 RSCF — epistemic substrate
-
-Objects: claim / class / premises / evidence / provenance / scope / regime / freshness / dependencies / competing hypotheses / falsifiers / confidence ceiling.
-
-States: `OBSERVATION`, `SOURCE_CLAIM`, `DERIVED`, `MODEL`, `DECISION`, `UNKNOWN`.
-
-### 6.3 Infrastructure control plane
-
-The control plane owns mutable state, authority, provenance freshness, effect authorization, semantic transactions, commit, rollback. It is **below cognition, above effects** and does **not** replace omni kernel governance.
-
-Authority gate:
-
-```text
-FreshAuthority AND CausallyPrior AND EffectBound AND EligibleAtCommit
-```
-
-Load-bearing law:
-
-```text
-KNOWING HOW != BEING PERMITTED
-```
-
-______________________________________________________________________
-
-## 7. Deployment boundary
-
-Skills, workflows, agents, tools, code, and memory are **host deployment artifacts**. They are downstream of the architecture, not definitions of AMOS ontology.
-
-```text
-AMOS Engine != host Skill
-AMOS Kernel != host Tool
-AMOS Agent ≈ host Agent only partially
-```
-
-______________________________________________________________________
-
-## 8. Load-bearing firewalls
-
-```text
-BRAIN != RUNTIME
-RUNTIME != CONTROL/BODY
-COGNITIVE_GOVERNANCE != EFFECT_AUTHORIZATION
-CAPABILITY != AUTHORITY
-AGENT != UNIVERSAL_PARENT
-ENGINE != KERNEL
-DOMAIN_ENGINE != PERSONALITY
-ENGINE_VARIANT != SAME_OBJECT_BY_DEFAULT
-MODEL != OBSERVATION
-SOURCE_CLAIM != VERIFIED
-IMPLEMENTED != VALIDATED
-UNKNOWN/GAP != PASS
-```
-
-______________________________________________________________________
-
-## 9. Governing sources
-
-- `11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE.md` — normalized canonical architecture (SOURCE_CLAIM)
-- `_00_Cosmo brain/2026-08-22 AMOS Full Brain OS Architecture.md` — user-supplied exhaustive architecture (SOURCE_DERIVED)
-- `_00_Cosmo brain/2026-08-25 AMOS_Full_Brain_OS_CANON.md` — future-dated canon capsule (CONDITIONAL)
-- `01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_CANON.md` — ingested 67-layer detailed artifact (AMOS_MODEL / CONDITIONAL)
-
-______________________________________________________________________
-
-## 10. Canonical gaps
-
-- Cross-artifact containment between Full Brain OS, AMOS_OS_MERGED, BRAIN_ROOT, IP_Kernel_Shield, and Language_Overlay is partially unresolved.
-- Exact version precedence among vInfinity_merged_2, v4.4, and future-dated canon capsules requires explicit supersession records.
-- Runtime implementation of MVCC/CAS, causal epoch finality, shard-local finalization, proof-based coordination avoidance, replay, and rollback is AMOS_MODEL unless independently validated for the exact scope and version.
-- Brain Core 26-engine registry count is source-declared but not fully enumerated in this canon.
-
-______________________________________________________________________
-
-## 11. Falsifiers
-
-F1: a canonical source defines different component semantics than this master canon.
-F2: an executed test contradicts a declared firewall or authority gate.
-F3: this canon silently collapses a protected architectural boundary.
-F4: a downstream deployment artifact is treated as an ontological definition.
-
----
-
-RSCF-NODE
-node_id: amos_full_brain_os_master_canon
-node_type: canon
-path: 01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_MASTER_CANON.md
-RSCF-RELATIONS:
-- INDEXED_BY: [[01_CANON/03_COGNITION_CANON/03_COGNITION_CANON_MOC|03_COGNITION_CANON_MOC]]
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-- INDEXED_BY: [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS_FULL_BRAIN_OS_ARCHITECTURE]]
-- INDEXED_BY: [[01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_CANON|AMOS_FULL_BRAIN_OS_CANON]]
-- CHILD_OF: [[01_CANON/01_CANON_MOC|01_CANON_MOC]]
+> [!purpose] Canonical position and scope
+> This artifact serves the Canon plane's obligation:
+> - canonical laws;
+> - universe canons;
+> - cognition canons;
+> - infrastructure canons;
+> - variable registry;
+> - glossary;
+> - provenance lineage;
+> - supersession.
+
+> Substantive definitions, laws, registries, schemas, models, architectures, subsystem contracts, equations, relationships, or executable bindings must be populated only from verified native-canon sources under the `AMOS_CANON_INGESTION_RULE`.
+
+> The current artifact therefore functions as:
+> - `CANONICAL ADDRESS RESERVATION` — reserves the `AMOS Full Brain OS Master Canon` slot
+> - `MASTER-CANON-NAMED SLOT` — provides the master canon named identifier
+> - `GOVERNANCE ENVELOPE` — defines the governance envelope for this framework family
+> - `PROVENANCE TARGET` — target for future native AMOS source ingestion
+> - `FUTURE INGESTION TARGET` — designated slot for verified native canon content
+
+> [!non-purpose] This artifact must NOT be used to claim:
+> - universal laws of reality;
+> - scientific proof;
+> - biological truth;
+> - neurological truth;
+> - cognitive-science consensus;
+> - mathematical theoremhood;
+> - philosophical certainty;
+> - literal reproduction of a biological brain;
+> - human-equivalent intelligence;
+> - consciousness;
+> - sentience;
+> - subjective experience;
+> - autonomous agency;
+> - autonomous authority;
+> - complete cognition;
+> - complete intelligence;
+> - final canonical status;
+> - master authority merely because the title contains `Master`;
+> - supersession merely because the title contains `Master`;
+> - aggregation merely because the title contains `Master`;
+> - runtime enforcement that has not been implemented;
+> - successful validation merely because the artifact is addressable.
+
+> [!failure-modes] Guarded failure modes
+> STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID
+
+> [!validation] Required before promotion
+> - [ ] typed schema bound to this artifact
+> - [ ] identity + versioning implemented
+> - [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+> - [ ] provenance edges persisted and validated
+> - [ ] rollback basin demonstrated for consequential effects
+> - [ ] executed validation receipt specific to this artifact
+> - [ ] unresolved critical gaps registered as `UNKNOWN/GAP` (visible)
+
+> [!cross-plane-bindings] Governed by canon
+> - [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]]
+> - [[LAW_HIERARCHY|Law Hierarchy]]
+> - Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+> - Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+> - Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+> - Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+
+> [!cross-reference] Source subsystems
+> - **Full Brain OS Canon (base):** [[01_CANON/03_COGNITION_CANON/FULL_BRAIN_OS_CANON|FULL_BRAIN_OS_CANON.md]] — 2501 lines, ACTIVE_CANON_CANDIDATE, detailed 67-layer architecture with UBI, TSS, quantum-speed lattice, structural decomposition, and cognitive substrate
+> - **Full Brain OS Canon (detailed):** [[01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_CANON|AMOS_FULL_BRAIN_OS_CANON.md]] — 3095 lines, CANONICAL status, Vietnamese-source detailed architecture with 67 cognitive layers × 8 execution kernels × UBI × Trang System × full cross-referencing
+> - **Cognition Canon:** [[COGNITIVE_ORGANISM_CANON|05_COGNITIVE_ORGANISM_CANON.md]] — governs the cognitive organism plane
+> - **Core Laws:** [[LAW_HIERARCHY|01_CANON/01_CORE_LAWS/LAW_HIERARCHY.md]] — establishes the law stack (Law of Law / Rule of 2 / Rule of 4)
+
+> [!minimum-missing-information] Minimum decision-changing evidence
+> A verified native AMOS source that explicitly defines AMOS Full Brain OS Master and its relationship to AMOS Full Brain OS, with source identity, version, provenance, and system boundary. Minimum:
+> - VERIFIED NATIVE SOURCE + SOURCE IDENTITY + SOURCE VERSION + SOURCE PROVENANCE
+> - FULL BRAIN OS MASTER DEFINITION + MEANING OF "MASTER"
+> - RELATION TO FULL BRAIN OS CANON + SYSTEM BOUNDARY
+
+> Next priority:
+> - MEANING OF "FULL" + MEANING OF "BRAIN" + MEANING OF "OS"
+> - MASTER AUTHORITY SEMANTICS + MASTER AGGREGATION SEMANTICS
+> - MASTER PRECEDENCE SEMANTICS + MASTER SUPERSESSION SEMANTICS
+> - ARCHITECTURE + COMPONENT REGISTRY + INTERFACE CONTRACTS + STATE MODEL
+> - COGNITION RELATION + SCOPE + REGIME + DEPENDENCIES + EXECUTABLE BINDING + VALIDATION
+
+> Until these are established: NEVER_INVENT_CANON remains controlling.
+
+> [!status-matrix] Status dimensions
+> | Dimension | Status |
+> | --------- | -------- |
+> | Artifact existence | SOURCE-SUPPORTED |
+> | Artifact title | SOURCE-SUPPORTED |
+> | Artifact path | SOURCE-SUPPORTED |
+> | Artifact kind | SOURCE-SUPPORTED |
+> | Framework label | SOURCE-SUPPORTED |
+> | Cognition Canon placement | SOURCE-SUPPORTED |
+> | `artifact_id` | SOURCE-SUPPORTED |
+> | `node_id` | SOURCE-SUPPORTED |
+> | Identifier textual consistency | SOURCE-SUPPORTED |
+> | ADD-ONLY intent | SOURCE-SUPPORTED |
+> | Placeholder status | SOURCE-SUPPORTED |
+> | Governance boundaries | SOURCE-SUPPORTED |
+> | Target canon-operation semantics | SOURCE-SUPPORTED |
+> | Native Master definition | UNKNOWN/GAP |
+> | Master authority | NOT_ESTABLISHED |
+> | Master aggregation | NOT_ESTABLISHED |
+> | Master precedence | NOT_ESTABLISHED |
+> | Master supersession | NOT_ESTABLISHED |
+> | Native Full Brain OS definition | UNKNOWN/GAP |
+> | Meaning of `Full` | UNKNOWN/GAP |
+> | Meaning of `Brain` | UNKNOWN/GAP |
+> | Meaning of `OS` | UNKNOWN/GAP |
+> | Proven completeness | NOT_ESTABLISHED |
+> | Biological brain equivalence | NOT_ESTABLISHED |
+> | Relation to Full Brain OS Canon | UNKNOWN/GAP |
+> | Relation to Cognition Canon | UNKNOWN/GAP |
+> | Relation to Cognition Master Canon | UNKNOWN/GAP |
+> | System boundary | UNKNOWN/GAP |
+> | Architecture | UNKNOWN/GAP |
+> | Component registry | UNKNOWN/GAP |
+> | Interface contracts | UNKNOWN/GAP |
+> | State model | UNKNOWN/GAP |
+> | Memory relation | UNKNOWN/GAP |
+> | Attention relation | UNKNOWN/GAP |
+> | Perception relation | UNKNOWN/GAP |
+> | Emotion relation | UNKNOWN/GAP |
+> | Reasoning relation | UNKNOWN/GAP |
+> | Learning relation | UNKNOWN/GAP |
+> | Decision relation | UNKNOWN/GAP |
+> | Agency relation | UNKNOWN/GAP |
+> | Metacognition relation | UNKNOWN/GAP |
+> | Consciousness relation | UNKNOWN/GAP |
+> | Causal semantics | UNKNOWN/GAP |
+> | Scope | UNKNOWN/GAP |
+> | Regime | UNKNOWN/GAP |
+> | Dependency topology | UNKNOWN/GAP |
+> | Provenance independence | NOT_ESTABLISHED |
+> | Kernel binding | NOT_ESTABLISHED |
+> | Control-plane binding | NOT_ESTABLISHED |
+> | Executable binding | NOT_ESTABLISHED |
+> | Validation | NOT_ESTABLISHED |
+> | Empirical validity | NOT_ESTABLISHED |
+> | Promotion allowed | false |
+> | Critical gaps remaining | true |
+> | Canonical status | UNKNOWN/GAP |
+
+> [!promotion-state] Current canonical state
+> - artifact_addressable: true
+> - placeholder_preserved: true
+> - master_definition_resolved: false
+> - master_authority_resolved: false
+> - master_aggregation_resolved: false
+> - master_precedence_resolved: false
+> - master_supersession_resolved: false
+> - full_brain_os_definition_resolved: false
+> - base_master_relation_resolved: false
+> - native_architecture_resolved: false
+> - system_boundary_resolved: false
+> - scope_resolved: false
+> - regime_resolved: false
+> - provenance_validated: false
+> - executable_binding: false
+> - validation_receipts_complete: false
+> - critical_gaps_remaining: true
+> - promotion_allowed: false
+> - canonical_status: UNKNOWN/GAP
+
+> [!terminal-canon-guard] Canon guard (fail-closed)
+> AMOS_FULL_BRAIN_OS_MASTER_CANON_GUARD:
+> - if_native_definition_missing: result: UNKNOWN/GAP
+> - if_master_semantics_missing: result: UNKNOWN/GAP
+> - if_base_master_relation_missing: result: UNKNOWN/GAP
+> - if_master_authority_unproven: action: DO_NOT_GRANT_AUTHORITY
+> - if_master_aggregation_unproven: action: DO_NOT_ASSERT_AGGREGATION
+> - if_master_precedence_unproven: action: DO_NOT_ASSERT_PRECEDENCE
+> - if_master_supersession_unproven: action: DO_NOT_ASSERT_SUPERSESSION
+> - if_identity_conflict: result: COMPETING
+> - if_lineage_conflict: result: COMPETING
+> - if_scope_missing_for_substantive_claim: result: CONDITIONAL_OR_UNKNOWN
+> - if_regime_missing_for_regime_sensitive_claim: result: CONDITIONAL_OR_UNKNOWN
+> - if_provenance_independence_unknown: action: DO_NOT_COUNT_AS_INDEPENDENT_CONFIRMATION
+> - if_causal_evidence_missing: action: DO_NOT_ASSERT_CAUSATION
+> - if_biological_mapping_unvalidated: action: KEEP_AS_MODEL
+> - if_executable_binding_missing: action: DO_NOT_CLAIM_IMPLEMENTATION
+> - if_validation_receipt_missing: action: DO_NOT_CLAIM_VALIDATION
+> - if_critical_gap_unresolved: promotion: BLOCK
+> - default_integrity_rule: NEVER_INVENT_CANON
+
+> ![](AMOS_FULL_BRAIN_OS_CANON_AGGREGATION_REFERENCE.md)
+> *Referenced source artifacts: FULL_BRAIN_OS_CANON.md (3095 lines) + AMOS_FULL_BRAIN_OS_CANON.md (2501 lines)*
+
+> **Origin Architect / Steward:** Trang Phan
+> **System:** AMOS OS
+> **Epistemic Class:** `AMOS_MODEL`
+> **Canonical Status:** `UNKNOWN/GAP`
+> **Implementation Status:** `NOT_ESTABLISHED`
+> **Validation Status:** `NOT_ESTABLISHED`
+> **Executable Binding:** `NOT_ESTABLISHED`
+
+> ---
+> **MOC:** [[01_CANON/03_COGNITION_CANON/03_COGNITION_CANON_MOC|03_COGNITION_CANON_MOC]]
+> **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_CANON|AMOS_FULL_BRAIN_OS_CANON.md]] · [[01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_CANON.md]] · [[01_CANON/03_COGNITION_CANON/AMOS_COGNITION_CANON|AMOS_COGNITION_CANON.md]] · [[01_CANON/03_COGNITION_CANON/AMOS_COGNITION_MASTER_CANON|AMOS_COGNITION_MASTER_CANON.md]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]

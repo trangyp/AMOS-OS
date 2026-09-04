@@ -1,65 +1,21 @@
 ---
-type: canon
-source: 01_CANON/02_UNIVERSE_CANON
-artifact_id: AMOS-7-PART-UNIVERSE-CANON
-name: AMOS_7_PART_UNIVERSE_CANON
-title: "AMOS 7-Part Universe Canon — Universal Partition, Boundary, and Integration Model"
-document_version: 2.0.0
-canon_version: 4.4
-amos_core_target: v4.4
-status: ACTIVE_CANON_CANDIDATE
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
 conclusion_class: AMOS_MODEL
-rscf_state: derived
-canon_group: tech-ai
-canon_type: universe-canon
-origin_architect: Trang Phan
-steward: Trang Phan
-created: 2026-08-25
-updated: 2026-08-25
+epistemic_class: SOURCE_CLAIM
+topic: Amos 7 Part Universe Canon
 tags:
-  - amos
-  - canon
-  - universe
-  - amos-os
-  - amos-core
-  - amos-core-v4-4
-  - seven-part-universe
-  - architecture
-  - system-boundary
-  - decomposition
-  - integration
-  - authority
-  - provenance
-  - state
-  - cognition
-  - execution
-  - environment
-  - governance
-  - rscf
-  - hml
   - canon-group/tech-ai
-  - canon/framework
-  - canon/model
   - rscf/claim
   - rscf/provenance
-  - rscf/state/derived
-  - topic/amos-7-part-universe
-  - readme
-  - neural-network
-  - authoritative-state
-  - placement-rules
-  - amos-core-laws
-  - law-hierarchy
-  - amos-full-brain-os-architecture
-  - operating-model
-  - cognitive-matrix-architecture
-aliases:
-  - AMOS 7-Part Universe - AMOS Seven-Part Universe - AMOS Universe Canon - AMOS Universal Parti
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: universe_canon
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS 7-Part Universe Canon
@@ -1021,7 +977,7 @@ P6 EXECUTION / AGENCY
     ↔ 04_RUNTIME
       06_AGENTS
       07_SKILLS
-      08_WORKFLOWS
+      26_WORKFLOWS
       09_PROTOCOLS
       14_TOOLS
 
@@ -1987,7 +1943,7 @@ UNKNOWN/GAP != PASS
 
 ______________________________________________________________________
 
-**Related:** README|AMOS OS · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|MOC · [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]|Architecture · [[00_ROOT/SYSTEM_MAP|SYSTEM_MAP]]|System Map · [[00_ROOT/NEURAL_NETWORK|NEURAL_NETWORK]]|AMOS Neural Network · [[00_ROOT/AUTHORITATIVE_STATE|AUTHORITATIVE_STATE]]|Authoritative State · [[00_ROOT/PLACEMENT_RULES|PLACEMENT_RULES]]|Placement Rules · AMOS Canon · [[01_CANON/00_INDEX/CANON_MAP|CANON_MAP]]|Canon Map · [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/INVARIANT_REGISTRY|INVARIANT_REGISTRY]]|Invariant Registry · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|Law Hierarchy · [[02_KERNEL/00_INDEX/KERNEL_MAP|KERNEL_MAP]]|Kernel Map · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]]|Control Plane Map · [[04_RUNTIME/00_INDEX/RUNTIME_MAP|RUNTIME_MAP]]|Runtime Map · [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP|COGNITIVE_ORGANISM_MAP]]|Cognitive Organism · [[06_AGENTS/00_INDEX/AGENT_MAP|AGENT_MAP]]|Agents · [[07_SKILLS/00_INDEX/SKILL_MAP|SKILL_MAP]]|Skills · [[08_WORKFLOWS/00_INDEX/WORKFLOW_MAP|WORKFLOW_MAP]]|Workflows · [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP|MEMORY_MEMORY_MAP]]|Memory · [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture]] · [[12_STATE/00_INDEX/STATE_STATE_MAP|STATE_STATE_MAP]]|State · [[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]]|Models · [[14_TOOLS/00_INDEX/TOOL_MAP|TOOL_MAP]]|Tools · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY_OBSERVABILITY_MAP]]|Observability · [[18_SECURITY/00_INDEX/SECURITY_MAP|SECURITY_MAP]]|Security · [[19_TESTS/00_INDEX/TEST_MAP|TEST_MAP]]|Tests · [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP|OPERATIONS_MAP]]|Operations · [[21_DOMAINS/00_INDEX/DOMAIN_ALIAS_MAP|DOMAIN_ALIAS_MAP]]|Domains · [[22_RESEARCH/00_INDEX/INDEX_RESEARCH_README|INDEX_RESEARCH_README]]|Research · [[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL|OPERATING_MODEL]]|Operating Model · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_ARCHITECTURE|COGNITIVE_MATRIX_ARCHITECTURE]]|Cognitive Matrix
+**Related:** README|AMOS OS · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|MOC · [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]|Architecture · [[00_ROOT/SYSTEM_MAP|SYSTEM_MAP]]|System Map · [[00_ROOT/NEURAL_NETWORK|NEURAL_NETWORK]]|AMOS Neural Network · [[00_ROOT/AUTHORITATIVE_STATE|AUTHORITATIVE_STATE]]|Authoritative State · [[00_ROOT/PLACEMENT_RULES|PLACEMENT_RULES]]|Placement Rules · AMOS Canon · [[01_CANON/00_INDEX/CANON_MAP|CANON_MAP]]|Canon Map · [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/INVARIANT_REGISTRY|INVARIANT_REGISTRY]]|Invariant Registry · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|Law Hierarchy · [[02_KERNEL/00_INDEX/KERNEL_MAP|KERNEL_MAP]]|Kernel Map · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]]|Control Plane Map · [[04_RUNTIME/00_INDEX/RUNTIME_MAP|RUNTIME_MAP]]|Runtime Map · [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP|COGNITIVE_ORGANISM_MAP]]|Cognitive Organism · [[06_AGENTS/00_INDEX/AGENT_MAP|AGENT_MAP]]|Agents · [[07_SKILLS/00_INDEX/SKILL_MAP|SKILL_MAP]]|Skills · [[26_WORKFLOWS/00_INDEX/WORKFLOW_MAP|WORKFLOW_MAP]]|Workflows · [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP|MEMORY_MEMORY_MAP]]|Memory · [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture]] · [[12_STATE/00_INDEX/STATE_STATE_MAP|STATE_STATE_MAP]]|State · [[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]]|Models · [[14_TOOLS/00_INDEX/TOOL_MAP|TOOL_MAP]]|Tools · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY_OBSERVABILITY_MAP]]|Observability · [[18_SECURITY/00_INDEX/SECURITY_MAP|SECURITY_MAP]]|Security · [[19_TESTS/00_INDEX/TEST_MAP|TEST_MAP]]|Tests · [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP|OPERATIONS_MAP]]|Operations · [[21_DOMAINS/00_INDEX/DOMAIN_ALIAS_MAP|DOMAIN_ALIAS_MAP]]|Domains · [[22_RESEARCH/00_INDEX/INDEX_RESEARCH_README|INDEX_RESEARCH_README]]|Research · [[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL|OPERATING_MODEL]]|Operating Model · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_ARCHITECTURE|COGNITIVE_MATRIX_ARCHITECTURE]]|Cognitive Matrix
 
 ______________________________________________________________________
 

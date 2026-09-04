@@ -1,24 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Agent Skills
-type: note
-source: 00_ROOT
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Agent Skills
 tags:
-  - agent-skills
-  - skills
-  - agent
-  - context-engineering
-  - capability-routing
-  - skill-registry
-  - provenance
-  - amos-os
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: "11_KNOWLEDGE/LLM_WIKI/raw/"
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Agent Skills
@@ -1588,3 +1585,6 @@ Each transition requires its own evidence and governance.
 ______________________________________________________________________
 
 **MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+
+```
+```

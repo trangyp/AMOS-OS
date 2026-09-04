@@ -1,112 +1,21 @@
 ---
-title: Heritage × TSS
-type: heritage
-source: 25_COGNITIVE_MATRIX
-artifact: HERITAGE_X_TSS.md
-artifact_id: amos_25_cognitive_matrix_heritage_x_tss
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 25_COGNITIVE_MATRIX
-segment: 25_COGNITIVE_MATRIX
-artifact_kind: ARTIFACT
-path: 25_COGNITIVE_MATRIX/HERITAGE_X_TSS.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Heritage X Tss
 tags:
-  - amos-os
-  - cognitive-matrix
-  - artifact
-  - heritage
-  - heritage_intelligence
-  - heritage_decision_intelligence
-  - tss
-  - trang_system
-  - decision_governance
-  - system_lifecycles
-  - lifecycle_transitions
-  - structural_dynamics
-  - trust_scoring
-  - collapse_probability
-  - collapse_avoidance
-  - regime_shift
-  - timing_readiness
-  - self_refutation
-  - gap_classification
-  - ethical_refusal
-  - rollback
-  - authority
-  - decision_receipt
-  - viability_preservation
-  - reversible_action
-  - staged_action
-  - provenance
-  - scope
-  - regime
-  - rscf
-  - canon_candidate
-  - domain/cognitive-matrix
-  - heritage-x-tss-matrix
-  - diagnosis
-  - memory
-  - amos-x-tss
-  - amos-x-tpe
-  - amos-x-qls
-  - amos-x-qcla
-  - heritage-x-trang-zero
-  - validation
-  - canon
-  - tss-the-trang-system-official-manual
-  - k-rscf
-  - k-hml
-  - k-gmef
-  - k-provenance
-  - k-provenance-topology
-  - k-failure-recovery
-  - k-causal-epoch
-  - k-mvcc
-  - k-cas
-  - k-atomic-multi-rscf
-  - amos-core-v4-4
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-formal_verification_status: NOT_ESTABLISHED
-runtime_enforcement_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - HERITAGE_INTELLIGENCE_CANON
-    - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
-    - AMOS_CORPUS
-  scope:
-    - DECISION_GOVERNANCE
-    - SYSTEM_LIFECYCLES
-    - COGNITIVE_MATRIX
-framework_binding:
-  heritage:
-    name: Heritage Decision Intelligence™
-    role: DECISION_INTELLIGENCE_AND_GOVERNANCE
-  tss:
-    name: The Trang System™
-    role: STRUCTURAL_SYSTEMS_DYNAMICS_AND_CYCLES
-  matrix_conjunction:
-    name: Heritage × TSS Matrix
-    artifact:
-      -   - HERITAGE_X_TSS_MATRIX
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  framework_structure: VERIFIED_SOURCE_STRUCTURE
-  decision_rules: SOURCE_DEFINED_MODEL
-  historical_generality: SOURCE_CLAIM
-  empirical_decision_advantage: NOT_ESTABLISHED_GLOBALLY
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Heritage × TSS

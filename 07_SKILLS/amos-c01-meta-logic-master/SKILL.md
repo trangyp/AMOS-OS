@@ -1,51 +1,21 @@
 ---
-schema_version: 1.0
-title: SKILL — Amos C01 Meta Logic Master
-type: skill
-source: 07_SKILLS/amos-c01-meta-logic-master
-name: amos-c01-meta-logic-master
-description: 'AMOS C01 Meta Logic — irreducible logic core: 8 ALUs, 7 UMLs, 6 UOPs, 5 Pattern Families. Law of Law, Rule of 2, Rule of 4. Use when logic reasoning, decomposition, or meta-law validation. Do not use for generic tasks outside c01 domain.'
-parent_skill: none
-domain: c01
-origin_architect: Trang Phan
-epistemic_class: SOURCE_CANON
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Skill
 tags:
-  - type/skill
-  - type/skill
-  - domain/meta-logic
-  - epistemic/source_claim
-  - hml/h
-  - epistemic/source_canon
-  - amos-os
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
-version: 1.1.0
-rscf_state: SOURCE_CLAIM
-hml_level: H
-gmef_gates:
-  - L0_integrity
-  - L1_epistemic
-  - L2_provenance
-  - L5_scope
-  - L7_authority
-collapse_class: reversible
-qfm_gate_set: QFM_v43
-law_compliance:
-  - L0
-  - L1
-  - L2
-  - L4
-  - L5
-  - L7
-  - L16
-  - L17
-  - L18
-  - L19
-license: MIT
-steward: Trang Phan
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS C01 — Meta-Logic Master Knowledge

@@ -1,21 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: resource optimization final
-type: reference
-source: 07_SKILLS/amos-os-runtime-master/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Resource Optimization Final
 tags:
-  - reference
-  - amos-os-runtime-master
-  - type/skill
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Resource Optimization Final Report
@@ -95,14 +95,14 @@ class AMOSBrainResourceOptimizer2026:
 ### Tensor Field Resource Analysis
 
 ```python
-## Resource tensor field representation
+# Resource tensor field representation
 resource_tensor = np.array([
     [cpu_percent/100.0, memory_percent/100.0, swap_percent/100.0, 0.5],
     [memory_used_mb/10000.0, memory_available_mb/10000.0, 0.3, 0.7],
     [active_processes/100.0, process_count/200.0, 0.4, 0.6]
 ])
 
-## Exploitation factor calculation
+# Exploitation factor calculation
 exploitation = {
     "cpu_exploitation": min(1.0, cpu_percent / 100.0),
     "memory_exploitation": min(1.0, memory_percent / 100.0),

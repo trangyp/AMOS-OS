@@ -1,19 +1,16 @@
 ---
-title: AUTHORITY PERMISSION MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-type: authority
-source: 03_CONTROL_PLANE/09_COMMIT/38_AUTHORITY_PERMISSION_MODES
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Authority Permission Modes Commit Control Plane Mode Family Registry
 tags:
-  - control-plane
-  - 38_authority_permission_modes
-  - canon/control-plane
-  - authz-engine-validation-receipt
-  - routing-policy-validation-receipt
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: DERIVED
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AUTHORITY PERMISSION MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

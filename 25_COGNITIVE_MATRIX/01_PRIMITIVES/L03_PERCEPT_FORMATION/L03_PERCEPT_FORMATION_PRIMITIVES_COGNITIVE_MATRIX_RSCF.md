@@ -1,21 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: L03 PERCEPT FORMATION PRIMITIVES COGNITIVE MATRIX RSCF
-type: cognitive
-source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: L03 Percept Formation Primitives Cognitive Matrix Rscf
 tags:
-  - cognitive-matrix
-  - primitives
-  - matrix/l03-percept-formation
-  - note
-  - domain/cognitive-matrix
-rscf:
-  state: DERIVED
-  claim_class: EMPIRICAL
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # L03_PERCEPT_FORMATION — RSCF
@@ -1077,7 +1072,7 @@ gap_status:
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

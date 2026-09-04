@@ -1,0 +1,56 @@
+---
+schema_version: 1.0
+title: SKILL — Operational Modes
+type: skill
+source: 07_SKILLS/amos-operational-modes
+name: amos-operational-modes
+description: Three safety envelopes: SAFE_INTROSPECTION_ONLY, EXTERNAL_WRITE_LOW_RISK, EXPERIMENTAL_BUILD. Selects runtime mode from risk assessment. Use when the parent skill (amos-os-runtime-master) routes to this specialized capability. Do not use for generic tasks outside runtime domain.
+parent_skill: amos-os-runtime-master
+domain: runtime
+origin_architect: Trang Phan
+epistemic_class: SOURCE_CLAIM
+tags:
+  - type/skill
+  - domain/runtime
+  - epistemic/source_claim
+  - hml/m
+  - amos-os
+  - skill
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: 1.0.0
+rscf_state: SOURCE_CLAIM
+hml_level: M
+collapse_class: reversible
+license: MIT
+steward: Trang Phan
+---
+
+# Operational Modes
+
+## Identity
+
+Origin architect: **Trang Phan**. Domain: runtime. Parent: amos-os-runtime-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+## When to Use
+
+- Three safety envelopes: SAFE_INTROSPECTION_ONLY, EXTERNAL_WRITE_LOW_RISK, EXPERIMENTAL_BUILD. Selects runtime mode from risk assessment.
+- When the parent skill (`amos-os-runtime-master`) routes to this specialized capability.
+- Do not use for generic tasks outside the runtime domain.
+
+## Capabilities
+
+- Provide governed runtime reasoning for the Operational Modes capability.
+- Maintain RSCF epistemic boundaries (`SOURCE_CLAIM`, `DERIVED`, `AMOS_MODEL`, `UNKNOWN/GAP`).
+- Coordinate with parent skill and related AMOS OS planes.
+
+## Implementation Status
+
+`AMOS_MODEL` / `DERIVED` — structural specification present. Executable closure must be independently established for the exact scope and version.
+
+______________________________________________________________________
+
+**MOC:** [[07_SKILLS/amos-operational-modes/amos-operational-modes_MOC|Operational Modes MOC]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

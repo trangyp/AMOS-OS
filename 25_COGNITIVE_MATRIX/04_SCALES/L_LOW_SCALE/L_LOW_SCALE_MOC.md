@@ -1,29 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: L Low Scale MOC
-type: moc
-source: 25_COGNITIVE_MATRIX/04_SCALES/L_LOW_SCALE
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: L Low Scale Moc
 tags:
-  - l-low-scale
-  - domain/cognitive-matrix
-  - l-low-scale-scales-cognitive-matrix-rscf
-  - scales-cognitive-matrix-boundaries
-  - scales-cognitive-matrix-semantics
-  - l-low-scale-scales-cognitive-matrix-control-planes
-  - l-low-scale-scales-cognitive-matrix-definition
-  - l-low-scale-scales-cognitive-matrix-dependencies
-  - l-low-scale-scales-cognitive-matrix-gap-matrix
-  - l-low-scale-scales-cognitive-matrix-invariants
-  - l-low-scale-scales-cognitive-matrix-tests
-  - scales-cognitive-matrix-translation-rules
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # L Low Scale — Map of Content

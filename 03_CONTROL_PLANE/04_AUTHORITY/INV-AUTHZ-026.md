@@ -1,99 +1,104 @@
 ---
-title: "INV-AUTHZ-026 — Determinism in Kernel Inferences"
-type: authority_invariant
-source: 03_CONTROL_PLANE/04_AUTHORITY
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_INVARIANT
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT
-    - 01_CANON/01_CORE_LAWS/LAW_HIERARCHY
-  scope: authority_governance
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Inv Authz 026
 tags:
-  - amos-os
-  - authority
-  - invariant
-  - control-plane
-  - inv-authz-026
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# INV-AUTHZ-026 — Determinism in Kernel Inferences
+# INV-AUTHZ-026
 
-## 1. Formal Specification
+## 0. Status
 
-> **Invariant Statement:**
-> `Given identical inputs and seeds, kernel reasoning primitives must produce identical state transitions.`
+Control Plane-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
 
-## 2. Invariant Rule & Mathematical Formulation
+## 1. Purpose
 
-Let $f$ be a kernel reasoning primitive, $x$ the input, $s$ the random seed, and $\Delta$ the state transition:
+`INV-AUTHZ-026` defines typed artifact specification, serving the Control Plane plane's obligation: governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback.
 
-$$\forall f \in \mathcal{F}_{\text{kernel}}, \forall x, \forall s, \quad f(x, s) = \Delta \implies f(x, s) = \Delta \text{ (always)}$$
+## 2. Semantics
 
-The determinism property requires:
+- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
+- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
+- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
 
-$$\forall x_1 = x_2, \forall s_1 = s_2, \quad f(x_1, s_1) = f(x_2, s_2)$$
+## 3. Failure modes guarded
 
-No hidden state may influence the output:
+STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
 
-$$\text{HiddenState}(f) = \emptyset \implies \text{Deterministic}(f)$$
+## 4. Validation
 
-The state transition is a pure function of inputs and seeds:
+No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
 
-$$\Delta = f(x, s) \quad \text{where } f \text{ is pure}$$
+## 5. Gaps
 
-Non-determinism detection:
+Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
 
-$$\text{DetectNonDet}(f) = \exists x, s : f(x, s) \neq f(x, s) \text{ on repeated calls}$$
+## 6. Falsifiers
 
-## 3. Enforcement & Verification
+F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
 
-- **Evaluation Point:** Evaluated at the kernel inference execution gate. Each kernel reasoning primitive is tested for determinism before being admitted to the kernel primitive registry.
-- **Violation Consequence:** If a kernel primitive produces non-deterministic results, it is immediately removed from the registry. A `NONDETERMINISM_VIOLATION` receipt is emitted to `17_OBSERVABILITY`. All state transitions produced by the primitive are flagged for review.
-- **Recovery Procedure:** The non-deterministic primitive must be debugged and re-verified. Any state transitions it produced are rolled back using the rollback basin per [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-010|INV-AUTHZ-010]].
-- **Verification Cadence:** Continuous determinism testing at primitive registration. Periodic re-verification of registered primitives with random input/seed pairs.
-- **Governed By:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+## Worked semantics
 
-## 4. Attack Vectors & Mitigations
+Given an operation touching `INV-AUTHZ-026` within the Control Plane plane:
 
-- **Hidden State Injection:** An attacker introduces hidden state into a kernel primitive to make its output unpredictable. Mitigated by the purity requirement and by determinism testing that detects hidden state influence.
-- **Seed Manipulation:** An attacker manipulates the random seed to produce biased outputs. Mitigated by the seed being cryptographically generated and bound to the transaction, preventing manipulation.
-- **Floating-Point Non-Determinism:** Different hardware platforms produce different floating-point results for the same operation. Mitigated by requiring fixed-precision arithmetic or software-emulated floating point in kernel primitives.
-- **Race Condition Introduction:** An attacker introduces a race condition into a kernel primitive to create non-determinism. Mitigated by the purity requirement that prohibits shared mutable state.
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-## 5. Dependencies & Prerequisites
+## Promotion-gate checklist
 
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-038|INV-AUTHZ-038]] — Causal cycle prevention ensures the state dependency graph is a DAG, supporting deterministic replay.
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-044|INV-AUTHZ-044]] — Merkle tree proof verification enables state transition verification.
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-010|INV-AUTHZ-010]] — Rollback basin pre-condition enables recovery from non-deterministic state transitions.
-- **Requires:** A deterministic execution environment for kernel primitives.
-- **Requires:** A cryptographic seed generation mechanism.
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-## 6. Provenance & Audit Trail
+## Cross-plane bindings
 
-- **Receipt Type:** `DETERMINISM_VERIFICATION_RECEIPT` — emitted for every kernel primitive registration and re-verification, recording the test inputs, seeds, and results.
-- **Storage Location:** `17_OBSERVABILITY` with primitive-ID-indexed partitions.
-- **Receipt Fields:** Primitive ID, test input set, seed set, output set, determinism check result, registration status, BLAKE3 hash.
-- **Immutability:** Determinism verification receipts are append-only per [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-014|INV-AUTHZ-014]].
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-## 7. Related Invariants
+______________________________________________________________________
 
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-010|INV-AUTHZ-010]] — Rollback Basin Pre-condition
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-029|INV-AUTHZ-029]] — Snapshot Isolation Consistency
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-038|INV-AUTHZ-038]] — Causal Cycle Prevention
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-044|INV-AUTHZ-044]] — Merkle Tree Proof Verification
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-049|INV-AUTHZ-049]] — Global Finality Horizon Check
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
-## 8. Navigation & Bindings
+______________________________________________________________________
 
-- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
-- **Control Plane Contract:** [[03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT|CONTROL_PLANE_CONTRACT]]
-- **Canon Law Hierarchy:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- **Kernel:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
-- **Observability:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: cp_03_control_plane_04_authority_inv_authz_026_md
+node_type: note
+path: 03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-026.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04_AUTHORITY_MOC]]
+
+______________________________________________________________________
+
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

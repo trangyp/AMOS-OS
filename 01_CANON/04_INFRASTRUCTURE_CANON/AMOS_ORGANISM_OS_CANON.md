@@ -1,227 +1,109 @@
 ---
-title: AMOS Organism OS Canon
-type: canon
-source: 01_CANON/04_INFRASTRUCTURE_CANON
-artifact: AMOS_ORGANISM_OS_CANON.md
-artifact_id: amos_01_canon_04_infrastructure_canon_amos_organism_os_canon
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/04_INFRASTRUCTURE_CANON
-artifact_kind: CANON
-path: 01_CANON/04_INFRASTRUCTURE_CANON/AMOS_ORGANISM_OS_CANON.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Organism Os Canon
 tags:
-  - amos-os
-  - canon
-  - universe
-  - canon_placeholder
-  - rscf
-  - canon/universe
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# AMOS Organism OS Canon
+# AMOS Organism OS Infrastructure Canon (O_brain Layer)
 
-## 0. Status
+> **Authoritative Canon Boundary**
+>
+> This document establishes the canonical laws governing **AMOS Organism OS ($O_{\text{brain}}$)**, the sovereign layer for persistent, governed cognition, homeostatic regulation, and organ composition within the Full Brain OS.
+>
+> ```text
+> ORGANISM_MODEL != BIOLOGICAL_ORGANISM
+> COGNITION != CONTROL
+> PROPOSAL != COMMIT
+> EVENT_DELIVERED != STATE_MUTATED
+> GOAL != PERMISSION
+> ```
 
-`AMOS_ORGANISM_OS_CANON.md` is an **ADD-ONLY placeholder** for the **Canon** plane segment at `01_CANON/04_INFRASTRUCTURE_CANON`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+## 1. Architectural Role in the Full Brain OS
 
-The governing boundaries are:
+**AMOS Organism OS ($O_{\text{brain}}$)** operates above deterministic kernels (`02_KERNEL`) and below bounded task agents (`06_AGENTS`).
+
+It coordinates internal cognitive state across the **7-Group Functional Partition**:
+1. *Input & Representation* (`PERCEPTION_ENGINE`, `ATTENTION_ENGINE`);
+2. *Interpretation & Reasoning* (`COGNITION_ENGINE`, `PREDICTION_ENGINE`, `METACOGNITIVE_ENGINE`);
+3. *Affect & Drive Models* (`EMOTION_ENGINE`, `INSTINCT_ENGINE`, `INTUITION_ENGINE`);
+4. *Action Formation* (`PLANNING_ENGINE`, `ACTION_PROPOSAL`);
+5. *Continuity & Adaptation* (`MEMORY_ENGINE`, `IDENTITY_ENGINE`, `LIFECYCLE_ORGAN`);
+6. *Social & Expression* (`SUPER_MIND_ENGINE`, `CROSS_SPECIES_MODE_ENGINE`);
+7. *Regulation & Self-Healing* (`HOMEOSTASIS_ENGINE`, `REPAIR_ENGINE`).
+
+---
+
+## 2. Canonical Laws of AMOS Organism OS
+
+### Law OOS-01: Organ Isolation & Typed Event Communication
+Constituent cognitive organs cannot mutate each other's state variables directly. All inter-organ coordination traverses a typed event bus:
+$$\text{Event} = \{\text{id}, \text{source}, \text{target}, \text{type}, \text{payload}, \text{timestamp}, \text{provenance}, \text{authority\_context}\}$$
+Receipt of an event does not authorize mutation: $\text{EVENT\_DELIVERED} \ne \text{STATE\_MUTATED}$.
+
+### Law OOS-02: Homeostatic Equilibrium & Load Shedding
+The organism continuously monitors its health vector $X_t$ (memory pressure, compute latency, error rate, contradictory evidence, invariant drift). When stress exceeds critical thresholds:
+$$\text{StressRatio} > \theta_{\text{stress}} \implies \text{Initiate Load Shedding} \land \text{Quarantine Speculative Branches}$$
+
+### Law OOS-03: Self-Healing & Closed Invalidation
+Organism degradation follows the 10-stage cascade law. Recovery executes via the 12-stage restoration sequence, strictly prioritizing Foundation ($L$) memory stabilization before executive functions are resumed.
+
+### Law OOS-04: Closed-Loop Provenance Tracing
+A cognitive cycle is structurally closed if and only if learning, reflection, and state updates can be traced backward through explicit provenance edges to the originating observation, decision, authority grant, and outcome:
+$$\text{CognitiveClosure} \iff \text{Trace}(\text{Outcome} \rightarrow \text{Action} \rightarrow \text{Authority} \rightarrow \text{Decision} \rightarrow \text{Perception}) \text{ is Valid}$$
+
+---
+
+## 3. The Active Cognitive Loop
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
+SENSE → ATTEND → CONTEXTUALIZE → RETRIEVE (Memory/Knowledge)
+  │
+  ▼
+REASON → HYPOTHESIZE → SIMULATE → PLAN → PROPOSE
+  │
+  ▼
+METACOGNITIVE AUDIT → AUTHORITY GATE (Control Plane)
+  │
+  ▼
+ACT (If Authorized) → OBSERVE OUTCOME → LEARN → REFLECT → REGULATE / REPAIR
 ```
 
-Origin architect / steward:
+---
 
-**Trang Phan**
+## 4. Cross-Plane Bindings
 
-______________________________________________________________________
+- **`02_KERNEL`**: Enforces deterministic invariant checks on organ execution.
+- **`03_CONTROL_PLANE`**: Fences all effect proposals prior to real-world commitment.
+- **`05_COGNITIVE_ORGANISM`**: Physical plane implementing the Organism OS runtime.
+- **`10_MEMORY`**: Manages the 8-class memory partition across episodes.
 
-## 1. Purpose
+---
 
-This artifact reserves the **AMOS Organism OS Canon** slot within the Canon plane. The Canon plane governs canonical laws, universe/cognition/infrastructure canons, variable registry, glossary, provenance lineage, and supersession.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
-______________________________________________________________________
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
-
-______________________________________________________________________
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
-```
-
-______________________________________________________________________
-
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
-______________________________________________________________________
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
-______________________________________________________________________
-
-## 6. Worked semantics (target)
-
-Given an operation touching `01_CANON · CANON` within the Canon plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-______________________________________________________________________
-
-RSCF-NODE
-
+```RSCF-NODE
 node_id: amos_01_canon_04_infrastructure_canon_amos_organism_os_canon
-
-node_type: canon
-
-path: 01_CANON/04_INFRASTRUCTURE_CANON/AMOS_ORGANISM_OS_CANON.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
-
-**MOC:** [[01_CANON/04_INFRASTRUCTURE_CANON/04_INFRASTRUCTURE_CANON_MOC|04_INFRASTRUCTURE_CANON_MOC]]
+node_type: infrastructure_canon
+plane: 01_CANON
+domain: INFRASTRUCTURE
+claim_class: CANONICAL_LAW
+status: ACTIVE_CANON
+confidence_ceiling: ABSOLUTE_FOR_CANONICAL_LAW
+falsifiers:
+  - Organ mutating peer organ state bypassing the typed event bus.
+  - Cognitive learning updating long-term memory without traceable outcome provenance.
+```

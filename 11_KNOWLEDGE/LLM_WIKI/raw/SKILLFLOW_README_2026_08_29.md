@@ -1,17 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-date: 2026-08-29
-epistemic_class: OBSERVATION
-provenance: GitHub README, not independently verified
-rscf:
-  claim_class: DERIVED
-  provenance: GitHub README (linxuhao/SkillFlow)
-  scope: AMOS_knowledge
-  state: SOURCE_CLAIM
-source: https://raw.githubusercontent.com/linxuhao/SkillFlow/main/README.md
-title: SkillFlow README — Raw Capture
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Skillflow Readme 2026 08 29
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # SkillFlow README — Raw Capture
@@ -124,27 +128,27 @@ Runner mode is the **language-agnostic** interface for LLM agents. Agents drive 
 Pass `--graph` **once** with `--action start`. The graph path is stored in the DB. All subsequent calls use `--run-id` to reconnect — no `--graph` needed.
 
 ```bash
-## 1. Start a pipeline — pass --graph once, get the first step back
+# 1. Start a pipeline — pass --graph once, get the first step back
 $ skillflow-run --graph pipeline.yaml --action start
 {"status": "in_progress", "run_id": "abc123", "step": "analyze", "instruction": "..."}
 
-## 2. Submit work for the current step (no --graph needed)
+# 2. Submit work for the current step (no --graph needed)
 $ skillflow-run --action submit --run-id abc123 \
     --result '{"issues": [{"file": "app.py", "severity": "high"}]}'
 {"status": "in_progress", "run_id": "abc123", "step": "summarize", "instruction": "..."}
 
-## 3. When a checkpoint step completes, the run pauses
+# 3. When a checkpoint step completes, the run pauses
 {"status": "paused", "checkpoint_label": "Review Summary — approve to commit, reject to revise"}
 
-## 3a. Human approves (no --graph needed)
+# 3a. Human approves (no --graph needed)
 $ skillflow-run --action approve --run-id abc123
 {"status": "in_progress", "run_id": "abc123", "step": "apply_fixes", ...}
 
-## 3b. Or human rejects with feedback
+# 3b. Or human rejects with feedback
 $ skillflow-run --action reject --run-id abc123 \
     --feedback "Severity of bare except should be high, not medium"
 
-## 4. Loop continues until the pipeline completes
+# 4. Loop continues until the pipeline completes
 {"status": "completed", "steps_completed": 3, "outputs": {...}}
 ```
 
@@ -207,7 +211,7 @@ match: { field: "passed", value: true }                          # step output f
 match: { from_file: "review_verdict.json", field: "passed", value: true }  # output file
 match: { from: "checkpoint", value: "approved" }                 # checkpoint routing
 match: { _error: true }                                          # error handler
-## (no match key)                                                 # always match
+# (no match key)                                                 # always match
 ```
 
 ## Loopback (review & goal loops)
@@ -215,7 +219,7 @@ match: { _error: true }                                          # error handler
 Any transition's `to` can point **backward** to an earlier step — that's how review and goal loops are built. `max_loop` caps how many times an edge may fire per run (tracked in `skillflow_edge_counts`); once the cap is hit the edge stops matching, so the run takes another branch instead of looping forever. Set `feedback: true` to inject the step's outputs as `_feedback` into the target on the way back, making the redo corrective.
 
 ```yaml
-## A Red-checker that sends work back to the maker until it passes (max 3×)
+# A Red-checker that sends work back to the maker until it passes (max 3×)
 transitions:
   - to: "implement"          # backward edge → redo the step
     match: { passed: false }
@@ -311,11 +315,11 @@ once the automated reviewer has passed — not on every autonomous revision loop
 On reject, the feedback is injected so the re-run knows *why* it was rejected:
 
 ```python
-## Redo the rejected step itself
+# Redo the rejected step itself
 sf.reject_checkpoint(run_id, "draft", "Add more detail to the analysis")
 
-## Or loop back to a DIFFERENT step — reopen the run earlier and carry the
-## feedback to that target (e.g. reject the final review back to planning)
+# Or loop back to a DIFFERENT step — reopen the run earlier and carry the
+# feedback to that target (e.g. reject the final review back to planning)
 sf.reject_checkpoint(run_id, "final_review", "Goals not met", redirect_to="plan")
 ```
 
@@ -533,10 +537,10 @@ With `artifact_history` (**on by default**), each promoted step-output dir is co
 SkillFlow(db, workspace_base="…")                    # artifact history ON by default
 SkillFlow(db, workspace_base="…", artifact_history=False)   # opt out
 
-## List a step's output versions (newest first) and recover any of them
+# List a step's output versions (newest first) and recover any of them
 for v in sf.step_output_versions(project_id, "dpe_default", "3"):
     print(v["commit"], v["timestamp"], v["message"])
-## git show <commit>:<config>/<step>/<file>   (run at the workspace root)
+# git show <commit>:<config>/<step>/<file>   (run at the workspace root)
 ```
 
 - **Best-effort**: any git failure is swallowed — it never breaks a run.
@@ -599,7 +603,7 @@ from skillflow import SkillFlow, PipelineGraph
 graph = PipelineGraph.from_yaml("my_pipeline.yaml")
 sf = SkillFlow(":memory:")
 sf.register_graph(graph)
-## ... drive the loop with claim_next_step / confirm_step
+# ... drive the loop with claim_next_step / confirm_step
 ```
 
 ### 2. Agent mode — convert skills to pipelines
@@ -607,11 +611,11 @@ sf.register_graph(graph)
 `skillflow-convert` is a thin wrapper that calls `skillflow-run` with the built-in converter pipeline. The agent drives it the same way:
 
 ```bash
-## Start conversion with a skill description
+# Start conversion with a skill description
 $ skillflow-convert --desc "Code review skill..." --action start
 {"status": "in_progress", "run_id": "abc123", "step": "analyze_skill", "instruction": "..."}
 
-## Submit analysis, continue through design → explain → lint → done (no --desc needed)
+# Submit analysis, continue through design → explain → lint → done (no --desc needed)
 $ skillflow-convert --action submit --run-id abc123 --result '{"analysis": {...}}'
 ```
 

@@ -1,25 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: 04 Infrastructure Canon MOC
-type: moc
-source: 01_CANON/04_INFRASTRUCTURE_CANON
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 04 Infrastructure Canon Moc
 tags:
-  - canon/universe
-  - amos-core-v3-to-v4-4-lineage
-  - amos-infrastructure-architecture
-  - canon-integration-layer
-  - domain-canon-programming
-  - proof-based-coordination-avoidance
-  - universal-bio-logical-architecture
-  - trang-framework-recursive-ontology-dynamics
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 04 Infrastructure Canon — Map of Content

@@ -1,58 +1,16 @@
 ---
-title: Khung Trang Equations
-type: trang-framework
-source: 01_CANON/02_UNIVERSE_CANON
-artifact: KHUNG_TRANG_EQUATIONS.md
-artifact_id: amos_01_canon_02_universe_canon_khung_trang_equations
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/02_UNIVERSE_CANON
-artifact_kind: CANON_SPECIFICATION
-path: 01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_EQUATIONS.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Khung Trang Equations
 tags:
-  - amos-os
-  - canon
-  - universe
-  - khung_trang
-  - equations
-  - master_mathematics
-  - emergence
-  - ontology
-  - entropy
-  - null_ground
-  - rscf
-  - provenance
-  - canon/universe
-  - khung-trang
-  - law/L19-proof-capsule
-  - khung-trang-master
-  - amos-x-trang-reality
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: SOURCE_VALIDATED_RUNTIME_VERIFIED
-executable_binding: ESTABLISHED_VIA_VALIDATION_SUITE
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_GROUNDED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 01_CANON/01_CANON_MOC
-    - 01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER
-    - 25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY
-  scope:
-    - UNIVERSE_CANON
-    - KHUNG_TRANG_EQUATIONS
-  confidence_ceiling:
-    source_model: SOURCE_BOUND
-    runtime: RUNTIME_VERIFIED
-    empirical_validity: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # Khung Trang Mathematical Equations
@@ -94,7 +52,7 @@ UNKNOWN/GAP != PASS
 
 ---
 
-## 1. Purpose
+# 1. Purpose
 
 This artifact catalogs four primary Khung Trang mathematical relations:
 
@@ -123,7 +81,7 @@ Interpretive expansion MUST NOT silently rewrite that expression.
 
 ---
 
-## 2. Master Equation Registry
+# 2. Master Equation Registry
 
 ```yaml
 KHUNG_TRANG_EQUATION_REGISTRY:
@@ -2447,7 +2405,7 @@ RSCF-RELATIONS:
 
 ---
 
-**Related:**
+**Related:**  
 
 ---
 
@@ -2459,3 +2417,9 @@ One mathematically material issue is preserved rather than silently repaired: in
 ---
 
 **MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
+
+```
+
+```
+```
+```

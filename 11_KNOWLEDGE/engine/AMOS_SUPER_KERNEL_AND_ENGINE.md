@@ -1,36 +1,21 @@
 ---
-title: "AMOS SUPER KERNEL & SUPER ENGINE — Unified Meta Operating System"
-created: '2026-08-22'
-origin: Google Drive — _00_AMOS_CANON/Dsc/
-origin_architect: Trang Phan
-type: reference
-source: 11_KNOWLEDGE/engine
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Super Kernel And Engine
 tags:
-  - amos
-  - super-kernel
-  - super-engine
-  - unified-meta-OS
-  - 7-fused-kernels
-  - deterministic
-  - ULK
-  - QCLA
-  - UCP
-  - 18-operators
-  - 18-tensors
-  - 5-modes
-  - engine
-  - canon/knowledge
-  - system-scan-agent
-  - automation-profiles
-  - amos-simulation-kernel-v0-math-foundations
-status: active
-provenance: VERIFIED
-confidence: VERIFIED
-rscf:
-  state: AMOS_MODEL
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: engine_specification
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS SUPER KERNEL & SUPER ENGINE

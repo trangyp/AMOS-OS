@@ -1,41 +1,16 @@
 ---
-title: K COMMIT TIME AUTHORITY
-type: authority
-source: 02_KERNEL/07_AUTHORITY
-artifact_id: AMOS-OS-K-COMMIT-TIME-AUTHORITY
-canonical_name: K_COMMIT_TIME_AUTHORITY
-artifact_type: kernel_commit_time_authority_contract
-status: AMOS_MODEL
-conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: KERNEL
-scope: AMOS_OS
-updated: 2026-08-26
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: K Commit Time Authority
 tags:
-  - kernel
-  - authority
-  - note
-  - canon/kernel
-  - readme
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - k-core19-logic
-  - k-meta-logic
-  - k-capability-authorization
-  - k-risk-constraint
-  - k-system-state
-  - k-context-state
-  - k-causal-closure
-  - k-causal-epoch
-  - k-event-bus
-rscf:
-  state: DERIVED
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # K COMMIT TIME AUTHORITY
@@ -2468,7 +2443,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

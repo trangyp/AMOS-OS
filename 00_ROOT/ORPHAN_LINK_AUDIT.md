@@ -1,15 +1,21 @@
 ---
-title: AMOS Orphan and Link Integrity Audit
-type: integrity_audit
-amos_core_target: v4.4
-origin_architect: Trang Phan
-status: ACTIVE_AUDIT
-conclusion_class: CONDITIONAL
-updated: 2026-09-03
-rscf:
-  state: DERIVED
-  provenance: static_registry_validation_plus_drive_metadata_checks
-  scope: repository_wide_link_integrity
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Orphan Link Audit
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Orphan + Link Integrity Audit
@@ -104,3 +110,4 @@ A freshness query after the final master-audit commit returned no objects modifi
 **Current structural conclusion:** `CONDITIONAL / NO KNOWN ACTIVE NAVIGATION OR IDENTITY ORPHANS AT THE FINAL DRIVE SNAPSHOT`.
 
 This does not establish bytewise semantic correctness of every corpus file or live rendered Obsidian backlink/plugin state.
+

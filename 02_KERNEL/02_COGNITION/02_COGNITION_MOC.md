@@ -1,32 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: 02 Cognition MOC
-type: moc
-source: 02_KERNEL/02_COGNITION
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 02 Cognition Moc
 tags:
-  - 02-cognition
-  - canon/kernel
-  - k-bioelectromagnetic-bei
-  - k-cognition
-  - k-cognition-nbi
-  - k-consciousness
-  - k-counterfactual
-  - k-emotion-nei
-  - k-human-intelligence
-  - k-metacognition
-  - k-metacognitive-loop
-  - k-multi-hypothesis
-  - k-personality
-  - k-somatic-si
-  - k-structural-reasoning
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 02 Cognition — Map of Content

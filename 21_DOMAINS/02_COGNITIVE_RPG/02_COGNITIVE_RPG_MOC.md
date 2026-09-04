@@ -5,6 +5,7 @@ status: ACTIVE
 conclusion_class: DERIVED
 origin_architect: Trang Phan
 governed_by: [[05_COGNITIVE_ORGANISM/COGNITIVE_ORGANISM_COGNITIVE_ORGANISM_CONTRACT.md|COGNITIVE_ORGANISM_CONTRACT]]
+rscf-state: source-claim
 ---
 
 # 02_COGNITIVE_RPG Map of Content

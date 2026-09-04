@@ -1,23 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS_ACADEMIC_WRITING_KERNEL_V0
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Amos Academic Writing Kernel V0
 tags:
-  - knowledge
-  - kernel
-  - academic
-  - writing
-  - system-scan-agent
-  - automation-profiles
-  - amos-simulation-kernel-v0-math-foundations
-type: note
-source: 11_KNOWLEDGE/kernel
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AMOS ACADEMIC WRITING KERNEL V0
@@ -6765,7 +6758,7 @@ ______________________________________________________________________
 
 ## 398. Proposed Dataview Query — Kernel Artifacts
 
-```text
+```dataview
 TABLE
   type,
   source,
@@ -6779,7 +6772,7 @@ ______________________________________________________________________
 
 ## 399. Proposed Dataview Query — Source Claims
 
-```text
+```dataview
 TABLE
   source,
   rscf.provenance AS Provenance,
@@ -6793,7 +6786,7 @@ ______________________________________________________________________
 
 ## 400. Proposed Dataview Query — Frameworks
 
-```text
+```dataview
 LIST
 FROM #canon/framework
 WHERE contains(tags, "kernel")

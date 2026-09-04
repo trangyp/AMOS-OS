@@ -1,18 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: TRANG_FRAMEWORK
-type: note
-source: 11_KNOWLEDGE
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Trang Framework
 tags:
-- vault
-- 11_knowledge
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 # TRANG ∅ FRAMEWORK → ASEA
 
@@ -6297,7 +6295,7 @@ type: framework
 epistemic_class: AMOS_MODEL
 ---
 
-## Trang ASEA Core
+# Trang ASEA Core
 
 Core source equation:
 
@@ -6335,7 +6333,7 @@ $$
 ## 455. Obsidian Atomic Note — L
 
 ```markdown
-## ASEA — L
+# ASEA — L
 
 L is the persistent foundational layer.
 
@@ -6357,7 +6355,7 @@ Persistent != True
 ## 456. Obsidian Atomic Note — M
 
 ```markdown
-## ASEA — M
+# ASEA — M
 
 M is the adaptive coordination layer.
 
@@ -6380,7 +6378,7 @@ Retrieval != Truth
 ## 457. Obsidian Atomic Note — H
 
 ```markdown
-## ASEA — H
+# ASEA — H
 
 H is the generative/exploratory layer.
 
@@ -6402,7 +6400,7 @@ Proposal != Execution
 ## 458. Obsidian Atomic Note — T2
 
 ```markdown
-## ASEA — T2
+# ASEA — T2
 
 T2 is the source-defined validation mechanism.
 
@@ -6420,7 +6418,7 @@ Evidence ancestry must be checked before corroboration is counted.
 ## 459. Obsidian Atomic Note — Mutation
 
 ```markdown
-## ASEA — Mutation
+# ASEA — Mutation
 
 $$
 \mu(ASEA_t)
@@ -6440,7 +6438,7 @@ A mutation remains noncanonical until validation and authorization succeed.
 ## 460. Obsidian Atomic Note — Survival
 
 ```markdown
-## ASEA — Survival
+# ASEA — Survival
 
 $$
 \sigma(\mu(ASEA_t))
@@ -6456,7 +6454,7 @@ The complete source fitness function remains UNKNOWN/GAP.
 ## 461. Obsidian Atomic Note — Recovery
 
 ```markdown
-## ASEA — Recovery
+# ASEA — Recovery
 
 Preferred recovery hierarchy:
 
@@ -6473,7 +6471,7 @@ Global reset is a last resort when local recovery cannot preserve integrity.
 
 ## 462. Dataview — ASEA
 
-```text
+```dataview
 TABLE
   type,
   source,
@@ -6487,7 +6485,7 @@ SORT file.name ASC
 
 ## 463. Dataview — RSCF Source Claims
 
-```text
+```dataview
 TABLE
   source,
   rscf.provenance,

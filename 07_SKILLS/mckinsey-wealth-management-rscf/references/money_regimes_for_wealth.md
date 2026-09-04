@@ -1,21 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: money regimes for wealth
-type: reference
-source: 07_SKILLS/mckinsey-wealth-management-rscf/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Money Regimes For Wealth
 tags:
-  - reference
-  - mckinsey-wealth-management-rscf
-  - type/skill
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Money Regimes for Wealth Management
@@ -93,13 +93,13 @@ ______________________________________________________________________
 #### New Equations
 
 ```
-## Digital Currency Era (2020s-Present)
+# Digital Currency Era (2020s-Present)
 M = C + D + R + CBDC (Currency + Deposits + Reserves + CBDC)
 i = r + π + ε + digital_risk_premium
 Exchange_Rate = Flexible + Digital_Currency_Competition
 Monetary_Base = M0 + CBDC_Stablecoin_Interaction
 
-## CBDC Impact Equations
+# CBDC Impact Equations
 CBDC_Demand = f(Interest_Rate, Access_Limits, Remuneration)
 Liquidity_Forecasting_Enhanced = Traditional + Digital_Flows
 Policy_Rate_Effectiveness = f(CBDC_Design, Market_Penetration)

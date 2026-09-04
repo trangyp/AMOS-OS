@@ -1,21 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Vault Domain Knowledge — Amos Law Hierarchy Resolver
-type: reference
-source: 07_SKILLS/amos-law-hierarchy-resolver/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Vault Domain Knowledge
 tags:
-  - reference
-  - amos-law-hierarchy-resolver
-  - type/skill
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Vault-Sourced Domain Knowledge
@@ -52,7 +52,7 @@ from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Any, Optional
 
-## Configure structured logging
+# Configure structured logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s
 - %(message)s')
 logger = logging.getLogger(__name__)
@@ -122,7 +122,7 @@ class AMOSSyntaxResolver:
 
 > Path: `amos-general/A/all/AMOS All Frameworks Canon Hierarchy.md` | Size: 6870 chars | Match score: 10
 
-## AMOS All Frameworks — Canon Hierarchy
+# AMOS All Frameworks — Canon Hierarchy
 
 > Converted from RTF. 700 KB source. Full structured hierarchy of Bio-Logical Computing™ frameworks, operating systems, kernel engines, and intelligence frameworks.
 
@@ -185,7 +185,7 @@ It has four characteristics no existing programming paradigm has:
 
 > Path: `dated/2026-08-23/2026-08-23 LEGACY BRAIN2 Core Engine and Law Inventory.md` | Size: 5039 chars | Match score: 10
 
-## LEGACY BRAIN2 Core — Engine & Law Inventory (2026-08-23)
+# LEGACY BRAIN2 Core — Engine & Law Inventory (2026-08-23)
 
 ## Location
 

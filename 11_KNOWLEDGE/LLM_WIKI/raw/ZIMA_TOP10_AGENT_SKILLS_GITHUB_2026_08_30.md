@@ -1,17 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Zima Top10 Agent Skills Github 2026 08 30
-type: note
-source: .
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Zima Top10 Agent Skills Github 2026 08 30
 tags:
-  - note
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Web Content from https://shop.zimaspace.com/blogs/tech-ai-hub/top-10-open-source-ai-agent-skills-github?srsltid=AfmBOorIJuM9I1aaG-FQCe1mPTYLieZfjDhZ2NcagDrz-J-YrpGg734g

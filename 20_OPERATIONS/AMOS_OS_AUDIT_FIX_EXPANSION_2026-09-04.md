@@ -102,9 +102,9 @@ tags:
 
 **Fix:** Rewrote entire frontmatter block with proper YAML syntax: removed blank lines, converted `*` to `  - ` indented list items, replaced closing delimiter with `---`.
 
-**Problem 2:** `Templates/linked-note.md` — Templater syntax `{{title}}` inside YAML frontmatter caused parse error when YAML tried to interpret it as a mapping.
+**Problem 2:** `Templates/linked-note.md` — Templater syntax `{Amos Os Audit Fix Expansion 2026 09 04}` inside YAML frontmatter caused parse error when YAML tried to interpret it as a mapping.
 
-**Fix:** Quoted the Templater variables: `title: "Linked Note"`, `date: "{{date:YYYY-MM-DD}}"`, `source: "{{title}}"`.
+**Fix:** Quoted the Templater variables: `title: "Linked Note"`, `date: "{{date:YYYY-MM-DD}}"`, `source: "{Amos Os Audit Fix Expansion 2026 09 04}"`.
 
 ### 2.3 Broken Canonical Wikilink Fix (3 files)
 

@@ -1,23 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS_LEARNING_MEMORY_KNOWLEDGE_FEEDBACK_GOVERNOR
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Amos Learning Memory Knowledge Feedback Governor
 tags:
-  - knowledge
-  - learning
-  - memory
-  - feedback
-  - governor
-  - amos-cross-domain-tensor-composition-governor
-  - amos-emotion-cognition-decision-bridge-governor
-type: note
-source: 11_KNOWLEDGE
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AMOS LEARNING MEMORY KNOWLEDGE FEEDBACK GOVERNOR
@@ -79,7 +72,7 @@ ______________________________________________________________________
 ## 1. Derived / Proposed Obsidian Augmentation
 
 ```yaml
-## DERIVED / PROPOSED — NOT ORIGINAL SOURCE FRONTMATTER
+# DERIVED / PROPOSED — NOT ORIGINAL SOURCE FRONTMATTER
 
 aliases:
   - AMOS Learning Memory Knowledge Feedback Governor
@@ -3879,7 +3872,7 @@ ______________________________________________________________________
 
 ## 158. Obsidian Dataview — LMK Nodes
 
-```text
+```dataview
 TABLE
   type,
   domain,
@@ -3894,7 +3887,7 @@ ______________________________________________________________________
 
 ## 159. Dataview — Feedback Loop Notes
 
-```text
+```dataview
 TABLE
   source,
   domain,
@@ -3908,7 +3901,7 @@ ______________________________________________________________________
 
 ## 160. Dataview — Epistemic Preservation
 
-```text
+```dataview
 TABLE
   epistemic_class,
   claim_ceiling,
@@ -3922,7 +3915,7 @@ ______________________________________________________________________
 
 ## 161. Dataview — Cross-Domain Governors
 
-```text
+```dataview
 TABLE
   domain,
   rscf_node_type,
@@ -3936,7 +3929,7 @@ ______________________________________________________________________
 
 ## 162. Dataview — Knowledge Canon
 
-```text
+```dataview
 TABLE
   type,
   source,

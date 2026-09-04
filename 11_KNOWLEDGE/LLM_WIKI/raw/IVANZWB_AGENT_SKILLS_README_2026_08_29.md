@@ -1,17 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-date: 2026-08-29
-epistemic_class: OBSERVATION
-provenance: GitHub README, not independently verified
-rscf:
-  claim_class: DERIVED
-  provenance: GitHub README (ivanzwb/agent-skills)
-  scope: AMOS_knowledge
-  state: SOURCE_CLAIM
-source: https://raw.githubusercontent.com/ivanzwb/agent-skills/main/README.md
-title: ivanzwb agent-skills README — Raw Capture
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Ivanzwb Agent Skills Readme 2026 08 29
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # ivanzwb agent-skills README — Raw Capture
@@ -127,32 +131,32 @@ await sf.uninstall('my-skill');
 After installing the package globally (`npm link` or `npm install -g agent-skills`), you can use the `skill` command:
 
 ```bash
-## List installed skills
+# List installed skills
 skill list
 
-## Show detailed content of one installed skill
+# Show detailed content of one installed skill
 skill show my-skill
 
-## Search for skills (GitHub + ClawHub)
+# Search for skills (GitHub + ClawHub)
 skill find stock-analysis
 
-## Install a skill
+# Install a skill
 skill install ./my-skill              # From local directory
 skill install ./my-skill.zip           # From zip
 skill install owner/repo               # From GitHub
 skill install my-skill-slug            # From ClawHub
 
-## Preview a skill before installing
+# Preview a skill before installing
 skill preview owner/repo
 
-## Uninstall a skill
+# Uninstall a skill
 skill uninstall my-skill
 
-## Run a skill tool (args as JSON string)
+# Run a skill tool (args as JSON string)
 skill run my-skill search '{"keyword":"茅台"}'
 skill run my-skill kline '{"code":"600519","period":"daily","limit":60}'
 
-## Show help
+# Show help
 skill help
 ```
 
@@ -494,13 +498,13 @@ metadata:
 ## Development
 
 ```bash
-## Install dependencies
+# Install dependencies
 npm install
 
-## Build
+# Build
 npm run build
 
-## Test (100% line coverage)
+# Test (100% line coverage)
 npm test
 ```
 

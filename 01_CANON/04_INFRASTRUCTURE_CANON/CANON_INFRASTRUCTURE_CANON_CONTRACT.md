@@ -1,130 +1,109 @@
 ---
-title: Infrastructure Canon Contract — Subplane Governance Specification
-type: specification
-source: 01_CANON/04_INFRASTRUCTURE_CANON
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 01_CANON/CANON_CANON_CONTRACT
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-  scope: subplane_governance
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Canon Infrastructure Canon Contract
 tags:
-  - amos-os
-  - 01-canon
-  - infrastructure-canon
-  - specification
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Infrastructure Canon Contract — Subplane Governance Specification
+# CANON INFRASTRUCTURE CANON CONTRACT
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Epistemic Class:** `AMOS_MODEL`
-> **Status:** `ACTIVE_SPECIFICATION`
+## 0. Status
 
----
+Canon-plane contract for **INFRASTRUCTURE CANON CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
-## 1. Architectural Scope & Purpose
+## 1. Scope
 
-`CANON_INFRASTRUCTURE_CANON_CONTRACT` establishes the physical, compute, bus-level, memory tiering, and hardware-accelerated invariants governing all AMOS OS runtime environments. It covers heterogeneous bare-metal topologies, neuromorphic co-processors (SNN chips), quantum co-processing units (QPU), BCI low-latency neural buses (PCIe 6.0/CXL/NVLink/Custom FPGA), and distributed edge-to-cloud mesh topologies.
+Governs canonical laws, universe/cognition/infrastructure canons, variable registry, glossary, provenance lineage, and supersession as they bear on `INFRASTRUCTURE CANON CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
 
----
+## 2. Contract terms
 
-## 2. Mathematical Foundations & Infrastructure Formalism
+- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
+- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
+- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
+- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
+- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
 
-An Infrastructure Execution Environment $\mathcal{E}_{\text{infra}}$ is formalized as:
+## 3. Invariants
 
-$$\mathcal{E}_{\text{infra}} = \langle \mathcal{N}_{\text{nodes}}, \mathcal{T}_{\text{topology}}, \mathcal{B}_{\text{bandwidth}}, \mathcal{L}_{\text{latency}}, \mathcal{P}_{\text{power}} \rangle$$
+- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
+- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
+- Consequential effects emit receipts; rollback basin exists before mutation.
+- Competing hypotheses remain visible when evidence does not discriminate.
 
-Where:
-- $\mathcal{N}_{\text{nodes}} = \{ n_1, n_2, \dots, n_k \}$ spans CPU, GPU, TPU, NPU, QPU, and SNN processing units.
-- $\mathcal{T}_{\text{topology}} = (V, E, w_{\text{interconnect}})$ defines the inter-accelerator communication graph.
-- $\mathcal{B}_{\text{bandwidth}} : E \to \mathbb{R}^+$ defines sustained non-blocking throughput (e.g., CXL 3.0 $\ge 64\,\text{GB/s}$).
-- $\mathcal{L}_{\text{latency}} : E \to \mathbb{R}^+$ enforces deterministic execution deadlines.
-- $\mathcal{P}_{\text{power}} : V \to \mathbb{R}^+$ guarantees thermal envelope compliance ($P(v) \le P_{\text{TDP}}(v)$).
+## 4. Executed reference
 
-### Invariant 1: BCI Low-Latency Real-Time Bound
-For all closed-loop neural decoding transactions $\tau_{\text{bci}}$:
-$$\Delta t_{\text{sample}\to\text{actuation}}(\tau_{\text{bci}}) \le 5.0\,\text{ms} \quad (99.99\text{th percentile jitter} \le 200\,\mu\text{s})$$
+No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
 
-### Invariant 2: Memory Tiering SLA
-$$\text{Latency}(\text{SRAM / L1}) < \text{Latency}(\text{HBM3e}) < \text{Latency}(\text{DDR5}) < \text{Latency}(\text{NVMe-oF}) < \text{Latency}(\text{Cold Tier})$$
+## 5. Gaps
 
----
+Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
 
-## 3. Epistemic Invariants & Hardware-Software Boundaries
+## 6. Falsifiers
 
-1. **Hardware Telemetry Integrity:** Sensor signals (temperature, voltage, clock frequencies, ECC error counters) must be treated as `OBSERVATION` and never overwritten by software models.
-2. **Deterministic Fallback:** If any accelerator node $n_i$ fails to produce valid signed heartbeats within threshold $\tau_{\text{heartbeat}}$, the orchestration fabric must isolate $n_i$ and hot-migrate state to reserve nodes.
-3. **No Phantom Resources:** Virtualized allocation layers must not advertise unbacked memory or compute capacity.
+F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
 
----
+## Worked semantics
 
-## 4. Execution Mechanics & Acceleration Pipelines
+Given an operation touching `CANON · INFRASTRUCTURE CANON CONTRACT` within the Canon plane:
 
-```text
-[BCI / Neural Bus / Data Feeds]
-             │ (CXL / PCIe 6.0 DMA)
-             ▼
-[Zero-Copy Ring Buffer in HBM / Unified Memory]
-             │
-    ┌────────┴────────┬────────────────┬──────────────┐
-    ▼                 ▼                ▼              ▼
-[SNN Neuromorphic] [GPU Tensor Engine] [QPU Pipeline] [Host CPU Scheduler]
-    │                 │                │              │
-    └────────┬────────┴────────────────┴──────────────┘
-             ▼
-[Real-Time Actuation / State Persistence / Observability]
-```
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
----
+## Promotion-gate checklist
 
-## 5. Failure Modes & Hardware Degradation Policies
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-| Failure Mode | Root Trigger | Immediate Mitigation | Degraded Operational State |
-|---|---|---|---|
-| **Thermal Throttling** | $T_{\text{core}} > T_{\text{crit}}$ | Dynamic DVFS scaling & load rebalancing | Throttle non-critical background jobs |
-| **ECC Multi-Bit Flip** | Uncorrectable DRAM/SRAM error | Hard memory page isolation & process kill | Re-instantiate process from checkpoint |
-| **Interconnect Partition** | Link severance on fabric | Split-brain prevention via Paxos quorum | Shard-isolated local operation |
+## Cross-plane bindings
 
----
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-## 6. Cross-Plane Bindings
+______________________________________________________________________
 
-- **`01_CANON/01_CORE_LAWS`**: Abides by Root Integrity and Regime Laws.
-- **`04_RUNTIME`**: Direct scheduler substrate for [[04_RUNTIME/RUNTIME_RUNTIME_CONTRACT|RUNTIME_RUNTIME_CONTRACT]].
-- **`10_MEMORY`**: Enforces physical strata for [[10_MEMORY/MEMORY_MEMORY_CONTRACT|MEMORY_MEMORY_CONTRACT]].
-- **`21_DOMAINS/24_UBI_NBI_NEUROBIOLOGICAL`**: Hardware driver interface for neural interfaces.
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
-## 7. Verification & Telemetry Attestation
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
-- Formal bounds on worst-case execution time (WCET) verified via abstract interpretation.
-- Continuous hardware telemetry monitored by `17_OBSERVABILITY` with cryptographic PCR (Platform Configuration Register) attestation.
+______________________________________________________________________
 
----
+RSCF-NODE
+node_id: amos_1_canon_04_infrastructure_canon_canon_infrastructure_canon_contract_md
+node_type: note
+path: 01_CANON/04_INFRASTRUCTURE_CANON/CANON_INFRASTRUCTURE_CANON_CONTRACT.md
+claim_class: AMOS_MODEL
 
-## 8. Lineage & Stewardship
+______________________________________________________________________
 
-- **Origin Architect:** Trang Phan
-- **Steward:** Trang Phan
-- **Target:** `v4.4`
+**MOC:** [[01_CANON/04_INFRASTRUCTURE_CANON/04_INFRASTRUCTURE_CANON_MOC|04_INFRASTRUCTURE_CANON_MOC]]
 
----
+______________________________________________________________________
 
-## 9. Attestation Metadata
-
-```yaml
-subplane: 01_CANON/04_INFRASTRUCTURE_CANON
-contract_status: ACTIVE_SPECIFICATION
-steward: Trang Phan
-verification_status: HARDWARE_BOUNDED
-```
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

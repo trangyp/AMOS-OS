@@ -1,72 +1,21 @@
 ---
-title: ASEA — Adaptive Self-Evolution AI
-type: adaptation
-source: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact: ASEA_ADAPTIVE_SELF_EVOLUTION_AI.md
-artifact_id: amos_11_knowledge_05_frameworks_asea_adaptive_self_evolution_ai
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 11_KNOWLEDGE
-segment: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact_kind: EVOLUTION
-path: 11_KNOWLEDGE/05_FRAMEWORKS/ASEA_ADAPTIVE_SELF_EVOLUTION_AI.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Asea Adaptive Self Evolution Ai
 tags:
-  - amos-os
-  - knowledge
-  - vault
-  - 05_frameworks
-  - asea
-  - adaptive_self_evolution_ai
-  - self_repair
-  - self_evolution
-  - lacunarity_tuning
-  - anti_hallucination
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-  - frai-fractal-reasoning-ai
-  - trang-lmh-architecture
-  - trang-lacunarity
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - TRANG_FRAMEWORK_UNG_DUNG_VAO_AI_TU_SUA_VA_TU_T
-    - AMOS_CORPUS
-  scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - AUTONOMOUS_EVOLUTION
-    - SOURCE_DEFINED_ASEA_MODEL
-framework_binding:
-  primary:
-    name: Trang ASEA (Adaptive Self-Evolution AI)
-    acronym: ASEA
-    role: SELF_REPAIRING_AND_SELF_EVOLVING_AI_ARCHITECTURE
-  fractal_reasoning:
-    artifact:
-      -   - FRAI_FRACTAL_REASONING_AI
-  tri_layer_stack:
-    artifact:
-      -   - TRANG_LMH_ARCHITECTURE
-  lacunarity_model:
-    artifact:
-      -   - TRANG_LACUNARITY
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  framework_structure: VERIFIED_SOURCE_STRUCTURE
-  evolution_model: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # ASEA — Adaptive Self-Evolution AI™

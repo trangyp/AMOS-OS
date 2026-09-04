@@ -285,7 +285,7 @@ def enrichment(title, relpath, kind):
         "- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)",
         "",
         "## Cross-plane bindings",
-        f"- Governed by canon — [[01_CANON_README]] · [[LAW_HIERARCHY]]",
+        f"- Governed by canon — [[LAW_HIERARCHY]]",
         f"- Kernel interaction — [[KERNEL_README]]",
         f"- Control-plane gates — [[CONTROL_PLANE_README]]",
         f"- Observed by — [[17_OBSERVABILITY_README]] · never treated as authority",

@@ -1,7 +1,7 @@
 ---
-title: AMOS Automation Profiles Master Registry
+title: "AMOS Automation Profiles Master Registry"
 type: registry
-source: 08_WORKFLOWS
+source: 11_KNOWLEDGE
 origin_architect: Trang Phan
 steward: Trang Phan
 amos_core_target: v4.4
@@ -12,62 +12,87 @@ rscf:
   state: DERIVED
   claim_class: AMOS_MODEL
   provenance:
-    - 08_WORKFLOWS/08_WORKFLOWS_MOC
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+    - AMOS-UNIVERSE/automation_profiles.json
   scope: automation_profiles
 tags:
   - amos-os
   - automation
   - profiles
   - workflows
-  - orchestration
 ---
 
 # AMOS Automation Profiles Master Registry
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
+> **Origin Architect / Steward:** Trang Phan  
+> **AMOS_CORE Target:** `v4.4`  
 > **Conclusion Class:** `AMOS_MODEL`
-> **Status:** `ACTIVE_REGISTRY`
 
----
+## 1. Profiles Specification
 
-## 1. Executive Summary
+```json
+{
+  "profiles": {
+    "DAILY_CORE": {
+      "description": "Daily self-checks across AMOS OS, cognition, and life-systems planning.",
+      "tasks": [
+        "BIOLOGICAL_DAILY_SUMMARY",
+        "WORK_DAY_FOCUS_PLAN",
+        "OS_DAILY_INTEGRITY_SCAN",
+        "COGNITION_DAILY_REFLECTION"
+      ],
+      "schedule_hint": "daily"
+    },
+    "WEEKLY_STRATEGIC": {
+      "description": "Weekly strategic planning across all 10 bands and 150 domains.",
+      "tasks": [
+        "DOMAIN_BAND_PROGRESS_SUMMARY",
+        "WEEKLY_OBJECTIVES_PLAN",
+        "SYSTEMIC_RISK_REVIEW",
+        "UBI_CANON_EXTENSION"
+      ],
+      "schedule_hint": "weekly"
+    },
+    "OS_MAINTENANCE": {
+      "description": "Regular AMOS OS maintenance and self-repair routines.",
+      "tasks": [
+        "FULL_SYSTEM_AUDIT",
+        "LOOPS_STABILITY_CHECK",
+        "IMPORTS_INTEGRITY_CHECK",
+        "MEMORY_INDEX_COMPACTION"
+      ],
+      "schedule_hint": "interval"
+    },
+    "OS_EVOLUTION": {
+      "description": "Structured evolution of cognition, domain canon, and automation rules.",
+      "tasks": [
+        "COGNITION_BLUEPRINT_UPGRADE",
+        "DOMAIN_CANON_REVIEW",
+        "AUTOMATION_RULES_REFINEMENT",
+        "MODE_CONSTRAINTS_AUDIT"
+      ],
+      "schedule_hint": "weekly"
+    }
+  }
+}
+```
 
-The Automation Profiles Master Registry defines standardized execution environments, capability constraints, and resource allocations for automated workflows across the AMOS operating system.
+## 2. Integration & Execution
 
----
+- **Governed By:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
+- **Executed In:** [[04_RUNTIME/RUNTIME_README|RUNTIME_README]]
 
-## 2. Canonical Automation Profiles
+## Scope
 
-### Profile A01: `FAST_INFERENCE`
-- **Objective:** Rapid, read-only semantic parsing and prompt structuring.
-- **Max Token Budget:** 2,000 tokens.
-- **Allowed Tools:** `view_file`, `read_file`.
-- **Coordination Mode:** Tier 1 (Purely Local).
+`AUTOMATION_PROFILES` is part of the AMOS OS canonical corpus. Its role is defined by its containing plane and RSCF metadata.
 
-### Profile A02: `RESEARCH_DEEP_DIVE`
-- **Objective:** Literature extraction, mathematical verification, and cross-paper synthesis.
-- **Max Token Budget:** 16,000 tokens.
-- **Allowed Tools:** `read_file`, `grep_search`, `search_web`, `run_command (sandboxed)`.
-- **Coordination Mode:** Tier 2 (Shard-Local Consensus).
+## Invariants
 
-### Profile A03: `CANON_GOVERNANCE`
-- **Objective:** Verification, signing, and admission of canonical laws into `01_CANON`.
-- **Max Token Budget:** 8,000 tokens.
-- **Allowed Tools:** `read_file`, `replace_file_content` (governed).
-- **Coordination Mode:** Tier 3 (Global Causal Barrier Multi-Sig).
+| ID | Invariant |
+|----|-----------|
+| AUTOMATION_PROFILES_INV_01 | Content preserves RSCF epistemic classification. |
+| AUTOMATION_PROFILES_INV_02 | Authority is checked before any state-altering claim. |
+| AUTOMATION_PROFILES_INV_03 | Cross-links are valid within the vault graph. |
 
-### Profile A04: `EMERGENCY_REPAIR`
-- **Objective:** Rollback basin execution, corrupted shard quarantine, and state recovery.
-- **Max Token Budget:** 32,000 tokens.
-- **Allowed Tools:** `read_file`, `write_to_file`, `replace_file_content`, `run_command`.
-- **Coordination Mode:** Tier 3 (Failsafe System Lock).
-
----
-
-## 3. Integration & Navigation
-
-- **Master MOC:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
-- **Governing Contract:** [[08_WORKFLOWS/WORKFLOWS_WORKFLOW_CONTRACT|WORKFLOWS_WORKFLOW_CONTRACT]]
-- **Runtime Bridge:** [[04_RUNTIME/RUNTIME_README|RUNTIME_README]]
+## Cross References
+- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03|Audit Ledger]]

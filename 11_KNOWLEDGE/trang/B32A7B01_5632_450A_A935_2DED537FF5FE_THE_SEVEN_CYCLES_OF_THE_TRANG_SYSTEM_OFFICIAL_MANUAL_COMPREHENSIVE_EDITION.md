@@ -1,23 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: B32A7B01 5632 450A A935 2DED537FF5FE THE SEVEN CYCLES OF THE TRANG SYSTEM OFFICIAL MANUAL COMPREHENSIVE EDITION
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: B32A7B01 5632 450A A935 2Ded537Ff5Fe The Seven Cycles Of The Trang System Official Manual Comprehensive Edition
 tags:
-  - canon-group/human-system
-  - canon/narrative
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
-  - rscf/state/observation
-  - topic/b32a7b01-5632-450a-a935-2ded537ff5fe-the
-  - trang
-type: note
-source: 11_KNOWLEDGE/trang
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # B32A7B01 5632 450A A935 2DED537FF5FE THE SEVEN CYCLES OF THE TRANG SYSTEM OFFICIAL MANUAL COMPREHENSIVE EDITION

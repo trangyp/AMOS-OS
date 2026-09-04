@@ -1,177 +1,109 @@
 ---
-title: "05_COGNITIVE_ORGANISM Master Cognitive Organism & Full Brain Architecture Contract"
-type: control_contract
-source: 05_COGNITIVE_ORGANISM
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_GOVERNING_CONTRACT
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - authoritative_AMOS_OS_structure
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-    - 00_ROOT/00_ROOT_MOC
-    - 05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC
-  scope: cognitive_organism_governance
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Cognitive Organism Cognitive Organism Contract
 tags:
-  - amos-os
-  - 05-cognitive-organism
-  - contract
-  - full-brain-os
-  - 18-cognitive-organs
-  - metacognition
-  - neural-decoding
-  - homeostatic-regulation
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# 05_COGNITIVE_ORGANISM Master Cognitive Organism & Full Brain Architecture Contract
+# COGNITIVE ORGANISM COGNITIVE ORGANISM CONTRACT
 
-**Origin Architect & Steward:** Trang Phan
-**Target AMOS Lineage:** v4.4
-**Plane:** `05_COGNITIVE_ORGANISM`
-**Status:** `ACTIVE_GOVERNING_CONTRACT`
-**Epistemic Classification:** `AMOS_MODEL` / `DERIVED`
+## 0. Status
 
----
+Cognitive Organism-plane contract for **COGNITIVE ORGANISM COGNITIVE ORGANISM CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
-## 1. Executive Summary & Full Brain Organism Mandate
+## 1. Scope
 
-The `05_COGNITIVE_ORGANISM` plane coordinates the higher-order cognitive capabilities, conscious-mode orchestration, multi-modal perception, attention filtering, metacognitive reflection, emotional/homeostatic regulation, and biological/neural substrate integration across the AMOS Full Brain OS.
+Governs the organism-level cognitive assembly above kernels and below agents as they bear on `COGNITIVE ORGANISM COGNITIVE ORGANISM CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
 
-```text
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                    AMOS FULL BRAIN COGNITIVE ARCHITECTURE                   │
-│                                                                             │
-│  [Sensory Ingestion & Neural Interfaces]                                    │
-│  - Photonic & Optoelectronic BCI, Neuropixels Ultra, Ultrasound Telemetry   │
-│                               │                                             │
-│                               ▼                                             │
-│  [18 Specialized Cognitive Engine Organs]                                   │
-│  ├── Perception, Attention, Working Memory, Cognition, Metacognition        │
-│  ├── Instinct, Intuition, Emotion, Homeostasis, Identity, Prediction        │
-│  ├── World Model, Repair, Language RPG, Cross-Species Mode                  │
-│  └── UBI / BEI / NBI / NEI / SI / SUPER Consciousness Engine Layer          │
-│                               │                                             │
-│                               ▼                                             │
-│  [06_AGENTS & 08_WORKFLOWS Execution Delegates]                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+## 2. Contract terms
 
----
+- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
+- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
+- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
+- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
+- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
 
-## 2. Hard Cognitive Axioms
+## 3. Invariants
 
-```text
-COGNITIVE_CAPABILITY != SOVEREIGN_AUTHORITY
-MODEL_LENS != BIOLOGICAL_CONSCIOUSNESS
-EMOTION_ENGINE != UNCHECKED_MUTATION
-HEURISTIC_INFERENCE != FORMAL_PROOF
-```
+- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
+- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
+- Consequential effects emit receipts; rollback basin exists before mutation.
+- Competing hypotheses remain visible when evidence does not discriminate.
 
-1. **Structural Specification Boundary**: The Full Brain OS cognitive organism represents a structured computational and cognitive architecture, not an ungrounded metaphysical claim of biological consciousness.
-2. **Authority Decoupling**: High cognitive reasoning capacity does not bypass Control Plane authorization or Kernel CAS gates.
-3. **Homeostatic Bounding**: Cognitive search entropy, emotional valence, and metacognitive confidence are strictly bounded by homeostatic regulation engines.
+## 4. Executed reference
 
----
+No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
 
-## 3. Nine-Part AMOS Control Contract
+## 5. Gaps
 
-### 3.1 ROLE
-Coordinates higher-order cognitive processing, multi-modal attention, hypothesis management, metacognitive uncertainty calibration, and sensory-motor neural decoding.
+Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
 
-### 3.2 INTERFACES
-- `IPerceptionAttentionBus`: Streams filtered sensory features to working memory.
-- `IMetacognitiveGovernor`: Assesses reasoning validity, confidence calibration, and epistemic entropy deltas.
-- `IHomeostaticRegulator`: Balances computational resource consumption, token budgets, and emotional valence attractors.
-- `INeuralFlowDecoder`: Translates real-time biological BCI streams into structured cognitive intentions.
+## 6. Falsifiers
 
-### 3.3 DEPENDENCIES
-- `01_CANON`: Foundational core laws.
-- `02_KERNEL`: Deterministic logic and state mutation primitives.
-- `04_RUNTIME`: Live execution clocks and thread scheduling.
-- `10_MEMORY`: Episodic, associative, and semantic memory layers.
-- `15_INTERFACES`: BCI hardware adapters and streaming sockets.
+F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
 
-### 3.4 INVARIANTS
-1. **18-Organ Confluence**: Inter-organ communication must pass through typed tensor channels without out-of-band memory corruption.
-2. **Metacognitive Monitoring**: Any reasoning step producing confidence $\mathcal{C} > 0.90$ must be corroborated by explicit evidence DAGs.
-3. **Fail-Closed on Cognitive Panic**: Unresolvable cognitive dissonance or contradictory goal vectors forces a homeostatic reset to the safe baseline.
+## Worked semantics
 
-### 3.5 AUTHORITY
-Governed by `AMOS_CORE v4.4`, origin architect **Trang Phan**.
+Given an operation touching `COGNITIVE ORGANISM COGNITIVE ORGANISM CONTRACT` within the Cognitive Organism plane:
 
-### 3.6 PROVENANCE
-Engineered from cognitive neuroscience (Global Workspace Theory, Active Inference), neuromorphic engineering, and multi-compartmental neural network architectures.
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-### 3.7 TESTS
-- Unit verification of homeostatic stability under adversarial emotional/cognitive perturbation.
-- Metacognitive calibration benchmarking measuring expected calibration error ($\text{ECE} < 0.02$).
-- Real-time BCI decoding latency benchmarks ($< 2.5\text{ ms}$).
+## Promotion-gate checklist
 
-### 3.8 FAILURE MODES
-- Cognitive deadlock or circular reasoning loops.
-- Hallucinated certainty during ambiguous task execution.
-- Neural interface telemetry desynchronization.
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-### 3.9 RECOVERY
-- Metacognitive circuit breaker halts active agent execution and engages `REPAIR_ENGINE`.
-- Re-anchoring to root canonical axioms and emission of `UNKNOWN/GAP` record to the human steward.
+## Cross-plane bindings
 
----
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-## 4. The 18 Canonical Cognitive Organs (MECE Partition)
+______________________________________________________________________
 
-| Organ Engine | Primary Function | Primary AMOS Binding |
-| :--- | :--- | :--- |
-| **1. Perception Engine** | Multi-modal sensory feature extraction & tokenization | `PERCEPTION_ENGINE.md` |
-| **2. Attention Engine** | Sparse salience filtering & Context-Free routing | `ATTENTION_ENGINE.md` |
-| **3. Memory Engine** | Dynamic retrieval from 4-tier memory substrate | `MEMORY_ENGINE.md` |
-| **4. Cognition Engine** | Symbolic & neural multi-step inference | `COGNITION_ENGINE.md` |
-| **5. Metacognitive Engine**| Self-reflective confidence & drift monitoring | `METACOGNITIVE_ENGINE.md` |
-| **6. Instinct Engine** | Sub-symbolic safety reflexes & fast fail-closed trips | `INSTINCT_ENGINE.md` |
-| **7. Intuition Engine** | Hyperbolic geometric heuristic associative leaps | `INTUITION_ENGINE.md` |
-| **8. Emotion Engine** | Valence, arousal, and priority weighting | `EMOTION_ENGINE.md` |
-| **9. Homeostasis Engine**| Energy complexity, token budgets & compute balance | `HOMEOSTASIS_ENGINE.md` |
-| **10. Identity Engine** | AMOS lineage integrity & Trang Phan stewardship guard | `IDENTITY_ENGINE.md` |
-| **11. Prediction Engine**| Continuous Normalizing Flow future state forecasting | `PREDICTION_ENGINE.md` |
-| **12. World Model Engine**| Latent state environment representation | `WORLD_MODEL_ENGINE.md` |
-| **13. Repair Engine** | Autonomous cognitive error correction & gap filling | `REPAIR_ENGINE.md` |
-| **14. Language RPG Engine**| Dialectic perspective-taking & counterfactual simulation | `AMOS_LANGUAGE_RPG_ENGINE.md`|
-| **15. Cross-Species Engine**| Multi-substrate & bioelectric cellular automaton models | `CROSS_SPECIES_MODE_ENGINE.md`|
-| **16. UBI / BEI Layer** | Bioelectromagnetic & bioelectrical cellular interfaces | `BEI_ORGANISM_BINDING.md` |
-| **17. NBI / NEI / SI Layer**| Neurobiological, neuroemotional & somatic integration | `NBI_ORGANISM_BINDING.md` |
-| **18. Super Mind Engine**| Macro-scale swarm collective intelligence synthesizer | `SUPER_MIND_ENGINE.md` |
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
-## 5. AMOS OS MECE Plane Integration
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
-| AMOS Plane | Role & Responsibilities |
-| :--- | :--- |
-| **[[00_ROOT/00_ROOT_MOC|00_ROOT]]** | Manifest definition and root architectural binding. |
-| **[[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM]]** | Host plane housing all 18 cognitive engines, bindings, and specifications. |
-| **[[06_AGENTS/06_AGENTS_MOC|06_AGENTS]]** | Scoped operational actors executing intentions derived by the cognitive organism. |
-| **[[10_MEMORY/10_MEMORY_MOC|10_MEMORY]]** | Substrate supplying associative and episodic recall. |
-| **[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX]]** | Continuous and discrete tensor routing backbone for all inter-organ signals. |
+______________________________________________________________________
 
----
+RSCF-NODE
+node_id: amos_5_cognitive_organism_cognitive_organism_cognitive_organism_contract_md
+node_type: note
+path: 05_COGNITIVE_ORGANISM/COGNITIVE_ORGANISM_COGNITIVE_ORGANISM_CONTRACT.md
+claim_class: AMOS_MODEL
 
-## 6. Structural Invariants & Governance
+______________________________________________________________________
 
-1. **Origin Steward Invariant**: Cognitive engines must strictly preserve **Trang Phan** as the Origin Architect and Steward.
-2. **Receipt Sealing**: Consequential cognitive decisions emit signed BLAKE3 receipts.
-3. **Lineage**: Governed under AMOS v4.4; origin steward **Trang Phan**.
+**MOC:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
 
----
+______________________________________________________________________
 
-## 7. Cross-Plane References
-
-- Cognitive Organism MOC: [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM MOC]]
-- Cognitive Organism README: [[05_COGNITIVE_ORGANISM/COGNITIVE_ORGANISM_README|COGNITIVE_ORGANISM_README]]
-- Universal BCI Neural Decoding: [[05_COGNITIVE_ORGANISM/UNIVERSAL_BCI_NEURAL_DECODING_ARCHITECTURE|Universal BCI Architecture]]
-- Organism OS Synthesis: [[05_COGNITIVE_ORGANISM/ORGANISM_OS_SYNTHESIS|ORGANISM_OS_SYNTHESIS]]
-- Cognitive Matrix MOC: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX MOC]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

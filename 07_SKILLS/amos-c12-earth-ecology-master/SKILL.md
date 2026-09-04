@@ -1,48 +1,21 @@
 ---
-schema_version: 1.0
-title: SKILL — Amos C12 Earth Ecology Master
-type: skill
-source: 07_SKILLS/amos-c12-earth-ecology-master
-name: amos-c12-earth-ecology-master
-description: AMOS C12 Earth & Ecology — climate, environment, hydro energy, EV infrastructure, electrical power, hydrogen, battery systems, solar, wind, green tech. Use when environmental analysis, energy system... Do not use for generic environmental activism, policy lobbying, or tasks outside AMOS energy-systems framework.
-parent_skill: none
-domain: c12
-origin_architect: Trang Phan
-epistemic_class: SOURCE_CANON
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Skill
 tags:
-  - type/skill
-  - type/skill
-  - domain/earth-ecology
-  - epistemic/source_claim
-  - hml/m
-  - epistemic/source_canon
-  - amos-os
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
-version: 1.1.0
-rscf_state: SOURCE_CLAIM
-hml_level: M
-gmef_gates:
-  - L0_integrity
-  - L1_epistemic
-  - L2_provenance
-  - L5_scope
-  - L7_authority
-collapse_class: reversible
-qfm_gate_set: QFM_v43
-law_compliance:
-  - L0
-  - L1
-  - L2
-  - L4
-  - L5
-  - L16
-  - L17
-license: MIT
-steward: Trang Phan
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS C12 — Earth & Ecology Master Knowledge
@@ -317,7 +290,7 @@ Climate sensitivity and tipping points are MODEL_PROJECTIONS, not established ob
 - **Parent**: \`\` — routes to this skill when c12 specialization is needed
 - **Peers**: Other skills in the `c12` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
-- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Workflow**: Each skill has a corresponding workflow in `26_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
 
 ## Evaluation

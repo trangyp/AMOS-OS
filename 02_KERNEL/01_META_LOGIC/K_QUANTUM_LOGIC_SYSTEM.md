@@ -1,36 +1,21 @@
 ---
-title: QUANTUM LOGIC SYSTEM (QLS) FORMAL CANON KERNEL
-type: kernel
-source: 02_KERNEL/01_META_LOGIC
-artifact_id: AMOS-KERNEL-QLS-MASTER
-canonical_name: K_QUANTUM_LOGIC_SYSTEM
-status: CANONICAL
-conclusion_class: CANONICAL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-version: 2.0.0
-created: '2026-08-25'
-updated: '2026-08-28'
-plane: 02_KERNEL
-domain: meta-logic
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: K Quantum Logic System
 tags:
-  - amos-os
-  - kernel
-  - qls
-  - quantum-logic-system
-  - 84-laws
+  - canon-group/tech-ai
   - rscf/claim
-  - rscf/state/canonical
-aliases:
-  - QLS Kernel
-  - K_QUANTUM_LOGIC_SYSTEM
-  - Quantum Logic Master Core
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # QUANTUM LOGIC SYSTEM (QLS) FORMAL CANON KERNEL

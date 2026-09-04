@@ -1,95 +1,104 @@
 ---
-title: INV-AUTHZ-008 — Non-Repudiation of Tool Receipts
-type: authority_invariant
-source: 03_CONTROL_PLANE/04_AUTHORITY
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_INVARIANT
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT
-    - 01_CANON/01_CORE_LAWS/LAW_HIERARCHY
-  scope: authority_governance
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Inv Authz 008
 tags:
-  - amos-os
-  - authority
-  - invariant
-  - control-plane
-  - inv-authz-008
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# INV-AUTHZ-008 — Non-Repudiation of Tool Receipts
+# INV-AUTHZ-008
 
-## 1. Formal Specification
+## 0. Status
 
-> **Invariant Statement:**
-> `Every external tool execution must produce an immutable signed receipt in 17_OBSERVABILITY.`
+Control Plane-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
 
-## 2. Invariant Rule & Mathematical Formulation
+## 1. Purpose
 
-Let $\mathcal{E}$ be the set of external tool executions, $\text{Receipt}(e)$ the receipt for execution $e$, and $\text{Sign}(e)$ the cryptographic signature binding the executor to the receipt:
+`INV-AUTHZ-008` defines typed artifact specification, serving the Control Plane plane's obligation: governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback.
 
-$$\forall e \in \mathcal{E}, \quad \exists r \in \text{Receipts} : \text{Bind}(r, e) \land \text{VerifySig}(\text{Sign}(e), r) = \text{True}$$
+## 2. Semantics
 
-The non-repudiation property requires that once a receipt is written, the executor cannot deny having performed the action:
+- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
+- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
+- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
 
-$$\forall e \in \mathcal{E}, \quad \text{Repudiate}(\text{Executor}(e), e) = \text{False}$$
+## 3. Failure modes guarded
 
-The receipt content hash is:
+STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
 
-$$h(r) = \text{BLAKE3}(\text{ToolID} \parallel \text{ExecutorID} \parallel \text{InputHash} \parallel \text{OutputHash} \parallel \text{Epoch} \parallel \text{Timestamp})$$
+## 4. Validation
 
-and the receipt chain requires:
+No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
 
-$$\text{PrevHash}(r_i) = h(r_{i-1})$$
+## 5. Gaps
 
-## 3. Enforcement & Verification
+Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
 
-- **Evaluation Point:** Evaluated at the completion of every external tool execution. The Control Plane gate blocks the tool's output from being consumed until the receipt is written and verified.
-- **Violation Consequence:** If a tool execution completes without a receipt, the tool output is discarded. A `MISSING_RECEIPT_VIOLATION` is emitted to `17_OBSERVABILITY`. The tool is flagged for re-execution under stricter monitoring.
-- **Recovery Procedure:** The tool execution is replayed with receipt generation enforced. If the tool cannot produce a receipt, its capability token is revoked per [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-004|INV-AUTHZ-004]].
-- **Verification Cadence:** Synchronous at every tool execution completion. A periodic audit verifies the receipt chain integrity by checking hash links.
-- **Governed By:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+## 6. Falsifiers
 
-## 4. Attack Vectors & Mitigations
+F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
 
-- **Receipt Suppression:** A tool execution completes but the executor suppresses receipt generation to hide its actions. Mitigated by the Control Plane gate blocking output consumption until the receipt is verified.
-- **Receipt Tampering:** An attacker modifies a receipt after it is written to alter the recorded tool output. Mitigated by the BLAKE3 hash chain and cryptographic signature on each receipt, plus [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-020|INV-AUTHZ-020]] audit trail immutability.
-- **Receipt Repudiation:** An executor denies having performed a recorded action. Mitigated by the Ed25519 signature binding the executor's identity to the receipt, making repudiation cryptographically impossible.
-- **Fake Receipt Injection:** An attacker injects fabricated receipts to create a false audit trail. Mitigated by the hash chain requirement that each receipt must link to the previous one, and by signature verification of the claimed executor.
+## Worked semantics
 
-## 5. Dependencies & Prerequisites
+Given an operation touching `INV-AUTHZ-008` within the Control Plane plane:
 
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-018|INV-AUTHZ-018]] — Cryptographic token integrity ensures executor signatures are authentic.
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-020|INV-AUTHZ-020]] — Audit trail immutability prevents receipt modification after writing.
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-014|INV-AUTHZ-014]] — Monotonic provenance ledger ensures the receipt chain is append-only.
-- **Requires:** Ed25519 signing capability for every tool executor.
-- **Requires:** BLAKE3 hashing infrastructure for receipt content addressing.
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-## 6. Provenance & Audit Trail
+## Promotion-gate checklist
 
-- **Receipt Type:** `TOOL_EXECUTION_RECEIPT` — emitted for every external tool execution.
-- **Storage Location:** `17_OBSERVABILITY` with tool-ID-indexed and executor-indexed partitions.
-- **Receipt Fields:** Tool ID, executor identity, input hash, output hash, epoch, timestamp, Ed25519 signature, previous receipt hash, BLAKE3 content hash.
-- **Immutability:** Tool execution receipts are append-only per [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-014|INV-AUTHZ-014]] and protected by [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-020|INV-AUTHZ-020]].
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-## 7. Related Invariants
+## Cross-plane bindings
 
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-004|INV-AUTHZ-004]] — Explicit Revocation Immediacy
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-011|INV-AUTHZ-011]] — Sandboxed Execution Confinement
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-014|INV-AUTHZ-014]] — Monotonic Provenance Ledger
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-018|INV-AUTHZ-018]] — Cryptographic Token Integrity
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-020|INV-AUTHZ-020]] — Audit Trail Immutability
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-## 8. Navigation & Bindings
+______________________________________________________________________
 
-- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
-- **Control Plane Contract:** [[03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT|CONTROL_PLANE_CONTRACT]]
-- **Canon Law Hierarchy:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- **Kernel:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
-- **Observability:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+
+______________________________________________________________________
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: cp_03_control_plane_04_authority_inv_authz_008_md
+node_type: note
+path: 03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-008.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04_AUTHORITY_MOC]]
+
+______________________________________________________________________
+
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,72 +1,16 @@
 ---
-title: K CAUSAL EPOCH
-type: note
-source: 02_KERNEL/03_CAUSAL
-artifact_id: AMOS-OS-K-CAUSAL-EPOCH
-canonical_name: K_CAUSAL_EPOCH
-artifact_type: kernel_causal_epoch_contract
-status: AMOS_MODEL
-conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: KERNEL
-kernel_family: CAUSAL
-domain: causal-epoch
-scope: AMOS_OS
-created: 2026-08-25
-updated: 2026-08-25
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: K Causal Epoch
 tags:
-  - amos-os
-  - kernel
-  - core
   - canon-group/tech-ai
-  - canon/model
-  - kernel/causal
-  - kernel/causal-epoch
-  - kernel/causal-finality
-  - kernel/dependency
-  - kernel/provenance
-  - kernel/state
-  - kernel/regime
-  - kernel/freshness
-  - kernel/concurrency
-  - kernel/rscf
-  - kernel/validation
-  - kernel/recovery
-  - causal/epoch
-  - causal/lineage
-  - causal/finality
-  - causal/closure
-  - provenance/topology
-  - provenance/persistence
-  - state/authoritative
-  - rscf/state/model
-  - topic/causal-epoch
-  - topic/causal-finality
-  - topic/epoch-boundary
-  - k-causal-closure
-  - k-counterfactual
-  - k-multi-hypothesis
-  - k-metacognition
-  - k-structural-reasoning
-  - readme
-  - architecture
-  - authoritative-state
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - source-lineage
-  - supersession-log
-  - k-core19-logic
-  - k-meta-logic
-aliases:
-  - AMOS Causal Epoch Kernel - Causal Epoch Kernel - K Causal Epoch - K_CAUSAL_EPOCH
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # K CAUSAL EPOCH
@@ -2552,7 +2496,7 @@ SILENTLY MUTATING HISTORY.
 ## Related
 
 README ·
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]] ·
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]] ·
 [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] ·
 [[00_ROOT/AUTHORITATIVE_STATE|AUTHORITATIVE_STATE]] ·
 [[00_ROOT/DEPENDENCY_MAP|DEPENDENCY_MAP]] ·
@@ -2590,7 +2534,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

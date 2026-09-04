@@ -1,67 +1,21 @@
 ---
-title: UBI Claim Registry
-type: biology
-source: 11_KNOWLEDGE/02_CLAIMS
-artifact: UBI_CLAIM_REGISTRY.md
-artifact_id: amos_11_knowledge_02_claims_ubi_claim_registry
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 11_KNOWLEDGE
-segment: 11_KNOWLEDGE/02_CLAIMS
-artifact_kind: REGISTRY
-path: 11_KNOWLEDGE/02_CLAIMS/UBI_CLAIM_REGISTRY.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Ubi Claim Registry
 tags:
-  - amos-os
-  - knowledge
-  - vault
-  - 02_claims
-  - ubi_claim_registry
-  - biological_claims
-  - ubi
-  - non_compensatory_claims
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-  - unified-biological-intelligence
-  - ubi-entropy-correction
-  - absolute-biological-integrity-framework
-  - amos-ubi-super-engine
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - UBI_OFFICIAL_MANUAL
-    - UNIFIED_BIOLOGICAL_INTELLIGENCE
-    - AMOS_CORPUS
-  scope:
-    - KNOWLEDGE_CLAIMS
-    - UBI_CLAIMS
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  claims_moc:
-    artifact:
-      -   - 02_CLAIMS_MOC
-  rscf_index:
-    artifact: 11_KNOWLEDGE/03_RSCF/UBI_RSCF_INDEX
-  biological_master:
-    artifact:
-      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  registry_structure: VERIFIED_SOURCE_STRUCTURE
-  claim_catalog: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # UBI Claim Registry

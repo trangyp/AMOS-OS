@@ -1,51 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: References MOC — References — Amos C12 Earth Ecology Master
-type: moc
-source: 07_SKILLS/amos-c12-earth-ecology-master/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: References Moc
 tags:
-  - references
-  - type/skill
-  - c12-earth-ecology-super-full
-  - civilization-fails-energy-transition
-  - domain-config
-  - drive-quantum-restoration
-  - electrical-power-engine-cognitive
-  - electrical-power-engine-layer
-  - electrical-power-model
-  - energy-architecture
-  - energy-eroi-carbon-scoring
-  - energy-integrity-law
-  - energy-justice-cannot-be-priced
-  - energy-os
-  - energy-pricing-moral-accounting
-  - energy-reader
-  - ev-kernel-layer
-  - ev-super-engine
-  - hydro-production-system
-  - hydrogen-governance-test
-  - hydrogen-offshore-energy-safety
-  - hydrogen-powerful-energy-vector
-  - hydrogen-vs-batteries-safety-math
-  - integrity-bounded-energy-standard
-  - nui-cam-planetary-energy-node
-  - qls-abi-longevity
-  - vault-domain-knowledge
-  - vn-driver-charging-engine
-  - vn-ev-baojun-collaboration
-  - vn-ev-china-market-analysis
-  - vn-ev-china-trend-strategy
-  - vn-ev-unitax-100-vehicles
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-moc: true
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # References — Map of Content

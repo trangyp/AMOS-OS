@@ -1,15 +1,21 @@
 ---
-title: AMOS OS Unresolved Reference Registry
-type: governed_gap_registry
-amos_core_target: v4.4
-origin_architect: Trang Phan
-status: ACTIVE_GAP_INDEX
-updated: 2026-09-03
-rscf:
-  state: OBSERVATION
-  claim_class: DERIVED
-  provenance: exhaustive_live_wikilink_graph_scan
-  scope: active__AMOS_OS_and_retained_archive
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Unresolved Reference Registry
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS OS — Unresolved Reference Registry
@@ -335,14 +341,14 @@ Current resolution: `07_SKILLS/SKILLS_SKILL_CONTRACT.md`.
 
 ### 08-workflows-law-stack-enforcement-pipeline-law-stack-enforc-f450bb9e
 
-- Original target: `08_WORKFLOWS/law-stack-enforcement-pipeline/law-stack-enforcement-pipeline_MOC`
+- Original target: `26_WORKFLOWS/law-stack-enforcement-pipeline/law-stack-enforcement-pipeline_MOC`
 - Status: `UNKNOWN/GAP`
 
 Repair condition: replace this route only when a canonical target is admitted with provenance, scope, version, and authority preserved.
 
 ### 08-workflows-law-stack-enforcement-pipeline-workflow-2abc1082
 
-- Original target: `08_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW`
+- Original target: `26_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW`
 - Status: `UNKNOWN/GAP`
 - Referenced by: `24_ARCHIVE/WORKFLOWS_WORKFLOW_CONTRACT__LEGACY_METADATA_OVERLAY_2026-09-03.md`
 
@@ -954,3 +960,4 @@ Repair condition: replace this route only when a canonical target is admitted wi
 - Status: `UNKNOWN/GAP`
 
 Repair condition: replace this route only when a canonical target is admitted with provenance, scope, version, and authority preserved.
+

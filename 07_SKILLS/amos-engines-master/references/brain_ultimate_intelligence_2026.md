@@ -1,22 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: brain ultimate intelligence 2026
-type: reference
-source: 07_SKILLS/amos-engines-master/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Brain Ultimate Intelligence 2026
 tags:
-  - reference
-  - amos-engines-master
-  - type/skill
-  - integration
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Brain Ultimate Intelligence 2026 Complete
@@ -65,7 +64,7 @@ Successfully implemented the complete AMOS Brain Ultimate Intelligence 2026 with
 ### Transformation Group G Implementation
 
 ```python
-## Complete transformation group with invariant preservation
+# Complete transformation group with invariant preservation
 G = {
     "temporal_transforms": ["time_translation", "time_scaling", "time_reversal"],
     "hierarchical_transforms": ["level_scaling", "hierarchy_reordering"],
@@ -73,7 +72,7 @@ G = {
     "power_space_transforms": ["power_scaling", "authority_reordering"]
 }
 
-## Structural invariants: ∂S/∂t = 0 under transformation group G
+# Structural invariants: ∂S/∂t = 0 under transformation group G
 ```
 
 ### Exhaustive Multi-Layer Scanning

@@ -1,228 +1,102 @@
 ---
-title: Bio-Logical Computing Canon
-type: canon
-source: 01_CANON/04_INFRASTRUCTURE_CANON
-artifact: BIO_LOGICAL_COMPUTING_CANON.md
-artifact_id: amos_01_canon_04_infrastructure_canon_bio_logical_computing_canon
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/04_INFRASTRUCTURE_CANON
-artifact_kind: LOG
-path: 01_CANON/04_INFRASTRUCTURE_CANON/BIO_LOGICAL_COMPUTING_CANON.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Bio Logical Computing Canon
 tags:
-  - amos-os
-  - canon
-  - universe
-  - log
-  - canon_placeholder
-  - rscf
-  - canon/universe
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Bio-Logical Computing Canon
+# Bio-Logical Computing Infrastructure Canon
 
-## 0. Status
+> **Authoritative Canon Boundary**
+>
+> This document defines the canonical laws governing **Bio-Logical Computing** and the **Unified Biological Intelligence (UBI)** substrate within AMOS Core v4.4.
+>
+> ```text
+> BIOLOGY AS LOGIC != METAPHOR
+> EMOTION == BIOLOGICAL SIGNAL LOGIC
+> INTUITION == COMPRESSED INVARIANT REASONING
+> INSTINCT == CONSERVED SURVIVAL LOGIC
+> NEURAL SYNCHRONIZATION != SOFTWARE SIMULATION
+> ```
 
-`BIO_LOGICAL_COMPUTING_CANON.md` is an **ADD-ONLY placeholder** for the **Canon** plane segment at `01_CANON/04_INFRASTRUCTURE_CANON`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+## 1. Architectural Definition: Biology as Logic
 
-The governing boundaries are:
+Bio-logical computing reframes biological processes not as wetware noise to be abstracted away, but as ultra-low-power, highly parallel, self-repairing computational logic:
+1. **Emotion as Signal Logic**: Emotion functions as a biological relevance filter and gradient signal indicating systemic safety, threat, or energetic debt.
+2. **Intuition as Compressed Invariants**: Intuition represents subconscious, parallel pattern matching against accumulated structural invariants without conscious verbal overhead.
+3. **Instinct as Stored Logic**: Evolutionary survival primitives hard-coded into subcortical and somatic circuits to guarantee baseline survival under catastrophic uncertainty.
+
+---
+
+## 2. The Four Substrates of Biological Intelligence (UBI)
+
+Coherent biological computation emerges from the synchronized coupling of four primary domains:
+
+$$\text{BiologicalIntelligence} \equiv \text{Sync}(\text{NBI}, \text{NEI}, \text{SI}, \text{BEI})$$
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
+┌───────────────────────────────────────────────────────────────┐
+│               UNIFIED BIOLOGICAL INTELLIGENCE (UBI)           │
+├───────────────────────┬───────────────────────────────────────┤
+│ NBI (Neurobiological) │ Cortical/subcortical spike networks   │
+│ NEI (Neuroemotional)  │ Neuromodulatory & affective gradients │
+│ SI (Somatic)          │ Autonomic, metabolic & visceral state │
+│ BEI (Bioelectromag.)  │ Field coherence & oscillatory rhythms │
+└───────────────────────┴───────────────────────────────────────┘
 ```
 
-Origin architect / steward:
+Systemic collapse begins when these four domains desynchronize, progressing from somatic depletion to emotional distortion, cognitive drift, and executive identity fragmentation.
 
-**Trang Phan**
+---
 
-______________________________________________________________________
+## 3. Canonical Laws of Bio-Logical Computing
 
-## 1. Purpose
+### Law BLC-01: Absolute Biological Integrity
+The bio-logical interface must maintain minimal contradiction, bounded allostatic load, and high signal-to-noise ratio under pressure:
+$$\text{Integrity}(\text{BioSignal}) = \frac{\text{ObservedSignal}}{\text{Noise} + \text{TraumaDistortion}}$$
 
-This artifact reserves the **Bio-Logical Computing Canon** slot within the Canon plane. The Canon plane governs canonical laws, universe/cognition/infrastructure canons, variable registry, glossary, provenance lineage, and supersession.
+### Law BLC-02: Neuromorphic & BCI Interface Boundary
+At the boundary between biological neural tissue and synthetic compute (Domain C04 $\leftrightarrow$ C10):
+$$\text{Biological Source Validity} \in \text{Domain C04} \quad\mid\quad \text{Low-Power Processing Runtime} \in \text{Domain C10}$$
+Reconstructed deep-brain signals must never be treated as directly observed physical spikes without explicit sensor provenance.
 
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+### Law BLC-03: Substrate Non-Abandonment
+Any synthetic system coupled to living neural substrates must comply with the non-abandonment and explantation ethics contracts specified in [`21_DOMAINS/01_DOMAIN_ARCHITECTURE/C04_BCI_LIFECYCLE_GOVERNANCE_CONTRACT.md`](file:///Users/mac/Documents/AMOS_OS/21_DOMAINS/01_DOMAIN_ARCHITECTURE/C04_BCI_LIFECYCLE_GOVERNANCE_CONTRACT.md).
 
-______________________________________________________________________
+---
 
-## 2. Non-Purpose
+## 4. Cross-Plane Bindings
 
-This placeholder MUST NOT be used to claim:
+- **`05_COGNITIVE_ORGANISM/UBI_ORGANISM_BINDING`**: Binds UBI principles to the cognitive organism loop.
+- **`21_DOMAINS/01_DOMAIN_ARCHITECTURE/C04_BCI_SPECIALIST_ARCHITECTURE`**: Specialist clinical and neurotech interface architecture.
+- **`11_KNOWLEDGE/AMOS_C04_BCI_STATE_OF_ART_2026`**: Master evidence dossier for neural interface benchmarks.
 
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
+---
 
-______________________________________________________________________
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
-```
-
-______________________________________________________________________
-
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
-______________________________________________________________________
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
-______________________________________________________________________
-
-## 6. Worked semantics (target)
-
-Given an operation touching `01_CANON · LOG` within the Canon plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-______________________________________________________________________
-
-RSCF-NODE
-
+```RSCF-NODE
 node_id: amos_01_canon_04_infrastructure_canon_bio_logical_computing_canon
-
-node_type: log
-
-path: 01_CANON/04_INFRASTRUCTURE_CANON/BIO_LOGICAL_COMPUTING_CANON.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
-
-**MOC:** [[01_CANON/04_INFRASTRUCTURE_CANON/04_INFRASTRUCTURE_CANON_MOC|04_INFRASTRUCTURE_CANON_MOC]]
+node_type: infrastructure_canon
+plane: 01_CANON
+domain: INFRASTRUCTURE
+claim_class: CANONICAL_LAW
+status: ACTIVE_CANON
+confidence_ceiling: ABSOLUTE_FOR_CANONICAL_LAW
+falsifiers:
+  - Synthetic bio-computing coupling causing uncompensated allostatic collapse in biological tissue.
+  - Treating inferred neural biomarkers as directly observed physical signals without sensor attribution.
+```

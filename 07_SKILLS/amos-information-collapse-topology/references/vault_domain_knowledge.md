@@ -1,23 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Vault Domain Knowledge — Amos Information Collapse Topology
-type: reference
-source: 07_SKILLS/amos-information-collapse-topology/references
-rscf:
-  state: SOURCE_CLAIM
-  class: STRUCTURAL
-  provenance:
-    - internal
-  freshness: EVERGREEN
-  falsifiers: []
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Vault Domain Knowledge
 tags:
-  - reference
-  - references
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-canon-group: canon/skills
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 ## ---title: "AMOS Collapse-Space Coverage Audit" type: document tags: [note]

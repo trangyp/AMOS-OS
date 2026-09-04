@@ -1,227 +1,107 @@
 ---
-title: RSCF Canon
-type: canon
-source: 01_CANON/04_INFRASTRUCTURE_CANON
-artifact: RSCF_CANON.md
-artifact_id: amos_01_canon_04_infrastructure_canon_rscf_canon
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/04_INFRASTRUCTURE_CANON
-artifact_kind: CANON
-path: 01_CANON/04_INFRASTRUCTURE_CANON/RSCF_CANON.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Rscf Canon
 tags:
-  - amos-os
-  - canon
-  - universe
-  - canon_placeholder
-  - rscf
-  - canon/universe
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# RSCF Canon
+# RSCF Infrastructure Canon — Recursive Self-Consistent Format
 
-## 0. Status
+> **Authoritative Canon Boundary**
+>
+> This document defines the canonical laws governing the **Recursive Self-Consistent Format (RSCF)**, the universal structural representation envelope of AMOS Core v4.4.
+>
+> ```text
+> TEXT != STRUCTURED_CLAIM
+> SELF_CONSISTENCY REQUIRES PROVENANCE CLOSURE
+> EPISTEMIC CLASS IS NEVER OPTIONAL
+> CONFIDENCE WITHOUT FALSIFIERS IS FABRICATION
+> ```
 
-`RSCF_CANON.md` is an **ADD-ONLY placeholder** for the **Canon** plane segment at `01_CANON/04_INFRASTRUCTURE_CANON`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+## 1. Architectural Purpose
 
-The governing boundaries are:
+Unstructured markdown or natural language lacks computational parseability, invariant verification, and provenance traceability.
+
+The **Recursive Self-Consistent Format (RSCF)** is the canonical data and knowledge encapsulation standard in AMOS Core v4.4. Every governed node in the vault must be self-contained, typed, versioned, provenance-tracked, and bound to explicit falsification criteria.
+
+---
+
+## 2. The Three-Layer RSCF Structural Envelope
+
+Every compliant RSCF document consists of three mandatory structural layers:
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
+┌────────────────────────────────────────────────────────────┐
+│ LAYER 1: STRICT YAML FRONTMATTER                           │
+│ - Identity, Type, Source, Architect, Steward               │
+│ - Status, Epistemic Class, Canonical Status                │
+│ - RSCF Metadata Block: {state, claim_class, provenance}    │
+├────────────────────────────────────────────────────────────┤
+│ LAYER 2: BOUNDED DOCUMENTARY BODY                          │
+│ - Markdown content structured by numbered sections         │
+│ - Explicit Epistemic Boundary block (firewalls: A != B)    │
+│ - Typed mathematical formulas and invariant definitions    │
+├────────────────────────────────────────────────────────────┤
+│ LAYER 3: RSCF-NODE FOOTER                                  │
+│ - Node ID, Node Type, Plane, Domain                        │
+│ - Confidence ceiling and explicit falsifiers               │
+│ - RSCF-RELATIONS graph edges (INDEXED_BY, GOVERNED_BY)     │
+└────────────────────────────────────────────────────────────┘
 ```
 
-Origin architect / steward:
+---
 
-**Trang Phan**
+## 3. Canonical RSCF Invariants
 
-______________________________________________________________________
+### Law RSCF-01: Explicit Epistemic Typing
+Every assertion in an RSCF node must carry an explicit epistemic classification:
+- `OBSERVATION`: Raw, uninterpreted sensory or system telemetry;
+- `SOURCE_CLAIM`: Unverified claim bound to a specific external paper/author;
+- `AMOS_MODEL`: Internal theoretical framework or architectural design;
+- `DERIVED`: Conclusion logically derived from verified premises;
+- `COMPETING`: Multiple viable hypotheses under active evaluation;
+- `UNKNOWN/GAP`: Missing knowledge or unverified premise.
 
-## 1. Purpose
+### Law RSCF-02: Provenance Closure
+No node may assert conclusions without recording an explicit list of parent provenance roots (`provenance: [parent_nodes]`). An orphan claim without provenance cannot be promoted beyond `SOURCE_CLAIM`.
 
-This artifact reserves the **RSCF Canon** slot within the Canon plane. The Canon plane governs canonical laws, universe/cognition/infrastructure canons, variable registry, glossary, provenance lineage, and supersession.
+### Law RSCF-03: Falsification Enclosure
+Every authoritative RSCF specification must state at least one explicit falsifier: an empirical or logical condition under which the node's conclusions would be formally refuted.
 
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+---
 
-______________________________________________________________________
+## 4. Cross-Plane Bindings
 
-## 2. Non-Purpose
+- **`02_KERNEL/09_INTEGRATION/K_RSCF`**: Provides schema validation and serialization parsers.
+- **`16_SCHEMAS`**: Defines YAML and JSON schemas for RSCF validation.
+- **`17_OBSERVABILITY`**: Ingests RSCF node lineage graphs into the Provenance Graph family.
 
-This placeholder MUST NOT be used to claim:
+---
 
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
-
-______________________________________________________________________
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
-```
-
-______________________________________________________________________
-
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
-______________________________________________________________________
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
-______________________________________________________________________
-
-## 6. Worked semantics (target)
-
-Given an operation touching `01_CANON · CANON` within the Canon plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-______________________________________________________________________
-
-RSCF-NODE
-
+```RSCF-NODE
 node_id: amos_01_canon_04_infrastructure_canon_rscf_canon
-
-node_type: canon
-
-path: 01_CANON/04_INFRASTRUCTURE_CANON/RSCF_CANON.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
-
-**MOC:** [[01_CANON/04_INFRASTRUCTURE_CANON/04_INFRASTRUCTURE_CANON_MOC|04_INFRASTRUCTURE_CANON_MOC]]
+node_type: infrastructure_canon
+plane: 01_CANON
+domain: INFRASTRUCTURE
+claim_class: CANONICAL_LAW
+status: ACTIVE_CANON
+confidence_ceiling: ABSOLUTE_FOR_CANONICAL_LAW
+falsifiers:
+  - Acceptance of an RSCF node lacking epistemic classification or provenance roots.
+  - Silent omission of falsification conditions in an authoritative specification.
+```

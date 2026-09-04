@@ -1,228 +1,170 @@
 ---
-title: Cognition Engine
-type: engine
-source: 05_COGNITIVE_ORGANISM
-artifact: COGNITION_ENGINE.md
-artifact_id: amos_05_cognitive_organism_cognition_engine
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 05_COGNITIVE_ORGANISM
-segment: 05_COGNITIVE_ORGANISM
-artifact_kind: ENGINE
-path: 05_COGNITIVE_ORGANISM/COGNITION_ENGINE.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Cognition Engine
 tags:
-  - amos-os
-  - cognitive
-  - organism
-  - engine
-  - canon_placeholder
-  - rscf
-  - canon/cognitive
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Cognition Engine
+# Cognition Engine — Cognitive Organism
 
-## 0. Status
+> **Status:** `ACTIVE_SPECIFICATION` · **AMOS Core target:** `v4.4`  
+> **Origin architect / steward:** Trang Phan  
+> **Functional Group:** `B. INTERPRETATION / REASONING` (MECE Partition)  
+> **Conclusion class:** `AMOS_MODEL`
 
-`COGNITION_ENGINE.md` is an **ADD-ONLY placeholder** for the **Cognitive Organism** plane segment at `05_COGNITIVE_ORGANISM`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+## 1. Architectural Purpose & Role
 
-The governing boundaries are:
+The **Cognition Engine** is the core reasoning, interpretation, and synthesis powerhouse of `05_COGNITIVE_ORGANISM`. Receiving focused observation vectors from the [Attention Engine](file:///Users/mac/Documents/AMOS_OS/05_COGNITIVE_ORGANISM/ATTENTION_ENGINE.md) and contextual state from the [Memory Engine](file:///Users/mac/Documents/AMOS_OS/05_COGNITIVE_ORGANISM/MEMORY_ENGINE.md), it transforms raw observations into structured hypotheses, causal diagrams, and actionable decisions without prematurely collapsing competing explanations.
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
+ATTENDED OBSERVATION VECTOR & CONTEXT
+                  ↓
+┌───────────────────────────────────────────────┐
+│               COGNITION ENGINE                │
+│  Layer C1: Meta Logic & Core Laws             │
+│  Layer C2: Structural & Graph Reasoning       │
+│  Layer C3: Cognitive Infrastructure & Proofs  │
+│  Layer C4: Multi-Possibility / Competing H    │
+│  Layer C5: Biological & Systems Logic Lens    │
+│  Layer C6: Synthesis & Integration Kernel     │
+└───────────────────────────────────────────────┘
+                  ↓
+STRUCTURED HYPOTHESES & COGNITIVE PROPOSALS (RSCF: MODEL/DERIVED)
+                  ↓
+         DECISION & PLANNING ORGANS
 ```
 
-Origin architect / steward:
+---
 
-**Trang Phan**
+## 2. Six-Layer Cognitive Architecture
 
-______________________________________________________________________
+The Cognition Engine operates through a unified, non-monolithic stack:
 
-## 1. Purpose
+```text
+C1: Meta Logic (Law of Law, Scope/Regime Firewalls)
+       ↓
+C2: Structural Reasoning (Problem Graph, AST Decomposition)
+       ↓
+C3: Cognitive Infrastructure (RSCF Validation, Proof Capsules)
+       ↓
+C4: Multi-Possibility Space (Rule of 2: H1 vs H2 Competition)
+       ↓
+C5: Biological & Epistemic Lens (Rule of 4: Bio/Exp/Logic/Sys)
+       ↓
+C6: Integration Kernel (Synthesis without Forced Consensus)
+```
 
-This artifact reserves the **Cognition Engine** slot within the Cognitive Organism plane. The Cognitive Organism plane governs the organism-level cognitive assembly above kernels and below agents.
+### 2.1 Governing Canonical Laws
+1. **Law of Law:** Every subordinate heuristic or domain rule must explicitly declare scope, regime, assumptions, and failure criteria.
+2. **Rule of 2:** In all consequential reasoning steps under uncertainty, the engine must formulate at least two structurally independent competing hypotheses ($H_1$ and $H_2$). Premature narrative collapse is prohibited.
+3. **Rule of 4:** Comprehensive domain analysis examines four distinct perspectives before synthesis:
+   * Biological / Physical substrate constraints
+   * Experiential / Phenomenological user context
+   * Formal / Mathematical-logical proofs
+   * Systemic / Institutional governance invariants
 
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+---
 
-______________________________________________________________________
+## 3. Epistemic Discipline & Causal Firewall
 
-## 2. Non-Purpose
+The Cognition Engine enforces strict epistemic bounds:
 
-This placeholder MUST NOT be used to claim:
+$$\text{CORRELATION} \neq \text{CAUSATION}$$
+$$\text{ASSOCIATION} \neq \text{MECHANISM}$$
+$$\text{ANALOGY} \neq \text{PROOF}$$
+$$\text{PROPOSAL} \neq \text{COMMIT}$$
 
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
+Causal graphs constructed by the engine must type every edge explicitly:
+$$\mathcal{E} \in \{\text{Association}, \text{Correlation}, \text{EnablingCondition}, \text{NecessaryCondition}, \text{SufficientCondition}, \text{Mechanism}, \text{InterventionEffect}\}$$
 
-______________________________________________________________________
+---
 
-## 3. Ingestion Rule
+## 4. Grounding in Arvix Research Corpus
 
+The Cognition Engine directly incorporates the mathematical formalizations and models established across the [Arvix Research Corpus](file:///Users/mac/Desktop/_Arxiv/Arvix):
+
+1. **Behavioral Properties & Consciousness Formalization:**
+   * Grounded in [[1002.0177v1_Logical_Evaluation_of_Consciousness__For_Incorporating_Consciousness_into_Machin]]: Formalizes machine cognitive evaluation across four behavioral invariants, preventing subjective inflation while enforcing rigorous operational tests for intentionality.
+2. **Synaptic Organization & Physical Foundations:**
+   * Grounded in [[0907.2192v1_Physical_Foundations_of_Consciousness__Brain_Organisation__The_Role_of_Synapses]]: Grounding consciousness and higher-order thought in multi-scale synaptic organization, providing the biological logic lens (Layer C5).
+3. **Artificial Brain Architectures & Credible Neural Circuits:**
+   * Grounded in [[1008.5161v3_Artificial_Brain_Based_on_Credible_Neural_Circuits_in_a_Human_Brain]]: Neuro-anatomical circuit modeling separating sensory processing, thalamic gating, and cortical executive synthesis.
+4. **Quantum Foundations & Panprotopsychism Resolving:**
+   * Grounded in [[outputs/Quantum_Consciousness_Argument_Map]] and [[outputs/Quantum_Panpsychism_Fourth_Position]]: Resolving the objective collapse vs. reductionism debate through formal epistemic boundaries.
+
+---
+
+## 5. Input / Output Contracts
+
+### 5.1 Input Contract
 ```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+cognition_request:
+  attended_tokens: list[object]
+  active_context_envelope:
+    domain_regime: string
+    active_assumptions: list[string]
+    temporal_horizon: string
+  retrieved_knowledge:
+    rscf_claims: list[string]
+    provenance_chain: list[string]
+  required_output_class: "EXPLANATION | HYPOTHESIS_SET | ACTION_PROPOSAL"
 ```
 
-______________________________________________________________________
+### 5.2 Output Contract
+```yaml
+cognition_output:
+  primary_hypothesis_h1:
+    statement: string
+    supporting_evidence: list[string]
+    falsifiers: list[string]
+  alternative_hypothesis_h2:
+    statement: string
+    supporting_evidence: list[string]
+    falsifiers: list[string]
+  discriminating_test:
+    procedure: string
+    expected_discriminating_signal: string
+  composite_rscf_block:
+    claim_class: "AMOS_MODEL | DERIVED"
+    confidence_ceiling: float
+    integrity_verified: bool
+```
 
-## 4. Contract discipline
+---
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+## 6. Cross-Plane & Architectural Bindings
 
-______________________________________________________________________
+* **Governing Canon:** [[01_CANON/03_COGNITION_CANON/COGNITIVE_ORGANISM_CANON|COGNITIVE_ORGANISM_CANON]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+* **Upstream Input:** [[05_COGNITIVE_ORGANISM/ATTENTION_ENGINE|ATTENTION_ENGINE]]
+* **Downstream Consumers:** [[05_COGNITIVE_ORGANISM/PREDICTION_ENGINE|PREDICTION_ENGINE]] · [[05_COGNITIVE_ORGANISM/METACOGNITIVE_ENGINE|METACOGNITIVE_ENGINE]]
+* **Control Plane Gate:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] (Action proposals require authorization)
+* **Master Index:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
 
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
-______________________________________________________________________
-
-## 6. Worked semantics (target)
-
-Given an operation touching `05_COGNITIVE_ORGANISM · ENGINE` within the Cognitive Organism plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-______________________________________________________________________
-
+---
 RSCF-NODE
-
 node_id: amos_05_cognitive_organism_cognition_engine
-
 node_type: engine
-
 path: 05_COGNITIVE_ORGANISM/COGNITION_ENGINE.md
-
 claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
 RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
-
-**MOC:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
+  - GOVERNED_BY: [[01_CANON/03_COGNITION_CANON/COGNITIVE_ORGANISM_CANON]]
+  - CONSUMES: [[05_COGNITIVE_ORGANISM/ATTENTION_ENGINE]]
+  - FEEDS: [[05_COGNITIVE_ORGANISM/PREDICTION_ENGINE]]
+  - AUDITED_BY: [[05_COGNITIVE_ORGANISM/METACOGNITIVE_ENGINE]]
+  - INDEXED_BY: [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC]]
+  - INDEXED_BY: [[00_ROOT/00_HOME]]

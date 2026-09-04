@@ -1,46 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: L11 KNOWLEDGE MEMORY
-type: memory
-source: 01_CANON/01_CORE_LAWS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: L11 Knowledge Memory
 tags:
-  - canon
-  - core_laws
-  - knowledge
-  - memory
-  - provenance
-  - durability
-  - staleness
-  - validation
-  - epistemic_governance
-  - canon/universe
-  - readme
-  - skill
-  - workflow
-  - workflows
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-  - provenance-topology
-  - persistent-provenance
-  - epistemic-regimes
-  - knowledge-harvest
-  - law/L10-failure-recovery
-  - rscf
-  - gmef
-  - mvcc-cas
-  - causal-epoch-finality
-  - fractal-knowledge-network
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: core_laws
-  canonical_status: CONDITIONAL
-  specification_status: PROPOSED_SPECIFICATION
-  node_id: l11_knowledge_memory
-  node_type: note
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # L11 Knowledge & Memory Laws
@@ -108,7 +78,7 @@ Validation establishes whether that information may still support a conclusion.
 
 ---
 
-## 1. Governing Objective
+# 1. Governing Objective
 
 L11 seeks to preserve useful knowledge without converting historical storage into unjustified authority.
 
@@ -387,7 +357,7 @@ IN SKILL
 ≠
 TRUE
 
-IN [[08_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]]
+IN [[26_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]]
 ≠
 AUTHORITATIVE
 ```
@@ -1088,7 +1058,7 @@ Example:
 ```text
 VAULT     ✓
 SKILLS    ✓
-[[08_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]]  ✗
+[[26_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]]  ✗
 MEMORY    ✓
 ```
 
@@ -2303,14 +2273,14 @@ If one durability channel fails:
 ```text
 VAULT ✓
 SKILLS ✓
-[[08_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]] ✗
+[[26_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]] ✗
 MEMORY ✓
 ```
 
 recovery should target:
 
 ```text
-[[08_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]]
+[[26_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]]
 ```
 
 rather than blindly rewriting all channels.
@@ -2376,7 +2346,7 @@ may preserve evidence
 SKILL
 may preserve procedure
 
-[[08_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]]
+[[26_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]]
 may preserve execution logic
 
 MEMORY
@@ -2516,7 +2486,7 @@ ______________________________________________________________________
                     ↓
                  DECISION
                     ↓
-                [[08_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]]
+                [[26_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]]
 ```
 
 Every edge should remain provenance-aware.
@@ -4078,4 +4048,6 @@ CAPTURE
 
 **Conclusion class: CONDITIONAL / AMOS_MODEL.**
 
+```
+```
 ```

@@ -1,20 +1,16 @@
 ---
-title: DELEGATION ASSIGNMENT MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-type: delegation
-source: 03_CONTROL_PLANE/09_COMMIT/98_DELEGATION_ASSIGNMENT_MODES
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Delegation Assignment Modes Commit Control Plane Mode Family Registry
 tags:
-  - control-plane
-  - 98_delegation_assignment_modes
-  - canon/control-plane
-  - delegation
-  - authz-engine-validation-receipt
-  - routing-policy-validation-receipt
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: DERIVED
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # [[03_CONTROL_PLANE/04_AUTHORITY/DELEGATION|DELEGATION]] ASSIGNMENT MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

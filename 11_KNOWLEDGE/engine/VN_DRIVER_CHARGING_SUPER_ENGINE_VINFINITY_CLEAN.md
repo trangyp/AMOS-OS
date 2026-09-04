@@ -1,28 +1,20 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: VN DRIVER CHARGING SUPER ENGINE VINFINITY CLEAN
-type: engine
-source: 11_KNOWLEDGE/engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
-topic: vn-driver-charging-super-engine-vinfinity-clean
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Vn Driver Charging Super Engine Vinfinity Clean
 tags:
   - canon-group/tech-ai
-  - canon/framework
   - rscf/claim
   - rscf/provenance
-  - rscf/state/observation
-  - topic/vn-driver-charging-super-engine-vinfinit
-  - engine
+  - rscf/state/source-claim
+  - misc
 created: 2026-08-22
-rscf:
-  state: AMOS_MODEL
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: engine_specification
+---
 ---
 
 # VN DRIVER CHARGING SUPER ENGINE VINFINITY CLEAN

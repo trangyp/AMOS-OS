@@ -1,35 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS Corp Doc Engine vInfinity (Documentation Kernel)
-type: engine
-source: 11_KNOWLEDGE/engine
-created: '2026-08-22'
-origin: Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_Documentation_Kernel_v0.json (708 lines, 24KB)
-origin_type: SOURCE
-category: kernel
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Corp Doc Engine Vinfinity
 tags:
-  - amos
-  - documentation
-  - corporate
-  - engine
-  - v-infinity
-  - layout
-  - templates
-  - multilingual
-  - governance
-  - compliance
-  - canon/knowledge
-  - system-scan-agent
-  - automation-profiles
-  - amos-simulation-kernel-v0-math-foundations
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: AMOS_MODEL
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: engine_specification
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Corp Doc Engine vInfinity

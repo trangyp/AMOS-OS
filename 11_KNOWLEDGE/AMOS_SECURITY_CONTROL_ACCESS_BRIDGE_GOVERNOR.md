@@ -1,34 +1,16 @@
 ---
-title: AMOS SECURITY CONTROL ACCESS BRIDGE GOVERNOR
-type: security
-source: 11_KNOWLEDGE
-claim_ceiling: 0.9
-created: 2026-08-27
-domain: cross-domain
-epistemic_class: SOURCE_CLAIM
-origin_architect: Trang Phan
-parent_skill: amos-security-safety-master
-rscf_node_type: skill
-status: production_ready
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Amos Security Control Access Bridge Governor
 tags:
-  - rscf/node
-  - knowledge
-  - vault
-  - canon-group/cross-domain
-  - topic/security-control-access
-  - topic/pipeline-governance
-  - canon/knowledge
-  - access-control
-  - bounded-intelligence-security
-  - amos-cross-domain-tensor-composition-governor
-  - risk-compliance-model
-  - c09-org-law-policy
-  - c10-tech-engineering
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AMOS SECURITY CONTROL ACCESS BRIDGE GOVERNOR
@@ -3499,7 +3481,7 @@ ______________________________________________________________________
 
 ## 134. Dataview — Source Node
 
-```text
+```dataview
 TABLE
   type,
   domain,
@@ -3515,7 +3497,7 @@ ______________________________________________________________________
 
 ## 135. Dataview — Security Bridge Family
 
-```text
+```dataview
 TABLE
   title,
   type,
@@ -3532,7 +3514,7 @@ ______________________________________________________________________
 
 ## 136. Dataview — RSCF Nodes
 
-```text
+```dataview
 TABLE
   title,
   rscf_node_type,

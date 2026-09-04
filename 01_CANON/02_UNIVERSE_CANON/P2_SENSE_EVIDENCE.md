@@ -1,62 +1,16 @@
 ---
-title: "P2 Sense & Evidence"
-type: evidence
-source: 01_CANON/02_UNIVERSE_CANON
-artifact: P2_SENSE_EVIDENCE.md
-artifact_id: amos_01_canon_02_universe_canon_p2_sense_evidence
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/02_UNIVERSE_CANON
-artifact_kind: CANON_SPECIFICATION
-path: 01_CANON/02_UNIVERSE_CANON/P2_SENSE_EVIDENCE.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: P2 Sense Evidence
 tags:
-  - amos-os
-  - canon
-  - universe
-  - universe_canon
-  - p2
-  - sense
-  - evidence
-  - perception
-  - measurement
-  - observation
-  - provenance
-  - source_identity
-  - independence
-  - observer_effect
-  - admission
-  - epistemic_boundary
-  - rscf
-  - canon/universe
-  - validation
-  - integration
-  - law/L19-proof-capsule
-  - p1-reality-environment
-  - trang-framework-recursive-ontology-dynamics
-  - khung-trang-master
-version: 1.0.0
-updated: '2026-08-27'
-status: PROPOSED_SPECIFICATION
-epistemic_class: AMOS_MODEL
-canonical_status: CONDITIONAL
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_NORMALIZATION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_GROUNDED
-  claim_class: AMOS_MODEL
-  provenance:
-    - AMOS_corpus
-    - 01_CANON/02_UNIVERSE_CANON/AMOS_7_PART_UNIVERSE_CANON
-    - 01_CANON/02_UNIVERSE_CANON/HML_CANON
-    - TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS
-  scope:
-    - UNIVERSE_CANON
-    - P2_SENSE_EVIDENCE
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # P2 — Sense & Evidence Plane
@@ -2624,4 +2578,6 @@ ______________________________________________________________________
 
 The decisive P2 invariants are now explicit: **evidence must be typed**, **measurement is itself part of the observation process**, and **provenance begins at capture**. The source boundary `sensed != true` is preserved as the central firewall, while observer-effect semantics remain domain-specific rather than being promoted into a universal physical claim.
 
+```
+```
 ```

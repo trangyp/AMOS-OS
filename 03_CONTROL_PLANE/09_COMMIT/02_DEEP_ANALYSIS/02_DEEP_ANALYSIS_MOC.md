@@ -1,36 +1,21 @@
 ---
-title: 02 Deep Analysis MOC
-type: moc
-source: 03_CONTROL_PLANE/09_COMMIT/02_DEEP_ANALYSIS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 02 Deep Analysis Moc
 tags:
-  - 02-deep-analysis
-  - canon/control-plane
-  - commit-control-plane-aliases
-  - commit-control-plane-benchmarks
-  - commit-control-plane-composition
-  - commit-control-plane-domain-weights
-  - commit-control-plane-engine-weights
-  - commit-control-plane-deprecation-supersession
-  - commit-control-plane-exit-criteria
-  - commit-control-plane-failure-recovery
-  - commit-control-plane-governance
-  - commit-control-plane-layer-weights
-  - commit-control-plane-observability
-  - commit-control-plane-preconditions
-  - commit-control-plane-purpose-scope
-  - commit-control-plane-routing-bindings
-  - commit-control-plane-safety-gates
-  - commit-control-plane-tests
-  - commit-control-plane-transition-rules
-  - commit-control-plane-validation
-  - deep-analysis-commit-control-plane-mode-spec
-  - deep-analysis-commit-control-plane-provenance
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: EMPIRICAL
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 02 Deep Analysis — Map of Content

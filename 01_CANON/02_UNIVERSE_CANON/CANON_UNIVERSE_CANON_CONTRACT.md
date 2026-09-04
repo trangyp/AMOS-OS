@@ -1,69 +1,16 @@
 ---
-title: CANON UNIVERSE CANON CONTRACT
-canonical_name: CANON_UNIVERSE_CANON_CONTRACT
-type: canon
-source: 01_CANON/02_UNIVERSE_CANON
-artifact: CANON_UNIVERSE_CANON_CONTRACT.md
-artifact_id: amos_01_canon_02_universe_canon_canon_universe_canon_contract
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-plane_name: CANON
-segment: 01_CANON/02_UNIVERSE_CANON
-segment_name: 02_UNIVERSE_CANON
-artifact_kind: CANON_CONTRACT
-path: 01_CANON/02_UNIVERSE_CANON/CANON_UNIVERSE_CANON_CONTRACT.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Canon Universe Canon Contract
 tags:
-  - amos-os
-  - canon
-  - universe
-  - universe_canon
-  - canon_contract
-  - law_hierarchy
-  - typed_artifacts
-  - epistemic_governance
-  - provenance
-  - lineage
-  - supersession
-  - dependency_closure
-  - local_finality
-  - selective_invalidation
-  - epoch_separation
-  - receipts
-  - rollback
-  - rscf
-  - gmef
-  - canon/universe
-  - law-hierarchy
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - canon-universe-canon-contract-validation-receipt
-  - trang-framework-recursive-ontology-dynamics
-version: 1.0.0-contract-candidate
-updated: '2026-08-27'
-status: CONDITIONAL
-epistemic_class: AMOS_MODEL
-canonical_status: CONDITIONAL
-implementation_status: PARTIAL
-validation_status: ARTIFACT_SPECIFIC_VALIDATION_NOT_ESTABLISHED
-executable_binding: PARTIAL_OR_NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: universe_canon
-  regime: CANON_UNIVERSE_CONTRACT
-  confidence_ceiling: 0.95
-governance:
-  fail_closed_on_unknown_gap: true
-  selective_invalidation: true
-  competing_hypotheses_preserved: true
-  rollback_before_consequential_mutation: true
-  consequential_effect_receipts: true
-  local_finality_requires_proof: true
-  independence_must_be_demonstrated: true
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # CANON UNIVERSE CANON CONTRACT
@@ -3457,7 +3404,7 @@ RSCF-RELATIONS:
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

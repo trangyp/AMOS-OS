@@ -1,52 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: L19 PROOF CAPSULE
-type: proof
-source: 01_CANON/01_CORE_LAWS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: L19 Proof Capsule
 tags:
-  - canon
-  - core_laws
-  - proof
-  - proof_capsule
-  - epistemic_governance
-  - mandatory_fields
-  - confidence_ceiling
-  - implementation_claims
-  - competing_hypotheses
-  - falsifiers
-  - supersession
-  - provenance
-  - dependency_invalidation
-  - canon/universe
-  - validation
-  - readme
-  - architecture
-  - law/L19-proof-capsule
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-  - law/L17-rscf
-  - law/L18-gmef
-  - law/L16-hml
-  - provenance-topology
-  - persistent-provenance
-  - scope-regime-firewall
-  - causal-firewall
-  - causal-epoch-finality
-  - atomic-multi-rscf
-  - law/L10-failure-recovery
-  - law/L11-knowledge-memory
-  - law/L15-fractal-knowledge
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: core_laws
-  canonical_status: CONDITIONAL
-  specification_status: PROPOSED_SPECIFICATION
-  node_id: l19_proof_capsule
-  node_type: note
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # L19 Proof Capsule Laws
@@ -5170,4 +5134,9 @@ until authoritative proof-capsule canon supplies discriminating validation.
 
 **Conclusion class: CONDITIONAL / AMOS_MODEL.**
 
+```
+```
+
+```
+```
 ```

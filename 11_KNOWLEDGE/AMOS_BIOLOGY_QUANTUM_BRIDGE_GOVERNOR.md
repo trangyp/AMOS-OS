@@ -1,135 +1,16 @@
 ---
-title: AMOS BIOLOGY QUANTUM BRIDGE GOVERNOR
-aliases:
-  - AMOS Biology-Quantum Bridge Governor
-  - Biology Quantum Bridge Governor
-  - BQ Bridge Governor
-  - Bio-Quantum Anti-Overclaim Governor
-type: quantum
-artifact_type: cross_domain_governor
-document_role: epistemic_bridge_governor
-source: 11_KNOWLEDGE
-path: 11_KNOWLEDGE/AMOS_BIOLOGY_QUANTUM_BRIDGE_GOVERNOR.md
-created: 2026-08-27
-system: AMOS_OS
-origin_architect: Trang Phan
-steward: Trang Phan
-domain: cross-domain
-source_domain: C04 Bio-Neuro
-target_domain: C03 Physics-Cosmos
-parent_skill: amos-c04-bio-neuro-master
-rscf_node_type: skill
-status: production_ready
-source_reported_status: PRODUCTION_READY
-implementation_verification: NOT_INDEPENDENTLY_ESTABLISHED
-qa_status: 'SOURCE_CLAIM: all 10 QA gates pass'
-epistemic_class: SOURCE_CLAIM
-claim_ceiling: 0.85
-claim_ceiling_scope: AMOS bridge-governance claims only
-empirical_quantum_biology_ceiling: CONTESTED / REQUIRES EXTERNAL EVIDENCE
-canonical_status: SOURCE_GROUNDED_AMOS_MODEL
-bridge_status: GOVERNED
-anti_overclaim_firewall: REQUIRED
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Amos Biology Quantum Bridge Governor
 tags:
-  - amos-os
-  - amos-os
-  - rscf
-  - rscf/node
-  - rscf/skill
-  - knowledge
-  - vault
-  - cross-domain
-  - cross-domain-governance
-  - cross-domain-bridge
-  - bridge-governor
-  - biology
-  - neuroscience
-  - bio-neuro
-  - quantum
-  - quantum-biology
-  - quantum-mechanics
-  - physics
-  - physics-cosmos
-  - biology-quantum
-  - biology-quantum-bridge
-  - bio-quantum
-  - bio-quantum-bridge
-  - analogy
-  - metaphor
-  - model
-  - structural-comparison
-  - epistemic
-  - epistemic-classification
-  - epistemic-firewall
-  - epistemic-regime
-  - epistemic-governance
-  - anti-overclaim
-  - anti-overclaim-firewall
-  - causal-firewall
-  - causality
-  - causal-discipline
-  - provenance
-  - provenance-topology
-  - evidence
-  - evidence-governance
-  - evidence-independence
-  - scope
-  - regime
-  - freshness
-  - drift-detection
-  - claim-ceiling
-  - confidence-ceiling
-  - competing-hypotheses
-  - falsification
-  - validation
-  - qa
-  - lifecycle
-  - translation
-  - bidirectional-translation
-  - mapping
-  - governed-mapping
-  - model-metaphor
-  - diagnostic-metaphor
-  - structural-analogy
-  - quantum-analogy
-  - consciousness-firewall
-  - physical-prediction-firewall
-  - empirical-firewall
-  - biology-cognition
-  - nervous-system
-  - neural-computation
-  - cognition
-  - embodied-machine
-  - living-body
-  - neuromorphic
-  - quantum-engine
-  - quantum-stack
-  - qft-mapping
-  - rscf-governance
-  - hml
-  - tensor-composition
-  - canon-group/cross-domain
-  - topic/biology-quantum
-  - topic/anti-overclaim-firewall
-  - canon/knowledge
-  - readme
-  - amos-cross-domain-tensor-composition-governor
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: EMPIRICAL
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
-  node_type: skill
-  domain: cross-domain
-  source_domain: C04_Bio_Neuro
-  target_domain: C03_Physics_Cosmos
-  parent_skill: amos-c04-bio-neuro-master
-  claim_ceiling: 0.85
-  empirical_status: CONTESTED
-  bridge_class: MODEL_METAPHOR
-  causal_promotion: BLOCKED_WITHOUT_INDEPENDENT_EVIDENCE
-  physical_prediction_promotion: BLOCKED_WITHOUT_INDEPENDENT_EVIDENCE
-  consciousness_promotion: BLOCKED_WITHOUT_INDEPENDENT_EVIDENCE
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AMOS Biology-Quantum Bridge Governor

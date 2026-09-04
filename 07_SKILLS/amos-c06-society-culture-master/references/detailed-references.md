@@ -1,22 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: detailed-references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Detailed References
 tags:
-  - skills
-  - society
-  - culture
-  - master
-  - references
-  - detailed
-type: reference
-source: 07_SKILLS/amos-c06-society-culture-master/references
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 ## Provenance
@@ -121,7 +120,7 @@ rscf:
 - **Parent**: \`\` — routes to this skill when c06 specialization is needed
 - **Peers**: Other skills in the `c06` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
-- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Workflow**: Each skill has a corresponding workflow in `26_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
 
 ## Evaluation

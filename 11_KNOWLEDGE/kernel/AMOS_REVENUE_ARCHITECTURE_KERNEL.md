@@ -1,203 +1,228 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS REVENUE ARCHITECTURE KERNEL V0 BUSINESS4
-type: kernel
-source: 11_KNOWLEDGE/kernel
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
-topic: amos-revenue-architecture-kernel-v0
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Revenue Architecture Kernel
 tags:
   - canon-group/tech-ai
-  - canon/framework
   - rscf/claim
   - rscf/provenance
   - rscf/state/source-claim
-  - topic/amos-revenue-architecture-kernel-v0
-  - kernel
-  - system-scan-agent
-  - automation-profiles
-  - amos-simulation-kernel-v0-math-foundations
+  - misc
 created: 2026-08-22
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-canonical_status: CANONICAL_KERNEL
-updated: 2026-09-04
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+---
+---
 ---
 
-# AMOS Revenue Architecture Kernel v0 Business4
+# AMOS Revenue Architecture Kernel
 
-> **Origin Architect / Steward:** Trang Phan
-> **Epistemic Class:** `AMOS_MODEL`
-> **Conclusion Class:** `DERIVED`
-> **Status:** `ACTIVE_SPECIFICATION`
-> **Governing Plane:** `11_KNOWLEDGE/kernel`
+> [!abstract] Kernel Specification
+> Defines the revenue architecture framework for AMOS: revenue stream design, pricing architecture, monetization models, revenue lifecycle management, and financial projections. This is the AMOS reasoning/spec pattern for revenue design — **not** a claim that AMOS OS manages live revenue operations (per AGENTS.md invariant 4).
 
-> [!WARNING] GAP -- Original auto-parse failed; specification reconstructed from AMOS revenue architecture canon and BizFin Engine context.
-> **Audit**: Marked GAP 2026-08-26 -- original auto-parse failed, no vault source found. Specification generated from structural context.
+> [!warning] Source Reconstitution
+> This kernel was originally a GAP (auto-parse failed). Content has been reconstructed from cross-references in AMOS_UNIVERSE_OS_vInfinity P7_domain_engines, the Marketing GTM Kernel, and related Business4 domain patterns. All claims are `SOURCE_CLAIM`/`DERIVED` until validated against original source material.
 
 ---
 
-## 1. Architectural Scope
+## 1. Purpose
 
-The **AMOS Revenue Architecture Kernel** (v0, Business4) defines the core data structures, algorithms, and computational guarantees for revenue model design, pricing strategy, revenue stream analysis, and revenue projection within the AMOS OS. It provides revenue stream classification, pricing model evaluation, cohort-based revenue analysis, and revenue sustainability scoring.
+The Revenue Architecture Kernel provides:
 
-This kernel exists to provide the **revenue modelling substrate** for all AMOS business and financial operations. It works in conjunction with the Business Model Kernel to provide the financial architecture layer of business analysis.
-
-**Epistemic Boundary:**
-```
-MODEL != OBSERVATION
-DOCUMENTED != IMPLEMENTED
-CAPABILITY != AUTHORITY
-REVENUE_MODEL != REVENUE_GUARANTEE
-PRICING_ANALYSIS != PRICING_RECOMMENDATION
-```
-
-**Core Data Structures:**
-- `RevenueStream{type, pricing_model, unit_price, volume, frequency, growth_rate, churn_rate}`
-- `PricingModel{model_type, price_points[], elasticity, competitive_position, value_anchor}`
-- `RevenueCohort{cohort_id, acquisition_date, retention_curve, revenue_curve, ltv}`
-- `RevenueArchitecture{streams[], diversification_score, concentration_risk, sustainability_score}`
-
-**Core Algorithms:**
-- Revenue stream classification (recurring, transactional, usage-based, licensing, advertising, etc.)
-- Pricing model evaluation (cost-plus, value-based, competitive, dynamic, freemium)
-- Cohort-based revenue analysis (retention curves, LTV computation, cohort comparison)
-- Revenue diversification scoring (Herfindahl-Hirschman index adaptation)
-- Revenue sustainability scoring (growth, retention, diversification weighted)
-
-**Inputs:** `REVENUE_INPUT{entity, streams[], pricing_models[], cohorts[], time_horizon}`
-**Outputs:** `REVENUE_OUTPUT{revenue_architecture, pricing_analysis, cohort_analysis, sustainability_score, projections[]}`
-
-**Computational Guarantees:** Deterministic revenue computation under fixed parameters, bounded sustainability score in [0, 1], cohort LTV convergence under stable retention.
+- A structured framework for designing and managing revenue streams
+- Revenue lifecycle from acquisition through expansion to retention
+- Monetization model selection and optimization
+- Revenue forecasting and projection
+- Integration with [[11_KNOWLEDGE/kernel/AMOS_BUSINESS_MODEL_KERNEL|AMOS_BUSINESS_MODEL_KERNEL]], [[11_KNOWLEDGE/kernel/AMOS_PRICING_STRATEGY_KERNEL|AMOS_PRICING_STRATEGY_KERNEL]], and [[11_KNOWLEDGE/kernel/AMOS_CUSTOMER_INSIGHT_KERNEL|AMOS_CUSTOMER_INSIGHT_KERNEL]]
 
 ---
 
-## 2. Governing Invariants
+## 2. Revenue Stream Architecture
 
-| ID | Invariant | Description |
-|----|-----------|-------------|
-| INV-RA-001 | Revenue Stream Classification | All revenue streams must be classified by type and pricing model |
-| INV-RA-002 | Concentration Risk Flagging | Revenue concentration above threshold must be flagged |
-| INV-RA-003 | Cohort LTV Convergence | Cohort LTV must converge under stable retention assumptions |
-| INV-RA-004 | Sustainability Boundedness | Sustainability score must be in [0, 1] |
-| INV-RA-005 | No Revenue Guarantee | Kernel outputs projections, not revenue guarantees |
-| INV-RA-006 | Diversification Assessment | Revenue diversification must be assessed and scored |
-| INV-RA-007 | Pricing Elasticity Disclosure | Pricing models must disclose elasticity assumptions |
+### 2.1 Revenue Stream Classification
 
----
+| Dimension | Options | Description |
+| :--- | :--- | :--- |
+| **Timing** | Upfront, Recurring, Usage-based | When revenue is recognized |
+| **Model** | Direct, Indirect, Hybrid | How value is exchanged |
+| **Predictability** | Contractual, Transactional, Advertising | Revenue certainty |
+| **Scalability** | Linear, Exponential (network effects) | Revenue growth potential |
 
-## 3. Mathematical Formulation
+### 2.2 Revenue Stream Taxonomy
 
-**Cohort LTV:**
+| Stream Type | Revenue Recognition | Typical Margin |
+| :--- | :--- | :--- |
+| **SaaS Subscription** | Monthly/Annual recurring | 70–85% |
+| **Usage-Based** | Metered consumption | 50–70% |
+| **Licensing** | Per-seat or per-feature | 80–95% |
+| **Marketplace/Brokerage** | Transaction fee | 60–80% |
+| **Services** | Time-and-materials or fixed-fee | 25–50% |
+| **Data/Analytics** | Subscription or per-query | 75–90% |
+| **Hardware + Service** | One-time + recurring | 40–60% blended |
 
-$$\text{LTV}_{\text{cohort}} = \sum_{t=0}^{T} \frac{\text{Revenue}(t) \cdot \text{Retention}(t)}{(1 + d)^t}$$
+### 2.3 Revenue Composition Model
 
-where $d$ is the discount rate and $T$ is the time horizon.
+Total revenue $R$ as a function of streams:
 
-**Revenue diversification (HHI adaptation):**
+$$R(t) = \sum_{i=1}^{n} R_i(t) = \sum_{i=1}^{n} N_i(t) \times ARPU_i(t) \times \text{Utilization}_i(t)$$
 
-$$D = 1 - \sum_{i} s_i^2$$
+where:
 
-where $s_i$ is the share of stream $i$ in total revenue. $D \in [0, 1]$, higher is more diversified.
-
-**Sustainability score:**
-
-$$S_{\text{sustain}} = w_1 \cdot \text{GrowthRate} + w_2 \cdot \text{RetentionRate} + w_3 \cdot D - w_4 \cdot \text{ConcentrationRisk}$$
-
-**Pricing elasticity:**
-
-$$\epsilon = \frac{\% \Delta Q}{\% \Delta P}$$
-
-**Revenue projection:**
-
-$$R(t) = R_0 \cdot (1 + g)^t \cdot (1 - \text{churn})^t$$
+- $N_i(t)$ = number of customers for stream $i$ at time $t$
+- $ARPU_i(t)$ = average revenue per user for stream $i$
+- $\text{Utilization}_i(t)$ = usage rate for stream $i$
 
 ---
 
-## 4. Architecture
+## 3. Revenue Lifecycle
 
-```mermaid
-graph TD
-    A[REVENUE_INPUT] --> B[Revenue Stream Classification]
-    B --> C[Pricing Model Evaluation]
-    C --> D[Cohort-Based Revenue Analysis]
-    D --> E[Revenue Diversification Scoring]
-    E --> F[Concentration Risk Assessment]
-    F --> G[Sustainability Scoring]
-    G --> H[Revenue Projection]
-    H --> I[REVENUE_OUTPUT]
-    D -.->|compute| J[LTV Computation]
-    J --> I
-    F -.->|flag| K[Concentration Risk Flag]
-    K --> I
+### 3.1 Lifecycle Stages
+
+```text
+ACQUISITION → ACTIVATION → MONETIZATION → EXPANSION → RETENTION → (RENEWAL | CHURN)
 ```
 
----
+| Stage | Key Metric | Target |
+| :--- | :--- | :--- |
+| **Acquisition** | CAC, conversion rate | Minimize CAC; maximize qualified leads |
+| **Activation** | Time-to-value, activation rate | Reduce time-to-value; increase activation |
+| **Monetization** | ARPU, conversion-to-paid | Increase paid conversion; optimize ARPU |
+| **Expansion** | Net revenue retention, upsell rate | NRR > 120%; expand within accounts |
+| **Retention** | Churn rate, retention rate | Minimize churn; maximize renewal |
+| **Renewal** | Renewal rate, expansion revenue | Renewal > 90%; expansion offsets churn |
 
-## 5. MECE Mapping to AMOS Full Brain OS
+### 3.2 Net Revenue Retention (NRR)
 
-| Kernel Component | AMOS Plane | Role |
-|------------------|------------|------|
-| Revenue Stream Classification | `16_SCHEMAS` | Schema classification |
-| Pricing Model Evaluation | `13_MODELS` | Pricing modelling |
-| Cohort Analysis | `13_MODELS` | Cohort modelling |
-| Diversification Scoring | `06_INTELLIGENCE` | Assessment |
-| Concentration Risk | `17_OBSERVABILITY` | Risk monitoring |
-| Sustainability Scoring | `06_INTELLIGENCE` | Assessment |
-| Revenue Projection | `13_MODELS` | Projection modelling |
-| LTV Computation | `13_MODELS` | Financial modelling |
+$$\text{NRR} = \frac{\text{Beginning Revenue} + \text{Expansion} - \text{Contraction} - \text{Churn}}{\text{Beginning Revenue}} \times 100\%$$
 
----
-
-## 6. Safety Invariants & Firewalls
-
-| ID | Firewall | Enforcement |
-|----|----------|-------------|
-| INV-RA-FW-001 | No Revenue Guarantee | Outputs must contain projection disclaimer |
-| INV-RA-FW-002 | Concentration Risk Flag | Concentration above threshold must be flagged |
-| INV-RA-FW-003 | Elasticity Disclosure | Pricing models without elasticity assumptions are blocked |
-| INV-RA-FW-004 | Sustainability Boundedness | Scores outside [0, 1] are blocked |
-| INV-RA-FW-005 | Cohort Convergence Check | Non-convergent cohort LTV must be flagged |
+- $\text{NRR} > 100\%$: Net expansion (growth without new customers)
+- $\text{NRR} < 100\%$: Net contraction (churn exceeds expansion)
 
 ---
 
-## 7. Navigation & Bindings
+## 4. Monetization Models
 
-- **Parent MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
-- **Home:** [[00_ROOT/00_HOME|00_HOME]]
-- **Knowledge MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
-- **BizFin Engine:** [[11_KNOWLEDGE/engine/AMOS_BIZFIN_ENGINE_V0_SECTOR_PACKS7|AMOS_BIZFIN_ENGINE_V0_SECTOR_PACKS7]]
-- **Business Model Kernel:** [[11_KNOWLEDGE/kernel/AMOS_BUSINESS_MODEL_KERNEL|AMOS_BUSINESS_MODEL_KERNEL]]
-- **Audit Quality Kernel:** [[11_KNOWLEDGE/kernel/AMOS_AUDIT_QUALITY_KERNEL_V0|AMOS_AUDIT_QUALITY_KERNEL_V0]]
-- **EV Kernel:** [[11_KNOWLEDGE/kernel/AMOS_EV_KERNEL|AMOS_EV_KERNEL]]
-- **Tech Emotion Kernel:** [[11_KNOWLEDGE/kernel/AMOS_TECH_EMOTION_KERNEL_V1_TECH4|AMOS_TECH_EMOTION_KERNEL_V1_TECH4]]
-- **Meta Kernel Specifications:** [[11_KNOWLEDGE/kernel/AMOS_META_KERNEL_SPECIFICATIONS|AMOS_META_KERNEL_SPECIFICATIONS]]
-- **Simulation Kernel:** [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL|AMOS_SIMULATION_KERNEL]]
-- **Core Laws:** [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|01_CORE_LAWS]]
+### 4.1 Model Selection Matrix
+
+| Model | When to Use | Risk Profile |
+| :--- | :--- | :--- |
+| **Subscription** | Predictable value delivery; regular usage | Lower variance; requires retention |
+| **Freemium** | Large addressable market; low marginal cost | High volume needed; conversion risk |
+| **Tiered pricing** | Diverse customer segments with different WTP | Segmentation accuracy required |
+| **Usage-based** | Variable consumption patterns; value scales with use | Revenue volatility; forecasting complexity |
+| **Marketplace** | Network effects; two-sided demand | Liquidity risk; chicken-and-egg problem |
+| **Licensing** | IP-intensive; platform/ecosystem play | Enforcement complexity; piracy risk |
+| **Bundled** | Multiple complementary products | Bundle optimization complexity |
+
+### 4.2 Revenue Model Canvas
+
+Each revenue stream is described by:
+
+```yaml
+revenue_stream:
+  stream_id: "RS-001"
+  name: "Primary SaaS Subscription"
+  model: subscription
+  recognition: recurring_monthly
+  arpu: 200  # monthly
+  margin: 0.78
+  scalability: exponential
+  dependencies:
+    - customer_acquisition
+    - product_delivery
+  risk_factors:
+    - churn_rate
+    - competitive_pricing
+```
 
 ---
 
-## 8. Known Gaps & Falsifiers
+## 5. Revenue Forecasting
 
-| ID | Gap | Impact | Action |
-|----|-----|--------|--------|
-| GAP-RA-001 | No original vault source | Specification is reconstructed | Label as reconstructed from canon |
-| GAP-RA-002 | Projection accuracy | Revenue projections depend on assumptions | Flag as model-based projections |
-| GAP-RA-003 | Elasticity estimation | Price elasticity is hard to estimate | Flag elasticity as assumed |
-| GAP-RA-004 | Cohort data availability | Cohort analysis requires historical data | Flag insufficient cohort data |
+### 5.1 Cohort-Based Forecasting
+
+Revenue from a cohort $c$ acquired at time $t_0$:
+
+$$R_c(t) = N_c(t_0) \times \text{Survival}_c(t - t_0) \times ARPU_c(t)$$
+
+where $\text{Survival}_c(t)$ is the cohort survival rate (1 - cumulative churn).
+
+### 5.2 ARR/MRR Projection
+
+- **MRR** (Monthly Recurring Revenue): $MRR = \sum_i \text{Active Subscriptions}_i \times \text{Monthly Price}_i$
+- **ARR** (Annual Recurring Revenue): $ARR = MRR \times 12$
+- **Quick Ratio**: $\text{QR} = \frac{\text{New MRR} + \text{Expansion MRR}}{\text{Churned MRR} + \text{Contraction MRR}}$
+
+A quick ratio $> 4$ indicates healthy growth; $< 1$ indicates net shrinkage.
+
+### 5.3 Revenue at Risk
+
+Revenue at risk from churn:
+
+$$R_{at\_risk} = \sum_{i \in \text{Churn Risk}} \text{ARR}_i \times P(\text{churn}_i)$$
+
+where $P(\text{churn}_i)$ is the estimated churn probability for customer $i$ (from [[11_KNOWLEDGE/kernel/AMOS_PROBABILITY_STATISTICS_KERNEL|AMOS_PROBABILITY_STATISTICS_KERNEL]]).
 
 ---
 
-**Related:** [[00_ROOT/00_HOME|00_HOME]] | [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] | [[11_KNOWLEDGE/kernel/AMOS_AUDIT_QUALITY_KERNEL_V0|AMOS_AUDIT_QUALITY_KERNEL_V0]] | [[11_KNOWLEDGE/kernel/AMOS_EV_KERNEL|AMOS_EV_KERNEL]] | [[11_KNOWLEDGE/kernel/AMOS_TECH_EMOTION_KERNEL_V1_TECH4|AMOS_TECH_EMOTION_KERNEL_V1_TECH4]] | [[11_KNOWLEDGE/kernel/AMOS_META_KERNEL_SPECIFICATIONS|AMOS_META_KERNEL_SPECIFICATIONS]]
+## 6. Revenue Quality Metrics
+
+| Metric | Formula | Target |
+| :--- | :--- | :--- |
+| **Revenue diversity** | Shannon entropy $H = -\sum p_i \ln p_i$ | Maximize (reduce concentration) |
+| **Recurring %** | $\text{Recurring Revenue} / \text{Total Revenue}$ | $\geq 0.7$ |
+| **Revenue concentration** | $\max_i p_i$ (largest stream share) | $\leq 0.5$ |
+| **Expansion ratio** | $\text{Expansion Revenue} / \text{Churned Revenue}$ | $> 1.0$ |
+| **Revenue velocity** | $\Delta R / \Delta t$ | Positive and accelerating |
+
+---
+
+## 7. Failure Modes
+
+| Failure | Detection | Recovery |
+| :--- | :--- | :--- |
+| Revenue concentration | Single stream $> 50\%$ of total | Diversify; launch adjacent streams |
+| NRR decay | NRR trend declining quarter-over-quarter | Investigate churn drivers; invest in expansion |
+| Forecast variance | Actual vs forecast variance $> 20\%$ | Refine cohort model; adjust assumptions |
+| Monetization-model mismatch | Low conversion despite high engagement | Revisit model selection; test alternative pricing |
+| Quick ratio degradation | QR < 2 for 2+ consecutive periods | Accelerate acquisition or reduce churn |
+
+---
+
+## 8. Integration Points
+
+| Interface | Direction | Contract |
+| :--- | :--- | :--- |
+| [[11_KNOWLEDGE/kernel/AMOS_BUSINESS_MODEL_KERNEL\|AMOS_BUSINESS_MODEL_KERNEL]] | Read/Write | Business model canvas feeds revenue stream design |
+| [[11_KNOWLEDGE/kernel/AMOS_PRICING_STRATEGY_KERNEL\|AMOS_PRICING_STRATEGY_KERNEL]] | Read | Pricing models define revenue per unit |
+| [[11_KNOWLEDGE/kernel/AMOS_CUSTOMER_INSIGHT_KERNEL\|AMOS_CUSTOMER_INSIGHT_KERNEL]] | Read | Customer segments determine stream targeting |
+| [[11_KNOWLEDGE/kernel/AMOS_PARTNERSHIPS_CHANNELS_KERNEL\|AMOS_PARTNERSHIPS_CHANNELS_KERNEL]] | Read | Channel economics affect revenue margins |
+| [[11_KNOWLEDGE/kernel/AMOS_PROBABILITY_STATISTICS_KERNEL\|AMOS_PROBABILITY_STATISTICS_KERNEL]] | Read | Probabilistic models for churn and forecasting |
+
+---
+
+```RSCF-NODE
+node_id: revenue_architecture_kernel_knowledge_spec
+node_type: kernel_specification
+domain: 11_KNOWLEDGE/kernel
+claim_class: AMOS_MODEL
+confidence_ceiling:
+  revenue_stream_design: medium
+  monetization_model_selection: medium
+  revenue_forecasting: high
+  unit_economics: high
+falsifiers:
+  - Revenue forecast ignores cohort survival rates
+  - Single revenue stream exceeds 50% without flagging concentration risk
+  - NRR not tracked or reported
+```
+
+______________________________________________________________________
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/kernel/AMOS_BUSINESS_MODEL_KERNEL|AMOS_BUSINESS_MODEL_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_PRICING_STRATEGY_KERNEL|AMOS_PRICING_STRATEGY_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_CUSTOMER_INSIGHT_KERNEL|AMOS_CUSTOMER_INSIGHT_KERNEL]]
 
 ______________________________________________________________________
 

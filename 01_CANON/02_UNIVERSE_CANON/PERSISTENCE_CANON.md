@@ -1,66 +1,16 @@
 ---
-type: canon
-source: 01_CANON/02_UNIVERSE_CANON
-artifact_id: AMOS-PERSISTENCE-CANON
-name: PERSISTENCE_CANON
-title: "AMOS Persistence Canon — Durable State, Provenance, Recovery, and Causal Continuity"
-document_version: 2.0.0
-canon_version: 4.4
-amos_core_target: v4.4
-status: ACTIVE_CANON_CANDIDATE
-conclusion_class: AMOS_MODEL
-rscf_state: derived
-canon_group: tech-ai
-canon_type: persistence-canon
-origin_architect: Trang Phan
-steward: Trang Phan
-created: 2026-08-25
-updated: 2026-08-25
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Persistence Canon
 tags:
-  - amos
-  - canon
-  - universe
-  - amos-os
-  - amos-core
-  - amos-core-v4-4
-  - persistence
-  - durable-state
-  - provenance
-  - persistent-provenance
-  - causal-lineage
-  - state
-  - memory
-  - rscf
-  - mvcc
-  - cas
-  - atomicity
-  - epoch
-  - finality
-  - recovery
-  - rollback
-  - supersession
-  - versioning
-  - integrity
   - canon-group/tech-ai
-  - canon/framework
-  - canon/model
   - rscf/claim
   - rscf/provenance
-  - rscf/state/derived
-  - readme
-  - architecture
-  - neural-network
-  - authoritative-state
-  - placement-rules
-  - amos-core-laws
-  - law-hierarchy
-aliases:
-  - AMOS Persistence Canon - Persistence Canon - AMOS Durable State Canon - AMOS Persistent Prov
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: universe_canon
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AMOS Persistence Canon

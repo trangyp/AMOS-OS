@@ -1,44 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: CIL Culture Interface Layer
-type: universe-canon
-source: 01_CANON/02_UNIVERSE_CANON
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Cil Culture Interface Layer
 tags:
-  - cil
-  - culture
-  - interface
-  - universe_canon
-  - localization
-  - language
-  - semantics
-  - contextualization
-  - semantic_fidelity
-  - cultural_fidelity
-  - translation
-  - interpretation
-  - provenance
-  - epistemic_regime
-  - scope_control
-  - interface_layer
-  - rscf/C-constraint
-  - rscf/B-boundary
-  - rscf/type-process
-  - law/L17-rscf
-  - law/L18-gmef
-  - law/L19-proof-capsule
-  - law/L20-adversarial
-  - law/L21-epistemic-regime
-  - law/L22-replayability
-  - law/L23-mvcc-cas
-  - law/L24-causal-epoch
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance: AMOS_CANON
-  scope: culture_interface_layer
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # CIL Culture Interface Layer
@@ -4154,7 +4126,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

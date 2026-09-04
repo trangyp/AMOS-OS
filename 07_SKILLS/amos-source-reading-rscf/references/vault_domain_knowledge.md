@@ -1,22 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Vault Domain Knowledge — Amos Source Reading Rscf
-type: reference
-source: 07_SKILLS/amos-source-reading-rscf/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Vault Domain Knowledge
 tags:
-  - reference
-  - amos-source-reading-rscf
-  - type/skill
-  - workflow
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Vault-Sourced Domain Knowledge
@@ -297,7 +296,7 @@ Fully operational and tested
 
 ______________________________________________________________________
 
-## RECOMMENDED [[08_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]]
+## RECOMMENDED [[26_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]]
 
 ### **For Production Work:**
 
@@ -332,7 +331,7 @@ set -euo pipefail
 
 echo "=== AMOS MEGA SETUP START ==="
 
-## 1) Resolve source folder (from cleaned zip in Downloads)
+# 1) Resolve source folder (from cleaned zip in Downloads)
 SRC_BASE="$HOME/Downloads/AMOS-PUBLIC-AUTO-CLEAN"
 if [ -d "$SRC_BASE/AMOS-PUBLIC" ]; then
  SRC="$SRC_BASE/AMOS-PUBLIC"
@@ -346,7 +345,7 @@ fi
 
 echo "Source repo: $SRC"
 
-## 2) Destination in Documents/GitHub
+# 2) Destination in Documents/GitHub
 DEST_ROOT="$HOME/Documents/GitHub"
 mkdir -p "$DEST_ROOT"
 
@@ -366,7 +365,7 @@ rsync -a "$SRC"/ "$DEST"/
 cd "$DEST"
 echo "Now in: $(pwd)"
 
-## 3) Virtual environment
+# 3) Virtual environment
 if [ ! -d "amos_env" ]; then
  echo "Creating virtualenv amos_env..."
  python3 -m venv amos_env
@@ -386,10 +385,10 @@ fi
 echo "Installing core runtime packages..."
 ./amos_env/bin/python -m pip install requests flask rich psutil uvicorn || true
 
-## 4) Core folders
+# 4) Core folders
 mkdir -p _AMOS_REPORTS _AMOS_QUARANTINE _AMOS_STATE_LOG
 
-## 5) Reports + cleanup (if scripts exist)
+# 5) Reports + cleanup (if scripts exist)
 if [ -f "scripts/dev/amos_reports_scan.py" ]; then
  echo "Running scripts/dev/amos_reports_scan.py..."
  ./amos_env/bin/python scripts/dev/amos_reports_scan.py || true
@@ -400,7 +399,7 @@ if [ -x "scripts/dev/amos_clean_mega.sh" ]; then
  bash scripts/dev/amos_clean_mega.sh || true
 fi
 
-## 6) Restart GOD_MODE + dashboards if scripts exist
+# 6) Restart GOD_MODE + dashboards if scripts exist
 echo "Restarting GOD_MODE + dashboards (if available)..."
 
 pkill -f "AMOS_ORGANISM_OS.runtime_core.god_mode_ultra_core" >/dev/null 2>&1 || true

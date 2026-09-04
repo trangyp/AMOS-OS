@@ -1,71 +1,73 @@
 ---
-title: 01 Task Contract Moc — Control Plane Authority Specification
-type: control_specification
-source: 03_CONTROL_PLANE
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT
-    - 01_CANON/01_CORE_LAWS/LAW_HIERARCHY
-  scope: control_plane_authority
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 01 Task Contract Moc
 tags:
-  - amos-os
-  - control-plane
-  - authority
-  - 01-task-contract-moc
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# 01 Task Contract Moc — Control Plane Authority Specification
+# 01 Task Contract — Map of Content
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Conclusion Class:** `AMOS_MODEL`
-> **Status:** `ACTIVE_SPECIFICATION`
+## 0. Status
+Control Plane-plane contract for **01 TASK CONTRACT MOC**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
----
+## 1. Scope
+Governs governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback as they bear on `01 TASK CONTRACT MOC`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
 
-## 1. Purpose & Authority Domain
+## 2. Contract terms
+- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
+- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
+- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
+- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
+- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
 
-`01_TASK_CONTRACT_MOC` defines the formal control-plane mechanisms, verification gates, and authority constraints governing execution lifecycle and state mutability within `03_CONTROL_PLANE`.
+## 3. Invariants
+- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
+- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
+- Consequential effects emit receipts; rollback basin exists before mutation.
+- Competing hypotheses remain visible when evidence does not discriminate.
 
-In the MECE Full Brain OS architecture (**Partition B: Execution Core & Effect Governance**), authority is never derived from capability:
+## 4. Executed reference
+No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
 
-```text
-CAPABILITY != AUTHORITY
-PROPOSAL != COMMIT
-INVOCATION != VERIFICATION
-MUTATION != FINALITY
-```
+## 5. Gaps
+Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
 
----
+## 6. Falsifiers
+F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
+## Worked semantics
+Given an operation touching `01 TASK CONTRACT MOC` within the Control Plane plane:
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-## 2. Formal Invariants & Pre-Conditions
+## Promotion-gate checklist
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-1. **Epoch-Bound Validity:** All transactions referencing `01_TASK_CONTRACT_MOC` must validate against the active causal epoch $E_k$.
-2. **Cryptographic Grounding:** Capability tokens must be signed and non-replayable.
-3. **Atomic State Transition:** If any assertion fails during evaluation, state reverts immediately to the pre-transaction snapshot.
-4. **Pre-allocated Rollback Basin:** No mutation may occur without a verified inverse compensation delta $\Delta^{-1}$.
-
----
-
-## 3. Mathematical & Causal Formulation
-
-Let $\mathcal{T}$ be the transaction set, $\mathcal{S}$ the state space, and $\mathcal{I}$ the system invariant:
-
-$$\forall T \in \mathcal{T}, \quad \text{Evaluate}_{01_TASK_CONTRACT_MOC}(T, \mathcal{S}) \implies \mathcal{I}(T(\mathcal{S})) = 1$$
-
----
-
-## 4. Cross-Plane Bindings
-
-- **Governed By:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
-- **Axiomatic Grounding:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- **Monitored In:** [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]]
-- **Recovered Via:** [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+## Cross-plane bindings
+- Governed by canon — [[01_CANON/01_CANON_README|01_CANON_README]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/02_KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/03_CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/17_OBSERVABILITY_README|17_OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/20_OPERATIONS_README|20_OPERATIONS_README]]

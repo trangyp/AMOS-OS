@@ -1,62 +1,21 @@
 ---
-title: Domain Canon Programming (DCP)
-type: trang-framework
-source: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact: DOMAIN_CANON_PROGRAMMING_DCP.md
-artifact_id: amos_11_knowledge_05_frameworks_domain_canon_programming_dcp
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 11_KNOWLEDGE
-segment: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact_kind: SPECIFICATION
-path: 11_KNOWLEDGE/05_FRAMEWORKS/DOMAIN_CANON_PROGRAMMING_DCP.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Domain Canon Programming Dcp
 tags:
-  - amos-os
-  - knowledge
-  - vault
-  - 05_frameworks
-  - dcp_specification
-  - domain_canon_programming
-  - formal_type_contracts
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-  - domain-canon-programming
-  - ldai-logically-deterministic-ai
-  - absolute-structural-integrity
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - DOMAIN_CANON_PROGRAMMING
-    - AMOS_CORPUS
-  scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - DCP_SPECIFICATION
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  primary:
-    name: Domain Canon Programming (DCP) Detailed Specification
-    role: PROOF_FIRST_CANONICAL_SPECIFICATION
-  parent_framework:
-    artifact:
-      -   - DOMAIN_CANON_PROGRAMMING
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  framework_structure: VERIFIED_SOURCE_STRUCTURE
-  dcp_specification: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Domain Canon Programming (DCP) Detailed Specification

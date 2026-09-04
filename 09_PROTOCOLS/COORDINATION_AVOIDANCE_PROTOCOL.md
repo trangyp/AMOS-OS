@@ -1,196 +1,247 @@
 ---
-title: 09_PROTOCOLS — Coordination Avoidance Protocol
-type: protocol_specification
-plane: 09_PROTOCOLS
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-status: ACTIVE_PROTOCOL
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - authoritative_AMOS_OS_structure
-    - 02_KERNEL/02_KERNEL_MOC
-    - 04_RUNTIME/CAUSAL_CONCURRENCY_MVCC
-    - 12_STATE/12_STATE_MOC
-    - 03_CONTROL_PLANE/04_AUTHORITY
-  scope: distributed_coordination_avoidance
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Coordination Avoidance Protocol
 tags:
-  - amos-os
-  - protocols
-  - coordination-avoidance
-  - calm-theorem
-  - crdt
-  - vector-clock
-  - causal-consistency
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Coordination Avoidance Protocol (CAP-01)
+# Coordination Avoidance Protocol Specification
 
-**Origin Architect & Steward:** Trang Phan
-**Target AMOS Lineage:** v4.4
-**Plane:** `09_PROTOCOLS`
-**Status:** `ACTIVE_PROTOCOL`
-**Epistemic Classification:** `AMOS_MODEL` / `DERIVED`
+> [!ABSTRACT] Protocol Specification
+> Defines the coordination-free execution model for AMOS cognitive processes, enabling concurrent shard-local operations without global synchronization while provably preserving system invariants through invariant-confluence (I-confluence) theory.
 
 ---
 
-## 1. Mathematical Foundations (CALM Theorem & CRDT Semilattices)
+## 1. Overview
 
-The **Coordination Avoidance Protocol** governs distributed state synchronization and shard-local execution across the AMOS multi-agent swarm without requiring global locking, blocking two-phase commits, or universal consensus bottlenecks.
+The Coordination Avoidance Protocol allows multiple AMOS cognitive processes and shard engines to execute concurrently without incurring global synchronization bottlenecks, while provably preserving system invariants.
 
-### 1.1 The CALM Theorem (Consistency as Logical Monotonicity)
-**Theorem 1 (CALM Theorem — Hellerstein et al.):** A distributed program $\mathcal{P}$ admits a coordination-free, eventually consistent implementation under arbitrary network latency and partitions if and only if its specification is **logically monotonic** under set union:
+Based on invariant-confluence (I-confluence) theory adapted for AMOS cognitive OS architecture:
+- Operations that commute and preserve state invariants are executed **coordination-free**.
+- Operations that threaten global invariants (e.g. root authority changes, canon amendments) require **deterministic causal epochs**.
 
-$$\forall S_1 \subseteq S_2 \implies \mathcal{P}(S_1) \subseteq \mathcal{P}(S_2)$$
+### 1.1 Core Principle
 
-In AMOS OS, knowledge accretion, claim registration, and causal DAG additions are strictly monotonic operations that execute in the coordination-free fast path.
+$$\text{CoordinationFree}(op_1, op_2) \iff \text{I-confluent}(op_1, op_2, \mathcal{I})$$
 
-```text
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                 COORDINATION AVOIDANCE EXECUTION PATHWAY                    │
-│                                                                             │
-│  State Mutation Request ──► Is Operation Monotonic? (CALM Check)            │
-│                                    │                                        │
-│               ┌────────────────────┴────────────────────┐                   │
-│               ▼ Yes                                     ▼ No                │
-│    [Coordination-Free Fast Path]              [Consensus Slow Path]         │
-│    - Shard-Local CRDT Join (⊔)               - Raft / BFT Epoch Finality    │
-│    - Causal Vector Clock Update              - 2PC Quorum Intersect (2f+1)  │
-│    - Latency < 1.0 ms                        - Latency ~ 25-50 ms           │
-│               │                                         │                   │
-│               └────────────────────┬────────────────────┘                   │
-│                                    ▼                                        │
-│                      CAS Commit & BLAKE3 Receipt                            │
-└─────────────────────────────────────────────────────────────────────────────┘
+Where $\mathcal{I}$ is the set of all system invariants (M01–M20 from `01_CANON/01_CORE_LAWS`). Two operations are I-confluent if their concurrent execution, in any order, produces a state that satisfies all invariants in $\mathcal{I}$.
+
+### 1.2 Design Goals
+
+- **Maximum concurrency**: Minimize global barriers; maximize shard-local parallelism
+- **Invariant preservation**: No concurrent execution path violates M01–M20
+- **Deterministic recovery**: All coordination-free paths produce reconcilable states
+- **Provenance completeness**: Every coordination-free commit retains full causal history
+
+---
+
+## 2. Execution Tiers
+
+| Tier | Coordination Mode | Target Operations | Latency Profile | Authority Level |
+| :--- | :--- | :--- | :--- | :--- |
+| **Tier 1 (Local)** | Purely Local (Zero Coordination) | Read operations, working memory mutations, specialist inferences, draft generation | Sub-millisecond | Agent-local |
+| **Tier 2 (Shard)** | Shard-Local Consensus | RSCF observation logging, skill execution, domain updates, knowledge promotion within shard boundary | 1–5ms | Shard-governor |
+| **Tier 3 (Epoch)** | Global Causal Barrier | Canonical law updates, security rule modification, kernel repair, cross-shard state promotion, authority grants/revocations | Synchronous Epoch Gated | Control-plane |
+
+### 2.1 Tier Assignment Rules
+
+```yaml
+tier_assignment:
+  rule_1: >
+    IF operation.touches ONLY local namespace
+    AND operation.does_not_modify(invariants M01-M20)
+    THEN tier = 1
+  rule_2: >
+    IF operation.touches shard_bounded namespace
+    AND operation.preserves(shard_invariants)
+    THEN tier = 2
+  rule_3: >
+    IF operation.modifies(01_CANON)
+    OR operation.modifies(authority_graph)
+    OR operation.modifies(security_rules)
+    OR operation.modifies(kernel_core)
+    OR operation.has_tag(HIGH_STAKES)
+    THEN tier = 3
+  default: tier = 3
 ```
 
 ---
 
-## 2. Bounded CRDT Join-Semilattices
+## 3. Protocol Rules
 
-State synchronization between autonomous cognitive shards $N_i, N_j$ is formalized on a bounded conflict-free replicated data type (CvRDT) join-semilattice $\langle \mathcal{S}, \sqcup \rangle$:
+### 3.1 Local Conflict Freedom
 
-1. **Idempotence**: $x \sqcup x = x$
-2. **Commutativity**: $x \sqcup y = y \sqcup x$
-3. **Associativity**: $(x \sqcup y) \sqcup z = x \sqcup (y \sqcup z)$
+**Rule LCF-01**: If two transactions touch disjoint RSCF namespaces, both may commit without cross-shard communication.
 
-### 2.1 State-Based LWW-Element-Set (Last-Write-Wins)
-Let each registered knowledge element $e \in \mathcal{E}$ carry a monotonic logical timestamp $\tau(e) = (t_{\text{epoch}}, \text{counter}, \text{node\_id})$:
+$$\text{Disjoint}(T_1, T_2) \iff \text{namespace}(T_1) \cap \text{namespace}(T_2) = \emptyset$$
 
-$$\mathcal{S}_{\text{merged}} = \mathcal{S}_1 \sqcup \mathcal{S}_2 = \left\{ e \in \mathcal{S}_1 \cup \mathcal{S}_2 \;\middle|\; \tau_1(e) \ge \tau_2(e) \lor e \notin \mathcal{S}_2 \right\}$$
+**Rule LCF-02**: If two transactions share a namespace but perform commuting operations (e.g., two independent appends to a log), both may commit without coordination.
 
-### 2.2 Causal Vector Clocks
-Each shard maintains a causal vector clock $\mathbf{V} \in \mathbb{N}^K$:
+$$\text{Commuting}(op_1, op_2) \iff op_1(op_2(s)) = op_2(op_1(s)) \;\forall\; s \in \text{State}$$
 
-$$\mathbf{V}_{\text{local}}[i] \leftarrow \mathbf{V}_{\text{local}}[i] + 1 \quad (\text{On local state event})$$
+### 3.2 Monotonic Epoch Tags
 
-$$\mathbf{V}_{\text{merged}}[k] = \max\left( \mathbf{V}_{\text{local}}[k], \mathbf{V}_{\text{received}}[k] \right) \quad \forall k \in \{1, \dots, K\}$$
+**Rule MET-01**: Shard-local commits append monotonic causal epoch vectors:
 
----
-
-## 3. Protocol Message Specification (Protobuf)
-
-```protobuf
-syntax = "proto3";
-package amos.protocols.coordination.v4_4;
-
-message CausalVectorClock {
-  map<string, uint64> clock_entries = 1;
-  uint64 epoch_id = 2;
-  uint64 logical_counter = 3;
-}
-
-message StateSyncMessage {
-  string source_shard_id = 1;
-  string target_shard_id = 2;
-  CausalVectorClock vector_clock = 3;
-  bytes crdt_state_payload = 4;
-  string blake3_digest = 5;
-  bool requires_consensus_fallback = 6;
-}
-
-message ShardCommitReceipt {
-  string transaction_id = 1;
-  string shard_id = 2;
-  uint64 epoch_id = 3;
-  string state_root_hash = 4;
-  bytes cryptographic_signature = 5;
-}
+```yaml
+causal_epoch_vector:
+  shard_id: "shard-04"
+  epoch_counter: 4402
+  vector_clock:
+    shard_01: 3891
+    shard_02: 4102
+    shard_03: 3998
+    shard_04: 4402
+    shard_05: 4201
 ```
 
----
+**Rule MET-02**: A shard may only advance its own component of the vector clock. Reading another shard's clock is permitted; writing it is prohibited.
 
-## 4. Nine-Part AMOS Control Contract
+**Rule MET-03**: Epoch vectors are monotonically non-decreasing per shard. Any detected decrease triggers `QUARANTINED` status for the affected transaction.
 
-### 4.1 ROLE
-Guarantees scalable, non-blocking distributed state mutations across multi-agent execution shards while enforcing strict causal ordering.
+### 3.3 Barrier Elevation
 
-### 4.2 INTERFACES
-- `IJoinSemilattice`: Defines commutative, associative, idempotent state merge operators.
-- `ICausalClock`: Maintains vector and matrix clock increments.
-- `IShardCoordinator`: Dispatches local writes and escalates non-monotonic operations to the consensus slow path.
+**Rule BE-01**: Any transaction tagged with `HIGH_STAKES` or modifying `01_CANON` automatically triggers a Tier 3 global barrier.
 
-### 4.3 DEPENDENCIES
-- `02_KERNEL`: Deterministic state transition primitives.
-- `04_RUNTIME`: Causal concurrency and MVCC memory managers.
-- `12_STATE`: Columnar memory buses.
-- `18_SECURITY`: Cryptographic signing of shard receipts.
+**Rule BE-02**: Barrier acquisition follows deterministic ordering: shard-ID ascending, then epoch-vector lexicographic. This prevents deadlock.
 
-### 4.4 INVARIANTS
-1. **Monotonic Fast Path**: Non-monotonic operations (e.g., global authority revoking, unique constraint reallocation) MUST NEVER bypass the consensus slow path.
-2. **Causal Delivery**: A message $M_2$ causally dependent on $M_1$ cannot be applied until $M_1$ is merged into the local state.
-3. **Receipted Finality**: Every shard-local state merge emits an immutable BLAKE3 receipt hash.
+**Rule BE-03**: During a Tier 3 barrier:
+- All Tier 1 and Tier 2 operations in affected namespaces are **frozen** (not rejected; queued)
+- The barrier holder completes its operation and commits with a new global epoch tag
+- On release, queued operations resume with updated epoch context
 
-### 4.5 AUTHORITY
-Governed by `AMOS_CORE v4.4`, origin architect **Trang Phan**.
+### 3.4 Conflict Detection and Resolution
 
-### 4.6 PROVENANCE
-Derived from distributed systems theory, the CALM theorem, and production-grade CvRDT lattice engines.
+**Rule CDR-01**: Post-commit conflict detection runs asynchronously. If two shards commit operations that violate an invariant when composed:
 
-### 4.7 TESTS
-- Jepsen-style network partition and asymmetric split-brain simulation tests.
-- Commutativity and associativity property-based fuzz testing over $10^7$ state mutations.
-- Benchmarking of coordination avoidance ratio ($\ge 98.4\%$).
+```yaml
+conflict_detected:
+  shard_a: "shard-02"
+  shard_b: "shard-05"
+  invariant_violated: "M17_LOCAL_GAIN_CANNOT_BREAK_HIGHER_SCALE_INTEGRITY"
+  resolution: ROLLBACK_ONE
+  rollback_target: "shard-05 (later epoch)"
+  affected_dependents: ["TASK-2026-09-04-00129", "TASK-2026-09-04-00130"]
+```
 
-### 4.8 FAILURE MODES
-- Network partition isolating shards for extended epochs.
-- Out-of-order packet delivery causing buffer overflow.
-- Non-monotonic state mutation attempted in the fast path.
-
-### 4.9 RECOVERY
-- Anti-entropy gossip protocol automatically reconciles state vectors upon partition healing.
-- Transaction rollback and retry with consensus fallback upon non-monotonic conflict.
+**Rule CDR-02**: When rollback is required, the shard with the **later epoch timestamp** rolls back to the last consistent state. If epoch timestamps are equal, the shard with the **higher shard ID** rolls back (deterministic tie-breaking).
 
 ---
 
-## 5. Verification & Performance Benchmarks
+## 4. Shard-Local Finalization
 
-| Metric | Target SLA | Empirical Benchmark Result |
+Each shard maintains a local finalization log that records:
+
+```yaml
+finalization_record:
+  shard_id: "shard-04"
+  epoch: 4402
+  operations:
+    - op_id: "OP-4402-001"
+      type: RSCF_OBSERVATION_LOG
+      namespace: "22_RESEARCH/01_MATHEMATICS"
+      status: FINALIZED
+      proof_capsule: "PC-88412"
+  epoch_hash: "sha256:abc123..."
+  prior_epoch_hash: "sha256:def456..."
+  merkle_root: "sha256:789abc..."
+```
+
+### 4.1 Finalization Invariants
+
+- **INV-FIN-01**: A shard may only finalize operations it originated
+- **INV-FIN-02**: Finalization records are append-only; no mutation or deletion
+- **INV-FIN-03**: The epoch hash chain is monotonically linked; breakage triggers shard quarantine
+- **INV-FIN-04**: Cross-shard dependencies are recorded as explicit edges in the finalization graph
+
+---
+
+## 5. Proof-Based Coordination Avoidance
+
+The protocol supports proof-based coordination avoidance where shards can demonstrate that their operations do not threaten global invariants without requiring a global barrier:
+
+### 5.1 Confluence Proof Requirements
+
+To claim coordination-free execution, a shard must produce:
+
+```yaml
+confluence_proof:
+  operations: ["OP-A", "OP-B"]
+  invariant_set: "M01-M20"
+  proof_type: "STATIC_ANALYSIS"
+  result: "I_CONFLUENT"
+  scope: "shard-02 namespace"
+  validity_window: "epoch 4400-4405"
+  prover: "deterministic_logic_kernel"
+```
+
+### 5.2 Proof Validity
+
+- Proofs are valid only within the declared scope and validity window
+- If any invariant in $\mathcal{I}$ is modified (e.g., new law added to `01_CANON`), all existing proofs are **invalidated** and must be regenerated
+- Invalid proofs do not retroactively invalidate past commits but require re-validation for future operations
+
+---
+
+## 6. Integration with AMOS Runtime
+
+| Interface | Direction | Contract |
 | :--- | :--- | :--- |
-| **Coordination Avoidance Ratio** | $\ge 95.0\%$ | **$98.6\%$ of all transactions finalized locally** |
-| **Local Merge Latency ($p_{99}$)**| $< 2.0\text{ ms}$ | **$0.84\text{ ms}$ over $1,000,000$ operations** |
-| **Partition Recovery Convergence**| $< 500\text{ ms}$ | **$142\text{ ms}$ after full network healing** |
-| **Memory Overhead per Event** | $< 64\text{ Bytes}$ | **$32\text{ Bytes}$ (Vector clock + BLAKE3 hash)** |
+| **02_KERNEL/03_CAUSAL** | Read | Causal ordering primitives; epoch management |
+| **04_RUNTIME** | Write | Execution traces; epoch tags applied to all operations |
+| **03_CONTROL_PLANE/09_COMMIT** | Write | Commit records; barrier acquisition/release |
+| **12_STATE** | Read/Write | Shard state; vector clocks; finalization records |
+| **17_OBSERVABILITY** | Write | Conflict events; barrier events; retraction traces |
 
 ---
 
-## 6. Structural Invariants & Governance
+## 7. Failure Modes
 
-1. **Safety Over Liveness**: In the event of catastrophic network ambiguity, the shard fails closed to maintain safety invariants.
-2. **Deterministic Merges**: The outcome of merging two state replicas is mathematically independent of arrival order.
-3. **No Authority Escalation**: Shard-local coordination cannot grant cross-plane authority privileges.
-4. **Lineage**: Governed under AMOS v4.4; origin steward **Trang Phan**.
+| Failure | Detection | Recovery |
+| :--- | :--- | :--- |
+| **Cross-shard invariant violation** | Post-commit async detection | Rollback later-epoch shard; notify affected tasks |
+| **Barrier deadlock** | Timeout on barrier acquisition | Deterministic ordering prevents deadlock by design |
+| **Epoch vector inconsistency** | Monotonicity check | Quarantine affected shard; force epoch reconciliation |
+| **Stale confluence proof** | Invariant set version mismatch | Invalidate proof; require re-proof before next commit |
+| **Shard crash mid-finalization** | Finalization log incomplete | Re-play from last complete epoch; discard partial finalization |
 
 ---
 
-## 7. Cross-Plane References
+## 8. Cross-Vault References
 
-- Protocols MOC: [[09_PROTOCOLS/09_PROTOCOLS_MOC|09_PROTOCOLS MOC]]
-- Causal Concurrency MVCC: [[04_RUNTIME/CAUSAL_CONCURRENCY_MVCC|CAUSAL_CONCURRENCY_MVCC]]
-- Distributed Raft Engine: [[09_PROTOCOLS/DISTRIBUTED_RAFT_CONSENSUS_AND_CAS_SYNC_ENGINE|Distributed Raft Engine]]
-- Distributed BFT Engine: [[09_PROTOCOLS/DISTRIBUTED_BFT_STATE_MACHINE_REPLICATION_ENGINE|Distributed BFT Engine]]
-- State Plane MOC: [[12_STATE/12_STATE_MOC|12_STATE MOC]]
+- [[02_KERNEL/03_CAUSAL/03_CAUSAL_MOC|03_CAUSAL_MOC]]
+- [[04_RUNTIME/CAUSAL_CONCURRENCY_MVCC|CAUSAL_CONCURRENCY_MVCC]]
+- [[03_CONTROL_PLANE/09_COMMIT/CONTROL_PLANE_COMMIT_CONTRACT|CONTROL_PLANE_COMMIT_CONTRACT]]
+- [[03_CONTROL_PLANE/09_COMMIT/CAUSAL_EPOCH_FINALITY|CAUSAL_EPOCH_FINALITY]]
+- [[03_CONTROL_PLANE/09_COMMIT/SHARD_LOCAL_FINALIZATION|SHARD_LOCAL_FINALIZATION]]
+- [[03_CONTROL_PLANE/09_COMMIT/PROOF_BASED_COORDINATION_AVOIDANCE|PROOF_BASED_COORDINATION_AVOIDANCE]]
+
+---
+
+```RSCF-NODE
+node_id: coordination_avoidance_protocol
+node_type: protocol_specification
+domain: 09_PROTOCOLS
+claim_class: AMOS_MODEL
+confidence_ceiling:
+  tier_classification: high
+  i_confluence_theory: high
+  implementation_completeness: medium
+falsifiers:
+  - A coordination-free execution path produces a state violating M01-M20
+  - Barrier deadlock observed under deterministic ordering
+  - Epoch vector monotonicity violation in production
+```

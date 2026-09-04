@@ -1,18 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: TRANG_FRAMEWORK_UNG_DUNG_VAO_AI_TU_SUA_VA_TU_T
-type: note
-source: 11_KNOWLEDGE
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Trang Framework Ung Dung Vao Ai Tu Sua Va Tu T
 tags:
-  - vault
-  - 11_knowledge
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # TRANG ∅ FRAMEWORK → ASEA
@@ -4787,7 +4785,7 @@ origin_architect: Trang Phan
 steward: Trang Phan
 ---
 
-## Trang ASEA
+# Trang ASEA
 
 ## Source architecture
 

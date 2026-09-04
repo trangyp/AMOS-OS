@@ -1,41 +1,21 @@
 ---
-title: AMOS Unipower Engines — Full Inventory
-created: '2026-08-22'
-origin: Google Drive — _00_AMOS_CANON/Unipower/
-origin_architect: Trang Phan
-type: reference
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Unipower Engines 2
 tags:
   - canon-group/tech-ai
-  - unipower
-  - engines
-  - vietnam
-  - australia
-  - china
-  - global
-  - canon-group/human-system
-  - economy
-  - workforce
-  - ev
-  - market
-  - system-operations
-  - ai-intelligence
-  - bod
-  - scientific
-  - strategic-document
-  - tech
-  - risk-policy-governance
-  - omnistructure
-  - engine
-  - canon/knowledge
-status: active
-provenance: VERIFIED
-confidence: VERIFIED
-source: 'Google Drive /_00_AMOS_CANON/Unipower/ (20 files: 18 JSON + 2 TXT/MD)'
-rscf:
-  state: AMOS_MODEL
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: engine_specification
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Unipower Engines

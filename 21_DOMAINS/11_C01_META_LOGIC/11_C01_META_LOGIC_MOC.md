@@ -1,67 +1,48 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: 11 C01 Meta Logic MOC
-type: moc
-source: 21_DOMAINS/11_C01_META_LOGIC
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 11 C01 Meta Logic Moc
 tags:
-  - 11-c01-meta-logic
-  - canon/domain
-  - c01-meta-logic-domains-domain-spec
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 11 C01 Meta Logic — Map of Content
 
-## 0. Status
-Domains-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
+> [!ABSTRACT] Domain Executive Summary
+> **Domain Engine:** `C01_meta_logic` (Meta-Logic & Formal Verification).
+> **Structural Role:** Owns axiomatic logic, SMT constraint solving (Z3/CVC5), Datalog relational inference, interactive theorem proving (Lean 4), and neuro-symbolic alignment in the AMOS Full Brain OS.
 
-## 1. Purpose
-`11 C01 META LOGIC MOC` defines event log — observations recorded with timestamps and actor identity; logs are evidence, not authority, serving the Domains plane's obligation: C-family domain engine mappings (C01–C12) onto the OS planes.
+---
 
-## 2. Semantics
-- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
-- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
-- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
+## 1. Core Architecture & Subsystem Artifacts
 
-## 3. Failure modes guarded
-STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
+* [[21_DOMAINS/11_C01_META_LOGIC/C01_FORMAL_VERIFICATION_AND_NEUROSYMBOLIC_LOGIC|C01 Formal Verification & Neuro-Symbolic Logic Architecture]] — Dual-process reasoning pipeline, SMT verification, and the CORE-19 axiomatic laws.
+* [[11_KNOWLEDGE/AMOS_C01_META_LOGIC_MASTER_KNOWLEDGE|AMOS C01 Meta Logic Master Knowledge]] — Authoritative 24 KB canonical domain corpus.
+* [[26_WORKFLOWS/amos-c01-meta-logic-master-workflow|amos-c01-meta-logic-master-workflow]] — Governed execution workflow and verification recipe.
+* [[02_KERNEL/01_META_LOGIC/K_CORE19_LOGIC|K_CORE19_LOGIC]] — Core logic kernel implementation.
+* [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] — High-order meta-reasoning kernel.
+* [[21_DOMAINS/11_C01_META_LOGIC/DOMAINS_C01_META_LOGIC_CONTRACT|DOMAINS_C01_META_LOGIC_CONTRACT]] — Domain interface contract and invariant bounds.
+* [[21_DOMAINS/11_C01_META_LOGIC/C01_META_LOGIC_DOMAINS_DOMAIN_SPEC|C01_META_LOGIC_DOMAINS_DOMAIN_SPEC]] — Operational domain parameters.
 
-## 4. Validation
-No artifact-specific executor yet; executed OS validators exist as pattern ([[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
+---
 
-## 5. Gaps
-Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
+## 2. Inbound & Outbound Interfaces
 
-## 6. Falsifiers
-F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
-## Worked semantics
-Given an operation touching `11 C01 META LOGIC MOC` within the Domains plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+* **Omniverse Layer:** [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|Omniverse Brain Layer 1]] (Foundational Law).
+* **Runtime Verification:** Ingests candidate proofs into [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]].
+* **Parent Hub:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]].
 
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-## Cross-plane bindings
-- Governed by canon — [[01_CANON_README]] · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS_README]]
+---
+[[21_DOMAINS/21_DOMAINS_MOC|Back to Domains MOC]] · [[00_ROOT/00_ROOT_MOC|Root MOC]]

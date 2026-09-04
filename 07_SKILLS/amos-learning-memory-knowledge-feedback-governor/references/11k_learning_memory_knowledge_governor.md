@@ -1,19 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: 11k learning memory knowledge governor
-type: reference
-source: 07_SKILLS/amos-learning-memory-knowledge-feedback-governor/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: 11K Learning Memory Knowledge Governor
 tags:
-  - reference
-  - amos-learning-memory-knowledge-feedback-governor
-  - type/skill
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # 11K Learning Memory Knowledge Feedback Governor

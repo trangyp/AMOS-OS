@@ -1,31 +1,21 @@
 ---
-title: AMOS FULL BRAIN OS CANON
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Full Brain Os Canon
 tags:
-  - amos-os
-  - amos-full-brain-os
-  - full-brain-os
-  - cognition
-type: canon
-source: 01_CANON/03_COGNITION_CANON
-artifact_id: AMOS-CANON-COGNITION-FULL-BRAIN-OS
-canonical_name: AMOS_FULL_BRAIN_OS_CANON
-status: CANONICAL
-conclusion_class: CANONICAL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-version: 2.0.0
-created: '2026-08-25'
-updated: '2026-08-28'
-rscf:
-  state: CANONICAL
-  claim_class: CANONICAL
-  provenance: AMOS_corpus
-  scope: AMOS_general
-aliases:
-  - AMOS Full Brain OS Canon
-  - AMOS Full Brain OS Master Architecture
-  - Full Brain OS Canon
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS FULL BRAIN OS CANON
@@ -2755,7 +2745,7 @@ Phương trình này khẳng định trật tự nhận thức $\\Omega$ luôn t
 Kịch bản thử nghiệm #1 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L1 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L1 Full Brain Invariant Check
 amos-harness run-test --layer-group 1 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -2766,7 +2756,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #2 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L2 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L2 Full Brain Invariant Check
 amos-harness run-test --layer-group 2 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -2777,7 +2767,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #3 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L3 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L3 Full Brain Invariant Check
 amos-harness run-test --layer-group 3 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -2788,7 +2778,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #4 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L4 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L4 Full Brain Invariant Check
 amos-harness run-test --layer-group 4 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -2799,7 +2789,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #5 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L5 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L5 Full Brain Invariant Check
 amos-harness run-test --layer-group 5 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -2810,7 +2800,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #6 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L6 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L6 Full Brain Invariant Check
 amos-harness run-test --layer-group 6 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -2821,7 +2811,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #7 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L7 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L7 Full Brain Invariant Check
 amos-harness run-test --layer-group 7 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -2832,7 +2822,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #8 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L8 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L8 Full Brain Invariant Check
 amos-harness run-test --layer-group 8 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -2843,7 +2833,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #9 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L9 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L9 Full Brain Invariant Check
 amos-harness run-test --layer-group 9 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -2854,7 +2844,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #10 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L10 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L10 Full Brain Invariant Check
 amos-harness run-test --layer-group 10 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -2865,7 +2855,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #11 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L11 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L11 Full Brain Invariant Check
 amos-harness run-test --layer-group 11 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -2876,7 +2866,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #12 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L12 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L12 Full Brain Invariant Check
 amos-harness run-test --layer-group 12 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -2887,7 +2877,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #13 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L13 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L13 Full Brain Invariant Check
 amos-harness run-test --layer-group 13 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -2898,7 +2888,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #14 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L14 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L14 Full Brain Invariant Check
 amos-harness run-test --layer-group 14 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -2909,7 +2899,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #15 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L15 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L15 Full Brain Invariant Check
 amos-harness run-test --layer-group 15 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -2920,7 +2910,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #16 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L16 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L16 Full Brain Invariant Check
 amos-harness run-test --layer-group 16 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -2931,7 +2921,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #17 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L17 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L17 Full Brain Invariant Check
 amos-harness run-test --layer-group 17 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -2942,7 +2932,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #18 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L18 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L18 Full Brain Invariant Check
 amos-harness run-test --layer-group 18 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -2953,7 +2943,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #19 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L19 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L19 Full Brain Invariant Check
 amos-harness run-test --layer-group 19 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -2964,7 +2954,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #20 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L20 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L20 Full Brain Invariant Check
 amos-harness run-test --layer-group 20 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -2975,7 +2965,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #21 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L21 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L21 Full Brain Invariant Check
 amos-harness run-test --layer-group 21 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -2986,7 +2976,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #22 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L22 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L22 Full Brain Invariant Check
 amos-harness run-test --layer-group 22 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -2997,7 +2987,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #23 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L23 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L23 Full Brain Invariant Check
 amos-harness run-test --layer-group 23 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -3008,7 +2998,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #24 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L24 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L24 Full Brain Invariant Check
 amos-harness run-test --layer-group 24 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -3019,7 +3009,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #25 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L25 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L25 Full Brain Invariant Check
 amos-harness run-test --layer-group 25 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -3030,7 +3020,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #26 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L26 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L26 Full Brain Invariant Check
 amos-harness run-test --layer-group 26 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -3041,7 +3031,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #27 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L27 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L27 Full Brain Invariant Check
 amos-harness run-test --layer-group 27 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -3052,7 +3042,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #28 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L28 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L28 Full Brain Invariant Check
 amos-harness run-test --layer-group 28 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -3063,7 +3053,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #29 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L29 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L29 Full Brain Invariant Check
 amos-harness run-test --layer-group 29 --fuzz-iterations 50000 --strict-fail-closed
 ```
 
@@ -3074,7 +3064,7 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 Kịch bản thử nghiệm #30 kích hoạt bài kiểm thử áp lực cực hạn trên toàn bộ 67 tầng nhận thức:
 
 ```bash
-## Khởi chạy bài test xác thực L30 Full Brain Invariant Check
+# Khởi chạy bài test xác thực L30 Full Brain Invariant Check
 amos-harness run-test --layer-group 30 --fuzz-iterations 50000 --strict-fail-closed
 ```
 

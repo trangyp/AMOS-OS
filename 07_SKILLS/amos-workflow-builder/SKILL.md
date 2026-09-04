@@ -1,55 +1,21 @@
 ---
-schema_version: 1.0
-title: SKILL — Amos Workflow Builder
-type: skill
-source: 07_SKILLS/amos-workflow-builder
-name: amos-workflow-builder
-description: Build, update, audit, and package advanced AMOS/COSMO/Trang ChatGPT Workflows from capability gaps, existing skills, agent bindings, engine/runtime specifications, or operational sequences. Use when creating a new AMOS-aligned Workflow, strengthening a thin workflow, converting an AMOS engine/spec into an operational workflow, checking agent-skill-workflow routing, separating operational steps from validation gates, adding RSCF/HML/provenance/governance controls, validating step ordering and gate enforcement, or preparing a complete installable workflow bundle. This is the AMOS-specialized Workflow factory; do not use it as a generic replacement for ordinary non-AMOS workflow creation.
-parent_skill: none
-domain: workflow
-origin_architect: Trang Phan
-epistemic_class: SOURCE_CANON
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Skill
 tags:
-  - type/skill
-  - type/skill
-  - domain/os-runtime
-  - epistemic/source_claim
-  - hml/m
-  - epistemic/source_canon
-  - amos-os
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-  - skill
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
-version: 1.1.0
-rscf_state: SOURCE_CLAIM
-hml_level: M
-gmef_gates:
-  - L0_integrity
-  - L1_epistemic
-  - L2_provenance
-  - L5_scope
-  - L7_authority
-  - L8_execution
-collapse_class: reversible
-qfm_gate_set: QFM_v43
-law_compliance:
-  - L0
-  - L1
-  - L2
-  - L4
-  - L5
-  - L7
-  - L8
-  - L16
-  - L17
-  - L18
-license: MIT
-steward: Trang Phan
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Workflow Builder
@@ -212,7 +178,7 @@ ______________________________________________________________________
 - **Parent**: `none` — routes to this skill when workflow specialization is needed
 - **Peers**: Other skills in the `workflow` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
-- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Workflow**: Each skill has a corresponding workflow in `26_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
 
 ## Evaluation

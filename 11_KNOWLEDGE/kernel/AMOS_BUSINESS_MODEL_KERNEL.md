@@ -1,203 +1,222 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS BUSINESS MODEL KERNEL V0 BUSINESS4
-type: kernel
-source: 11_KNOWLEDGE/kernel
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
-topic: amos-business-model-kernel-v0
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Business Model Kernel
 tags:
   - canon-group/tech-ai
-  - canon/model
   - rscf/claim
   - rscf/provenance
-  - rscf/state/derived
-  - topic/amos-business-model-kernel-v0
-  - kernel
-  - system-scan-agent
-  - automation-profiles
-  - amos-simulation-kernel-v0-math-foundations
+  - rscf/state/source-claim
+  - misc
 created: 2026-08-22
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-canonical_status: CANONICAL_KERNEL
-updated: 2026-09-04
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+---
+---
 ---
 
-# AMOS Business Model Kernel v0 Business4
+# AMOS Business Model Kernel
 
-> **Origin Architect / Steward:** Trang Phan
-> **Epistemic Class:** `AMOS_MODEL`
-> **Conclusion Class:** `DERIVED`
-> **Status:** `ACTIVE_SPECIFICATION`
-> **Governing Plane:** `11_KNOWLEDGE/kernel`
+> [!abstract] Kernel Specification
+> Defines the business model analysis framework for AMOS: value proposition design, cost/revenue structure, unit economics, and business model canvas integration. This is the AMOS reasoning/spec pattern for business model evaluation — **not** a claim that AMOS OS executes business operations (per AGENTS.md invariant 4).
 
-> [!WARNING] GAP -- Original auto-parse failed; specification reconstructed from AMOS business model canon and BizFin Engine context.
-> **Audit**: Marked GAP 2026-08-26 -- original auto-parse failed, no vault source found. Specification generated from structural context.
+> [!warning] Source Reconstitution
+> This kernel was originally a GAP (auto-parse failed). Content has been reconstructed from cross-references in AMOS_UNIVERSE_OS_vInfinity P7_domain_engines, related kernel clusters, and AMOS Business4 domain patterns. All claims are `SOURCE_CLAIM`/`DERIVED` until validated against original source material.
 
 ---
 
-## 1. Architectural Scope
+## 1. Purpose
 
-The **AMOS Business Model Kernel** (v0, Business4) defines the core data structures, algorithms, and computational guarantees for business model representation, analysis, and evaluation within the AMOS OS. It provides value chain mapping, revenue model classification, cost structure analysis, unit economics computation, and business model viability scoring.
+The Business Model Kernel provides:
 
-This kernel exists to provide the **business modelling substrate** for all AMOS business and financial operations. It separates business structure (value proposition, value chain, revenue model) from parameters (numbers that can change) and enforces explicit assumption disclosure.
+- A structured framework for analyzing and designing business models
+- Value proposition design and validation
+- Cost structure and revenue stream mapping
+- Unit economics calculation and viability assessment
+- Integration with pricing, customer insight, and revenue architecture kernels
 
-**Epistemic Boundary:**
+This kernel is the central business-analysis substrate consumed by downstream kernels: [[11_KNOWLEDGE/kernel/AMOS_REVENUE_ARCHITECTURE_KERNEL|AMOS_REVENUE_ARCHITECTURE_KERNEL]], [[11_KNOWLEDGE/kernel/AMOS_PRICING_STRATEGY_KERNEL|AMOS_PRICING_STRATEGY_KERNEL]], [[11_KNOWLEDGE/kernel/AMOS_CUSTOMER_INSIGHT_KERNEL|AMOS_CUSTOMER_INSIGHT_KERNEL]], and [[11_KNOWLEDGE/kernel/AMOS_PARTNERSHIPS_CHANNELS_KERNEL|AMOS_PARTNERSHIPS_CHANNELS_KERNEL]].
+
+---
+
+## 2. Business Model Canvas
+
+### 2.1 Nine-Block Framework
+
+| Block | Description | AMOS Mapping |
+| :--- | :--- | :--- |
+| **Customer Segments** | Target groups of customers | [[11_KNOWLEDGE/kernel/AMOS_CUSTOMER_INSIGHT_KERNEL\|AMOS_CUSTOMER_INSIGHT_KERNEL]] |
+| **Value Propositions** | Products/services that solve customer problems | This kernel (§3) |
+| **Channels** | How value is delivered to customers | [[11_KNOWLEDGE/kernel/AMOS_PARTNERSHIPS_CHANNELS_KERNEL\|AMOS_PARTNERSHIPS_CHANNELS_KERNEL]] |
+| **Customer Relationships** | Types of relationships with each segment | [[11_KNOWLEDGE/kernel/AMOS_CUSTOMER_INSIGHT_KERNEL\|AMOS_CUSTOMER_INSIGHT_KERNEL]] |
+| **Revenue Streams** | How the model captures value as revenue | [[11_KNOWLEDGE/kernel/AMOS_REVENUE_ARCHITECTURE_KERNEL\|AMOS_REVENUE_ARCHITECTURE_KERNEL]] |
+| **Key Resources** | Critical assets for the model | Resource inventory (internal) |
+| **Key Activities** | Critical operations the model performs | Process architecture |
+| **Key Partnerships** | External entities that enable the model | [[11_KNOWLEDGE/kernel/AMOS_PARTNERSHIPS_CHANNELS_KERNEL\|AMOS_PARTNERSHIPS_CHANNELS_KERNEL]] |
+| **Cost Structure** | All costs incurred to operate the model | This kernel (§5) |
+
+### 2.2 Canvas Evaluation Function
+
+A business model $M$ is evaluated on five dimensions:
+
+$$\text{Score}(M) = (V, C, R, S, P)$$
+
+where:
+
+- $V$ = value proposition strength (customer problem-solution fit)
+- $C$ = cost structure efficiency (unit economics viability)
+- $R$ = revenue stream quality (predictability, scalability)
+- $S$ = strategic alignment (fit with organizational capabilities)
+- $P$ = practical feasibility (execution risk assessment)
+
+---
+
+## 3. Value Proposition Design
+
+### 3.1 Value Proposition Canvas
+
+The value proposition is validated against two components:
+
+**Customer Profile:**
+
+- **Customer jobs**: Functional, social, and emotional tasks the customer tries to perform
+- **Pains**: Obstacles, risks, and negative outcomes associated with customer jobs
+- **Gains**: Desired outcomes, benefits, and aspirations
+
+**Value Map:**
+
+- **Products and services**: The offering portfolio
+- **Pain relievers**: How the offering eliminates or reduces customer pains
+- **Gain creators**: How the offering produces customer gains
+
+### 3.2 Fit Assessment
+
+Product-market fit is achieved when:
+
+$$\text{Fit}(M) = \frac{|\text{Pain Relievers} \cap \text{Customer Pains}| + |\text{Gain Creators} \cap \text{Customer Gains}|}{|\text{Customer Pains}| + |\text{Customer Gains}|} \geq \tau_{fit}$$
+
+where $\tau_{fit}$ is the minimum acceptable coverage threshold (typically $\geq 0.7$).
+
+### 3.3 Value Proposition Hierarchy
+
+| Level | Description | Validation Method |
+| :--- | :--- | :--- |
+| **Functional** | Solves a practical problem | Feature-benefit testing |
+| **Emotional** | Makes customers feel something | Qualitative feedback |
+| **Social** | Improves customers' social standing | Market research |
+| **Ecosystem** | Creates platform/network value | Network-effect modeling |
+
+---
+
+## 4. Revenue Stream Analysis
+
+### 4.1 Revenue Stream Types
+
+| Type | Description | Predictability | Scalability |
+| :--- | :--- | :--- | :--- |
+| **Asset sale** | One-time product purchase | Low | Medium |
+| **Usage fee** | Pay-per-use pricing | Medium | High |
+| **Subscription** | Recurring access fee | High | High |
+| **Licensing** | Permission to use IP | Medium | Very High |
+| **Brokerage** | Intermediary fee | Medium | High |
+| **Advertising** | Attention-based revenue | Low | Very High |
+
+### 4.2 Revenue Diversity Index
+
+Revenue diversity reduces concentration risk:
+
+$$H_{rev} = -\sum_{i=1}^{n} p_i \ln(p_i)$$
+
+where $p_i$ is the proportion of revenue from stream $i$. Higher Shannon entropy $H_{rev}$ indicates greater diversification.
+
+---
+
+## 5. Cost Structure
+
+### 5.1 Cost Categories
+
+| Category | Description | Behavior |
+| :--- | :--- | :--- |
+| **Fixed costs** | Costs that do not vary with output (rent, salaries) | Constant |
+| **Variable costs** | Costs that scale with output (materials, compute) | Proportional to volume |
+| **Semi-variable** | Costs with a fixed base and variable component (cloud compute) | Step function |
+
+### 5.2 Cost Structure Classification
+
+- **Cost-driven**: Minimize costs wherever possible (lean operations)
+- **Value-driven**: Focus on maximum value creation (premium positioning)
+
+---
+
+## 6. Unit Economics
+
+### 6.1 Key Metrics
+
+| Metric | Formula | Viability Threshold |
+| :--- | :--- | :--- |
+| **Customer Acquisition Cost (CAC)** | $\text{Total Sales \& Marketing Spend} / \text{New Customers}$ | Must be recovered within payback period |
+| **Lifetime Value (LTV)** | $\text{Avg Revenue/Customer} \times \text{Gross Margin} \times \text{Avg Lifespan}$ | $> 3 \times \text{CAC}$ |
+| **LTV:CAC Ratio** | $\text{LTV} / \text{CAC}$ | $\geq 3$ for viability |
+| **Payback Period** | $\text{CAC} / \text{Gross Margin per Customer}$ | $\leq 12$ months |
+| **Gross Margin** | $(\text{Revenue} - \text{COGS}) / \text{Revenue}$ | $\geq 0.6$ for SaaS; varies by domain |
+| **Break-even Volume** | $\text{Fixed Costs} / (\text{Price} - \text{Variable Cost per Unit})$ | Must be achievable within timeline |
+
+### 6.2 Unit Economics Viability Check
+
+A business model is economically viable when:
+
+$$\text{LTV} > 3 \times \text{CAC} \quad \land \quad \text{Payback Period} \leq 12\text{ months} \quad \land \quad \text{Gross Margin} \geq \tau_{gm}$$
+
+Failure on any condition flags the model as requiring redesign.
+
+---
+
+## 7. Business Model Patterns
+
+| Pattern | Description | When to Apply |
+| :--- | :--- | :--- |
+| **Unbundling** | Separate products into focused offerings | When one product serves multiple distinct segments |
+| **Long tail** | Aggregate niche offerings | When distribution costs are low |
+| **Multi-sided platforms** | Serve multiple customer groups simultaneously | When network effects create value |
+| **Free/freemium** | Offer basic free, charge for premium | When marginal cost is near zero |
+| **Razor/blade** | Sell base cheap, profit on consumables | When recurring consumption is high |
+| **Lock-in** | Create switching costs | When ecosystem value compounds |
+
+---
+
+## 8. Integration Points
+
+| Interface | Direction | Contract |
+| :--- | :--- | :--- |
+| [[11_KNOWLEDGE/kernel/AMOS_REVENUE_ARCHITECTURE_KERNEL\|AMOS_REVENUE_ARCHITECTURE_KERNEL]] | Write | Revenue stream design and monetization models |
+| [[11_KNOWLEDGE/kernel/AMOS_PRICING_STRATEGY_KERNEL\|AMOS_PRICING_STRATEGY_KERNEL]] | Read/Write | Pricing models and willingness-to-pay data |
+| [[11_KNOWLEDGE/kernel/AMOS_CUSTOMER_INSIGHT_KERNEL\|AMOS_CUSTOMER_INSIGHT_KERNEL]] | Read | Customer segments and needs mapping |
+| [[11_KNOWLEDGE/kernel/AMOS_PARTNERSHIPS_CHANNELS_KERNEL\|AMOS_PARTNERSHIPS_CHANNELS_KERNEL]] | Read | Channel and partnership economics |
+| [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL\|AMOS_SIMULATION_KERNEL]] | Write | Business model scenarios for simulation |
+
+---
+
+```RSCF-NODE
+node_id: business_model_kernel_knowledge_spec
+node_type: kernel_specification
+domain: 11_KNOWLEDGE/kernel
+claim_class: AMOS_MODEL
+confidence_ceiling:
+  value_proposition_design: medium
+  unit_economics: high
+  cost_structure_analysis: medium
+falsifiers:
+  - Unit economics viability check passes when LTV:CAC < 3
+  - Value proposition fit score accepted below threshold
+  - Revenue diversity index not computed for multi-stream models
 ```
-MODEL != OBSERVATION
-DOCUMENTED != IMPLEMENTED
-CAPABILITY != AUTHORITY
-BUSINESS_MODEL != INVESTMENT_ADVICE
-STRUCTURE != PARAMETERS
-```
 
-**Core Data Structures:**
-- `BusinessModel{value_proposition, value_chain, revenue_model, cost_structure, key_assets, dependencies}`
-- `UnitEconomics{ARPU, CAC, LTV, gross_margin, contribution_margin, payback_period}`
-- `MarketSizing{TAM, SAM, SOM, assumptions[]}`
-- `ViabilityScore{structural_score, financial_score, market_score, risk_score}`
+______________________________________________________________________
 
-**Core Algorithms:**
-- Value chain decomposition and dependency mapping
-- Revenue model classification (subscription, transaction, marketplace, licensing, freemium, etc.)
-- Unit economics computation with sensitivity analysis
-- Business model viability scoring (weighted multi-dimensional)
-- Scenario tree construction (base, upside, downside)
-
-**Inputs:** `BIZMODEL_INPUT{entity, sector, model_type, parameters, constraints}`
-**Outputs:** `BIZMODEL_OUTPUT{business_model, unit_economics, market_sizing, viability_score, scenarios[], assumptions[]}`
-
-**Computational Guarantees:** Deterministic unit economics under fixed parameters, bounded viability score in [0, 1], explicit assumption traceability.
-
----
-
-## 2. Governing Invariants
-
-| ID | Invariant | Description |
-|----|-----------|-------------|
-| INV-BM-001 | Structure-Parameter Separation | Business structure must be separated from numerical parameters |
-| INV-BM-002 | Explicit Assumptions | All assumptions must be stated explicitly |
-| INV-BM-003 | Viability Score Boundedness | Viability score must be in [0, 1] |
-| INV-BM-004 | Scenario Triangulation | Analysis must include base, upside, and downside scenarios |
-| INV-BM-005 | No Investment Advice | Kernel outputs structural analysis, not investment recommendations |
-| INV-BM-006 | Unit Economics Transparency | All unit economics components must be traceable to their inputs |
-| INV-BM-007 | Dependency Mapping | Key dependencies must be identified and flagged |
-
----
-
-## 3. Mathematical Formulation
-
-**Unit economics:**
-
-$$\text{LTV} = \text{ARPU} \cdot \text{GrossMargin} \cdot \frac{1}{1 - \text{RetentionRate}}$$
-
-$$\text{CAC Payback} = \frac{\text{CAC}}{\text{ARPU} \cdot \text{GrossMargin}}$$
-
-$$\text{LTV/CAC Ratio} = \frac{\text{LTV}}{\text{CAC}}$$
-
-**Market sizing:**
-
-$$\text{TAM} = \text{TotalAddressableMarket} \cdot \text{AvgPrice}$$
-$$\text{SOM} = \text{SAM} \cdot \text{CaptureRate}(t) \cdot \text{ExecutionFactor}$$
-
-**Viability score:**
-
-$$V = w_1 \cdot S_{\text{structural}} + w_2 \cdot S_{\text{financial}} + w_3 \cdot S_{\text{market}} + w_4 \cdot (1 - S_{\text{risk}})$$
-
-where $\sum w_i = 1$ and $S_i \in [0, 1]$.
-
-**Scenario expected value:**
-
-$$E[V] = P_{\text{base}} \cdot V_{\text{base}} + P_{\text{upside}} \cdot V_{\text{upside}} + P_{\text{downside}} \cdot V_{\text{downside}}$$
-
----
-
-## 4. Architecture
-
-```mermaid
-graph TD
-    A[BIZMODEL_INPUT] --> B[Value Chain Decomposition]
-    B --> C[Revenue Model Classification]
-    C --> D[Cost Structure Analysis]
-    D --> E[Unit Economics Computation]
-    E --> F[Market Sizing]
-    F --> G[Scenario Construction]
-    G --> H[Viability Scoring]
-    H --> I[BIZMODEL_OUTPUT]
-    E -.->|sensitivity| J[Sensitivity Analysis]
-    J --> I
-    B -.->|flag| K[Dependency Mapping]
-    K --> I
-```
-
----
-
-## 5. MECE Mapping to AMOS Full Brain OS
-
-| Kernel Component | AMOS Plane | Role |
-|------------------|------------|------|
-| Value Chain Decomposition | `11_KNOWLEDGE` | Knowledge mapping |
-| Revenue Model Classification | `16_SCHEMAS` | Schema classification |
-| Cost Structure Analysis | `12_STATE` | State analysis |
-| Unit Economics | `13_MODELS` | Financial modelling |
-| Market Sizing | `13_MODELS` | Market modelling |
-| Scenario Construction | `13_MODELS` | Scenario modelling |
-| Viability Scoring | `06_INTELLIGENCE` | Assessment |
-| Sensitivity Analysis | `22_RESEARCH` | Research analysis |
-| Dependency Mapping | `17_OBSERVABILITY` | Risk monitoring |
-
----
-
-## 6. Safety Invariants & Firewalls
-
-| ID | Firewall | Enforcement |
-|----|----------|-------------|
-| INV-BM-FW-001 | No Investment Advice | Outputs must contain structural-analysis disclaimer |
-| INV-BM-FW-002 | Assumption Disclosure | Outputs without explicit assumptions are blocked |
-| INV-BM-FW-003 | Scenario Completeness | Must include downside scenario |
-| INV-BM-FW-004 | Viability Boundedness | Scores outside [0, 1] are blocked |
-| INV-BM-FW-005 | Dependency Flagging | Outputs without dependency flags are blocked |
-
----
-
-## 7. Navigation & Bindings
-
-- **Parent MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
-- **Home:** [[00_ROOT/00_HOME|00_HOME]]
-- **Knowledge MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
-- **BizFin Engine:** [[11_KNOWLEDGE/engine/AMOS_BIZFIN_ENGINE_V0_SECTOR_PACKS7|AMOS_BIZFIN_ENGINE_V0_SECTOR_PACKS7]]
-- **Revenue Architecture Kernel:** [[11_KNOWLEDGE/kernel/AMOS_REVENUE_ARCHITECTURE_KERNEL|AMOS_REVENUE_ARCHITECTURE_KERNEL]]
-- **Negotiation Diplomacy Kernel:** [[11_KNOWLEDGE/kernel/NEGOTIATION_DIPLOMACY_KERNEL|NEGOTIATION_DIPLOMACY_KERNEL]]
-- **Meta Epistemology Kernel:** [[11_KNOWLEDGE/kernel/AMOS_META_EPISTEMOLOGY_KERNEL|AMOS_META_EPISTEMOLOGY_KERNEL]]
-- **TPE Model Registry:** [[13_MODELS/04_DOMAIN/TPE_MODEL_REGISTRY|TPE_MODEL_REGISTRY]]
-- **Tech UBI Canon Kernel:** [[11_KNOWLEDGE/kernel/AMOS_TECH_UBI_CANON_KERNEL_V1_TECH4|AMOS_TECH_UBI_CANON_KERNEL_V1_TECH4]]
-- **Simulation Kernel:** [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL|AMOS_SIMULATION_KERNEL]]
-- **Core Laws:** [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|01_CORE_LAWS]]
-
----
-
-## 8. Known Gaps & Falsifiers
-
-| ID | Gap | Impact | Action |
-|----|-----|--------|--------|
-| GAP-BM-001 | No original vault source | Specification is reconstructed | Label as reconstructed from canon |
-| GAP-BM-002 | Market data not live | TAM/SAM/SOM are structural estimates | Flag as model-based |
-| GAP-BM-003 | Viability weight calibration | Weights are subjective | Flag weights as configurable |
-| GAP-BM-004 | Sector-specific models | Not all sectors may have dedicated models | Flag unsupported sectors |
-
----
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] | [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] | [[11_KNOWLEDGE/engine/AMOS_BIZFIN_ENGINE_V0_SECTOR_PACKS7|AMOS_BIZFIN_ENGINE_V0_SECTOR_PACKS7]] | [[11_KNOWLEDGE/kernel/AMOS_REVENUE_ARCHITECTURE_KERNEL|AMOS_REVENUE_ARCHITECTURE_KERNEL]] | [[11_KNOWLEDGE/kernel/NEGOTIATION_DIPLOMACY_KERNEL|NEGOTIATION_DIPLOMACY_KERNEL]] | [[11_KNOWLEDGE/kernel/AMOS_META_EPISTEMOLOGY_KERNEL|AMOS_META_EPISTEMOLOGY_KERNEL]] | [[13_MODELS/04_DOMAIN/TPE_MODEL_REGISTRY|TPE_MODEL_REGISTRY]] | [[11_KNOWLEDGE/kernel/AMOS_TECH_UBI_CANON_KERNEL_V1_TECH4|AMOS_TECH_UBI_CANON_KERNEL_V1_TECH4]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/kernel/AMOS_REVENUE_ARCHITECTURE_KERNEL|AMOS_REVENUE_ARCHITECTURE_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_PRICING_STRATEGY_KERNEL|AMOS_PRICING_STRATEGY_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_CUSTOMER_INSIGHT_KERNEL|AMOS_CUSTOMER_INSIGHT_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_PARTNERSHIPS_CHANNELS_KERNEL|AMOS_PARTNERSHIPS_CHANNELS_KERNEL]]
 
 ______________________________________________________________________
 

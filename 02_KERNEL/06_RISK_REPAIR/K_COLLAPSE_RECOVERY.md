@@ -1,67 +1,16 @@
 ---
-title: K COLLAPSE RECOVERY
-type: note
-source: 02_KERNEL/06_RISK_REPAIR
-artifact_id: AMOS-OS-K-COLLAPSE-RECOVERY
-canonical_name: K_COLLAPSE_RECOVERY
-artifact_type: kernel_recovery_contract
-status: AMOS_MODEL
-conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: KERNEL
-kernel_family: RECOVERY
-scope: AMOS_OS
-updated: 2026-08-26
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: K Collapse Recovery
 tags:
-  - amos-os
-  - kernel
-  - core
-  - kernel/recovery
-  - kernel/collapse-recovery
-  - kernel/failure-recovery
-  - kernel/invalidation
-  - kernel/rollback
-  - kernel/dependency
-  - kernel/state
-  - kernel/provenance
-  - kernel/causal-epoch
-  - kernel/rscf
-  - rscf/recovery
-  - rscf/invalidation
-  - rscf/dependency
-  - topic/local-repair
-  - topic/failure-containment
-  - topic/rollback
-  - topic/replay
-  - topic/atomicity
-  - topic/mvcc
-  - topic/cas
-  - topic/causal-finality
-  - canon/kernel
-  - readme
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - source-lineage
-  - k-core19-logic
-  - k-meta-logic
-  - k-structural-reasoning
-  - k-causal-closure
-  - k-causal-epoch
-  - k-context-state
-  - k-identity
-  - k-system-state
-  - k-memory-admission
-  - k-memory-conflict
-  - k-memory-immune
-  - k-memory-retrieval
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # K COLLAPSE RECOVERY
@@ -2106,7 +2055,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

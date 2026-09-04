@@ -1,44 +1,21 @@
 ---
-schema_version: 1.0
-title: SKILL
-name: amos-llm-wiki
-description: AMOS LLM Wiki — ingest, query, lint, and maintain a compounding LLM-maintained markdown wiki inside the AMOS Obsidian vault. Use when adding a new source to the wiki, answering questions from the wiki, running a wiki health check, or filing a synthesized answer back into 11_KNOWLEDGE/LLM_WIKI/. Do not use for generic note taking, non-AMOS vaults, or tasks outside the LLM_WIKI subsystem.
-license: MIT
-parent_skill: amos-knowledge-research-master
-domain: knowledge
-origin_architect: Trang Phan
-epistemic_class: AMOS_MODEL
-version: 1.1.0
-rscf_state: DERIVED
-hml_level: M
-gmef_gates:
-  - L0_integrity
-  - L1_epistemic
-  - L5_scope
-collapse_class: reversible
-qfm_gate_set: QFM_v43
-law_compliance:
-  - L0
-  - L1
-  - L5
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Skill
 tags:
-  - type/skill
-  - type/skill
-  - domain/knowledge-research
-  - epistemic/source_claim
-  - hml/m
-  - epistemic/source_claim
-  - amos-os
-  - amos-llm-wiki-workflow
-  - amos-llm-wiki-agent
-steward: Trang Phan
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
-type: skill
-source: 07_SKILLS/amos-llm-wiki
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS LLM Wiki
@@ -130,7 +107,7 @@ This skill is governed by the AMOS constitutional law hierarchy. See `01_CANON/0
 - `11_KNOWLEDGE/LLM_WIKI/LLM_WIKI_MOC.md` — MOC
 - `11_KNOWLEDGE/LLM_WIKI/wiki/LLM_WIKI_INDEX.md` — index
 - `11_KNOWLEDGE/LLM_WIKI/wiki/LLM_WIKI_LOG.md` — log
-- [[08_WORKFLOWS/amos-llm-wiki-workflow|amos-llm-wiki-workflow]] — bound workflow
+- [[26_WORKFLOWS/amos-llm-wiki-workflow|amos-llm-wiki-workflow]] — bound workflow
 - [[11_KNOWLEDGE/stubs/amos-llm-wiki-agent|amos-llm-wiki-agent]] — bound agent
 
 ______________________________________________________________________

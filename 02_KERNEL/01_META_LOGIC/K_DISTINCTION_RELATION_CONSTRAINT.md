@@ -1,60 +1,16 @@
 ---
-title: K DISTINCTION RELATION CONSTRAINT
-type: constraint
-source: 02_KERNEL/01_META_LOGIC
-artifact_id: AMOS-OS-K-DISTINCTION-RELATION-CONSTRAINT
-canonical_name: K_DISTINCTION_RELATION_CONSTRAINT
-artifact_type: kernel_semantic_contract
-status: AMOS_MODEL
-conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: KERNEL
-kernel_family: FOUNDATION
-domain: distinction-relation-constraint
-scope: AMOS_OS
-created: 2026-08-25
-updated: 2026-08-25
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: K Distinction Relation Constraint
 tags:
-  - amos-os
-  - kernel
-  - core
   - canon-group/tech-ai
-  - canon/model
-  - kernel/foundation
-  - kernel/distinction
-  - kernel/relation
-  - kernel/constraint
-  - kernel/identity
-  - kernel/semantics
-  - kernel/invariants
-  - kernel/dependency
-  - kernel/provenance
-  - kernel/scope
-  - kernel/regime
-  - kernel/validation
   - rscf/claim
   - rscf/provenance
-  - rscf/state/model
-  - topic/distinction-relation-constraint
-  - readme
-  - architecture
-  - placement-rules
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - source-lineage
-  - supersession-log
-  - k-core19-logic
-  - authoritative-state
-aliases:
-  - DRC Kernel - Distinction Relation Constraint - K DRC - AMOS Distinction Relation Constraint
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # K_DISTINCTION_RELATION_CONSTRAINT
@@ -2111,7 +2067,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

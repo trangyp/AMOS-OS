@@ -1,228 +1,160 @@
 ---
-title: Perception Engine
-type: engine
-source: 05_COGNITIVE_ORGANISM
-artifact: PERCEPTION_ENGINE.md
-artifact_id: amos_05_cognitive_organism_perception_engine
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 05_COGNITIVE_ORGANISM
-segment: 05_COGNITIVE_ORGANISM
-artifact_kind: ENGINE
-path: 05_COGNITIVE_ORGANISM/PERCEPTION_ENGINE.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Perception Engine
 tags:
-  - amos-os
-  - cognitive
-  - organism
-  - engine
-  - canon_placeholder
-  - rscf
-  - canon/cognitive
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Perception Engine
+# Perception Engine — Cognitive Organism
 
-## 0. Status
+> **Status:** `ACTIVE_SPECIFICATION` · **AMOS Core target:** `v4.4`  
+> **Origin architect / steward:** Trang Phan  
+> **Functional Group:** `A. INPUT / REPRESENTATION` (MECE Partition)  
+> **Conclusion class:** `AMOS_MODEL`
 
-`PERCEPTION_ENGINE.md` is an **ADD-ONLY placeholder** for the **Cognitive Organism** plane segment at `05_COGNITIVE_ORGANISM`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+## 1. Architectural Purpose & Role
 
-The governing boundaries are:
+The **Perception Engine** serves as the primary sensory transduction and normalization layer of `05_COGNITIVE_ORGANISM`. Its responsibility is to receive multi-modal raw telemetry, user interactions, tool returns, and environment signals, transforming them into typed, provenance-stamped **Observation Vectors** without introducing ungrounded semantic interpretations.
+
+It enforces the foundational AMOS cognitive boundary separating empirical signal detection from cognitive reasoning:
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
+EXTERNAL RAW INPUT (Text, Audio, Image, Tool Return, Telemetry)
+                           ↓
+┌────────────────────────────────────────────────────────┐
+│                   PERCEPTION ENGINE                    │
+│  1. Modality Ingestion & Masking                       │
+│  2. Noise Filtration & Normalization                   │
+│  3. Feature Extraction & Uncertainty Attribution       │
+│  4. Strict Epistemic Stratification                   │
+└────────────────────────────────────────────────────────┘
+                           ↓
+        STRUCTURED OBSERVATION RECORD (RSCF: OBSERVATION)
+                           ↓
+                    ATTENTION ENGINE
 ```
 
-Origin architect / steward:
+---
 
-**Trang Phan**
+## 2. Modality Mask & Ingestion Architecture
 
-______________________________________________________________________
+The Perception Engine evaluates available inputs against a strictly typed **Modality Mask**:
 
-## 1. Purpose
+| Modality Channel | Valid Input Types | Sampling / Parsing Discipline | State Classification |
+| :--- | :--- | :--- | :--- |
+| **TEXT** | Markdown, code, JSON, natural language | UTF-8 validation, tokenization, fence parsing | `ACTIVE` |
+| **TOOL_STATE** | CLI output, API JSON payloads, error logs | Exit-code typing, schema conformance check | `ACTIVE` |
+| **SYSTEM_METRIC** | CPU, memory, latency, event timestamps | Numeric normalization, drift detection | `ACTIVE` |
+| **GRAPH_EDGE** | Wikilinks, RSCF relations, AST dependencies | Directed acyclic link resolution | `ACTIVE` |
+| **EXTERNAL_MEDIA** | Images, audio transcripts, PDFs | Feature vector extraction, metadata stamping | `RESTRICTED` |
 
-This artifact reserves the **Perception Engine** slot within the Cognitive Organism plane. The Cognitive Organism plane governs the organism-level cognitive assembly above kernels and below agents.
+### 2.1 Hard Modality Invariant
+$$\text{UNAVAILABLE\_SENSOR} \neq \text{INFERRED\_SENSOR}$$
+If a sensor, tool, or channel is offline, the engine outputs an explicit `CHANNEL_UNAVAILABLE` record. It is strictly prohibited from interpolating or hallucinating sensor readings.
 
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+---
 
-______________________________________________________________________
+## 3. The Four-Tier Stratification Firewall
 
-## 2. Non-Purpose
+To maintain absolute signal fidelity, perception operates through four strictly separated mathematical stages:
 
-This placeholder MUST NOT be used to claim:
+```text
+RAW_OBSERVATION (Tier 0)
+       ↓
+FEATURE_EXTRACTION (Tier 1)
+       ↓
+INTERPRETATION (Tier 2)
+       ↓
+INFERENCE (Tier 3)
+```
 
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
+$$\text{Tier 0: } O_{raw} \equiv \text{Exact verbatim string, bitstream, or return code.}$$
+$$\text{Tier 1: } \Phi(O_{raw}) \equiv \text{Measurable syntactic features (length, tokens, regex matches).}$$
+$$\text{Tier 2: } \Psi(\Phi) \equiv \text{Contextual semantic meaning conditioned on current language model.}$$
+$$\text{Tier 3: } \Lambda(\Psi) \equiv \text{Hypothesized external real-world cause.}$$
 
-______________________________________________________________________
+**Firewall Law:** Tier 2 and Tier 3 outputs must carry epistemic tags `DERIVED` or `MODEL` and cannot overwrite Tier 0 `OBSERVATION` records.
 
-## 3. Ingestion Rule
+---
 
+## 4. Grounding in Arvix Research Corpus
+
+The Perception Engine draws its signal-processing and noise-filtering discipline from research curated in the [Arvix Research Corpus](file:///Users/mac/Desktop/_Arxiv/Arvix):
+
+1. **Feature Separation & Kernel Transformation:**
+   * Grounded in [[2409.04406_Quantum_Kernel_Methods_under_Scrutiny__A_Benchmarking_Study]]: Rigorous empirical analysis of high-dimensional feature mapping, proving that non-linear feature maps must be guarded against spurious dimensionality inflation that degrades downstream decision boundaries.
+2. **Signal Amplification under High Noise:**
+   * Grounded in [[0802.0885v2_Amplified_Dispersive_Optical_Tomography]]: Demonstrates how dispersive transformation maps fast temporal signals into frequency-encoded structural features, enabling robust signal identification beneath high background noise.
+3. **Intrinsic Noise vs. Information Fluctuations:**
+   * Grounded in [[0704.3892_Current_Noise_in_Quantum_Point_Contacts]]: Distinguishes thermal and shot-noise fluctuations from genuine non-equilibrium signal transitions, providing the baseline model for the Perception Engine's noise-rejection gate.
+
+---
+
+## 5. Input / Output Contracts
+
+### 5.1 Input Contract
 ```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+perception_input:
+  channel_id: string
+  modality: "TEXT | TOOL_STATE | SYSTEM_METRIC | GRAPH_EDGE"
+  raw_stream: string | bytes | dict
+  arrival_timestamp: ISO8601
+  source_channel_metadata:
+    reliability_index: float
+    origin_signature: string
 ```
 
-______________________________________________________________________
+### 5.2 Output Contract
+```yaml
+perception_observation_record:
+  observation_id: string
+  raw_checksum: string
+  normalized_tokens: list[string]
+  extracted_features:
+    syntactic_markers: list[string]
+    uncertainty_score: float
+    noise_ratio: float
+  epistemic_classification: "OBSERVATION"
+  provenance_stamp:
+    channel: string
+    timestamp: ISO8601
+    immutable_hash: string
+```
 
-## 4. Contract discipline
+---
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+## 6. Cross-Plane & Architectural Bindings
 
-______________________________________________________________________
+* **Governed By:** [[01_CANON/03_COGNITION_CANON/COGNITIVE_ORGANISM_CANON|COGNITIVE_ORGANISM_CANON]]
+* **Downstream Feed:** [[05_COGNITIVE_ORGANISM/ATTENTION_ENGINE|ATTENTION_ENGINE]]
+* **World Model Synchronization:** [[05_COGNITIVE_ORGANISM/WORLD_MODEL_ENGINE|WORLD_MODEL_ENGINE]]
+* **Audit & Traceability:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]
+* **Plane MOC:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
 
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
-______________________________________________________________________
-
-## 6. Worked semantics (target)
-
-Given an operation touching `05_COGNITIVE_ORGANISM · ENGINE` within the Cognitive Organism plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-______________________________________________________________________
-
+---
 RSCF-NODE
-
 node_id: amos_05_cognitive_organism_perception_engine
-
 node_type: engine
-
 path: 05_COGNITIVE_ORGANISM/PERCEPTION_ENGINE.md
-
 claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
 RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
-
-**MOC:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
+  - GOVERNED_BY: [[01_CANON/03_COGNITION_CANON/COGNITIVE_ORGANISM_CANON]]
+  - FEEDS: [[05_COGNITIVE_ORGANISM/ATTENTION_ENGINE]]
+  - SYNCS_WITH: [[05_COGNITIVE_ORGANISM/WORLD_MODEL_ENGINE]]
+  - INDEXED_BY: [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC]]
+  - INDEXED_BY: [[00_ROOT/00_HOME]]

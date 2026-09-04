@@ -1,18 +1,21 @@
 ---
-title: Domain Architecture MOC
-type: moc
-source: 21_DOMAINS/01_DOMAIN_ARCHITECTURE
-amos_core_target: v4.4
-origin_architect: Trang Phan
-status: ACTIVE_MOC
-conclusion_class: DERIVED
-updated: 2026-09-04
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance:
-    - 21_DOMAINS/01_DOMAIN_ARCHITECTURE/DOMAIN_ARCHITECTURE_INDEX
-  scope: specialist_domain_ownership_and_routing
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 01 Domain Architecture Moc
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 01_DOMAIN_ARCHITECTURE — Domain Contracts MOC

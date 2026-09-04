@@ -1,168 +1,240 @@
 ---
-title: "15_INTERFACES Master Interface & System Surface Contract"
-type: control_contract
-source: 15_INTERFACES
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_GOVERNING_CONTRACT
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - authoritative_AMOS_OS_structure
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-    - 09_PROTOCOLS/09_PROTOCOLS_MOC
-    - 16_SCHEMAS/16_SCHEMAS_MOC
-    - 18_SECURITY/18_SECURITY_MOC
-  scope: interfaces_governance
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Interfaces Interface Contract
 tags:
-  - amos-os
-  - interfaces
-  - contract
-  - mcp-server
-  - zeromq
-  - websockets
-  - bci-telemetry
-  - obsidian-ui
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# 15_INTERFACES Master Interface & System Surface Contract
+# INTERFACES INTERFACE CONTRACT
 
-**Origin Architect & Steward:** Trang Phan
-**Target AMOS Lineage:** v4.4
-**Plane:** `15_INTERFACES`
-**Status:** `ACTIVE_GOVERNING_CONTRACT`
-**Epistemic Classification:** `AMOS_MODEL` / `DERIVED`
+## 0. Status
 
----
+Interfaces-plane contract for **INTERFACE CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
-## 1. Executive Summary & Boundary Mandate
+## 1. Scope
 
-The `15_INTERFACES` plane governs all boundary crossing points between AMOS OS internal kernels and external client environments, including the Obsidian Desktop UI, Model Context Protocol ($\text{MCP}$) servers, Terminal CLI tools, WebSockets, ZeroMQ sockets, and high-frequency Brain-Computer Interface ($\text{BCI}$) telemetry streams.
+Governs cross-boundary message schemas and interface contracts as they bear on `INTERFACE CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
 
-```text
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                    BOUNDARY CROSSING MATRIX (PLANE 15)                      │
-│                                                                             │
-│  [External Clients / Hardware]                                              │
-│  - Obsidian UI / Vault Markdown Files                                       │
-│  - MCP Clients (Claude Desktop, Cursor, Antigravity)                        │
-│  - ZeroMQ / FIX 4.4 High-Throughput Streams                                 │
-│  - BCI Telemetry & Ultrasound Transducer Feeds                              │
-│                               │                                             │
-│                               ▼                                             │
-│  [15_INTERFACES Surface Normalization Layer]                                │
-│  - Strict Schema Validation & Format Sanitization                           │
-│  - Rate Limiting, Backpressure & Authentication                             │
-│  - Bidirectional Serialization (Arrow / JSON-RPC / Protobuf)                │
-│                               │                                             │
-│                               ▼                                             │
-│  [AMOS Core Execution Planes (02_KERNEL, 03_CONTROL, 04_RUNTIME)]           │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+## 2. Contract terms
 
----
+- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
+- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
+- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
+- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
+- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
 
-## 2. Hard Surface Axioms
+## 3. Invariants
 
-```text
-SURFACE != ENGINE
-FORMAT != SEMANTICS
-PRESENTATION != AUTHORITY
-TRANSPORT != ADMISSION
-```
+- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
+- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
+- Consequential effects emit receipts; rollback basin exists before mutation.
+- Competing hypotheses remain visible when evidence does not discriminate.
 
-1. **Surface Separation**: An interface adapter renders state and translates protocols; it NEVER makes autonomous authorization or commit decisions.
-2. **Schema Invariance**: Every ingress packet must strictly conform to a typed schema in `16_SCHEMAS` prior to kernel dispatch.
-3. **No Authority Elevation**: Interfacing with an external privileged endpoint does not grant the client internal OS governance rights.
+## 4. Executed reference
 
----
+No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
 
-## 3. Nine-Part AMOS Control Contract
+## 5. Gaps
 
-### 3.1 ROLE
-Provides normalized, authenticated, and rate-limited interface adapters across all external human, software, and hardware interaction channels.
+Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
 
-### 3.2 INTERFACES
-- `IMCPServer`: Model Context Protocol standard interface for AI agent tool and resource discovery.
-- `IZeroMQBridge`: High-throughput socket adapter for financial and real-time streaming data.
-- `IObsidianVaultBridge`: Reads and writes markdown notes with normalized wikilinks and valid YAML frontmatter.
-- `IBRICStreamReceiver`: Ingests high-density neural telemetry frames and converts them to zero-copy Arrow tensors.
+## 6. Falsifiers
 
-### 3.3 DEPENDENCIES
-- `03_CONTROL_PLANE`: Permission evaluation and capability token validation.
-- `04_RUNTIME`: Event loops and async stream processing.
-- `16_SCHEMAS`: Protobuf, JSON-Schema, and Apache Arrow data definitions.
-- `18_SECURITY`: Mutual TLS, API key validation, and token rate limiting.
+F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
 
-### 3.4 INVARIANTS
-1. **Frontmatter Invariant**: Every markdown artifact emitted through vault interfaces must contain a valid YAML header with `type`, `origin_architect`, `amos_core_target`, and `rscf` blocks.
-2. **Wikilink Normalization**: All internal note links must conform to `[[15_INTERFACES/15_INTERFACES_MOC|Alias]]` syntax.
-3. **Backpressure & Drop Policy**: If client consumption lags behind kernel production, the interface applies backpressure; telemetry feeds drop non-critical frames while preserving causal receipts.
+## Worked semantics
 
-### 3.5 AUTHORITY
-Governed by `AMOS_CORE v4.4`, origin architect **Trang Phan**.
+Given an operation touching `INTERFACES · INTERFACE CONTRACT` within the Interfaces plane:
 
-### 3.6 PROVENANCE
-Engineered from MCP specifications, ZeroMQ messaging patterns, and reactive stream protocols.
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-### 3.7 TESTS
-- Unit verification of MCP JSON-RPC protocol compliance across all exposed tool endpoints.
-- High-throughput ZeroMQ saturation benchmarks ($> 500,000\text{ msgs/sec}$ with $< 0.15\text{ ms}$ jitter).
-- Markdown frontmatter validation test suite over $10^4$ test notes.
+## Promotion-gate checklist
 
-### 3.8 FAILURE MODES
-- Client disconnect or malformed payload.
-- Ingress network flood or socket exhaustion.
-- Schema deserialization mismatch.
-
-### 3.9 RECOVERY
-- Immediate client error response with structured JSON diagnostic; zero kernel panics.
-- Graceful TCP socket reconnection with exponential backoff.
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ---
 
-## 4. Supported Protocol Channels & Standards
+## 7. Interface Lifecycle
 
-| Protocol Channel | Underlying Transport | Data Serialization | Target Consumer |
+### 7.1 Lifecycle States
+
+| State | Description | Enforcement | Authority |
 | :--- | :--- | :--- | :--- |
-| **Model Context Protocol (MCP)** | Stdio / HTTP SSE | JSON-RPC 2.0 | AI IDEs & Agent Assistants |
-| **High-Throughput ZeroMQ** | IPC / TCP Sockets | Apache Arrow / Protobuf | Quant engines & Stream decoders |
-| **Obsidian Vault Sync** | Filesystem POSIX / FUSE| Markdown + YAML Frontmatter | Human Architect Knowledge Base |
-| **WebSocket Telemetry** | Secure WSS | Binary Packed Structs / JSON | Real-Time UI Dashboards |
-| **BCI Neural Ingestion** | PCIe Gen5 / DMA Buffer| Zero-Copy FlatBuffers | Neural decoding pipelines |
+| `DECLARED` | Interface registered with typed schema | Schema validation only | None |
+| `AVAILABLE` | Interface passes health check | Health monitoring active | None |
+| `ACTIVE` | Interface processing messages | Full enforcement | Authority required |
+| `THROTTLED` | Rate limiting active | Reduced throughput | Authority required |
+| `DEPRECATED` | Interface superseded | Grace period enforcement | Transitional |
+| `RETIRED` | No active connections | Tombstone preserved | None |
+
+### 7.2 Lifecycle Transitions
+
+```yaml
+lifecycle_transitions:
+  DECLARED_to_AVAILABLE:
+    trigger: "Health check passes"
+    conditions:
+      - "Schema validation passes"
+      - "Authority requirements declared"
+      - "Audit trail hooks active"
+  
+  AVAILABLE_to_ACTIVE:
+    trigger: "First valid message processed"
+    conditions:
+      - "Authority token validated"
+      - "Resource budget allocated"
+      - "Monitoring active"
+  
+  ACTIVE_to_THROTTLED:
+    trigger: "Rate limit exceeded"
+    conditions:
+      - "Requests per second > threshold"
+      - "Error rate > threshold"
+    duration: "Until metrics normalize"
+  
+  ACTIVE_to_DEPRECATED:
+    trigger: "Newer version available"
+    conditions:
+      - "Grace period started"
+      - "Migration guide published"
+    grace_period: "90 days"
+  
+  DEPRECATED_to_RETIRED:
+    trigger: "Grace period expired"
+    conditions:
+      - "No active connections"
+      - "Migration complete"
+    action: "Tombstone record preserved"
+```
 
 ---
 
-## 5. AMOS OS MECE Plane Integration
+## 8. Interface Versioning
 
-| AMOS Plane | Role & Responsibilities |
-| :--- | :--- |
-| **[[00_ROOT/00_ROOT_MOC|00_ROOT]]** | Root navigation hub exposing interface documentation and system maps. |
-| **[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE]]** | Gates all external inbound actions through permission check filters. |
-| **[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]]** | Hosts live interface daemon processes and connection managers. |
-| **[[15_INTERFACES/15_INTERFACES_MOC|15_INTERFACES]]** | Host plane housing all interface adapters, socket servers, and UI plugins. |
-| **[[16_SCHEMAS/16_SCHEMAS_MOC|16_SCHEMAS]]** | Authoritative data type definitions for all interface payloads. |
-| **[[18_SECURITY/18_SECURITY_MOC|18_SECURITY]]** | Enforces rate limits, IP whitelists, and TLS certificates. |
+### 8.1 Version Format
+
+```
+interface_id vMAJOR.MINOR.PATCH
+```
+
+- **MAJOR**: Breaking changes to message schema or state machine
+- **MINOR**: Backward-compatible additions (new optional fields)
+- **PATCH**: Bug fixes, documentation corrections
+
+### 8.2 Compatibility Rules
+
+| Change Type | Backward Compatible | Forward Compatible | Migration |
+| :--- | :--- | :--- | :--- |
+| Schema field added (optional) | Yes | No | Optional |
+| Schema field removed | No | No | Required |
+| State transition added | Yes | No | Optional |
+| State transition removed | No | No | Required |
+| Authority requirement changed | No | No | Required |
+| Epistemic class changed | No | No | Required |
+
+### 8.3 Version Negotiation
+
+When two components communicate:
+
+```yaml
+version_negotiation:
+  step_1: "Both declare supported versions"
+  step_2: "Compute intersection: common = supported_A ∩ supported_B"
+  step_3: "Select highest common version"
+  step_4: "If intersection empty → COMPATIBILITY_ERROR"
+  step_5: "Proceed at negotiated version"
+```
 
 ---
 
-## 6. Structural Invariants & Governance
+## 9. Compatibility Matrix
 
-1. **Deterministic Serialization**: Identical internal state structures must serialize to byte-identical payloads across repeated calls.
-2. **Zero-Trust External Input**: All inbound payloads are treated as untrusted until validated against `16_SCHEMAS`.
-3. **No Capability Promotion**: Presentation-layer interactions cannot alter core architectural contracts.
-4. **Lineage**: Governed under AMOS v4.4; origin steward **Trang Phan**.
+### 9.1 Cross-Interface Compatibility
+
+| Interface A | Interface B | Compatible | Notes |
+| :--- | :--- | :--- | :--- |
+| CLI v1.x | CLI v2.x | No | Breaking schema changes |
+| API v1.x | API v1.y | Yes | Minor additions only |
+| Agent v1.x | Agent v2.x | No | Protocol changed |
+| BCI v1.x | BCI v1.x | Yes | Same version, full compat |
+
+### 9.2 Cross-Version Compatibility
+
+```yaml
+cross_version_compatibility:
+  within_major: "Full compatibility"
+  across_major: "No compatibility; migration required"
+  deprecated_version: "Supported during grace period only"
+  retired_version: "No compatibility; rejected"
+```
 
 ---
 
-## 7. Cross-Plane References
+## 10. Failure Modes (Extended)
 
-- Interfaces MOC: [[15_INTERFACES/15_INTERFACES_MOC|15_INTERFACES MOC]]
-- Interfaces README: [[15_INTERFACES/INTERFACES_README|INTERFACES_README]]
-- Web-Based BCI Neural Flow Decoder: [[15_INTERFACES/WEB_BASED_BCI_OPTOGENETIC_NEURAL_FLOW_DECODER|BCI Neural Decoder Interface]]
-- ZeroMQ Socket Adapter: [[15_INTERFACES/FOREX_FIX44_ZEROMQ_SOCKET_ADAPTER|ZeroMQ Socket Adapter]]
-- Schemas Plane MOC: [[16_SCHEMAS/16_SCHEMAS_MOC|16_SCHEMAS MOC]]
+| Failure | Detection | Recovery | Severity |
+| :--- | :--- | :--- | :--- |
+| **Schema violation** | Input validation | Reject; log; return error | HIGH |
+| **Authentication failure** | Token validation | Reject; log unauthorized attempt | HIGH |
+| **Authorization failure** | Scope check | Reject; escalate to control plane | HIGH |
+| **Rate limit exceeded** | Rate monitor | Throttle; queue messages | MEDIUM |
+| **Timeout** | Timeout watchdog | Retry; escalate after max retries | MEDIUM |
+| **Protocol mismatch** | Version negotiation | Fail with compatibility error | HIGH |
+| **Data corruption** | Checksum validation | Reject; request retransmission | HIGH |
+| **Interface crash** | Health check | Restart; return partial results | HIGH |
+
+---
+
+## 11. Cross-plane bindings
+
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+- Security boundary — [[18_SECURITY/18_SECURITY_MOC|18_SECURITY_MOC]]
+- Tool exposure — [[14_TOOLS/14_TOOLS_MOC|14_TOOLS_MOC]]
+
+______________________________________________________________________
+
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+
+______________________________________________________________________
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: amos_15_interfaces_interfaces_interface_contract_md
+node_type: note
+path: 15_INTERFACES/INTERFACES_INTERFACE_CONTRACT.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[15_INTERFACES/15_INTERFACES_MOC|15_INTERFACES_MOC]]

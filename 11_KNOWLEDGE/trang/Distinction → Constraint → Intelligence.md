@@ -1,167 +1,21 @@
 ---
-title: Distinction → Constraint → Intelligence
-
-type: framework
-
-source: 11_KNOWLEDGE
-
-artifact: DISTINCTION_CONSTRAINT_INTELLIGENCE.md
-
-artifact_id: amos_11_knowledge_distinction_constraint_intelligence
-
-origin_architect: Trang Phan
-
-steward: Trang Phan
-
-system: AMOS OS
-
-plane: 11_KNOWLEDGE
-
-segment: cross_domain_reasoning
-
-artifact_kind: FRAMEWORK
-
-path: 11_KNOWLEDGE/DISTINCTION_CONSTRAINT_INTELLIGENCE.md
-
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Distinction → Constraint → Intelligence
 tags:
-  - amos-os
-  - knowledge
-  - distinction
-  - constraint
-  - intelligence
-  - possibility_space
-  - representation
-  - semantic_constraint
-  - determinism
-  - uncertainty
-  - prime_structure
-  - primorial_wheel
-  - prime_gap
-  - spectral_analysis
-  - information_theory
-  - prediction
-  - monte_carlo
-  - alpha_go
-  - recursive_observer
-  - neuroplasticity
-  - amos_19
-  - 9_1_9
-  - infinity_cycle
-  - rscf
-  - provenance
-  - epistemology
-  - canon/knowledge
-  - canon/framework
-  - topic/distinction
-  - topic/constraint
-  - topic/intelligence
-  - topic/recursive-observer
-  - topic/possibility-management
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
   - rscf/state/source-claim
-
-version: 1.0.0
-
-updated: '2026-08-29'
-
-status: ACTIVE_REFERENCE
-
-epistemic_class: AMOS_MODEL
-
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-
-validation_status: MIXED_ESTABLISHED_DERIVED_MODEL_HYPOTHESIS
-
-executable_binding: NOT_ESTABLISHED
-
-ingestion_action: NATIVE_CANON_INGESTION
-
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-
-rscf:
-  state: SOURCE_CLAIM
-
-  claim_class: AMOS_MODEL
-
-  provenance:
-    - USER_SUPPLIED_SOURCE
-    - AMOS_CORPUS
-    - CROSS_DOMAIN_SYNTHESIS
-
-  scope:
-    - EPISTEMOLOGY
-    - FORMAL_REASONING
-    - MATHEMATICS
-    - PRIME_STRUCTURE
-    - INFORMATION_THEORY
-    - PREDICTION
-    - SEARCH
-    - MONTE_CARLO
-    - SEMANTIC_REPRESENTATION
-    - ARTIFICIAL_INTELLIGENCE
-    - COGNITION
-    - NEUROPLASTICITY
-    - AMOS_OS
-
-framework_binding:
-  amos_core:
-    role: >
-      Integrity, typed claims, provenance, scope, regime,
-      dependency closure, competing hypotheses and bounded inference.
-
-  rscf:
-    role: >
-      Claim classification, dependency representation,
-      provenance preservation and validation-state management.
-
-  cognitive_matrix:
-    artifact: '[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]'
-
-  tensor_contracts:
-    artifact: '[[11_KNOWLEDGE/TENSOR_CONTRACTS|TENSOR_CONTRACTS]]'
-
-  full_brain:
-    artifact: '[[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS_FULL_BRAIN_OS_ARCHITECTURE]]'
-
-  cross_domain_governor:
-    artifact: '[[11_KNOWLEDGE/AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR|AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]]'
-
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  source_structure: VERIFIED_SOURCE_STRUCTURE
-
-  established_mathematics:
-    status: ESTABLISHED_WHERE_EXPLICITLY_IDENTIFIED
-
-  derived_mathematical_interpretation:
-    status: DERIVED
-
-  cross_domain_synthesis:
-    status: AMOS_MODEL
-
-  amos_19:
-    status: SOURCE_CANON
-
-  recursive_observer:
-    status: AMOS_MODEL_WITH_EMPIRICAL_ANALOGUES
-
-  neuroplasticity:
-    status: ESTABLISHED_BIOLOGICAL_PHENOMENON
-
-  literal_neural_9_1_9:
-    status: NOT_ESTABLISHED
-
-  universal_physical_law:
-    status: NOT_ESTABLISHED
-
-  universal_hidden_determinism:
-    status: NOT_ESTABLISHED
-
-  amos_efficiency_advantage:
-    status: TESTABLE_NOT_INDEPENDENTLY_ESTABLISHED
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Distinction → Constraint → Intelligence
@@ -3252,3 +3106,6 @@ ______________________________________________________________________
 ______________________________________________________________________
 
 **MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
+
+```
+```

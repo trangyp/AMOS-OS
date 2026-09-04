@@ -1,24 +1,21 @@
 ---
-title: HEALING RECOVERY COMMIT CONTROL PLANE README
-type: control-plane
-source: 03_CONTROL_PLANE/09_COMMIT/05_HEALING_RECOVERY
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Healing Recovery Commit Control Plane Readme
 tags:
-  - control-plane
-  - 05_healing_recovery
-  - canon/control-plane
-  - readme
-  - commit-control-plane-activation-rules
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-  - healing-recovery-commit-control-plane-mode-spec
-  - healing-recovery-commit-control-plane-provenance
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # HEALING RECOVERY COMMIT CONTROL PLANE README

@@ -1,21 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: UBI X FULL BRAIN
-type: note
-source: 25_COGNITIVE_MATRIX
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Ubi X Full Brain
 tags:
-  - note
-  - 25-cognitive-matrix
-  - domain/cognitive-matrix
-  - ubi
-  - full-brain
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # 1. Artifact identity and canonical envelope

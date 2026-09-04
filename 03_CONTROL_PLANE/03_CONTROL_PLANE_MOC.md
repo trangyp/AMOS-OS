@@ -1,120 +1,146 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: 03 Control Plane MOC
-type: moc
-source: 03_CONTROL_PLANE
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 03 Control Plane Moc
 tags:
-  - 03-control-plane
-  - canon/control-plane
-  - amos-home
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
+# 03 Control Plane Moc
+
+## 0. Status
+
+```text
+PLACEHOLDER != IMPLEMENTED
+ADDRESSABLE != VALIDATED
+DOCUMENTED != ENFORCED
+MODEL != OBSERVATION
+SOURCE_CLAIM != VERIFIED
+CANON_CANDIDATE != CANONICAL
+CAPABILITY != AUTHORITY
+UNKNOWN/GAP != PASS
+```
+
+Origin architect / steward: **Trang Phan**
+
+## 1. Purpose
+
+Control plane artifacts. This artifact defines the 03 Control Plane Moc within the AMOS OS Control Plane plane, establishing the canonical contract, structural invariants, and integration points required for governed operation.
+
+## 2. Formal Definition
+
+| Property | Value |
+|:---|:---|
+| Artifact Type | CONTROL_PLANE |
+| Canonical Status | CONDITIONAL |
+| Epistemic Class | AMOS_MODEL |
+| RSCF State | OBSERVATION |
+| Implementation Status | NOT_ESTABLISHED |
+| Provenance Independence | NOT_ESTABLISHED |
+
+### Structural Invariants
+
+1. **Integrity Dominance**: INTEGRITY > COMPLETENESS > FLUENCY > SPEED
+2. **Epistemic Discipline**: SOURCE_CLAIM != VERIFIED; MODEL != OBSERVATION
+3. **Scope Binding**: Claims valid only within declared scope and regime
+4. **Authority Boundary**: CAPABILITY != AUTHORITY; PROPOSAL != COMMIT
+5. **Causal Firewall**: No causal claim without causal evidence
+6. **Uncertainty Preservation**: UNKNOWN/GAP != PASS
+
+### AMOS Law Compliance
+
+| Law | Obligation |
+|:---|:---|
+| L0 Integrity | Integrity dominance; no fabricated closure |
+| L1 Epistemic | Evidence typing; source claim != verification |
+| L2 Provenance | Every claim traces to source |
+| L4 Causal | Causal firewall; correlation != causation |
+| L5 Scope | Claims valid only within scope/regime |
+| L7 Authority | No autonomous action beyond authority boundary |
+| L17 RSCF | Claim discipline; confidence ceiling enforced |
+| L27 Gap | Expose don't fill; gap is status not shame |
+
+## 3. AMOS Architecture Integration
+
+This artifact integrates with the AMOS OS architecture through:
+
+- **Canon Plane**: Governed by [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- **Kernel Plane**: Connects to [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] for runtime enforcement
+- **Control Plane**: Routes through [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] for execution
+- **Knowledge Plane**: Indexed in [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]]
+- **SOTA Research**: Informed by [[22_RESEARCH/SOTA_RESEARCH_SYNTHESIS_2026-09-04|SOTA Synthesis Part 1]], [[22_RESEARCH/SOTA_RESEARCH_SYNTHESIS_2_2026-09-04|Part 2]], [[22_RESEARCH/SOTA_RESEARCH_SYNTHESIS_3_2026-09-04|Part 3]]
+
+### H/M/L Resolution
+
+- **H (High)**: Constitutional reasoning, irreversible actions → full proof capsule required
+- **M (Medium)**: Domain policy, reversible transformations → evidence + provenance required
+- **L (Low)**: Mechanical checks, local operations → type/format check sufficient
+
+### RSCF Classification
+
+- **State**: OBSERVATION (sourced from architectural specification)
+- **Claim Class**: OBSERVATION
+- **Confidence Ceiling**: source_supported (capped at 0.7 without independent validation)
+- **Provenance**: amos_architecture_2026-09-04
+
+## 4. Cross-References
+
+- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+- [[00_ROOT/AMOS MOC|AMOS MOC]]
+- [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03|AMOS OS Audit 2026-09-03]]
+
+## 5. Gaps
+
+- Implementation status NOT_ESTABLISHED — architecture defined, runtime not deployed
+- Provenance independence NOT_ESTABLISHED — single-source derivation
+- Canonical status CONDITIONAL — requires governed promotion for CANONICAL
+- Test coverage UNKNOWN — no executed validation evidence
+- External authority NOT_ESTABLISHED — no independent verification
+
+## 6. Ingestion Rule
+
+```yaml
+AMOS_CANON_INGESTION_RULE:
+  existing_file:
+    preserve: true
+    overwrite: false
+  uncertainty:
+    action:
+      - MARK_GAP_OR_COMPETING
+      - NEVER_INVENT_CANON
+```
+
 ---
 
-# 03 Control Plane — Map of Content
+RSCF-NODE
 
-**Path:** `03_CONTROL_PLANE`
-**Top-level files:** 4 | **Subdirectories:** 13
-**Total notes:** 788
+node_id: 03_control_plane_03_control_plane_moc
 
-The Control Plane is the governance and coordination layer between canonical/kernel reasoning and runtime execution. It gates every consequential effect through task contracts, capability admission, policy, authority, provenance, commit, and rollback.
+node_type: CONTROL_PLANE
 
-## Top-level contracts & resolver
+path: 03_CONTROL_PLANE/03_CONTROL_PLANE_MOC.md
 
-- [[03_CONTROL_PLANE/COGNITIVE_VAULT_RESOLVER|COGNITIVE VAULT RESOLVER]] — **Path:** `03_CONTROL_PLANE/COGNITIVE_VAULT_RESOLVER.md`
-- [[03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT|Control Plane Control Plane Contract]] — > **Origin Architect / Steward:** Trang Phan
-- [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL PLANE README]] — `CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE`.
-- [[03_CONTROL_PLANE/PATH_REFERENCE_POLICY|PATH REFERENCE POLICY]] — `PATH_REFERENCE_POLICY.md` is an **ADD-ONLY placeholder** for the **Control Plane** plane segment at `03_CONTROL_PLANE`.
+claim_class: OBSERVATION
 
-## Orientation & Index
+rscf_state: OBSERVATION
 
-- [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL PLANE MAP]] (3 notes) — `CONTROL_PLANE_MAP.md` defines the structural map of the AMOS OS control plane.
-  - [[03_CONTROL_PLANE/00_INDEX/INDEX_CONTROL_PLANE_CONTROL_PLANE_CONTRACT|INDEX CONTROL PLANE CONTROL PLANE CONTRACT]] — - See also — [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]]
-  - [[03_CONTROL_PLANE/00_INDEX/INDEX_CONTROL_PLANE_README|INDEX CONTROL PLANE README]] — artifact_id: AMOS-OS-CONTROL-PLANE-README
+canonical_status: CONDITIONAL
 
-## Task & Capability Admission
+RSCF-RELATIONS:
 
-- [[03_CONTROL_PLANE/01_TASK_CONTRACT/01_TASK_CONTRACT_MOC|01 Task Contract Moc]] (7 notes) — > **Origin Architect / Steward:** Trang Phan
-  - [[03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_CONTRACT|TASK CONTRACT]] — > **Layer:** `03_CONTROL_PLANE/01_TASK_CONTRACT`
-  - [[03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_CONTRACT_CONTROL_PLANE_README|TASK CONTRACT CONTROL PLANE README]] — `TASK CONTRACT CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/01_TASK_CONTRACT`.
-  - [[03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_RESOLVER|TASK RESOLVER]] — > **Layer:** `03_CONTROL_PLANE/01_TASK_CONTRACT`
-- [[03_CONTROL_PLANE/02_CAPABILITY/02_CAPABILITY_MOC|02 Capability MOC]] (9 notes) — **Path:** `03_CONTROL_PLANE/02_CAPABILITY`
-  - [[03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_CONTRACT|CAPABILITY CONTRACT]] — `CAPABILITY_CONTRACT.md` is an **ADD-ONLY placeholder** for the **Control Plane** plane segment at `03_CONTROL_PLANE/02_CAPABILITY`.
-  - [[03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_CONTROL_PLANE_README|CAPABILITY CONTROL PLANE README]] — `CAPABILITY CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/02_CAPABILITY`.
-  - [[03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_MANIFEST|CAPABILITY MANIFEST]] — This document defines the AMOS OS manifest structure for discovering, indexing, resolving, validating, governing, versioning, and auditing c
-  - [[03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_RESOLVER|CAPABILITY RESOLVER]] — So the following is a **substantive candidate replacement**, not recovered pre-existing content.
-  - [[03_CONTROL_PLANE/02_CAPABILITY/CONTROL_PLANE_CAPABILITY_CONTRACT|CONTROL PLANE CAPABILITY CONTRACT]] — This document defines the governed contract by which a capability may be represented, discovered, selected, invoked, supervised, validated,
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 
-## Policy, Authority & Provenance
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
-- [[03_CONTROL_PLANE/03_POLICY/03_POLICY_MOC|03 Policy MOC]] (13 notes) — **Path:** `03_CONTROL_PLANE/03_POLICY`
-  - [[03_CONTROL_PLANE/03_POLICY/BIO_LOGICAL_GOVERNANCE_POLICY|Bio-Logical Governance Policy]] — `BIO_LOGICAL_GOVERNANCE_POLICY.md` is an **ADD-ONLY placeholder** for the **Control Plane** plane segment at `03_CONTROL_PLANE/03_POLICY`.
-  - [[03_CONTROL_PLANE/03_POLICY/CANON_POLICY|Canon Policy]] — `CANON_POLICY.md` is an **ADD-ONLY placeholder** for the **Control Plane** plane segment at `03_CONTROL_PLANE/03_POLICY`.
-  - [[03_CONTROL_PLANE/03_POLICY/HERITAGE_POLICY|Heritage Policy]] — `HERITAGE_POLICY.md` is an **ADD-ONLY placeholder** for the **Control Plane** plane segment at `03_CONTROL_PLANE/03_POLICY`.
-  - [[03_CONTROL_PLANE/03_POLICY/NEUROSYNCAI_GOVERNANCE_POLICY|NeuroSyncAI Governance Policy]] — `NEUROSYNCAI_GOVERNANCE_POLICY.md` is an **ADD-ONLY placeholder** for the **Control Plane** plane segment at `03_CONTROL_PLANE/03_POLICY`.
-  - [[03_CONTROL_PLANE/03_POLICY/POLICY_CONTROL_PLANE_README|POLICY CONTROL PLANE README]] — `POLICY CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/03_POLICY`.
-  - [[03_CONTROL_PLANE/03_POLICY/POLICY_DECISION|POLICY DECISION]] — `POLICY_DECISION.md` defines the AMOS OS contract for representing, evaluating, composing, validating, recording, invalidating, and consumin
-  - [[03_CONTROL_PLANE/03_POLICY/POLICY_ENGINE|POLICY ENGINE]] — `POLICY_ENGINE.md` defines the AMOS OS architecture for discovering, resolving, evaluating, composing, revalidating, and auditing policies t
-  - [[03_CONTROL_PLANE/03_POLICY/POLICY_REGISTRY|POLICY REGISTRY]] — `POLICY_REGISTRY.md` defines the AMOS OS contract for registering, identifying, versioning, discovering, scoping, superseding, revoking, qua
-  - [[03_CONTROL_PLANE/03_POLICY/UBI_INTEGRITY_POLICY|UBI Integrity Policy]] — `UBI_INTEGRITY_POLICY.md` is an **ADD-ONLY placeholder** for the **Control Plane** plane segment at `03_CONTROL_PLANE/03_POLICY`.
-- [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04 Authority MOC]] (139 notes) — **Path:** `03_CONTROL_PLANE/04_AUTHORITY`
-- [[03_CONTROL_PLANE/05_PROVENANCE/05_PROVENANCE_MOC|05 Provenance MOC]] (9 notes) — **Path:** `03_CONTROL_PLANE/05_PROVENANCE`
-  - [[03_CONTROL_PLANE/05_PROVENANCE/CONTROL_PLANE_PROVENANCE_CONTRACT|Control Plane Provenance Contract]] — > **Origin Architect / Steward:** Trang Phan
-  - [[03_CONTROL_PLANE/05_PROVENANCE/OBSERVED_READ_SET|Observed Read Set]] — > **Origin Architect / Steward:** Trang Phan
-  - [[03_CONTROL_PLANE/05_PROVENANCE/PROVENANCE_CONTROL_PLANE_README|PROVENANCE CONTROL PLANE README]] — `PROVENANCE CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/05_PROVENANCE`.
-  - [[03_CONTROL_PLANE/05_PROVENANCE/PROVENANCE_LEDGER|PROVENANCE LEDGER]] — Control Plane-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
-  - [[03_CONTROL_PLANE/05_PROVENANCE/READ_SET_VALIDATOR|Read Set Validator]] — > **Origin Architect / Steward:** Trang Phan
-
-## Semantic Transactions, Effects & Commit
-
-- [[03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION/06_SEMANTIC_TRANSACTION_MOC|06 Semantic Transaction MOC]] (12 notes) — **Path:** `03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION`
-  - [[03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION/CANON_SEMANTIC_TRANSACTION|Canon Semantic Transaction]] — `CANON_SEMANTIC_TRANSACTION.md` is an **ADD-ONLY placeholder** for the **Control Plane** plane segment at `03_CONTROL_PLANE/06_SEMANTIC_TRAN
-  - [[03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION/CONTROL_PLANE_SEMANTIC_TRANSACTION_CONTRACT|Control Plane Semantic Transaction Contract]] — > **Origin Architect / Steward:** Trang Phan
-  - [[03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION/CROSS_FRAMEWORK_TRANSACTION|Cross-Framework Transaction]] — `CROSS_FRAMEWORK_TRANSACTION.md` is an **ADD-ONLY placeholder** for the **Control Plane** plane segment at `03_CONTROL_PLANE/06_SEMANTIC_TRA
-  - [[03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION/LINEAGE_GRAPH|Lineage Graph]] — > **Origin Architect / Steward:** Trang Phan
-  - [[03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION/MULTI_RSCF_TRANSACTION|Multi-RSCF Transaction]] — `MULTI_RSCF_TRANSACTION.md` is an **ADD-ONLY placeholder** for the **Control Plane** plane segment at `03_CONTROL_PLANE/06_SEMANTIC_TRANSACT
-  - [[03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION/PARAMETER_PROVENANCE|Parameter Provenance]] — > **Origin Architect / Steward:** Trang Phan
-  - [[03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION/SEMANTIC_TRANSACTION|Semantic Transaction]] — > **Origin Architect / Steward:** Trang Phan
-  - [[03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION/SEMANTIC_TRANSACTION_CONTROL_PLANE_README|SEMANTIC TRANSACTION CONTROL PLANE README]] — `SEMANTIC TRANSACTION CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/06_SEMANTIC_T
-- [[03_CONTROL_PLANE/08_EFFECTS/08_EFFECTS_MOC|08 Effects MOC]] (9 notes) — **Path:** `03_CONTROL_PLANE/08_EFFECTS`
-  - [[03_CONTROL_PLANE/08_EFFECTS/CONTROL_PLANE_EFFECTS_CONTRACT|Control Plane Effects Contract]] — > **Origin Architect / Steward:** Trang Phan
-  - [[03_CONTROL_PLANE/08_EFFECTS/EFFECTS_CONTROL_PLANE_README|EFFECTS CONTROL PLANE README]] — `EFFECTS CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/08_EFFECTS`.
-  - [[03_CONTROL_PLANE/08_EFFECTS/EFFECT_INTENT|Effect Intent]] — > **Origin Architect / Steward:** Trang Phan
-  - [[03_CONTROL_PLANE/08_EFFECTS/EFFECT_MANIFEST|Effect Manifest]] — > **Origin Architect / Steward:** Trang Phan
-  - [[03_CONTROL_PLANE/08_EFFECTS/EFFECT_RELEASE_STATE|Effect Release State]] — > **Origin Architect / Steward:** Trang Phan
-- [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09 Commit MOC]] (553 notes) — **Path:** `03_CONTROL_PLANE/09_COMMIT`
-  - [[03_CONTROL_PLANE/09_COMMIT/CAUSAL_EPOCH_FINALITY|Causal Epoch Finality]] — `CAUSAL_EPOCH_FINALITY.md` is an **ADD-ONLY placeholder** for the **Control Plane** plane segment at `03_CONTROL_PLANE/09_COMMIT`.
-  - [[03_CONTROL_PLANE/09_COMMIT/COMMIT_CONTROL_PLANE_README|COMMIT CONTROL PLANE README]] — `COMMIT CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/09_COMMIT`.
-  - [[03_CONTROL_PLANE/09_COMMIT/CONTROL_PLANE_COMMIT_CONTRACT|Control Plane Commit Contract]] — > **Origin Architect / Steward:** Trang Phan
-  - [[03_CONTROL_PLANE/09_COMMIT/PROOF_BASED_COORDINATION_AVOIDANCE|Proof-Based Coordination Avoidance]] — `PROOF_BASED_COORDINATION_AVOIDANCE.md` is an **ADD-ONLY placeholder** for the **Control Plane** plane segment at `03_CONTROL_PLANE/09_COMMI
-  - [[03_CONTROL_PLANE/09_COMMIT/SHARD_LOCAL_FINALIZATION|Shard-Local Finalization]] — `SHARD_LOCAL_FINALIZATION.md` is an **ADD-ONLY placeholder** for the **Control Plane** plane segment at `03_CONTROL_PLANE/09_COMMIT`.
-
-## Observability, Exposure, Replay, Rollback
-
-- [[03_CONTROL_PLANE/07_OBSERVABILITY/07_OBSERVABILITY_MOC|07 Observability MOC]] (9 notes) — **Path:** `03_CONTROL_PLANE/07_OBSERVABILITY`
-  - [[03_CONTROL_PLANE/07_OBSERVABILITY/BLIND_SPOT_REGISTRY|BLIND SPOT REGISTRY]] — Registry for **BLIND SPOT REGISTRY** within the Control Plane plane (governance surfaces that gate effects: task contracts, capability, poli
-  - [[03_CONTROL_PLANE/07_OBSERVABILITY/CONTROL_PLANE_OBSERVABILITY_CONTRACT|Control Plane Observability Contract]] — > **Origin Architect / Steward:** Trang Phan
-  - [[03_CONTROL_PLANE/07_OBSERVABILITY/MONITOR_REGISTRY|MONITOR REGISTRY]] — Registry for **MONITOR REGISTRY** within the Control Plane plane (governance surfaces that gate effects: task contracts, capability, policy,
-  - [[03_CONTROL_PLANE/07_OBSERVABILITY/OBSERVABILITY_CONTROL_PLANE_README|OBSERVABILITY CONTROL PLANE README]] — `OBSERVABILITY CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/07_OBSERVABILITY`.
-  - [[03_CONTROL_PLANE/07_OBSERVABILITY/OBSERVABILITY_ENVELOPE|Observability Envelope]] — > **Origin Architect / Steward:** Trang Phan
-- [[03_CONTROL_PLANE/10_EXPOSURE/10_EXPOSURE_MOC|10 Exposure Moc]] (6 notes) — > **Origin Architect / Steward:** Trang Phan
-  - [[03_CONTROL_PLANE/10_EXPOSURE/CONTROL_PLANE_EXPOSURE_CONTRACT|Control Plane Exposure Contract]] — > **Origin Architect / Steward:** Trang Phan
-  - [[03_CONTROL_PLANE/10_EXPOSURE/EXPOSURE_CONTROL_PLANE_README|EXPOSURE CONTROL PLANE README]] — `EXPOSURE CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/10_EXPOSURE`.
-- [[03_CONTROL_PLANE/11_REPLAY/11_REPLAY_MOC|11 Replay Moc]] (6 notes) — > **Origin Architect / Steward:** Trang Phan
-  - [[03_CONTROL_PLANE/11_REPLAY/CONTROL_PLANE_REPLAY_CONTRACT|Control Plane Replay Contract]] — > **Origin Architect / Steward:** Trang Phan
-  - [[03_CONTROL_PLANE/11_REPLAY/REPLAY_CONTROL_PLANE_README|REPLAY CONTROL PLANE README]] — `REPLAY CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/11_REPLAY`.
-- [[03_CONTROL_PLANE/12_ROLLBACK/12_ROLLBACK_MOC|12 Rollback Moc]] (8 notes) — > **Origin Architect / Steward:** Trang Phan
-  - [[03_CONTROL_PLANE/12_ROLLBACK/CANON_LOCAL_INVALIDATION|Canon Local Invalidation]] — `CANON_LOCAL_INVALIDATION.md` is an **ADD-ONLY placeholder** for the **Control Plane** plane segment at `03_CONTROL_PLANE/12_ROLLBACK`.
-  - [[03_CONTROL_PLANE/12_ROLLBACK/CONTROL_PLANE_ROLLBACK_CONTRACT|Control Plane Rollback Contract]] — > **Origin Architect / Steward:** Trang Phan
-  - [[03_CONTROL_PLANE/12_ROLLBACK/FRAMEWORK_LINEAGE_ROLLBACK|Framework Lineage Rollback]] — `FRAMEWORK_LINEAGE_ROLLBACK.md` is an **ADD-ONLY placeholder** for the **Control Plane** plane segment at `03_CONTROL_PLANE/12_ROLLBACK`.
-  - [[03_CONTROL_PLANE/12_ROLLBACK/ROLLBACK_CONTROL_PLANE_README|ROLLBACK CONTROL PLANE README]] — `ROLLBACK CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/12_ROLLBACK`.
-
-______________________________________________________________________
-
-|**Parent:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
+- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]

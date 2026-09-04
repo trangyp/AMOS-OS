@@ -1,104 +1,100 @@
 ---
-title: 06_BIOLOGY — Domain Specification
-type: domain_specification
-domain: 06_BIOLOGY
-family: C04_BIO_NEURO
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  provenance: authoritative_AMOS_OS_structure
-  scope: active__AMOS_OS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Biology Domains Domain Spec
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# 06_BIOLOGY — Domain Specification & Bio-Logical Computing
+# BIOLOGY DOMAINS DOMAIN SPEC
 
-**Origin Architect / Steward:** Trang Phan
-**AMOS_CORE Target:** `v4.4`
-**Epistemic Class:** `AMOS_MODEL`
+## 0. Status
 
----
+Domains-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
 
-## 1. Domain Scope & Bio-Logical Systems
+## 1. Purpose
 
-The **06_BIOLOGY** domain in AMOS OS formalizes cellular bioelectromagnetics, metabolic flux networks, morphogenetic bioelectric patterns, gene regulatory circuits, and synthetic biological computing substrates.
+`BIOLOGY DOMAINS DOMAIN SPEC` defines specification — intended semantics; implementation status tracked separately, serving the Domains plane's obligation: C-family domain engine mappings (C01–C12) onto the OS planes.
 
-```
-+----------------------------------------------------------------------------------------------------+
-|                         BIOLOGICAL SYSTEMS & BIOELECTRIC COMPUTING                                 |
-|                                                                                                    |
-|    [ Genomic & Epigenomic Sequence Data ] ===> [ Gene Regulatory Network Dynamics ]                |
-|                                                               ||                                   |
-|                                                               \/                                   |
-|                      [ Stoichiometric Metabolic Flux Balance Analysis (FBA) ]                      |
-|                                                               ||                                   |
-|                                                               \/                                   |
-|                      [ Non-Linear Bioelectric Membrane Field Potential $V_m(x, t)$ ]               |
-|                                                               ||                                   |
-|                                                               \/                                   |
-|                      [ Synthetic Gene Circuits & Organoid Morphogenesis Control ]                  |
-+----------------------------------------------------------------------------------------------------+
-```
+## 2. Semantics
 
----
+- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
+- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
+- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
 
-## 2. Mathematical Formalism & Cellular Dynamics
+## 3. Failure modes guarded
 
-### 2.1 Non-Linear Bio-Electromagnetic Membrane Dynamics
-The membrane potential $V_m$ across cellular tissue boundaries obeys the generalized non-linear cable equation with active voltage-gated ion channels:
+STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
 
-$$C_m \frac{\partial V_m}{\partial t} = \frac{a}{2 R_i} \frac{\partial^2 V_m}{\partial x^2} - \sum_{k \in \{\text{Na}, \text{K}, \text{Ca}, \text{Cl}\}} g_k(V_m, t) (V_m - E_k) + I_{stim}(x, t)$$
+## 4. Validation
 
-where:
-- $C_m$: Specific membrane capacitance ($\approx 1\text{ }\mu\text{F/cm}^2$).
-- $R_i$: Intracellular axial resistivity ($\Omega \cdot \text{cm}$).
-- $g_k(V_m, t)$: Hodgkin-Huxley / Goldman-Hodgkin-Katz non-linear conductance.
-- $E_k = \frac{RT}{z_k F} \ln \frac{[k]_{out}}{[k]_{in}}$: Nernst equilibrium potential for ion species $k$.
+No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
 
-### 2.2 Stoichiometric Metabolic Flux Balance Analysis (FBA)
-Cellular growth rate optimization subject to mass conservation constraints:
+## 5. Gaps
 
-$$\max_{\mathbf{v}} \mathbf{c}^T \mathbf{v} \quad \text{subject to} \quad \mathbf{S} \cdot \mathbf{v} = \mathbf{0}, \quad \mathbf{v}_{min} \le \mathbf{v} \le \mathbf{v}_{max}$$
+Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
 
-where $\mathbf{S} \in \mathbb{R}^{M \times N}$ is the stoichiometric matrix of $M$ metabolites and $N$ metabolic reactions, and $\mathbf{c}$ defines the biomass objective function.
+## 6. Falsifiers
 
-### 2.3 Morphogenetic Pattern Formation (Reaction-Diffusion)
-Spatial morphogen concentration $u(\mathbf{r}, t)$ and inhibitor $v(\mathbf{r}, t)$:
+F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
 
-$$\frac{\partial u}{\partial t} = D_u \nabla^2 u + f(u, v), \quad \frac{\partial v}{\partial t} = D_v \nabla^2 v + g(u, v)$$
+## Worked semantics
 
----
+Given an operation touching `BIOLOGY DOMAINS DOMAIN SPEC` within the Domains plane:
 
-## 3. Subdomain Breakdown (MECE)
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-1. **Universal Biological Interface (`UBI-01`)**:
-   - 4-strata biological computing interface:
-     - **BEI**: Bioelectromagnetic Field Modulation ($\le 100\text{ GHz}$).
-     - **NBI**: Neurobiological Synaptic Network Coupling.
-     - **NEI**: Neuroemotional Endocrine Feedback Loop.
-     - **SI**: Somatic Homeostatic Regulatory Engine.
-2. **Metabolic Flux & Synthetic Gene Circuits (`METAB-02`)**:
-   - Flux Balance Analysis (FBA) and CRISPR-dCas9 transcriptional cascade modeling.
-   - Homeostatic resilience tracking via negative maximal Lyapunov exponents $\lambda_L < 0$.
-3. **Bio-Hybrid Computing & Neural Organoids (`ORGANOID-03`)**:
-   - 3D cortical organoid-on-a-chip electrophysiology and active inference training.
+## Promotion-gate checklist
 
----
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-## 4. Operational Invariants & Safeguards
+## Cross-plane bindings
 
-- `INV-BIO-001` (**Metabolic Mass Conservation**): Flux balance solutions must satisfy $\|\mathbf{S} \cdot \mathbf{v}\|_2 \le 10^{-9}$ ensuring zero mass creation or destruction.
-- `INV-BIO-002` (**Cellular Viability Safeguard**): Simulated synthetic gene expression must not deplete ATP or cellular energy charge $EC = \frac{[\text{ATP}] + 0.5[\text{ADP}]}{[\text{ATP}] + [\text{ADP}] + [\text{AMP}]}$ below $0.70$.
-- `INV-BIO-003` (**Biosecurity Screening**): All DNA/RNA synthesis sequence requests must be screened against pathogenic and select agent databases before approval.
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
----
+______________________________________________________________________
 
-## 5. Provenance & Stewardship
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
-- **Lineage**: AMOS v4.4 Biological Systems.
-- **Origin Architect & Steward**: Trang Phan.
-- **Epistemic Class**: `AMOS_MODEL` / `DERIVED`.
+______________________________________________________________________
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: amos_21_domains_06_biology_biology_domains_domain_spec_md
+node_type: note
+path: 21_DOMAINS/06_BIOLOGY/BIOLOGY_DOMAINS_DOMAIN_SPEC.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[21_DOMAINS/06_BIOLOGY/06_BIOLOGY_MOC|06_BIOLOGY_MOC]]

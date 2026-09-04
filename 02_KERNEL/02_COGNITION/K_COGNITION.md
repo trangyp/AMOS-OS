@@ -1,67 +1,16 @@
 ---
-title: K COGNITION
-type: note
-source: 02_KERNEL/02_COGNITION
-artifact_id: AMOS-OS-K-META-LOGIC
-canonical_name: K_META_LOGIC
-artifact_type: kernel_meta_logic_contract
-status: AMOS_MODEL
-conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: KERNEL
-kernel_family: FOUNDATION
-domain: meta-logic
-scope: AMOS_OS
-created: 2026-08-25
-updated: 2026-08-25
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: K Cognition
 tags:
-  - amos-os
-  - kernel
-  - core
   - canon-group/tech-ai
-  - canon/model
-  - kernel/foundation
-  - kernel/meta-logic
-  - kernel/reasoning
-  - kernel/inference
-  - kernel/validation
-  - kernel/constraints
-  - kernel/epistemic
-  - kernel/provenance
-  - kernel/dependency
-  - kernel/contradiction
-  - kernel/scope
-  - kernel/regime
-  - kernel/causality
-  - kernel/uncertainty
-  - kernel/proof
-  - kernel/rscf
   - rscf/claim
   - rscf/provenance
-  - rscf/state/model
-  - topic/meta-logic
-  - k-meta-logic
-  - k-core19-logic
-  - k-distinction-relation-constraint
-  - k-law-hierarchy
-  - readme
-  - architecture
-  - placement-rules
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - source-lineage
-  - supersession-log
-  - authoritative-state
-aliases:
-  - AMOS Meta Logic Kernel - Meta Logic Kernel - K Meta Logic - K_META_LOGIC
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]]
@@ -2522,7 +2471,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

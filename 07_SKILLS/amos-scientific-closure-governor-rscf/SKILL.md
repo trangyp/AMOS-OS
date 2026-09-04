@@ -1,54 +1,21 @@
 ---
-schema_version: 1.0
-title: SKILL — Amos Scientific Closure Governor Rscf
-type: skill
-source: 07_SKILLS/amos-scientific-closure-governor-rscf
-name: amos-scientific-closure-governor-rscf
-description: Scientific Closure Governor — causal reasoning capability. Use when causal analysis, counterfactual reasoning, or intervention design. Use when amos-causal-reasoning-master routes to this specialized capability. Do not use for generic tasks outside causal domain.
-parent_skill: amos-causal-reasoning-master
-domain: causal
-origin_architect: Trang Phan
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
 epistemic_class: SOURCE_CLAIM
+topic: Skill
 tags:
-  - type/skill
-  - type/skill
-  - domain/causal-reasoning
-  - epistemic/source_claim
-  - hml/h
-  - epistemic/source_claim
-  - amos-os
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-  - skill
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
-version: 1.1.0
-rscf_state: SOURCE_CLAIM
-hml_level: H
-gmef_gates:
-  - L0_integrity
-  - L1_epistemic
-  - L2_provenance
-  - L5_scope
-  - L24_causal_epoch
-collapse_class: reversible
-qfm_gate_set: QFM_v43
-law_compliance:
-  - L0
-  - L1
-  - L2
-  - L4
-  - L5
-  - L7
-  - L16
-  - L17
-  - L18
-  - L24
-license: MIT
-steward: Trang Phan
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Scientific Closure Governor Rscf
@@ -176,7 +143,7 @@ ______________________________________________________________________
 - **Parent**: `amos-causal-reasoning-master` — routes to this skill when causal specialization is needed
 - **Peers**: Other skills in the `causal` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
-- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Workflow**: Each skill has a corresponding workflow in `26_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
 
 ## Evaluation

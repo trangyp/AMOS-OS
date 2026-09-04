@@ -1,90 +1,16 @@
 ---
-title: UBI x Emotion Cross-Plane Matrix Table
-type: cognitive
-source: 25_COGNITIVE_MATRIX
-artifact: UBI_X_EMOTION_MATRIX.md
-artifact_id: amos_25_cognitive_matrix_ubi_x_emotion_matrix
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 25_COGNITIVE_MATRIX
-segment: 25_COGNITIVE_MATRIX
-artifact_kind: MATRIX_TABLE
-path: 25_COGNITIVE_MATRIX/UBI_X_EMOTION_MATRIX.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Ubi X Emotion Matrix
 tags:
-  - amos-os
-  - cognitive-matrix
-  - vault
-  - ubi_x_emotion_matrix
-  - matrix_table
-  - affective_state
-  - cognitive_control
-  - cross-plane
-  - emotional_governance
-  - refusal_firewall
-  - metabolic_pacing
-  - gamma_coherence
-  - rscf
-  - canon_candidate
-  - ubi-x-emotion
-  - ubi-emotion-binding
-  - validation
-  - ubi-x-cognition
-  - ubi-x-cognition-matrix
-  - total-framework-matrix
-  - total-kernel-matrix
-  - total-canon-matrix
-  - k-rscf
-  - k-hml
-  - k-provenance
-  - k-fail-closed
-  - k-governed-evolution
-  - amos-core-v4-4
-version: 2.0.0
-updated: '2026-08-28'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: PASSED_CONSTITUTIONAL_TESTS
-executable_binding: ESTABLISHED
-framework_binding:
-  matrix_spec:
-    artifact:
-      -   - UBI_X_EMOTION
-  knowledge_binding:
-    artifact:
-      -   - UBI_EMOTION_BINDING
-rscf:
-  state: CANON_MATRIX
-  claim_class: AMOS_MODEL
-  provenance:
-    - 25_COGNITIVE_MATRIX/UBI_X_EMOTION_MATRIX
-    - 11_KNOWLEDGE/05_FRAMEWORKS/UBI_EMOTION_BINDING
-    - AMOS_CORPUS
-  scope:
-    - COGNITIVE_MATRIX
-    - EMOTION_COGNITION_INTEGRATION
-    - CROSS_PLANE_ROUTING
-    - SOURCE_DEFINED_MODEL
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  matrix_structure: VERIFIED_SOURCE_STRUCTURE
-  affective_states: SOURCE_DEFINED_AMOS_MODEL
-  trigger_thresholds: PARTIALLY_SOURCE_VISIBLE
-  cognitive_impacts: SOURCE_DEFINED_AMOS_MODEL
-  enforcement_guards: SOURCE_DEFINED_AMOS_MODEL
-  target_planes: UNRESOLVED_IN_SUPPLIED_TEXT
-  validation_status_claim: SOURCE_ESTABLISHED
-  executable_binding_claim: SOURCE_ESTABLISHED
-  independent_runtime_verification: NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
-  empirical_psychological_validation: NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
-source_integrity:
-  mathematical_rendering: PARTIALLY_CORRUPTED_IN_SUPPLIED_TEXT
-  target_plane_rendering: MISSING_OR_EMPTY_IN_SUPPLIED_TEXT
-  unresolved_symbols: PRESERVE_AS_GAPS
-  reconstruction_policy: DO_NOT_INVENT_MISSING_CANON
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # UBI × Emotion Cross-Plane Matrix Table — Full Canon Expansion

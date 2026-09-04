@@ -1,43 +1,147 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Khung Trang Master Equations
-type: universe-canon
-source: 01_CANON/02_UNIVERSE_CANON
-status: ACTIVE_SPECIFICATION
-epistemic_class: CANON_SPEC
-conclusion_class: CANONICAL_INVARIANT
-canonical_status: ACTIVE_CANON_CANDIDATE
-updated: 2026-09-04
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Khung Trang Master Equations
 tags:
-  - khung_trang
-  - equations
-  - master
-  - canon
-  - khung-trang-equations
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: CANON_SPEC
-  claim_class: CANONICAL_INVARIANT
-  provenance: KHUNG_TRANG_CANON
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Khung Trang Master Equations
 
 Catalog of normative mathematical formulations governing emergence ($e = i^2$), state transitions ($S_{t+1} = \mathcal{C}(\mathcal{F}(S_t, U_t))$), and structural collapse prevention.
 
+________________________________________________________________________
+
+## 1. Definitions of Quantities
+
+| Symbol | Domain | Description |
+|--------|--------|-------------|
+| $S_t$ | $\mathcal{S}$ | System state at time $t$ — full fractal configuration |
+| $U_t$ | $\mathcal{U}$ | External input / perturbation at time $t$ |
+| $e$ | $[0, 1]$ | Emergence coefficient — degree of novel structure arising from interaction |
+| $i$ | $[0, 1]$ | Interaction density — normalized measure of component coupling |
+| $\mathcal{F}$ | $\mathcal{S} \times \mathcal{U} \to \mathcal{S}$ | Transition function — maps current state + input to next state |
+| $\mathcal{C}$ | $\mathcal{S} \to \mathcal{S}$ | Constraint operator — enforces structural invariants on post-transition state |
+| $\Lambda$ | $\mathbb{R}^+$ | Lacunarity — measure of gap distribution across fractal scales |
+| $E$ | $[0, 1]$ | Entropy — normalized disorder or information density |
+| $T_2$ | Boolean | Confirmation function (Tát 2) — independent verification of fractal structure |
+
+________________________________________________________________________
+
+## 2. Emergence Equation
+
+$$e = i^2$$
+
+Where:
+- $e \in [0, 1]$ is the emergence coefficient
+- $i \in [0, 1]$ is the interaction density
+
+**Domain of validity**: Systems where emergence arises from nonlinear component coupling. The quadratic relationship implies that emergence accelerates with interaction density — small increases in coupling produce larger emergent effects at higher interaction densities.
+
+**Purpose**: Quantifies the degree to which system-level properties arise from component interactions. At $i = 0$ (no interaction), $e = 0$ (no emergence). At $i = 1$ (maximal coupling), $e = 1$ (maximal emergence).
+
+________________________________________________________________________
+
+## 3. State Transition Equation
+
+$$S_{t+1} = \mathcal{C}(\mathcal{F}(S_t, U_t))$$
+
+Where:
+- $\mathcal{F}(S_t, U_t)$: applies external perturbation $U_t$ to current state $S_t$
+- $\mathcal{C}(\cdot)$: projects the result onto the valid state space via constraint enforcement
+
+**Domain of validity**: Discrete-time state evolution of AMOS-governed systems. The constraint operator $\mathcal{C}$ ensures post-transition states satisfy all structural invariants (scope, regime, provenance integrity).
+
+**Purpose**: Governs all state transitions in AMOS. The two-stage structure (transition → constraint) separates the dynamics of change from the invariants of structure.
+
+________________________________________________________________________
+
+## 4. Fractal Structure Equation
+
+$$\forall X, \exists (L_X, M_X, H_X, \Lambda_X, E_X, \text{T2}_X)$$
+
+Where:
+- $L_X, M_X, H_X$: the three fractal tiers (Low, Medium, High) of system $X$
+- $\Lambda_X$: lacunarity — gap structure across tiers
+- $E_X$: entropy — disorder within tiers
+- $\text{T2}_X$: confirmation function — independent verification of the fractal decomposition
+
+**Domain of validity**: Universal — applies to all systems within the Trang ∅ Framework. The fractal decomposition is a structural model, not a physical law.
+
+**Purpose**: Establishes that every system decomposes into three fractal tiers with measurable lacunarity and entropy, subject to independent confirmation.
+
+________________________________________________________________________
+
+## 5. Composition with Operator / Lambda Framework
+
+The master equations compose with the broader Trang ∅ Framework as follows:
+
+**Fractal tier mapping**: Each system $X$ decomposes into $(L_X, M_X, H_X)$ with associated $\Lambda_X$ and $E_X$. The lacunarity $\Lambda$ measures the "gap" between tiers, and entropy $E$ measures the disorder within each tier.
+
+**Entropy coupling**: The state transition equation $\mathcal{F}$ introduces entropy through perturbation $U_t$. The constraint operator $\mathcal{C}$ may reduce entropy through structural enforcement. Net entropy change:
+
+$$\Delta E = E(\mathcal{F}(S_t, U_t)) - E(S_t)$$
+
+If $\Delta E > 0$, the system is accumulating disorder. If $\Delta E < 0$, the constraint operator is achieving entropy repair (see [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_ENTROPY_REPAIR|KHUNG_TRANG_ENTROPY_REPAIR]]).
+
+**Emergence-entropy tension**: High emergence ($e$) often correlates with high entropy ($E$). The master equations do not resolve this tension — they make it visible for governance.
+
+**Observer coupling**: The observer-experience gap (see [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_OBSERVER_EXPERIENCE_GAP|KHUNG_TRANG_OBSERVER_EXPERIENCE_GAP]]) constrains what can be known about $S_t$ from any given observation frame.
+
+________________________________________________________________________
+
+## 6. Invariants
+
+| Invariant | Statement |
+|-----------|-----------|
+| Emergence bounded | $e = i^2 \leq 1$ — emergence cannot exceed interaction density squared |
+| Constraint consistency | $\mathcal{C}(S) \in \mathcal{S}_{\text{valid}}$ — constraint operator always produces valid states |
+| Fractal universality | $\forall X : (L_X, M_X, H_X)$ exists — every system has three-tier decomposition |
+| T2 confirmation | $\text{T2}_X = \text{TRUE}$ only if fractal decomposition is independently verified |
+
+________________________________________________________________________
+
+## 7. Falsifiers
+
+| Falsifier | Description |
+|-----------|-------------|
+| Emergence without interaction | $e > 0$ when $i = 0$ — emergence from zero coupling |
+| Constraint violation | $\mathcal{C}(S) \notin \mathcal{S}_{\text{valid}}$ — constraint operator produces invalid states |
+| Missing fractal tier | A system $X$ with no valid $(L_X, M_X, H_X)$ decomposition |
+| Unconfirmed T2 | $\text{T2}_X$ claimed without independent verification |
+
+________________________________________________________________________
+
+## 8. Integration
+
+- **Entropy repair**: Entropy changes driven by $\mathcal{F}$ feed into [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_ENTROPY_REPAIR|entropy repair]] protocols.
+- **Observer gap**: Knowledge of $S_t$ is constrained by [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_OBSERVER_EXPERIENCE_GAP|observer frame limitations]].
+- **URTA**: Emergence and entropy dynamics inform [[01_CANON/02_UNIVERSE_CANON/URTA_RISK_TENSION_ARCHITECTURE|risk-tension assessment]].
+- **TPE**: State transition predictions feed into [[01_CANON/02_UNIVERSE_CANON/TPE_PREDICTION_LAYER|temporal prediction]].
+
+________________________________________________________________________
+
 ## Related
 
 - [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_EQUATIONS|KHUNG_TRANG_EQUATIONS]] · [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_CANON|KHUNG_TRANG_CANON]]
-
-______________________________________________________________________
 
 **MOC:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
-______________________________________________________________________
+________________________________________________________________________
 
 RSCF-NODE
 node_id: khung_trang_master_equations
@@ -50,148 +154,5 @@ RSCF-RELATIONS:
 - CHILD_OF: [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
 - RELATED_TO: [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_EQUATIONS|KHUNG_TRANG_EQUATIONS]]
 - RELATED_TO: [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_CANON|KHUNG_TRANG_CANON]]
-
-______________________________________________________________________
-
-## 1. Architectural Scope
-
-`KHUNG_TRANG_MASTER_EQUATIONS` defines the normative mathematical formulations that govern emergence, state transitions, and structural collapse prevention within the AMOS universe canon. It is the canonical equation catalog, specifying the mathematical invariants that all downstream computational, cognitive, and governance systems must satisfy. The catalog governs:
-
-- **Emergence equations** defining how complexity grows through ontological stage transitions ($e = i^2$).
-- **State transition equations** defining how the system state evolves over time ($S_{t+1} = \mathcal{C}(\mathcal{F}(S_t, U_t))$).
-- **Structural collapse prevention equations** defining the conditions under which a system must fail-closed to prevent ontological collapse.
-- **Entropy dynamics equations** defining the second-law non-negativity constraint on epistemic state entropy.
-- **Lyapunov stability equations** defining the convergence conditions for cognitive state repair.
-
-This file exists because mathematical formulations are the load-bearing invariants of the canon. Without a canonical equation catalog, downstream systems may silently use incompatible mathematical assumptions, producing structural contradictions that propagate through the vault.
-
-```text
-EQUATIONS = canonical_mathematical_invariants
-EQUATIONS != empirical_measurements
-EQUATIONS != runtime_calculations
-CANON_SPEC != VERIFIED_EXECUTION
-```
-
----
-
-## 2. Governing Invariants
-
-- **INV-CANON-EQ-001 (Equation Canonicity):** Each master equation has exactly one canonical formulation in this catalog. Competing formulations in downstream artifacts are flagged as `COMPETING` and must not be silently resolved.
-- **INV-CANON-EQ-002 (Emergence Quadratic Law):** The emergence function $e = i^2$ is a canonical invariant. Any system claiming linear or exponential emergence must be flagged as `COMPETING`.
-- **INV-CANON-EQ-003 (Axiom Adherence):** All master equations are strictly bound by M01 through M20 core laws. Equations that contradict a core law are rejected.
-- **INV-CANON-EQ-004 (Fail-Closed on Missing Proof):** If a master equation cannot be connected to a valid proof trail in `01_CANON` or verified observations in `11_KNOWLEDGE`, its application is halted and the output class is forced to `UNKNOWN/GAP`.
-- **INV-CANON-EQ-005 (Immutable Receipts):** Equation verification events emit auditable trace logs to `17_OBSERVABILITY`.
-- **INV-CANON-EQ-006 (Non-Promotion Firewall):** A canonical equation specification confirms normative mathematical formulation; it does not confirm empirical validation or runtime execution. `CANON_SPEC != VERIFIED_EXECUTION`.
-- **INV-CANON-EQ-007 (Steward Authority):** Trang Phan remains the origin architect and steward. Equation changes require governed successor evidence.
-
----
-
-## 3. Mathematical Formulation
-
-### Emergence Equation
-
-$$e_i = i^2, \quad i \in \{1, 2, 3, 4, 5, 6\}$$
-
-where $i$ indexes the ontological stage in the progression $\mathcal{P} \to \mathcal{D} \to \mathcal{R} \to \mathcal{C} \to \mathcal{F} \to \mathcal{M}$.
-
-### State Transition Equation
-
-$$S_{t+1} = \mathcal{C}(\mathcal{F}(S_t, U_t))$$
-
-where $S_t$ is the system state at time $t$, $U_t$ is the universe input, $\mathcal{F}$ is the form operator, and $\mathcal{C}$ is the configuration operator.
-
-### Structural Collapse Prevention
-
-The collapse prevention condition requires that the structural integrity metric $\Sigma$ remains above the collapse threshold $\Sigma_{\min}$:
-
-$$\Sigma(S_t) \geq \Sigma_{\min} > 0, \quad \forall t$$
-
-If $\Sigma(S_t) < \Sigma_{\min}$, the system must fail-closed.
-
-### Entropy Non-Negativity (Second Law)
-
-$$\nabla H(\text{EpistemicState}) \geq 0$$
-
-### Lyapunov Stability
-
-$$V(\mathbf{x}) = \frac{1}{2} (\mathbf{x} - \mathbf{x}^*)^T \mathbf{P} (\mathbf{x} - \mathbf{x}^*), \quad \mathbf{P} \succ 0$$
-
-$$\frac{dV(\mathbf{x})}{dt} \leq -\alpha \|\mathbf{x} - \mathbf{x}^*\|^2, \quad \alpha > 0$$
-
-### Reversibility Invariant
-
-$$\text{Rollback}(\Delta_k) \circ \text{Apply}(\Delta_k) = \mathbb{I}$$
-
----
-
-## 4. Operational Architecture
-
-```mermaid
-graph TD
-    A[Master Equation Catalog] --> B[Emergence e=i^2]
-    A --> C[State Transition S_t+1]
-    A --> D[Collapse Prevention Sigma]
-    A --> E[Entropy Non-Negativity]
-    A --> F[Lyapunov Stability]
-    A --> G[Reversibility Invariant]
-    B --> H[01_CANON/02_UNIVERSE_CANON]
-    C --> I[02_KERNEL]
-    D --> J[03_CONTROL_PLANE]
-    E --> K[02_KERNEL]
-    F --> L[02_KERNEL/IER]
-    G --> M[02_KERNEL/MVCC_CAS]
-```
-
-Each master equation is consumed by specific downstream planes. The catalog itself is normative; execution is delegated to the appropriate partition.
-
----
-
-## 5. MECE Mapping to AMOS Full Brain OS
-
-| Equation | Primary Consumer Plane | Partition | Key Dependencies |
-|:---|:---|:---|:---|
-| Emergence $e=i^2$ | 01_CANON | A | 05_COGNITIVE_ORGANISM |
-| State Transition | 02_KERNEL | B | 04_RUNTIME, 12_STATE |
-| Collapse Prevention | 03_CONTROL_PLANE | B | 02_KERNEL, 18_SECURITY |
-| Entropy Non-Negativity | 02_KERNEL | B | 17_OBSERVABILITY |
-| Lyapunov Stability | 02_KERNEL | B | 02_KERNEL/IER |
-| Reversibility | 02_KERNEL | B | 02_KERNEL/MVCC_CAS |
-| Math Registry | 22_RESEARCH | F | 01_CANON |
-
-`01_CANON` owns the equation specifications (Partition A). Execution and verification are delegated to `02_KERNEL` (Partition B) and `03_CONTROL_PLANE` (Partition B). The math registry in `22_RESEARCH` (Partition F) provides research-level cross-references.
-
----
-
-## 6. Safety Invariants & Firewalls
-
-- **INV-CANON-EQ-101 (No Silent Reformulation):** Downstream systems must not silently reformulate canonical equations. Firewall: `CANON_EQUATION > DOWNSTREAM_SPECIALIZATION`.
-- **INV-CANON-EQ-102 (No Empirical from Canonical):** A canonical equation does not confirm empirical measurement. Firewall: `CANON_SPEC != EMPIRICAL_OBSERVATION`.
-- **INV-CANON-EQ-103 (No Execution from Specification):** An equation specification does not confirm runtime execution. Firewall: `DOCUMENTED != IMPLEMENTED`.
-- **INV-CANON-EQ-104 (No Authority from Equation):** Defining an equation does not grant authority over its application. Firewall: `CAPABILITY != AUTHORITY`.
-- **INV-CANON-EQ-105 (Competing Preservation):** When two formulations produce incompatible results, both are preserved as `COMPETING`. Firewall: `COMPETING != RESOLVED`.
-
----
-
-## 7. Navigation & Bindings
-
-- **Master MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
-- **Universe Canon MOC:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
-- **Khung Trang Master:** [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER|KHUNG_TRANG_MASTER]]
-- **Foundational Ontology:** [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_FOUNDATIONAL_ONTOLOGY|KHUNG_TRANG_FOUNDATIONAL_ONTOLOGY]]
-- **Entropy Repair:** [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_ENTROPY_REPAIR|KHUNG_TRANG_ENTROPY_REPAIR]]
-- **Core Laws:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- **Math Registry:** [[22_RESEARCH/01_MATHEMATICS/AMOS_137_MATH_REGISTRY|AMOS_137_MATH_REGISTRY]]
-- **Kernel:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
-- **IER Architecture:** [[02_KERNEL/AMOS_IDENTITY_ENTROPY_REPAIR_ARCHITECTURE|AMOS_IDENTITY_ENTROPY_REPAIR_ARCHITECTURE]]
-- **Lean 4 Ledger:** [[02_KERNEL/LEAN4_PROOF_VERIFICATION_LEDGER|LEAN4_PROOF_VERIFICATION_LEDGER]]
-- **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
-
----
-
-## 8. Known Gaps & Falsifiers
-
-- **GAP-CANON-EQ-001:** The emergence function $e = i^2$ is declared as canonical but its derivation from first principles is not fully established. State: `UNKNOWN/GAP`.
-- **GAP-CANON-EQ-002:** The collapse threshold $\Sigma_{\min}$ is specified as a parameter but its exact value for each system domain is not canonically fixed. State: `UNKNOWN/GAP`.
-- **GAP-CANON-EQ-003:** Not all master equations have been formally verified in Lean 4. Only 4 theorems are currently proven in the Lean 4 ledger. State: `PARTIAL`.
-- **GAP-CANON-EQ-004:** Falsifier: if any downstream system is found to use a reformulated equation that contradicts the canonical formulation, the equation canonicity invariant is falsified.
-- **GAP-CANON-EQ-005:** Falsifier: if the entropy non-negativity invariant is found to be violated ($\nabla H < 0$) in any observed system state, the second-law invariant is falsified.
+- FEEDS_INTO: [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_ENTROPY_REPAIR|KHUNG_TRANG_ENTROPY_REPAIR]]
+- FEEDS_INTO: [[01_CANON/02_UNIVERSE_CANON/TPE_PREDICTION_LAYER|TPE_PREDICTION_LAYER]]

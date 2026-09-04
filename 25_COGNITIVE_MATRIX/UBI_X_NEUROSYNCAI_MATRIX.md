@@ -1,126 +1,16 @@
 ---
-title: UBI x NeuroSyncAI Cross-Plane Matrix Table
-type: cognitive
-source: 25_COGNITIVE_MATRIX
-
-artifact: UBI_X_NEUROSYNCAI_MATRIX.md
-artifact_id: amos_25_cognitive_matrix_ubi_x_neurosyncai_matrix
-
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-
-plane: 25_COGNITIVE_MATRIX
-segment: 25_COGNITIVE_MATRIX
-artifact_kind: MATRIX_TABLE
-path: 25_COGNITIVE_MATRIX/UBI_X_NEUROSYNCAI_MATRIX.md
-
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Ubi X Neurosyncai Matrix
 tags:
-  - amos-os
-  - cognitive-matrix
-  - vault
-  - ubi_x_neurosyncai
-  - ubi_x_neurosyncai_matrix
-  - matrix_table
-  - ubi
-  - unified_biological_intelligence
-  - neurosyncai
-  - biological_telemetry
-  - physiological_feedback
-  - adaptive_pacing
-  - eeg
-  - gamma_coherence
-  - vagal_tone
-  - hrv
-  - rmssd
-  - gsr
-  - electrodermal
-  - phase_sync
-  - cognitive_load
-  - stress_cooldown
-  - signal_processing
-  - cross_plane_routing
-  - safety_guard
-  - rscf
-  - provenance
-  - canon_candidate
-  - canon/cognitive-matrix
-
-version: 2.0.0
-updated: '2026-08-28'
-
-status: ACTIVE_REFERENCE
-
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: PASSED_CONSTITUTIONAL_TESTS
-executable_binding: ESTABLISHED
-
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-
-framework_binding:
-
-  matrix_spec:
-    artifact: '[[25_COGNITIVE_MATRIX/UBI_X_NEUROSYNCAI|UBI_X_NEUROSYNCAI]]'
-
-  knowledge_binding:
-    artifact: '[[11_KNOWLEDGE/05_FRAMEWORKS/UBI_NEUROSYNCAI_BINDING|UBI_NEUROSYNCAI_BINDING]]'
-
-  ubi_master:
-    artifact: '[[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]'
-
-  neurosyncai:
-    artifact: '[[25_COGNITIVE_MATRIX/AMOS_X_NEUROSYNCAI|AMOS_X_NEUROSYNCAI]]'
-
-  cognitive_matrix:
-    artifact: '[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]'
-
-rscf:
-
-  state: SOURCE_CLAIM
-
-  claim_class: AMOS_MODEL
-
-  provenance:
-    - 25_COGNITIVE_MATRIX/UBI_X_NEUROSYNCAI_MATRIX.md
-    - '[[25_COGNITIVE_MATRIX/UBI_X_NEUROSYNCAI|UBI_X_NEUROSYNCAI]]'
-    - '[[11_KNOWLEDGE/05_FRAMEWORKS/UBI_NEUROSYNCAI_BINDING|UBI_NEUROSYNCAI_BINDING]]'
-    - '[[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]'
-    - '[[25_COGNITIVE_MATRIX/AMOS_X_NEUROSYNCAI|AMOS_X_NEUROSYNCAI]]'
-    - AMOS_CORPUS
-
-  scope:
-    - COGNITIVE_MATRIX
-    - UBI_NEUROSYNCAI_INTEGRATION
-    - BIOLOGICAL_TELEMETRY
-    - ADAPTIVE_COGNITIVE_PACING
-    - SIGNAL_INVARIANT_GOVERNANCE
-    - SOURCE_DEFINED_MODEL
-
-epistemic_boundary:
-
-  source_presence: VERIFIED_SOURCE_PRESENCE
-
-  matrix_structure: VERIFIED_SOURCE_STRUCTURE
-
-  telemetry_rows: SOURCE_DEFINED_MODEL
-
-  thresholds: SOURCE_DEFINED_MODEL
-
-  anomaly_actions: SOURCE_DEFINED_MODEL
-
-  clinical_validity: NOT_ESTABLISHED
-
-  universal_biological_validity: NOT_ESTABLISHED
-
-  physical_ai_biological_coupling: NOT_ESTABLISHED
-
-  runtime_enforcement: SOURCE_DECLARED_ESTABLISHED_NOT_INDEPENDENTLY_REVALIDATED
-
-  medical_use: NOT_AUTHORIZED_BY_THIS_ARTIFACT
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # UBI × NeuroSyncAI Cross-Plane Matrix Table
@@ -4428,3 +4318,6 @@ RSCF-RELATIONS:
 ______________________________________________________________________
 
 **END OF `UBI_X_NEUROSYNCAI_MATRIX.md`**
+
+```
+```

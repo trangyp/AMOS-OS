@@ -1,20 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS Core v4.4 Coordination-Avoidance Runtime Architecture
-type: core-spec
-source: 00_ROOT
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Core V4 4
 tags:
-  - core
-  - runtime
-  - v4_4
-  - coordination_avoidance
-  - amos-core
-rscf:
-  state: CANON_SPEC
-  claim_class: AMOS_SYSTEM_CORE
-  provenance: AMOS_ENGINEERING
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Core v4.4 — Coordination-Avoidance Runtime Architecture
@@ -2070,3 +2071,6 @@ $$
 ______________________________________________________________________
 
 **MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
+
+```
+```

@@ -1,97 +1,104 @@
 ---
-title: INV-AUTHZ-025 — Statutory Legal Gate
-type: authority_invariant
-source: 03_CONTROL_PLANE/04_AUTHORITY
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_INVARIANT
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT
-    - 01_CANON/01_CORE_LAWS/LAW_HIERARCHY
-  scope: authority_governance
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Inv Authz 025
 tags:
-  - amos-os
-  - authority
-  - invariant
-  - control-plane
-  - inv-authz-025
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# INV-AUTHZ-025 — Statutory Legal Gate
+# INV-AUTHZ-025
 
-## 1. Formal Specification
+## 0. Status
 
-> **Invariant Statement:**
-> `Actions with external commercial or statutory implications must pass the Legal Engine Kernel.`
+Control Plane-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
 
-## 2. Invariant Rule & Mathematical Formulation
+## 1. Purpose
 
-Let $\text{Statutory}(a)$ denote that action $a$ has statutory implications, and $\text{LegalEngine}(a)$ the legal engine evaluation:
+`INV-AUTHZ-025` defines typed artifact specification, serving the Control Plane plane's obligation: governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback.
 
-$$\forall a \in \mathcal{A}, \quad \text{Statutory}(a) \implies \text{LegalEngine}(a) = \text{APPROVED}$$
+## 2. Semantics
 
-The statutory classification function:
+- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
+- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
+- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
 
-$$\text{Statutory}(a) = \text{Commercial}(a) \lor \text{Regulatory}(a) \lor \text{Contractual}(a) \lor \text{Liability}(a)$$
+## 3. Failure modes guarded
 
-The legal engine evaluates multiple compliance dimensions:
+STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
 
-$$\text{LegalEngine}(a) = \bigwedge_{d \in \mathcal{D}_{\text{legal}}} \text{Compliant}(a, d)$$
+## 4. Validation
 
-where $\mathcal{D}_{\text{legal}} = \{\text{contract\_law}, \text{data\_protection}, \text{consumer\_protection}, \text{ip\_law}, \text{tax\_law}\}$.
+No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
 
-No statutory action may bypass the legal engine:
+## 5. Gaps
 
-$$\text{Statutory}(a) \land \neg \text{LegalEngine}(a) = \text{APPROVED} \implies \text{Execute}(a) = \text{False}$$
+Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
 
-## 3. Enforcement & Verification
+## 6. Falsifiers
 
-- **Evaluation Point:** Evaluated at the Control Plane gate when an action with potential statutory implications is submitted. The gate routes the action to the Legal Engine Kernel for compliance evaluation.
-- **Violation Consequence:** If the legal engine rejects the action, execution is blocked. A `LEGAL_GATE_REJECTION` receipt is emitted to `17_OBSERVABILITY` with the specific compliance dimensions that failed.
-- **Recovery Procedure:** The action must be modified to comply with the failed legal dimensions, or a human legal review must override the rejection with a signed justification.
-- **Verification Cadence:** Synchronous at every action with statutory classification. The statutory classification itself is evaluated at action submission time.
-- **Governed By:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
 
-## 4. Attack Vectors & Mitigations
+## Worked semantics
 
-- **Statutory Classification Evasion:** An agent misclassifies a statutory action as non-statutory to bypass the legal engine. Mitigated by the automatic classification function that does not rely on agent self-classification.
-- **Legal Engine Bypass:** An agent routes a statutory action through a non-standard path to avoid the legal gate. Mitigated by the Control Plane gate being the only path to action execution.
-- **Legal Engine Compromise:** An attacker compromises the legal engine to always return APPROVED. Mitigated by the legal engine being a separate isolated service with its own integrity verification.
-- **Jurisdiction Mismatch:** An action is evaluated against the wrong jurisdiction's laws. Mitigated by [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-045|INV-AUTHZ-045]] which requires jurisdiction declaration.
+Given an operation touching `INV-AUTHZ-025` within the Control Plane plane:
 
-## 5. Dependencies & Prerequisites
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-045|INV-AUTHZ-045]] — Statutory jurisdiction alignment ensures the correct legal framework is applied.
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-037|INV-AUTHZ-037]] — Zero unchecked autonomous action ensures high-stakes statutory actions require human review.
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-046|INV-AUTHZ-046]] — Axiomatic invariant precedence ensures core laws override domain-specific legal exceptions.
-- **Requires:** A Legal Engine Kernel with multi-dimensional compliance evaluation.
-- **Requires:** A statutory classification function with commercial, regulatory, contractual, and liability detection.
+## Promotion-gate checklist
 
-## 6. Provenance & Audit Trail
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-- **Receipt Type:** `LEGAL_GATE_RECEIPT` — emitted for every statutory action evaluation, recording the classification, compliance dimensions, and approval decision.
-- **Storage Location:** `17_OBSERVABILITY` with action-ID-indexed and jurisdiction-indexed partitions.
-- **Receipt Fields:** Action ID, statutory classification, jurisdiction, compliance dimension results, legal engine version, approval decision, reviewer identity (if human override), BLAKE3 hash.
-- **Immutability:** Legal gate receipts are append-only per [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-014|INV-AUTHZ-014]].
+## Cross-plane bindings
 
-## 7. Related Invariants
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-037|INV-AUTHZ-037]] — Zero Unchecked Autonomous Action
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-045|INV-AUTHZ-045]] — Statutory Jurisdiction Alignment
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-046|INV-AUTHZ-046]] — Axiomatic Invariant Precedence
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-050|INV-AUTHZ-050]] — Master Stewardship Immutable Binding
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-022|INV-AUTHZ-022]] — No Silent Failure
+______________________________________________________________________
 
-## 8. Navigation & Bindings
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
-- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
-- **Control Plane Contract:** [[03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT|CONTROL_PLANE_CONTRACT]]
-- **Canon Law Hierarchy:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- **Kernel:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
-- **Observability:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]
+______________________________________________________________________
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: cp_03_control_plane_04_authority_inv_authz_025_md
+node_type: note
+path: 03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-025.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04_AUTHORITY_MOC]]
+
+______________________________________________________________________
+
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,21 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: INDEX UBI NBI NEUROBIOLOGICAL DOMAINS README
-type: index
-source: 21_DOMAINS/24_UBI_NBI_NEUROBIOLOGICAL/00_INDEX
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Index Ubi Nbi Neurobiological Domains Readme
 tags:
-  - amos-os
-  - canon/domain
-  - readme
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-rscf:
-  state: DERIVED
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: index_navigation
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # INDEX UBI NBI NEUROBIOLOGICAL DOMAINS README
@@ -48,11 +48,11 @@ Given an operation touching `UBI NBI NEUROBIOLOGICAL DOMAINS README` within the 
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON_README]] · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS_README]]
+- Governed by canon — [[01_CANON/01_CANON_README|01_CANON_README]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/02_KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/03_CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/17_OBSERVABILITY_README|17_OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/20_OPERATIONS_README|20_OPERATIONS_README]]
 RSCF-NODE
 node_id: amos_urobiological_00_index_index_ubi_nbi_neurobiological_domains_readme_md
 node_type: note

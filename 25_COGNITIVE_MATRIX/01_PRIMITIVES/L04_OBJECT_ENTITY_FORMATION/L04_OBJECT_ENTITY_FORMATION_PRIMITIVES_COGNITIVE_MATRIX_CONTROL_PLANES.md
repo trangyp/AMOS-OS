@@ -1,25 +1,16 @@
 ---
-type: control-plane
-source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: L04 Object Entity Formation Primitives Cognitive Matrix Control Planes
 tags:
-  - amos
-  - cognitive-matrix
-  - object-entity-formation
-  - control-plane
-  - rscf
-  - provenance
-  - governance
-  - domain/cognitive-matrix
-title: L04_OBJECT_ENTITY_FORMATION — Control Planes
-origin_architect: Trang Phan
-status: MODEL_CONTROL_PLANE_CONTRACT / UNIMPLEMENTED / UNVALIDATED
-epistemic_class: MODEL
-runtime_alignment: AMOS Full Brain OS / AMOS_CORE v4.4 lineage
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # L04_OBJECT_ENTITY_FORMATION — Control Planes
@@ -2764,7 +2755,7 @@ NOT ESTABLISHED
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

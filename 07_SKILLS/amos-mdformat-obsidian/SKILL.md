@@ -1,42 +1,21 @@
 ---
-schema_version: 1.0
-title: SKILL
-name: amos-mdformat-obsidian
-description: AMOS mdformat-obsidian — Obsidian vault Markdown formatting using mdformat-obsidian and related plugins. Use when formatting Obsidian-flavored Markdown files (callouts, footnotes, task lists, dollar math, wikilinks), fixing broken YAML frontmatter parsing, normalizing thematic breaks/bullet markers/code block fences, or migrating legacy tags to RSCF structural-axis taxonomy. Use whenever the user mentions mdformat, obsidian formatting, vault formatting, wikilink normalization, or frontmatter fixing — even without explicitly asking for 'mdformat'. Do not use for non-Obsidian Markdown files, semantic content rewriting, or tasks outside the AMOS_OS vault context.
-license: MIT
-parent_skill: amos-knowledge-research-master
-domain: knowledge
-epistemic_class: AMOS_MODEL
-version: 1.1.0
-rscf_state: DERIVED
-hml_level: L
-gmef_gates:
-  - L0_integrity
-  - L1_epistemic
-  - L5_scope
-collapse_class: reversible
-qfm_gate_set: QFM_v43
-law_compliance:
-  - L0
-  - L1
-  - L5
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Skill
 tags:
-  - type/skill
-  - type/skill
-  - domain/knowledge-research
-  - epistemic/source_claim
-  - hml/m
-  - epistemic/source_claim
-  - amos-os
-steward: Trang Phan
-language: en
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
-type: skill
-source: 07_SKILLS/amos-mdformat-obsidian
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # mdformat-obsidian Vault Formatting
@@ -95,15 +74,15 @@ Skill for formatting Obsidian vault Markdown files using `mdformat-obsidian` and
 The vault uses Python 3.12+ for mdformat-obsidian (requires Python >= 3.10).
 
 ```sh
-## Create venv with Python 3.12
+# Create venv with Python 3.12
 /Users/mac/.local/bin/python3.12 -m venv /tmp/mdformat_venv
 
-## Install from local wheels (if pip hangs on resolution)
+# Install from local wheels (if pip hangs on resolution)
 /tmp/mdformat_venv/bin/pip install --no-index --find-links=/tmp/mdformat_wheels \
   mdformat mdformat-obsidian mdformat-frontmatter mdformat-wikilink \
   mdformat-gfm mdit-py-plugins
 
-## Or install from PyPI (if network works)
+# Or install from PyPI (if network works)
 /tmp/mdformat_venv/bin/pip install mdformat mdformat-obsidian mdformat-frontmatter mdformat-wikilink
 ```
 
@@ -183,7 +162,7 @@ mdformat converts `---` thematic breaks to `___` (underscores) or long `______..
 ```python
 import re
 content = open(filepath).read()
-## Match lines that are only underscores (3 or more, including long underscore lines)
+# Match lines that are only underscores (3 or more, including long underscore lines)
 new_content = re.sub(r'^_{3,}$', '---', content, flags=re.MULTILINE)
 open(filepath, 'w').write(new_content)
 ```
@@ -369,16 +348,16 @@ For canon files in `01_CANON/03_COGNITION_CANON/`:
 After formatting, verify vault health using Obsidian MCP:
 
 ```
-## Check frontmatter is parsed
+# Check frontmatter is parsed
 frontmatter action=get path="<path>"
 
-## Check note metadata (tags, headings, links)
+# Check note metadata (tags, headings, links)
 note_inspect path="<path>"
 
-## Check for broken wikilinks
+# Check for broken wikilinks
 wikilinks query=broken
 
-## Check vault statistics
+# Check vault statistics
 vault_info
 ```
 

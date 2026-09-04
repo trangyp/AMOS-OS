@@ -1,7 +1,4 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
 Type: Workflow
 Skill: kimi-k3-in-c
 Agent: amos-kimi-k3-in-c-agent

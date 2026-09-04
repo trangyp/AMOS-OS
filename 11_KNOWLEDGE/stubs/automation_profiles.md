@@ -1,82 +1,68 @@
 ---
-title: AMOS Automation Profiles Master Registry
-type: registry
-source: 11_KNOWLEDGE
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_REGISTRY
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - AMOS-UNIVERSE/automation_profiles.json
-  scope: automation_profiles
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Automation Profiles
 tags:
-  - amos-os
-  - automation
-  - profiles
-  - workflows
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# AMOS Automation Profiles Master Registry
+# automation profiles
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Conclusion Class:** `AMOS_MODEL`
+## 0. Status
+Knowledge-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
 
-## 1. Profiles Specification
+## 1. Purpose
+`automation profiles` defines typed artifact specification, serving the Knowledge plane's obligation: knowledge base integration (excluded from this pass).
 
-```json
-{
-  "profiles": {
-    "DAILY_CORE": {
-      "description": "Daily self-checks across AMOS OS, cognition, and life-systems planning.",
-      "tasks": [
-        "BIOLOGICAL_DAILY_SUMMARY",
-        "WORK_DAY_FOCUS_PLAN",
-        "OS_DAILY_INTEGRITY_SCAN",
-        "COGNITION_DAILY_REFLECTION"
-      ],
-      "schedule_hint": "daily"
-    },
-    "WEEKLY_STRATEGIC": {
-      "description": "Weekly strategic planning across all 10 bands and 150 domains.",
-      "tasks": [
-        "DOMAIN_BAND_PROGRESS_SUMMARY",
-        "WEEKLY_OBJECTIVES_PLAN",
-        "SYSTEMIC_RISK_REVIEW",
-        "UBI_CANON_EXTENSION"
-      ],
-      "schedule_hint": "weekly"
-    },
-    "OS_MAINTENANCE": {
-      "description": "Regular AMOS OS maintenance and self-repair routines.",
-      "tasks": [
-        "FULL_SYSTEM_AUDIT",
-        "LOOPS_STABILITY_CHECK",
-        "IMPORTS_INTEGRITY_CHECK",
-        "MEMORY_INDEX_COMPACTION"
-      ],
-      "schedule_hint": "interval"
-    },
-    "OS_EVOLUTION": {
-      "description": "Structured evolution of cognition, domain canon, and automation rules.",
-      "tasks": [
-        "COGNITION_BLUEPRINT_UPGRADE",
-        "DOMAIN_CANON_REVIEW",
-        "AUTOMATION_RULES_REFINEMENT",
-        "MODE_CONSTRAINTS_AUDIT"
-      ],
-      "schedule_hint": "weekly"
-    }
-  }
-}
-```
+## 2. Semantics
+- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
+- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
+- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
 
-## 2. Integration & Execution
+## 3. Failure modes guarded
+STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
 
-- **Governed By:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
-- **Executed In:** [[04_RUNTIME/RUNTIME_README|RUNTIME_README]]
+## 4. Validation
+No artifact-specific executor yet; executed OS validators exist as pattern ([[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
+
+## 5. Gaps
+Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
+
+## 6. Falsifiers
+F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
+## Worked semantics
+Given an operation touching `automation profiles` within the Knowledge plane:
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+
+## Promotion-gate checklist
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+
+## Cross-plane bindings
+- Governed by canon — [[01_CANON/01_CANON_README|01_CANON_README]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/02_KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/03_CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/17_OBSERVABILITY_README|17_OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/20_OPERATIONS_README|20_OPERATIONS_README]]

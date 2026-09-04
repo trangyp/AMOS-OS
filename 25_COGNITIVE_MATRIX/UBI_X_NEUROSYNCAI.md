@@ -1,54 +1,16 @@
 ---
-title: UBI X NEUROSYNCAI
-type: cognitive
-source: 25_COGNITIVE_MATRIX
-artifact: UBI_X_NEUROSYNCAI.md
-artifact_id: amos_25_cognitive_matrix_ubi_x_neurosyncai
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 25_COGNITIVE_MATRIX
-segment: 25_COGNITIVE_MATRIX
-artifact_kind: MATRIX
-path: 25_COGNITIVE_MATRIX/UBI_X_NEUROSYNCAI.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Ubi X Neurosyncai
 tags:
-  - amos-os
-  - cognitive-matrix
-  - canon/matrix
-  - rscf
-  - provenance
-  - ubi-x-neurosyncai-matrix
-  - ubi-neurosyncai-binding
-  - unified-biological-intelligence
-  - amos-x-neurosyncai
-  - validation
-  - ubi-x-cognition
-  - ubi-x-emotion
-  - ubi-x-full-brain
-  - ubi-x-neurosyncai
-  - ubi-x-cognition-matrix
-  - ubi-x-emotion-matrix
-  - ubi-x-full-brain-matrix
-  - law-hierarchy
-  - k-provenance
-  - k-fail-closed
-  - amos-core-v4-4
-version: 1.0.0
-updated: '2026-08-28'
-status: CANON_CANDIDATE
-epistemic_class: AMOS_MODEL
-canonical_status: CANDIDATE_PENDING_VALIDATION
-implementation_status: CONCEPTUAL
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: AMOS_cognitive_matrix
-  confidence_ceiling: SOURCE_DEPENDENT
-  regime: AMOS_OS_MODEL
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 Below is a full Obsidian-ready, heavily tagged version that preserves the supplied source as the canonical load-bearing content while expanding its vault structure, RSCF representation, cross-plane relationships, epistemic boundaries, implementation contract, validation surfaces, and explicit gaps.
@@ -282,7 +244,7 @@ epistemic_boundary:
 
 ---
 
-## 1. Source-Defined Purpose
+# 1. Source-Defined Purpose
 
 The canonical source statement is:
 
@@ -312,7 +274,7 @@ This equation is a **structural normalization of the source statement**, not an 
 
 ---
 
-## 2. Core Specification
+# 2. Core Specification
 
 The artifact establishes the Cognitive Matrix specification layer for the UBI × NeuroSyncAI relationship.
 
@@ -352,7 +314,7 @@ Their detailed mechanisms are not fully defined by this artifact.
 
 ______________________________________________________________________
 
-## 3. Specification vs Matrix Table
+# 3. Specification vs Matrix Table
 
 This artifact is the:
 
@@ -3013,7 +2975,7 @@ ______________________________________________________________________
 
 ## 74. Dataview Query — Related UBI × NeuroSyncAI Artifacts
 
-```text
+```dataview
 TABLE
   artifact_kind AS "Kind",
   version AS "Version",
@@ -3028,7 +2990,7 @@ ______________________________________________________________________
 
 ## 75. Dataview Query — Cognitive Matrix Family
 
-```text
+```dataview
 TABLE
   artifact AS "Artifact",
   artifact_kind AS "Kind",
@@ -3043,7 +3005,7 @@ ______________________________________________________________________
 
 ## 76. Dataview Query — NeuroSyncAI
 
-```text
+```dataview
 TABLE
   title AS "Artifact",
   plane AS "Plane",
@@ -3057,7 +3019,7 @@ ______________________________________________________________________
 
 ## 77. Dataview Query — Biological Telemetry
 
-```text
+```dataview
 TABLE
   title AS "Artifact",
   artifact_kind AS "Kind",
@@ -3070,7 +3032,7 @@ ______________________________________________________________________
 
 ## 78. Dataview Query — Canon Candidates
 
-```text
+```dataview
 TABLE
   title AS "Artifact",
   plane AS "Plane",
@@ -3718,4 +3680,6 @@ ______________________________________________________________________
 
 **END OF `UBI_X_NEUROSYNCAI.md`**
 
+```
+```
 ```

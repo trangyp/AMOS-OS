@@ -1,57 +1,45 @@
 ---
-title: "18_SECURITY MOC — Security & Reality-Bound Authorization"
-type: moc
-source: 18_SECURITY
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_MOC
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-    - 00_ROOT/00_ROOT_MOC
-  scope: 18_security_navigation
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 18 Security Moc
 tags:
-  - amos-os
-  - 18_security
-  - moc
-  - navigation
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# 18_SECURITY MOC — Security & Reality-Bound Authorization
+# 18 Security — Map of Content
 
-**Origin Architect / Steward:** Trang Phan
-**AMOS_CORE Target:** `v4.4`
-**Epistemic Class:** `AMOS_MODEL`
-
----
-
-## 1. System Security Specifications & Cryptographic Harnesses
-
-- [[18_SECURITY/POST_QUANTUM_LATTICE_CRYPTO_VERIFICATION_HARNESS|POST_QUANTUM_LATTICE_CRYPTO_VERIFICATION_HARNESS]] — NIST FIPS 203 (ML-KEM-768/1024) and FIPS 204 (ML-DSA) post-quantum lattice cryptography verification, NTT polynomial ring arithmetic in $\mathbb{Z}_{3329}[X]/(X^{256} + 1)$, and side-channel constant-time guarantees.
-- [[18_SECURITY/PQC_LATTICE_VERIFICATION_LEDGER|PQC_LATTICE_VERIFICATION_LEDGER]] — 100% successful encapsulation/decapsulation verification ledger with cryptographic proof receipts.
-- [[18_SECURITY/SECURITY_README|SECURITY_README]] — Cryptographic primitives, post-quantum signing, zero-knowledge proofs, and access control.
-- [[18_SECURITY/SECURITY_SECURITY_CONTRACT|SECURITY_SECURITY_CONTRACT]] — Invariants: FIPS 203/204 compliance, zero-trust delegation, tamper-evident audit trails.
-- [[18_SECURITY/00_INDEX/SECURITY_MAP|SECURITY_MAP]] — Security component navigation map
+> [!ABSTRACT] Security Plane Executive Summary
+> The **Security Plane** (`18_SECURITY`) owns protected boundaries, programmatic access control (DAC, MAC, RBAC), capability token validation, Sybil hardening, and runtime policy enforcement in the AMOS Full Brain OS.
+> It enforces the invariant:
+> $$\text{CAPABILITY} \neq \text{AUTHORITY} \quad\land\quad \text{TRUST SCORE} \neq \text{ROOT KEY}$$
 
 ---
 
-## 2. Invariants
+## 1. Core Subsystem Architecture
 
-```text
-CAPABILITY != AUTHORITY
-OBSERVED != CURRENT
-PROPOSAL != COMMIT
-UNKNOWN/GAP != PASS
-```
+* [[18_SECURITY/SECURITY_CONTROL_ACCESS_BRIDGE_GOVERNOR|Security Control Access Bridge Governor]] — The C09 $\to$ C10 $\to$ Runtime bridge enforcing Bounded Intelligence Security (BIS), the 10 Security QA Gates, and policy-to-enforcement drift detection.
+* [[18_SECURITY/SECURITY_SECURITY_CONTRACT|SECURITY_SECURITY_CONTRACT]] — Formal security plane boundary contracts and threat models.
+* [[18_SECURITY/SECURITY_README|SECURITY_README]] — Structural overview and sibling map.
 
 ---
 
-## 3. Parent Navigation
+## 2. Inbound & Outbound Interfaces
 
-- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] — Master Navigation Hub
-- [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]] — Full OS Partition Architecture
+* **Control Plane Gates:** [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ Engine Validation Receipt]].
+* **Runtime Sandbox:** [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]].
+* **Cryptographic Law:** [[01_CANON/01_CORE_LAWS/L7_AUTHORITY|L7_AUTHORITY]].
+
+---
+[[00_ROOT/00_ROOT_MOC|Root MOC]] · [[AMOS_HOME|AMOS Home]]

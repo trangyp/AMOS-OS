@@ -1,60 +1,21 @@
 ---
-title: Canon Claim Registry
-type: canon
-source: 11_KNOWLEDGE/02_CLAIMS
-artifact: CANON_CLAIM_REGISTRY.md
-artifact_id: amos_11_knowledge_02_claims_canon_claim_registry
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 11_KNOWLEDGE
-segment: 11_KNOWLEDGE/02_CLAIMS
-artifact_kind: REGISTRY
-path: 11_KNOWLEDGE/02_CLAIMS/CANON_CLAIM_REGISTRY.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Canon Claim Registry
 tags:
-  - amos-os
-  - knowledge
-  - vault
-  - 02_claims
-  - canon_claim_registry
-  - epistemic_claims
-  - claim_verification
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - 01_CANON/01_CORE_LAWS/L0_INTEGRITY
-    - AMOS_CORPUS
-  scope:
-    - KNOWLEDGE_CLAIMS
-    - CANON_CLAIMS
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  claims_moc:
-    artifact:
-      -   - 02_CLAIMS_MOC
-  rscf_index:
-    artifact: 11_KNOWLEDGE/03_RSCF/CANON_RSCF_INDEX
-  core_laws:
-    artifact: 01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  registry_structure: VERIFIED_SOURCE_STRUCTURE
-  claim_catalog: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Canon Claim Registry

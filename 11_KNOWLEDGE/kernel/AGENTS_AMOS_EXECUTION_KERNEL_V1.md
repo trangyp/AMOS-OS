@@ -1,23 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AGENTS_AMOS_EXECUTION_KERNEL_V1
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Agents Amos Execution Kernel V1
 tags:
-  - knowledge
-  - kernel
-  - agents
-  - execution
-  - system-scan-agent
-  - automation-profiles
-  - amos-simulation-kernel-v0-math-foundations
-type: note
-source: 11_KNOWLEDGE/kernel
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # [[AGENTS|AGENTS]] AMOS EXECUTION KERNEL V1 — Full Canonical Expansion
@@ -3993,7 +3986,7 @@ ______________________________________________________________________
 
 ## 254. Dataview — Kernel Notes
 
-```text
+```dataview
 TABLE
   file.link AS Artifact,
   type,
@@ -4008,7 +4001,7 @@ ______________________________________________________________________
 
 ## 255. Dataview — Source Claims
 
-```text
+```dataview
 TABLE
   file.link AS Artifact,
   rscf.claim_class AS Claim_Class,
@@ -4023,7 +4016,7 @@ ______________________________________________________________________
 
 ## 256. Dataview — Runtime Artifacts
 
-```text
+```dataview
 TABLE
   file.link AS Artifact,
   type,

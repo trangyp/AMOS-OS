@@ -1,50 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: L18 GMEF
-type: gmef
-source: 01_CANON/01_CORE_LAWS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: L18 Gmef
 tags:
-  - canon
-  - core_laws
-  - gmef
-  - gate_laws
-  - governance
-  - gate_composition
-  - fail_closed
-  - decision_receipts
-  - authority_separation
-  - promotion
-  - audit
-  - state_transition
-  - epoch
-  - digest
-  - provenance
-  - canon/universe
-  - validation
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-  - law/L17-rscf
-  - law/L16-hml
-  - provenance-topology
-  - scope-regime-firewall
-  - causal-epoch-finality
-  - persistent-provenance
-  - mvcc-cas
-  - atomic-multi-rscf
-  - law/L10-failure-recovery
-  - law/L11-knowledge-memory
-  - law/L15-fractal-knowledge
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: core_laws
-  canonical_status: CONDITIONAL
-  specification_status: PROPOSED_SPECIFICATION
-  node_id: l18_gmef
-  node_type: note
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # L18 GMEF Gate Laws
@@ -4950,4 +4916,6 @@ THE PROMOTION PROCESS
 
 **Conclusion class: CONDITIONAL / AMOS_MODEL.**
 
+```
+```
 ```

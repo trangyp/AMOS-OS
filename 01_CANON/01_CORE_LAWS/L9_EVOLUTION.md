@@ -1,42 +1,21 @@
 ---
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: L9 Evolution
 tags:
-  - canon
-  - core_laws
-  - evolution
-  - mutation
-  - supersession
-  - anti_regression
-  - repair
-  - rollback
-  - gmef
-  - rscf
-  - governance
-  - canon/universe
-  - law-hierarchy
-  - law/L0-integrity
-  - law/L1-epistemic
-  - law/L2-provenance
-  - law/L3-dependency
-  - law/L4-causal
-  - law/L5-scope-regime
-  - law/L6-uncertainty
-  - law/L7-authority
-  - law/L8-execution
-  - law/L18-gmef
-title: L9 Evolution Laws
-origin_architect: Trang Phan
-updated: '2026-08-26'
-status: PROPOSED_SPECIFICATION
-epistemic_class: AMOS_MODEL
-canonical_status: CONDITIONAL
-implementation_status: LOGIC_EXECUTABLE_IN_PART
-type: document
-source: 01_CANON/01_CORE_LAWS
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # L9 Evolution Laws
@@ -4437,7 +4416,7 @@ The final L9 governing principle is:
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

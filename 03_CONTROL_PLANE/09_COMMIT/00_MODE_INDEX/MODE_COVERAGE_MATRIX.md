@@ -1,45 +1,16 @@
 ---
-title: MODE COVERAGE MATRIX
-type: coverage
-source: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Mode Coverage Matrix
 tags:
-  - control-plane
-  - commit
-  - mode_index
-  - note
-  - canon/control-plane
-  - mode-admission-queue
-  - task-resolver
-  - capability-resolver
-  - k-system-state
-  - k-context-state
-  - k-world-model
-  - k-event-bus
-  - k-identity
-  - k-binding
-  - k-constraint-propagation
-  - k-rscf
-  - k-gmef
-  - k-hml
-  - k-provenance
-  - k-provenance-topology
-  - k-sybil-hardening
-  - k-risk-constraint
-  - k-capability-authorization
-  - k-effect-classification
-  - k-information-exposure
-  - k-commit-time-authority
-  - k-collapse-recovery
-  - k-homeostasis
-  - k-repair-harm
-  - k-repair-priority
-  - integration
-  - validation
-rscf:
-  state: DERIVED
-  claim_class: EMPIRICAL
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # MODE COVERAGE MATRIX

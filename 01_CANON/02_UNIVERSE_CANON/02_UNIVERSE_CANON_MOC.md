@@ -1,50 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: 02 Universe Canon MOC
-type: moc
-source: 01_CANON/02_UNIVERSE_CANON
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 02 Universe Canon Moc
 tags:
-  - canon/universe
-  - absolute-omniverse-u-infinity
-  - khung-trang-equations
-  - khung-trang-master
-  - omega-quantum-stack
-  - p1-reality-environment
-  - p2-sense-evidence
-  - p3-knowledge-memory
-  - p4-cognition-models
-  - p5-governance-authority
-  - p6-execution-agency
-  - p7-evolution-learning
-  - seven-part-universe-canon-master
-  - seven-part-universe-canon-v2
-  - trang-reality-architecture
-  - trang-zero-framework
-  - universal-field-architecture
-  - universal-operators
-  - universal-pattern-families
-  - universe-behaviour-engine
-  - universe-boundary-architecture
-  - universe-canon-lineage
-  - universe-causality-architecture
-  - universe-collapse-architecture
-  - universe-emergence-architecture
-  - universe-identity-architecture
-  - universe-information-architecture
-  - universe-interaction-engine
-  - universe-logic-kernel
-  - universe-recovery-architecture
-  - universe-structure-tree
-  - universe-time-architecture
-  - universe-topology-architecture
-moc: true
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: universe_canon
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 02 Universe Canon — Map of Content

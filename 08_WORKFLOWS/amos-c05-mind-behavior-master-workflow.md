@@ -116,6 +116,8 @@ Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic clas
 - `amos-c05-mind-behavior-master` (primary skill)
 - `amos-c05-mind-behavior-agent.json` (primary agent)
 - Vault source: `11_KNOWLEDGE/AMOS_C05_MIND_BEHAVIOR_MASTER_KNOWLEDGE.md`
+- Arvix Evidence Bridge: [[07_SKILLS/amos-c05-mind-behavior-master/references/arvix_consciousness_mind_behavior_evidence_bridge|arvix_consciousness_mind_behavior_evidence_bridge]]
+- External Arvix Hub: [[00_ROOT/ARXIV_RSCF_KNOWLEDGE_NODE|ARXIV_RSCF_KNOWLEDGE_NODE (66,026 papers)]]
 
 ## Provenance
 

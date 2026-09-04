@@ -1,64 +1,16 @@
 ---
-type: registry
-source: 01_CANON/05_VARIABLE_REGISTRY
-artifact_id: AMOS-SYMBOL-REGISTRY
-name: SYMBOL_REGISTRY
-title: "AMOS Symbol Registry — Canonical Symbols, Operators, Types, States, and Semantic Identity"
-document_version: 1.0.0
-canon_version: 4.4
-amos_core_target: v4.4
-status: ACTIVE_CANON_CANDIDATE
-conclusion_class: AMOS_MODEL
-rscf_state: derived
-canon_group: meta
-canon_type: registry
-origin_architect: Trang Phan
-steward: Trang Phan
-created: 2026-08-25
-updated: 2026-08-25
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Symbol Registry
 tags:
-  - amos
-  - canon
-  - universe
-  - amos-os
-  - amos-core
-  - amos-core-v4-4
-  - registry
-  - symbols
-  - notation
-  - operators
-  - semantics
-  - identity
-  - types
-  - states
-  - rscf
-  - gmef
-  - hml
-  - provenance
-  - epistemic-regime
-  - causal-lineage
-  - mvcc
-  - cas
-  - finality
-  - invariants
-  - canon-group/meta
-  - canon/registry
+  - canon-group/tech-ai
+  - rscf/claim
   - rscf/provenance
-  - rscf/state/derived
-  - readme
-  - architecture
-  - placement-rules
-  - amos-core-laws
-  - law-hierarchy
-  - amos-full-brain-os-architecture
-  - operating-model
-aliases:
-  - AMOS Symbol Registry - Symbol Registry - AMOS Notation Registry - AMOS Semantic Symbol Table
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AMOS Symbol Registry

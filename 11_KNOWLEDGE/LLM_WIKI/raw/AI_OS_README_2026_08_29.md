@@ -1,17 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-date: 2026-08-29
-epistemic_class: OBSERVATION
-provenance: GitHub README, not independently verified
-rscf:
-  claim_class: DERIVED
-  provenance: GitHub README (EvolvingAgentsLabs/ai-os)
-  scope: AMOS_knowledge
-  state: SOURCE_CLAIM
-source: https://raw.githubusercontent.com/EvolvingAgentsLabs/ai-os/main/README.md
-title: ai-os README — Raw Capture
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Ai Os Readme 2026 08 29
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # ai-os README — Raw Capture

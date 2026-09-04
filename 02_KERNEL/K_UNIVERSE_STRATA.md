@@ -1,37 +1,21 @@
 ---
-title: "UNIVERSE STRATA & MULTI-LAYER COSMIC ONTOLOGY KERNEL"
-type: kernel
-source: 02_KERNEL
-artifact_id: AMOS-KERNEL-UNIVERSE-STRATA-MASTER
-canonical_name: K_UNIVERSE_STRATA
-status: CANONICAL
-conclusion_class: CANONICAL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-version: 2.0.0
-created: '2026-08-25'
-updated: '2026-08-28'
-plane: 02_KERNEL
-domain: universe-strata
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: K Universe Strata
 tags:
-  - amos-os
-  - kernel
-  - universe-strata
-  - cosmic-ontology
-  - multi-scale-physics
+  - canon-group/tech-ai
   - rscf/claim
-  - rscf/state/canonical
-aliases:
-  - Universe Strata Kernel
-  - K_UNIVERSE_STRATA
-  - Cosmic Strata Engine
-  - Multi-Layer Reality Framework
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # UNIVERSE STRATA & MULTI-LAYER COSMIC ONTOLOGY KERNEL

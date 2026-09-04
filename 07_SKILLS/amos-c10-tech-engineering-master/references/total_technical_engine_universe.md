@@ -1,21 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: total technical engine universe
-type: reference
-source: 07_SKILLS/amos-c10-tech-engineering-master/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Total Technical Engine Universe
 tags:
-  - reference
-  - amos-c10-tech-engineering-master
-  - type/skill
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Total Technical Engine Universe OS
@@ -35,9 +35,9 @@ AUTHOR: Trang
 ARCHITECTURE: AMOS_CORE / AMOS_UNIVERSE_OS
 DESCRIPTION: Unified Universe OS specification – logic, structure, runtime, multimodal, expression, and canon integration.
 
-## =========================================================
-## 0. CANON METADATA
-## =========================================================
+# =========================================================
+# 0. CANON METADATA
+# =========================================================
 
 [CANON.META]
 id                = UTC-000
@@ -51,7 +51,7 @@ drift_tolerance   = 0.0           # allowed logical drift
 description       = "Single-file universe OS spec: micro→macro, human→animal→AI→planet, logic-first, multimodal-capable."
 
 [CANON.COMPONENTS]
-## 10 canonical parts (MECE)
+# 10 canonical parts (MECE)
 parts = [
   "P1_META",
   "P2_INFORMATION",
@@ -65,9 +65,9 @@ parts = [
   "P10_CANON_INTEGRATION"
 ]
 
-## =========================================================
-## 1. CORE LOGIC KERNEL (ULK INLINE)
-## =========================================================
+# =========================================================
+# 1. CORE LOGIC KERNEL (ULK INLINE)
+# =========================================================
 
 [ULK.CONFIG]
 id          = "ULK-CORE"
@@ -75,7 +75,7 @@ description = "Universe Logic Kernel – minimal laws and primitives from which 
 version     = "1.0.0"
 
 [ULK.PRIMITIVES]
-## U-Atoms: smallest units of the canon
+# U-Atoms: smallest units of the canon
 U_ATOMS = {
   "U-Atom(1)": "ExistenceBit",      # something vs not-something
   "U-Atom(2)": "DifferenceUnit",    # minimal distinguishable contrast
@@ -88,7 +88,7 @@ U_ATOMS = {
 }
 
 [ULK.META_LAWS]
-## Core meta-laws; all other laws are descendants
+# Core meta-laws; all other laws are descendants
 L0_LawOfLaw              = "All laws must be internally non-contradictory and stable through time."
 L2_BinaryLaw             = "Every meaningful structure has at least one dual contrast (Rule of 2)."
 L4_QuadrantLaw           = "Any complete system decomposes into 4 interacting quadrants (Rule of 4)."
@@ -98,7 +98,7 @@ LΩ_LoadCapacityLaw       = "Collapse occurs when load > capacity and feedback c
 Lφ_FeedbackIntegrityLaw  = "Survival requires accurate, timely feedback loops."
 
 [ULK.OPERATORS]
-## Generic logic operators – used across all layers
+# Generic logic operators – used across all layers
 OP_EQUALS        = "A == B"                # identity / exact equivalence
 OP_DIFF          = "A != B"                # difference
 OP_CAUSE         = "A -> B"                # directional cause/effect

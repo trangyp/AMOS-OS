@@ -1,17 +1,21 @@
 ---
-title: AMOS Full Brain Source Map
-type: provenance_map
-source: 00_ROOT
-origin_architect: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SOURCE_INDEX
-conclusion_class: DERIVED
-updated: 2026-09-03
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: active__AMOS_OS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Full Brain Source Map
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Full Brain — Source Map
@@ -60,7 +64,7 @@ A source link does not promote its claims.
 - [[07_SKILLS/skill-registry-catalog|SKILL_REGISTRY_CATALOG]]
 - [[06_AGENTS/AGENT_ONBOARDING_GUIDE|AGENT_ONBOARDING_GUIDE]]
 - [[06_AGENTS/amos-agent-registry-index|AGENT_REGISTRY_INDEX]]
-- [[24_ARCHIVE/08_WORKFLOWS_MOC__HISTORICAL_FIXED_COUNT|HISTORICAL_WORKFLOW_REGISTRY]] — lineage only;
+- [[24_ARCHIVE/26_WORKFLOWS_MOC__HISTORICAL_FIXED_COUNT|HISTORICAL_WORKFLOW_REGISTRY]] — lineage only;
   fixed count is not current truth.
 - [[22_RESEARCH/SOTA_AGENT_TOOLING_REPOS|SOTA_AGENT_TOOLING_REPOS]]
 

@@ -1,36 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: L24 — Causal Epoch Law
-type: law
-source: 01_CANON/01_CORE_LAWS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: L24 Causal Epoch
 tags:
-  - canon
-  - core_law
-  - causal_epoch
-  - causal_time
-  - monotonicity
-  - epoch_boundary
-  - causal_lineage
-  - causal_lineage_closure
-  - verdict_immutability
-  - explicit_supersession
-  - witness_receipts
-  - fail_closed
-  - replayability
-  - provenance
-  - time
-  - canon/universe
-  - law/L8-execution
-  - law/L22-replayability
-rscf:
-  state: CANON_LAW
-  claim_class: CANONICAL_INVARIANT
-  provenance: AMOS_CANON
-  scope: core_laws
-  node_id: l24_causal_epoch
-  node_type: core_law
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # L24 — Causal Epoch Law

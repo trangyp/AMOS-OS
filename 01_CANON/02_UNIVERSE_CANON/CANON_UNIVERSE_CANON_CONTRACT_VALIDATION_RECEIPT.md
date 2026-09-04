@@ -1,40 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Universe Canon Contract Validation Receipt
-type: receipt
-source: 01_CANON/02_UNIVERSE_CANON
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Canon Universe Canon Contract Validation Receipt
 tags:
-  - receipt
-  - validation
-  - universe_canon
-  - contract
-  - universe_contract
-  - seven_layers
-  - cosmological_layers
-  - verification
-  - cryptographic_verification
-  - integrity
-  - provenance
-  - deterministic
-  - replayability
-  - canon/universe
-  - law-hierarchy
-  - law/L17-rscf
-  - law/L18-gmef
-  - law/L19-proof-capsule
-  - law/L20-adversarial
-  - law/L21-epistemic-regime
-  - law/L22-replayability
-  - law/L23-mvcc-cas
-  - law/L24-causal-epoch
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: universe_canon
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Universe Canon Contract Validation Receipt
@@ -1647,7 +1628,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

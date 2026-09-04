@@ -1,23 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: 07 Coverage MOC
-type: moc
-source: 25_COGNITIVE_MATRIX/07_COVERAGE
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 07 Coverage Moc
 tags:
-  - 07-coverage
-  - domain/cognitive-matrix
-  - 2026-08-26-contract-fill-pass
-  - coverage-audit
-  - coverage-model
-  - coverage-thresholds
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 07 Coverage — Map of Content

@@ -1,30 +1,21 @@
 ---
-artifact_id: AMOS-LAYER-MAPS
-conclusion_class: SOURCE_CLAIM / AMOS_MODEL
-confidence: DERIVED
-name: AMOS_Layer_Maps
-origin_architect: Trang Phan
-provenance: VAULT_INDEX
-status: active
-steward: Trang Phan
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Layer Maps
 tags:
-  - amos-os
-  - root
-  - index
-  - map
-  - navigation
   - canon-group/tech-ai
-  - canon/navigation
-  - topic/layer-maps
-  - amos-templates
-title: AMOS Layer Maps
-type: index
-source: 00_ROOT
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: root_index
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Layer Maps
@@ -43,7 +34,7 @@ ______________________________________________________________________
 - [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP|COGNITIVE_ORGANISM_MAP]] — Cognitive organism layer map
 - [[06_AGENTS/00_INDEX/AGENT_MAP|AGENT_MAP]] — Agent layer map
 - [[07_SKILLS/00_INDEX/SKILL_MAP|SKILL_MAP]] — Skill layer map
-- [[08_WORKFLOWS/00_INDEX/WORKFLOW_MAP|WORKFLOW_MAP]] — Workflow layer map
+- [[26_WORKFLOWS/00_INDEX/WORKFLOW_MAP|WORKFLOW_MAP]] — Workflow layer map
 - [[09_PROTOCOLS/00_INDEX/PROTOCOL_MAP|PROTOCOL_MAP]] — Protocol layer map
 - [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP|MEMORY_MEMORY_MAP]] — Memory layer map
 - [[12_STATE/00_INDEX/STATE_STATE_MAP|STATE_STATE_MAP]] — State layer map
@@ -125,9 +116,9 @@ ______________________________________________________________________
 
 - [[07_SKILLS/00_INDEX/SKILL_MAP|SKILL_MAP]] — Skill layer map
 
-### 08_WORKFLOWS
+### 26_WORKFLOWS
 
-- [[08_WORKFLOWS/00_INDEX/WORKFLOW_MAP|WORKFLOW_MAP]] — Workflow layer map
+- [[26_WORKFLOWS/00_INDEX/WORKFLOW_MAP|WORKFLOW_MAP]] — Workflow layer map
 
 ### 09_PROTOCOLS
 

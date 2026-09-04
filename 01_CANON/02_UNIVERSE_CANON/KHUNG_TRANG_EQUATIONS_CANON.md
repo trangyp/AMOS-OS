@@ -1,60 +1,21 @@
 ---
-title: Khung Trang Equations Canon
-type: trang-framework
-source: 01_CANON/02_UNIVERSE_CANON
-artifact: KHUNG_TRANG_EQUATIONS_CANON.md
-artifact_id: amos_01_canon_02_universe_canon_khung_trang_equations_canon
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/02_UNIVERSE_CANON
-artifact_kind: CANON_SPECIFICATION
-path: 01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_EQUATIONS_CANON.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Khung Trang Equations Canon
 tags:
-  - amos-os
-  - canon
-  - universe
-  - khung_trang
-  - trang_framework
-  - equations
-  - equations_canon
-  - dimensional_consistency
-  - entropy
-  - emergence
-  - capability
-  - authority
-  - validation
-  - rscf
-  - provenance
-  - canon/universe
-  - khung-trang-equations
-  - amos-x-trang-reality
-  - capability-authority-separation
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: SOURCE_VALIDATED_RUNTIME_VERIFIED
-executable_binding: ESTABLISHED_VIA_VALIDATION_SUITE
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_GROUNDED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 01_CANON/01_CANON_MOC
-    - 01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_EQUATIONS
-    - 25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY
-  scope:
-    - UNIVERSE_CANON
-    - KHUNG_TRANG_EQUATIONS_CANON
-  confidence_ceiling:
-    source_model: SOURCE_BOUND
-    runtime_enforcement: RUNTIME_VERIFIED
-    empirical_equation_validity: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Khung Trang Equations Canon
@@ -124,7 +85,7 @@ PASS
 
 ---
 
-## 1. Purpose
+# 1. Purpose
 
 This canon defines the minimum normative contract under which Khung Trang equations may enter, survive, or affect AMOS runtime reasoning.
 
@@ -1797,7 +1758,7 @@ SOURCE_GROUNDED_CANON_CANDIDATE
 
 ---
 
-**Related:**
+**Related:**  
 
 ---
 
@@ -1809,3 +1770,9 @@ The key integrity correction is the separation of **`RUNTIME_VERIFIED` from empi
 ---
 
 **MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
+
+```
+
+```
+```
+```

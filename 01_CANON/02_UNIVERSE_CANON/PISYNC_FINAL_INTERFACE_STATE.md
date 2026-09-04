@@ -1,36 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: PISYNC Final Interface State
-aliases:
-  - PISYNC
-  - PISYNC Final State
-  - PISYNC Interface State
-  - PISYNC Final Interface
-type: universe-canon
-source: 01_CANON/02_UNIVERSE_CANON
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Pisync Final Interface State
 tags:
-  - pisync
-  - interface
-  - interface_state
-  - final_interface_state
-  - synchronization
-  - synchronous_feedback
-  - cross_modal
-  - cross_modal_feedback
-  - perception
-  - cognition
-  - external_interface
-  - actuary_interface
-  - universe_canon
-  - canon/universe
-  - canon
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: universe_canon
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # PISYNC Final Interface State
@@ -5508,4 +5493,6 @@ ______________________________________________________________________
 
 **MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
 
+```
+```
 ```

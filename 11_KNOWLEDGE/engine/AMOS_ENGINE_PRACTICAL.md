@@ -1,21 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS ENGINE PRACTICAL
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Engine Practical
 tags:
-  - engine
-  - processing
-  - runtime
-  - canon/knowledge
-  - trang-framework-recursive-ontology-dynamics
-type: document
-source: 11_KNOWLEDGE/engine
-rscf:
-  state: AMOS_MODEL
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: engine_specification
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Engine - Practical Post-LLM Intelligence System - Implementation Complete
@@ -140,10 +140,10 @@ O_t → S_t → B_t → P_t → U_t* → M_t → C_{t+1}
 ### **Usage Examples**
 
 ```python
-## Initialize AMOS Engine
+# Initialize AMOS Engine
 engine = AMOSEngine(domain="enterprise_diagnosis")
 
-## Process input
+# Process input
 sample_input = {
     "text": "Should a company automate customer operations with AI?",
     "actors": {...},
@@ -153,7 +153,7 @@ sample_input = {
 
 action = engine.process_input(sample_input)
 
-## Get results
+# Get results
 print(f"Action Type: {action.action_type}")
 print(f"Intervention: {action.intervention}")
 print(f"Execution Plan: {action.execution_plan}")

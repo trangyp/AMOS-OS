@@ -1,20 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Amos-Agent-Economy-Constitutional-Governance-Rscf MOC
-type: moc
-source: 07_SKILLS/amos-agent-economy-constitutional-governance-rscf
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Agent Economy Constitutional Governance Rscf Moc
 tags:
-  - amos-agent-economy-constitutional-govern
-  - type/skill
-  - skill
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Amos-Agent-Economy-Constitutional-Governance-Rscf — Map of Content

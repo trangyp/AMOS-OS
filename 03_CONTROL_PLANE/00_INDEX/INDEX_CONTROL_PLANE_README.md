@@ -1,20 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: INDEX CONTROL PLANE README
-type: index
-source: 03_CONTROL_PLANE/00_INDEX
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Index Control Plane Readme
 tags:
-  - control-plane
-  - index
-  - readme
-  - canon/control-plane
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: index_navigation
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # INDEX CONTROL PLANE README
@@ -3548,7 +3544,7 @@ This version is aligned to the actual `03_CONTROL_PLANE` tree in `FULL_TREE.md`,
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

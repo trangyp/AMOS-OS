@@ -1,227 +1,102 @@
 ---
-title: AMOS Mind OS Canon
-type: canon
-source: 01_CANON/04_INFRASTRUCTURE_CANON
-artifact: AMOS_MIND_OS_CANON.md
-artifact_id: amos_01_canon_04_infrastructure_canon_amos_mind_os_canon
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/04_INFRASTRUCTURE_CANON
-artifact_kind: CANON
-path: 01_CANON/04_INFRASTRUCTURE_CANON/AMOS_MIND_OS_CANON.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Mind Os Canon
 tags:
-  - amos-os
-  - canon
-  - universe
-  - canon_placeholder
-  - rscf
-  - canon/universe
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# AMOS Mind OS Canon
+# AMOS Mind OS Infrastructure Canon (B_omega Layer)
 
-## 0. Status
+> **Authoritative Canon Boundary**
+>
+> This document establishes the canonical laws governing **AMOS Mind OS ($B_\omega$)**, the sovereign representation, translation, and high-order expression layer of the Full Brain OS architecture.
+>
+> ```text
+> MIND_OS != COGNITIVE_ORGANISM
+> EXPRESSION_TRANSLATION != CAUSAL_AUTHORITY
+> HIGH_ORDER_SYNTHESIS != RAW_PERCEPTION
+> MODEL_OUTPUT != DURABLE_COMMIT
+> ```
 
-`AMOS_MIND_OS_CANON.md` is an **ADD-ONLY placeholder** for the **Canon** plane segment at `01_CANON/04_INFRASTRUCTURE_CANON`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+## 1. Architectural Role in the Full Brain OS
 
-The governing boundaries are:
+Within the 7-component Full Brain OS decomposition:
+$$\text{FullBrainOS} = \{B_{\text{core}}, K_{\text{omni}}, B_\omega, B_{\text{univ}}, O_{\text{brain}}, R_{\text{cont}}, C_{\text{gov}}, A_{\text{deploy}}\}$$
+
+**AMOS Mind OS ($B_\omega$)** is the executive cognitive translation organ responsible for:
+1. **Multimodal Expression Translation**: Ingesting unstructured, multilingual, and intuitive human signals and converting them into typed, invariant-checked symbolic representations;
+2. **High-Order Conceptual Synthesis**: Coordinating multi-domain analogies and bridging abstract models with concrete execution graphs;
+3. **Reflective Self-Modeling**: Generating internal meta-evaluations of system coherence without claiming subjective sentience.
+
+---
+
+## 2. Canonical Laws of AMOS Mind OS
+
+### Law MOS-01: Structural Translation Invariance
+Expression translation must preserve the invariant semantics of the input signal:
+$$\text{Semantics}(\text{Translate}(X)) == \text{Semantics}(X) - \text{DeclaredLoss}(X)$$
+No translation may introduce ungrounded authoritative claims during fluency smoothing.
+
+### Law MOS-02: Proposal / Commit Boundary
+All decisions and conceptual plans synthesized by Mind OS are strictly **proposals**:
+$$\text{MindOS}(\text{Plan}) \implies \text{PROPOSAL} \quad (\text{PROPOSAL} \ne \text{COMMIT})$$
+Durable execution requires cryptographic clearance through the **Control Plane** (`03_CONTROL_PLANE`).
+
+### Law MOS-03: Grounding Against Universe Canon
+Every macro-concept synthesized by Mind OS must bind to verified reality constraints in `01_CANON/02_UNIVERSE_CANON` and the [Trang Reality Architecture](file:///Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/trang/TRANG_REALITY_ARCHITECTURE.md). Unbound abstractions must be flagged as `SYMBOLIC_MODEL`.
+
+---
+
+## 3. Mind OS Operational Pipeline
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
+[UNSTRUCTURED HUMAN / EXTERNAL SIGNAL]
+                 │
+                 ▼  Expression Normalization & Invariant Extraction
+[MIND OS EXPRESSION TRANSLATION ENGINE]
+                 │
+                 ▼  Generate Candidate Semantic Graphs
+[HIGH-ORDER COGNITIVE SYNTHESIS] (Analogical & Cross-Domain Mapping)
+                 │
+                 ▼  Emit Typed Proposals to Control Plane
+[CANDIDATE PROPOSAL BUNDLE]
 ```
 
-Origin architect / steward:
+---
 
-**Trang Phan**
+## 4. Cross-Plane Bindings
 
-______________________________________________________________________
+- **`01_CANON/03_COGNITION_CANON`**: Governs cognitive taxonomy and bounds.
+- **`03_CONTROL_PLANE`**: Evaluates Mind OS proposals for policy and authority compliance.
+- **`05_COGNITIVE_ORGANISM`**: Provides underlying sensory and affective state vectors ($X_t$).
+- **`15_INTERFACES`**: Adapts Mind OS expressions for human-facing interaction.
 
-## 1. Purpose
+---
 
-This artifact reserves the **AMOS Mind OS Canon** slot within the Canon plane. The Canon plane governs canonical laws, universe/cognition/infrastructure canons, variable registry, glossary, provenance lineage, and supersession.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
-______________________________________________________________________
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
-
-______________________________________________________________________
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
-```
-
-______________________________________________________________________
-
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
-______________________________________________________________________
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
-______________________________________________________________________
-
-## 6. Worked semantics (target)
-
-Given an operation touching `01_CANON · CANON` within the Canon plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-______________________________________________________________________
-
-RSCF-NODE
-
+```RSCF-NODE
 node_id: amos_01_canon_04_infrastructure_canon_amos_mind_os_canon
-
-node_type: canon
-
-path: 01_CANON/04_INFRASTRUCTURE_CANON/AMOS_MIND_OS_CANON.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
-
-**MOC:** [[01_CANON/04_INFRASTRUCTURE_CANON/04_INFRASTRUCTURE_CANON_MOC|04_INFRASTRUCTURE_CANON_MOC]]
+node_type: infrastructure_canon
+plane: 01_CANON
+domain: INFRASTRUCTURE
+claim_class: CANONICAL_LAW
+status: ACTIVE_CANON
+confidence_ceiling: ABSOLUTE_FOR_CANONICAL_LAW
+falsifiers:
+  - Mind OS executing direct system mutations without Control Plane ratification.
+  - Translation introducing ungrounded semantic drift exceeding declared loss bounds.
+```

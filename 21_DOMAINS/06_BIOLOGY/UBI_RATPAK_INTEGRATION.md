@@ -1,61 +1,21 @@
 ---
-title: UBI Ratpak Integration Specification
-type: domain
-source: 21_DOMAINS/06_BIOLOGY
-artifact: UBI_RATPAK_INTEGRATION.md
-artifact_id: amos_21_domains_06_biology_ubi_ratpak_integration
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 21_DOMAINS
-segment: 21_DOMAINS/06_BIOLOGY
-artifact_kind: DOMAIN_INTEGRATION
-path: 21_DOMAINS/06_BIOLOGY/UBI_RATPAK_INTEGRATION.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Ubi Ratpak Integration
 tags:
-  - amos-os
-  - domain
-  - vault
-  - 06_biology
-  - ubi_ratpak_integration
-  - binary_serialization
-  - state_tensor_packaging
-  - rscf
-  - canon_candidate
-  - canon/domain
-  - ratpak
-  - ubi-ratpak-binding
-  - unified-biological-intelligence
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/RATPAK
-    - 11_KNOWLEDGE/05_FRAMEWORKS/UBI_RATPAK_BINDING
-    - AMOS_CORPUS
-  scope:
-    - DOMAIN_BIOLOGY
-    - RATPAK_INTEGRATION
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  ratpak_framework:
-    artifact: 11_KNOWLEDGE/05_FRAMEWORKS/RATPAK
-  ratpak_binding:
-    artifact: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_RATPAK_BINDING
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  domain_structure: VERIFIED_SOURCE_STRUCTURE
-  serialization_engine: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # UBI Ratpak Integration Specification

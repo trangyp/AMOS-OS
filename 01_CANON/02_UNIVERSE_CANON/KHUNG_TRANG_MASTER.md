@@ -1,73 +1,16 @@
 ---
-title: Khung Trang Master
-type: trang-framework
-source: 01_CANON/02_UNIVERSE_CANON
-artifact: KHUNG_TRANG_MASTER.md
-artifact_id: amos_01_canon_02_universe_canon_khung_trang_master
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/02_UNIVERSE_CANON
-artifact_kind: CANON_SPECIFICATION
-path: 01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Khung Trang Master
 tags:
-  - amos-os
-  - canon
-  - universe
-  - khung_trang
-  - trang_framework
-  - pre_symbolic_spine
-  - perception
-  - distinction
-  - relationship
-  - constraint
-  - function
-  - meaning
-  - null_ground
-  - emergence
-  - entropy
-  - master_equations
-  - mathematical_foundations
-  - epistemic_governance
-  - rscf
-  - provenance
-  - canon/universe
-  - khung-trang-master-equations
-  - trang-reality-architecture-master
-  - amos-x-trang-reality
-  - references
-  - canon-router
-  - law/L19-proof-capsule
-  - khung-trang-equations
-  - architecture
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: SOURCE_VALIDATED_RUNTIME_VERIFIED
-executable_binding: ESTABLISHED_VIA_VALIDATION_SUITE
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_GROUNDED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 01_CANON/01_CANON_MOC
-    - 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE_MASTER
-    - 25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY
-    - AMOS_CORPUS
-  scope:
-    - UNIVERSE_CANON
-    - KHUNG_TRANG_FRAMEWORK
-    - PRE_SYMBOLIC_ONTOLOGY
-    - MATHEMATICAL_FOUNDATIONS
-  confidence_ceiling:
-    source_model: SOURCE_BOUND
-    runtime: RUNTIME_VERIFIED
-    empirical_universality: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # Khung Trang Master Framework Specification
@@ -3074,4 +3017,6 @@ ______________________________________________________________________
 
 Two material boundaries are deliberately retained in this full version rather than normalized away. First, the `0.8` reset threshold is source-grounded but its measurement function, scale, and empirical calibration are not supplied here, so those remain `UNKNOWN/GAP`. Second, the entropy equation requires internal generation to be no greater than export magnitude for net entropy to be non-positive; negative export by itself is mathematically insufficient.
 
+```
+```
 ```

@@ -1,27 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Vault Domain Knowledge — Amos Boundary Scope Master
-type: reference
-source: 07_SKILLS/amos-boundary-scope-master/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Vault Domain Knowledge
 tags:
-  - reference
-  - amos-boundary-scope-master
-  - type/skill
-  - skill
-  - validation
-  - law/L0-integrity
-  - law/L1-epistemic
-  - law/L2-provenance
-  - law/L3-dependency
-  - law/L4-causal
-  - law/L5-scope-regime
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # amos-boundary-scope-master — Vault-Sourced Domain Knowledge
@@ -44,7 +33,7 @@ canon_status: "PROPOSED_CANON_CONTENT"
 epistemic_class: "AMOS_MODEL"
 ---
 
-## L5 Scope, Regime, and Temporal Laws
+# L5 Scope, Regime, and Temporal Laws
 
 **Origin architect / steward:** Trang Phan
 **Layer:** `01_CANON / 01_CORE_LAWS / L5_SCOPE_REGIME`
@@ -57,7 +46,7 @@ epistemic_class: "AMOS_MODEL"
 
 ---
 
-## 1. Purpose
+# 1. Purpose
 
 `L5_SCOPE_REGIME` establishes the AMOS laws for:
 
@@ -1384,7 +1373,7 @@ RSCF-RELATIONS:
 
 - DEPENDS_ON: [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]]
 - DEPENDS_ON: [[01_CANON/01_CORE_LAWS/L1_EPISTEMIC|L1_EPISTEMIC]]
-- DEPENDS_ON: [[L2_PROVENANCE]
+- DEPENDS_ON: \[[L2_PROVENANCE]
 
 ... (truncated, see vault source for full content)
 

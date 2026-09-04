@@ -1,51 +1,21 @@
 ---
-schema_version: 1.0
-title: SKILL — Amos Fractal Systems Master
-type: skill
-source: 07_SKILLS/amos-fractal-systems-master
-name: amos-fractal-systems-master
-description: AMOS Fractal Systems — fractal architecture, lacunarity, self-similarity, scale-invariance, H/M/L fractal integrity levels. 500,000-entry quantum fractal database. Use when fractal analysis, scale r. Do not use for generic tasks outside fractal domain.
-parent_skill: none
-domain: fractal
-origin_architect: Trang Phan
-epistemic_class: SOURCE_CANON
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Skill
 tags:
-  - type/skill
-  - type/skill
-  - domain/fractal-systems
-  - epistemic/source_claim
-  - hml/m
-  - epistemic/source_canon
-  - amos-os
-  - agent-template
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-  - skill
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
-version: 1.1.0
-rscf_state: SOURCE_CLAIM
-hml_level: M
-gmef_gates:
-  - L0_integrity
-  - L1_epistemic
-  - L2_provenance
-  - L5_scope
-collapse_class: reversible
-qfm_gate_set: QFM_v43
-law_compliance:
-  - L0
-  - L1
-  - L2
-  - L4
-  - L5
-  - L16
-  - L17
-license: MIT
-steward: Trang Phan
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # L15 Fractal Knowledge Laws
@@ -169,7 +139,7 @@ ______________________________________________________________________
 - **Parent**: `none` — routes to this skill when fractal specialization is needed
 - **Peers**: Other skills in the `fractal` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
-- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Workflow**: Each skill has a corresponding workflow in `26_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
 
 ## Evaluation

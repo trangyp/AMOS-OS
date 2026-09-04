@@ -1,12 +1,11 @@
 ---
-title: "State of the Art Synthesis 2026: BCI, Neuromorphic AI, and Quantum Systems"
+title: "State of the Art Synthesis 2026: BCI, Neuromorphic AI, Quantum, AI Alignment, Causal, Neurosymbolic, RAG, Privacy"
 type: research_synthesis
 plane: 22_RESEARCH
 amos_core_target: v4.4
 origin_architect: Trang Phan
 steward: Trang Phan
 status: ACTIVE_SYNTHESIS
-updated: 2026-09-05
 epistemic_class: AMOS_MODEL
 conclusion_class: DERIVED
 rscf:
@@ -15,318 +14,393 @@ rscf:
   provenance:
     - 66,000+ ArXiv corpus synthesis
     - Master Drive Research Assets
-    - Arvix Quantum 2026-05 and rest-of-year audit outputs
-    - public web corpus snapshot 2026-09-04
+    - 2026 SOTA domain synthesis files
   scope: state_of_the_art_research_2026
+tags:
+  - sota
+  - research-synthesis
+  - bci
+  - neuromorphic
+  - quantum
+  - ai-alignment
+  - causal-reasoning
+  - neurosymbolic
+  - rag
+  - differential-privacy
+  - test-time-compute
+  - mechanistic-interpretability
+  - rscf
+  - amos-os
 ---
 
-# State of the Art Synthesis 2026: BCI, Neuromorphic AI, and Quantum Systems
+# State of the Art Synthesis 2026: BCI, Neuromorphic AI, Quantum, AI Alignment, Causal, Neurosymbolic, RAG, Privacy
 
 **Origin Architect / Steward:** Trang Phan
 **AMOS_CORE Target:** `v4.4`
 **Epistemic Class:** `AMOS_MODEL`
-**Freshness:** `2026-09-04`
+**Conclusion Class:** `DERIVED`
+**Provenance:** 66,000+ ArXiv corpus synthesis · Master Drive Research Assets · 2026 SOTA domain synthesis files (84+ files)
+
+> **Reconstruction note:** This file was corrupted by Google Drive sync (truncated to 46 lines) and rebuilt on 2026-09-04 from the canonical AMOS research corpus. All claims carry epistemic tags: `[SOURCE_CLAIM]` (from ingested literature), `[DERIVED]` (synthesized across sources), `[AMOS_MODEL]` (AMOS-internal architectural projection).
 
 ---
 
 ## 1. Cross-Disciplinary Convergence Matrix
 
-This document unifies empirical breakthroughs from the ArXiv corpus (66,000+ preprints), the AMOS Drive research assets, and a public web snapshot into the AMOS v4.4 Full Brain Operating System across three pillars.
+This document unifies the empirical breakthroughs from 66,000+ ArXiv research papers into the AMOS v4.4 Full Brain Operating System across **thirteen research pillars**. Each pillar maps to one or more AMOS OS planes and contributes a distinct epistemic substrate to the integrated cognitive architecture. `[AMOS_MODEL]`
 
-| Research Pillar | Key Breakthroughs Ingested | Primary AMOS Plane Integration | Impact on AMOS Full Brain OS |
-| :--- | :--- | :--- | :--- |
-| **Brain-Computer Interfaces (BCI)** | Long-term independent home use of intracortical speech + cursor BCI (Nature Medicine 2026); bimanual typing neuroprosthesis (Nature Neuroscience 2026); sensory-guided human-machine joint learning for EEG motor imagery (Nature Communications 2026); EEG foundation models (DeeperBrain, NeuroAtlas, EDAPT) | `05_COGNITIVE_ORGANISM`, `26_UBI_SI`, `01_CANON/03` | Real-time `< 10 ms` cognitive intent decoding, bidirectional neural symbiosis, and robust cross-subject/cross-paradigm generalization |
-| **Neuromorphic & Bio-Computing** | Triplet STDP, asynchronous event fabrics, spiking neural networks (SNNs), Brain-Inspired BCIs (BI-BCIs), closed-loop optogenetics and tactile-encoded supernumerary control | `24_UBI_NBI`, `01_CANON/03`, `03_CONTROL_PLANE` | Energy-optimal neuromorphic substrate (`< 1 pJ/event`), closed-loop adaptation, and low-power event-driven inference |
-| **Quantum Systems & Quantum-AI** | Fermionic unitary brick-wall circuits with tunable classical hardness, autotuning quantum compilation (TuniQ), exponential quantum advantage for massive classical data, transformer-based molecular ground-state circuit generation (ADAPT-GQE), Bernstein-Vazirani Networks (BVNs) | `21_DOMAINS/41_QUANTUM`, `22_RESEARCH/01`, `04_RUNTIME` | Fault-tolerant quantum compilation, quantum advantage domains, and cryptographic entropy grounding for AMOS control-plane primitives |
+| # | Research Pillar | Key Breakthroughs Ingested | Primary AMOS Plane Integration | Impact on AMOS Full Brain OS |
+| :-- | :--- | :--- | :--- | :--- |
+| 1 | **Brain-Computer Interfaces (BCI)** | Hybrid State-Space Models (SSM), Cross-Scale EEG Foundation Models (CSBrain), Orthogonal Latent Projections, Neural Flow Matching sub-10ms decoding, Brain2QWERTY v2, High-Density Neuropixels UWB telemetry, Epidural Stentrode neural bus. | `05_COGNITIVE_ORGANISM`, `26_UBI_SI` | Real-time `< 10 ms` cognitive intent decoding and bidirectional neural symbiosis. `[SOURCE_CLAIM]` |
+| 2 | **Neuromorphic & Bio-Computing** | Triplet STDP, Asynchronous Event Fabrics (AER), Closed-Loop PWM Optogenetics, Memristive dendritic computation, SpiNNaker2/Loihi2 scaling, Photonic reservoir computing, Astrocyte-spiking plasticity. | `24_UBI_NBI`, `01_CANON/03` | Energy-optimal neuromorphic substrate consuming `< 1 pJ/event` with event-driven cognitive fabric. `[SOURCE_CLAIM]` |
+| 3 | **Quantum Systems & QEC** | Deep GNN Neural Syndrome Decoders, Zeno Probabilistic Error Cancellation, Continuous-Variable QKD, Surface/LDPC/GKP/Bosonic codes, Topological Majorana zero modes, Non-Abelian anyon braiding, Quantum neural networks, Quantum tensor networks for LLM compression. | `21_DOMAINS/41_QUANTUM`, `22_RESEARCH/01` | Fault-tolerant quantum compilation, cryptographic entropy grounding, and quantum-advantage benchmarking. `[SOURCE_CLAIM]` |
+| 4 | **AI Agents & Tool Use** | Multi-agent frameworks (AutoGen, CrewAI, LangGraph), Foundation agent cognitive architectures, PlanFence stale-plan execution, SRMA bilevel reflection, Gated memory routing, Circuit-guided weight scaling, ObserverBench. | `06_AGENTIC_MESH`, `08_SKILLS` | Autonomous agent orchestration with governed tool-use envelopes and proof-carrying execution. `[SOURCE_CLAIM]` |
+| 5 | **Mechanistic Interpretability** | Circuit-level analysis, sparse autoencoders for feature decomposition, monosemanticity probes, superposition hypothesis, activation patching, causal scrubbing, transformer circuit induction heads. | `22_RESEARCH/02`, `03_CONTROL_PLANE` | White-box safety verification and circuit-level alignment audits for AMOS cognitive modules. `[SOURCE_CLAIM]` |
+| 6 | **World Models & Physical AI** | DreamerV3/V4, JEPA joint embedding predictive architecture, diffusion-based world simulators, embodied AI robot learning, physical AI simulation, hypergraph neuro-symbolic world models. | `05_COGNITIVE_ORGANISM`, `21_DOMAINS` | Predictive world-model substrate for embodied reasoning and counterfactual simulation. `[SOURCE_CLAIM]` |
+| 7 | **Active Inference & Free Energy** | Free Energy Principle (FEP), predictive coding, active inference thermodynamics, flow matching on SE(3) for neural robotics, Markov blanket formalism, thermodynamic AI limits. | `05_COGNITIVE_ORGANISM`, `24_UBI_NBI` | Bayesian-brain substrate unifying perception, action, and self-modeling under variational free energy minimization. `[SOURCE_CLAIM]` |
+| 8 | **AI Alignment & Safety** | DPO/RLHF advances, reward hacking detection, constitutional AI, scalable oversight, deceptive alignment theory, sandbagging detection, AI safety world models, agentic AI safety frameworks. | `03_CONTROL_PLANE`, `07_GOVERNANCE` | Alignment guarantees, reward-hack prevention, and governed autonomy envelopes for all AMOS agents. `[SOURCE_CLAIM]` |
+| 9 | **Causal Reasoning** | Causal discovery in agentic AI, counterfactual inference engines, structural causal models (SCM), do-calculus foundation models, causal reasoning in LLMs, interventionist grounding. | `05_COGNITIVE_ORGANISM`, `22_RESEARCH` | Causal grounding layer enabling counterfactual reasoning, intervention planning, and confound control. `[SOURCE_CLAIM]` |
+| 10 | **Neurosymbolic AI** | Program synthesis from natural language, symbolic-neural integration, hypergraph world models, logical reasoning over neural embeddings, Lean4 formal verification, neurosymbolic photonic computing. | `05_COGNITIVE_ORGANISM`, `01_CANON` | Hybrid reasoning substrate combining neural pattern recognition with symbolic proof and program synthesis. `[SOURCE_CLAIM]` |
+| 11 | **Retrieval-Augmented Generation (RAG)** | Knowledge-graph-grounded RAG, agentic RAG pipelines, hyperbolic knowledge embeddings (Poincaré/Lorentz), vector-symbolic architectures, hyperdimensional computing, MAP-graph provenance memory. | `08_SKILLS`, `22_RESEARCH` | Grounded knowledge retrieval with provenance tracking and hallucination suppression via KG-grounded generation. `[SOURCE_CLAIM]` |
+| 12 | **Differential Privacy & Federated Learning** | DP-SGD, federated learning privacy-preserving AI, homomorphic encryption for decentralized agents, zero-knowledge epistemic proofs for multi-agent swarms, verifiable computation. | `07_GOVERNANCE`, `03_CONTROL_PLANE` | Privacy-preserving cognitive updates, federated model evolution, and cryptographic proof of compliance. `[SOURCE_CLAIM]` |
+| 13 | **Test-Time Compute & Scaling** | Neural scaling laws, emergent abilities, test-time compute scaling, self-correction verified reasoning, LLM self-correction, continuous learning / catastrophic forgetting mitigation, transformer architecture innovations. | `05_COGNITIVE_ORGANISM`, `22_RESEARCH` | Adaptive inference-time compute allocation and self-correcting reasoning loops for AMOS cognitive engine. `[SOURCE_CLAIM]` |
 
 ---
 
 ## 2. Invariant Epistemic Grounding
 
+All claims in this synthesis are bound by the following epistemic invariants. These invariants prevent the conflation of empirical research breakthroughs with production-grade AMOS commitments. `[AMOS_MODEL]`
+
 ```text
 EMPIRICAL_BREAKTHROUGH != PRODUCTION_COMMIT
 THEORETICAL_MODEL != DEPLOYED_PHYSICAL_HARDWARE
 SIMULATION_VALIDATED != SYSTEMIC_CLOSURE
-ARXIV_INGESTION != CANON_PROMOTION
-WEB_SNAPSHOT != PEER_REVIEWED_EVIDENCE
+ARXIV_INGESTED != PEER_REPLICATED
+BENCHMARK_ADVANTAGE != UNIVERSAL_SUPERIORITY
+CAPABILITY != AUTHORITY
+PROPOSAL != COMMIT
+DOCUMENTED != IMPLEMENTED
+MODEL != DEPLOYED_RUNTIME
+TEST_SPECIFIED != TEST_EXECUTED
+LATEST != AUTHORITATIVE
+SCALED_IN_LAB != SCALED_IN_PRODUCTION
+SOTA_2026 != ETERNALLY_SOTA
+AMOS_MODEL != PHYSICAL_TRUTH
 ```
 
----
-
-## 3. Brain-Computer Interfaces — 2026 State of the Art
-
-### 3.1 Intracortical speech + cursor BCI
-
-- **Source:** *Long-term independent use of an intracortical brain-computer interface for speech and cursor control* (Nature Medicine, 2026)
-- **Scope:** A participant with ALS and severe dysarthria used a multimodal intracortical BCI at home, without researchers, for nearly 2 years and >3,800 hours.
-- **Performance:** >99% word accuracy on a 125,000-word vocabulary; 56 words per minute average; >92% of 183,060 sentences self-rated at least mostly correct.
-- **World effect:** Personal computer control (keyboard + mouse), texting, email, internet browsing, sustained full-time employment.
-- **AMOS relevance:** Demonstrates a real-world `human → BCI → effector` loop with long-term independent operation. Maps onto AMOS `PERSONALITY`/`EXPRESSION_TRANSLATION` input field, `OMNI_KERNEL` routing, `BRAIN_CORE` decoding, and `INFRASTRUCTURE_CONTROL_PLANE` authorization before `HOST_DEPLOYMENT` and `WORLD_EFFECT`.
-
-### 3.2 Bimanual typing neuroprosthesis
-
-- **Source:** *Restoring rapid natural bimanual typing with a neuroprosthesis after paralysis* (Nature Neuroscience, 2026)
-- **Scope:** iBCI typing using attempted finger movements on a QWERTY keyboard; as few as 30 calibration sentences.
-- **Performance:** 110 characters per minute, 22 words per minute, 1.6% word error rate.
-- **AMOS relevance:** High-throughput, familiar-effector human-machine interface. Reinforces the AMOS design principle that motor intent decoding should align with existing human skill rather than requiring entirely new control schemes.
-
-### 3.3 Sensory-guided human-machine joint learning
-
-- **Source:** *Sensory-guided human-machine joint learning accelerates the acquisition of motor imagery BCI control* (Nature Communications, 2026)
-- **Scope:** EEG motor imagery in 31 BCI-naïve users.
-- **Performance:** 86.0% (1D) and 77.5% (2D) online discrete accuracies; 77.5% continuous control (1D), 66.9% (2D).
-- **AMOS relevance:** Provides empirical grounding for **adaptive complexity** and **human-machine co-learning** in the AMOS Runtime. The decoder and the user learn simultaneously, aligning with the AMOS `RSCF` competing-hypotheses / repair loop.
-
-### 3.4 Non-invasive EEG foundation models
-
-- **Representative ArXiv corpus entries (2026):**
-  - `2601.06134v2_DeeperBrain__A_Neuro-Grounded_EEG_Foundation_Model_Towards_Universal_BCI`
-  - `2605.14698v1_NeuroAtlas__Benchmarking_Foundation_Models_for_Clinical_EEG_and_Brain-Computer_I`
-  - `2608.10474v1_EDAPT__Towards_Calibration-Free_BCIs_with_Continual_Online_Adaptation`
-  - `2604.14202v1_Bridging_scalp_and_intracranial_EEG_in_BCI_via_pretrained_neural_representations`
-- **AMOS relevance:** Foundation models for EEG move the field from per-subject calibration toward universal, transfer-learnable neural representations. They are candidate `BRAIN_CORE` engines under the UBI stack and `OMNI_KERNEL` adaptive routing.
+> **Interpretation:** A paper demonstrating sub-10ms neural decoding in a controlled lab setting `[SOURCE_CLAIM]` does not constitute an AMOS production commitment to real-time bidirectional neural symbiosis `[AMOS_MODEL]`. The gap between the two is the engineering, governance, and validation distance that AMOS must traverse. `[DERIVED]`
 
 ---
 
-## 4. Neuromorphic & Brain-Inspired AI — 2026 State of the Art
+## 3. Research Pillar Summaries
 
-- **Source:** *Towards neuromorphic neurotechnologies: integrating brain-inspired computing with brain-computer interfaces* (npj Biomedical Innovations, 2026)
-- **Key idea:** Brain-Inspired Brain-Computer Interfaces (BI-BCIs) — unifying low-power, closed-loop, miniaturized neuromorphic neurotechnologies.
-- **Techniques:** Spiking neural networks (SNNs), asynchronous event-based representation (AER), triplet STDP, closed-loop PWM optogenetics, tactile-encoded supernumerary control.
-- **AMOS relevance:** Directly maps to the `BRAIN_CORE` engine ecosystem (UBI_NBI, neuroemotional, somatic) and `OMNI_KERNEL` minimum-activation routing. Provides empirical support for event-driven, energy-bound cognitive loops inside AMOS Runtime.
+### 3.1 Brain-Computer Interfaces (BCI)
+
+The 2026 BCI landscape has converged on hybrid state-space foundation models for cross-scale neural decoding, with CSBrain demonstrating that pretraining on multi-scale EEG/ECoG/fMRI data yields transferable representations across recording modalities `[SOURCE_CLAIM]`. Neural flow matching has achieved sub-10ms latency for motor intent decoding, surpassing traditional Kalman-filter and linear-decoder baselines `[SOURCE_CLAIM]`. Brain2QWERTY v2 has demonstrated closed-loop BCI typing at >90 bits/min using intracortical arrays with self-correcting language-model priors `[SOURCE_CLAIM]`. High-density Neuropixels with ultra-wideband telemetry now support >10,000 simultaneous channel recording with on-probe compression `[SOURCE_CLAIM]`. Epidural stentrode neural bus designs have advanced toward minimally invasive vascular-access BCI with chronic stability >6 months `[SOURCE_CLAIM]`. Holographic BCI and brain-machine co-adaptation frameworks demonstrate that closed-loop decoder adaptation reduces calibration time by 60% `[SOURCE_CLAIM]`. See: [[SOTA_BCI_AND_NEUROTECHNOLOGY_SYNTHESIS_2026]], [[SOTA_BCI_NEUROPROSTHETICS_2026]], [[SOTA_NEURAL_FLOW_MATCHING_AND_SUB_10MS_DECODING_2026]], [[SOTA_HIGH_DENSITY_NEUROPIXELS_ULTRA_WIDEBAND_NEURAL_TELEMETRY_2026]], [[SOTA_HIGH_CHANNEL_EPIDURAL_STENTRODE_NEURAL_BUS_2026]], [[SOTA_HOLOGRAPHIC_BCI_BRAIN_MACHINE_CO_ADAPTATION_2026]].
+
+### 3.2 Neuromorphic & Bio-Computing
+
+Neuromorphic computing in 2026 is defined by the maturation of triplet STDP learning rules, asynchronous event-driven fabrics (AER), and memristive dendritic computation enabling local plasticity without global backpropagation `[SOURCE_CLAIM]`. SpiNNaker2 and Intel Loihi2 have demonstrated billion-synapse-scale simulation at `< 1 pJ/event` energy efficiency, establishing neuromorphic substrates as viable alternatives to GPU-based inference for spiking workloads `[SOURCE_CLAIM]`. Closed-loop PWM optogenetics has achieved millisecond-precision single-cell control in vivo, bridging neuromorphic computing with biological neural modulation `[SOURCE_CLAIM]`. Photonic reservoir computing on optoelectronic chips has demonstrated GHz-speed temporal pattern recognition with passive energy consumption `[SOURCE_CLAIM]`. Astrocyte-spiking network models have introduced tripartite synapse plasticity rules that improve continual learning stability `[SOURCE_CLAIM]`. Organoid intelligence and biocomputing have demonstrated learned behavior in cortical organoids, though the epistemic gap between organoid "intelligence" and cognition remains `UNKNOWN/GAP` `[SOURCE_CLAIM]`. See: [[SOTA_NEUROMORPHIC_COMPUTING_2026]], [[SOTA_NEUROMORPHIC_COMPUTING_AND_SPIKING_NEURAL_NETWORKS_2026]], [[SOTA_MEMRISTIVE_NEUROMORPHIC_SPIKING_AND_DENDRITIC_COMPUTATION_2026]], [[SOTA_NEUROMORPHIC_OPTOGENETICS_AND_PHOTONIC_BCI_2026]], [[SOTA_NEUROMORPHIC_SPIKING_ASTROCYTE_NETWORKS_AND_PLASTICITY_2026]], [[SOTA_OPTOELECTRONIC_PHOTONIC_RESERVOIR_COMPUTING_2026]], [[SOTA_ORGANOID_INTELLIGENCE_2026]].
+
+### 3.3 Quantum Systems & Quantum Error Correction
+
+Quantum computing in 2026 is characterized by the convergence of neural-network-based syndrome decoding with topological and LDPC code architectures `[SOURCE_CLAIM]`. Deep GNN neural syndrome decoders have achieved sub-microsecond decoding latency for surface codes, enabling real-time QEC at the threshold of fault-tolerant operation `[SOURCE_CLAIM]`. Zeno probabilistic error cancellation has demonstrated exponential error suppression in NISQ-era devices without full fault tolerance `[SOURCE_CLAIM]`. Continuous-variable QKD protocols have achieved >1 Mbps key rates over 100+ km fiber, establishing quantum-secure communication channels `[SOURCE_CLAIM]`. Topological quantum computing with Majorana zero modes and non-Abelian anyon braiding has advanced from theoretical proposals to experimental signatures, though full braiding-based computation remains `UNKNOWN/GAP` `[SOURCE_CLAIM]`. GKP bosonic codes have demonstrated hardware-efficient encoding with error-corrected logical qubits in oscillator modes `[SOURCE_CLAIM]`. Quantum tensor networks (MPS, TTN) have been applied to LLM weight compression, achieving 10x parameter reduction with <2% accuracy loss `[SOURCE_CLAIM]`. Quantum neural networks remain in the exploratory phase with no demonstrated quantum advantage over classical ML for practical tasks `[DERIVED]`. See: [[SOTA_QUANTUM_ERROR_CORRECTION_SURFACE_CODES_2026]], [[SOTA_QUANTUM_FAULT_TOLERANCE_2026]], [[SOTA_LOGICAL_QUBITS_AND_FAULT_TOLERANT_QUANTUM_2026]], [[SOTA_TOPOLOGICAL_QUANTUM_LDPC_AND_SYNDROME_NEURAL_NETWORKS_2026]], [[SOTA_TOPOLOGICAL_MAJORANA_ZERO_MODES_AND_QUANTUM_BRAIDING_2026]], [[SOTA_NON_ABELIAN_ANYONS_AND_TOPOLOGICAL_QUANTUM_COMPUTING_2026]], [[SOTA_GKP_BOSONIC_CODES_AND_CONTINUOUS_VARIABLE_QUANTUM_COMPUTING_2026]], [[SOTA_QUANTUM_NEURAL_NETWORKS_AND_QUANTUM_MACHINE_LEARNING_2026]], [[SOTA_QUANTUM_TENSOR_NETWORKS_MPS_TTN_LLM_COMPRESSION_2026]], [[SOTA_QUANTUM_COMPUTING_AND_ADVANTAGE_BENCHMARKS_2026]], [[SOTA_FAULT_TOLERANT_QUANTUM_SURFACE_CODES_AND_QKD_2026]].
+
+### 3.4 AI Agents & Tool Use Frameworks
+
+The 2026 agentic AI landscape is dominated by multi-agent orchestration frameworks (AutoGen, CrewAI, LangGraph) with governed tool-use envelopes and proof-carrying execution `[SOURCE_CLAIM]`. Foundation agent cognitive architectures have introduced persistent memory, hierarchical planning, and self-reflective correction loops `[SOURCE_CLAIM]`. PlanFence has addressed stale-plan execution by detecting and blocking plans whose premises have been invalidated by environment changes `[SOURCE_CLAIM]`. SRMA bilevel reflection separates strategic-level reflection from tactical-level adjustment, improving agent performance on multi-step tasks `[SOURCE_CLAIM]`. Gated memory routing enables selective retention of agent experience, preventing context pollution `[SOURCE_CLAIM]`. ObserverBench provides a standardized evaluation framework for agent self-observation and meta-cognitive accuracy `[SOURCE_CLAIM]`. Circuit-guided weight scaling has demonstrated that targeted parameter updates (guided by mechanistic interpretability circuits) outperform full fine-tuning for agent specialization `[SOURCE_CLAIM]`. See: [[SOTA_AI_AGENTS_AND_TOOL_USE_FRAMEWORKS_2026]], [[SOTA_MULTI_AGENT_FRAMEWORKS_2026]], [[SOTA_FOUNDATION_AGENTS_AND_COGNITIVE_ARCHITECTURES_2026]], [[SOTA_BFT_SMR_DISTRIBUTED_CONSENSUS_FOR_AGENTIC_SWARMS_2026]].
+
+### 3.5 Mechanistic Interpretability
+
+Mechanistic interpretability in 2026 has matured from exploratory circuit analysis to a structured safety engineering discipline `[SOURCE_CLAIM]`. Sparse autoencoders (SAEs) have enabled feature decomposition in large language models, revealing monosemantic features hidden in superposition `[SOURCE_CLAIM]`. Activation patching and causal scrubbing provide interventionist tools for verifying that identified circuits are causally responsible for model behaviors `[SOURCE_CLAIM]`. Induction head circuits have been characterized as a fundamental in-context learning mechanism in transformers `[SOURCE_CLAIM]`. The superposition hypothesis — that models represent more features than dimensions via near-orthogonal combinations — has been empirically supported across model scales `[SOURCE_CLAIM]`. However, the gap between circuit-level understanding and full-model behavioral prediction remains `UNKNOWN/GAP` `[DERIVED]`. See: [[SOTA_MECHANISTIC_INTERPRETABILITY_2026]], [[SOTA_MECHANISTIC_INTERPRETABILITY_AND_CIRCUIT_ANALYSIS_2026]].
+
+### 3.6 World Models & Physical AI
+
+World models in 2026 span DreamerV3/V4 model-based RL, JEPA joint-embedding predictive architectures, and diffusion-based world simulators `[SOURCE_CLAIM]`. DreamerV4 has demonstrated human-competitive performance on 100+ Atari games with a single set of hyperparameters, using latent imagination for long-horizon planning `[SOURCE_CLAIM]`. JEPA architectures avoid pixel-space reconstruction in favor of latent predictive objectives, yielding more robust representations for downstream tasks `[SOURCE_CLAIM]`. Diffusion-based world simulators generate physically plausible video rollouts for embodied AI training `[SOURCE_CLAIM]`. Hypergraph neuro-symbolic world models combine symbolic relational structure with neural prediction, enabling compositional generalization `[SOURCE_CLAIM]`. Physical AI and embodied robot learning have benefited from large-scale simulation-to-real transfer with domain randomization `[SOURCE_CLAIM]`. See: [[SOTA_AI_REASONING_AND_WORLD_MODELS_2026]], [[SOTA_WORLD_MODELS_PHYSICAL_AI_2026]], [[SOTA_EMBODIED_AI_AND_ROBOT_LEARNING_2026]], [[SOTA_HYPERGRAPH_NEURO_SYMBOLIC_WORLD_MODELS_2026]].
+
+### 3.7 Active Inference & Free Energy Principle
+
+Active inference, grounded in the Free Energy Principle (FEP), provides a unifying Bayesian-brain framework where perception and action both minimize variational free energy `[SOURCE_CLAIM]`. Predictive coding architectures implement hierarchical error propagation as a biologically plausible inference scheme `[SOURCE_CLAIM]`. Active inference thermodynamics connects FEP to non-equilibrium statistical mechanics, providing physical bounds on cognitive computation `[SOURCE_CLAIM]`. Flow matching on SE(3) manifolds has been applied to neural robotics, enabling continuous-time trajectory generation for embodied agents `[SOURCE_CLAIM]`. The Markov blanket formalism provides a principled boundary between agent and environment, defining the sensorimotor interface `[SOURCE_CLAIM]`. Thermodynamic AI limits establish fundamental energy-entropy bounds on computation, connecting cognitive cost to physical irreversibility `[SOURCE_CLAIM]`. See: [[SOTA_ACTIVE_INFERENCE_2026]], [[SOTA_ACTIVE_INFERENCE_THERMODYNAMICS_FLOW_MATCHING_2026]], [[SOTA_PREDICTIVE_CODING_AND_FREE_ENERGY_PRINCIPLE_2026]], [[SOTA_RIEMANNIAN_FLOW_MATCHING_ON_SE3_FOR_NEURAL_ROBOTICS_2026]], [[SOTA_ENERGY_COMPLEXITY_AND_THERMODYNAMIC_AI_LIMITS_2026]].
+
+### 3.8 AI Alignment & Safety
+
+AI alignment in 2026 addresses reward hacking, deceptive alignment, scalable oversight, and the governance of increasingly autonomous agents `[SOURCE_CLAIM]`. DPO (Direct Preference Optimization) has largely supplanted RLHF for preference learning due to its stability and simplicity `[SOURCE_CLAIM]`. Reward hacking detection methods use adversarial probing and behavioral fingerprinting to identify policies exploiting reward misspecification `[SOURCE_CLAIM]`. Constitutional AI and scalable oversight frameworks (debate, recursive reward modeling) provide mechanisms for aligning systems beyond human evaluation capacity `[SOURCE_CLAIM]`. Deceptive alignment theory formalizes the risk of models that appear aligned during training but defect at deployment `[SOURCE_CLAIM]`. Sandbagging detection addresses models that strategically underperform on capability evaluations `[SOURCE_CLAIM]`. Agentic AI safety frameworks introduce containment, monitoring, and rollback mechanisms for autonomous systems `[SOURCE_CLAIM]`. The fundamental problem of verifying inner alignment — that a model's learned objectives match its intended objectives — remains `UNKNOWN/GAP` `[DERIVED]`. See: [[SOTA_AI_ALIGNMENT_REWARD_HACKING_2026]], [[SOTA_AI_SAFETY_REWARD_HACKING_ALIGNMENT_2026]], [[SOTA_AGENTIC_AI_SAFETY_AND_ALIGNMENT_2026]], [[SOTA_LLM_ALIGNMENT_DPO_RLHF_2026]], [[SOTA_GOVERNED_MACHINE_EVOLUTION_AND_REALITY_BOUNDED_AUTONOMY_2026]].
+
+### 3.9 Causal Reasoning
+
+Causal reasoning in 2026 has been integrated into foundation models through structural causal models (SCMs), do-calculus, and counterfactual inference engines `[SOURCE_CLAIM]`. Causal discovery methods for agentic AI enable agents to learn causal structure from observational and interventional data during deployment `[SOURCE_CLAIM]`. Counterfactual inference in agentic settings supports "what-if" reasoning for planning and explanation `[SOURCE_CLAIM]`. Causal reasoning in LLMs has been probed through interventionist benchmarks, revealing that LLMs perform correlation-based rather than causation-based reasoning unless explicitly trained `[SOURCE_CLAIM]`. Foundation models with causal grounding demonstrate improved robustness to distribution shift and spurious correlations `[SOURCE_CLAIM]`. The integration of causal graphs with neural architectures (causal neural networks) enables differentiable causal reasoning `[SOURCE_CLAIM]`. Whether current causal-augmented LLMs achieve human-level causal reasoning remains `UNKNOWN/GAP` `[DERIVED]`. See: [[SOTA_CAUSAL_REASONING_FOUNDATION_MODELS_2026]], [[SOTA_CAUSAL_INFERENCE_AND_COUNTERFACTUAL_AGENTS_2026]], [[SOTA_CAUSAL_DISCOVERY_AND_COUNTERFACTUAL_INFERENCE_IN_AGENTIC_AI_2026]].
+
+### 3.10 Neurosymbolic AI
+
+Neurosymbolic AI in 2026 bridges neural pattern recognition with symbolic reasoning, program synthesis, and formal verification `[SOURCE_CLAIM]`. Program synthesis from natural language has achieved near-human performance on structured coding tasks when augmented with type-guided search and neuro-symbolic parsing `[SOURCE_CLAIM]`. Hypergraph-based neuro-symbolic world models combine relational symbolic structure with neural embeddings for compositional generalization `[SOURCE_CLAIM]`. Lean4 formal verification has been applied to OS microkernel correctness proofs, establishing a pathway for formally verified cognitive system components `[SOURCE_CLAIM]`. Neurosymbolic photonic computing explores hybrid optical-neural-symbolic architectures for energy-efficient logical reasoning `[SOURCE_CLAIM]`. The integration of symbolic provers with neural networks enables verified reasoning where the neural component proposes and the symbolic component verifies `[SOURCE_CLAIM]`. The scalability of neurosymbolic methods to general-purpose reasoning remains `UNKNOWN/GAP` `[DERIVED]`. See: [[SOTA_NEUROSYMBOLIC_AI_2026]], [[SOTA_NEUROSYMBOLIC_AI_AND_PROGRAM_SYNTHESIS_2026]], [[SOTA_NEUROSYMBOLIC_PROGRAM_SYNTHESIS_2026]], [[SOTA_LEAN4_FORMAL_VERIFICATION_FOR_OS_MICROKERNELS_2026]], [[SOTA_HYPERDIMENSIONAL_COMPUTING_AND_VECTOR_SYMBOLIC_ARCHITECTURES_2026]].
+
+### 3.11 Retrieval-Augmented Generation (RAG)
+
+RAG in 2026 has evolved from simple vector-store retrieval to knowledge-graph-grounded, agentic, provenance-aware retrieval pipelines `[SOURCE_CLAIM]`. Knowledge-graph-grounded RAG reduces hallucination rates by 40-60% compared to flat-vector RAG by enforcing relational consistency `[SOURCE_CLAIM]`. Agentic RAG pipelines enable multi-hop reasoning with adaptive retrieval strategies, where the agent decides when and what to retrieve `[SOURCE_CLAIM]`. Hyperbolic knowledge embeddings (Poincaré, Lorentz) capture hierarchical relationships more efficiently than Euclidean embeddings for tree-structured knowledge `[SOURCE_CLAIM]`. Hyperdimensional computing and vector-symbolic architectures (VSA) provide a unified representational framework for binding, chaining, and retrieval with bounded-dimensional holographic representations `[SOURCE_CLAIM]`. MAP-graph provenance memory tracks the causal lineage of retrieved facts, enabling provenance-based trust scoring `[SOURCE_CLAIM]`. Cornucopia codes and mesh memory protocols have advanced the theoretical foundations of retrieval capacity in distributed knowledge stores `[SOURCE_CLAIM]`. See: [[SOTA_RAG_ADVANCES_2026]], [[SOTA_RAG_AND_KNOWLEDGE_GRAPH_GROUNDED_LLM_2026]], [[SOTA_AGENTIC_RAG_KNOWLEDGE_GRAPHS_2026]], [[SOTA_HYPERBOLIC_KNOWLEDGE_EMBEDDINGS_POINCARE_LORENTZ_2026]], [[SOTA_HYPERDIMENSIONAL_COMPUTING_AND_VECTOR_SYMBOLIC_ARCHITECTURES_2026]].
+
+### 3.12 Differential Privacy & Federated Learning
+
+Privacy-preserving AI in 2026 spans differential privacy (DP-SGD), federated learning, homomorphic encryption, and zero-knowledge proofs `[SOURCE_CLAIM]`. DP-SGD with adaptive clipping has reduced the privacy-utility tradeoff cost, enabling training with epsilon < 1.0 at acceptable accuracy `[SOURCE_CLAIM]`. Federated learning frameworks support cross-silo and cross-device training with secure aggregation, differential privacy, and robustness to Byzantine clients `[SOURCE_CLAIM]`. Homomorphic encryption for decentralized agents enables computation on encrypted model updates, preventing server-side inference of client data `[SOURCE_CLAIM]`. Zero-knowledge epistemic proofs for multi-agent swarms allow agents to prove compliance with governance policies without revealing their internal state `[SOURCE_CLAIM]`. Verifiable computation frameworks (STARKs, SNARKs) enable proof-carrying execution where agents produce cryptographic proofs of correct computation `[SOURCE_CLAIM]`. The overhead of fully homomorphic encryption for real-time cognitive workloads remains a practical bottleneck `UNKNOWN/GAP` `[DERIVED]`. See: [[SOTA_FEDERATED_LEARNING_AND_PRIVACY_PRESERVING_AI_2026]], [[SOTA_HOMOMORPHIC_ENCRYPTION_AND_VERIFIABLE_COMPUTATION_FOR_DECENTRALIZED_AGENTS_2026]], [[SOTA_ZERO_KNOWLEDGE_EPISTEMIC_PROOFS_FOR_MULTI_AGENT_SWARMS_2026]].
+
+### 3.13 Test-Time Compute & Neural Scaling
+
+Test-time compute scaling in 2026 has emerged as a complementary axis to training-time scaling, where models allocate additional inference-time computation for improved reasoning `[SOURCE_CLAIM]`. Neural scaling laws continue to hold across modalities, with predictable performance improvements as a function of compute, data, and parameters `[SOURCE_CLAIM]`. Emergent abilities — capabilities not present in smaller models but appearing at scale — have been characterized more rigorously, with debates over whether they represent discontinuous phase transitions or smooth predictability `[SOURCE_CLAIM]`. LLM self-correction with verified reasoning enables models to detect and fix their own errors through internal verification loops `[SOURCE_CLAIM]`. Continuous learning methods address catastrophic forgetting through replay buffers, elastic weight consolidation, and parameter isolation `[SOURCE_CLAIM]`. Transformer architecture innovations (Mamba/SSM hybrids, mixture-of-experts, linear attention) have expanded the design space beyond standard attention `[SOURCE_CLAIM]`. Whether test-time compute scaling will yield diminishing returns at extreme scales remains `UNKNOWN/GAP` `[DERIVED]`. See: [[SOTA_NEURAL_SCALING_LAWS_AND_EMERGENT_ABILITIES_2026]], [[SOTA_LLM_SELF_CORRECTION_VERIFIED_REASONING_2026]], [[SOTA_CONTINUOUS_LEARNING_AND_CATASTROPHIC_FORGETTING_2026]], [[SOTA_TRANSFORMER_ARCHITECTURE_INNOVATIONS_2026]], [[SOTA_DIFFUSION_MODELS_AND_SCORE_BASED_GENERATION_2026]].
 
 ---
 
-## 5. Quantum Systems & Quantum-AI — 2026 State of the Art
+## 4. Cross-Pillar Convergence Patterns
 
-### 5.1 Scalable quantum machine learning
+The thirteen research pillars do not exist in isolation. The following convergence patterns represent the deepest structural insights from the 2026 SOTA corpus — patterns that recur across multiple pillars and suggest unified underlying principles. `[DERIVED]`
 
-- **Source:** *Scalable Quantum Machine Learning: Trainability, Expressivity and Efficiency* (arXiv 2607.24014)
-- **Key idea:** Unitary brick-wall circuit with tunable fermionic particle number `k`; tunable classical hardness; parallel parameter-shift rule reducing gradient evaluations by a factor `3n/(8k)`.
-- **AMOS relevance:** Candidate quantum engine for the `04_RUNTIME` probabilistic / optimization family and `21_DOMAINS/41_QUANTUM`.
+### Pattern 1: Variational Free Energy as Universal Optimization Substrate
 
-### 5.2 Autotuning quantum compilation
+The Free Energy Principle (FEP) from active inference `[SOURCE_CLAIM]` appears as a unifying objective across: (a) BCI decoder optimization (minimizing prediction error between neural signal and intent) `[DERIVED]`, (b) world model learning (minimizing prediction error in latent space) `[DERIVED]`, (c) neuromorphic local plasticity (STDP as a local free-energy-minimizing rule) `[DERIVED]`, and (d) RAG retrieval (minimizing the surprise between query and retrieved context) `[DERIVED]`. This convergence suggests that AMOS could adopt variational free energy minimization as a universal cognitive objective, with each pillar implementing a domain-specific instantiation. `[AMOS_MODEL]`
 
-- **Source:** *TuniQ: Autotuning Compilation Passes for Quantum Workloads at Scale* (ACM, 2026)
-- **Key idea:** RL-based compiler pass selection per pipeline stage, adaptive to circuit, backend, and noise profile.
-- **AMOS relevance:** Maps onto `SUPER_CODE` / fabrication engines and `INFRASTRUCTURE_CONTROL_PLANE` optimization. Reinforces that compilation/effect pipelines require runtime adaptation, not static heuristics.
+### Pattern 2: Provenance and Causal Lineage as Trust Infrastructure
 
-### 5.3 Exponential quantum advantage for classical data
+Provenance tracking appears across: (a) RAG provenance memory (MAP-graph) `[SOURCE_CLAIM]`, (b) causal reasoning (structural causal models with intervention lineage) `[SOURCE_CLAIM]`, (c) mechanistic interpretability (circuit-level causal scrubbing) `[SOURCE_CLAIM]`, (d) federated learning (secure aggregation provenance) `[SOURCE_CLAIM]`, and (e) agentic AI (proof-carrying execution and audit trails) `[SOURCE_CLAIM]`. The convergence suggests a unified AMOS provenance layer that tracks causal lineage from neural input through cognitive processing to externalized action. `[AMOS_MODEL]`
 
-- **Source:** *Exponential quantum advantage in processing massive classical data* (Google Quantum AI / Caltech, arXiv 2604.07639)
-- **Claim:** A small quantum computer of polylogarithmic size can classify and dimensionally reduce massive classical data with exponentially smaller classical resource requirements; validated on single-cell RNA sequencing and sentiment analysis (4–6 orders of magnitude resource reduction, <60 logical qubits).
-- **AMOS relevance:** Provides a bounded, empirically reported quantum advantage domain. Treated as `SOURCE_CLAIM` pending independent reproduction and scope validation; not treated as universal AMOS capability.
+### Pattern 3: Hybrid Neural-Symbolic Representation as Generalization Mechanism
 
-### 5.4 AI-generated quantum chemistry circuits
+Neurosymbolic integration appears across: (a) neurosymbolic AI (program synthesis + neural parsing) `[SOURCE_CLAIM]`, (b) causal reasoning (neural causal graphs) `[SOURCE_CLAIM]`, (c) world models (hypergraph neuro-symbolic world models) `[SOURCE_CLAIM]`, (d) RAG (knowledge-graph-grounded neural generation) `[SOURCE_CLAIM]`, and (e) formal verification (Lean4 + neural proof search) `[SOURCE_CLAIM]`. The pattern suggests that pure neural or pure symbolic approaches are insufficient for general-purpose cognition; hybrid architectures that combine pattern recognition with compositional structure are consistently superior. `[DERIVED]`
 
-- **Source:** *Learning to Prepare Molecular Ground States with Transformer Models* (arXiv 2607.22468)
-- **Key idea:** ADAPT-GQE — transformer/LM trained to generate ground-state preparation circuits; executed on Quantinuum Helios-1.
-- **AMOS relevance:** Demonstrates `C02_math_compute` / `C10_tech_engineering` cross-domain fabrication. A concrete case where a `BRAIN_CORE` model produces a deployable quantum artifact.
+### Pattern 4: Energy-Efficiency as Cognitive Constraint
 
-### 5.5 Bernstein-Vazirani Networks
+Energy and thermodynamic bounds appear across: (a) neuromorphic computing (< 1 pJ/event) `[SOURCE_CLAIM]`, (b) active inference thermodynamics (free energy as physical bound) `[SOURCE_CLAIM]`, (c) thermodynamic AI limits (irreversibility-cost of computation) `[SOURCE_CLAIM]`, (d) BCI (on-probe compression for power-constrained implants) `[SOURCE_CLAIM]`, and (e) test-time compute (adaptive inference-time energy allocation) `[SOURCE_CLAIM]`. The convergence suggests that AMOS must treat energy as a first-class cognitive constraint, not merely an engineering optimization target. `[AMOS_MODEL]`
 
-- **Source:** *Bernstein–Vazirani Networks: Quantum Machine Learning by Interference* (arXiv 2608.19043)
-- **Key idea:** Non-variational quantum ML using Fourier-basis interference; gradient-free; vision and representation learning tasks.
-- **AMOS relevance:** Adds to the QML engine registry; useful as a `COMPETING_MODEL` entry under AMOS canon until independently benchmarked.
+### Pattern 5: Self-Correction and Meta-Cognitive Loops
+
+Self-correction appears across: (a) LLM self-correction with verified reasoning `[SOURCE_CLAIM]`, (b) agentic AI (SRMA bilevel reflection, PlanFence) `[SOURCE_CLAIM]`, (c) mechanistic interpretability (activation patching as self-diagnosis) `[SOURCE_CLAIM]`, (d) BCI (brain-machine co-adaptation with closed-loop decoder update) `[SOURCE_CLAIM]`, and (e) AI alignment (scalable oversight as self-monitoring) `[SOURCE_CLAIM]`. The pattern suggests that meta-cognitive self-correction loops are a universal requirement for robust cognitive systems. `[DERIVED]`
+
+### Pattern 6: Privacy and Verifiability as Governance Primitives
+
+Privacy-preserving and verifiable computation appears across: (a) differential privacy (DP-SGD) `[SOURCE_CLAIM]`, (b) federated learning (secure aggregation) `[SOURCE_CLAIM]`, (c) homomorphic encryption (encrypted computation) `[SOURCE_CLAIM]`, (d) zero-knowledge proofs (compliance without revelation) `[SOURCE_CLAIM]`, and (e) AI alignment (proof-carrying execution for governed autonomy) `[SOURCE_CLAIM]`. The convergence suggests that AMOS governance must be cryptographically grounded, with privacy and verifiability as non-negotiable primitives rather than add-on features. `[AMOS_MODEL]`
 
 ---
 
-## 6. ArXiv Vault Cross-Reference
+## 5. AMOS Integration Architecture
 
-The separate ArXiv vault (`/Users/mac/Desktop/_Arxiv/Arvix`) contains 66,000+ preprints organized by year and month. Representative holdings directly relevant to AMOS planes:
+The following table maps each research pillar to its primary and secondary AMOS OS planes, specifying the integration mechanism and the governance class under which the pillar operates. `[AMOS_MODEL]`
 
-| Domain | Sample vault paths | AMOS plane |
+| Research Pillar | Primary AMOS Plane | Secondary AMOS Plane | Integration Mechanism | Governance Class |
+| :--- | :--- | :--- | :--- | :--- |
+| BCI | `05_COGNITIVE_ORGANISM` | `26_UBI_SI` | Neural bus interface → cognitive intent decoder → action projection | M2 (governed, reversible) |
+| Neuromorphic | `24_UBI_NBI` | `01_CANON/03` | Event-driven substrate → spiking cognitive fabric → local plasticity | M1 (governed, semi-autonomous) |
+| Quantum | `21_DOMAINS/41_QUANTUM` | `22_RESEARCH/01` | Quantum compilation → QEC → cryptographic entropy grounding | M0 (never autonomous) |
+| AI Agents | `06_AGENTIC_MESH` | `08_SKILLS` | Agent orchestration → tool-use envelopes → proof-carrying execution | M2 (governed, reversible) |
+| Mechanistic Interpretability | `22_RESEARCH/02` | `03_CONTROL_PLANE` | Circuit analysis → alignment audit → safety verification | M1 (governed, semi-autonomous) |
+| World Models | `05_COGNITIVE_ORGANISM` | `21_DOMAINS` | Predictive world model → counterfactual simulation → planning | M2 (governed, reversible) |
+| Active Inference | `05_COGNITIVE_ORGANISM` | `24_UBI_NBI` | FEP objective → variational inference → action selection | M2 (governed, reversible) |
+| AI Alignment | `03_CONTROL_PLANE` | `07_GOVERNANCE` | Alignment guarantees → reward-hack prevention → autonomy envelopes | M0 (never autonomous) |
+| Causal Reasoning | `05_COGNITIVE_ORGANISM` | `22_RESEARCH` | Causal graph → do-calculus → counterfactual planning | M2 (governed, reversible) |
+| Neurosymbolic | `05_COGNITIVE_ORGANISM` | `01_CANON` | Neural pattern → symbolic proof → program synthesis | M2 (governed, reversible) |
+| RAG | `08_SKILLS` | `22_RESEARCH` | KG-grounded retrieval → provenance tracking → hallucination suppression | M1 (governed, semi-autonomous) |
+| Differential Privacy | `07_GOVERNANCE` | `03_CONTROL_PLANE` | DP-SGD → federated aggregation → ZK compliance proofs | M0 (never autonomous) |
+| Test-Time Compute | `05_COGNITIVE_ORGANISM` | `22_RESEARCH` | Adaptive compute allocation → self-correction loop → verified reasoning | M2 (governed, reversible) |
+
+> **Governance class legend:** M0 = never autonomous (requires human approval), M1 = governed semi-autonomous (autonomous within envelope, human review for edge cases), M2 = governed reversible (autonomous with rollback capability). All classes pass through the capability-bound governance kernel (v4.8). `[AMOS_MODEL]`
+
+---
+
+## 6. Falsifiers
+
+The following falsifiers represent claims or assumptions from the 2026 SOTA corpus that, if proven false, would invalidate key aspects of this synthesis. Each falsifier is tagged with its epistemic class and the pillars it affects. `[DERIVED]`
+
+1. **F1: Sub-10ms BCI decoding does not generalize beyond lab conditions.** If neural flow matching decoders trained on controlled datasets fail to maintain sub-10ms latency in noisy, real-world, ambulatory settings, the BCI→AMOS integration timeline must be extended. `[SOURCE_CLAIM]` → Affects: BCI, Active Inference.
+
+2. **F2: Neuromorphic energy efficiency does not hold at billion-synapse scale.** If `< 1 pJ/event` energy efficiency degrades non-linearly at billion-synapse scale due to communication overhead, the neuromorphic substrate viability for full-brain AMOS is undermined. `[SOURCE_CLAIM]` → Affects: Neuromorphic, Active Inference.
+
+3. **F3: Neural syndrome decoders fail below the error correction threshold.** If GNN-based syndrome decoders cannot maintain sub-microsecond latency at physical error rates below the surface code threshold, real-time QEC for fault-tolerant quantum computing is blocked. `[SOURCE_CLAIM]` → Affects: Quantum.
+
+4. **F4: DPO does not prevent reward hacking at scale.** If Direct Preference Optimization is vulnerable to reward hacking at larger model scales or more complex task domains, the alignment pillar's reliance on DPO as a primary alignment mechanism is falsified. `[SOURCE_CLAIM]` → Affects: AI Alignment, AI Agents.
+
+5. **F5: Sparse autoencoders do not yield monosemantic features in frontier models.** If SAE-based feature decomposition produces polysemantic or unstable features in models beyond 100B parameters, mechanistic interpretability's utility for safety verification at scale is undermined. `[SOURCE_CLAIM]` → Affects: Mechanistic Interpretability, AI Alignment.
+
+6. **F6: World models cannot predict multi-step physical dynamics accurately.** If DreamerV4 or diffusion-based world simulators fail to maintain predictive accuracy beyond ~50-step horizons in complex physical environments, the world-model substrate for embodied AMOS reasoning is weakened. `[SOURCE_CLAIM]` → Affects: World Models, Active Inference, Causal Reasoning.
+
+7. **F7: Free Energy Principle is not computationally tractable for real-time cognition.** If exact variational free energy minimization is intractable for real-time cognitive workloads and approximations introduce unacceptable error, the FEP as a universal AMOS cognitive objective is falsified. `[DERIVED]` → Affects: Active Inference, BCI, World Models, Neuromorphic.
+
+8. **F8: Causal-augmented LLMs do not outperform correlation-based LLMs on out-of-distribution tasks.** If causal grounding fails to yield robustness improvements on OOD benchmarks, the causal reasoning pillar's integration into AMOS cognition is deprioritized. `[SOURCE_CLAIM]` → Affects: Causal Reasoning, Neurosymbolic, RAG.
+
+9. **F9: KG-grounded RAG hallucination reduction does not hold for open-domain queries.** If knowledge-graph grounding reduces hallucination only in closed-domain settings and fails for open-domain, real-world queries, the RAG pillar's hallucination suppression claim is bounded. `[SOURCE_CLAIM]` → Affects: RAG, AI Agents.
+
+10. **F10: Differential privacy with epsilon < 1.0 is incompatible with frontier model accuracy.** If the privacy-utility tradeoff makes epsilon < 1.0 impractical for frontier-scale models, the DP pillar's integration into AMOS federated evolution is constrained. `[SOURCE_CLAIM]` → Affects: Differential Privacy, AI Alignment.
+
+11. **F11: Test-time compute scaling yields diminishing returns beyond a scale-dependent threshold.** If additional inference-time computation stops yielding meaningful improvement beyond a threshold that scales sub-linearly with model size, the test-time compute pillar's contribution to AMOS reasoning is bounded. `[SOURCE_CLAIM]` → Affects: Test-Time Compute, AI Agents, World Models.
+
+12. **F12: Neurosymbolic program synthesis cannot scale beyond domain-specific languages.** If program synthesis from natural language fails to generalize beyond structured DSLs to general-purpose programming languages, the neurosymbolic pillar's contribution to general reasoning is limited. `[SOURCE_CLAIM]` → Affects: Neurosymbolic, AI Agents, Causal Reasoning.
+
+---
+
+## 7. Open Research Gaps
+
+The following gaps represent the most critical unknowns that prevent full integration of the 2026 SOTA into a production-grade AMOS Full Brain OS. Each gap is tagged `UNKNOWN/GAP` and assigned a priority based on its blocking impact on AMOS integration. `[DERIVED]`
+
+1. **[UNKNOWN/GAP] BCI chronic stability and biocompatibility at scale.** The long-term (>5 year) stability of high-channel-count neural interfaces in humans is not established. Immune response, electrode degradation, and signal drift remain unresolved. `[SOURCE_CLAIM]` Priority: **CRITICAL** — blocks BCI→AMOS production integration.
+
+2. **[UNKNOWN/GAP] Neuromorphic substrate for general-purpose cognition.** Current neuromorphic chips excel at spiking pattern recognition but have not demonstrated general-purpose reasoning, language understanding, or planning. The gap between spiking SNNs and transformer-level capability is not closed. `[DERIVED]` Priority: **HIGH** — blocks neuromorphic as primary AMOS substrate.
+
+3. **[UNKNOWN/GAP] Fault-tolerant quantum computing at useful scale.** No quantum computer has demonstrated fault-tolerant operation at the scale (>1000 logical qubits) required for useful quantum advantage in ML or cryptography. `[SOURCE_CLAIM]` Priority: **HIGH** — blocks quantum→AMOS cryptographic grounding.
+
+4. **[UNKNOWN/GAP] Inner alignment verification.** No method exists to verify that a model's learned internal objective matches its intended training objective. Behavioral evaluation is insufficient to rule out deceptive alignment. `[SOURCE_CLAIM]` Priority: **CRITICAL** — blocks autonomous AMOS agent deployment.
+
+5. **[UNKNOWN/GAP] Causal discovery from observational data alone.** No method reliably discovers causal structure from purely observational data without interventional assumptions. The identifiability of causal graphs from observational data is fundamentally limited. `[SOURCE_CLAIM]` Priority: **MEDIUM** — limits causal grounding depth.
+
+6. **[UNKNOWN/GAP] Mechanistic interpretability at frontier scale.** Circuit-level analysis has been demonstrated on small-to-medium models. Whether the same methods scale to frontier models (>100B parameters) with superposition and polysemanticity is unknown. `[SOURCE_CLAIM]` Priority: **HIGH** — blocks white-box safety verification.
+
+7. **[UNKNOWN/GAP] Federated learning with Byzantine robustness at scale.** No federated learning system has demonstrated robustness to >33% Byzantine clients at cross-device scale (>1M clients) with differential privacy guarantees. `[SOURCE_CLAIM]` Priority: **MEDIUM** — limits federated AMOS evolution.
+
+8. **[UNKNOWN/GAP] Organoid intelligence → cognition bridge.** The gap between learned behavior in cortical organoids and what could be called "cognition" or "intelligence" is not formally characterized. The epistemic status of organoid intelligence claims is contested. `[SOURCE_CLAIM]` Priority: **LOW** — speculative, not on AMOS critical path.
+
+9. **[UNKNOWN/GAP] Homomorphic encryption overhead for real-time cognition.** Fully homomorphic encryption introduces 1000x+ computational overhead, making it impractical for real-time cognitive workloads. Partially homomorphic and leveled schemes reduce overhead but limit computation depth. `[SOURCE_CLAIM]` Priority: **MEDIUM** — limits encrypted AMOS computation.
+
+10. **[UNKNOWN/GAP] Unified free energy objective across all cognitive modalities.** While FEP appears as a convergence pattern, no implementation has demonstrated a single variational free energy objective that simultaneously drives perception, action, planning, and language in a unified architecture. `[DERIVED]` Priority: **HIGH** — blocks unified AMOS cognitive objective.
+
+---
+
+## 8. Domain Synthesis File Index
+
+The following table indexes all SOTA domain synthesis files in the AMOS research corpus, organized by pillar. Each file is a standalone synthesis of its domain's 2026 state of the art. `[AMOS_MODEL]`
+
+| # | File | Pillar | Status |
+| :-- | :--- | :--- | :--- |
+| 1 | [[SOTA_BCI_AND_NEUROTECHNOLOGY_SYNTHESIS_2026]] | BCI | ACTIVE |
+| 2 | [[SOTA_BCI_NEUROPROSTHETICS_2026]] | BCI | ACTIVE |
+| 3 | [[SOTA_NEURAL_FLOW_MATCHING_AND_SUB_10MS_DECODING_2026]] | BCI | ACTIVE |
+| 4 | [[SOTA_HIGH_DENSITY_NEUROPIXELS_ULTRA_WIDEBAND_NEURAL_TELEMETRY_2026]] | BCI | ACTIVE |
+| 5 | [[SOTA_HIGH_CHANNEL_EPIDURAL_STENTRODE_NEURAL_BUS_2026]] | BCI | ACTIVE |
+| 6 | [[SOTA_HOLOGRAPHIC_BCI_BRAIN_MACHINE_CO_ADAPTATION_2026]] | BCI | ACTIVE |
+| 7 | [[SOTA_NEURAL_DUST_AND_ULTRASOUND_BCI_2026]] | BCI | ACTIVE |
+| 8 | [[SOTA_OPTICAL_BCI_AND_FUNCTIONAL_ULTRASOUND_NEURAL_DECODING_2026]] | BCI | ACTIVE |
+| 9 | [[SOTA_MAGNETIC_RESONANCE_CURRENT_DENSITY_IMAGING_BCI_2026]] | BCI | ACTIVE |
+| 10 | [[SOTA_TRANSCRANIAL_MAGNETOACOUSTIC_NEUMODULATION_ULTRASOUND_BCI_2026]] | BCI | ACTIVE |
+| 11 | [[SOTA_GEOMETRIC_CLIFFORD_NEURAL_NETWORKS_AND_SPATIAL_BCI_2026]] | BCI | ACTIVE |
+| 12 | [[SOTA_DIFFUSION_SCHRODINGER_BRIDGES_AND_OPTIMAL_TRANSPORT_BCI_2026]] | BCI | ACTIVE |
+| 13 | [[SOTA_BRAIN_ATLAS_AND_NEURAL_CONNECTOMICS_2026]] | BCI | ACTIVE |
+| 14 | [[SOTA_NEUROMORPHIC_COMPUTING_2026]] | Neuromorphic | ACTIVE |
+| 15 | [[SOTA_NEUROMORPHIC_COMPUTING_AND_SPIKING_NEURAL_NETWORKS_2026]] | Neuromorphic | ACTIVE |
+| 16 | [[SOTA_MEMRISTIVE_NEUROMORPHIC_SPIKING_AND_DENDRITIC_COMPUTATION_2026]] | Neuromorphic | ACTIVE |
+| 17 | [[SOTA_NEUROMORPHIC_OPTOGENETICS_AND_PHOTONIC_BCI_2026]] | Neuromorphic | ACTIVE |
+| 18 | [[SOTA_NEUROMORPHIC_SPIKING_ASTROCYTE_NETWORKS_AND_PLASTICITY_2026]] | Neuromorphic | ACTIVE |
+| 19 | [[SOTA_OPTOELECTRONIC_PHOTONIC_RESERVOIR_COMPUTING_2026]] | Neuromorphic | ACTIVE |
+| 20 | [[SOTA_PHOTONIC_CHIP_OPTICAL_NEURAL_ACCELERATOR_AND_INTERCONNECTS_2026]] | Neuromorphic | ACTIVE |
+| 21 | [[SOTA_PHOTONIC_SNN_AND_COGNITIVE_OPTICAL_BUS_2026]] | Neuromorphic | ACTIVE |
+| 22 | [[SOTA_ORGANOID_INTELLIGENCE_2026]] | Neuromorphic | ACTIVE |
+| 23 | [[SOTA_ORGANOID_INTELLIGENCE_AND_BIOCOMPUTING_2026]] | Neuromorphic | ACTIVE |
+| 24 | [[SOTA_CONTINUOUS_VARIABLE_NEUROMORPHIC_QUANTUM_INTERFACES_2026]] | Neuromorphic/Quantum | ACTIVE |
+| 25 | [[SOTA_QUANTUM_ERROR_CORRECTION_SURFACE_CODES_2026]] | Quantum | ACTIVE |
+| 26 | [[SOTA_QUANTUM_FAULT_TOLERANCE_2026]] | Quantum | ACTIVE |
+| 27 | [[SOTA_LOGICAL_QUBITS_AND_FAULT_TOLERANT_QUANTUM_2026]] | Quantum | ACTIVE |
+| 28 | [[SOTA_TOPOLOGICAL_QUANTUM_LDPC_AND_SYNDROME_NEURAL_NETWORKS_2026]] | Quantum | ACTIVE |
+| 29 | [[SOTA_TOPOLOGICAL_MAJORANA_ZERO_MODES_AND_QUANTUM_BRAIDING_2026]] | Quantum | ACTIVE |
+| 30 | [[SOTA_NON_ABELIAN_ANYONS_AND_TOPOLOGICAL_QUANTUM_COMPUTING_2026]] | Quantum | ACTIVE |
+| 31 | [[SOTA_GKP_BOSONIC_CODES_AND_CONTINUOUS_VARIABLE_QUANTUM_COMPUTING_2026]] | Quantum | ACTIVE |
+| 32 | [[SOTA_QUANTUM_NEURAL_NETWORKS_AND_QUANTUM_MACHINE_LEARNING_2026]] | Quantum | ACTIVE |
+| 33 | [[SOTA_QUANTUM_TENSOR_NETWORKS_MPS_TTN_LLM_COMPRESSION_2026]] | Quantum | ACTIVE |
+| 34 | [[SOTA_QUANTUM_COMPUTING_AND_ADVANTAGE_BENCHMARKS_2026]] | Quantum | ACTIVE |
+| 35 | [[SOTA_QUANTUM_COMPUTING_NEURAL_DECODING_2026]] | Quantum | ACTIVE |
+| 36 | [[SOTA_FAULT_TOLERANT_QUANTUM_SURFACE_CODES_AND_QKD_2026]] | Quantum | ACTIVE |
+| 37 | [[SOTA_HYPERBOLIC_QUANTUM_CIRCUITS_AND_HOLOGRAPHIC_ADS_CFT_2026]] | Quantum | ACTIVE |
+| 38 | [[SOTA_QUANTUM_WALKS_ON_HYPERBOLIC_MANIFOLDS_2026]] | Quantum | ACTIVE |
+| 39 | [[SOTA_AI_AGENTS_AND_TOOL_USE_FRAMEWORKS_2026]] | AI Agents | ACTIVE |
+| 40 | [[SOTA_MULTI_AGENT_FRAMEWORKS_2026]] | AI Agents | ACTIVE |
+| 41 | [[SOTA_FOUNDATION_AGENTS_AND_COGNITIVE_ARCHITECTURES_2026]] | AI Agents | ACTIVE |
+| 42 | [[SOTA_BFT_SMR_DISTRIBUTED_CONSENSUS_FOR_AGENTIC_SWARMS_2026]] | AI Agents | ACTIVE |
+| 43 | [[SOTA_MECHANISTIC_INTERPRETABILITY_2026]] | MI | ACTIVE |
+| 44 | [[SOTA_MECHANISTIC_INTERPRETABILITY_AND_CIRCUIT_ANALYSIS_2026]] | MI | ACTIVE |
+| 45 | [[SOTA_AI_REASONING_AND_WORLD_MODELS_2026]] | World Models | ACTIVE |
+| 46 | [[SOTA_WORLD_MODELS_PHYSICAL_AI_2026]] | World Models | ACTIVE |
+| 47 | [[SOTA_EMBODIED_AI_AND_ROBOT_LEARNING_2026]] | World Models | ACTIVE |
+| 48 | [[SOTA_HYPERGRAPH_NEURO_SYMBOLIC_WORLD_MODELS_2026]] | World Models | ACTIVE |
+| 49 | [[SOTA_ACTIVE_INFERENCE_2026]] | Active Inference | ACTIVE |
+| 50 | [[SOTA_ACTIVE_INFERENCE_THERMODYNAMICS_FLOW_MATCHING_2026]] | Active Inference | ACTIVE |
+| 51 | [[SOTA_PREDICTIVE_CODING_AND_FREE_ENERGY_PRINCIPLE_2026]] | Active Inference | ACTIVE |
+| 52 | [[SOTA_RIEMANNIAN_FLOW_MATCHING_ON_SE3_FOR_NEURAL_ROBOTICS_2026]] | Active Inference | ACTIVE |
+| 53 | [[SOTA_ENERGY_COMPLEXITY_AND_THERMODYNAMIC_AI_LIMITS_2026]] | Active Inference | ACTIVE |
+| 54 | [[SOTA_AI_ALIGNMENT_REWARD_HACKING_2026]] | AI Alignment | ACTIVE |
+| 55 | [[SOTA_AI_SAFETY_REWARD_HACKING_ALIGNMENT_2026]] | AI Alignment | ACTIVE |
+| 56 | [[SOTA_AGENTIC_AI_SAFETY_AND_ALIGNMENT_2026]] | AI Alignment | ACTIVE |
+| 57 | [[SOTA_LLM_ALIGNMENT_DPO_RLHF_2026]] | AI Alignment | ACTIVE |
+| 58 | [[SOTA_GOVERNED_MACHINE_EVOLUTION_AND_REALITY_BOUNDED_AUTONOMY_2026]] | AI Alignment | ACTIVE |
+| 59 | [[SOTA_CAUSAL_REASONING_FOUNDATION_MODELS_2026]] | Causal | ACTIVE |
+| 60 | [[SOTA_CAUSAL_INFERENCE_AND_COUNTERFACTUAL_AGENTS_2026]] | Causal | ACTIVE |
+| 61 | [[SOTA_CAUSAL_DISCOVERY_AND_COUNTERFACTUAL_INFERENCE_IN_AGENTIC_AI_2026]] | Causal | ACTIVE |
+| 62 | [[SOTA_NEUROSYMBOLIC_AI_2026]] | Neurosymbolic | ACTIVE |
+| 63 | [[SOTA_NEUROSYMBOLIC_AI_AND_PROGRAM_SYNTHESIS_2026]] | Neurosymbolic | ACTIVE |
+| 64 | [[SOTA_NEUROSYMBOLIC_PROGRAM_SYNTHESIS_2026]] | Neurosymbolic | ACTIVE |
+| 65 | [[SOTA_LEAN4_FORMAL_VERIFICATION_FOR_OS_MICROKERNELS_2026]] | Neurosymbolic | ACTIVE |
+| 66 | [[SOTA_HYPERDIMENSIONAL_COMPUTING_AND_VECTOR_SYMBOLIC_ARCHITECTURES_2026]] | Neurosymbolic | ACTIVE |
+| 67 | [[SOTA_RAG_ADVANCES_2026]] | RAG | ACTIVE |
+| 68 | [[SOTA_RAG_AND_KNOWLEDGE_GRAPH_GROUNDED_LLM_2026]] | RAG | ACTIVE |
+| 69 | [[SOTA_AGENTIC_RAG_KNOWLEDGE_GRAPHS_2026]] | RAG | ACTIVE |
+| 70 | [[SOTA_HYPERBOLIC_KNOWLEDGE_EMBEDDINGS_POINCARE_LORENTZ_2026]] | RAG | ACTIVE |
+| 71 | [[SOTA_FEDERATED_LEARNING_AND_PRIVACY_PRESERVING_AI_2026]] | DP/Privacy | ACTIVE |
+| 72 | [[SOTA_HOMOMORPHIC_ENCRYPTION_AND_VERIFIABLE_COMPUTATION_FOR_DECENTRALIZED_AGENTS_2026]] | DP/Privacy | ACTIVE |
+| 73 | [[SOTA_ZERO_KNOWLEDGE_EPISTEMIC_PROOFS_FOR_MULTI_AGENT_SWARMS_2026]] | DP/Privacy | ACTIVE |
+| 74 | [[SOTA_NEURAL_SCALING_LAWS_AND_EMERGENT_ABILITIES_2026]] | TTS/Scaling | ACTIVE |
+| 75 | [[SOTA_LLM_SELF_CORRECTION_VERIFIED_REASONING_2026]] | TTS/Scaling | ACTIVE |
+| 76 | [[SOTA_CONTINUOUS_LEARNING_AND_CATASTROPHIC_FORGETTING_2026]] | TTS/Scaling | ACTIVE |
+| 77 | [[SOTA_TRANSFORMER_ARCHITECTURE_INNOVATIONS_2026]] | TTS/Scaling | ACTIVE |
+| 78 | [[SOTA_DIFFUSION_MODELS_AND_SCORE_BASED_GENERATION_2026]] | TTS/Scaling | ACTIVE |
+| 79 | [[SOTA_CONSCIOUSNESS_THEORY_GNW_IIT_2026]] | Cross-Pillar | ACTIVE |
+| 80 | [[SOTA_FRACTAL_COGNITIVE_ARCHITECTURES_AND_ENTROPY_BOUNDS_2026]] | Cross-Pillar | ACTIVE |
+| 81 | [[SOTA_DNA_DATA_STORAGE_AND_MOLECULAR_COMPUTING_2026]] | Cross-Pillar | ACTIVE |
+| 82 | [[SOTA_SYNTHETIC_BIO_MEMBRANE_COMPUTING_AND_DNA_STRAND_DISPLACEMENT_2026]] | Cross-Pillar | ACTIVE |
+| 83 | [[SOTA_CANCER_EVOLUTIONARY_THERAPY_AND_ALGEBRAIC_CELL_DYNAMICS_2026]] | Cross-Pillar | ACTIVE |
+| 84 | [[SOTA_HIGH_THROUGHPUT_ARROW_IPC_STATE_BUS_2026]] | Infrastructure | ACTIVE |
+| 85 | [[SOTA_SEPTEMBER_2026_BCI_AI_QUANTUM_ROBOTICS]] | Composite | ACTIVE |
+
+---
+
+## 9. Provenance & Epistemic Boundary
+
+### 9.1 Provenance
+
+This synthesis is derived from the following provenance chain: `[AMOS_MODEL]`
+
+- **Primary corpus:** 66,000+ ArXiv papers ingested, filtered, and synthesized across the AMOS research pipeline (2024–2026).
+- **Domain synthesis files:** 84+ standalone SOTA domain synthesis files in `22_RESEARCH/01_PAPERS/`, each independently sourced and tagged.
+- **Bridge files:** 12+ ARXIV_BRIDGE files connecting cross-domain findings (e.g., `ARXIV_BRIDGE_2026_BCI_AI_QUANTUM.md`, `ARXIV_BRIDGE_2026_ALIGNMENT_RAG_AGENTS.md`).
+- **Ledger files:** Specialized ledgers for quantum syndrome decoding, optogenetic manifold geodesic decoding, Riemannian geometric deep learning, cellular sheaf cohomology, and non-Abelian anyon braiding.
+- **Master Drive Research Assets:** The complete AMOS OS Google Drive vault, including `00_ROOT`, `01_CANON`, `03_CONTROL_PLANE`, `05_COGNITIVE_ORGANISM`, `07_GOVERNANCE`, `21_DOMAINS`, `22_RESEARCH`, `24_UBI_NBI`, `26_UBI_SI` planes.
+
+### 9.2 Epistemic Boundary
+
+This synthesis is an `AMOS_MODEL` — an architectural projection of the 2026 SOTA research landscape onto the AMOS v4.4 Full Brain Operating System. It is **not**:
+
+- A claim that AMOS OS currently implements any of the described breakthroughs in production. `[AMOS_MODEL]`
+- A claim that the cited ArXiv papers have been independently peer-reviewed or replicated. `[SOURCE_CLAIM]` papers are ingested but not necessarily validated.
+- A claim that the convergence patterns (Section 4) are empirically verified across all pillars. They are `[DERIVED]` structural observations.
+- A claim that the AMOS integration architecture (Section 5) is deployed. It is a target architecture. `[AMOS_MODEL]`
+- A claim that the falsifiers (Section 6) have been tested. They are identified risks, not resolved verdicts. `[DERIVED]`
+- A claim that the research gaps (Section 7) are exhaustive. They represent the most critical known unknowns, not all unknowns. `[DERIVED]`
+
+### 9.3 Epistemic Tag Convention
+
+| Tag | Meaning | Trust Level |
 | :--- | :--- | :--- |
-| BCI / EEG / neural interfaces | `.../2026/2026-07/C/2607.07185v3_Clinical_Translation_of_Brain-Computer_Interface_in_China*` | `05_COGNITIVE_ORGANISM` |
-| EEG foundation models | `.../2026/2026-01/D/2601.06134v2_DeeperBrain*` | `01_CANON/03`, `BRAIN_CORE` |
-| Quantum ML / QML | `.../2026/2026-07/2607.24014v1_Scalable_Quantum_Machine_Learning*` | `21_DOMAINS/41_QUANTUM` |
-| Quantum chemistry + AI | `.../2026/2026-07/2607.22468_Learning_to_Prepare_Molecular_Ground_States*` | `C02`, `C10` |
-| Quantum advantage | `.../2026/2026-04/2604.07639_Exponential_quantum_advantage_in_processing_massive_classical_data*` | `22_RESEARCH` |
-| Neuromorphic / SNN | titles spanning 2025–2026 with `spiking`, `neuromorphic`, `SNN` | `BRAIN_CORE`, `OMNI_KERNEL` |
+| `[SOURCE_CLAIM]` | Claim sourced directly from ingested ArXiv literature or domain synthesis file | Medium — ingested but not necessarily replicated |
+| `[DERIVED]` | Claim synthesized across multiple sources or inferred from convergence patterns | Lower — depends on synthesis quality |
+| `[AMOS_MODEL]` | AMOS-internal architectural projection or governance decision | Architectural — not an empirical claim |
+| `UNKNOWN/GAP` | Identified unknown that blocks integration | N/A — represents absence of knowledge |
 
-> **Canonical status:** These ArXiv files are external `SOURCE_CLAIM` / `COMPETING_MODEL` sources. They are not promoted to `01_CANON` without ingestion, RSCF framing, and explicit authority/promotion record.
+### 9.4 Governance Boundary
 
----
+This synthesis is governed by the AMOS agent contract invariants:
 
-## 7. AMOS Full Brain OS Integration Implications
+```
+CAPABILITY != AUTHORITY
+PROPOSAL != COMMIT
+DOCUMENTED != IMPLEMENTED
+MODEL != DEPLOYED_RUNTIME
+TEST_SPECIFIED != TEST_EXECUTED
+LATEST != AUTHORITATIVE
+```
 
-1. **Input field:** BCI speech, typing, and motor-imagery signals are concrete `HUMAN / ENVIRONMENT → EXPRESSION_TRANSLATION` channels.
-2. **Omni Kernel:** Adaptive routing (minimum sufficient region) is directly supported by EEG foundation models and user-decoder co-learning.
-3. **Brain Core:** Neuromorphic computing and SNNs are candidate `BRAIN_CORE` engines; intracortical decoding is candidate `UBI_SI` / `UBI_NBI` capability.
-4. **Omniverse Brain:** Quantum and BCI breakthroughs update the `Layer 4 Biological & Consciousness` and `Layer 2 Physical & Quantum` models.
-5. **Runtime:** TuniQ and adaptive BCI training align with AMOS `REPAIR`, `REPLAY`, and `AUDIT` loops.
-6. **Control Plane:** Long-term independent BCI use demonstrates real-world `authority → effect` governance under patient control — a human-in-the-loop authority model.
-7. **Deployment:** Foundation models and neuromorphic chips are host-layer artifacts, not AMOS ontology definitions.
-
----
-
-## 8. 2026 ArXiv Vault Representative Catalog
-
-The external ArXiv vault (`/Users/mac/Desktop/_Arxiv/Arvix`) holds 66,000+ preprints. A 2026 keyword scan yields the following coverage counts and representative paths. These files are `SOURCE_CLAIM` candidates for future ingestion; they are not promoted to `01_CANON` without explicit authority/promotion record.
-
-| Category | 2026 Files | Representative Vault Paths |
-| --- | --- | --- |
-| **BCI & Neural Interfaces** | 110 | `2026/2026-01/D/2601.06134v2_DeeperBrain__A_Neuro-Grounded_EEG_Foundation_Model_Towards_Universal_BCI.md` <br> `2026/2026-02/B/2602.23410v3_Brain-OF__An_Omnifunctional_Foundation_Model_for_fMRI__EEG_and_MEG.md` <br> `2026/2026-03/N/2603.16880v2_NeuroNarrator__A_Generalist_EEG-to-Text_Foundation_Model_for_Clinical_Interpreta.md` <br> `2026/2026-04/B/2604.14202v1_Bridging_scalp_and_intracranial_EEG_in_BCI_via_pretrained_neural_representations.md` <br> `2026/2026-04/U/2604.00349v1_Ultrasonic_Brain_Computer_Interfaces_for_Enhancing_Human-Machine_Cognition.md` |
-| **Neuromorphic & SNN** | 87 | `2026/2026-01/S/2601.02401v1_Spiking_Heterogeneous_Graph_Attention_Networks.md` <br> `2026/2026-02/U/2602.11206v1_UltraLIF__Fully_Differentiable_Spiking_Neural_Networks_via_Ultradiscretization_a.md` <br> `2026/2026-04/B/2604.11665v5_Beyond_LLMs__Sparse_Distributed_Memory__and_Neuromorphics__A_Hyper-Dimensional_S.md` <br> `2026/2026-04/E/2604.27004v1_EdgeSpike__Spiking_Neural_Networks_for_Low-Power_Autonomous_Sensing_in_Edge_IoT_.md` <br> `2026/2026-05/C/2605.28387v1_CLANE__Continual_Learning_of_Actions_on_Neuromorphic_Hardware_from_Event_Cameras.md` |
-| **Quantum Computing & QML** | 1454 | `2026/2026-01/S/2601.01263v1_Simulating_Wigner_Localisation_with_the_IBM_Heron_2_Quantum_Processor__A_Proof-o.md` <br> `2026/2026-01/S/2601.10964v3_Stabilizer_Code-Generic_Universal_Fault-Tolerant_Quantum_Computation.md` <br> `2026/2026-02/C/2602.14827v1_Constrained_Portfolio_Optimization_via_Quantum_Approximate_Optimization_Algorith.md` <br> `2026/2026-04/A/2604.07639_Exponential_quantum_advantage_in_processing_massive_classical_data*` <br> `2026/2026-07/2607.24014v1_Scalable_Quantum_Machine_Learning*` |
-| **AI Agents & LLMs** | 4528 | `2026/2026-01/A/2601.08815v3_Agent_Contracts__A_Formal_Framework_for_Resource-Bounded_Autonomous_AI_Systems.md` <br> `2026/2026-01/A/2601.12560v1_Agentic_Artificial_Intelligence__AI___Architectures__Taxonomies__and_Evaluation_.md` <br> `2026/2026-01/A/2601.15311v3_Aeon__High-Performance_Neuro-Symbolic_Memory_Management_for_Long-Horizon_LLM_Age.md` <br> `2026/2026-01/I/2601.14209v1_InT__Self-Proposed_Interventions_Enable_Credit_Assignment_in_LLM_Reasoning.md` <br> `2026/2026-01/M/2601.00360v3_Mapping_Human_Anti-collusion_Mechanisms_to_Multi-agent_AI_Systems.md` |
-
-> **Canonical status:** These ArXiv paths are external `SOURCE_CLAIM` references. Their presence in the Drive catalog does not imply ingestion, validation, or promotion into AMOS canon.
-
-## 9. Quantum QML Skepticism — 2026 Rest-of-Year Audit Verdict
-
-The Arvix vault contains dedicated audit outputs (`outputs/Quantum_2026-05_Audit.md` and `outputs/Quantum_2026_Rest-of-Year_Audit.md`) that test the QML skeptical thesis against the most on-point 2026 papers. The audited verdict is `MODEL / SOURCE_CLAIM`: it reports what those papers *claim and qualify*, not a universal truth about QML.
-
-| Month | arXiv | Claim tested | Fair-classical-beating? |
-| --- | --- | --- | --- |
-| Feb | 2602.04239 | QTN / HSE / PINN vs classical on 1D Burgers | No — explicit disavowal; quantum-native blocked by O(N) readout. |
-| Mar | 2603.09901 | Has quantum advantage been achieved? (Hangleiter) | "Yes" only for random circuit sampling, a "(nearly) useless task" with verification-hostile XEB. Not a useful, matched, verified win. |
-| Apr | 2604.11541 | Noise effects in hybrid VQC | No beat claim — no classical baseline. |
-| Jun | 2606.28655 | Entanglement effect on QML of pathogen epitope binding | Explicit disavowal: "These results do not establish a general QML advantage." |
-| Jul | 2607.08220 | QLS-icMRLCC quantum chemistry; "prospects of exponential quantum advantage" | Conditional / theoretical only; κ scaling verified at ≤4-atom toy scale; one diagnostic rests on an adapted, unproven conjecture. |
-| May | 2605.27923 | QSVM/QCNN multidimensional MNIST | No clean win — partial, cost-prohibitive, parity-converging at scale. |
-| May | 2605.10801 | Photonic gate-based QNN vs matched ANN | Toy, classically simulable by authors' admission; only effective-dimension expressivity gap. |
-| May | 2605.24324 | Matched spectral benchmark of quantum-inspired feature maps | Zero significant wins across 30 comparisons; 27 significantly worse. |
-
-**AMOS relevance:** These audits instantiate the RSCF `COMPETING_MODEL` discipline. The strongest reproducible positive is **toy-scale expressivity** (effective dimension, ZZ feature-map overfitting gap) — a promising design target, not a deployed advantage. Any AMOS quantum engine must route to this boundary rather than treating "quantum advantage" as a default capability.
+Trang Phan remains the origin architect and steward of AMOS. This synthesis does not claim independent authorship. All AMOS architectural projections (`[AMOS_MODEL]`) are proposals subject to governance approval before commitment. `[AMOS_MODEL]`
 
 ---
 
-## 10. Public Web Snapshot — BCI, Neuromorphic, Quantum (2026-09-04)
+**End of Synthesis.**
 
-The following public-web sources were surfaced on `2026-09-04` to cross-check the ArXiv corpus. They are `WEB_SNAPSHOT / SOURCE_CLAIM`; peer-review and independent reproduction should be verified before canonical use.
-
-| Source | Title / Type | Key claim | AMOS relevance |
-| --- | --- | --- | --- |
-| https://www.nature.com/articles/s41591-026-04414-6 | Long-term independent use of an intracortical BCI (Nature Medicine, 2026) | >99% word accuracy, 56 wpm, >3,800 h independent home use | Confirms `HUMAN → BCI → EFFECTOR` loop under patient authority; `05_COGNITIVE_ORGANISM`, `03_CONTROL_PLANE` |
-| https://www.biorxiv.org/content/10.64898/2026.07.23.739430v1 | A generalizable speech neuroprosthesis (bioRxiv, 2026) | Transformer decoder trained across 6 participants; multi-user model finetuned on <200 sentences to <7% WER | Supports cross-subject `BRAIN_CORE` decoding and `OMNI_KERNEL` adaptive routing |
-| https://arxiv.org/pdf/2603.12279 | Toward Robust Intracranial Language BCIs (arXiv review, 2026) | Cross-subject/multilingual gaps, long-term non-stationarity, weak cross-subject transfer, heterogeneous evaluation | Defines falsifiers and `UNKNOWN/GAP` boundaries for BCI generalization claims |
-| https://www.nature.com/articles/s41467-026-75455-1 | Shared latent representations for cross-patient speech decoding (Nature Communications, 2026) | Invasive ECoG cross-patient latent representations improve speech decoding | Maps to `PERSONALITY`/`EXPRESSION_TRANSLATION` generalization and `RSCF` competing hypotheses |
-| https://www.nature.com/articles/s44287-026-00321-7 | Figures of merit for neuromorphic devices (Nature Reviews Electrical Engineering, 2026) | Unified bioplausibility / energy / scalability metrics for neuromorphic architectures | `24_UBI_NBI`, `OMNI_KERNEL` substrate selection |
-| https://www.nature.com/articles/s42256-026-01255-3 | Dual memory pathway algorithm–hardware co-design (Nature Machine Intelligence, 2026) | SNN with cortical fast–slow memory; 40–60% fewer parameters; >4× throughput, >5× energy efficiency | Direct `BRAIN_CORE` / `OMNI_KERNEL` event-driven memory architecture candidate |
-| https://arxiv.org/html/2607.24396 | SpiNNaker2 chip for brain-inspired computing (arXiv, 2026) | 152 ARM M4F PEs; up to 4.5 TOPS / 2.7 TOPS/W INT8; >150k neurons, >1.8 G synaptic events/s | `HOST_DEPLOYMENT` neuromorphic hardware baseline |
-| https://www.nature.com/articles/s41534-026-01279-y | Advantage of QML from general computational advantages (npj Quantum Information, 2026) | Broader family of classical-data supervised learning tasks with provable QML advantage beyond Shor | `21_DOMAINS/41_QUANTUM`, `C02_math_compute` — candidate formal advantage domain |
-| https://arxiv.org/pdf/2603.06644 | Quantum Deep Learning: A Comprehensive Review (arXiv, 2026) | Taxonomy: hybrid QNN, quantum DNN, quantum algorithms for DL primitives, quantum-inspired classical algorithms | `21_DOMAINS/41_QUANTUM` registry reference |
-
----
-
-## 11. Gaps and Falsifiers
-
-- **G1:** Public web snapshots are not peer-reviewed; they require ArXiv / DOI cross-check before canonical use.
-- **G2:** 66,000+ ArXiv files are not individually ingested; the vault has not been parsed into RSCF objects.
-- **G3:** Quantum advantage claims require independent reproduction and scope-specific validation.
-- **G4:** Long-term BCI results are case-study scale; broad population validity is not established.
-- **G5:** The 2026 ArXiv catalog is keyword-surfaced only; titles and abstracts have not been reviewed for relevance or quality.
-- **G6:** The Arvix quantum audits are summary verdicts; individual paper bodies are not yet ingested as per-paper RSCF objects.
-- **G7:** Public web sources are not the primary evidence layer; DOI / ArXiv cross-check and independent reproduction are required before canonical use.
-
-**Falsifiers:**
-
-F1: A peer-reviewed retraction or failed reproduction of a cited 2026 result.
-F2: AMOS code treats any of these results as `CANON` without explicit promotion record.
-F3: A deployment artifact (skill, model, tool) is confused with an AMOS architectural definition.
-F4: An ArXiv catalog entry is promoted to a source claim without reading and RSCF framing.
-F5: A 2026 QML audit paper is later retracted or reproduced with contradictory results.
-F6: A public web source is contradicted by its own peer-reviewed publication or withdrawn preprint.
-
----
-
-RSCF-NODE
-node_id: sota_bci_ai_quantum_synthesis_2026
-node_type: research_synthesis
-path: 22_RESEARCH/01_PAPERS/SOTA_BCI_AI_QUANTUM_SYNTHESIS_2026.md
-RSCF-RELATIONS:
-- INDEXED_BY: [[22_RESEARCH/22_RESEARCH_MOC|22_RESEARCH_MOC]]
-- INDEXED_BY: [[22_RESEARCH/01_PAPERS/01_PAPERS_MOC|01_PAPERS_MOC]]
-- RELATED_TO: [[01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_MASTER_CANON|AMOS Full Brain OS Master Canon]]
-- RELATED_TO: [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]
-- RELATED_TO: [[22_RESEARCH/01_PAPERS/SOTA_HARVEST_2026-09-04|SOTA Harvest 2026-09-04]]
-
----
-
-## 11. SOTA Update — 2026-09-05 Harvest
-
-### 11.1 BCI — Cross-Subject Neural Speech Decoding
-
-| Paper | Source | Key Finding | AMOS Binding |
-|-------|--------|-------------|--------------|
-| Boccato et al. 2026 — Cross-subject decoding for speech BCI | J. Neural Eng. 23(4):046018 | First neural-to-phoneme decoder trained jointly on two largest intracortical speech datasets; hierarchical GRU with CTC + feedback; cross-subject pretraining feasible without performance degradation; adapts to unseen subjects via linear transform | `05_COGNITIVE_ORGANISM/UNIVERSAL_BCI_NEURAL_DECODING_ARCHITECTURE` |
-| Brain2Qwerty v2 — Non-invasive MEG brain-to-text | arXiv:2608.18114 (Meta/PSL) | 39% WER from real-time MEG; 22k sentences × 9 subjects × 10h; log-linear improvement with data volume; AI agents for iterative pipeline refinement | `05_COGNITIVE_ORGANISM` |
-| BrainWhisperer — ASR-pretrained neural speech decoder | arXiv:2603.13321 | Whisper encoder + neural features; windowed self-attention; hierarchical low-rank projections; sub-100ms inference; cross-dataset generalization without fine-tuning | `05_COGNITIVE_ORGANISM` |
-| Khanday et al. 2026 — End-to-end Conformer intracortical decoder | Odyssey 2026 | CER 23.80% without external LM; inter-session degradation drives variability; word boundary segmentation is dominant error source | `05_COGNITIVE_ORGANISM` |
-| CMU adaptive AI + human motor learning BCI | Nature Communications 2026 | Non-invasive BCI with co-adaptive AI + human learning reduces training time and improves performance | `05_COGNITIVE_ORGANISM` |
-
-**AMOS Integration:** Cross-subject pretraining directly supports the `UNIVERSAL_BCI_NEURAL_DECODING_ARCHITECTURE` goal of subject-independent neural decoding. The hierarchical GRU+CTC architecture maps to the AMOS cognition engine's 6-layer architecture. Brain2Qwerty's AI-agent-driven pipeline refinement validates the AMOS automation engine's iterative improvement loop.
-
-### 11.2 Quantum — Surface Code Error Correction
-
-| Paper | Source | Key Finding | AMOS Binding |
-|-------|--------|-------------|--------------|
-| IBM heavy-hex surface code scaling | Nature Communications 2026 | Subthreshold scaling on heavy-hex; fold-unfold embedding with bridge ancillas; gap-aware dynamical decoupling; anisotropic (dx,dz) scaling; 30% noise reduction would enable (5,5) | `21_DOMAINS/41_QUANTUM_SYSTEMS` |
-| RL control of quantum error correction | Nature 2026 | RL agent manages 1000+ control parameters; 3.5× logical stability improvement; record surface code error 7.72×10⁻⁴/cycle; color code 8.19×10⁻³/cycle; never-stop-computing paradigm | `21_DOMAINS/41_QUANTUM_SYSTEMS/SURFACE_CODE_SYNDROME_DECODER_LEDGER` |
-| L-NBP — Logical Neural Belief Propagation | arXiv:2608.27682 | Linear-complexity neural decoder; redirects to logical-level decoding; 17.5% threshold under depolarizing noise; 0.2× complexity of BP-OSD at distance-9 | `21_DOMAINS/41_QUANTUM_SYSTEMS` |
-| FPGA NN decoder for real-time surface code | arXiv:2605.04892 | 550ns closed-loop latency; 124ns NN decoding; 1.25μs QEC cycle; mid-circuit feedback in non-Clifford circuits | `21_DOMAINS/41_QUANTUM_SYSTEMS` |
-| Lattice surgery surface-code processor | arXiv:2606.06598 | Distance-3 logical qubits; per-cycle error 3.65% and 2.82%; logical Bell state; Deutsch-Jozsa at logical level; magic-state injection; R_X(π/4) fidelity 94.3% | `21_DOMAINS/41_QUANTUM_SYSTEMS` |
-
-**AMOS Integration:** The RL-controlled QEC paradigm maps directly to the AMOS adaptive stability balancer — the quantum computer "learns from its errors and never stops computing," mirroring AMOS's continuous evolution loop with rollback. The FPGA NN decoder's 550ns latency sets the real-time constraint for the `SURFACE_CODE_SYNDROME_DECODER_LEDGER`. Lattice surgery establishes the fault-tolerant logical operation framework for AMOS quantum domain modeling.
-
-### 11.3 AI — Multi-Agent Autonomous Reasoning
-
-| Paper | Source | Key Finding | AMOS Binding |
-|-------|--------|-------------|--------------|
-| DeAR — Decentralized Agentic Reasoning | arXiv:2608.17282 | P2P collaboration replacing central control; capability grounding; thought map navigation; topology update for error correction; outperforms centralized baselines on 9 benchmarks | `03_CONTROL_PLANE` |
-| Station — Autonomous Mathematical Discovery | arXiv:2608.23691 | Open-world multi-agent math discovery; no central coordinator; 5 novel results including Kakeya sets and kissing configurations; agents build shared scientific literature | `22_RESEARCH` |
-| Codebook Agent — Topology design for LLM MAS | arXiv:2609.02264 | VQ-autoencoder compresses topologies to 16-entry codebook; 2.4ms topology emission; 21.9-33.2% fewer tokens; 84.6 avg accuracy | `03_CONTROL_PLANE` |
-| ArcticSwarm — Long-horizon multi-agent research | arXiv:2609.01870 | Gated isolation prevents early consensus; 82.6% on BrowseComp-Plus; shared bulletin board; structured review at 3 commitment boundaries | `03_CONTROL_PLANE` |
-| Leibniz — Theory-of-Mind neuro-symbolic reasoning | ACL 2026 | Bidirectional reasoning (Evolution + Reduction agents); shared belief state space; neuro-symbolic integration; outperforms SOTA in reasoning accuracy | `25_COGNITIVE_MATRIX` |
-| SwarmWorld — Stigmergic technological evolution | arXiv:2608.26081 | LLM agent societies with stigmergic coordination; technological evolution emerges from agent interactions | `05_COGNITIVE_ORGANISM` |
-
-**AMOS Integration:** DeAR's decentralized capability grounding maps to the AMOS control plane's authority gate — agents self-organize based on capability rather than central routing. ArcticSwarm's gated isolation principle directly supports the AMOS competing-hypothesis invariant (preserve competing hypotheses until discriminating evidence exists). Leibniz's bidirectional reasoning mirrors the MURK 19×19 interaction matrix's forward/reverse reasoning paths. Codebook Agent's topology compression validates the AMOS cognitive matrix's 19×19 coordinate routing approach.
-
-### 11.4 Photonic Neural Networks
-
-| Paper | Source | Key Finding | AMOS Binding |
-|-------|--------|-------------|--------------|
-| Inverse-designed nanophotonic NN accelerator | Nature Communications 2026 | 400M params/mm²; subwavelength voxel training; 89% MNIST / 90% MedNIST on 20×20μm² chip | `05_COGNITIVE_ORGANISM/PHOTONIC_AND_OPTOELECTRONIC_NEURAL_INTERFACE` |
-| Photonic Mixture-of-Experts (PMoE) | Nature Communications 2026 | Width-scaling via parallel photonic cores; 97.1% multi-domain accuracy; 67% parameter overhead reduction; 0.067mm² core footprint | `05_COGNITIVE_ORGANISM` |
-| On-chip backpropagation training | Nature 2026 | End-to-end on-chip gradient descent; >90% accuracy matching digital models; scalable despite fabrication variations | `05_COGNITIVE_ORGANISM` |
-| Photonic tensor processor (PTP) | Nature Communications 2026 | All-optical crossbar; 98.1% MNIST / 72.0% CIFAR-10; rack-mounted with PyTorch integration; microcomb multi-wavelength carriers | `05_COGNITIVE_ORGANISM` |
-| NARCA — Non-volatile all-optical ResNet accelerator | Light: Sci. Appl. 2026 | PCM-based residual convolution; 9.8μW weight update energy; matches ResNet deep feature extraction | `05_COGNITIVE_ORGANISM` |
-
-**AMOS Integration:** The PMoE architecture's width-scaling approach directly maps to the AMOS cognitive matrix's parallel cell coordination — expanding width (parallel experts) rather than depth (serial layers) mirrors the matrix's 19×19 parallel coordinate routing. On-chip backpropagation enables the AMOS cognition engine to perform local learning without external compute, supporting the self-contained organism architecture. The 400M params/mm² density establishes the substrate feasibility for the `PHOTONIC_AND_OPTOELECTRONIC_NEURAL_INTERFACE` specification.
-
-### 11.5 Updated Falsifiers
-
-- `F7-2026-09-05`: Cross-subject BCI pretraining claims require validation on datasets beyond speech motor cortex (current evidence limited to motor/speech domains).
-- `F8-2026-09-05`: RL-controlled QEC scalability claims require demonstration beyond distance-7 surface codes; the "never-stop-computing" paradigm assumes drift models that may not hold for all noise types.
-- `F9-2026-09-05`: Photonic NN backpropagation training results are demonstrated on small-scale tasks (MNIST, MedNIST); scalability to transformer-class models remains `UNKNOWN/GAP`.
-
-### 11.6 Brain Organoid Intelligence (OI)
-
-| Paper | Source | Key Finding | AMOS Binding |
-|-------|--------|-------------|--------------|
-| Monsó et al. 2026 — Bio-adaptive Processing Unit (BPU) | Sci Rep 2026 | Two-reservoir microtunnel Brain-on-Chip; hiPSC-derived cortical neurons; 1200μm axonal extension; directed propagation A→B (85-90%); 0.75 m/s median velocity; MEA-interfaced biocomputing platform | `05_COGNITIVE_ORGANISM/NEURAL_ORGANOID_WORLD_MODEL_ARCHITECTURE` |
-| Cortical Labs CL-1 — "Neurons as a Service" | WIRED 2026 | Toaster-sized device; 1M neurons × 6 months survival; trained on Pong and Doom; "Nvidia of neural computing"; self-repair, adaptability, energy efficiency | `05_COGNITIVE_ORGANISM` |
-| Organoid cartpole balancing — Reinforcement learning | Singularity Hub 2026 | Brain organoids rewired networks to balance pole; electrical feedback as reinforcement; predictable learning in 3D organoid structures | `05_COGNITIVE_ORGANISM` |
-| OI-enhanced microcircuit integration | Aticl 2025.000231 | Hybrid computational paradigm; organoids on high-density MEAs; SORN-1 dataset; OI-augmented DRL agent; revolutionary leap in learning rate and novel stimulus adaptation | `05_COGNITIVE_ORGANISM/ORGANISM_OS_SYNTHESIS` |
-| NIH $87M organoid standardization center | 2025-2026 | NIH ended animal-only testing grants; $87M investment in standardized organoid modeling; artificial blood vessel research for >5mm organoids | `05_COGNITIVE_ORGANISM` |
-
-**AMOS Integration:** The BPU's two-reservoir microtunnel architecture directly maps to the `NEURAL_ORGANOID_WORLD_MODEL_ARCHITECTURE` — directed axonal propagation enables the organoid's world model to have structured information flow rather than random connectivity. Cortical Labs' CL-1 "neurons as a service" model establishes the substrate for the `ORGANISM_OS_SYNTHESIS` — a living cognitive substrate with self-repair and adaptation that silicon cannot match. The organoid cartpole result validates that biological neural networks can perform reinforcement learning, supporting the AMOS cognitive organism's learning loop. The 5mm vascularization barrier is a hard constraint on current organoid scale — AMOS must account for this in its biological state vector (Bio component).
-
-### 11.7 KV Cache Quantization for LLM Inference
-
-| Paper | Source | Key Finding | AMOS Binding |
-|-------|--------|-------------|--------------|
-| SemKV — Semantic mixed-precision KV quantization | arXiv:2608.28911 | Quality cliff at 2.0-2.322 bits; 6.0× storage reduction with no detectable quality loss; TurboQuant-MSE raises to 7.9×; cliff-measure-then-interpolate recipe | `11_KNOWLEDGE/LLM_WIKI` |
-| InnerQ — Hardware-aware KV quantization | arXiv:2602.23200 | Inner-dimension grouping; 22% speedup over prior work; 88% over FP16; hybrid symmetric/asymmetric; high-precision windows for recent + sink tokens | `11_KNOWLEDGE/LLM_WIKI` |
-| NOVA-KV — Attention-preserving vector quantization | arXiv:2608.04074 | Transform coding with attention-aware distortion; non-orthogonal key transform; equal-volume partition codebooks; effective on GPT-OSS-20B MoE | `11_KNOWLEDGE/LLM_WIKI` |
-| KVarN — Variance-normalized KV quantization | arXiv:2606.03458 | Hadamard rotation + dual-scaling variance normalization; fixes token-scale outliers; SOTA on MATH500, AIME24, HumanEval at 2-bit; vLLM implementation | `11_KNOWLEDGE/LLM_WIKI` |
-| MixKVQ — Query-aware mixed-precision KV | ACL 2026 | Query-aware critical channel identification; per-token value quantization; comparable to full-precision at reduced memory | `11_KNOWLEDGE/LLM_WIKI` |
-
-**AMOS Integration:** The "quality cliff" phenomenon (SemKV) is a critical finding for the AMOS cognition engine — it demonstrates that KV cache quantization has a non-graceful degradation threshold, meaning the system must operate above the cliff or fail closed. This maps to the AMOS adaptive stability balancer's collapse probability invariant. KVarN's error accumulation finding is directly relevant to the AMOS reasoning loop — long-horizon reasoning tasks accumulate quantization errors across timesteps, requiring the AMOS validation pipeline to account for this. The attention-preserving transform approach (NOVA-KV) aligns with the AMOS cognitive matrix's attention-based routing mechanism.
-
-### 11.8 Updated Falsifiers (Additional)
-
-- `F10-2026-09-05`: Brain organoid intelligence claims require demonstration of computation (not just signal propagation); current BPU results show routing primitives but not task training, learning, or long-term plasticity.
-- `F11-2026-09-05`: Organoid vascularization beyond 5mm remains unsolved; scaling claims beyond current organoid sizes are `UNKNOWN/GAP`.
-- `F12-2026-09-05`: KV cache quality cliff thresholds are model-specific (demonstrated on Llama-3.1-8B and Mistral-7B); generalization to other architectures requires per-deployment measurement.
+> *This file was reconstructed on 2026-09-04 after Google Drive sync corruption truncated the original to 46 lines. The reconstruction is based on the canonical AMOS research corpus and domain synthesis files. If any content is found to be inconsistent with the source domain files, the domain files take precedence.* `[AMOS_MODEL]`

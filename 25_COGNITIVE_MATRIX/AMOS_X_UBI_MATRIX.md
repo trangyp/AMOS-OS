@@ -1,74 +1,16 @@
 ---
-title: AMOS × UBI Matrix
-type: matrix
-source: 25_COGNITIVE_MATRIX
-artifact: AMOS_X_UBI_MATRIX.md
-artifact_id: amos_25_cognitive_matrix_amos_x_ubi_matrix
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 25_COGNITIVE_MATRIX
-segment: 25_COGNITIVE_MATRIX
-artifact_kind: MATRIX
-path: 25_COGNITIVE_MATRIX/AMOS_X_UBI_MATRIX.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Amos X Ubi Matrix
 tags:
-  - amos-os
-  - cognitive-matrix
-  - matrix
-  - ubi
-  - unified_biological_intelligence
-  - biological_intelligence
-  - nbi
-  - nei
-  - si
-  - bei
-  - biological_alignment
-  - effectiveness
-  - human_ai_interaction
-  - systems_design
-  - rscf
-  - canon_candidate
-  - domain/cognitive-matrix
-  - amos-x-ubi
-  - amos-x-tss
-  - amos-x-tpe
-  - amos-x-neurosyncai
-  - amos-x-trang-reality
-  - law-hierarchy
-version: 1.1.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - UBI_OFFICIAL_MANUAL
-    - AMOS_CORPUS
-  scope:
-    - BIOLOGICAL_INTELLIGENCE
-    - BIOLOGICAL_ROUTING
-    - MATRIX_TRAVERSAL
-    - COGNITIVE_MATRIX
-framework_binding:
-  artifact:
-    name: AMOS × UBI
-    artifact_ref:
-      -   - AMOS_X_UBI
-  role: BIOLOGICAL_DOMAINS_AND_SYSTEMIC_PERFORMANCE_MATRIX
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  four_domain_structure: VERIFIED_SOURCE_STRUCTURE
-  effectiveness_function: SOURCE_CLAIM
-  geometric_mean_alignment_formula: AMOS_DERIVED_NOT_NATIVE_ESTABLISHED
-  empirical_biological_validity: NOT_INDEPENDENTLY_ESTABLISHED
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 ______________________________________________________________________

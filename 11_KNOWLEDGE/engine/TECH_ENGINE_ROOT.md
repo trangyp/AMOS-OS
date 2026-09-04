@@ -1,24 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: TECH ENGINE ROOT
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Tech Engine Root
 tags:
   - canon-group/tech-ai
-  - canon/framework
   - rscf/claim
   - rscf/provenance
-  - rscf/state/observation
-  - topic/tech-engine
-  - engine
-  - trang-framework-recursive-ontology-dynamics
-type: data
-source: 11_KNOWLEDGE/engine
-rscf:
-  state: AMOS_MODEL
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: engine_specification
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # TECH ENGINE ROOT

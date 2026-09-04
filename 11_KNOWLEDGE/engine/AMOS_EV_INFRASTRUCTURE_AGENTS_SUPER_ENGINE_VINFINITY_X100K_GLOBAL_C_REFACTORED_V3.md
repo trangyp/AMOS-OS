@@ -1,33 +1,20 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS EV INFRASTRUCTURE AGENTS SUPER ENGINE VINFINITY X100K GLOBAL C REFACTORED V3
-type: agent
-source: 11_KNOWLEDGE/engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
-topic: amos-ev-infrastructure-agents-super-engine-vinfinity-x100k-g
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Ev Infrastructure Agents Super Engine Vinfinity X100K Global C Refactored V3
 tags:
   - canon-group/tech-ai
-  - canon/framework
   - rscf/claim
   - rscf/provenance
-  - rscf/state/observation
-  - topic/amos-ev-infrastructure-agents-super-engi
-  - engine
-  - agents
-  - system-scan-agent
-  - automation-profiles
-  - amos-simulation-kernel-v0-math-foundations
-  - trang-framework-recursive-ontology-dynamics
+  - rscf/state/source-claim
+  - misc
 created: 2026-08-22
-rscf:
-  state: AMOS_MODEL
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: engine_specification
+---
 ---
 
 # AMOS EV INFRASTRUCTURE [[AGENTS|AGENTS]] SUPER ENGINE VINFINITY X100K GLOBAL C REFACTORED V3

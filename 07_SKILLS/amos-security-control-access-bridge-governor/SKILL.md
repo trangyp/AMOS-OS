@@ -1,56 +1,21 @@
 ---
-schema_version: 1.0
-title: SKILL — Amos Security Control Access Bridge Governor
-type: skill
-source: 07_SKILLS/amos-security-control-access-bridge-governor
-name: amos-security-control-access-bridge-governor
-description: 'Security-Control-Access Bridge Governor — cross-domain capability bridging C09 Org-Law-Policy (policy definition), C10 Tech-Engineering (access control mechanisms), and Runtime Enforcement (enforcement attestation). Governs the unified policy-to-enforcement pipeline: C09 policy → translate to mechanism → C10 mechanism → validate enforcement → Runtime enforcement → audit feedback → C09 policy. Enforces policy-mechanism match (every mechanism has a policy), mechanism-enforcement match (every enforcement matches mechanism), and no layer drift. Use when security policies need to be translated to access control mechanisms, when mechanisms need runtime enforcement validation, or when the full policy-to-enforcement pipeline needs governance. Use when amos-security-safety-master routes to this specialized capability. Do not use for generic security audits, penetration testing, or tasks outside the policy-to-enforcement pipeline governance.'
-parent_skill: amos-security-safety-master
-domain: cross-domain (C09 → C10 → Runtime)
-origin_architect: Trang Phan
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
 epistemic_class: SOURCE_CLAIM
-claim_ceiling: 0.9
-status: production_ready
-created: 2026-08-27
+topic: Skill
 tags:
-  - type/skill
-  - type/skill
-  - domain/cross-domain
-  - epistemic/source_claim
-  - hml/m
-  - epistemic/source_claim
-  - amos-os
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-  - skill
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
-version: 1.1.0
-rscf_state: SOURCE_CLAIM
-hml_level: M
-gmef_gates:
-  - L0_integrity
-  - L1_epistemic
-  - L2_provenance
-  - L5_scope
-  - L7_authority
-collapse_class: reversible
-qfm_gate_set: QFM_v43
-law_compliance:
-  - L0
-  - L1
-  - L2
-  - L4
-  - L5
-  - L7
-  - L16
-  - L17
-  - L18
-license: MIT
-steward: Trang Phan
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Security-Control-Access Bridge Governor
@@ -158,7 +123,7 @@ ______________________________________________________________________
 - **Parent**: `amos-security-safety-master` — routes to this skill when cross-domain (C09 → C10 → Runtime) specialization is needed
 - **Peers**: Other skills in the `cross-domain (C09 → C10 → Runtime)` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
-- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Workflow**: Each skill has a corresponding workflow in `26_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
 
 ## Evaluation

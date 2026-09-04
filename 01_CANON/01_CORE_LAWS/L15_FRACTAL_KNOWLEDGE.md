@@ -1,43 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: L15 FRACTAL KNOWLEDGE
-type: fractal
-source: 01_CANON/01_CORE_LAWS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: L15 Fractal Knowledge
 tags:
-  - canon
-  - core_laws
-  - fractal
-  - fractal_knowledge
-  - family_taxonomy
-  - statistical_validation
-  - generative_systems
-  - constructive_trace
-  - analogy_firewall
-  - bridge_governance
-  - epistemic_governance
-  - canon/universe
-  - validation
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-  - amos-core-all-versions-fractal-knowledge-network
-  - rscf
-  - gmef
-  - provenance-topology
-  - competing-hypotheses
-  - causal-firewall
-  - scope-regime-firewall
-  - law/L11-knowledge-memory
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: core_laws
-  canonical_status: CONDITIONAL
-  specification_status: PROPOSED_SPECIFICATION
-  node_id: l15_fractal_knowledge
-  node_type: note
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # L15 Fractal Knowledge Laws
@@ -4344,4 +4317,9 @@ CAUSAL PROOF
 
 **Conclusion class: CONDITIONAL / AMOS_MODEL.**
 
+```
+```
+
+```
+```
 ```

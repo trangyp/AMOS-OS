@@ -1,39 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: 12 Generators MOC
-type: moc
-source: 25_COGNITIVE_MATRIX/12_GENERATORS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 12 Generators Moc
 tags:
-  - 12-generators
-  - domain/cognitive-matrix
-  - generators-audit
-  - generators-benchmarks
-  - generators-change-log
-  - generators-history
-  - generators-integration
-  - generators-provenance
-  - generators-roadmap
-  - generators-tests
-  - generators-validation
-  - generators-versioning
-  - generator-admission
-  - generator-falsification
-  - generator-output
-  - generator-promotion
-  - generator-seed
-  - generator-supersession
-  - generator-templates
-  - generator-tests
-  - generator-validation
-  - generator-versioning
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: EMPIRICAL
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 12 Generators — Map of Content

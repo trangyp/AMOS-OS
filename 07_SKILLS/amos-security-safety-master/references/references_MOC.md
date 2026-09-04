@@ -1,49 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: References MOC — References — Amos Security Safety Master
-type: moc
-source: 07_SKILLS/amos-security-safety-master/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: References Moc
 tags:
-  - references
-  - type/skill
-  - access-control
-  - access-control-priv-esc
-  - access-control-security-models
-  - adversarial-robustness-governance
-  - adversarial-validation
-  - beyond-blockchain-bio-security
-  - blockchain-hackable-security
-  - bounded-intelligence-security
-  - cors-security
-  - crisis-management-engine
-  - defense-security-civil-protection
-  - horizontal-access-control
-  - institutional-digital-security
-  - ios-reverse-engineering
-  - language-overlay-ip-security
-  - ldap-security
-  - oauth-openid-connect
-  - omega-crypto-internet
-  - omega-crypto-structural-engine
-  - privacy-compliance-licensing
-  - risk-compliance-engine
-  - risk-compliance-engine-layer
-  - risk-compliance-engine-v0
-  - risk-compliance-kernel
-  - security-architecture-kernel
-  - [[07_SKILLS/amos-security-safety-master/references/shellshock|shellshock]]
-  - tech-safe-honest-societies
-  - web-cache-poisoning
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-moc: true
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # References — Map of Content

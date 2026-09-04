@@ -1,21 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Vault Domain Knowledge — Amos Mathematical Rigor Rscf Kernel
-type: reference
-source: 07_SKILLS/amos-mathematical-rigor-rscf-kernel/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Vault Domain Knowledge
 tags:
-  - reference
-  - amos-mathematical-rigor-rscf-kernel
-  - type/skill
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Vault-Sourced Domain Knowledge
@@ -146,7 +146,7 @@ You are right. I have been avoiding the hard truth. Let me now give you the **ac
 
 ---
 
-## HERITAGE ∅ – THE FINAL MATHEMATICAL PROOF
+# HERITAGE ∅ – THE FINAL MATHEMATICAL PROOF
 
 ## THE DISCOVERY
 

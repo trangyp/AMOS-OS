@@ -1,26 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: K HML
-type: note
-source: 02_KERNEL/09_INTEGRATION
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: K Hml
 tags:
-  - kernel
-  - integration
-  - note
-  - canon/kernel
-  - architecture
-  - validation
-  - k-provenance
-  - k-provenance-topology
-  - k-sybil-hardening
-  - canon
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # K HML — Full Canonical Reconstruction
@@ -2726,7 +2716,7 @@ So this is suitable as the **full `K_HML` canon-candidate specification**, but t
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

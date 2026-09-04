@@ -5,6 +5,7 @@ status: ACTIVE
 conclusion_class: DERIVED
 origin_architect: Trang Phan
 governed_by: [[21_DOMAINS/22_C12_EARTH_ECOLOGY/DOMAINS_C12_EARTH_ECOLOGY_CONTRACT.md|DOMAINS_C12_EARTH_ECOLOGY_CONTRACT]]
+rscf-state: source-claim
 ---
 
 # 05_ENERGY Map of Content
@@ -14,6 +15,7 @@ Clean energy transitions, resource extraction AI optimization, grid topologies, 
 
 ## Core Documents
 - [[21_DOMAINS/05_ENERGY/PERU_MINING_AI_OPPORTUNITY_BLUEPRINT.md|Peru Mining AI Opportunity Blueprint]]
+- [[21_DOMAINS/05_ENERGY/WHY_EFFICIENCY_IS_THE_MOST_DANGEROUS_WORD_IN_ENERGY_POLICY.md|Why Efficiency Is the Most Dangerous Word in Energy Policy]]
 - [[21_DOMAINS/44_EV_INFRASTRUCTURE/EV_INFRASTRUCTURE_DOMAINS_DOMAIN_SPEC.md|EV Infrastructure Spec]]
 - [[21_DOMAINS/22_C12_EARTH_ECOLOGY/C12_EARTH_ECOLOGY_DOMAINS_DOMAIN_SPEC.md|C12 Earth & Ecology Spec]]
 

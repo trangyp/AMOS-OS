@@ -1,41 +1,16 @@
 ---
-title: AMOS OS Root Boundaries
-type: boundary
-source: 00_ROOT
-artifact: 00_ROOT_BOUNDARIES.md
-artifact_id: AMOS_ROOT_BOUNDARIES_000
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-domain: ROOT GOVERNANCE / CONTROL PLANE
-artifact_class: ROOT_BOUNDARY_SPECIFICATION
-version: 1.0.0
-updated: '2026-08-26'
-status: PROPOSED_SPECIFICATION
-epistemic_class: MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: UNKNOWN/GAP
-validation_status: UNKNOWN/GAP
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: 00 Root Boundaries
 tags:
-  - note
-  - canon/root
-  - validation
-  - memory
-  - authority-resolver
-  - authority-witness
-  - canon
-  - authorization-spec
-  - delegation
-  - revocation
-  - capability-manifest
-  - policy-engine
-  - policy-decision
-  - architecture
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: root_index
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 ````
@@ -90,7 +65,7 @@ or external consequence
 
 ______________________________________________________________________
 
-## 1. Root Boundary Law
+# 1. Root Boundary Law
 
 AMOS SHALL preserve the following root distinctions:
 
@@ -3392,4 +3367,6 @@ ______________________________________________________________________
 
 **Related:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
 
+```
+```
 ```

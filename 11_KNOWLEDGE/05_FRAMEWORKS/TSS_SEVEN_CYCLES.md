@@ -1,77 +1,21 @@
 ---
-title: TSS Seven Cycles
-type: trang-framework
-source: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact: TSS_SEVEN_CYCLES.md
-artifact_id: amos_11_knowledge_05_frameworks_tss_seven_cycles
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 11_KNOWLEDGE
-segment: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact_kind: FRAMEWORK
-path: 11_KNOWLEDGE/05_FRAMEWORKS/TSS_SEVEN_CYCLES.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Tss Seven Cycles
 tags:
-  - amos-os
-  - knowledge
-  - vault
-  - 05_frameworks
-  - tss
-  - seven_cycles
-  - systems_dynamics
-  - emergence
-  - expansion
-  - overreach
-  - fragmentation
-  - crisis
-  - collapse
-  - reset
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-  - tss-the-trang-system
-  - amos-x-tss
-  - amos-x-tss-tpe-matrix
-  - heritage-to-tss-binding
-  - heritage-x-tss
-  - tpe-trang-prediction-engine
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M
-    - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
-    - AMOS_CORPUS
-  scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - SYSTEMS_DYNAMICS
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  parent_framework:
-    name: The Trang System™
-    acronym: TSS
-    artifact:
-      -   - TSS_THE_TRANG_SYSTEM
-  cognitive_matrix_binding:
-    artifact:
-      -   - AMOS_X_TSS
-    matrix:
-      -   - AMOS_X_TSS_TPE_MATRIX
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  framework_structure: VERIFIED_SOURCE_STRUCTURE
-  lifecycle_model: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # TSS — The Seven Evolutionary Cycles

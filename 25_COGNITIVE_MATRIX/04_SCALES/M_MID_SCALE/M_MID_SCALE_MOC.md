@@ -1,29 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: M Mid Scale MOC
-type: moc
-source: 25_COGNITIVE_MATRIX/04_SCALES/M_MID_SCALE
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: M Mid Scale Moc
 tags:
-  - m-mid-scale
-  - domain/cognitive-matrix
-  - cognitive-matrix-boundaries
-  - cognitive-matrix-semantics
-  - cognitive-matrix-translation-rules
-  - scales-cognitive-matrix-control-planes
-  - scales-cognitive-matrix-definition
-  - scales-cognitive-matrix-dependencies
-  - scales-cognitive-matrix-gap-matrix
-  - scales-cognitive-matrix-invariants
-  - scales-cognitive-matrix-rscf
-  - scales-cognitive-matrix-tests
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # M Mid Scale — Map of Content

@@ -1,20 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: LLM Wiki Log
-type: log
-source: 11_KNOWLEDGE/LLM_WIKI
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Llm Wiki Log
 tags:
-  - log
-  - llm-wiki
-  - canon/knowledge
-  - karpathy-llm-wiki-summary
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # LLM Wiki Log
@@ -44,7 +45,7 @@ Chronological, append-only record of ingests, queries, and lint passes.
 - Created concept page \`\`
 - Created synthesis page \`\`
 - Ran `AMOS_OBSIDIAN_MEMORY_BRIDGE` self-test: 43 passed, 0 failed
-- Fixed orphan `08_WORKFLOWS/amos-kimi-k3-in-c-workflow.md` by linking \`\`
+- Fixed orphan `26_WORKFLOWS/amos-kimi-k3-in-c-workflow.md` by linking \`\`
 
 ## [2026-08-25] research | SOTA agent/skill/workflow repo survey
 
@@ -574,7 +575,7 @@ Continue scanning for the next SOTA repo to capture, or implement the next vault
 - Ran deterministic, fence-aware pass via `scripts/ingest_wiki_reformat.py` (content-preserving; `--dry-run` verified read-only and idempotent).
 - Fixed per-file: 13,579 column-0 + 11,960 indented `*`/`+` bullets → `-`; 1,679 excess blank-line runs; 1,171 `___` HRs → `---`; 85 missing trailing newlines; closed 84 unclosed code fences; added 23 `title:` and 10 minimal frontmatters; split 17 glued duplicate headings; unwrapped 3 embedded frontmatters.
 - Kept `HERITAGE_MODEL_REGISTRY.md` / `NEUROSYNCAI_MODEL_REGISTRY.md` 4-backtick wrappers intact (would duplicate broken frontmatter); quoted arxiv 0801.4950v1 title.
-- By directory: 07_SKILLS 232, 25_COGNITIVE_MATRIX 138, 11_KNOWLEDGE 129, 01_CANON 84, 00_ROOT 48, 05_COGNITIVE_ORGANISM 43, 03_CONTROL_PLANE 31, 08_WORKFLOWS 26, 13_MODELS 18, 02_KERNEL 13, 16_SCHEMAS 8, 24_ARCHIVE 8, 12_STATE 2, 21_DOMAINS 1, .github 1, loose root files 4.
+- By directory: 07_SKILLS 232, 25_COGNITIVE_MATRIX 138, 11_KNOWLEDGE 129, 01_CANON 84, 00_ROOT 48, 05_COGNITIVE_ORGANISM 43, 03_CONTROL_PLANE 31, 26_WORKFLOWS 26, 13_MODELS 18, 02_KERNEL 13, 16_SCHEMAS 8, 24_ARCHIVE 8, 12_STATE 2, 21_DOMAINS 1, .github 1, loose root files 4.
 - Verified: 0 unclosed fences across 7,081 scanned files; only pre-existing `25_COGNITIVE_MATRIX/UBI_X_FULL_BRAIN.md` fails YAML (left for content-level decision).
 - Page: [[11_KNOWLEDGE/LLM_WIKI/wiki/VAULT_INGEST_2026_08_30|VAULT_INGEST_2026_08_30]]; backup tar in temp dir; modified files uncommitted at user's discretion.
 

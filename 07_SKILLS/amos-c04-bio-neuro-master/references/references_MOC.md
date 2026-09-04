@@ -1,54 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: References MOC — References — Amos C04 Bio Neuro Master
-type: moc
-source: 07_SKILLS/amos-c04-bio-neuro-master/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: References Moc
 tags:
-  - references
-  - type/skill
-  - bci-intelligence-biological
-  - bei-engine-v0
-  - biocurrency-monetary-architecture
-  - biological-computing
-  - biology-cognition-engine
-  - biometrics-to-bio-intelligence
-  - biometrics-to-bio-intelligence-v2
-  - brain-superxc-ubi-cognitive-max
-  - domain-config
-  - evolutionary-adaptive-systems-v2
-  - id-exchange-ubi-neurosyncai
-  - kernels-biology-cognition
-  - nbi-engine
-  - nei-engine
-  - nervous-system-framework
-  - nervous-system-states
-  - neuroplasticity-unified-biological
-  - neurosync-quantum-aligned
-  - omega-biology-implementation
-  - quantum-chemical-logic-qcla
-  - si-engine
-  - species-interaction-engine
-  - ubi-baseline-rule
-  - ubi-core-engine-biology
-  - ubi-engine-v0
-  - ubi-equations
-  - ubi-neurosyncai-consentx
-  - ubi-neurosyncai-integration
-  - ubi-neurosyncai-ratpak
-  - ubi-official-manual
-  - ubi-operators
-  - unified-biological-governance
-  - vault-domain-knowledge
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-moc: true
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # References — Map of Content

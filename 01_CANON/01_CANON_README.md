@@ -1,143 +1,76 @@
 ---
-title: 01 Canon Readme — Comprehensive Architectural Specification
-type: architectural_specification
-source: 01_CANON
-aliases:
-  - 01_CANON_README
-  - 01 Canon Readme
-amos_core_target: v4.4
-artifact_id: AMOS-01_CANON_README
-conclusion_class: DERIVED
-epistemic_class: AMOS_MODEL
-created: 2026-09-04
-origin_architect: Trang Phan
-steward: Trang Phan
-status: ACTIVE_SPECIFICATION
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 01_CANON/00_INDEX/01_CANON_MAP
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-  scope: active__AMOS_OS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 01 Canon Readme
 tags:
-  - amos
-  - amos-os
-  - 01_canon
-  - architecture
-  - mece-contract
-  - formal-specification
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# 01 Canon Readme — Comprehensive Architectural Specification
+# 01 Canon — README
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Epistemic Class:** `AMOS_MODEL`
-> **Status:** `ACTIVE_SPECIFICATION`
-> **Governing Plane:** `01_CANON`
+## Role
 
----
+The Canon layer owns high-governance semantics — definitions, invariants, constraints, identity, and semantic boundaries for all of AMOS OS. Canon establishes what things mean, what the rules are, and what cannot be violated.
 
-## 1. Role & Architectural Purpose
+## Scope
 
-`01_CANON_README` defines the formal execution boundary, state invariants, communication contracts, and epistemic constraints within the `01_CANON` plane of the **AMOS Full Brain OS Architecture**.
+### In Scope
 
-It ensures:
-1. **Deterministic Execution**: All computational steps are fully deterministic, repeatable, and traceable.
-2. **Epistemic Integrity**: Enforces the non-negotiable boundaries `CAPABILITY != AUTHORITY`, `DOCUMENTED != IMPLEMENTED`, and `MODEL != OBSERVATION`.
-3. **Modular Composability**: Implements strict input/output tensor schemas facilitating zero-copy Arrow IPC communication across multi-agent swarms.
+- Core laws (AMOS_CORE_LAWS) — the 20+ fundamental invariants (M01–M20)
+- Universe Canon — ontological foundations, Trang Framework, HML canon
+- Cognition Canon — cognitive architecture definitions
+- Infrastructure Canon — system infrastructure definitions
+- Glossary — controlled vocabulary and definitions
+- Provenance — source tracking, lineage, heritage
+- Supersession — version history and deprecation records
+- Variable Registry — formal symbol and variable definitions
 
----
+### Out of Scope
 
-## 2. Interfaces & Protocol Boundaries
+- Runtime state (04_RUNTIME)
+- Agent definitions (06_AGENTS)
+- Knowledge claims (11_KNOWLEDGE) — Canon defines what knowledge is; Knowledge layer contains the knowledge itself
 
-### Input Channel Specification
-- **Message Framing**: Apache Arrow Flight / Protocol Buffers v3 with BLAKE3 cryptographic hash envelopes.
-- **Payload Schema**: Strict typing enforcing `ClaimTensor`, `EvidenceTensor`, or `TelemetryEnvelope` signatures.
-- **Authentication**: Monotonically increasing epoch counter signed by Control Plane capability tokens.
+## Structure
 
-### Output Channel Specification
-- **State Mutation Descriptors**: Transactional change-sets containing forward-apply and reverse-rollback deltas.
-- **Telemetry Egress**: OpenTelemetry v1.34 compatible trace spans with W3C `traceparent` context propagation.
-
-```text
-[Upstream Sender] ──► (Capability Token + Typed Tensor) ──► [01_CANON_README]
-                                                               │
-                                  ┌────────────────────────────┴────────────────────────────┐
-                                  ▼                                                         ▼
-                      [State Mutation Delta]                                     [OpenTelemetry Trace]
-                                  │                                                         │
-                                  ▼                                                         ▼
-                    [03_CONTROL_PLANE Commit Gate]                             [17_OBSERVABILITY Stream]
+```
+01_CANON/
+├── 00_INDEX/                  ← Navigation indices and registries
+├── 01_CORE_LAWS/              ← Fundamental invariants and laws
+├── 02_UNIVERSE_CANON/         ← Ontological foundations
+├── 03_COGNITION_CANON/        ← Cognitive architecture definitions
+├── 04_INFRASTRUCTURE_CANON/   ← Infrastructure definitions
+├── 05_VARIABLE_REGISTRY/      ← Formal symbol definitions
+├── 06_GLOSSARY/               ← Controlled vocabulary
+├── 07_PROVENANCE/             ← Source tracking and lineage
+└── 08_SUPERSESSION/           ← Version history
 ```
 
----
+## Key Invariants
 
-## 3. Dependencies & Upstream/Downstream Subsystems
+- Canon defines what things mean, not what exists
+- Canon ≠ Implementation (M07)
+- Canon changes require governance approval
+- All Canon definitions carry full provenance
 
-- **Upstream Primitives**: [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|01_CORE_LAWS]], [[02_KERNEL/02_KERNEL_MOC|02_KERNEL]], [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE]].
-- **Downstream Consumers**: [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]], [[12_STATE/12_STATE_MOC|12_STATE]], [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY]].
-- **Peer Protocols**: [[09_PROTOCOLS/09_PROTOCOLS_MOC|09_PROTOCOLS]], [[16_SCHEMAS/16_SCHEMAS_MOC|16_SCHEMAS]].
+## Inter-Plane Connections
 
----
+- **Kernel:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] — Kernel validates Canon compliance
+- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] — Control plane enforces Canon
+- **Knowledge:** [[11_KNOWLEDGE/KNOWLEDGE_CONTRACT|KNOWLEDGE_CONTRACT]] — Knowledge promotes to Canon with governance
 
-## 4. Invariants & Epistemic Boundaries
+______________________________________________________________________
 
-$$\begin{aligned}
-\text{INV-01} &: \quad \forall s \in \mathcal{S}, \quad \text{Commit}(s) \implies \text{ValidateToken}(\tau_s) = \text{TRUE} \\
-\text{INV-02} &: \quad \nabla H(\text{EpistemicState}) \ge 0 \quad \text{(Second Law Entropy Non-Negativity)} \\
-\text{INV-03} &: \quad \text{Rollback}(\text{Delta}_k) \circ \text{Apply}(\text{Delta}_k) = \mathbb{I} \quad \text{(Reversible State Changes)}
-\end{aligned}$$
-
-- `SOURCE_CLAIM != VERIFIED`: Claims entering this component remain provisional until multi-agent proof synthesis.
-- `UNKNOWN/GAP != PASS`: Any missing dependency closure triggers an immediate fail-closed state.
-
----
-
-## 5. Authority & Governance Gates
-
-- **Control Plane Enforcement**: Operations touching global state must acquire epoch leases from `03_CONTROL_PLANE/04_AUTHORITY`.
-- **Zero Capability Leakage**: Worker nodes executing this specification cannot escalate permissions or bypass admission filters.
-
----
-
-## 6. Provenance & Cryptographic Audit Trail
-
-Every state mutation delta emitted by `01_CANON_README` is stamped with a cryptographic SHA-256 / BLAKE3 receipt:
-
-$$\mathcal{R}_{\text{receipt}} = \text{BLAKE3}\left( \text{ArtifactID} \parallel \text{Epoch} \parallel \text{StateHash}_{t-1} \parallel \text{PayloadHash} \right)$$
-
----
-
-## 7. Verification & Formal Test Harness
-
-- **Formal Verification**: Lean 4 formal kernel lemmas proven in `02_KERNEL/LEAN4_PROOF_VERIFICATION_LEDGER.md`.
-- **Mathematical Convergence**: Verified against 137 Master Formulas in `22_RESEARCH/01_MATHEMATICS/AMOS_137_MATH_REGISTRY.md`.
-- **Automated Regression**: Validated via `python3 scripts/autonomous_regression_test_runner.py` (10/10 test suites passed).
-
----
-
-## 8. Failure Modes & Degradation Strategies
-
-| Failure Scenario | Trigger Condition | System Response |
-| :--- | :--- | :--- |
-| **Consensus Partition** | Quorum Loss ($N < 2f+1$) | Fail closed to read-only replica mode |
-| **Memory Pressure** | Heap Usage $> 85\%$ | Active shedding of non-critical telemetry queues |
-| **Epistemic Divergence** | Competing Entropy $> 0.15\text{ bits}$ | Route proposition to Adversarial Red-Team Agent |
-
----
-
-## 9. Recovery & Rollback Protocols
-
-1. **State Snapshot Re-anchoring**: Restore state to the last verified checkpoint stored in `12_STATE/`.
-2. **MVCC Journal Replay**: Re-apply committed transactions from the causal write-ahead log.
-3. **Consensus Re-synchronization**: Re-join the distributed state machine replication quorum via Raft-CAS protocol.
-
----
-
-## 10. Master Navigation & Bindings
-
-- **Parent MOC:** [[01_CANON/01_CANON_MOC|01_CANON_MOC]]
-- **Full OS Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]
-- **Master Index:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+**Parent:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]

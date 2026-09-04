@@ -1,23 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: F27CC831 ED1E 4764 896C 24B01EBE2302 THE TRANG SYSTEM CODEX META LAWS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: F27Cc831 Ed1E 4764 896C 24B01Ebe2302 The Trang System Codex Meta Laws
 tags:
-  - canon-group/meta
-  - canon/law
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
-  - rscf/state/observation
-  - topic/f27cc831-ed1e-4764-896c-24b01ebe2302-the
-  - trang
-type: note
-source: 11_KNOWLEDGE/trang
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # F27CC831 ED1E 4764 896C 24B01EBE2302 THE TRANG SYSTEM CODEX META LAWS

@@ -1,187 +1,229 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Khung Trang State Vector Specification
-type: universe-canon
-source: 01_CANON/02_UNIVERSE_CANON
-status: ACTIVE_CANON
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-canonical_status: CONDITIONAL
-updated: 2026-09-04
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Khung Trang State Vector
 tags:
-  - khung_trang
-  - state_vector
-  - canon
-  - law-hierarchy
-  - khung-trang-master
-  - tss-7-cycle
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: universe_canon
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Khung Trang State Vector Specification
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Conclusion Class:** `AMOS_MODEL`
-> **Status:** `ACTIVE_CANON` · **Canonical Status:** `CONDITIONAL`
+## 1. Role
 
----
-
-## 1. Architectural Scope
-
-`KHUNG_TRANG_STATE_VECTOR` defines the **composite system state vector** that captures the complete operational state of the AMOS Full OS at any given epoch. The state vector is the canonical input to the TSS 7-Cycle governance loop and the URTA risk tension architecture — it is what the system observes about itself to make adaptive stability decisions.
-
-The state vector binds to `12_STATE`, `04_RUNTIME`, `03_CONTROL_PLANE`, and the `TSS_7_CYCLE` governance framework. It is the typed tensor that flows through the AMOS cognition engine and the control plane's commit gate.
-
----
+The Khung Trang State Vector defines the composite system state representation for any entity within the AMOS recursive ontology. It provides a formal coordinate system for describing the current condition of a system across all ontological dimensions simultaneously.
 
 ## 2. State Vector Definition
 
-The composite system state vector:
+The composite system state vector is:
 
 $$\vec{S} = \langle \Omega, H, F, S, \text{Bio}, \text{Epoch} \rangle$$
 
-| Component | Symbol | Type | Description | AMOS Binding |
-|-----------|--------|------|-------------|--------------|
-| Ontological state | $\Omega$ | `OntologyTensor` | Active ontological commitments and their validity | `01_CANON` |
-| Historical state | $H$ | `HistoryTensor` | Committed history with provenance | `10_MEMORY` |
-| Functional state | $F$ | `FunctionTensor` | Active capabilities and their authority | `03_CONTROL_PLANE` |
-| Structural state | $S$ | `StructureTensor` | Current system topology and connections | `16_SCHEMAS` |
-| Biological state | $\text{Bio}$ | `BioTensor` | Cognitive organism vital signs | `05_COGNITIVE_ORGANISM` |
-| Epoch | $\text{Epoch}$ | `EpochCounter` | Monotonically increasing epoch counter | `04_RUNTIME` |
+where each component represents a fundamental ontological dimension:
 
----
+| Component | Symbol | Dimension | Range | Description |
+|-----------|--------|-----------|-------|-------------|
+| $\Omega$ | Omega | Survival Dynamics | $[0, 1]$ | Recursive survival capacity — the system's ability to persist and maintain coherent structure over time |
+| $H$ | Hamiltonian | Energetic Coherence | $\mathbb{R}$ | Total energy coherence measure — the system's internal energy distribution consistency |
+| $F$ | Fitness | Adaptive Capacity | $[0, 1]$ | Fitness landscape position — the system's current adaptive fitness relative to its environment |
+| $S$ | Structure | Organizational Integrity | $[0, 1]$ | Structural coherence — the system's internal organizational integrity |
+| Bio | Biological | Biological Integration | $[0, 1]$ | Biological interface measure — the system's coupling to biological substrates (zero for non-biological systems) |
+| Epoch | Epoch | Temporal Context | $\mathbb{Z}^+$ | Causal epoch — the system's position in the causal history timeline |
 
-## 3. Governing Invariants
+## 3. Dimension Specifications
 
-- **SV-1 State Completeness:** The state vector must contain all 6 components. Missing components trigger `UNKNOWN/GAP` classification, not default values.
-- **SV-2 Epoch Monotonicity:** $\text{Epoch}_{t+1} > \text{Epoch}_t$ always. Epoch never decreases. Rollback restores state but increments epoch.
-- **SV-3 State Bounds:** Each component has declared bounds. Out-of-bounds values trigger URTA tension detection.
-- **SV-4 State Hash Integrity:** $\text{Hash}(\vec{S}) = \text{BLAKE3}(\Omega \parallel H \parallel F \parallel S \parallel \text{Bio} \parallel \text{Epoch})$. State hash is cryptographically verifiable.
-- **SV-5 State Provenance:** Every state vector transition records its cause, authority token, and predecessor hash.
-- **SV-6 Axiom Adherence:** State vector governance is strictly bound by M01–M20 core laws and the `LAW_HIERARCHY` precedence order.
+### 3.1 Survival Dynamics ($\Omega$)
 
----
+The survival dynamics component measures the system's recursive capacity to maintain its own existence:
 
-## 4. Component Specifications
+$$\Omega(t+1) = \Omega(t) + \Delta\Omega_{\text{repair}} - \Delta\Omega_{\text{decay}}$$
 
-### 4.1 Ontological State ($\Omega$)
+where:
+- $\Delta\Omega_{\text{repair}}$ is the survival repair contribution (from TSS cycle)
+- $\Delta\Omega_{\text{decay}}$ is the natural decay contribution
 
-$$\Omega = \{(\text{commitment}_i, \text{validity}_i, \text{confidence}_i)\}_{i=1}^{N_\Omega}$$
+**Bounds:**
+- $\Omega = 0$: System has no survival capacity (non-existent or fully degraded)
+- $\Omega = 1$: System has maximum survival capacity (fully self-sustaining)
 
-Each ontological commitment has a validity status (`VALID`, `CONDITIONAL`, `COMPETING`, `INVALID`) and a confidence ceiling bounded by the observer-experience gap.
+**AMOS Application:** Runtime session health tracking. A session with $\Omega$ below threshold triggers recovery protocols.
 
-### 4.2 Historical State ($H$)
+### 3.2 Hamiltonian Coherence ($H$)
 
-$$H = \text{MVCCJournal}(\text{commits}_{1..t})$$
+The Hamiltonian component measures the system's internal energy distribution consistency:
 
-The historical state is a multi-version concurrency control journal of all committed state transitions, supporting causal replay and rollback.
+$$H = \sum_i p_i \ln p_i$$
 
-### 4.3 Functional State ($F$)
+where $p_i$ is the probability distribution over internal states.
 
-$$F = \{(\text{capability}_i, \text{authority}_i, \text{active}_i)\}_{i=1}^{N_F}$$
+**Properties:**
+- $H > 0$: System is in a coherent, low-entropy state
+- $H = 0$: System is at maximum entropy (thermal equilibrium, no useful structure)
+- $H < 0$: System is in an anti-coherent state (unstable, energy inverted)
 
-Each capability has an authority token (or `NULL` if not authorized) and an active flag. `CAPABILITY != AUTHORITY` — a capability may exist without being authorized.
+**AMOS Application:** Knowledge coherence measure. A knowledge system with high $H$ has well-organized, internally consistent claims.
 
-### 4.4 Structural State ($S$)
+### 3.3 Fitness Landscape Position ($F$)
 
-$$S = (\text{Topology}, \text{Connections}, \text{Schemas})$$
+The fitness component maps the system's position on its local fitness landscape:
 
-The structural state captures the current system topology (which planes are active), inter-plane connections, and active schema versions.
+$$F = f(\text{traits}, \text{environment})$$
 
-### 4.5 Biological State (Bio)
+where traits are the system's current capabilities and environment is the current operational context.
 
-$$\text{Bio} = (\text{CognitiveLoad}, \text{NeuralActivity}, \text{EmotionalState}, \text{EnergyBudget})$$
+**Bounds:**
+- $F = 0$: System is at a fitness minimum (not adapted to environment)
+- $F = 1$: System is at a fitness maximum (optimally adapted)
 
-The biological state captures the cognitive organism's vital signs: cognitive load (0–1), neural activity patterns, emotional state (DA/5HT/NE levels), and energy budget.
+**AMOS Application:** Agent fitness tracking. Agents whose fitness drops below threshold are candidates for replacement or repair.
 
-### 4.6 Epoch
+### 3.4 Structural Integrity ($S$)
 
-$$\text{Epoch} \in \mathbb{N}, \quad \text{Epoch}_{t+1} = \text{Epoch}_t + 1$$
+The structural component measures the system's organizational coherence:
 
-The epoch counter is monotonically increasing and signed by the control plane's capability tokens.
+$$S = 1 - \frac{H_{\text{actual}}}{H_{\text{max}}}$$
 
----
+where $H_{\text{actual}}$ is the actual entropy of the system's structure and $H_{\text{max}}$ is the maximum possible entropy.
 
-## 5. State Transitions
+**Properties:**
+- $S = 1$: Perfect structural coherence (zero structural entropy)
+- $S = 0$: Maximum structural disorder
 
-```mermaid
-graph LR
-    S_t["S_t (Current State)"] -->|"Authority Token + Delta"| S_t1["S_{t+1} (Next State)"]
-    S_t1 -->|"Receipt"| R["17_OBSERVABILITY"]
-    S_t1 -->|"Hash"| L["State Ledger"]
-    S_t -->|"Rollback"| S_t1
+**AMOS Application:** Component integrity monitoring. Components with low $S$ are flagged for structural repair.
+
+### 3.5 Biological Integration (Bio)
+
+The biological component measures coupling to biological substrates:
+
+$$\text{Bio} = \begin{cases} 0 & \text{if non-biological} \\ \frac{\text{neural_coupling}}{\text{max_coupling}} & \text{if biological or bio-coupled} \end{cases}$$
+
+**AMOS Application:** BCI system state tracking. The Bio component measures how well the BCI interface is coupled to the user's neural activity.
+
+### 3.6 Causal Epoch (Epoch)
+
+The epoch component records the system's position in causal time:
+
+$$\text{Epoch} = \text{max}(\text{incoming epoch vectors}) + 1$$
+
+**Properties:**
+- Monotonically increasing for each entity
+- Shared across causally connected entities
+- Forms a partial ordering across the system
+
+**AMOS Application:** Runtime causal ordering. Epoch tags ensure operations are processed in causal order.
+
+## 4. State Vector Dynamics
+
+### 4.1 TSS 7-Cycle Integration
+
+The state vector evolves according to the TSS 7-Cycle:
+
+$$\vec{S}(t+1) = \text{TSS}(\vec{S}(t), \vec{E}(t))$$
+
+where $\vec{E}(t)$ is the environmental input at time $t$.
+
+The TSS cycle consists of 7 phases:
+1. **Boundary** — Define system-environment boundary
+2. **Sense** — Acquire sensory input
+3. **Compute** — Process input against internal model
+4. **Decide** — Select action from options
+5. **Act** — Execute selected action
+6. **Evaluate** — Assess outcome against expectations
+7. **Repair** — Correct any deviations (entropy repair)
+
+### 4.2 Component Interactions
+
+Components are not independent — they interact through coupling terms:
+
+$$\frac{d\vec{S}}{dt} = \mathbf{J} \cdot \vec{S} + \vec{F}(\vec{S})$$
+
+where $\mathbf{J}$ is the Jacobian matrix of component interactions and $\vec{F}(\vec{S})$ is the external forcing function.
+
+## 5. Invariant State Bounds
+
+### 5.1 Conservation Law
+
+The total state norm is bounded:
+
+$$||\vec{S}|| \leq S_{\max}$$
+
+No system can exceed the maximum state norm. Exceeding $S_{\max}$ indicates a measurement error or system anomaly.
+
+### 5.2 Non-Negativity
+
+$\Omega, F, S, \text{Bio} \geq 0$ — survival, fitness, structure, and biological integration cannot be negative.
+
+### 5.3 Epoch Monotonicity
+
+$\text{Epoch}(t+1) \geq \text{Epoch}(t)$ — causal time never decreases.
+
+### 5.4 Coherence Bound
+
+$|H| \leq H_{\max}$ — Hamiltonian coherence is bounded by system complexity.
+
+## 6. AMOS Integration
+
+### 6.1 Runtime State Mapping
+
+| State Vector Component | AMOS Runtime Analog |
+|----------------------|---------------------|
+| $\Omega$ | Session health score |
+| $H$ | Knowledge coherence metric |
+| $F$ | Agent fitness relative to task |
+| $S$ | Component structural integrity |
+| Bio | BCI coupling quality |
+| Epoch | Causal epoch tag |
+
+### 6.2 Control Plane Usage
+
+The control plane monitors state vectors to:
+- Detect degradation before failure ($\Omega$ dropping)
+- Validate knowledge consistency ($H$ coherence)
+- Assess agent fitness for task ($F$ match)
+- Verify structural integrity ($S$ above threshold)
+
+### 6.3 Recovery Triggers
+
+| Condition | Trigger | Response |
+|-----------|---------|----------|
+| $\Omega < \Omega_{\min}$ | Survival crisis | Emergency recovery protocol |
+| $H < H_{\min}$ | Coherence loss | Knowledge reconciliation |
+| $F < F_{\min}$ | Fitness collapse | Agent replacement or repair |
+| $S < S_{\min}$ | Structural degradation | Component rebuild |
+| $\Delta\text{Epoch} > \Delta_{\max}$ | Causal gap detection | Epoch reconciliation |
+
+______________________________________________________________________
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]] · [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER|KHUNG_TRANG_MASTER]] · [[01_CANON/02_UNIVERSE_CANON/TSS_7_CYCLE|TSS_7_CYCLE]]
+
+**MOC:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
+
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+______________________________________________________________________
+
+```RSCF-NODE
+node_id: khung_trang_state_vector
+node_type: universe_canon
+domain: 01_CANON/02_UNIVERSE_CANON
+claim_class: AMOS_MODEL
+confidence_ceiling:
+  state_vector_definition: high
+  component_interactions: medium
+  tss_integration: high
+falsifiers:
+  - State vector components shown to be non-independent in practice
+  - TSS cycle fails to produce valid state transitions
+  - Invariant bounds violated under normal operating conditions
 ```
-
-### 5.1 Transition Function
-
-$$\vec{S}_{t+1} = \mathcal{T}(\vec{S}_t, \Delta, \tau)$$
-
-where $\Delta$ is the state delta and $\tau$ is the authority token. The transition is valid only if:
-
-1. $\text{ValidateToken}(\tau) = \text{TRUE}$
-2. $\text{BoundsCheck}(\vec{S}_t + \Delta) = \text{WITHIN_BOUNDS}$
-3. $\text{CollapseCheck}(\vec{S}_t + \Delta) = P_{\text{collapse}} < \theta$
-
-### 5.2 Rollback
-
-$$\vec{S}_{t} = \mathcal{T}^{-1}(\vec{S}_{t+1}, \Delta^{-1}, \tau_{\text{rollback}})$$
-
-Rollback applies the inverse delta. The epoch still increments: $\text{Epoch}_{\text{after rollback}} = \text{Epoch}_{\text{before}} + 1$.
-
----
-
-## 6. MECE Mapping to AMOS Full Brain OS
-
-| State Component | AMOS Plane | Role |
-|----------------|------------|------|
-| $\Omega$ (Ontological) | `01_CANON` | Active commitments |
-| $H$ (Historical) | `10_MEMORY` | Committed history |
-| $F$ (Functional) | `03_CONTROL_PLANE` | Capabilities + authority |
-| $S$ (Structural) | `16_SCHEMAS` | Topology + schemas |
-| Bio (Biological) | `05_COGNITIVE_ORGANISM` | Cognitive vital signs |
-| Epoch | `04_RUNTIME` | Temporal ordering |
-| State hash | `12_STATE` | Integrity verification |
-| Transition receipts | `17_OBSERVABILITY` | Audit trail |
-| Collapse check | `18_SECURITY` | Safety boundary |
-| State vector input | `TSS_7_CYCLE` | Governance loop |
-
----
-
-## 7. Safety Invariants & Firewalls
-
-- `INV-SV-001` (**No Default Substitution**): Missing state components trigger `UNKNOWN/GAP`, not default values. `MISSING != DEFAULT`.
-- `INV-SV-002` (**Epoch Monotonicity**): Epoch never decreases, even on rollback. `EPOCH_{t+1} > EPOCH_t` always.
-- `INV-SV-003` (**State Hash Verifiability**): Every state vector has a BLAKE3 hash that can be independently verified.
-- `INV-SV-004` (**Bounds Enforcement**): Out-of-bounds state components trigger URTA tension, not silent acceptance.
-- `INV-SV-005` (**Transition Provenance**): Every transition records cause, authority, and predecessor hash. No anonymous transitions.
-
----
-
-## 8. Navigation & Bindings
-
-- **Master MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
-- **Partition Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]
-- **Khung Trang Master:** [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER|KHUNG_TRANG_MASTER]]
-- **TSS 7-Cycle:** [[01_CANON/02_UNIVERSE_CANON/TSS_7_CYCLE|TSS_7_CYCLE]]
-- **URTA Risk Tension:** [[01_CANON/02_UNIVERSE_CANON/URTA_RISK_TENSION_ARCHITECTURE|URTA_RISK_TENSION_ARCHITECTURE]]
-- **State Plane:** [[12_STATE/12_STATE_MOC|12_STATE_MOC]]
-- **Runtime Plane:** [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
-- **Universe Canon MOC:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
-
----
-
-## 9. Known Gaps & Falsifiers
-
-- `GAP-SV-001`: The biological state component (Bio) is a model, not a measurement of actual substrate experience (per `KHUNG_TRANG_OBSERVER_EXPERIENCE_GAP`).
-- `GAP-SV-002`: The state vector's completeness depends on all planes reporting their state; unresponsive planes create partial state vectors.
-- `GAP-SV-003`: The transition function $\mathcal{T}$ is a specification pattern; executable closure is `UNKNOWN/GAP` without implementation evidence.
-
-**Parent:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

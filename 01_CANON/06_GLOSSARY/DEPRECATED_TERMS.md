@@ -1,52 +1,16 @@
 ---
-title: DEPRECATED TERMS
-type: deprecated
-source: 01_CANON/06_GLOSSARY
-artifact_id: AMOS-OS-DEPRECATED-TERMS
-canonical_name: DEPRECATED_TERMS
-artifact_type: canonical_semantic_lifecycle_registry
-registry_type: deprecated_term_registry
-status: SOURCE_CLAIM
-conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-domain: canon
-scope: AMOS_OS
-authority_scope: terminology-deprecation-and-semantic-migration
-created: 2026-08-25
-updated: 2026-08-30
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Deprecated Terms
 tags:
-  - amos-os
-  - canon
-  - universe
-  - canon-group/meta
-  - canon/semantics
-  - canon/terminology
-  - canon/deprecation
-  - canon/supersession
-  - canon/registry
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
   - rscf/state/source-claim
-  - topic/deprecated-terms
-  - topic/semantic-integrity
-  - topic/semantic-migration
-  - topic/lineage
-  - topic/provenance
-  - readme
-  - architecture
-  - neural-network
-  - amos-core-laws
-  - law-hierarchy
-  - canonical-glossary
-aliases:
-  - AMOS Deprecated Terms - Deprecated Terminology Registry - AMOS Terminology Migration Registry
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AMOS OS Deprecated Terms
@@ -246,7 +210,7 @@ OLD_NAME
 - **New display label:** `AMOS Engines Master` / `Amos Engines Master`
 - **Change type:** RENAMED
 - **Scope:** AMOS OS skill, agent, and workflow namespace
-- **Provenance:** 2026-08-30 namespace reconciliation across `.devin/skills/`, `.devin/agents/`, `.devin/workflows/`, and the Obsidian vault (`07_SKILLS/amos-engines-master`, `08_WORKFLOWS/amos-engines-master-workflow`, `06_AGENTS/amos-engines-master-agent`).
+- **Provenance:** 2026-08-30 namespace reconciliation across `.devin/skills/`, `.devin/agents/`, `.devin/workflows/`, and the Obsidian vault (`07_SKILLS/amos-engines-master`, `26_WORKFLOWS/amos-engines-master-workflow`, `06_AGENTS/amos-engines-master-agent`).
 - **Rationale:** The `Super` qualifier is a promotional/magnitude term that does not encode a semantic role. The replacement uses the canonical `Engines Master` role naming aligned with the `AMOS_CORE` type vocabulary.
 - **Migration rule:** New artifacts and wikilinks must use `amos-engines-master`. Historical references and `AMOS Super Engines` brain notes are preserved as `LEGACY_ALIAS` / `HISTORICAL_ONLY` lineage.
 
@@ -1816,7 +1780,7 @@ RSCF-RELATIONS:
 ## Related
 
 README ·
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]] ·
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]] ·
 [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] ·
 [[00_ROOT/SYSTEM_MAP|SYSTEM_MAP]] ·
 NAMING_STANDARD ·
@@ -1843,7 +1807,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

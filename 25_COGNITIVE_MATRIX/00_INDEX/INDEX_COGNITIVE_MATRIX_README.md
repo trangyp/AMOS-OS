@@ -1,23 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: INDEX COGNITIVE MATRIX README
-type: index
-source: 25_COGNITIVE_MATRIX/00_INDEX
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Index Cognitive Matrix Readme
 tags:
-  - cognitive-matrix
-  - index
-  - readme
-  - domain/cognitive-matrix
-  - skill
-  - workflow
-  - canon
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: index_navigation
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Cognitive Matrix
@@ -45,14 +43,14 @@ World Modeling × Prediction × Reasoning Control Plane × High scale.
 
 ## Critical separation
 
-CANON != KERNEL != PRIMITIVE != AGENT != SKILL != [[08_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]] != CONTROL_PLANE
+CANON != KERNEL != PRIMITIVE != AGENT != SKILL != [[26_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]] != CONTROL_PLANE
 
 A cell does not claim implementation merely because a candidate kernel/agent/skill/workflow can be routed to it.
 Each binding is `UNVALIDATED_BINDING` until validated by tests and provenance.
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

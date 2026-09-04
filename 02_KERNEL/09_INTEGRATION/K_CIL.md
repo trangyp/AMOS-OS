@@ -1,35 +1,21 @@
 ---
-title: COGNITIVE INTERFACE LAYER (CIL) KERNEL
-type: kernel
-source: 02_KERNEL/09_INTEGRATION
-artifact_id: AMOS-KERNEL-K-CIL-MASTER
-canonical_name: K_CIL
-status: CANONICAL
-conclusion_class: CANONICAL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-version: 2.0.0
-created: '2026-08-25'
-updated: '2026-08-28'
-plane: 02_KERNEL
-domain: integration
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: K Cil
 tags:
-  - amos-os
-  - kernel
-  - cil
-  - integration
-  - cross-layer-binding
+  - canon-group/tech-ai
   - rscf/claim
-  - rscf/state/canonical
-aliases:
-  - Cognitive Interface Layer Kernel
-  - K_CIL
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # COGNITIVE INTERFACE LAYER (CIL) KERNEL

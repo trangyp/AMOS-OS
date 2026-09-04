@@ -1,98 +1,105 @@
 ---
-title: "Operating Model Escalation Contract — 4-Tier Automated Escalation Cascades & Deadlock Resolution"
-type: subplane_contract
-plane: 23_OPERATING_MODEL
-subplane: 04_ESCALATION
-domain: A_NORMATIVE_GOVERNANCE
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 23_OPERATING_MODEL/OPERATING_MODEL_OPERATING_MODEL_CONTRACT
-    - 23_OPERATING_MODEL/02_DECISION_RIGHTS/OPERATING_MODEL_DECISION_RIGHTS_CONTRACT
-    - 03_CONTROL_PLANE/COGNITIVE_VAULT_RESOLVER
-  scope: escalation_cascades_and_deadlock_breaking
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Operating Model Escalation Contract
 tags:
-  - amos-os
-  - 23-operating-model
-  - escalation-contract
-  - automated-cascades
-  - deadlock-resolution
-  - fail-closed
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Operating Model Escalation Contract — 4-Tier Automated Escalation Cascades & Deadlock Resolution
+# OPERATING MODEL ESCALATION CONTRACT
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Domain Alignment:** Domain A (Normative & Governance Definition)
-> **Conclusion Class:** `DERIVED` (RSCF Validated)
-> **Status:** `ACTIVE_SPECIFICATION`
+## 0. Status
 
----
+Operating Model-plane contract for **ESCALATION CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
-## 1. Architectural Scope & Subsystem Role
+## 1. Scope
 
-`23_OPERATING_MODEL/04_ESCALATION` defines the automated escalation pathways, timeout triggers, deadlock-breaking algorithms, and emergency stop protocols for all unresolved cross-plane conflicts and multi-agent impasses in AMOS OS.
+Governs roles, decision rights, governance forums, escalation paths, service levels as they bear on `ESCALATION CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
 
-```text
-ESCALATION != FAILURE_OF_EXECUTION
-SILENT_HANG == SYSTEMIC_VULNERABILITY
-TIMEOUT != UNRECOVERABLE_CRASH
-DEADLOCK_BREAKING != ARBITRARY_MUTATION
-```
+## 2. Contract terms
 
----
+- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
+- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
+- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
+- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
+- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
 
-## 2. 4-Tier Escalation Hierarchy & Response SLAs
+## 3. Invariants
 
-```mermaid
-graph TD
-    IMP[Conflict / Timeout / Deadlock Detected] --> L1[Level 1: Local Agent Auto-Retry & Seed Variation]
-    L1 -->|Unresolved in 2s| L2[Level 2: Coordinator Swarm 3-Way Semilattice Merge]
-    L2 -->|Unresolved in 30s| L3[Level 3: Domain Plane Lead / Architectural Review]
-    L3 -->|Unresolved in 5m / Invariant Breach| L4[Level 4: Origin Steward: Trang Phan]
-    L4 --> RESOLVED[Final Resolution / Rollback Committed]
-```
+- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
+- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
+- Consequential effects emit receipts; rollback basin exists before mutation.
+- Competing hypotheses remain visible when evidence does not discriminate.
 
-### 2.1 Escalation Tiers & Trigger Conditions
+## 4. Executed reference
 
-| Level | Responsible Entity | Trigger Condition | Max Resolution SLA | Fallback Action |
-| :--- | :--- | :--- | :--- | :--- |
-| **Level 1** | Local Agent Instance | Ephemeral tool I/O failure, CAS conflict | $< 2.0\text{ s}$ | Escalate to Level 2 |
-| **Level 2** | Swarm Coordinator | Multi-agent state divergence, deadlock | $< 30.0\text{ s}$ | Rollback uncommitted ops |
-| **Level 3** | Domain Plane Lead | Cross-plane schema mismatch, test failure| $< 5.0\text{ min}$ | Freeze affected subplane |
-| **Level 4** | **Trang Phan (Steward)**| Core law violation, security compromise | Immediate alert | System-wide Fail-Closed Basin |
+No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
 
----
+## 5. Gaps
 
-## 3. Automated Deadlock-Breaking Algorithm
+Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
 
-Let $\mathcal{A}_{\text{stuck}} \subseteq \mathcal{A}$ be a set of agents engaged in a cyclic dependency loop. The escalation engine breaks the deadlock via deterministic priority preemption:
+## 6. Falsifiers
 
-$$a_{\text{victim}} = \arg\min_{a \in \mathcal{A}_{\text{stuck}}} \left( \text{Priority}(a) \cdot 10^3 + \text{RemainingBudget}(a) \right)$$
+F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
 
-1. Preempt $a_{\text{victim}}$, roll back its uncommitted working memory to checkpoint $S_0$.
-2. Re-queue $a_{\text{victim}}$ with exponential backoff $T_{\text{backoff}} = 2^k \cdot \tau_0$.
-3. Allow highest-priority agent $a_{\max}$ to proceed through the critical section.
+## Worked semantics
 
----
+Given an operation touching `OPERATING MODEL · ESCALATION CONTRACT` within the Operating Model plane:
 
-## 4. Invariants & Guardrails
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-1. **Fail-Closed Default:** If an escalation to Level 4 times out without human response within configured SLA, the system must deterministically roll back all pending mutations to the last verified CAS checkpoint.
-2. **Audit Receipt Mandate:** Every Level 3 and Level 4 escalation generates an immutable post-mortem incident report archived in `20_OPERATIONS`.
+## Promotion-gate checklist
 
----
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-## 5. Lineage & Cross-Plane References
+## Cross-plane bindings
 
-- **Parent Contract:** [[23_OPERATING_MODEL/OPERATING_MODEL_OPERATING_MODEL_CONTRACT|OPERATING_MODEL_OPERATING_MODEL_CONTRACT]]
-- **Decision Rights:** [[23_OPERATING_MODEL/02_DECISION_RIGHTS/OPERATING_MODEL_DECISION_RIGHTS_CONTRACT|OPERATING_MODEL_DECISION_RIGHTS_CONTRACT]]
-- **Operations Incident Log:** [[20_OPERATIONS/20_OPERATIONS_MOC|20_OPERATIONS]]
-- **Security Protocols:** [[18_SECURITY/SECURITY_SECURITY_CONTRACT|18_SECURITY]]
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+
+______________________________________________________________________
+
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+
+______________________________________________________________________
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: amos_3_operating_model_04_escalation_operating_model_escalation_contract_md
+node_type: note
+path: 23_OPERATING_MODEL/04_ESCALATION/OPERATING_MODEL_ESCALATION_CONTRACT.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[23_OPERATING_MODEL/04_ESCALATION/04_ESCALATION_MOC|04_ESCALATION_MOC]]

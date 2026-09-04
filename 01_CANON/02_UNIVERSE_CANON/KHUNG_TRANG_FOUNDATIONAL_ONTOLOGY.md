@@ -1,179 +1,217 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Khung Trang Foundational Ontology
-type: universe-canon
-source: 01_CANON/02_UNIVERSE_CANON
-status: ACTIVE_SPECIFICATION
-epistemic_class: CANON_SPEC
-conclusion_class: CANONICAL_INVARIANT
-canonical_status: ACTIVE_CANON_CANDIDATE
-updated: 2026-09-04
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Khung Trang Foundational Ontology
 tags:
-  - khung_trang
-  - ontology
-  - canon
-  - pre_symbolic
-  - khung-trang-master
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: CANON_SPEC
-  claim_class: CANONICAL_INVARIANT
-  provenance: KHUNG_TRANG_CANON
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Khung Trang Foundational Ontology
 
-Defines the pre-symbolic ontological progression $\mathcal{P} \to \mathcal{D} \to \mathcal{R} \to \mathcal{C} \to \mathcal{F} \to \mathcal{M}$ anchoring reality from null ground state $S_0$ through multiscale emergence.
+## 1. Role
 
-## Related
+The Khung Trang Foundational Ontology defines the pre-symbolic ontological progression anchoring reality from null ground state $S_0$ through multiscale emergence. It provides the ontological foundation for all AMOS structures — every AMOS component, layer, and operation can be traced back through this ontology to the null ground state.
 
-- [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER|KHUNG_TRANG_MASTER]] · [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_CANON|KHUNG_TRANG_CANON]] · [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
+## 2. Ontological Progression
+
+The fundamental ontological progression is:
+
+$$\mathcal{P} \to \mathcal{D} \to \mathcal{R} \to \mathcal{C} \to \mathcal{F} \to \mathcal{M}$$
+
+where each stage represents a level of ontological complexity:
+
+| Stage | Symbol | Name | Description | AMOS Analog |
+|-------|--------|------|-------------|-------------|
+| 1 | $\mathcal{P}$ | Potential | Pre-differentiated ground state; pure potential without actualization | Null state $S_0$ |
+| 2 | $\mathcal{D}$ | Differentiation | First distinction; boundary emergence; something vs nothing | System boundary definition |
+| 3 | $\mathcal{R}$ | Relation | Entities enter into relations; connectivity emerges | Agent interactions, knowledge links |
+| 4 | $\mathcal{C}$ | Computation | Relations become computable; information processing emerges | Kernel operations, reasoning |
+| 5 | $\mathcal{F}$ | Function | Computations acquire purpose; functional organization emerges | Agent roles, workflow goals |
+| 6 | $\mathcal{M}$ | Meaning | Functions acquire semantic content; meaning and reference emerge | Knowledge semantics, ontological grounding |
+
+## 3. Stage Specifications
+
+### 3.1 Stage 1: Potential ($\mathcal{P}$)
+
+The null ground state $S_0$ from which all structure emerges:
+
+$$\mathcal{P}: S = S_0, \Omega = 0, H = 0, F = 0, S_{\text{struct}} = 0$$
+
+Properties:
+- No differentiation, no relations, no computation
+- Pure potentiality without actuality
+- The "vacuum state" of the ontology
+
+**AMOS Application:** $S_0$ is the reset target for K_FAILURE_RECOVERY. When a system is fully reset, it returns to $\mathcal{P}$.
+
+### 3.2 Stage 2: Differentiation ($\mathcal{D}$)
+
+The first distinction — boundary emergence:
+
+$$\mathcal{D}: S_0 \to \{S_{\text{internal}}, S_{\text{external}}\}$$
+
+Properties:
+- System-environment boundary is established
+- Interior and exterior are distinguished
+- Identity begins to form (this vs that)
+
+**AMOS Application:** AMOS system boundary definition — what is inside AMOS vs outside. Every AMOS component has a clear boundary.
+
+### 3.3 Stage 3: Relation ($\mathcal{R}$)
+
+Entities enter into relations:
+
+$$\mathcal{R}: \{(e_i, e_j, r_{ij}) | e_i, e_j \in S_{\text{internal}}, r_{ij} \in \text{Relations}\}$$
+
+Properties:
+- Connectivity emerges
+- Entities are defined by their relations (structuralism)
+- Network topology begins to matter
+
+**AMOS Application:** AMOS agent interactions, knowledge links, cross-domain bridges. The relation structure defines AMOS's architecture.
+
+### 3.4 Stage 4: Computation ($\mathcal{C}$)
+
+Relations become computable:
+
+$$\mathcal{C}: \text{Relations} \to \text{Computable Operations}$$
+
+Properties:
+- Information processing emerges
+- Operations can be performed on relations
+- Deterministic and stochastic computation become possible
+
+**AMOS Application:** AMOS kernel operations — the deterministic logic kernel, RSCF operations, state transitions.
+
+### 3.5 Stage 5: Function ($\mathcal{F}$)
+
+Computations acquire purpose:
+
+$$\mathcal{F}: \text{Computation} \to \text{Goal-Directed Behavior}$$
+
+Properties:
+- Functional organization emerges
+- Components have roles and responsibilities
+- Purpose and teleology enter the ontology
+
+**AMOS Application:** AMOS agent roles, workflow goals, control plane authority. Every AMOS component has a declared function.
+
+### 3.6 Stage 6: Meaning ($\mathcal{M}$)
+
+Functions acquire semantic content:
+
+$$\mathcal{M}: \text{Function} \to \text{Semantics}$$
+
+Properties:
+- Meaning and reference emerge
+- Signs and symbols acquire interpretive content
+- The system can reason about itself and its world
+
+**AMOS Application:** AMOS knowledge semantics — claims have meaning, provenance has interpretation, ontological grounding is established.
+
+## 4. Emergence Operator
+
+Each stage emerges from the previous via the emergence operator $\epsilon$:
+
+$$\mathcal{L}_{n+1} = \epsilon(\mathcal{L}_n)$$
+
+where $\mathcal{L}_n$ is the ontological level at stage $n$.
+
+The emergence operator has properties:
+- **Irreversibility:** $\epsilon$ is not invertible — you cannot derive the lower level from the higher level alone
+- **Non-aggregability:** $\mathcal{L}_{n+1}$ cannot be computed by aggregating properties of $\mathcal{L}_n$
+- **Downward causation:** $\mathcal{L}_{n+1}$ constrains and influences $\mathcal{L}_n$
+
+## 5. Invariants
+
+### 5.1 Ground State Invariant
+
+$$\exists S_0 : \text{Null state exists from which all structure emerges}$$
+
+The ground state is always accessible as a recovery target.
+
+### 5.2 Progression Monotonicity
+
+$$\mathcal{L}_n \to \mathcal{L}_{n+1} \text{ is irreversible under normal operation}$$
+
+Degradation goes in the reverse direction ($\mathcal{L}_{n+1} \to \mathcal{L}_n$) and requires explicit failure or repair.
+
+### 5.3 Level Distinctness
+
+$$\mathcal{L}_n \neq \mathcal{L}_{m} \text{ for } n \neq m$$
+
+Each ontological level is distinct — properties of one level do not reduce to another.
+
+### 5.4 Completeness
+
+$$\bigcup_{n=1}^{6} \mathcal{L}_n \supseteq \text{All AMOS components}$$
+
+Every AMOS component can be placed within this ontological progression.
+
+## 6. AMOS Integration
+
+### 6.1 Architecture Mapping
+
+| Ontological Stage | AMOS Layer | Example |
+|-------------------|------------|---------|
+| $\mathcal{P}$ (Potential) | 24_ARCHIVE (preserved null states) | $S_0$ reset definitions |
+| $\mathcal{D}$ (Differentiation) | 00_ROOT (boundary definitions) | System boundary, MECE partition |
+| $\mathcal{R}$ (Relation) | 09_PROTOCOLS (interaction contracts) | Agent-agent protocols, data flow |
+| $\mathcal{C}$ (Computation) | 02_KERNEL (computational primitives) | Logic kernel, RSCF operations |
+| $\mathcal{F}$ (Function) | 06_AGENTS, 03_CONTROL_PLANE | Agent roles, authority structure |
+| $\mathcal{M}$ (Meaning) | 11_KNOWLEDGE, 01_CANON | Knowledge semantics, canonical definitions |
+
+### 6.2 Recovery Mapping
+
+Recovery proceeds in reverse ontological order:
+
+$$\text{Failure at } \mathcal{L}_n \implies \text{Recovery targets } \mathcal{L}_{n-1}$$
+
+- Functional failure → recompute function (stay at $\mathcal{F}$)
+- Computational failure → rollback computation (return to $\mathcal{C}$)
+- Relational failure → rebuild relations (return to $\mathcal{R}$)
+- Structural failure → re-establish boundary (return to $\mathcal{D}$)
+- Total failure → reset to ground state ($\mathcal{P}$, i.e., $S_0$)
+
+## 7. Cross-Domain Bridges
+
+- **Physics → Ontology:** $\mathcal{P}$ parallels the quantum vacuum; $\mathcal{D}$ parallels symmetry breaking
+- **Biology → Ontology:** $\mathcal{F}$ parallels biological function; $\mathcal{M}$ parallels semantic memory
+- **Information Theory → Ontology:** $\mathcal{C}$ parallels computation; $\mathcal{M}$ parallels semantic information
+- **Complex Systems → Ontology:** $\epsilon$ operator parallels weak emergence
+- **Consciousness Studies → Ontology:** $\mathcal{M}$ parallels the emergence of meaning in conscious systems
 
 ______________________________________________________________________
+
+**Related:** [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER|KHUNG_TRANG_MASTER]] · [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_CANON|KHUNG_TRANG_CANON]] · [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ______________________________________________________________________
 
-RSCF-NODE
+```RSCF-NODE
 node_id: khung_trang_foundational_ontology
 node_type: universe_canon
-path: 01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_FOUNDATIONAL_ONTOLOGY.md
-RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-- CHILD_OF: [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
-- RELATED_TO: [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER|KHUNG_TRANG_MASTER]]
-- RELATED_TO: [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_CANON|KHUNG_TRANG_CANON]]
-
-______________________________________________________________________
-
-**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
-
----
-
-## 1. Architectural Scope
-
-`KHUNG_TRANG_FOUNDATIONAL_ONTOLOGY` defines the pre-symbolic ontological progression that anchors reality from the null ground state $S_0$ through multiscale emergence. It is the foundational ontology of the Khung Trang canon, specifying the six-stage progression from pure potentiality to manifest complexity. The ontology governs:
-
-- **Pre-symbolic stage definitions** specifying the six ontological categories: Potentiality ($\mathcal{P}$), Differentiation ($\mathcal{D}$), Relation ($\mathcal{R}$), Configuration ($\mathcal{C}$), Form ($\mathcal{F}$), and Manifestation ($\mathcal{M}$).
-- **Emergence progression** defining how each stage arises from its predecessor through governed transitions.
-- **Null ground state anchoring** ensuring that all ontological categories are grounded in $S_0$, preventing ungrounded abstraction.
-- **Multiscale coherence** requiring that ontological categories maintain consistency across microscopic, mesoscopic, and macroscopic scales.
-
-This file exists because the Khung Trang canon is the normative foundation for all AMOS universe-level definitions. Without a foundational ontology, downstream artifacts would lack a shared grounding, producing ontological contradictions that propagate through the vault.
-
-```text
-ONTOLOGY = pre_symbolic_grounding
-ONTOLOGY != symbolic_representation
-ONTOLOGY != empirical_observation
-CANON_SPEC != IMPLEMENTED_RUNTIME
+domain: 01_CANON/02_UNIVERSE_CANON
+claim_class: AMOS_MODEL
+confidence_ceiling:
+  ontological_progression: high
+  emergence_operator: medium
+  amos_mapping: high
+falsifiers:
+  - Ontological stages shown to be reducible to a single level
+  - Emergence operator fails to produce irreducible higher-level properties
+  - AMOS components cannot be mapped to ontological stages
 ```
-
----
-
-## 2. Governing Invariants
-
-- **INV-CANON-ONT-001 (Progression Order):** The ontological progression must follow the strict sequence $\mathcal{P} \to \mathcal{D} \to \mathcal{R} \to \mathcal{C} \to \mathcal{F} \to \mathcal{M}$. No stage may be skipped or reordered.
-- **INV-CANON-ONT-002 (Null Ground State):** All ontological categories must be grounded in the null ground state $S_0$. Ungrounded categories are rejected as ontological violations.
-- **INV-CANON-ONT-003 (Axiom Adherence):** All ontological definitions are strictly bound by M01 through M20 core laws. Definitions that contradict a core law are rejected.
-- **INV-CANON-ONT-004 (Fail-Closed Ontology):** If any ontological category cannot be traced back to $S_0$ through the progression, the ontology verification returns `FAIL` and the category is not promoted.
-- **INV-CANON-ONT-005 (Immutable Receipts):** Ontology verification events emit auditable trace logs to `17_OBSERVABILITY`.
-- **INV-CANON-ONT-006 (Non-Promotion Firewall):** A canonical ontology specification confirms normative definition; it does not confirm empirical observation or implementation status. `CANON_SPEC != IMPLEMENTED_RUNTIME`.
-- **INV-CANON-ONT-007 (Steward Authority):** Trang Phan remains the origin architect and steward. Ontological progression changes require governed successor evidence.
-
----
-
-## 3. Mathematical Formulation
-
-The ontological progression is defined as a chain of governed transitions:
-
-$$S_0 \xrightarrow{\mathcal{P}} \mathcal{P} \xrightarrow{\mathcal{D}} \mathcal{D} \xrightarrow{\mathcal{R}} \mathcal{R} \xrightarrow{\mathcal{C}} \mathcal{C} \xrightarrow{\mathcal{F}} \mathcal{F} \xrightarrow{\mathcal{M}} \mathcal{M}$$
-
-Each transition $\tau_i$ is a governed mapping:
-
-$$\tau_i: \mathcal{S}_i \to \mathcal{S}_{i+1}, \quad \mathcal{S}_0 = S_0$$
-
-The emergence function $e$ at each stage:
-
-$$e_i = i^2, \quad i \in \{1, 2, 3, 4, 5, 6\}$$
-
-representing quadratic emergence complexity growth. The state transition function:
-
-$$S_{t+1} = \mathcal{C}(\mathcal{F}(S_t, U_t))$$
-
-where $\mathcal{C}$ is the configuration operator, $\mathcal{F}$ is the form operator, and $U_t$ is the universe input at time $t$.
-
-The grounding invariant requires:
-
-$$\forall \mathcal{X} \in \{\mathcal{P}, \mathcal{D}, \mathcal{R}, \mathcal{C}, \mathcal{F}, \mathcal{M}\}: \exists \text{path}(S_0 \to \mathcal{X})$$
-
----
-
-## 4. Operational Architecture
-
-```mermaid
-graph LR
-    S0[S_0: Null Ground State] --> P[Potentiality]
-    P --> D[Differentiation]
-    D --> R[Relation]
-    R --> C[Configuration]
-    C --> F[Form]
-    F --> M[Manifestation]
-    M --> E[Emergence e=i^2]
-```
-
-The progression is strictly ordered: each stage depends on its predecessor and cannot be reached independently. The emergence function $e = i^2$ governs the complexity growth at each stage transition.
-
----
-
-## 5. MECE Mapping to AMOS Full Brain OS
-
-| Ontology Component | Primary Plane | Partition | Key Dependencies |
-|:---|:---|:---|:---|
-| Pre-symbolic categories | 01_CANON | A | 11_KNOWLEDGE |
-| Emergence progression | 01_CANON | A | 01_CANON/01_CORE_LAWS |
-| Null ground state | 01_CANON | A | 01_CANON/02_UNIVERSE_CANON |
-| Multiscale coherence | 01_CANON | A | 05_COGNITIVE_ORGANISM |
-| Ontology verification | 02_KERNEL | B | 01_CANON |
-| Verification receipts | 17_OBSERVABILITY | F | 01_CANON, 02_KERNEL |
-
-`01_CANON` owns the ontology specification (Partition A). Verification execution is delegated to `02_KERNEL` (Partition B). Receipts flow to `17_OBSERVABILITY` (Partition F).
-
----
-
-## 6. Safety Invariants & Firewalls
-
-- **INV-CANON-ONT-101 (No Stage Skipping):** Any ontological progression that skips a stage is a structural violation. Firewall: `STAGE_SKIP = VIOLATION`.
-- **INV-CANON-ONT-102 (No Ungrounded Category):** An ontological category that cannot be traced to $S_0$ is rejected. Firewall: `UNGROUNDED = REJECTED`.
-- **INV-CANON-ONT-103 (No Empirical from Canonical):** A canonical ontology specification does not confirm empirical observation. Firewall: `CANON_SPEC != EMPIRICAL_OBSERVATION`.
-- **INV-CANON-ONT-104 (No Implementation from Ontology):** An ontological definition does not confirm implementation. Firewall: `DOCUMENTED != IMPLEMENTED`.
-- **INV-CANON-ONT-105 (No Reordering):** The progression order is fixed. Any reordering of stages is a violation. Firewall: `REORDER = VIOLATION`.
-
----
-
-## 7. Navigation & Bindings
-
-- **Master MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
-- **Universe Canon MOC:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
-- **Khung Trang Master:** [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER|KHUNG_TRANG_MASTER]]
-- **Khung Trang Canon:** [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_CANON|KHUNG_TRANG_CANON]]
-- **Master Equations:** [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER_EQUATIONS|KHUNG_TRANG_MASTER_EQUATIONS]]
-- **Entropy Repair:** [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_ENTROPY_REPAIR|KHUNG_TRANG_ENTROPY_REPAIR]]
-- **Core Laws:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
-- **Kernel:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
-- **Cognitive Organism:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
-
----
-
-## 8. Known Gaps & Falsifiers
-
-- **GAP-CANON-ONT-001:** The exact mathematical formalization of each pre-symbolic category ($\mathcal{P}$ through $\mathcal{M}$) is specified at the conceptual level but not fully formalized in Lean 4. State: `PARTIAL`.
-- **GAP-CANON-ONT-002:** The emergence function $e = i^2$ is declared but its derivation from first principles is not fully established. State: `UNKNOWN/GAP`.
-- **GAP-CANON-ONT-003:** The relationship between the Khung Trang foundational ontology and the 19x19 cognitive matrix in `25_COGNITIVE_MATRIX` is not fully mapped. State: `PARTIAL`.
-- **GAP-CANON-ONT-004:** Falsifier: if any ontological category is found to be reachable without traversing its predecessor, the progression order invariant is falsified.
-- **GAP-CANON-ONT-005:** Falsifier: if any ontological category is found to be ungrounded (no path from $S_0$), the null ground state invariant is falsified.

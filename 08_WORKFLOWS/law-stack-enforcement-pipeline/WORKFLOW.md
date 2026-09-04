@@ -1,7 +1,4 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
 title: WORKFLOW
 type: note
 source: 08_WORKFLOWS/law-stack-enforcement-pipeline
@@ -65,7 +62,7 @@ When all 3 gates pass, the pipeline appends to the skill's output:
 ## Usage
 
 ```bash
-## Run the pipeline on a skill's proposed law
+# Run the pipeline on a skill's proposed law
 hermes pipeline run law-stack-enforcement-pipeline \
   --law-text "<proposed law>" \
   --skill "<target skill name>"

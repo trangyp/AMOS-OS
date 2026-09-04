@@ -1,23 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: L2 PROVENANCE
-type: note
-source: 01_CANON/01_CORE_LAWS
-rscf:
-  state: SOURCE_CLAIM
-  class: STRUCTURAL
-  provenance:
-    - internal
-  freshness: EVERGREEN
-  falsifiers: []
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: L2 Provenance
 tags:
-  - note
-  - 01-core-laws
-  - law/L0-integrity
-  - law/L1-epistemic
-canon-group: canon/core-laws
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 ## ---title: "AMOS Core Laws — L2 Provenance Laws" type: document tags: [note]
@@ -3644,7 +3637,7 @@ KEEP THE PROVENANCE GRAPH INSPECTABLE
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

@@ -1,18 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: SYSTEM MAP
-type: map
-source: 00_ROOT
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: System Map
 tags:
-  - map
-  - canon/root
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: EMPIRICAL
-  provenance: AMOS_corpus
-  scope: root_index
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS OS — System Map

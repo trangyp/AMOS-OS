@@ -1,41 +1,21 @@
 ---
-title: BASELINE COMMIT CONTROL PLANE README
-type: control-plane
-source: 03_CONTROL_PLANE/09_COMMIT/01_BASELINE
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Baseline Commit Control Plane Readme
 tags:
-  - control-plane
-  - 01_baseline
-  - canon/control-plane
-  - readme
-  - baseline-commit-control-plane-aliases
-  - baseline-commit-control-plane-benchmarks
-  - baseline-commit-control-plane-governance
-  - baseline-commit-control-plane-mode-spec
-  - baseline-commit-control-plane-activation-rules
-  - baseline-commit-control-plane-composition
-  - baseline-commit-control-plane-domain-weights
-  - baseline-commit-control-plane-engine-weights
-  - baseline-commit-control-plane-exit-criteria
-  - baseline-commit-control-plane-failure-recovery
-  - baseline-commit-control-plane-layer-weights
-  - baseline-commit-control-plane-mode-family-spec
-  - baseline-commit-control-plane-observability
-  - baseline-commit-control-plane-preconditions
-  - baseline-commit-control-plane-provenance
-  - baseline-commit-control-plane-purpose-scope
-  - baseline-commit-control-plane-routing-bindings
-  - baseline-commit-control-plane-safety-gates
-  - baseline-commit-control-plane-tests
-  - baseline-commit-control-plane-transition-rules
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # BASELINE COMMIT CONTROL PLANE README

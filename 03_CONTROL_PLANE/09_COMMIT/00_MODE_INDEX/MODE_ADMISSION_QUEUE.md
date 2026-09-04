@@ -1,35 +1,16 @@
 ---
-title: MODE ADMISSION QUEUE
-type: note
-source: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Mode Admission Queue
 tags:
-  - control-plane
-  - commit
-  - mode_index
-  - note
-  - canon/control-plane
-  - readme
-  - k-gmef
-  - k-rscf
-  - k-hml
-  - k-provenance
-  - k-provenance-topology
-  - k-sybil-hardening
-  - k-constraint-propagation
-  - k-commit-time-authority
-  - k-event-bus
-  - k-system-state
-  - k-context-state
-  - validation
-  - delegation
-  - revocation
-  - integration
-  - canon
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # MODE ADMISSION QUEUE

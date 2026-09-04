@@ -1,21 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Vault Domain Knowledge — Amos Absolute Primitive Decomposer
-type: reference
-source: 07_SKILLS/amos-primitive-decomposer/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Vault Domain Knowledge
 tags:
-  - reference
-  - amos-primitive-decomposer
-  - type/skill
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Vault-Sourced Domain Knowledge
@@ -143,7 +143,7 @@ CREATE TABLE logic_interactions (
 
 > Path: `amos-general/M/md__2026-08-23 AMOS Absolute Integrity Pass.md` | Size: 3502 chars | Match score: 10
 
-## AMOS Absolute Integrity Pass — 2026-08-23
+# AMOS Absolute Integrity Pass — 2026-08-23
 
 > Epistemic class: OBSERVATION
 > Conclusion label: `HIGH` — All test suites green, zero empty files, zero orphan notes, zero broken wikilinks, test counts reconciled.
@@ -218,7 +218,7 @@ Updated in:
 
 > Path: `logic/Absolute_Logic_Model.md` | Size: 1949 chars | Match score: 9
 
-## AMOS Absolute Logic Model
+# AMOS Absolute Logic Model
 
 > **Core Engine**: Absolute Logic
 > **Skill Mapping**: `amos-absolute-logic-layer`

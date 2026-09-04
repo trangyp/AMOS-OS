@@ -1,27 +1,26 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: 04 Runtime MOC
-type: moc
-source: 04_RUNTIME
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 04 Runtime Moc
 tags:
-  - 04-runtime
-  - canon/runtime
-  - amos-home
-  - mece-architecture
-  - runtime-execution
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 04 Runtime — Map of Content
 
-**Path:** `04_RUNTIME`
+**Path:** `04_RUNTIME`  
 **Role:** Governed state-transition, session execution, boot sequencing, and causal finalization environment under AMOS Core v4.4.
 
 ---

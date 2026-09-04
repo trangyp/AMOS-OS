@@ -1,22 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: 00 ROOT INTEGRATION CHECKLIST
-type: checklist
-source: 00_ROOT
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: 00 Root Integration Checklist
 tags:
-  - amos-os
-  - canon/root
-  - integration
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: root_index
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # 00 ROOT INTEGRATION CHECKLIST
@@ -2183,3 +2177,6 @@ These remain **source-defined AMOS model requirements** until artifact-specific 
 ______________________________________________________________________
 
 **MOC:** [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
+
+```
+```

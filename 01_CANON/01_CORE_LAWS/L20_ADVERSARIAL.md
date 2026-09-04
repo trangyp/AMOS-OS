@@ -1,57 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: L20 ADVERSARIAL
-type: note
-source: 01_CANON/01_CORE_LAWS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: L20 Adversarial
 tags:
-  - canon
-  - core_laws
-  - adversarial
-  - adversarial_validation
-  - threat_model
-  - attack_surface
-  - transitive_reachability
-  - enforcement_roots
-  - attestation
-  - agent_immutability
-  - deterministic_fuzz
-  - reproducibility
-  - receipts
-  - evidence_gated_escalation
-  - retry_governance
-  - scope_expansion
-  - order_manipulation
-  - cache_poisoning
-  - spoofing
-  - canon/universe
-  - validation
-  - diagnosis
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-  - law/L17-rscf
-  - law/L18-gmef
-  - law/L19-proof-capsule
-  - law/L16-hml
-  - provenance-topology
-  - persistent-provenance
-  - scope-regime-firewall
-  - causal-firewall
-  - atomic-multi-rscf
-  - causal-epoch-finality
-  - law/L10-failure-recovery
-  - law/L11-knowledge-memory
-  - law/L15-fractal-knowledge
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: core_laws
-  canonical_status: CONDITIONAL
-  specification_status: PROPOSED_SPECIFICATION
-  node_id: l20_adversarial
-  node_type: note
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # L20 Adversarial Validation Laws
@@ -5095,4 +5054,9 @@ until authoritative adversarial canon supplies discriminating validation.
 
 **Conclusion class: CONDITIONAL / AMOS_MODEL.**
 
+```
+```
+
+```
+```
 ```

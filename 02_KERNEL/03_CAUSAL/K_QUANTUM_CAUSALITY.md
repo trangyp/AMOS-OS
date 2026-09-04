@@ -1,35 +1,21 @@
 ---
-title: "QUANTUM CAUSALITY & NON-LOCAL CORRELATION KERNEL"
-type: kernel
-source: 02_KERNEL/03_CAUSAL
-artifact_id: AMOS-KERNEL-K-QUANTUM-CAUSALITY-MASTER
-canonical_name: K_QUANTUM_CAUSALITY
-status: CANONICAL
-conclusion_class: CANONICAL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-version: 2.0.0
-created: '2026-08-25'
-updated: '2026-08-28'
-plane: 02_KERNEL
-domain: causal
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: K Quantum Causality
 tags:
-  - amos-os
-  - kernel
-  - quantum-causality
-  - causal
-  - causal-graph
+  - canon-group/tech-ai
   - rscf/claim
-  - rscf/state/canonical
-aliases:
-  - Quantum Causality Kernel
-  - K_QUANTUM_CAUSALITY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # QUANTUM CAUSALITY & NON-LOCAL CORRELATION KERNEL

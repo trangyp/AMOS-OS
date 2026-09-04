@@ -1,61 +1,21 @@
 ---
-title: Biological Programming Domain Engine
-type: domain
-source: 21_DOMAINS/06_BIOLOGY
-artifact: BIOLOGICAL_PROGRAMMING.md
-artifact_id: amos_21_domains_06_biology_biological_programming
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 21_DOMAINS
-segment: 21_DOMAINS/06_BIOLOGY
-artifact_kind: DOMAIN_ENGINE
-path: 21_DOMAINS/06_BIOLOGY/BIOLOGICAL_PROGRAMMING.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Biological Programming
 tags:
-  - amos-os
-  - domain
-  - vault
-  - 06_biology
-  - biological_programming
-  - non_von_neumann
-  - metabolic_computing
-  - rscf
-  - canon_candidate
-  - canon/domain
-  - bio-logical-computing
-  - bio-logical-architecture
-  - amos-organism-os-framework
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_COMPUTING
-    - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
-    - AMOS_CORPUS
-  scope:
-    - DOMAIN_BIOLOGY
-    - BIOLOGICAL_PROGRAMMING
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  bio_computing_framework:
-    artifact: 11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_COMPUTING
-  biological_master:
-    artifact: 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  domain_structure: VERIFIED_SOURCE_STRUCTURE
-  computational_engine: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Biological Programming Domain Engine

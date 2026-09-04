@@ -1,64 +1,104 @@
 ---
-title: DOMAIN EXTENSION PROTOCOL — Canonical C01-C12 Architecture
-type: protocol_specification
-source: 21_DOMAINS/00_INDEX
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-    - 01_CANON/01_CANON_README
-    - AMOS-UNIVERSE/Packs
-  scope: domain_extension_protocol
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Domain Extension Protocol
 tags:
-  - amos-os
-  - domains
-  - c01-c12
-  - sector-engines
-  - country-packs
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # DOMAIN EXTENSION PROTOCOL
 
-## 1. Purpose & MECE Scope
+## 0. Status
 
-The Domain Extension Protocol defines the exact architectural pattern for onboarding, structuring, and executing specialist domain knowledge across the 12 canonical AMOS domain families (C01–C12).
+Domains-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
 
-It replaces generic placeholders with governed, executable domain envelopes.
+## 1. Purpose
 
-## 2. The 12 Canonical Domain Families (C01–C12)
+`DOMAIN EXTENSION PROTOCOL` defines typed artifact specification, serving the Domains plane's obligation: C-family domain engine mappings (C01–C12) onto the OS planes.
 
-```text
-C01: FINANCE & MARKETS          (Forex, Banking, Quantitative Finance, Risk)
-C02: LEGAL & REGULATORY         (Constitutional, Commercial, Compliance, Patents)
-C03: HEALTH & BIOLOGY           (Genomics, Oncology, Bio-Recovery, Medicine)
-C04: TECHNOLOGY & AI INFRA      (Operating Systems, Neural Nets, Compilers, Cloud)
-C05: ENERGY & PHYSICAL SYSTEMS  (Grid, Renewable, Mining, Thermodynamics)
-C06: GOVERNANCE & PUBLIC POLICY (Public Administration, Geopolitics, Urban)
-C07: EDUCATION & HUMAN SYSTEMS  (Pedagogy, Cognitive Development, Workforce)
-C08: SCIENCE & MATHEMATICS      (Formal Logic, Quantum Physics, Singularity Math)
-C09: SECURITY & DEFENSE         (Classified Collaboration, Cybersecurity, Intelligence)
-C10: CULTURE & LINGUISTICS      (Root Language, RPG Transformation, Narrative)
-C11: PLANETARY & BIOSPHERE      (Earth Systems, Climate, Ecology, Planetary AI)
-C12: PHILOSOPHY & CANON         (Universal Principles, Epistemology, Consciousness)
-```
+## 2. Semantics
 
-## 3. Domain Package Standard Structure
+- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
+- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
+- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
 
-Every domain implementation under `21_DOMAINS/` must contain:
-1. `00_INDEX/`: Domain MOC, Readme, and Boundary Contract.
-2. `01_MODELS/`: Domain-specific mathematical, causal, or statistical models.
-3. `02_RULES/`: Regulatory, empirical, or normative rule engines.
-4. `03_DATA/`: Curated reference datasets, taxonomies, and ontologies.
-5. `04_PACKS/`: Country-specific and sector-specific operational packages.
+## 3. Failure modes guarded
 
-## 4. Integration Invariants
+STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
 
-- Domain claims cannot override `01_CANON` root laws.
-- Cross-domain inferences require an explicit epistemic bridge with stated confidence attenuation.
+## 4. Validation
+
+No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
+
+## 5. Gaps
+
+Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
+
+## 6. Falsifiers
+
+F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
+
+## Worked semantics
+
+Given an operation touching `DOMAIN EXTENSION PROTOCOL` within the Domains plane:
+
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+
+## Promotion-gate checklist
+
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+
+## Cross-plane bindings
+
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+
+______________________________________________________________________
+
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+
+______________________________________________________________________
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: amos_21_domains_00_index_domain_extension_protocol_md
+node_type: note
+path: 21_DOMAINS/00_INDEX/DOMAIN_EXTENSION_PROTOCOL.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[21_DOMAINS/00_INDEX/INDEX_DOMAINS_DOMAIN_ALIAS_CONTRACT|INDEX_DOMAINS_DOMAIN_ALIAS_CONTRACT]]
+
+______________________________________________________________________
+
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]

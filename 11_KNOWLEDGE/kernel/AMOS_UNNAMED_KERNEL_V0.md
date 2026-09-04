@@ -1,20 +1,21 @@
 ---
-title: AMOS UNNAMED KERNEL V0
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Unnamed Kernel V0
 tags:
   - canon-group/tech-ai
-  - canon/framework
   - rscf/claim
   - rscf/provenance
-  - rscf/state/observation
-  - topic/amos-unnamed-kernel-v0
-  - kernel
-type: data
-source: 11_KNOWLEDGE/kernel
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS UNNAMED KERNEL V0
@@ -34,37 +35,3 @@ rscf:
 ______________________________________________________________________
 
 **MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
-
-## Architecture Overview
-The AMOS Unnamed Kernel V0 (`AMOS_KERNEL_SUPER_vInfinity`) is a unified meta-kernel specification that orchestrates all AMOS engines and domains. It functions as an operating rule-set rather than a persona: it receives tasks in any form, normalizes them into clear problem structures, decomposes them into sub-tasks, routes each sub-task to the correct specialized engine, enforces safety and canonical integrity, and recombines results into a coherent deterministic output.
-
-The kernel obeys a fixed canon authored by Trang Phan, including UBI (Unified Biological Intelligence), TSS (Trang System with seven cycles C1–C7), TPE (Transition & Prediction Engine), PSI (Planetary-Scale Intelligence), PISync (Planetary Intelligence Synchrony), and the AMOS engine suite. It enforces the Law of Law, Rule of 2, and Rule of 4 as structural reasoning constraints.
-
-## Component Breakdown
-| Component | Function | Canon Binding |
-|-----------|----------|---------------|
-| Task Normalizer | Receives messy/emotional/mixed input; normalizes to problem structure | — |
-| Sub-task Decomposer | Breaks normalized problem into routable sub-tasks | Rule of 4 |
-| Engine Router | Routes each sub-task to the correct specialized AMOS engine | AMOS Engines canon |
-| Safety Enforcer | Enforces constraints, canonical integrity, and refusal gates | Law of Law, Rule of 2 |
-| Result Recombiner | Recombines engine outputs into coherent deterministic plan | — |
-| UBI Core | Four biological intelligence domains (NBI, NEI, SI, BEI) | UBI canon |
-| TSS Cycle Engine | Seven cycles C1–C7 with variables Ω, H, F, S | TSS canon |
-| TPE Predictor | Movement prediction between cycles | TPE canon |
-| PSI Constraint System | Planetary-scale constraints (resources, climate, biology) | PSI canon |
-| PISync Interface | Final alignment interface state | PISync canon |
-
-## AMOS Integration
-- Kernel index: [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] — kernel specifications MOC.
-- Knowledge plane: [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|Knowledge Main MOC]] — plane navigation.
-- Related kernel: [[11_KNOWLEDGE/kernel/MEDICAL_CLINICAL_KERNEL_VINFINITY_SUPER|MEDICAL_CLINICAL_KERNEL_VINFINITY_SUPER]] — medical kernel.
-- Related kernel: [[11_KNOWLEDGE/kernel/AMOS_PROBABILITY_STATISTICS_KERNEL|AMOS_PROBABILITY_STATISTICS_KERNEL]] — probability/statistics kernel.
-- Related kernel: [[11_KNOWLEDGE/kernel/AMOS_DATA_SCIENCE_KERNEL_V0_TECH|AMOS_DATA_SCIENCE_KERNEL_V0_TECH]] — data science kernel.
-- Root navigation: [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] — vault-wide navigation.
-
-## Epistemic Boundary
-This kernel is a `SOURCE_CLAIM` specification from the AMOS corpus. It describes an operating rule-set, not a deployed runtime. `SPECIFIED != IMPLEMENTED`, `DOCUMENTED != DEPLOYED`, `MODEL != RUNTIME`. The presence of canon bindings and engine routing rules does not prove that the kernel is executed, that engines are deployed, or that safety enforcement is operationally validated. Implementation evidence must be established separately by executed test records and deployment attestations for the exact scope and version. Canon authorship remains with Trang Phan; agents must not claim independent authorship.
-
----
-
-**Parent:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

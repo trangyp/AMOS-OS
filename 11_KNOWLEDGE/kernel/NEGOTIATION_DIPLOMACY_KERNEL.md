@@ -1,28 +1,20 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: NEGOTIATION DIPLOMACY KERNEL
-type: kernel
-source: 11_KNOWLEDGE/kernel
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
-topic: negotiation-diplomacy-kernel
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Negotiation Diplomacy Kernel
 tags:
   - canon-group/tech-ai
-  - canon/framework
   - rscf/claim
   - rscf/provenance
   - rscf/state/source-claim
-  - topic/negotiation-diplomacy-kernel
-  - kernel
+  - misc
 created: 2026-08-22
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+---
 ---
 
 # NEGOTIATION DIPLOMACY KERNEL

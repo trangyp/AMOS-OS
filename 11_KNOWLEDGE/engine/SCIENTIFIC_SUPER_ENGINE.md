@@ -1,28 +1,20 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: SCIENTIFIC SUPER ENGINE
-type: engine
-source: 11_KNOWLEDGE/engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
-topic: scientific-super-engine
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Scientific Super Engine
 tags:
   - canon-group/tech-ai
-  - canon/framework
   - rscf/claim
   - rscf/provenance
   - rscf/state/source-claim
-  - topic/scientific-super-engine
-  - engine
+  - misc
 created: 2026-08-22
-rscf:
-  state: AMOS_MODEL
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: engine_specification
+---
 ---
 
 # SCIENTIFIC SUPER ENGINE

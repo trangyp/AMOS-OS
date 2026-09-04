@@ -1,62 +1,21 @@
 ---
-title: Heritage Pattern Systems
-type: domain-knowledge
-source: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
-artifact: HERITAGE_PATTERN_SYSTEMS.md
-artifact_id: amos_11_knowledge_06_domain_knowledge_heritage_pattern_systems
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 11_KNOWLEDGE
-segment: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
-artifact_kind: DOMAIN_KNOWLEDGE
-path: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_PATTERN_SYSTEMS.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Heritage Pattern Systems
 tags:
-  - amos-os
-  - knowledge
-  - vault
-  - 06_domain_knowledge
-  - heritage_pattern_systems
-  - pattern_recognition
-  - cyclical_signatures
-  - structural_heuristics
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-  - heritage-intelligence-master
-  - tss-seven-cycles
-  - tpe-trang-prediction-engine
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - HERITAGE_INTELLIGENCE_CANON
-    - AMOS_CORPUS
-  scope:
-    - DOMAIN_KNOWLEDGE
-    - PATTERN_SYSTEMS
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  master_framework:
-    artifact:
-      -   - HERITAGE_INTELLIGENCE_MASTER
-  pattern_framework:
-    artifact: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PATTERN_INTELLIGENCE
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  domain_structure: VERIFIED_SOURCE_STRUCTURE
-  pattern_models: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Heritage Pattern Systems — Domain Knowledge

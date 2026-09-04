@@ -1,65 +1,21 @@
 ---
-title: UBI Absolute Biological Integrity
-type: biology
-source: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact: UBI_ABSOLUTE_BIOLOGICAL_INTEGRITY.md
-artifact_id: amos_11_knowledge_05_frameworks_ubi_absolute_biological_integrity
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 11_KNOWLEDGE
-segment: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact_kind: FRAMEWORK
-path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_ABSOLUTE_BIOLOGICAL_INTEGRITY.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Ubi Absolute Biological Integrity
 tags:
-  - amos-os
-  - knowledge
-  - vault
-  - 05_frameworks
-  - ubi_absolute_integrity
-  - biological_integrity
-  - substrate_preservation
-  - non_violable_boundaries
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-  - unified-biological-intelligence
-  - absolute-structural-integrity
-  - ubi-wearable-framework
-  - amos-x-ubi
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - UBI_OFFICIAL_MANUAL
-    - ABSOLUTE_STRUCTURAL_INTEGRITY
-    - AMOS_CORPUS
-  scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - BIOLOGICAL_INTEGRITY
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  master_framework:
-    artifact:
-      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
-  structural_integrity:
-    artifact:
-      -   - ABSOLUTE_STRUCTURAL_INTEGRITY
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  framework_structure: VERIFIED_SOURCE_STRUCTURE
-  integrity_rules: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # UBI Absolute Biological Integrity

@@ -1,32 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: COGNITIVE MATRIX GENERATORS CONTRACT
-type: note
-source: 25_COGNITIVE_MATRIX/12_GENERATORS
-rscf:
-  state: SOURCE_CLAIM
-  class: STRUCTURAL
-  provenance:
-    - internal
-  freshness: EVERGREEN
-  falsifiers: []
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Cognitive Matrix Generators Contract
 tags:
-  - note
-  - 12-generators
-  - validation
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - matrix/l00-reality-validation-receipt
-  - generator-output
-  - generator-validation
-  - generator-falsification
-  - generator-promotion
-  - law-hierarchy
-  - promotion-gates
-  - binding-rules
-canon-group: canon/cognitive-matrix
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 ## ---title: "Cognitive Matrix Validation Contract" type: document tags: [note]
@@ -2263,7 +2247,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 
@@ -2293,7 +2277,7 @@ RSCF-RELATIONS:
 
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 
-- INDEXED_BY: [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+- INDEXED_BY: [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 

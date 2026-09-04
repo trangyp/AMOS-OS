@@ -1,17 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-date: 2026-08-29
-epistemic_class: OBSERVATION
-provenance: GitHub README, not independently verified
-rscf:
-  claim_class: DERIVED
-  provenance: GitHub README (tech-leads-club/agent-skills)
-  scope: AMOS_knowledge
-  state: SOURCE_CLAIM
-source: https://raw.githubusercontent.com/tech-leads-club/agent-skills/main/README.md
-title: Tech Leads Club Agent Skills README — Raw Capture
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Tech Leads Club Agent Skills Readme 2026 08 29
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Tech Leads Club Agent Skills README — Raw Capture
@@ -155,68 +159,68 @@ Each step shows a **← Back** option to return and revise your choices.
 > **Note**: You can use either `npx @tech-leads-club/agent-skills` or install globally and use `agent-skills` directly.
 
 ```bash
-## Interactive mode (default)
+# Interactive mode (default)
 npx @tech-leads-club/agent-skills
-## or: agent-skills (if installed globally)
+# or: agent-skills (if installed globally)
 
-## List available skills
+# List available skills
 agent-skills list
 agent-skills ls        # Alias
 
-## Install one skill
+# Install one skill
 agent-skills install -s tlc-spec-driven
 
-## Install multiple skills at once
+# Install multiple skills at once
 agent-skills install -s aws-advisor coding-guidelines docs-writer
 
-## Install to specific agents
+# Install to specific agents
 agent-skills install -s my-skill -a cursor claude-code
 
-## Install multiple skills to multiple agents
+# Install multiple skills to multiple agents
 agent-skills install -s aws-advisor nx-workspace -a cursor windsurf cline
 
-## Install globally (to ~/.gemini, ~/.claude, etc.)
+# Install globally (to ~/.gemini, ~/.claude, etc.)
 agent-skills install -s my-skill -g
 
-## Use symlink instead of copy
+# Use symlink instead of copy
 agent-skills install -s my-skill --symlink
 
-## Force re-download (bypass cache)
+# Force re-download (bypass cache)
 agent-skills install -s my-skill --force
 
-## Update a specific skill
+# Update a specific skill
 agent-skills update -s my-skill
 
-## Update all installed skills
+# Update all installed skills
 agent-skills update
 
-## Remove one skill
+# Remove one skill
 agent-skills remove -s my-skill
 
-## Remove multiple skills at once
+# Remove multiple skills at once
 agent-skills remove -s skill1 skill2 skill3
 agent-skills rm -s my-skill    # Alias
 
-## Remove from specific agents
+# Remove from specific agents
 agent-skills remove -s my-skill -a cursor windsurf
 
-## Force removal (bypass lockfile check)
+# Force removal (bypass lockfile check)
 agent-skills remove -s my-skill --force
 
-## Manage cache
+# Manage cache
 agent-skills cache --clear           # Clear all cache
 agent-skills cache --clear-registry  # Clear only registry
 agent-skills cache --path            # Show cache location
 
-## View audit log
+# View audit log
 agent-skills audit                   # Show recent operations
 agent-skills audit -n 20             # Show last 20 entries
 agent-skills audit --path            # Show audit log location
 
-## Show contributors and credits
+# Show contributors and credits
 agent-skills credits
 
-## Show help
+# Show help
 agent-skills --help
 ```
 
@@ -241,7 +245,7 @@ The CLI fetches skills **on-demand** from our CDN:
 Downloaded skills are cached in `~/.cache/agent-skills/` for offline use.
 
 ```bash
-## Clear the cache
+# Clear the cache
 rm -rf ~/.cache/agent-skills
 ```
 

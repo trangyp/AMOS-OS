@@ -1,22 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Vault Ingest 2026-08-30
-type: synthesis
-source: 11_KNOWLEDGE/LLM_WIKI
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Vault Ingest 2026 08 30
 tags:
-  - ingest
-  - vault
-  - llm-wiki
-  - canon/knowledge
-  - karpathy-llm-wiki-summary
-  - vault-reformat
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Vault Ingest 2026-08-30
@@ -58,7 +57,7 @@ Deliberately **not** applied: `#heading` tag lines (tag clouds, not headings) an
 | 00_ROOT                                                                                                   | 48    |
 | 05_COGNITIVE_ORGANISM                                                                                     | 43    |
 | 03_CONTROL_PLANE                                                                                          | 31    |
-| 08_WORKFLOWS                                                                                              | 26    |
+| 26_WORKFLOWS                                                                                              | 26    |
 | 13_MODELS                                                                                                 | 18    |
 | 02_KERNEL                                                                                                 | 13    |
 | 16_SCHEMAS                                                                                                | 8     |

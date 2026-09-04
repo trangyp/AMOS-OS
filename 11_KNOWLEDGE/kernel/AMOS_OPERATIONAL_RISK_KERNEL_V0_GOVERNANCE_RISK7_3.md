@@ -1,18 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS_OPERATIONAL_RISK_KERNEL_V0_GOVERNANCE_RISK7_3
-type: note
-source: 11_KNOWLEDGE
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Amos Operational Risk Kernel V0 Governance Risk7 3
 tags:
-- vault
-- 11_knowledge
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 # AMOS AUDIT QUALITY KERNEL V0
 
@@ -3750,7 +3748,7 @@ integrity_boundaries:
 ## 232. Proposed Atomic Note — Audit Quality Kernel
 
 ```markdown
-## Audit Quality Kernel
+# Audit Quality Kernel
 
 > [!important]
 > Audit structure is not audit evidence.
@@ -3777,7 +3775,7 @@ Only `` is source-explicit.
 ## 233. Proposed Atomic Note — Audit Cluster Space
 
 ```markdown
-## Audit Cluster Space
+# Audit Cluster Space
 
 18 source-defined clusters covering:
 
@@ -3794,7 +3792,7 @@ Automation/Data Analytics.
 ## 234. Proposed Atomic Note — Quality Dimensions
 
 ```markdown
-## Audit Quality Dimension Space
+# Audit Quality Dimension Space
 
 20 source-defined dimensions.
 
@@ -3808,7 +3806,7 @@ Automation/Data Analytics.
 ## 235. Proposed Atomic Note — Evidence Integrity
 
 ```markdown
-## Audit Evidence Integrity
+# Audit Evidence Integrity
 
 ## Source Law
 
@@ -3829,7 +3827,7 @@ Do not fabricate test results or evidence.
 ## 236. Proposed Atomic Note — Audit Assurance Boundary
 
 ```markdown
-## Audit Assurance Boundary
+# Audit Assurance Boundary
 
 ## Source Law
 
@@ -3846,7 +3844,7 @@ or regulator approval claims.
 
 ## 237. Proposed Dataview — Kernel
 
-```text
+```dataview
 TABLE
   source,
   rscf.state AS "RSCF State",
@@ -3859,7 +3857,7 @@ WHERE contains(file.name, "AUDIT") AND contains(file.name, "QUALITY")
 
 ## 238. Proposed Dataview — Audit Canon
 
-```text
+```dataview
 TABLE
   type,
   source,
@@ -7086,7 +7084,7 @@ rscf:
   scope: AMOS_knowledge
 ---
 
-## AMOS AUDIT QUALITY KERNEL V0
+# AMOS AUDIT QUALITY KERNEL V0
 
 > [!important]
 > Source integrity boundary:

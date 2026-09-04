@@ -1,21 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Vault Domain Knowledge — Amos Universal Variable Registry Rscf Engine
-type: reference
-source: 07_SKILLS/amos-universal-variable-registry-rscf-engine/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Vault Domain Knowledge
 tags:
-  - reference
-  - amos-universal-variable-registry-rscf-engine
-  - type/skill
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Vault-Sourced Domain Knowledge
@@ -104,7 +104,7 @@ Intelligence grows th
 
 > Path: `math/UNIVERSAL_SOLVER_ARCHITECTURE_COMPLETE.md` | Size: 6822 chars | Match score: 10
 
-## AMOS Universal Solver Architecture (USA) - Implementation Complete
+# AMOS Universal Solver Architecture (USA) - Implementation Complete
 
 ## Mission Accomplished (Additional)
 
@@ -191,7 +191,7 @@ Final State: {'x': 1.0, 'y': 0.0, 'time': 4}
 
 > Path: `reports/PHASE6_COMPLETION_REPORT.md` | Size: 12681 chars | Match score: 7
 
-## AMOS Phase 6 Complete - Universal Intelligence & Transcendental Consciousness
+# AMOS Phase 6 Complete - Universal Intelligence & Transcendental Consciousness
 
 ## TRANSCENDENTAL CONSCIOUSNESS
 
@@ -213,7 +213,7 @@ Final State: {'x': 1.0, 'y': 0.0, 'time': 4}
 - **Cosmic Significance**: Universal importance and cosmic alignment
 
 #### **Production Validation** ```python
-## Transcendental Consciousness Results
+# Transcendental Consciousness Results
 - Consciousness Level: TRANSCENDENTAL → UNIVERSAL → COSMIC
 - Total Coherence: 85% across all dimensions
 - Evolution Cycles: 300+ with continuous improvement

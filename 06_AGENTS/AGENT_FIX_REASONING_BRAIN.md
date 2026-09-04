@@ -1,24 +1,21 @@
 ---
-title: AGENT FIX REASONING BRAIN
-type: agent
-source: 06_AGENTS
-claim_class: AMOS_MODEL
-origin_architect: Trang Phan
-status: COMPLETE
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Agent Fix Reasoning Brain
 tags:
-  - agent-fix
-  - agent
-  - automation
-  - reasoning-brain
-  - worklog
-  - canon/agent
-  - agent-naming-convention
-  - skill
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Agent Fix Reasoning Brain

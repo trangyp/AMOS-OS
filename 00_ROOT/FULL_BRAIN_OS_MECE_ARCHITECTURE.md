@@ -1,24 +1,21 @@
 ---
-title: AMOS Full Brain OS — MECE Architecture
-type: architecture_map
-source: 00_ROOT
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_DERIVED_ARCHITECTURE
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-updated: 2026-09-03
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE
-    - 11_KNOWLEDGE/AMOS_INFRASTRUCTURE_FULL_BRAIN_AGENT_ARCHITECTURE_ROUND11
-    - 05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC
-    - 01_CANON/03_COGNITION_CANON/FULL_BRAIN_OS_CANON
-    - AMOS_CORE_v4_4_lineage
-  scope: active__AMOS_OS_functional_architecture
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Full Brain Os Mece Architecture
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Full Brain OS — MECE Architecture
@@ -133,7 +130,7 @@ routing.
 05_COGNITIVE_ORGANISM
 06_AGENTS
 07_SKILLS
-08_WORKFLOWS
+26_WORKFLOWS
 21_DOMAINS
 25_COGNITIVE_MATRIX
 ```
@@ -158,6 +155,7 @@ Owns persisted information semantics and typed representation.
 12_STATE
 13_MODELS
 16_SCHEMAS
+08_PLANETARY (Omniverse Layer 6 — Biophysical & Planetary Substrate)
 ```
 
 Primary responsibilities:

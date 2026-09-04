@@ -1,117 +1,21 @@
 ---
-title: Constraint-Centered Intelligence Architecture
-type: framework
-
-source: 11_KNOWLEDGE
-
-artifact: "CONSTRAINT_CENTERED_INTELLIGENCE_ARCHITECTURE.md"
-
-artifact_id: "amos_11_knowledge_constraint_centered_intelligence_architecture"
-
-origin_architect: "Trang Phan"
-
-steward: "Trang Phan"
-
-system: "AMOS OS"
-
-plane: "11_KNOWLEDGE"
-
-segment: "cross_domain_reasoning"
-
-artifact_kind: "FRAMEWORK"
-
-path: "11_KNOWLEDGE/CONSTRAINT_CENTERED_INTELLIGENCE_ARCHITECTURE.md"
-
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Constraint Centered Intelligence: Full Reformatted Map
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - cross_domain
-  - constraint_reasoning
-  - possibility_space
-  - representation
-  - uncertainty
-  - determinism
-  - information_theory
-  - prime_structure
-  - monte_carlo
-  - search
-  - prediction
-  - language_math_bridge
-  - semantic_constraints
-  - alpha_go
-  - amos_reasoning
-  - epistemology
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-  - canon/framework
-  - topic/constraint-centered-intelligence
-  - topic/possibility-management
-  - topic/semantic-constraint
-  - topic/search-space-reduction
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
   - rscf/state/source-claim
-
-version: "1.0.0"
-
-updated: "2026-08-29"
-
-status: "ACTIVE_REFERENCE"
-
-epistemic_class: "AMOS_MODEL"
-
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-
-validation_status: "PARTIALLY_MAPPED_TO_ESTABLISHED_CONCEPTS"
-
-executable_binding: "NOT_ESTABLISHED"
-
-ingestion_action: "NATIVE_CANON_INGESTION"
-
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
-
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - USER_REASONING_THREAD
-    - AMOS_CORPUS
-    - CROSS_DOMAIN_SYNTHESIS
-  scope:
-    - EPISTEMOLOGY
-    - FORMAL_REASONING
-    - CONSTRAINT_SYSTEMS
-    - INFORMATION_THEORY
-    - PRIME_STRUCTURE
-    - SEARCH
-    - PREDICTION
-    - SEMANTIC_REPRESENTATION
-    - AMOS_REASONING_ARCHITECTURE
-
-framework_binding:
-  amos_core:
-    role: "Integrity, typed state, provenance, scope, regime, competing hypotheses"
-  rscf:
-    role: "Epistemic classification and dependency-bound proof representation"
-  cognitive_matrix:
-    artifact: "[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]"
-  tensor_contracts:
-    artifact: "[[11_KNOWLEDGE/TENSOR_CONTRACTS|TENSOR_CONTRACTS]]"
-  full_brain:
-    artifact: "[[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS_FULL_BRAIN_OS_ARCHITECTURE]]"
-
-epistemic_boundary:
-  user_reasoning_presence: VERIFIED_SOURCE_PRESENCE
-  source_structure: VERIFIED_SOURCE_STRUCTURE
-  established_math_overlap: PARTIALLY_ESTABLISHED
-  cross_domain_synthesis: AMOS_MODEL
-  causal_equivalence_across_domains: NOT_ESTABLISHED
-  empirical_predictive_advantage: NOT_ESTABLISHED
-  amos_efficiency_claim: NOT_INDEPENDENTLY_ESTABLISHED
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 You're right. It should be an **AMOS-native Obsidian artifact**, not a generic essay.

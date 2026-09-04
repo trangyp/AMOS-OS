@@ -1,63 +1,16 @@
 ---
-title: K SYSTEM STATE
-type: state
-source: 02_KERNEL/04_STATE
-artifact_id: AMOS-OS-K-SYSTEM-STATE
-canonical_name: K_SYSTEM_STATE
-artifact_type: kernel_system_state_contract
-status: AMOS_MODEL
-conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: KERNEL
-kernel_family: STATE
-scope: AMOS_OS
-updated: 2026-08-26
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: K System State
 tags:
-  - amos-os
-  - kernel
-  - core
   - canon-group/tech-ai
-  - canon/model
-  - kernel/state
-  - kernel/system-state
-  - kernel/context
-  - kernel/dependency
-  - kernel/provenance
-  - kernel/causality
-  - kernel/concurrency
-  - kernel/validation
-  - rscf/state/model
+  - rscf/claim
   - rscf/provenance
-  - topic/system-state
-  - topic/mvcc
-  - topic/cas
-  - topic/atomicity
-  - topic/recovery
-  - topic/finality
-  - readme
-  - architecture
-  - authoritative-state
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - source-lineage
-  - supersession-log
-  - k-identity
-  - k-context-state
-  - k-event-bus
-  - k-structural-reasoning
-  - k-causal-closure
-  - k-causal-epoch
-  - k-causal-hierarchy
-aliases:
-  - AMOS System State Kernel - System State Kernel - K System State - K_SYSTEM_STATE
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # K SYSTEM STATE
@@ -2425,7 +2378,7 @@ STATE.
 ## Related
 
 README ·
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]] ·
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]] ·
 [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] ·
 [[00_ROOT/AUTHORITATIVE_STATE|AUTHORITATIVE_STATE]] ·
 [[00_ROOT/DEPENDENCY_MAP|DEPENDENCY_MAP]] ·
@@ -2465,7 +2418,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

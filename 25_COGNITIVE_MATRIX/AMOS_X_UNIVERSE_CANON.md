@@ -1,82 +1,21 @@
 ---
-title: AMOS x Universe Canon Cognitive Matrix
-type: cognitive
-source: 25_COGNITIVE_MATRIX
-artifact: AMOS_X_UNIVERSE_CANON.md
-artifact_id: amos_25_cognitive_matrix_amos_x_universe_canon
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 25_COGNITIVE_MATRIX
-segment: 25_COGNITIVE_MATRIX
-artifact_kind: MATRIX
-path: 25_COGNITIVE_MATRIX/AMOS_X_UNIVERSE_CANON.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos X Universe Canon
 tags:
-  - amos-os
-  - cognitive-matrix
-  - vault
-  - amos_x_universe_canon
-  - 7_part_universe
-  - universe_canon
-  - semantic_responsibility_classes
-  - cross_plane_routing
-  - reality
-  - sense
-  - knowledge
-  - cognition
-  - governance
-  - execution
-  - evolution
-  - provenance
-  - rscf
-  - canon_candidate
-  - canon/matrix
-  - amos-x-universe-canon-matrix
-  - canon
-  - law-hierarchy
-version: 1.1.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - AMOS_7_PART_UNIVERSE_CANON
-    - 01_CANON/07_PART_UNIVERSE_CANON
-    - AMOS_CORPUS
-  scope:
-    - COGNITIVE_MATRIX
-    - UNIVERSE_CANON_INTEGRATION
-    - CROSS_PLANE_ROUTING
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  matrix_counterpart:
-    artifact:
-      -   - AMOS_X_UNIVERSE_CANON_MATRIX
-  universe_canon:
-    artifact:
-      -   - 02_UNIVERSE_CANON_MOC
-  canonical_partition:
-    P1: REALITY_ENVIRONMENT
-    P2: SENSE_EVIDENCE
-    P3: KNOWLEDGE_MEMORY
-    P4: COGNITION_MODELS
-    P5: GOVERNANCE_AUTHORITY
-    P6: EXECUTION_AGENCY
-    P7: EVOLUTION_LEARNING
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  seven_part_structure: VERIFIED_SOURCE_STRUCTURE
-  cognitive_matrix_mapping: AMOS_DERIVED_MAPPING
-  cross_plane_routing: ROUTE_SPECIFIC_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 ______________________________________________________________________
@@ -2307,7 +2246,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]] ·
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 [[25_COGNITIVE_MATRIX/AMOS_X_UNIVERSE_CANON_MATRIX|AMOS_X_UNIVERSE_CANON_MATRIX]] · [[11_KNOWLEDGE/03_RSCF/UNIVERSE_RSCF_INDEX|UNIVERSE_RSCF_INDEX]] ·
 [[01_CANON/02_UNIVERSE_CANON/AMOS_7_PART_UNIVERSE_CANON|AMOS_7_PART_UNIVERSE_CANON]]
 

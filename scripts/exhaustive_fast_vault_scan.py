@@ -95,16 +95,8 @@ def scan_file(p):
         if in_code:
             res['fence_err'] = True
         
-        # Wikilinks: collect non-code lines
-        non_code_lines = []
-        in_fence = False
-        for line in lines:
-            if line.strip().startswith('```'):
-                in_fence = not in_fence
-                continue
-            if not in_fence:
-                non_code_lines.append(line)
-        clean_content = "\n".join(non_code_lines)
+        # Wikilinks
+        clean_content = re.sub(r'```.*?```', '', content, flags=re.DOTALL)
         links = WL_RE.findall(clean_content)
         for target in links:
             res['total_links'] += 1

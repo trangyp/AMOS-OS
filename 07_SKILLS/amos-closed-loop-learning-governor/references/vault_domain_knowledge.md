@@ -1,21 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Vault Domain Knowledge — Amos Closed Loop Learning Governor
-type: reference
-source: 07_SKILLS/amos-closed-loop-learning-governor/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Vault Domain Knowledge
 tags:
-  - reference
-  - amos-closed-loop-learning-governor
-  - type/skill
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Vault-Sourced Domain Knowledge
@@ -183,7 +183,7 @@ D02  A d
 
 > Path: `system/AMOS_Agent_Systems_Learning_Record.md` | Size: 6184 chars | Match score: 10
 
-## AMOS Brain: Consolidated Learning Record — All Agent Systems
+# AMOS Brain: Consolidated Learning Record — All Agent Systems
 
 
 ---
@@ -243,7 +243,7 @@ Life agents default to `stabilise_nervous_system`; Legal/Money to `warn` for ris
 
 > Path: `dated/2026-08-22/2026-08-22 human_interaction cluster closed.md` | Size: 4699 chars | Match score: 10
 
-## human_interaction cluster closed — gaps 250-257
+# human_interaction cluster closed — gaps 250-257
 
 > Epistic class: OBSERVATION
 > Conclusion label: `VERIFIED` — implementation, tests, and seed counts all green.
@@ -338,3 +338,9 @@ RSCF-RELATIONS:
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
+
+```
+
+```
+```
+```

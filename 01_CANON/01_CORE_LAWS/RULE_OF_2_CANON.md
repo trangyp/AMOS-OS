@@ -1,176 +1,227 @@
 ---
-title: Rule of 2 Canon
-type: canon
-source: 01_CANON/01_CORE_LAWS
-artifact: RULE_OF_2_CANON.md
-artifact_id: 01_canon_01_core_laws_rule_of_2_canon
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/01_CORE_LAWS
-artifact_kind: CANON
-path: 01_CANON/01_CORE_LAWS/RULE_OF_2_CANON.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Rule Of 2 Canon
 tags:
-  - 01_core_laws
-  - amos-os
-  - canon
-  - canon/universe
-  - canon_placeholder
-  - rscf
-  - rule
-  - universe
-  - placeholder_expanded
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.2.0
-updated: '2026-08-27'
-status: PLACEHOLDER_EXPANDED
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: 01_CANON
-  regime: canon_placeholder
-  confidence_ceiling: source_supported
-  provenance_independence: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
 ---
-
-## 0. Canonical Status
-
-`RULE_OF_2_CANON.md` is an **ADD-ONLY placeholder-expanded artifact** for the **01_CANON** plane segment.
-
-It reserves the canonical slot for the AMOS framework family named **Rule of 2 Canon**.
-
-The artifact is presently:
-
-```text
-status: PLACEHOLDER_EXPANDED
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-```
-
-This artifact MUST NOT be interpreted as establishing completed, validated, or enforced canon.
-
-## 1. Governing Integrity Boundary
-
-The following distinctions are mandatory:
-
-```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
-```
-
-No downstream layer may silently collapse these distinctions.
-
-Origin architect / steward: **Trang Phan**
-
-System: **AMOS OS**
-
-______________________________________________________________________
+---
+---
 
 # Rule of 2 Canon
 
 ## 0. Status
 
-`RULE_OF_2_CANON.md` is an **ADD-ONLY placeholder** for the **Canon** plane segment at `01_CANON/01_CORE_LAWS`.
+`RULE_OF_2_CANON.md` defines the proposed AMOS OS **Rule of 2** core law.
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
+This artifact replaces a structural placeholder with substantive content. It does not, by its own existence, establish final AMOS canon, executable enforcement, empirical validity, or runtime implementation.
 
 ```text
 PLACEHOLDER != IMPLEMENTED
-
 ADDRESSABLE != VALIDATED
-
 DOCUMENTED != ENFORCED
-
 MODEL != OBSERVATION
-
 SOURCE_CLAIM != VERIFIED
-
 CANON_CANDIDATE != CANONICAL
-
 CANONICAL != EMPIRICAL_TRUTH
-
 CAPABILITY != AUTHORITY
-
 AUTHORIZATION != COMMIT
-
 PROPOSAL != COMMIT
-
 IMPLEMENTED != VALIDATED
-
 LOGGED != APPROVED
-
 UNKNOWN/GAP != PASS
 ```
 
-Origin architect / steward:
-
-**Trang Phan**
+Origin architect / steward: **Trang Phan**
 
 ______________________________________________________________________
 
 ## 1. Purpose
 
-This artifact reserves the **Rule of 2 Canon** slot within the Canon plane. The Canon plane governs canonical laws, universe/cognition/infrastructure canons, variable registry, glossary, provenance lineage, and supersession.
+The Rule of 2 (R2) is a foundational epistemic law in the AMOS OS core law hierarchy. It establishes the minimum independence requirement for treating a claim, decision, or belief as reliable enough to act upon.
 
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+R2 answers:
 
-______________________________________________________________________
+> How many independent sources must corroborate a claim before it may be treated as actionable?
 
-## 2. Non-Purpose
+The Rule of 2 states:
 
-This placeholder MUST NOT be used to claim:
+> **A claim, decision, or belief requires corroboration by at least two independent sources before it may be treated as reliable enough to act upon.**
 
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
+This is the AMOS formalization of the "Trang Tát 2" principle — confirmation by at least two independent sources. It is not a "re-check" (verifying the same source twice). It is a requirement of **source independence**: the two sources must not share origin, dependency, or provenance lineage.
 
 ______________________________________________________________________
 
-## 3. Ingestion Rule
+## 2. Formal Definition
+
+### 2.1 R2 Invariant
+
+$$\text{R2}: \quad \text{Actionable}(c) \implies \exists\, s_1, s_2 \in \text{Sources}(c) \;.\; \text{Independent}(s_1, s_2)$$
+
+Where:
+- $\text{Actionable}(c)$ — claim $c$ may be used as a premise for consequential action
+- $\text{Sources}(c)$ — the set of sources providing evidence for $c$
+- $\text{Independent}(s_1, s_2)$ — sources $s_1$ and $s_2$ have no shared origin, no shared dependency, and no shared provenance lineage
+
+### 2.2 Independence Test
+
+Two sources $s_1, s_2$ are independent if and only if:
+
+```text
+¬Shared_origin(s1, s2)
+∧ ¬shared_dependency(s1, s2)
+∧ ¬shared_provenance_lineage(s1, s2)
+∧ ¬one_origin_represented_as_many(s1, s2)
+```
+
+This is enforced by the AMOS Sybil Hardening kernel contract ([[02_KERNEL/06_RISK_REPAIR/K_SYBIL_HARDENING|K_SYBIL_HARDENING]]), which prevents apparent multiplicity from being mistaken for independent epistemic support.
+
+### 2.3 Failure Mode
+
+If only one source is available, or if two sources share origin/dependency/provenance:
+
+```text
+R2_violation ⇒ ¬Actionable(c)
+             ⇒ c retains state SOURCE_CLAIM or OBSERVATION
+             ⇒ c MUST NOT be promoted to DERIVED or DECISION
+             ⇒ consequential action MUST be deferred or escalated
+```
+
+______________________________________________________________________
+
+## 3. Relationship to Other Core Laws
+
+| Law | Relationship |
+|:---|:---|
+| **Law of Law (LoL)** | R2 is subordinate to LoL; LoL requires every system to operate within consistent structural constraints, R2 is one such constraint |
+| **Rule of 4 (R4)** | R2 governs epistemic independence; R4 governs structural decomposition. They are orthogonal but composable |
+| **L1 Epistemic** | R2 is the independence floor for L1 epistemic classification — a single-source claim cannot be promoted above SOURCE_CLAIM |
+| **L17 RSCF** | R2 governs the minimum provenance independence for RSCF claim discipline |
+| **L27 Gap Law** | When R2 cannot be satisfied, the claim MUST be registered as a GAP, not silently filled |
+
+______________________________________________________________________
+
+## 4. Application Domains
+
+### 4.1 Knowledge Ingestion
+
+When ingesting external research or claims into the AMOS knowledge plane:
+- A single paper/source = SOURCE_CLAIM, not DERIVED
+- Two independent papers = may be classified as DERIVED with confidence ceiling
+- Two papers from the same lab/group = NOT independent (Sybil risk)
+
+### 4.2 Decision Making
+
+Before a consequential decision may be committed:
+- The decision premise must be supported by ≥2 independent sources
+- If only one source exists, the decision MUST be escalated or deferred
+- This is enforced by the control-plane commit gate
+
+### 4.3 Memory Admission
+
+When admitting information to persistent AMOS memory:
+- Single-source observations enter as OBSERVATION state
+- Two-source corroborated observations may enter as DERIVED
+- The memory admission kernel ([[02_KERNEL/K_MEMORY_ADMISSION|K_MEMORY_ADMISSION]]) enforces R2 at admission time
+
+### 4.4 Provenance Validation
+
+When validating provenance chains:
+- R2 requires that provenance independence be verified, not assumed
+- Two citations to the same original source = NOT independent
+- This is enforced by the provenance trust firewall ([[17_OBSERVABILITY/PROVENANCE_TRUST_FIREWALL|PROVENANCE_TRUST_FIREWALL]])
+
+______________________________________________________________________
+
+## 5. Worked Semantics
+
+Given a claim $c$ proposed for actionable status:
+
+1. **Enumerate sources** — collect all sources providing evidence for $c$
+2. **Test independence** — for each pair $(s_i, s_j)$, evaluate the independence test (§2.2)
+3. **Apply R2** — if ≥1 independent pair exists, $c$ may be promoted to actionable; otherwise, $c$ retains its current state
+4. **Record receipt** — log the independence determination with provenance
+5. **Fail closed** — on any uncertainty about independence, treat as R2 violation
+
+```text
+claim c arrives
+  ↓
+enumerate Sources(c)
+  ↓
+|Sources(c)| < 2?  ──yes──→  ¬Actionable(c), register GAP
+  ↓ no
+test all pairs for Independence(s_i, s_j)
+  ↓
+∃ independent pair?  ──no──→  ¬Actionable(c), flag Sybil risk
+  ↓ yes
+c MAY be promoted to Actionable
+  ↓
+record independence receipt with provenance
+```
+
+______________________________________________________________________
+
+## 6. Non-Purpose
+
+This law MUST NOT be used to claim:
+- That two sources are always sufficient (some domains require more)
+- That independence is binary (it may be partial or uncertain)
+- That R2 alone guarantees truth (it is necessary, not sufficient)
+- That mechanical citation counting satisfies R2 (independence is the requirement, not count)
+- That R2 overrides domain-specific evidence standards (medical, legal, safety domains may require higher thresholds)
+
+______________________________________________________________________
+
+## 7. Gaps
+
+- Executable binding NOT_ESTABLISHED — R2 is specified but not yet enforced by runtime code
+- Canonical status CONDITIONAL — proposed specification, not yet promoted to full canon
+- Independence oracle NOT_ESTABLISHED — automated independence testing between arbitrary sources is not implemented
+- Partial independence modeling NOT_ESTABLISHED — the binary independence test may be too coarse for real-world provenance graphs
+
+______________________________________________________________________
+
+## 8. Promotion-Gate Checklist
+
+- [x] substantive content populated from AMOS corpus sources
+- [x] formal definition provided (§2)
+- [x] relationship to other core laws documented (§3)
+- [x] application domains specified (§4)
+- [x] worked semantics defined (§5)
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+
+______________________________________________________________________
+
+## 9. Cross-Plane Bindings
+
+- Governed by — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|AMOS_CORE_LAWS]]
+- Kernel enforcement — [[02_KERNEL/06_RISK_REPAIR/K_SYBIL_HARDENING|K_SYBIL_HARDENING]] · [[02_KERNEL/K_MEMORY_ADMISSION|K_MEMORY_ADMISSION]]
+- Control-plane gates — [[03_CONTROL_PLANE/04_AUTHORITY|04_AUTHORITY]] (commit gate enforces R2)
+- Knowledge plane — [[11_KNOWLEDGE/00_INDEX/KNOWLEDGE_MAP|KNOWLEDGE_MAP]] (ingestion enforces R2)
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Related skill — [[07_SKILLS/amos-rule-of-2-canon/SKILL|amos-rule-of-2-canon]]
+- Related law — [[01_CANON/01_CORE_LAWS/RULE_OF_4_CANON|RULE_OF_4_CANON]] (orthogonal but composable)
+- Related concept — [[07_SKILLS/amos-trang-tat-2/SKILL|Trang Tát 2]] (Vietnamese formulation)
+
+______________________________________________________________________
+
+## 10. Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -209,55 +260,7 @@ AMOS_CANON_INGESTION_RULE:
 
 ______________________________________________________________________
 
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
-______________________________________________________________________
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
-______________________________________________________________________
-
-## 6. Worked semantics (target)
-
-Given an operation touching `01_CANON · CANON` within the Canon plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 
@@ -275,9 +278,9 @@ path: 01_CANON/01_CORE_LAWS/RULE_OF_2_CANON.md
 
 claim_class: AMOS_MODEL
 
-rscf_state: placeholder
+rscf_state: SOURCE_CLAIM
 
-canonical_status: UNKNOWN/GAP
+canonical_status: CONDITIONAL
 
 RSCF-RELATIONS:
 
@@ -286,6 +289,10 @@ RSCF-RELATIONS:
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+
+- PAIRED_WITH: [[01_CANON/01_CORE_LAWS/RULE_OF_4_CANON|RULE_OF_4_CANON]]
+
+- ENFORCED_BY: [[02_KERNEL/06_RISK_REPAIR/K_SYBIL_HARDENING|K_SYBIL_HARDENING]]
 
 ______________________________________________________________________
 

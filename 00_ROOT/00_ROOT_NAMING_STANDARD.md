@@ -1,82 +1,21 @@
 ---
-type: naming
-source: 00_ROOT
-aliases:
-  - NAMING_STANDARD
-  - AMOS Naming Standard
-  - AMOS OS Naming Standard
-  - AMOS Namespace Standard
-  - AMOS Identity Standard
-artifact_id: AMOS-OS-NAMING-STANDARD
-name: AMOS_OS_NAMING_STANDARD
-title: "AMOS OS Naming Standard — Canonical Identity, Namespace, Versioning, and Rename Governance"
-document_version: 2.0.0
-naming_standard_version: 1.0.0
-namespace_contract_version: 1.0.0
-amos_core_target: v4.4
-status: ACTIVE_STANDARD
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
 conclusion_class: AMOS_MODEL
-rscf_state: derived
-canon_group: tech-ai
-canon_type: standard
-origin_architect: Trang Phan
-steward: Trang Phan
-created: '2026-08-25'
-updated: '2026-08-25'
+epistemic_class: SOURCE_CLAIM
+topic: 00 Root Naming Standard
 tags:
-  - amos
-  - amos-os
-  - root
-  - amos-os
-  - naming
-  - naming-standard
-  - namespace
-  - identity
-  - artifact-identity
-  - versioning
-  - semantic-versioning
-  - repository
-  - filesystem
-  - registry
-  - canon
-  - kernel
-  - agents
-  - skills
-  - workflows
-  - protocols
-  - modes
-  - memory
-  - knowledge
-  - state
-  - models
-  - tools
-  - schemas
-  - provenance
-  - rscf
-  - migration
-  - rename
-  - compatibility
-  - lineage
-  - governance
   - canon-group/tech-ai
-  - canon/standard
   - rscf/claim
   - rscf/provenance
-  - rscf/state/derived
-  - topic/amos-os
-  - topic/naming-standard
-  - topic/namespace-governance
-  - topic/version-governance
-  - architecture
-  - full-tree
-  - authoritative-state
-  - placement-rules
-  - roadmap
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: root_index
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS OS Naming Standard
@@ -299,7 +238,7 @@ Examples:
 05_COGNITIVE_ORGANISM
 06_AGENTS
 07_SKILLS
-08_WORKFLOWS
+26_WORKFLOWS
 09_PROTOCOLS
 10_MEMORY
 11_KNOWLEDGE
@@ -3420,7 +3359,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

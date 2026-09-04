@@ -1,152 +1,100 @@
 ---
-title: "C04 Biological & Neural Systems Master Domain Specification"
-type: domain_specification
-plane: 21_DOMAINS
-subplane: 14_C04_BIO_NEURO
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_GOVERNING_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - authoritative_AMOS_OS_structure
-    - 21_DOMAINS/14_C04_BIO_NEURO/14_C04_BIO_NEURO_MOC
-    - 05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC
-    - 22_RESEARCH/01_PAPERS/SOTA_BCI_AI_QUANTUM_SYNTHESIS_2026
-  scope: c04_bio_neuro_systems
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Domains Domain Spec
 tags:
-  - amos-os
-  - domain
-  - bio-neuro
-  - neural-manifold
-  - bci
-  - optogenetics
-  - dynamical-systems
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# C04 Biological & Neural Systems Master Domain Specification
+# DOMAINS DOMAIN SPEC
 
-**Origin Architect & Steward:** Trang Phan
-**Target AMOS Lineage:** v4.4
-**Plane:** `21_DOMAINS / 14_C04_BIO_NEURO`
-**Status:** `ACTIVE_GOVERNING_SPECIFICATION`
-**Epistemic Classification:** `AMOS_MODEL` / `DERIVED`
+## 0. Status
 
----
+Domains-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
 
-## 1. Executive Summary & Domain Scope
+## 1. Purpose
 
-The `14_C04_BIO_NEURO` domain provides the foundational neurobiological models, dynamical neural population formulations, high-density Brain-Computer Interface ($\text{BCI}$) signal processing pipelines, and multiscale biophysical simulations governing the AMOS OS cognitive substrate.
+`DOMAINS DOMAIN SPEC` defines specification — intended semantics; implementation status tracked separately, serving the Domains plane's obligation: C-family domain engine mappings (C01–C12) onto the OS planes.
 
-It bridges cellular-level electrophysiology (Hodgkin-Huxley conductance, dendritic non-linearities) with low-dimensional latent neural manifolds and closed-loop neuromodulation telemetry.
+## 2. Semantics
 
-```text
-┌─────────────────────────────────────────────────────────────────────────────┐
-│             C04 BIO-NEURAL MULTISCALE ARCHITECTURAL STACK                   │
-│                                                                             │
-│  [ Microscale: Biophysical Ion Channels & Tripartite Synapses ]             │
-│  - Conductance-based Hodgkin-Huxley / Izhikevich multi-compartment neurons  │
-│  - Astrocytic calcium wave feedback & gliotransmitter modulation            │
-│                             │                                               │
-│                             ▼                                               │
-│  [ Mesoscale: Neural Population Dynamics & Latent Manifolds ]               │
-│  - Continuous-time recurrent neural state-space: ẋ(t) = f(x(t)) + Bu(t)      │
-│  - Gaussian Process Factor Analysis (GPFA) & Riemannian curvature K < 0     │
-│                             │                                               │
-│                             ▼                                               │
-│  [ Macroscale: High-Throughput BCI Telemetry & Optogenetic Loops ]          │
-│  - Ultra-wideband telemetry (15,360-ch Neuropixels & 512-ch Stentrodes)     │
-│  - Sub-5ms closed-loop Riemannian flow matching decoders                    │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
+- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
+- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
 
----
+## 3. Failure modes guarded
 
-## 2. Mathematical Formalism
+STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
 
-### 2.1 Neural Population State-Space Dynamics
-Large-scale cortical recordings with $N$ neurons $\mathbf{y}(t) \in \mathbb{R}^N$ are driven by an underlying $K$-dimensional low-dimensional neural manifold $\mathbf{x}(t) \in \mathcal{M}^K$ ($K \ll N$):
+## 4. Validation
 
-$$\dot{\mathbf{x}}(t) = \mathbf{F}(\mathbf{x}(t)) + \mathbf{B}\mathbf{u}(t) + \mathbf{w}(t)$$
+No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
 
-$$\mathbf{y}(t) \sim \text{Poisson}\left( \exp(\mathbf{C}\mathbf{x}(t) + \mathbf{d}) \right)$$
+## 5. Gaps
 
-where:
-- $\mathbf{F}: \mathcal{M}^K \to T\mathcal{M}^K$: Non-linear vector field governing endogenous cognitive dynamics.
-- $\mathbf{B}\mathbf{u}(t)$: Exogenous optogenetic, acoustic, or electrical stimulation input.
-- $\mathbf{C} \in \mathbb{R}^{N \times K}$: Observation projection matrix.
-- $\mathbf{w}(t) \sim \mathcal{N}(0, \mathbf{Q})$: Stochastic Brownian process noise.
+Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
 
-### 2.2 Latent Manifold Geodesic Distance & Intent Decoding
-The Riemannian distance $d_{\mathcal{M}}(\mathbf{x}_1, \mathbf{x}_2)$ between two cognitive states on metric tensor $g_{ij}(\mathbf{x})$:
+## 6. Falsifiers
 
-$$d_{\mathcal{M}}(\mathbf{x}_1, \mathbf{x}_2) = \int_0^1 \sqrt{ g_{ij}(\gamma(t)) \dot{\gamma}^i(t) \dot{\gamma}^j(t) } \, dt$$
+F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
 
-Decoded user intention $\hat{\mathbf{z}}(t) \in \text{SE}(3)$ is generated via continuous Riemannian flow matching velocity fields $v_\theta(\mathbf{x}, t)$:
+## Worked semantics
 
-$$\mathcal{L}_{\text{RFM}}(\theta) = \mathbb{E}_{t, p_t(\mathbf{x})}\left[ \| v_\theta(\mathbf{x}, t) - \dot{\mathbf{x}}_t \|_g^2 \right]$$
+Given an operation touching `DOMAINS DOMAIN SPEC` within the Domains plane:
 
----
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-## 3. Nine-Part AMOS Control Contract
+## Promotion-gate checklist
 
-### 3.1 ROLE
-Provides authoritative neurobiological and electrophysiological domain modeling, BCI decoding pipelines, and biophysical simulation constraints to AMOS OS.
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-### 3.2 INTERFACES
-- `decode_neural_manifold(spikes: Array[N, T]) -> LatentTrajectory[K, T]`
-- `estimate_calcium_dynamics(mgluR_signal: Tensor) -> CalciumWaveField`
-- `synthesize_closed_loop_stim(state: LatentState, target: LatentState) -> OptoWaveform`
+## Cross-plane bindings
 
-### 3.3 DEPENDENCIES
-- `05_COGNITIVE_ORGANISM`: Consumes population state trajectories for identity and emotion regulation.
-- `15_INTERFACES`: BCI socket interfaces and Neuropixels/Stentrode telemetry drivers.
-- `13_MODELS`: Foundation BCI latent world models.
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-### 3.4 INVARIANTS
-1. **Biological Safety Invariant:** Electrical/ultrasound stimulation must strictly obey Shannon charge-injection limits: $Q_{\text{inj}} \le k \sqrt{A_{\text{geom}}}$ ($k \le 1.75\,\mu\text{C/cm}^2$).
-2. **Deterministic Latency Invariant:** End-to-end telemetry decoding latency must satisfy $p_{99} < 5.0\,\text{ms}$.
-3. **No Uncalibrated Transfer:** Neural manifold mappings cannot cross subjects without entropic optimal transport recalibration ($\mathcal{W}_2$ distance $< 0.05$).
+______________________________________________________________________
 
-### 3.5 AUTHORITY
-Governed by `AMOS_CORE v4.4`, Origin Architect **Trang Phan**.
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
-### 3.6 PROVENANCE
-Engineered from non-human primate motor cortex Utah array datasets, human Neuropixels recordings, and published biophysical kinetic benchmarks.
+______________________________________________________________________
 
-### 3.7 TESTS
-- Manifold dimensionality estimation stability ($K \in [8, 16]$ across motor tasks).
-- Real-time zero-copy streaming decoding under 15,360-channel synthetic spike floods.
-- Shannon safety limit violation alarm triggering in $< 100\,\mu\text{s}$.
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
-### 3.8 FAILURE MODES
-- Electrode impedance degradation or signal loss ($> 30\%$ channel dropout).
-- Neural manifold drift exceeding Wasserstein divergence threshold.
+______________________________________________________________________
 
-### 3.9 RECOVERY
-- Automatic channel pruning and Bayesian covariance recalibration.
-- Instant fallback to non-invasive EMG / inertial kinematics.
+RSCF-NODE
+node_id: amos_21_domains_14_c04_bio_neuro_domains_domain_spec_md
+node_type: note
+path: 21_DOMAINS/14_C04_BIO_NEURO/DOMAINS_DOMAIN_SPEC.md
+claim_class: AMOS_MODEL
 
----
+______________________________________________________________________
 
-## 4. AMOS OS MECE Plane Integration
-
-| AMOS Plane | Role & Interaction |
-| :--- | :--- |
-| **[[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM]]** | Integrates biological cognitive dynamics into core organism identity. |
-| **[[15_INTERFACES/15_INTERFACES_MOC|15_INTERFACES]]** | Exposes high-frequency BCI telemetry streams and visualizer surfaces. |
-| **[[22_RESEARCH/01_PAPERS/01_PAPERS_MOC|22_RESEARCH/01_PAPERS]]** | Publishes verified peer-reviewed BCI and neuromorphic monographs. |
-| **[[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS]]** | Master domain routing hub across C01–C12 domain specializations. |
-
----
-
-## 5. References & Cross-Plane Links
-
-- Domain MOC: [[21_DOMAINS/14_C04_BIO_NEURO/14_C04_BIO_NEURO_MOC|14_C04_BIO_NEURO MOC]]
-- Universal BCI Decoding: [[05_COGNITIVE_ORGANISM/UNIVERSAL_BCI_NEURAL_DECODING_ARCHITECTURE|UNIVERSAL_BCI_NEURAL_DECODING_ARCHITECTURE]]
-- Stentrode Neural Bus: [[22_RESEARCH/01_PAPERS/SOTA_HIGH_CHANNEL_EPIDURAL_STENTRODE_NEURAL_BUS_2026|SOTA_HIGH_CHANNEL_EPIDURAL_STENTRODE_NEURAL_BUS_2026]]
-- Web BCI Visualizer: [[15_INTERFACES/WEB_BASED_BCI_OPTOGENETIC_NEURAL_FLOW_DECODER|WEB_BASED_BCI_OPTOGENETIC_NEURAL_FLOW_DECODER]]
+**MOC:** [[21_DOMAINS/14_C04_BIO_NEURO/14_C04_BIO_NEURO_MOC|14_C04_BIO_NEURO_MOC]]

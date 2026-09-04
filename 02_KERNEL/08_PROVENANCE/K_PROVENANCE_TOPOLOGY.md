@@ -1,47 +1,16 @@
 ---
-title: K PROVENANCE TOPOLOGY
-type: provenance
-source: 02_KERNEL/08_PROVENANCE
-artifact_id: AMOS-OS-K-PROVENANCE-TOPOLOGY
-canonical_name: K_PROVENANCE_TOPOLOGY
-artifact_type: kernel_provenance_topology_contract
-status: AMOS_MODEL
-conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: KERNEL
-scope: AMOS_OS
-updated: 2026-08-26
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: K Provenance Topology
 tags:
-  - kernel
-  - provenance
-  - note
-  - canon/kernel
-  - readme
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - source-lineage
-  - supersession-log
-  - k-core19-logic
-  - k-structural-reasoning
-  - k-multi-hypothesis
-  - k-causal-closure
-  - k-causal-epoch
-  - k-context-state
-  - k-system-state
-  - k-memory-admission
-  - k-memory-conflict
-  - k-memory-retrieval
-  - k-context-compaction
-  - k-commit-time-authority
-  - k-information-exposure
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # K PROVENANCE TOPOLOGY
@@ -3547,7 +3516,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

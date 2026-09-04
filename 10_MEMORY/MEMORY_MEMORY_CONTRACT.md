@@ -1,106 +1,105 @@
 ---
-title: Memory Memory Contract — Hierarchical Memory Substrate Governance Specification
-type: plane_contract
-plane: 10_MEMORY
-domain: D_INFORMATION_MEMORY_STATE_MODELS
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 10_MEMORY/10_MEMORY_MOC
-    - 10_MEMORY/EPISODIC_MEMORY_SUBSTRATE
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-  scope: hierarchical_memory_substrate_governance
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Memory Memory Contract
 tags:
-  - amos-os
-  - 10-memory
-  - plane-contract
-  - memory-strata
-  - ebbinghaus-retention
-  - hnsw-indexing
-  - cas-synchronization
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Memory Memory Contract — Hierarchical Memory Substrate Governance Specification
+# MEMORY MEMORY CONTRACT
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Domain Alignment:** Domain D (Information, Memory, State & Model Substrate)
-> **Conclusion Class:** `DERIVED` (RSCF Validated)
-> **Status:** `ACTIVE_SPECIFICATION`
+## 0. Status
 
----
+Memory-plane contract for **MEMORY CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
-## 1. Architectural Scope & Subsystem Role
+## 1. Scope
 
-`10_MEMORY` governs the ingestion, retention, vector indexing, associative retrieval, consolidation, and forgetting mechanics across all cognitive memory tiers in AMOS OS.
+Governs durable memory stores, trust classes, admission, retrieval, and conflict policy as they bear on `MEMORY CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
 
-```text
-RETRIEVAL != REASONING
-VECTOR_SIMILARITY != EPISTEMIC_CORROBORATION
-UNCONSTRAINED_RETENTION == COGNITIVE_SATURATION
-FORGETTING == SIGNAL_TO_NOISE_OPTIMIZATION
-```
+## 2. Contract terms
 
-Under Domain D, `10_MEMORY` acts as the persistent cognitive substrate bridging transient working memory in `11_KNOWLEDGE/engine/MENTAL_STATE_ENGINE` with durable state commits in `12_STATE`.
+- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
+- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
+- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
+- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
+- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
 
-```mermaid
-graph TD
-    WM[Working Memory: 7±2 Slots] --> CON[01. Memory Consolidation Pipeline]
-    CON --> S1[Strata 1: Working Ephemeral Cache (RAM)]
-    CON --> S2[Strata 2: Episodic Experience Substrate (Arrow IPC)]
-    CON --> S3[Strata 3: Semantic Knowledge Graph (HNSW / DuckDB)]
-    CON --> S4[Strata 4: Canonical Vault Corpus (Markdown / BLAKE3)]
-    S1 & S2 & S3 & S4 --> RET[02. Ebbinghaus-Wiener Decay & Associative Retrieval]
-    RET --> AG[06_AGENTS / 05_COGNITIVE_ORGANISM]
-```
+## 3. Invariants
 
----
+- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
+- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
+- Consequential effects emit receipts; rollback basin exists before mutation.
+- Competing hypotheses remain visible when evidence does not discriminate.
 
-## 2. 4-Tier Memory Strata Architecture
+## 4. Executed reference
 
-| Memory Stratum | Storage Medium | Latency | Retention Period | Indexing Topology |
-| :--- | :--- | :--- | :--- | :--- |
-| **Tier 1: Working** | Virtual L1/L2 Cache | $< 100\text{ }\mu\text{s}$ | Active Session Epoch | Ring Buffer ($7 \pm 2$ items) |
-| **Tier 2: Episodic** | Arrow Zero-Copy IPC | $< 1.5\text{ ms}$ | $1 - 30\text{ Days}$ | Temporal Chunk Log |
-| **Tier 3: Semantic** | DiskANN / Vector Embed | $< 8.0\text{ ms}$ | $1 - 365\text{ Days}$ | Hyperbolic Poincaré Ball |
-| **Tier 4: Canonical** | Markdown + BLAKE3 | $< 25.0\text{ ms}$ | Indefinite (Immutable) | Git / Drive Merkle Tree |
+No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
 
----
+## 5. Gaps
 
-## 3. Mathematical Formulations & Retention Dynamics
+Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
 
-### 3.1 Ebbinghaus-Wiener Exponential Decay Function
-Memory retention probability $R(t)$ for episode $e$ decreases over elapsed time $t$:
+## 6. Falsifiers
 
-$$R(t) = \exp\left( -\frac{t}{\mathcal{S}(e)} \right)$$
+F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
 
-$$\mathcal{S}(e) = \mathcal{S}_0 \cdot \left( 1 + \alpha_{\text{salience}} \cdot \text{Salience}(e) + \beta_{\text{access}} \cdot \ln(1 + \text{AccessCount}(e)) \right)$$
+## Worked semantics
 
-### 3.2 Associative Vector-Graph Retrieval Operator
-Retrieves top-$k$ memory items maximizing semantic similarity penalized by age:
+Given an operation touching `MEMORY · MEMORY CONTRACT` within the Memory plane:
 
-$$\text{Score}(q, e) = \left( \mathbf{v}_q^T \mathbf{v}_e \right) \cdot R(t_e) \cdot \mathbb{I}(\text{Confidence}(e) \ge \theta_{\min})$$
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
----
+## Promotion-gate checklist
 
-## 4. Invariants & Storage Guarantees
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-1. **Monotonic Retention Decay:** Unreinforced memory items decay strictly monotonically toward eviction threshold $\theta_{\text{evict}} = 0.05$.
-2. **Deterministic Cryptographic Sealing:** All Tier 4 canonical memory notes carry BLAKE3 content checksums to detect silent tampering or bit rot.
-3. **Zero Phantom Memory:** Memory synthesis without raw episodic provenance is forbidden.
+## Cross-plane bindings
 
----
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-## 5. Lineage & Cross-Plane References
+______________________________________________________________________
 
-- **Parent MOC:** [[10_MEMORY/10_MEMORY_MOC|10_MEMORY_MOC]]
-- **Episodic Substrate:** [[10_MEMORY/EPISODIC_MEMORY_SUBSTRATE|EPISODIC_MEMORY_SUBSTRATE]]
-- **State Storage:** [[12_STATE/STATE_STATE_CONTRACT|12_STATE]]
-- **Mental State Engine:** [[11_KNOWLEDGE/engine/MENTAL_STATE_ENGINE|MENTAL_STATE_ENGINE]]
-- **Security Audit:** [[18_SECURITY/SECURITY_SECURITY_CONTRACT|18_SECURITY]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+
+______________________________________________________________________
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: amos_10_memory_memory_memory_contract_md
+node_type: note
+path: 10_MEMORY/MEMORY_MEMORY_CONTRACT.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[10_MEMORY/10_MEMORY_MOC|10_MEMORY_MOC]]

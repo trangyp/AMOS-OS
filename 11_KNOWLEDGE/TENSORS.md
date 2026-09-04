@@ -1,31 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: TENSORS — Full Source-Grounded Expansion
-type: knowledge
-source: 11_KNOWLEDGE
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Tensors
 tags:
-  - tensors
-  - rscf/T-topology
-  - rscf/G-relation
-  - rscf/type-model
-  - rscf/epistemic
-  - topic/tensors
-  - knowledge
-  - tensor-contracts
-  - claim-tensor
-  - amos-cross-domain-tensor-composition-governor
-  - evidence-tensor
-  - relation-tensor
-  - amos-simulation-kernel-v0-math-foundations
-  - system-scan-agent
-  - automation-profiles
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: tensor_framework
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # TENSORS — Full Source-Grounded Expansion
@@ -4352,7 +4337,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ______________________________________________________________________
 

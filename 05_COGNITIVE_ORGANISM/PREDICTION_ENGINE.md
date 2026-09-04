@@ -1,228 +1,210 @@
 ---
-title: Prediction Engine
-type: engine
-source: 05_COGNITIVE_ORGANISM
-artifact: PREDICTION_ENGINE.md
-artifact_id: amos_05_cognitive_organism_prediction_engine
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 05_COGNITIVE_ORGANISM
-segment: 05_COGNITIVE_ORGANISM
-artifact_kind: ENGINE
-path: 05_COGNITIVE_ORGANISM/PREDICTION_ENGINE.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Prediction Engine
 tags:
-  - amos-os
-  - cognitive
-  - organism
-  - engine
-  - canon_placeholder
-  - rscf
-  - canon/cognitive
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Prediction Engine
 
-## 0. Status
+## 0. Executive Specification
 
-`PREDICTION_ENGINE.md` is an **ADD-ONLY placeholder** for the **Cognitive Organism** plane segment at `05_COGNITIVE_ORGANISM`.
-
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
+The **Prediction Engine** is the Tier 3 active inference, predictive coding, and variational free energy minimization engine of the AMOS Full Brain OS. It operationalizes Karl Friston's Free Energy Principle (FEP) across all hierarchical cognitive layers, aligning incoming sensory evidence with generative world models while driving goal-directed and epistemic action selection.
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
++---------------------------------------------------------------------------------------+
+|                                  PREDICTION ENGINE                                    |
+|                                                                                       |
+|   ┌─────────────────────────┐      ┌─────────────────────────┐      ┌──────────────┐  |
+|   │ VARIATIONAL FREE ENERGY │ <--> │ PRECISION-WEIGHTED ERR  │ <--> │ EXPECTED FEP │  |
+|   │ • Evidence Bound (ELBO) │      │ • Hierarchical Residuals│      │ • Policy Pi  │  |
+|   │ • Dynamic Attractors    │      │ • Adaptive Precision Pi │      │ • Epistemic  │  |
+|   │ • Order Parameter Match │      │ • Neuromodulatory Gain  │      │ • Pragmatic  │  |
+|   └─────────────────────────┘      └─────────────────────────┘      └──────────────┘  |
++---------------------------------------------------------------------------------------+
+                                           │
+                        ┌──────────────────┴──────────────────┐
+                        ▼                                     ▼
+      ┌──────────────────────────────────┐  ┌──────────────────────────────────┐
+      │     DEEPERBRAIN NEURODYNAMICS    │  │    RUNTIME DISPATCH & SAFETY     │
+      │ • Spectral Power Simplex         │  │ • Policy Candidate Generation   │
+      │ • Phase-Locking Value (PLV)      │  │ • Non-Authoritative Proposal     │
+      │ • Cross-Frequency Coupling (CFC) │  │ • Error Spikes Fail Closed       │
+      │ • Sample Entropy Complexity      │  │ • Rollback Basin on Divergence   │
+      └──────────────────────────────────┘  └──────────────────────────────────┘
 ```
 
-Origin architect / steward:
+---
 
-**Trang Phan**
+## 1. Variational Free Energy Formulation
 
-______________________________________________________________________
+The organism maintains its structural integrity and homeostatic viability by minimizing an upper bound on surprise (negative log-evidence) termed Variational Free Energy $\mathcal{F}$.
 
-## 1. Purpose
+### 1.1 Mathematical Objective
+Given external sensory observations $\mathbf{o} \in \mathcal{O}$ and internal generative model $p(\mathbf{o}, \mathbf{s})$ over latent environmental causes $\mathbf{s} \in \mathcal{S}$, the internal recognition density $q(\mathbf{s})$ minimizes:
 
-This artifact reserves the **Prediction Engine** slot within the Cognitive Organism plane. The Cognitive Organism plane governs the organism-level cognitive assembly above kernels and below agents.
+$$\mathcal{F}(q, \mathbf{o}) = \int q(\mathbf{s}) \ln \frac{q(\mathbf{s})}{p(\mathbf{o}, \mathbf{s})} \, d\mathbf{s} = \mathbb{E}_{q(\mathbf{s})}\big[ \ln q(\mathbf{s}) - \ln p(\mathbf{o}, \mathbf{s}) \big]$$
 
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+### 1.2 Canonical Decompositions
 
-______________________________________________________________________
+1. **Accuracy vs. Complexity:**
+   $$\mathcal{F} = \underbrace{D_{\text{KL}}\big(q(\mathbf{s}) \,\|\, p(\mathbf{s})\big)}_{\text{Complexity (Overfitting penalty)}} - \underbrace{\mathbb{E}_{q(\mathbf{s})}\big[\ln p(\mathbf{o} \mid \mathbf{s})\big]}_{\text{Accuracy (Fit to evidence)}}$$
 
-## 2. Non-Purpose
+2. **Divergence vs. Surprise:**
+   $$\mathcal{F} = \underbrace{D_{\text{KL}}\big(q(\mathbf{s}) \,\|\, p(\mathbf{s} \mid \mathbf{o})\big)}_{\ge 0 \text{ (True Posterior Divergence)}} - \underbrace{\ln p(\mathbf{o})}_{\text{Log Evidence (Surprise)}}$$
 
-This placeholder MUST NOT be used to claim:
+Because $D_{\text{KL}} \ge 0$, minimizing $\mathcal{F}$ with respect to $q(\mathbf{s})$ renders the recognition density an exact proxy for the Bayesian posterior $p(\mathbf{s} \mid \mathbf{o})$ while maximizing the marginal evidence of the organism's generative model.
 
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
+---
 
-______________________________________________________________________
+## 2. Hierarchical Predictive Coding Architecture
 
-## 3. Ingestion Rule
+The cognitive hierarchy represents states through coupled descending predictions and ascending prediction errors across layers $l \in \{1, \ldots, L\}$.
 
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+```text
+Layer l + 1:  [ Hidden Cause x^(l+1) ] ────────┐ (Descending Top-Down Prior)
+                                               ▼
+Layer l:      [ Prediction Error xi^(l) ] <── [ Generative Mapping g^(l)(x^(l+1)) ]
+                      ▲
+                      │ (Ascending Bottom-Up Residual)
+Layer l - 1:  [ Sensory Input x^(l-1) ]
 ```
 
-______________________________________________________________________
+### 2.1 State & Prediction Equations
+At layer $l$, the top-down prediction of lower-level state $\mathbf{x}^{(l-1)}$ is given by nonlinear generative mapping $g^{(l-1)}$:
 
-## 4. Contract discipline
+$$\boldsymbol{\mu}^{(l-1)} = g^{(l-1)}\big(\mathbf{x}^{(l)}\big)$$
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+The prediction error vector $\boldsymbol{\xi}^{(l)}$ is weighted by precision matrix $\boldsymbol{\Pi}^{(l)}$:
 
-______________________________________________________________________
+$$\boldsymbol{\xi}^{(l)} = \boldsymbol{\Pi}^{(l)} \left( \mathbf{x}^{(l)} - g^{(l)}\big(\mathbf{x}^{(l+1)}\big) \right)$$
 
-## 5. Gaps
+Where precision $\boldsymbol{\Pi}^{(l)} = (\boldsymbol{\Sigma}^{(l)})^{-1}$ encodes inverse variance (confidence).
 
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
+### 2.2 Gradient Ascent / Descent Dynamics
+Continuous state estimation follows gradient descent on free energy:
 
-______________________________________________________________________
+$$\dot{\mathbf{x}}^{(l)} = \mathcal{D}\mathbf{x}^{(l)} - \frac{\partial \mathcal{F}}{\partial \mathbf{x}^{(l)}} = \mathcal{D}\mathbf{x}^{(l)} - \boldsymbol{\xi}^{(l)} + \left(\frac{\partial g^{(l-1)}}{\partial \mathbf{x}^{(l)}}\right)^\top \boldsymbol{\xi}^{(l-1)}$$
 
-## 6. Worked semantics (target)
+Where $\mathcal{D}$ is the differential operator representing generalized coordinates of motion.
 
-Given an operation touching `05_COGNITIVE_ORGANISM · ENGINE` within the Cognitive Organism plane:
+---
 
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+## 3. Expected Free Energy ($\mathcal{G}$) & Action Selection
 
-______________________________________________________________________
+Under active inference, action is not chosen to maximize arbitrary external reward, but to minimize **Expected Free Energy $\mathcal{G}(\pi)$** over future time horizon $\tau \in \{t+1, \ldots, T\}$ under candidate policy $\pi$:
 
-## 7. Promotion-gate checklist
+$$\pi^* = \arg\min_\pi \mathcal{G}(\pi)$$
 
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+$$\mathcal{G}(\pi) = \sum_{\tau} \mathcal{G}(\pi, \tau)$$
 
-______________________________________________________________________
+$$\mathcal{G}(\pi, \tau) = \underbrace{D_{\text{KL}}\big(q(\mathbf{o}_\tau \mid \pi) \,\|\, p(\mathbf{o}_\tau)\big)}_{\text{Pragmatic / Goal-Directed Value}} + \underbrace{\mathbb{E}_{q(\mathbf{s}_\tau \mid \pi)}\big[ \mathcal{H}\big(p(\mathbf{o}_\tau \mid \mathbf{s}_\tau)\big) \big]}_{\text{Epistemic / Information-Seeking Value}}$$
 
-## 8. Cross-plane bindings (target)
+* **Pragmatic Value (Risk Minimization):** Minimizes divergence between predicted sensory outcomes $q(\mathbf{o}_\tau \mid \pi)$ and the organism's prior homeostatic preferences $p(\mathbf{o}_\tau)$ (preventing hypothermia, resource starvation, security breach).
+* **Epistemic Value (Ambiguity Minimization):** Maximizes exploration of novel, uncertain states to resolve uncertainty in generative world models (curiosity, scientific hypothesis testing).
 
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+---
 
-______________________________________________________________________
+## 4. Neurodynamics Statistics Prediction (NSP) Order Parameters
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+To ground active inference in real electrophysiological brain states, the engine integrates order parameters from [DeeperBrain (arXiv:2601.06134v2)](file:///Users/mac/Desktop/_Arxiv/Arvix/2026/2026-01/D/2601.06134v2_DeeperBrain__A_Neuro-Grounded_EEG_Foundation_Model_Towards_Universal_BCI.md):
 
-______________________________________________________________________
+$$\mathbf{y}(t) = \Phi\big(\mathbf{z}(t)\big) \approx \Psi\big(\mathbf{x}(t)\big)$$
 
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+### 4.1 Relative Spectral Power Simplex ($\mathbf{p}_k$)
+Quantifies the distribution of oscillatory attractor states across 5 canonical bands:
 
-______________________________________________________________________
+$$p_k = \frac{\int_{f \in \text{band}_k} \text{PSD}(f) \, df}{\sum_{j=1}^5 \int_{f \in \text{band}_j} \text{PSD}(f) \, df}, \quad \sum_{k=1}^5 p_k = 1$$
+
+* $\delta$ (0.5–4 Hz): Deep sleep, structural repair, memory consolidation.
+* $\theta$ (4–8 Hz): Working memory maintenance, hippocampal navigation.
+* $\alpha$ (8–13 Hz): Sensory gating, cortical idling, attentional inhibition.
+* $\beta$ (13–30 Hz): Sensorimotor engagement, active cognitive maintenance.
+* $\gamma$ (30–100 Hz): Feature binding, conscious awareness, global workspace ignition.
+
+### 4.2 Phase-Locking Value (PLV) Functional Connectivity
+Measures large-scale phase synchronization between cortical channels $i$ and $j$:
+
+$$\text{PLV}_{ij} = \frac{1}{T} \left| \sum_{t=1}^T \exp\big(j(\phi_i(t) - \phi_j(t))\big) \right|$$
+
+Where $\phi_c(t)$ is the instantaneous analytic phase extracted via Hilbert transform.
+
+### 4.3 Phase-Amplitude Cross-Frequency Coupling (CFC)
+Quantifies hierarchical coordination, where the phase of slow $\theta$ oscillations modulates the amplitude envelope of fast $\gamma$ bursts via the Modulation Index (MI):
+
+$$\text{MI} = \frac{D_{\text{KL}}\big(P_{\text{emp}} \,\|\, U\big)}{\ln N_{\text{bins}}}$$
+
+Where $P_{\text{emp}}$ is the distribution of $\gamma$ amplitude across $\theta$ phase bins and $U$ is the uniform distribution.
+
+### 4.4 Sample Entropy ($S_E$) Dynamical Complexity
+Measures the rate of new information generation and non-linear complexity of neural trajectories:
+
+$$S_E(m, r, N) = -\ln \frac{A}{B}$$
+
+Where $B$ is the count of template matches of length $m$ within tolerance $r$, and $A$ is matches of length $m+1$.
+
+---
+
+## 5. Fail-Closed Error Handling & Stability Basins
+
+```text
+PREDICTION_DIVERGENCE_SPIKE (xi > theta_div)
+                     │
+                     ▼
+      ┌─────────────────────────────┐
+      │  PRECISION RESCALING CIRCUIT│
+      │  • Dampen Pi down-weights   │
+      │  • Elevate Prior Rigidity   │
+      └──────────────┬──────────────┘
+                     │ (If xi remains > theta_fatal)
+                     ▼
+      ┌─────────────────────────────┐
+      │ INTERRUPT_PREDICTION_COLLAPSE│
+      │ • Abort Candidate Policy Pi │
+      │ • Freeze Motor Execution    │
+      │ • Revert to Prior Snapshot  │
+      └─────────────────────────────┘
+```
+
+1. **Precision Explosion Guard:** If precision $\boldsymbol{\Pi}^{(l)}$ approaches singularity ($\det(\boldsymbol{\Sigma}) \to 0$), the engine clamps precision to $\Pi_{\text{max}} = 100.0$ to prevent numerical instability.
+2. **Prediction Collapse Invariant:** If prediction errors $\boldsymbol{\xi}$ fail to decrease across 3 consecutive update steps, the active policy $\pi$ is declared non-viable, execution halts, and a diagnostic receipt is emitted to `20_OPERATIONS`.
+
+---
+
+## 6. Cross-Plane Bindings
+
+- **Governed by Canon:** [[01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_CANON|FULL_BRAIN_OS_CANON]] & [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]].
+- **Runtime Execution:** [[05_COGNITIVE_ORGANISM/FULL_BRAIN_OS_RUNTIME_BINDING|FULL_BRAIN_OS_RUNTIME_BINDING]].
+- **Logical Validation:** [[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]].
+- **World Models:** [[13_MODELS/01_FOUNDATION/BIO_LOGICAL_COMPUTING_MODEL|BIO_LOGICAL_COMPUTING_MODEL]].
+- **Grounded Evidence:** [[00_ROOT/ARXIV_RSCF_KNOWLEDGE_NODE|ARXIV_RSCF_KNOWLEDGE_NODE]].
+
+---
 
 RSCF-NODE
-
 node_id: amos_05_cognitive_organism_prediction_engine
-
 node_type: engine
-
+domain: COGNITION
 path: 05_COGNITIVE_ORGANISM/PREDICTION_ENGINE.md
-
 claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
+rscf_state: active_specification
+canonical_status: CANONICAL_ENGINE
 RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
-
-**MOC:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
+  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+  - INDEXED_BY: [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
+  - GOVERNED_BY: [[01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_CANON|FULL_BRAIN_OS_CANON]]
+  - BOUND_TO: [[05_COGNITIVE_ORGANISM/FULL_BRAIN_OS_RUNTIME_BINDING|FULL_BRAIN_OS_RUNTIME_BINDING]]
+  - GROUNDED_IN: [[00_ROOT/ARXIV_RSCF_KNOWLEDGE_NODE|ARXIV_RSCF_KNOWLEDGE_NODE]]

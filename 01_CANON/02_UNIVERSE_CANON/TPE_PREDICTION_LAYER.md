@@ -1,213 +1,181 @@
 ---
-title: TPE Prediction Layer — Trang Prediction Engine
-type: specification
-source: 01_CANON
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: PROPOSED_SPECIFICATION
-canonical_status: CONDITIONAL
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-updated: 2026-09-04
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-    - 00_ROOT/00_ROOT_MOC
-  scope: prediction_engine
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Tpe Prediction Layer
 tags:
-  - amos-os
-  - 01-canon
-  - specification
-  - tpe-prediction-layer
-  - predictive-coding
-  - forward-model
-  - error-correction
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# TPE Prediction Layer — Trang Prediction Engine
+# TPE Prediction Layer Canon
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Conclusion Class:** `AMOS_MODEL`
-> **Status:** `PROPOSED_SPECIFICATION`
-> **Canonical Status:** `CONDITIONAL`
-
-> **Epistemic Boundary:** TPE is an `AMOS_MODEL` predictive coding specification. It defines forward-model and error-correction contracts within the cognitive loop. It does not claim neurobiological accuracy; the predictive coding paradigm is used as a structural analogy for state prediction and error-driven learning.
+**Path:** `01_CANON/02_UNIVERSE_CANON/TPE_PREDICTION_LAYER.md`  
+**Plane:** `01_CANON`  
+**Subplane:** `02_UNIVERSE_CANON`  
 
 ---
 
-## 1. Architectural Scope
+## 1. Canonical Definition
 
-`TPE_PREDICTION_LAYER` defines the **Trang Prediction Engine (TPE)** — the predictive coding and forward-modeling layer within the Khung Trang cognitive loop. TPE generates state predictions, compares them against observed outcomes, and produces prediction errors that drive learning, adaptation, and model refinement.
+The **Temporal Prediction Engine (TPE) Layer** governs the prospective generative modeling of future universe states within AMOS cognition:
 
-TPE occupies the prediction stage of the cognitive loop, sitting between the perception stage (F1–F4) and the constraint/enforcement stage (F13–F16). It consumes the current state $\Sigma_t$ and generates a predicted next state $\hat{\Sigma}_{t+1}$, which is then compared to the actual observed state $\Sigma_{t+1}$.
+> **Law of Anticipatory Minimization:** An intelligent system maintains structural integrity across non-equilibrium thermodynamic regimes if and only if it continually minimizes the divergence between its internal generative density $q(\tilde{s})$ and the true environmental transition density $p(\tilde{s} \mid \tilde{o})$.
 
-### Core Components
-
-| Component | Symbol | Description |
-|:--|:--|:--|
-| **Forward Model** | $\mathcal{M}_f$ | Generates predicted state from current state and input |
-| **Prediction Error** | $\epsilon$ | Difference between predicted and observed state |
-| **Error Correction** | $\mathcal{E}_c$ | Updates model based on prediction error |
-| **Confidence Estimator** | $\kappa$ | Estimates prediction confidence |
-| **Prediction Memory** | $\mathcal{M}_p$ | Stores past predictions for calibration |
-
-### TPE Cognitive Loop Position
-
-```mermaid
-flowchart LR
-    subgraph CL["Cognitive Loop"]
-        P["Perception<br/>F1-F4"] --> TPE["TPE Prediction<br/>Forward Model"]
-        TPE --> EX["Execution<br/>F17-F20"]
-        EX --> OBS["Observation<br/>Actual State"]
-        OBS --> EC["Error Correction<br/>ε = Σ̂ - Σ"]
-        EC --> TPE
-        EC --> M["Meaning<br/>F21-F24"]
-    end
-    EXT["External Input U_t"] --> P
-```
+$$\mathcal{F}(q, \tilde{o}) = \mathbb{E}_{q(\tilde{s})}[\ln q(\tilde{s}) - \ln p(\tilde{s}, \tilde{o})] \ge -\ln p(\tilde{o})$$
 
 ---
 
-## 2. Governing Invariants
+## 2. Uncertainty Decomposition
 
-- **INV-T1 (Prediction Before Action):** The forward model generates $\hat{\Sigma}_{t+1}$ before the system acts. Actions are conditioned on predictions, not solely on current state.
-- **INV-T2 (Error Non-Suppression):** Prediction errors $\epsilon$ are never suppressed or hidden. All errors are recorded in prediction memory and emitted to observability.
-- **INV-T3 (Model Determinism):** Given the same state $\Sigma_t$ and input $U_t$, the forward model produces the same prediction $\hat{\Sigma}_{t+1}$. Predictions are deterministic.
-- **INV-T4 (Confidence Calibration):** The confidence estimator $\kappa$ is calibrated against historical prediction accuracy. Systematically overconfident or underconfident models trigger recalibration.
-- **INV-T5 (Error-Driven Learning):** Model updates are driven by prediction errors. Zero error means no update. Large errors produce proportionally larger updates, bounded by evolution safety (KT-14).
+TPE strictly separates total predictive uncertainty $\sigma_{\text{total}}^2$ into orthogonal components:
 
----
+$$\sigma_{\text{total}}^2 = \sigma_{\text{aleatoric}}^2(\text{irreducible physical stochasticity}) + \sigma_{\text{epistemic}}^2(\text{reducible model ignorance})$$
 
-## 3. Mathematical / Formal Definition
-
-### 3.1 Forward Model
-
-The forward model generates a predicted next state:
-
-$$\hat{\Sigma}_{t+1} = \mathcal{M}_f(\Sigma_t, U_t, \theta_t)$$
-
-where $\theta_t$ are the model parameters at time $t$.
-
-### 3.2 Prediction Error
-
-The prediction error is the divergence between predicted and observed state:
-
-$$\epsilon_{t+1} = \Sigma_{t+1} - \hat{\Sigma}_{t+1} = \Sigma_{t+1} - \mathcal{M}_f(\Sigma_t, U_t, \theta_t)$$
-
-The error magnitude is measured by a domain-appropriate metric $d$:
-
-$$|\epsilon_{t+1}| = d(\Sigma_{t+1}, \hat{\Sigma}_{t+1})$$
-
-### 3.3 Error Correction
-
-The error correction function updates model parameters:
-
-$$\theta_{t+1} = \theta_t + \alpha \cdot \nabla_\theta L(\epsilon_{t+1})$$
-
-where $\alpha$ is the learning rate and $L$ is the loss function:
-
-$$L(\epsilon) = \frac{1}{2} |\epsilon|^2$$
-
-The update is bounded by evolution safety (KT-14):
-
-$$\|\theta_{t+1} - \theta_t\| \leq \Delta_{\max}$$
-
-### 3.4 Confidence Estimation
-
-Prediction confidence is estimated from historical accuracy:
-
-$$\kappa_{t+1} = 1 - \frac{|\epsilon_{t+1}|}{|\Sigma_{t+1}| + \delta}$$
-
-where $\delta$ is a smoothing constant. Confidence is calibrated via:
-
-$$\text{Calibration error} = |\kappa_{t+1} - \text{empirical accuracy over window } W|$$
-
-### 3.5 Connection to Master Equations
-
-TPE implements the state transition prediction:
-
-$$\hat{S}_{t+1} = \mathcal{M}_f(S_t, U_t) \approx C(F(S_t, U_t))$$
-
-The prediction approximates the actual state transition $S_{t+1} = C(F(S_t, U_t))$. The error $\epsilon = S_{t+1} - \hat{S}_{t+1}$ measures the model's deviation from the true dynamics.
-
-### 3.6 Entropy Connection
-
-The prediction error relates to entropy production:
-
-$$\frac{d_i S}{dt} \propto \mathbb{E}[|\epsilon|^2]$$
-
-High prediction error correlates with high internal entropy production, consistent with KT-05.
+1. **Epistemic Horizon**: Actions are forbidden from treating epistemic ignorance as confirmed fact.
+2. **Confidence Ceiling**: No synthetic prediction may claim probability $p = 1.0$ in open-world operational domains.
 
 ---
 
-## 4. MECE Mapping
+## 3. Multi-Horizon Prediction
 
-```mermaid
-graph TD
-    A["01_CANON / 02_UNIVERSE_CANON<br/>TPE_PREDICTION_LAYER"] --> B["13_MODELS<br/>Predictive Models"]
-    A --> C["05_COGNITIVE_ORGANISM<br/>Cognitive Loop Prediction"]
-    A --> D["06_EVOLUTION<br/>Error-Driven Learning"]
-    A --> E["17_OBSERVABILITY<br/>Prediction Error Telemetry"]
-    A --> F["12_STATE<br/>State Prediction"]
-    A --> G["23_OPERATING_MODEL<br/>Prediction Procedures"]
-```
+TPE operates across multiple temporal horizons, each with distinct uncertainty characteristics:
 
-| AMOS Partition | Binding | Role |
-|:--|:--|:--|
-| `13_MODELS` | Predictive models | TPE forward models are registered here |
-| `05_COGNITIVE_ORGANISM` | Cognitive loop | TPE occupies the prediction stage of the cognitive loop |
-| `06_EVOLUTION` | Error-driven learning | Prediction errors drive model evolution |
-| `17_OBSERVABILITY` | Error telemetry | All prediction errors are logged for calibration |
-| `12_STATE` | State prediction | TPE predicts state transitions |
-| `23_OPERATING_MODEL` | Prediction procedures | Operating model defines prediction cadence |
-| `25_COGNITIVE_MATRIX` | Matrix prediction | TPE predicts cognitive matrix cell changes |
+| Horizon | Range | Dominant Uncertainty | Typical Use |
+|---------|-------|---------------------|-------------|
+| Immediate | $t + \Delta_1$ (seconds–minutes) | Aleatoric | Action selection, tool routing |
+| Short-term | $t + \Delta_2$ (hours–days) | Mixed aleatoric + epistemic | Task planning, resource allocation |
+| Medium-term | $t + \Delta_3$ (weeks–months) | Epistemic dominant | Strategy, architecture decisions |
+| Long-term | $t + \Delta_4$ (quarters–years) | Structural / regime | Canon evolution, capability roadmap |
 
----
+Each horizon $h$ carries its own free-energy functional:
 
-## 5. Safety Invariants
+$$\mathcal{F}_h(q_h, \tilde{o}) = \mathbb{E}_{q_h(\tilde{s})}[\ln q_h(\tilde{s}) - \ln p_h(\tilde{s}, \tilde{o})]$$
 
-- **S-1 (No Silent Prediction Failure):** If the forward model cannot generate a prediction (e.g., insufficient state), a `PREDICTION_FAILURE` event is emitted and the system falls back to reactive mode (no prediction, direct perception-to-action).
-- **S-2 (Error Bound):** If prediction error exceeds a domain-specific threshold $|\epsilon| > \epsilon_{\max}$, the model is flagged as `DEGRADED` and recalibration is triggered.
-- **S-3 (Update Safety):** Model parameter updates are bounded by $\Delta_{\max}$ to prevent catastrophic forgetting. Updates exceeding the bound are clipped and logged.
-- **S-4 (Confidence Floor):** Predictions with confidence $\kappa < \kappa_{\min}$ are marked `LOW_CONFIDENCE` and not used for consequential decisions without human or authority escalation.
-- **S-5 (Prediction Memory Integrity):** Prediction memory is append-only. Past predictions cannot be retroactively modified. Calibration uses the immutable history.
+Horizon coupling: predictions at horizon $h$ constrain the feasible space at horizon $h+1$:
+
+$$\text{support}(q_{h+1}) \subseteq \text{predicted support}(q_h)$$
+
+This prevents short-term predictions from contradicting long-term structural constraints.
 
 ---
 
-## 6. Navigation & Bindings
+## 4. Branching Scenarios
 
-- **Master MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
-- **Partition Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]
-- **Universe Canon MOC:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
-- **Core Laws:** [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|AMOS_CORE_LAWS]]
-- **Canonical Laws:** [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_16_CANONICAL_LAWS|KHUNG_TRANG_16_CANONICAL_LAWS]]
-- **Framework Functions:** [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_F1_F26|KHUNG_TRANG_F1_F26]]
-- **PSI Planetary Layer:** [[01_CANON/02_UNIVERSE_CANON/PSI_PLANETARY_LAYER|PSI_PLANETARY_LAYER]]
-- **TSS 7-Cycle:** [[01_CANON/02_UNIVERSE_CANON/TSS_7_CYCLE|TSS_7_CYCLE]]
-- **Risk Tension Architecture:** [[01_CANON/02_UNIVERSE_CANON/URTA_RISK_TENSION_ARCHITECTURE|URTA_RISK_TENSION_ARCHITECTURE]]
-- **Models:** [[13_MODELS/13_MODELS_MOC|13_MODELS_MOC]]
-- **Cognitive Organism:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
-- **Evolution:** [[06_AGENTS/06_AGENTS_MOC|06_AGENTS_MOC]]
-- **State:** [[12_STATE/12_STATE_MOC|12_STATE_MOC]]
-- **Observability:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]
-- **Operating Model:** [[23_OPERATING_MODEL/23_OPERATING_MODEL_MOC|23_OPERATING_MODEL_MOC]]
+When the system encounters bifurcation points (states where multiple futures are plausible), TPE generates branching scenarios:
 
----
+$$\text{Branch}(S_t) = \{B_1, B_2, \dots, B_k\}$$
 
-## 7. Known Gaps & Falsifiers
+Where each branch $B_i$ carries:
 
-| ID | Gap / Falsifier | Description |
-|:--|:--|:--|
-| GAP-1 | **Forward Model Accuracy** | The forward model's accuracy depends on training data and model capacity. Falsifier: if prediction error does not decrease with more data, the model class is insufficient. |
-| GAP-2 | **Learning Rate Stability** | The learning rate $\alpha$ must be tuned per domain. Falsifier: if a fixed $\alpha$ causes oscillation or divergence in some domains, adaptive learning rates are required. |
-| GAP-3 | **Confidence Calibration** | Confidence estimation assumes historical accuracy predicts future accuracy. Falsifier: in non-stationary environments, past accuracy may not predict future performance. |
-| GAP-4 | **Reactive Fallback Safety** | When the forward model fails and the system falls back to reactive mode, safety guarantees may be weaker. Falsifier: if reactive mode produces unsafe actions, the fallback needs additional constraints. |
-| GAP-5 | **Multi-Step Prediction** | TPE is specified for single-step prediction ($t \to t+1$). Falsifier: if multi-step horizons are needed, error accumulation may require trajectory-level correction. |
+| Field | Description |
+|-------|-------------|
+| $P(B_i)$ | Probability of branch materializing |
+| $S_t^{(i)}$ | Predicted state trajectory under branch $i$ |
+| $\text{cost}(B_i)$ | Expected cost of preparing for branch $i$ |
+| $\text{reversibility}(B_i)$ | Whether commitments under branch $i$ are reversible |
+
+Branch management rules:
+
+- **Prune** branches with $P(B_i) < \epsilon$ (below significance threshold)
+- **Merge** branches that converge within horizon $h$
+- **Escalate** when all remaining branches are IRREVERSIBLE and mutually exclusive
+- **Preserve** at least one branch per bifurcation point (never assume a single future)
 
 ---
 
-**Parent:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
+## 5. Prediction Calibration
+
+Prediction accuracy is continuously measured and used to adjust model confidence:
+
+$$\text{Calibration}(q) = \mathbb{E}_{\hat{p}}[(q(\hat{p}) - \hat{p})^2]$$
+
+Where $\hat{p}$ is the observed frequency of events predicted at probability $q$.
+
+Calibration targets:
+
+| Metric | Target | Action if violated |
+|--------|--------|-------------------|
+| Well-calibrated | $\|\text{Calibration}(q)\| < 0.05$ for all $q$ | Model is well-calibrated |
+| Overconfident | $q > \hat{p}$ systematically | Reduce confidence, increase uncertainty bounds |
+| Underconfident | $q < \hat{p}$ systematically | Model may be too conservative; review |
+| Uncalibrated | No consistent pattern | Model structure review required |
+
+Calibration feeds back into the free-energy functional: miscalibrated models increase $\sigma_{\text{epistemic}}^2$, which increases $\mathcal{F}$, which triggers model refinement.
+
+---
+
+## 6. Prediction Governance
+
+| Rule | Statement |
+|------|-----------|
+| No prediction without uncertainty | $\text{Predict}(S_{t+\Delta}) \Rightarrow$ uncertainty bounds declared |
+| No prediction without provenance | Predictions carry their generative model provenance |
+| No prediction $p = 1.0$ | Confidence ceiling applies in open-world domains |
+| Branch preservation | At least one branch per bifurcation point maintained |
+| Horizon coupling | Short-term predictions consistent with long-term constraints |
+| Calibration required | Predictions subject to ongoing calibration measurement |
+
+---
+
+## 7. Invariants
+
+| Invariant | Statement |
+|-----------|-----------|
+| Free-energy non-negativity | $\mathcal{F}(q, \tilde{o}) \geq -\ln p(\tilde{o})$ |
+| Uncertainty decomposition | $\sigma_{\text{total}}^2 = \sigma_{\text{aleatoric}}^2 + \sigma_{\text{epistemic}}^2$ always holds |
+| Confidence ceiling | $\forall q : q(\tilde{s}) < 1.0$ in open-world domains |
+| Horizon consistency | $\text{support}(q_{h+1}) \subseteq \text{predicted support}(q_h)$ |
+| Branch preservation | $\text{Branch}(S_t) \neq \emptyset$ when bifurcation exists |
+
+---
+
+## 8. Falsifiers
+
+| Falsifier | Description |
+|-----------|-------------|
+| Confidence ceiling violation | A prediction claims $p = 1.0$ in an open-world domain |
+| Horizon inconsistency | Short-term prediction contradicts long-term structural constraint |
+| Branch collapse | All branches pruned at a bifurcation point |
+| Calibration drift | $\text{Calibration}(q) > 0.1$ for extended period without model review |
+| Aleatoric-epistemic confusion | Irreducible stochasticity treated as reducible ignorance or vice versa |
+
+---
+
+## 9. Integration
+
+- **Master equations**: TPE predictions are grounded in the state transition equation $S_{t+1} = \mathcal{C}(\mathcal{F}(S_t, U_t))$ from [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER_EQUATIONS|KHUNG_TRANG_MASTER_EQUATIONS]].
+- **Observer gap**: Predictions operate on the observer's model $\hat{S}_t$, not the true state $S_t$, per [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_OBSERVER_EXPERIENCE_GAP|observer-experience gap]].
+- **URTA**: Branch probabilities and irreversibility feed into [[01_CANON/02_UNIVERSE_CANON/URTA_RISK_TENSION_ARCHITECTURE|risk-tension assessment]].
+- **Entropy repair**: High-entropy states from [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_ENTROPY_REPAIR|entropy repair]] increase prediction uncertainty.
+- **Cognitive organ**: TPE is realized by the [[05_COGNITIVE_ORGANISM/PREDICTION_ENGINE|PREDICTION_ENGINE]] cognitive organ.
+
+---
+
+**Parent Canon:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]  
+**Cognitive Organ:** [[05_COGNITIVE_ORGANISM/PREDICTION_ENGINE|PREDICTION_ENGINE]]
+
+________________________________________________________________________
+
+RSCF-NODE
+node_id: tpe_prediction_layer
+node_type: universe_canon
+path: 01_CANON/02_UNIVERSE_CANON/TPE_PREDICTION_LAYER.md
+RSCF-RELATIONS:
+
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+- CHILD_OF: [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
+- FEEDS_INTO: [[01_CANON/02_UNIVERSE_CANON/URTA_RISK_TENSION_ARCHITECTURE|URTA_RISK_TENSION_ARCHITECTURE]]
+- CONSTRAINED_BY: [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_OBSERVER_EXPERIENCE_GAP|KHUNG_TRANG_OBSERVER_EXPERIENCE_GAP]]
+- GROUNDED_IN: [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER_EQUATIONS|KHUNG_TRANG_MASTER_EQUATIONS]]

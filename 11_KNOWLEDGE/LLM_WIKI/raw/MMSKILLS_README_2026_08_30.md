@@ -1,17 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-date: 2026-08-30
-epistemic_class: OBSERVATION
-provenance: GitHub README, not independently verified
-rscf:
-  claim_class: DERIVED
-  provenance: https://raw.githubusercontent.com/zkangning/MMSkills_for_Visual_Agents/main/README.md
-  scope: AMOS_knowledge
-  state: SOURCE_CLAIM
-source: https://raw.githubusercontent.com/zkangning/MMSkills_for_Visual_Agents/main/README.md
-title: MMSkills README — Raw Capture
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Mmskills Readme 2026 08 30
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # MMSkills README — Raw Capture
@@ -71,8 +75,8 @@ Given an operation touching `MMSKILLS README 2026 08 30` within the Knowledge pl
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON_README]] · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS_README]]
+- Governed by canon — [[01_CANON/01_CANON_README|01_CANON_README]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/02_KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/03_CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/17_OBSERVABILITY_README|17_OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/20_OPERATIONS_README|20_OPERATIONS_README]]

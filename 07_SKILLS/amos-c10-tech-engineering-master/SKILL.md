@@ -1,56 +1,21 @@
 ---
-schema_version: 1.0
-title: SKILL — Amos C10 Tech Engineering Master
-type: skill
-source: 07_SKILLS/amos-c10-tech-engineering-master
-name: amos-c10-tech-engineering-master
-description: AMOS C10 Tech & Engineering — coding, software engineering, automation, DevOps, architecture, factory systems, production. Use when software development, engineering design, or technical architecture. Do not use for generic tasks outside c10 domain.
-parent_skill: none
-domain: c10
-origin_architect: Trang Phan
-epistemic_class: SOURCE_CANON
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Skill
 tags:
-  - type/skill
-  - type/skill
-  - domain/tech-engineering
-  - epistemic/source_claim
-  - hml/m
-  - epistemic/source_canon
-  - amos-os
-  - agent-template
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-  - skill
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
-version: 1.1.0
-rscf_state: SOURCE_CLAIM
-hml_level: M
-gmef_gates:
-  - L0_integrity
-  - L1_epistemic
-  - L2_provenance
-  - L5_scope
-  - L7_authority
-  - L8_execution
-collapse_class: reversible
-qfm_gate_set: QFM_v43
-law_compliance:
-  - L0
-  - L1
-  - L2
-  - L4
-  - L5
-  - L7
-  - L8
-  - L16
-  - L17
-  - L18
-license: MIT
-steward: Trang Phan
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS C10 — Tech & Engineering Master Knowledge
@@ -187,7 +152,7 @@ ______________________________________________________________________
 - **Parent**: `none` — routes to this skill when c10 specialization is needed
 - **Peers**: Other skills in the `c10` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
-- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Workflow**: Each skill has a corresponding workflow in `26_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
 
 ## Evaluation

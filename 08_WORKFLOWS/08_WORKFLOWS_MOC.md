@@ -1,37 +1,50 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
+title: AMOS OS Plane 08_WORKFLOWS Map of Content
+type: map_of_content
 amos_core_target: v4.4
-title: 08 Workflows MOC
-type: moc
-source: 08_WORKFLOWS
+origin_architect: Trang Phan
+status: ACTIVE_MOC
+conclusion_class: SOURCE_CLAIM
 tags:
-  - 08-workflows
-  - type/workflow
-moc: true
+- amos
+- moc
+- navigation
+- 08-workflows
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: workflows
+  provenance: authoritative_AMOS_OS_structure
+  scope: active__08_WORKFLOWS
 ---
 
-# 08 Workflows — Map of Content
+# AMOS OS — Plane 08_WORKFLOWS: Workflow DAGs & Execution Pipelines
 
-**Path:** `08_WORKFLOWS`
-**Workflows:** 344
+**Governing Master MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]  
+**Global Navigation Hub:** [[_MOC|Root _MOC]] | [[AMOS_HOME|AMOS_HOME]]  
+**Active Control Surface:** [[AGENTS|AGENTS]]  
 
-## 1. System Workflow Specifications & Orchestrators
+---
 
-- [[08_WORKFLOWS/METAMORPHIC_SELF_SYNTHESIZING_WORKFLOW_ORCHESTRATOR|METAMORPHIC_SELF_SYNTHESIZING_WORKFLOW_ORCHESTRATOR]] — Dynamic DAG workflow synthesis, topological scheduling, WASI 0.2 micro-sandboxed execution, and invariant gating.
-- [[08_WORKFLOWS/METAMORPHIC_WORKFLOW_EXECUTION_LEDGER|METAMORPHIC_WORKFLOW_EXECUTION_LEDGER]] — 6-Stage topological execution ledger with cryptographic commit receipts.
-- [[08_WORKFLOWS/AUTONOMOUS_MULTI_AGENT_EPISTEMIC_VERIFICATION_CHAIN|AUTONOMOUS_MULTI_AGENT_EPISTEMIC_VERIFICATION_CHAIN]] — 5-Stage autonomous multi-agent epistemic verification pipeline (Extractor -> Harvester -> Verifier -> Red-Team -> Finalizer).
-- [[08_WORKFLOWS/EPISTEMIC_VERIFICATION_EXECUTION_LOG|EPISTEMIC_VERIFICATION_EXECUTION_LOG]] — Cryptographically signed multi-agent verification execution trace and proof receipt ledger.
-- [[08_WORKFLOWS/WORKFLOWS_README|WORKFLOWS_README]] — Workflow governance overview, state machine definitions, and execution engines.
-- [[08_WORKFLOWS/WORKFLOWS_WORKFLOW_CONTRACT|WORKFLOWS_WORKFLOW_CONTRACT]] — Invariants governing deterministic replay, step rollback, and DAG acyclicity.
+## Plane Overview
+Plane `08_WORKFLOWS` forms an essential, mutually exclusive, collectively exhaustive (MECE) component of the AMOS OS architecture.
 
-## Workflows Registry
+## Indexed Artifacts & Sub-Contracts (356 nodes)
 
+### 00_INDEX
+- [[08_WORKFLOWS/00_INDEX/INDEX_WORKFLOWS_README|INDEX_WORKFLOWS_README]]
+- [[08_WORKFLOWS/00_INDEX/INDEX_WORKFLOWS_WORKFLOW_CONTRACT|INDEX_WORKFLOWS_WORKFLOW_CONTRACT]]
+- [[08_WORKFLOWS/00_INDEX/WORKFLOW_MAP|WORKFLOW_MAP]]
+
+### Core Artifacts
+- [[08_WORKFLOWS/08_WORKFLOWS_README|08_WORKFLOWS_README]]
+- [[08_WORKFLOWS/AUTOMATION_PROFILES|AUTOMATION_PROFILES]]
+- [[08_WORKFLOWS/AUTONOMOUS_MULTI_AGENT_EPISTEMIC_VERIFICATION_CHAIN|AUTONOMOUS_MULTI_AGENT_EPISTEMIC_VERIFICATION_CHAIN]]
+- [[08_WORKFLOWS/EPISTEMIC_VERIFICATION_EXECUTION_LOG|EPISTEMIC_VERIFICATION_EXECUTION_LOG]]
+- [[08_WORKFLOWS/METAMORPHIC_SELF_SYNTHESIZING_WORKFLOW_ORCHESTRATOR|METAMORPHIC_SELF_SYNTHESIZING_WORKFLOW_ORCHESTRATOR]]
+- [[08_WORKFLOWS/METAMORPHIC_WORKFLOW_EXECUTION_LEDGER|METAMORPHIC_WORKFLOW_EXECUTION_LEDGER]]
+- [[08_WORKFLOWS/POSG_DECENTRALIZED_POLICY_LEDGER|POSG_DECENTRALIZED_POLICY_LEDGER]]
+- [[08_WORKFLOWS/WORKFLOWS_README|WORKFLOWS_README]]
+- [[08_WORKFLOWS/WORKFLOWS_WORKFLOW_CONTRACT|WORKFLOWS_WORKFLOW_CONTRACT]]
 - [[08_WORKFLOWS/amos-7-part-universe-canon-workflow|amos-7-part-universe-canon-workflow]]
 - [[08_WORKFLOWS/amos-action-memory-firewall-workflow|amos-action-memory-firewall-workflow]]
 - [[08_WORKFLOWS/amos-active-inference-governor-workflow|amos-active-inference-governor-workflow]]
@@ -52,19 +65,45 @@ rscf:
 - [[08_WORKFLOWS/amos-ai-entropy-rscf-engine-workflow|amos-ai-entropy-rscf-engine-workflow]]
 - [[08_WORKFLOWS/amos-aibom-lifecycle-assurance-rscf-workflow|amos-aibom-lifecycle-assurance-rscf-workflow]]
 - [[08_WORKFLOWS/amos-artistic-expression-governor-workflow|amos-artistic-expression-governor-workflow]]
+- [[08_WORKFLOWS/amos-arxiv-activation-checkpointing-rscf-workflow|amos-arxiv-activation-checkpointing-rscf-workflow]]
 - [[08_WORKFLOWS/amos-arxiv-agent-memory-dynamics-rscf-workflow|amos-arxiv-agent-memory-dynamics-rscf-workflow]]
+- [[08_WORKFLOWS/amos-arxiv-anytime-pac-bayes-density-ratio-rscf-workflow|amos-arxiv-anytime-pac-bayes-density-ratio-rscf-workflow]]
 - [[08_WORKFLOWS/amos-arxiv-autonomous-scientific-knowledge-rscf-workflow|amos-arxiv-autonomous-scientific-knowledge-rscf-workflow]]
+- [[08_WORKFLOWS/amos-arxiv-autosota-research-automation-rscf-workflow|amos-arxiv-autosota-research-automation-rscf-workflow]]
+- [[08_WORKFLOWS/amos-arxiv-cdfm-causal-discovery-foundation-rscf-workflow|amos-arxiv-cdfm-causal-discovery-foundation-rscf-workflow]]
 - [[08_WORKFLOWS/amos-arxiv-conrad-radiomics-rscf-workflow|amos-arxiv-conrad-radiomics-rscf-workflow]]
+- [[08_WORKFLOWS/amos-arxiv-constrained-structured-decoding-rscf-workflow|amos-arxiv-constrained-structured-decoding-rscf-workflow]]
 - [[08_WORKFLOWS/amos-arxiv-continual-interference-geometry-rscf-workflow|amos-arxiv-continual-interference-geometry-rscf-workflow]]
+- [[08_WORKFLOWS/amos-arxiv-data-mixture-optimization-rscf-workflow|amos-arxiv-data-mixture-optimization-rscf-workflow]]
 - [[08_WORKFLOWS/amos-arxiv-embodied-runtime-rscf-engine-workflow|amos-arxiv-embodied-runtime-rscf-engine-workflow]]
+- [[08_WORKFLOWS/amos-arxiv-flash-attention-io-rscf-workflow|amos-arxiv-flash-attention-io-rscf-workflow]]
+- [[08_WORKFLOWS/amos-arxiv-flow-matching-generative-rscf-workflow|amos-arxiv-flow-matching-generative-rscf-workflow]]
+- [[08_WORKFLOWS/amos-arxiv-future-confidence-distillation-rscf-workflow|amos-arxiv-future-confidence-distillation-rscf-workflow]]
+- [[08_WORKFLOWS/amos-arxiv-geometric-causal-models-rscf-workflow|amos-arxiv-geometric-causal-models-rscf-workflow]]
+- [[08_WORKFLOWS/amos-arxiv-grapheval-reasoning-coherence-rscf-workflow|amos-arxiv-grapheval-reasoning-coherence-rscf-workflow]]
+- [[08_WORKFLOWS/amos-arxiv-grouped-query-attention-rscf-workflow|amos-arxiv-grouped-query-attention-rscf-workflow]]
+- [[08_WORKFLOWS/amos-arxiv-grpo-reasoning-policy-rscf-workflow|amos-arxiv-grpo-reasoning-policy-rscf-workflow]]
 - [[08_WORKFLOWS/amos-arxiv-influence-guided-symbolic-regression-rscf-workflow|amos-arxiv-influence-guided-symbolic-regression-rscf-workflow]]
+- [[08_WORKFLOWS/amos-arxiv-kv-cache-quantization-rscf-workflow|amos-arxiv-kv-cache-quantization-rscf-workflow]]
+- [[08_WORKFLOWS/amos-arxiv-llm-judge-bias-geometry-rscf-workflow|amos-arxiv-llm-judge-bias-geometry-rscf-workflow]]
+- [[08_WORKFLOWS/amos-arxiv-long-context-rope-scaling-rscf-workflow|amos-arxiv-long-context-rope-scaling-rscf-workflow]]
+- [[08_WORKFLOWS/amos-arxiv-manifold-constrained-conformal-spatial-rscf-workflow|amos-arxiv-manifold-constrained-conformal-spatial-rscf-workflow]]
+- [[08_WORKFLOWS/amos-arxiv-mixture-of-depths-rscf-workflow|amos-arxiv-mixture-of-depths-rscf-workflow]]
 - [[08_WORKFLOWS/amos-arxiv-multistage-order-causal-discovery-rscf-workflow|amos-arxiv-multistage-order-causal-discovery-rscf-workflow]]
+- [[08_WORKFLOWS/amos-arxiv-pac-bayes-piml-generalization-rscf-workflow|amos-arxiv-pac-bayes-piml-generalization-rscf-workflow]]
 - [[08_WORKFLOWS/amos-arxiv-quantum-arithmetic-cryptanalysis-rscf-workflow|amos-arxiv-quantum-arithmetic-cryptanalysis-rscf-workflow]]
 - [[08_WORKFLOWS/amos-arxiv-quantum-koopman-rscf-workflow|amos-arxiv-quantum-koopman-rscf-workflow]]
+- [[08_WORKFLOWS/amos-arxiv-rag-evaluation-rscf-workflow|amos-arxiv-rag-evaluation-rscf-workflow]]
+- [[08_WORKFLOWS/amos-arxiv-selective-state-space-rscf-workflow|amos-arxiv-selective-state-space-rscf-workflow]]
+- [[08_WORKFLOWS/amos-arxiv-sparse-attention-scaling-rscf-workflow|amos-arxiv-sparse-attention-scaling-rscf-workflow]]
 - [[08_WORKFLOWS/amos-arxiv-sparse-autoencoder-interpretability-rscf-workflow|amos-arxiv-sparse-autoencoder-interpretability-rscf-workflow]]
 - [[08_WORKFLOWS/amos-arxiv-spatial-speech-perception-rscf-workflow|amos-arxiv-spatial-speech-perception-rscf-workflow]]
 - [[08_WORKFLOWS/amos-arxiv-spectral-latent-treatment-effects-rscf-workflow|amos-arxiv-spectral-latent-treatment-effects-rscf-workflow]]
+- [[08_WORKFLOWS/amos-arxiv-streaming-attention-sinks-rscf-workflow|amos-arxiv-streaming-attention-sinks-rscf-workflow]]
 - [[08_WORKFLOWS/amos-arxiv-structure-preserving-variational-neural-fields-rscf-workflow|amos-arxiv-structure-preserving-variational-neural-fields-rscf-workflow]]
+- [[08_WORKFLOWS/amos-arxiv-structured-gp-omics-uq-rscf-workflow|amos-arxiv-structured-gp-omics-uq-rscf-workflow]]
+- [[08_WORKFLOWS/amos-arxiv-test-time-compute-scaling-rscf-workflow|amos-arxiv-test-time-compute-scaling-rscf-workflow]]
+- [[08_WORKFLOWS/amos-arxiv-test-time-training-rscf-workflow|amos-arxiv-test-time-training-rscf-workflow]]
 - [[08_WORKFLOWS/amos-arxiv-time-series-bootstrap-conformal-rscf-workflow|amos-arxiv-time-series-bootstrap-conformal-rscf-workflow]]
 - [[08_WORKFLOWS/amos-arxiv-ttstack-sketching-rscf-engine-workflow|amos-arxiv-ttstack-sketching-rscf-engine-workflow]]
 - [[08_WORKFLOWS/amos-ast-control-dataflow-rscf-engine-workflow|amos-ast-control-dataflow-rscf-engine-workflow]]
@@ -75,6 +114,7 @@ rscf:
 - [[08_WORKFLOWS/amos-binding-rscf-engine-workflow|amos-binding-rscf-engine-workflow]]
 - [[08_WORKFLOWS/amos-biology-quantum-bridge-governor-workflow|amos-biology-quantum-bridge-governor-workflow]]
 - [[08_WORKFLOWS/amos-blackbox-program-discovery-rscf-workflow|amos-blackbox-program-discovery-rscf-workflow]]
+- [[08_WORKFLOWS/amos-bluebook-strategy-system-workflow|amos-bluebook-strategy-system-workflow]]
 - [[08_WORKFLOWS/amos-boundary-admission-governor-workflow|amos-boundary-admission-governor-workflow]]
 - [[08_WORKFLOWS/amos-boundary-architecture-rscf-calculus-workflow|amos-boundary-architecture-rscf-calculus-workflow]]
 - [[08_WORKFLOWS/amos-boundary-scope-master-workflow|amos-boundary-scope-master-workflow]]
@@ -124,6 +164,7 @@ rscf:
 - [[08_WORKFLOWS/amos-context-state-maintenance-rscf-workflow|amos-context-state-maintenance-rscf-workflow]]
 - [[08_WORKFLOWS/amos-contravariance-alignment-rscf-engine-workflow|amos-contravariance-alignment-rscf-engine-workflow]]
 - [[08_WORKFLOWS/amos-core19-logic-kernel-workflow|amos-core19-logic-kernel-workflow]]
+- [[08_WORKFLOWS/amos-cosmo-human-problem-architecture-workflow|amos-cosmo-human-problem-architecture-workflow]]
 - [[08_WORKFLOWS/amos-cost-aware-test-supervision-rscf-workflow|amos-cost-aware-test-supervision-rscf-workflow]]
 - [[08_WORKFLOWS/amos-counterfactual-reasoning-governor-workflow|amos-counterfactual-reasoning-governor-workflow]]
 - [[08_WORKFLOWS/amos-counterfactual-selfhood-mapper-workflow|amos-counterfactual-selfhood-mapper-workflow]]
@@ -142,6 +183,7 @@ rscf:
 - [[08_WORKFLOWS/amos-distinction-rscf-architecture-workflow|amos-distinction-rscf-architecture-workflow]]
 - [[08_WORKFLOWS/amos-distributed-attack-composition-monitor-rscf-workflow|amos-distributed-attack-composition-monitor-rscf-workflow]]
 - [[08_WORKFLOWS/amos-distributed-causal-evolution-rscf-engine-workflow|amos-distributed-causal-evolution-rscf-engine-workflow]]
+- [[08_WORKFLOWS/amos-docx-workflow|amos-docx-workflow]]
 - [[08_WORKFLOWS/amos-economic-model-workflow|amos-economic-model-workflow]]
 - [[08_WORKFLOWS/amos-economy-internet-money-rscf-engine-workflow|amos-economy-internet-money-rscf-engine-workflow]]
 - [[08_WORKFLOWS/amos-emergent-social-intelligence-risk-rscf-workflow|amos-emergent-social-intelligence-risk-rscf-workflow]]
@@ -150,6 +192,7 @@ rscf:
 - [[08_WORKFLOWS/amos-entropy-lacunarity-governor-workflow|amos-entropy-lacunarity-governor-workflow]]
 - [[08_WORKFLOWS/amos-ethics-os-governor-workflow|amos-ethics-os-governor-workflow]]
 - [[08_WORKFLOWS/amos-execution-provenance-replay-rscf-workflow|amos-execution-provenance-replay-rscf-workflow]]
+- [[08_WORKFLOWS/amos-executive-deck-decision-system-workflow|amos-executive-deck-decision-system-workflow]]
 - [[08_WORKFLOWS/amos-flow-canon-workflow|amos-flow-canon-workflow]]
 - [[08_WORKFLOWS/amos-forex-os-workflow|amos-forex-os-workflow]]
 - [[08_WORKFLOWS/amos-forex-unified-os-updated-workflow|amos-forex-unified-os-updated-workflow]]
@@ -161,6 +204,7 @@ rscf:
 - [[08_WORKFLOWS/amos-fractal-math-workflow|amos-fractal-math-workflow]]
 - [[08_WORKFLOWS/amos-fractal-systems-master-workflow|amos-fractal-systems-master-workflow]]
 - [[08_WORKFLOWS/amos-framework-registry-compiler-workflow|amos-framework-registry-compiler-workflow]]
+- [[08_WORKFLOWS/amos-frontend-engineering-qa-workflow|amos-frontend-engineering-qa-workflow]]
 - [[08_WORKFLOWS/amos-future-debt-option-value-governor-workflow|amos-future-debt-option-value-governor-workflow]]
 - [[08_WORKFLOWS/amos-fx-bayesian-neural-sde-calibration-rscf-engine-workflow|amos-fx-bayesian-neural-sde-calibration-rscf-engine-workflow]]
 - [[08_WORKFLOWS/amos-fx-carry-differential-engine-workflow|amos-fx-carry-differential-engine-workflow]]
@@ -182,6 +226,7 @@ rscf:
 - [[08_WORKFLOWS/amos-genetic-stability-auditor-workflow|amos-genetic-stability-auditor-workflow]]
 - [[08_WORKFLOWS/amos-ghost-code-symbolic-execution-rscf-workflow|amos-ghost-code-symbolic-execution-rscf-workflow]]
 - [[08_WORKFLOWS/amos-github-rscf-ingestion-workflow|amos-github-rscf-ingestion-workflow]]
+- [[08_WORKFLOWS/amos-gmef-governance-workflow|amos-gmef-governance-workflow]]
 - [[08_WORKFLOWS/amos-goal-plan-action-alignment-rscf-workflow|amos-goal-plan-action-alignment-rscf-workflow]]
 - [[08_WORKFLOWS/amos-governed-executable-knowledge-repair-rscf-workflow|amos-governed-executable-knowledge-repair-rscf-workflow]]
 - [[08_WORKFLOWS/amos-gradient-rscf-architecture-workflow|amos-gradient-rscf-architecture-workflow]]
@@ -203,6 +248,7 @@ rscf:
 - [[08_WORKFLOWS/amos-interactive-evaluation-design-rscf-workflow|amos-interactive-evaluation-design-rscf-workflow]]
 - [[08_WORKFLOWS/amos-interprocedural-callgraph-rscf-workflow|amos-interprocedural-callgraph-rscf-workflow]]
 - [[08_WORKFLOWS/amos-invariant-tensor-kernel-workflow|amos-invariant-tensor-kernel-workflow]]
+- [[08_WORKFLOWS/amos-kimi-k3-in-c-workflow|amos-kimi-k3-in-c-workflow]]
 - [[08_WORKFLOWS/amos-knowledge-epistemology-rscf-engine-workflow|amos-knowledge-epistemology-rscf-engine-workflow]]
 - [[08_WORKFLOWS/amos-knowledge-harvest-runtime-workflow|amos-knowledge-harvest-runtime-workflow]]
 - [[08_WORKFLOWS/amos-knowledge-research-master-workflow|amos-knowledge-research-master-workflow]]
@@ -216,6 +262,30 @@ rscf:
 - [[08_WORKFLOWS/amos-managed-autonomy-escalation-rscf-workflow|amos-managed-autonomy-escalation-rscf-workflow]]
 - [[08_WORKFLOWS/amos-mark-operator-rscf-engine-workflow|amos-mark-operator-rscf-engine-workflow]]
 - [[08_WORKFLOWS/amos-mathematical-rigor-rscf-kernel-workflow|amos-mathematical-rigor-rscf-kernel-workflow]]
+- [[08_WORKFLOWS/amos-mckinsey-architecture-reference-transfer-rscf-workflow|amos-mckinsey-architecture-reference-transfer-rscf-workflow]]
+- [[08_WORKFLOWS/amos-mckinsey-banking-crm-assessment-rscf-workflow|amos-mckinsey-banking-crm-assessment-rscf-workflow]]
+- [[08_WORKFLOWS/amos-mckinsey-commercial-due-diligence-rscf-workflow|amos-mckinsey-commercial-due-diligence-rscf-workflow]]
+- [[08_WORKFLOWS/amos-mckinsey-credit-lending-rscf-workflow|amos-mckinsey-credit-lending-rscf-workflow]]
+- [[08_WORKFLOWS/amos-mckinsey-customer-journey-planning-rscf-workflow|amos-mckinsey-customer-journey-planning-rscf-workflow]]
+- [[08_WORKFLOWS/amos-mckinsey-designops-agile-transformation-rscf-workflow|amos-mckinsey-designops-agile-transformation-rscf-workflow]]
+- [[08_WORKFLOWS/amos-mckinsey-digital-bank-value-proposition-rscf-workflow|amos-mckinsey-digital-bank-value-proposition-rscf-workflow]]
+- [[08_WORKFLOWS/amos-mckinsey-digital-strategy-rscf-workflow|amos-mckinsey-digital-strategy-rscf-workflow]]
+- [[08_WORKFLOWS/amos-mckinsey-enterprise-data-transformation-rscf-workflow|amos-mckinsey-enterprise-data-transformation-rscf-workflow]]
+- [[08_WORKFLOWS/amos-mckinsey-framework-navigator-workflow|amos-mckinsey-framework-navigator-workflow]]
+- [[08_WORKFLOWS/amos-mckinsey-healthcare-strategy-rscf-workflow|amos-mckinsey-healthcare-strategy-rscf-workflow]]
+- [[08_WORKFLOWS/amos-mckinsey-human-centered-design-rscf-workflow|amos-mckinsey-human-centered-design-rscf-workflow]]
+- [[08_WORKFLOWS/amos-mckinsey-partnership-ecosystem-strategy-rscf-workflow|amos-mckinsey-partnership-ecosystem-strategy-rscf-workflow]]
+- [[08_WORKFLOWS/amos-mckinsey-public-sector-transformation-rscf-workflow|amos-mckinsey-public-sector-transformation-rscf-workflow]]
+- [[08_WORKFLOWS/amos-mckinsey-purpose-impact-rscf-workflow|amos-mckinsey-purpose-impact-rscf-workflow]]
+- [[08_WORKFLOWS/amos-mckinsey-recruiting-workforce-acquisition-rscf-workflow|amos-mckinsey-recruiting-workforce-acquisition-rscf-workflow]]
+- [[08_WORKFLOWS/amos-mckinsey-strategy-portfolio-engine-workflow|amos-mckinsey-strategy-portfolio-engine-workflow]]
+- [[08_WORKFLOWS/amos-mckinsey-technology-company-strategy-rscf-workflow|amos-mckinsey-technology-company-strategy-rscf-workflow]]
+- [[08_WORKFLOWS/amos-mckinsey-technology-product-governance-rscf-workflow|amos-mckinsey-technology-product-governance-rscf-workflow]]
+- [[08_WORKFLOWS/amos-mckinsey-technology-sales-excellence-rscf-workflow|amos-mckinsey-technology-sales-excellence-rscf-workflow]]
+- [[08_WORKFLOWS/amos-mckinsey-transaction-banking-diagnostic-rscf-workflow|amos-mckinsey-transaction-banking-diagnostic-rscf-workflow]]
+- [[08_WORKFLOWS/amos-mckinsey-transformation-org-structure-rscf-workflow|amos-mckinsey-transformation-org-structure-rscf-workflow]]
+- [[08_WORKFLOWS/amos-mckinsey-value-delivery-rscf-workflow|amos-mckinsey-value-delivery-rscf-workflow]]
+- [[08_WORKFLOWS/amos-mckinsey-wealth-management-rscf-workflow|amos-mckinsey-wealth-management-rscf-workflow]]
 - [[08_WORKFLOWS/amos-mdformat-obsidian-workflow|amos-mdformat-obsidian-workflow]]
 - [[08_WORKFLOWS/amos-measurement-integrity-auditor-workflow|amos-measurement-integrity-auditor-workflow]]
 - [[08_WORKFLOWS/amos-mechmath-research-orchestration-rscf-workflow|amos-mechmath-research-orchestration-rscf-workflow]]
@@ -231,11 +301,13 @@ rscf:
 - [[08_WORKFLOWS/amos-neural-computation-mapper-workflow|amos-neural-computation-mapper-workflow]]
 - [[08_WORKFLOWS/amos-neural-ode-dynamics-rscf-engine-workflow|amos-neural-ode-dynamics-rscf-engine-workflow]]
 - [[08_WORKFLOWS/amos-observability-driven-harness-evolution-rscf-workflow|amos-observability-driven-harness-evolution-rscf-workflow]]
+- [[08_WORKFLOWS/amos-obsidian-plugin-auto-tag-workflow|amos-obsidian-plugin-auto-tag-workflow]]
 - [[08_WORKFLOWS/amos-ontology-compiler-workflow|amos-ontology-compiler-workflow]]
 - [[08_WORKFLOWS/amos-organism-os-workflow|amos-organism-os-workflow]]
 - [[08_WORKFLOWS/amos-os-kernel-workflow|amos-os-kernel-workflow]]
 - [[08_WORKFLOWS/amos-os-runtime-master-workflow|amos-os-runtime-master-workflow]]
 - [[08_WORKFLOWS/amos-paper-rscf-compiler-workflow|amos-paper-rscf-compiler-workflow]]
+- [[08_WORKFLOWS/amos-pdfs-workflow|amos-pdfs-workflow]]
 - [[08_WORKFLOWS/amos-persistence-dissolution-rscf-dynamics-workflow|amos-persistence-dissolution-rscf-dynamics-workflow]]
 - [[08_WORKFLOWS/amos-portable-agent-authorization-rscf-workflow|amos-portable-agent-authorization-rscf-workflow]]
 - [[08_WORKFLOWS/amos-prediction-governance-workflow|amos-prediction-governance-workflow]]
@@ -265,6 +337,7 @@ rscf:
 - [[08_WORKFLOWS/amos-retrieval-conditioned-orchestration-budget-rscf-workflow|amos-retrieval-conditioned-orchestration-budget-rscf-workflow]]
 - [[08_WORKFLOWS/amos-risk-constraint-governor-workflow|amos-risk-constraint-governor-workflow]]
 - [[08_WORKFLOWS/amos-rscf-epistemic-master-workflow|amos-rscf-epistemic-master-workflow]]
+- [[08_WORKFLOWS/amos-rscf-modeler-workflow|amos-rscf-modeler-workflow]]
 - [[08_WORKFLOWS/amos-runtime-benchmarking-workflow|amos-runtime-benchmarking-workflow]]
 - [[08_WORKFLOWS/amos-runtime-context-reuse-rscf-workflow|amos-runtime-context-reuse-rscf-workflow]]
 - [[08_WORKFLOWS/amos-sae-benchmark-reliability-rscf-engine-workflow|amos-sae-benchmark-reliability-rscf-engine-workflow]]
@@ -280,8 +353,12 @@ rscf:
 - [[08_WORKFLOWS/amos-sensory-map-integrator-workflow|amos-sensory-map-integrator-workflow]]
 - [[08_WORKFLOWS/amos-session-control-plane-workflow|amos-session-control-plane-workflow]]
 - [[08_WORKFLOWS/amos-skill-builder-workflow|amos-skill-builder-workflow]]
+- [[08_WORKFLOWS/amos-skill-creator-workflow|amos-skill-creator-workflow]]
+- [[08_WORKFLOWS/amos-slides-workflow|amos-slides-workflow]]
+- [[08_WORKFLOWS/amos-software-engineering-qa-workflow|amos-software-engineering-qa-workflow]]
 - [[08_WORKFLOWS/amos-source-reading-rscf-engine-workflow|amos-source-reading-rscf-engine-workflow]]
 - [[08_WORKFLOWS/amos-source-reading-rscf-workflow|amos-source-reading-rscf-workflow]]
+- [[08_WORKFLOWS/amos-spreadsheets-workflow|amos-spreadsheets-workflow]]
 - [[08_WORKFLOWS/amos-ssa-ir-compiler-rscf-workflow|amos-ssa-ir-compiler-rscf-workflow]]
 - [[08_WORKFLOWS/amos-strict-fractal-equation-rscf-registry-workflow|amos-strict-fractal-equation-rscf-registry-workflow]]
 - [[08_WORKFLOWS/amos-structured-document-parsing-rscf-workflow|amos-structured-document-parsing-rscf-workflow]]
@@ -310,73 +387,9 @@ rscf:
 - [[08_WORKFLOWS/amos-verification-aware-implementation-diversity-rscf-workflow|amos-verification-aware-implementation-diversity-rscf-workflow]]
 - [[08_WORKFLOWS/amos-vietnamese-global-cultural-bridge-governor-workflow|amos-vietnamese-global-cultural-bridge-governor-workflow]]
 - [[08_WORKFLOWS/amos-workflow-builder-workflow|amos-workflow-builder-workflow]]
-- [[08_WORKFLOWS/amos-arxiv-activation-checkpointing-rscf-workflow|amos-arxiv-activation-checkpointing-rscf-workflow]]
-- [[08_WORKFLOWS/amos-arxiv-anytime-pac-bayes-density-ratio-rscf-workflow|amos-arxiv-anytime-pac-bayes-density-ratio-rscf-workflow]]
-- [[08_WORKFLOWS/amos-arxiv-autosota-research-automation-rscf-workflow|amos-arxiv-autosota-research-automation-rscf-workflow]]
-- [[08_WORKFLOWS/amos-arxiv-cdfm-causal-discovery-foundation-rscf-workflow|amos-arxiv-cdfm-causal-discovery-foundation-rscf-workflow]]
-- [[08_WORKFLOWS/amos-arxiv-constrained-structured-decoding-rscf-workflow|amos-arxiv-constrained-structured-decoding-rscf-workflow]]
-- [[08_WORKFLOWS/amos-arxiv-data-mixture-optimization-rscf-workflow|amos-arxiv-data-mixture-optimization-rscf-workflow]]
-- [[08_WORKFLOWS/amos-arxiv-flash-attention-io-rscf-workflow|amos-arxiv-flash-attention-io-rscf-workflow]]
-- [[08_WORKFLOWS/amos-arxiv-flow-matching-generative-rscf-workflow|amos-arxiv-flow-matching-generative-rscf-workflow]]
-- [[08_WORKFLOWS/amos-arxiv-future-confidence-distillation-rscf-workflow|amos-arxiv-future-confidence-distillation-rscf-workflow]]
-- [[08_WORKFLOWS/amos-arxiv-geometric-causal-models-rscf-workflow|amos-arxiv-geometric-causal-models-rscf-workflow]]
-- [[08_WORKFLOWS/amos-arxiv-grapheval-reasoning-coherence-rscf-workflow|amos-arxiv-grapheval-reasoning-coherence-rscf-workflow]]
-- [[08_WORKFLOWS/amos-arxiv-grouped-query-attention-rscf-workflow|amos-arxiv-grouped-query-attention-rscf-workflow]]
-- [[08_WORKFLOWS/amos-arxiv-grpo-reasoning-policy-rscf-workflow|amos-arxiv-grpo-reasoning-policy-rscf-workflow]]
-- [[08_WORKFLOWS/amos-arxiv-kv-cache-quantization-rscf-workflow|amos-arxiv-kv-cache-quantization-rscf-workflow]]
-- [[08_WORKFLOWS/amos-arxiv-llm-judge-bias-geometry-rscf-workflow|amos-arxiv-llm-judge-bias-geometry-rscf-workflow]]
-- [[08_WORKFLOWS/amos-arxiv-long-context-rope-scaling-rscf-workflow|amos-arxiv-long-context-rope-scaling-rscf-workflow]]
-- [[08_WORKFLOWS/amos-arxiv-manifold-constrained-conformal-spatial-rscf-workflow|amos-arxiv-manifold-constrained-conformal-spatial-rscf-workflow]]
-- [[08_WORKFLOWS/amos-arxiv-mixture-of-depths-rscf-workflow|amos-arxiv-mixture-of-depths-rscf-workflow]]
-- [[08_WORKFLOWS/amos-arxiv-pac-bayes-piml-generalization-rscf-workflow|amos-arxiv-pac-bayes-piml-generalization-rscf-workflow]]
-- [[08_WORKFLOWS/amos-arxiv-rag-evaluation-rscf-workflow|amos-arxiv-rag-evaluation-rscf-workflow]]
-- [[08_WORKFLOWS/amos-arxiv-selective-state-space-rscf-workflow|amos-arxiv-selective-state-space-rscf-workflow]]
-- [[08_WORKFLOWS/amos-arxiv-sparse-attention-scaling-rscf-workflow|amos-arxiv-sparse-attention-scaling-rscf-workflow]]
-- [[08_WORKFLOWS/amos-arxiv-streaming-attention-sinks-rscf-workflow|amos-arxiv-streaming-attention-sinks-rscf-workflow]]
-- [[08_WORKFLOWS/amos-arxiv-structured-gp-omics-uq-rscf-workflow|amos-arxiv-structured-gp-omics-uq-rscf-workflow]]
-- [[08_WORKFLOWS/amos-arxiv-test-time-compute-scaling-rscf-workflow|amos-arxiv-test-time-compute-scaling-rscf-workflow]]
-- [[08_WORKFLOWS/amos-arxiv-test-time-training-rscf-workflow|amos-arxiv-test-time-training-rscf-workflow]]
-- [[08_WORKFLOWS/amos-bluebook-strategy-system-workflow|amos-bluebook-strategy-system-workflow]]
-- [[08_WORKFLOWS/amos-cosmo-human-problem-architecture-workflow|amos-cosmo-human-problem-architecture-workflow]]
-- [[08_WORKFLOWS/amos-docx-workflow|amos-docx-workflow]]
-- [[08_WORKFLOWS/amos-executive-deck-decision-system-workflow|amos-executive-deck-decision-system-workflow]]
-- [[08_WORKFLOWS/amos-frontend-engineering-qa-workflow|amos-frontend-engineering-qa-workflow]]
-- [[08_WORKFLOWS/amos-gmef-governance-workflow|amos-gmef-governance-workflow]]
-- [[08_WORKFLOWS/amos-kimi-k3-in-c-workflow|amos-kimi-k3-in-c-workflow]]
-- [[08_WORKFLOWS/amos-mckinsey-architecture-reference-transfer-rscf-workflow|amos-mckinsey-architecture-reference-transfer-rscf-workflow]]
-- [[08_WORKFLOWS/amos-mckinsey-banking-crm-assessment-rscf-workflow|amos-mckinsey-banking-crm-assessment-rscf-workflow]]
-- [[08_WORKFLOWS/amos-mckinsey-commercial-due-diligence-rscf-workflow|amos-mckinsey-commercial-due-diligence-rscf-workflow]]
-- [[08_WORKFLOWS/amos-mckinsey-credit-lending-rscf-workflow|amos-mckinsey-credit-lending-rscf-workflow]]
-- [[08_WORKFLOWS/amos-mckinsey-customer-journey-planning-rscf-workflow|amos-mckinsey-customer-journey-planning-rscf-workflow]]
-- [[08_WORKFLOWS/amos-mckinsey-designops-agile-transformation-rscf-workflow|amos-mckinsey-designops-agile-transformation-rscf-workflow]]
-- [[08_WORKFLOWS/amos-mckinsey-digital-bank-value-proposition-rscf-workflow|amos-mckinsey-digital-bank-value-proposition-rscf-workflow]]
-- [[08_WORKFLOWS/amos-mckinsey-digital-strategy-rscf-workflow|amos-mckinsey-digital-strategy-rscf-workflow]]
-- [[08_WORKFLOWS/amos-mckinsey-enterprise-data-transformation-rscf-workflow|amos-mckinsey-enterprise-data-transformation-rscf-workflow]]
-- [[08_WORKFLOWS/amos-mckinsey-framework-navigator-workflow|amos-mckinsey-framework-navigator-workflow]]
-- [[08_WORKFLOWS/amos-mckinsey-healthcare-strategy-rscf-workflow|amos-mckinsey-healthcare-strategy-rscf-workflow]]
-- [[08_WORKFLOWS/amos-mckinsey-human-centered-design-rscf-workflow|amos-mckinsey-human-centered-design-rscf-workflow]]
-- [[08_WORKFLOWS/amos-mckinsey-partnership-ecosystem-strategy-rscf-workflow|amos-mckinsey-partnership-ecosystem-strategy-rscf-workflow]]
-- [[08_WORKFLOWS/amos-mckinsey-public-sector-transformation-rscf-workflow|amos-mckinsey-public-sector-transformation-rscf-workflow]]
-- [[08_WORKFLOWS/amos-mckinsey-purpose-impact-rscf-workflow|amos-mckinsey-purpose-impact-rscf-workflow]]
-- [[08_WORKFLOWS/amos-mckinsey-recruiting-workforce-acquisition-rscf-workflow|amos-mckinsey-recruiting-workforce-acquisition-rscf-workflow]]
-- [[08_WORKFLOWS/amos-mckinsey-strategy-portfolio-engine-workflow|amos-mckinsey-strategy-portfolio-engine-workflow]]
-- [[08_WORKFLOWS/amos-mckinsey-technology-company-strategy-rscf-workflow|amos-mckinsey-technology-company-strategy-rscf-workflow]]
-- [[08_WORKFLOWS/amos-mckinsey-technology-product-governance-rscf-workflow|amos-mckinsey-technology-product-governance-rscf-workflow]]
-- [[08_WORKFLOWS/amos-mckinsey-technology-sales-excellence-rscf-workflow|amos-mckinsey-technology-sales-excellence-rscf-workflow]]
-- [[08_WORKFLOWS/amos-mckinsey-transaction-banking-diagnostic-rscf-workflow|amos-mckinsey-transaction-banking-diagnostic-rscf-workflow]]
-- [[08_WORKFLOWS/amos-mckinsey-transformation-org-structure-rscf-workflow|amos-mckinsey-transformation-org-structure-rscf-workflow]]
-- [[08_WORKFLOWS/amos-mckinsey-value-delivery-rscf-workflow|amos-mckinsey-value-delivery-rscf-workflow]]
-- [[08_WORKFLOWS/amos-mckinsey-wealth-management-rscf-workflow|amos-mckinsey-wealth-management-rscf-workflow]]
-- [[08_WORKFLOWS/amos-obsidian-plugin-auto-tag-workflow|amos-obsidian-plugin-auto-tag-workflow]]
-- [[08_WORKFLOWS/amos-pdfs-workflow|amos-pdfs-workflow]]
-- [[08_WORKFLOWS/amos-rscf-modeler-workflow|amos-rscf-modeler-workflow]]
-- [[08_WORKFLOWS/amos-skill-creator-workflow|amos-skill-creator-workflow]]
-- [[08_WORKFLOWS/amos-slides-workflow|amos-slides-workflow]]
-- [[08_WORKFLOWS/amos-software-engineering-qa-workflow|amos-software-engineering-qa-workflow]]
-- [[08_WORKFLOWS/amos-spreadsheets-workflow|amos-spreadsheets-workflow]]
 
-**Parent:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
+### law-stack-enforcement-pipeline
+- [[08_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]]
+- [[08_WORKFLOWS/law-stack-enforcement-pipeline/law-stack-enforcement-pipeline_MOC|law-stack-enforcement-pipeline_MOC]]
 
-______________________________________________________________________
 
-**Related:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · [[01_CANON/01_CANON_MOC|01_CANON_MOC]] · [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] · [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]

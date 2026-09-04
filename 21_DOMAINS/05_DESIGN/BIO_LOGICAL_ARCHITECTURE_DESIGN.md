@@ -1,63 +1,21 @@
 ---
-title: Bio-Logical Architecture Design Specification
-type: domain
-source: 21_DOMAINS/05_DESIGN
-artifact: BIO_LOGICAL_ARCHITECTURE_DESIGN.md
-artifact_id: amos_21_domains_05_design_bio_logical_architecture_design
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 21_DOMAINS
-segment: 21_DOMAINS/05_DESIGN
-artifact_kind: DOMAIN_DESIGN
-path: 21_DOMAINS/05_DESIGN/BIO_LOGICAL_ARCHITECTURE_DESIGN.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Bio Logical Architecture Design
 tags:
-  - amos-os
-  - domain
-  - vault
-  - 05_design
-  - bio_logical_architecture_design
-  - living_systems_design
-  - morphological_computation
-  - rscf
-  - canon_candidate
-  - canon/domain
-  - bio-logical-architecture
-  - unified-biological-intelligence
-  - amos-organism-os-framework
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_ARCHITECTURE
-    - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
-    - AMOS_CORPUS
-  scope:
-    - DOMAIN_DESIGN
-    - BIO_LOGICAL_DESIGN
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  bio_architecture_framework:
-    artifact:
-      -   - BIO_LOGICAL_ARCHITECTURE
-  biological_master:
-    artifact:
-      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  domain_structure: VERIFIED_SOURCE_STRUCTURE
-  design_methodology: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Bio-Logical Architecture Design Specification

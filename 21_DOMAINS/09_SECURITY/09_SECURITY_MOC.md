@@ -5,6 +5,7 @@ status: ACTIVE
 conclusion_class: DERIVED
 origin_architect: Trang Phan
 governed_by: [[18_SECURITY/SECURITY_SECURITY_CONTRACT.md|SECURITY_SECURITY_CONTRACT]]
+rscf-state: source-claim
 ---
 
 # 09_SECURITY Map of Content

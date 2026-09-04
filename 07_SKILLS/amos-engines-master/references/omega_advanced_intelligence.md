@@ -1,23 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: omega advanced intelligence
-type: reference
-source: 07_SKILLS/amos-engines-master/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Omega Advanced Intelligence
 tags:
-  - reference
-  - amos-engines-master
-  - type/skill
-  - architecture
-  - integration
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Omega Advanced Intelligence Complete
@@ -87,7 +85,7 @@ Successfully implemented advanced intelligence system with internet state-of-the
 #### MULTI-SCALE TENSOR FIELD ANALYSIS
 
 ```python
-## Agent representation with full tensor modeling
+# Agent representation with full tensor modeling
 agents = [
     Agent(
         agent_id="gov_agent_1",
@@ -102,7 +100,7 @@ agents = [
     )
 ]
 
-## Tensor field creation and analysis
+# Tensor field creation and analysis
 tensor_field = analyzer.create_tensor_field(agents, agent_packs)
 scan_results = analyzer.exhaustive_scan(tensor_field)
 ```
@@ -110,7 +108,7 @@ scan_results = analyzer.exhaustive_scan(tensor_field)
 #### GOVERNANCE SSOT ENFORCEMENT
 
 ```python
-## Policy compliance checking
+# Policy compliance checking
 operation = {
     'tensor_field_created': True,
     'agent_count': len(agents),

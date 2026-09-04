@@ -1,228 +1,109 @@
 ---
-title: Provenance Topology Canon
-type: canon
-source: 01_CANON/04_INFRASTRUCTURE_CANON
-artifact: PROVENANCE_TOPOLOGY_CANON.md
-artifact_id: amos_01_canon_04_infrastructure_canon_provenance_topology_canon
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/04_INFRASTRUCTURE_CANON
-artifact_kind: PROVENANCE
-path: 01_CANON/04_INFRASTRUCTURE_CANON/PROVENANCE_TOPOLOGY_CANON.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Provenance Topology Canon
 tags:
-  - amos-os
-  - canon
-  - universe
-  - provenance
-  - canon_placeholder
-  - rscf
-  - canon/universe
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Provenance Topology Canon
+# Provenance Topology Infrastructure Canon
 
-## 0. Status
+> **Authoritative Canon Boundary**
+>
+> This document defines the canonical laws governing **Provenance Topology and Ancestry Directed Acyclic Graphs (DAGs)** in AMOS Core v4.4.
+>
+> ```text
+> CITATION STRING != PROVENANCE DAG
+> MULTIPLE DERIVATIVES FROM ONE SOURCE != INDEPENDENT CONFIRMATIONS
+> RETRACTED ROOT INVALIDATES FORWARD REACHABLE CLOSURE
+> PROVENANCE DELETION IS STRICTLY PROHIBITED
+> ```
 
-`PROVENANCE_TOPOLOGY_CANON.md` is an **ADD-ONLY placeholder** for the **Canon** plane segment at `01_CANON/04_INFRASTRUCTURE_CANON`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+## 1. Architectural Role & Problem Statement
 
-The governing boundaries are:
+Superficial systems treat provenance as an unstructured metadata field or citation string (e.g., "Source: Paper X"). This creates two critical failure modes:
+1. **Echo Chambers / Correlation Collapse**: Counting $N$ summaries derived from one underlying source as $N$ independent replications;
+2. **Broken Invalidation**: Inability to determine which derived conclusions must be retracted when an underlying premise is falsified.
+
+The **Provenance Topology Canon** mandates that all knowledge, memory, models, and conclusions in AMOS maintain an explicit, cryptographically verifiable **Provenance DAG**:
+
+$$\mathcal{G}_{\text{prov}} = \langle \mathcal{N}_{\text{claims}}, \mathcal{E}_{\text{derivation}} \rangle$$
+
+---
+
+## 2. Canonical Laws of Provenance Topology
+
+### Law PTC-01: Graph-Structured Ancestry
+Every authoritative claim node $N_k$ must maintain explicit directed edges to all parent premises, sensory inputs, or datasets from which it was derived:
+$$\text{Parents}(N_k) = \{P_1, P_2, \dots, P_m\} \quad \text{such that } P_i \xrightarrow{\text{derives}} N_k$$
+
+### Law PTC-02: Independence Verification & Anti-Correlation
+When assessing the confidence of a conclusion supported by multiple evidence nodes $\{E_1, E_2, \dots, E_n\}$:
+$$\text{RootOrigins}(E_1) \cap \text{RootOrigins}(E_2) \ne \emptyset \implies \text{Evidence is Correlated}$$
+Correlated evidence must be treated as a single root observation, preventing artificial inflation of confidence ceilings.
+
+### Law PTC-03: Selective Invalidation Propagation
+If a root source or premise $N_{\text{root}}$ is retracted, refuted, or invalidated:
+$$\text{InvalidateClosure}(N_{\text{root}}) = \{N_{\text{root}}\} \cup \text{ForwardReachable}(N_{\text{root}})$$
+All downstream nodes in the forward reachable closure must be demoted to `UNKNOWN/GAP` or revalidated against independent roots. Unrelated subgraphs remain unaffected.
+
+### Law PTC-04: Monotonic History & Append-Only Topology
+Historical derivation edges cannot be deleted or rewritten. Corrective actions, supersessions, and retractions must be added as new forward-versioned nodes.
+
+---
+
+## 3. Provenance Lifecycle
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
+[OBSERVATION / RAW PAPER ROOT]
+               │
+               ▼  Derivation Edge with Declared Method
+[DERIVED KNOWLEDGE NODE]
+               │
+               ▼  Composition Edge
+[INTEGRATED MODEL / CANON]
+               │
+   ┌───────────┴────────────────────────┐
+   │                                    │
+[ROOT CONFIRMED]                 [ROOT FALSIFIED]
+Advance Confidence               Execute Invalidation Closure
+Commit Authority                 Demote Downstream Nodes to UNKNOWN/GAP
 ```
 
-Origin architect / steward:
+---
 
-**Trang Phan**
+## 4. Cross-Plane Bindings
 
-______________________________________________________________________
+- **`02_KERNEL/08_PROVENANCE/K_PROVENANCE_TOPOLOGY`**: Implements DAG traversal and cycle detection algorithms.
+- **`10_MEMORY`**: Enforces provenance retention across episodic and semantic memory.
+- **`17_OBSERVABILITY`**: Ingests and renders the Provenance Graph family.
+- **`22_RESEARCH`**: Evaluates frontier claims against empirical source roots.
 
-## 1. Purpose
+---
 
-This artifact reserves the **Provenance Topology Canon** slot within the Canon plane. The Canon plane governs canonical laws, universe/cognition/infrastructure canons, variable registry, glossary, provenance lineage, and supersession.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
-______________________________________________________________________
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
-
-______________________________________________________________________
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
-```
-
-______________________________________________________________________
-
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
-______________________________________________________________________
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
-______________________________________________________________________
-
-## 6. Worked semantics (target)
-
-Given an operation touching `01_CANON · PROVENANCE` within the Canon plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-______________________________________________________________________
-
-RSCF-NODE
-
+```RSCF-NODE
 node_id: amos_01_canon_04_infrastructure_canon_provenance_topology_canon
-
-node_type: provenance
-
-path: 01_CANON/04_INFRASTRUCTURE_CANON/PROVENANCE_TOPOLOGY_CANON.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
-
-**MOC:** [[01_CANON/04_INFRASTRUCTURE_CANON/04_INFRASTRUCTURE_CANON_MOC|04_INFRASTRUCTURE_CANON_MOC]]
+node_type: infrastructure_canon
+plane: 01_CANON
+domain: INFRASTRUCTURE
+claim_class: CANONICAL_LAW
+status: ACTIVE_CANON
+confidence_ceiling: ABSOLUTE_FOR_CANONICAL_LAW
+falsifiers:
+  - Acceptance of a promoted claim lacking directed derivation edges to source roots.
+  - Failure to invalidate downstream dependent nodes following verified retraction of a root premise.
+```

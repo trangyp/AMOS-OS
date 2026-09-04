@@ -1,62 +1,48 @@
 ---
-title: 22 C12 Earth Ecology Moc — Specialist Domain Specification
-type: domain_specification
-source: 21_DOMAINS
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 21_DOMAINS/00_INDEX/DOMAIN_EXTENSION_PROTOCOL
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-  scope: domain_specialization
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 22 C12 Earth Ecology Moc
 tags:
-  - amos-os
-  - domains
-  - c01-c12
-  - 22-c12-earth-ecology-moc
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# 22 C12 Earth Ecology Moc — Specialist Domain Specification
+# 22 C12 Earth Ecology — Map of Content
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Conclusion Class:** `AMOS_MODEL`
-> **Status:** `ACTIVE_SPECIFICATION`
-
----
-
-## 1. Domain Scope & Objectives
-
-`22_C12_EARTH_ECOLOGY_MOC` defines the specialized domain models, ontologies, regulatory frameworks, and operational packages under `21_DOMAINS`.
-
-Governed under **Partition C: Cognitive Capability & Orchestration** and the [[21_DOMAINS/00_INDEX/DOMAIN_EXTENSION_PROTOCOL|DOMAIN_EXTENSION_PROTOCOL]].
+> [!ABSTRACT] Domain Executive Summary
+> **Domain Engine:** `C12_earth_ecology` (Earth Systems, Biosphere & Planetary Ecology).
+> **Structural Role:** Owns biogeochemical cycles (carbon, nitrogen, phosphorus, water), planetary boundaries (Rockström framework), closed-loop thermodynamic metabolism, and global carrying capacity modeling in the AMOS Full Brain OS.
 
 ---
 
-## 2. Domain Rules & Invariants
+## 1. Core Architecture & Subsystem Artifacts
 
-1. **Non-Contradiction with Canon:** Specialist domain rules cannot supersede root axioms in `01_CANON`.
-2. **Explicit Confidence Attenuation:** Conclusions derived within `22_C12_EARTH_ECOLOGY_MOC` must declare confidence ceilings ($\mathcal{C} \le 0.95$).
-3. **Cross-Regime Bridges:** Transfers from this domain to adjacent domains require formal translation penalties.
-
----
-
-## 3. Operational Mechanics & Datasets
-
-- **Domain Models:** Mathematical, empirical, or statistical formulations specific to `22 C12 Earth Ecology Moc`.
-- **Allowed Tooling:** Strictly sandboxed Tier 1 and Tier 2 adapters.
-- **Verification Gates:** Invariant tests codified in `19_TESTS/`.
+* [[11_KNOWLEDGE/AMOS_C12_EARTH_ECOLOGY_MASTER_KNOWLEDGE|AMOS C12 Earth Ecology Master Knowledge]] — Authoritative 48 KB canonical domain corpus detailing biosphere thermodynamics, trophic networks, climate dynamics, and ecological feedback loops.
+* [[26_WORKFLOWS/amos-c12-earth-ecology-master-workflow|amos-c12-earth-ecology-master-workflow]] — Governed ecological simulation workflow and planetary impact verification gates.
+* [[08_PLANETARY/08_PLANETARY_MOC|08 Planetary MOC]] — Planetary System Interface (`PSI`) and macro-ecological coordination hub.
+* [[08_PLANETARY/PLANETARY_SYSTEMS_CONTRACT|PLANETARY_SYSTEMS_CONTRACT]] — Formal planetary carrying capacity contracts.
+* [[08_PLANETARY/PSI_CORE_BIOSPHERE_TELEMETRY|PSI_CORE_BIOSPHERE_TELEMETRY]] — Real-time sensor telemetry and Earth system health metrics.
+* [[21_DOMAINS/22_C12_EARTH_ECOLOGY/DOMAINS_C12_EARTH_ECOLOGY_CONTRACT|DOMAINS_C12_EARTH_ECOLOGY_CONTRACT]] — Domain interface contract and invariant bounds.
+* [[21_DOMAINS/22_C12_EARTH_ECOLOGY/C12_EARTH_ECOLOGY_DOMAINS_DOMAIN_SPEC|C12_EARTH_ECOLOGY_DOMAINS_DOMAIN_SPEC]] — Operational domain parameters.
 
 ---
 
-## 4. Integration
+## 2. Inbound & Outbound Interfaces
 
-- **Master Domain Hub:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]
-- **Protocol Standard:** [[21_DOMAINS/00_INDEX/DOMAIN_EXTENSION_PROTOCOL|DOMAIN_EXTENSION_PROTOCOL]]
-- **Agent Roles:** [[06_AGENTS/AGENT_ROLE_REGISTRY|AGENT_ROLE_REGISTRY]]
+* **Omniverse Layer:** [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|Omniverse Brain Layer 6]] (Planetary & Ecological Closed-Loop Dynamics).
+* **Planetary Law:** Governed by [[01_CANON/02_UNIVERSE_CANON/P1_REALITY_ENVIRONMENT|P1_REALITY_ENVIRONMENT]] (Earth Thermodynamic Primacy).
+* **Parent Hub:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]].
+
+---
+[[21_DOMAINS/21_DOMAINS_MOC|Back to Domains MOC]] · [[00_ROOT/00_ROOT_MOC|Root MOC]]

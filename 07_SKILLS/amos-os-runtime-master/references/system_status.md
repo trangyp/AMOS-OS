@@ -1,22 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: system status
-type: reference
-source: 07_SKILLS/amos-os-runtime-master/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: System Status
 tags:
-  - reference
-  - amos-os-runtime-master
-  - type/skill
-  - readme
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # System Status
@@ -144,18 +143,18 @@ ______________________________________________________________________
 ## Quick Start
 
 ```bash
-## Start full stack
+# Start full stack
 make demo-full-up
 
-## Verify
+# Verify
 make demo-check
 
-## Access
-## - Chat UI: http://localhost:3000
-## - API: http://localhost:8080
-## - Health: http://localhost:8080/health/deep
+# Access
+# - Chat UI: http://localhost:3000
+# - API: http://localhost:8080
+# - Health: http://localhost:8080/health/deep
 
-## Stop
+# Stop
 make demo-full-down
 ```
 

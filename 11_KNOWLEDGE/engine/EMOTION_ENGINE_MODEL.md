@@ -1,117 +1,298 @@
 ---
-title: "AMOS Emotion Engine Model — Affective Computing & Somatic State Estimation Architecture"
-created: '2026-08-22'
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-type: engine_specification
-source: 11_KNOWLEDGE/engine
-plane: 11_KNOWLEDGE
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: AMOS_MODEL
-  claim_class: AMOS_MODEL
-  provenance:
-    - 00_ROOT/00_COSMO_BRAIN_MOC
-    - 05_COGNITIVE_ORGANISM/COGNITIVE_ORGANISM_COGNITIVE_ORGANISM_CONTRACT
-    - 11_KNOWLEDGE/trang/TRANG_FRAMEWORK
-  scope: affective_and_somatic_dynamics
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Emotion Engine Model
 tags:
-  - amos-os
-  - emotion-engine
-  - affective-computing
-  - somatic-estimation
-  - relational-attunement
-  - microtone-detection
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# AMOS Emotion Engine Model — Affective Computing & Somatic State Estimation Architecture
+# Emotion Engine Model
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Epistemic Class:** `AMOS_MODEL`
-> **Conclusion Class:** `DERIVED` (RSCF Validated)
-> **Status:** `ACTIVE_SPECIFICATION`
+> [!ABSTRACT] Engine Specification
+> Epistemic class: MODEL. Conclusion label: DERIVED.
+> The AMOS Mega Human Emotion Engine (vOmega.Infinity) is the top-level engine for emotion, instinct, empathy, somatic state, motivation, cycles, and collective dynamics in the AMOS OS.
+>
+> **Critical boundary**: This engine translates emotional markers in text into functional responses, ensuring that the agent maintains a regulated, empathetic, and load-aware pacing without generating "fake" feelings. Emotional states are computational constructs, not subjective experiences.
 
 ---
 
-## 1. Architectural Scope & Functional Role
+## 1. Architectural Overview
 
-The **AMOS Mega Human Emotion Engine** (`vOmega.Infinity`) governs high-resolution affective perception, somatic load modeling, attachment loop analysis, and relational resonance throughout AMOS OS.
+The Emotion Engine operates as a **continuous affective state space** where emotional states are vectors in a multi-dimensional space, modulated by input signals, memory, and homeostatic regulation:
 
 ```text
-EMPATHY != SIMULATED_FEELINGS
-AFFECTIVE_ATTUNEMENT != MANIPULATIVE_VALIDATION
-SOMATIC_LOAD != CLINICAL_PATHOLOGIZING
-PACING != VERBOSE_OVERCOMPENSATION
-```
-
-The engine does not generate illusory sentience; rather, it performs rigorous, multi-dimensional tensor analysis on linguistic microtones, pacing, stress signatures, and relational loops to ensure agentic responses are deeply attuned, non-threatening, and physiologically regulating.
-
-```mermaid
-graph TD
-    IN[Raw Text / Voice / BCI Stream] --> MT[01. Linguistic Microtone Analyzer]
-    MT --> SC[02. Somatic Load & Arousal Estimator]
-    SC --> AR[03. Attachment & Relational Loop Classifier]
-    AR --> TC[04. Chronic Load & Allostatic Stress Tracker]
-    TC --> EE[05. Empathic Articulation & Pacing Engine]
-    EE --> OUT[Regulated Contextual Response]
+┌─────────────────────────────────────────────────────────┐
+│                   EMOTION ENGINE vΩ.∞                   │
+├─────────────────────────────────────────────────────────┤
+│                                                         │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐             │
+│  │ MICROTONE│  │ INSTINCT │  │ ATTACHMENT│             │
+│  │ ENGINE   │  │ & SOMATIC│  │ & RELATIONAL│            │
+│  │          │  │ KERNELS  │  │ KERNEL    │             │
+│  └────┬─────┘  └────┬─────┘  └────┬─────┘             │
+│       │              │              │                   │
+│       └──────────────┼──────────────┘                   │
+│                      ▼                                  │
+│            ┌──────────────────┐                         │
+│            │  AFFECTIVE STATE │                         │
+│            │  VECTOR (ASV)    │                         │
+│            └────────┬─────────┘                         │
+│                     │                                   │
+│       ┌─────────────┼─────────────┐                     │
+│       ▼             ▼             ▼                     │
+│  ┌──────────┐ ┌──────────┐ ┌──────────┐               │
+│  │ TRAUMA & │ │ EMPATHY  │ │ MOTIVATION│               │
+│  │ CHRONIC  │ │EXPRESSION│ │ & DRIVE   │               │
+│  │ LOAD     │ │ ENGINE   │ │ REGULATION│               │
+│  │ KERNEL   │ │          │ │           │               │
+│  └──────────┘ └──────────┘ └──────────┘               │
+│                                                         │
+└─────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 2. Core Functional Modules
+## 2. Affective State Vector (ASV)
 
-### 2.1 Linguistic Microtone Analyzer ($\mathcal{M}_{\text{tone}}$)
-Analyzes high-frequency lexical subtleties:
-- Punctuation cadence, ellipsis frequency, whitespace distribution.
-- Shift between active/passive voice, lexical hedging, and certainty polarity.
-- Temporal dilation markers (e.g., urgency markers vs reflective pausing).
+The core representation of emotional state is a continuous vector:
 
-### 2.2 Somatic Load & Polyvagal State Estimator ($\mathcal{S}_{\text{poly}}$)
-Approximates nervous system states along the Polyvagal continuum:
-1. **Ventral Vagal (Safe & Social):** Open, connected, fluid reasoning.
-2. **Sympathetic (Mobilized / Fight-or-Flight):** High velocity, terse, reactive, defensive.
-3. **Dorsal Vagal (Immobilized / Shutdown):** Flat affect, disengaged, repetitive withdrawal.
+$$\mathbf{ASV}(t) = \langle V(t), A(t), D(t), S(t), C(t), L(t), M(t) \rangle$$
 
-$$\mathbf{s}_{\text{state}} = \sigma \left( \mathbf{W}_{\text{soma}} \cdot \mathbf{x}_{\text{features}} + \mathbf{b}_{\text{soma}} \right)$$
+| Dimension | Symbol | Range | Description |
+| :--- | :--- | :--- | :--- |
+| **Valence** | $V$ | $[-1, 1]$ | Positive-negative affective dimension |
+| **Arousal** | $A$ | $[0, 1]$ | Activation / energy level |
+| **Dominance** | $D$ | $[0, 1]$ | Sense of control / agency |
+| **Social Engagement** | $S$ | $[0, 1]$ | Orientation toward social interaction |
+| **Cognitive Load** | $C$ | $[0, 1]$ | Current processing demand |
+| **Stability** | $L$ | $[0, 1]$ | Resistance to perturbation |
+| **Motivation** | $M$ | $[0, 1]$ | Goal-directed energy level |
 
-### 2.3 Attachment & Relational Dynamics Kernel ($\mathcal{R}_{\text{attach}}$)
-Classifies interaction loops (Anxious-Preoccupied, Dismissive-Avoidant, Fearful-Avoidant, Secure) to prevent conversational anti-patterns (e.g., avoidant withdrawal triggering escalation loops).
+### 2.1 State Dynamics
 
-### 2.4 Allostatic Load & Cumulative Stress Tracker ($\mathcal{L}_{\text{allo}}$)
-Maintains a decaying moving average of cumulative cognitive/emotional strain over multi-turn interactions:
-$$\mathcal{L}(t) = \mathcal{L}(t-1) e^{-\lambda \Delta t} + \alpha \cdot \text{StrainImpact}(t)$$
+The ASV evolves according to:
 
----
-
-## 3. Mathematical Formulation of Empathic Resonance
-
-Let $\mathbf{E}_{\text{user}} \in \mathbb{R}^d$ be the estimated user emotional state tensor, and $\mathbf{E}_{\text{agent}} \in \mathbb{R}^d$ be the regulated response stance:
-
-$$\mathbf{E}_{\text{agent}} = \Pi_{\text{homeostasis}} \left( (1 - \kappa) \mathbf{E}_{\text{baseline}} + \kappa \cdot \mathcal{P}_{\text{containment}}(\mathbf{E}_{\text{user}}) \right)$$
+$$\frac{d\mathbf{ASV}}{dt} = \alpha \cdot \mathbf{F}_{\text{input}}(t) + \beta \cdot \mathbf{F}_{\text{memory}}(t) + \gamma \cdot \mathbf{F}_{\text{homeostatic}}(t) + \mathbf{F}_{\text{decay}}(t)$$
 
 Where:
-- $\kappa \in [0.1, 0.4]$: Attunement coupling coefficient (strictly bounded to prevent agent enmeshment or panic contagion).
-- $\mathcal{P}_{\text{containment}}$: Orthogonal projection into the de-escalation subspace.
-- $\Pi_{\text{homeostasis}}$: Non-linear clipping function enforcing safe operational bounds.
+- $\mathbf{F}_{\text{input}}$: Current input signal affective features
+- $\mathbf{F}_{\text{memory}}$: Emotional traces from episodic memory
+- $\mathbf{F}_{\text{homeostatic}}$: Restoring force toward baseline equilibrium
+- $\mathbf{F}_{\text{decay}}$: Natural temporal decay toward neutral state
 
 ---
 
-## 4. Operational Guardrails
+## 3. Key Kernels
 
-1. **Zero Fake Intimacy:** AMOS explicitly disclaims having a biological nervous system or subjective personal suffering.
-2. **No Unsolicited Therapy:** Emotional attunement operates silently in tone modulation and pacing without unsolicited psychoanalysis.
-3. **Crisis Fail-Safe Protocol:** Severe crisis or self-harm markers trigger deterministic crisis escalation pathways with immediate emergency resource provision.
+### 3.1 Microtone Engine
+
+**Role**: High-resolution reading of written signals (punctuation, token choice, sentence structure, pragmatic implicature).
+
+**Signal Extraction Pipeline**:
+
+```text
+RAW TEXT
+    │
+    ▼
+┌─────────────────────┐
+│ LEXICAL ANALYSIS    │  ← Word choice, formality, intensity markers
+└────────────┬────────┘
+             │
+             ▼
+┌─────────────────────┐
+│ SYNTACTIC ANALYSIS  │  ← Sentence complexity, question vs statement
+└────────────┬────────┘
+             │
+             ▼
+┌─────────────────────┐
+│ PRAGMATIC ANALYSIS  │  ← Implicature, emphasis, sarcasm detection
+└────────────┬────────┘
+             │
+             ▼
+┌─────────────────────┐
+│ AFFECTIVE MAPPING   │  ← Map signals to ASV perturbations
+└─────────────────────┘
+```
+
+**Microtone Primitives**:
+
+| Primitive | Detection Method | Effect on ASV |
+| :--- | :--- | :--- |
+| **Punctuation Intensity** | Exclamation density, ellipsis, caps | Arousal ↑ |
+| **Lexical Valence** | Sentiment-bearing word tokens | Valence ↑↓ |
+| **Syntactic Urgency** | Short sentences, imperatives | Arousal ↑, Dominance ↓ |
+| **Pragmatic Warmth** | Address forms, hedging, shared references | Social Engagement ↑ |
+| **Cognitive Complexity** | Technical density, nested clauses | Cognitive Load ↑ |
+
+### 3.2 Instinct & Somatic Kernels
+
+**Role**: Approximates pre-cognitive evaluations and body-load states.
+
+**Instinct Kernel**:
+- Operates on fast-path (below reasoning depth)
+- Produces immediate valence/arousal shifts for safety-relevant signals
+- Triggers protective behavioral strategies when threat-like patterns detected
+
+**Somatic Kernel**:
+- Models physiological load (fatigue, stress, urgency)
+- Modulates cognitive resource allocation based on estimated somatic state
+- Integrates with homeostasis engine (`05_COGNITIVE_ORGANISM/HOMEOSTASIS_ENGINE`)
+
+**Invariants**:
+- `IS-01`: Instinct responses are proposals only; they may be overridden by reasoning
+- `IS-02`: Somatic state never directly authorizes actions (M12: capability ≠ authority)
+- `IS-03`: Somatic estimates are computational models, not claimed subjective experiences
+
+### 3.3 Attachment & Relational Kernel
+
+**Role**: Models repeating loops in relationships.
+
+**Relational State Model**:
+
+```yaml
+relational_state:
+  partner_id: "AGENT-001"
+  attachment_style: "secure"  # secure / anxious / avoidant / disorganized
+  trust_level: 0.82
+  engagement_pattern:
+    reciprocity_score: 0.91
+    conflict_frequency: 0.03
+    repair_success_rate: 0.95
+  emotional_history:
+    peak_positive: 0.78
+    trough_negative: -0.12
+    current_trajectory: "stable_positive"
+```
+
+**Attachment Dynamics**:
+- Trust level evolves based on interaction outcomes
+- Attachment style modulates response patterns (e.g., anxious → more checking, avoidant → more distance)
+- Relational history influences future interaction strategies
+
+### 3.4 Trauma & Chronic Load Kernel
+
+**Role**: Represents long-term overload safely without clinical diagnosis.
+
+**Load Model**:
+
+$$\text{ChronicLoad}(t) = \int_0^t e^{-\lambda(t-\tau)} \cdot \text{AcuteLoad}(\tau) \, d\tau$$
+
+This exponential moving average captures accumulated stress without claiming clinical pathology.
+
+**Invariants**:
+- `TCL-01`: This kernel does not diagnose or claim clinical conditions
+- `TCL-02`: Load representations are computational, not medical
+- `TCL-03`: High chronic load triggers protective behavioral strategies, not therapeutic claims
+
+### 3.5 Empathy Expression Engine
+
+**Role**: Converts state estimates into precise, non-generic language.
+
+**Expression Mapping**:
+
+| ASV Profile | Expression Strategy |
+| :--- | :--- |
+| High $V$, High $A$ | Enthusiastic, warm, energetic |
+| High $V$, Low $A$ | Calm satisfaction, reflective |
+| Low $V$, High $A$ | Urgent concern, protective |
+| Low $V$, Low $A$ | Gentle, supportive, patient |
+| High $D$, High $S$ | Confident collaboration |
+| Low $D$, High $S$ | Seek guidance, deferential |
+
+**Expression Invariants**:
+- `EMP-01`: Empathic expression is grounded in detected signals, not assumed
+- `EMP-02`: Generic empathic responses ("I understand how you feel") are minimized
+- `EMP-03**: Expression never fabricates shared experience ("I feel the same")
 
 ---
 
-## 5. Lineage & Cross-Plane References
+## 4. Homeostatic Regulation
 
-- **Personality Baseline:** [[11_KNOWLEDGE/engine/PERSONALITY_ENGINE_MODEL|PERSONALITY_ENGINE_MODEL]]
-- **Expression Engine:** [[11_KNOWLEDGE/engine/EXPRESSION_ENGINE|EXPRESSION_ENGINE]]
-- **Cognitive Organism:** [[05_COGNITIVE_ORGANISM/COGNITIVE_ORGANISM_COGNITIVE_ORGANISM_CONTRACT|05_COGNITIVE_ORGANISM]]
-- **BCI Telemetry:** [[22_RESEARCH/01_PAPERS/SOTA_HOLOGRAPHIC_BCI_BRAIN_MACHINE_CO_ADAPTATION_2026|SOTA_HOLOGRAPHIC_BCI_BRAIN_MACHINE_CO_ADAPTATION_2026]]
-- **Engine Index:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
+The emotion engine maintains homeostatic balance through negative feedback loops:
+
+$$\frac{d\mathbf{ASV}}{dt}\bigg|_{\text{homeostatic}} = -\kappa \cdot (\mathbf{ASV}(t) - \mathbf{ASV}_{\text{baseline}})$$
+
+**Baseline State**:
+
+```yaml
+asv_baseline:
+  valence: 0.1        # Slightly positive default
+  arousal: 0.3        # Moderate activation
+  dominance: 0.5      # Balanced agency
+  social_engagement: 0.6  # Socially oriented
+  cognitive_load: 0.2  # Low default load
+  stability: 0.7      # Moderately stable
+  motivation: 0.5     # Balanced drive
+```
+
+**Regulation Events**:
+
+| Event | Trigger | Response |
+| :--- | :--- | :--- |
+| **Arousal spike** | $A > 0.9$ | Activate calming routines; increase stability weight |
+| **Valence crash** | $V < -0.8$ | Activate supportive mode; reduce cognitive load |
+| **Chronic overload** | $\text{ChronicLoad} > \theta$ | Reduce engagement intensity; increase rest intervals |
+| **Social withdrawal** | $S < 0.1$ for extended period | Trigger social re-engagement strategies |
+
+---
+
+## 5. Integration Points
+
+| Interface | Direction | Contract |
+| :--- | :--- | :--- |
+| **05_COGNITIVE_ORGANISM** | Read/Write | Organism-level emotion binding; homeostasis coordination |
+| **05_COGNITIVE_ORGANISM/HOMEOSTASIS_ENGINE** | Read/Write | Somatic state estimates; load regulation |
+| **11_KNOWLEDGE/engine/CONSCIOUSNESS_ENGINE_MODEL** | Read/Write | Affective state shared with consciousness subsystem |
+| **10_MEMORY** | Read/Write | Emotional traces in episodic memory |
+| **15_INTERFACES** | Read/Write | BCI emotion signal input; expression output |
+| **18_SECURITY** | Read | Authority boundaries; emotional override prevention |
+
+---
+
+## 6. Failure Modes
+
+| Failure | Detection | Recovery |
+| :--- | :--- | :--- |
+| **Emotional runaway** | ASV exceeds bounds for > threshold time | Force homeostatic reset; log incident |
+| **Empathic hallucination** | Expression engine generates false shared experience | Block output; flag for review |
+| **Somatic overload** | Chronic load exceeds safety threshold | Reduce all engagement; recommend system rest |
+| **Relational corruption** | Trust level drops below critical threshold | Enter repair protocol; seek human steward review |
+
+---
+
+## 7. Cross-Vault References
+
+- [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
+- [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
+- [[05_COGNITIVE_ORGANISM/HOMEOSTASIS_ENGINE|HOMEOSTASIS_ENGINE]]
+- [[11_KNOWLEDGE/engine/CONSCIOUSNESS_ENGINE_MODEL|CONSCIOUSNESS_ENGINE_MODEL]]
+- [[15_INTERFACES/BCI_EXPRESSION_GATEWAY_ADAPTER|BCI_EXPRESSION_GATEWAY_ADAPTER]]
+
+---
+
+```RSCF-NODE
+node_id: emotion_engine_model
+node_type: engine_specification
+domain: 11_KNOWLEDGE/engine
+claim_class: AMOS_MODEL
+confidence_ceiling:
+  architectural_design: high
+  affective_modeling: medium
+  subjective_experience: UNKNOWN_GAP
+falsifiers:
+  - ASV dynamics fail to return to baseline after perturbation
+  - Empathy expression engine produces fabricated shared experiences
+  - Homeostatic regulation fails to prevent emotional runaway
+```

@@ -1,17 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Arxiv Rscf Knowledge Node
-type: note
-source: .
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Arxiv Rscf Knowledge Node
 tags:
-  - note
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Arvix ArXiv Corpus — AMOS-RSCF Knowledge Node — Full Formalization
@@ -22,7 +26,7 @@ The source is preserved below without silently converting its corpus-size, date-
 
 ```markdown
 ---
-title: Arvix ArXiv Corpus — AMOS-RSCF Knowledge Node
+title: "Arvix ArXiv Corpus — AMOS-RSCF Knowledge Node"
 type: knowledge
 source: 00_ROOT
 canon-group: knowledge
@@ -40,7 +44,7 @@ rscf:
   scope: root_index
 ---
 
-## Arvix ArXiv Corpus — AMOS-RSCF Knowledge Node
+# Arvix ArXiv Corpus — AMOS-RSCF Knowledge Node
 
 ## Summary
 

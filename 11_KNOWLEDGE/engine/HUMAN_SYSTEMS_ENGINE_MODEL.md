@@ -1,28 +1,21 @@
 ---
-title: AMOS Human Systems Engine Model
-created: '2026-08-22'
-origin_architect: Trang Phan
-type: brain-model
-source: 11_KNOWLEDGE/engine
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Human Systems Engine Model
 tags:
-  - canon-group/human-system
-  - canon/model
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
-  - rscf/state/derived
-  - topic/human-systems-engine-model
-  - engine
-  - system-scan-agent
-  - automation-profiles
-  - amos-simulation-kernel-v0-math-foundations
-status: active
-provenance: HSE_Enginev∞_AMOS_FORMAT_WITH_UCM.txt
-confidence: STRUCTURAL
-rscf:
-  state: AMOS_MODEL
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: engine_specification
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Human Systems Engine (HSE) Model

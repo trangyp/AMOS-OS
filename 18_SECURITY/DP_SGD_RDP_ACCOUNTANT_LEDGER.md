@@ -37,6 +37,33 @@ $$\epsilon(\delta) = \min_{\alpha > 1} \left\{ \epsilon_{\text{RDP}}(\alpha) + \
 - **Guaranteed Epsilon Privacy Budget ($\epsilon$)**: 3.9765 (High privacy guarantee $\epsilon < 5.0$)
 - **Verification Integrity**: Cryptographically validated under AMOS Canonical v4.4 Plane 18.
 
+---
+
+## DP-SGD RDP Accountant Dynamics
+
+Differential Privacy in Stochastic Gradient Descent operates through a carefully orchestrated pipeline of per-sample gradient computation, norm clipping, and calibrated Gaussian noise injection. At each training step $t$, the algorithm samples a mini-batch $\mathcal{B}_t$ from the dataset $\mathcal{D}$, computes per-sample gradients $\nabla_\theta \ell(\theta, x_i)$, and clips each gradient to a maximum $L_2$-norm bound $C$. This clipping ensures that no single training example can dominate the batch gradient, bounding the sensitivity of the computation to any one data point's inclusion or exclusion. After clipping, calibrated Gaussian noise $\mathcal{N}(0, \sigma^2 C^2 \mathbf{I})$ is added to the aggregate gradient, providing the cryptographic randomness that makes the output differentially private.
+
+The Rényi Differential Privacy (RDP) accountant tracks the cumulative privacy cost across all $T$ training steps. Unlike the naive $(\epsilon, \delta)$-DP composition theorem—which suffers from a $\sqrt{T}$ overhead—the RDP framework exploits the linear composition property of Rényi divergence to achieve tight privacy bounds. For each order $\alpha > 1$, the RDP epsilon accumulates additively: $\epsilon_{\text{RDP}}(\alpha) = \sum_{t=1}^T \epsilon_t(\alpha)$. The subsampling amplification theorem further reduces the per-step cost by a factor of $q^2$, where $q = |\mathcal{B}|/N$ is the subsampling ratio, yielding the characteristic $q^2 \alpha / (2\sigma^2)$ per-step bound.
+
+The final privacy guarantee is obtained by optimizing over the RDP order $\alpha$ and converting to $(\epsilon, \delta)$-DP via the canonical conversion formula. This minimization over $\alpha$ is critical: too small an $\alpha$ yields a loose bound dominated by the $\ln(1/\delta)/(\alpha-1)$ term, while too large an $\alpha$ makes the RDP bound itself loose. The accountant must also handle the Poisson subsampling regime carefully, as the standard $q^2$ amplification assumes independent Bernoulli sampling of each data point. In practice, the Opacus and TensorFlow Privacy libraries implement this accountant with numerically stable log-domain arithmetic to avoid floating-point overflow at large $\alpha$ values.
+
+## AMOS Integration
+
+- **Security plane MOC**: [[18_SECURITY/18_SECURITY_MOC|18 Security MOC]]
+- **Capability-bound governance**: [[07_SKILLS/amos-capability-bound-governance/SKILL|Capability-Bound Governance]]
+- **Numerical methods engine**: [[11_KNOWLEDGE/engine/AMOS_NUMERICAL_METHODS_ENGINE_LAYER|Numerical Methods Engine]]
+- **Control plane contract**: [[03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT|Control Plane Contract]]
+
+## Epistemic Boundary
+
+- `MODEL != OBSERVATION` — The RDP accountant computes a theoretical privacy bound; actual privacy against adaptive adversaries may be weaker than the bound suggests.
+- `DOCUMENTED != IMPLEMENTED` — The mathematical formulation above documents the canonical RDP accountant; specific library implementations (Opacus, TF Privacy) may use approximations or numerical shortcuts that deviate from the exact formula.
+- `SUBSAMPLING_ASSUMPTION != REAL_SAMPLING` — The $q^2$ amplification theorem assumes Poisson (independent Bernoulli) subsampling; real-world shuffling-based batch construction violates this assumption, potentially loosening the privacy guarantee.
+- `RDP_BOUND != TIGHT_BOUND` — The RDP bound is an upper bound on privacy loss; the true privacy cost may be lower, but the bound is the provable guarantee.
+- `EPSILON != UTILITY` — A smaller $\epsilon$ provides stronger privacy but degrades model utility; the $\epsilon < 5.0$ target reflects a privacy-utility tradeoff, not an absolute security threshold.
+
+**Parent:** [[18_SECURITY/18_SECURITY_MOC|18_SECURITY_MOC]]
+
 ## 3. Ledger Operations & Audit Trail
 
 | Timestamp (UTC) | Operation | Actor | Parameters | Budget Consumed | Receipt Hash |

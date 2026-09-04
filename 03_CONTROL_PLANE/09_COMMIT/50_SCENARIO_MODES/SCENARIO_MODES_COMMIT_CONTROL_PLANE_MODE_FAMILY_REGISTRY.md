@@ -1,20 +1,16 @@
 ---
-title: SCENARIO MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-type: control-plane
-source: 03_CONTROL_PLANE/09_COMMIT/50_SCENARIO_MODES
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Scenario Modes Commit Control Plane Mode Family Registry
 tags:
-  - control-plane
-  - 50_scenario_modes
-  - canon/control-plane
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # SCENARIO MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

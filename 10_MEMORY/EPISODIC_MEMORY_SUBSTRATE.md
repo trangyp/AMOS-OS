@@ -1,188 +1,287 @@
 ---
-title: 10_MEMORY — Episodic Memory Substrate
-type: memory_substrate_specification
-plane: 10_MEMORY
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - authoritative_AMOS_OS_structure
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-    - 05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC
-    - 10_MEMORY/10_MEMORY_MOC
-    - 12_STATE/12_STATE_MOC
-  scope: episodic_memory_governance
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Episodic Memory Substrate
 tags:
-  - amos-os
-  - memory
-  - episodic-memory
-  - ebbinghaus-curve
-  - vector-search
-  - hnsw
-  - spatiotemporal-indexing
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Episodic Memory Substrate & Temporal Replay Engine
 
-**Origin Architect & Steward:** Trang Phan
-**Target AMOS Lineage:** v4.4
-**Plane:** `10_MEMORY`
-**Status:** `ACTIVE_SPECIFICATION`
-**Epistemic Classification:** `AMOS_MODEL` / `DERIVED`
+**Origin Architect / Steward:** Trang Phan
+**AMOS_CORE Target:** `v4.4`
+**Epistemic Class:** `AMOS_MODEL`
 
 ---
 
-## 1. Executive Summary & 4-Tier Memory Strata
+## 1. Cognitive Memory Architecture (4-Tier Strata)
 
-The **Episodic Memory Substrate** coordinates the persistent retention, consolidation, and associative recall of temporal agent experiences, causal decisions, environmental observations, and tool outcomes across the AMOS Full Brain OS.
+The AMOS Memory Substrate coordinates multi-tiered storage spanning ultra-fast working contexts to permanent semantic/episodic graph embeddings:
 
-```text
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                    AMOS HIERARCHICAL MEMORY STRATA                          │
-│                                                                             │
-│  [Tier 0: Working Memory Buffer]                                            │
-│  - Ring buffer in GPU/SRAM (< 32k tokens, access latency < 0.5 ms)          │
-│                               │                                             │
-│                               ▼                                             │
-│  [Tier 1: Episodic Memory Substrate (This Plane)]                           │
-│  - Causal event graphs, temporal traces, and multi-agent dialogue logs      │
-│  - Ebbinghaus-Wiener decay & consolidation engine (latency < 2.5 ms)        │
-│                               │                                             │
-│                               ▼                                             │
-│  [Tier 2: Semantic Knowledge Graph (11_KNOWLEDGE)]                          │
-│  - Hyperbolic Lorentz embeddings, verified RSCF DAGs, ontology index        │
-│                               │                                             │
-│                               ▼                                             │
-│  [Tier 3: Procedural Skill Archive (07_SKILLS)]                             │
-│  - Compiled WASM binaries, proven workflows, and deterministic playbooks    │
-└─────────────────────────────────────────────────────────────────────────────┘
+| Tier | Name | Capacity | Latency | Persistence | Storage Medium |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Tier 0** | Working Memory | $\le 32\text{k}$ tokens | $< 1\text{ ms}$ | Session-scoped | In-context ring buffer |
+| **Tier 1** | Episodic Memory | Bounded by salience | $< 50\text{ ms}$ | Causal-epoch scoped | Structured event traces |
+| **Tier 2** | Semantic Memory | Unbounded (graph) | $< 200\text{ ms}$ | Persistent | Vector graph (HNSW/DiskANN) |
+| **Tier 3** | Procedural Memory | Unbounded (blueprints) | $< 100\text{ ms}$ | Persistent | Validated skill blueprints + WASM |
+
+### 1.1 Tier 0: Working Memory
+
+**Role**: Active cognitive context; what the system is "thinking about right now".
+
+**Characteristics**:
+- Ring buffer architecture; oldest entries evicted when capacity exceeded
+- All active reasoning chains, current task context, and recent interactions
+- No persistence across sessions (unless explicitly promoted to Tier 1)
+
+**Eviction Policy**:
+$$\text{Evict}(t) = \arg\min_{i \in \text{Buffer}} A_i(t)$$
+
+Where $A_i(t)$ is the activation level from the tiered memory lifecycle model.
+
+### 1.2 Tier 1: Episodic Memory
+
+**Role**: Structured causal event traces with timestamps, agent decisions, and tool feedback.
+
+**What gets stored**:
+- Every significant interaction (task completion, decision, error, recovery)
+- Agent reasoning chains (compressed)
+- Tool invocation results
+- Authority grants/revocations
+- Knowledge promotion/retraction events
+
+**Episode Structure**:
+
+```yaml
+episode:
+  episode_id: "EP-2026-0904-001"
+  timestamp_iso: "2026-09-04T10:30:00Z"
+  causal_epoch: 4402
+  episode_type: "task_completion"
+  salience_score: 0.89
+  
+  participants:
+    primary_agent: "AGT-RESEARCH-01"
+    collaborating_agents: ["AGT-QFM-SPECIALIST-01"]
+    tools_used: ["obsidian-read-tool", "web-search-tool"]
+  
+  state_delta:
+    hypotheses_validated: ["H-OFI-01", "H-ROUGH-HESTON-02"]
+    hypotheses_rejected: ["H-BLACK-SCHOLES-03"]
+    epistemic_entropy_change: -0.42
+    knowledge_promoted: ["KN-2026-09-04-001"]
+    knowledge_retracted: []
+  
+  reasoning_trace:
+    steps: 7
+    inference_rules_used: ["modus_ponens", "bayesian_update"]
+    proof_trails: ["PT-88412", "PT-88413"]
+  
+  tool_results:
+    - tool: "web-search-tool"
+      query: "rough heston model calibration 2026"
+      results_count: 12
+      relevance_score: 0.87
+  
+  authority_context:
+    authority_token: "AUTH-GR-88912-EXP-20260904"
+    scope: "22_RESEARCH/01_MATHEMATICS"
+    expiry: "2026-09-04T11:00:00Z"
+  
+  vector_embedding_ref: "emb://hnsw/shard-04/idx-89410"
 ```
 
----
+### 1.3 Tier 2: Semantic Memory
 
-## 2. Nine-Part AMOS Control Contract
+**Role**: Persistent knowledge graph; the long-term "understanding" of the system.
 
-### 2.1 ROLE
-Provides indexed, spatiotemporal episodic storage and associative replay for multi-agent reasoning traces, preventing amnesia while bounding memory volume through salience-driven decay.
+**Storage**: Dual representation (dense vectors + symbolic graph) as defined in `SEMANTIC_ASSOCIATIVE_GRAPH_SUBSTRATE`.
 
-### 2.2 INTERFACES
-- `IEventLogger`: Streams atomic episodic frames into local append-only WAL buffers.
-- `IRetrievalEngine`: Performs hybrid dense-sparse vector search across HNSW / DiskANN indexes.
-- `IConsolidationScheduler`: Manages sleep-phase memory consolidation and hippocampal-neocortical replay.
-- `IForgettingGovernor`: Prunes low-salience episodic frames according to the mathematical retention curve.
+**Key difference from Tier 1**: Semantic memory stores **generalized knowledge** (concepts, relationships, rules), not specific events. An episodic trace of "calibrated Heston model on 2026-09-04" becomes semantic knowledge "Heston model calibration requires Rough process parameters."
 
-### 2.3 DEPENDENCIES
-- `04_RUNTIME`: Session clocks and causal execution ticks.
-- `05_COGNITIVE_ORGANISM`: Metacognitive attention and working memory controllers.
-- `12_STATE`: Zero-copy Apache Arrow memory-mapped storage.
-- `18_SECURITY`: AES-256-GCM / Post-Quantum encryption of private memory blocks.
+### 1.4 Tier 3: Procedural Memory
 
-### 2.4 INVARIANTS
-1. **Append-Only Immutability**: Historical episodic logs are cryptographically sealed with BLAKE3 hash chains; past records cannot be edited in place.
-2. **Epistemic Isolation**: Episodic memory stores *what occurred* (`OBSERVATION` / `EVENT`), which does not automatically confer *canonical truth* (`CANON` / `LAW`).
-3. **Bounded Footprint**: Memory usage per agent is strictly bounded by active forgetting curves and compaction policies.
+**Role**: Validated skill execution blueprints and compiled routines.
 
-### 2.5 AUTHORITY
-Governed by `AMOS_CORE v4.4`, origin architect **Trang Phan**.
-
-### 2.6 PROVENANCE
-Engineered from cognitive neurobiology (hippocampal replay), vector search architectures (HNSW / DiskANN), and Ebbinghaus memory dynamics.
-
-### 2.7 TESTS
-- Unit verification of Ebbinghaus-Wiener exponential decay calculations.
-- Recall accuracy benchmarks under $10^6$ dense vector embeddings ($\text{Recall@10} \ge 98.2\%$).
-- Disaster recovery and WAL replay integrity tests following simulated sudden power loss.
-
-### 2.8 FAILURE MODES
-- Storage quota saturation from high-frequency telemetry logging.
-- Index fragmentation degrading retrieval latency.
-- Corrupted embedding vector pointers.
-
-### 2.9 RECOVERY
-- Automated memory compaction: Spatiotemporal clustering merges similar low-salience episodes into summary nodes.
-- Re-indexing of HNSW graphs in the background without blocking reads.
+**Contents**:
+- Skill definitions (from `07_SKILLS`)
+- Workflow templates (from `26_WORKFLOWS`)
+- Compiled WASM routines for deterministic operations
+- Optimized inference pipelines
 
 ---
 
-## 3. Mathematical Forgetting & Salience Retention Model
+## 2. Mathematical Forgetting & Retention Curve
 
-Memory retention probability $R(t)$ for an episodic frame $e$ at elapsed time $t$ follows the generalized Ebbinghaus-Wiener decay function:
+Memory retention probability $R(t)$ for episode $e$ follows the generalized Ebbinghaus-Wiener decay function:
 
 $$R(t) = \exp\left( -\frac{t}{S(e)} \right)$$
 
-where stability $S(e)$ is dynamically modulated by epistemic salience and cross-plane retrieval frequency:
+Where memory stability $S(e)$ is:
 
-$$S(e) = S_0 \cdot \left( 1 + \alpha \cdot \text{Salience}(e) \right)^{\beta \cdot \text{Rehearsals}(e)}$$
+$$S(e) = S_0 \cdot (1 + \alpha \cdot \text{Salience}(e))^{\beta \cdot \text{Rehearsals}(e)}$$
 
-### Parameter Definitions:
-- $S_0$: Baseline stability constant ($S_0 = 86,400\text{ seconds} \approx 24\text{ hours}$).
-- $\text{Salience}(e) \in [0.0, 1.0]$: Epistemic entropy delta and task impact factor:
-  $$\text{Salience}(e) = w_1 |\Delta \mathcal{H}_{\text{epistemic}}| + w_2 \cdot \text{Surprise}(e) + w_3 \cdot \text{RewardDelta}(e)$$
-- $\text{Rehearsals}(e) \in \mathbb{N}$: Cumulative count of associative queries referencing episode $e$.
-- $\alpha, \beta$: Hyperparameters calibrated to human memory consolidation benchmarks ($\alpha = 2.4$, $\beta = 1.15$).
+| Parameter | Symbol | Description |
+| :--- | :--- | :--- |
+| Baseline stability | $S_0$ | Default retention half-life |
+| Salience weight | $\alpha$ | How much epistemic importance boosts retention |
+| Rehearsal multiplier | $\beta$ | How much each retrieval strengthens the memory |
+| Salience | $\text{Salience}(e) \in [0, 1]$ | Epistemic entropy delta $\Delta H_{epistemic}$ |
+| Rehearsals | $\text{Rehearsals}(e)$ | Number of successful cross-plane associative retrievals |
+
+### 2.1 Retention Conditions
+
+A memory transitions through lifecycle states based on $R(t)$:
+
+| Condition | Lifecycle Transition |
+| :--- | :--- |
+| $R(t) > \theta_{\text{hot}}$ | Remains in current tier |
+| $\theta_{\text{cold}} < R(t) \le \theta_{\text{hot}}$ | HOT → WARM → COLD promotion |
+| $R(t) \le \theta_{\text{cold}}$ | COLD → EXPIRED (tombstone retained) |
+| Contradiction detected | Any tier → QUARANTINED |
+| TTL expired | Any tier → EXPIRED |
+
+---
+
+## 3. Temporal Replay Engine
+
+During idle cognitive epochs (system maintenance mode), the temporal replay engine executes:
+
+### 3.1 Episode Compression
+
+```text
+MULTIPLE EPISODES
+    │
+    ▼
+┌─────────────────────────┐
+│ PATTERN DETECTION       │  ← Identify recurring structures
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│ ABSTRACTION             │  ← Compress episodes into schemas
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│ SCHEMA PROMOTION        │  ← Promote to semantic memory (Tier 2)
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│ EPISODE ARCHIVAL        │  ← Original episodes compressed/archived
+└─────────────────────────┘
+```
+
+### 3.2 Topological Healing
+
+- Resolves broken wikilinks across the knowledge graph
+- Reconciles duplicate entities (same concept, different names)
+- Updates MOC indices to reflect current state
+- Repairs inconsistent cross-references
+
+### 3.3 Contradiction Resolution
+
+- Runs SMT checks on newly admitted claims against existing axioms in `01_CANON`
+- Identifies dormant contradictions (claims that contradicted but were never detected)
+- Quarantines affected claims; triggers re-evaluation
 
 ---
 
 ## 4. Storage Schema & Serialization
 
-### Episodic Frame JSON Schema:
 ```json
 {
   "$schema": "https://amos-os.org/schemas/v4.4/episodic_trace.json",
-  "episode_id": "EP-2026-0904-00128",
-  "timestamp_iso": "2026-09-04T14:10:00Z",
-  "causal_epoch": 4410,
-  "salience_score": 0.94,
-  "agent_id": "amos-epistemic-verifier-01",
-  "trigger_event": "LEAN4_PROOF_VERIFICATION_PASS",
+  "episode_id": "EP-2026-0904-001",
+  "timestamp_iso": "2026-09-04T10:30:00Z",
+  "causal_epoch": 4402,
+  "salience_score": 0.89,
+  "agent_id": "AGT-RESEARCH-01",
+  "episode_type": "task_completion",
   "state_delta": {
-    "hypotheses_validated": ["H-GKP-BOSONIC-01", "H-LORENTZ-02"],
-    "epistemic_entropy_change": -0.48,
-    "rscf_class_promoted": "DERIVED"
+    "hypotheses_validated": ["H-OFI-01", "H-ROUGH-HESTON-02"],
+    "epistemic_entropy_change": -0.42,
+    "knowledge_promoted": ["KN-2026-09-04-001"]
   },
-  "context_snapshot": {
-    "working_memory_hash": "a1b2c3d4e5f67890",
-    "active_tools_invoked": ["lean4_check", "blake3_sign"]
+  "reasoning_trace": {
+    "steps": 7,
+    "inference_rules": ["modus_ponens", "bayesian_update"],
+    "proof_trails": ["PT-88412"]
   },
-  "vector_embedding_ref": "emb://hnsw/shard-02/idx-94812",
-  "blake3_receipt_hash": "7f8e9d0c1b2a34567890abcdef1234567890abcdef1234567890abcdef1234"
+  "retention_metadata": {
+    "stability": 0.82,
+    "rehearsals": 3,
+    "last_accessed": "2026-09-04T10:30:00Z",
+    "access_count": 5
+  },
+  "vector_embedding_ref": "emb://hnsw/shard-04/idx-89410",
+  "compression_state": "UNCOMPRESSED",
+  "linked_episodes": ["EP-2026-0903-042", "EP-2026-0904-002"]
 }
 ```
 
 ---
 
-## 5. AMOS OS MECE Plane Integration
+## 5. Integration Points
 
-| AMOS Plane | Role & Responsibilities |
-| :--- | :--- |
-| **[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]]** | Provides execution timestamps and causal epoch clocks. |
-| **[[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM]]** | Directs sleep-phase consolidation and working memory retrieval queries. |
-| **[[10_MEMORY/10_MEMORY_MOC|10_MEMORY]]** | Core host plane managing physical vector databases, WAL logs, and decay timers. |
-| **[[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE]]** | Absorbs consolidated semantic claims into permanent knowledge graphs. |
-| **[[12_STATE/12_STATE_MOC|12_STATE]]** | Zero-copy shared memory registers for fast episodic retrieval caching. |
-| **[[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY]]** | Logs retrieval hit-rates, memory saturation, and consolidation metrics. |
-
----
-
-## 6. Structural Invariants & Governance
-
-1. **Deterministic Recall**: Identical query embeddings and filter predicates return identical candidate sets on a static snapshot.
-2. **Privacy & Sandboxing**: Private agent thoughts are encrypted with shard-specific keys; cross-agent recall requires explicit capability delegation.
-3. **No Unchecked Accumulation**: Total episodic storage volume is constrained to configured disk quotas; unreferenced episodes decay gracefully.
-4. **Lineage**: Governed under AMOS v4.4; origin steward **Trang Phan**.
+| Interface | Direction | Contract |
+| :--- | :--- | :--- |
+| **04_RUNTIME** | Write | Session events → episodic traces |
+| **02_KERNEL** | Read | Proof trails; reasoning chains |
+| **11_KNOWLEDGE** | Read/Write | Semantic memory promotion; knowledge graph updates |
+| **12_STATE** | Read/Write | Runtime state snapshots; epoch context |
+| **05_COGNITIVE_ORGANISM** | Read | Consciousness engine state; emotion engine traces |
+| **15_INTERFACES** | Write | BCI neural state vectors |
+| **17_OBSERVABILITY** | Write | Memory health; retention statistics |
 
 ---
 
-## 7. Cross-Plane References
+## 6. Failure Modes
 
-- Memory MOC: [[10_MEMORY/10_MEMORY_MOC|10_MEMORY MOC]]
-- Memory Contract: [[10_MEMORY/MEMORY_MEMORY_CONTRACT|MEMORY_MEMORY_CONTRACT]]
-- Fractal Learning Engine: [[10_MEMORY/FRACTAL_LEARNING_AND_MEMORY_REDUCTION_ENGINE|Fractal Learning Engine]]
-- Spintronic Synapse Monograph: [[10_MEMORY/SPINTRONIC_DOMAIN_WALL_AND_NEUROMORPHIC_CROSSBAR_MONOGRAPH|Spintronic Synapses]]
-- Knowledge MOC: [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE MOC]]
+| Failure | Detection | Recovery |
+| :--- | :--- | :--- |
+| **Working memory overflow** | Buffer capacity exceeded | Evict lowest-activation entries; log eviction |
+| **Episodic trace corruption** | Hash verification failure | Reconstruct from backup; quarantine corrupted trace |
+| **Forgetting curve miscalibration** | Retention statistics deviate from expected | Recalibrate $S_0$, $\alpha$, $\beta$ parameters |
+| **Replay engine stall** | Maintenance epoch timeout | Skip current replay cycle; log incomplete replay |
+| **Cross-tier inconsistency** | Semantic-episodic contradiction detection | Quarantine both; trigger re-evaluation |
+
+---
+
+## 7. Cross-Vault References
+
+- [[10_MEMORY/10_MEMORY_MOC|10_MEMORY_MOC]]
+- [[10_MEMORY/TIERED_MEMORY_LIFECYCLE_ARCHITECTURE|TIERED_MEMORY_LIFECYCLE_ARCHITECTURE]]
+- [[10_MEMORY/SEMANTIC_ASSOCIATIVE_GRAPH_SUBSTRATE|SEMANTIC_ASSOCIATIVE_GRAPH_SUBSTRATE]]
+- [[04_RUNTIME/CAUSAL_CONCURRENCY_MVCC|CAUSAL_CONCURRENCY_MVCC]]
+- [[12_STATE/12_STATE_MOC|12_STATE_MOC]]
+
+---
+
+```RSCF-NODE
+node_id: episodic_memory_substrate
+node_type: memory_specification
+domain: 10_MEMORY
+claim_class: AMOS_MODEL
+confidence_ceiling:
+  architecture_design: high
+  forgetting_curve_model: medium
+  consolidation_engine: medium
+falsifiers:
+  - Retention curve fails to predict actual recall accuracy
+  - Temporal replay introduces inconsistencies into semantic memory
+  - Working memory eviction removes critical active context
+```

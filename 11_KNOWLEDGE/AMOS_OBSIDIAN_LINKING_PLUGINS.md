@@ -1,30 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS_OBSIDIAN_LINKING_PLUGINS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Amos Obsidian Linking Plugins
 tags:
-  - knowledge
-  - obsidian
-  - linking
-  - plugins
-  - canonical-node-a
-  - canonical-node-b
-  - integration
-  - note-b
-  - reality
-  - canon
-  - amos-home
-  - amos-layer-maps
-  - amos-templates
-  - validation
-type: note
-source: 11_KNOWLEDGE
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # Domain MOC
@@ -36,7 +22,7 @@ rscf:
 
 ## Dynamic Discovery
 
-````text
+````dataview
 LIST
 FROM #domain/example
 SORT file.name ASC
@@ -775,7 +761,7 @@ SORT file.name ASC
 >
 > The source example is:
 >
-> ```text
+> ```dataview
 > TABLE file.mtime AS Updated, tags
 > FROM #moc OR #canon-group/tech-ai
 > SORT file.name ASC
@@ -2955,7 +2941,7 @@ rscf:
   scope: AMOS_knowledge
 ---
 
-## <% tp.file.title %>
+# <% tp.file.title %>
 
 > [!abstract] Epistemic Receipt
 > **Class:** MODEL
@@ -2995,7 +2981,7 @@ ______________________________________________________________________
 
 ## 117. Dataview — AMOS Linking Notes
 
-```text
+```dataview
 TABLE
   file.mtime AS Updated,
   type,
@@ -3013,7 +2999,7 @@ ______________________________________________________________________
 
 Source query:
 
-```text
+```dataview
 TABLE file.mtime AS Updated, tags
 FROM #moc OR #canon-group/tech-ai
 SORT file.name ASC
@@ -3027,7 +3013,7 @@ ______________________________________________________________________
 
 A **PROPOSED** vault-maintenance query:
 
-```text
+```dataview
 TABLE
   file.mtime AS Updated,
   length(file.inlinks) AS Inlinks,
@@ -3043,7 +3029,7 @@ ______________________________________________________________________
 
 ## 120. Dataview — RSCF Nodes
 
-```text
+```dataview
 TABLE
   type,
   status,
@@ -3057,7 +3043,7 @@ ______________________________________________________________________
 
 ## 121. Dataview — Derived Claims
 
-```text
+```dataview
 TABLE
   conclusion_class,
   confidence,
@@ -3071,7 +3057,7 @@ ______________________________________________________________________
 
 ## 122. Dataview — Plugin Notes
 
-```text
+```dataview
 TABLE
   status,
   document_version,

@@ -1,17 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-date: 2026-08-30
-epistemic_class: OBSERVATION
-provenance: GitHub README, not independently verified
-rscf:
-  claim_class: DERIVED
-  provenance: https://raw.githubusercontent.com/nuryslyrt/ORPHEUS/main/README.md
-  scope: AMOS_knowledge
-  state: SOURCE_CLAIM
-source: https://raw.githubusercontent.com/nuryslyrt/ORPHEUS/main/README.md
-title: ORPHEUS README — Raw Capture
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Orpheus Readme 2026 08 30
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # ORPHEUS README — Raw Capture
@@ -33,7 +37,7 @@ Source: `https://github.com/nuryslyrt/ORPHEUS`
 <a href="#quick-start">Quick Start</a> &nbsp;|&nbsp;
 <a href="https://thinkingtokens.ai/2026/04/orpheus-framework/">Blog Post</a> &nbsp;|&nbsp;
 <a href="PRINCIPLES.md">Principles</a> &nbsp;|&nbsp;
-<a href="USER-GUIDE.md">User Guide</a>
+<a href="USER-GUIDE.md">User Guide</a>         
 </td>
 </tr>
 </table>
@@ -236,7 +240,7 @@ cd ~/my-project             # has .orpheus/
 
 ```
 "Install this system as a standalone skill"
-## Now triggers by name from any directory
+# Now triggers by name from any directory
 ```
 
 ## What Gets Generated

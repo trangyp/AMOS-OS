@@ -1,44 +1,16 @@
 ---
-title: Canon x Knowledge
-type: cognitive
-source: 25_COGNITIVE_MATRIX
-artifact: CANON_X_KNOWLEDGE.md
-artifact_id: amos_25_cognitive_matrix_canon_x_knowledge
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 25_COGNITIVE_MATRIX
-segment: 25_COGNITIVE_MATRIX
-artifact_kind: MATRIX
-path: 25_COGNITIVE_MATRIX/CANON_X_KNOWLEDGE.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Canon X Knowledge
 tags:
-  - amos-os
-  - cognitive-matrix
-  - canon_x_knowledge
-  - structural_review
-  - epistemic_boundary
-  - provenance
-  - rscf
-  - canon/matrix
-  - validation
-  - law/L19-proof-capsule
-  - canon
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_CLAIM
-implementation_status: CONCEPTUAL
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: AMOS_cognitive_matrix
-  confidence_ceiling: SOURCE_DEPENDENT
-  regime: AMOS_OS_MODEL
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 ## Canon x Knowledge — structural review
@@ -141,7 +113,7 @@ PROPOSAL → COMMIT
 
 ______________________________________________________________________
 
-## 5. Directionality
+# 5. Directionality
 
 The primary governing direction is:
 
@@ -570,3 +542,10 @@ I could not independently traverse the referenced AMOS corpus files in this turn
 
 ```
 **MOC:**
+
+
+```
+
+```
+```
+```

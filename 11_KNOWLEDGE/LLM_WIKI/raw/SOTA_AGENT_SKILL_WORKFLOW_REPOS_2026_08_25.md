@@ -1,17 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: SOTA Agent Skill / Workflow / Orchestration Repos — Raw Capture
-source: web_search
-date: '2026-08-25'
-epistemic_class: OBSERVATION
-provenance: Web search + README snippets; not independently verified
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: active__AMOS_OS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Sota Agent Skill Workflow Repos 2026 08 25
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # SOTA Agent, Skill and Workflow Repositories — Raw Capture

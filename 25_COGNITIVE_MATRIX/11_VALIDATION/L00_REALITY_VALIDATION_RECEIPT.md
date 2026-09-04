@@ -1,26 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: L00 REALITY VALIDATION RECEIPT
-type: note
-source: 25_COGNITIVE_MATRIX/11_VALIDATION
-rscf:
-  state: SOURCE_CLAIM
-  class: STRUCTURAL
-  provenance:
-    - internal
-  freshness: EVERGREEN
-  falsifiers: []
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: L00 Reality Validation Receipt
 tags:
-  - note
-  - 11-validation
-  - promotion-gates
-  - binding-rules
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - validation
-canon-group: canon/cognitive-matrix
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 ## ---title: "L00_REALITY_ENVIRONMENT — Execution Validation Receipt" type: document tags: [note]
@@ -2130,7 +2120,7 @@ This receipt closes the **L00 executable-validator binding gap**, not every L00 
 
 ______________________________________________________________________
 
-**Related:** [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]] · [[25_COGNITIVE_MATRIX/11_VALIDATION/PROMOTION_GATES|PROMOTION_GATES]] · [[25_COGNITIVE_MATRIX/10_ROUTING/BINDING_RULES|BINDING_RULES]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · l00_reality_validator
+**Related:** [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]] · [[25_COGNITIVE_MATRIX/11_VALIDATION/PROMOTION_GATES|PROMOTION_GATES]] · [[25_COGNITIVE_MATRIX/10_ROUTING/BINDING_RULES|BINDING_RULES]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · l00_reality_validator
 
 ______________________________________________________________________
 
@@ -2154,7 +2144,7 @@ RSCF-RELATIONS:
 
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 
-- INDEXED_BY: [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+- INDEXED_BY: [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 

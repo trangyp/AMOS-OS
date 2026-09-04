@@ -116,6 +116,8 @@ Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic clas
 - `amos-c02-math-compute-master` (primary skill)
 - `amos-c02-math-compute-agent.json` (primary agent)
 - Vault source: `11_KNOWLEDGE/AMOS_C02_MATH_COMPUTE_MASTER_KNOWLEDGE.md`
+- Arvix Evidence Bridge: [[07_SKILLS/amos-c02-math-compute-master/references/arvix_mathematics_computation_evidence_bridge|arvix_mathematics_computation_evidence_bridge]]
+- External Arvix Hub: [[00_ROOT/ARXIV_RSCF_KNOWLEDGE_NODE|ARXIV_RSCF_KNOWLEDGE_NODE (66,026 papers)]]
 
 ## Provenance
 

@@ -1,30 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: L00_REALITY_ENVIRONMENT — Skills
-type: skill
-source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: L00 Reality Environment Primitives Cognitive Matrix Skills
 tags:
-  - amos
-  - reality-environment
-  - skills
-  - capability
-  - routing
-  - evidence
-  - provenance
-  - rscf
-  - governance
-  - hml
-  - control-plane
-  - validation
-  - domain/cognitive-matrix
-  - skill
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # L00_REALITY_ENVIRONMENT — Skills

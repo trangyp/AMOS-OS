@@ -1,34 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: NEUROSYNCAI_MODEL_REGISTRY
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Neurosyncai Model Registry
 tags:
-  - models
-  - domain
-  - neurosyncai
-  - registry
-  - validation
-  - architecture
-  - diagnosis
-  - signals
-  - memory
-  - integration
-  - neurosyncai-domain
-  - canon
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
-  - rscf/state/observation
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
-type: registry
-source: 13_MODELS/04_DOMAIN
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 Below is the **full expanded Obsidian-ready `NEUROSYNCAI_MODEL_REGISTRY.md`**. The supplied seed establishes the registry slot, but it does **not** provide verified native NeuroSyncAI model definitions. Accordingly, the expansion defines the registry contract, neural-model epistemics, provenance, validation, safety, RSCF/H-M-L, lifecycle, and promotion semantics while keeping the actual NeuroSyncAI model inventory explicitly `UNKNOWN/GAP` rather than inventing it.
@@ -202,7 +184,7 @@ rscf:
 
 ---
 
-## 0. Status
+# 0. Status
 
 The source artifact begins as:
 
@@ -269,7 +251,7 @@ It does not promote unknown substantive NeuroSyncAI content to verified canon.
 
 ______________________________________________________________________
 
-## 1. Strongest Current Classification
+# 1. Strongest Current Classification
 
 ```text
 REGISTRY IDENTITY

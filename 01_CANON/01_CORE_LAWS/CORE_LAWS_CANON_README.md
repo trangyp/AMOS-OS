@@ -1,22 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: CORE LAWS CANON README
-type: note
-source: 01_CANON/01_CORE_LAWS
-rscf:
-  state: SOURCE_CLAIM
-  class: STRUCTURAL
-  provenance:
-    - internal
-  freshness: EVERGREEN
-  falsifiers: []
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Core Laws Canon Readme
 tags:
-  - note
-  - 01-core-laws
-  - readme
-canon-group: canon/core-laws
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 ## ---title: "AMOS Core Laws Canon" type: document tags: [note]
@@ -1834,7 +1828,7 @@ This artifact therefore replaces the empty structural placeholder but does **not
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

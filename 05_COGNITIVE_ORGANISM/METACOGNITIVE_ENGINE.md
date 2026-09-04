@@ -1,228 +1,302 @@
 ---
-title: Metacognitive Engine
-type: cognitive
-source: 05_COGNITIVE_ORGANISM
-artifact: METACOGNITIVE_ENGINE.md
-artifact_id: amos_05_cognitive_organism_metacognitive_engine
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 05_COGNITIVE_ORGANISM
-segment: 05_COGNITIVE_ORGANISM
-artifact_kind: ENGINE
-path: 05_COGNITIVE_ORGANISM/METACOGNITIVE_ENGINE.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Metacognitive Engine
 tags:
-  - amos-os
-  - cognitive
-  - organism
-  - engine
-  - canon_placeholder
-  - rscf
-  - canon/cognitive
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Metacognitive Engine
 
-## 0. Status
+> [!abstract] Engine Specification
+> Defines the self-monitoring, self-evaluating, and self-regulating layer for AMOS Full Brain OS — enabling the system to observe its own cognitive processes, assess confidence, detect errors, and adapt strategies.
+> **Epistemic status:** AMOS_MODEL specification; not yet validated as empirical claim.
 
-`METACOGNITIVE_ENGINE.md` is an **ADD-ONLY placeholder** for the **Cognitive Organism** plane segment at `05_COGNITIVE_ORGANISM`.
-
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
-
-```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
-```
-
-Origin architect / steward:
-
-**Trang Phan**
-
-______________________________________________________________________
+---
 
 ## 1. Purpose
 
-This artifact reserves the **Metacognitive Engine** slot within the Cognitive Organism plane. The Cognitive Organism plane governs the organism-level cognitive assembly above kernels and below agents.
+The Metacognitive Engine implements **cognition about cognition** — the system's ability to monitor, evaluate, and regulate its own thinking processes. This is what enables AMOS to:
 
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+- **Know what it knows** (and doesn't know)
+- **Detect when it's confused** or uncertain
+- **Adapt its processing strategy** based on task demands
+- **Learn from its own errors** and adjust
 
-______________________________________________________________________
+Metacognition is not a luxury — it is essential for bounded intelligence operating in open-world domains.
 
-## 2. Non-Purpose
+---
 
-This placeholder MUST NOT be used to claim:
+## 2. Metacognitive Architecture
 
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
-
-______________________________________________________________________
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+```text
+                    METACOGNITIVE ARCHITECTURE
+                    ════════════════════════════
+                              │
+         ┌────────────────────┼────────────────────┐
+         │                    │                    │
+    KNOWLEDGE              MONITORING           CONTROL
+    MONITORING             SUBSYSTEM            SUBSYSTEM
+         │                    │                    │
+    ┌────┴────┐          ┌────┴────┐          ┌────┴────┐
+    │ What    │          │ How     │          │ When to │
+    │ do I    │          │ well am  │          │ change  │
+    │ know?   │          │ I doing? │          │ strategy│
+    └─────────┘          └─────────┘          └─────────┘
 ```
 
-______________________________________________________________________
+### 2.1 Knowledge Monitoring (Knowing What You Know)
 
-## 4. Contract discipline
+Tracks the system's **epistemic state** across all knowledge domains:
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+| Dimension | Metric | Range |
+| :--- | :--- | :--- |
+| **Coverage** | Fraction of domain covered by knowledge base | [0, 1] |
+| **Confidence** | Average confidence of knowledge claims | [0, 1] |
+| **Freshness** | Recency of knowledge updates | [0, 1] |
+| **Consistency** | Fraction of non-contradictory claims | [0, 1] |
+| **Source Quality** | Fraction of claims with verified provenance | [0, 1] |
 
-______________________________________________________________________
+**Knowledge State Vector:**
 
-## 5. Gaps
+$$\mathbf{K}_d = [C_d, \text{Conf}_d, F_d, \text{Cons}_d, Q_d]$$
 
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
+For domain $d$.
 
-______________________________________________________________________
+### 2.2 Performance Monitoring (Knowing How Well You're Doing)
 
-## 6. Worked semantics (target)
+Real-time tracking of cognitive process quality:
 
-Given an operation touching `05_COGNITIVE_ORGANISM · ENGINE` within the Cognitive Organism plane:
+| Metric | Computation | Use |
+| :--- | :--- | :--- |
+| **Accuracy** | Correct outputs / total outputs | Overall quality |
+| **Efficiency** | Useful work / total compute | Resource optimization |
+| **Consistency** | Same input → same output rate | Reliability |
+| **Latency** | Response time vs. target | SLA compliance |
+| **Error Rate** | Errors / total operations | Quality trend |
 
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+### 2.3 Strategy Control (Knowing When to Change)
 
-______________________________________________________________________
+Based on monitoring signals, the engine triggers strategy transitions:
 
-## 7. Promotion-gate checklist
+```text
+PERFORMANCE DEGRADATION DETECTED
+    ↓
+┌─────────────────────────────────────┐
+│ 1. DIAGNOSE: What went wrong?       │
+│ 2. PRESCRIBE: What should change?   │
+│ 3. IMPLEMENT: Apply new strategy    │
+│ 4. MONITOR: Did it help?            │
+└─────────────────────────────────────┘
+```
 
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+---
 
-______________________________________________________________________
+## 3. Confidence Calibration
 
-## 8. Cross-plane bindings (target)
+### 3.1 Expected Calibration Error (ECE)
 
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+The engine monitors its own calibration using Expected Calibration Error:
 
-______________________________________________________________________
+$$\text{ECE} = \sum_{b=1}^{B} \frac{|n_b|}{n} \cdot |\text{acc}(b) - \text{conf}(b)|$$
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+Where:
+- $B$: Number of confidence bins
+- $n_b$: Number of samples in bin $b$
+- $\text{acc}(b)$: Accuracy in bin $b$
+- $\text{conf}(b)$: Average confidence in bin $b$
 
-______________________________________________________________________
+Target: $\text{ECE} < 0.05$ (well-calibrated).
 
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+### 3.2 Calibration Actions
 
-______________________________________________________________________
+| ECE Level | Action |
+| :--- | :--- |
+| $\text{ECE} < 0.03$ | Excellent — no adjustment |
+| $0.03 \leq \text{ECE} < 0.08$ | Good — monitor closely |
+| $0.08 \leq \text{ECE} < 0.15$ | Fair — apply Platt scaling |
+| $\text{ECE} \geq 0.15$ | Poor — recalibrate + reduce confidence |
+
+---
+
+## 4. Error Detection Patterns
+
+### 4.1 Internal Consistency Checks
+
+```yaml
+consistency_checks:
+  - name: "Self-contradiction"
+    pattern: "Claim A and Claim ¬A both asserted"
+    response: "Flag for resolution, quarantine"
+    
+  - name: "Circular reasoning"
+    pattern: "Claim A supports Claim B which supports Claim A"
+    response: "Flag as potential circularity"
+    
+  - name: "Stale reference"
+    pattern: "Referenced entity no longer exists"
+    response: "Update or remove reference"
+    
+  - name: "Scope violation"
+    pattern: "Claim extends beyond evidence domain"
+    response: "Add scope limitation annotation"
+```
+
+### 4.2 Process Monitoring Signals
+
+| Signal | Threshold | Response |
+| :--- | :--- | :--- |
+| Response latency spike | >2x baseline | Investigate bottleneck |
+| Confidence decline | >3 consecutive drops | Strategy adjustment |
+| Error rate increase | >1.5x baseline | Escalate + review |
+| Memory pressure | >80% utilization | Consolidate + prune |
+| Contradiction spike | >5 per cycle | Quarantine + resolve |
+
+---
+
+## 5. Adaptive Strategy Selection
+
+### 5.1 Strategy Library
+
+| Strategy | When to Use | Tradeoff |
+| :--- | :--- | :--- |
+| **Fast & Frugal** | Time-critical, familiar domain | Speed over accuracy |
+| **Deep Deliberation** | Novel, high-stakes domain | Accuracy over speed |
+| **Exploratory** | Low-confidence, information-seeking | Broad over narrow |
+| **Conservative** | High-risk, error-sensitive | Safety over efficiency |
+| **Collaborative** | Multi-agent opportunity | Shared burden |
+
+### 5.2 Strategy Selection Algorithm
+
+```python
+def select_strategy(task, context, performance_history):
+    """Select cognitive strategy based on metacognitive assessment."""
+    
+    # Assess task characteristics
+    novelty = assess_novelty(task, context)
+    stakes = assess_stakes(task)
+    time_pressure = assess_time_pressure(task)
+    
+    # Assess current state
+    confidence = get_domain_confidence(task.domain)
+    recent_errors = performance_history.error_rate(last_n=10)
+    
+    # Strategy selection
+    if time_pressure and confidence > 0.8:
+        return "fast_and_frugal"
+    elif stakes > 0.7 and recent_errors > 0.1:
+        return "conservative"
+    elif novelty > 0.7:
+        return "exploratory"
+    elif confidence < 0.5:
+        return "collaborative"
+    else:
+        return "deep_deliberation"
+```
+
+---
+
+## 6. Integration with Other Engines
+
+### 6.1 Causal Inference Engine
+- Metacognition monitors causal reasoning quality
+- Detects when causal models need refinement
+- Triggers causal model rebuilding when errors accumulate
+
+### 6.2 Emotion Engine
+- Emotional state influences metacognitive sensitivity
+- DISTRESSED state → hyper-vigilant monitoring
+- CALM state → reduced monitoring (can miss issues)
+
+### 6.3 Intuition Engine
+- Metacognition evaluates intuition accuracy
+- Adjusts intuition confidence based on track record
+- Can override intuition when calibration is poor
+
+### 6.4 Memory Engine
+- Metacognition monitors memory retrieval quality
+- Detects memory contamination or staleness
+- Triggers memory maintenance when quality drops
+
+---
+
+## 7. Configuration
+
+```yaml
+metacognitive_engine_config:
+  enabled: true
+  monitoring_interval_ms: 100
+  ece_target: 0.05
+  error_rate_alert_threshold: 0.1
+  confidence_decline_threshold: 3
+  latency_spike_multiplier: 2.0
+  strategy_selection_enabled: true
+  calibration_method: "platt_scaling"
+  calibration_retrain_interval: 1000
+  consistency_check_enabled: true
+  max_concurrent_monitors: 10
+```
+
+---
+
+## 8. Failure Modes
+
+| Failure Mode | Detection | Response |
+| :--- | :--- | :--- |
+| Overconfidence | ECE > 0.15 | Reduce all confidence by factor |
+| Underconfidence | ECE < 0.01 but slow performance | Allow confidence increase |
+| Monitoring blindness | Consistent errors not detected | Force meta-monitoring review |
+| Strategy lock | Same strategy always selected | Introduce stochastic selection |
+| Calibration drift | ECE gradually increasing | Retrain calibration model |
+
+---
+
+## 9. Epistemic Boundary
+
+> [!warning] Recursive Limitation
+> The Metacognitive Engine monitors cognition, but who monitors the monitor? AMOS cannot achieve perfect self-knowledge — there is always an unobserved residual. This engine provides **useful approximations** of self-knowledge, not perfect introspection. The system's self-model is always a simplified version of its actual processing.
+
+---
+
+## 10. Cross-Vault References
+
+- [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
+- [[05_COGNITIVE_ORGANISM/CAUSAL_INFERENCE_ENGINE|CAUSAL_INFERENCE_ENGINE]]
+- [[05_COGNITIVE_ORGANISM/EMOTION_ENGINE|EMOTION_ENGINE]]
+- [[05_COGNITIVE_ORGANISM/INTUITION_ENGINE|INTUITION_ENGINE]]
+- [[10_MEMORY/EPISODIC_MEMORY_SUBSTRATE|EPISODIC_MEMORY_SUBSTRATE]]
+- [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]]
+
+---
 
 RSCF-NODE
 
 node_id: amos_05_cognitive_organism_metacognitive_engine
-
 node_type: engine
-
 path: 05_COGNITIVE_ORGANISM/METACOGNITIVE_ENGINE.md
-
 claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
+rscf_state: specification
+canonical_status: SPECIFICATION_NOT_IMPLEMENTED
 
 RSCF-RELATIONS:
-
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
 - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
+- MONITORS: [[05_COGNITIVE_ORGANISM/CAUSAL_INFERENCE_ENGINE|CAUSAL_INFERENCE_ENGINE]]
+- MONITORS: [[05_COGNITIVE_ORGANISM/INTUITION_ENGINE|INTUITION_ENGINE]]
+- INTEGRATES_WITH: [[05_COGNITIVE_ORGANISM/EMOTION_ENGINE|EMOTION_ENGINE]]
+- FEEDS: [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]]
 
 **MOC:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]

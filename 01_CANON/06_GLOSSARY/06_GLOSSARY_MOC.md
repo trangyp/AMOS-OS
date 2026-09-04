@@ -1,31 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: 06 Glossary MOC
-type: moc
-source: 01_CANON/06_GLOSSARY
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 06 Glossary Moc
 tags:
-  - 06-glossary
-  - canon/universe
-  - amos-framework-glossary
-  - canonical-glossary
-  - canon-aliases
-  - cross-framework-alias-table
-  - deprecated-terms
-  - heritage-glossary
-  - neurosyncai-glossary
-  - qls-qcla-glossary
-  - trang-framework-glossary
-  - tss-tpe-glossary
-  - ubi-glossary
-  - universe-omega-glossary
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 06 Glossary — Map of Content

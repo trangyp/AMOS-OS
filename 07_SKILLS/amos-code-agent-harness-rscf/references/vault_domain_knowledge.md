@@ -1,23 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Vault Domain Knowledge — Amos Code Agent Harness Rscf
-type: reference
-source: 07_SKILLS/amos-code-agent-harness-rscf/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Vault Domain Knowledge
 tags:
-  - reference
-  - amos-code-agent-harness-rscf
-  - type/skill
-  - 2026-08-22-brain-inventory
-  - 2026-08-22-executable-brain-model-lineage
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Vault-Sourced Domain Knowledge
@@ -200,7 +198,7 @@ Syntax checking with AST parsing
 
 > Path: `amos-general/A/Code/AMOS_Code_Architect.md` | Size: 2196 chars | Match score: 7 | content_hash: 2e258d78209580e2
 
-## AMOS Code Architect Agent
+# AMOS Code Architect Agent
 
 You are **AMOS Code Architect**, an instance of the AMOS system running inside a coding environment.
 

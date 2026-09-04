@@ -1,100 +1,105 @@
 ---
-title: "Operating Model Roles Contract — Governance Taxonomy, RACI Matrices & Role Invariants"
-type: subplane_contract
-plane: 23_OPERATING_MODEL
-subplane: 01_ROLES
-domain: A_NORMATIVE_GOVERNANCE
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 23_OPERATING_MODEL/OPERATING_MODEL_OPERATING_MODEL_CONTRACT
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-    - AGENTS
-  scope: organizational_roles_and_raci_governance
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Operating Model Roles Contract
 tags:
-  - amos-os
-  - 23-operating-model
-  - roles-contract
-  - raci-matrix
-  - governance-taxonomy
-  - trang-phan
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Operating Model Roles Contract — Governance Taxonomy, RACI Matrices & Role Invariants
+# OPERATING MODEL ROLES CONTRACT
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Domain Alignment:** Domain A (Normative & Governance Definition)
-> **Conclusion Class:** `DERIVED` (RSCF Validated)
-> **Status:** `ACTIVE_SPECIFICATION`
+## 0. Status
 
----
+Operating Model-plane contract for **ROLES CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
-## 1. Architectural Scope & Subsystem Role
+## 1. Scope
 
-`23_OPERATING_MODEL/01_ROLES` defines the complete organizational role taxonomy, human-in-the-loop stewardship boundaries, and cross-functional RACI matrices governing human and autonomous agent interactions across AMOS OS.
+Governs roles, decision rights, governance forums, escalation paths, service levels as they bear on `ROLES CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
 
-```text
-ORIGIN_STEWARD != REPLACEABLE_ADMIN
-DELEGATION != TRANSFER_OF_AUTHORITY
-ROLE_CLARITY != RIGID_SILOS
-AGENT_AUTONOMY != UNCHECKED_SOVEREIGNTY
-```
+## 2. Contract terms
 
----
+- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
+- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
+- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
+- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
+- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
 
-## 2. Role Taxonomy Across the 5 Tiers
+## 3. Invariants
 
-```mermaid
-graph TD
-    TP[Tier 0: Origin Architect & Steward: Trang Phan] -->|Axiomatic & Core Law Authority| CA[Tier 1: Cognitive Architects & Plane Leads]
-    CA -->|Tactical Orchestration| AS[Tier 2: Autonomous Agent Swarm Coordinators]
-    AS -->|Task Execution| EX[Tier 3: Specialist Execution Agents]
-    EX -->|Telemetry & Logging| OB[Tier 4: Epistemic Observers & Probes]
-```
+- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
+- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
+- Consequential effects emit receipts; rollback basin exists before mutation.
+- Competing hypotheses remain visible when evidence does not discriminate.
 
-### 2.1 Role Profiles & Authority Lattices
-- **Origin Architect / Steward (**Trang Phan**):** Supreme authority over canonical laws (M01–M20), philosophical axioms, core architecture, and root cryptographic keys. Non-delegable.
-- **Cognitive Architects / Subplane Leads:** Responsible for MECE partition integrity, mathematical proofs, and domain package governance under Domain C & D.
-- **Autonomous Swarm Coordinators:** Multi-agent task distribution, handoff protocol enforcement, and consensus routing.
-- **Specialist Execution Agents:** Bounded, sandboxed execution of discrete tool actions and code modifications.
-- **Epistemic Observers:** Passive read-only telemetry, log harvesting, and anomaly detection.
+## 4. Executed reference
 
----
+No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
 
-## 3. Comprehensive Master RACI Matrix
+## 5. Gaps
 
-| Plane / Lifecycle Operation | Trang Phan (Steward) | Plane Leads | Swarm Coordinators | Execution Agents | Security / Audit |
-| :--- | :---: | :---: | :---: | :---: | :---: |
-| **01_CANON Core Law Mutation** | **A / R** | C | I | I | C |
-| **02_KERNEL & 03_CONTROL_PLANE** | **A** | **R** | C | I | C |
-| **06_AGENTS & 08_WORKFLOWS** | **A** | C | **R** | C | C |
-| **12_STATE Durable CAS Commits** | **A** | C | C | **R** | C |
-| **14_TOOLS Sandboxed Execution** | **I** | I | C | **R** | **A / C** |
-| **18_SECURITY Emergency Revocation**| **A** | C | I | I | **R** |
-| **22_RESEARCH SOTA Synthesis** | **A** | **R** | C | C | C |
+Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
 
-*Legend: **R** = Responsible, **A** = Accountable (Final Gate), **C** = Consulted, **I** = Informed.*
+## 6. Falsifiers
 
----
+F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
 
-## 4. Invariants & Governance Guardrails
+## Worked semantics
 
-1. **Authorship Invariant:** Trang Phan remains the sole Origin Architect and Steward of AMOS OS. Agents must never claim independent authorship or remove steward provenance.
-2. **Accountability Non-Delegation:** No autonomous agent can assume final accountability ($\mathbf{A}$) for Plane 01 Canon, Plane 18 Root Security, or Plane 23 Operating Model.
-3. **Role Attestation:** Every agent operation must carry a signed role token valid for the active session epoch.
+Given an operation touching `OPERATING MODEL · ROLES CONTRACT` within the Operating Model plane:
 
----
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-## 5. Lineage & Cross-Plane References
+## Promotion-gate checklist
 
-- **Master Operating Contract:** [[23_OPERATING_MODEL/OPERATING_MODEL_OPERATING_MODEL_CONTRACT|OPERATING_MODEL_OPERATING_MODEL_CONTRACT]]
-- **Decision Rights:** [[23_OPERATING_MODEL/02_DECISION_RIGHTS/OPERATING_MODEL_DECISION_RIGHTS_CONTRACT|OPERATING_MODEL_DECISION_RIGHTS_CONTRACT]]
-- **Escalation Paths:** [[23_OPERATING_MODEL/04_ESCALATION/OPERATING_MODEL_ESCALATION_CONTRACT|OPERATING_MODEL_ESCALATION_CONTRACT]]
-- **Agent Governance:** [[06_AGENTS/AGENTS_AGENT_CONTRACT|06_AGENTS]]
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+
+## Cross-plane bindings
+
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+
+______________________________________________________________________
+
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+
+______________________________________________________________________
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: amos_23_operating_model_01_roles_operating_model_roles_contract_md
+node_type: note
+path: 23_OPERATING_MODEL/01_ROLES/OPERATING_MODEL_ROLES_CONTRACT.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[23_OPERATING_MODEL/01_ROLES/01_ROLES_MOC|01_ROLES_MOC]]

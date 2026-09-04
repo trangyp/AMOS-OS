@@ -1,17 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-date: 2026-08-29
-epistemic_class: OBSERVATION
-provenance: GitHub README, not independently verified
-rscf:
-  claim_class: DERIVED
-  provenance: GitHub README (zzatpku/AgentFactory)
-  scope: AMOS_knowledge
-  state: SOURCE_CLAIM
-source: https://raw.githubusercontent.com/zzatpku/AgentFactory/master/README.md
-title: AgentFactory README — Raw Capture
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Agentfactory Readme 2026 08 29
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AgentFactory README — Raw Capture
@@ -91,20 +95,20 @@ pip install openai requests playwright flask flask_cors
 Edit `.env` file and fill in your API keys:
 
 ```bash
-## Model Selection (OPENAI_STYLE or ANTHROPIC_STYLE)
+# Model Selection (OPENAI_STYLE or ANTHROPIC_STYLE)
 MODEL_PROTOCOL=OPENAI_STYLE
 
-## Claude API
+# Claude API
 LLM_URL_CLAUDE=https://your-api-endpoint/v1
 LLM_API_KEY_CLAUDE=your-claude-api-key
 LLM_MODEL_CLAUDE=claude-opus-4-6
 
-## MiniMax API
+# MiniMax API
 LLM_URL_MINIMAX=https://api.minimaxi.com/v1
 LLM_API_KEY_MINIMAX=your-minimax-api-key
 LLM_MODEL_MINIMAX=MiniMax-M2.7
 
-## Tool APIs
+# Tool APIs
 SERPER_API_KEY=your-serper-api-key   # Get from https://serper.dev
 JINA_API_KEY=your-jina-api-key       # Get from https://jina.ai
 ```

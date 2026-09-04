@@ -1,22 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: SKILL NAMING AUDIT
-type: skill
-name: skill-naming-audit
-version: 1.0.0
-source: 00_ROOT/00_ROOT_NAMING_STANDARD.md
-description: AMOS skill naming audit produced from .devin/skills across vault and runtime trees.
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Skill Naming Audit
 tags:
-  - note
-  - 07-skills
-  - type/skill
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Skill Naming Audit

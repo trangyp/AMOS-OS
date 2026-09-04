@@ -25,6 +25,10 @@ tags:
   - neural-telemetry
   - fpga-bci
   - ultra-wideband
+rscf:
+  state: DERIVED
+  provenance: authoritative_AMOS_OS_structure
+  scope: 22_RESEARCH
 ---
 
 # Ultra-High-Density Neuropixels Probes, Real-Time 10,000-Channel Spike Sorting, and Ultra-Wideband Neural Telemetry in AMOS Neuro-OS

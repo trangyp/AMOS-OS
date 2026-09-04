@@ -1,26 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS AUSTRALIA ENGINES MODEL
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Australia Engines Model
 tags:
   - canon-group/tech-ai
-  - canon/model
   - rscf/claim
-  - rscf/state/derived
-  - topic/amos-australia-engines-model
-  - engine
-  - system-scan-agent
-  - automation-profiles
-  - amos-simulation-kernel-v0-math-foundations
-  - trang-framework-recursive-ontology-dynamics
-type: document
-source: 11_KNOWLEDGE/engine
-rscf:
-  state: AMOS_MODEL
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: engine_specification
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Australia Engines Model

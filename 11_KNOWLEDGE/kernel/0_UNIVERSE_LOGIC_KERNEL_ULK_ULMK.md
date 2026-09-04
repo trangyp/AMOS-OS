@@ -1,22 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: 0_UNIVERSE_LOGIC_KERNEL_ULK_ULMK
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 0 Universe Logic Kernel Ulk Ulmk
 tags:
-  - knowledge
-  - kernel
-  - universe
-  - logic
-  - ulk
-  - ulmk
-type: note
-source: 11_KNOWLEDGE/kernel
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 0 UNIVERSE LOGIC KERNEL ULK ULMK
@@ -95,7 +94,7 @@ ______________________________________________________________________
 Everything below is **DERIVED / PROPOSED** and must not be confused with original source metadata.
 
 ```yaml
-## DERIVED / PROPOSED
+# DERIVED / PROPOSED
 
 aliases:
   - Universe Logic Kernel
@@ -3861,7 +3860,7 @@ ______________________________________________________________________
 ## 205. Proposed Difference Hierarchy
 
 ```yaml
-## PROPOSED
+# PROPOSED
 
 difference:
   atomic:
@@ -3886,7 +3885,7 @@ ______________________________________________________________________
 ## 206. Proposed Capacity Hierarchy
 
 ```yaml
-## PROPOSED
+# PROPOSED
 
 capacity:
   nominal:
@@ -3905,7 +3904,7 @@ ______________________________________________________________________
 ## 207. Proposed Causal Relation Type
 
 ```yaml
-## PROPOSED
+# PROPOSED
 
 relation:
   source_symbol: R
@@ -3928,7 +3927,7 @@ ______________________________________________________________________
 ## 208. Proposed Boundary Type
 
 ```yaml
-## PROPOSED
+# PROPOSED
 
 boundary:
   symbol: B
@@ -3947,7 +3946,7 @@ ______________________________________________________________________
 ## 209. Proposed Feedback Receipt
 
 ```yaml
-## PROPOSED
+# PROPOSED
 
 feedback_pulse:
   state_before:
@@ -3967,7 +3966,7 @@ ______________________________________________________________________
 ## 210. Proposed Collapse Receipt
 
 ```yaml
-## PROPOSED
+# PROPOSED
 
 collapse_receipt:
   boundary:
@@ -3986,7 +3985,7 @@ ______________________________________________________________________
 ## 211. Proposed Emergence Receipt
 
 ```yaml
-## PROPOSED
+# PROPOSED
 
 emergence_receipt:
   layer_1:
@@ -4626,7 +4625,7 @@ ______________________________________________________________________
 ## 253. Proposed Formal Kernel Schema
 
 ```yaml
-## DERIVED / PROPOSED
+# DERIVED / PROPOSED
 
 ULK:
   version: "1.0"
@@ -4699,7 +4698,7 @@ ______________________________________________________________________
 ## 254. Proposed RSCF Node
 
 ```yaml
-## PROPOSED
+# PROPOSED
 
 RSCF-NODE:
   node_id: universe_logic_kernel_v1
@@ -4744,7 +4743,7 @@ ______________________________________________________________________
 
 ## 255. Proposed Dataview — Kernel Artifacts
 
-```text
+```dataview
 TABLE
   file.link AS "Kernel Artifact",
   type,
@@ -4759,7 +4758,7 @@ ______________________________________________________________________
 
 ## 256. Proposed Dataview — Source Claims
 
-```text
+```dataview
 TABLE
   file.link,
   rscf.provenance AS "Provenance",
@@ -4773,7 +4772,7 @@ ______________________________________________________________________
 
 ## 257. Proposed Dataview — Kernel Links
 
-```text
+```dataview
 LIST
 FROM "11_KNOWLEDGE"
 WHERE contains(file.outlinks, )

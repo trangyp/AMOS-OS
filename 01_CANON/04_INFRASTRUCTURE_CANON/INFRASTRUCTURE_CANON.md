@@ -1,70 +1,21 @@
 ---
-type: canon
-source: 01_CANON/04_INFRASTRUCTURE_CANON
-artifact_id: AMOS-INFRASTRUCTURE-CANON
-name: INFRASTRUCTURE_CANON
-title: "AMOS Infrastructure Canon — Substrate, Resource, Deployment, Resilience, and Operational Foundations"
-document_version: 2.0.0
-canon_version: 4.4
-amos_core_target: v4.4
-status: ACTIVE_CANON_CANDIDATE
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
 conclusion_class: AMOS_MODEL
-rscf_state: derived
-canon_group: infrastructure
-canon_type: infrastructure-canon
-origin_architect: Trang Phan
-steward: Trang Phan
-created: 2026-08-25
-updated: 2026-08-25
+epistemic_class: SOURCE_CLAIM
+topic: Infrastructure Canon
 tags:
-  - amos
-  - canon
-  - universe
-  - amos-os
-  - amos-core
-  - amos-core-v4-4
-  - infrastructure
-  - substrate
-  - compute
-  - storage
-  - network
-  - deployment
-  - runtime
-  - resilience
-  - availability
-  - durability
-  - resource-governance
-  - topology
-  - isolation
-  - fault-domain
-  - persistence
-  - state
-  - provenance
-  - observability
-  - security
-  - recovery
-  - rollback
-  - rscf
-  - causal-lineage
-  - canon-group/infrastructure
-  - canon/framework
-  - canon/model
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
-  - rscf/state/derived
-  - readme
-  - architecture
-  - placement-rules
-  - amos-core-laws
-  - law-hierarchy
-  - operating-model
-aliases:
-  - AMOS Infrastructure Canon - Infrastructure Canon - AMOS Infrastructure Foundation - AMOS Ope
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Infrastructure Canon

@@ -1,63 +1,21 @@
 ---
-title: Heritage Intelligence Custom Domain Engine
-type: domain
-source: 21_DOMAINS/10_CUSTOM
-artifact: HERITAGE_INTELLIGENCE_DOMAIN.md
-artifact_id: amos_21_domains_10_custom_heritage_intelligence_domain
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 21_DOMAINS
-segment: 21_DOMAINS/10_CUSTOM
-artifact_kind: DOMAIN_ENGINE
-path: 21_DOMAINS/10_CUSTOM/HERITAGE_INTELLIGENCE_DOMAIN.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Heritage Intelligence Domain
 tags:
-  - amos-os
-  - domain
-  - vault
-  - 10_custom
-  - heritage_intelligence_domain
-  - 32_layer_custom_engine
-  - ancestral_decision_science
-  - rscf
-  - canon_candidate
-  - canon/domain
-  - heritage-intelligence-master
-  - amos-x-heritage
-  - heritage-handbook
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER
-    - 21_DOMAINS/10_CUSTOM/10_CUSTOM_MOC
-    - AMOS_CORPUS
-  scope:
-    - DOMAIN_CUSTOM
-    - HERITAGE_CUSTOM_ENGINE
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  heritage_master:
-    artifact:
-      -   - HERITAGE_INTELLIGENCE_MASTER
-  matrix_binding:
-    artifact:
-      -   - AMOS_X_HERITAGE
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  domain_structure: VERIFIED_SOURCE_STRUCTURE
-  decision_engine: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Heritage Intelligence Custom Domain Engine

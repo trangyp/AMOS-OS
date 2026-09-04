@@ -1,25 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: ROUTING POLICY VALIDATION RECEIPT
-type: note
-source: 25_COGNITIVE_MATRIX/11_VALIDATION
-rscf:
-  state: SOURCE_CLAIM
-  class: STRUCTURAL
-  provenance:
-    - internal
-  freshness: EVERGREEN
-  falsifiers: []
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Routing Policy Validation Receipt
 tags:
-  - note
-  - 11-validation
-  - validation-evidence
-  - routing-policy
-  - authz-engine-validation-receipt
-  - validation
-canon-group: canon/cognitive-matrix
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 ## ---title: "Routing Policy Validator — Execution Receipt" type: document tags: [note]

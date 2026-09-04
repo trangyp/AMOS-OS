@@ -9,7 +9,10 @@ parent_skill: none
 domain: agent
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
+  conclusion_class: AMOS_MODEL
 tags:
+  rscf-state: DERIVED
+  conclusion_class: AMOS_MODEL
   - type/skill
   - type/skill
   - domain/agent-systems
@@ -53,7 +56,6 @@ law_compliance:
   - L18
 license: MIT
 steward: Trang Phan
----
 
 # [[AGENTS|AGENTS]] README
 
@@ -191,7 +193,7 @@ ______________________________________________________________________
 - **Parent**: `none` — routes to this skill when agent specialization is needed
 - **Peers**: Other skills in the `agent` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
-- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Workflow**: Each skill has a corresponding workflow in `26_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
 
 ## Evaluation

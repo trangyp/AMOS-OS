@@ -1,29 +1,20 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS BUSINESS FINANCE SUPER ENGINE
-type: finance
-source: 11_KNOWLEDGE/engine
-canon-group: human-system
+canon-group: meta
 canon-type: framework
 rscf-state: source-claim
-topic: amos-business-finance-super-engine
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Business Finance Super Engine
 tags:
   - canon-group/tech-ai
-  - canon/framework
   - rscf/claim
   - rscf/provenance
   - rscf/state/source-claim
-  - topic/amos-business-finance-super-engine
-  - engine
-  - trang-framework-recursive-ontology-dynamics
+  - misc
 created: 2026-08-22
-rscf:
-  state: AMOS_MODEL
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: engine_specification
+---
 ---
 
 # AMOS BUSINESS FINANCE SUPER ENGINE

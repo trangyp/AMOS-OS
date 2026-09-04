@@ -1,62 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: L22 ATOMIC REASONING
-type: reasoning
-source: 01_CANON/01_CORE_LAWS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: L22 Atomic Reasoning
 tags:
-  - canon
-  - core_laws
-  - reasoning
-  - atomic_reasoning
-  - atomic_steps
-  - atomicity
-  - decomposition
-  - checkability
-  - local_validity
-  - global_validity
-  - chain_validity
-  - replayable_chains
-  - deterministic_replay
-  - pinned_inputs
-  - reasoning_graph
-  - loop_detection
-  - cycle_detection
-  - dependency_graph
-  - proof_chain
-  - canon/universe
-  - validation
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-  - law/L17-rscf
-  - law/L18-gmef
-  - law/L19-proof-capsule
-  - law/L20-adversarial
-  - law/L21-epistemic-regime
-  - law/L16-hml
-  - provenance-topology
-  - persistent-provenance
-  - competing-hypotheses
-  - scope-regime-firewall
-  - causal-firewall
-  - mvcc-cas
-  - atomic-multi-rscf-reasoning
-  - causal-epoch-finality
-  - shard-local-finalization
-  - proof-based-coordination-avoidance
-  - law/L10-failure-recovery
-  - law/L11-knowledge-memory
-  - law/L15-fractal-knowledge
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: core_laws
-  canonical_status: CONDITIONAL
-  specification_status: PROPOSED_SPECIFICATION
-  node_id: l22_atomic_reasoning
-  node_type: note
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # L22 Atomic Reasoning Laws
@@ -5626,4 +5580,9 @@ until authoritative reasoning canon supplies discriminating validation.
 
 **Conclusion class: CONDITIONAL / AMOS_MODEL.**
 
+```
+```
+
+```
+```
 ```

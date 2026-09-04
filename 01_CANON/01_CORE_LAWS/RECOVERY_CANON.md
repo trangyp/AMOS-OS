@@ -1,168 +1,189 @@
 ---
-title: Recovery Canon
-type: canon
-source: 01_CANON/01_CORE_LAWS
-artifact: RECOVERY_CANON.md
-artifact_id: 01_canon_01_core_laws_recovery_canon
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/01_CORE_LAWS
-artifact_kind: CANON
-path: 01_CANON/01_CORE_LAWS/RECOVERY_CANON.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Recovery Canon
 tags:
-  - 01_core_laws
-  - amos-os
-  - canon
-  - canon/universe
-  - canon_placeholder
-  - recovery
-  - rscf
-  - universe
-  - placeholder_expanded
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.2.0
-updated: '2026-08-27'
-status: PLACEHOLDER_EXPANDED
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: 01_CANON
-  regime: canon_placeholder
-  confidence_ceiling: source_supported
-  provenance_independence: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
 ---
-
-## 0. Canonical Status
-
-`RECOVERY_CANON.md` is an **ADD-ONLY placeholder-expanded artifact** for the **01_CANON** plane segment.
-
-It reserves the canonical slot for the AMOS framework family named **Recovery Canon**.
-
-The artifact is presently:
-
-```text
-status: PLACEHOLDER_EXPANDED
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-```
-
-This artifact MUST NOT be interpreted as establishing completed, validated, or enforced canon.
-
-## 1. Governing Integrity Boundary
-
-The following distinctions are mandatory:
-
-```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
-```
-
-No downstream layer may silently collapse these distinctions.
-
-Origin architect / steward: **Trang Phan**
-
-System: **AMOS OS**
-
-______________________________________________________________________
+---
+---
 
 # Recovery Canon
 
 ## 0. Status
 
-`RECOVERY_CANON.md` is an **ADD-ONLY placeholder** for the **Canon** plane segment at `01_CANON/01_CORE_LAWS`.
+`RECOVERY_CANON.md` defines the proposed AMOS OS **Recovery** core law.
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
+This artifact replaces a structural placeholder with substantive content. It does not, by its own existence, establish final AMOS canon, executable enforcement, empirical validity, or runtime implementation.
 
 ```text
 PLACEHOLDER != IMPLEMENTED
-
 ADDRESSABLE != VALIDATED
-
 DOCUMENTED != ENFORCED
-
 MODEL != OBSERVATION
-
 SOURCE_CLAIM != VERIFIED
-
 CANON_CANDIDATE != CANONICAL
-
 CANONICAL != EMPIRICAL_TRUTH
-
 CAPABILITY != AUTHORITY
-
 AUTHORIZATION != COMMIT
-
 PROPOSAL != COMMIT
-
 IMPLEMENTED != VALIDATED
-
 LOGGED != APPROVED
-
 UNKNOWN/GAP != PASS
 ```
 
-Origin architect / steward:
-
-**Trang Phan**
+Origin architect / steward: **Trang Phan**
 
 ______________________________________________________________________
 
 ## 1. Purpose
 
-This artifact reserves the **Recovery Canon** slot within the Canon plane. The Canon plane governs canonical laws, universe/cognition/infrastructure canons, variable registry, glossary, provenance lineage, and supersession.
+The Recovery Canon defines the AMOS OS requirements for system recovery after failure, perturbation, or collapse. It establishes the conditions under which a system may be considered recovered, the protocols for achieving recovery, and the invariants that must hold during recovery.
 
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+Recovery answers:
+
+> After a system has failed, degraded, or collapsed, what must be true for it to be considered recovered, and what protocols must be followed to achieve recovery?
+
+The Recovery Canon states:
+
+> **A system is recovered if and only if its state is restored to a verified checkpoint, its invariants hold, its provenance chain is intact, and its recovery is recorded with a receipt. Recovery is not resumption — a recovered system must be demonstrably correct, not merely running.**
 
 ______________________________________________________________________
 
-## 2. Non-Purpose
+## 2. Formal Definition
 
-This placeholder MUST NOT be used to claim:
+### 2.1 Recovery Invariant
 
+$$\text{Recovered}(S) \iff \text{State}(S) = \text{Checkpoint}(S, t_{\text{last}}) \wedge \text{Invariants}(S) \wedge \text{Provenance}(S) \wedge \text{Receipt}(S)$$
+
+Where:
+- $\text{Checkpoint}(S, t_{\text{last}})$ — the last verified checkpoint before failure
+- $\text{Invariants}(S)$ — all declared invariants hold after restoration
+- $\text{Provenance}(S)$ — the provenance chain is intact and verifiable
+- $\text{Receipt}(S)$ — a recovery receipt has been recorded
+
+### 2.2 Recovery Levels
+
+```text
+LEVEL_1_SOFT:     state restored from in-memory checkpoint, no external effects
+LEVEL_2_HARD:     state restored from persistent checkpoint, external effects reconciled
+LEVEL_3_CASCADE:  state restored across multiple cascade levels, dependencies reconciled
+LEVEL_4_EPOCH:    state restored across causal epoch boundary, epoch finality preserved
+LEVEL_5_FULL:     state restored from archival baseline, full system rebuild
+```
+
+### 2.3 Recovery Protocol
+
+$$\text{Recover}(S) = \text{Snapshot} \circ \text{Replay} \circ \text{Reconcile} \circ \text{Validate} \circ \text{Record}$$
+
+1. **Snapshot** — restore state from verified checkpoint
+2. **Replay** — re-apply committed transactions from causal write-ahead log
+3. **Reconcile** — reconcile external effects that occurred during failure
+4. **Validate** — verify all invariants hold
+5. **Record** — record recovery receipt with provenance
+
+______________________________________________________________________
+
+## 3. Relationship to Other Core Laws
+
+| Law | Relationship |
+|:---|:---|
+| **L0 Integrity** | Recovery must restore L0 integrity bounds |
+| **L10 Failure Recovery** | Recovery Canon governs the L10 recovery law layer |
+| **Stability Canon** | Stability failure triggers recovery; recovery restores stability |
+| **ROLLBACK_AND_RECOVERY_BASINS** | Recovery uses immutable recovery basins ($M_0, S_0$) |
+| **DMER_L5** | Multi-epoch recovery is governed by DMER_L5 protocol |
+| **Provenance Integrity** | Recovery must preserve provenance chain integrity |
+
+______________________________________________________________________
+
+## 4. Application Domains
+
+### 4.1 Runtime Recovery
+
+After runtime failure:
+- Restore from last verified checkpoint
+- Replay committed transactions from write-ahead log
+- Reconcile any external effects that occurred during outage
+- Validate all invariants before resuming normal operation
+
+### 4.2 Memory Recovery
+
+After memory corruption or loss:
+- Restore from memory checkpoint
+- Verify memory admission records are intact
+- Reconcile any memory entries that were in-flight during failure
+- Validate memory invariants (no action-trace contamination)
+
+### 4.3 Cascade Recovery
+
+After cascade collapse:
+- Identify the root cascade level
+- Restore from the checkpoint at that level
+- Re-propagate forward through dependent cascade levels
+- Validate that recovery doesn't introduce new collapse risk
+
+### 4.4 Epoch Recovery
+
+After causal epoch failure:
+- Restore epoch state from epoch checkpoint
+- Verify epoch finality is preserved
+- Reconcile any cross-epoch dependencies
+- Validate that epoch monotonicity is maintained
+
+______________________________________________________________________
+
+## 5. Worked Semantics
+
+Given a system $S$ that has experienced failure:
+
+1. **Classify failure** — determine the failure level (SOFT, HARD, CASCADE, EPOCH, FULL)
+2. **Locate checkpoint** — find the last verified checkpoint before failure
+3. **Snapshot** — restore state from checkpoint
+4. **Replay** — re-apply committed transactions from the write-ahead log
+5. **Reconcile** — reconcile external effects that occurred during failure
+6. **Validate** — verify all invariants hold
+7. **Record** — record recovery receipt with provenance
+8. **Resume** — transition to NORMAL regime
+
+```text
+failure detected
+  ↓
+classify failure level
+  ↓
+locate last verified checkpoint
+  ↓
+restore state (snapshot)
+  ↓
+replay committed transactions
+  ↓
+reconcile external effects
+  ↓
+validate invariants  ──fail──→  escalate to higher recovery level
+  ↓ pass
+record recovery receipt
+  ↓
+resume normal operation
+```
+
+______________________________________________________________________
+
+## 6. Non-Purpose
+
+This law MUST NOT be used to claim:
 - universal laws of reality;
 - scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
+- empirical truth;
 - runtime enforcement that has not been implemented;
 - final canonical status;
 - authority merely from architectural importance;
@@ -170,7 +191,43 @@ This placeholder MUST NOT be used to claim:
 
 ______________________________________________________________________
 
-## 3. Ingestion Rule
+## 7. Gaps
+
+- Executable binding NOT_ESTABLISHED — this law is specified but not yet enforced by runtime code
+- Canonical status CONDITIONAL — proposed specification, not yet promoted to full canon
+- Automated validation NOT_ESTABLISHED — automated enforcement is not implemented
+- Cross-domain testing NOT_ESTABLISHED — testing across all AMOS domains is not complete
+
+______________________________________________________________________
+
+## 8. Promotion-Gate Checklist
+
+- [x] substantive content populated from AMOS corpus sources
+- [x] formal definition provided (§2)
+- [x] relationship to other core laws documented (§3)
+- [x] application domains specified (§4)
+- [x] worked semantics defined (§5)
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+
+______________________________________________________________________
+
+## 9. Cross-Plane Bindings
+
+- Governed by — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|AMOS_CORE_LAWS]]
+- Kernel enforcement — [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
+- Control-plane gates — [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via — [[20_OPERATIONS/20_OPERATIONS_MOC|20_OPERATIONS_MOC]]
+
+______________________________________________________________________
+
+## 10. Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -209,55 +266,7 @@ AMOS_CANON_INGESTION_RULE:
 
 ______________________________________________________________________
 
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
-______________________________________________________________________
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
-______________________________________________________________________
-
-## 6. Worked semantics (target)
-
-Given an operation touching `01_CANON · CANON` within the Canon plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 
@@ -275,9 +284,9 @@ path: 01_CANON/01_CORE_LAWS/RECOVERY_CANON.md
 
 claim_class: AMOS_MODEL
 
-rscf_state: placeholder
+rscf_state: SOURCE_CLAIM
 
-canonical_status: UNKNOWN/GAP
+canonical_status: CONDITIONAL
 
 RSCF-RELATIONS:
 

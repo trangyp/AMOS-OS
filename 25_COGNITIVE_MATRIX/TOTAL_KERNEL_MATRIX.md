@@ -1,97 +1,16 @@
 ---
-title: Total Kernel Cross-Plane Matrix
-type: cognitive
-source: 25_COGNITIVE_MATRIX
-artifact: TOTAL_KERNEL_MATRIX.md
-artifact_id: amos_25_cognitive_matrix_total_kernel_matrix
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 25_COGNITIVE_MATRIX
-segment: 25_COGNITIVE_MATRIX
-artifact_kind: MATRIX_TABLE
-path: 25_COGNITIVE_MATRIX/TOTAL_KERNEL_MATRIX.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Total Kernel Matrix
 tags:
-  - amos-os
-  - cognitive-matrix
-  - vault
-  - total_kernel_matrix
-  - kernel_routing
-  - kernel_convergence
-  - 02_kernel_convergence
-  - ulk
-  - murk
-  - go_board
-  - mvcc
-  - cas
-  - atomic_multi_rscf
-  - failure_recovery
-  - meta_logic
-  - qcla
-  - dcp
-  - proof_compiler
-  - fail_closed
-  - rscf
-  - canon_candidate
-  - canon/matrix
-  - ulk-logic-kernel
-  - k-mvcc
-  - k-cas
-  - k-atomic-multi-rscf
-  - k-failure-recovery
-  - mvcc-cas
-  - canon
-  - reality-x-ulk-matrix
-  - total-canon-matrix
-  - total-framework-matrix
-  - k-rscf
-  - k-hml
-  - k-fail-closed
-  - k-provenance
-  - k-governed-evolution
-  - amos-core-v4-4
-version: 2.0.0
-updated: '2026-08-28'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: PASSED_CONSTITUTIONAL_TESTS
-executable_binding: ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - 02_KERNEL/02_KERNEL_MOC
-    - 02_KERNEL/ULK_LOGIC_KERNEL
-    - 25_COGNITIVE_MATRIX/REALITY_X_ULK
-    - AMOS_CORPUS
-  scope:
-    - COGNITIVE_MATRIX
-    - MASTER_KERNEL_MATRIX
-    - KERNEL_CONVERGENCE
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  kernel_moc:
-    artifact:
-      -   - 02_KERNEL_MOC
-  ulk:
-    artifact:
-      -   - ULK_LOGIC_KERNEL
-  cognitive_matrix:
-    artifact:
-      -   - 25_COGNITIVE_MATRIX_MOC
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  matrix_structure: VERIFIED_SOURCE_STRUCTURE
-  cross_plane_routing: SOURCE_DEFINED_MODEL
-  runtime_enforcement: FAIL_CLOSED_GATED
-  validation_status_claim: SOURCE_ESTABLISHED
-  executable_binding_claim: SOURCE_ESTABLISHED
-  independent_runtime_verification: NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
-  independent_test_reproduction: NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # Total Kernel Cross-Plane Matrix — Full Canon Expansion

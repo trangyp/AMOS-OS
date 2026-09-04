@@ -1,61 +1,21 @@
 ---
-title: Full Brain Bootstrap Specification
-type: runtime
-source: 04_RUNTIME/01_BOOT
-artifact: FULL_BRAIN_BOOTSTRAP.md
-artifact_id: amos_04_runtime_01_boot_full_brain_bootstrap
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 04_RUNTIME
-segment: 04_RUNTIME/01_BOOT
-artifact_kind: BOOTSTRAP_SPEC
-path: 04_RUNTIME/01_BOOT/FULL_BRAIN_BOOTSTRAP.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Full Brain Bootstrap
 tags:
-  - amos-os
-  - runtime
-  - vault
-  - 01_boot
-  - full_brain_bootstrap
-  - system_initialization
-  - rscf
-  - canon_candidate
-  - canon/runtime
-  - amos-full-brain-os-architecture
-  - ubi-x-full-brain
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - 11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE
-    - 04_RUNTIME/01_BOOT/01_BOOT_MOC
-    - AMOS_CORPUS
-  scope:
-    - RUNTIME_BOOT
-    - FULL_BRAIN_BOOTSTRAP
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  boot_moc:
-    artifact: 04_RUNTIME/01_BOOT/01_BOOT_MOC
-  full_brain:
-    artifact: 11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE
-  matrix_binding:
-    artifact: 25_COGNITIVE_MATRIX/UBI_X_FULL_BRAIN
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  spec_structure: VERIFIED_SOURCE_STRUCTURE
-  boot_sequence: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Full Brain OS Bootstrap Specification

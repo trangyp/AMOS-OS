@@ -1,29 +1,16 @@
 ---
-title: AMOS OS Root Change Log
-type: changelog
-source: 00_ROOT
-artifact: 00_ROOT_CHANGE_LOG.md
-artifact_id: AMOS_ROOT_CHANGE_LOG_000
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-domain: ROOT GOVERNANCE / CHANGE CONTROL / PROVENANCE
-artifact_class: ROOT_CHANGE_LEDGER_SPECIFICATION
-version: 1.0.0
-updated: '2026-08-26'
-status: PROPOSED_SPECIFICATION
-epistemic_class: MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: UNKNOWN/GAP
-validation_status: UNKNOWN/GAP
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: 00 Root Change Log
 tags:
-  - note
-  - canon/root
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: root_index
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AMOS OS — 00 Root Change Log
@@ -3099,7 +3086,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ______________________________________________________________________
 

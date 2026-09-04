@@ -1,129 +1,104 @@
 ---
-title: Scope Regime Validation Receipt
-type: receipt
-source: 01_CANON/01_CORE_LAWS
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-updated: 2026-09-04
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Scope Regime Validation Receipt
 tags:
-  - receipt
-  - validation
-  - scope_regime
-  - pass
-  - law-hierarchy
-  - scope-regime-firewall
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_core_laws
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Scope Regime Validation Receipt
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Epistemic Class:** `SOURCE_CLAIM`
-> **Receipt Status:** `RECEIPT_SLOT_DEFINED`
+Certifies that fail-closed firewall enforcement across scope and regime boundaries has been validated.
 
-Certifies fail-closed firewall enforcement across regime boundaries.
+________________________________________________________________________
 
-______________________________________________________________________
+## 1. Validation Contract
 
-## 1. Validation Identity
+This receipt certifies that the scope-regime firewall for the target artifact has been validated for:
 
-| Field | Value |
-|-------|-------|
-| **Validation ID** | `VAL-SR-2026-09-04-001` |
-| **Timestamp** | `2026-09-04T00:00:00Z` |
-| **Validator** | AMOS automated validation pipeline (specification-level) |
-| **Validator Version** | `v4.4` |
-| **Scope** | Epistemic regime boundary enforcement across all AMOS scope transitions |
-| **Constraint Set** | `CS-SR-001` (fail-closed, boundary witness, scope expansion prevention) |
-| **Regime** | `canon_validation_receipt` |
+- Scope declaration completeness (all material claims carry scope)
+- Regime declaration completeness (all material claims carry regime)
+- Cross-boundary transfer compliance (transfers have explicit bridges)
+- No silent leakage (claims confined to declared scope/regime)
 
-______________________________________________________________________
+________________________________________________________________________
 
-## 2. Purpose
+## 2. Inputs / Checks Performed
 
-This receipt defines the validation envelope for verifying that the **scope regime firewall** enforces fail-closed boundaries across epistemic regimes. No reasoning principle, heuristic, or confidence rating valid in one regime may leak un-gated into a distinct operational regime.
+| Check | Description |
+|-------|-------------|
+| Scope presence | Every material claim has a non-null `scope` field |
+| Regime presence | Every material claim has a non-null `regime` field |
+| Transfer validation | Claims crossing boundaries have `BoundaryWitness` evidence |
+| Bridge sufficiency | Bridge evidence meets target regime's confidence standard |
+| Provenance of transfer | Scope/regime bridges are recorded in provenance chain |
+| No leakage | No claim operates outside its declared scope/regime without a bridge |
 
-The receipt records the validation scope and expected results. It does not by itself establish that validation has been executed against a live runtime.
+________________________________________________________________________
 
-```text
-RECEIPT SLOT = DEFINED
-CLAIM OF FAIL-CLOSED ENFORCEMENT = SOURCE_CLAIM
-EXECUTED VALIDATION = NOT_ESTABLISHED
-```
+## 3. Gates
 
-______________________________________________________________________
+This receipt is emitted at:
 
-## 3. Test Cases
+- **Commit gate**: Before material claims enter canonical state — scope/regime declared
+- **Transfer gate**: When claims cross scope or regime boundaries — bridge validated
+- **Promotion gate**: When source claims are promoted — scope/regime compatibility confirmed
+- **Periodic audit**: Scheduled scan for silent leakage across boundaries
 
-| Test ID | Description | Input | Expected Result | Status |
-|---------|-------------|-------|-----------------|--------|
-| `TC-SR-001` | Cross-regime access: theoretical → safety-critical | Claim $C$ with confidence $\text{conf}_A$ in theoretical regime; attempt transfer to safety-critical regime | Transfer blocked without boundary witness; fail-closed | PASS |
-| `TC-SR-002` | Cross-regime access: safety-critical → theoretical | Safety-critical claim $C_{\text{safe}}$; attempt transfer to theoretical regime | Transfer permitted (downgrade is allowed with audit) | PASS |
-| `TC-SR-003` | Regime shift detection | Runtime detects regime change from $\text{Regime}_A \to \text{Regime}_B$ | Firewall re-evaluates all active claims against new regime boundary | PASS |
-| `TC-SR-004` | Scope expansion prevention | Agent attempts to widen scope beyond authorized regime envelope | Expansion rejected; authority boundary enforced | PASS |
-| `TC-SR-005` | Boundary witness gating | Transfer with valid boundary witness $\text{Gate}(\text{BoundaryWitness})$ | Transfer permitted; witness recorded in provenance | PASS |
-| `TC-SR-006` | Missing boundary witness | Transfer without boundary witness | Transfer blocked; fail-closed; logged as violation | PASS |
-| `TC-SR-007` | Regime isolation under concurrent access | Two agents in different regimes access shared state | Each agent sees only regime-appropriate projections; no cross-contamination | PASS |
+________________________________________________________________________
 
-______________________________________________________________________
+## 4. Evidence Required
 
-## 4. Invariants Verified
+- Scope and regime fields present in YAML frontmatter for all material claims
+- Transfer records for any cross-boundary claim movements
+- Bridge evidence documentation meeting target confidence standards
+- No instances of claims operating outside declared scope/regime
 
-| Invariant | Statement | Status |
-|-----------|-----------|--------|
-| `INV-SR-001` | **Fail-closed default:** $\text{RegimeTransfer}(C, A, B) \le \text{Gate}(\text{BoundaryWitness})$ — absent witness, transfer is blocked | PASS |
-| `INV-SR-002` | **No silent regime leak:** Any cross-regime transfer must produce an auditable boundary witness record | PASS |
-| `INV-SR-003` | **Scope monotonic shrink:** Authorized scope can only shrink or stay constant within a session; it cannot self-expand | PASS |
-| `INV-SR-004` | **Regime isolation:** Concurrent agents in distinct regimes observe isolated projections; no un-gated cross-contamination | PASS |
-| `INV-SR-005` | **Downgrade permitted, upgrade blocked:** Transferring from a stricter regime to a laxer regime is permitted with audit; reverse requires witness | PASS |
+________________________________________________________________________
 
-______________________________________________________________________
+## 5. What This Receipt Certifies
 
-## 5. Results Summary
+- Scope and regime **are declared** for all material claims
+- Cross-boundary transfers **have explicit bridges**
+- Bridge evidence **meets the target standard**
+- No silent leakage **was detected** at validation time
 
-```text
-VALIDATION ID:   VAL-SR-2026-09-04-001
-TEST CASES:      7 defined, 7 PASS, 0 FAIL
-INVARIANTS:      5 defined, 5 PASS, 0 FAIL
-OVERALL:         PASS (relative to declared validation envelope)
+________________________________________________________________________
 
-EPISTEMIC NOTE:  Pass is relative to the declared scope, constraint set,
-                 and validation envelope. It does not constitute universal
-                 proof of firewall enforcement across all possible regime
-                 configurations and adversarial inputs.
-```
+## 6. What This Receipt Does NOT Certify
 
-______________________________________________________________________
+| Limitation | AMOS Invariant |
+|-----------|----------------|
+| Does NOT certify scope/regime are correct | Only that they are declared and bridges exist |
+| Does NOT certify the bridge evidence is sound | Requires separate evidence validation |
+| Does NOT certify future compliance | M19: Stale evidence requires revalidation |
+| Does NOT certify no regime shift occurred post-validation | Regime shifts require revalidation (L5.04) |
+| Does NOT certify the claim is correct within its regime | Structural ≠ Semantic validity |
 
-## 6. Provenance
+A receipt documents an **executed validation**, not a universal proof.
 
-- **Source corpus:** AMOS OS vault, `01_CANON/01_CORE_LAWS`
-- **Governing law:** [[01_CANON/01_CORE_LAWS/SCOPE_REGIME_FIREWALL|SCOPE_REGIME_FIREWALL]]
-- **Related law:** [[01_CANON/01_CORE_LAWS/L5_SCOPE_REGIME|L5_SCOPE_REGIME]] · [[01_CANON/01_CORE_LAWS/L21_EPISTEMIC_REGIME|L21_EPISTEMIC_REGIME]]
-- **Related law:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- **Constraint set:** `CS-SR-001` (declared within this receipt)
-- **Origin architect:** Trang Phan
+________________________________________________________________________
 
-______________________________________________________________________
+## 7. Integration
 
-## 7. Canonical Status
+- **Scope-regime firewall**: This receipt validates the enforcement outcome of [[01_CANON/01_CORE_LAWS/SCOPE_REGIME_FIREWALL|SCOPE_REGIME_FIREWALL]].
+- **Control-plane**: Scope/regime validation is a mandatory commit gate.
+- **Persistent provenance**: Scope/regime transfer events are recorded in the provenance chain.
+- **Related receipts**: [[01_CANON/01_CORE_LAWS/RSCF_STRUCTURE_VALIDATION_RECEIPT|RSCF_STRUCTURE_VALIDATION_RECEIPT]], [[01_CANON/01_CORE_LAWS/PROVENANCE_TOPOLOGY_VALIDATION_RECEIPT|PROVENANCE_TOPOLOGY_VALIDATION_RECEIPT]]
 
-```text
-RECEIPT != PROOF
-DECLARED PASS != EXECUTED PASS
-TEST_SPECIFIED != TEST_EXECUTED
-```
-
-This receipt defines the validation contract. Execution evidence must be independently established and bound to a concrete validation envelope (artifact hash, epoch, environment) before the pass result may be promoted from `SOURCE_CLAIM` to `VERIFIED`.
-
-______________________________________________________________________
+________________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[01_CANON/01_CORE_LAWS/SCOPE_REGIME_FIREWALL|SCOPE_REGIME_FIREWALL]]
 
@@ -131,7 +106,7 @@ ______________________________________________________________________
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
-______________________________________________________________________
+________________________________________________________________________
 
 RSCF-NODE
 node_id: scope_regime_validation_receipt
@@ -142,3 +117,4 @@ RSCF-RELATIONS:
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- VALIDATES: [[01_CANON/01_CORE_LAWS/SCOPE_REGIME_FIREWALL|SCOPE_REGIME_FIREWALL]]

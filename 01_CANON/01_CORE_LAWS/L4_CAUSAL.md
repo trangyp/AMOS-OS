@@ -1,30 +1,21 @@
 ---
-type: note
-source: 01_CANON/01_CORE_LAWS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: L4 Causal
 tags:
-  - canon
-  - core_laws
-  - causal
-  - causality
-  - dependency
-  - provenance
-  - rscf
-  - governance
-  - canon/universe
-  - law/L0-integrity
-  - law/L1-epistemic
-  - law/L2-provenance
-  - law/L3-dependency
-title: L4 Causal Laws
-origin_architect: Trang Phan
-status: AMOS_MODEL
-canon_status: PROPOSED_CANON_CONTENT
-epistemic_class: AMOS_MODEL
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: core_laws
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # L4 Causal Laws
@@ -2228,7 +2219,7 @@ AMOS_MODEL / PROPOSED_CANON_CONTENT
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

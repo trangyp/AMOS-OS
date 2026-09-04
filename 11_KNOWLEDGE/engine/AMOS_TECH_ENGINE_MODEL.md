@@ -1,27 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS TECH ENGINE MODEL
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Tech Engine Model
 tags:
   - canon-group/tech-ai
-  - canon/model
   - rscf/claim
   - rscf/provenance
-  - rscf/state/derived
-  - topic/amos-tech-engine-model
-  - engine
-  - system-scan-agent
-  - automation-profiles
-  - amos-simulation-kernel-v0-math-foundations
-  - trang-framework-recursive-ontology-dynamics
-type: document
-source: 11_KNOWLEDGE/engine
-rscf:
-  state: AMOS_MODEL
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: engine_specification
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Tech Architecture Kernel Model

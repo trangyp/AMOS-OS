@@ -1,22 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Vault Domain Knowledge — Amos Awareness Inference Governor
-type: reference
-source: 07_SKILLS/amos-awareness-inference-governor/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Vault Domain Knowledge
 tags:
-  - reference
-  - amos-awareness-inference-governor
-  - type/skill
-  - architecture
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Vault-Sourced Domain Knowledge
@@ -113,7 +112,7 @@ AMOS = Body + Cells + Neurons + Organs + Fascia + Blood + Memory + Perception + 
 
 > Path: `biology-ubi/AMOS_LIVING_BODY_RUNTIME_FINAL_COMPLETE.md` | Size: 8383 chars | Match score: 5
 
-## AMOS Living Body Runtime - Complete Embodied Intelligence System
+# AMOS Living Body Runtime - Complete Embodied Intelligence System
 
 ## Mission Accomplished (Additional)
 
@@ -177,7 +176,7 @@ I have successfully implemented the **complete AMOS Living Body Runtime** follow
 
 > Path: `amos-general/N/NEXT_GENERATION_ROADMAP.md` | Size: 13308 chars | Match score: 4
 
-## AMOS Next-Generation Evolution Roadmap
+# AMOS Next-Generation Evolution Roadmap
 
 ## EVOLUTION STATUS: NEXT-GENERATION COMPLETE
 

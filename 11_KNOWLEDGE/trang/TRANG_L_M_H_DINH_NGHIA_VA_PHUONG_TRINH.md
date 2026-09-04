@@ -1,84 +1,16 @@
 ---
-title: TRANG FRAMEWORK — ỨNG DỤNG VÀO AI TỰ SỬA VÀ TỰ TIẾN HÓA
-aliases:
-  - "Trang ASEA"
-  - "Adaptive Self-Evolution AI"
-  - "Self-Repairing and Self-Evolving AI"
-  - "TRANG ASEA — Self Repair and Evolution"
-type: framework
-source: 11_KNOWLEDGE/trang
-artifact: "TRANG_FRAMEWORK_UNG_DUNG_VAO_AI_TU_SUA_VA_TU_T.md"
-artifact_id: "amos_11_knowledge_trang_framework_asea_self_repair_self_evolution"
-path: "11_KNOWLEDGE/trang/TRANG_FRAMEWORK_UNG_DUNG_VAO_AI_TU_SUA_VA_TU_T.md"
-
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-
-created: "2026-08-22"
-updated: "2026-08-29"
-version: "2.0.0"
-status: "ACTIVE_REFERENCE"
-
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-runtime_binding: "NOT_UNIVERSALLY_ESTABLISHED"
-
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Trang L M H Dinh Nghia Va Phuong Trinh
 tags:
-  - trang
-  - trang/asea
-  - trang/lmh
-  - trang/fractal-framework
-  - framework
-  - ai
-  - adaptive-ai
-  - self-repair
-  - self-evolution
-  - mutation-survival
-  - lifelong-learning
-  - anti-hallucination
-  - epistemic-validation
-  - provenance
-  - rscf
-  - rscf/node
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
   - rscf/state/source-claim
-  - canon/knowledge
-  - canon/framework
-  - canon-group/tech-ai
-  - topic/asea
-  - topic/self-repairing-ai
-  - topic/self-evolving-ai
-  - topic/mutation-survival
-  - topic/lacunarity
-  - topic/entropy
-  - topic/tat-2
-  - 00-home
-  - knowledge-moc
-  - trang-moc
-  - system-scan-agent
-  - automation-profiles
-  - amos-simulation-kernel-v0-math-foundations
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - AMOS_corpus
-    - TRANG_FRAMEWORK
-    - TRANG_LMH
-    - TRANG_ASEA
-  scope:
-    - AMOS_knowledge
-    - adaptive_ai
-    - self_repair
-    - governed_self_evolution
-  confidence_ceiling:
-    source_model: SOURCE_BOUND
-    empirical_universality: UNKNOWN
-    runtime_effectiveness: UNKNOWN
+  - misc
+created: 2026-08-22
+---
 ---
 
 # TRANG ∅ FRAMEWORK — ỨNG DỤNG VÀO AI TỰ SỬA VÀ TỰ TIẾN HÓA

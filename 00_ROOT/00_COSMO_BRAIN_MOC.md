@@ -1,71 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: 00 Root MOC
-type: moc
-source: 00_ROOT
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 00 Cosmo Brain Moc
 tags:
-  - 00-root
-  - canon/root
-  - 00-home
-  - 00-root-architecture
-  - 00-root-audit
-  - 00-root-authorization
-  - 00-root-boundaries
-  - 00-root-change-log
-  - 00-root-coverage
-  - 00-root-dependencies
-  - 00-root-glossary
-  - 00-root-history
-  - 00-root-identity
-  - 00-root-integration-checklist
-  - 00-root-lifecycle
-  - 00-root-naming-standard
-  - 00-root-provenance
-  - 00-root-release-notes
-  - 00-root-status
-  - 00-root-versioning
-  - amos-canon-completeness-status
-  - amos-framework-alias-master
-  - amos-framework-dependency-master
-  - amos-framework-placement-master
-  - amos-framework-status-master
-  - amos-layer-maps
-  - amos-native-canon-vs-external-evidence
-  - amos-native-vs-external-knowledge
-  - amos-origin-heritage-master
-  - amos-os-add-only-canon-file-manifest
-  - amos-rscf-nodes
-  - amos-templates
-  - amos-total-architecture
-  - amos-total-crosswalk
-  - amos-total-dependency-graph
-  - amos-total-lineage-graph
-  - amos-total-provenance-graph
-  - amos-total-relation-graph
-  - amos-total-supersession-graph
-  - amos-total-system-lineage
-  - architecture
-  - authoritative-state
-  - cognitive-matrix-integration
-  - cosmo-brain-amos-os-master-binding
-  - cosmo-brain-to-amos-os-binding
-  - full-tree
-  - index-repair-gap-report-2026-08-26
-  - neural-network
-  - placement-rules
-  - readme
-  - roadmap
-  - system-map-v1
-  - total-corpus-coverage
-  - attachments-moc
-  - amos-home
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: root_index
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 00 Root — Map of Content
@@ -183,12 +133,12 @@ ______________________________________________________________________
 ## Newly bound agents and workflows
 
 - [[07_SKILLS/amos-flow-canon/SKILL|AMOS Flow Canon]] skill
-- [[08_WORKFLOWS/amos-flow-canon-workflow|AMOS Flow Canon]] workflow
+- [[26_WORKFLOWS/amos-flow-canon-workflow|AMOS Flow Canon]] workflow
 - [[07_SKILLS/amos-law-stack-enforcement/SKILL|AMOS Law Stack Enforcement]] skill
-- [[08_WORKFLOWS/amos-law-stack-enforcement-workflow|AMOS Law Stack Enforcement]] workflow
+- [[26_WORKFLOWS/amos-law-stack-enforcement-workflow|AMOS Law Stack Enforcement]] workflow
 - [[07_SKILLS/obsidian-plugin-auto-tag/SKILL|Obsidian Plugin Auto Tag]] skill
-- [[08_WORKFLOWS/amos-obsidian-plugin-auto-tag-workflow|Obsidian Plugin Auto Tag]] workflow
-- [[08_WORKFLOWS/amos-mdformat-obsidian-workflow|Workflow: AMOS mdformat-obsidian]]
+- [[26_WORKFLOWS/amos-obsidian-plugin-auto-tag-workflow|Obsidian Plugin Auto Tag]] workflow
+- [[26_WORKFLOWS/amos-mdformat-obsidian-workflow|Workflow: AMOS mdformat-obsidian]]
 - [[07_SKILLS/07_SKILLS_MOC|AMOS Skills MOC]]
 - [[skill-catalog|Skill Catalog]]
 - [[skill-registry-catalog|AMOS Skill Registry Catalog]]

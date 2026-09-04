@@ -1,57 +1,16 @@
 ---
-title: SOURCE LINEAGE
-type: note
-source: 01_CANON/07_PROVENANCE
-artifact_id: AMOS-OS-SOURCE-LINEAGE
-canonical_name: SOURCE_LINEAGE
-artifact_type: canonical_lineage_framework
-status: SOURCE_CLAIM
-conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-domain: canon
-scope: AMOS_OS
-authority_scope: source-ancestry-derivation-transformation-and-supersession-lineage
-created: 2026-08-25
-updated: 2026-08-25
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Source Lineage
 tags:
-  - amos-os
-  - canon
-  - universe
-  - canon-group/meta
-  - canon/framework
-  - canon/provenance
-  - canon/lineage
-  - canon/source-lineage
-  - canon/supersession
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
   - rscf/state/source-claim
-  - topic/source-lineage
-  - topic/source-ancestry
-  - topic/causal-lineage
-  - topic/provenance-topology
-  - topic/dependency-lineage
-  - topic/version-lineage
-  - topic/supersession
-  - topic/sybil-hardening
-  - topic/persistent-provenance
-  - readme
-  - architecture
-  - neural-network
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - canonical-glossary
-  - deprecated-terms
-aliases:
-  - AMOS Source Lineage - AMOS OS Source Lineage - Source Ancestry - Canon Source Lineage
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AMOS OS Source Lineage
@@ -2858,7 +2817,7 @@ UNKNOWN/GAP.
 ## Related
 
 README ·
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]] ·
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]] ·
 [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] ·
 [[00_ROOT/SYSTEM_MAP|SYSTEM_MAP]] ·
 NAMING_STANDARD ·
@@ -2887,7 +2846,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

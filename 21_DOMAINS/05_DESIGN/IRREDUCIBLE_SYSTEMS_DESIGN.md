@@ -1,62 +1,21 @@
 ---
-title: Irreducible Systems Design Specification
-type: domain
-source: 21_DOMAINS/05_DESIGN
-artifact: IRREDUCIBLE_SYSTEMS_DESIGN.md
-artifact_id: amos_21_domains_05_design_irreducible_systems_design
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 21_DOMAINS
-segment: 21_DOMAINS/05_DESIGN
-artifact_kind: DOMAIN_DESIGN
-path: 21_DOMAINS/05_DESIGN/IRREDUCIBLE_SYSTEMS_DESIGN.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Irreducible Systems Design
 tags:
-  - amos-os
-  - domain
-  - vault
-  - 05_design
-  - irreducible_systems_design
-  - minimal_architecture
-  - parsimony_law
-  - rscf
-  - canon_candidate
-  - canon/domain
-  - irreducible-systems-architecture
-  - design-for-absolute-integrity
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: SYSTEM_INVARIANT
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SYSTEM_INVARIANT
-  provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/IRREDUCIBLE_SYSTEMS_ARCHITECTURE
-    - 21_DOMAINS/05_DESIGN/05_DESIGN_MOC
-    - AMOS_CORPUS
-  scope:
-    - DOMAIN_DESIGN
-    - IRREDUCIBLE_DESIGN
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  irreducible_framework:
-    artifact:
-      -   - IRREDUCIBLE_SYSTEMS_ARCHITECTURE
-  design_moc:
-    artifact:
-      -   - 05_DESIGN_MOC
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  domain_structure: VERIFIED_SOURCE_STRUCTURE
-  design_methodology: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Irreducible Systems Design Specification

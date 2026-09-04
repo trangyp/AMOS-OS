@@ -1,59 +1,16 @@
 ---
-title: K RISK CONSTRAINT
-type: risk
-source: 02_KERNEL/06_RISK_REPAIR
-artifact_id: AMOS-OS-K-RISK-CONSTRAINT
-canonical_name: K_RISK_CONSTRAINT
-artifact_type: kernel_risk_constraint_contract
-status: AMOS_MODEL
-conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: KERNEL
-kernel_family: GOVERNED_DECISION
-scope: AMOS_OS
-updated: 2026-08-26
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: K Risk Constraint
 tags:
-  - amos-os
-  - kernel
-  - core
-  - kernel/risk
-  - kernel/constraint
-  - kernel/governance
-  - kernel/invariants
-  - kernel/uncertainty
-  - kernel/repair
-  - kernel/causal
-  - kernel/provenance
-  - topic/risk-envelope
-  - topic/irreversibility
-  - topic/action-governance
-  - canon/kernel
-  - k-repair-priority
-  - k-repair-harm
-  - k-homeostasis
-  - k-causal-closure
-  - k-system-state
-  - k-context-state
-  - k-event-bus
-  - readme
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - k-core19-logic
-  - k-meta-logic
-  - k-structural-reasoning
-  - k-causal-epoch
-  - k-collapse-recovery
-  - k-memory-admission
-  - k-memory-conflict
-  - k-memory-immune
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # K RISK CONSTRAINT
@@ -2532,7 +2489,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

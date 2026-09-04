@@ -8,25 +8,22 @@ steward: Trang Phan
 status: AUDIT_PASSED
 conclusion_class: OBSERVATION / EMPIRICAL_VERIFICATION
 created: 2026-09-04
+
+rscf-state: source-claim
 tags:
   - amos
   - operations
   - master-audit
   - integrity
   - formal-proof
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: active__AMOS_OS
 ---
 
 # AMOS OS Master Vault Health & Epistemic Audit (2026-09-04)
 
-> **Auditor / Origin Architect:** Trang Phan
-> **Target Lineage:** `AMOS v4.4`
-> **Audit Status:** `100% PASSED (Zero Critical Defects, Zero Broken Links)`
-> **Total Files Scanned:** `7457 Markdown Files` across `26 Governed Planes`
+> **Auditor / Origin Architect:** Trang Phan  
+> **Target Lineage:** `AMOS v4.4`  
+> **Audit Status:** `100% PASSED (Zero Critical Defects, Zero Broken Links)`  
+> **Total Files Scanned:** `6674 Markdown Files` across `26 Governed Planes`
 
 ---
 

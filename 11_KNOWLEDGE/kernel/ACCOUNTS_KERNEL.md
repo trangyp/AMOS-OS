@@ -1,19 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: ACCOUNTS_KERNEL
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Accounts Kernel
 tags:
-  - knowledge
-  - kernel
-  - accounts
-type: note
-source: 11_KNOWLEDGE/kernel
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # ACCOUNTS KERNEL
@@ -116,7 +118,7 @@ ______________________________________________________________________
 Everything in this section is **DERIVED / PROPOSED**, not original source metadata.
 
 ```yaml
-## DERIVED / PROPOSED — DO NOT MERGE INTO SOURCE FRONTMATTER WITHOUT GOVERNANCE
+# DERIVED / PROPOSED — DO NOT MERGE INTO SOURCE FRONTMATTER WITHOUT GOVERNANCE
 
 aliases:
   - Accounts Kernel
@@ -2373,7 +2375,7 @@ ______________________________________________________________________
 ## 144. Proposed Trace Event Type
 
 ```yaml
-## PROPOSED
+# PROPOSED
 
 TraceEvent:
   system: str
@@ -2387,7 +2389,7 @@ ______________________________________________________________________
 ## 145. Proposed Accounts Kernel Contract
 
 ```yaml
-## PROPOSED
+# PROPOSED
 
 AccountsKernelContract:
 
@@ -2420,7 +2422,7 @@ ______________________________________________________________________
 ## 146. Proposed RSCF H-Level
 
 ```yaml
-## DERIVED
+# DERIVED
 
 H:
   intent:
@@ -2435,7 +2437,7 @@ ______________________________________________________________________
 ## 147. Proposed RSCF M-Level
 
 ```yaml
-## DERIVED
+# DERIVED
 
 M:
   steps:
@@ -2450,7 +2452,7 @@ ______________________________________________________________________
 ## 148. Proposed RSCF L-Level
 
 ```yaml
-## DERIVED
+# DERIVED
 
 L:
   source:
@@ -2476,7 +2478,7 @@ ______________________________________________________________________
 ## 149. Runtime RSCF Capsule
 
 ```yaml
-## PROPOSED
+# PROPOSED
 
 claim:
   >
@@ -2511,7 +2513,7 @@ ______________________________________________________________________
 ## 150. Registration RSCF Capsule
 
 ```yaml
-## PROPOSED
+# PROPOSED
 
 claim:
   >
@@ -2982,7 +2984,7 @@ ______________________________________________________________________
 A future trace could carry:
 
 ```yaml
-## PROPOSED
+# PROPOSED
 
 event_id:
 timestamp:
@@ -3269,7 +3271,7 @@ ______________________________________________________________________
 ## 193. Proposed Machine Representation
 
 ```yaml
-## DERIVED
+# DERIVED
 
 accounts_kernel:
 
@@ -3441,7 +3443,7 @@ ______________________________________________________________________
 ## 204. Proposed RSCF Node
 
 ```yaml
-## PROPOSED
+# PROPOSED
 
 RSCF-NODE:
   node_id: accounts_kernel
@@ -3486,7 +3488,7 @@ ______________________________________________________________________
 
 ## 205. Proposed Dataview — Kernel Inventory
 
-```text
+```dataview
 TABLE
   file.link AS "Kernel",
   source,
@@ -3502,7 +3504,7 @@ ______________________________________________________________________
 
 If derived metadata such as `system` is later formally added to vault notes:
 
-```text
+```dataview
 TABLE
   file.link,
   system,
@@ -3519,7 +3521,7 @@ ______________________________________________________________________
 
 ## 207. Proposed Dataview — Kernel MOC
 
-```text
+```dataview
 LIST
 FROM "11_KNOWLEDGE/kernel"
 WHERE contains(file.outlinks, )
@@ -3921,7 +3923,7 @@ ______________________________________________________________________
 ## 233. Proposed Future Idempotency Receipt
 
 ```yaml
-## PROPOSED
+# PROPOSED
 
 operation_id:
 attempt:
@@ -4554,7 +4556,7 @@ rscf:
   scope: AMOS_knowledge
 ---
 
-## ACCOUNTS KERNEL
+# ACCOUNTS KERNEL
 
 ## Source Identity
 

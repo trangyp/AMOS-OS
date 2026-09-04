@@ -1,87 +1,105 @@
 ---
-title: "Operating Model Service Levels Contract — Epistemic SLAs, Latency Bounds & Invariant Coverage Guarantees"
-type: subplane_contract
-plane: 23_OPERATING_MODEL
-subplane: 05_SERVICE_LEVELS
-domain: A_NORMATIVE_GOVERNANCE
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 23_OPERATING_MODEL/OPERATING_MODEL_OPERATING_MODEL_CONTRACT
-    - 17_OBSERVABILITY/OBSERVABILITY_OBSERVABILITY_CONTRACT
-    - 19_TESTS/TESTS_TEST_CONTRACT
-  scope: service_level_agreements_and_coverage_bounds
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Operating Model Service Levels Contract
 tags:
-  - amos-os
-  - 23-operating-model
-  - service-levels
-  - sla-matrix
-  - latency-bounds
-  - invariant-coverage
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Operating Model Service Levels Contract — Epistemic SLAs, Latency Bounds & Invariant Coverage Guarantees
+# OPERATING MODEL SERVICE LEVELS CONTRACT
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Domain Alignment:** Domain A (Normative & Governance Definition)
-> **Conclusion Class:** `DERIVED` (RSCF Validated)
-> **Status:** `ACTIVE_SPECIFICATION`
+## 0. Status
 
----
+Operating Model-plane contract for **SERVICE LEVELS CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
-## 1. Architectural Scope & Mission
+## 1. Scope
 
-`23_OPERATING_MODEL/05_SERVICE_LEVELS` establishes the measurable Service Level Agreements (SLAs), Service Level Objectives (SLOs), error budgets, and formal verification coverage guarantees governing all operational subplanes in AMOS OS.
+Governs roles, decision rights, governance forums, escalation paths, service levels as they bear on `SERVICE LEVELS CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
 
-```text
-AVAILABILITY != RELIABILITY
-THROUGHPUT != EPISTEMIC_CORRECTNESS
-LATENCY_OPTIMIZATION != SHORTCUTTING_VERIFICATION
-ERROR_BUDGET_EXHAUSTION == IMMEDIATE_DEPLOYMENT_FREEZE
-```
+## 2. Contract terms
 
----
+- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
+- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
+- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
+- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
+- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
 
-## 2. Master SLA / SLO Performance Matrix
+## 3. Invariants
 
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│                   AMOS OS MASTER SERVICE LEVEL MATRIX                  │
-├────────────────────────┬──────────────┬──────────────┬─────────────────┤
-│ Operational Subsystem  │ SLA (Hard)   │ SLO (Target) │ Max Error Budget│
-├────────────────────────┼──────────────┼──────────────┼─────────────────┤
-│ BCI Neural Streaming   │ Latency ≤ 5ms│ Latency ≤ 2ms│ 0.01% packet loss│
-│ CAS State Commits      │ Latency ≤50ms│ Latency ≤10ms│ 0.00% data loss │
-│ Epistemic Proof Gate   │ Coverage 100%│ Lean 4 Pass  │ 0.00% unproved  │
-│ Tool Sandbox Execution │ Overhead ≤2ms│ Overhead ≤1ms│ Zero escape rate│
-│ Observability Logging  │ Trace Loss 0%│ P99 ≤ 0.5ms  │ 0.05% jitter    │
-└────────────────────────┴──────────────┴──────────────┴─────────────────┘
-```
+- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
+- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
+- Consequential effects emit receipts; rollback basin exists before mutation.
+- Competing hypotheses remain visible when evidence does not discriminate.
 
----
+## 4. Executed reference
 
-## 3. Error Budget Policies & Enforcement
+No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
 
-Let $\mathcal{E}(t)$ be the consumed error budget over rolling 30-day window:
+## 5. Gaps
 
-$$\mathcal{E}(t) = \frac{\text{ObservedDowntimeOrDefects}(t)}{\text{AllowedUnavailabilityQuota}}$$
+Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
 
-- If $\mathcal{E}(t) < 0.75$: Normal operation; experimental model admissions permitted.
-- If $0.75 \le \mathcal{E}(t) < 1.00$: Heightened monitoring; canary deployments throttled by $50\%$.
-- If $\mathcal{E}(t) \ge 1.00$: **Hard Feature Freeze**; all agent capacity redirected to bug fixes, regression testing, and invariant hardening in `19_TESTS`.
+## 6. Falsifiers
 
----
+F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
 
-## 4. Lineage & Cross-Plane References
+## Worked semantics
 
-- **Parent Contract:** [[23_OPERATING_MODEL/OPERATING_MODEL_OPERATING_MODEL_CONTRACT|OPERATING_MODEL_OPERATING_MODEL_CONTRACT]]
-- **Observability Tracing:** [[17_OBSERVABILITY/OBSERVABILITY_OBSERVABILITY_CONTRACT|17_OBSERVABILITY]]
-- **Tests Subsystem:** [[19_TESTS/TESTS_TEST_CONTRACT|19_TESTS]]
-- **Escalation Protocol:** [[23_OPERATING_MODEL/04_ESCALATION/OPERATING_MODEL_ESCALATION_CONTRACT|OPERATING_MODEL_ESCALATION_CONTRACT]]
+Given an operation touching `OPERATING MODEL · SERVICE LEVELS CONTRACT` within the Operating Model plane:
+
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+
+## Promotion-gate checklist
+
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+
+## Cross-plane bindings
+
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+
+______________________________________________________________________
+
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+
+______________________________________________________________________
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: amos_ing_model_05_service_levels_operating_model_service_levels_contract_md
+node_type: note
+path: 23_OPERATING_MODEL/05_SERVICE_LEVELS/OPERATING_MODEL_SERVICE_LEVELS_CONTRACT.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[23_OPERATING_MODEL/05_SERVICE_LEVELS/05_SERVICE_LEVELS_MOC|05_SERVICE_LEVELS_MOC]]

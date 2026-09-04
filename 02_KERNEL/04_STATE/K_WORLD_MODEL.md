@@ -1,66 +1,21 @@
 ---
-title: K WORLD MODEL
-type: model
-source: 02_KERNEL/04_STATE
-artifact_id: AMOS-OS-K-WORLD-MODEL
-canonical_name: K_WORLD_MODEL
-artifact_type: kernel_world_model_contract
-status: AMOS_MODEL
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
 conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: KERNEL
-kernel_family: WORLD_MODEL
-scope: AMOS_OS
-updated: 2026-08-26
+epistemic_class: SOURCE_CLAIM
+topic: K World Model
 tags:
-  - amos-os
-  - kernel
-  - core
   - canon-group/tech-ai
-  - canon/model
-  - kernel/world-model
-  - kernel/state
-  - kernel/causality
-  - kernel/context
-  - kernel/provenance
-  - kernel/epistemics
-  - kernel/multi-hypothesis
-  - kernel/counterfactual
-  - kernel/structural-reasoning
-  - rscf/state/model
   - rscf/claim
   - rscf/provenance
-  - topic/world-model
-  - topic/epistemic-regime
-  - topic/causal-model
-  - topic/prediction
-  - topic/simulation
-  - topic/uncertainty
-  - readme
-  - architecture
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - source-lineage
-  - k-identity
-  - k-system-state
-  - k-context-state
-  - k-event-bus
-  - k-meta-logic
-  - k-metacognition
-  - k-multi-hypothesis
-  - k-counterfactual
-  - k-structural-reasoning
-  - k-causal-closure
-  - k-causal-epoch
-  - k-causal-hierarchy
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # K WORLD MODEL
@@ -2654,7 +2609,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

@@ -1,22 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS X HERITAGE
-type: note
-source: 25_COGNITIVE_MATRIX
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Amos X Heritage
 tags:
-  - note
-  - 25-cognitive-matrix
-  - domain/cognitive-matrix
-  - signals
-  - amos-x-heritage-matrix
-  - law-hierarchy
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AMOS X HERITAGE
@@ -80,7 +74,7 @@ source_family:
   - "Heritage ∅ lineage"
 ---
 
-## AMOS × Heritage
+# AMOS × Heritage
 
 ## 0. Canonical Status
 
@@ -120,7 +114,7 @@ Its canonical role is:
 
 ---
 
-## 1. Epistemic Boundary
+# 1. Epistemic Boundary
 
 Heritage contains several different kinds of statements.
 
@@ -2882,4 +2876,6 @@ ______________________________________________________________________
 
 **MOC:**
 
+```
+```
 ```

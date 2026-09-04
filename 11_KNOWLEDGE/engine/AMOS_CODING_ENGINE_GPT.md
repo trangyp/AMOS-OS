@@ -1,33 +1,20 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS CODING ENGINE GPT
-type: engine
-source: 11_KNOWLEDGE/engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
-topic: amos-coding-engine-gpt
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Coding Engine Gpt
 tags:
   - canon-group/tech-ai
-  - canon/framework
   - rscf/claim
   - rscf/provenance
-  - rscf/state/observation
-  - topic/amos-coding-engine-gpt
-  - engine
-  - architecture
-  - system-scan-agent
-  - automation-profiles
-  - amos-simulation-kernel-v0-math-foundations
-  - trang-framework-recursive-ontology-dynamics
+  - rscf/state/source-claim
+  - misc
 created: 2026-08-22
-rscf:
-  state: AMOS_MODEL
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: engine_specification
+---
 ---
 
 # AMOS CODING ENGINE GPT

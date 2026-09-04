@@ -1,32 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: ROUTING MAP
-type: note
-source: 25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX
-rscf:
-  state: SOURCE_CLAIM
-  class: STRUCTURAL
-  provenance:
-    - internal
-  freshness: EVERGREEN
-  falsifiers: []
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Routing Map
 tags:
-  - note
-  - readme
-  - task-resolver
-  - capability-resolver
-  - mode-admission-queue
-  - mode-coverage-matrix
-  - mode-dependency-graph
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - k-rscf
-  - law/L17-rscf
-  - references
-  - trang-framework-recursive-ontology-dynamics
-canon-group: canon/cognitive-matrix
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 ## ---title: "ROUTING MAP" type: document tags: [note]
@@ -1342,7 +1326,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

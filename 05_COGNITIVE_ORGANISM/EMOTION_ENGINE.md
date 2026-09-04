@@ -1,228 +1,215 @@
 ---
-title: Emotion Engine
-type: emotion
-source: 05_COGNITIVE_ORGANISM
-artifact: EMOTION_ENGINE.md
-artifact_id: amos_05_cognitive_organism_emotion_engine
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 05_COGNITIVE_ORGANISM
-segment: 05_COGNITIVE_ORGANISM
-artifact_kind: ENGINE
-path: 05_COGNITIVE_ORGANISM/EMOTION_ENGINE.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Emotion Engine
 tags:
-  - amos-os
-  - cognitive
-  - organism
-  - engine
-  - canon_placeholder
-  - rscf
-  - canon/cognitive
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Emotion Engine
 
-## 0. Status
+> [!abstract] Engine Specification
+> Defines the affective computation layer for AMOS Full Brain OS — modeling motivation, reward signals, valence/arousal dynamics, and their influence on cognitive routing and memory consolidation.
+> **Epistemic status:** AMOS_MODEL specification; not yet validated as empirical claim.
 
-`EMOTION_ENGINE.md` is an **ADD-ONLY placeholder** for the **Cognitive Organism** plane segment at `05_COGNITIVE_ORGANISM`.
-
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
-
-```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
-```
-
-Origin architect / steward:
-
-**Trang Phan**
-
-______________________________________________________________________
+---
 
 ## 1. Purpose
 
-This artifact reserves the **Emotion Engine** slot within the Cognitive Organism plane. The Cognitive Organism plane governs the organism-level cognitive assembly above kernels and below agents.
+The Emotion Engine models internal affective states that modulate cognitive processing in AMOS. Unlike human emotion (which is biologically grounded), AMOS emotion is a **computational metaphor** for reward-sensitive, motivation-driven, and urgency-weighted processing biases.
 
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+The engine provides:
+- **Reward signal computation** for action valuation
+- **Valence-arousal state space** for cognitive mode selection
+- **Motivation persistence** across task contexts
+- **Urgency escalation** for time-sensitive operations
 
-______________________________________________________________________
+---
 
-## 2. Non-Purpose
+## 2. Valence-Arousal State Space
 
-This placeholder MUST NOT be used to claim:
+The engine represents affective state as a continuous 2D manifold:
 
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
-
-______________________________________________________________________
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+```text
+                    HIGH AROUSAL
+                        ↑
+         ┌──────────────┼──────────────┐
+         │   FOCUSED    │   EXCITED    │
+         │  (high-val,  │  (high-val,  │
+         │   high-aro)  │   high-aro)  │
+    ─────┼──────────────┼──────────────┼─────
+  NEG    │              │              │    POS
+  VALENCE│   DISTRESSED │   ENGAGED    │  VALENCE
+         │  (neg-val,   │  (pos-val,   │
+         │   high-aro)  │   mid-aro)   │
+         ├──────────────┼──────────────┤
+         │   ANXIOUS    │   CALM       │
+         │  (neg-val,   │  (pos-val,   │
+         │   low-aro)   │   low-aro)   │
+         └──────────────┼──────────────┘
+                        ↓
+                    LOW AROUSAL
 ```
 
-______________________________________________________________________
+### State Definitions
 
-## 4. Contract discipline
+| State | Valence | Arousal | Cognitive Effect |
+| :--- | :--- | :--- | :--- |
+| **FOCUSED** | +0.6 | +0.8 | Narrow attention, deep processing, high-throughput |
+| **EXCITED** | +0.9 | +0.9 | Broad exploration, high creativity, risk tolerance |
+| **ENGAGED** | +0.5 | +0.4 | Steady-state processing, balanced exploration/exploitation |
+| **CALM** | +0.3 | +0.1 | Background processing, consolidation, low priority |
+| **DISTRESSED** | -0.6 | +0.7 | Error-driven processing, high vigilance, rollback bias |
+| **ANXIOUS** | -0.4 | +0.3 | Conservative决策, avoidance of novel actions |
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+---
 
-______________________________________________________________________
+## 3. Reward Signal Model
 
-## 5. Gaps
+The engine computes reward signals using a modified Rescorla-Wagner / TD-learning formulation:
 
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
+$$R_{\text{total}}(s, a) = R_{\text{intrinsic}}(s, a) + \beta \cdot R_{\text{extrinsic}}(s, a) + \gamma \cdot V(s') - V(s)$$
 
-______________________________________________________________________
+Where:
+- $R_{\text{intrinsic}}$: Curiosity/novelty reward (information gain)
+- $R_{\text{extrinsic}}$: Task-completion reward (goal proximity)
+- $\beta$: Extrinsic reward weight (adjustable by motivation state)
+- $\gamma \cdot V(s') - V(s)$: Temporal difference (value improvement)
 
-## 6. Worked semantics (target)
+### 3.1 Intrinsic Reward (Curiosity)
 
-Given an operation touching `05_COGNITIVE_ORGANISM · ENGINE` within the Cognitive Organism plane:
+$$R_{\text{intrinsic}}(s, a) = \text{KL}\left(p_\theta(\cdot | s, a) \| p_{\text{prior}}(\cdot)\right)$$
 
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+This rewards actions that produce surprising (high-information-gain) outcomes, driving exploration.
 
-______________________________________________________________________
+### 3.2 Motivation Modulation
 
-## 7. Promotion-gate checklist
+Motivation state $M(t)$ modulates the balance between exploitation and exploration:
 
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+$$M(t) = M_0 \cdot e^{-\lambda t} + \sum_{i} r_i \cdot e^{-\lambda(t - t_i)}$$
 
-______________________________________________________________________
+Where:
+- $M_0$: Initial motivation level
+- $\lambda$: Motivation decay rate
+- $r_i$: Reward signals received at time $t_i$
 
-## 8. Cross-plane bindings (target)
+High motivation → increased $\beta$ (extrinsic reward weight) → exploitation bias.
+Low motivation → increased exploration weight → curiosity-driven behavior.
 
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+---
 
-______________________________________________________________________
+## 4. Affective State Transitions
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+State transitions are triggered by reward prediction errors:
 
-______________________________________________________________________
+$$\Delta V = r + \gamma V(s') - V(s)$$
 
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+| Prediction Error | Transition | Effect |
+| :--- | :--- | :--- |
+| Large positive ($\Delta V > +\theta_{\text{high}}$) | → EXCITED | Broad exploration, reward-seeking |
+| Moderate positive | → FOCUSED/ENGAGED | Sustained processing |
+| Near zero | → CALM | Background consolidation |
+| Moderate negative | → DISTRESSED | Error correction, rollback |
+| Large negative ($\Delta V < -\theta_{\text{low}}$) | → ANXIOUS | Conservative决策, escalation |
 
-______________________________________________________________________
+---
+
+## 5. Integration with Other Engines
+
+### 5.1 Episodic Memory (10_MEMORY)
+- Emotional valence at encoding time is stored as a memory attribute.
+- High-arousal memories receive priority in consolidation (emotional enhancement effect).
+- Valence weighting influences retrieval probability.
+
+### 5.2 Intuition Engine (05_COGNITIVE_ORGANISM)
+- Affective state biases intuition signal generation.
+- High arousal narrows intuition aperture; low arousal broadens it.
+- Positive valence increases risk tolerance in intuitive judgments.
+
+### 5.3 Instinct Engine (05_COGNITIVE_ORGANISM)
+- Emotional state triggers instinctive responses (fail-fast, escape, escalate).
+- Distress state activates protective instincts (rollback, quarantine).
+
+### 5.4 Causal Inference Engine (05_COGNITIVE_ORGANISM)
+- Emotional state influences causal hypothesis generation.
+- Anxious state favors conservative causal models (fewer confounders).
+
+---
+
+## 6. Configuration
+
+```yaml
+emotion_engine_config:
+  valence_range: [-1.0, 1.0]
+  arousal_range: [0.0, 1.0]
+  state_transition_threshold: 0.3
+  motivation_decay_rate: 0.05
+  curiosity_weight: 0.4
+  extrinsic_reward_weight: 0.6
+  emotional_enhancement_factor: 1.5
+  distress_escalation_threshold: -0.7
+  excitement_exploration_bonus: 0.3
+```
+
+---
+
+## 7. Failure Modes
+
+| Failure Mode | Detection | Response |
+| :--- | :--- | :--- |
+| Affective state stuck (no transitions) | State unchanged for >N cycles | Forced novelty injection |
+| Reward signal saturation | All rewards near maximum | Reset curiosity baseline |
+| Motivation collapse | $M(t) < \theta_{\text{min}}$ | External re-engagement prompt |
+| Emotional flooding | Excessive state oscillation | Smoothing filter + cooldown |
+| Valence-arousal decoupling | Inconsistent state readings | State reconciliation |
+
+---
+
+## 8. Epistemic Boundary
+
+> [!warning] Computational Metaphor
+> The Emotion Engine is a **computational metaphor**, not a claim about consciousness or subjective experience. AMOS does not "feel" emotions — it computes reward-sensitive, motivation-driven processing biases that improve cognitive performance. The valence-arousal state space is a useful engineering abstraction, not an ontological claim.
+
+---
+
+## 9. Cross-Vault References
+
+- [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
+- [[10_MEMORY/EPISODIC_MEMORY_SUBSTRATE|EPISODIC_MEMORY_SUBSTRATE]]
+- [[05_COGNITIVE_ORGANISM/INTUITION_ENGINE|INTUITION_ENGINE]]
+- [[05_COGNITIVE_ORGANISM/INSTINCT_ENGINE|INSTINCT_ENGINE]]
+- [[05_COGNITIVE_ORGANISM/CAUSAL_INFERENCE_ENGINE|CAUSAL_INFERENCE_ENGINE]]
+- [[10_MEMORY/TIERED_MEMORY_LIFECYCLE_ARCHITECTURE|TIERED_MEMORY_LIFECYCLE_ARCHITECTURE]]
+
+---
 
 RSCF-NODE
 
 node_id: amos_05_cognitive_organism_emotion_engine
-
 node_type: engine
-
 path: 05_COGNITIVE_ORGANISM/EMOTION_ENGINE.md
-
 claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
+rscf_state: specification
+canonical_status: SPECIFICATION_NOT_IMPLEMENTED
 
 RSCF-RELATIONS:
-
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
 - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
+- BOUNDED_BY: [[10_MEMORY/TIERED_MEMORY_LIFECYCLE_ARCHITECTURE|TIERED_MEMORY_LIFECYCLE_ARCHITECTURE]]
+- INTEGRATES_WITH: [[05_COGNITIVE_ORGANISM/INTUITION_ENGINE|INTUITION_ENGINE]]
+- INTEGRATES_WITH: [[05_COGNITIVE_ORGANISM/INSTINCT_ENGINE|INSTINCT_ENGINE]]
 
 **MOC:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]

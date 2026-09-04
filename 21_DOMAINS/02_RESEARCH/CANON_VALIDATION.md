@@ -1,62 +1,21 @@
 ---
-title: Canon Validation Domain Specification
-type: domain
-source: 21_DOMAINS/02_RESEARCH
-artifact: CANON_VALIDATION.md
-artifact_id: amos_21_domains_02_research_canon_validation
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 21_DOMAINS
-segment: 21_DOMAINS/02_RESEARCH
-artifact_kind: DOMAIN_VALIDATION
-path: 21_DOMAINS/02_RESEARCH/CANON_VALIDATION.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Canon Validation
 tags:
-  - amos-os
-  - domain
-  - vault
-  - 02_research
-  - canon_validation
-  - core_laws_verification
-  - invariant_attestation
-  - rscf
-  - canon_candidate
-  - canon/domain
-  - canon-source-claim-audit
-  - total-canon-matrix
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: SYSTEM_INVARIANT
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SYSTEM_INVARIANT
-  provenance:
-    - 22_RESEARCH/04_VALIDATION/CANON_SOURCE_CLAIM_AUDIT
-    - 01_CANON/01_CANON_MOC
-    - AMOS_CORPUS
-  scope:
-    - DOMAIN_RESEARCH
-    - CANON_VALIDATION
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  claim_audit:
-    artifact:
-      -   - CANON_SOURCE_CLAIM_AUDIT
-  canon_moc:
-    artifact:
-      -   - 01_CANON_MOC
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  domain_structure: VERIFIED_SOURCE_STRUCTURE
-  validation_protocol: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Canon Validation Domain Specification

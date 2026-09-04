@@ -1,55 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: HIE Human Interaction Engine
-aliases:
-  - HIE
-  - Human Interaction Engine
-  - HIE Human-Agent Interaction Engine
-type: universe-canon
-source: 01_CANON/02_UNIVERSE_CANON
-status: canonical
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Hie Human Interaction Engine
 tags:
-  - hie
-  - human_interaction
-  - human_agent
-  - interaction_engine
-  - interaction_envelope
-  - safety
-  - safety_governance
-  - tone
-  - tone_governance
-  - semantics
-  - intent
-  - context
-  - agency
-  - consent
-  - trust
-  - uncertainty
-  - provenance
-  - scope
-  - epistemic_regime
-  - universe_canon
-  - rscf
-  - law-hierarchy
-  - khung-trang-master
-  - cil-culture-interface-layer
-  - universe-canon-contract-validation-receipt
-  - law/L17-rscf
-  - law/L18-gmef
-  - law/L19-proof-capsule
-  - law/L20-adversarial
-  - law/L21-epistemic-regime
-  - law/L22-replayability
-  - law/L23-mvcc-cas
-  - law/L24-causal-epoch
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: universe_canon
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # HIE Human Interaction Engine> [!abstract] Canon Function> **HIE — Human Interaction Engine** governs the **7-layer human-agent interaction envelopes** with **strict safety tone governance**.>> HIE is the Universe Canon interface responsible for controlling how agent reasoning, knowledge, uncertainty, recommendations, decisions, and actions are exposed to a human participant.>> Its governing objective is not merely to produce fluent conversation.>> Its objective is to preserve:>> **human agency + semantic fidelity + epistemic integrity + interaction safety + proportional tone + scope integrity + reversible action under uncertainty.**---

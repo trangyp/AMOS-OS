@@ -1,65 +1,16 @@
 ---
-title: K CONTEXT STATE
-type: state
-source: 02_KERNEL/04_STATE
-artifact_id: AMOS-OS-K-CONTEXT-STATE
-canonical_name: K_CONTEXT_STATE
-artifact_type: kernel_context_state_contract
-status: AMOS_MODEL
-conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: KERNEL
-kernel_family: STATE
-domain: context-state
-scope: AMOS_OS
-updated: 2026-08-26
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: K Context State
 tags:
-  - amos-os
-  - kernel
-  - core
   - canon-group/tech-ai
-  - canon/model
-  - kernel/context
-  - kernel/context-state
-  - kernel/state
-  - kernel/dependency
-  - kernel/provenance
-  - kernel/scope
-  - kernel/regime
-  - kernel/freshness
-  - kernel/invalidation
-  - kernel/concurrency
-  - kernel/validation
-  - rscf/context
-  - rscf/state/model
-  - topic/context-state
-  - topic/state-management
-  - topic/dependency-closure
-  - k-structural-reasoning
-  - k-causal-closure
-  - k-causal-epoch
-  - k-causal-hierarchy
-  - k-counterfactual
-  - k-multi-hypothesis
-  - k-metacognition
-  - readme
-  - architecture
-  - authoritative-state
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - source-lineage
-  - k-core19-logic
-  - k-meta-logic
-aliases:
-  - AMOS Context State Kernel - Context State Kernel - K Context State - K_CONTEXT_STATE
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # K CONTEXT STATE
@@ -2466,7 +2417,7 @@ CONTEXT COMPLETENESS.
 ## Related
 
 README ·
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]] ·
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]] ·
 [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] ·
 [[00_ROOT/DEPENDENCY_MAP|DEPENDENCY_MAP]] ·
 [[00_ROOT/AUTHORITATIVE_STATE|AUTHORITATIVE_STATE]] ·
@@ -2504,7 +2455,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

@@ -1,20 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: GAP REGISTRY
-type: note
-source: 25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Gap Registry
 tags:
-  - note
-  - 08-structural-gaps
-  - domain/cognitive-matrix
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # GAP_REGISTRY — Definition
@@ -46,7 +47,7 @@ UNKNOWN/GAP != PASS
 
 ______________________________________________________________________
 
-[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 
@@ -55,7 +56,7 @@ node_id: gap_registry_gaps_definition
 node_type: note
 path: 08_STRUCTURAL_GAPS/GAP_REGISTRY\_/GAP_REGISTRY.md
 claim_class: DERIVED
-node_path_note: 25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/GAP_REGISTRY.md
+node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/GAP_REGISTRY.md
 
 ______________________________________________________________________
 

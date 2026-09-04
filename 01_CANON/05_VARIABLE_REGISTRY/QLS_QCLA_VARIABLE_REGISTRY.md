@@ -1,228 +1,174 @@
 ---
-title: QLS/QCLA Variable Registry
-type: variable
-source: 01_CANON/05_VARIABLE_REGISTRY
-artifact: QLS_QCLA_VARIABLE_REGISTRY.md
-artifact_id: amos_01_canon_05_variable_registry_qls_qcla_variable_registry
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/05_VARIABLE_REGISTRY
-artifact_kind: REGISTRY
-path: 01_CANON/05_VARIABLE_REGISTRY/QLS_QCLA_VARIABLE_REGISTRY.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Qls Qcla Variable Registry
 tags:
-  - amos-os
-  - canon
-  - universe
-  - registry
-  - canon_placeholder
-  - rscf
-  - canon/universe
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # QLS/QCLA Variable Registry
 
-## 0. Status
+## 0. Purpose
 
-`QLS_QCLA_VARIABLE_REGISTRY.md` is an **ADD-ONLY placeholder** for the **Canon** plane segment at `01_CANON/05_VARIABLE_REGISTRY`.
-
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
+This registry prevents silent symbol collision between QLS/QIC substrate variables and QCLA quantum/chemical/causal variables.
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
+SAME SYMBOL != SAME VARIABLE
+SAME NAME != SAME UNITS
+SAME UNITS != SAME SEMANTICS
+SYMBOLIC VARIABLE != MEASURED VARIABLE
 ```
 
-Origin architect / steward:
-
-**Trang Phan**
-
-______________________________________________________________________
-
-## 1. Purpose
-
-This artifact reserves the **QLS/QCLA Variable Registry** slot within the Canon plane. The Canon plane governs canonical laws, universe/cognition/infrastructure canons, variable registry, glossary, provenance lineage, and supersession.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
-______________________________________________________________________
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
-
-______________________________________________________________________
-
-## 3. Ingestion Rule
+## 1. Required variable record
 
 ```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
+QLSQCLAVariable:
+  variable_id:
+  symbol:
+  canonical_name:
+  aliases:
+  source_family: QLS|QIC|QCLA|SHARED_DERIVED
+  semantic_class:
+  domain:
+  units:
+  dimension:
+  value_domain:
+  scale:
+  time_index:
+  regime:
+  observer_or_measurement:
+  observed_or_latent_or_symbolic:
+  source_anchor:
+  equation_bindings:
+  allowed_transformations:
   uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+  provenance:
+  lifecycle:
+  supersession:
 ```
 
-______________________________________________________________________
+## 2. Semantic classes
 
-## 4. Contract discipline
+Use one primary semantic class:
+- `STATE`
+- `OBSERVATION`
+- `LATENT_STATE`
+- `CONTROL`
+- `CONSTRAINT`
+- `ENERGY_OR_RESOURCE`
+- `PROBABILITY`
+- `LOGICAL`
+- `CAUSAL`
+- `TOPOLOGICAL`
+- `MATERIAL_OR_CHEMICAL`
+- `INFORMATION`
+- `TIMING`
+- `SECURITY`
+- `SYMBOLIC_MODEL`
+- `UNKNOWN/GAP`
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+## 3. QLS/QIC boundary
 
-______________________________________________________________________
+QLS/QIC substrate variables represent generic units, relations, transforms, memory, discrimination, prediction/correction and propagation only within their declared model semantics.
 
-## 5. Gaps
+They do not automatically become QCLA physical variables.
 
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
+```text
+QIC UNIT != MOLECULE
+QLS TRANSFORM != QUANTUM GATE
+QLS FIELD != PHYSICAL FIELD
+```
 
-______________________________________________________________________
+A mapping requires an explicit translation rule and translation-loss state.
 
-## 6. Worked semantics (target)
+## 4. QCLA boundary
 
-Given an operation touching `01_CANON · REGISTRY` within the Canon plane:
+QCLA variables may refer to molecular/chemical states, coherence/state logic, causal constraints or architecture-level quantities.
 
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+Every physical interpretation requires:
+- unit;
+- measurement method;
+- hardware/material system;
+- environment;
+- temporal regime;
+- uncertainty.
 
-______________________________________________________________________
+Absent those, the variable remains model/symbolic.
 
-## 7. Promotion-gate checklist
+## 5. Cross-framework mapping object
 
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+```yaml
+VariableMapping:
+  source_variable:
+  target_variable:
+  mapping_type: IDENTICAL|UNIT_CONVERSION|APPROXIMATION|ANALOGY|EMBEDDING|UNKNOWN
+  assumptions:
+  information_loss:
+  scope:
+  regime:
+  evidence:
+  provenance:
+  falsifier:
+```
 
-______________________________________________________________________
+`ANALOGY` mappings cannot be used inside physical equations as if identity were proven.
 
-## 8. Cross-plane bindings (target)
+## 6. Equation admission
 
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+Before a QLS/QCLA equation is reusable:
+1. resolve every symbol;
+2. resolve units/dimensions;
+3. classify each variable as observed/latent/symbolic;
+4. verify domain and regime;
+5. verify equation source;
+6. classify equation as formal identity / definition / model / hypothesis / empirical fit.
 
-______________________________________________________________________
+## 7. Collision examples to block
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+- `E` used for entropy vs energy;
+- `S` used for system/state vs entropy;
+- `C` used for constraint/coherence/capacity;
+- `Q` used for quantum state/quality/charge;
+- `I` used for information/current/identity;
+- `P` used for probability/power/policy.
 
-______________________________________________________________________
+Name collisions must be resolved with qualified logical IDs.
 
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+## 8. Full-Brain and domain routing
 
-______________________________________________________________________
+This registry is infrastructure for reasoning; it is not a Full-Brain peer.
 
+Physical QCLA variables route to C03/C10, formal variables to C02, and biological variables to C04 only when the semantic mapping is evidence-supported.
+
+## 9. Validation tests
+
+- same symbol, different domain;
+- same name, different units;
+- unitless symbolic variable promoted to physical variable;
+- QLS analogy mapped to QCLA identity;
+- stale source variable after supersession;
+- equation with undefined symbol;
+- dimensionally inconsistent equation;
+- incompatible time/regime composition.
+
+## 10. Current gaps
+
+A complete symbol-by-symbol census of all QLS/QCLA source equations is not yet materialized. This registry defines the governing contract and must be progressively populated from source-faithful parsing.
+
+---
 RSCF-NODE
-
 node_id: amos_01_canon_05_variable_registry_qls_qcla_variable_registry
-
-node_type: registry
-
-path: 01_CANON/05_VARIABLE_REGISTRY/QLS_QCLA_VARIABLE_REGISTRY.md
-
+node_type: variable_registry
 claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
-
-**MOC:** [[01_CANON/05_VARIABLE_REGISTRY/05_VARIABLE_REGISTRY_MOC|05_VARIABLE_REGISTRY_MOC]]

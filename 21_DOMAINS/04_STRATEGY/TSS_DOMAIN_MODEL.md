@@ -1,65 +1,21 @@
 ---
-title: TSS Domain Model Specification
-type: domain
-source: 21_DOMAINS/04_STRATEGY
-artifact: TSS_DOMAIN_MODEL.md
-artifact_id: amos_21_domains_04_strategy_tss_domain_model
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 21_DOMAINS
-segment: 21_DOMAINS/04_STRATEGY
-artifact_kind: DOMAIN_MODEL
-path: 21_DOMAINS/04_STRATEGY/TSS_DOMAIN_MODEL.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Tss Domain Model
 tags:
-  - amos-os
-  - domain
-  - vault
-  - 04_strategy
-  - tss_domain_model
-  - lifecycle_strategy
-  - state_vector_omega_h_f_s
-  - rscf
-  - canon_candidate
-  - canon/domain
-  - tss-the-trang-system
-  - amos-x-tss
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM
-    - 21_DOMAINS/04_STRATEGY/04_STRATEGY_MOC
-    - AMOS_CORPUS
-  scope:
-    - DOMAIN_STRATEGY
-    - TSS_STRATEGY_MODEL
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  tss_master:
-    artifact:
-      -   - TSS_THE_TRANG_SYSTEM
-  strategy_moc:
-    artifact:
-      -   - 04_STRATEGY_MOC
-  matrix_binding:
-    artifact:
-      -   - AMOS_X_TSS
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  domain_structure: VERIFIED_SOURCE_STRUCTURE
-  strategy_model: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # TSS Strategic Domain Model Specification

@@ -1,228 +1,296 @@
 ---
-title: Cross-Species Mode Engine
-type: engine
-source: 05_COGNITIVE_ORGANISM
-artifact: CROSS_SPECIES_MODE_ENGINE.md
-artifact_id: amos_05_cognitive_organism_cross_species_mode_engine
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 05_COGNITIVE_ORGANISM
-segment: 05_COGNITIVE_ORGANISM
-artifact_kind: SPEC
-path: 05_COGNITIVE_ORGANISM/CROSS_SPECIES_MODE_ENGINE.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Cross Species Mode Engine
 tags:
-  - amos-os
-  - cognitive
-  - organism
-  - spec
-  - canon_placeholder
-  - rscf
-  - canon/cognitive
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Cross-Species Mode Engine
 
-## 0. Status
+> [!abstract] Engine Specification
+> Defines the multi-species/multi-paradigm cognitive interface for AMOS Full Brain OS — enabling communication and coordination between agents with fundamentally different cognitive architectures (symbolic, sub-symbolic, quantum, biological-inspired).
+> **Epistemic status:** AMOS_MODEL specification; not yet validated as empirical claim.
 
-`CROSS_SPECIES_MODE_ENGINE.md` is an **ADD-ONLY placeholder** for the **Cognitive Organism** plane segment at `05_COGNITIVE_ORGANISM`.
-
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
-
-```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
-```
-
-Origin architect / steward:
-
-**Trang Phan**
-
-______________________________________________________________________
+---
 
 ## 1. Purpose
 
-This artifact reserves the **Cross-Species Mode Engine** slot within the Cognitive Organism plane. The Cognitive Organism plane governs the organism-level cognitive assembly above kernels and below agents.
+The Cross-Species Mode Engine handles **cognitive diversity** within the AMOS ecosystem. Different agents may operate under fundamentally different cognitive paradigms:
 
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+- **Symbolic agents** (logic-based, rule-following)
+- **Sub-symbolic agents** (neural networks, statistical learning)
+- **Quantum-inspired agents** (superposition, entanglement)
+- **Biological-inspired agents** (evolutionary, developmental)
+- **Hybrid agents** (combining multiple paradigms)
 
-______________________________________________________________________
+This engine provides the **translation layer** that enables these diverse cognitive species to communicate and collaborate.
 
-## 2. Non-Purpose
+---
 
-This placeholder MUST NOT be used to claim:
+## 2. Cognitive Species Taxonomy
 
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
-
-______________________________________________________________________
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+```text
+                    COGNITIVE SPECIES TAXONOMY
+                    ═══════════════════════════
+                              │
+         ┌────────────────────┼────────────────────┐
+         │                    │                    │
+    PARADIGM-BASED       ARCHITECTURE-BASED    SCALE-BASED
+         │                    │                    │
+    ┌────┴────┐          ┌────┴────┐          ┌────┴────┐
+    │Symbolic │          │Monolith │          │Individual│
+    │Sub-Sym  │          │Modular  │          │Swarm     │
+    │Quantum  │          │Distrib. │          │Hierarchy │
+    │Hybrid   │          │Federated│          │Network   │
+    └─────────┘          └─────────┘          └─────────┘
 ```
 
-______________________________________________________________________
+### 2.1 Paradigm Registry
 
-## 4. Contract discipline
+| Species ID | Paradigm | Core Representation | Strengths | Limitations |
+| :--- | :--- | :--- | :--- | :--- |
+| `SYM-01` | Symbolic | Logical propositions | Explainability, precision | Brittleness, scalability |
+| `SUB-02` | Sub-symbolic | Distributed vectors | Generalization, learning | Black-box, data hungry |
+| `QNT-03` | Quantum-inspired | Qubit representations | Parallelism, optimization | Hardware constraints |
+| `BIO-04` | Biological | Evolutionary programs | Adaptability, robustness | Slow convergence |
+| `HBR-05` | Hybrid | Multi-representation | Flexibility, coverage | Coordination complexity |
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+---
 
-______________________________________________________________________
+## 3. Translation Protocol
 
-## 5. Gaps
+### 3.1 Universal Message Format
 
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
+All cross-species communication uses a **Universal Cognitive Message (UCM)** format:
 
-______________________________________________________________________
+```yaml
+universal_cognitive_message:
+  header:
+    source_id: "SYM-01-agent-42"
+    target_id: "SUB-02-agent-17"
+    species_source: "SYM-01"
+    species_target: "SUB-02"
+    epoch: 4402
+    signature: "ed25519:..."
+    
+  semantic_payload:
+    content_type: "propositional_logic"
+    content: "∀x (Human(x) → Mortal(x))"
+    confidence: 0.95
+    provenance:
+      - "source:11_KNOWLEDGE/PHILOSOPHY/SYLLOGISM"
+      - "validation:verified"
+      
+  translation_metadata:
+    original_format: "first_order_logic"
+    target_format: "neural_embedding"
+    translation_method: "logic_to_vector"
+    translation_confidence: 0.88
+    semantic_preservation_score: 0.92
+    
+  rscf:
+    state: SOURCE_CLAIM
+    claim_class: DERIVED
+    scope: cross_species_communication
+```
 
-## 6. Worked semantics (target)
+### 3.2 Translation Confidence Scoring
 
-Given an operation touching `05_COGNITIVE_ORGANISM · SPEC` within the Cognitive Organism plane:
+Not all concepts translate perfectly between paradigms:
 
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+$$T_{\text{conf}}(c, s_1, s_2) = \alpha \cdot \text{overlap}(c, s_1) + \beta \cdot \text{expressiveness}(s_2) + \gamma \cdot \text{fidelity}(c)$$
 
-______________________________________________________________________
+Where:
+- $\text{overlap}(c, s_1)$: How well concept $c$ is represented in source species $s_1$
+- $\text{expressiveness}(s_2)$: How expressive target species $s_2$ is
+- $\text{fidelity}(c)$: How well concept $c$ survives translation
 
-## 7. Promotion-gate checklist
+| Confidence Level | Action |
+| :--- | :--- |
+| $T_{\text{conf}} > 0.9$ | Direct translation, accept result |
+| $0.7 < T_{\text{conf}} \leq 0.9$ | Translate with annotation of potential loss |
+| $0.5 < T_{\text{conf}} \leq 0.7$ | Translate with human review recommended |
+| $T_{\text{conf}} \leq 0.5$ | Reject translation, use alternative communication |
 
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+---
 
-______________________________________________________________________
+## 4. Inter-Species Protocols
 
-## 8. Cross-plane bindings (target)
+### 4.1 Symbolic → Sub-symbolic Translation
 
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+```text
+LOGICAL PROPOSITIONS
+    ↓
+    │ 1. Ground symbols to vector space
+    │ 2. Learn relation embeddings
+    │ 3. Validate semantic preservation
+    ↓
+NEURAL EMBEDDINGS
+```
 
-______________________________________________________________________
+**Challenge:** Logic rules may not have clean vector representations.
+**Mitigation:** Use neuro-symbolic hybrid approaches.
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+### 4.2 Sub-symbolic → Symbolic Translation
 
-______________________________________________________________________
+```text
+NEURAL ACTIVATIONS
+    ↓
+    │ 1. Extract salient features
+    │ 2. Generate candidate rules
+    │ 3. Validate logical consistency
+    │ 4. Minimize rule complexity
+    ↓
+LOGICAL PROPOSITIONS
+```
 
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+**Challenge:** Neural representations may be inherently non-symbolic.
+**Mitigation:** Accept approximation, annotate with confidence.
 
-______________________________________________________________________
+### 4.3 Quantum-inspired → Classical Translation
+
+```text
+QUANTUM STATE
+    ↓
+    │ 1. Measure (collapse superposition)
+    │ 2. Record outcome probabilities
+    │ 3. Generate classical approximation
+    ↓
+CLASSICAL REPRESENTATION
+```
+
+**Challenge:** Measurement destroys quantum information.
+**Mitigation:** Communicate probability distributions, not just outcomes.
+
+---
+
+## 5. Multi-Species Coordination
+
+### 5.1 Coordination Strategies
+
+| Strategy | When to Use | Overhead |
+| :--- | :--- | :--- |
+| **Message Passing** | Loosely coupled agents | Low |
+| **Shared Blackboard** | Tightly coupled collaboration | Medium |
+| **Orchestrated Pipeline** | Sequential processing | Medium |
+| **Swarm Consensus** | Distributed decision-making | High |
+| **Hierarchical Delegation** | Mixed initiative | High |
+
+### 5.2 Consensus Across Paradigms
+
+When agents from different species must agree:
+
+1. **Propose:** Each agent proposes in its native representation.
+2. **Translate:** All proposals translated to common format.
+3. **Evaluate:** Common evaluation metric applied.
+4. **Vote:** Weighted voting based on agent confidence.
+5. **Commit:** Consensus recorded with provenance.
+
+---
+
+## 6. Integration with Other Engines
+
+### 6.1 Identity Engine
+- Each agent's cognitive species is part of its identity record
+- Species-specific capabilities are tracked
+- Continuity preserves species assignment
+
+### 6.2 Metacognitive Engine
+- Metacognition monitors translation quality
+- Detects when cross-species communication is failing
+- Adjusts coordination strategy based on species mix
+
+### 6.3 Intuition Engine
+- Each species may have different intuition mechanisms
+- Cross-species intuitions can be compared
+- Best intuition wins based on species track record
+
+### 6.4 Memory Engine
+- Memory must store representations from all species
+- Retrieval must handle cross-species queries
+- Consolidation must reconcile species-specific memories
+
+---
+
+## 7. Configuration
+
+```yaml
+cross_species_mode_engine_config:
+  enabled: true
+  supported_species:
+    - "SYM-01"
+    - "SUB-02"
+    - "QNT-03"
+    - "BIO-04"
+    - "HBR-05"
+  translation_confidence_threshold: 0.7
+  default_translation_method: "neuro_symbolic"
+  coordination_strategy: "message_passing"
+  max_concurrent_translations: 10
+  translation_timeout_ms: 100
+  species_registry_refresh_interval: "daily"
+```
+
+---
+
+## 8. Failure Modes
+
+| Failure Mode | Detection | Response |
+| :--- | :--- | :--- |
+| Translation loss | Confidence below threshold | Reject + alternative path |
+| Species mismatch | No valid translation path | Escalate to human |
+| Consensus failure | No agreement after N rounds | Default to highest-authority species |
+| Protocol incompatibility | Message format mismatch | Reformat + retry |
+| Species drift | Agent changes paradigm mid-task | Re-identify + re-negotiate |
+
+---
+
+## 9. Epistemic Boundary
+
+> [!warning] Translation is Approximation
+> Cross-species translation is inherently **lossy**. Converting logical propositions to neural embeddings, or quantum states to classical representations, inevitably loses information. The Cross-Species Mode Engine provides **useful approximations**, not perfect fidelity. All translated messages carry confidence scores indicating potential information loss.
+
+---
+
+## 10. Cross-Vault References
+
+- [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
+- [[05_COGNITIVE_ORGANISM/IDENTITY_ENGINE|IDENTITY_ENGINE]]
+- [[05_COGNITIVE_ORGANISM/METACOGNITIVE_ENGINE|METACOGNITIVE_ENGINE]]
+- [[05_COGNITIVE_ORGANISM/INTUITION_ENGINE|INTUITION_ENGINE]]
+- [[10_MEMORY/EPISODIC_MEMORY_SUBSTRATE|EPISODIC_MEMORY_SUBSTRATE]]
+- [[15_INTERFACES/INTERFACE_MULTI_AGENT_ORCHESTRATION|MULTI_AGENT_ORCHESTRATION]]
+
+---
 
 RSCF-NODE
 
 node_id: amos_05_cognitive_organism_cross_species_mode_engine
-
-node_type: spec
-
+node_type: engine
 path: 05_COGNITIVE_ORGANISM/CROSS_SPECIES_MODE_ENGINE.md
-
 claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
+rscf_state: specification
+canonical_status: SPECIFICATION_NOT_IMPLEMENTED
 
 RSCF-RELATIONS:
-
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
 - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
+- TRANSLATES_FOR: [[05_COGNITIVE_ORGANISM/IDENTITY_ENGINE|IDENTITY_ENGINE]]
+- MONITORED_BY: [[05_COGNITIVE_ORGANISM/METACOGNITIVE_ENGINE|METACOGNITIVE_ENGINE]]
+- INTEGRATES_WITH: [[15_INTERFACES/INTERFACE_MULTI_AGENT_ORCHESTRATION|MULTI_AGENT_ORCHESTRATION]]
 
 **MOC:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]

@@ -1,27 +1,21 @@
 ---
-type: design
-source: 11_KNOWLEDGE
-id: AMOS-C11-DESIGN-LANGUAGE-MASTER-KNOWLEDGE
-title: "AMOS C11 — Design & Language Master Knowledge"
-origin_architect: Trang Phan
-artifact_type: domain_master_knowledge
-domain: C11_DESIGN_LANGUAGE
-conclusion_class: MIXED
-evidence_policy: typed_per_node
-canon_status: DOMAIN_KNOWLEDGE_WITH_RESEARCH_BRIDGES
-language: en
-architecture: HML_fractal_single_file
-placeholder_status: NONE
-version: 1.1
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos C11 Design Language Master Knowledge
 tags:
-  - knowledge
-  - note
-  - canon/knowledge
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS C11 — Design & Language Master Knowledge
@@ -646,7 +640,7 @@ The architecture should remain open and repairable:
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

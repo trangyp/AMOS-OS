@@ -1,71 +1,21 @@
 ---
-title: UBI Bioelectromagnetic Intelligence (BEI)
-type: biology
-source: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
-artifact: UBI_BIOELECTROMAGNETIC_INTELLIGENCE.md
-artifact_id: amos_11_knowledge_06_domain_knowledge_ubi_bioelectromagnetic_intelligence
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 11_KNOWLEDGE
-segment: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
-artifact_kind: DOMAIN_KNOWLEDGE
-path: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_BIOELECTROMAGNETIC_INTELLIGENCE.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Ubi Bioelectromagnetic Intelligence
 tags:
-  - amos-os
-  - knowledge
-  - vault
-  - 06_domain_knowledge
-  - ubi
-  - bei
-  - bioelectromagnetics
-  - neural_oscillations
-  - cardiac_coherence
-  - rhythmic_regulation
-  - synchrony
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-  - unified-biological-intelligence
-  - amos-x-ubi
-  - amos-x-ubi-matrix
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - UBI_OFFICIAL_MANUAL
-    - UNIFIED_BIOLOGICAL_INTELLIGENCE_UBI_OFFICIAL
-    - AMOS_CORPUS
-  scope:
-    - BIOLOGICAL_INTELLIGENCE
-    - BIOELECTROMAGNETICS
-    - SOURCE_DEFINED_BEI_MODEL
-framework_binding:
-  parent_framework:
-    name: Unified Biological Intelligence™
-    acronym: UBI
-    artifact:
-      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
-  matrix_binding:
-    artifact:
-      -   - AMOS_X_UBI
-    matrix:
-      -   - AMOS_X_UBI_MATRIX
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  domain_structure: VERIFIED_SOURCE_STRUCTURE
-  clinical_fact: NOT_ESTABLISHED
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Bioelectromagnetic Intelligence™ (BEI)

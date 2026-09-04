@@ -1,94 +1,104 @@
 ---
-title: INV-AUTHZ-003 — Least Privilege Scope Bounding
-type: authority_invariant
-source: 03_CONTROL_PLANE/04_AUTHORITY
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_INVARIANT
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT
-    - 01_CANON/01_CORE_LAWS/LAW_HIERARCHY
-  scope: authority_governance
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Inv Authz 003
 tags:
-  - amos-os
-  - authority
-  - invariant
-  - control-plane
-  - inv-authz-003
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# INV-AUTHZ-003 — Least Privilege Scope Bounding
+# INV-AUTHZ-003
 
-## 1. Formal Specification
+## 0. Status
 
-> **Invariant Statement:**
-> `An agent cannot be granted permissions broader than the smallest RSCF sub-tree required for its task.`
+Control Plane-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
 
-## 2. Invariant Rule & Mathematical Formulation
+## 1. Purpose
 
-Let $\mathcal{P}(a)$ be the permission set granted to agent $a$, $\mathcal{T}(a)$ the RSCF sub-tree required for the task assigned to $a$, and $\mathcal{U}$ the universal permission universe:
+`INV-AUTHZ-003` defines typed artifact specification, serving the Control Plane plane's obligation: governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback.
 
-$$\forall a \in \mathcal{A}, \quad \mathcal{P}(a) \subseteq \mathcal{T}(a) \subseteq \mathcal{U}$$
+## 2. Semantics
 
-The minimal-scope constraint requires that the granted permission set is exactly the task-required sub-tree, not a superset:
+- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
+- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
+- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
 
-$$\nexists p \in \mathcal{P}(a) : p \notin \mathcal{T}(a)$$
+## 3. Failure modes guarded
 
-The scope excess function is defined as:
+STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
 
-$$\text{Excess}(a) = |\mathcal{P}(a) \setminus \mathcal{T}(a)|$$
+## 4. Validation
 
-The invariant requires:
+No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
 
-$$\forall a \in \mathcal{A}, \quad \text{Excess}(a) = 0$$
+## 5. Gaps
 
-## 3. Enforcement & Verification
+Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
 
-- **Evaluation Point:** Evaluated at capability token issuance time, when the Control Plane computes the required RSCF sub-tree for the assigned task and compares it against the requested permission set.
-- **Violation Consequence:** If the requested permissions exceed the task-required sub-tree, the token issuance is refused. A `SCOPE_EXCESS_VIOLATION` receipt is emitted to `17_OBSERVABILITY`. The agent receives a minimal-scope token instead.
-- **Recovery Procedure:** The agent may request additional permissions through a separate delegation flow, which requires a new task specification and justification. No rollback is needed since the violation is caught at issuance time.
-- **Verification Cadence:** Synchronous at every token issuance. A periodic audit also samples active tokens to verify that their scope still matches the current task requirements.
-- **Governed By:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+## 6. Falsifiers
 
-## 4. Attack Vectors & Mitigations
+F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
 
-- **Overbroad Permission Request:** An agent requests permissions beyond its task scope to prepare for lateral movement. Mitigated by the scope-excess check at token issuance, which refuses any permission not in the task-required RSCF sub-tree.
-- **Task Specification Manipulation:** An agent inflates its task description to justify broader permissions. Mitigated by requiring task specifications to be signed by a delegating authority, verified per [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-001|INV-AUTHZ-001]].
-- **Permission Accumulation Across Tasks:** An agent accumulates permissions from multiple completed tasks without relinquishing them. Mitigated by epoch-bound token expiration per [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-002|INV-AUTHZ-002]].
-- **Scope Creep via Delegation:** A delegated agent expands its scope beyond the delegator's scope. Mitigated by the delegation attenuation requirement in the capability-bound governance kernel v4.8.
+## Worked semantics
 
-## 5. Dependencies & Prerequisites
+Given an operation touching `INV-AUTHZ-003` within the Control Plane plane:
 
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-001|INV-AUTHZ-001]] — Root authority must authorize the delegation that grants permissions.
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-002|INV-AUTHZ-002]] — Epoch expiration prevents permission accumulation.
-- **Requires:** The RSCF sub-tree computation engine that maps task specifications to minimal permission sets.
-- **Requires:** The capability-bound governance kernel v4.8 delegation attenuation logic.
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-## 6. Provenance & Audit Trail
+## Promotion-gate checklist
 
-- **Receipt Type:** `SCOPE_GRANT_RECEIPT` — emitted for every capability token issuance, recording the granted scope and the task-required scope.
-- **Storage Location:** `17_OBSERVABILITY` with agent-indexed and task-indexed partitions.
-- **Receipt Fields:** Agent identity, task ID, granted permission set, required RSCF sub-tree, scope-excess check result, issuing authority, epoch, BLAKE3 hash.
-- **Immutability:** Receipts are append-only per [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-014|INV-AUTHZ-014]].
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-## 7. Related Invariants
+## Cross-plane bindings
 
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-001|INV-AUTHZ-001]] — Root Authority Non-Transferability
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-002|INV-AUTHZ-002]] — Capability Token Epoch Expiration
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-005|INV-AUTHZ-005]] — No Self-Escalation
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-016|INV-AUTHZ-016]] — Strict Role Separation
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-042|INV-AUTHZ-042]] — Strict Identity Continuity
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-## 8. Navigation & Bindings
+______________________________________________________________________
 
-- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
-- **Control Plane Contract:** [[03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT|CONTROL_PLANE_CONTRACT]]
-- **Canon Law Hierarchy:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- **Kernel:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
-- **Observability:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+
+______________________________________________________________________
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: cp_03_control_plane_04_authority_inv_authz_003_md
+node_type: note
+path: 03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-003.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04_AUTHORITY_MOC]]
+
+______________________________________________________________________
+
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

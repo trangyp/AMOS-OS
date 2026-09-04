@@ -1,18 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: TRANG_FRAMEWORKS_MASTER_EQUATION_REGISTRY
-type: note
-source: 11_KNOWLEDGE
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Trang Frameworks Master Equation Registry
 tags:
-- vault
-- 11_knowledge
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 # TRANG ∅ FRAMEWORK → ASEA
 
@@ -4620,7 +4618,7 @@ Do not silently claim the frontmatter itself contained the expanded wording.
 ## 343. Suggested note: ASEA Core
 
 ```markdown
-## ASEA Core
+# ASEA Core
 
 Trang ASEA models self-evolving AI as:
 
@@ -4644,7 +4642,7 @@ See:
 ## 344. Suggested note: ASEA L/M/H
 
 ```markdown
-## ASEA L/M/H
+# ASEA L/M/H
 
 L = persistent foundation
 M = adaptive coordination
@@ -4660,7 +4658,7 @@ Generation != Validation
 ## 345. Suggested note: ASEA T2
 
 ```markdown
-## ASEA T2
+# ASEA T2
 
 T2 is the source-defined validation mechanism.
 
@@ -4674,7 +4672,7 @@ Two references != two independent provenance roots.
 ## 346. Suggested note: ASEA Mutation
 
 ```markdown
-## ASEA Mutation
+# ASEA Mutation
 
 Mutation creates candidate system changes.
 
@@ -4689,7 +4687,7 @@ Capability != Authority
 ## 347. Suggested note: ASEA Recovery
 
 ```markdown
-## ASEA Recovery
+# ASEA Recovery
 
 Preferred recovery hierarchy:
 
@@ -4706,7 +4704,7 @@ Local repair
 
 ## 348. ASEA notes
 
-```text
+```dataview
 TABLE
   type,
   source,
@@ -4720,7 +4718,7 @@ SORT file.name ASC
 
 ## 349. Source claims
 
-```text
+```dataview
 TABLE
   source,
   rscf.provenance,
@@ -4734,7 +4732,7 @@ SORT file.name ASC
 
 ## 350. Trang framework neighborhood
 
-```text
+```dataview
 LIST
 FROM #trang
 WHERE contains(tags, "framework")

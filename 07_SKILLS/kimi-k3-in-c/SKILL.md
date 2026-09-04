@@ -1,30 +1,21 @@
 ---
-schema_version: 1.0
-title: SKILL
-name: kimi-k3-in-c
-description: Build, test, and run the FareedKhan-dev/kimi-k3-in-c C99 Kimi K3 inference engine. Weightless tests need no checkpoint; full generation requires the 1.56 TB model. Do not use for training, fine-tuning, or non-C99 inference.
-license: MIT
-steward: Trang Phan
-version: 1.1.0
-origin_architect: Trang Phan
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
 epistemic_class: SOURCE_CLAIM
-rscf_state: DERIVED
-hml_level: L
+topic: Skill
 tags:
-  - c99
-  - inference
-  - kimi-k3
-  - weightless-test
-  - model-free
-  - operational
-  - readme
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
-type: skill
-source: 07_SKILLS/kimi-k3-in-c
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Kimi K3 in C

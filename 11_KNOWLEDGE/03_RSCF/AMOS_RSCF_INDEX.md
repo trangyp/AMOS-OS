@@ -1,59 +1,21 @@
 ---
-title: AMOS RSCF Index
-type: rscf
-source: 11_KNOWLEDGE/03_RSCF
-artifact: AMOS_RSCF_INDEX.md
-artifact_id: amos_11_knowledge_03_rscf_amos_rscf_index
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 11_KNOWLEDGE
-segment: 11_KNOWLEDGE/03_RSCF
-artifact_kind: INDEX
-path: 11_KNOWLEDGE/03_RSCF/AMOS_RSCF_INDEX.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Rscf Index
 tags:
-  - amos-os
-  - knowledge
-  - vault
-  - 03_rscf
-  - amos_rscf_index
-  - proof_capsules
-  - rscf_nodes
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-  - amos-full-brain-os-architecture
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - 03_RSCF_MOC
-    - AMOS_CORPUS
-  scope:
-    - KNOWLEDGE_RSCF
-    - AMOS_RSCF_INDEX
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  rscf_moc:
-    artifact:
-      -   - 03_RSCF_MOC
-  brain_os:
-    artifact: 11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  index_structure: VERIFIED_SOURCE_STRUCTURE
-  proof_index: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS OS RSCF Proof Capsule Index

@@ -1,44 +1,21 @@
 ---
-type: agent
-source: 11_KNOWLEDGE
-artifact_id: AMOS-AGENT-ONBOARDING
-name: amos-agent-onboarding-guide
-title: AMOS Agent Onboarding Guide — Governed Runtime Edition
-document_version: 3.0.0
-onboarding_protocol_version: 2.0.0
-amos_core_target: v4.4
-supersedes: QUANTUM_SUPREMACY_ENHANCED onboarding guide
-source_created: 2026-03-16 21:37:00+07:00
-updated: '2026-08-25'
-origin_architect: Trang Phan
-steward: Trang Phan
-status: active-governed
-priority: mandatory
-conclusion_class: AMOS_MODEL / CONDITIONAL
-source_status: SOURCE_CLAIM
-validation_status: REQUIRES_RUNTIME_REVALIDATION
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Agent Onboarding Guide
 tags:
-  - agents
-  - knowledge
-  - vault
   - canon-group/tech-ai
-  - canon/protocol
   - rscf/claim
   - rscf/provenance
-  - topic/agent-onboarding
-  - topic/runtime-governance
-  - topic/amos-core
-  - validation
-  - architecture
-  - memory
-  - integration
-  - workflow
-governing_law: integrity > completeness > fluency > speed > token savings
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: EMPIRICAL
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS AGENT ONBOARDING GUIDE
@@ -1966,7 +1943,7 @@ class = HYPOTHESIS
 
 ______________________________________________________________________
 
-## 64. TROUBLESHOOTING [[08_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]]
+## 64. TROUBLESHOOTING [[26_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]]
 
 ## Component unavailable
 
@@ -2423,7 +2400,7 @@ CALL VERIFIED
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

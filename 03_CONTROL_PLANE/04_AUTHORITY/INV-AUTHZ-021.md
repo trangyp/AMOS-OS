@@ -1,99 +1,104 @@
 ---
-title: INV-AUTHZ-021 — Confidence Ceiling Capping
-type: authority_invariant
-source: 03_CONTROL_PLANE/04_AUTHORITY
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_INVARIANT
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT
-    - 01_CANON/01_CORE_LAWS/LAW_HIERARCHY
-  scope: authority_governance
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Inv Authz 021
 tags:
-  - amos-os
-  - authority
-  - invariant
-  - control-plane
-  - inv-authz-021
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# INV-AUTHZ-021 — Confidence Ceiling Capping
+# INV-AUTHZ-021
 
-## 1. Formal Specification
+## 0. Status
 
-> **Invariant Statement:**
-> `Conclusions cannot assert confidence exceeding the weakest supporting premise (ceiling 0.95).`
+Control Plane-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
 
-## 2. Invariant Rule & Mathematical Formulation
+## 1. Purpose
 
-Let $c$ be a conclusion with supporting premises $P = \{ p_1, p_2, \ldots, p_n \}$, and $\text{Conf}(x)$ the confidence of $x$:
+`INV-AUTHZ-021` defines typed artifact specification, serving the Control Plane plane's obligation: governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback.
 
-$$\text{Conf}(c) \le \min_{p_i \in P} \text{Conf}(p_i)$$
+## 2. Semantics
 
-The absolute ceiling is:
+- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
+- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
+- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
 
-$$\text{Conf}(c) \le 0.95$$
+## 3. Failure modes guarded
 
-The confidence propagation function is:
+STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
 
-$$\text{Conf}(c) = \min\left( \min_{p_i \in P} \text{Conf}(p_i), \; 0.95 \right)$$
+## 4. Validation
 
-No aggregation method may produce a conclusion confidence exceeding the weakest premise:
+No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
 
-$$\nexists f : \text{Conf}(f(P)) > \min_{p_i \in P} \text{Conf}(p_i)$$
+## 5. Gaps
 
-The ceiling is strict — even with infinite supporting premises of confidence 0.95, the conclusion cannot exceed 0.95:
+Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
 
-$$\forall P : |P| \to \infty, \quad \text{Conf}(c) \le 0.95$$
+## 6. Falsifiers
 
-## 3. Enforcement & Verification
+F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
 
-- **Evaluation Point:** Evaluated at the epistemic state transition gate when a conclusion is derived from premises. The gate computes the minimum premise confidence and caps the conclusion confidence accordingly.
-- **Violation Consequence:** If a conclusion asserts confidence exceeding the ceiling, the confidence value is clamped to the ceiling. A `CONFIDENCE_CEILING_VIOLATION` receipt is emitted to `17_OBSERVABILITY`.
-- **Recovery Procedure:** The conclusion's confidence is automatically clamped. No rollback is needed. The conclusion remains valid but with corrected confidence.
-- **Verification Cadence:** Synchronous at every conclusion derivation. A periodic audit samples conclusions to verify that their confidence values respect the ceiling.
-- **Governed By:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+## Worked semantics
 
-## 4. Attack Vectors & Mitigations
+Given an operation touching `INV-AUTHZ-021` within the Control Plane plane:
 
-- **Confidence Inflation:** An agent inflates a conclusion's confidence beyond its weakest premise to gain unwarranted authority. Mitigated by the ceiling check that clamps confidence at derivation time.
-- **Ceiling Evasion via Aggregation:** An agent uses an aggregation method that claims to produce higher confidence than the weakest premise. Mitigated by the formal constraint that no aggregation method may exceed the minimum premise confidence.
-- **Premise Confidence Fabrication:** An agent fabricates high-confidence premises to raise the ceiling for its conclusion. Mitigated by [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-012|INV-AUTHZ-012]] which requires evidence for verified claims.
-- **Ceiling Modification:** An attacker modifies the ceiling value to allow higher confidence. Mitigated by the ceiling being stored in canon, protected by [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-006|INV-AUTHZ-006]].
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-## 5. Dependencies & Prerequisites
+## Promotion-gate checklist
 
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-012|INV-AUTHZ-012]] — Reality grounding requirement ensures premises have supporting evidence.
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-024|INV-AUTHZ-024]] — Competing hypotheses preservation ensures alternative conclusions are retained.
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-034|INV-AUTHZ-034]] — Epistemic drift threshold monitors confidence drift over time.
-- **Requires:** A confidence tracking system that propagates confidence from premises to conclusions.
-- **Requires:** A canonical ceiling value stored in `01_CANON`.
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-## 6. Provenance & Audit Trail
+## Cross-plane bindings
 
-- **Receipt Type:** `CONFIDENCE_CEILING_RECEIPT` — emitted for every conclusion derivation, recording the premise confidences, computed ceiling, and final confidence.
-- **Storage Location:** `17_OBSERVABILITY` with conclusion-ID-indexed partitions.
-- **Receipt Fields:** Conclusion ID, premise set with confidences, minimum premise confidence, ceiling value, final confidence, clamping flag, epoch, BLAKE3 hash.
-- **Immutability:** Confidence ceiling receipts are append-only per [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-014|INV-AUTHZ-014]].
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-## 7. Related Invariants
+______________________________________________________________________
 
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-012|INV-AUTHZ-012]] — Reality Grounding Requirement
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-024|INV-AUTHZ-024]] — Competing Hypotheses Preservation
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-034|INV-AUTHZ-034]] — Epistemic Drift Threshold
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-039|INV-AUTHZ-039]] — Invariant Falsification Obligation
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-048|INV-AUTHZ-048]] — Popperian Falsification Floor
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
-## 8. Navigation & Bindings
+______________________________________________________________________
 
-- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
-- **Control Plane Contract:** [[03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT|CONTROL_PLANE_CONTRACT]]
-- **Canon Law Hierarchy:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- **Kernel:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
-- **Observability:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: cp_03_control_plane_04_authority_inv_authz_021_md
+node_type: note
+path: 03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-021.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04_AUTHORITY_MOC]]
+
+______________________________________________________________________
+
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

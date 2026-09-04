@@ -1,23 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: DOCTOR OF SCIENCE DSC SCD SUBMISSION PORTFOLIO TRANG PHAN
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Doctor Of Science Dsc Scd Submission Portfolio Trang Phan
 tags:
-  - canon-group/human-system
-  - canon/framework
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
-  - rscf/state/observation
-  - topic/doctor-of-science-dsc-scd-submission-por
-  - trang
-type: note
-source: 11_KNOWLEDGE/trang
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # DOCTOR OF SCIENCE DSC SCD SUBMISSION PORTFOLIO TRANG PHAN

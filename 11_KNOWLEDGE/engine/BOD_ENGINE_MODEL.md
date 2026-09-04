@@ -1,30 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: BOD ENGINE MODEL
-type: model
-source: 11_KNOWLEDGE/engine
-aliases:
-  - BOD Engine
-  - AMOS_Bod_Engine
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Bod Engine Model
 tags:
   - canon-group/tech-ai
-  - canon/model
   - rscf/claim
   - rscf/provenance
-  - rscf/state/derived
-  - topic/bod-engine-model
-  - engine
-  - system-scan-agent
-  - automation-profiles
-  - amos-simulation-kernel-v0-math-foundations
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: AMOS_MODEL
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: engine_specification
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS BOD Engine

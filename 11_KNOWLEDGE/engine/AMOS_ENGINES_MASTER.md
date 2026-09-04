@@ -1,34 +1,21 @@
 ---
-title: AMOS Engines Master — 5 Unified Engines
-created: '2026-08-22'
-origin: Google Drive — _00_AMOS_CANON/Packs/Sector_Packs/
-origin_architect: Trang Phan
-type: reference
-source: 11_KNOWLEDGE/engine
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Engines Master
 tags:
-  - amos
-  - engines-master
-  - bizfin
-  - gov-risk
-  - human
-  - science
-  - tech
-  - 5-engines
-  - deterministic
-  - SEAs
-  - engine
-  - canon/knowledge
-  - system-scan-agent
-  - automation-profiles
-  - amos-simulation-kernel-v0-math-foundations
-status: active
-provenance: VERIFIED
-confidence: VERIFIED
-rscf:
-  state: AMOS_MODEL
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: engine_specification
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Engines Master (5)

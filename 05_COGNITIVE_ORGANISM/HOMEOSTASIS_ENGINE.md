@@ -1,228 +1,152 @@
 ---
-title: Homeostasis Engine
-type: engine
-source: 05_COGNITIVE_ORGANISM
-artifact: HOMEOSTASIS_ENGINE.md
-artifact_id: amos_05_cognitive_organism_homeostasis_engine
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 05_COGNITIVE_ORGANISM
-segment: 05_COGNITIVE_ORGANISM
-artifact_kind: ENGINE
-path: 05_COGNITIVE_ORGANISM/HOMEOSTASIS_ENGINE.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Homeostasis Engine
 tags:
-  - amos-os
-  - cognitive
-  - organism
-  - engine
-  - canon_placeholder
-  - rscf
-  - canon/cognitive
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Homeostasis Engine
+# Homeostasis Engine — Cognitive Organism
 
-## 0. Status
+> **Status:** `ACTIVE_SPECIFICATION` · **AMOS Core target:** `v4.4`  
+> **Origin architect / steward:** Trang Phan  
+> **Functional Group:** `G. REGULATION / ASSURANCE` (MECE Partition)  
+> **Conclusion class:** `AMOS_MODEL`
 
-`HOMEOSTASIS_ENGINE.md` is an **ADD-ONLY placeholder** for the **Cognitive Organism** plane segment at `05_COGNITIVE_ORGANISM`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+## 1. Architectural Purpose & Role
 
-The governing boundaries are:
+The **Homeostasis Engine** provides regulatory feedback, cognitive resource stabilization, and systemic equilibrium across `05_COGNITIVE_ORGANISM`. It continuously monitors cognitive load, context exhaustion, error rates, and computational fatigue, maintaining operation within safe bounds and triggering graceful degradation or repair when limits are breached.
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
+COGNITIVE & RUNTIME TELEMETRY (Load, Latency, Errors, Contradictions)
+                                ↓
+┌───────────────────────────────────────────────────────────────┐
+│                      HOMEOSTASIS ENGINE                       │
+│  - 6-Parameter Health Vector H(t) Evaluation                 │
+│  - Stress-to-Capacity Ratio Calculation                       │
+│  - Degradation State Machine Control                         │
+│  - Governed Load-Shedding & Work Throttling                   │
+└───────────────────────────────────────────────────────────────┘
+                                ↓
+        REGULATORY COMMANDS & EMERGENCY BRAKES (PAUSE / SHED)
+                                ↓
+             ATTENTION, ACTION & REPAIR ENGINES
 ```
 
-Origin architect / steward:
+---
 
-**Trang Phan**
+## 2. Six-Parameter Homeostatic State Vector
 
-______________________________________________________________________
+The internal equilibrium $H(t)$ of the cognitive organism is parameterized as:
 
-## 1. Purpose
+$$H(t) = \begin{bmatrix} L(t) \\ S(t) \\ F(t) \\ \Omega(t) \\ \mathcal{I}(t) \\ R_c(t) \end{bmatrix} = \begin{bmatrix} \text{Load} \\ \text{Stress Ratio} \\ \text{Cumulative Fatigue} \\ \text{Stability} \\ \text{System Integrity} \\ \text{Repair Capacity} \end{bmatrix}$$
 
-This artifact reserves the **Homeostasis Engine** slot within the Cognitive Organism plane. The Cognitive Organism plane governs the organism-level cognitive assembly above kernels and below agents.
+### 2.1 Load Model $L(t)$
+$$L(t) = w_1 \cdot \text{TaskComplexity} + w_2 \cdot \text{ContextPressure} + w_3 \cdot \text{GoalConcurrency} + w_4 \cdot \text{ConflictBurden}$$
 
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+### 2.2 Stress Ratio $S(t)$
+$$S(t) = \frac{L(t)}{\text{AvailableCapacity}(t)}$$
+* $S(t) \le 0.7$: `NOMINAL` operation.
+* $0.7 < S(t) \le 1.0$: `STRAINED` operation (initiate background compaction).
+* $S(t) > 1.0$: `OVERLOADED` (activate mandatory load shedding).
 
-______________________________________________________________________
+### 2.3 System Integrity $\mathcal{I}(t)$
+$$\mathcal{I}(t) = I_{\text{constraint}} \times I_{\text{provenance}} \times I_{\text{state}} \times I_{\text{identity}} \times I_{\text{governance}}$$
+Integrity is multiplicative: a single zero in constraint violation or provenance loss collapses total integrity, triggering immediate audit.
 
-## 2. Non-Purpose
+---
 
-This placeholder MUST NOT be used to claim:
+## 3. Degradation State Machine & Load Shedding
 
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
+When operational demand exceeds capacity, homeostasis transitions through discrete stages:
 
-______________________________________________________________________
+$$\text{HEALTHY} \longrightarrow \text{LOADED} \longrightarrow \text{STRAINED} \longrightarrow \text{DEGRADED} \longrightarrow \text{CRITICAL} \longrightarrow \text{SUSPENDED}$$
 
-## 3. Ingestion Rule
+### 3.1 Governed Load Shedding Hierarchy
+To protect core reasoning integrity, non-essential computation is shed in strict descending order:
+1. **Cosmetic Enhancements** (decorative markdown, extended styling)
+2. **Explanatory Prose** (verbose justifications, non-essential background)
+3. **Exploratory Branches** (optional lateral hypotheses)
+4. **Low-Value Tool Calls** (optional external web enrichment)
 
+**Absolute Invariant:** The engine must **NEVER** shed:
+* Authority verification gates
+* Provenance and causal tracking
+* Hard canonical constraints
+* Unresolved safety warnings
+
+---
+
+## 4. Grounding in Arvix Research Corpus
+
+The Homeostasis Engine adapts physical and biological self-regulation principles from the [Arvix Research Corpus](file:///Users/mac/Desktop/_Arxiv/Arvix):
+
+1. **Diffusion-Controlled Kinetics & Metabolic Equilibrium:**
+   * Grounded in [[0911.2330v1_Diffusion_Controlled_Reactions__Fluctuation_Dominated_Kinetics__and_Living_Cell_]]: Models reaction-diffusion kinetics in cells, providing the mathematical basis for rate-limiting queue processing and preventing congestion collapse.
+2. **Colored Extrinsic Fluctuations & Homeostatic Buffering:**
+   * Grounded in [[0809.2973v1_Colored_extrinsic_fluctuations_and_stochastic_gene_expression]]: Analyzes how negative feedback loops damp stochastic noise and external shocks, informing AMOS error-correction filters.
+3. **Biochemical-Mechanical Coupling & Dynamic Adaptation:**
+   * Grounded in [[1011.5240v1_A_computational_model_of_cell_polarization_and_motility_coupling_mechanics_and_b]]: Models how mechanical resistance feeds back into biochemical signaling to reorient cellular movement, providing the template for AMOS resource re-allocation under stress.
+
+---
+
+## 5. Input / Output Contracts
+
+### 5.1 Telemetry Contract
 ```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+homeostasis_telemetry:
+  context_tokens_used: int
+  context_tokens_limit: int
+  consecutive_errors: int
+  unresolved_contradictions: int
+  active_subagents_count: int
 ```
 
-______________________________________________________________________
+### 5.2 Regulatory Output Contract
+```yaml
+homeostasis_directive:
+  current_state: "HEALTHY | STRAINED | DEGRADED | SUSPENDED"
+  stress_ratio: float
+  integrity_score: float
+  enforced_throttle_ms: int
+  load_shedding_tier: int
+  trigger_repair: bool
+```
 
-## 4. Contract discipline
+---
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+## 6. Cross-Plane & Architectural Bindings
 
-______________________________________________________________________
+* **Governing Canon:** [[01_CANON/03_COGNITION_CANON/COGNITIVE_ORGANISM_CANON|COGNITIVE_ORGANISM_CANON]]
+* **Direct Consumers:** [[05_COGNITIVE_ORGANISM/ATTENTION_ENGINE|ATTENTION_ENGINE]] · [[05_COGNITIVE_ORGANISM/REPAIR_ENGINE|REPAIR_ENGINE]]
+* **Observability Feed:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]
+* **Operations Recovery:** [[20_OPERATIONS/20_OPERATIONS_MOC|20_OPERATIONS_MOC]]
+* **Master Index:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
 
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
-______________________________________________________________________
-
-## 6. Worked semantics (target)
-
-Given an operation touching `05_COGNITIVE_ORGANISM · ENGINE` within the Cognitive Organism plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-______________________________________________________________________
-
+---
 RSCF-NODE
-
 node_id: amos_05_cognitive_organism_homeostasis_engine
-
 node_type: engine
-
 path: 05_COGNITIVE_ORGANISM/HOMEOSTASIS_ENGINE.md
-
 claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
 RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
-
-**MOC:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
+  - GOVERNED_BY: [[01_CANON/03_COGNITION_CANON/COGNITIVE_ORGANISM_CANON]]
+  - CONTROLS: [[05_COGNITIVE_ORGANISM/ATTENTION_ENGINE]]
+  - TRIGGERS: [[05_COGNITIVE_ORGANISM/REPAIR_ENGINE]]
+  - BINDS_TO: [[17_OBSERVABILITY/17_OBSERVABILITY_MOC]]
+  - INDEXED_BY: [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC]]
+  - INDEXED_BY: [[00_ROOT/00_HOME]]

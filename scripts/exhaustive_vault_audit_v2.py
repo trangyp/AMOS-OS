@@ -19,7 +19,7 @@ from collections import defaultdict
 vault = Path('.').resolve()
 
 # Regex patterns
-WL_RE = re.compile(r"\[\[([^\]|#\n\\]+?)(?:#[^\]|\\]*)?(?:\\?\|[^\]\n]*)?\]\]")
+WL_RE = re.compile(r"\[\[([^\]|#\n]+?)(?:#[^\]|]*)?(?:\|[^\]\n]*)?\]\]")
 
 all_files = {}       # stem.lower() -> [Path]
 rel_paths_lower = {} # rel_path.lower() -> Path

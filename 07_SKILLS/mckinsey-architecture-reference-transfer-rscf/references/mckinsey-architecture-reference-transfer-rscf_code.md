@@ -1,22 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: mckinsey architecture reference transfer rscf code
-type: reference
-source: 07_SKILLS/mckinsey-architecture-reference-transfer-rscf/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Mckinsey Architecture Reference Transfer Rscf Code
 tags:
-  - reference
-  - mckinsey-architecture-reference-transfer-rscf
-  - type/skill
-  - skill
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Code Reference
@@ -26,18 +25,18 @@ rscf:
 ```python
 from hierarchical_ai_architecture_generator import HierarchicalGenerator, GoalDrivenGenerator
 
-## Hierarchical (rule-based)
+# Hierarchical (rule-based)
 h = HierarchicalGenerator()
 entries = h.generate(limit=100)
 safety = h.query(ai_layer="safety_controller")
 
-## Goal-driven (ontology-based)
+# Goal-driven (ontology-based)
 g = GoalDrivenGenerator()
 archs = g.generate("Build safe multi-agent system", count=50)
 ```
 
 ```python
-## Architecture reference transfer
+# Architecture reference transfer
 class ArchitectureReferenceTransfer:
     """Transfer architectural patterns between domains."""
 

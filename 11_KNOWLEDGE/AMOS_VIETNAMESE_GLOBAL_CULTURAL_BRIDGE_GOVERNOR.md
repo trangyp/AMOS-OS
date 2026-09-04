@@ -1,133 +1,16 @@
 ---
-title: AMOS VIETNAMESE GLOBAL CULTURAL BRIDGE GOVERNOR
-aliases:
-  - AMOS Vietnamese-Global Cultural Bridge Governor
-  - Vietnamese Global Cultural Bridge Governor
-  - VGC Bridge Governor
-  - AMOS VGC Governor
-type: bridge
-source: 11_KNOWLEDGE
-claim_ceiling: 0.9
-created: 2026-08-27
-domain: cross-domain
-epistemic_class: SOURCE_CLAIM
-origin_architect: Trang Phan
-steward: Trang Phan
-parent_skill: amos-c06-society-culture-master
-rscf_node_type: skill
-status: production_ready
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Amos Vietnamese Global Cultural Bridge Governor
 tags:
-  - rscf/node
-  - knowledge
-  - vault
-  - canon-group/cross-domain
-  - topic/vietnamese-global
-  - topic/cultural-bridge
-  - canon/knowledge
-  - amos
-  - amos-os
-  - amos_corpus
-  - amos_knowledge
-  - cross_domain
-  - bridge
-  - bridge_governor
-  - cultural_bridge
-  - cultural_governance
-  - society_culture
-  - c06
-  - c09
-  - vietnam
-  - vietnamese
-  - vietnamese_specific
-  - vietnamese_global
-  - vietnamese_global_bridge
-  - global_frameworks
-  - cross_cultural
-  - cross_cultural_translation
-  - cultural_translation
-  - localization
-  - contextualization
-  - contextual_validation
-  - global_comparison
-  - cultural_specificity
-  - cultural_context
-  - source_claim
-  - epistemic_class
-  - epistemic_governance
-  - claim_ceiling
-  - confidence_ceiling
-  - conditional_claim
-  - model_claim
-  - universalization_risk
-  - universalization_firewall
-  - context_firewall
-  - scope_firewall
-  - regime_firewall
-  - provenance
-  - provenance_trace
-  - bidirectional_provenance
-  - source_independence
-  - freshness
-  - drift_detection
-  - cultural_drift
-  - evidence_drift
-  - bridge_permitted
-  - bridge_blocked
-  - bridge_conditional
-  - bridge_validation
-  - bridge_lifecycle
-  - bridge_policy
-  - translation_governance
-  - qa
-  - validation_gate
-  - contradiction_check
-  - output_validation
-  - failure_mode
-  - fail_closed
-  - cultural_specificity_gate
-  - global_model_validation
-  - rscf
-  - rscf_skill
-  - rscf_relations
-  - tensor_composition
-  - cross_domain_tensor
-  - cognitive-matrix
-  - domain_engine
-  - society_culture_engine
-  - vn_legal_engine
-  - vietnamese_heritage
-  - heritage_intelligence
-  - dong_son
-  - trong_dong
-  - co_loa
-  - gia_he
-  - vietnamese_business
-  - vietnamese_legal
-  - vietnamese_law
-  - vietnamese_culture
-  - anti_universalization
-  - anti_cultural_flattening
-  - anti_context_leakage
-  - anti_fabrication
-  - anti_regression
-  - proof_capsule
-  - competing_hypotheses
-  - gap_visible
-  - canon/cross-domain
-  - canon/culture
-  - canon/vietnamese
-  - canon/provenance
-  - canon/bridge
-  - canon/rscf
-  - amos-vn-legal-engine
-  - heritage-intelligence
-  - trang-zero-framework
-  - amos-cross-domain-tensor-composition-governor
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AMOS Vietnamese Global Cultural Bridge Governor

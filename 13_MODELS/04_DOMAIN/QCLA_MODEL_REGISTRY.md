@@ -1,146 +1,16 @@
 ---
-title: QCLA Model Registry
-aliases:
-  - "AMOS QCLA Model Registry"
-  - "QCLA Registry"
-  - "QCLA Domain Model Registry"
-  - "QCLA Models"
-
-type: model
-source: "13_MODELS/04_DOMAIN"
-
-artifact: "QCLA_MODEL_REGISTRY.md"
-artifact_id: "amos_13_models_04_domain_qcla_model_registry"
-
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-
-plane: "13_MODELS"
-segment: "13_MODELS/04_DOMAIN"
-artifact_kind: "REGISTRY"
-registry_class: "DOMAIN_MODEL_REGISTRY"
-domain: "QCLA"
-path: "13_MODELS/04_DOMAIN/QCLA_MODEL_REGISTRY.md"
-
-version: "0.2.0"
-previous_version: "0.1.0"
-updated: "2026-08-28"
-
-status: "SOURCE_NUCLEUS_EXPANDED"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "CONDITIONAL"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "STRUCTURAL_ONLY"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
-
-registry_state:
-  registry_identity: "ESTABLISHED_BY_ARTIFACT"
-  registry_contract: "NORMALIZED_AMOS_MODEL"
-  qcla_acronym_expansion: "UNKNOWN/GAP"
-  qcla_native_definition: "UNKNOWN/GAP"
-  substantive_native_canon: "UNKNOWN/GAP"
-  qcla_model_inventory: "UNKNOWN/GAP"
-  qcla_model_families: "UNKNOWN/GAP"
-  qcla_equation_registry: "UNKNOWN/GAP"
-  qcla_runtime: "NOT_ESTABLISHED"
-  authoritative_runtime_registry: "NOT_ESTABLISHED"
-  empirical_validation: "NOT_ESTABLISHED"
-  executable_binding: "NOT_ESTABLISHED"
-  provenance_independence: "NOT_ESTABLISHED"
-
-claim_ceiling:
-  registry_identity: "SOURCE_CLAIM"
-  registry_contract: "AMOS_MODEL"
-  qcla_meaning: "UNKNOWN/GAP"
-  qcla_model_inventory: "UNKNOWN/GAP"
-  qcla_scientific_claims: "NOT_ESTABLISHED"
-  qcla_mathematical_claims: "NOT_ESTABLISHED"
-  qcla_causal_claims: "NOT_ESTABLISHED"
-  runtime_capability: "NOT_ESTABLISHED"
-
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Qcla Model Registry
 tags:
-  - amos-os
-  - amos
-  - trang
-  - trang_phan
-  - qcla
-  - qcla_model
-  - qcla_registry
-  - model
-  - models
-  - specification
-  - registry
-  - model_registry
-  - domain_model
-  - domain_registry
-  - architecture
-  - 04_domain
-  - canon/model
-  - canon/domain
-  - canon_candidate
-  - native_canon
-  - source_claim
-  - observation
-  - derived
-  - AMOS_MODEL
-  - epistemic_regime
-  - epistemic_class
-  - conclusion_class
-  - provenance
-  - provenance_topology
-  - source_ancestry
-  - provenance_independence
-  - sybil_hardening
-  - confidence_ceiling
-  - scope
-  - regime
-  - temporal_validity
-  - freshness
-  - causal_firewall
-  - model_observation_firewall
-  - scope_firewall
-  - regime_firewall
-  - temporal_firewall
-  - provenance_firewall
-  - authority_firewall
-  - equation_firewall
-  - mathematical_firewall
-  - competing_hypotheses
-  - competing_models
-  - contradiction
-  - falsifier
-  - sensitivity
-  - uncertainty
-  - unknown_gap
-  - fail_closed
-  - rscf
-  - hml
-  - proof_capsule
-  - dependency_closure
-  - selective_invalidation
-  - governed_evolution
-  - model_lifecycle
-  - versioning
-  - mvcc
-  - cas
-  - rollback
-  - validation
-  - validation_receipt
-  - governance
-  - add_only
-  - no_overwrite
-  - external_evidence
-  - canon_placeholder_recovery
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  node_claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: AMOS_general
-  regime: qcla_domain_model_registry
-  provenance_independence: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # QCLA Model Registry
@@ -6583,7 +6453,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-**Related:** · · · · · ·
+**Related:** 
 
 ______________________________________________________________________
 

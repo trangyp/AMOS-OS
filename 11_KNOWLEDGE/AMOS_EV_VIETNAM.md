@@ -1,24 +1,21 @@
 ---
-title: "AMOS / TRANG — TOÀN CẢNH EV VIỆT NAM: MAX DETAIL MASTER"
-type: note
-source: 11_KNOWLEDGE
-subtitle: UBI × ULF × PSI × QLS/QIC × QCLA × H/M/L × RSCF × Infrastructure Control Plane
-origin_architect: Trang Phan
-source_artifact: ⭐ Toàn cảnh EV Việt Nam
-runtime_alignment: AMOS Full Brain OS + AMOS_CORE v4.4 reasoning lineage
-version: MAX_DETAIL_v1
-date: '2026-08-25'
-language: vi
-status: SOURCE_PRESERVED__AMOS_MODEL_OVERLAY__EMPIRICAL_FIREWALL_ACTIVE
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Ev Vietnam
 tags:
-  - knowledge
-  - note
-  - canon/knowledge
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 0. Tuyên bố phạm vi và ranh giới bằng chứng
@@ -3255,7 +3252,7 @@ hạ tầng và dữ liệu.
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ______________________________________________________________________
 

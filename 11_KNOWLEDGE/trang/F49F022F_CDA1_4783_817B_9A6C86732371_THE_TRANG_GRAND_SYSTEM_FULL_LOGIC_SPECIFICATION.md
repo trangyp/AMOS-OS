@@ -1,23 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: F49F022F CDA1 4783 817B 9A6C86732371 THE TRANG GRAND SYSTEM FULL LOGIC SPECIFICATION
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: F49F022F Cda1 4783 817B 9A6C86732371 The Trang Grand System Full Logic Specification
 tags:
-  - canon-group/human-system
-  - canon/framework
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
-  - rscf/state/observation
-  - topic/f49f022f-cda1-4783-817b-9a6c86732371-the
-  - trang
-type: note
-source: 11_KNOWLEDGE/trang
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # F49F022F CDA1 4783 817B 9A6C86732371 THE TRANG GRAND SYSTEM FULL LOGIC SPECIFICATION

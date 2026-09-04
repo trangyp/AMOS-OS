@@ -1,20 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Amos-Retrieval-Conditioned-Orchestration-Budget-Rscf MOC
-type: moc
-source: 07_SKILLS/amos-retrieval-conditioned-orchestration-budget-rscf
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Retrieval Conditioned Orchestration Budget Rscf Moc
 tags:
-  - amos-retrieval-conditioned-orchestration
-  - type/skill
-  - skill
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Amos-Retrieval-Conditioned-Orchestration-Budget-Rscf — Map of Content

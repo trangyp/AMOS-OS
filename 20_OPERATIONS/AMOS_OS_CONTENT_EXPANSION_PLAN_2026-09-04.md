@@ -50,7 +50,7 @@ rscf:
 
 ## Selection rules for source ingestion
 
-1. **Primary source precedence:** Use `_00_Cosmo brain/amos-{name}-engine-layer.md` when it exists and is non-trivial; it is the v4.4 refinement wrapper.
+1. **Primary source precedence:** Use `_00_Cosmo brain/amos-AMOS_OS_CONTENT_EXPANSION_PLAN_2026-09-04-engine-layer.md` when it exists and is non-trivial; it is the v4.4 refinement wrapper.
 2. **Secondary mirror:** `_00_Cosmo brain/AMOS_OS/11_KNOWLEDGE/engine/*` is a prior vault mirror; prefer only if the primary wrapper is missing or stale.
 3. **No invention:** If no source exists, the target remains a bridge stub. Do not fabricate AMOS canon.
 4. **Epistemic boundary:** Any ingested content must be labeled `SOURCE_CLAIM` / `AMOS_MODEL` and must not be promoted to `01_CANON` without an explicit authority/promotion record.

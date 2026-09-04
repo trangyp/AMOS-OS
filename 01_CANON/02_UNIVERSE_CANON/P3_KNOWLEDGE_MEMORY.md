@@ -1,60 +1,16 @@
 ---
-title: "P3 Knowledge & Memory"
-type: memory
-source: 01_CANON/02_UNIVERSE_CANON
-artifact: P3_KNOWLEDGE_MEMORY.md
-artifact_id: amos_01_canon_02_universe_canon_p3_knowledge_memory
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/02_UNIVERSE_CANON
-artifact_kind: UNIVERSE_PLANE
-path: 01_CANON/02_UNIVERSE_CANON/P3_KNOWLEDGE_MEMORY.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: P3 Knowledge Memory
 tags:
-  - amos-os
-  - canon
-  - universe_canon
-  - knowledge
-  - memory
-  - persistence
-  - consolidation
-  - staleness
-  - retrieval
-  - provenance
-  - confidence
-  - epoch
-  - diversity
-  - revalidation
-  - p3_plane
-  - rscf
-  - canon/universe
-  - validation
-  - p2-sense-evidence
-  - p1-reality-environment
-  - trang-framework-recursive-ontology-dynamics
-version: 0.2.0
-updated: '2026-08-26'
-status: PROPOSED_SPECIFICATION
-epistemic_class: AMOS_MODEL
-canonical_status: CONDITIONAL
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_NORMALIZATION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_GROUNDED
-  claim_class: AMOS_MODEL
-  provenance:
-    - AMOS_corpus
-    - 01_CANON/02_UNIVERSE_CANON/AMOS_7_PART_UNIVERSE_CANON
-    - 01_CANON/02_UNIVERSE_CANON/HML_CANON
-    - 01_CANON/02_UNIVERSE_CANON/P2_SENSE_EVIDENCE
-    - TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS
-  scope:
-    - UNIVERSE_CANON
-    - P3_KNOWLEDGE_MEMORY
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # P3 — Knowledge & Memory Plane
@@ -2559,3 +2515,6 @@ RSCF-RELATIONS:
 **Origin architect / steward:** **Trang Phan**
 
 The normalization keeps the supplied P3 laws intact while making one important gap explicit: **`KM-1..4` is referenced but not defined in the supplied artifact**, so its exact semantics should not be invented. The resulting P3 spine is **typed persistence → memory-as-model → diversity-gated consolidation**, with staleness, provenance, epoch validity, competing memories, and dependency-local invalidation carried explicitly.
+
+```
+```

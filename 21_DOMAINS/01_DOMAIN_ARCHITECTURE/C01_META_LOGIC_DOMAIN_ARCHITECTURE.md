@@ -1,23 +1,21 @@
 ---
-title: AMOS C01 Meta Logic Domain Architecture
-type: domain_architecture_contract
-source: 21_DOMAINS
-domain: C01_META_LOGIC
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-status: ACTIVE_DOMAIN_CONTRACT
-conclusion_class: DERIVED
-updated: 2026-09-03
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance:
-    - 11_KNOWLEDGE/AMOS_C01_META_LOGIC_MASTER_KNOWLEDGE
-    - 08_WORKFLOWS/amos-c01-meta-logic-master-workflow
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-    - 00_ROOT/PLANE_OWNERSHIP_MATRIX
-  scope: c01_meta_logic_functional_domain_ownership
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: C01 Meta Logic Domain Architecture
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # C01 Meta Logic — Domain Architecture Contract
@@ -84,7 +82,7 @@ Primary knowledge:
 [[11_KNOWLEDGE/AMOS_C01_META_LOGIC_MASTER_KNOWLEDGE|C01 Meta Logic Master Knowledge]]
 
 Execution bridge:
-[[08_WORKFLOWS/amos-c01-meta-logic-master-workflow|C01 Meta Logic Master Workflow]]
+[[26_WORKFLOWS/amos-c01-meta-logic-master-workflow|C01 Meta Logic Master Workflow]]
 
 Cross-domain composition:
 [[11_KNOWLEDGE/AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR|Cross-Domain Tensor Composition Governor]]

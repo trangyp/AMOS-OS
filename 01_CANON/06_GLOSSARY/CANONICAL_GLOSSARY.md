@@ -1,51 +1,16 @@
 ---
-title: CANONICAL GLOSSARY
-type: canon
-source: 01_CANON/06_GLOSSARY
-artifact_id: AMOS-OS-CANONICAL-GLOSSARY
-canonical_name: CANONICAL_GLOSSARY
-artifact_type: canonical_semantic_registry
-registry_type: governed_term_definition_registry
-status: SOURCE_CLAIM
-conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-domain: canon
-scope: AMOS_OS
-authority_scope: canonical-terminology-and-semantic-boundaries
-version: 1.0.0
-created: 2026-08-25
-updated: 2026-08-25
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Canonical Glossary
 tags:
-  - amos-os
-  - canon
-  - universe
-  - canon-group/meta
-  - canon/glossary
-  - canon/semantics
-  - canon/terminology
-  - canon/registry
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
   - rscf/state/source-claim
-  - topic/canonical-glossary
-  - topic/semantic-integrity
-  - topic/identity
-  - topic/provenance
-  - topic/epistemics
-  - readme
-  - architecture
-  - neural-network
-  - amos-core-laws
-  - law-hierarchy
-aliases:
-  - AMOS Canonical Glossary - AMOS OS Glossary - Canonical Terminology Registry - AMOS Semantic
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AMOS OS Canonical Glossary
@@ -211,7 +176,7 @@ Current repository-level decomposition:
 05_COGNITIVE_ORGANISM
 06_AGENTS
 07_SKILLS
-08_WORKFLOWS
+26_WORKFLOWS
 09_PROTOCOLS
 10_MEMORY
 11_KNOWLEDGE
@@ -2903,7 +2868,7 @@ RSCF-RELATIONS:
 ## Related
 
 README ·
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]] ·
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]] ·
 [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] ·
 [[00_ROOT/SYSTEM_MAP|SYSTEM_MAP]] ·
 NAMING_STANDARD ·
@@ -2932,7 +2897,7 @@ ALIASES ·
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

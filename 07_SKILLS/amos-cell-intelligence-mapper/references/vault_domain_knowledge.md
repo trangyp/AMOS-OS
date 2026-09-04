@@ -1,21 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Vault Domain Knowledge — Amos Cell Intelligence Mapper
-type: reference
-source: 07_SKILLS/amos-cell-intelligence-mapper/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Vault Domain Knowledge
 tags:
-  - reference
-  - amos-cell-intelligence-mapper
-  - type/skill
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Vault-Sourced Domain Knowledge
@@ -225,7 +225,7 @@ Numerical integration using scipy odeint
 
 > Path: `architecture/The_Intelligence_OS_Useful_Architecture.md` | Size: 28606 chars | Match score: 7
 
-## The Intelligence OS™
+# The Intelligence OS™
 ## 1. Purpose
 
 
@@ -241,7 +241,7 @@ The source frames the system as a reusable intelligence substrate rather than a 
 
 ---
 
-## 2. Epistemic Boundary
+# 2. Epistemic Boundary
 
 The source contains at least four different claim classes:
 
@@ -372,3 +372,9 @@ RSCF-RELATIONS:
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
+
+```
+
+```
+```
+```

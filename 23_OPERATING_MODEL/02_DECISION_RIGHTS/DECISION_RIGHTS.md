@@ -1,141 +1,100 @@
 ---
-title: "23_OPERATING_MODEL — Decision Rights & RACI Matrix"
-type: governance_specification
-plane: 23_OPERATING_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: active__AMOS_OS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Decision Rights
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Decision Rights & Autonomous RACI Matrix
+# DECISION RIGHTS
 
-**Origin Architect / Steward:** Trang Phan
-**AMOS_CORE Target:** `v4.4`
-**Epistemic Class:** `AMOS_MODEL`
+## 0. Status
 
----
+Operating Model-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
 
-## 1. Architectural Scope
+## 1. Purpose
 
-This specification defines the decision authority boundaries for all autonomous agents, cognitive subsystems, and human stewards operating within the AMOS Full Brain OS. It establishes a five-tier decision hierarchy (D0-D4) with explicit RACI (Responsible, Accountable, Consulted, Informed) matrices for each class of operational decision.
+`DECISION RIGHTS` defines typed artifact specification, serving the Operating Model plane's obligation: roles, decision rights, governance forums, escalation paths, service levels.
 
-The decision rights framework enforces the non-negotiable separation between capability and authority: an agent may possess the technical capability to perform an action without possessing the authority to commit that action without escalation.
+## 2. Semantics
 
-```text
-CAPABILITY != AUTHORITY
-PROPOSAL != COMMIT
-AGENT_RECOMMENDATION != ARCHITECT_RATIFICATION
-DOCUMENTED != IMPLEMENTED
-```
+- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
+- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
+- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
 
----
+## 3. Failure modes guarded
 
-## 2. Decision Tier Classification (D0-D4)
+STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
 
-Autonomous agents and cognitive subsystems operate under strict decision authority boundaries:
+## 4. Validation
 
-| Tier | Name | Scope of Decision | Permitted Entity | Required Quorum / Receipts |
-| :--- | :--- | :--- | :--- | :--- |
-| **D0** | `INFORM` | Telemetry logging, vector index updates, working trace append | All Agents (`06_AGENTS`) | Local trace hash |
-| **D1** | `RECOMMEND` | Hypothesis generation, skill parameter proposal, draft research synthesis | Specialist Agents (`QFM_RESEARCHER`, `SPEC_*`) | Peer review receipt |
-| **D2** | `PEER_CONSENSUS` | Shard-local CvRDT state merges, workflow step completion | Agent Clusters (`08_WORKFLOWS`) | $2/3$ BFT consensus |
-| **D3** | `ORCHESTRATOR_EXEC` | Multi-agent task execution, capability token issuance, microVM sandbox spawn | `ORCH_ROOT`, `ORCH_COGNITIVE` | Signed Ed25519 token |
-| **D4** | `ARCHITECT_SOLE` | Canonical law modification (`01_CANON`), kernel mutation (`02_KERNEL`), post-v4.4 version promotion | **Trang Phan (Origin Architect)** | Explicit Human Signature |
+No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
 
----
+## 5. Gaps
 
-## 3. RACI Matrix by Decision Class
+Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
 
-### 3.1 Canonical Law & Kernel Modifications
+## 6. Falsifiers
 
-| Activity | Responsible | Accountable | Consulted | Informed |
-| :--- | :--- | :--- | :--- | :--- |
-| Core law amendment | Origin Architect | Origin Architect | Security Council, ARB | All Agents |
-| Kernel version promotion | Origin Architect | Origin Architect | ARB, Canon Stewardship | All Planes |
-| Post-v4.4 lineage promotion | Origin Architect | Origin Architect | Full Governance Forum | All Agents |
+F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
 
-### 3.2 Operational Execution Decisions
+## Worked semantics
 
-| Activity | Responsible | Accountable | Consulted | Informed |
-| :--- | :--- | :--- | :--- | :--- |
-| Multi-agent task dispatch | ORCH_ROOT | ORCH_COGNITIVE | Workflow Engine | Affected Agents |
-| Capability token issuance | ORCH_ROOT | ORCH_COGNITIVE | Security Plane | Token Holder |
-| State epoch commit | State Engine | ORCH_COGNITIVE | Validation Pipeline | All Consumers |
-| Sandbox microVM spawn | Runtime Engine | ORCH_ROOT | Security Plane | Observability |
+Given an operation touching `DECISION RIGHTS` within the Operating Model plane:
 
-### 3.3 Research & Knowledge Decisions
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-| Activity | Responsible | Accountable | Consulted | Informed |
-| :--- | :--- | :--- | :--- | :--- |
-| Hypothesis generation | Specialist Agents | Peer Cluster | Domain MOC | Knowledge Plane |
-| Paper synthesis draft | QFM_RESEARCHER | Peer Cluster | Math Registry | Research MOC |
-| ArXiv corpus indexing | Indexing Engine | Knowledge Plane | Research Plane | All Consumers |
+## Promotion-gate checklist
 
----
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-## 4. Escalation Pathway
+## Cross-plane bindings
 
-When a decision exceeds the authority tier of the current entity, escalation follows a deterministic ladder:
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-```text
-D0 (Agent) --> D1 (Specialist Cluster) --> D2 (Peer Consensus) --> D3 (Orchestrator) --> D4 (Architect)
-```
+______________________________________________________________________
 
-Each escalation step must produce:
-1. **Escalation Receipt:** Cryptographic hash binding the decision context, requesting entity, and escalation reason.
-2. **Evidence Package:** All supporting data, analysis, and prior-tier deliberation traces.
-3. **Timeout Bound:** Maximum deliberation time before automatic escalation to the next tier.
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
-## 5. Safety Invariants
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
-- `INV-DEC-001` (**Capability-Authority Separation**): No entity may commit a decision above its assigned tier, regardless of technical capability.
-- `INV-DEC-002` (**Architect Sole Authority**): D4 decisions require explicit human signature from the Origin Architect. No autonomous path to D4 exists.
-- `INV-DEC-003` (**Quorum Enforcement**): D2 decisions require $2f+1$ BFT consensus; partial quorum results in fail-closed deferral.
-- `INV-DEC-004` (**Escalation Non-Circumvention**): Escalation pathways may not be bypassed. Any attempt to skip tiers triggers security alert and automatic rollback.
-- `INV-DEC-005` (**Receipt Completeness**): Every committed decision must have a verifiable cryptographic receipt. Decisions without receipts are treated as `UNKNOWN/GAP` and reverted.
+______________________________________________________________________
 
----
+RSCF-NODE
+node_id: amos_23_operating_model_02_decision_rights_decision_rights_md
+node_type: note
+path: 23_OPERATING_MODEL/02_DECISION_RIGHTS/DECISION_RIGHTS.md
+claim_class: AMOS_MODEL
 
-## 6. MECE Mapping
+______________________________________________________________________
 
-| AMOS Plane | Decision Rights Interaction |
-| :--- | :--- |
-| `01_CANON` | D4 sole authority for law modifications |
-| `02_KERNEL` | D4 sole authority for kernel mutations |
-| `03_CONTROL_PLANE` | D3 orchestrator exec for capability tokens |
-| `06_AGENTS` | D0-D1 agent-level decisions |
-| `08_WORKFLOWS` | D2 peer consensus for workflow completion |
-| `09_PROTOCOLS` | D2 BFT quorum enforcement |
-| `18_SECURITY` | D3-D4 security-critical decisions |
-| `23_OPERATING_MODEL` | This specification (decision rights host) |
-
----
-
-## 7. Navigation & Bindings
-
-- **Operating Model README:** [[23_OPERATING_MODEL/OPERATING_MODEL_README|OPERATING_MODEL_README]]
-- **Roles Registry:** [[23_OPERATING_MODEL/01_ROLES/ROLE_REGISTRY|ROLE_REGISTRY]]
-- **Governance Forums:** [[23_OPERATING_MODEL/03_GOVERNANCE_FORUMS/GOVERNANCE_FORUMS|GOVERNANCE_FORUMS]]
-- **Escalation Paths:** [[23_OPERATING_MODEL/04_ESCALATION/ESCALATION_PATHS|ESCALATION_PATHS]]
-- **Service Levels:** [[23_OPERATING_MODEL/05_SERVICE_LEVELS/SERVICE_LEVELS|SERVICE_LEVELS]]
-- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
-- **Root Map:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
-
----
-
-## 8. Known Gaps
-
-- **Automated Escalation Triggers:** The escalation pathway is specified but automatic trigger conditions (e.g., timeout-based escalation) are not yet implemented in the runtime.
-- **Multi-Stakeholder D4:** The current framework assigns D4 solely to the Origin Architect. Future governance models may require multi-signature D4 authority for organizational succession.
-- **Cross-Domain Decision Conflicts:** When two domains have conflicting D2 consensus outcomes, the resolution mechanism is specified but not formally proven.
-- **Epistemic Boundary:** `DOCUMENTED != IMPLEMENTED` — this RACI matrix is a governance specification. Enforcement in the runtime requires integration with the control plane capability token system.
+**MOC:** [[23_OPERATING_MODEL/02_DECISION_RIGHTS/02_DECISION_RIGHTS_MOC|02_DECISION_RIGHTS_MOC]]

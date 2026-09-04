@@ -1,23 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: GENERATOR CONTRACT
-type: generator
-source: 25_COGNITIVE_MATRIX/12_GENERATORS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Generator Contract
 tags:
-  - cognitive-matrix
-  - generators
-  - contract
-  - domain/cognitive-matrix
-  - validation
-  - integration
-  - canon
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 ## 0. CONTRACT DECLARATION
@@ -2701,7 +2694,7 @@ This version is deliberately stricter than the earlier draft: it does **not** pr
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

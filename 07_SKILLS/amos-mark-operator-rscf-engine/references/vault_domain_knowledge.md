@@ -1,22 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Vault Domain Knowledge — Amos Mark Operator Rscf Engine
-type: reference
-source: 07_SKILLS/amos-mark-operator-rscf-engine/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Vault Domain Knowledge
 tags:
-  - reference
-  - amos-mark-operator-rscf-engine
-  - type/skill
-  - law-hierarchy
-  - canon
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Vault-Sourced Domain Knowledge
@@ -258,7 +257,7 @@ _00_AMOS_CANON
 
 > Path: `cognitive/AMOS_CONSCIOUSNESS_ENHANCEMENT_COMPLETE.md` | Size: 11703 chars | Match score: 7 | content_hash: 16eac0edec1fab88
 
-## AMOS OMEGA FX STRUCTURAL MARKET ENGINE - CONSCIOUSNESS-ENHANCED COMPLETE
+# AMOS OMEGA FX STRUCTURAL MARKET ENGINE - CONSCIOUSNESS-ENHANCED COMPLETE
 
 ## Summary
 Successfully implemented comprehensive consciousness-enhanced FX structural market engine with hyper-dimensional processing, quantum consciousness integration, and advanced AI capabilities.
@@ -317,7 +316,7 @@ Successfully implemented comprehensive consciousness-enhanced FX structural mark
 
 > Path: `economy/Uni_Market_Logistics_Model.md` | Size: 2062 chars | Match score: 7 | content_hash: 8e9b08d408514d49
 
-## AMOS Uni Market Logistics Engine
+# AMOS Uni Market Logistics Engine
 
 
 The **Uni Market Logistics Engine** models electric vehicle adoption, driver behaviour, charging infrastructure, and grid interactions, specifically tailored to emerging market dynamics and urban archetypes (like Vietnam).

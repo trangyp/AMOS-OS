@@ -1,140 +1,175 @@
 ---
-title: "SOTA Quantum Error Correction and Surface Codes 2026"
+title: "SOTA Synthesis: Quantum Error Correction, Surface Codes & Fault-Tolerant Quantum Computing (2026)"
 type: research_synthesis
-plane: 22_RESEARCH
+paper_id: AMOS-SOTA-QEC-SURFACE-CODES-2026
 amos_core_target: v4.4
 origin_architect: Trang Phan
 steward: Trang Phan
 status: ACTIVE_SYNTHESIS
-updated: 2026-09-04
 epistemic_class: SOURCE_CLAIM
 conclusion_class: DERIVED
 rscf:
-  state: DERIVED
-  claim_class: SOURCE_CLAIM
+  state: SOURCE_CLAIM
+  claim_class: EMPIRICAL_SURVEY
   provenance:
-    - public web corpus snapshot 2026-09-04
-    - Nature 2024/2026, Nature Physics 2026, npj Quantum Information 2026
-    - Quantum Journal 2026, ArXiv 2026 (2606.06598)
-    - Google Quantum AI Willow processor results
-  scope: state_of_the_art_research_2026
+    - Nature Comms: surface code scaling on heavy-hex (2026)
+    - arXiv:2607.01473 (Surface code logical operations, 107-qubit)
+    - arXiv:2606.06598 (Superconducting surface-code processor, lattice surgery)
+    - npj Quantum Inf: folded surface code architecture (2026)
+    - npj Quantum Inf: unitary encoder for surface codes (2026)
+    - Quantum journal: Shor's algorithm controller-decoder requirements (2026)
+    - Nature: improved logical error rates via correction and detection (2026)
+    - arXiv:2602.22211 (beyond break-even with 48-94 logical qubits)
+    - arXiv:2606.06455 (breakeven demonstration of qLDPC codes)
+    - Nature Comms: computing efficiently in QLDPC codes (2026)
+    - arXiv:2607.28795 (mitten codes, qLDPC processors)
+    - npj Quantum Inf: placing and routing qLDPC in multilayer hardware (2026)
+    - arXiv:2608.26272 (FT computation spacetime overhead lower bound)
+    - arXiv:2609.03194 (compact FT architecture for trapped ions)
+    - IOPscience: superconducting erasure qubits for hardware-efficient QEC (2026)
+  scope: quantum_error_correction_surface_codes_logical_qubits_fault_tolerance
 tags:
   - amos-os
   - research
-  - sota
-  - quantum-error-correction
-  - surface-codes
-  - logical-qubits
-  - fault-tolerant
-  - lattice-surgery
+  - sota-2026
   - quantum-computing
+  - surface-codes
+  - quantum-error-correction
+  - logical-qubits
+  - fault-tolerance
+  - qldpc
+  - lattice-surgery
+  - threshold
 ---
 
-# SOTA Quantum Error Correction and Surface Codes 2026
+# SOTA Synthesis: Quantum Error Correction, Surface Codes & Fault-Tolerant Quantum Computing (2026)
 
-**Origin Architect / Steward:** Trang Phan
-**AMOS_CORE Target:** `v4.4`
-**Epistemic Class:** `SOURCE_CLAIM`
-**Freshness:** `2026-09-04`
+> **Author / Steward:** Trang Phan
+> **Target OS:** `AMOS_OS v4.4`
+> **Epistemic Class:** `SOURCE_CLAIM / DERIVED`
+> **Date:** September 2026
 
 ---
 
 ## Abstract
 
-Quantum error correction (QEC) with surface codes achieved several historic milestones in 2024–2026, transitioning from theoretical promise to experimental reality. Google Quantum AI's Willow processor demonstrated below-threshold surface code operation — the first time increasing code distance exponentially suppressed logical error rates — with a distance-7 code (101 qubits) achieving 0.143% error per cycle and Λ = 2.14 suppression factor (Nature 2024). By 2026, lattice surgery logical operations between distance-3 surface-code logical qubits were demonstrated on a superconducting processor (arXiv 2606.06598), with per-cycle error rates of 0.0365 and 0.0282, logical Bell state preparation, and magic-state injection achieving 94.3% logical gate fidelity. Heavy-hex superconducting processors demonstrated subthreshold scaling by independently increasing dx and dz (Nature Communications 2026). The folded surface code architecture (npj QI 2026) reduced logical Clifford gate and CNOT runtime from O(d) to constant time via qubit shuttling. A unitary encoder for surface codes (npj QI 2026) halved circuit depth for state preparation. Controller-decoder system requirements for Shor's algorithm (Quantum Journal 2026) revealed that near-term hardware at 0.1% physical error rates and 1000 qubits is sufficient for fault-tolerant factorization. These advances are relevant to AMOS's quantum computing planes and the `amos-universe-total-canon` quantum modules.
+The 2026 quantum error correction landscape has crossed several historic milestones: surface code logical operations are now experimentally realized on superconducting processors, qLDPC codes have achieved breakeven performance on trapped-ion hardware, and computations with 48–94 encoded logical qubits operate beyond break-even. Three breakthrough strands define the SOTA. First, **surface code scaling and logical operations**: heavy-hex superconducting architectures demonstrate persistent exponential error suppression from d=3→5→7, and lattice surgery now enables fault-tolerant Clifford gates, magic-state injection, and logical Bell state preparation on distance-three patches. Second, **beyond surface codes**: qLDPC codes achieve breakeven with 9× better logical error rates than prior superconducting demonstrations, while mitten codes reach block logical error rates of ~10⁻¹¹ per round at 0.1% physical error—enough for ~10¹⁰ logical operations. Third, **fundamental limits and architectures**: a proof establishes that fault-tolerant quantum computation cannot achieve constant spacetime overhead, and folded surface code architectures reduce logical gate runtimes from O(d) to constant time. Together, these advances mark the transition from protected quantum memory to active, fault-tolerant logical computation.
 
 ---
 
 ## Key Findings
 
-| Paper | Source | Key Finding | AMOS Binding |
-| :--- | :--- | :--- | :--- |
-| Below-threshold surface code on Willow | Nature 2024 (Google) | Distance-7 code (101 qubits); Λ = 2.14±0.02 error suppression per +2 distance; 0.143%±0.003 error/cycle; beyond breakeven by 2.4×; real-time decoder at 63μs latency; cycle time 1.1μs | Quantum substrate — foundational QEC milestone |
-| Lattice-surgery logical operations on superconducting processor | arXiv 2606.06598 | Distance-3 surface-code logical qubits; per-cycle errors 0.0365 and 0.0282; logical Bell state via joint init + splitting; Deutsch-Jozsa at logical level; magic-state injection RX(π/4) at 94.3% fidelity | Quantum substrate — fault-tolerant logical operations |
-| Surface code scaling on heavy-hex processors | Nature Comms 2026 | Subthreshold scaling on heavy-hex lattice; independent dx/dz scaling for bit/phase-flip; no competing error mechanisms found; confirms exponential suppression on alternative topology | Quantum substrate — topology-agnostic QEC |
-| Folded surface code architecture for 2D hardware | npj QI 2026 | Qubit shuttling enables 3D connectivity on 2D device; constant-time logical Clifford gates and CNOTs (vs O(d) in lattice surgery); 8T-to-CCZ distillation spacetime reduced >10×; virtual-stack layout for multilayer routing | Quantum substrate — efficient logical gate architecture |
-| Unitary encoder for surface codes | npj QI 2026 | Non-local unitary circuit via code conversion (rotated↔regular); halves circuit depth of fastest known encoder; conventional matching decoders still effective; outperforms local encoders in certain noise regimes | Quantum substrate — efficient state preparation |
-| Controller-decoder system for Shor's algorithm | Quantum Journal 2026 | Full fault-tolerant factorization of 21 at physical level; controller-decoder latency <tens of μs; 0.1% physical error + 1000 qubits sufficient; distributed decoding across multiple decoders | Quantum substrate — system-level QEC requirements |
-| Dynamic surface codes on Willow | Nature Physics 2026 (Google) | Dynamic circuits alternate between different circuit constructions; greater flexibility in gate types, connectivity, correlated error suppression; sidesteps leakage, layout constraints, qubit dropouts | Quantum substrate — practical QEC with imperfect hardware |
+### 1. Surface Code Scaling on Heavy-Hex — Nature Communications (2026)
+- **Platform**: Superconducting QPU with heavy-hex connectivity graph enabling 2D square-lattice surface codes.
+- **Result**: Persistent twofold improvement in logical error rate from d=3→5 and d=5→7, confirming exponential error suppression below threshold.
+- **Generalized surface code**: Uses distance parameters d_x and d_z for bit- and phase-flip errors respectively, with 2d_xd_z physical qubits.
+- **Significance**: First systematic demonstration that growing code distance below threshold yields the theoretically predicted exponential improvement on a real processor.
+
+### 2. Surface Code Logical Operations — arXiv:2607.01473
+- **Platform**: 107-qubit superconducting quantum processor.
+- **Operations**: Merge/split, patch expansion/shrinkage, domain wall and twist defect deformations composed into logical state routing, CNOT, Hadamard, and phase gates (Clifford-generating set).
+- **Code**: Distance-three rotated surface-code patches with multi-round syndrome extraction and neural-network decoding, without post-selection.
+- **Significance**: Advances superconducting surface-code experiments from protected logical memory to active, patch-based fault-tolerant logical operations.
+
+### 3. Lattice-Surgery Surface-Code Processor — arXiv:2606.06598
+- **Platform**: Planar superconducting processor, Zhejiang University.
+- **Operations**: Lattice surgery between pair of distance-three surface-code logical qubits; per-cycle error rates of 0.0365(2) and 0.0282(1) after leakage rejection.
+- **Entanglement**: Deterministic logical Bell state preparation via joint initialization and lattice splitting, confirmed by error-corrected logical state fidelity.
+- **Universal control**: Magic-state injection and gate teleportation for non-Clifford rotations; logical R_X(π/4) gate fidelity of 0.943 (+10/−9) conditioned on no detected errors.
+- **Algorithm**: Two-qubit Deutsch-Jozsa algorithm executed at the logical level.
+
+### 4. Beyond Break-Even with 48–94 Logical Qubits — arXiv:2602.22211
+- **Platform**: 98-qubit Quantinuum Helios trapped-ion processor.
+- **Codes**: Two-level concatenated iceberg QEC codes at distances d=2 (pFT) and d=4 (FT).
+- **Benchmarks**: FT state preparation/measurement, QEC cycle benchmarking, logical gate benchmarking, GHZ state preparation, pFT quantum simulation of 3D XY model.
+- **Result**: State-of-the-art logical component and state fidelities; postselection rates suppressible by increasing code distance via concatenation.
+- **Significance**: Evidence that high-rate QED/QEC codes are viable on contemporary quantum computers for near-term beyond-classical-scale computation.
+
+### 5. Improved Logical Error Rates via Correction and Detection — Nature (2026)
+- **Platform**: Trapped-ion QCCD (Quantinuum).
+- **Codes**: 12-qubit Knill-inspired code (encoding 2 qubits) and 16-qubit tesseract colour code (encoding 4 qubits).
+- **Result**: Logical error rate improvements of 11× to 800× compared to physical circuit baselines, including multi-qubit computation.
+- **Method**: Scalable error detection and post-selection combined with code constructions optimized for ion-trap processor.
+- **Significance**: State-of-the-art quantum devices already use fault tolerance and error correction to strongly suppress errors in non-trivial circuits.
+
+### 6. qLDPC Breakeven Demonstration — arXiv:2606.06455
+- **Platform**: Trapped-ion quantum computer (IonQ), OMG architecture for addressable mid-circuit measurement/reset.
+- **Codes**: Nine QECCs spanning qLDPC, topological, and concatenated code families on a single device without hardware reconfiguration.
+- **Result**: qLDPC code encoding 4 logical qubits into 18 physical qubits achieves logical error rate up to 9× better than similar code on superconducting qubits; breakeven performance with qubit lifetimes comparable to or exceeding physical qubits.
+- **Significance**: First breakeven demonstration of qLDPC codes; validates higher encoding rates than surface codes as practical alternative.
+
+### 7. Mitten Codes: High-Rate qLDPC Processors — arXiv:2607.28795
+- **Codes**: Non-abelian group construction; encoding rate 20%, check weight 9, distance 18+ with few hundred data qubits.
+- **Results**: `[[300,60,14]]` code attains ~10⁻¹¹ block logical error per round at 0.1% PER; [[975,195,≤24]] reaches ~10⁻⁸ at 0.4% PER.
+- **Surgery**: 15 billion surgery experiments on `[[540,108,18]]` code at 0.1% PER yield only 2 logical failures—demonstrating ~10¹⁰ logical operations.
+- **Decoder**: Sub-millisecond average latency per logical cycle, sufficient for real-time decoding on neutral atom hardware.
+- **Logical toolkit**: Full Clifford operations from two reusable seed surgery gadgets; parallel magic-state injection into all logical qubits at once.
+
+### 8. Folded Surface Code Architecture — npj Quantum Information (2026)
+- **Architecture**: Short-range qubit shuttling realizes effective 3D connectivity on strictly 2D hardware.
+- **Result**: Reduces runtime of all single-qubit logical Clifford gates and logical CNOTs from O(d) in conventional lattice surgery to constant time.
+- **Distillation**: Transversal S gate reduces spacetime volume of 8T-to-CCZ magic-state distillation by >10× compared to standard 2D lattice surgery.
+- **Layout**: New "virtual-stack" layout enables efficient multilayer routing on 2D devices.
+
+### 9. Spacetime Overhead Lower Bound — arXiv:2608.26272
+- **Theorem**: Even for quantum memory preservation under optimistic noise and general adaptive protocols, there is an unavoidable logarithmic contribution to cumulative spacetime overhead.
+- **Implication**: Fault-tolerant quantum computation cannot achieve constant spacetime overhead; however, the cost can be shared among many logical qubits, so sufficiently wide computations (e.g., Shor's algorithm) may still achieve constant relative overhead.
+- **Construction**: Positive-rate CSS code attaining the memory bound; conditions identified for extension to FT circuit implementations.
+
+### 10. Compact FT Architecture for Trapped Ions — arXiv:2609.03194
+- **Platform**: Quantinuum Helios, 98-qubit trapped-ion processor.
+- **Code**: τ-Helix code designed for early fault-tolerant regime; repeated QEC with low per-cycle error.
+- **Results**: Full Clifford group benchmarked on two logical qubits under active error correction; two-qubit logical Clifford error of 2.8 (+1.0/−1.6)×10⁻³; heterogeneous three-logical-qubit GHZ state with τ-Helix and distance-5 surface code.
+- **Significance**: τ-Helix established as a hardware-validated fault-tolerant architecture, not merely a bare quantum memory.
 
 ---
 
 ## Technical Details
 
-### Below-Threshold Operation: The Foundational Milestone
+### Surface Code Improvements
+The 2026 surface code frontier spans three axes: (1) **scaling**—heavy-hex architectures confirm exponential error suppression with growing distance, validating the threshold theorem on real hardware; (2) **logical operations**—lattice surgery primitives (merge, split, expand, shrink) are composed into a complete Clifford-generating gate set on distance-three patches, with magic-state injection providing non-Clifford capability; (3) **architectural innovation**—folded surface codes exploit qubit shuttling to achieve constant-time logical gates on 2D hardware, reducing magic-state distillation spacetime volume by an order of magnitude. A new unitary encoder (npj Quantum Inf, 2026) halves the circuit depth of the fastest known surface code state preparation via code conversion between rotated and regular surface codes.
 
-Google's Willow processor (Nature 2024) achieved the first below-threshold surface code operation — a goal pursued since QEC was introduced by Peter Shor in 1995. Below threshold means that increasing the code distance (adding more physical qubits) **exponentially suppresses** the logical error rate, rather than increasing it. Willow demonstrated this by scaling from distance-3 (3×3 lattice) to distance-5 (5×5) to distance-7 (7×7), with each +2 distance yielding a factor of Λ = 2.14±0.02 error suppression. The distance-7 code uses 101 qubits and achieves 0.143%±0.003% error per correction cycle. The logical memory exceeds the lifetime of its best physical qubit by a factor of 2.4±0.3 — **beyond breakeven**. The real-time decoder achieves 63μs average latency at distance-5, sustained over one million cycles, with a cycle time of 1.1μs.
+### Logical Qubit Fidelity
+Trapped-ion platforms lead in logical qubit count and fidelity. Quantinuum Helios operates 48–94 logical qubits beyond break-even using concatenated iceberg codes. The 12-qubit Knill code and 16-qubit tesseract colour code achieve 11×–800× logical error rate improvement over physical baselines. Surface-code lattice-surgery processors achieve per-cycle logical error rates of ~0.03 with distance-three codes, while τ-Helix architectures benchmark full Clifford groups under active error correction without postselection.
 
-### Lattice Surgery and Logical Operations
+### QEC Threshold Experiments
+Surface code threshold demonstrations on heavy-hex confirm the predicted exponential suppression below threshold. qLDPC codes demonstrate breakeven at 0.1%–0.4% physical error rates with sub-millisecond decoding latency. The fundamental lower bound (arXiv:2608.26272) establishes that logarithmic spacetime overhead is unavoidable even under optimistic noise models, setting a theoretical floor for all QEC architectures. Superconducting erasure qubits (IOPscience, 2026) exploit hardware-specific noise profiles for hardware-efficient QEC, pushing toward higher effective thresholds.
 
-The lattice surgery demonstration (arXiv 2606.06598) marks the transition from memory experiments to **logical computation**. Two distance-3 surface-code logical qubits were operated on a planar superconducting processor with per-cycle error rates of 0.0365(2) and 0.0282(1) after leakage rejection. Key achievements:
+### New QEC Codes Beyond Surface Codes
+qLDPC codes have emerged as the leading alternative to surface codes, offering higher encoding rates and better distance scaling. Mitten codes (non-abelian group construction) achieve rate 20% with distance 18+, supporting ~10¹⁰ logical operations. Efficient Clifford group implementation via transversal operations in qLDPC codes (Nature Comms, 2026) enables any m-qubit Clifford in at most O(m) syndrome rounds, addressing the critical gap between qLDPC memory and computation. Multilayer superconducting hardware layouts (npj Quantum Inf, 2026) automate placement and routing of arbitrary qLDPC codes, generating ~150 explicit layouts with competitive hardware-complexity/efficiency tradeoffs.
 
-- **Logical Bell state** preparation via joint initialization and lattice splitting, confirmed by error-corrected logical state fidelity
-- **Two-qubit Deutsch-Jozsa algorithm** executed at the logical level, demonstrating algorithmic utility
-- **Magic-state injection and gate teleportation** for continuous non-Clifford rotations about the logical X-axis, achieving 94.3% logical gate fidelity for RX(π/4) conditioned on absence of detected errors
-
-This establishes lattice surgery as a practical paradigm for near-term surface-code architectures.
-
-### Folded Surface Code Architecture
-
-The folded surface code (npj QI 2026) addresses a critical inefficiency: conventional lattice surgery requires O(d) time for logical Clifford gates and CNOTs, where d is the code distance. By leveraging **qubit shuttling** to achieve effective 3D connectivity on strictly 2D hardware, the folded architecture reduces these to **constant time**. Additionally, access to a transversal S gate reduces the spacetime volume of 8T-to-CCZ magic-state distillation by more than an order of magnitude. The "virtual-stack" layout efficiently exploits the quasi-3D structure for multilayer routing, making it practical for semiconductor spin, neutral-atom, and trapped-ion platforms.
-
-### Controller-Decoder System Requirements
-
-The Quantum Journal 2026 study provides the first comprehensive system-level requirements for executing a non-Clifford QEC circuit (Shor's algorithm for N=21). By converting the logical circuit to a surface-code circuit and then to the physical level, the study reveals:
-
-- **Controller-decoder closed-loop latency** must remain within tens of microseconds
-- Achievable by **distributing decoding** across multiple decoders with fast inter-decoder communication
-- Near-term hardware at **0.1% physical error rates and 1000 qubits** is sufficient for successful circuit execution
-- Full physical-level simulation of the complete fault-tolerant factorization circuit was demonstrated
-
-### Dynamic Surface Codes
-
-Google's dynamic surface code work (Nature Physics 2026) addresses practical hardware imperfections. Unlike static circuits that use a single consistent set of operations, dynamic circuits **alternate between different circuit constructions** for error detection. This provides greater flexibility in gate types, connectivity, and correlated error suppression, while sidestepping leakage out of the computational subspace, hardware layout constraints, and qubit dropouts — critical for scaling with imperfect yield.
+### Fault-Tolerant Gate Implementations
+Lattice surgery provides the primary paradigm for surface-code logical operations: merge/split primitives compose into CNOT, Hadamard, and phase gates. Magic-state injection and gate teleportation enable non-Clifford rotations with logical R_X(π/4) fidelity of 0.943. For qLDPC codes, reusable seed surgery gadgets of tens of qubits each generate the full Clifford group, with parallel high-rate surgery executing many logical measurements simultaneously. The folded surface code architecture's constant-time logical gates represent a qualitative improvement over O(d) lattice surgery, potentially accelerating the timeline for utility-scale fault-tolerant computation.
 
 ---
 
 ## AMOS Integration
 
-- **Quantum Substrate**: The below-threshold operation on Willow and the lattice surgery demonstration establish that fault-tolerant quantum computation is experimentally viable. AMOS's `amos-universe-total-canon` includes quantum modules (200 modules, 8 U-Atoms) that reference quantum computing as a canonical substrate. The 0.1% physical error rate and 1000-qubit threshold from the Shor's algorithm study provides concrete hardware requirements for AMOS's quantum computing roadmap.
+### Quantum Systems Domain
+The surface code scaling, lattice-surgery logical operations, and qLDPC breakthroughs map directly to [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC|41_QUANTUM_SYSTEMS_MOC]]. The existing surface code syndrome decoder infrastructure in [[21_DOMAINS/41_QUANTUM_SYSTEMS/QUANTUM_ERROR_CORRECTION_SURFACE_CODE_SYNDROME_DECODER|QEC Surface Code Syndrome Decoder]] is extended by 2026 advances in neural-network decoding (arXiv:2607.01473) and sub-millisecond qLDPC decoders (arXiv:2607.28795). The broader QEC framework in [[21_DOMAINS/41_QUANTUM_SYSTEMS/QUANTUM_ERROR_CORRECTION_AND_NEURAL_DECODERS|QEC and Neural Decoders]] now encompasses qLDPC codes, folded surface codes, and τ-Helix architectures alongside the original surface code focus.
 
-- **`19_TESTS`**: The controller-decoder system requirements (tens-of-microseconds latency, distributed decoding) provide a concrete performance contract for AMOS's `19_TESTS` plane when validating quantum computation subsystems. The full physical-level simulation methodology from the Shor's algorithm study should be adopted as a validation pattern.
+### Kernel Quantum Logic
+The fault-tolerant gate implementations and spacetime overhead bounds relate to [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] quantum logic systems. The lower bound on spacetime overhead (arXiv:2608.26272) establishes a fundamental resource constraint analogous to AMOS kernel-level invariants: any quantum computation layer must account for logarithmic overhead in its resource budgeting. Lattice-surgery primitives (merge, split, expand, shrink) provide a composable gate set that maps to AMOS kernel operator primitives, while magic-state injection protocols inform the kernel's handling of non-Clifford resource distillation.
 
-- **`03_CONTROL_PLANE`**: The folded surface code's constant-time logical gates and the virtual-stack layout for multilayer routing provide architectural patterns for AMOS's control plane — specifically, how to achieve 3D connectivity on 2D-constrained substrates, which mirrors AMOS's challenge of achieving rich inter-agent connectivity on physically constrained communication topologies.
-
-- **`04_RUNTIME`**: Dynamic surface codes' ability to handle qubit dropouts and leakage parallels AMOS's `amos-rollback-recovery` skill — both must maintain correct operation despite component failures. The dynamic circuit approach (alternating between different constructions) is analogous to AMOS's multi-mode operational envelopes.
-
-- [[22_RESEARCH/01_PAPERS/SOTA_FAULT_TOLERANT_QUANTUM_SURFACE_CODES_AND_QKD_2026|SOTA Fault-Tolerant Quantum Surface Codes and QKD]] — companion paper covering QKD
-- [[22_RESEARCH/01_PAPERS/SOTA_LOGICAL_QUBITS_AND_FAULT_TOLERANT_QUANTUM_2026|SOTA Logical Qubits and Fault-Tolerant Quantum]] — logical qubit architectures
-- [[22_RESEARCH/01_PAPERS/SOTA_QUANTUM_COMPUTING_BREAKTHROUGHS_2026|SOTA Quantum Computing Breakthroughs]] — broader quantum computing advances
-- [[22_RESEARCH/01_PAPERS/SOTA_GKP_BOSONIC_CODES_AND_CONTINUOUS_VARIABLE_QUANTUM_COMPUTING_2026|SOTA GKP Bosonic Codes]] — continuous variable QEC
-- [[22_RESEARCH/01_PAPERS/SOTA_NON_ABELIAN_ANYONS_AND_TOPOLOGICAL_QUANTUM_COMPUTING_2026|SOTA Non-Abelian Anyons]] — topological QEC approach
-
----
-
-## Falsifiers
-
-- `F-2026-09-04-QEC-1`: If Willow's Λ = 2.14 suppression factor does not persist at distance-9 and beyond (e.g., due to correlated error events occurring ~once/hour), AMOS must treat below-threshold operation as distance-limited and plan for correlated error mitigation.
-- `F-2026-09-04-QEC-2`: If lattice surgery's 94.3% RX(π/4) gate fidelity does not improve to >99% at larger code distances, AMOS must restrict magic-state-based non-Clifford gates to non-critical quantum subroutines.
-- `F-2026-09-04-QEC-3`: If the folded surface code's constant-time gates require shuttling fidelity that is not achievable on current hardware, AMOS must treat the folded architecture as a theoretical advance, not a near-term deployment target.
-- `F-2026-09-04-QEC-4`: If the 1000-qubit / 0.1% error threshold for Shor's algorithm (N=21) does not scale favorably to cryptographically relevant integers (N~2048 bits), AMOS must revise its quantum advantage timeline estimates.
+### Research Synthesis
+This paper extends the AMOS research corpus in [[22_RESEARCH/22_RESEARCH_MOC|22_RESEARCH_MOC]] and complements existing quantum papers including [[22_RESEARCH/01_PAPERS/SOTA_FAULT_TOLERANT_QUANTUM_SURFACE_CODES_AND_QKD_2026|SOTA FT Surface Codes & QKD 2026]] (which focuses on neural belief propagation decoding and CV-QKD) and [[22_RESEARCH/01_PAPERS/SOTA_LOGICAL_QUBITS_AND_FAULT_TOLERANT_QUANTUM_2026|SOTA Logical Qubits & FT Quantum 2026]]. The 2026 experimental breakthroughs in logical operations, qLDPC breakeven, and architectural innovations represent the empirical validation layer for the theoretical frameworks established in those prior syntheses.
 
 ---
 
 ## References
 
-1. Quantum error correction below the surface code threshold — Nature 2024 (Google Quantum AI) — https://doi.org/10.1038/s41586-024-08449-y
-2. A superconducting surface-code processor with lattice-surgery logical operations — arXiv 2606.06598 — https://www.alphaxiv.org/abs/2606.06598
-3. Surface code scaling on heavy-hex superconducting quantum processors — Nature Communications 2026 — https://www.nature.com/articles/s41467-026-76090-6
-4. A folded surface code architecture for 2D quantum hardware — npj Quantum Information 2026 — https://www.nature.com/articles/s41534-026-01344-6
-5. A unitary encoder for surface codes — npj Quantum Information 2026 — https://www.nature.com/articles/s41534-026-01322-y
-6. Controller-decoder system requirements for Shor's algorithm with surface code — Quantum Journal 2026 — https://quantum-journal.org/papers/q-2026-07-22-2170/
-7. Demonstration of dynamic surface codes — Nature Physics 2026 (Google Quantum AI) — https://research.google/blog/dynamic-surface-codes-open-new-avenues-for-quantum-error-correction/
-8. Meet Willow, our state-of-the-art quantum chip — Google Blog — https://blog.google/innovation-and-ai/technology/research/google-willow-quantum-chip/
-
----
-
-## Navigation
-
-- [[22_RESEARCH/01_PAPERS/01_PAPERS_MOC|Papers MOC]]
-- [[00_ROOT/00_ROOT_MOC|Root MOC]]
+1. Surface code scaling on heavy-hex superconducting quantum processors. Nature Communications (2026). doi:10.1038/s41467-026-76090-6.
+2. Surface code logical operations on a superconducting quantum processor. arXiv:2607.01473 (Jul 2026).
+3. A superconducting surface-code processor with lattice-surgery logical operations. arXiv:2606.06598 (Jun 2026).
+4. A folded surface code architecture for 2D quantum hardware. npj Quantum Information (2026). doi:10.1038/s41534-026-01344-6.
+5. A unitary encoder for surface codes. npj Quantum Information (2026). doi:10.1038/s41534-026-01322-y.
+6. Controller-decoder system requirements for Shor's algorithm with surface code. Quantum journal (2026). doi:10.22331/q-2026-07-22-2170.
+7. Improved quantum processor logical error rates via correction and detection. Nature (2026). doi:10.1038/s41586-026-10628-y.
+8. Computing with many encoded logical qubits beyond break-even. arXiv:2602.22211 (Feb 2026).
+9. Breakeven demonstration of quantum low-density parity-check codes. arXiv:2606.06455 (Jun 2026).
+10. Computing efficiently in QLDPC codes. Nature Communications (2026). doi:10.1038/s41467-026-73061-9.
+11. High-rate qLDPC processors (mitten codes). arXiv:2607.28795 (Jul 2026).
+12. Placing and routing quantum LDPC codes in multilayer superconducting hardware. npj Quantum Information (2026). doi:10.1038/s41534-026-01243-w.
+13. Fault-tolerant quantum computation cannot be achieved with constant spacetime overhead. arXiv:2608.26272 (Aug 2026).
+14. Experimental validation of a compact fault-tolerant architecture for trapped ions. arXiv:2609.03194 (Sep 2026).
+15. Developments in superconducting erasure qubits for hardware-efficient QEC. IOPscience (2026). doi:10.1088/2633-4356/ae9236.

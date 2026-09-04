@@ -1,42 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: GENERATORS MAP
-type: note
-source: 25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX
-rscf:
-  state: SOURCE_CLAIM
-  class: STRUCTURAL
-  provenance:
-    - internal
-  freshness: EVERGREEN
-  falsifiers: []
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Generators Map
 tags:
-  - note
-  - generators-audit
-  - generators-benchmarks
-  - generators-change-log
-  - generators-history
-  - generators-integration
-  - generators-provenance
-  - generators-roadmap
-  - generators-tests
-  - generators-validation
-  - generators-versioning
-  - generator-admission
-  - generator-falsification
-  - generator-output
-  - generator-promotion
-  - generator-seed
-  - generator-supersession
-  - generator-templates
-  - generator-tests
-  - generator-validation
-  - generator-versioning
-  - k-rscf
-  - law/L17-rscf
-canon-group: canon/cognitive-matrix
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 ## ---title: "GENERATORS MAP" type: document tags: [note]
@@ -2375,7 +2354,7 @@ None of these functions should silently substitute for another.
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

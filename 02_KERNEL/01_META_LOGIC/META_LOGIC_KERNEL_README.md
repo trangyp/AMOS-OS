@@ -1,80 +1,21 @@
 ---
-title: META LOGIC KERNEL README
-canonical_name: META_LOGIC_KERNEL_README
-type: kernel
-source: 02_KERNEL/01_META_LOGIC
-artifact: META_LOGIC_KERNEL_README.md
-artifact_id: amos_02_kernel_01_meta_logic_meta_logic_kernel_readme_md
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-amos_core_target: v4.4
-plane: 02_KERNEL
-plane_name: KERNEL
-segment: 02_KERNEL/01_META_LOGIC
-segment_name: META_LOGIC
-artifact_kind: README
-package_role: KERNEL_SEGMENT_ORIENTATION_AND_INTEGRATION_MAP
-path: 02_KERNEL/01_META_LOGIC/META_LOGIC_KERNEL_README.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Meta Logic Kernel Readme
 tags:
-  - amos-os
-  - kernel
-  - core
-  - meta_logic
-  - kernel/meta_logic
-  - canon/kernel
-  - package_readme
-  - integration_map
-  - rscf
-  - hml
-  - provenance
-  - epistemic
-  - causality
-  - state
-  - memory
-  - authority
-  - risk_repair
-  - governance
-  - validation
-  - recovery
-  - trang_framework
-  - readme
-  - k-core19-logic
-  - k-distinction-relation-constraint
-  - k-law-hierarchy
-  - k-meta-logic
-  - law-hierarchy
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - trang-framework-recursive-ontology-dynamics
-version: 0.2.0
-updated: '2026-08-27'
-status: AMOS_MODEL
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-canonical_status: PACKAGE_MAP / CANON_BOUND
-implementation_status: PARTIAL / NOT_FULLY_ESTABLISHED
-validation_status: PARTIAL / RECEIPT_DEPENDENT
-executable_binding: PARTIAL
-runtime_enforcement: NOT_ESTABLISHED_FOR_ALL_SIBLINGS
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
-  regime: AMOS_v4_4_kernel
-  confidence_ceiling: DERIVED
-integrity:
-  fail_closed_on_unknown: true
-  preserve_competing: true
-  preserve_provenance: true
-  preserve_scope: true
-  preserve_regime: true
-  preserve_dependencies: true
-  capability_grants_authority: false
-  authorization_is_commit: false
-  proposal_is_commit: false
-  observation_grants_authority: false
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # META LOGIC KERNEL README
@@ -4221,7 +4162,7 @@ until the corresponding executable artifacts and receipts establish those strong
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

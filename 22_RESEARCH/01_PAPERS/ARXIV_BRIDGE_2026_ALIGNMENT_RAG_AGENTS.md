@@ -52,7 +52,7 @@ This bridge connects 2026 arXiv pre-prints in LLM alignment (DPO, RLHF, jailbrea
 | **arXiv ID** | `2605.30021v1` |
 | **Title** | Recovering Diversity Without Losing Alignment: A DPO Recipe for Post-Trained LLMs |
 | **Date** | 2026-05 |
-| **Target Planes** | [[18_SECURITY/18_SECURITY_MOC\|18_SECURITY]], [[06_AGENTS/06_AGENTS_MOC\|06_AGENTS]], [[02_KERNEL/02_KERNEL_MOC\|02_KERNEL]] |
+| **Target Planes** | [[18_SECURITY/18_SECURITY_MOC|18_SECURITY]], [[06_AGENTS/06_AGENTS_MOC|06_AGENTS]], [[02_KERNEL/02_KERNEL_MOC|02_KERNEL]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | Diversity-preserving DPO — directly relevant to AMOS security (alignment without over-constraining) and agents (diverse agent behavior within safety bounds). The tension between alignment and diversity maps to AMOS's capability-vs-authority separability law. |
 | **Confidence Ceiling** | `EMPIRICAL` for specific LLM benchmarks; `SOURCE_CLAIM` for generalization across model sizes. |
@@ -64,7 +64,7 @@ This bridge connects 2026 arXiv pre-prints in LLM alignment (DPO, RLHF, jailbrea
 | **arXiv ID** | `2605.28440v1` |
 | **Title** | AdaDPO: Self-Adaptive Direct Preference Optimization with Balanced Gradient Updates |
 | **Date** | 2026-05 |
-| **Target Planes** | [[13_MODELS/13_MODELS_MOC\|13_MODELS]], [[06_AGENTS/06_AGENTS_MOC\|06_AGENTS]] |
+| **Target Planes** | [[13_MODELS/13_MODELS_MOC|13_MODELS]], [[06_AGENTS/06_AGENTS_MOC|06_AGENTS]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | Self-adaptive DPO with balanced gradients — relevant to AMOS models plane (alignment training) and agents (adaptive preference learning). Balanced gradient updates address the over-optimization problem that can cause AMOS agents to become overly conservative. |
 | **Confidence Ceiling** | `EMPIRICAL` for training stability; `SOURCE_CLAIM` for production deployment. |
@@ -76,7 +76,7 @@ This bridge connects 2026 arXiv pre-prints in LLM alignment (DPO, RLHF, jailbrea
 | **arXiv ID** | `2605.18239v1` |
 | **Title** | Multilingual jailbreaking of LLMs using low-resource languages |
 | **Date** | 2026-05 |
-| **Target Planes** | [[18_SECURITY/18_SECURITY_MOC\|18_SECURITY]], [[17_OBSERVABILITY/17_OBSERVABILITY_MOC\|17_OBSERVABILITY]] |
+| **Target Planes** | [[18_SECURITY/18_SECURITY_MOC|18_SECURITY]], [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | Multilingual jailbreak attacks — critical for AMOS security plane. Low-resource language jailbreaks expose alignment gaps that monolingual training misses. AMOS's adversarial validation runtime must handle multilingual attack vectors. |
 | **Confidence Ceiling** | `EMPIRICAL` for tested languages; `SOURCE_CLAIM` for all low-resource languages. |
@@ -88,7 +88,7 @@ This bridge connects 2026 arXiv pre-prints in LLM alignment (DPO, RLHF, jailbrea
 | **arXiv ID** | `2605.20834v1` |
 | **Title** | Conditional Equivalence of DPO and RLHF: Implicit Assumptions, Failure Modes, and Repairs |
 | **Date** | 2026-05 |
-| **Target Planes** | [[22_RESEARCH/22_RESEARCH_MOC\|22_RESEARCH]], [[13_MODELS/13_MODELS_MOC\|13_MODELS]] |
+| **Target Planes** | [[22_RESEARCH/22_RESEARCH_MOC|22_RESEARCH]], [[13_MODELS/13_MODELS_MOC|13_MODELS]] |
 | **Epistemic Class** | `SOURCE_CLAIM` |
 | **AMOS Relevance** | DPO-RLHF equivalence analysis — relevant to AMOS research plane (competing models analysis) and models plane (alignment method selection). Understanding failure modes of both approaches is critical for AMOS's safety guarantees. |
 | **Confidence Ceiling** | `SOURCE_CLAIM` — theoretical analysis; empirical validation ongoing. |
@@ -100,7 +100,7 @@ This bridge connects 2026 arXiv pre-prints in LLM alignment (DPO, RLHF, jailbrea
 | **arXiv ID** | `2605.23398v1` |
 | **Title** | TPMM-DPO: Trajectory-aware Preference-guided Model Merging for Iterative DPO |
 | **Date** | 2026-05 |
-| **Target Planes** | [[13_MODELS/13_MODELS_MOC\|13_MODELS]], [[04_RUNTIME/04_RUNTIME_MOC\|04_RUNTIME]] |
+| **Target Planes** | [[13_MODELS/13_MODELS_MOC|13_MODELS]], [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | Trajectory-aware model merging for DPO — relevant to AMOS models plane (multi-model merging) and runtime (model deployment). Iterative DPO with trajectory awareness enables AMOS to improve alignment over time without full retraining. |
 | **Confidence Ceiling** | `EMPIRICAL` for merging benchmarks; `SOURCE_CLAIM` for large-scale deployment. |
@@ -116,7 +116,7 @@ This bridge connects 2026 arXiv pre-prints in LLM alignment (DPO, RLHF, jailbrea
 | **arXiv ID** | `2605.22041v1` |
 | **Title** | RADAR: Defending RAG Dynamically against Retrieval Corruption |
 | **Date** | 2026-05 |
-| **Target Planes** | [[18_SECURITY/18_SECURITY_MOC\|18_SECURITY]], [[11_KNOWLEDGE/11_KNOWLEDGE_MOC\|11_KNOWLEDGE]], [[17_OBSERVABILITY/17_OBSERVABILITY_MOC\|17_OBSERVABILITY]] |
+| **Target Planes** | [[18_SECURITY/18_SECURITY_MOC|18_SECURITY]], [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE]], [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | Dynamic defense against RAG retrieval corruption — directly relevant to AMOS security, knowledge, and observability planes. Retrieval corruption attacks poison the knowledge base; RADAR provides runtime defense. Maps to AMOS's provenance validation and adversarial validation runtime. |
 | **Confidence Ceiling** | `EMPIRICAL` for tested attack types; `SOURCE_CLAIM` for novel attack vectors. |
@@ -128,7 +128,7 @@ This bridge connects 2026 arXiv pre-prints in LLM alignment (DPO, RLHF, jailbrea
 | **arXiv ID** | `2605.28044v1` |
 | **Title** | Relevant Is Not Warranted: Evidence-Force Calibration for Cited RAG |
 | **Date** | 2026-05 |
-| **Target Planes** | [[11_KNOWLEDGE/11_KNOWLEDGE_MOC\|11_KNOWLEDGE]], [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L09_INFERENCE/L09_INFERENCE_MOC\|L09 Inference]], [[02_KERNEL/02_KERNEL_MOC\|02_KERNEL]] |
+| **Target Planes** | [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE]], [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L09_INFERENCE/L09_INFERENCE_MOC|L09 Inference]], [[02_KERNEL/02_KERNEL_MOC|02_KERNEL]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | Evidence-force calibration — directly relevant to AMOS knowledge plane (evidence classification) and cognitive matrix L09 (Inference). The distinction between "relevant" and "warranted" evidence maps to AMOS's epistemic boundary between `SOURCE_CLAIM` and `VERIFIED`. |
 | **Confidence Ceiling** | `EMPIRICAL` for RAG benchmarks; `SOURCE_CLAIM` for general epistemic framework. |
@@ -140,7 +140,7 @@ This bridge connects 2026 arXiv pre-prints in LLM alignment (DPO, RLHF, jailbrea
 | **arXiv ID** | `2602.00586v2` |
 | **Title** | RAG-GNN: Integrating Retrieved Knowledge with Graph Neural Networks for Precision Medicine |
 | **Date** | 2026-02 |
-| **Target Planes** | [[11_KNOWLEDGE/11_KNOWLEDGE_MOC\|11_KNOWLEDGE]], [[21_DOMAINS/29_MEDICAL_CLINICAL/29_MEDICAL_CLINICAL_MOC\|Medical Clinical]], [[13_MODELS/13_MODELS_MOC\|13_MODELS]] |
+| **Target Planes** | [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE]], [[21_DOMAINS/29_MEDICAL_CLINICAL/29_MEDICAL_CLINICAL_MOC|Medical Clinical]], [[13_MODELS/13_MODELS_MOC|13_MODELS]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | RAG + GNN for precision medicine — bridges AMOS knowledge, medical domain, and models planes. GNN-enhanced retrieval enables AMOS to reason over graph-structured medical knowledge. |
 | **Confidence Ceiling** | `EMPIRICAL` for precision medicine; `SOURCE_CLAIM` for general graph-RAG. |
@@ -152,7 +152,7 @@ This bridge connects 2026 arXiv pre-prints in LLM alignment (DPO, RLHF, jailbrea
 | **arXiv ID** | `2605.20815v1` |
 | **Title** | GraphRAG on Consumer Hardware: Benchmarking Local LLMs for Healthcare EHR Schema |
 | **Date** | 2026-05 |
-| **Target Planes** | [[11_KNOWLEDGE/11_KNOWLEDGE_MOC\|11_KNOWLEDGE]], [[14_TOOLS/14_TOOLS_MOC\|14_TOOLS]], [[21_DOMAINS/29_MEDICAL_CLINICAL/29_MEDICAL_CLINICAL_MOC\|Medical Clinical]] |
+| **Target Planes** | [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE]], [[14_TOOLS/14_TOOLS_MOC|14_TOOLS]], [[21_DOMAINS/29_MEDICAL_CLINICAL/29_MEDICAL_CLINICAL_MOC|Medical Clinical]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | GraphRAG on consumer hardware — relevant to AMOS tools plane (resource-efficient deployment) and knowledge plane. Local LLM benchmarking for healthcare enables AMOS deployment in resource-constrained medical settings. |
 | **Confidence Ceiling** | `EMPIRICAL` for benchmark results; `SOURCE_CLAIM` for production healthcare deployment. |
@@ -164,7 +164,7 @@ This bridge connects 2026 arXiv pre-prints in LLM alignment (DPO, RLHF, jailbrea
 | **arXiv ID** | `2605.17503v1` |
 | **Title** | RAG-based EEG-to-Text Translation Using Deep Learning and LLMs |
 | **Date** | 2026-05 |
-| **Target Planes** | [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC\|05_COGNITIVE_ORGANISM]], [[15_INTERFACES/15_INTERFACES_MOC\|15_INTERFACES]], [[11_KNOWLEDGE/11_KNOWLEDGE_MOC\|11_KNOWLEDGE]] |
+| **Target Planes** | [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM]], [[15_INTERFACES/15_INTERFACES_MOC|15_INTERFACES]], [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | RAG for EEG-to-text — bridges AMOS cognitive organism, interfaces, and knowledge planes. RAG-enhanced brain signal decoding is directly relevant to AMOS BCI applications. Knowledge retrieval augments noisy EEG signals with language priors. |
 | **Confidence Ceiling** | `EMPIRICAL` for EEG translation accuracy; `SOURCE_CLAIM` for real-time BCI deployment. |
@@ -180,7 +180,7 @@ This bridge connects 2026 arXiv pre-prints in LLM alignment (DPO, RLHF, jailbrea
 | **arXiv ID** | `2602.15859v1` |
 | **Title** | From Transcripts to AI Agents: Knowledge Extraction, RAG Integration, and Robust Deployment |
 | **Date** | 2026-02 |
-| **Target Planes** | [[06_AGENTS/06_AGENTS_MOC\|06_AGENTS]], [[11_KNOWLEDGE/11_KNOWLEDGE_MOC\|11_KNOWLEDGE]], [[04_RUNTIME/04_RUNTIME_MOC\|04_RUNTIME]] |
+| **Target Planes** | [[06_AGENTS/06_AGENTS_MOC|06_AGENTS]], [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE]], [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]] |
 | **Epistemic Class** | `SOURCE_CLAIM` |
 | **AMOS Relevance** | Transcript-to-agent pipeline with RAG — directly maps to AMOS agents, knowledge, and runtime planes. The knowledge extraction → RAG integration → robust deployment pipeline parallels AMOS's agent lifecycle. |
 | **Confidence Ceiling** | `SOURCE_CLAIM` — framework proposal; deployment validation ongoing. |
@@ -192,7 +192,7 @@ This bridge connects 2026 arXiv pre-prints in LLM alignment (DPO, RLHF, jailbrea
 | **arXiv ID** | `2605.30029v1` |
 | **Title** | RAISE: RAG Design as an Architecture Search Problem |
 | **Date** | 2026-05 |
-| **Target Planes** | [[13_MODELS/13_MODELS_MOC\|13_MODELS]], [[11_KNOWLEDGE/11_KNOWLEDGE_MOC\|11_KNOWLEDGE]], [[22_RESEARCH/22_RESEARCH_MOC\|22_RESEARCH]] |
+| **Target Planes** | [[13_MODELS/13_MODELS_MOC|13_MODELS]], [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE]], [[22_RESEARCH/22_RESEARCH_MOC|22_RESEARCH]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | RAG architecture search — relevant to AMOS models, knowledge, and research planes. Treating RAG design as architecture search enables AMOS to automatically optimize retrieval configurations for different domains. |
 | **Confidence Ceiling** | `EMPIRICAL` for search benchmarks; `SOURCE_CLAIM` for transfer across domains. |

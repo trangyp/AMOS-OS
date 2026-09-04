@@ -1,40 +1,21 @@
 ---
-title: Commit Map
-type: contract
-source: 03_CONTROL_PLANE/09_COMMIT/00_COMMIT_INDEX
-artifact: COMMIT_MAP.md
-artifact_id: amos_03_control_plane_commit_map
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 03_CONTROL_PLANE
-segment: 03_CONTROL_PLANE/09_COMMIT/00_COMMIT_INDEX
-artifact_kind: CONTRACT
-path: 03_CONTROL_PLANE/09_COMMIT/00_COMMIT_INDEX/COMMIT_MAP.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Commit Map
 tags:
-  - amos-os
-  - control-plane
-  - contract
-  - rscf
-  - placeholder_expanded
-  - law-hierarchy
-version: 1.0.0
-updated: '2026-09-04'
-status: SUBSTANTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-canonical_status: CONDITIONAL
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
-  regime: control
-  confidence_ceiling: source_supported
-  provenance_independence: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Commit Map

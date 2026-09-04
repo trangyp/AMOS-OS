@@ -1,57 +1,21 @@
 ---
-title: ATOMIC_MULTI_RSCF_REASONING Specification
-type: law
-source: 01_CANON/01_CORE_LAWS
-artifact: ATOMIC_MULTI_RSCF_REASONING.md
-artifact_id: amos_01_canon_01_core_laws_atomic_multi_rscf_reasoning
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/01_CORE_LAWS
-artifact_kind: CORE_LAW_SPECIFICATION
-path: 01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF_REASONING.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Atomic Multi Rscf Reasoning
 tags:
-  - amos-os
-  - canon
-  - core_laws
-  - rscf
-  - atomic
-  - reasoning
-  - multi_rscf
-  - transaction
-  - consistency
-  - dependency_closure
-  - provenance
-  - rollback
-  - rscf
-  - canon/core
-  - k-atomic-multi-rscf
-  - law-hierarchy
-  - amos-core
-version: 1.0.0
-updated: '2026-08-28'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: SOURCE_BOUND
-executable_binding: KERNEL_REFERENCE_DECLARED
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_GROUNDED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 01_CANON/01_CORE_LAWS
-    -   -   - K_ATOMIC_MULTI_RSCF
-    - AMOS_corpus
-  scope:
-    - CORE_LAWS
-    - MULTI_RSCF_REASONING
-    - ATOMIC_REASONING
-  regime: governed_reasoning
-  confidence_ceiling: SOURCE_BOUND
-  provenance_independence: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # ATOMIC_MULTI_RSCF_REASONING Specification

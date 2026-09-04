@@ -1,23 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Vault Domain Knowledge — Amos Collapse Recovery
-type: reference
-source: 07_SKILLS/amos-collapse-recovery/references
-rscf:
-  state: SOURCE_CLAIM
-  class: STRUCTURAL
-  provenance:
-    - internal
-  freshness: EVERGREEN
-  falsifiers: []
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Vault Domain Knowledge
 tags:
-  - reference
-  - references
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-canon-group: canon/skills
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 ## ---title: "AMOS Collapse-Space Coverage Audit" type: document tags: [note]
@@ -250,7 +248,7 @@ ______________________________________________________________________
 ```bash
 cd /Users/trangphan/AMOS/40_PRODUCTION_REPO
 python3 -m api.app
-## Server runs on http://localhost:8000
+# Server runs on http://localhost:8000
 ```
 
 ### Frontend
@@ -259,7 +257,7 @@ python3 -m api.app
 cd /Users/trangphan/AMOS/40_PRODUCTION_REPO
 npm run build
 npm run start
-## Frontend runs on http://localhost:3000
+# Frontend runs on http://localhost:3000
 ```
 
 ### Integration Test
@@ -267,7 +265,7 @@ npm run start
 ```bash
 cd /Users/trangphan/AMOS/40_PRODUCTION_REPO
 python3 -c "import asyncio; ..."
-## All 5 core tests pass
+# All 5 core tests pass
 ```
 
 ______________________________________________________________________

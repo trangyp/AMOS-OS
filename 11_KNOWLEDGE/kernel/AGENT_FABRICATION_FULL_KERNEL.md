@@ -1,56 +1,20 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AGENT FABRICATION FULL KERNEL
-aliases:
-  - Agent Fabrication Full Kernel
-  - Agent_Fabrication_Full_Kernel_vInfinity_SUPER
-  - Agent Fabrication Kernel
-  - Multi-Agent Fabrication Kernel
-type: kernel
-source: 11_KNOWLEDGE/kernel
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
-topic: agent-fabrication-full-kernel
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Agent Fabrication Full Kernel
 tags:
   - canon-group/tech-ai
-  - canon/framework
   - rscf/claim
   - rscf/provenance
   - rscf/state/source-claim
-  - topic/agent-fabrication-full-kernel
-  - kernel
-  - multi-agent
-  - agent-fabrication
-  - orchestration
-  - coordination
-  - agent-governance
-  - agent-safety
-  - agent-lifecycle
-  - human-override
-  - auditability
-  - traceability
-  - capability-governance
-  - permissions
-  - memory-scope
-  - tool-access
-  - delegation
-  - swarm
-  - agent-evaluation
-  - lens-space
-  - template-library
-  - canon/knowledge
-  - system-scan-agent
-  - automation-profiles
-  - amos-simulation-kernel-v0-math-foundations
+  - misc
 created: 2026-08-22
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+---
 ---
 
 # AGENT FABRICATION FULL KERNEL

@@ -1,62 +1,86 @@
 ---
-title: C11 Design Language Domains C11 Design Language Contract — Specialist Domain Specification
-type: domain_specification
-source: 21_DOMAINS
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 21_DOMAINS/00_INDEX/DOMAIN_EXTENSION_PROTOCOL
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-  scope: domain_specialization
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: C11 Design Language Domains C11 Design Language Contract
 tags:
-  - amos-os
-  - domains
-  - c01-c12
-  - c11-design-language-domains-c11-design-language-contract
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# C11 Design Language Domains C11 Design Language Contract — Specialist Domain Specification
+# C11 DESIGN LANGUAGE DOMAINS C11 DESIGN LANGUAGE CONTRACT
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Conclusion Class:** `AMOS_MODEL`
-> **Status:** `ACTIVE_SPECIFICATION`
+## 0. Status
+Domains-plane contract for **C11 DESIGN LANGUAGE DOMAINS C11 DESIGN LANGUAGE CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
----
+## 1. Scope
+Governs C-family domain engine mappings (C01–C12) onto the OS planes as they bear on `C11 DESIGN LANGUAGE DOMAINS C11 DESIGN LANGUAGE CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
 
-## 1. Domain Scope & Objectives
+## 2. Contract terms
+- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
+- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
+- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
+- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
+- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
 
-`C11_DESIGN_LANGUAGE_DOMAINS_C11_DESIGN_LANGUAGE_CONTRACT` defines the specialized domain models, ontologies, regulatory frameworks, and operational packages under `21_DOMAINS`.
+## 3. Invariants
+- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
+- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
+- Consequential effects emit receipts; rollback basin exists before mutation.
+- Competing hypotheses remain visible when evidence does not discriminate.
 
-Governed under **Partition C: Cognitive Capability & Orchestration** and the [[21_DOMAINS/00_INDEX/DOMAIN_EXTENSION_PROTOCOL|DOMAIN_EXTENSION_PROTOCOL]].
+## 4. Executed reference
+No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
 
----
+## 5. Gaps
+Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
 
-## 2. Domain Rules & Invariants
+## 6. Falsifiers
+F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
+## Worked semantics
+Given an operation touching `C11 DESIGN LANGUAGE DOMAINS C11 DESIGN LANGUAGE CONTRACT` within the Domains plane:
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-1. **Non-Contradiction with Canon:** Specialist domain rules cannot supersede root axioms in `01_CANON`.
-2. **Explicit Confidence Attenuation:** Conclusions derived within `C11_DESIGN_LANGUAGE_DOMAINS_C11_DESIGN_LANGUAGE_CONTRACT` must declare confidence ceilings ($\mathcal{C} \le 0.95$).
-3. **Cross-Regime Bridges:** Transfers from this domain to adjacent domains require formal translation penalties.
+## Promotion-gate checklist
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
----
+## Cross-plane bindings
+- Governed by canon — [[01_CANON/01_CANON_README|01_CANON_README]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/02_KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/03_CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/17_OBSERVABILITY_README|17_OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/20_OPERATIONS_README|20_OPERATIONS_README]]
+RSCF-NODE
+node_id: amos_e_00_index_c11_design_language_domains_c11_design_language_contract_md
+node_type: note
+path: 21_DOMAINS/21_C11_DESIGN_LANGUAGE/00_INDEX/C11_DESIGN_LANGUAGE_DOMAINS_C11_DESIGN_LANGUAGE_CONTRACT.md
+claim_class: AMOS_MODEL
 
-## 3. Operational Mechanics & Datasets
+______________________________________________________________________
 
-- **Domain Models:** Mathematical, empirical, or statistical formulations specific to `C11 Design Language Domains C11 Design Language Contract`.
-- **Allowed Tooling:** Strictly sandboxed Tier 1 and Tier 2 adapters.
-- **Verification Gates:** Invariant tests codified in `19_TESTS/`.
+**MOC:** [[21_DOMAINS/21_C11_DESIGN_LANGUAGE/00_INDEX/INDEX_C11_DESIGN_LANGUAGE_DOMAINS_README|INDEX_C11_DESIGN_LANGUAGE_DOMAINS_README]]
 
----
+______________________________________________________________________
 
-## 4. Integration
-
-- **Master Domain Hub:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]
-- **Protocol Standard:** [[21_DOMAINS/00_INDEX/DOMAIN_EXTENSION_PROTOCOL|DOMAIN_EXTENSION_PROTOCOL]]
-- **Agent Roles:** [[06_AGENTS/AGENT_ROLE_REGISTRY|AGENT_ROLE_REGISTRY]]
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]

@@ -1,63 +1,16 @@
 ---
-title: DEPENDENCY MAP
-type: dependency
-source: 00_ROOT
-artifact_id: AMOS-OS-DEPENDENCY-MAP
-canonical_name: DEPENDENCY_MAP
-artifact_type: dependency_topology_contract
-status: AMOS_MODEL
-conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: ROOT
-scope: AMOS_OS
-authority_domain: dependency_topology
-authority_level: root_architecture_contract
-created: 2026-08-25
-updated: 2026-08-25
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Dependency Map
 tags:
-  - amos-os
-  - amos-os
-  - root
   - canon-group/tech-ai
-  - canon/model
-  - architecture
-  - architecture/dependency
-  - dependency
-  - dependency/closure
-  - dependency/invalidation
-  - dependency/topology
-  - dependency/typed-edge
-  - dependency/load-bearing
-  - provenance
-  - provenance/lineage
-  - provenance/independence
-  - state
-  - governance
-  - kernel
-  - kernel/dependency
-  - kernel/validation
-  - kernel/recovery
-  - rscf/state/model
-  - topic/dependency-closure
-  - topic/invalidation
-  - topic/failure-propagation
-  - readme
-  - authoritative-state
-  - placement-rules
-  - roadmap
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - source-lineage
-aliases:
-  - AMOS OS Dependency Map - Dependency Map - AMOS Dependency Topology - DEPENDENCY_MAP
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: root_index
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AMOS OS Dependency Map
@@ -188,7 +141,7 @@ ______________________________________________________________________
 ├── 05_COGNITIVE_ORGANISM
 ├── 06_AGENTS
 ├── 07_SKILLS
-├── 08_WORKFLOWS
+├── 26_WORKFLOWS
 ├── 09_PROTOCOLS
 ├── 10_MEMORY
 ├── 11_KNOWLEDGE

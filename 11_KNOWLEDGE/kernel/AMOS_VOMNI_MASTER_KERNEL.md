@@ -1,34 +1,21 @@
 ---
-title: AMOS vOmni Master Kernel — All 33 Meta-Kernels
-created: '2026-08-22'
-origin: Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_vOmni_KERNEL_v0.json
-origin_architect: Trang Phan
-type: reference
-source: 11_KNOWLEDGE/kernel
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Vomni Master Kernel
 tags:
   - canon-group/tech-ai
-  - canon/model
   - rscf/claim
   - rscf/provenance
-  - rscf/state/derived
-  - rscf/T-topology
-  - rscf/K-compression
-  - rscf/G-relation
-  - rscf/mu-mutation
-  - rscf/X-crossscale
-  - topic/vomni-kernel-model
-  - kernel
-  - system-scan-agent
-  - automation-profiles
-  - amos-simulation-kernel-v0-math-foundations
-status: active
-provenance: VERIFIED
-confidence: VERIFIED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS vOmni Master Kernel vInfinity_MAX

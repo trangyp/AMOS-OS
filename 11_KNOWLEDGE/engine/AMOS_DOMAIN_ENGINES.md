@@ -1,36 +1,21 @@
 ---
-title: AMOS Domain Engines — Full Inventory
-created: '2026-08-22'
-origin: Google Drive — _00_AMOS_CANON/Domains/
-origin_architect: Trang Phan
-type: reference
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Domain Engines
 tags:
   - canon-group/tech-ai
-  - domain-engines
-  - tech-systems
-  - science-health
-  - org-risk-policy
-  - sub-domains
-  - canon-group/human-system
-  - governance
-  - risk
-  - compliance
-  - scientific
-  - medical-clinical
-  - academic-writing
-  - vietnamese-writing
-  - engine
-  - canon/knowledge
-  - canon
-status: active
-provenance: VERIFIED
-confidence: VERIFIED
-source: Google Drive /_00_AMOS_CANON/Domains/ (4 subfolders, 15 engine JSON files)
-rscf:
-  state: AMOS_MODEL
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: engine_specification
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Domain Engines

@@ -1,55 +1,21 @@
 ---
-schema_version: 1.0
-name: amos-law-stack-enforcement
-title: SKILL — Amos Law Stack Enforcement
-type: note
-source: 07_SKILLS/amos-law-stack-enforcement
-tags:
-  - type/skill
-  - type/skill
-  - domain/canon-universe
-  - epistemic/source_claim
-  - hml/m
-  - epistemic/source_claim
-  - amos-os
-  - references
-  - readme
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-  - skill
-rscf:
-  state: DERIVED
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: AMOS_general
-version: 1.1.0
-origin_architect: Trang Phan
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
 epistemic_class: SOURCE_CLAIM
-rscf_state: SOURCE_CLAIM
-hml_level: M
-gmef_gates:
-  - L0_integrity
-  - L1_epistemic
-  - L2_provenance
-  - L5_scope
-  - L7_authority
-collapse_class: reversible
-qfm_gate_set: QFM_v43
-law_compliance:
-  - L0
-  - L1
-  - L2
-  - L4
-  - L5
-  - L7
-  - L16
-  - L17
-  - L18
-parent_skill: amos-canon-universe-master
-domain: canon
-description: AMOS Law Stack Enforcement — Part IV (Enforcement) of the 7-Part Universe Canon. Validates Law of Law / Rule of 2 / Rule of 4 hierarchy, invariant enforcement across scale transitions, UBI Score/ledger integrity. Use when validating whether system rules hold across scale, checking law adherence to LoL/R2/R4 hierarchy, or when a draft law short-circuits canonical order. Do not use for generic tasks outside the declared amos domain.
-license: MIT
-steward: Trang Phan
+topic: Skill
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Law Stack Enforcement
@@ -166,7 +132,7 @@ ______________________________________________________________________
 
 - **Peers**: Other skills in the \`\` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
-- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Workflow**: Each skill has a corresponding workflow in `26_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
 
 ## Evaluation

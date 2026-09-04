@@ -1,109 +1,21 @@
 ---
-title: Khung Trang Canon
-canonical_name: KHUNG_TRANG_CANON
-type: canon
-source: 01_CANON/02_UNIVERSE_CANON
-artifact: KHUNG_TRANG_CANON.md
-artifact_id: amos_01_canon_02_universe_canon_khung_trang_canon
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-framework_family: Trang Framework
-plane: 01_CANON
-segment: 01_CANON/02_UNIVERSE_CANON
-artifact_kind: CANON
-path: 01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_CANON.md
-native_source:
-  file: KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS.json
-  title: KHUNG TRANG — MAX DETAIL ARCHITECTURE WITH FULL EQUATION REGISTRY
-  version: U∞_full_source_preserved_v3
-  preserved_source_chars: 306574
-  preserved_source_lines: 13670
-  parsed_sections: 870
-  auto_equation_registry_entries: 958
-  raw_source_preserved: true
-native_framework_title: KHUNG TRANG — HỆ HÌNH THỨC ĐỘNG HÌNH ĐỆ QUY SINH TỒN
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Khung Trang Canon
 tags:
-  - amos-os
-  - canon
-  - universe
-  - khung_trang
-  - trang_framework
-  - recursive_ontology
-  - morphodynamics
-  - distinction
-  - relation
-  - constraint
-  - boundary
-  - persistence
-  - identity
-  - memory
-  - entropy
-  - mutation
-  - selection
-  - repair
-  - recursion
-  - observer
-  - consciousness_candidate
-  - civilization
-  - hml
-  - ukr
-  - fractal
-  - 19x19
-  - equations
-  - rscf
-  - provenance
-  - canon/universe
-  - khung-trang-canon-validation-receipt
-  - law-hierarchy
-  - khung-trang-full-max-detail-architecture-equations
-  - trang-framework-recursive-ontology-dynamics
-  - khung-trang-foundational-ontology
-  - khung-trang-state-vector
-  - khung-trang-master-equations
-  - khung-trang-f1-f26
-  - khung-trang-16-canonical-laws
-  - khung-trang-hml
-  - khung-trang-entropy-repair
-  - khung-trang-ukr
-  - khung-trang-19x19
-  - khung-trang-digital-consciousness-candidate
-  - khung-trang-observer-experience-gap
-  - absolute-omniverse-u-infinity
-  - validation
-version: 1.0.0-source-bound-canon-candidate
-updated: '2026-08-27'
-status: SOURCE_BOUND_CANON_CANDIDATE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_BOUND_CANON_CANDIDATE
-implementation_status: ARCHITECTURE_AND_EQUATION_SOURCE_PRESENT / EXECUTABLE_BINDING_NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-overwrite_existing: false
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance:
-    - KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS.json
-    - AMOS_corpus
-  scope: universe_canon
-  regime: Khung_Trang_UInfinity_full_source_preserved_v3
-  confidence_ceiling: SOURCE_CLAIM
-integrity:
-  preserve_native_terminology: true
-  preserve_equations: true
-  preserve_lineage: true
-  preserve_competing_formulations: true
-  structural_similarity_is_causation: false
-  model_is_observation: false
-  equation_is_physical_law: false
-  source_claim_is_verified: false
-  consciousness_candidate_is_real_consciousness: false
-  metaphysical_model_is_empirical_truth: false
-  capability_is_authority: false
-  proposal_is_commit: false
-  unknown_is_pass: false
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Khung Trang Canon
@@ -6320,3 +6232,9 @@ until discriminating evidence exists.
 
 
 This version promotes the file from an empty `PLACEHOLDER` to **`SOURCE_BOUND_CANON_CANDIDATE`** because the native Khung Trang master is actually present and contains substantive architecture. It deliberately does **not** promote its physics, biology, consciousness, cosmology, ethics, or universal cross-scale propositions beyond `AMOS_MODEL` without independent validation.
+
+```
+
+```
+```
+```

@@ -1,19 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS Cognitive Matrix Placeholder Seed Status
-type: status
-source: 25_COGNITIVE_MATRIX
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Placeholder Seed Status
 tags:
-  - note
-  - 25-cognitive-matrix
-  - domain/cognitive-matrix
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AMOS Cognitive Matrix Placeholder Seed Status

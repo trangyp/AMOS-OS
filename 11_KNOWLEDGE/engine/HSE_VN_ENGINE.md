@@ -1,35 +1,21 @@
 ---
-title: HSE VN Engine — Human Systems Engine (Vietnam)
-created: '2026-08-22'
-origin: Google Drive — _00_AMOS_CANON/_Archive/Human_Systems_Engine_(HSE)_VN.pdf + HSE_CEO_Enginev.txt
-origin_architect: Trang Phan
-type: engine-spec
-source: 11_KNOWLEDGE/engine
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Hse Vn Engine
 tags:
-  - hse
-  - human-systems-engine
-  - Vietnam
-  - 7-layers
-  - 4-human-types
-  - 7-system-cycles
-  - 5-calculation-classes
-  - 54-human-risks
-  - 200-national-risks
-  - predictive-rhythm
-  - 1-36-month
-  - engine
-  - canon/knowledge
-  - system-scan-agent
-  - automation-profiles
-  - amos-simulation-kernel-v0-math-foundations
-status: active
-provenance: VERIFIED
-confidence: VERIFIED
-rscf:
-  state: AMOS_MODEL
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: engine_specification
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Human Systems Engine™ (HSE) VN

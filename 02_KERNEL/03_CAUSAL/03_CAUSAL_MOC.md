@@ -1,26 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: 03 Causal MOC
-type: moc
-source: 02_KERNEL/03_CAUSAL
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 03 Causal Moc
 tags:
-  - 03-causal
-  - canon/kernel
-  - k-biological-causality
-  - k-causal-closure
-  - k-causal-epoch
-  - k-causal-hierarchy
-  - k-cross-scale-causality
-  - k-quantum-causality
-  - k-reality-causality
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 03 Causal — Map of Content

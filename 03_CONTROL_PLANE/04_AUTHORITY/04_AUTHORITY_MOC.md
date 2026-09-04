@@ -1,71 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: 04 Authority MOC
-type: moc
-source: 03_CONTROL_PLANE/04_AUTHORITY
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 04 Authority Moc
 tags:
-  - 04-authority
-  - canon/control-plane
-  - atomic-state-transition
-  - audit-provenance
-  - authority-audit
-  - authority-history
-  - authority-lifecycle
-  - authority-log
-  - authority-policy
-  - authority-resolver
-  - authority-source
-  - authority-witness
-  - authorization-audit
-  - authorization-binding
-  - authorization-decision
-  - authorization-delegation
-  - authorization-deny
-  - authorization-evidence
-  - authorization-grant
-  - authorization-history
-  - authorization-invalidation
-  - authorization-lifecycle
-  - authorization-log
-  - authorization-policy
-  - authorization-request
-  - authorization-response
-  - authorization-scope
-  - authorization-spec
-  - authorization-witness
-  - authz-engine-validation-receipt
-  - canon-authority-chain
-  - commit-time-authority
-  - commit-time-authority-audit
-  - commit-time-authority-history
-  - commit-time-authority-lifecycle
-  - commit-time-authority-log
-  - commit-time-authority-policy
-  - commit-time-revalidation
-  - current-state-version
-  - delegation
-  - delegation-audit
-  - delegation-grant
-  - delegation-history
-  - delegation-lifecycle
-  - delegation-log
-  - delegation-policy
-  - delegation-record
-  - delegation-request
-  - delegation-response
-  - delegation-scope
-  - delegation-witness
-  - dependency-closure
-  - dependent-invalidation
-  - independent-path-analysis
-moc: true
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: authority_governance
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 04 Authority — Map of Content
@@ -213,7 +163,7 @@ rscf:
 
 ## Subdirectories
 
-- [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
+- [[03_CONTROL_PLANE/04_AUTHORITY/00_INDEX/CONTROL_PLANE_AUTHORITY_MAP|CONTROL_PLANE_AUTHORITY_MAP]] — 00_INDEX
 
 ______________________________________________________________________
 

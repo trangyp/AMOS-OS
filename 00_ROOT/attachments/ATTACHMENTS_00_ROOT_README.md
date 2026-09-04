@@ -1,30 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: ATTACHMENTS 00 ROOT README
-type: note
-source: 00_ROOT/attachments
-rscf:
-  state: SOURCE_CLAIM
-  class: STRUCTURAL
-  provenance:
-    - internal
-  freshness: EVERGREEN
-  falsifiers: []
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Attachments 00 Root Readme
 tags:
-  - note
-  - attachments
-  - readme
-  - law-hierarchy
-  - canon
-  - routing-policy
-  - binding-rules
-  - routing-audit
-  - promotion-gates
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-canon-group: canon/root
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 ## ---title: "CANON README" type: document tags: [note]
@@ -2233,7 +2219,7 @@ ______________________________________________________________________
 
 ## Root
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 [[00_ROOT/00_HOME|00_HOME]]
 
 ## Core laws
@@ -2873,7 +2859,7 @@ ______________________________________________________________________
 **Root / navigation**
 
 [[00_ROOT/00_HOME|00_HOME]] ·
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]] ·
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]] ·
 [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 **Canon**
@@ -2955,7 +2941,7 @@ DO NOT CONVERT UNKNOWN INTO PASS.
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

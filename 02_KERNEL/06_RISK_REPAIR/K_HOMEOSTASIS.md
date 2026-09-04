@@ -1,67 +1,21 @@
 ---
-title: K HOMEOSTASIS
-type: note
-source: 02_KERNEL/06_RISK_REPAIR
-artifact_id: AMOS-OS-K-HOMEOSTASIS
-canonical_name: K_HOMEOSTASIS
-artifact_type: kernel_homeostasis_contract
-status: AMOS_MODEL
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
 conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: KERNEL
-kernel_family: STABILITY
-scope: AMOS_OS
-updated: 2026-08-26
+epistemic_class: SOURCE_CLAIM
+topic: K Homeostasis
 tags:
-  - amos-os
-  - kernel
-  - core
-  - kernel/homeostasis
-  - kernel/stability
-  - kernel/invariants
-  - kernel/state
-  - kernel/recovery
-  - kernel/feedback
-  - kernel/adaptation
-  - kernel/provenance
-  - kernel/causal-epoch
-  - kernel/context
-  - kernel/memory
-  - rscf
-  - rscf/validation
-  - topic/homeostasis
-  - topic/dynamic-stability
-  - topic/drift-detection
-  - topic/feedback-control
-  - topic/bounded-adaptation
-  - topic/failure-containment
-  - topic/revalidation
-  - canon/kernel
-  - readme
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - k-core19-logic
-  - k-meta-logic
-  - k-structural-reasoning
-  - k-causal-closure
-  - k-causal-epoch
-  - k-context-state
-  - k-context-compaction
-  - k-identity
-  - k-system-state
-  - k-memory-admission
-  - k-memory-conflict
-  - k-memory-immune
-  - k-memory-retrieval
-  - k-collapse-recovery
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # K HOMEOSTASIS
@@ -2119,7 +2073,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

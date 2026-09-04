@@ -1,20 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Arxiv-Anytime-Pac-Bayes-Density-Ratio-Rscf MOC
-type: moc
-source: 07_SKILLS/arxiv-anytime-pac-bayes-density-ratio-rscf
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Arxiv Anytime Pac Bayes Density Ratio Rscf Moc
 tags:
-  - arxiv-anytime-pac-bayes-density-ratio-rs
-  - type/skill
-  - skill
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Arxiv-Anytime-Pac-Bayes-Density-Ratio-Rscf — Map of Content

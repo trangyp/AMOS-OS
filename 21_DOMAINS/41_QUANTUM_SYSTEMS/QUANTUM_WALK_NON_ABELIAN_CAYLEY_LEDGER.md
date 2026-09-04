@@ -42,6 +42,33 @@ where $\Pi_\lambda$ are spectral orthogonal projectors of the group Laplacian, e
 - **Quantum Uniform Spreading Index**: Non-local quantum superposition across all group elements verified.
 - **Verification Integrity**: Cryptographically validated under AMOS Canonical v4.4 Plane 21/41.
 
+---
+
+## Non-Abelian Cayley Graph Quantum Walk Dynamics
+
+Continuous-Time Quantum Walks (CTQWs) on non-Abelian Cayley graphs exploit the rich algebraic structure of finite groups to achieve quantum speedups in graph traversal, property testing, and isomorphism detection. A Cayley graph $\mathcal{C}(G, S)$ is constructed from a finite group $G$ and a symmetric generating set $S = S^{-1}$: each group element $g \in G$ is a vertex, and edges connect $g$ to $gs$ for each generator $s \in S$. The critical distinction from Abelian Cayley graphs (e.g., cyclic groups $\mathbb{Z}_n$) is that non-Abelian groups have non-commuting generators—$gh \neq hg$—which produces a fundamentally different spectral structure in the adjacency Hamiltonian $\mathbf{A}$.
+
+The quantum walk evolves via the Schrödinger equation $i \frac{d}{dt} |\psi(t)\rangle = \mathbf{A} |\psi(t)\rangle$, where $\mathbf{A}$ is the adjacency matrix of the Cayley graph. For non-Abelian groups, the representation theory of $G$ decomposes the Hilbert space $\ell^2(G)$ into irreducible representation (irrep) sectors. Each irrep $\rho_\lambda$ of dimension $d_\lambda$ contributes a $d_\lambda^2$-dimensional invariant subspace, and the adjacency matrix block-diagonalizes accordingly. This spectral decomposition is the key to the quantum speedup: the time-averaged probability distribution $\overline{P}(u \to v) = \sum_\lambda |\langle v | \Pi_\lambda | u \rangle|^2$ concentrates on group elements that share representation-theoretic structure, enabling exponential mixing speedups over classical random walks for certain group families.
+
+The quaternion group $Q_8 = \{\pm 1, \pm i, \pm j, \pm k\}$ serves as the canonical test case for non-Abelian quantum walks. With generators $S = \{i, j\}$, the Cayley graph has 8 vertices and exhibits the non-commutative structure $ij = k \neq -k = ji$. The quantum walk on $Q_8$ achieves a Shannon entropy of 1.6402 nats—significantly higher than the classical random walk entropy at the same time horizon—demonstrating that the quantum superposition spreads more uniformly across the group elements. This uniform spreading is the foundation for quantum algorithms for graph isomorphism: two graphs are likely isomorphic only if their quantum walk mixing distributions match across all time scales, providing a test that is computationally intractable for classical algorithms but efficient on quantum hardware.
+
+## AMOS Integration
+
+- **Quantum Systems MOC**: [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC|41 Quantum Systems MOC]]
+- **Physics-Cosmos domain**: [[21_DOMAINS/13_C03_PHYSICS_COSMOS/13_C03_PHYSICS_COSMOS_MOC|C03 Physics-Cosmos Domain]]
+- **Numerical methods engine**: [[11_KNOWLEDGE/engine/AMOS_NUMERICAL_METHODS_ENGINE_LAYER|Numerical Methods Engine]]
+- **Absolute Logic DB**: [[07_SKILLS/amos-absolute-logic-db/SKILL|Absolute Logic DB]]
+
+## Epistemic Boundary
+
+- `MODEL != OBSERVATION` — The quantum walk is simulated via exact matrix exponentiation on a classical computer; physical quantum hardware would introduce gate errors and decoherence.
+- `DOCUMENTED != IMPLEMENTED` — The mathematical formulation assumes perfect unitary evolution; real quantum walks face Hamiltonian engineering challenges in mapping abstract group structure to physical qubit connectivity.
+- `Q8_SPEEDUP != GENERAL_SPEEDUP` — The uniform spreading observed on $Q_8$ does not generalize to all non-Abelian groups; the speedup depends on the specific representation theory of $G$ and the choice of generating set $S$.
+- `MIXING != ALGORITHM` — Achieving fast mixing is necessary but not sufficient for a useful quantum algorithm; the walk must also be coupled to an efficient measurement and post-processing scheme.
+- `ISOMORPHISM_TEST != ISOMORPHISM_SOLUTION` — Quantum walk mixing distributions can distinguish non-isomorphic graphs in many cases, but this does not constitute a complete graph isomorphism algorithm.
+
+**Parent:** [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC|41_QUANTUM_SYSTEMS_MOC]]
+
 ## Ledger Operations & Audit Trail
 
 | Timestamp (UTC) | Operation | Actor | Parameters | Outcome | Receipt Hash |

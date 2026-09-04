@@ -1,28 +1,20 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS HEALTH POLICY KERNEL V0 SCIENCE HEALTH2
-type: kernel
-source: 11_KNOWLEDGE/kernel
-canon-group: biology
+canon-group: meta
 canon-type: framework
 rscf-state: source-claim
-topic: amos-health-policy-kernel-v0
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Health Policy Kernel
 tags:
-  - canon-group/biology
-  - canon/framework
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
   - rscf/state/source-claim
-  - topic/amos-health-policy-kernel-v0
-  - kernel
+  - misc
 created: 2026-08-22
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+---
 ---
 
 # AMOS_Health_Policy_Kernel_v0

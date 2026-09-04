@@ -1,21 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: system optimization complete
-type: reference
-source: 07_SKILLS/amos-os-runtime-master/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: System Optimization Complete
 tags:
-  - reference
-  - amos-os-runtime-master
-  - type/skill
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # System Optimization Complete
@@ -91,11 +91,11 @@ class AMOSBrainInternetEnhanced2026:
 ### Tensor Field Enhancement
 
 ```python
-## Agent enhancement with internet data
+# Agent enhancement with internet data
 enhanced_agents[:, 0] *= (1 + enhancement_factor)  # resources
 enhanced_agents[:, 1] *= (1 + enhancement_factor * 0.5)  # incentives
 
-## Multi-dimensional tensor updates
+# Multi-dimensional tensor updates
 tensor_field.signals *= (1 + enhancement_factor * 0.3)
 tensor_field.information *= (1 + enhancement_factor * 0.6)
 ```

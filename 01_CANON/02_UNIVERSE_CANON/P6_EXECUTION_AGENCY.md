@@ -1,37 +1,16 @@
 ---
-artifact_kind: UNIVERSE_PLANE
-epistemic_class: AMOS_MODEL
-origin_architect: Trang Phan
-plane: 01_CANON
-rscf:
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: universe_canon
-  state: SOURCE_CLAIM
-source: 01_CANON/02_UNIVERSE_CANON
-steward: Trang Phan
-system: AMOS OS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: P6 Execution Agency
 tags:
-  - amos-os
-  - canon
-  - universe_canon
-  - execution
-  - agency
-  - action
-  - commit
-  - rollback
-  - effects
-  - p6_plane
-  - rscf
-  - canon/universe
-  - p1-reality-environment
-  - p2-sense-evidence
-  - p3-knowledge-memory
-  - p4-cognition-models
-  - p5-governance-authority
-title: P6 EXECUTION AGENCY
-type: note
-version: 0.2.0
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # P6 Execution / Agency
@@ -5496,7 +5475,7 @@ NO EFFECTFUL AUTHORITY.
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

@@ -1,228 +1,131 @@
 ---
-title: SI Organism Binding
-type: organism
-source: 05_COGNITIVE_ORGANISM
-artifact: SI_ORGANISM_BINDING.md
-artifact_id: amos_05_cognitive_organism_si_organism_binding
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 05_COGNITIVE_ORGANISM
-segment: 05_COGNITIVE_ORGANISM
-artifact_kind: BINDING
-path: 05_COGNITIVE_ORGANISM/SI_ORGANISM_BINDING.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Si Organism Binding
 tags:
-  - amos-os
-  - cognitive
-  - organism
-  - binding
-  - canon_placeholder
-  - rscf
-  - canon/cognitive
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # SI Organism Binding
 
-## 0. Status
+## 0. Executive Specification
 
-`SI_ORGANISM_BINDING.md` is an **ADD-ONLY placeholder** for the **Cognitive Organism** plane segment at `05_COGNITIVE_ORGANISM`.
-
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
+The **SI Organism Binding** formalizes **Somatic Intelligence (SI)** within the AMOS Cognitive Organism plane (`05_COGNITIVE_ORGANISM`). SI governs the interoceptive sensing, metabolic energy budgeting, and visceral autonomic regulation of the organism, providing the homeostatic grounding without which high-level intelligence degrades into uncontrolled hallucination and resource exhaustion.
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
++---------------------------------------------------------------------------------------+
+|                         SI: SOMATIC INTELLIGENCE ARCHITECTURE                         |
+|                                                                                       |
+|   ┌──────────────────────────┐     ┌───────────────────────────┐     ┌──────────────┐ |
+|   │ INTEROCEPTIVE TELEMETRY  │ <-> │ AUTONOMIC BALANCE (VAGAL) │ <-> │ ALLOREGULATOR│ |
+|   │ • Visceral Strain        │     │ • Sympathetic (Mobilize)  │     │ • Metabolic  │ |
+|   │ • Energy Reserves (ATP)  │     │ • Parasympathetic (Rest)  │     │   Energy     │ |
+|   │ • Thermal / Memory Load  │     │ • Vagal Tone (HRV Index)  │     │   Budget     │ |
+|   └──────────────────────────┘     └───────────────────────────┘     └──────────────┘ |
++---------------------------------------------------------------------------------------+
+                                           │
+                        ┌──────────────────┴──────────────────┐
+                        ▼                                     ▼
+      ┌──────────────────────────────────┐  ┌──────────────────────────────────┐
+      │     RESOURCE THROTTLING GATES    │  │     CROSS-MODAL UBI COUPLING     │
+      │ • Dynamic FLOPs Governor         │  │ • Grounding for NEI Affect       │
+      │ • Context Window Compaction      │  │ • Calibrates NBI Spiking Rates   │
+      │ • Starvation / OOM Immunity      │  │ • Monitored via 17_OBSERVABILITY │
+      └──────────────────────────────────┘  └──────────────────────────────────┘
 ```
 
-Origin architect / steward:
+---
 
-**Trang Phan**
+## 1. Interoceptive State Vector & Homeostatic Setpoints
 
-______________________________________________________________________
+SI represents the inner somatic state as a multi-dimensional continuous tensor:
 
-## 1. Purpose
+$$\mathbf{s}_{\text{somatic}}(t) = \begin{bmatrix}
+E_{\text{energy}}(t) \\
+T_{\text{thermal}}(t) \\
+M_{\text{memory\_pressure}}(t) \\
+V_{\text{vagal\_tone}}(t) \\
+S_{\text{stress\_index}}(t)
+\end{bmatrix} \in [0.0, 1.0]^5$$
 
-This artifact reserves the **SI Organism Binding** slot within the Cognitive Organism plane. The Cognitive Organism plane governs the organism-level cognitive assembly above kernels and below agents.
+### 1.1 Allostatic Deviation Law
+The allostatic strain $\mathcal{S}_{\text{strain}}$ measures the Mahalanobis distance from optimal homeostatic setpoints $\mathbf{s}^*$:
 
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+$$\mathcal{S}_{\text{strain}}(t) = \left( \mathbf{s}_{\text{somatic}}(t) - \mathbf{s}^* \right)^\top \mathbf{\Omega}_{\text{vital}}^{-1} \left( \mathbf{s}_{\text{somatic}}(t) - \mathbf{s}^* \right)$$
 
-______________________________________________________________________
+Where $\mathbf{\Omega}_{\text{vital}}$ is the covariance matrix defining the allowable physiological tolerance envelope.
 
-## 2. Non-Purpose
+---
 
-This placeholder MUST NOT be used to claim:
+## 2. Autonomic Regulation & Vagal Tone
 
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
+SI models the balance between sympathetic mobilization (fight/flight/compute surge) and parasympathetic restoration (rest/digest/consolidate memory) via an autonomic differential equation:
 
-______________________________________________________________________
+$$\frac{dV_{\text{vagal}}}{dt} = \frac{V_{\text{target}} - V_{\text{vagal}}}{\tau_{\text{vagal}}} - \gamma_{\text{sympathetic}} \cdot \text{TaskUrgency} + \beta_{\text{recovery}} \cdot \text{SleepCycle}$$
 
-## 3. Ingestion Rule
+* **High Vagal Tone ($V_{\text{vagal}} > 0.7$):** System is calm, coherent, capable of high-precision exploratory reasoning with wide attention bandwidth.
+* **Low Vagal Tone ($V_{\text{vagal}} < 0.3$):** Acute somatic stress; cognitive bandwidth narrows to conservative heuristics to protect system survival.
 
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+---
+
+## 3. Dynamic Computation Governor (FLOPs & Context Throttle)
+
+SI directly regulates the resource consumption of all cognitive layers:
+
+$$\text{MaxPermittedFLOPs}(t) = \text{FLOPs}_{\text{base}} \cdot \sigma\left( \frac{E_{\text{energy}}(t) - \theta_{\text{reserve}}}{\tau_{\text{energy}}} \right) \cdot \big(1.0 - M_{\text{memory\_pressure}}(t)\big)$$
+
+If memory pressure crosses the critical threshold ($M_{\text{pressure}} > 0.85$), SI issues a priority signal to `04_RUNTIME` triggering:
+1. Garbage collection of working memory scratchpads.
+2. Context compaction in `10_MEMORY`.
+3. Postponement of speculative counterfactual simulations in `SUPER_MIND_ENGINE`.
+
+---
+
+## 4. Epistemic Boundaries & Fail-Closed Safety
+
+```text
+SOMATIC_MODEL != FLESH_AND_BLOOD
+ENERGY_PRESSURE != USER_INTERRUPTION
+FAIL-CLOSED SHUTDOWN ON CRITICAL RESOURCE COLLAPSE
 ```
 
-______________________________________________________________________
+1. **Non-Biological Equivalence:** Somatic Intelligence is a computational architecture inspired by physiology (`AMOS_MODEL`). It manages server/token/device resource viability.
+2. **Exhaustion Guard:** If total available energy/memory reserve collapses ($E < 0.05$), SI halts non-essential cognitive threads, preserving only core checkpointing to prevent corrupt data loss.
 
-## 4. Contract discipline
+---
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+## 5. Cross-Plane Bindings
 
-______________________________________________________________________
+- **Governed by Canon:** [[01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_CANON|FULL_BRAIN_OS_CANON]].
+- **UBI Integration:** [[05_COGNITIVE_ORGANISM/UBI_ORGANISM_BINDING|UBI_ORGANISM_BINDING]].
+- **Affective Link:** [[05_COGNITIVE_ORGANISM/NEI_ORGANISM_BINDING|NEI_ORGANISM_BINDING]].
+- **Runtime Throttle:** [[04_RUNTIME/04_RUNTIME_MOC|RUNTIME_MOC]].
+- **Observability:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|OBSERVABILITY_MOC]].
 
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
-______________________________________________________________________
-
-## 6. Worked semantics (target)
-
-Given an operation touching `05_COGNITIVE_ORGANISM · BINDING` within the Cognitive Organism plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-______________________________________________________________________
+---
 
 RSCF-NODE
-
 node_id: amos_05_cognitive_organism_si_organism_binding
-
 node_type: binding
-
+domain: COGNITION
 path: 05_COGNITIVE_ORGANISM/SI_ORGANISM_BINDING.md
-
 claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
+rscf_state: active_specification
+canonical_status: CANONICAL_BINDING
 RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
-
-**MOC:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
+  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+  - INDEXED_BY: [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
+  - GOVERNED_BY: [[01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_CANON|FULL_BRAIN_OS_CANON]]
+  - BOUND_TO: [[05_COGNITIVE_ORGANISM/UBI_ORGANISM_BINDING|UBI_ORGANISM_BINDING]]

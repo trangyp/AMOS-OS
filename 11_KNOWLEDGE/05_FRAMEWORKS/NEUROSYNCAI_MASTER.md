@@ -1,70 +1,21 @@
 ---
-title: NeurosyncAI Master
-type: neurosyncai
-source: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact: NEUROSYNCAI_MASTER.md
-artifact_id: amos_11_knowledge_05_frameworks_neurosyncai_master
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 11_KNOWLEDGE
-segment: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact_kind: MASTER
-path: 11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_MASTER.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Neurosyncai Master
 tags:
-  - amos-os
-  - knowledge
-  - vault
-  - 05_frameworks
-  - neurosyncai_master
-  - bio_adaptive_ai
-  - cognitive_synchrony
-  - fatigue_mitigation
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-  - neurosyncai-framework
-  - ubi-neurosyncai-binding
-  - unified-biological-intelligence
-  - consentx
-  - id-exchange
-  - amos-x-neurosyncai
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - NEUROSYNCAI_FRAMEWORK
-    - UBI_NEUROSYNCAI_BINDING
-    - AMOS_CORPUS
-  scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - ADAPTIVE_AI_MASTER
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  primary:
-    name: NeurosyncAI Master Architecture
-    role: COGNITIVE_PACING_AND_BIO_SYNCHRONY_MASTER
-  framework:
-    artifact:
-      -   - NEUROSYNCAI_FRAMEWORK
-  biological_bridge:
-    artifact:
-      -   - UBI_NEUROSYNCAI_BINDING
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  framework_structure: VERIFIED_SOURCE_STRUCTURE
-  master_rules: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # NeurosyncAI Master Architecture

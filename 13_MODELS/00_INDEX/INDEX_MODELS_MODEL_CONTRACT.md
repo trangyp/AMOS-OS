@@ -1,123 +1,16 @@
 ---
-title: INDEX MODELS MODEL CONTRACT
-aliases:
-  - Models Model Contract
-  - Models Index Contract
-  - Model Index Contract
-  - AMOS Models Index Contract
-  - 13 Models Model Contract
-type: index
-artifact_type: index_contract
-contract_type: model_index_contract
-document_role: navigation_and_model_governance_contract
-source: 13_MODELS/00_INDEX
-path: 13_MODELS/00_INDEX/INDEX_MODELS_MODEL_CONTRACT.md
-plane: 13_MODELS
-segment: 13_MODELS/00_INDEX
-system: AMOS_OS
-origin_architect: Trang Phan
-steward: Trang Phan
-status: ACTIVE_REFERENCE
-canonical_status: CONDITIONAL
-epistemic_status: AMOS_MODEL
-implementation_status: PARTIAL
-runtime_enforcement: PARTIAL
-automated_link_integrity: PARTIAL
-artifact_specific_validation: UNKNOWN/GAP
-executable_binding: NOT_ESTABLISHED
-scope:
-  - index_navigation
-  - models_plane
-  - model_discovery
-  - model_resolution
-  - model_relationship_navigation
-resolution_policy:
-  local: BASENAME_WITHIN_OWN_DIRECTORY
-  cross_plane:
-    - '[[00_ROOT/00_HOME|00_HOME]]'
-    - '[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]'
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Index Models Model Contract
 tags:
-  - amos-os
-  - 00_index
-  - models
-  - model
-  - index
-  - navigation
-  - model-navigation
-  - model-discovery
-  - model-resolution
-  - basename-resolution
-  - cross-plane-resolution
-  - cross-plane-navigation
-  - rscf
-  - rscf-node
-  - provenance
-  - dependency
-  - dependency-closure
-  - scope
-  - regime
-  - hml
-  - h-m-l
-  - authority
-  - authorization
-  - capability
-  - proposal
-  - commit
-  - fail-closed
-  - unknown-gap
-  - selective-invalidation
-  - rollback
-  - receipt
-  - validation
-  - validation-receipt
-  - link-integrity
-  - routing
-  - governance
-  - model-governance
-  - model-provenance
-  - model-versioning
-  - model-scope
-  - model-regime
-  - model-falsifier
-  - model-assumptions
-  - competing-models
-  - epistemic-regime
-  - canon/model
-  - amos-model
-  - readme
-  - model-x
-  - nonexistent-model
-  - law-hierarchy
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - model-indexing
-  - local-basename-resolution
-  - cross-plane-model-resolution
-  - model-identity
-  - model-version-resolution
-  - model-provenance-preservation
-  - model-index-mutation
-  - selective-index-invalidation
-  - references
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  node_claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: index_navigation
-  plane: 13_MODELS
-  segment: 13_MODELS/00_INDEX
-  canonical_status: CONDITIONAL
-  implementation_status: PARTIAL
-  confidence_ceiling: 0.95
-gaps:
-  automated_link_integrity: PARTIAL
-  artifact_specific_validation_receipt: UNKNOWN/GAP
-  executable_index_validator: NOT_ESTABLISHED
-  complete_model_registry: NOT_ESTABLISHED
-  complete_collision_policy: NOT_ESTABLISHED
-  complete_alias_resolution_policy: NOT_ESTABLISHED
-  persistence_binding: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # INDEX MODELS MODEL CONTRACT
@@ -901,7 +794,7 @@ They do not automatically constitute artifact-specific validation of this index 
 
 ---
 
-## 50. Validation Reference Firewall
+# 50. Validation Reference Firewall
 
 Correct:
 
@@ -4153,3 +4046,9 @@ RSCF-RELATIONS:
 ---
 
 **MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
+
+```
+
+```
+```
+```

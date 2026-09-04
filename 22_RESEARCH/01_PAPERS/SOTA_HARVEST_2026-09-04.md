@@ -6,7 +6,7 @@ origin_architect: Trang Phan
 steward: Trang Phan
 amos_core_target: v4.4
 status: ACTIVE_HARVEST
-updated: 2026-09-04
+updated: 2026-09-05
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -108,13 +108,47 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 4. Ingestion status
+## 4. 2026-09-05 public web / arXiv snapshot additions
+
+> **Source:** Web search of arXiv 2026 preprints and public pages; epistemic class `SOURCE_CLAIM` / `WEB_SNAPSHOT`; no independent replication or canon promotion performed.
+
+### 4.1 Brain-Computer Interfaces
+
+- **UniBCI** — `arXiv:2605.00061` — unified pretrained model for invasive BCIs (context-conditioned spatio-temporal tokenization, Interval-Area Attention, masked-signal reconstruction). Suggests foundation-model path for `05_COGNITIVE_ORGANISM` invasive-decoder engines.
+- **Brain2Qwerty v2** — `arXiv:2608.18114` — non-invasive MEG sentence decoding at 39% WER on 22,000 sentences, best participant <1 word error for half of sentences; data-scaling log-linear improvement.
+- **BrainDistill** — `arXiv:2601.17625` — task-specific knowledge distillation for implantable motor decoders with quantization-aware training, targeting power-constrained implants.
+- **EEG-VID** — `arXiv:2609.00566` — task-guided latent predictive pretraining; improves cross-day/subject EEG decoding with weak task guidance.
+- **EEG-PRIME** — `arXiv:2608.13072` — prototype-aligned instruction-tuned EEG foundation model with multi-level conditioning for cross-dataset BCI decoding.
+
+### 4.2 Neuromorphic & Brain-Inspired AI
+
+- **AIGOR** — `arXiv:2607.03191` — modular event-driven SNN inference architecture, packet-switched spike routing, FPGA-validated on AMD Versal VPK180.
+- **SpiNNaker2 chip** — `arXiv:2607.24396` — 152-PE ARM M4F neuromorphic chip; 4.5 TOPS / 2.7 TOPS/W, >150k neurons, >1.8B synaptic events/s at 1ms timestep.
+- **HiAER-Spike** — `arXiv:2602.18072` — 160M neuron / 40B synapse event-driven platform at UC San Diego, mouse-brain scale at faster than real time.
+- **Reconfigurable hybrid CNN-FC neuromorphic core** — `arXiv:2609.03174` — FPGA SCNN for biomedical edge inference, 88.26% hypoxia classification at 1.455W.
+- **Mixed-signal SNN design-space framework** — `arXiv:2607.06456` — PyTorch-compatible mixed-signal SNN exploration with ReRAM/floating-gate synapse models.
+
+### 4.3 Quantum Computing & Quantum-AI
+
+- **Helix trapped-ion fault-tolerant architecture** — `arXiv:2609.03194` — Quantinuum Helios 98-qubit experimental validation; error ~4.6×10⁻⁴ per logical qubit per QEC cycle, Clifford group benchmarked on two logical qubits.
+- **NOBOL** — `arXiv:2609.01901` — one Bell-pair logical CNOT for arbitrary CSS codes with logarithmic-depth circuit.
+- **Cornucopia codes** — `arXiv:2608.02773` — LDPC family with rate > 1/2 and pseudo-threshold > 0.4%; `[[2844,1426,18]]` block, 12 entangling layers.
+- **High-rank encoding for approximate QEC** — `arXiv:2609.00778` — mixed code states can improve entanglement fidelity vs rank-one encoders.
+- **Spin-qubit shuttling bus** — `arXiv:2609.02641` — transversal two-qubit logical gates via spin shuttling, ancilla sharing, 15-to-1 magic-state distillation mapping.
+
+## 5. Arvix vault check
+
+- `11_KNOWLEDGE/_arxiv_md/` contains only `2007/` and `2008/` cohorts (legacy AMOS mirror).
+- External 66,000-paper corpus resides at `/Users/mac/Desktop/_Arxiv/Arvix` (cohorts 2007–2023, with 2024/2025 only 1 file each); the specific 2026 arXiv IDs above are not yet present in that corpus and are recorded as `WEB_SNAPSHOT`.
+
+## 6. Ingestion status
 
 | Item | Field | State |
 |------|-------|-------|
-| BCI harvest | 5 items | SOURCE_CLAIM |
+| BCI harvest | 10 items | SOURCE_CLAIM |
+| Neuromorphic harvest | 5 items | SOURCE_CLAIM |
 | AI harvest | 2 items | SOURCE_CLAIM |
-| Quantum harvest | 4 items | SOURCE_CLAIM |
+| Quantum harvest | 9 items | SOURCE_CLAIM |
 | Independent replication | Not performed | UNKNOWN/GAP |
 | AMOS canon promotion | Not performed | UNKNOWN/GAP |
 

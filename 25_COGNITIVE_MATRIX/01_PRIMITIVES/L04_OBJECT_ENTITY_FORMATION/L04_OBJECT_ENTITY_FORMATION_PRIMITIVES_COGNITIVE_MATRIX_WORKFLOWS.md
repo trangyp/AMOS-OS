@@ -1,24 +1,16 @@
 ---
-title: L04_OBJECT_ENTITY_FORMATION — Workflows
-type: workflow
-source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION
-origin_architect: Trang Phan
-class: COGNITIVE_PRIMITIVE_WORKFLOW_CONTRACT
-status: AMOS_MODEL / UNVALIDATED
-epistemic_class: MODEL
-primitive: L04_OBJECT_ENTITY_FORMATION
-artifact: WORKFLOWS.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: L04 Object Entity Formation Primitives Cognitive Matrix Workflows
 tags:
-  - cognitive-matrix
-  - primitives
-  - matrix/l04-object-entity-formation
-  - note
-  - domain/cognitive-matrix
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # L04_OBJECT_ENTITY_FORMATION — Workflows
@@ -2019,7 +2011,7 @@ BLOCKED
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

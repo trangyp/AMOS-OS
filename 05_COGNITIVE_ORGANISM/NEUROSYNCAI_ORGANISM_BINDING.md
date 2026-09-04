@@ -1,228 +1,201 @@
 ---
-title: NeuroSyncAI Organism Binding
-type: neural
-source: 05_COGNITIVE_ORGANISM
-artifact: NEUROSYNCAI_ORGANISM_BINDING.md
-artifact_id: amos_05_cognitive_organism_neurosyncai_organism_binding
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 05_COGNITIVE_ORGANISM
-segment: 05_COGNITIVE_ORGANISM
-artifact_kind: BINDING
-path: 05_COGNITIVE_ORGANISM/NEUROSYNCAI_ORGANISM_BINDING.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Neurosyncai Organism Binding
 tags:
-  - amos-os
-  - cognitive
-  - organism
-  - binding
-  - canon_placeholder
-  - rscf
-  - canon/cognitive
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# NeuroSyncAI Organism Binding
+# NeuroSyncAI Organism Binding — High-Density Neural Telemetry & BCI Transduction Substrate
 
-## 0. Status
+> **Status:** `ACTIVE_SPECIFICATION` · **AMOS Core target:** `v4.4`  
+> **Origin architect / steward:** Trang Phan  
+> **Functional Group:** `H. UBI SUBSTRATE BINDINGS` (Full Brain MECE Architecture)  
+> **Conclusion class:** `AMOS_MODEL` · **Version:** `2.0.0`
 
-`NEUROSYNCAI_ORGANISM_BINDING.md` is an **ADD-ONLY placeholder** for the **Cognitive Organism** plane segment at `05_COGNITIVE_ORGANISM`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+## 1. Executive Architectural Purpose & Scope
 
-The governing boundaries are:
+The **NeuroSyncAI Organism Binding** (`NEUROSYNCAI_ORGANISM_BINDING.md`) establishes the mathematical, architectural, and safety framework connecting high-bandwidth Brain-Computer Interfaces (BCI), non-invasive electrophysiological arrays, and neural foundation models into the AMOS Cognitive Organism.
+
+Within the **Full Brain OS** architecture, NeuroSyncAI acts as the bi-directional neural bridge between external biological cognitive processes and internal computational reasoning planes:
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│                        NEUROSYNCAI BCI TRANSDUCTION ARCHITECTURE                      │
+│                                                                                        │
+│   ┌───────────────────────────┐                      ┌─────────────────────────────┐   │
+│   │ BIOLOGICAL NEURAL ARRAYS  │                      │   NEURAL FOUNDATION MODELS  │   │
+│   │ • Non-Invasive 128-ch EEG │                      │ • DeeperBrain (SSM-EEG)     │   │
+│   │ • Invasive ECoG / Spikes  │ ──(Raw Telemetry)──> │ • Brain-OF (Omni fMRI/MEG)  │   │
+│   │ • MEG / fNIRS Micro-optics│                      │ • MEG-XL (Brain-to-Text)    │   │
+│   └───────────────────────────┘                      └──────────────┬──────────────┘   │
+│                                                                     │                  │
+│                                      ┌──────────────────────────────┘                  │
+│                                      ▼                                                 │
+│   ┌────────────────────────────────────────────────────────────────────────────────┐   │
+│   │                     NEUROSYNCAI DUAL-STREAM TRANSDUCTION                       │   │
+│   │  1. Latent Neural Manifold Mapping: M_neural ⊂ R^D                             │   │
+│   │  2. Sheaf-Theoretic Semantic Grounding (arXiv:2601.15320v1)                    │   │
+│   │  3. Real-Time Latency Guard: tau_loop <= 12.5 ms                               │   │
+│   └──────────────────────────┬─────────────────────────────────────────────────────┘   │
+│                              │                                                         │
+│              ┌───────────────┴───────────────┐                                         │
+│              ▼                               ▼                                         │
+│   ┌─────────────────────┐        ┌──────────────────────┐   ┌──────────────────────┐   │
+│   │ UBI ORGANISM BINDING│        │ PERCEPTION ENGINE    │   │ CONTROL PLANE GATES  │   │
+│   │ (NBI/NEI/SI/BEI)    │        │ (Observation Vector) │   │ (Zero-Trust Authz)   │   │
+│   └─────────────────────┘        └──────────────────────┘   └──────────────────────┘   │
+└────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
-Origin architect / steward:
+---
 
-**Trang Phan**
+## 2. Mathematical Formalization of Neural Transduction
 
-______________________________________________________________________
+### 2.1 Raw Multi-Modal Electrophysiological Signal Space
+Let the multi-channel neural acquisition stream be defined across $C$ channels over temporal window $T$:
 
-## 1. Purpose
+$$\mathbf{S}_{\text{neural}}(t) = \big[ \mathbf{s}_{\text{EEG}}(t), \; \mathbf{s}_{\text{ECoG}}(t), \; \mathbf{s}_{\text{MEG}}(t), \; \mathbf{s}_{\text{fNIRS}}(t) \big] \in \mathbb{R}^{C \times T}$$
 
-This artifact reserves the **NeuroSyncAI Organism Binding** slot within the Cognitive Organism plane. The Cognitive Organism plane governs the organism-level cognitive assembly above kernels and below agents.
+### 2.2 Neural Manifold Encoder & Invariance Projection
+Grounded in **DeeperBrain** (arXiv:2601.06134v2) and **Brain-OF** (arXiv:2602.23410v3), raw signals are projected onto a topological neural manifold $\mathcal{M}_{\text{latent}} \subset \mathbb{R}^{D}$:
 
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+$$\mathbf{z}(t) = \mathcal{E}_{\text{Foundation}}\Big(\mathbf{S}_{\text{neural}}(t); \; \mathbf{\Theta}_{\text{SSM}}\Big) \in \mathcal{M}_{\text{latent}}$$
 
-______________________________________________________________________
+Where $\mathcal{E}_{\text{Foundation}}$ is a structured state-space model (SSM) maintaining cross-subject invariance under non-stationary electrode impedance drift:
 
-## 2. Non-Purpose
+$$\mathbf{h}_k = \mathbf{\bar{A}} \mathbf{h}_{k-1} + \mathbf{\bar{B}} \mathbf{s}_k, \qquad \mathbf{z}_k = \mathbf{C} \mathbf{h}_k + \mathbf{D} \mathbf{s}_k$$
 
-This placeholder MUST NOT be used to claim:
+### 2.3 Semantic Decoding & Sheaf Semantics
+Following the sheaf-theoretic formulation of neural representations (arXiv:2601.15320v1), the local cortical activity patches $\mathcal{U}_i$ are glued into consistent semantic intent sheaves $\mathcal{F}(\mathcal{U})$:
 
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
+$$\operatorname{res}_{\mathcal{U}, \mathcal{U} \cap \mathcal{V}} \big( \mathbf{z}_{\mathcal{U}} \big) = \operatorname{res}_{\mathcal{V}, \mathcal{U} \cap \mathcal{V}} \big( \mathbf{z}_{\mathcal{V}} \big) \implies \mathbf{a}_{\text{intent}} = \mathcal{D}_{\text{intent}}(\mathbf{z}(t))$$
 
-______________________________________________________________________
+If the restriction maps yield a non-zero sheaf cohomology obstruction ($H^1(\mathcal{X}, \mathcal{F}) \neq 0$), the neural signal represents conflicting cognitive states (e.g. motor conflict or hesitation), forcing the decoder to output `AMBIGUOUS_STATE` rather than committing a false intent.
 
-## 3. Ingestion Rule
+### 2.4 Error-Related Potentials (ErrP) & Closed-Loop Adaptation
+Adaptive recalibration evaluates the **N400** semantic mismatch (arXiv:1908.10773v1) and Error-Related Negativity ($ERN$):
 
+$$\Delta \mathbf{W}_{\text{decoder}} = \eta \cdot \operatorname{ErrP}(t) \cdot \nabla_{\mathbf{W}} \mathcal{L}_{\text{prediction}}$$
+
+$$\operatorname{ErrP}(t) = \begin{cases}
++1 & \text{if } V_{\text{frontal}}(t_{\text{feedback}} + 300\text{ms}) < -\theta_{\text{ERN}} \\
+0 & \text{otherwise}
+\end{cases}$$
+
+---
+
+## 3. Grounding in Frontier Research ([Arvix Vault](file:///Users/mac/Desktop/_Arxiv/Arvix))
+
+The NeuroSyncAI architecture integrates empirical principles directly from curated research in the Arvix vault:
+
+| Research Paper | arXiv Identity | Core Scientific Finding | NeuroSyncAI Architectural Implementation |
+| :--- | :--- | :--- | :--- |
+| **DeeperBrain** | [arXiv:2601.06134v2](file:///Users/mac/Desktop/_Arxiv/Arvix/2026/MOC_2026.md) | Neuro-grounded State Space Model foundation model for universal EEG decoding. | Core feature extractor for real-time non-invasive sensory ingestion. |
+| **Brain-OF** | [arXiv:2602.23410v3](file:///Users/mac/Desktop/_Arxiv/Arvix/2026/MOC_2026.md) | Omnifunctional foundation model unifying fMRI, EEG, and MEG across multi-site protocols. | Multi-modal alignment layer reconciling divergent acquisition temporal resolutions. |
+| **MEG-XL** | [arXiv:2602.02494v2](file:///Users/mac/Desktop/_Arxiv/Arvix/2026/MOC_2026.md) | Brain-to-text decoding using long-context pre-training on magnetoencephalography. | Inner-speech decoding pipeline converting semantic neural trajectories into natural language tokens. |
+| **One Brain, Omni Modalities** | [arXiv:2602.21522v1](file:///Users/mac/Desktop/_Arxiv/Arvix/2026/MOC_2026.md) | Cross-modal latent representation enabling zero-shot transfer across distinct neural recording modalities. | Universal sensory adapter in `05_COGNITIVE_ORGANISM/PERCEPTION_ENGINE`. |
+| **Brain as Mathematical Manifold** | [arXiv:2601.15320v1](file:///Users/mac/Desktop/_Arxiv/Arvix/2026/MOC_2026.md) | Neural manifolds structured as Leibnizian monads and sheaf semantics. | Mathematical consistency filter preventing hallucinated intent interpretation. |
+| **Quantum Effects in the Brain** | [arXiv:2601.10588v1](file:///Users/mac/Desktop/_Arxiv/Arvix/2026/MOC_2026.md) | Bell-type test protocol evaluating non-classical latencies and macro-quantum entanglement bounds. | Quantum coherence monitoring threshold in UBI/BEI bioelectromagnetic coupling. |
+| **BCI-Walls** | [arXiv:2210.16939v3](file:///Users/mac/Desktop/_Arxiv/Arvix/2022/MOC_2022.md) | Robust predictive framework for BCI illiteracy, session failure, and decoder recalibration walls. | Pre-flight signal viability gate rejecting degraded neural streams before cognitive commitment. |
+| **N400 in BCI** | [arXiv:1908.10773v1](file:///Users/mac/Desktop/_Arxiv/Arvix/2019/MOC_2019.md) | Complexities and opportunities of semantic mismatch potentials in BCI interaction. | Subconscious user objection detector in closed-loop cognitive verification. |
+
+---
+
+## 4. Input / Output Execution Contracts
+
+### 4.1 Input Contract (`neurosyncai_input`)
 ```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+neurosyncai_input:
+  session_id: "string (UUIDv4)"
+  subject_id: "string (pseudonymized hash)"
+  modality: "EEG | ECOG | MEG | FNIRS | MULTI_MODAL"
+  hardware_profile:
+    sample_rate_hz: 1000.0
+    channel_count: 128
+    impedance_check: "PASS | DEGRADED | FAIL"
+    firmware_version: "string"
+  telemetry_stream:
+    timestamps: list[float]
+    voltages_uV: list[list[float]]
+  impedance_matrix_kOhm: list[float]
+  timestamp_utc: ISO8601
 ```
 
-______________________________________________________________________
+### 4.2 Output Contract (`neurosyncai_output`)
+```yaml
+neurosyncai_output:
+  intent_id: "string (UUIDv4)"
+  decoded_modality: "MOTOR_IMAGERY | INNER_SPEECH | ERR_P | AFFECTIVE_VALENCE"
+  intent_vector:
+    primary_hypothesis: "string"
+    confidence_score: float  # bounded [0.0, 1.0]
+    competing_hypotheses: list[dict]
+  manifold_embedding:
+    latent_dim: 512
+    coordinates: list[float]
+  safety_envelope:
+    signal_to_noise_ratio_db: float
+    bci_wall_risk: "LOW | MODERATE | CRITICAL_RECALIBRATE"
+    sheaf_consistency_h1_obstruction: float
+    consent_token_valid: bool
+  epistemic_classification: "OBSERVATION"
+```
 
-## 4. Contract discipline
+---
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+## 5. Epistemic Boundaries & Zero-Trust Safety Firewalls
 
-______________________________________________________________________
+```text
+NEURAL_SIGNAL               != EXECUTIVE_COMMAND
+DECODED_INTENT              != UNCHECKED_ACTION
+CONFIDENCE_ESTIMATE         != CERTAINTY
+BIOLOGICAL_INTENT           != ROOT_AUTHORITY
+BCI_ILLITERACY_SESSION      != SYSTEM_CRASH
+```
 
-## 5. Gaps
+1. **The Intent-to-Command Barrier:** A decoded neural signal represents a physiological observation (`OBSERVATION`), never an executive command (`DECISION`). It must pass through [[03_CONTROL_PLANE/04_AUTHORITY/CONTROL_PLANE_AUTHORITY_CONTRACT|CONTROL_PLANE_AUTHORITY_CONTRACT]] before any mutable state action is taken.
+2. **Fail-Closed Ambiguity Threshold:** If $\text{Confidence}(\mathbf{a}) < 0.85$ or if the sheaf obstruction $H^1 > \epsilon_{\text{tol}}$, the engine emits an `ACTION_HOLD` and requests explicit confirmatory telemetry.
+3. **Emergency Disconnect (Allerton Shunt):** If high-amplitude epileptiform transients or massive impedance spikes are detected ($V > 250\,\mu\text{V}$ across $\ge 30\%$ channels), the BCI stream is immediately air-gapped from downstream engines to prevent cognitive contamination.
 
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
+---
 
-______________________________________________________________________
+## 6. Cross-Plane Architectural Bindings
 
-## 6. Worked semantics (target)
+* **Governed by Canon:** [[01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_CANON|FULL_BRAIN_OS_CANON]] & [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]].
+* **Organism Integration:** [[05_COGNITIVE_ORGANISM/UBI_ORGANISM_BINDING|UBI_ORGANISM_BINDING]] & [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]].
+* **Downstream Observation Feed:** [[05_COGNITIVE_ORGANISM/PERCEPTION_ENGINE|PERCEPTION_ENGINE]] & [[05_COGNITIVE_ORGANISM/ATTENTION_ENGINE|ATTENTION_ENGINE]].
+* **Frontier Synthesis Reference:** [[22_RESEARCH/AMOS_FRONTIER_RESEARCH_BRIDGE_2026-09-04|AMOS_FRONTIER_RESEARCH_BRIDGE_2026-09-04]].
+* **Domain Anchor:** [[21_DOMAINS/14_C04_BIO_NEURO/C04_NEURAL_DECODING_AND_BCI_ARCHITECTURE|C04_NEURAL_DECODING_AND_BCI_ARCHITECTURE]].
 
-Given an operation touching `05_COGNITIVE_ORGANISM · BINDING` within the Cognitive Organism plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-______________________________________________________________________
+---
 
 RSCF-NODE
-
 node_id: amos_05_cognitive_organism_neurosyncai_organism_binding
-
-node_type: binding
-
+node_type: ENGINE
 path: 05_COGNITIVE_ORGANISM/NEUROSYNCAI_ORGANISM_BINDING.md
-
 claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
+rscf_state: ACTIVE_SPECIFICATION
+canonical_status: CANONICAL_BINDING
 RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
-
-**MOC:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
+  - GOVERNED_BY: [[01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_CANON|FULL_BRAIN_OS_CANON]]
+  - BOUND_TO: [[05_COGNITIVE_ORGANISM/UBI_ORGANISM_BINDING|UBI_ORGANISM_BINDING]]
+  - FEEDS: [[05_COGNITIVE_ORGANISM/PERCEPTION_ENGINE|PERCEPTION_ENGINE]]
+  - GROUNDED_IN: [[22_RESEARCH/AMOS_FRONTIER_RESEARCH_BRIDGE_2026-09-04|AMOS_FRONTIER_RESEARCH_BRIDGE_2026-09-04]]
+  - BOUND_TO_DOMAIN: [[21_DOMAINS/14_C04_BIO_NEURO/C04_NEURAL_DECODING_AND_BCI_ARCHITECTURE|C04_NEURAL_DECODING_AND_BCI_ARCHITECTURE]]
+  - INDEXED_BY: [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
+  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]

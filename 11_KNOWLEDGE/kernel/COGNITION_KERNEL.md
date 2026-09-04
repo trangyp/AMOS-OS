@@ -1,189 +1,230 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: COGNITION KERNEL
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Cognition Kernel
 tags:
-  - kernel
-  - core
-  - runtime
-  - canon/knowledge
-  - system-scan-agent
-  - automation-profiles
-  - amos-simulation-kernel-v0-math-foundations
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
-  - rscf/state/observation
-type: document
-source: 11_KNOWLEDGE/kernel
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-canonical_status: CANONICAL_KERNEL
-updated: 2026-09-04
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Cognition Kernel Adapter
+# Cognition Kernel
 
-> **Origin Architect / Steward:** Trang Phan
-> **Epistemic Class:** `AMOS_MODEL`
-> **Conclusion Class:** `DERIVED`
-> **Status:** `ACTIVE_SPECIFICATION`
-> **Governing Plane:** `11_KNOWLEDGE/kernel`
+> [!abstract] Kernel Specification
+> Defines the cognitive architecture adapter for AMOS: cognitive state management, reasoning primitives, attention mechanisms, working-memory binding, and the 6-layer cognitive stack. This is the AMOS reasoning/spec pattern for structured cognitive processing — **not** a claim that AMOS OS deploys a biological or neural cognitive runtime (per AGENTS.md invariant 4).
 
 ---
 
-## 1. Architectural Scope
+## 1. Purpose
 
-The **Cognition Kernel Adapter** provides the interface between the AMOS Cognition Infinity Kernel and the broader OS runtime. It exposes cognition architecture capabilities for meta-logic, structural problem decomposition, scenario trees, risk/collapse lattices, memory organization, process orchestration, and multiple hypothesis holding.
+The Cognition Kernel provides:
 
-This kernel exists to provide the **cognitive reasoning adapter** that routes cognition requests to the appropriate reasoning mode while enforcing the structural-metaphor boundary for quantum reasoning language.
+- A structured cognitive state machine for multi-hypothesis reasoning
+- Reasoning primitives (decomposition, scenario trees, risk lattices)
+- Attention-gated selection of relevant information
+- Working-memory binding for context retention across reasoning steps
+- Meta-logic interface to the [[11_KNOWLEDGE/kernel/LOGIC_KERNEL|LOGIC_KERNEL]]
 
-**Epistemic Boundary:**
+This kernel is the AMOS reasoning/spec pattern for cognitive architecture. It does **not** imply biological neural computation. "Quantum reasoning" language is a structural metaphor for unresolved multi-possibility states, not physical quantum computation (per AGENTS.md).
+
+---
+
+## 2. Cognitive State Model
+
+### 2.1 State Representation
+
+A cognitive state $\Sigma$ is a tuple:
+
+$$\Sigma = (W, A, H, B, M, C)$$
+
+where:
+
+| Component | Symbol | Definition |
+| :--- | :--- | :--- |
+| **Working Memory** | $W$ | Active propositions under current consideration; bounded capacity |
+| **Attention Focus** | $A \subseteq W$ | Subset of working memory receiving active processing |
+| **Hypothesis Set** | $H = \{h_1, \ldots, h_k\}$ | Candidate explanations or plans held simultaneously |
+| **Belief State** | $B: H \rightarrow [0,1]$ | Confidence assignment per hypothesis |
+| **Meta-Cognitive Monitor** | $M$ | Tracks reasoning quality, flagging low-confidence or stale steps |
+| **Context Stack** | $C$ | Nested context frames for hierarchical problem decomposition |
+
+### 2.2 State Transitions
+
+Cognitive state transitions are triggered by:
+
+- **Perception**: New observations enter $W$ via the neural-symbolic bridge
+- **Reasoning**: Inference rules (from LOGIC_KERNEL) produce derived propositions
+- **Attention Shift**: Focus $A$ redirects based on relevance or urgency
+- **Hypothesis Update**: Bayesian or default reasoning updates $B$
+- **Commitment**: A hypothesis reaches threshold and is promoted to `DECISION` (requires authority gate)
+
+---
+
+## 3. Reasoning Primitives
+
+### 3.1 Structural Problem Decomposition
+
+Decompose problem $P$ into sub-problems $P_1, \ldots, P_n$ such that $\text{Solve}(P) \iff \bigwedge_i \text{Solve}(P_i)$, with the constraint that $P_i$ are **minimally coupled** (M17: local gain cannot break higher-scale integrity).
+
+### 3.2 Scenario Trees
+
+A scenario tree $T = (V, E, \ell)$ is a branching structure with decision/chance nodes $V$, transitions $E \subseteq V \times V$, and leaf labels $\ell: V \rightarrow \text{Outcome}$. Scenario trees enable forward-looking evaluation of decision paths and are consumed by the [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL|AMOS_SIMULATION_KERNEL]].
+
+### 3.3 Risk and Collapse Lattices
+
+- **Risk lattice**: A partial order $(R, \leq)$ over risk states, where $r_1 \leq r_2$ means $r_2$ dominates $r_1$ in severity
+- **Collapse lattice**: A partial order $(\mathcal{C}, \leq)$ over failure modes, where $\mathcal{C}$ is the set of possible system collapse states
+
+These lattices support structured risk assessment and are consumed by governance and policy kernels.
+
+### 3.4 Multiple Hypothesis Holding
+
+The kernel maintains $k$ simultaneous hypotheses $H = \{h_1, \ldots, h_k\}$ with beliefs $B(h_i)$. Key discipline:
+
+- No hypothesis is discarded until evidence explicitly contradicts it or a higher-authority decision supersedes it
+- Belief updates follow Bayesian or default reasoning (see [[11_KNOWLEDGE/kernel/AMOS_PROBABILITY_STATISTICS_KERNEL|AMOS_PROBABILITY_STATISTICS_KERNEL]])
+- The meta-cognitive monitor $M$ tracks divergence between hypotheses
+
+---
+
+## 4. Attention Mechanism
+
+### 4.1 Attention Function
+
+An attention function $\alpha$ assigns relevance scores to propositions in working memory:
+
+$$\alpha: W \rightarrow [0,1], \quad \alpha(w) = \sigma(f(w, \text{context}))$$
+
+where $\sigma$ is a sigmoid and $f$ computes relevance from proposition content and current context $C$.
+
+### 4.2 Attention Gating
+
+Only propositions with $\alpha(w) \geq \tau$ (attention threshold) enter the active focus $A$. This provides:
+
+- **Capacity control**: Bounded cognitive load (prevents $|A|$ from exceeding working-memory limits)
+- **Relevance filtering**: Noise and low-priority signals are suppressed
+- **Urgency override**: Emergency signals bypass the threshold (via control-plane authority)
+
+### 4.3 Attention Shifts
+
+Attention shifts occur when:
+
+- A new high-relevance observation enters $W$
+- A hypothesis in $H$ crosses a belief threshold
+- The meta-cognitive monitor $M$ flags reasoning quality degradation
+- An external authority signal demands redirection
+
+---
+
+## 5. Working Memory Binding
+
+### 5.1 Binding Protocol
+
+Working-memory binding associates a proposition $w \in W$ with:
+
+- Its provenance trail (source, inference rule, timestamp)
+- Its current RSCF class (`OBSERVATION`, `DERIVED`, `PROPOSAL`, `DECISION`)
+- Its relevance score $\alpha(w)$
+- Its belief contribution to hypotheses in $H$
+
+### 5.2 Capacity Management
+
+Working memory has a fixed capacity $|W| \leq W_{\max}$. When capacity is reached:
+
+1. Lowest-relevance propositions ($\alpha(w)$ minimal) are evicted first
+2. Evicted propositions are persisted to episodic memory (see [[11_KNOWLEDGE/kernel/AMOS_MEMORY_OPTIMIZATION_KERNEL|AMOS_MEMORY_OPTIMIZATION_KERNEL]])
+3. Evicted propositions can be re-loaded when relevance increases
+4. No `DECISION`-class proposition is evicted without authority
+
+---
+
+## 6. 6-Layer Cognitive Stack
+
+| Layer | Name | Function | Output Class |
+| :--- | :--- | :--- | :--- |
+| **L1** | Perception | Raw signal ingestion and feature extraction | `OBSERVATION` |
+| **L2** | Grounding | Map perceptual features to typed propositions (neural→symbolic bridge) | `OBSERVATION` |
+| **L3** | Working Memory | Active proposition management and attention gating | `DERIVED` |
+| **L4** | Reasoning | Inference rule application, scenario tree construction | `PROPOSAL` |
+| **L5** | Meta-Cognitive Monitor | Quality tracking, confidence assessment, divergence detection | `DERIVED` |
+| **L6** | Commitment | Authority-gated promotion to `DECISION` | `DECISION` |
+
+### 6.1 Layer Discipline
+
+- Each layer consumes output from the layer below and produces input for the layer above
+- No layer may skip intermediate layers for state promotion (M04: `SOURCE_CLAIM != VERIFIED`)
+- The commitment gate at L6 requires authority, provenance, and freshness validation
+
+---
+
+## 7. Integration with Other Kernels
+
+| Interface | Direction | Contract |
+| :--- | :--- | :--- |
+| [[11_KNOWLEDGE/kernel/LOGIC_KERNEL\|LOGIC_KERNEL]] | Read/Write | Logical operations supply symbolic reasoning at L4 |
+| [[11_KNOWLEDGE/kernel/AMOS_PROBABILITY_STATISTICS_KERNEL\|AMOS_PROBABILITY_STATISTICS_KERNEL]] | Read | Bayesian updates feed belief state $B$ |
+| [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL\|AMOS_SIMULATION_KERNEL]] | Write | Scenario trees and hypothesis sets consumed by simulation |
+| [[11_KNOWLEDGE/kernel/AMOS_CONTROL_SYSTEMS_KERNEL\|AMOS_CONTROL_SYSTEMS_KERNEL]] | Read | Control signals for attention shifts and priority enforcement |
+| [[11_KNOWLEDGE/kernel/AMOS_MEMORY_OPTIMIZATION_KERNEL\|AMOS_MEMORY_OPTIMIZATION_KERNEL]] | Write | Evicted working-memory entries persisted as episodic memory |
+| [[11_KNOWLEDGE/kernel/AMOS_BUSINESS_MODEL_KERNEL\|AMOS_BUSINESS_MODEL_KERNEL]] | Read | Business context frames populate $C$ for domain-specific reasoning |
+
+---
+
+## 8. Failure Modes
+
+| Failure | Detection | Recovery |
+| :--- | :--- | :--- |
+| Working-memory overflow | $|W| > W_{\max}$ | Evict lowest-relevance; persist to episodic memory |
+| Attention starvation | $\forall w \in W: \alpha(w) < \tau$ | Alert control plane; lower threshold or inject context |
+| Hypothesis collapse | $|H| = 1$ prematurely | Restore from backup or flag meta-cognitive warning |
+| Reasoning quality degradation | Monitor $M$ detects stagnation | Trigger attention shift or escalate to higher authority |
+| Authority violation at L6 | Commitment gate failure | Reject promotion; maintain `PROPOSAL` class |
+
+---
+
+## 9. RSCF / Verification Notes
+
+This kernel is classified as `AMOS_MODEL` — a reasoning/specification pattern. The 6-layer cognitive stack, attention mechanism, and working-memory model are AMOS architectural patterns for organizing cognitive processing. They are **not** claims that AMOS OS implements a biological or neural cognitive runtime.
+
+**Confidence ceiling**: High for the architectural framework; medium for specific parameter values (attention thresholds, capacity limits) which require empirical calibration.
+
+**Falsifiers**:
+
+- A committed decision bypasses the 6-layer stack (L6 reached without L1–L5 progression)
+- Working memory evicts a `DECISION`-class proposition without authority
+- Meta-cognitive monitor fails to detect sustained low-confidence reasoning
+
+---
+
+```RSCF-NODE
+node_id: cognition_kernel_knowledge_spec
+node_type: kernel_specification
+domain: 11_KNOWLEDGE/kernel
+claim_class: AMOS_MODEL
+confidence_ceiling:
+  cognitive_state_model: high
+  attention_mechanism: high
+  working_memory_binding: high
+  six_layer_stack: medium
+falsifiers:
+  - Decision committed without full L1-L6 progression
+  - Working memory evicts DECISION-class without authority
+  - Meta-cognitive monitor fails to flag degraded reasoning
 ```
-MODEL != OBSERVATION
-DOCUMENTED != IMPLEMENTED
-CAPABILITY != AUTHORITY
-QUANTUM_REASONING != QUANTUM_COMPUTATION
-META_LOGIC != CLASSICAL_TRUTH
-```
 
-**Cognition Capabilities Exposed:**
-- Meta-logic (Law of Law, Rule of 2, Rule of 4)
-- Structural problem decomposition
-- Scenario tree construction
-- Risk/collapse lattice mapping
-- Memory organization
-- Process orchestration
-- Multiple hypothesis holding (superposition)
+______________________________________________________________________
 
-**Critical Boundary:** Do not treat "quantum reasoning" language as physical quantum computation. Use it only as a structural metaphor for unresolved multi-possibility states unless actual quantum methods are independently present.
-
-**Inputs:** `COGNITION_KERNEL_INPUT{problem, mode, hypotheses[], constraints[]}`
-**Outputs:** `COGNITION_KERNEL_OUTPUT{decomposition, scenario_tree, risk_lattice, hypothesis_weights, reasoning_trace}`
-
-**Computational Guarantees:** Deterministic decomposition for well-structured inputs, bounded hypothesis space, traceable reasoning paths, consistent meta-logic enforcement.
-
----
-
-## 2. Governing Invariants
-
-| ID | Invariant | Description |
-|----|-----------|-------------|
-| INV-CK-001 | Quantum-as-Metaphor | "Quantum reasoning" is structural metaphor only, not physical quantum computation |
-| INV-CK-002 | Meta-Logic Enforcement | Law of Law, Rule of 2, Rule of 4 must be enforced on all cognition operations |
-| INV-CK-003 | Hypothesis Boundedness | Hypothesis space must be finite and explicitly enumerated |
-| INV-CK-004 | Reasoning Traceability | All reasoning steps must be traceable to their inputs |
-| INV-CK-005 | Mode Consistency | Cognition mode must be declared and maintained throughout operation |
-| INV-CK-006 | No Execution | Kernel provides reasoning, not code execution |
-| INV-CK-007 | Structural Integrity | Zero assumptions; all constraints must be explicit |
-
----
-
-## 3. Mathematical Formulation
-
-**Hypothesis superposition (structural):**
-
-$$|\psi\rangle = \sum_{i=1}^{n} w_i |h_i\rangle, \quad \sum_{i} w_i = 1, \; w_i \ge 0$$
-
-**Scenario tree branching:**
-
-$$T(s) = \{s_1, s_2, \ldots, s_k\}, \quad \sum_{j=1}^{k} P(s_j) = 1$$
-
-**Risk/collapse lattice:**
-
-$$L(r) = \{(r_i, P(r_i), \text{Impact}(r_i)) : r_i \in \text{Risks}(r)\}$$
-
-**Meta-logic consistency check:**
-
-$$\text{Consistent}(\mathcal{L}) = \neg \exists l_i, l_j \in \mathcal{L} : l_i \Rightarrow \neg l_j$$
-
-**Decomposition completeness:**
-
-$$D(p) = \{d_1, \ldots, d_n\}, \quad \bigcup_i d_i = p, \quad d_i \cap d_j = \emptyset$$
-
----
-
-## 4. Architecture
-
-```mermaid
-graph TD
-    A[COGNITION_KERNEL_INPUT] --> B[Mode Selection]
-    B --> C[Meta-Logic Enforcement]
-    C --> D[Problem Decomposition]
-    D --> E[Scenario Tree Construction]
-    E --> F[Risk/Collapse Lattice]
-    F --> G[Hypothesis Weight Assignment]
-    G --> H[Reasoning Trace Generation]
-    H --> I[COGNITION_KERNEL_OUTPUT]
-    C -.->|enforce| J[Rule of 2: Duality]
-    C -.->|enforce| K[Rule of 4: Quadrants]
-    J --> D
-    K --> D
-```
-
----
-
-## 5. MECE Mapping to AMOS Full Brain OS
-
-| Kernel Component | AMOS Plane | Role |
-|------------------|------------|------|
-| Mode Selection | `03_CONTROL_PLANE` | Mode routing |
-| Meta-Logic Enforcement | `01_CANON` | Canon enforcement |
-| Problem Decomposition | `03_CONTROL_PLANE` | Task decomposition |
-| Scenario Tree | `13_MODELS` | Scenario modelling |
-| Risk/Collapse Lattice | `17_OBSERVABILITY` | Risk monitoring |
-| Hypothesis Weights | `13_MODELS` | Model weighting |
-| Reasoning Trace | `10_MEMORY` | Episodic trace |
-| Quantum-as-Metaphor Label | `16_SCHEMAS` | Epistemic labelling |
-
----
-
-## 6. Safety Invariants & Firewalls
-
-| ID | Firewall | Enforcement |
-|----|----------|-------------|
-| INV-CK-FW-001 | Quantum Metaphor Label | "Quantum" language must carry structural-metaphor label |
-| INV-CK-FW-002 | Meta-Logic Required | Outputs without meta-logic enforcement are blocked |
-| INV-CK-FW-003 | No Execution | Code execution requests are blocked |
-| INV-CK-FW-004 | Hypothesis Finiteness | Infinite hypothesis spaces are blocked |
-| INV-CK-FW-005 | Trace Required | Outputs without reasoning trace are blocked |
-
----
-
-## 7. Navigation & Bindings
-
-- **Parent MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
-- **Home:** [[00_ROOT/00_HOME|00_HOME]]
-- **Knowledge MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
-- **Cognition Engine:** [[11_KNOWLEDGE/engine/COGNITION_ENGINE_MODEL|COGNITION_ENGINE_MODEL]]
-- **Logic Kernel:** [[11_KNOWLEDGE/kernel/LOGIC_KERNEL|LOGIC_KERNEL]]
-- **Workflow Orchestration Kernel:** [[11_KNOWLEDGE/kernel/AMOS_WORKFLOW_ORCHESTRATION_KERNEL_V0_TECH|AMOS_WORKFLOW_ORCHESTRATION_KERNEL_V0_TECH]]
-- **MBB Consulting Kernel:** [[11_KNOWLEDGE/kernel/AMOS_MBB_CONSULTING_KERNEL_V0|AMOS_MBB_CONSULTING_KERNEL_V0]]
-- **Tech AMOS Core Kernel:** [[11_KNOWLEDGE/kernel/AMOS_TECH_AMOS_CORE_KERNEL_V1_TECH4|AMOS_TECH_AMOS_CORE_KERNEL_V1_TECH4]]
-- **QA Testing Kernel:** [[11_KNOWLEDGE/kernel/AMOS_QA_TESTING_KERNEL_V0_TECH|AMOS_QA_TESTING_KERNEL_V0_TECH]]
-- **Simulation Kernel:** [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL|AMOS_SIMULATION_KERNEL]]
-- **Core Laws:** [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|01_CORE_LAWS]]
-
----
-
-## 8. Known Gaps & Falsifiers
-
-| ID | Gap | Impact | Action |
-|----|-----|--------|--------|
-| GAP-CK-001 | Quantum metaphor ambiguity | "Quantum" may be misinterpreted as physical | Mandatory structural-metaphor label |
-| GAP-CK-002 | Mode coverage | Not all reasoning modes may be implemented | Flag unsupported modes |
-| GAP-CK-003 | Hypothesis weight calibration | Weight assignment may be subjective | Flag weights as model-based |
-| GAP-CK-004 | Scenario tree explosion | Large trees may be computationally expensive | Flag tree size and prune |
-
----
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] | [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] | [[11_KNOWLEDGE/engine/COGNITION_ENGINE_MODEL|COGNITION_ENGINE_MODEL]] | [[11_KNOWLEDGE/kernel/LOGIC_KERNEL|LOGIC_KERNEL]] | [[11_KNOWLEDGE/kernel/AMOS_WORKFLOW_ORCHESTRATION_KERNEL_V0_TECH|AMOS_WORKFLOW_ORCHESTRATION_KERNEL_V0_TECH]] | [[11_KNOWLEDGE/kernel/AMOS_MBB_CONSULTING_KERNEL_V0|AMOS_MBB_CONSULTING_KERNEL_V0]] | [[11_KNOWLEDGE/kernel/AMOS_TECH_AMOS_CORE_KERNEL_V1_TECH4|AMOS_TECH_AMOS_CORE_KERNEL_V1_TECH4]] | [[11_KNOWLEDGE/kernel/AMOS_QA_TESTING_KERNEL_V0_TECH|AMOS_QA_TESTING_KERNEL_V0_TECH]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/kernel/LOGIC_KERNEL|LOGIC_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_PROBABILITY_STATISTICS_KERNEL|AMOS_PROBABILITY_STATISTICS_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL|AMOS_SIMULATION_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_MEMORY_OPTIMIZATION_KERNEL|AMOS_MEMORY_OPTIMIZATION_KERNEL]]
 
 ______________________________________________________________________
 

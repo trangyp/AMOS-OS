@@ -1,22 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS 7PT CANON MIGRATION ENGINE
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos 7Pt Canon Migration Engine
 tags:
-  - engine
-  - processing
-  - runtime
-  - canon/knowledge
-  - canon
-  - trang-framework-recursive-ontology-dynamics
-type: document
-source: 11_KNOWLEDGE/engine
-rscf:
-  state: AMOS_MODEL
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: engine_specification
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS 7PT CANON MIGRATION ENGINE
@@ -69,9 +68,9 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Final
 
-## ---------------------------------------------------------------------------
-## Configuration
-## ---------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# Configuration
+# ---------------------------------------------------------------------------
 
 VAULT: Final = Path(
     "/Users/mac/Downloads/stitch_project_cosmo/_00_Cosmo brain/md"
@@ -120,16 +119,16 @@ PART_OWNED_QUESTION: Final = {
     "TERMINATION": 6,
 }
 
-## Critical inverse mapping.
-## The original implementation did not do this correctly.
+# Critical inverse mapping.
+# The original implementation did not do this correctly.
 QUESTION_OWNER: Final = {
     question_index: part
     for part, question_index in PART_OWNED_QUESTION.items()
 }
 
-## ---------------------------------------------------------------------------
-## Typed result state
-## ---------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# Typed result state
+# ---------------------------------------------------------------------------
 
 @dataclass(frozen=True)
 class PatchResult:
@@ -137,9 +136,9 @@ class PatchResult:
     changed: bool
     reason: str
 
-## ---------------------------------------------------------------------------
-## Canonical source text
-## ---------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# Canonical source text
+# ---------------------------------------------------------------------------
 
 OWNED_ANSWERS: Final = {
     "CONSTRAINT":
@@ -312,9 +311,9 @@ For any system, answer:
 Failure to answer all five = the system's termination is undefined.""",
 }
 
-## ---------------------------------------------------------------------------
-## Validation
-## ---------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# Validation
+# ---------------------------------------------------------------------------
 
 def validate_configuration() -> None:
     """Fail closed if the static architecture is internally inconsistent."""
@@ -333,9 +332,9 @@ def validate_configuration() -> None:
     if len(CANONICAL_QUESTIONS) != 7:
         raise RuntimeError("Expected exactly seven canonical questions.")
 
-## ---------------------------------------------------------------------------
-## Canonical rendering
-## ---------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# Canonical rendering
+# ---------------------------------------------------------------------------
 
 def question_owner(index: int) -> str:
     try:
@@ -389,9 +388,9 @@ def build_7q_canonical_test(part: str) -> str:
 
     return "\n".join(lines)
 
-## ---------------------------------------------------------------------------
-## Section manipulation
-## ---------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# Section manipulation
+# ---------------------------------------------------------------------------
 
 def section_bounds(text: str, heading: str) -> tuple[int, int]:
     """Return [start, end) for a level-2 Markdown section."""
@@ -426,9 +425,9 @@ def replace_section(
         result += "\n" + suffix
     return result
 
-## ---------------------------------------------------------------------------
-## Cross-link patching
-## ---------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# Cross-link patching
+# ---------------------------------------------------------------------------
 
 def ensure_linked_vault_items(text: str) -> str:
     heading = "## Linked vault items"
@@ -468,9 +467,9 @@ def ensure_linked_vault_items(text: str) -> str:
 
     return text[:start] + patched_section + text[end:]
 
-## ---------------------------------------------------------------------------
-## Part-specific patch
-## ---------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# Part-specific patch
+# ---------------------------------------------------------------------------
 
 def patch_canonical_test(text: str, part: str) -> str:
     heading = (
@@ -485,9 +484,9 @@ def patch_canonical_test(text: str, part: str) -> str:
         replacement=replacement,
     )
 
-## ---------------------------------------------------------------------------
-## File mutation
-## ---------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# File mutation
+# ---------------------------------------------------------------------------
 
 def write_if_changed(path: Path, new_text: str) -> PatchResult:
     old_text = path.read_text(encoding="utf-8")
@@ -514,9 +513,9 @@ def patch_part(path: Path, part: str) -> PatchResult:
     new = patch_canonical_test(old, part)
     return write_if_changed(path, new)
 
-## ---------------------------------------------------------------------------
-## Postcondition validation
-## ---------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# Postcondition validation
+# ---------------------------------------------------------------------------
 
 def validate_note(path: Path, part: str) -> None:
     text = path.read_text(encoding="utf-8")
@@ -554,9 +553,9 @@ def validate_note(path: Path, part: str) -> None:
                 f"{path.name}: missing preserved analysis section."
             )
 
-## ---------------------------------------------------------------------------
-## Idempotency validation
-## ---------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# Idempotency validation
+# ---------------------------------------------------------------------------
 
 def validate_idempotency(path: Path, part: str) -> None:
     """
@@ -575,9 +574,9 @@ def validate_idempotency(path: Path, part: str) -> None:
             f"{path.name}: patch is not idempotent."
         )
 
-## ---------------------------------------------------------------------------
-## Transaction-style orchestrator
-## ---------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# Transaction-style orchestrator
+# ---------------------------------------------------------------------------
 
 def patch_all() -> list[PatchResult]:
     validate_configuration()

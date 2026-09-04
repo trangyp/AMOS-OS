@@ -1,24 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Vault Domain Knowledge — Amos Proof Loss Diagnostic Reconstruction Rscf
-type: reference
-source: 07_SKILLS/amos-proof-loss-diagnostic-reconstruction-rscf/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Vault Domain Knowledge
 tags:
-  - reference
-  - amos-proof-loss-diagnostic-reconstruction-rscf
-  - type/skill
-  - 2026-08-22-amos-core-runtime-modules
-  - 2026-08-22-amos-core-infrastructure-modules
-  - 2026-08-22-amos-remaining-module-test-coverage
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Vault-Sourced Domain Knowledge
@@ -139,11 +136,11 @@ and a post-execution proof checking gate that runs when `state.claims` is non-em
 ### Kernel Changes (`amos/kernel.py`)
 
 ```python
-## In __init__:
+# In __init__:
 self.proof_checker = ProofChecker()
 self.provenance = ProvenanceGraph()
 
-## In run(), after RSCF transaction gate, before SelfAudit:
+# In run(), after RSCF transaction gate, before SelfAudit:
 if state.claims:
     proof_gates = self.proof_checker.check_state(state)
     state.gates += proof_gates

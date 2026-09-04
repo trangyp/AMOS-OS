@@ -1,26 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: obsidian-plugin-auto-tag — Vault Domain Knowledge
-type: reference
-source: 07_SKILLS/obsidian-plugin-auto-tag/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Vault Domain Knowledge
 tags:
-  - reference
-  - obsidian-plugin-auto-tag
-  - plugin
-  - tagging
-  - knowledge
-  - law-hierarchy
-  - skill
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: https://github.com/CtrlAltFocus/obsidian-plugin-auto-tag
-  scope: skills
-  node_id: obsidian-plugin-auto-tag_vault_domain_knowledge
-  node_type: reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Auto Tag Plugin for Obsidian.md

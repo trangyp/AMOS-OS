@@ -1,69 +1,16 @@
 ---
-title: K STRUCTURAL REASONING
-type: reasoning
-source: 02_KERNEL/02_COGNITION
-artifact_id: AMOS-OS-K-STRUCTURAL-REASONING
-canonical_name: K_STRUCTURAL_REASONING
-artifact_type: kernel_reasoning_contract
-status: AMOS_MODEL
-conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: KERNEL
-kernel_domain: reasoning
-scope: AMOS_OS
-authority_domain: structural_reasoning
-authority_level: deterministic_kernel_contract
-created: 2026-08-25
-updated: 2026-08-25
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: K Structural Reasoning
 tags:
-  - amos-os
-  - kernel
-  - core
   - canon-group/tech-ai
-  - canon/model
-  - kernel/reasoning
-  - kernel/structural-reasoning
-  - reasoning
-  - reasoning/structure
-  - reasoning/decomposition
-  - reasoning/dependency
-  - reasoning/constraint
-  - reasoning/invariant
-  - reasoning/hml
-  - reasoning/rscf
-  - dependency/closure
-  - provenance
-  - provenance/independence
-  - epistemic-regime
-  - competing-hypotheses
-  - causal-firewall
-  - scope-firewall
-  - validation
-  - recovery
-  - rscf/state/model
-  - topic/structural-reasoning
-  - readme
-  - architecture
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - source-lineage
-  - k-core19-logic
-  - k-distinction-relation-constraint
-  - k-law-hierarchy
-  - k-meta-logic
-  - k-counterfactual
-  - k-metacognition
-  - k-multi-hypothesis
-aliases:
-  - K Structural Reasoning - Structural Reasoning Kernel - AMOS Structural Reasoning - K_STRUCTU
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # K STRUCTURAL REASONING
@@ -2078,7 +2025,7 @@ CHANGE THAT CONCLUSION.
 ## Related
 
 README ·
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]] ·
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]] ·
 [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] ·
 [[00_ROOT/DEPENDENCY_MAP|DEPENDENCY_MAP]] ·
 [[00_ROOT/SYSTEM_MAP|SYSTEM_MAP]] ·
@@ -2109,7 +2056,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

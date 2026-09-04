@@ -1,65 +1,21 @@
 ---
-title: Bio-Logical Computing
-type: biology
-source: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact: BIO_LOGICAL_COMPUTING.md
-artifact_id: amos_11_knowledge_05_frameworks_bio_logical_computing
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 11_KNOWLEDGE
-segment: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact_kind: FRAMEWORK
-path: 11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_COMPUTING.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Bio Logical Computing
 tags:
-  - amos-os
-  - knowledge
-  - vault
-  - 05_frameworks
-  - bio_logical_computing
-  - biological_computing
-  - living_circuits
-  - non_von_neumann
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-  - unified-biological-intelligence
-  - uba-framework
-  - ubi-biological-programming
-  - domain-canon-programming
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - BIO_LOGICAL_COMPUTING_FRAMEWORK
-    - UBI_OFFICIAL_MANUAL
-    - AMOS_CORPUS
-  scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - BIOLOGICAL_COMPUTING
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  primary:
-    name: Bio-Logical Computing Architecture
-    role: NON_VON_NEUMANN_BIOLOGICAL_COMPUTING
-  biological_master:
-    artifact:
-      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  framework_structure: VERIFIED_SOURCE_STRUCTURE
-  computing_model: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Bio-Logical Computing Architecture

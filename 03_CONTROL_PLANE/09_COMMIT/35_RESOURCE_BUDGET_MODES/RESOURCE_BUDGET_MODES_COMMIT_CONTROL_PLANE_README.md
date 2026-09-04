@@ -1,21 +1,21 @@
 ---
-title: RESOURCE BUDGET MODES COMMIT CONTROL PLANE README
-type: control-plane
-source: 03_CONTROL_PLANE/09_COMMIT/35_RESOURCE_BUDGET_MODES
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Resource Budget Modes Commit Control Plane Readme
 tags:
-  - control-plane
-  - 35_resource_budget_modes
-  - canon/control-plane
-  - readme
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # RESOURCE BUDGET MODES COMMIT CONTROL PLANE README

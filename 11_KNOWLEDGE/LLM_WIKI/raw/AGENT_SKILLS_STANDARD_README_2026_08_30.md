@@ -1,17 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-date: 2026-08-30
-epistemic_class: OBSERVATION
-provenance: GitHub README, not independently verified
-rscf:
-  claim_class: DERIVED
-  provenance: GitHub README (HoangNguyen0403/agent-skills-standard)
-  scope: AMOS_knowledge
-  state: SOURCE_CLAIM
-source: https://raw.githubusercontent.com/HoangNguyen0403/agent-skills-standard/main/README.md
-title: Agent Skills Standard README — Raw Capture
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Agent Skills Standard Readme 2026 08 30
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Agent Skills Standard README — Raw Capture
@@ -33,7 +37,7 @@ Source: `https://github.com/HoangNguyen0403/agent-skills-standard`
 ```bash
 npx agent-skills-standard@latest init
 npx agent-skills-standard@latest sync
-## Done. Your AI now has portable team standards and SDLC workflows.
+# Done. Your AI now has portable team standards and SDLC workflows.
 ```
 
 If `ags -V` still shows an old version after reinstalling, check your PATH order. `~/Library/pnpm` must come before `~/Library/pnpm/bin`, then run `hash -r` and verify with `ags -V` again.
@@ -304,7 +308,7 @@ The `.skillsrc` file controls what gets synced:
 ```yaml
 registry: https://github.com/HoangNguyen0403/agent-skills-standard
 agents: [cursor, copilot, claude, gemini]
-## Standard registry skills
+# Standard registry skills
 skills:
   flutter:
     ref: flutter-v1.6.3
@@ -317,7 +321,7 @@ skills:
   common:
     ref: common-v2.0.3
 
-## Local custom standalone skills
+# Local custom standalone skills
 custom_skills:
   - path: "./.skills/my-custom-rule.md"
     triggers: ["*.ts", "keyword"]
@@ -437,7 +441,7 @@ composite via nestjs/nestjs-transport        common/common-system-design
 ```
 
 ```text
-## Session compliance
+# Session compliance
 Skills loaded: 11
 - common/common-api-design
 - common/common-best-practices

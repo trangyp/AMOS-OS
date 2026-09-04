@@ -1,84 +1,154 @@
 ---
+title: amos-law-stack-enforcement-workflow
+type: workflow
+logical_id: amos-law-stack-enforcement-workflow
+source: 08_WORKFLOWS
+skill_hint: amos-law-stack-enforcement
 origin_architect: Trang Phan
 steward: Trang Phan
 amos_core_target: v4.4
-Type: Workflow
-Skill: amos-law-stack-enforcement
-Agent: amos-law-stack-enforcement-agent
-Trigger: When validating whether system rules hold across scale, checking law adherence to LoL/R2/R4 hierarchy, or when a draft law short-circuits canonical order. Use whenever the user mentions law stack, enforcement, invariants, rule hierarchy, LoL, R2, R4, or scale-transition validation.
-Version: 1.1.0
-title: AMOS Law Stack Enforcement
+version: 2.0.0
+lifecycle: active_specification
+implementation_status: documentary
+epistemic_class: AMOS_MODEL
+conclusion_class: AMOS_MODEL
+domain: canon-enforcement
 tags:
   - type/workflow
   - domain/canon-enforcement
   - amos-os
-type: workflow
-source: 08_WORKFLOWS
+  - law-stack
+  - rule-of-2
+  - rule-of-4
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: workflow_process
+  provenance:
+    - 07_SKILLS/amos-law-stack-enforcement/SKILL
+    - 01_CANON/01_CORE_LAWS/LAW_HIERARCHY
+    - 01_CANON/01_CORE_LAWS/RULE_OF_2_CANON
+    - 08_WORKFLOWS/WORKFLOWS_WORKFLOW_CONTRACT
+  scope: canon_law_enforcement_and_validation
 ---
 
-# AMOS Law Stack Enforcement
+# AMOS Law Stack Enforcement Workflow
 
-## Preconditions
+## Purpose
 
-- Skill `amos-law-stack-enforcement` is loaded and available.
-- Input falls within the declared domain scope.
-- User request matches the trigger conditions above.
+Orchestrate the rigorous multi-tier legal and epistemic validation of proposals, models, and actions across AMOS OS, ensuring compliance with the Law of Law (LoL), Core Invariants (L0–L33), Rule of 2 (R2) dual-rejection testing, and Rule of 4 (R4) quadrant completeness.
 
-## Steps
+## Orchestration Form
 
-1. **Load law hierarchy** — Load the Law of Law (LoL), Rule of 2 (R2), and Rule of 4 (R4) canonical definitions.
-1. **Validate LoL** — Check that the draft law satisfies the Law of Law meta-hierarchy (no law can supersede its own meta-law).
-1. **Validate R2** — Run the Rule of 2 dual-frame rejection test: can the law be rejected from two independent frames?
-1. **Validate R4** — Check Rule of 4 quadrant completeness: UBI, TSS, PSI, QLS.
-1. **Scale transition check** — Verify invariant enforcement across H (constitutional), M (domain), L (mechanical) scale transitions.
-1. **UBI integrity audit** — Audit UBI Score and ledger integrity against structural output.
-1. **Detect short-circuit** — Identify if the draft law bypasses canonical order (e.g., L-level check used for H-level decision).
-1. **Finalize** — Emit law stack validation report with LoL->R2->R4 ordering confirmation.
+**Primary Form:** Hierarchical Gated Validation DAG with Fail-Closed Halting.
 
-## Operations
+```text
+OBJECTIVE / CANDIDATE ACTION
+  ↓
+Phase 1: ADMIT CANDIDATE & RESOLVE SCOPE
+  ↓
+Phase 2: TIER 0 META-LAW CHECK (LoL & Non-Contradiction)
+  ↓
+Phase 3: TIER 1 FOUNDATIONAL INVARIANTS (L0–L19)
+  ↓
+Phase 4: TIER 2 RULE OF 2 (R2) DUAL-FRAME REJECTION TEST
+  ↓
+Phase 5: TIER 2 RULE OF 4 (R4) QUADRANT COMPLETENESS
+  ↓
+Phase 6: TIER 3 DISTRIBUTED REASONING GATES (L20–L33)
+  ↓
+Phase 7: ANTI-SHORT-CIRCUIT & SCALE TRANSITION AUDIT
+  ↓
+Phase 8: SENSITIVITY & WEAKEST-PREMISE BOUNDING
+  ↓
+Phase 9: COMMIT-TIME AUTHORITY RE-AUTHORIZATION
+  ↓
+Phase 10: EMIT LAW STACK VALIDATION RECEIPT
+```
 
-1. **Load law hierarchy** — Load the Law of Law (LoL), Rule of 2 (R2), and Rule of 4 (R4) canonical definitions.
-1. **Validate LoL** — Check that the draft law satisfies the Law of Law meta-hierarchy (no law can supersede its own meta-law).
-1. **Validate R2** — Run the Rule of 2 dual-frame rejection test: can the law be rejected from two independent frames?
-1. **Validate R4** — Check Rule of 4 quadrant completeness: UBI, TSS, PSI, QLS.
-1. **Scale transition check** — Verify invariant enforcement across H (constitutional), M (domain), L (mechanical) scale transitions.
-1. **UBI integrity audit** — Audit UBI Score and ledger integrity against structural output.
-1. **Detect short-circuit** — Identify if the draft law bypasses canonical order (e.g., L-level check used for H-level decision).
-1. **Finalize** — Emit law stack validation report with LoL->R2->R4 ordering confirmation.
+---
 
-## Validation Gates
+## 10-Phase Operational Execution
 
-- [ ] LoL meta-hierarchy satisfied (law does not supersede its own meta-law)
-- [ ] R2 dual-frame rejection test passed
-- [ ] R4 quadrant completeness verified (UBI/TSS/PSI/QLS)
-- [ ] Scale transition invariants hold (H/M/L)
-- [ ] UBI Score/ledger integrity verified
-- [ ] No canonical order short-circuit detected
-- [ ] Epistemic class labeled
-- [ ] Provenance recorded
-- [ ] Confidence ceiling enforced
+### Phase 1 — ADMIT CANDIDATE & RESOLVE SCOPE
+- Ingest candidate proposal, workflow step, model claim, or state mutation request.
+- Extract declared applicability envelope: system, domain, scale (H/M/L), authority token, and regime.
 
-## Error Handling
+### Phase 2 — TIER 0 META-LAW CHECK (LoL & Non-Contradiction)
+- Evaluate Law of Law: verify that the proposal does not attempt to supersede its own governing meta-rules.
+- Scan for unresolved contradictions: if an explicit contradiction is detected with active canon, halt immediately with `CRITICAL_CONTRADICTION_GAP`.
 
-- **Scope violation**: Reject and route to parent skill.
-- **Contradiction**: Flag CRITICAL_GAP and halt; do not fabricate canon.
-- **Provenance loss**: Mark output as UNKNOWN and request human review.
-- **Drift**: Trigger drift alignment governor before re-execution.
+### Phase 3 — TIER 1 FOUNDATIONAL INVARIANTS (L0–L19)
+- Validate foundational invariants:
+  - **L0 Integrity**: No silent dropping of constraints or premises.
+  - **L1 Epistemic**: Explicit epistemic typing (`SOURCE_CLAIM`, `OBSERVATION`, `DERIVED`, `AMOS_MODEL`).
+  - **L2 Provenance**: Direct lineage traceable to authoritative source objects.
+  - **L5 Scope/Regime**: Explicit regime boundary declaration.
+  - **L7 Authority**: Separate capability from authority (`CAPABILITY != AUTHORITY`).
 
-## Composition
+### Phase 4 — TIER 2 RULE OF 2 (R2) DUAL-FRAME REJECTION TEST
+- Instantiate two orthogonal, independent evaluation frames:
+  - **Frame A (Structural Consistency)**: Does the proposal fit canonical taxonomy and mathematical contracts?
+  - **Frame B (Adversarial Robustness)**: Can the proposal withstand deliberate edge-case challenge, resource starvation, or falsifier testing?
+- **Rejection Gate**: If either frame produces a valid rejection rationale, reject proposal. Rubber-stamping is forbidden.
 
-- Can be invoked by parent master skill for domain-specific audits.
-- Can delegate to `amos-audit-repair-master` for gap escalation.
-- No delegation to non-AMOS skills.
+### Phase 5 — TIER 2 RULE OF 4 (R4) QUADRANT COMPLETENESS
+- Verify coverage across the 4 fundamental AMOS quadrants:
+  1. **UBI Quadrant**: Biological, cognitive, and human alignment preserved?
+  2. **TSS Quadrant**: Time-scale synchronization and lifecycle duration bounded?
+  3. **PSI Quadrant**: Planetary carrying capacity and physical substrate limits respected?
+  4. **QLS Quadrant**: Quantum logic coherence and discrete state determinism enforced?
 
-## Provenance
+### Phase 6 — TIER 3 DISTRIBUTED REASONING GATES (L20–L33)
+- Verify distributed execution constraints:
+  - **L22 Atomic Multi-RSCF**: Ensure all joint premises are satisfied simultaneously; partial proofs fail closed.
+  - **L24 Causal Epoch Finality**: Confirm causal ordering before declaring execution finality.
+  - **L26 Proof-Based Coordination Avoidance**: Verify that local execution does not induce cross-shard inconsistency.
 
-- **Origin architect**: Trang Phan
-- **Steward**: Trang Phan
-- **Epistemic class**: AMOS_MODEL
-- **RSCF state**: SOURCE_CLAIM
+### Phase 7 — ANTI-SHORT-CIRCUIT & SCALE TRANSITION AUDIT
+- Detect and block short-circuit attempts:
+  - Verify that L-level heuristics are not used to bypass H-level constitutional constraints.
+  - Verify that local optimizations do not create global system instability.
+
+### Phase 8 — SENSITIVITY & WEAKEST-PREMISE BOUNDING
+- Identify the most fragile premise underpinning the proposal.
+- Enforce the confidence ceiling: $\text{Confidence}(\text{conclusion}) \le \min_i \text{Confidence}(\text{premise}_i)$.
+- If confidence is unmeasured, label explicitly as `UNKNOWN/GAP`.
+
+### Phase 9 — COMMIT-TIME AUTHORITY RE-AUTHORIZATION
+- Re-verify authority freshness at commit boundary:
+  $$\text{FreshAuthority} \land \text{CausallyPrior} \land \text{EffectBound} \land \text{EligibleAtCommit}$$
+- Prevent stale planning permissions from self-authorizing execution.
+
+### Phase 10 — EMIT LAW STACK VALIDATION RECEIPT
+- Emit structured Law Stack Validation Receipt with:
+  - LoL, L0–L33, R2, and R4 pass/fail status.
+  - Complete provenance signature, epistemic classification, and reviewer hash.
+
+---
+
+## Validation Gates & Invariants
+
+- [ ] LoL meta-hierarchy verified (no self-supersession).
+- [ ] No unhandled contradictions present.
+- [ ] R2 dual-frame test passed from two independent orthogonal perspectives.
+- [ ] R4 quadrant completeness established.
+- [ ] Atomic multi-RSCF closure satisfied.
+- [ ] Commit-time authority validated.
+
+## Failure Modes & Escalation
+
+- **On Tier 0 / Tier 1 Breach**: Immediate hard stop. Freeze execution branch; notify human steward.
+- **On R2 Rejection**: Return proposal to design stage with specific rejection rationale.
+- **On Missing Authority**: Route request to `03_CONTROL_PLANE/COGNITIVE_VAULT_RESOLVER`.
+
+______________________________________________________________________
+
+**Parent:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]] · [[07_SKILLS/amos-law-stack-enforcement/SKILL|amos-law-stack-enforcement]]
+**MOC:** [[08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
+
+---
+RSCF-NODE
+node_id: amos-law-stack-enforcement-workflow
+node_type: workflow
+path: 08_WORKFLOWS/amos-law-stack-enforcement-workflow.md
+claim_class: AMOS_MODEL

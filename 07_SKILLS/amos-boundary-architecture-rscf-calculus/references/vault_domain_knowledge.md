@@ -1,21 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Vault Domain Knowledge — Amos Boundary Architecture Rscf Calculus
-type: reference
-source: 07_SKILLS/amos-boundary-architecture-rscf-calculus/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Vault Domain Knowledge
 tags:
-  - reference
-  - amos-boundary-architecture-rscf-calculus
-  - type/skill
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Vault-Sourced Domain Knowledge
@@ -253,7 +253,7 @@ orchest
 
 > Path: `architecture/Hierarchical AI Architecture Generator v2.md` | Size: 23760 chars | Match score: 3
 
-## Hierarchical AI Architecture Generator v2
+# Hierarchical AI Architecture Generator v2
 
 ## Overview
 
@@ -281,7 +281,7 @@ The generator is intended to produce architectures that are explicit, queryable,
 
 ---
 
-## 1. Core Architecture Model
+# 1. Core Architecture Model
 
 The canonical transition is:
 
@@ -454,3 +454,9 @@ RSCF-RELATIONS:
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
+
+```
+
+```
+```
+```

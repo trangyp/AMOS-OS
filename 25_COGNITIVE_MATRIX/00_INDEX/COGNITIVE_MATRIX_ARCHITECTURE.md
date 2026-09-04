@@ -1,21 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: COGNITIVE MATRIX ARCHITECTURE
-type: architecture
-source: 25_COGNITIVE_MATRIX/00_INDEX
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Cognitive Matrix Architecture
 tags:
-  - cognitive-matrix
-  - index
-  - note
-  - domain/cognitive-matrix
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: index_navigation
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Cognitive Matrix Architecture
@@ -43,13 +43,13 @@ execute / observe / learn
 ```
 
 It does not replace `01_CANON`, `02_KERNEL`, `03_CONTROL_PLANE`, `04_RUNTIME`,
-`06_AGENTS`, `07_SKILLS`, or `08_WORKFLOWS`. It provides the coordinate layer that
+`06_AGENTS`, `07_SKILLS`, or `26_WORKFLOWS`. It provides the coordinate layer that
 allows those systems to be composed without confusing role, capability, lifecycle,
 authority, or scale.
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

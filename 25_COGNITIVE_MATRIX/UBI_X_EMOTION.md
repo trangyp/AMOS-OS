@@ -1,57 +1,16 @@
 ---
-title: UBI x Emotion Cognitive Matrix Specification
-type: cognitive
-source: 25_COGNITIVE_MATRIX
-artifact: UBI_X_EMOTION.md
-artifact_id: amos_25_cognitive_matrix_ubi_x_emotion
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 25_COGNITIVE_MATRIX
-segment: 25_COGNITIVE_MATRIX
-artifact_kind: MATRIX_SPEC
-path: 25_COGNITIVE_MATRIX/UBI_X_EMOTION.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Ubi X Emotion
 tags:
-  - amos-os
-  - cognitive-matrix
-  - vault
-  - ubi_x_emotion
-  - emotion_engine
-  - affective_computing
-  - affective_vector
-  - nei
-  - valence
-  - arousal
-  - dominance
-  - cooling_circuit
-  - substrate_refusal
-  - rscf
-  - ubi-x-emotion-matrix
-  - ubi-emotion-binding
-  - unified-biological-intelligence
-version: 2.0.0
-updated: '2026-08-28'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: PASSED_CONSTITUTIONAL_TESTS
-executable_binding: ESTABLISHED
-framework_binding:
-  matrix_counterpart:
-    artifact:
-      -   - UBI_X_EMOTION_MATRIX
-  knowledge_binding:
-    artifact:
-      -   - UBI_EMOTION_BINDING
-source_integrity:
-  equation_rendering: PARTIALLY_CORRUPTED
-  recoverable_equation: E_t = <v_t, a_t, d_t> ∈ [-1,1] × [0,1] × [-1,1]
-  component_semantics: RECOVERABLE_FROM_LOCAL_SOURCE_CONTEXT
-  unresolved_matrix_fields:
-    - FIRST_TRIGGER_VARIABLES
-    - TARGET_PLANES
-  reconstruction_policy: DO_NOT_INVENT_MISSING_CANON
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # UBI × Emotion Cognitive Matrix Specification — Canon Recovery

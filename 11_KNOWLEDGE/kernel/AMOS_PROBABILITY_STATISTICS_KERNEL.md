@@ -1,200 +1,231 @@
 ---
-title: amos-probability-statistics-kernel
-created: '2026-08-22'
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-type: bridge
-source: 11_KNOWLEDGE/kernel
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Probability Statistics Kernel
 tags:
-  - canon-group/human-system
-  - canon/framework
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
-  - rscf/state/observation
-  - topic/amos-probability-statistics-kernel
-  - kernel
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-canonical_status: CANONICAL_KERNEL
-updated: 2026-09-04
-provenance: SOURCE_CLAIM
-confidence: VERIFIED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Probability & Statistics Kernel
 
-> **Origin Architect / Steward:** Trang Phan
-> **Epistemic Class:** `AMOS_MODEL`
-> **Conclusion Class:** `DERIVED`
-> **Status:** `ACTIVE_SPECIFICATION`
-> **Governing Plane:** `11_KNOWLEDGE/kernel`
-
-> Bridge note -- resolves the `amos-probability-statistics-kernel` link from the Cosmo Brain MOC / daily notes to the real skill in the vault.
-> **Location:** `.devin/skills/amos-probability-statistics-kernel`
+> [!abstract] Kernel Specification
+> Defines the probabilistic reasoning and statistical inference framework for AMOS: Bayesian inference, distribution management, uncertainty quantification, confidence ceilings, and RSCF epistemic class mapping. This is the AMOS reasoning/spec pattern for uncertainty management — **not** a claim that AMOS OS executes live Bayesian inference in a deployed runtime (per AGENTS.md invariant 4).
 
 ---
 
-## 1. Architectural Scope
+## 1. Purpose
 
-The **AMOS Probability & Statistics Kernel** defines the core algorithms, data structures, and computational guarantees for probabilistic reasoning and statistical inference within the AMOS OS. It provides distribution modeling, hypothesis testing, Bayesian inference, uncertainty quantification, and sampling methods.
+The Probability & Statistics Kernel provides:
 
-This kernel exists to provide the **mathematical foundation** for all probabilistic operations, ensuring that uncertainty is quantified, propagated, and communicated consistently across the OS. It enforces the distinction between frequentist and Bayesian reasoning and prevents confidence-claim inflation.
+- Bayesian inference machinery for belief updating under uncertainty
+- Distribution management for random variables across AMOS domains
+- Uncertainty quantification with explicit confidence ceilings
+- Mapping between probability measures and RSCF epistemic classes
+- Statistical testing for evidence evaluation and hypothesis discrimination
 
-**Epistemic Boundary:**
+This kernel interfaces with the [[11_KNOWLEDGE/kernel/LOGIC_KERNEL|LOGIC_KERNEL]] for probabilistic inference rules and with the [[11_KNOWLEDGE/kernel/COGNITION_KERNEL|COGNITION_KERNEL]] for belief-state updates.
+
+---
+
+## 2. Bayesian Inference
+
+### 2.1 Bayes' Theorem
+
+For hypothesis $H$ and evidence $E$:
+
+$$P(H \mid E) = \frac{P(E \mid H) \cdot P(H)}{P(E)}$$
+
+| Component | Symbol | AMOS Role |
+| :--- | :--- | :--- |
+| **Prior** | $P(H)$ | Current belief before evidence; sourced from knowledge state |
+| **Likelihood** | $P(E \mid H)$ | Probability of evidence given hypothesis; from observation models |
+| **Posterior** | $P(H \mid E)$ | Updated belief after evidence; promoted to knowledge if threshold met |
+| **Marginal** | $P(E)$ | Normalization constant; $\sum_i P(E \mid H_i) P(H_i)$ for discrete $H$ |
+
+### 2.2 Sequential Updating
+
+When evidence arrives in sequence $E_1, E_2, \ldots, E_n$:
+
+$$P(H \mid E_1, \ldots, E_n) = \frac{P(E_n \mid H) \cdot P(H \mid E_1, \ldots, E_{n-1})}{P(E_n \mid E_1, \ldots, E_{n-1})}$$
+
+The posterior from step $k$ becomes the prior for step $k+1$. This supports the [[11_KNOWLEDGE/kernel/COGNITION_KERNEL|COGNITION_KERNEL]]'s hypothesis-update mechanism.
+
+### 2.3 Conjugate Priors
+
+For computational tractability, AMOS supports conjugate prior families:
+
+| Likelihood | Conjugate Prior | Posterior Form |
+| :--- | :--- | :--- |
+| Bernoulli/Binomial | Beta$(\alpha, \beta)$ | Beta$(\alpha + s, \beta + f)$ |
+| Gaussian (known $\sigma^2$) | Normal$(\mu_0, \sigma_0^2)$ | Normal$(\mu_n, \sigma_n^2)$ |
+| Poisson | Gamma$(\alpha, \beta)$ | Gamma$(\alpha + \sum x_i, \beta + n)$ |
+| Categorical | Dirichlet$(\alpha_1, \ldots, \alpha_k)$ | Dirichlet$(\alpha_1 + n_1, \ldots, \alpha_k + n_k)$ |
+
+---
+
+## 3. Distribution Management
+
+### 3.1 Supported Distributions
+
+| Distribution | Parameters | Use Case in AMOS |
+| :--- | :--- | :--- |
+| **Normal** | $\mu, \sigma^2$ | Continuous measurement uncertainty |
+| **Beta** | $\alpha, \beta$ | Proportion/probability estimation |
+| **Gamma** | $\alpha, \beta$ | Rate/delay modeling |
+| **Poisson** | $\lambda$ | Event count modeling |
+| **Uniform** | $a, b$ | Maximum-entropy prior for bounded ranges |
+| **Multivariate Normal** | $\mu, \Sigma$ | Correlated multi-variable uncertainty |
+| **Dirichlet** | $\boldsymbol{\alpha}$ | Categorical proportion uncertainty |
+
+### 3.2 Distribution Operations
+
+- **Marginalization**: Integrate out nuisance variables; $P(X) = \int P(X, Y) \, dY$
+- **Conditioning**: Restrict to observed values; $P(X \mid Y = y)$
+- **Convolution**: Combine independent random variables; $Z = X + Y$
+- **Expectation**: $\mathbb{E}[X] = \int x \, p(x) \, dx$
+- **Variance**: $\text{Var}(X) = \mathbb{E}[X^2] - (\mathbb{E}[X])^2$
+
+---
+
+## 4. Uncertainty Quantification
+
+### 4.1 Confidence Intervals
+
+A $(1 - \alpha)$ confidence interval $[L, U]$ for parameter $\theta$ satisfies:
+
+$$P(L \leq \theta \leq U) \geq 1 - \alpha$$
+
+In AMOS, confidence intervals are attached to derived claims and influence RSCF classification:
+
+| Confidence Level | AMOS RSCF Class | Promotion Allowed |
+| :--- | :--- | :--- |
+| $1 - \alpha \geq 0.99$ | `VERIFIED` | Yes, with authority |
+| $0.95 \leq 1 - \alpha < 0.99$ | `DERIVED` | Yes, with review |
+| $0.80 \leq 1 - \alpha < 0.95` | `SOURCE_CLAIM` | Conditional |
+| $1 - \alpha < 0.80$ | `UNKNOWN/GAP` | No promotion |
+
+### 4.2 Confidence Ceilings
+
+The confidence ceiling prevents over-promotion of uncertain claims:
+
+$$\text{Confidence Ceiling} = \min\left(\text{Bayesian posterior}, \text{evidence quality}, \text{source authority}\right)$$
+
+Even if the posterior is high, the ceiling is capped by the weakest link in the evidence chain (per M04: `SOURCE_CLAIM != VERIFIED`).
+
+### 4.3 Credible Intervals vs Confidence Intervals
+
+- **Frequentist confidence interval**: Long-run frequency property; does not assign probability to $\theta$
+- **Bayesian credible interval**: Direct probability statement about $\theta$ given data
+- AMOS uses **credible intervals** (Bayesian) when priors are available, **confidence intervals** (frequentist) when they are not
+
+---
+
+## 5. RSCF Epistemic Class Mapping
+
+### 5.1 Probability-to-Epistemic Bridge
+
+| Probability Measure | RSCF Epistemic Class | Interpretation |
+| :--- | :--- | :--- |
+| $P(H) = 1$ (axiom) | `VERIFIED` | Axiomatic truth; no uncertainty |
+| $P(H) \geq 0.95$ | `DERIVED` | High confidence; derived from strong evidence |
+| $0.5 \leq P(H) < 0.95$ | `SOURCE_CLAIM` | Plausible; requires further validation |
+| $P(H) < 0.5$ | `UNKNOWN/GAP` | Low confidence; insufficient evidence |
+| $P(H)$ undefined | `UNKNOWN/GAP` | No probabilistic model available |
+
+### 5.2 Evidence Weight Accumulation
+
+Multiple independent evidence sources $E_1, \ldots, E_n$ for hypothesis $H$:
+
+$$P(H \mid E_1, \ldots, E_n) \propto P(H) \prod_{i=1}^n P(E_i \mid H)$$
+
+Under independence, evidence accumulates multiplicatively. Per M15, duplicate evidence from the same source does **not** increase weight — only genuinely independent sources contribute.
+
+---
+
+## 6. Statistical Testing
+
+### 6.1 Hypothesis Testing Framework
+
+For null hypothesis $H_0$ and alternative $H_1$:
+
+- **Test statistic**: $T(X)$ computed from data $X$
+- **p-value**: $p = P(T(X) \geq t_{obs} \mid H_0)$
+- **Decision**: Reject $H_0$ if $p < \alpha$ (significance level)
+
+AMOS significance levels:
+
+| Domain | $\alpha$ | Justification |
+| :--- | :--- | :--- |
+| High-stakes (irreversible) | $0.01$ | Conservative; M20 governance |
+| Standard inference | $0.05$ | Convention; balanced Type I/II |
+| Exploratory | $0.10$ | Permissive; flagged as preliminary |
+
+### 6.2 Multiple Comparisons
+
+When testing $m$ hypotheses simultaneously, AMOS applies Bonferroni correction:
+
+$$\alpha_{adjusted} = \frac{\alpha}{m}$$
+
+This controls the family-wise error rate and prevents false discovery from multiple testing.
+
+---
+
+## 7. Failure Modes
+
+| Failure | Detection | Recovery |
+| :--- | :--- | :--- |
+| Prior-data conflict | Posterior deviates strongly from prior | Flag conflict; request expert review |
+| Confidence ceiling breach | Posterior > threshold but evidence quality low | Cap at ceiling; do not promote |
+| Non-conjugate model | Computational intractability | Fall back to approximation (MCMC, variational) |
+| Violated independence assumption | M15 check | Discount dependent evidence; reweight |
+| Insufficient data | Posterior ≈ prior | Flag as `UNKNOWN/GAP`; request more evidence |
+
+---
+
+## 8. Integration Points
+
+| Interface | Direction | Contract |
+| :--- | :--- | :--- |
+| [[11_KNOWLEDGE/kernel/LOGIC_KERNEL\|LOGIC_KERNEL]] | Read/Write | Probabilistic inference rules; Bayesian update as non-monotonic rule |
+| [[11_KNOWLEDGE/kernel/COGNITION_KERNEL\|COGNITION_KERNEL]] | Write | Belief-state updates feed hypothesis management |
+| [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL\|AMOS_SIMULATION_KERNEL]] | Read/Write | Distributions used in Monte Carlo simulation; simulation outputs update distributions |
+| [[11_KNOWLEDGE/kernel/AMOS_CONTROL_SYSTEMS_KERNEL\|AMOS_CONTROL_SYSTEMS_KERNEL]] | Read | Confidence thresholds influence control-loop parameters |
+| [[11_KNOWLEDGE/kernel/AMOS_REVENUE_ARCHITECTURE_KERNEL\|AMOS_REVENUE_ARCHITECTURE_KERNEL]] | Read | Revenue forecasting uses probabilistic models |
+
+---
+
+```RSCF-NODE
+node_id: probability_statistics_kernel_knowledge_spec
+node_type: kernel_specification
+domain: 11_KNOWLEDGE/kernel
+claim_class: AMOS_MODEL
+confidence_ceiling:
+  bayesian_inference: high
+  uncertainty_quantification: high
+  rscf_epistemic_mapping: high
+  statistical_testing: high
+falsifiers:
+  - Confidence ceiling breached without evidence quality check
+  - Duplicate evidence counted as independent (M15 violation)
+  - Prior-data conflict not flagged
 ```
-MODEL != OBSERVATION
-DOCUMENTED != IMPLEMENTED
-CAPABILITY != AUTHORITY
-PROBABILISTIC_INFERENCE != DETERMINISTIC_TRUTH
-CONFIDENCE_INTERVAL != CERTAINTY
-```
-
-**Core Data Structures:**
-- `Distribution{type, parameters, support, moments}`
-- `HypothesisTest{null_hypothesis, alternative, test_statistic, p_value, power}`
-- `BayesianPosterior{prior, likelihood, posterior, credible_interval}`
-- `UncertaintyBudget{source, variance, confidence_level, propagation_path}`
-
-**Core Algorithms:**
-- Maximum likelihood estimation (MLE)
-- Bayesian inference (conjugate priors, MCMC, variational)
-- Hypothesis testing (parametric, non-parametric, bootstrap)
-- Uncertainty propagation (analytical, Monte Carlo)
-- Distribution fitting and goodness-of-fit
-
-**Inputs:** `PROB_INPUT{data, hypothesis, prior, confidence_level, method}`
-**Outputs:** `PROB_OUTPUT{estimate, confidence_interval, p_value, posterior, uncertainty_report}`
-
-**Computational Guarantees:** Bounded estimation error under regularity conditions, convergent MCMC under ergodicity, valid coverage for confidence intervals under correct model specification.
-
----
-
-## 2. Governing Invariants
-
-| ID | Invariant | Description |
-|----|-----------|-------------|
-| INV-PS-001 | Uncertainty Mandatory | Every probabilistic output must carry an uncertainty measure |
-| INV-PS-002 | Confidence Cap | Confidence levels must not exceed 0.95 unless explicitly justified |
-| INV-PS-003 | Prior Disclosure | Bayesian analyses must explicitly state prior assumptions |
-| INV-PS-004 | Model Specification | Distributional assumptions must be stated; unstated assumptions block output |
-| INV-PS-005 | Sample Size Adequacy | Statistical tests must check sample size adequacy before reporting |
-| INV-PS-006 | Frequentist-Bayesian Separation | Outputs must label whether they are frequentist or Bayesian |
-| INV-PS-007 | No Certainty Claims | Probabilistic outputs must never be presented as deterministic truth |
-
----
-
-## 3. Mathematical Formulation
-
-**Maximum likelihood estimation:**
-
-$$\hat{\theta}_{\text{MLE}} = \arg\max_{\theta} \prod_{i=1}^{n} f(x_i | \theta)$$
-
-**Bayesian posterior:**
-
-$$p(\theta | x) = \frac{p(x | \theta) \cdot p(\theta)}{\int p(x | \theta') p(\theta') d\theta'}$$
-
-**Confidence interval:**
-
-$$\text{CI}_{1-\alpha} = [\hat{\theta} - z_{\alpha/2} \cdot \text{SE}(\hat{\theta}), \; \hat{\theta} + z_{\alpha/2} \cdot \text{SE}(\hat{\theta})]$$
-
-**Uncertainty propagation (linear approximation):**
-
-$$\sigma_Y^2 \approx \sum_{i} \left(\frac{\partial f}{\partial x_i}\right)^2 \sigma_{x_i}^2$$
-
-**Bayesian credible interval:**
-
-$$P(\theta \in [a, b] | x) = 1 - \alpha$$
-
-**Goodness-of-fit (Kolmogorov-Smirnov):**
-
-$$D_n = \sup_x |F_n(x) - F(x)|$$
-
----
-
-## 4. Architecture
-
-```mermaid
-graph TD
-    A[PROB_INPUT] --> B{Method Selection}
-    B -->|frequentist| C[MLE / Hypothesis Test]
-    B -->|bayesian| D[Posterior Computation]
-    B -->|sampling| E[Monte Carlo / MCMC]
-    C --> F[Confidence Interval]
-    D --> G[Credible Interval]
-    E --> H[Uncertainty Propagation]
-    F --> I[Uncertainty Report]
-    G --> I
-    H --> I
-    I --> J[PROB_OUTPUT]
-    C -.->|check| K[Sample Size Adequacy]
-    D -.->|check| L[Prior Disclosure]
-    K --> I
-    L --> I
-```
-
----
-
-## 5. MECE Mapping to AMOS Full Brain OS
-
-| Kernel Component | AMOS Plane | Role |
-|------------------|------------|------|
-| MLE / Hypothesis Test | `13_MODELS` | Statistical modelling |
-| Bayesian Posterior | `13_MODELS` | Bayesian modelling |
-| Monte Carlo / MCMC | `04_RUNTIME` | Computational sampling |
-| Uncertainty Propagation | `17_OBSERVABILITY` | Uncertainty monitoring |
-| Confidence/Credible Interval | `16_SCHEMAS` | Interval schema |
-| Sample Size Check | `03_CONTROL_PLANE` | Admission control |
-| Prior Disclosure | `03_CONTROL_PLANE` | Assumption gate |
-| Uncertainty Report | `17_OBSERVABILITY` | Report generation |
-
----
-
-## 6. Safety Invariants & Firewalls
-
-| ID | Firewall | Enforcement |
-|----|----------|-------------|
-| INV-PS-FW-001 | Uncertainty Required | Outputs without uncertainty measures are blocked |
-| INV-PS-FW-002 | Confidence Cap | Confidence levels above 0.95 require explicit justification |
-| INV-PS-FW-003 | Prior Disclosure | Bayesian outputs without stated priors are blocked |
-| INV-PS-FW-004 | No Certainty Claims | Outputs presented as deterministic truth are blocked |
-| INV-PS-FW-005 | Sample Size Check | Tests with inadequate sample size are flagged |
-
----
-
-## 7. Navigation & Bindings
-
-- **Parent MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
-- **Knowledge MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
-- **Home:** [[00_ROOT/00_HOME|00_HOME]]
-- **Reasoning Kernel:** [[11_KNOWLEDGE/kernel/REASONING_KERNEL|REASONING_KERNEL]]
-- **Life Core Kernel:** [[11_KNOWLEDGE/kernel/LIFE_CORE_KERNEL|LIFE_CORE_KERNEL]]
-- **Partnerships Channels Kernel:** [[11_KNOWLEDGE/kernel/AMOS_PARTNERSHIPS_CHANNELS_KERNEL|AMOS_PARTNERSHIPS_CHANNELS_KERNEL]]
-- **Customer Insight Kernel:** [[11_KNOWLEDGE/kernel/AMOS_CUSTOMER_INSIGHT_KERNEL|AMOS_CUSTOMER_INSIGHT_KERNEL]]
-- **Simulation Kernel:** [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL|AMOS_SIMULATION_KERNEL]]
-- **Core Laws:** [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|01_CORE_LAWS]]
-
----
-
-## 8. Known Gaps & Falsifiers
-
-| ID | Gap | Impact | Action |
-|----|-----|--------|--------|
-| GAP-PS-001 | Model misspecification risk | Incorrect distributional assumptions invalidate results | Flag model assumptions as unverified |
-| GAP-PS-002 | MCMC convergence diagnosis | Convergence is not always detectable | Require convergence diagnostics |
-| GAP-PS-003 | Small-sample performance | Asymptotic properties may not hold for small samples | Flag small-sample results as approximate |
-| GAP-PS-004 | Prior sensitivity | Bayesian results depend on prior choice | Require prior sensitivity analysis |
-
----
-
-**Related:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] | [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] | [[11_KNOWLEDGE/kernel/REASONING_KERNEL|REASONING_KERNEL]] | [[11_KNOWLEDGE/kernel/LIFE_CORE_KERNEL|LIFE_CORE_KERNEL]] | [[11_KNOWLEDGE/kernel/AMOS_PARTNERSHIPS_CHANNELS_KERNEL|AMOS_PARTNERSHIPS_CHANNELS_KERNEL]] | [[11_KNOWLEDGE/kernel/AMOS_CUSTOMER_INSIGHT_KERNEL|AMOS_CUSTOMER_INSIGHT_KERNEL]]
 
 ______________________________________________________________________
 
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] | [[00_ROOT/00_HOME|00_HOME]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/kernel/LOGIC_KERNEL|LOGIC_KERNEL]] · [[11_KNOWLEDGE/kernel/COGNITION_KERNEL|COGNITION_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL|AMOS_SIMULATION_KERNEL]]
+
+______________________________________________________________________
+
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

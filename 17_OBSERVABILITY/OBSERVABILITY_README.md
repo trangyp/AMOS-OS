@@ -1,111 +1,87 @@
 ---
-title: "17_OBSERVABILITY — Telemetry & Epistemic Health"
-type: architecture_specification
-source: 17_OBSERVABILITY
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 17_OBSERVABILITY/OBSERVABILITY_OBSERVABILITY_CONTRACT
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-  scope: plane_observability_overview
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Observability Readme
 tags:
-  - amos-os
-  - 17-observability
-  - telemetry
-  - distributed-tracing
-  - epistemic-health
-  - opentelemetry
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# 17_OBSERVABILITY — Master Telemetry & Epistemic Health Architecture
+# OBSERVABILITY README
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Epistemic Class:** `AMOS_MODEL`
-> **Conclusion Class:** `DERIVED`
-> **Status:** `ACTIVE_SPECIFICATION`
+## Purpose
 
----
+`OBSERVABILITY README` is the package readme for the **Observability** plane segment at `17_OBSERVABILITY`.
+The Observability plane governs metrics, logs, traces, health signals — observations, never authority. Normative load-bearing content lives in the sibling contract(s); this readme orients navigation.
 
-## 1. Executive Architectural Mandate
+## Sibling artifacts
 
-`17_OBSERVABILITY` provides continuous, non-intrusive, distributed epistemic tracing, real-time metrics telemetry, cryptographic execution logging, and cognitive graph health profiling across all 26 planes of the AMOS Full Brain OS. It operationalizes high-resolution telemetry for neural BCI decoders, quantitative finance risk engines, distributed multi-agent workflows, and persistent memory substrates without adding more than $0.5\%$ latency overhead.
+- [[17_OBSERVABILITY/OBSERVABILITY_OBSERVABILITY_CONTRACT|OBSERVABILITY_OBSERVABILITY_CONTRACT]]
 
-```mermaid
-graph TD
-    ENGINES["Core Planes (01–16, 18–25)"] -->|Trace Spans & Metrics| INGEST["High-Throughput Ingestion Engine (≥10,000 spans/s)"]
-    INGEST --> OTEL["OpenTelemetry Cognitive Tracing Engine"]
-    INGEST --> DRIFT["Epistemic Drift & Entropy Analyzer"]
-    INGEST --> DOM["DOM Streaming & Real-Time Tick Visualizer"]
+## Contract discipline
 
-    OTEL --> WAL["BLAKE3 Append-Only Receipt WAL"]
-    DRIFT --> ALARM["Automated Threshold Alarms (23_OPERATING_MODEL)"]
-    DOM --> DASH["Live Telemetry Dashboards"]
-    WAL --> AUDIT["Continuous Audit Ledgers (20_OPERATIONS)"]
-```
+Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
 
----
+## Gaps
 
-## 2. The 4 Pillars of AMOS Observability
+Executable binding PARTIAL unless an executed validation receipt exists for this subsystem ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
 
-### Pillar 1: Distributed Epistemic Tracing (OpenTelemetry Extension)
-- **Cognitive Context Propagation:** Extends W3C Trace Context (`traceparent`, `tracestate`) with epistemic metadata (`rscf.state`, `confidence.score`, `origin.steward`, `premises.hashes`).
-- **Causal Span Graphs:** Generates strict Directed Acyclic Graph (DAG) traces representing reasoning paths across multi-agent pipelines.
-- **Sub-Millisecond Overhead:** Lock-free ring buffer telemetry buffers guaranteeing $\Delta t_{\text{trace}} \le 20\,\mu\text{s}$ per span.
+## Worked semantics
 
-### Pillar 2: Quantitative Telemetry Metrics
-- **Real-Time SLI Sampling:** Samples high-frequency counters, gauges, and histograms:
-  - Neural BCI end-to-end decoding latency ($p_{99} < 5.0\text{ ms}$).
-  - Quantitative Forex order execution and kill-switch roundtrip ($p_{99} < 25.0\text{ ms}$).
-  - MicroVM tool spawn cold/warm start times ($p_{95} < 15.0\text{ ms}$).
-  - Memory cache hit/miss ratios and HNSW vector search latencies ($p_{95} < 2.0\text{ ms}$).
+Given an operation touching `OBSERVABILITY · README` within the Observability plane:
 
-### Pillar 3: Epistemic Drift & Entropy Monitoring
-- **Confidence Inflation Detector:** Compares conclusion confidence $C(\text{conclusion})$ against premise confidence $\min_i C(p_i)$; flags violations where $C_{\text{conc}} > \min_i C_{p_i}$.
-- **Semantic Drift Tracker:** Computes Wasserstein distance $\mathcal{W}_1(P_t, P_0)$ on embedding clusters; triggers quarantine when drift $\Delta > 0.08$.
-- **Premise Staleness Checker:** Re-validates TTL expiration on active working memory traces.
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-### Pillar 4: Cryptographic Execution Receipts & Ledger Sealing
-- **BLAKE3 Merkle Sealing:** State transitions and workflow step completions are hashed and chained into append-only cryptographic receipts.
-- **Non-Repudiation:** Every receipt contains caller ID, capability nonce, execution duration, and parent state root hash.
+## Promotion-gate checklist
 
----
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-## 3. Observability Invariants & Hard Boundaries
+## Cross-plane bindings
 
-$$\begin{aligned}
-\text{OBS-INV-01} &: \quad \text{OBSERVATION} \neq \text{AUTHORITY} \\
-\text{OBS-INV-02} &: \quad \text{METRIC} \neq \text{GOAL} \\
-\text{OBS-INV-03} &: \quad \text{MONITORING} \neq \text{REPAIR} \\
-\text{OBS-INV-04} &: \quad \text{TELEMETRY} \neq \text{TRUTH} \\
-\text{OBS-INV-05} &: \quad \text{Telemetry Overhead: } \frac{\text{Overhead}(\text{Trace})}{\text{Runtime}(\text{Task})} \le 0.005 \quad (0.5\%)
-\end{aligned}$$
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
----
+______________________________________________________________________
 
-## 4. Key Subsystem Artifacts & Specifications
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
-- **[[17_OBSERVABILITY/OBSERVABILITY_OBSERVABILITY_CONTRACT|OBSERVABILITY_OBSERVABILITY_CONTRACT.md]]**: Master plane contract formalizing telemetry standards and compliance invariants.
-- **[[17_OBSERVABILITY/DISTRIBUTED_EPISTEMIC_TRACING_FRAMEWORK|DISTRIBUTED_EPISTEMIC_TRACING_FRAMEWORK.md]]**: OpenTelemetry cognitive tracing schema and causal span models.
-- **[[17_OBSERVABILITY/REALTIME_ORDERBOOK_DOM_STREAMING_VISUALIZER|REALTIME_ORDERBOOK_DOM_STREAMING_VISUALIZER.md]]**: High-frequency market Depth-of-Market (DOM) visualizer and microsecond orderbook streaming.
-- **[[17_OBSERVABILITY/EXECUTED_VALIDATION_LEDGER_2026-09-03|EXECUTED_VALIDATION_LEDGER_2026-09-03.md]]**: Historical execution validation ledger.
+______________________________________________________________________
 
----
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
-## 5. Cross-Plane Bindings
+______________________________________________________________________
 
-- **`00_ROOT`**: Master navigation anchored in [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]].
-- **`02_KERNEL`**: Ingests low-level execution trace hashes.
-- **`20_OPERATIONS`**: Ingests audit ledgers and incident alert feeds.
-- **`23_OPERATING_MODEL`**: Evaluates SLO error budget burn rates.
+RSCF-NODE
+node_id: amos_17_observability_observability_readme_md
+node_type: note
+path: 17_OBSERVABILITY/OBSERVABILITY_README.md
+claim_class: AMOS_MODEL
 
----
+______________________________________________________________________
 
-> **Epistemic Attestation:** Governed under AMOS v4.4. Origin Architect & Steward: **Trang Phan**.
+**MOC:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]

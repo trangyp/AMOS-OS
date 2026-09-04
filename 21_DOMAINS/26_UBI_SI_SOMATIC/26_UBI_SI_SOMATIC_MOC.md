@@ -1,62 +1,47 @@
 ---
-title: 26 Ubi Si Somatic Moc — Specialist Domain Specification
-type: domain_specification
-source: 21_DOMAINS
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 21_DOMAINS/00_INDEX/DOMAIN_EXTENSION_PROTOCOL
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-  scope: domain_specialization
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 26 Ubi Si Somatic Moc
 tags:
-  - amos-os
-  - domains
-  - c01-c12
-  - 26-ubi-si-somatic-moc
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# 26 Ubi Si Somatic Moc — Specialist Domain Specification
+# 26 UBI SI Somatic — Map of Content
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Conclusion Class:** `AMOS_MODEL`
-> **Status:** `ACTIVE_SPECIFICATION`
-
----
-
-## 1. Domain Scope & Objectives
-
-`26_UBI_SI_SOMATIC_MOC` defines the specialized domain models, ontologies, regulatory frameworks, and operational packages under `21_DOMAINS`.
-
-Governed under **Partition C: Cognitive Capability & Orchestration** and the [[21_DOMAINS/00_INDEX/DOMAIN_EXTENSION_PROTOCOL|DOMAIN_EXTENSION_PROTOCOL]].
+> [!ABSTRACT] Domain Executive Summary
+> **Domain Engine:** `UBI_SI_somatic` (Somatic Intelligence).
+> **Structural Role:** Owns interoception, visceral sensory feedback (vagus nerve / autonomic balance), somatic marker hypotheses (Damasio), metabolic energy constraints, and physiological homeostasis in the AMOS Full Brain OS.
 
 ---
 
-## 2. Domain Rules & Invariants
+## 1. Core Architecture & Subsystem Artifacts
 
-1. **Non-Contradiction with Canon:** Specialist domain rules cannot supersede root axioms in `01_CANON`.
-2. **Explicit Confidence Attenuation:** Conclusions derived within `26_UBI_SI_SOMATIC_MOC` must declare confidence ceilings ($\mathcal{C} \le 0.95$).
-3. **Cross-Regime Bridges:** Transfers from this domain to adjacent domains require formal translation penalties.
-
----
-
-## 3. Operational Mechanics & Datasets
-
-- **Domain Models:** Mathematical, empirical, or statistical formulations specific to `26 Ubi Si Somatic Moc`.
-- **Allowed Tooling:** Strictly sandboxed Tier 1 and Tier 2 adapters.
-- **Verification Gates:** Invariant tests codified in `19_TESTS/`.
+* [[05_COGNITIVE_ORGANISM/SI_ORGANISM_BINDING|SI Organism Binding]] — Somatosensory and interoceptive integration with the AMOS Cognitive Organism.
+* [[11_KNOWLEDGE/engine/AMOS_SI_ENGINE_V0_UBI7|AMOS SI Engine Master Knowledge]] — Authoritative 1.7 MB canonical engine specification detailing autonomic regulation, metabolic energy budgeting, and somatic marker arbitration.
+* [[05_COGNITIVE_ORGANISM/HOMEOSTASIS_ENGINE|Homeostasis Engine]] — Autonomous physiological balance, thermal/compute resource regulation, and error threshold monitoring.
+* [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_SOMATIC_INTELLIGENCE|UBI Somatic Intelligence]] — High-level domain knowledge synthesis.
+* [[21_DOMAINS/26_UBI_SI_SOMATIC/DOMAINS_UBI_SI_SOMATIC_CONTRACT|DOMAINS_UBI_SI_SOMATIC_CONTRACT]] — Domain interface contract and invariant bounds.
+* [[21_DOMAINS/26_UBI_SI_SOMATIC/UBI_SI_SOMATIC_DOMAINS_DOMAIN_SPEC|UBI_SI_SOMATIC_DOMAINS_DOMAIN_SPEC]] — Operational domain parameters.
 
 ---
 
-## 4. Integration
+## 2. Inbound & Outbound Interfaces
 
-- **Master Domain Hub:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]
-- **Protocol Standard:** [[21_DOMAINS/00_INDEX/DOMAIN_EXTENSION_PROTOCOL|DOMAIN_EXTENSION_PROTOCOL]]
-- **Agent Roles:** [[06_AGENTS/AGENT_ROLE_REGISTRY|AGENT_ROLE_REGISTRY]]
+* **Cognitive Integration:** [[05_COGNITIVE_ORGANISM/UBI_ORGANISM_BINDING|UBI Organism Binding]].
+* **Self-Regulation:** Links to [[05_COGNITIVE_ORGANISM/15_HOMEOSTASIS/00_INDEX/00_INDEX_MOC|15 Homeostasis Substrate]].
+* **Parent Hub:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]].
+
+---
+[[21_DOMAINS/21_DOMAINS_MOC|Back to Domains MOC]] · [[00_ROOT/00_ROOT_MOC|Root MOC]]

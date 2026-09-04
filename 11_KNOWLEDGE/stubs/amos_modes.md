@@ -1,5 +1,5 @@
 ---
-title: AMOS Modes Master Registry
+title: "AMOS Modes Master Registry"
 type: registry
 source: 21_DOMAINS/45_MODES
 origin_architect: Trang Phan
@@ -22,8 +22,8 @@ tags:
 
 # AMOS Modes Master Registry
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
+> **Origin Architect / Steward:** Trang Phan  
+> **AMOS_CORE Target:** `v4.4`  
 > **Conclusion Class:** `AMOS_MODEL`
 
 ## 1. Operating Modes
@@ -58,3 +58,19 @@ tags:
 
 - **Organism Modes:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
 - **Domain Mapping:** [[21_DOMAINS/00_INDEX/DOMAIN_EXTENSION_PROTOCOL|DOMAIN_EXTENSION_PROTOCOL]]
+
+## Scope
+
+`amos_modes` is part of the AMOS OS canonical corpus. Its role is defined by its containing plane and RSCF metadata.
+
+## Invariants
+
+| ID | Invariant |
+|----|-----------|
+| AMOS_MODES_INV_01 | Content preserves RSCF epistemic classification. |
+| AMOS_MODES_INV_02 | Authority is checked before any state-altering claim. |
+| AMOS_MODES_INV_03 | Cross-links are valid within the vault graph. |
+
+## Cross References
+- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03|Audit Ledger]]

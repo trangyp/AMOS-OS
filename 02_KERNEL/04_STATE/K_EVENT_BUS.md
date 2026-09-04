@@ -1,66 +1,16 @@
 ---
-title: K EVENT BUS
-type: note
-source: 02_KERNEL/04_STATE
-artifact_id: AMOS-OS-K-EVENT-BUS
-canonical_name: K_EVENT_BUS
-artifact_type: kernel_event_bus_contract
-status: AMOS_MODEL
-conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: KERNEL
-kernel_family: EVENT
-domain: event-bus
-scope: AMOS_OS
-updated: 2026-08-26
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: K Event Bus
 tags:
-  - amos-os
-  - kernel
-  - core
   - canon-group/tech-ai
-  - canon/model
-  - kernel/event
-  - kernel/event-bus
-  - kernel/messaging
-  - kernel/state
-  - kernel/causality
-  - kernel/provenance
-  - kernel/dependency
-  - kernel/concurrency
-  - kernel/idempotency
-  - kernel/replay
-  - kernel/validation
-  - rscf/event
+  - rscf/claim
   - rscf/provenance
-  - rscf/state/model
-  - topic/event-driven-architecture
-  - topic/event-routing
-  - topic/causal-lineage
-  - readme
-  - architecture
-  - authoritative-state
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - source-lineage
-  - k-core19-logic
-  - k-meta-logic
-  - k-context-state
-  - k-structural-reasoning
-  - k-metacognition
-  - k-multi-hypothesis
-  - k-causal-closure
-  - k-causal-epoch
-  - k-causal-hierarchy
-aliases:
-  - AMOS Event Bus Kernel - Event Bus Kernel - K Event Bus - K_EVENT_BUS
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # K EVENT BUS
@@ -2503,7 +2453,7 @@ VALIDITY.
 ## Related
 
 README ·
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]] ·
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]] ·
 [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] ·
 [[00_ROOT/DEPENDENCY_MAP|DEPENDENCY_MAP]] ·
 [[00_ROOT/AUTHORITATIVE_STATE|AUTHORITATIVE_STATE]] ·
@@ -2532,7 +2482,7 @@ README ·
 [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]] ·
 [[04_RUNTIME/00_INDEX/RUNTIME_MAP|RUNTIME_MAP]] ·
 [[06_AGENTS/00_INDEX/AGENT_MAP|AGENT_MAP]] ·
-[[08_WORKFLOWS/00_INDEX/WORKFLOW_MAP|WORKFLOW_MAP]] ·
+[[26_WORKFLOWS/00_INDEX/WORKFLOW_MAP|WORKFLOW_MAP]] ·
 README ·
 11_KNOWLEDGE/00_AMOS_Full_Brain_OS_Architecture ·
 [[00_ROOT/AUTHORITATIVE_STATE|AUTHORITATIVE_STATE]] ·
@@ -2547,7 +2497,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

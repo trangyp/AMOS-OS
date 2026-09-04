@@ -1,243 +1,146 @@
 ---
-title: AMOS Mode Placeholder Coverage Audit
-type: note
-source: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX
-artifact: MODE_PLACEHOLDER_AUDIT_2026-08-25.md
-artifact_id: 03_control_plane_09_commit_00_mode_index_mode_placeholder_audit_2026-08-25
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 03_CONTROL_PLANE
-segment: 03_CONTROL_PLANE/09_COMMIT
-artifact_kind: NOTE
-path: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_PLACEHOLDER_AUDIT_2026-08-25.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Mode Placeholder Audit 2026 08 25
 tags:
-  - 00_mode_index
-  - 09_commit
-  - amos-os
-  - audit
-  - canon/control-plane
-  - canon/universe
-  - commit
-  - control-plane
-  - coverage
-  - mode_index
-  - note
-  - placeholder
-  - rscf
-  - placeholder_expanded
-  - readme
-  - validation
-version: 0.2.0
-updated: '2026-08-27'
-status: PLACEHOLDER_EXPANDED
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: 03_CONTROL_PLANE
-  regime: canon_placeholder
-  confidence_ceiling: source_supported
-  provenance_independence: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
 ---
+---
+# Mode Placeholder Audit 2026-08-25
 
-## 0. Canonical Status
-
-`MODE_PLACEHOLDER_AUDIT_2026-08-25.md` is an **ADD-ONLY placeholder-expanded artifact** for the **03_CONTROL_PLANE** plane segment.
-
-It reserves the canonical slot for the AMOS framework family named **AMOS Mode Placeholder Coverage Audit**.
-
-The artifact is presently:
-
-```text
-status: PLACEHOLDER_EXPANDED
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-```
-
-This artifact MUST NOT be interpreted as establishing completed, validated, or enforced canon.
-
-## 1. Governing Integrity Boundary
-
-The following distinctions are mandatory:
+## 0. Status
 
 ```text
 PLACEHOLDER != IMPLEMENTED
-
 ADDRESSABLE != VALIDATED
-
 DOCUMENTED != ENFORCED
-
 MODEL != OBSERVATION
-
 SOURCE_CLAIM != VERIFIED
-
 CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
 CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
 UNKNOWN/GAP != PASS
 ```
 
-No downstream layer may silently collapse these distinctions.
-
 Origin architect / steward: **Trang Phan**
 
-System: **AMOS OS**
+## 1. Purpose
 
-______________________________________________________________________
+Control plane artifacts. This artifact defines the Mode Placeholder Audit 2026-08-25 within the AMOS OS Control Plane plane, establishing the canonical contract, structural invariants, and integration points required for governed operation.
 
-# AMOS Mode Placeholder Coverage Audit
+## 2. Formal Definition
 
-## Scope
+| Property | Value |
+|:---|:---|
+| Artifact Type | CONTROL_PLANE |
+| Canonical Status | CONDITIONAL |
+| Epistemic Class | AMOS_MODEL |
+| RSCF State | OBSERVATION |
+| Implementation Status | NOT_ESTABLISHED |
+| Provenance Independence | NOT_ESTABLISHED |
 
-`AMOS_OS/21_DOMAINS/45_MODES`
+### Structural Invariants
 
-This audit covers the currently declared mode scaffold visible in Drive. It records placeholder presence only. It does not claim runtime implementation or empirical validation.
+1. **Integrity Dominance**: INTEGRITY > COMPLETENESS > FLUENCY > SPEED
+2. **Epistemic Discipline**: SOURCE_CLAIM != VERIFIED; MODEL != OBSERVATION
+3. **Scope Binding**: Claims valid only within declared scope and regime
+4. **Authority Boundary**: CAPABILITY != AUTHORITY; PROPOSAL != COMMIT
+5. **Causal Firewall**: No causal claim without causal evidence
+6. **Uncertainty Preservation**: UNKNOWN/GAP != PASS
 
-## Current scaffold contract
+### AMOS Law Compliance
 
-### Index layer
+| Law | Obligation |
+|:---|:---|
+| L0 Integrity | Integrity dominance; no fabricated closure |
+| L1 Epistemic | Evidence typing; source claim != verification |
+| L2 Provenance | Every claim traces to source |
+| L4 Causal | Causal firewall; correlation != causation |
+| L5 Scope | Claims valid only within scope/regime |
+| L7 Authority | No autonomous action beyond authority boundary |
+| L17 RSCF | Claim discipline; confidence ceiling enforced |
+| L27 Gap | Expose don't fill; gap is status not shame |
 
-`00_MODE_INDEX` holds the mode-level registries, queues, graph, coverage, conflicts, falsifiers, and revalidation placeholders.
+## 3. AMOS Architecture Integration
 
-### Direct mode layer
+This artifact integrates with the AMOS OS architecture through:
 
-`01_BASELINE` through `05_HEALING_RECOVERY` use the direct-mode minimum placeholder contract:
+- **Canon Plane**: Governed by [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- **Kernel Plane**: Connects to [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] for runtime enforcement
+- **Control Plane**: Routes through [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] for execution
+- **Knowledge Plane**: Indexed in [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]]
+- **SOTA Research**: Informed by [[22_RESEARCH/SOTA_RESEARCH_SYNTHESIS_2026-09-04|SOTA Synthesis Part 1]], [[22_RESEARCH/SOTA_RESEARCH_SYNTHESIS_2_2026-09-04|Part 2]], [[22_RESEARCH/SOTA_RESEARCH_SYNTHESIS_3_2026-09-04|Part 3]]
 
-- `MODE_SPEC.md`
-- `ACTIVATION_RULES.md`
-- `PROVENANCE.md`
+### H/M/L Resolution
 
-### Family layer
+- **H (High)**: Constitutional reasoning, irreversible actions → full proof capsule required
+- **M (Medium)**: Domain policy, reversible transformations → evidence + provenance required
+- **L (Low)**: Mechanical checks, local operations → type/format check sufficient
 
-Mode-family folders use the minimum family placeholder contract:
+### RSCF Classification
 
-- `MODE_FAMILY_SPEC.md`
-- `MODE_FAMILY_REGISTRY.md`
+- **State**: OBSERVATION (sourced from architectural specification)
+- **Claim Class**: OBSERVATION
+- **Confidence Ceiling**: source_supported (capped at 0.7 without independent validation)
+- **Provenance**: amos_architecture_2026-09-04
 
-This applies to the currently declared family folders:
+## 4. Cross-References
 
-- `06_REASONING_MODES`
-- `07_ROUTING_MODES`
-- `08_EXECUTION_MODES`
-- `09_GOVERNANCE_MODES`
-- `10_EPISTEMIC_MODES`
-- `11_SCALE_MODES`
-- `12_WORLD_MODEL_MODES`
-- `13_RECOVERY_DEGRADED_MODES`
-- `14_COMPOSITE_MODES`
-- `15_CUSTOM_MODES`
-- `17_ATTENTION_MODES` through `40_LIFECYCLE_MODES`
+- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+- [[00_ROOT/AMOS MOC|AMOS MOC]]
+- [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03|AMOS OS Audit 2026-09-03]]
 
-### Template layer
+## 5. Gaps
 
-`16_MODE_TEMPLATE` is the expanded contract template and contains the reserved slots for:
+- Implementation status NOT_ESTABLISHED — architecture defined, runtime not deployed
+- Provenance independence NOT_ESTABLISHED — single-source derivation
+- Canonical status CONDITIONAL — requires governed promotion for CANONICAL
+- Test coverage UNKNOWN — no executed validation evidence
+- External authority NOT_ESTABLISHED — no independent verification
 
-- README
-- MODE_SPEC
-- PURPOSE_SCOPE
-- ACTIVATION_RULES
-- PRECONDITIONS
-- INPUT_CONTRACT
-- OUTPUT_CONTRACT
-- DOMAIN_WEIGHTS
-- ENGINE_WEIGHTS
-- LAYER_WEIGHTS
-- ROUTING_BINDINGS
-- TRANSITION_RULES
-- EXIT_CRITERIA
-- SAFETY_GATES
-- GOVERNANCE
-- PROVENANCE
-- VALIDATION
-- BENCHMARKS
-- FAILURE_RECOVERY
-- OBSERVABILITY
-- COMPOSITION
-- ALIASES
-- DEPRECATION_SUPERSESSION
-- TESTS
+## 6. Ingestion Rule
 
-### Existing reasoning child modes
+```yaml
+AMOS_CANON_INGESTION_RULE:
+  existing_file:
+    preserve: true
+    overwrite: false
+  uncertainty:
+    action:
+      - MARK_GAP_OR_COMPETING
+      - NEVER_INVENT_CANON
+```
 
-The currently materialized children beneath `06_REASONING_MODES` are:
-
-- `01_EXPLORE`
-- `02_DIAGNOSE`
-- `03_DESIGN`
-- `04_AUDIT`
-- `05_MEASURE`
-
-Each currently carries the minimum child-mode placeholders:
-
-- `MODE_SPEC.md`
-- `PROVENANCE.md`
-
-## Integrity boundary
-
-A placeholder reserves an address; it does not establish:
-
-- child-mode canon not yet supplied;
-- activation semantics;
-- routing weights;
-- runtime behavior;
-- implementation status;
-- empirical performance;
-- authority;
-- production readiness.
-
-Do not create additional child-mode names merely to make the tree look complete. Unknown mode membership remains `UNKNOWN/GAP` until source-backed or explicitly approved as an AMOS model extension.
-
-## Current conclusion
-
-Family-level placeholder coverage is complete for the currently declared family folders.
-
-Child-mode ontology is complete only where child folders are actually declared. Undeclared child modes remain `UNKNOWN/GAP`.
-
-## Conclusion class
-
-`DERIVED`
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-______________________________________________________________________
+---
 
 RSCF-NODE
-node_id: mode_placeholder_audit_2026_08_25
-node_type: note
+
+node_id: 03_control_plane_09_commit_00_mode_index_mode_placeholder_audit_2026-08-25
+
+node_type: CONTROL_PLANE
+
 path: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_PLACEHOLDER_AUDIT_2026-08-25.md
+
+claim_class: OBSERVATION
+
+rscf_state: OBSERVATION
+
+canonical_status: CONDITIONAL
+
 RSCF-RELATIONS:
 
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-  claim_class: AMOS_MODEL
 
-______________________________________________________________________
-
-**MOC:** [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/00_MODE_INDEX_MOC|00_MODE_INDEX_MOC]]
+- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]

@@ -1,62 +1,46 @@
 ---
-title: 21 C11 Design Language Moc — Specialist Domain Specification
-type: domain_specification
-source: 21_DOMAINS
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 21_DOMAINS/00_INDEX/DOMAIN_EXTENSION_PROTOCOL
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-  scope: domain_specialization
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 21 C11 Design Language Moc
 tags:
-  - amos-os
-  - domains
-  - c01-c12
-  - 21-c11-design-language-moc
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# 21 C11 Design Language Moc — Specialist Domain Specification
+# 21 C11 Design Language — Map of Content
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Conclusion Class:** `AMOS_MODEL`
-> **Status:** `ACTIVE_SPECIFICATION`
-
----
-
-## 1. Domain Scope & Objectives
-
-`21_C11_DESIGN_LANGUAGE_MOC` defines the specialized domain models, ontologies, regulatory frameworks, and operational packages under `21_DOMAINS`.
-
-Governed under **Partition C: Cognitive Capability & Orchestration** and the [[21_DOMAINS/00_INDEX/DOMAIN_EXTENSION_PROTOCOL|DOMAIN_EXTENSION_PROTOCOL]].
+> [!ABSTRACT] Domain Executive Summary
+> **Domain Engine:** `C11_design_language` (Design Systems, Semiotics, Linguistics & UX Architecture).
+> **Structural Role:** Owns multi-modal expression mapping, semiotics, structural design tokens, cognitive UX, and linguistic root transformations in the AMOS Full Brain OS.
 
 ---
 
-## 2. Domain Rules & Invariants
+## 1. Core Architecture & Subsystem Artifacts
 
-1. **Non-Contradiction with Canon:** Specialist domain rules cannot supersede root axioms in `01_CANON`.
-2. **Explicit Confidence Attenuation:** Conclusions derived within `21_C11_DESIGN_LANGUAGE_MOC` must declare confidence ceilings ($\mathcal{C} \le 0.95$).
-3. **Cross-Regime Bridges:** Transfers from this domain to adjacent domains require formal translation penalties.
-
----
-
-## 3. Operational Mechanics & Datasets
-
-- **Domain Models:** Mathematical, empirical, or statistical formulations specific to `21 C11 Design Language Moc`.
-- **Allowed Tooling:** Strictly sandboxed Tier 1 and Tier 2 adapters.
-- **Verification Gates:** Invariant tests codified in `19_TESTS/`.
+* [[11_KNOWLEDGE/AMOS_C11_DESIGN_LANGUAGE_MASTER_KNOWLEDGE|AMOS C11 Design Language Master Knowledge]] — Authoritative 26 KB canonical domain corpus detailing design tokens, semiotics, visual grammars, and multimodal representation.
+* [[26_WORKFLOWS/amos-c11-design-language-master-workflow|amos-c11-design-language-master-workflow]] — Governed design system execution workflow.
+* [[05_COGNITIVE_ORGANISM/AMOS_LANGUAGE_RPG_ENGINE|AMOS Language RPG Transformation Engine]] — Root language infrastructure, semantic state progression, and narrative agency modeling.
+* [[21_DOMAINS/21_C11_DESIGN_LANGUAGE/DOMAINS_C11_DESIGN_LANGUAGE_CONTRACT|DOMAINS_C11_DESIGN_LANGUAGE_CONTRACT]] — Domain interface contract and invariant bounds.
+* [[21_DOMAINS/21_C11_DESIGN_LANGUAGE/C11_DESIGN_LANGUAGE_DOMAINS_DOMAIN_SPEC|C11_DESIGN_LANGUAGE_DOMAINS_DOMAIN_SPEC]] — Operational domain parameters.
 
 ---
 
-## 4. Integration
+## 2. Inbound & Outbound Interfaces
 
-- **Master Domain Hub:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]
-- **Protocol Standard:** [[21_DOMAINS/00_INDEX/DOMAIN_EXTENSION_PROTOCOL|DOMAIN_EXTENSION_PROTOCOL]]
-- **Agent Roles:** [[06_AGENTS/AGENT_ROLE_REGISTRY|AGENT_ROLE_REGISTRY]]
+* **Expression Gateway:** Binds directly to [[15_INTERFACES/15_INTERFACES_MOC|Expression Translation Gateway]] (`T_expression`).
+* **Omniverse Layers:** [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|Omniverse Brain Layer 9]] (Observer & Perspective) and Layer 10 (Agent & Fabrication).
+* **Parent Hub:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]].
+
+---
+[[21_DOMAINS/21_DOMAINS_MOC|Back to Domains MOC]] · [[00_ROOT/00_ROOT_MOC|Root MOC]]

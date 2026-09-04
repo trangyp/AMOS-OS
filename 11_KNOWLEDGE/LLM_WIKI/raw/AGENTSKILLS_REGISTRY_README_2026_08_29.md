@@ -1,17 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-date: 2026-08-29
-epistemic_class: OBSERVATION
-provenance: GitHub README, not independently verified
-rscf:
-  claim_class: DERIVED
-  provenance: GitHub README (kai98k/agent-skills-registry)
-  scope: AMOS_knowledge
-  state: SOURCE_CLAIM
-source: https://raw.githubusercontent.com/kai98k/agent-skills-registry/main/README.md
-title: AgentSkills Registry README — Raw Capture
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Agentskills Registry Readme 2026 08 29
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AgentSkills Registry README — Raw Capture
@@ -86,10 +90,10 @@ go build -o bin/agentskills .
 ### Verify
 
 ```bash
-## CLI usage
+# CLI usage
 ./cli/bin/agentskills --help
 
-## Search for skills
+# Search for skills
 ./cli/bin/agentskills search test
 ```
 
@@ -128,13 +132,13 @@ go build -o bin/agentskills .
 AgentSkills takes supply chain security seriously. Instead of blindly trusting external skills, you can **vendor** them into your repository with cryptographic verification:
 
 ```bash
-## Vendor a skill — downloads to vendor/skills/ and locks the checksum
+# Vendor a skill — downloads to vendor/skills/ and locks the checksum
 agentskills vendor code-review@1.2.0
 
-## Restore all vendored skills on a new machine (verifies checksums)
+# Restore all vendored skills on a new machine (verifies checksums)
 agentskills vendor
 
-## Remove a vendored skill
+# Remove a vendored skill
 agentskills vendor --remove code-review
 ```
 
@@ -162,7 +166,7 @@ Yes. The entire workflow — from scaffolding `SKILL.md` to pushing bundles — 
 Yes. The server is a standalone Go binary — deploy it with a single Docker command. Point your CLI to it with `--api-url` and you have a fully private registry, just like self-hosting GitLab. Ideal for enterprise or air-gapped environments.
 
 ```bash
-## Self-hosted example
+# Self-hosted example
 docker run -p 8000:8000 -v my-data:/data agentskills-server
 agentskills search test --api-url http://my-server:8000
 ```

@@ -1,48 +1,21 @@
 ---
-title: CANON ALIASES
-type: canon
-source: 01_CANON/06_GLOSSARY
-artifact_id: AMOS-OS-ALIASES
-canonical_name: ALIASES
-artifact_type: canonical_registry
-registry_type: identity_alias_registry
-status: SOURCE_CLAIM
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
 conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-domain: canon
-scope: AMOS_OS
-authority_scope: identity-resolution
-version: 1.0.0
-created: 2026-08-25
-updated: 2026-08-25
+epistemic_class: SOURCE_CLAIM
+topic: Canon Aliases
 tags:
-  - amos-os
-  - canon
-  - universe
-  - canon-group/meta
-  - canon/registry
-  - canon/identity
-  - canon/aliases
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
   - rscf/state/source-claim
-  - topic/identity-resolution
-  - topic/naming
-  - topic/provenance
-  - readme
-  - architecture
-  - neural-network
-  - amos-core-laws
-  - law-hierarchy
-aliases:
-  - AMOS Alias Registry - AMOS Identity Alias Registry - Canonical Alias Registry - Alias Resolu
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS OS Alias Registry
@@ -752,7 +725,7 @@ The following mappings establish root-level naming conventions.
 | `05_COGNITIVE_ORGANISM` | `COGNITIVE_ORGANISM`  |
 | `06_AGENTS`             | `AGENTS`              |
 | `07_SKILLS`             | `SKILLS`              |
-| `08_WORKFLOWS`          | `WORKFLOWS`           |
+| `26_WORKFLOWS`          | `WORKFLOWS`           |
 | `09_PROTOCOLS`          | `PROTOCOLS`           |
 | `10_MEMORY`             | `MEMORY`              |
 | `11_KNOWLEDGE`          | `KNOWLEDGE`           |
@@ -1673,7 +1646,7 @@ RSCF-RELATIONS:
 ## Related
 
 README ·
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]] ·
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]] ·
 [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] ·
 [[00_ROOT/SYSTEM_MAP|SYSTEM_MAP]] ·
 [[00_ROOT/NEURAL_NETWORK|NEURAL_NETWORK]] ·
@@ -1693,7 +1666,7 @@ NAMING_STANDARD ·
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

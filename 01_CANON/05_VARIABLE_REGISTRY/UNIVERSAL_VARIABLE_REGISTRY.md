@@ -1,59 +1,16 @@
 ---
-type: variable
-source: 01_CANON/05_VARIABLE_REGISTRY
-artifact_id: AMOS-UNIVERSAL-VARIABLE-REGISTRY
-name: UNIVERSAL_VARIABLE_REGISTRY
-title: AMOS Universal Variable Registry
-document_version: 1.0.0
-canon_version: 4.4
-amos_core_target: v4.4
-status: ACTIVE_CANON_CANDIDATE
-conclusion_class: AMOS_MODEL
-canon_group: meta
-canon_type: registry
-origin_architect: Trang Phan
-steward: Trang Phan
-created: 2026-08-25
-updated: 2026-08-25
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Universal Variable Registry
 tags:
-  - amos
-  - canon
-  - universe
-  - amos-os
-  - amos-core
-  - amos-core-v4-4
-  - registry
-  - variables
-  - symbols
-  - units
-  - types
-  - semantics
-  - scope
-  - provenance
-  - epistemics
-  - uncertainty
-  - causality
-  - state
-  - cognition
-  - rscf
-  - hml
-  - canon-group/meta
-  - canon/registry
-  - topic/variables
-  - topic/semantic-identity
-  - readme
-  - architecture
-  - placement-rules
-  - amos-core-laws
-  - law-hierarchy
-  - cognitive-matrix-architecture
-aliases:
-  - AMOS Universal Variable Registry - Universal Variable Registry - AMOS Variable Registry - AM
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AMOS Universal Variable Registry

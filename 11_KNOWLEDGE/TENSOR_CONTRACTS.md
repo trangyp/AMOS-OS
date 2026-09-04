@@ -1,23 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: TENSOR CONTRACTS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Tensor Contracts
 tags:
-  - tensor
-  - knowledge
-  - vault
-  - canon/knowledge
-  - evidence-tensor
-  - claim-tensor
-  - governance-tensor
-type: document
-source: 11_KNOWLEDGE/root
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # TENSOR CONTRACTS
@@ -77,7 +75,7 @@ Whether this dual typing is intentional requires broader schema canon if exact p
 
 ---
 
-## 1. Source-Defined Tensor Family
+# 1. Source-Defined Tensor Family
 
 The source defines six typed structures:
 
@@ -104,7 +102,7 @@ This family notation is a **DERIVED structural compression** of the six source d
 
 ---
 
-## 2. Universal Reasoning Tensor
+# 2. Universal Reasoning Tensor
 
 ## Source Contract
 
@@ -4974,3 +4972,9 @@ claim_class: AMOS_MODEL
 ---
 
 **END OF `TENSOR_CONTRACTS.md`**
+
+```
+
+```
+```
+```

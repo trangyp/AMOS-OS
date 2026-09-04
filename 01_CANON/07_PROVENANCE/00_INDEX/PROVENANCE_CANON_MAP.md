@@ -1,32 +1,28 @@
 ---
-type: canon
-source: 01_CANON/07_PROVENANCE/00_INDEX
-aliases:
-  - Provenance Canon Map
-canon_group: tech-ai
-canon_type: navigation
-document_version: 1.0.0
-origin_architect: Trang Phan
-rscf_state: derived
-status: ACTIVE_MOC
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Provenance Canon Map
 tags:
-  - canon
-  - provenance
-  - navigation
-  - canon/universe
-title: PROVENANCE CANON MAP
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: index_navigation
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # PROVENANCE CANON MAP
 
 This note is a MOC alias for the canonical provenance map.
 
-> For the full provenance canon, see [[01_CANON/07_PROVENANCE/00_INDEX/CANON_PROVENANCE_MAP|CANON_PROVENANCE_MAP]]|CANON PROVENANCE MAP.
+> For the full provenance canon, see [[01_CANON/07_PROVENANCE/00_INDEX/CANON_PROVENANCE_MAP|CANON PROVENANCE MAP.]]
 
 ______________________________________________________________________
 
@@ -34,7 +30,7 @@ ______________________________________________________________________
 
 - [[00_ROOT/00_HOME|00_HOME]]
 - [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

@@ -5,6 +5,7 @@ status: ACTIVE
 conclusion_class: DERIVED
 origin_architect: Trang Phan
 governed_by: [[21_DOMAINS/33_ORGANIZATIONAL_BEHAVIOR/DOMAINS_ORGANIZATIONAL_BEHAVIOR_CONTRACT.md|DOMAINS_ORGANIZATIONAL_BEHAVIOR_CONTRACT]]
+rscf-state: source-claim
 ---
 
 # 03_HUMAN_SYSTEMS_ENGINE Map of Content

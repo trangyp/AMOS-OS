@@ -1,73 +1,21 @@
 ---
-title: AMOS CORE DISTRIBUTED COGNITION CLUSTER ORCHESTRATOR
-type: note
-source: 01_CANON/01_CORE_LAWS
-artifact: AMOS_DISTRIBUTED_COGNITION_CLUSTER_ORCHESTRATOR.md
-artifact_id: amos_distributed_cognition_cluster_orchestrator
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/01_CORE_LAWS
-artifact_kind: ARCHITECTURE_KNOWLEDGE
-path: 11_KNOWLEDGE/AMOS_CORE/AMOS_DISTRIBUTED_COGNITION_CLUSTER_ORCHESTRATOR.md
-canon-group: amos-core
-schema_family: RSCF
-schema_role: KNOWLEDGE_RSCF
-schema_version: AMOS_CORE_v4.4-compatible-conceptual
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Core Distributed Cognition Cluster Orchestrator
 tags:
-  - amos-os
-  - amos_core
-  - cognition
-  - distributed_cognition
-  - cluster
-  - orchestrator
-  - multi_role_reasoning
-  - rscf
-  - fractal_knowledge
-  - provenance
-  - verification
-  - governance
-  - mvcc
-  - cas
-  - atomic_reasoning
-  - failure_recovery
-  - anti_sybil
-  - epistemic_firewall
-  - determinism
-  - canon/universe
-  - architecture
-  - validation
-  - agents
-  - memory
-  - law/L19-proof-capsule
-  - canon
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-version: 1.0.0
-updated: '2026-08-27'
-status: MODEL
-epistemic_class: AMOS_MODEL
-canonical_status: CONDITIONAL
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-production_status: UNKNOWN/GAP
-security_validation_status: UNKNOWN/GAP
-determinism_validation_status: UNKNOWN/GAP
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-overclaim_risk: true
-overclaim_note: 'Architecture-level descriptions are retained as AMOS_MODEL. Runtime, determinism, security, latency, production-readiness, autonomous operation, and performance claims remain CONDITIONAL, SOURCE_CLAIM, or UNKNOWN/GAP unless independently validated.
-
-  '
-rscf:
-  state: CONDITIONAL
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: core_laws
-  regime: conceptual_architecture
-  confidence_ceiling: source_supported
-  provenance_independence: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS CORE — Distributed Cognition Cluster Orchestrator
@@ -3324,7 +3272,7 @@ The governing invariant remains:
 ```
 ---
 
-**Related:**
+**Related:**  
 
 ---
 
@@ -3353,3 +3301,10 @@ The governing invariant remains:
 **Validation:** NOT_ESTABLISHED
 
 **Unresolved critical runtime claims:** UNKNOWN/GAP
+
+
+```
+
+```
+```
+```

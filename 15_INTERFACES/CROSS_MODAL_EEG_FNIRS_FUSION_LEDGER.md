@@ -63,6 +63,7 @@ The fused BCI classification accuracy of 94.6% substantially exceeds either moda
 - `DOCUMENTED != IMPLEMENTED` — The state-space architecture and telemetry are documented as a verified specification; continuous real-time closed-loop operation with adaptive model parameters is not established by this ledger alone.
 - The Balloon-Windkessel ODE is a physiological approximation; individual vascular geometry, vascular reactivity, and pathological coupling variations introduce model mismatch not captured by the fixed parameter set.
 - The 94.6% fused accuracy is measured on a specific paradigm and subject cohort; generalization across tasks, populations, and recording environments is not guaranteed.
+- The multi-rate EKF assumes linearized measurement models; strongly nonlinear neurovascular dynamics may require particle filter or unscented variants not documented here.
 
 ---
 

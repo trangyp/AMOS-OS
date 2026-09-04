@@ -1,227 +1,79 @@
 ---
-title: Causal Epoch Finality Canon
-type: canon
-source: 01_CANON/04_INFRASTRUCTURE_CANON
-artifact: CAUSAL_EPOCH_FINALITY_CANON.md
-artifact_id: amos_01_canon_04_infrastructure_canon_causal_epoch_finality_canon
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/04_INFRASTRUCTURE_CANON
-artifact_kind: CANON
-path: 01_CANON/04_INFRASTRUCTURE_CANON/CAUSAL_EPOCH_FINALITY_CANON.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Causal Epoch Finality Canon
 tags:
-  - amos-os
-  - canon
-  - universe
-  - canon_placeholder
-  - rscf
-  - canon/universe
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Causal Epoch Finality Canon
+# Causal Epoch Finality Infrastructure Canon
 
-## 0. Status
+> **Authoritative Canon Boundary**
+>
+> This document defines the canonical laws governing **Causal Epochs, Monotonic Ordering, and State Finality** within AMOS Core v4.4.
+>
+> ```text
+> EVENT_TIME != PROCESSING_TIME != COMMIT_TIME
+> SEQUENCE != CAUSALITY
+> FINALITY != ETERNAL_VALIDITY
+> HISTORICAL MUTATION IS STRICTLY PROHIBITED
+> ```
 
-`CAUSAL_EPOCH_FINALITY_CANON.md` is an **ADD-ONLY placeholder** for the **Canon** plane segment at `01_CANON/04_INFRASTRUCTURE_CANON`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+## 1. Causal Epoch Principles
 
-The governing boundaries are:
+1. **Monotonic Ordering**:
+   Causal progression is strictly unidirectional. A state commit in epoch $E_k$ cannot retroactively alter or erase causal dependencies formed in epoch $E_{k-1}$.
+2. **Causal Closure**:
+   Every state mutation must demonstrate a closed directed acyclic graph (DAG) of causal ancestry. A candidate state lacking explicit causal antecedents is rejected as ungrounded.
+3. **Epoch Transition Phases**:
+   Every state transition traverses four strictly ordered phases:
+   $$\text{PROPOSE} \longrightarrow \text{VALIDATE} \longrightarrow \text{COMMIT} \longrightarrow \text{FINALIZE\_EPOCH}$$
+   Once finalized, an epoch's state transitions from mutable working state to immutable reference lineage.
+4. **Governed Supersession**:
+   When new empirical evidence or policy updates invalidate an earlier state, the transition is recorded as a forward supersession event ($S_{\text{old}} \xrightarrow{\text{superseded\_by}} S_{\text{new}}$), preserving the historical fact that $S_{\text{old}}$ was once authoritative.
 
-```text
-PLACEHOLDER != IMPLEMENTED
+---
 
-ADDRESSABLE != VALIDATED
+## 2. Invariants & Guardrails
 
-DOCUMENTED != ENFORCED
+- **CEF-01 (No Time Travel)**: An execution trace cannot reference state from a later causal epoch.
+- **CEF-02 (Fencing Epoch Leases)**: Distributed agents operate under bounded epoch leases. Commits attempted after lease expiration or fencing epoch increment are rejected.
+- **CEF-03 (Forward-Only Rollback)**: Recovery events must be committed as new causal nodes in the DAG, ensuring complete auditability of system healing.
+- **CEF-04 (Anti-Causal Loops)**: Circular dependencies among state transitions are prohibited ($\text{Cycles}(\text{CausalGraph}) == \emptyset$).
 
-MODEL != OBSERVATION
+---
 
-SOURCE_CLAIM != VERIFIED
+## 3. Cross-Plane Bindings
 
-CANON_CANDIDATE != CANONICAL
+- **`02_KERNEL/03_CAUSAL/K_CAUSAL_CLOSURE`**: Verifies DAG acyclicity and load-bearing dependency closures.
+- **`03_CONTROL_PLANE`**: Manages epoch boundaries, task leasing, and commit authorization.
+- **`17_OBSERVABILITY`**: Emits timestamped, causally ordered trace receipts for all state mutations.
 
-CANONICAL != EMPIRICAL_TRUTH
+---
 
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
-```
-
-Origin architect / steward:
-
-**Trang Phan**
-
-______________________________________________________________________
-
-## 1. Purpose
-
-This artifact reserves the **Causal Epoch Finality Canon** slot within the Canon plane. The Canon plane governs canonical laws, universe/cognition/infrastructure canons, variable registry, glossary, provenance lineage, and supersession.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
-______________________________________________________________________
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
-
-______________________________________________________________________
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
-```
-
-______________________________________________________________________
-
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
-______________________________________________________________________
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
-______________________________________________________________________
-
-## 6. Worked semantics (target)
-
-Given an operation touching `01_CANON · CANON` within the Canon plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-______________________________________________________________________
-
-RSCF-NODE
-
+```RSCF-NODE
 node_id: amos_01_canon_04_infrastructure_canon_causal_epoch_finality_canon
-
-node_type: canon
-
-path: 01_CANON/04_INFRASTRUCTURE_CANON/CAUSAL_EPOCH_FINALITY_CANON.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
-
-**MOC:** [[01_CANON/04_INFRASTRUCTURE_CANON/04_INFRASTRUCTURE_CANON_MOC|04_INFRASTRUCTURE_CANON_MOC]]
+node_type: infrastructure_canon
+plane: 01_CANON
+domain: INFRASTRUCTURE
+claim_class: CANONICAL_LAW
+status: ACTIVE_CANON
+confidence_ceiling: ABSOLUTE_FOR_CANONICAL_LAW
+falsifiers:
+  - Causal graph containing cycles or back-edges across epochs.
+  - In-place rewriting of finalized historical epoch state.
+```

@@ -1,79 +1,109 @@
 ---
-title: "Cognitive Matrix Routing Contract — Holographic Tensor Contraction & Geodesic Routing Specification"
-type: subplane_contract
-plane: 25_COGNITIVE_MATRIX
-subplane: 10_ROUTING
-domain: C_COGNITIVE_CAPABILITY
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC
-    - 25_COGNITIVE_MATRIX/HOLOGRAPHIC_TENSOR_NETWORK_ROUTING
-    - 03_CONTROL_PLANE/COGNITIVE_VAULT_RESOLVER
-  scope: holographic_tensor_routing_and_geodesic_dispatch
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Cognitive Matrix Routing Contract
 tags:
-  - amos-os
-  - 25-cognitive-matrix
-  - holographic-routing
-  - tensor-contraction
-  - geodesic-dispatch
-  - minimal-entanglement
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Cognitive Matrix Routing Contract — Holographic Tensor Contraction & Geodesic Routing Specification
+# COGNITIVE MATRIX ROUTING CONTRACT
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Domain Alignment:** Domain C (Cognitive Capability / Orchestration)
-> **Conclusion Class:** `DERIVED` (RSCF Validated)
-> **Status:** `ACTIVE_SPECIFICATION`
+## 0. Status
 
----
+Cognitive Matrix-plane contract for **ROUTING CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
-## 1. Architectural Scope & Subsystem Role
+## 1. Scope
 
-`25_COGNITIVE_MATRIX/10_ROUTING` defines the holographic task routing engine, dynamic contraction sequence planning, and geodesic path minimization that dispatches reasoning tasks across the 19x19 AMOS Cognitive Matrix.
+Governs primitives L00–L29, lifecycle operations O00–O16, control planes C01–C09, scales, cell registry, routing, validation, generators as they bear on `ROUTING CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
 
-```text
-ROUTING != PROMISCUOUS_BROADCAST
-SHORTEST_PATH != MINIMAL_EPISTEMIC_RESISTANCE
-GEODESIC != EUCLIDEAN_STRAIGHT_LINE
-TENSOR_CONTRACTION == INFORMATION_FUSION
-```
+## 2. Contract terms
 
----
+- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
+- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
+- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
+- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
+- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
 
-## 2. Geodesic Task Routing Algorithm
+## 3. Invariants
 
-Incoming cognitive task requests $\mathbf{q} \in \mathbb{R}^d$ are mapped to source and target cells $\mathcal{C}_{\text{src}}, \mathcal{C}_{\text{dst}}$ on the matrix manifold $\mathcal{M}_{19 \times 19}$. The optimal routing path $\mathcal{P}^*$ minimizes total epistemic action $\mathcal{S}_{\text{route}}$:
+- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
+- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
+- Consequential effects emit receipts; rollback basin exists before mutation.
+- Competing hypotheses remain visible when evidence does not discriminate.
 
-$$\mathcal{P}^* = \arg\min_{\mathcal{P}} \int_{\mathcal{P}} \sqrt{g_{\mu\nu}(\mathbf{x}) \dot{x}^\mu \dot{x}^\nu} \, d\lambda + \sum_{k \in \mathcal{P}} \mathcal{E}_{\text{contraction}}(k)$$
+## 4. Executed reference
 
-Where:
-- $g_{\mu\nu}$: Information-geometric Fisher metric tensor on the cell state manifold.
-- $\mathcal{E}_{\text{contraction}}(k)$: Computational energy required to contract cell $k$'s bond tensor.
+No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
 
----
+## 5. Gaps
 
-## 3. Real-Time Routing SLA & Fault Tolerance
+Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
 
-| Routing Parameter | Bound / Target | Remediation Action |
-| :--- | :--- | :--- |
-| **Path Planning Latency** | $\le 250\text{ }\mu\text{s}$ | Fall back to pre-compiled static geodesic lookups |
-| **Max Intermediate Bond Dimension** | $\chi \le 64$ | Force SVD truncation with $\epsilon_{\text{svd}} = 10^{-5}$ |
-| **Dead Cell Bypass** | $< 50\text{ }\mu\text{s}$ | Dynamically route around quarantined cells via torus wrap |
+## 6. Falsifiers
 
----
+F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
 
-## 4. Lineage & Cross-Plane References
+## Worked semantics
 
-- **Parent MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
-- **Master Tensor Routing:** [[25_COGNITIVE_MATRIX/HOLOGRAPHIC_TENSOR_NETWORK_ROUTING|HOLOGRAPHIC_TENSOR_NETWORK_ROUTING]]
-- **Primitives Specification:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/COGNITIVE_MATRIX_PRIMITIVES_CONTRACT|COGNITIVE_MATRIX_PRIMITIVES_CONTRACT]]
-- **Control Plane Resolver:** [[03_CONTROL_PLANE/COGNITIVE_VAULT_RESOLVER|COGNITIVE_VAULT_RESOLVER]]
+Given an operation touching `COGNITIVE MATRIX · ROUTING CONTRACT` within the Cognitive Matrix plane:
+
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+
+## Promotion-gate checklist
+
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+
+## Cross-plane bindings
+
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+
+______________________________________________________________________
+
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+
+______________________________________________________________________
+
+**Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: cm_25_cognitive_matrix_10_routing_cognitive_matrix_routing_contract
+node_type: note
+path: 25_COGNITIVE_MATRIX/10_ROUTING/COGNITIVE_MATRIX_ROUTING_CONTRACT.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[25_COGNITIVE_MATRIX/10_ROUTING/10_ROUTING_MOC|10_ROUTING_MOC]]
+
+______________________________________________________________________
+
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

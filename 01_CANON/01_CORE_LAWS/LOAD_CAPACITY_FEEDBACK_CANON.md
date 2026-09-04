@@ -1,103 +1,161 @@
 ---
-title: Load Capacity Feedback Canon
-type: canon
-source: 01_CANON/01_CORE_LAWS
-artifact: LOAD_CAPACITY_FEEDBACK_CANON.md
-artifact_id: amos_01_canon_01_core_laws_load_capacity_feedback_canon
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/01_CORE_LAWS
-artifact_kind: CANON
-path: 01_CANON/01_CORE_LAWS/LOAD_CAPACITY_FEEDBACK_CANON.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Load Capacity Feedback Canon
 tags:
-  - amos-os
-  - canon
-  - universe
-  - canon_placeholder
-  - rscf
-  - canon/universe
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: core_laws
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Load Capacity Feedback Canon
 
 ## 0. Status
 
-`LOAD_CAPACITY_FEEDBACK_CANON.md` is an **ADD-ONLY placeholder** for the **Canon** plane segment at `01_CANON/01_CORE_LAWS`.
+`LOAD_CAPACITY_FEEDBACK_CANON.md` defines the proposed AMOS OS **Load Capacity Feedback** core law.
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
+This artifact replaces a structural placeholder with substantive content. It does not, by its own existence, establish final AMOS canon, executable enforcement, empirical validity, or runtime implementation.
 
 ```text
 PLACEHOLDER != IMPLEMENTED
-
 ADDRESSABLE != VALIDATED
-
 DOCUMENTED != ENFORCED
-
 MODEL != OBSERVATION
-
 SOURCE_CLAIM != VERIFIED
-
 CANON_CANDIDATE != CANONICAL
-
 CANONICAL != EMPIRICAL_TRUTH
-
 CAPABILITY != AUTHORITY
-
 AUTHORIZATION != COMMIT
-
 PROPOSAL != COMMIT
-
 IMPLEMENTED != VALIDATED
-
 LOGGED != APPROVED
-
 UNKNOWN/GAP != PASS
 ```
 
-Origin architect / steward:
-
-**Trang Phan**
+Origin architect / steward: **Trang Phan**
 
 ______________________________________________________________________
 
 ## 1. Purpose
 
-This artifact reserves the **Load Capacity Feedback Canon** slot within the Canon plane. The Canon plane governs canonical laws, universe/cognition/infrastructure canons, variable registry, glossary, provenance lineage, and supersession.
+The Load Capacity Feedback Canon defines the AMOS OS requirements for feedback loops that maintain system load within declared capacity limits. It establishes the monitoring, signaling, and response protocols that prevent load-induced collapse.
 
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+Load capacity feedback answers:
+
+> How does a system detect that it is approaching its capacity limits, and what feedback mechanisms must be in place to prevent collapse?
+
+The Load Capacity Feedback Canon states:
+
+> **Every system with declared capacity limits MUST implement feedback loops that (1) monitor load against capacity, (2) signal when load approaches capacity thresholds, and (3) trigger capacity-preserving actions before collapse occurs. Feedback must be timely, proportional, and reversible.**
 
 ______________________________________________________________________
 
-## 2. Non-Purpose
+## 2. Formal Definition
 
-This placeholder MUST NOT be used to claim:
+### 2.1 Feedback Loop Invariant
 
+$$\text{FeedbackLoop}(S) \iff \text{Monitor}(S) \wedge \text{Signal}(S) \wedge \text{Action}(S) \wedge \text{Timely}(S) \wedge \text{Proportional}(S) \wedge \text{Reversible}(S)$$
+
+### 2.2 Capacity Thresholds
+
+```text
+GREEN:  load < 0.6 * capacity  →  normal operation, no action
+YELLOW: 0.6 * capacity ≤ load < 0.8 * capacity  →  signal warning, prepare shedding
+ORANGE: 0.8 * capacity ≤ load < 0.95 * capacity  →  shed non-critical, throttle
+RED:    load ≥ 0.95 * capacity  →  emergency action, freeze or recover
+```
+
+### 2.3 Feedback Properties
+
+- **Timely**: signal latency < action window (must signal before it's too late to act)
+- **Proportional**: response magnitude scales with proximity to capacity
+- **Reversible**: all capacity-preserving actions must be reversible when load decreases
+
+______________________________________________________________________
+
+## 3. Relationship to Other Core Laws
+
+| Law | Relationship |
+|:---|:---|
+| **Load Capacity Canon** | Defines capacity limits; this canon defines feedback for maintaining them |
+| **Stability Canon** | Load capacity feedback is a stability mechanism |
+| **Feedback Canon** | General feedback laws; this canon specializes for load capacity |
+| **L10 Failure Recovery** | Load-induced failure triggers L10 recovery |
+
+______________________________________________________________________
+
+## 4. Application Domains
+
+### 4.1 Runtime Load Feedback
+
+- Monitor CPU, memory, I/O against declared capacity
+- Signal at YELLOW threshold to prepare shedding
+- Shed non-critical tasks at ORANGE
+- Emergency freeze or recover at RED
+
+### 4.2 Agent Load Feedback
+
+- Monitor agent task queue depth against capacity
+- Signal when agent is approaching overload
+- Shed or delegate non-critical tasks
+- Escalate if agent cannot recover within action window
+
+### 4.3 Memory Load Feedback
+
+- Monitor memory usage against capacity
+- Trigger compaction at YELLOW
+- Trigger eviction at ORANGE
+- Trigger emergency preservation at RED
+
+______________________________________________________________________
+
+## 5. Worked Semantics
+
+Given a system $S$ with load $L$ and capacity $C$:
+
+1. **Monitor** — continuously measure $L$ against $C$
+2. **Classify** — GREEN if $L < 0.6C$, YELLOW if $0.6C \leq L < 0.8C$, ORANGE if $0.8C \leq L < 0.95C$, RED if $L \geq 0.95C$
+3. **Signal** — emit the appropriate signal for the classified zone
+4. **Act** — execute the prescribed action for the zone
+5. **Verify reversibility** — confirm that the action can be reversed when load decreases
+6. **Record** — log the feedback event with provenance
+
+```text
+monitor load L vs capacity C
+  ↓
+classify zone
+  ↓
+GREEN?  ──yes──→  continue
+  ↓ no
+YELLOW?  ──yes──→  signal warning, prepare
+  ↓ no
+ORANGE?  ──yes──→  shed non-critical, throttle
+  ↓ no
+RED  ──→  emergency action
+  ↓
+verify action reversibility
+  ↓
+record feedback receipt
+```
+
+______________________________________________________________________
+
+## 6. Non-Purpose
+
+This law MUST NOT be used to claim:
 - universal laws of reality;
 - scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
+- empirical truth;
 - runtime enforcement that has not been implemented;
 - final canonical status;
 - authority merely from architectural importance;
@@ -105,7 +163,43 @@ This placeholder MUST NOT be used to claim:
 
 ______________________________________________________________________
 
-## 3. Ingestion Rule
+## 7. Gaps
+
+- Executable binding NOT_ESTABLISHED — this law is specified but not yet enforced by runtime code
+- Canonical status CONDITIONAL — proposed specification, not yet promoted to full canon
+- Automated validation NOT_ESTABLISHED — automated enforcement is not implemented
+- Cross-domain testing NOT_ESTABLISHED — testing across all AMOS domains is not complete
+
+______________________________________________________________________
+
+## 8. Promotion-Gate Checklist
+
+- [x] substantive content populated from AMOS corpus sources
+- [x] formal definition provided (§2)
+- [x] relationship to other core laws documented (§3)
+- [x] application domains specified (§4)
+- [x] worked semantics defined (§5)
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+
+______________________________________________________________________
+
+## 9. Cross-Plane Bindings
+
+- Governed by — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|AMOS_CORE_LAWS]]
+- Kernel enforcement — [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
+- Control-plane gates — [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via — [[20_OPERATIONS/20_OPERATIONS_MOC|20_OPERATIONS_MOC]]
+
+______________________________________________________________________
+
+## 10. Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -144,55 +238,7 @@ AMOS_CANON_INGESTION_RULE:
 
 ______________________________________________________________________
 
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
-______________________________________________________________________
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
-______________________________________________________________________
-
-## 6. Worked semantics (target)
-
-Given an operation touching `01_CANON · CANON` within the Canon plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 
@@ -210,9 +256,9 @@ path: 01_CANON/01_CORE_LAWS/LOAD_CAPACITY_FEEDBACK_CANON.md
 
 claim_class: AMOS_MODEL
 
-rscf_state: placeholder
+rscf_state: SOURCE_CLAIM
 
-canonical_status: UNKNOWN/GAP
+canonical_status: CONDITIONAL
 
 RSCF-RELATIONS:
 

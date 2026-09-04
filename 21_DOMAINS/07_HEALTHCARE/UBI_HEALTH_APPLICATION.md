@@ -1,62 +1,21 @@
 ---
-title: UBI Health Application Specification
-type: domain
-source: 21_DOMAINS/07_HEALTHCARE
-artifact: UBI_HEALTH_APPLICATION.md
-artifact_id: amos_21_domains_07_healthcare_ubi_health_application
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 21_DOMAINS
-segment: 21_DOMAINS/07_HEALTHCARE
-artifact_kind: DOMAIN_APPLICATION
-path: 21_DOMAINS/07_HEALTHCARE/UBI_HEALTH_APPLICATION.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Ubi Health Application
 tags:
-  - amos-os
-  - domain
-  - vault
-  - 07_healthcare
-  - ubi_health_application
-  - clinical_vitality
-  - preventive_medicine
-  - rscf
-  - canon_candidate
-  - canon/domain
-  - unified-biological-intelligence
-  - amos-medical-clinical-kernel
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
-    - 21_DOMAINS/07_HEALTHCARE/07_HEALTHCARE_MOC
-    - AMOS_CORPUS
-  scope:
-    - DOMAIN_HEALTHCARE
-    - UBI_HEALTH_APPLICATION
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  biological_master:
-    artifact:
-      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
-  healthcare_moc:
-    artifact:
-      -   - 07_HEALTHCARE_MOC
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  domain_structure: VERIFIED_SOURCE_STRUCTURE
-  health_application: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # UBI Clinical Health Application Specification

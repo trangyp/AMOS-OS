@@ -1,31 +1,27 @@
 ---
-title: AMOS Agent Role Registry
-type: registry
-source: 06_AGENTS
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_REGISTRY
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 06_AGENTS/AMOS_AGENT_SCHEMA_FULL
-    - 23_OPERATING_MODEL/01_ROLES/ROLE_REGISTRY
-  scope: agent_roles
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Agent Role Registry
 tags:
-  - amos-os
-  - agents
-  - roles
-  - taxonomy
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Agent Role Registry
 
-**Origin Architect / Steward:** Trang Phan
-**AMOS_CORE Target:** `v4.4`
+**Origin Architect / Steward:** Trang Phan  
+**AMOS_CORE Target:** `v4.4`  
 **Epistemic Class:** `AMOS_MODEL`
 
 ---
@@ -52,7 +48,7 @@ tags:
 | `SENTINEL_ED25519` | Keymaster | `18_SECURITY`, `03_CONTROL_PLANE` | Cryptographic signature verification | 16,000 | `AUTHORITATIVE` |
 | `SENTINEL_MACAROON` | Authz Gatekeeper | `03_CONTROL_PLANE`, `18_SECURITY` | Macaroon caveat attenuation checking | 16,000 | `DECISION` |
 | `SENTINEL_EGRESS` | Network Guard | `18_SECURITY`, `15_INTERFACES` | Outbound socket firewall rule enforcement | 16,000 | `DECISION` |
-| `SRE_INCIDENT` | Incident Commander | `20_OPERATIONS`, `08_WORKFLOWS` | Automated runbook execution, failover routing | 64,000 | `OBSERVATION` $\to$ `DECISION` |
+| `SRE_INCIDENT` | Incident Commander | `20_OPERATIONS`, `26_WORKFLOWS` | Automated runbook execution, failover routing | 64,000 | `OBSERVATION` $\to$ `DECISION` |
 | `SRE_BACKUP` | Archival Custodian | `20_OPERATIONS`, `24_ARCHIVE` | Snapshot validation, cryptographic checksums | 32,000 | `OBSERVATION` |
 
 ---

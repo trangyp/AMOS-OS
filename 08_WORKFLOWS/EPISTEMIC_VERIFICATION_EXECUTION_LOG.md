@@ -1,5 +1,5 @@
 ---
-title: Autonomous Multi-Agent Epistemic Verification — Execution Ledger
+title: "Autonomous Multi-Agent Epistemic Verification — Execution Ledger"
 type: verification_ledger
 plane: 08_WORKFLOWS
 amos_core_target: v4.4
@@ -19,11 +19,11 @@ rscf:
 
 # Autonomous Multi-Agent Epistemic Verification — Execution Ledger
 
-> **Pipeline Execution ID:** `RCPT-DD265BB5AA334527`
-> **Target Lineage:** `AMOS v4.4`
-> **Steward:** Trang Phan
-> **Overall Pipeline Status:** `100% PASSED (5/5 Stages Succeeded)`
-> **Cryptographic Proof Hash:** `dd265bb5aa33452797a4847b9a13188991173374035862456277b9899fd0b633`
+> **Pipeline Execution ID:** `RCPT-24EC6BED3AF4AB61`  
+> **Target Lineage:** `AMOS v4.4`  
+> **Steward:** Trang Phan  
+> **Overall Pipeline Status:** `100% PASSED (5/5 Stages Succeeded)`  
+> **Cryptographic Proof Hash:** `24ec6bed3af4ab610fe875d99c1fa4f5f732330d8092f50e1282a27eb4d2a8b6`
 
 ---
 
@@ -43,7 +43,7 @@ rscf:
   },
   "target_plane": "21_DOMAINS/41_QUANTUM_SYSTEMS",
   "falsification_condition": "Fidelity drops below 0.50 under squeezing r > 0.693 or negative entropy production",
-  "timestamp": 1788503624
+  "timestamp": 1788528835
 }
 ```
 
@@ -72,7 +72,7 @@ rscf:
     }
   ],
   "evidence_score": 0.985,
-  "harvest_timestamp": 1788503624
+  "harvest_timestamp": 1788528835
 }
 ```
 
@@ -112,12 +112,12 @@ rscf:
 ### Stage 5: Cryptographic Proof Finalization (`amos-proof-finalizer-agent`)
 ```json
 {
-  "receipt_id": "RCPT-DD265BB5AA334527",
-  "proof_hash": "dd265bb5aa33452797a4847b9a13188991173374035862456277b9899fd0b633",
+  "receipt_id": "RCPT-24EC6BED3AF4AB61",
+  "proof_hash": "24ec6bed3af4ab610fe875d99c1fa4f5f732330d8092f50e1282a27eb4d2a8b6",
   "algorithm": "BLAKE3/SHA256-RSCF-V4.4",
   "steward": "Trang Phan",
   "promoted_to_canon": true,
-  "timestamp": 1788503624
+  "timestamp": 1788528835
 }
 ```
 

@@ -1,9 +1,9 @@
 ---
 artifact_id: AMOS-AGENT-SCHEMA
 name: amos-agent-schema-full
-title: AMOS Agent Schema — Full Governed Specification
+title: "AMOS Agent Schema — Full Governed Specification"
 document_version: "3.0.0"
-schema_version: 3.0.0
+schema_version: "3.0.0"
 supersedes_schema: "2.0.0-full"
 amos_core_target: "v4.4"
 created: "2026-08-22"
@@ -33,10 +33,10 @@ governing_law: "integrity > completeness > fluency > speed > token savings"
 
 # AMOS Agent Schema — Full Governed Specification
 
-> **Schema version:** `3.0.0`
-> **Supersedes:** `2.0.0-full`
-> **AMOS_CORE target:** `v4.4`
-> **Origin architect / steward:** Trang Phan
+> **Schema version:** `3.0.0`  
+> **Supersedes:** `2.0.0-full`  
+> **AMOS_CORE target:** `v4.4`  
+> **Origin architect / steward:** Trang Phan  
 > **Conclusion class:** `AMOS_MODEL`
 
 The AMOS Agent Schema is the canonical construction contract for defining an agent inside the AMOS / Unified OS ecosystem.
@@ -67,7 +67,7 @@ IDENTITY
 
 ---
 
-## 0. VERSION / LINEAGE MODEL
+# 0. VERSION / LINEAGE MODEL
 
 The schema has three separate version axes:
 
@@ -125,7 +125,7 @@ SchemaValid
 
 ---
 
-## 1. DESIGN PRINCIPLES
+# 1. DESIGN PRINCIPLES
 
 ## 1.1 Capability is not authority
 
@@ -169,7 +169,7 @@ A generated answer or tool proposal becomes an effect only after applicable gate
 
 ---
 
-## 2. H / M / L ARCHITECTURE
+# 2. H / M / L ARCHITECTURE
 
 ```text
 H — Agent sovereignty
@@ -210,7 +210,7 @@ L-level execution cannot silently redefine H-level authority.
 
 ---
 
-## 3. EXTERNALIZATION MODEL
+# 3. EXTERNALIZATION MODEL
 
 AMOS separates agent cognition into explicit artifacts:
 
@@ -253,7 +253,7 @@ OneOffFact → CONTEXT
 
 ---
 
-## 4. ROOT AGENT OBJECT
+# 4. ROOT AGENT OBJECT
 
 ```yaml
 AGENT:
@@ -286,7 +286,7 @@ AGENT:
 
 ---
 
-## 5. IDENTITY CONTRACT
+# 5. IDENTITY CONTRACT
 
 ```yaml
 identity:
@@ -316,7 +316,7 @@ identity:
 
 ---
 
-## 6. OBJECTIVE CONTRACT
+# 6. OBJECTIVE CONTRACT
 
 ```yaml
 objective:
@@ -350,7 +350,7 @@ LockedUserObjective
 
 ---
 
-## 7. SCOPE CONTRACT
+# 7. SCOPE CONTRACT
 
 ```yaml
 scope:
@@ -381,7 +381,7 @@ ScopeMatch
 
 ---
 
-## 8. AUTHORITY CONTRACT
+# 8. AUTHORITY CONTRACT
 
 The source v2 schema lacked a first-class authority model. v3 adds one.
 
@@ -433,7 +433,7 @@ High-impact effects require fresh authority at commit.
 
 ---
 
-## 9. CAPABILITY PROFILE
+# 9. CAPABILITY PROFILE
 
 ```yaml
 capabilities:
@@ -481,7 +481,7 @@ Capability:
 
 ---
 
-## 10. LANGUAGE / PERSONA
+# 10. LANGUAGE / PERSONA
 
 ```yaml
 language_persona:
@@ -508,7 +508,7 @@ Persona must not override Safety, Authority, or Evidence.
 
 ---
 
-## 11. INPUT CONTRACT
+# 11. INPUT CONTRACT
 
 ```yaml
 input_contract:
@@ -539,7 +539,7 @@ input_contract:
 
 ---
 
-## 12. CONTEXT PRIORITY
+# 12. CONTEXT PRIORITY
 
 Governed resolution:
 
@@ -563,7 +563,7 @@ Priority does not permit violation of higher-order safety or authority constrain
 
 ---
 
-## 13. OUTPUT CONTRACT
+# 13. OUTPUT CONTRACT
 
 ```yaml
 output_contract:
@@ -590,7 +590,7 @@ output_contract:
 
 ---
 
-## 14. EPISTEMIC CLASSES
+# 14. EPISTEMIC CLASSES
 
 ```text
 SOURCE_CLAIM
@@ -615,7 +615,7 @@ unless independently revalidated.
 
 ---
 
-## 15. PROVENANCE CONTRACT
+# 15. PROVENANCE CONTRACT
 
 ```yaml
 provenance:
@@ -650,7 +650,7 @@ Aliases, summaries, copies, and transformations retain ancestry.
 
 ---
 
-## 16. MEMORY CONTRACT
+# 16. MEMORY CONTRACT
 
 ```yaml
 memory:
@@ -686,7 +686,7 @@ Memory must not silently authorize irreversible action.
 
 ---
 
-## 17. SKILL CONTRACT
+# 17. SKILL CONTRACT
 
 ```yaml
 skills:
@@ -706,7 +706,7 @@ skills:
 
 ---
 
-## 18. TOOL CONTRACT
+# 18. TOOL CONTRACT
 
 ```yaml
 tools:
@@ -730,7 +730,7 @@ tools:
 
 ---
 
-## 19. READ / WRITE SETS
+# 19. READ / WRITE SETS
 
 ```yaml
 transaction:
@@ -752,7 +752,7 @@ StaleRead
 
 ---
 
-## 20. SESSION CONTROL PLANE
+# 20. SESSION CONTROL PLANE
 
 ```yaml
 session:
@@ -778,7 +778,7 @@ session:
 
 ---
 
-## 21. INFORMATION BOUNDARY
+# 21. INFORMATION BOUNDARY
 
 ```yaml
 information_boundary:
@@ -808,7 +808,7 @@ AllowedCumulatively
 
 ---
 
-## 22. IP / PRIVACY
+# 22. IP / PRIVACY
 
 ```yaml
 ip_privacy:
@@ -836,7 +836,7 @@ cryptographic secrecy
 
 ---
 
-## 23. SAFETY CONTRACT
+# 23. SAFETY CONTRACT
 
 ```yaml
 safety:
@@ -854,7 +854,7 @@ safety:
 
 ---
 
-## 24. RISK CONTRACT
+# 24. RISK CONTRACT
 
 ```yaml
 risk:
@@ -884,7 +884,7 @@ risk:
 
 ---
 
-## 25. RUNTIME STATE MACHINE
+# 25. RUNTIME STATE MACHINE
 
 ```text
 CREATED
@@ -910,7 +910,7 @@ Invalid transitions fail closed.
 
 ---
 
-## 26. RESPONSE PIPELINE
+# 26. RESPONSE PIPELINE
 
 ```text
 INPUT
@@ -952,7 +952,7 @@ COMMIT
 
 ---
 
-## 27. RSCF CONTRACT
+# 27. RSCF CONTRACT
 
 ```yaml
 RSCF:
@@ -976,7 +976,7 @@ RSCF:
 
 ---
 
-## 28. DEPENDENCY GRAPH
+# 28. DEPENDENCY GRAPH
 
 ```text
 Identity
@@ -1003,7 +1003,7 @@ Identity
 
 ---
 
-## 29. SELECTIVE INVALIDATION
+# 29. SELECTIVE INVALIDATION
 
 ```text
 Invalid(p)
@@ -1026,7 +1026,7 @@ stale memory
 
 ---
 
-## 30. COMPETING HYPOTHESES
+# 30. COMPETING HYPOTHESES
 
 ```yaml
 COMPETING:
@@ -1045,7 +1045,7 @@ Do not force convergence solely for fluency.
 
 ---
 
-## 31. CAUSAL FIREWALL
+# 31. CAUSAL FIREWALL
 
 ```text
 association
@@ -1064,7 +1064,7 @@ No promotion without evidence appropriate to the target type.
 
 ---
 
-## 32. OBSERVABILITY
+# 32. OBSERVABILITY
 
 ```yaml
 observability:
@@ -1095,7 +1095,7 @@ Do not export hidden chain-of-thought.
 
 ---
 
-## 33. AUDIT
+# 33. AUDIT
 
 ```yaml
 audit:
@@ -1135,7 +1135,7 @@ audit:
 
 ---
 
-## 34. MECE REQUIREMENTS
+# 34. MECE REQUIREMENTS
 
 ```text
 Every capability
@@ -1156,7 +1156,7 @@ interactions:
 
 ---
 
-## 35. VALIDATION SUITE
+# 35. VALIDATION SUITE
 
 Minimum deterministic schema tests:
 
@@ -1189,7 +1189,7 @@ T24 migration v2 → v3 preserves source fields
 
 ---
 
-## 36. MIGRATION FROM v2.0.0-full
+# 36. MIGRATION FROM v2.0.0-full
 
 ```text
 Load(v2)
@@ -1241,7 +1241,7 @@ Commit(v3)
 
 ---
 
-## 37. FACTORY / ASSEMBLY CONTRACT
+# 37. FACTORY / ASSEMBLY CONTRACT
 
 ```yaml
 assembly:
@@ -1272,7 +1272,7 @@ assembly:
 
 ---
 
-## 38. DEPENDENCY REGISTRY
+# 38. DEPENDENCY REGISTRY
 
 The source references:
 
@@ -1289,7 +1289,7 @@ These remain `SOURCE_REFERENCES` until existence and compatibility are independe
 
 ---
 
-## 39. COUNTRY OVERLAYS
+# 39. COUNTRY OVERLAYS
 
 ```yaml
 CountryOverlay:
@@ -1313,7 +1313,7 @@ higher-order safety or authority constraints.
 
 ---
 
-## 40. DOMAIN ENGINE CONTRACT
+# 40. DOMAIN ENGINE CONTRACT
 
 ```yaml
 DomainEngine:
@@ -1336,7 +1336,7 @@ Cross-domain governance belongs in the AMOS control plane.
 
 ---
 
-## 41. AGENT INSTANCE LIFECYCLE
+# 41. AGENT INSTANCE LIFECYCLE
 
 ```yaml
 lifecycle:
@@ -1361,7 +1361,7 @@ lifecycle:
 
 ---
 
-## 42. RECOVERY
+# 42. RECOVERY
 
 ```text
 Failure
@@ -1383,7 +1383,7 @@ Global reset is last resort.
 
 ---
 
-## 43. FAILURE REGISTRY
+# 43. FAILURE REGISTRY
 
 ```text
 F01 OBJECTIVE_DRIFT
@@ -1408,7 +1408,7 @@ F18 HIDDEN_REASONING_DISCLOSURE
 
 ---
 
-## 44. GOVERNED AGENT EQUATION
+# 44. GOVERNED AGENT EQUATION
 
 Conceptual AMOS model:
 
@@ -1441,7 +1441,7 @@ Class: `AMOS_MODEL`
 
 ---
 
-## 45. ACTION COMMIT EQUATION
+# 45. ACTION COMMIT EQUATION
 
 ```text
 Commit(effect)
@@ -1464,7 +1464,7 @@ Any hard gate failure:
 
 ---
 
-## 46. RSCF NODE
+# 46. RSCF NODE
 
 ```yaml
 node_id: AMOS_AGENT_SCHEMA_V3
@@ -1513,7 +1513,7 @@ confidence_ceiling:
 
 ---
 
-## 47. CHANGELOG
+# 47. CHANGELOG
 
 ## v3.0.0 — 2026-08-25
 
@@ -1566,7 +1566,7 @@ confidence_ceiling:
 
 ---
 
-## 48. FULL MACHINE-READABLE v3 SCHEMA
+# 48. FULL MACHINE-READABLE v3 SCHEMA
 
 ```json
 {
@@ -1768,13 +1768,13 @@ confidence_ceiling:
 
 ---
 
-## 49. PRESERVED SOURCE CONTRACT
+# 49. PRESERVED SOURCE CONTRACT
 
 The original `2.0.0-full` schema remains the provenance source for this version. Its major concepts are preserved through the migration table above rather than silently discarded.
 
 ---
 
-## 50. FINAL AMOS POSITION
+# 50. FINAL AMOS POSITION
 
 The strongest form of `AGENT_SCHEMA` is not:
 

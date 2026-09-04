@@ -1,81 +1,16 @@
 ---
-type: architecture
-source: 00_ROOT
-aliases:
-  -   -   - ARCHITECTURE
-  - AMOS OS Architecture
-  - AMOS Root Architecture
-  - AMOS System Architecture
-  - AMOS Operating Architecture
-artifact_id: AMOS-OS-ROOT-ARCHITECTURE
-name: AMOS_OS_ARCHITECTURE
-title: AMOS OS Architecture — Root System Architecture
-document_version: 2.0.0
-architecture_version: 1.0.0
-amos_core_target: v4.4
-status: ACTIVE_ARCHITECTURE
-conclusion_class: SOURCE_CLAIM / AMOS_MODEL
-rscf_state: derived
-canon_group: tech-ai
-canon_type: architecture
-origin_architect: Trang Phan
-steward: Trang Phan
-created: '2026-08-25'
-updated: '2026-08-25'
-scope:
-  - AMOS_OS - repository_architecture - runtime_architecture - cognition_architecture - govern
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: 00 Root Architecture
 tags:
-  - amos
-  - amos-os
-  - root
-  - amos-os
-  - architecture
-  - system-architecture
-  - root-architecture
-  - operating-system
-  - cognitive-architecture
-  - agent-architecture
-  - runtime
-  - kernel
-  - control-plane
-  - governance
-  - provenance
-  - rscf
-  - gmef
-  - hml
-  - fractal-knowledge-network
-  - memory
-  - state
-  - knowledge
-  - skills
-  - workflows
-  - protocols
-  - tools
-  - models
-  - observability
-  - security
-  - testing
-  - operations
-  - domains
-  - cognitive-matrix
   - canon-group/tech-ai
-  - canon/architecture
   - rscf/claim
   - rscf/provenance
-  - rscf/state/derived
-  - topic/amos-os
-  - topic/system-architecture
-  - topic/cognitive-operating-system
-  - full-tree
-  - authoritative-state
-  - placement-rules
-  - roadmap
-  - amos-core-laws
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: root_index
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AMOS OS Architecture
@@ -193,7 +128,7 @@ AMOS_OS/
 ├── 05_COGNITIVE_ORGANISM
 ├── 06_AGENTS
 ├── 07_SKILLS
-├── 08_WORKFLOWS
+├── 26_WORKFLOWS
 ├── 09_PROTOCOLS
 ├── 10_MEMORY
 ├── 11_KNOWLEDGE
@@ -451,7 +386,7 @@ They do not grant authority by themselves.
 
 ______________________________________________________________________
 
-## 4.9 `08_WORKFLOWS`
+## 4.9 `26_WORKFLOWS`
 
 Repeatable multi-stage procedures.
 
@@ -2201,7 +2136,7 @@ ______________________________________________________________________
    ↓
 06_AGENTS
    ↓
-07_SKILLS / 08_WORKFLOWS / 09_PROTOCOLS
+07_SKILLS / 26_WORKFLOWS / 09_PROTOCOLS
    ↓
 14_TOOLS / 15_INTERFACES
 
@@ -2594,7 +2529,7 @@ This fills the former root placeholder using the AMOS Full Brain OS structural b
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

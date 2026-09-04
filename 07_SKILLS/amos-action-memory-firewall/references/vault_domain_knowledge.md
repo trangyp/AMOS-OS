@@ -1,25 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Vault Domain Knowledge — Amos Action Memory Firewall
-type: reference
-source: 07_SKILLS/amos-action-memory-firewall/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Vault Domain Knowledge
 tags:
-  - reference
-  - amos-action-memory-firewall
-  - type/skill
-  - 2026-08-22-amos-obsidian-memory-bridge
-  - law-hierarchy
-  - 2026-08-22-cognitive-substrate-reality-gate
-  - 2026-08-22-cognitive-substrate-reasoning-graph
-  - 2026-08-22-amos-go-board-19x19-formal-system
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Vault-Sourced Domain Knowledge
@@ -257,13 +253,13 @@ ______________________________________________________________________
 ```bash
 cd cosmo-brain
 
-## Type-check module
+# Type-check module
 npx tsc --noEmit AMOS_Kafka_Brain_Buffer_v1.0.ts
 
-## Run test suite
+# Run test suite
 npx ts-node --transpile-only AMOS_Kafka_Brain_Buffer_v1.0.test.ts
 
-## Generate sample events
+# Generate sample events
 python3 test_kafka_brain_buffer_generator.py --pattern all --output jsonl
 python3
 

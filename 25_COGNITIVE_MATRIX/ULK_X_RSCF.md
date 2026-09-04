@@ -1,46 +1,16 @@
 ---
-title: ULK X RSCF
-type: cognitive
-source: 25_COGNITIVE_MATRIX
-artifact: ULK_X_RSCF.md
-artifact_id: amos_25_cognitive_matrix_ulk_x_rscf
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 25_COGNITIVE_MATRIX
-segment: 25_COGNITIVE_MATRIX
-artifact_kind: MATRIX
-path: 25_COGNITIVE_MATRIX/ULK_X_RSCF.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Ulk X Rscf
 tags:
-  - amos-os
-  - cognitive-matrix
-  - canon/matrix
-  - rscf
-  - provenance
-  - reality-x-ulk
-  - ulk-logic-kernel
-  - ulk-x-rscf
-  - law/L19-proof-capsule
-  - ulk-x-rscf-matrix
-  - k-provenance
-  - k-fail-closed
-  - amos-core-v4-4
-version: 1.0.0
-updated: '2026-08-28'
-status: CANON_CANDIDATE
-epistemic_class: AMOS_MODEL
-canonical_status: CANDIDATE_PENDING_VALIDATION
-implementation_status: CONCEPTUAL
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: AMOS_cognitive_matrix
-  confidence_ceiling: SOURCE_DEPENDENT
-  regime: AMOS_OS_MODEL
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 Below is the expanded **Obsidian-native canonical candidate**. I preserve the source-defined compiler invariant and Proof Conservation Law, while treating the visibly corrupted equation tokens conservatively. The recoverable structure is `∀ op ∈ {...}, ∃ Capsule = ⟨H(Intent), M(ProofSteps), L(Receipt)⟩`; the exact corrupted ALU-0/ALU-4 glyphs remain subordinate to \`\`.
@@ -258,7 +228,7 @@ epistemic_boundary:
 
 ---
 
-## 0. Artifact Identity
+# 0. Artifact Identity
 
 | Field | Value |
 |---|---|
@@ -280,7 +250,7 @@ epistemic_boundary:
 
 ---
 
-## 1. Source-Grounded Core
+# 1. Source-Grounded Core
 
 The supplied source defines `ULK_X_RSCF` as the specification that:
 
@@ -326,7 +296,7 @@ These mappings are explicit enough to preserve as canonical source structure.
 
 ---
 
-## 2. Source Recovery Note
+# 2. Source Recovery Note
 
 The supplied mathematical expression contains encoding corruption resembling:
 
@@ -383,7 +353,7 @@ $$
 
 ______________________________________________________________________
 
-## 3. Compiler Transformation Invariant
+# 3. Compiler Transformation Invariant
 
 ## 3.1 Canonical Form
 
@@ -4005,7 +3975,7 @@ ______________________________________________________________________
 
 ## 112. Obsidian Dataview — ULK × RSCF Family
 
-```text
+```dataview
 TABLE
   artifact_kind AS "Kind",
   version AS "Version",
@@ -4020,7 +3990,7 @@ ______________________________________________________________________
 
 ## 113. Obsidian Dataview — Logic Proof Mesh
 
-```text
+```dataview
 TABLE
   title AS "Artifact",
   plane AS "Plane",
@@ -4034,7 +4004,7 @@ ______________________________________________________________________
 
 ## 114. Obsidian Dataview — RSCF Proof Capsules
 
-```text
+```dataview
 TABLE
   title AS "Artifact",
   plane AS "Plane",
@@ -4048,7 +4018,7 @@ ______________________________________________________________________
 
 ## 115. Obsidian Dataview — ULK Family
 
-```text
+```dataview
 TABLE
   artifact AS "Artifact",
   artifact_kind AS "Kind",
@@ -4062,7 +4032,7 @@ ______________________________________________________________________
 
 ## 116. Obsidian Dataview — Verification Surface
 
-```text
+```dataview
 TABLE
   title AS "Artifact",
   artifact_kind AS "Kind",
@@ -4077,7 +4047,7 @@ ______________________________________________________________________
 
 ## 117. Obsidian Dataview — Cognitive Matrix
 
-```text
+```dataview
 TABLE
   artifact AS "Artifact",
   artifact_kind AS "Kind",
@@ -4631,7 +4601,7 @@ RSCF-RELATIONS:
 ```
 ---
 
-## 127. Final Integrity Statement
+# 127. Final Integrity Statement
 
 > [!success] Source-grounded core
 > The supplied artifact supports a deterministic ULK → RSCF compilation model and explicitly establishes:
@@ -4768,3 +4738,10 @@ $$
 ---
 
 **END OF `ULK_X_RSCF.md`**
+
+
+```
+
+```
+```
+```

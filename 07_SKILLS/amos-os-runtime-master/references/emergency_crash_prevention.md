@@ -1,21 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: emergency crash prevention
-type: reference
-source: 07_SKILLS/amos-os-runtime-master/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Emergency Crash Prevention
 tags:
-  - reference
-  - amos-os-runtime-master
-  - type/skill
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Emergency Crash Prevention
@@ -74,21 +74,21 @@ ______________________________________________________________________
 ### Emergency Crash Prevention Protocol
 
 ```python
-## Emergency crash prevention system
+# Emergency crash prevention system
 import psutil
 import gc
 import os
 
-## Terminate all Python processes
+# Terminate all Python processes
 for proc in psutil.process_iter(['pid', 'name']):
     if 'python' in proc.info['name'].lower():
         p = psutil.Process(proc['pid'])
         p.terminate()
 
-## Force garbage collection
+# Force garbage collection
 gc.collect()
 
-## Kill remaining processes
+# Kill remaining processes
 os.system('pkill -f python')
 ```
 

@@ -1,134 +1,109 @@
 ---
-title: Causal Kernel Contract — Subplane Governance Specification
-type: specification
-source: 02_KERNEL/03_CAUSAL
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 02_KERNEL/KERNEL_KERNEL_CONTRACT
-    - 01_CANON/01_CORE_LAWS/CANON_CORE_LAWS_CONTRACT
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-  scope: subplane_governance
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Kernel Causal Contract
 tags:
-  - amos-os
-  - 02-kernel
-  - causal
-  - specification
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Causal Kernel Contract — Subplane Governance Specification
+# KERNEL CAUSAL CONTRACT
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Epistemic Class:** `AMOS_MODEL`
-> **Status:** `ACTIVE_SPECIFICATION`
+## 0. Status
 
----
+Kernel-plane contract for **CAUSAL CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
-## 1. Architectural Scope & Purpose
+## 1. Scope
 
-`KERNEL_CAUSAL_CONTRACT` governs the causal inference engines, structural causal models (SCM), counterfactual reasoning manifolds, and do-calculus intervention evaluators across the AMOS Kernel. It guarantees that observational correlations are strictly separated from causal mechanisms, preventing spurious associations from driving system actions or architectural modifications.
+Governs kernel-plane reasoning primitives: meta-logic, cognition, causality, state, memory, risk-repair, authority, provenance, integration as they bear on `CAUSAL CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
 
----
+## 2. Contract terms
 
-## 2. Mathematical Foundations & Structural Causal Models
+- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
+- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
+- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
+- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
+- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
 
-A Structural Causal Model (SCM) $\mathcal{M}_{\text{causal}}$ is formalized as a 4-tuple:
+## 3. Invariants
 
-$$\mathcal{M}_{\text{causal}} = \langle \mathbf{U}, \mathbf{V}, \mathbf{F}, \mathbb{P}(\mathbf{U}) \rangle$$
+- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
+- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
+- Consequential effects emit receipts; rollback basin exists before mutation.
+- Competing hypotheses remain visible when evidence does not discriminate.
 
-Where:
-- $\mathbf{U} = \{ U_1, \dots, U_m \}$ is the set of exogenous background variables distributed according to $\mathbb{P}(\mathbf{U})$.
-- $\mathbf{V} = \{ V_1, \dots, V_n \}$ is the set of endogenous system variables.
-- $\mathbf{F} = \{ f_1, \dots, f_n \}$ is a set of deterministic structural equations:
-  $$V_i = f_i(\mathbf{PA}_i, U_i)$$
-  Where $\mathbf{PA}_i \subset \mathbf{V}$ represents the direct causal parents of $V_i$.
+## 4. Executed reference
 
-### The Causal Hierarchy (Pearl's Ladder of Causation):
-1. **Layer 1: Association (Seeing):** $\mathbb{P}(y \mid x)$ (Conditional probability).
-2. **Layer 2: Intervention (Doing):** $\mathbb{P}(y \mid \text{do}(x))$ (Calculated via Backdoor / Frontdoor criteria).
-3. **Layer 3: Counterfactuals (Imagining):** $\mathbb{P}(y_x \mid x', y')$ (Twin network method).
+No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
 
-### Do-Calculus Invariant:
-Intervention formula under Backdoor criterion for set $\mathbf{Z}$:
-$$\mathbb{P}(Y = y \mid \text{do}(X = x)) = \sum_{\mathbf{z}} \mathbb{P}(Y = y \mid X = x, \mathbf{Z} = \mathbf{z}) \mathbb{P}(\mathbf{Z} = \mathbf{z})$$
-Provided no vertex in $\mathbf{Z}$ is a descendant of $X$, and $\mathbf{Z}$ blocks every path between $X$ and $Y$ containing an arrow into $X$.
+## 5. Gaps
 
----
+Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
 
-## 3. Epistemic Invariants & Confounder Defense
+## 6. Falsifiers
 
-1. **`CORRELATION != CAUSATION`**: Statistical significance ($p < 0.001$, high mutual information $I(X; Y)$) must never be encoded as a directed causal edge $X \to Y$ without satisfying do-calculus identification or interventional RCT evidence.
-2. **Acyclicity Invariant:** The causal graph $\mathcal{G} = (\mathbf{V}, \mathbf{PA})$ must remain a strict Directed Acyclic Graph (DAG) ($\text{Cycles}(\mathcal{G}) = \emptyset$).
-3. **Latent Confounder Conservatism:** In the presence of unobserved confounders $U$, bounds on causal effects must be expressed as Manski bounds or Pearl bounds rather than exact point estimates.
+F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
 
----
+## Worked semantics
 
-## 4. Execution Mechanics & Causal Engine Pipeline
+Given an operation touching `KERNEL · CAUSAL CONTRACT` within the Kernel plane:
 
-```text
-[Observational Data / Diagnostic Telemetry]
-                     │
-                     ▼
-       [DAG Structure Learning (PC / GES)]
-                     │
-                     ▼
-         [d-Separation & Backdoor Linter] ──► [Unidentifiable? -> Tag UNKNOWN/GAP]
-                     │ (Identifiable)
-                     ▼
-         [Interventional do(X) Simulator]
-                     │
-                     ▼
-       [Counterfactual Scenario Generator]
-                     │
-                     ▼
-         [Safe Action Policy Commit]
-```
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
----
+## Promotion-gate checklist
 
-## 5. Failure Modes & Degradation
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-- **Spurious Feedback Cycle:** Emergent cyclic dependency during dynamic execution. **Action:** Instant causal graph cut at weakest edge and isolate to `24_ARCHIVE`.
-- **Collider Bias (Berkson's Paradox):** Conditioning on a common effect creates artificial correlation. **Action:** Causal static analyzer flags collider conditioning and strips the condition.
+## Cross-plane bindings
 
----
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-## 6. Cross-Plane Bindings
+______________________________________________________________________
 
-- **`01_CANON/01_CORE_LAWS`**: Invariant derived from Causal Firewall Law.
-- **`02_KERNEL/02_COGNITION`**: Supplies causal graphs for active planning.
-- **`17_OBSERVABILITY`**: Validates causal graphs against production execution traces.
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
-## 7. Verification & Formal Invariants
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
-Formal verification of d-separation algorithms and DAG acyclicity verified via Lean 4:
-$$\forall (G : \text{CausalDAG}), \quad \text{IsAcyclic}(G) \land \text{SoundIntervention}(G)$$
+______________________________________________________________________
 
----
+RSCF-NODE
+node_id: amos_02_kernel_03_causal_kernel_causal_contract_md
+node_type: note
+path: 02_KERNEL/03_CAUSAL/KERNEL_CAUSAL_CONTRACT.md
+claim_class: AMOS_MODEL
 
-## 8. Lineage & Stewardship
+______________________________________________________________________
 
-- **Origin Architect:** Trang Phan
-- **Steward:** Trang Phan
-- **Target:** `v4.4`
+**MOC:** [[02_KERNEL/03_CAUSAL/03_CAUSAL_MOC|03_CAUSAL_MOC]]
 
----
+______________________________________________________________________
 
-## 9. Attestation Metadata
-
-```yaml
-subplane: 02_KERNEL/03_CAUSAL
-contract_status: ACTIVE_SPECIFICATION
-steward: Trang Phan
-verification_status: CAUSALLY_VERIFIED
-```
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

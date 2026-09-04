@@ -1,21 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Vault Domain Knowledge — Amos Claim Verifier
-type: reference
-source: 07_SKILLS/amos-claim-verifier/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Vault Domain Knowledge
 tags:
-  - reference
-  - amos-claim-verifier
-  - type/skill
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Vault-Sourced Domain Knowledge
@@ -81,20 +81,20 @@ I have successfully implemented the **AMOS Ground-Truth Core** - the complete Py
 ### **Core Laws Implemented**
 
 ```python
-## The system enforces this hierarchy through verification
+# The system enforces this hierarchy through verification
 if not is_available:
  issues.append("Capability not available")
 ```
 
 ```python
-## All dependencies must be available for real capability
+# All dependencies must be available for real capability
 for dep in capability.dependencies:
  if not self.dependency_validator.check_availability(dep):
  issues.append(f"Dependency {dep} not available")
 ```
 
 ```python
-## Automatic reaudit triggered when drift exceeds threshold
+# Automatic reaudit triggered when drift exceeds threshold
 if drift.drift_score > self.drift_threshold:
  self.logger.warning(f"Drift threshold exceeded for {capability_id}, triggering reaudit")
  self._trigger_reaudit(capability_id)

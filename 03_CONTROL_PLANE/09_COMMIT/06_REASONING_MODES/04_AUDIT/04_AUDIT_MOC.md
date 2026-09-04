@@ -1,16 +1,21 @@
 ---
-title: 04 Audit MOC
-type: moc
-source: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/04_AUDIT
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 04 Audit Moc
 tags:
-  - 04-audit
-  - canon/control-plane
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 04 Audit — Map of Content

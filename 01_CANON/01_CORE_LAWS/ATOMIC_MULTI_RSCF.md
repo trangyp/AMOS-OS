@@ -1,36 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: ATOMIC_MULTI_RSCF Law (Redirect)
-aliases:
-  - ATOMIC_MULTI_RSCF
-  - Atomic Multi-RSCF Law
-  - Atomic Multi-RSCF
-  - Atomic Multi-Capsule Law
-type: redirect
-source: 01_CANON/01_CORE_LAWS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Atomic Multi Rscf
 tags:
-  - rscf
-  - atomic
-  - atomicity
-  - multi_rscf
-  - multi_capsule
-  - transaction
-  - reasoning
-  - validation
-  - redirect
-  - kernel_redirect
-  - core_laws
-  - canon
-  - canon/universe
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: core_laws
-  node_id: atomic_multi_rscf
-  node_type: redirect
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # ATOMIC_MULTI_RSCF Law

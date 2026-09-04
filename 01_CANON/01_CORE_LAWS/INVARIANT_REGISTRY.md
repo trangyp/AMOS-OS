@@ -1,53 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS Invariant Registry — Constitutional and Runtime Integrity Constraints
-type: invariant
-source: 01_CANON/01_CORE_LAWS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Invariant Registry
 tags:
-  - amos
-  - canon
-  - universe
-  - amos-os
-  - amos-core
-  - amos-core-v4-4
-  - invariants
-  - constitutional-invariants
-  - runtime-invariants
-  - integrity
-  - epistemics
-  - provenance
-  - dependency-closure
-  - causality
-  - scope
-  - regime
-  - freshness
-  - authority
-  - governance
-  - rscf
-  - gmef
-  - recovery
-  - anti-regression
   - canon-group/tech-ai
-  - canon/registry
-  - canon/invariant
   - rscf/claim
   - rscf/provenance
-  - rscf/state/derived
-  - skill
-  - workflow
-  - readme
-  - architecture
-  - authoritative-state
-  - placement-rules
-  - amos-core-laws
-  - amos-full-brain-os-architecture
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: core_laws
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Invariant Registry
@@ -1721,7 +1689,7 @@ ______________________________________________________________________
 | COGNITIVE_ORGANISM                                       |                No |       Yes |        Internal reasoning |                      No |
 | AGENT                                                    |                No |   Limited |            Local contract |                      No |
 | SKILL                                                    |                No |   Limited |           Procedure-local |                      No |
-| \[\[08_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW |      WORKFLOW\]\] |        No |                       Yes |     Orchestration gates |
+| \[\[26_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW |      WORKFLOW\]\] |        No |                       Yes |     Orchestration gates |
 | MODEL                                                    |                No |  Advisory |                        No |                      No |
 | TOOL                                                     |                No |        No |           Capability only |                      No |
 

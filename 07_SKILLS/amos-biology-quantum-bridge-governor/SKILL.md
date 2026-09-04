@@ -1,56 +1,21 @@
 ---
-schema_version: 1.0
-title: SKILL — Amos Biology Quantum Bridge Governor
-type: skill
-source: 07_SKILLS/amos-biology-quantum-bridge-governor
-name: amos-biology-quantum-bridge-governor
-description: 'Biology-Quantum Bridge Governor — biology and neuroscience capability. Bridges C04 biological/neurological systems with C03 quantum physics models. Creates a governed translation layer that maps biological concepts to quantum-mechanical analogues (and vice versa) while enforcing the critical anti-overclaim firewall: quantum-biological mappings are MODEL/METAPHOR, never physical predictions. Enforces the invariant that no AMOS decision may cite quantum entanglement of biological systems as causal evidence. Use when bridging biological and quantum reasoning. Use when amos-c04-bio-neuro-master routes to this specialized capability. Do not use for generic quantum physics analysis or biological research outside the AMOS bridge framework.'
-parent_skill: amos-c04-bio-neuro-master
-domain: cross-domain (C04 Bio-Neuro ↔ C03 Physics-Cosmos)
-origin_architect: Trang Phan
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
 epistemic_class: SOURCE_CLAIM
-claim_ceiling: 0.85
-status: production_ready
-created: 2026-08-27
+topic: Skill
 tags:
-  - type/skill
-  - type/skill
-  - domain/cross-domain
-  - epistemic/source_claim
-  - hml/m
-  - epistemic/source_claim
-  - amos-os
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-  - skill
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
-version: 1.1.0
-rscf_state: SOURCE_CLAIM
-hml_level: M
-gmef_gates:
-  - L0_integrity
-  - L1_epistemic
-  - L2_provenance
-  - L5_scope
-  - L7_authority
-collapse_class: reversible
-qfm_gate_set: QFM_v43
-law_compliance:
-  - L0
-  - L1
-  - L2
-  - L4
-  - L5
-  - L7
-  - L16
-  - L17
-  - L18
-license: MIT
-steward: Trang Phan
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Biology-Quantum Bridge Governor
@@ -144,7 +109,7 @@ ______________________________________________________________________
 - **Parent**: `amos-c04-bio-neuro-master` — routes to this skill when cross-domain (C04 Bio-Neuro ↔ C03 Physics-Cosmos) specialization is needed
 - **Peers**: Other skills in the `cross-domain (C04 Bio-Neuro ↔ C03 Physics-Cosmos)` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
-- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Workflow**: Each skill has a corresponding workflow in `26_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
 
 ## Evaluation

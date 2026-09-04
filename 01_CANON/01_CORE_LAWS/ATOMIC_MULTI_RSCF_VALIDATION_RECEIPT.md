@@ -1,69 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Atomic Multi-RSCF Validation Receipt
-aliases:
-  - ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT
-  - Atomic Multi-Capsule Validation Receipt
-  - Multi-RSCF Atomicity Receipt
-type: receipt
-source: 01_CANON/01_CORE_LAWS
-status: VALIDATION_RECEIPT
-canonical_status: CONDITIONAL
-epistemic_class: VALIDATION_RECEIPT
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Atomic Multi Rscf Validation Receipt
 tags:
-  - receipt
-  - validation
-  - atomic
-  - multi_rscf
-  - rscf
-  - transaction
-  - atomicity
-  - consistency
-  - isolation
-  - rollback
-  - commit
-  - abort
-  - validation_receipt
-  - core_laws
-  - canon
-  - canon/universe
-  - rscf/type-evidence
-  - rscf/P-repair
-  - law-hierarchy
-  - atomic-multi-rscf
-  - atomic-multi-rscf-reasoning
-  - k-atomic-multi-rscf
-  - law/L17-rscf
-  - law/L18-gmef
-  - law/L19-proof-capsule
-  - law/L20-adversarial
-  - law/L21-epistemic-regime
-  - law/L22-replayability
-  - law/L23-mvcc-cas
-  - law/L24-causal-epoch
-  - law/L25-shard-local
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: VALIDATION_RECEIPT
-  provenance: AMOS_corpus
-  scope: core_laws
-  node_id: atomic_multi_rscf_validation_receipt
-  node_type: receipt
-  dependencies:
-    - ATOMIC_MULTI_RSCF
-    - ATOMIC_MULTI_RSCF_REASONING
-    - K_ATOMIC_MULTI_RSCF
-  validity:
-    regime: canonical_validation
-    implementation_verified: false
-    empirical_verified: false
-    conditional_on:
-      - underlying_atomic_multi_rscf_specification
-      - transaction_validation_evidence
-      - referenced_execution_receipts
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Atomic Multi-RSCF Validation Receipt
@@ -2184,4 +2136,4 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]

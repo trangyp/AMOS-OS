@@ -1,50 +1,21 @@
 ---
-schema_version: 1.0
-title: SKILL — Obsidian Plugin Auto Tag
-type: skill
-source: 07_SKILLS/obsidian-plugin-auto-tag
-name: obsidian-plugin-auto-tag
-description: Auto Tag — AMOS knowledge-management utility. Use when automatically generating, normalizing, or reconciling tags and frontmatter metadata in the Obsidian vault. Use when amos-knowledge-research-master routes to this tool capability. Do not use for for generic tasks outside the declared amos domain.
-parent_skill: amos-knowledge-research-master
-domain: knowledge
-origin_architect: Trang Phan
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
 epistemic_class: SOURCE_CLAIM
+topic: Skill
 tags:
-  - type/skill
-  - type/skill
-  - domain/knowledge-research
-  - epistemic/source_claim
-  - hml/m
-  - epistemic/source_claim
-  - amos-os
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-  - skill
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
-version: 1.1.0
-rscf_state: SOURCE_CLAIM
-hml_level: M
-gmef_gates:
-  - L0_integrity
-  - L1_epistemic
-  - L2_provenance
-  - L5_scope
-collapse_class: reversible
-qfm_gate_set: QFM_v43
-law_compliance:
-  - L0
-  - L1
-  - L2
-  - L4
-  - L5
-  - L16
-  - L17
-license: MIT
-steward: Trang Phan
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Obsidian Plugin Auto Tag
@@ -190,7 +161,7 @@ ______________________________________________________________________
 - **Parent**: `amos-knowledge-research-master` — routes to this skill when tag/metadata work is needed
 - **Peers**: Other knowledge/obsidian utility skills
 - **Orchestrator**: `AMOS_HOME` orchestrates routing
-- **Workflow**: `08_WORKFLOWS/amos-obsidian-plugin-auto-tag-workflow.md`
+- **Workflow**: `26_WORKFLOWS/amos-obsidian-plugin-auto-tag-workflow.md`
 - **Agent**: `06_AGENTS/obsidian-plugin-auto-tag-agent.json`
 
 ## Evaluation

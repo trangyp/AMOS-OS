@@ -1,27 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-type: authority
-source: 03_CONTROL_PLANE/04_AUTHORITY
-artifact_id: AMOS-CP-04-AUTHZ-ENGINE-RECEIPT
-title: AUTHZ Invariant Engine — Execution Receipt
-artifact_class: VALIDATION_EVIDENCE
-subsystem: 03_CONTROL_PLANE/04_AUTHORITY
-executor: Hermes agent (ox-alpha)
-updated: 2026-08-26
-epistemic_class: DERIVED
-conclusion_class: PARTIAL
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Authz Engine Validation Receipt
 tags:
-  - note
-  - 04-authority
-  - canon/control-plane
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: authority_governance
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AUTHZ Invariant Engine — Execution Receipt

@@ -1,44 +1,16 @@
 ---
-title: K INFORMATION EXPOSURE
-type: note
-source: 02_KERNEL/07_AUTHORITY
-artifact_id: AMOS-OS-K-INFORMATION-EXPOSURE
-canonical_name: K_INFORMATION_EXPOSURE
-artifact_type: kernel_information_exposure_contract
-status: AMOS_MODEL
-conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: KERNEL
-scope: AMOS_OS
-updated: 2026-08-26
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: K Information Exposure
 tags:
-  - kernel
-  - authority
-  - note
-  - canon/kernel
-  - readme
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - k-core19-logic
-  - k-structural-reasoning
-  - k-causal-closure
-  - k-causal-epoch
-  - k-context-state
-  - k-system-state
-  - k-effect-classification
-  - k-capability-authorization
-  - k-commit-time-authority
-  - k-risk-constraint
-  - k-memory-retrieval
-  - k-memory-admission
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # K INFORMATION EXPOSURE
@@ -2904,7 +2876,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

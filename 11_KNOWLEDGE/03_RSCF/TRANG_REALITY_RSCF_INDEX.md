@@ -1,66 +1,21 @@
 ---
-title: Trang Reality RSCF Index
-type: reality
-source: 11_KNOWLEDGE/03_RSCF
-artifact: TRANG_REALITY_RSCF_INDEX.md
-artifact_id: amos_11_knowledge_03_rscf_trang_reality_rscf_index
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 11_KNOWLEDGE
-segment: 11_KNOWLEDGE/03_RSCF
-artifact_kind: INDEX
-path: 11_KNOWLEDGE/03_RSCF/TRANG_REALITY_RSCF_INDEX.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Trang Reality Rscf Index
 tags:
-  - amos-os
-  - knowledge
-  - vault
-  - 03_rscf
-  - trang_reality_rscf_index
-  - proof_capsules
-  - reality_architecture_proofs
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-  - trang-reality-architecture
-  - trang-zero-framework
-  - amos-x-trang-reality
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - TRANG_REALITY_ARCHITECTURE
-    - TRANG_ZERO_FRAMEWORK
-    - AMOS_CORPUS
-  scope:
-    - KNOWLEDGE_RSCF
-    - REALITY_RSCF_INDEX
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  rscf_moc:
-    artifact:
-      -   - 03_RSCF_MOC
-  reality_master:
-    artifact:
-      -   - TRANG_REALITY_ARCHITECTURE
-  zero_master:
-    artifact:
-      -   - TRANG_ZERO_FRAMEWORK
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  index_structure: VERIFIED_SOURCE_STRUCTURE
-  proof_index: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Trang Reality RSCF Proof Capsule Index

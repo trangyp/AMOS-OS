@@ -1,61 +1,21 @@
 ---
-title: External Evidence Source Registry
-type: research
-source: 22_RESEARCH/01_PAPERS
-artifact: EXTERNAL_EVIDENCE_SOURCE_REGISTRY.md
-artifact_id: amos_22_research_01_papers_external_evidence_source_registry
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 22_RESEARCH
-segment: 22_RESEARCH/01_PAPERS
-artifact_kind: REGISTRY
-path: 22_RESEARCH/01_PAPERS/EXTERNAL_EVIDENCE_SOURCE_REGISTRY.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: External Evidence Source Registry
 tags:
-  - amos-os
-  - research
-  - vault
-  - 01_papers
-  - external_evidence_source_registry
-  - arxiv_corpus
-  - peer_reviewed_sources
-  - rscf
-  - canon_candidate
-  - canon/research
-  - provenance-x-confidence
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: OBSERVATION_GROUNDED
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: OBSERVATION_GROUNDED
-  provenance:
-    - 11_KNOWLEDGE/_arxiv_md
-    - 22_RESEARCH/01_PAPERS/01_PAPERS_MOC
-    - AMOS_CORPUS
-  scope:
-    - RESEARCH_PAPERS
-    - EXTERNAL_EVIDENCE
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  papers_moc:
-    artifact: 22_RESEARCH/01_PAPERS/01_PAPERS_MOC
-  arxiv_index:
-    artifact: 11_KNOWLEDGE/11_KNOWLEDGE_MOC
-  provenance_matrix:
-    artifact: 25_COGNITIVE_MATRIX/PROVENANCE_X_CONFIDENCE
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  registry_structure: VERIFIED_SOURCE_STRUCTURE
-  external_evidence_catalog: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # External Evidence Source Registry

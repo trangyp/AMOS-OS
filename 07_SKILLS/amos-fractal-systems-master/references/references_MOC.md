@@ -1,40 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: References MOC — References — Amos Fractal Systems Master
-type: moc
-source: 07_SKILLS/amos-fractal-systems-master/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: References Moc
 tags:
-  - references
-  - type/skill
-  - chaos-diagnostics
-  - forex-fractal-geometry-research
-  - fractal-architecture-reality
-  - fractal-cognitive-architecture-equations
-  - fractal-cognitive-architecture-rules
-  - fractal-cognitive-architecture-requirements
-  - fractal-ips
-  - fractal-math-core
-  - fractal-state-skill
-  - generative-family-validation
-  - heritage-12-fractal-types
-  - hexagonal-fractal-mars-pineapple
-  - lacunarity-in-brain
-  - language-fractal-architecture
-  - lmh-structure
-  - multifractal-hurst-diagnostics
-  - rg-fractal-bridge
-  - scaling-law-diagnostics
-  - ubi-fractal-entropy-correction
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-moc: true
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # References — Map of Content

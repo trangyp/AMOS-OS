@@ -1,30 +1,21 @@
 ---
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Vault Domain Knowledge
 tags:
-  - canon
-  - core_laws
-  - uncertainty
-  - confidence
-  - unknown
-  - competing
-  - rscf
-  - governance
-  - type/skill
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-title: L6 Uncertainty Laws — References
-origin_architect: Trang Phan
-updated: '2026-08-26'
-status: PROPOSED_SPECIFICATION
-epistemic_class: AMOS_MODEL
-canonical_status: CONDITIONAL
-implementation_status: LOGIC_EXECUTABLE_IN_PART
-type: document
-source: 07_SKILLS/amos-information-theory-master/references
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # L6 Uncertainty Laws

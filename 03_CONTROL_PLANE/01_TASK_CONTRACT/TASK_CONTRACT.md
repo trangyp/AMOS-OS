@@ -1,20 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: TASK CONTRACT
-type: task
-source: 03_CONTROL_PLANE/01_TASK_CONTRACT
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Task Contract
 tags:
-  - control-plane
-  - task_contract
-  - contract
-  - canon/control-plane
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AMOS OS — TASK CONTRACT
@@ -4893,7 +4889,7 @@ The placement itself is supported by the repository: `TASK_CONTRACT.md` belongs 
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

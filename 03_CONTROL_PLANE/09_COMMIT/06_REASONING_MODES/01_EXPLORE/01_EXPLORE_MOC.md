@@ -1,16 +1,21 @@
 ---
-title: 01 Explore MOC
-type: moc
-source: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/01_EXPLORE
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 01 Explore Moc
 tags:
-  - 01-explore
-  - canon/control-plane
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 01 Explore — Map of Content

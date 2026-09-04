@@ -1,93 +1,104 @@
 ---
-title: INV-AUTHZ-013 — Anti-Poisoning Invariant
-type: authority_invariant
-source: 03_CONTROL_PLANE/04_AUTHORITY
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_INVARIANT
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT
-    - 01_CANON/01_CORE_LAWS/LAW_HIERARCHY
-  scope: authority_governance
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Inv Authz 013
 tags:
-  - amos-os
-  - authority
-  - invariant
-  - control-plane
-  - inv-authz-013
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# INV-AUTHZ-013 — Anti-Poisoning Invariant
+# INV-AUTHZ-013
 
-## 1. Formal Specification
+## 0. Status
 
-> **Invariant Statement:**
-> `No external unverified data stream may directly write into 01_CANON or 02_KERNEL.`
+Control Plane-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
 
-## 2. Invariant Rule & Mathematical Formulation
+## 1. Purpose
 
-Let $\mathcal{D}_{\text{ext}}$ be the set of external data streams, $\text{Verified}(d)$ the verification status of stream $d$, and $\text{Target}(d)$ the write destination:
+`INV-AUTHZ-013` defines typed artifact specification, serving the Control Plane plane's obligation: governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback.
 
-$$\forall d \in \mathcal{D}_{\text{ext}}, \quad \text{Target}(d) \in \{\text{01\_CANON}, \text{02\_KERNEL}\} \implies \text{Verified}(d) = \text{True}$$
+## 2. Semantics
 
-The verification pipeline requires multiple stages:
+- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
+- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
+- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
 
-$$\text{Verified}(d) = \text{SchemaValid}(d) \land \text{ProvenanceTraced}(d) \land \text{ContentScanned}(d) \land \text{GatekeeperApproved}(d)$$
+## 3. Failure modes guarded
 
-The data flow constraint prohibits any direct path from external sources to canon or kernel:
+STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
 
-$$\nexists \text{Path}(d, \text{01\_CANON}) : \text{Source}(d) \in \mathcal{D}_{\text{ext}} \land \neg \text{Verified}(d)$$
+## 4. Validation
 
-$$\nexists \text{Path}(d, \text{02\_KERNEL}) : \text{Source}(d) \in \mathcal{D}_{\text{ext}} \land \neg \text{Verified}(d)$$
+No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
 
-## 3. Enforcement & Verification
+## 5. Gaps
 
-- **Evaluation Point:** Evaluated at the data ingestion barrier, which sits between external data sources and the internal vault structure. Every write to `01_CANON` or `02_KERNEL` is intercepted and checked for source verification.
-- **Violation Consequence:** If an unverified external data stream attempts to write to canon or kernel, the write is blocked. A `DATA_POISONING_ATTEMPT` receipt is emitted to `17_OBSERVABILITY`. The source is flagged and may be blacklisted.
-- **Recovery Procedure:** The data must pass through the full verification pipeline before reattempting the write. If the source is blacklisted, a manual review by a gatekeeper is required to unblock it.
-- **Verification Cadence:** Synchronous at every write to canon or kernel. A periodic audit scans the canon and kernel for any content that bypassed the verification pipeline.
-- **Governed By:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
 
-## 4. Attack Vectors & Mitigations
+## 6. Falsifiers
 
-- **Direct Data Injection:** An attacker sends data directly to the canon or kernel write interface, bypassing the verification pipeline. Mitigated by the ingestion barrier that intercepts all writes and checks source verification.
-- **Pipeline Bypass via Privilege Escalation:** An attacker gains elevated privileges to write directly to canon. Mitigated by [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-005|INV-AUTHZ-005]] preventing self-escalation and [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-006|INV-AUTHZ-006]] requiring multi-party authorization for canon mutations.
-- **Verified Source Spoofing:** An attacker compromises a verified external source to inject poisoned data. Mitigated by the multi-stage verification that includes content scanning and provenance tracing, not just source identity.
-- **Schema-Valid Poisoning:** An attacker crafts data that passes schema validation but contains semantically malicious content. Mitigated by the content scanning stage that performs semantic analysis beyond schema validation.
+F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
 
-## 5. Dependencies & Prerequisites
+## Worked semantics
 
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-006|INV-AUTHZ-006]] — Multi-party authorization for canon adds an additional layer of protection.
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-031|INV-AUTHZ-031]] — Schema validation gating provides the first stage of the verification pipeline.
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-011|INV-AUTHZ-011]] — Sandboxed execution confinement ensures external tools processing data are isolated.
-- **Requires:** A data ingestion barrier with write interception capability.
-- **Requires:** A multi-stage verification pipeline including schema, provenance, content, and gatekeeper approval.
+Given an operation touching `INV-AUTHZ-013` within the Control Plane plane:
 
-## 6. Provenance & Audit Trail
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-- **Receipt Type:** `DATA_INGESTION_RECEIPT` — emitted for every data write to canon or kernel, recording the source, verification pipeline results, and approval status.
-- **Storage Location:** `17_OBSERVABILITY` with source-indexed and target-indexed partitions.
-- **Receipt Fields:** Source identity, target path, schema validation result, provenance trace, content scan result, gatekeeper approval, write decision, epoch, BLAKE3 hash.
-- **Immutability:** Ingestion receipts are append-only per [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-014|INV-AUTHZ-014]].
+## Promotion-gate checklist
 
-## 7. Related Invariants
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-006|INV-AUTHZ-006]] — Multi-Party Authorization for Canon
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-011|INV-AUTHZ-011]] — Sandboxed Execution Confinement
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-031|INV-AUTHZ-031]] — Schema Validation Gating
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-012|INV-AUTHZ-012]] — Reality Grounding Requirement
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-048|INV-AUTHZ-048]] — Popperian Falsification Floor
+## Cross-plane bindings
 
-## 8. Navigation & Bindings
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
-- **Control Plane Contract:** [[03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT|CONTROL_PLANE_CONTRACT]]
-- **Canon Law Hierarchy:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- **Kernel:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
-- **Observability:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]
+______________________________________________________________________
+
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+
+______________________________________________________________________
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: cp_03_control_plane_04_authority_inv_authz_013_md
+node_type: note
+path: 03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-013.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04_AUTHORITY_MOC]]
+
+______________________________________________________________________
+
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

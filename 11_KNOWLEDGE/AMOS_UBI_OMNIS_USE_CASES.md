@@ -1,21 +1,21 @@
 ---
-title: "UBI Omnis™ — AMOS-Aligned Capability, Product, and Governance Map"
-type: note
-source: 11_KNOWLEDGE
-status: CONDITIONAL / MODEL
-origin_architect: Trang Phan
-framework_parent: AMOS
-domain_runtime: UBI / biological-system modeling
-version: 2026-08-25
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Ubi Omnis Use Cases
 tags:
-  - knowledge
-  - note
-  - canon/knowledge
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # UBI Omnis™ — AMOS-Aligned Capability, Product, and Governance Map
@@ -968,7 +968,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

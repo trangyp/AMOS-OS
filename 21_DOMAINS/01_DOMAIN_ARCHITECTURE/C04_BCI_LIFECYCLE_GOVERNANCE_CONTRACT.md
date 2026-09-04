@@ -1,94 +1,151 @@
 ---
-title: C04 BCI Lifecycle Governance Contract
-type: control_contract
-source: 21_DOMAINS/01_DOMAIN_ARCHITECTURE
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_GOVERNING_CONTRACT
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: ACTIVE_CONTROL_SURFACE
-  provenance: authoritative_AMOS_OS_structure
-  scope: active__AMOS_OS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: C04 Bci Lifecycle Governance Contract
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# C04 BCI Lifecycle Governance Contract (21_DOMAINS/01_DOMAIN_ARCHITECTURE)
+# C04 BCI Lifecycle Governance Contract
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** v4.4
-> **Status:** ACTIVE_GOVERNING_CONTRACT
-> **Contract Index:** C04 of Domain Architecture Suite
+## 1. Role
 
-## 1. Scope & Objective
+This contract owns the **functional lifecycle boundary** for implanted or otherwise dependency-creating BCI systems after initial feasibility: maintenance, support continuity, software/model updates, post-trial transition, deactivation, transfer, abandonment risk, explantation and terminal data/model disposition.
 
-This contract establishes the safety invariants, biological telemetry thresholds, optical power densities, closed-loop latency limits, and hardware fail-safes governing all invasive, non-invasive, and optogenetic Brain-Computer Interface (BCI) subsystems across AMOS OS.
+It does not perform surgery, provide legal advice, establish jurisdiction-specific duties, or authorize a clinical intervention.
 
-```mermaid
-flowchart TD
-    subgraph Sensing["Neural Signal Acquisition"]
-        S1["Electrophysiology (Utah / Neuropixels 2.0)"]
-        S2["Two-Photon Holographic GEVI Imaging"]
-    end
-    subgraph Controller["Real-Time Governor (C04 Contract)"]
-        S1 --> G1["Thermal Dissipation Monitor (ΔT < 1.0 °C)"]
-        S2 --> G2["Laser Irradiance Limiter (< 200 mW/mm²)"]
-        G1 --> G3["Shannon Safety Limit Checker (k < 1.5)"]
-        G2 --> G3
-    end
-    subgraph Actuation["Closed-Loop Stimulation & Feedback"]
-        G3 -- Pass --> A1["Microstimulation / Optogenetic SLM Pattern"]
-        G3 -- Violation --> A2["Hard Hardware Tripwire & Instant Shunt"]
-    end
+```text
+IMPLANT SUCCESS != LIFECYCLE CLOSURE
+TRIAL END != DUTY END
+SOFTWARE END-OF-SUPPORT != SAFE DEVICE END
+EXPLANT OPTION != EXPLANT OBLIGATION
+INITIAL CONSENT != PERMANENT AUTHORITY FOR FUTURE REMOVAL
 ```
 
-## 2. Nine-Part Contract Specification
+## 2. MECE lifecycle states
 
-### 2.1 ROLE
-Governs biocompatibility constraints, electrical charge density limits, holographic laser illumination thresholds, and neural decoding co-adaptation safety for human and non-human BCI deployments.
+1. **Active supported use** — device/model operates with current medical, technical and financial support.
+2. **Maintenance / update** — components, decoder, firmware, calibration or security controls require change.
+3. **Degraded support** — supplier/research capability is reduced but continuity remains possible.
+4. **Transfer / handover** — responsibility moves to another clinical, technical or organizational owner.
+5. **Post-trial continuation** — research phase ends while participant remains dependent on the system.
+6. **Planned deactivation** — function is intentionally stopped without immediate explant.
+7. **Abandonment-risk state** — required support may become unavailable because of insolvency, program closure, obsolete hardware/software, loss of expertise or financing.
+8. **Explantation evaluation** — removal is considered as a distinct clinical/ethical decision.
+9. **Explantation / retained dormant implant** — device is removed, partially removed, or retained inactive according to current evidence, preference and risk.
+10. **Terminal data/model disposition** — raw signals, decoded outputs, model weights, adaptation state and credentials are exported, retained, transferred or deleted under explicit authority.
 
-### 2.2 INTERFACES
-- `MonitorThermalDissipation(ProbeID, TissueDepth_mm) -> DeltaTemp_C`
-- `ValidateChargeInjection(Current_uA, PulseDuration_us, ElectrodeArea_um2) -> Shannon_k`
-- `VerifyOpticalPowerDensity(LaserWavelength_nm, SpotSize_um, Power_mW) -> Irradiance_mW_per_mm2`
-- `ExecuteCoAdaptationEpoch(DecoderWeights, NeuralFeedbackMatrix) -> BitRate_bps`
+## 3. Lifecycle object
 
-### 2.3 DEPENDENCIES
-- Upstream: `02_KERNEL/` (Proof kernel), `12_STATE/` (Arrow IPC telemetry bus), `13_MODELS/` (Clifford geometric neural decoder).
-- Downstream: `20_OPERATIONS/` (Safety audit receipts), `22_RESEARCH/` (SOTA BCI research).
+```yaml
+BCILifecycle:
+  participant_or_user_scope:
+  device_identity:
+  implant_components:
+  software_firmware_versions:
+  decoder_model_identity:
+  support_owner:
+  medical_owner:
+  technical_owner:
+  financial_owner:
+  vendor_sponsor_state:
+  labeled_or_expected_lifetime:
+  patch_update_path:
+  replacement_parts_path:
+  calibration_support_path:
+  data_export_path:
+  model_export_path:
+  emergency_disable:
+  deactivation_plan:
+  post_trial_plan:
+  insolvency_or_shutdown_plan:
+  transfer_plan:
+  explant_options:
+  explant_risks:
+  retained_implant_risks:
+  current_user_preference:
+  renewed_consent_state:
+  privacy_security_state:
+  unresolved_obligations:
+  review_date:
+```
 
-### 2.4 INVARIANTS
-1. `SHANNON_CHARGE_INJECTION_LIMIT`: Electrical microstimulation must satisfy the Shannon equation:
-   $$\log(D) \le k - \log(Q) \quad \text{with } k \le 1.5$$
-   where $D = Q/A$ is the charge density per phase ($\mu\text{C}/\text{cm}^2$) and $Q$ is the charge per phase ($\mu\text{C}$).
-2. `TISSUE_THERMAL_DISSIPATION_LIMIT`: Continuous tissue heating from implanted active electronics must not exceed:
-   $$\Delta T_{\text{tissue}} \le 1.0\text{ }^\circ\text{C}$$
-3. `HOLOGRAPHIC_OPTICAL_IRRADIANCE_CEILING`: Multi-photon holographic optogenetic illumination in cortical tissue must satisfy:
-   $$I_{\text{opt}} \le 200.0\text{ mW}/\text{mm}^2 \quad (\lambda = 1040\text{ nm})$$
-4. `CLOSED_LOOP_DECISION_LATENCY`: Real-time spike sorting, Clifford feature extraction, and actuator feedback must complete within:
-   $$\tau_{\text{closed\_loop}} \le 8.0\text{ ms}$$
+## 4. Evidence-backed lifecycle concerns
 
-### 2.5 AUTHORITY
-- Origin Architect: Trang Phan.
-- Safety threshold modifications require formal medical/biomedical review and explicit steward approval.
+A 2024 JAMA Network Open consensus statement on neurological device abandonment proposes that abandonment can involve failures to provide fundamental consent-relevant information, reasonable medical/technical/financial support through the device lifetime, or responses to safety/ineffectiveness needs.
 
-### 2.6 PROVENANCE
-- Telemetry streams, impedance spectroscopy logs, and stimulation charge ledgers must be hashed with BLAKE3 and archived in `20_OPERATIONS/`.
+A 2025 systematic review of neural-device explantation found that the decision space extends beyond medical complications to therapeutic benefit, emotional well-being, identity, autonomy, financial issues, post-trial responsibility and neurorights.
 
-### 2.7 TESTS
-- Pre-flight automated impedance and charge injection compliance verification.
-- Continuous software watchdog timer asserting latency $\le 8.0\text{ ms}$.
+2026 ethics work further highlights that long-term embodiment or functional dependence can change the meaning of earlier consent to explantation. This is normative analysis, not universal legal doctrine.
 
-### 2.8 FAILURE
-- Violation of thermal ($\Delta T > 1.0\,^\circ\text{C}$), charge ($k > 1.5$), or optical limits triggers an instantaneous hardware shunt disconnecting all stimulation outputs within $100\text{ }\mu\text{s}$.
+## 5. Governance invariants
 
-### 2.9 RECOVERY
-- Hardware resets to high-impedance passive listening mode; stimulation requires physical key re-authorization.
+### LIFECYCLE-1 Pre-implant support disclosure
+Before an irreversible implant decision, material uncertainty about post-trial support, maintenance, funding, vendor failure and explant options should be visible.
 
-## 3. Related Documents
+### LIFECYCLE-2 No silent abandonment
+Loss of sponsor/company/research support enters a governed degraded state; it is not treated as a normal completion event.
 
-- Holographic BCI SOTA Research: [[22_RESEARCH/01_PAPERS/SOTA_HOLOGRAPHIC_BCI_BRAIN_MACHINE_CO_ADAPTATION_2026|Holographic BCI SOTA]]
-- Neuromorphic Optogenetics: [[22_RESEARCH/01_PAPERS/SOTA_NEUROMORPHIC_OPTOGENETICS_AND_PHOTONIC_BCI_2026|Neuromorphic Optogenetics]]
-- Clifford Geometric Neural Networks: [[22_RESEARCH/01_PAPERS/SOTA_GEOMETRIC_CLIFFORD_NEURAL_NETWORKS_AND_SPATIAL_BCI_2026|Clifford Neural Networks for BCI]]
-- Incident Response Playbook: [[20_OPERATIONS/INCIDENT_RESPONSE_PLAYBOOK|Incident Response Playbook]]
+### LIFECYCLE-3 Renewed decision authority
+Explantation/deactivation decisions use current clinical evidence, current user preference and current risk-benefit state. Historical consent alone is not sufficient when circumstances materially changed.
+
+### LIFECYCLE-4 Functional dependence matters
+If the BCI has become a primary communication, mobility or agency channel, withdrawal of support has a consequence radius beyond ordinary software discontinuation.
+
+### LIFECYCLE-5 Software/model continuity is a medical-device dependency where function depends on it
+Decoder weights, calibration state, firmware, credentials and compatible compute can be necessary to preserve function. Their loss must be represented explicitly.
+
+### LIFECYCLE-6 Privacy survives support termination
+End-of-support does not erase duties or user interests around neural data, decoded inferences, personalized model parameters and adaptation state.
+
+### LIFECYCLE-7 Security patch sunset is a risk transition
+If security updates cease, the system becomes a changed-risk regime requiring re-evaluation rather than silent continued use.
+
+### LIFECYCLE-8 Explant is not automatically safer
+Removal can itself create surgical and functional risk; retained inactive hardware can also create risk. The architecture preserves both branches until a clinical decision is made.
+
+## 6. Cross-plane handoffs
+
+- C09 / Operating Model: sponsor, clinical, technical, financial roles and escalation.
+- Control Plane: authority/freshness for updates, stimulation, deactivation and disclosure effects.
+- Security: credential rotation, patching, remote-access shutdown, retained-data controls.
+- Memory/Knowledge: preserve provenance and distinguish user-owned data from research-derived models.
+- Operations: maintenance, incident, transfer, deactivation and explant runbooks.
+- Observability: device health, drift, update history, adverse events, support-state changes.
+- Interfaces/Tools: replacement compatibility and hardware/software API continuity.
+- Research: current evidence and competing lifecycle models.
+
+## 7. Failure modes
+
+- study ends before a support owner is identified;
+- vendor insolvency strands a functioning implant;
+- decoder/cloud dependency becomes unavailable;
+- obsolete connector or compute hardware makes the implant unusable;
+- security support ends while remote connectivity remains enabled;
+- participant cannot export their personalized model/data;
+- explant is assumed from old consent despite changed dependence/preferences;
+- device is left in place without monitoring plan;
+- support obligations are described but not financially provisioned;
+- responsibility is fragmented across sponsor, hospital and vendor with no terminal owner.
+
+## 8. Evidence / authority boundary
+
+This contract is a source-bound AMOS model. It does not establish jurisdiction-specific legal obligations, clinical indications, insurance coverage, or a universal right to continued device support. Those require current domain-specific authority.
+
+---
+RSCF-NODE
+node_id: c04_bci_lifecycle_governance_contract
+node_type: specialist_domain_contract
+claim_class: AMOS_MODEL

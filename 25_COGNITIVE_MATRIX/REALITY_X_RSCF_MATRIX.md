@@ -1,133 +1,119 @@
 ---
-title: Reality x RSCF Cross-Plane Matrix
-type: cognitive
-source: 25_COGNITIVE_MATRIX
-artifact: REALITY_X_RSCF_MATRIX.md
-artifact_id: amos_25_cognitive_matrix_reality_x_rscf_matrix
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 25_COGNITIVE_MATRIX
-segment: 25_COGNITIVE_MATRIX
-artifact_kind: MATRIX_TABLE
-path: 25_COGNITIVE_MATRIX/REALITY_X_RSCF_MATRIX.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Reality X Rscf Matrix
 tags:
-  - amos-os
-  - cognitive-matrix
-  - vault
-  - reality_x_rscf_matrix
-  - matrix_table
-  - cross_plane_routing
-  - reality_architecture
-  - proof_capsule_routing
-  - pre_symbolic
-  - null_invariant
-  - epistemic_bound
-  - confidence_ceiling
-  - rscf
-  - canon_candidate
-  - canon/matrix
-version: 2.0.0
-updated: '2026-09-04'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-conclusion_class: DERIVED
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-formal_verification_status: NOT_ESTABLISHED
-runtime_enforcement_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE
-    - 11_KNOWLEDGE/03_RSCF/TRANG_REALITY_RSCF_INDEX
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-    - AMOS_CORPUS
-  scope:
-    - COGNITIVE_MATRIX
-    - CROSS_PLANE_MATRIX_TABLE
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  reality_master:
-    artifact: 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE
-  rscf_index:
-    artifact: 11_KNOWLEDGE/03_RSCF/TRANG_REALITY_RSCF_INDEX
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Reality × RSCF Cross-Plane Matrix — Full Specification
+# Reality × RSCF Cross-Plane Matrix
 
-**Origin Architect & Steward:** Trang Phan
-**System:** AMOS OS
-**Plane:** `25_COGNITIVE_MATRIX`
-**Status:** `ACTIVE_REFERENCE`
-**Epistemic Classification:** `AMOS_MODEL` / `DERIVED`
+## 1. Role
 
----
+This matrix defines the routing from Reality Architecture structures (pre-symbolic ontological layers) to RSCF proof-capsule targets. It answers: "For each level of reality, what RSCF proof structure is required to validate claims at that level?"
 
-## 1. Overview & Purpose
+## 2. Reality Architecture Layers
 
-The **Reality × RSCF** Cognitive Matrix defines the high-dimensional cross-coupling between the **Trang Reality Architecture** ($P \to D \to R \to C \to F \to M$) and the **Recursive Semantic Claim Framework (RSCF)** proof-capsule verification engine. It establishes a formal, tensor-contracted routing fabric ensuring that empirical reality constraints, pre-symbolic perception, and modal groundings strictly govern the admission, derivation, and confidence ceiling of all RSCF claim nodes.
+| Layer | Symbol | Description | AMOS Analog |
+|-------|--------|-------------|-------------|
+| L0 | $\mathcal{P}$ | Potential / Ground State | Null state $S_0$ |
+| L1 | $\mathcal{D}$ | Differentiation / Boundary | System boundary definition |
+| L2 | $\mathcal{R}$ | Relation / Connectivity | Agent interactions, knowledge links |
+| L3 | $\mathcal{C}$ | Computation / Processing | Kernel operations, reasoning |
+| L4 | $\mathcal{F}$ | Function / Purpose | Agent roles, workflow goals |
+| L5 | $\mathcal{M}$ | Meaning / Semantics | Knowledge semantics, ontological grounding |
 
-```text
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                    TRANG REALITY ARCHITECTURE (P-D-R-C-F-M)                 │
-│  [P] Pre-symbolic Ground ──► [D] Dual Dialectic ──► [R] Relational Topology │
-│  ──► [C] Contextual Manifold ──► [F] Formal Field ──► [M] Modal Actuation   │
-└──────────────────────────────────────┬──────────────────────────────────────┘
-                                       │ Tensor Cross-Product ⊗
-                                       ▼
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                     RSCF PROOF CAPSULE HIERARCHY                            │
-│  SOURCE_CLAIM ──► OBSERVATION ──► DERIVED ──► MODEL ──► DECISION ──► UNKNOWN│
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+## 3. RSCF Proof-Capsule Targets
 
----
+| Target | RSCF Class | Proof Requirement |
+|--------|-----------|-------------------|
+| $R_0$ | Structural Invariant | Boundary exists, non-empty |
+| $R_1$ | Relational Integrity | Edges valid, no orphans |
+| $R_2$ | Computational Correctness | Deterministic logic, proof trail |
+| $R_3$ | Functional Adequacy | Role fulfilled, invariants met |
+| $R_4$ | Semantic Consistency | Claims coherent, provenance intact |
+| $R_5$ | Ontological Grounding | External reference valid |
 
-## 2. Mathematical Cross-Product Tensor Formulation
+## 4. Routing Matrix
 
-Let $\mathbf{r} \in \mathbb{R}^6$ denote the Reality Spine coordinate vector ($P, D, R, C, F, M$), and $\mathbf{s} \in \mathbb{R}^6$ denote the RSCF Epistemic Class coordinate vector:
+The matrix maps each Reality layer to its required RSCF proof targets:
 
-$$\mathbf{r} = \begin{bmatrix} r_P \\ r_D \\ r_R \\ r_C \\ r_F \\ r_M \end{bmatrix}, \quad \mathbf{s} = \begin{bmatrix} s_{\text{SOURCE\_CLAIM}} \\ s_{\text{OBSERVATION}} \\ s_{\text{DERIVED}} \\ s_{\text{MODEL}} \\ s_{\text{DECISION}} \\ s_{\text{UNKNOWN}} \end{bmatrix}$$
+| Reality Layer | $R_0$ (Structural) | $R_1$ (Relational) | $R_2$ (Computational) | $R_3$ (Functional) | $R_4$ (Semantic) | $R_5$ (Ontological) |
+|--------------|:---:|:---:|:---:|:---:|:---:|:---:|
+| **L0 (Potential)** | **REQUIRED** | — | — | — | — | — |
+| **L1 (Differentiation)** | REQUIRED | **REQUIRED** | — | — | — | — |
+| **L2 (Relation)** | REQUIRED | REQUIRED | **REQUIRED** | — | — | — |
+| **L3 (Computation)** | REQUIRED | REQUIRED | REQUIRED | **REQUIRED** | — | — |
+| **L4 (Function)** | REQUIRED | REQUIRED | REQUIRED | REQUIRED | **REQUIRED** | — |
+| **L5 (Meaning)** | REQUIRED | REQUIRED | REQUIRED | REQUIRED | REQUIRED | **REQUIRED** |
 
-The 3rd-order Reality-RSCF routing tensor $\mathcal{M} \in \mathbb{R}^{6 \times 6 \times K}$ is defined by:
+**Key:** Bold = primary proof requirement for this layer. Non-bold = inherited proof requirements from lower layers.
 
-$$\mathcal{M}_{i, j, k} = \left( \mathbf{r}_i \otimes \mathbf{s}_j \right) \cdot \mathbf{W}_k^{\text{governance}}$$
+## 5. Routing Rules
 
-where $\mathbf{W}_k^{\text{governance}}$ enforces the **Epistemic Confidence Ceiling Law**:
-$$\text{Confidence}(\mathcal{M}_{i, j, k}) \le \min\left( \text{Grounding}(\mathbf{r}_i), \text{Verification}(\mathbf{s}_j) \right)$$
+### Rule 1: Inheritance
+Every higher layer inherits all proof requirements from lower layers. A claim at L4 (Function) requires $R_0$ through $R_4$.
 
----
+### Rule 2: Primary Proof
+Each layer has a primary proof target that distinguishes it from lower layers:
+- L0: Structural existence (the system exists)
+- L1: Boundary integrity (the system is bounded)
+- L2: Relational validity (connections are correct)
+- L3: Computational correctness (reasoning is valid)
+- L4: Functional adequacy (roles are fulfilled)
+- L5: Semantic consistency (claims are coherent)
 
-## 3. Reality × RSCF Cross-Plane Routing Table
+### Rule 3: Cascading Invalidity
+If a lower-layer proof fails, all higher-layer proofs that depend on it are automatically invalidated. For example, if $R_0$ (structural) fails, $R_1$ through $R_5$ are all invalid.
 
-| Reality Layer | RSCF Target Class | Routing Semantic Channel | Invariant Constraint | Epistemic Bound |
-| :--- | :--- | :--- | :--- | :--- |
-| **[P] Pre-Symbolic** | `OBSERVATION` | Raw sensory telemetry & hardware receipts | Unfiltered empirical grounding; no symbolic hallucination | $\mathcal{C}_{\text{max}} = 0.999$ |
-| **[D] Dual Dialectic** | `COMPETING` | Competing hypothesis resolution & dialectic pairs | Must retain anti-theses until discriminating evidence | $\mathcal{C}_{\text{max}} = 0.500$ |
-| **[R] Relational** | `DERIVED` | Causal DAG edges & transitive provenance chains | Weakest load-bearing link dictates chain confidence | $\mathcal{C} \le \min_{p \in \text{parents}} \mathcal{C}(p)$ |
-| **[C] Contextual** | `MODEL` | Bounded theoretical frames & domain priors | Scoped to declared boundary; no universal extrapolation | $\mathcal{C}_{\text{max}} = 0.750$ |
-| **[F] Formal Field** | `DERIVED` | Lean 4 / CAS mathematical proofs & theorems | Machine-checked formal closure required | $\mathcal{C} = 1.000$ (Conditional) |
-| **[M] Modal Actuation**| `DECISION` | Control plane commit gates & effect authorizations | Consequential effect requires explicit human/CAS receipt | `PROPOSAL != COMMIT` |
+### Rule 4: Cross-Layer Bridging
+Claims that span multiple Reality layers require proof at the highest applicable layer. A claim about L2 relations requires $R_0$, $R_1$, and $R_2$.
 
----
+## 6. Application Examples
 
-## 4. Invariants & Epistemic Boundaries
+### Example 1: Agent Claim Validation
+An agent claims "I have successfully completed task X."
 
-1. **Epistemic Distinction Invariant**: Under no circumstances may an artifact with class `MODEL` or `SOURCE_CLAIM` be routed to an execution channel requiring `OBSERVATION` or verified `DERIVED` status without explicit empirical receipts.
-2. **Lacunarity Filtering**: Sparse regions of the Reality spine (gaps in empirical coverage) automatically project `UNKNOWN/GAP` markers onto intersecting RSCF subgraphs.
-3. **Receipt Hashing**: All state transitions routed across $\mathcal{M}$ generate cryptographic BLAKE3 receipt hashes logged to [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY]].
-4. **Lineage Boundary**: Governed under AMOS v4.4; origin architect **Trang Phan**.
+| Step | Layer | Proof Required |
+|------|-------|---------------|
+| 1 | L0 | Agent exists (structural) |
+| 2 | L1 | Agent has defined boundary (identity) |
+| 3 | L2 | Agent is connected to task (relational) |
+| 4 | L3 | Agent executed correct operations (computational) |
+| 5 | L4 | Task objectives met (functional) |
+| 6 | L5 | Claim is semantically consistent with observations |
 
----
+### Example 2: Knowledge Promotion
+Promoting a claim from SOURCE_CLAIM to EVIDENCE.
 
-## 5. Cross-Plane References
+| Step | Layer | Proof Required |
+|------|-------|---------------|
+| 1 | L0 | Claim exists in knowledge base |
+| 2 | L1 | Claim has clear boundary and scope |
+| 3 | L2 | Claim is connected to corroborating evidence |
+| 4 | L3 | Inference chain is valid |
+| 5 | L4 | Claim serves a defined purpose |
+| 6 | L5 | Claim is semantically consistent with existing knowledge |
 
-- Cognitive Matrix MOC: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX MOC]]
-- Trang Reality Architecture: [[11_KNOWLEDGE/trang/TRANG_REALITY_ARCHITECTURE|TRANG_REALITY_ARCHITECTURE]]
-- RSCF Index: [[11_KNOWLEDGE/03_RSCF/TRANG_REALITY_RSCF_INDEX|TRANG_REALITY_RSCF_INDEX]]
-- MECE Full Brain OS: [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]
-- Holographic Tensor Routing: [[25_COGNITIVE_MATRIX/HOLOGRAPHIC_TENSOR_NETWORK_ROUTING|Holographic Tensor Routing]]
+## 7. Inter-Plane Connections
+
+- **Ontology:** [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_FOUNDATIONAL_ONTOLOGY|KHUNG_TRANG_FOUNDATIONAL_ONTOLOGY]] — Reality Architecture layers
+- **RSCF:** [[11_KNOWLEDGE/TENSORS|TENSORS]] — RSCF proof-capsule structure
+- **Provenance:** [[01_CANON/07_PROVENANCE/PROVENANCE_ROOT_REGISTRY|PROVENANCE_ROOT_REGISTRY]] — Provenance topology
+- **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] — Matrix navigation
+
+______________________________________________________________________
+
+**MOC:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

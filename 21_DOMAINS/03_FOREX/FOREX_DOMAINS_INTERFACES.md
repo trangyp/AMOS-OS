@@ -1,64 +1,100 @@
 ---
-title: "Forex Domain — Interfaces & Connectivity Specifications"
-type: interface_specification
-source: 21_DOMAINS/03_FOREX
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_INTERFACE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 21_DOMAINS/03_FOREX/FOREX_DOMAINS_PROVENANCE
-    - 15_INTERFACES/INTERFACES_INTERFACE_CONTRACT
-  scope: forex_interfaces
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Forex Domains Interfaces
 tags:
-  - amos-os
-  - domains
-  - forex
-  - fix-protocol
-  - mt5-api
-  - streaming
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Forex Domain — Interfaces & Connectivity Specifications
+# FOREX DOMAINS INTERFACES
 
-## 1. System Surface Architecture
+## 0. Status
 
-The Forex domain connects to institutional liquidity providers and retail broker bridges via four typed interface protocols:
+Domains-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
 
-```mermaid
-graph TD
-    A[AMOS Quantitative Forex Engine] --> B[FIX 4.4 Financial Exchange Surface]
-    A --> C[MetaTrader 5 ZeroMQ IPC Bridge]
-    A --> D[Binance / Crypto REST & WebSocket Stream]
-    A --> E[Dukascopy Historical Tick Ingestion Pipeline]
-```
+## 1. Purpose
 
----
+`FOREX DOMAINS INTERFACES` defines typed artifact specification, serving the Domains plane's obligation: C-family domain engine mappings (C01–C12) onto the OS planes.
 
-## 2. Interface Protocols
+## 2. Semantics
 
-### 2.1 FIX 4.4 Institutional Bridge
-- **Standard:** Tag-value financial protocol over TLS socket.
-- **Message Types Supported:**
-  - `35=D` (New Order Single)
-  - `35=8` (Execution Report)
-  - `35=V` (Market Data Request - L2 Snapshot/Incremental)
-  - `35=W` (Market Data Snapshot Full Refresh)
-- **Heartbeat Interval:** 30 seconds (`35=0`).
+- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
+- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
+- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
 
-### 2.2 MetaTrader 5 ZeroMQ IPC Socket
-- **Architecture:** Local Unix domain socket or TCP `127.0.0.1:5555`.
-- **Payload Format:** High-performance JSON-RPC / Protocol Buffers.
-- **Latency SLA:** Round-trip tick-to-order $< 5	ext{ms}$.
+## 3. Failure modes guarded
 
----
+STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
 
-## 3. Fail-Safe Disconnect & Circuit Breaker
+## 4. Validation
 
-1. **Heartbeat Loss:** If market data stream stalls for $> 2.0	ext{s}$, all pending limit orders are cancelled immediately.
-2. **Spread Anomaly:** If bid-ask spread widens by $> 3.5	imes$ historical moving average, trading pauses automatically.
+No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
+
+## 5. Gaps
+
+Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
+
+## 6. Falsifiers
+
+F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
+
+## Worked semantics
+
+Given an operation touching `FOREX DOMAINS INTERFACES` within the Domains plane:
+
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+
+## Promotion-gate checklist
+
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+
+## Cross-plane bindings
+
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+
+______________________________________________________________________
+
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+
+______________________________________________________________________
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: amos_21_domains_03_forex_forex_domains_interfaces_md
+node_type: note
+path: 21_DOMAINS/03_FOREX/FOREX_DOMAINS_INTERFACES.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[21_DOMAINS/03_FOREX/03_FOREX_MOC|03_FOREX_MOC]]

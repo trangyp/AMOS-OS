@@ -1,86 +1,21 @@
 ---
-type: map
-source: 00_ROOT
-artifact_id: AMOS-OS-SYSTEM-MAP
-name: AMOS_OS_SYSTEM_MAP
-title: AMOS OS System Map — Authoritative Plane Topology and Cross-System Relationship Map
-document_version: 2.0.0
-map_version: 1.0.0
-amos_core_target: v4.4
-status: ACTIVE_MAP
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
 conclusion_class: AMOS_MODEL
-rscf_state: derived
-canon_group: tech-ai
-canon_type: system-map
-origin_architect: Trang Phan
-steward: Trang Phan
-created: 2026-08-25
-updated: 2026-08-25
-scope:
-  - AMOS_OS - repository_topology - system_planes - authority_boundaries - execution_topology
+epistemic_class: SOURCE_CLAIM
+topic: System Map V1
 tags:
-  - amos
-  - amos-os
-  - root
-  - amos-os
-  - architecture
-  - topology
-  - repository-topology
-  - system-planes
-  - authority
-  - provenance
-  - canon
-  - kernel
-  - control-plane
-  - runtime
-  - cognition
-  - cognitive-organism
-  - agents
-  - skills
-  - workflows
-  - protocols
-  - memory
-  - knowledge
-  - state
-  - models
-  - tools
-  - interfaces
-  - schemas
-  - observability
-  - security
-  - tests
-  - operations
-  - domains
-  - research
-  - operating-model
-  - archive
-  - cognitive-matrix
-  - rscf
-  - hml
-  - governance
-  - failure-recovery
   - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
-  - rscf/state/derived
-  - topic/amos-os
-  - topic/system-topology
-  - topic/repository-architecture
-  - readme
-  - neural-network
-  - full-tree
-  - authoritative-state
-  - placement-rules
-  - roadmap
-  - amos-full-brain-os-architecture
-  - cognitive-matrix-architecture
-aliases:
-  - AMOS System Map - AMOS OS System Map - AMOS Plane Map - AMOS Architecture Map - AMOS Repos
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: root_index
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS OS System Map
@@ -167,7 +102,7 @@ AMOS_OS/
 ├── 05_COGNITIVE_ORGANISM
 ├── 06_AGENTS
 ├── 07_SKILLS
-├── 08_WORKFLOWS
+├── 26_WORKFLOWS
 ├── 09_PROTOCOLS
 ├── 10_MEMORY
 ├── 11_KNOWLEDGE
@@ -294,7 +229,7 @@ Mapping:
 | ------------------------------------ | --------------------------------------------------------------------------------------------------------- |
 | Definition / Constraint              | `01_CANON`, `02_KERNEL`                                                                                   |
 | Governance / Execution               | `03_CONTROL_PLANE`, `04_RUNTIME`                                                                          |
-| Cognitive / Capability               | `05_COGNITIVE_ORGANISM`, `06_AGENTS`, `07_SKILLS`, `08_WORKFLOWS`, `09_PROTOCOLS`                         |
+| Cognitive / Capability               | `05_COGNITIVE_ORGANISM`, `06_AGENTS`, `07_SKILLS`, `26_WORKFLOWS`, `09_PROTOCOLS`                         |
 | Persistent Substrates                | `10_MEMORY`, `11_KNOWLEDGE`, `12_STATE`, `13_MODELS`                                                      |
 | Support / Verification               | `14_TOOLS`, `15_INTERFACES`, `16_SCHEMAS`, `17_OBSERVABILITY`, `18_SECURITY`, `19_TESTS`, `20_OPERATIONS` |
 | Domain / Organizational / Historical | `21_DOMAINS`, `22_RESEARCH`, `23_OPERATING_MODEL`, `24_ARCHIVE`, `25_COGNITIVE_MATRIX`                    |
@@ -657,7 +592,7 @@ A skill is a reusable procedure.
 
 ______________________________________________________________________
 
-## 13. `08_WORKFLOWS` — Orchestration Graph Plane
+## 13. `26_WORKFLOWS` — Orchestration Graph Plane
 
 ## Role — part 9
 
@@ -1741,7 +1676,7 @@ ______________________________________________________________________
 | `05_COGNITIVE_ORGANISM` | cognitive integration               |
 | `06_AGENTS`             | role-based workers                  |
 | `07_SKILLS`             | reusable procedures                 |
-| `08_WORKFLOWS`          | orchestration graphs                |
+| `26_WORKFLOWS`          | orchestration graphs                |
 | `09_PROTOCOLS`          | interaction contracts               |
 | `10_MEMORY`             | remembered information              |
 | `11_KNOWLEDGE`          | claims/evidence/validated knowledge |
@@ -1978,7 +1913,7 @@ REUSABLE PROCEDURE
 → 07_SKILLS
 
 ORCHESTRATION GRAPH
-→ 08_WORKFLOWS
+→ 26_WORKFLOWS
 
 INTERACTION CONTRACT
 → 09_PROTOCOLS
@@ -2622,7 +2557,7 @@ IMPLEMENTATION PROOF
 
 ______________________________________________________________________
 
-**Related:** README|AMOS OS · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|MOC · [[00_ROOT/NEURAL_NETWORK|NEURAL_NETWORK]]|Neural Network · [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]|Architecture · [[00_ROOT/FULL_TREE|FULL_TREE]]|Full Tree · [[00_ROOT/DEPENDENCY_MAP|DEPENDENCY_MAP]]|Dependency Map · [[00_ROOT/AUTHORITATIVE_STATE|AUTHORITATIVE_STATE]]|Authoritative State · [[00_ROOT/00_ROOT_NAMING_STANDARD|00_ROOT_NAMING_STANDARD]]|Naming Standard · [[00_ROOT/PLACEMENT_RULES|PLACEMENT_RULES]]|Placement Rules · [[00_ROOT/ROADMAP|ROADMAP]]|Roadmap · [[01_CANON/00_INDEX/CANON_MAP|CANON_MAP]]|CANON · [[02_KERNEL/00_INDEX/KERNEL_MAP|KERNEL_MAP]]|KERNEL · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]]|CONTROL_PLANE · [[04_RUNTIME/00_INDEX/RUNTIME_MAP|RUNTIME_MAP]]|RUNTIME · [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP|COGNITIVE_ORGANISM_MAP]]|COGNITIVE_ORGANISM · [[06_AGENTS/00_INDEX/AGENT_MAP|AGENT_MAP]]|[[AGENTS|AGENTS]] · [[07_SKILLS/00_INDEX/SKILL_MAP|SKILL_MAP]]|SKILLS · [[08_WORKFLOWS/00_INDEX/WORKFLOW_MAP|WORKFLOW_MAP]]|WORKFLOWS · [[09_PROTOCOLS/00_INDEX/PROTOCOL_MAP|PROTOCOL_MAP]]|PROTOCOLS · [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP|MEMORY_MEMORY_MAP]]|MEMORY · [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS_FULL_BRAIN_OS_ARCHITECTURE]]|KNOWLEDGE · [[12_STATE/00_INDEX/STATE_STATE_MAP|STATE_STATE_MAP]]|STATE · [[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]]|MODELS · [[14_TOOLS/00_INDEX/TOOL_MAP|TOOL_MAP]]|TOOLS · [[15_INTERFACES/00_INDEX/INTERFACE_MAP|INTERFACE_MAP]]|INTERFACES · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP|SCHEMA_MAP]]|SCHEMAS · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY_OBSERVABILITY_MAP]]|OBSERVABILITY · [[18_SECURITY/00_INDEX/SECURITY_MAP|SECURITY_MAP]]|SECURITY · [[19_TESTS/00_INDEX/TEST_MAP|TEST_MAP]]|TESTS · [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP|OPERATIONS_MAP]]|OPERATIONS · [[21_DOMAINS/00_INDEX/DOMAIN_ALIAS_MAP|DOMAIN_ALIAS_MAP]]|DOMAINS · [[22_RESEARCH/00_INDEX/INDEX_RESEARCH_README|INDEX_RESEARCH_README]]|RESEARCH · [[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL|OPERATING_MODEL]]|[[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL|OPERATING_MODEL]] · [[24_ARCHIVE/00_LEGACY/LEGACY_ARCHIVE_README|LEGACY_ARCHIVE_README]]|ARCHIVE · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_ARCHITECTURE|COGNITIVE_MATRIX_ARCHITECTURE]]|COGNITIVE_MATRIX
+**Related:** README|AMOS OS · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|MOC · [[00_ROOT/NEURAL_NETWORK|NEURAL_NETWORK]]|Neural Network · [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]|Architecture · [[00_ROOT/FULL_TREE|FULL_TREE]]|Full Tree · [[00_ROOT/DEPENDENCY_MAP|DEPENDENCY_MAP]]|Dependency Map · [[00_ROOT/AUTHORITATIVE_STATE|AUTHORITATIVE_STATE]]|Authoritative State · [[00_ROOT/00_ROOT_NAMING_STANDARD|00_ROOT_NAMING_STANDARD]]|Naming Standard · [[00_ROOT/PLACEMENT_RULES|PLACEMENT_RULES]]|Placement Rules · [[00_ROOT/ROADMAP|ROADMAP]]|Roadmap · [[01_CANON/00_INDEX/CANON_MAP|CANON_MAP]]|CANON · [[02_KERNEL/00_INDEX/KERNEL_MAP|KERNEL_MAP]]|KERNEL · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]]|CONTROL_PLANE · [[04_RUNTIME/00_INDEX/RUNTIME_MAP|RUNTIME_MAP]]|RUNTIME · [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP|COGNITIVE_ORGANISM_MAP]]|COGNITIVE_ORGANISM · [[06_AGENTS/00_INDEX/AGENT_MAP|AGENT_MAP]]|[[AGENTS|AGENTS]] · [[07_SKILLS/00_INDEX/SKILL_MAP|SKILL_MAP]]|SKILLS · [[26_WORKFLOWS/00_INDEX/WORKFLOW_MAP|WORKFLOW_MAP]]|WORKFLOWS · [[09_PROTOCOLS/00_INDEX/PROTOCOL_MAP|PROTOCOL_MAP]]|PROTOCOLS · [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP|MEMORY_MEMORY_MAP]]|MEMORY · [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS_FULL_BRAIN_OS_ARCHITECTURE]]|KNOWLEDGE · [[12_STATE/00_INDEX/STATE_STATE_MAP|STATE_STATE_MAP]]|STATE · [[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]]|MODELS · [[14_TOOLS/00_INDEX/TOOL_MAP|TOOL_MAP]]|TOOLS · [[15_INTERFACES/00_INDEX/INTERFACE_MAP|INTERFACE_MAP]]|INTERFACES · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP|SCHEMA_MAP]]|SCHEMAS · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY_OBSERVABILITY_MAP]]|OBSERVABILITY · [[18_SECURITY/00_INDEX/SECURITY_MAP|SECURITY_MAP]]|SECURITY · [[19_TESTS/00_INDEX/TEST_MAP|TEST_MAP]]|TESTS · [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP|OPERATIONS_MAP]]|OPERATIONS · [[21_DOMAINS/00_INDEX/DOMAIN_ALIAS_MAP|DOMAIN_ALIAS_MAP]]|DOMAINS · [[22_RESEARCH/00_INDEX/INDEX_RESEARCH_README|INDEX_RESEARCH_README]]|RESEARCH · [[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL|OPERATING_MODEL]]|[[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL|OPERATING_MODEL]] · [[24_ARCHIVE/00_LEGACY/LEGACY_ARCHIVE_README|LEGACY_ARCHIVE_README]]|ARCHIVE · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_ARCHITECTURE|COGNITIVE_MATRIX_ARCHITECTURE]]|COGNITIVE_MATRIX
 
 ```
 ```

@@ -1,21 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Vault Domain Knowledge — Amos Governed Executable Knowledge Repair Rscf
-type: reference
-source: 07_SKILLS/amos-governed-executable-knowledge-repair-rscf/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Vault Domain Knowledge
 tags:
-  - reference
-  - amos-governed-executable-knowledge-repair-rscf
-  - type/skill
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Vault-Sourced Domain Knowledge
@@ -212,7 +212,7 @@ GOOD: Approximately 80% of the ~100,000 vag
 
 > Path: `dated/2026-08-22/2026-08-22 Executable Brain Model Lineage.md` | Size: 2738 chars | Match score: 12
 
-## Executable Brain Model — v1.0 Seed & v22 Lineage
+# Executable Brain Model — v1.0 Seed & v22 Lineage
 
 > Canonical anchor for the brain's executable core. The v1.0 spec the user supplied is the **foundational seed**; the vault's `cosmo-brain/executable_brain_model.py` is its direct, faithful descendant.
 > See also:  ·

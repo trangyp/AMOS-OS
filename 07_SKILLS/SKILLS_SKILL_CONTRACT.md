@@ -1,144 +1,281 @@
 ---
-title: Skills Skill Contract — Plane Governance Specification
-type: specification
-source: 07_SKILLS
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 07_SKILLS/07_SKILLS_MOC
-    - 06_AGENTS/AGENTS_AGENT_CONTRACT
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-  scope: plane_governance
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Skills Skill Contract
 tags:
-  - amos-os
-  - 07-skills
-  - capabilities
-  - specification
-  - skills-skill-contract
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Skills Skill Contract — Plane Governance Specification
+# Skills Plane Contract
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Conclusion Class:** `AMOS_MODEL`
-> **Status:** `ACTIVE_SPECIFICATION`
-> **Governing Lineage:** `v3.0 → v4.4` Canonical Lineage Boundary
+## 0. Contract boundary
 
----
-
-## 1. Architectural Scope & Purpose
-
-`07_SKILLS` constitutes the repository of deterministic, modular, stateless procedural capabilities, cognitive routines, tool wrappers, and domain workflows within the AMOS Full Brain OS. It operationalizes specialized knowledge into executable subroutines that autonomous agents (`06_AGENTS`) invoke through capability-gated interfaces.
-
-```mermaid
-graph TD
-    AGENTS["06_AGENTS (Autonomous Actors)"] -->|Capability Token| SKILLS["07_SKILLS (Procedural Capabilities)"]
-    SKILLS --> WASI["WASI / Sandboxed Runtime (14_TOOLS)"]
-    SKILLS --> SCHEMAS["Input / Output Verification (16_SCHEMAS)"]
-    SKILLS --> OBS["Receipt & Telemetry Sealing (17_OBSERVABILITY)"]
-```
-
----
-
-## 2. Mathematical Foundations & Skill Algebraic Semilattice
-
-A Skill $\mathcal{S}_k$ is formalized as a deterministic state-free transformer:
-
-$$\mathcal{S}_k : \mathcal{I}_{\text{typed}} \times \mathcal{T}_{\text{cap}} \longrightarrow \mathcal{O}_{\text{typed}} \times \mathcal{R}_{\text{receipt}}$$
-
-Where:
-- $\mathcal{I}_{\text{typed}} \in \text{Schema}(\text{Input}_k)$ is the validated input argument.
-- $\mathcal{T}_{\text{cap}}$ is the unexpired, unrevoked capability token.
-- $\mathcal{O}_{\text{typed}} \in \text{Schema}(\text{Output}_k)$ is the output artifact.
-- $\mathcal{R}_{\text{receipt}} = \langle \text{SkillID}, \text{CallerID}, \text{Cycles}, \mathcal{H}_{\text{digest}} \rangle$ is the immutable execution receipt.
-
-### Skill Composition Algebra:
-For compatible skills $\mathcal{S}_a$ and $\mathcal{S}_b$:
-$$\mathcal{S}_{a \circ b}(x) = \mathcal{S}_b(\mathcal{S}_a(x)) \quad \text{provided } \text{Schema}(\text{Output}_a) \sqsubseteq \text{Schema}(\text{Input}_b)$$
-
-### Invariant 1: Idempotency of Read/Transform Skills
-$$\forall x, \quad \mathcal{S}_{\text{pure}}(\mathcal{S}_{\text{pure}}(x)) \equiv \mathcal{S}_{\text{pure}}(x)$$
-
----
-
-## 3. Epistemic Invariants & Strict Boundaries
-
-1. **`SKILL != AGENT`**: A skill is a passive procedure without agency, intrinsic motivation, persistent state, or independent authority.
-2. **`PROCEDURE != AUTHORITY`**: Implementing a computation does not confer rights to execute it outside authorized capability scopes.
-3. **`CAPABILITY != AUTONOMOUS_EXECUTION`**: Skills must be explicitly invoked by governed agents or human workflows; they never self-trigger.
-
----
-
-## 4. Execution Mechanics & Sandboxing
+This contract governs **skill identity, capability semantics, package structure, composition, runtime binding, governance, validation, transfer and lifecycle maintenance**.
 
 ```text
-[Agent Invocation Request]
-            │
-            ▼
-[Capability Token & Schema Linter (16_SCHEMAS)] ──► [Invalid? -> Trap & Log]
-            │ (Valid)
-            ▼
-[WASI Sandbox Instantiation (Limit: 512MB RAM, 30s CPU)]
-            │
-            ▼
-[Execute Procedural Routine]
-            │
-            ▼
-[Emit Deterministic Receipt to 17_OBSERVABILITY]
+REGISTRY ENTRY != PAYLOAD
+PAYLOAD != EXECUTABLE
+EXECUTABLE != VALIDATED
+LOCAL PASS != GENERALIZATION
+SKILL OUTPUT != AUTHORITY
+SKILL PACKAGE != WORKFLOW
 ```
 
----
+Documentary compliance does not prove runtime enforcement.
 
-## 5. Failure Modes & Safe Degradation
+## 1. Hard invariants
 
-- **Timeout Breach ($t > 30\,\text{s}$):** Immediate SIGKILL sent to sandbox micro-process. **Action:** Return `SKILL_TIMEOUT_EXCEPTION` and reclaim allocated memory pages.
-- **Output Schema Violation:** Output bytes fail schema validation. **Action:** Discard output, return `MALFORMED_OUTPUT_ERROR`, increment failure metric in `17_OBSERVABILITY`.
+1. One stable skill identity resolves before invocation.
+2. Aliases never silently merge distinct payload/version identities.
+3. Capability semantics are separate from host availability and authority.
+4. Parent/child delegation may narrow but not silently widen scope or effects.
+5. Skill composition preserves provenance, epistemic class, scope/regime and authority constraints.
+6. A privileged/effectful skill cannot self-authorize external effects.
+7. Validation claims bind the exact skill version/payload, environment and test envelope.
+8. Local benchmark success does not establish cross-task/role/model/host transfer.
+9. Multiple packages descending from one source/model do not provide independent evidence.
+10. Missing payload/dependency/authority/freshness produces an explicit state, never fabricated capability.
+11. Entry-point growth must not defeat progressive loading.
+12. Library maintenance may quarantine or supersede a skill but must preserve lineage.
 
----
-
-## 6. Cross-Plane Bindings & Traceability Matrix
-
-- **`00_ROOT`**: Master navigation anchored in [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]].
-- **`06_AGENTS`**: Calling entities defined in [[06_AGENTS/AGENTS_AGENT_CONTRACT|AGENTS_AGENT_CONTRACT]].
-- **`14_TOOLS`**: Sandboxing engine from [[14_TOOLS/TOOLS_TOOL_CONTRACT|TOOLS_TOOL_CONTRACT]].
-- **`16_SCHEMAS`**: Input/output schemas from [[16_SCHEMAS/SCHEMAS_SCHEMA_CONTRACT|SCHEMAS_SCHEMA_CONTRACT]].
-- **`17_OBSERVABILITY`**: Receipts logged to [[17_OBSERVABILITY/OBSERVABILITY_OBSERVABILITY_CONTRACT|OBSERVABILITY_OBSERVABILITY_CONTRACT]].
-
----
-
-## 7. Verification & Metamorphic Testing
-
-All registered skills must pass automated property-based fuzz testing in `19_TESTS` ensuring:
-$$\forall (x \in \text{Domain}(\mathcal{S})), \quad \text{DeterministicOutput}(\mathcal{S}, x) \land \text{MemoryUsage}(\mathcal{S}, x) \le 512\,\text{MB}$$
-
----
-
-## 8. Lineage & Supersession Management
-
-- **Origin Steward**: **Trang Phan** remains the authoritative origin architect.
-- **Lineage Boundary**: Strictly `v3.0 → v4.4`.
-
----
-
-## 9. Canonical Control Metadata & Attestation
+## 2. Skill contract envelope
 
 ```yaml
-control_metadata:
-  plane_id: 07_SKILLS
-  contract_version: v4.4
-  governance_state: ACTIVE_SPECIFICATION
-  origin_architect: Trang Phan
-  steward: Trang Phan
-  hash_digest: SHA256-SKILLS-PLANE-CONTRACT-2026-09-04
-  last_audit_date: "2026-09-04"
-  metamorphic_fuzz_status: PASS
-  lean4_formal_bound: VERIFIED_BOUNDED
+skill_contract:
+  identity:
+    skill_id:
+    version:
+    canonical_name:
+    aliases: []
+    semantic_origin:
+  trigger:
+    use_when: []
+    do_not_use_when: []
+  capability:
+    purpose:
+    inputs: []
+    outputs: []
+    effect_class:
+    side_effects: []
+  package:
+    entrypoint:
+    references: []
+    scripts: []
+    assets: []
+    payload_ref:
+    payload_hash:
+  runtime:
+    host_binding:
+    connector_requirements: []
+    tool_bindings: []
+    model_bindings: []
+    environment_assumptions: []
+  composition:
+    parent:
+    children: []
+    sibling_boundaries: []
+    dependencies: []
+    workflow_interfaces: []
+  governance:
+    scope:
+    regime:
+    authority_requirements: []
+    data_exposure:
+    security_constraints: []
+    freshness_requirements: []
+  validation:
+    positive: []
+    negative: []
+    transfer: []
+    composition: []
+    falsifiers: []
+    invalidation_conditions: []
+  provenance:
+    source_refs: []
+    dependency_ancestry: []
+    license_ip:
+  lifecycle:
+    state:
+    debt_state:
+    quarantine:
+    supersession:
+    retirement:
+    rollback:
 ```
+
+## 3. Resolution and admission
+
+```text
+DISCOVER
+→ RESOLVE STABLE ID + VERSION
+→ RECONCILE REGISTRY / LOCK / CATALOG
+→ RESOLVE PAYLOAD
+→ VERIFY DEPENDENCIES
+→ VERIFY HOST COMPATIBILITY
+→ BIND TASK SCOPE / REGIME
+→ BIND SECURITY / EXPOSURE / AUTHORITY
+→ CHECK VALIDATION STATE
+→ ADMIT / HOLD / DENY / UNKNOWN-GAP
+```
+
+Filename similarity and folder presence are only discovery signals.
+
+## 4. Progressive package architecture
+
+A high-quality skill is a compact control plane, not a vault dump.
+
+```text
+metadata
+→ SKILL.md
+→ targeted reference
+→ raw source only when decision-relevant
+```
+
+Use `scripts/` only when deterministic repeatability is stronger than prose. Use `assets/` only for output-consumed artifacts. References remain source- and version-bound.
+
+## 5. Composition contract
+
+A parent or workflow may call a skill only with a typed input envelope and must receive a typed result envelope.
+
+**Accept**
+- target/task;
+- scope/regime;
+- evidence/source bundle;
+- authority context when effectful;
+- optional prior state.
+
+**Return**
+- result and conclusion class;
+- gaps/contradictions;
+- provenance/dependencies;
+- effect proposal if any;
+- invalidation conditions;
+- escalation requirement.
+
+A child may not inherit undeclared authority from its caller.
+
+## 6. Library-time maintenance
+
+Skill quality is partly an ecosystem property.
+
+Maintain a `SkillHealth` vector:
+
+```text
+SkillHealth =
+[utility, compatibility, risk, validation, freshness,
+ provenance, duplication, materialization, retrievability, maintainability]
+```
+
+This vector is an AMOS governance model; it is not an established universal metric and need not be collapsed to one score.
+
+Debt detection should flag:
+- trigger overlap;
+- orphaned dependencies;
+- missing payload;
+- stale environment binding;
+- obsolete source revision;
+- undocumented privileged effect;
+- untested fallback;
+- duplicate semantic origin;
+- incompatible composition;
+- unbounded context/reference expansion.
+
+## 7. Transfer and generalization
+
+When reusability matters, test beyond the task that produced the skill.
+
+```text
+TransferEvidence =
+task × role × model × host × environment × regime × time
+```
+
+Record `TESTED`, `FAILED`, or `UNKNOWN`; absence of evidence is not transfer success.
+
+Research such as AFTER (arXiv:2606.23127) motivates this evaluation dimension. Its reported benchmark results remain external `SOURCE_CLAIM`.
+
+## 8. Security and supply-chain boundary
+
+Before admitting an effectful or externally sourced skill:
+- bind semantic origin and payload identity;
+- inspect dependency and tool privileges;
+- identify data/exposure channels;
+- validate least-required capability;
+- preserve revocation/freshness;
+- test negative permissions;
+- quarantine ambiguous or tampered provenance.
+
+A signed or popular skill is not necessarily safe.
+
+## 9. Evolution
+
+```text
+DRAFT
+→ DISCOVERED
+→ RESOLVED
+→ MATERIALIZED
+→ EXECUTABLE
+→ LOCALLY_VALIDATED
+→ [TRANSFER_VALIDATED]
+→ [COMPOSITION_VALIDATED]
+→ GOVERNANCE_ADMITTED
+→ ACTIVE
+→ QUARANTINED / SUPERSEDED / RETIRED
+```
+
+Brackets indicate optional evidence states, not mandatory claims.
+
+Skill evolution must preserve predecessor identity, changed semantics, migration effects, validation evidence and rollback path.
+
+## 10. Workflow boundary
+
+Workflows own sequencing and graph control. Skills own reusable capability semantics.
+
+A workflow-specific adaptation should be represented as parameters/adapters or a distinct versioned skill only when capability semantics materially change.
+
+## 11. Falsifiers / repair
+
+Revise or quarantine a skill if:
+- registry and payload identities diverge;
+- its trigger routes materially outside declared capability;
+- required dependencies cannot be resolved;
+- negative-path testing exposes undeclared effects;
+- transfer/composition evidence contradicts generalized claims;
+- source provenance is revoked or invalidated;
+- a newer canonical contract supersedes load-bearing semantics.
+
+Repair the smallest affected edge and revalidate descendants.
+
+## 12. Current known gap
+
+The 2026-09-03 registry reconciliation records substantial namespace/materialization mismatch across Drive registry, corpus and external lock views. Therefore, plane-wide installed/executable completeness remains `UNKNOWN/GAP`.
+
+## Related
+
+- [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
+- [[07_SKILLS/SKILLS_README|SKILLS_README]]
+- [[07_SKILLS/00_INDEX/SKILL_MAP|SKILL_MAP]]
+- [[26_WORKFLOWS/26_WORKFLOWS_MOC|WORKFLOWS]]
+- [[06_AGENTS/06_AGENTS_MOC|AGENTS]]
+- [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|CONTROL_PLANE]]
+- [[18_SECURITY/18_SECURITY_MOC|SECURITY]]
+- [[19_TESTS/19_TESTS_MOC|TESTS]]
+- [[22_RESEARCH/22_RESEARCH_MOC|RESEARCH]]
+
+---
+RSCF-NODE
+node_id: skills_skill_contract
+node_type: contract
+path: 07_SKILLS/SKILLS_SKILL_CONTRACT.md
+claim_class: AMOS_MODEL

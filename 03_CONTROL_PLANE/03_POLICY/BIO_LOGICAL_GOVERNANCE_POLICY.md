@@ -1,142 +1,100 @@
 ---
-title: Bio-Logical Governance Policy
-type: logic
-source: 03_CONTROL_PLANE/03_POLICY
-artifact: BIO_LOGICAL_GOVERNANCE_POLICY.md
-artifact_id: amos_03_control_plane_03_policy_bio_logical_governance_policy
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 03_CONTROL_PLANE
-segment: 03_CONTROL_PLANE/03_POLICY
-artifact_kind: LOG
-path: 03_CONTROL_PLANE/03_POLICY/BIO_LOGICAL_GOVERNANCE_POLICY.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Bio Logical Governance Policy
 tags:
-  - amos-os
-  - control-plane
-  - governance
-  - log
-  - canon_placeholder
-  - rscf
-  - canon/control-plane
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Bio-Logical Governance Policy
 
 ## 0. Status
 
-`BIO_LOGICAL_GOVERNANCE_POLICY.md` is an **ADD-ONLY placeholder** for the **Control Plane** plane segment at `03_CONTROL_PLANE/03_POLICY`.
+`BIO_LOGICAL_GOVERNANCE_POLICY.md` defines the proposed AMOS OS **Bio-Logical Governance**.
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
+This artifact replaces a structural placeholder with substantive content.
 
 ```text
 PLACEHOLDER != IMPLEMENTED
-
 ADDRESSABLE != VALIDATED
-
 DOCUMENTED != ENFORCED
-
 MODEL != OBSERVATION
-
 SOURCE_CLAIM != VERIFIED
-
 CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
 CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
 UNKNOWN/GAP != PASS
 ```
 
-Origin architect / steward:
-
-**Trang Phan**
+Origin architect / steward: **Trang Phan**
 
 ______________________________________________________________________
 
 ## 1. Purpose
 
-This artifact reserves the **Bio-Logical Governance Policy** slot within the Control Plane plane. The Control Plane plane governs governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+The Bio-Logical Governance Policy translates biological intelligence laws (UBI, substrate distress, non-compensatory domains) into enforceable control-plane policies.
 
 ______________________________________________________________________
 
-## 2. Non-Purpose
+## 2. Formal Definition
 
-This placeholder MUST NOT be used to claim:
+### 2.1 Bio-Logical Policy Rules
 
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
+| Rule | Canon Source | Enforcement |
+|:---|:---|:---|
+| Substrate Distress Veto | τ < 0.2 | Block all consequential actions |
+| Non-Compensatory Domains | min(NBI, NEI, SI, BEI) | Reject compensation attempts |
+| Cognitive Load Limit | load ≤ 0.7 | Throttle reasoning depth |
+| 40Hz Clock Pacing | Gamma synchronization | Enforce multi-agent pacing |
+
+### 2.2 Veto Authority
+
+$$\tau < 0.2 \implies \text{VetoAllConsequentialActions}()$$
+
+The substrate distress veto is absolute — no authority can override it.
+
+### 2.3 Bio-Logical Policy Boundary
+
+$$\text{BIO\_LOGICAL\_POLICY} \neq \text{MEDICAL\_ADVICE}$$
+
+Bio-logical policies govern AMOS reasoning, not medical treatment.
 
 ______________________________________________________________________
 
-## 3. Ingestion Rule
+## 3. Cross-References
+
+- [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
+- [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+
+______________________________________________________________________
+
+## 4. Gaps
+
+- Executable binding NOT_ESTABLISHED
+- Canonical status CONDITIONAL
+- Automated enforcement NOT_ESTABLISHED
+
+______________________________________________________________________
+
+## 5. Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
   existing_file:
     preserve: true
     overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
   uncertainty:
     action:
       - MARK_GAP_OR_COMPETING
@@ -145,55 +103,7 @@ AMOS_CANON_INGESTION_RULE:
 
 ______________________________________________________________________
 
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
-______________________________________________________________________
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
-______________________________________________________________________
-
-## 6. Worked semantics (target)
-
-Given an operation touching `03_CONTROL_PLANE · LOG` within the Control Plane plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 
@@ -203,17 +113,17 @@ ______________________________________________________________________
 
 RSCF-NODE
 
-node_id: amos_03_control_plane_03_policy_bio_logical_governance_policy
+node_id: amos_03_control_plane_bio_logical_governance_policy
 
-node_type: log
+node_type: CONTRACT
 
 path: 03_CONTROL_PLANE/03_POLICY/BIO_LOGICAL_GOVERNANCE_POLICY.md
 
 claim_class: AMOS_MODEL
 
-rscf_state: placeholder
+rscf_state: DERIVED
 
-canonical_status: UNKNOWN/GAP
+canonical_status: CONDITIONAL
 
 RSCF-RELATIONS:
 
@@ -225,4 +135,4 @@ RSCF-RELATIONS:
 
 ______________________________________________________________________
 
-**MOC:** [[03_CONTROL_PLANE/03_POLICY/03_POLICY_MOC|03_POLICY_MOC]]
+**MOC:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]

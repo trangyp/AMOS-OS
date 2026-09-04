@@ -1,22 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Vault Domain Knowledge — Amos Semantic Workflow Persistence Rscf
-type: reference
-source: 07_SKILLS/amos-semantic-workflow-persistence-rscf/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Vault Domain Knowledge
 tags:
-  - reference
-  - amos-semantic-workflow-persistence-rscf
-  - type/skill
-  - k-meta-logic
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Vault-Sourced Domain Knowledge
@@ -181,7 +180,7 @@ Order:
 
 > Path: `kernel/A/AMOS_Kernel_Routing_Workflow.md` | Size: 5041 chars | Match score: 13
 
-## AMOS Kernel Routing Workflow
+# AMOS Kernel Routing Workflow
 
 Determine which AMOS kernels handle a task, using the brain's kernel registry and routing rules.
 

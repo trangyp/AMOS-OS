@@ -1,17 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-date: 2026-08-30
-epistemic_class: OBSERVATION
-provenance: GitHub README, not independently verified
-rscf:
-  claim_class: DERIVED
-  provenance: GitHub README (pedronauck/skills)
-  scope: AMOS_knowledge
-  state: SOURCE_CLAIM
-source: https://raw.githubusercontent.com/pedronauck/skills/main/README.md
-title: Pedro Nauck Skills README — Raw Capture
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Pedronauck Skills Readme 2026 08 30
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Pedro Nauck Skills README — Raw Capture
@@ -37,10 +41,10 @@ npx skills add https://github.com/pedronauck/skills
 Use the `owner/repo/<subpath>` shorthand to install only one bucket:
 
 ```bash
-## Only the original skills
+# Only the original skills
 npx skills add pedronauck/skills/skills/mine
 
-## Only the curated skills
+# Only the curated skills
 npx skills add pedronauck/skills/skills/curated
 ```
 
@@ -55,10 +59,10 @@ npx skills add pedronauck/skills/skills/mine --skill react
 Copy or symlink the skills you need into your Claude Code configuration:
 
 ```bash
-## Copy a single skill
+# Copy a single skill
 cp -r skills/mine/react ~/.claude/skills/react
 
-## Or symlink an entire bucket
+# Or symlink an entire bucket
 ln -s $(pwd)/skills/mine ~/.claude/skills/mine
 ```
 

@@ -1,131 +1,109 @@
 ---
-title: Provenance Kernel Contract — Subplane Governance Specification
-type: specification
-source: 02_KERNEL/08_PROVENANCE
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 02_KERNEL/KERNEL_KERNEL_CONTRACT
-    - 01_CANON/07_PROVENANCE/CANON_PROVENANCE_CONTRACT
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-  scope: subplane_governance
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Kernel Provenance Contract
 tags:
-  - amos-os
-  - 02-kernel
-  - provenance
-  - specification
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Provenance Kernel Contract — Subplane Governance Specification
+# KERNEL PROVENANCE CONTRACT
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Epistemic Class:** `AMOS_MODEL`
-> **Status:** `ACTIVE_SPECIFICATION`
+## 0. Status
 
----
+Kernel-plane contract for **PROVENANCE CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
-## 1. Architectural Scope & Purpose
+## 1. Scope
 
-`KERNEL_PROVENANCE_CONTRACT` governs low-level kernel execution trace logging, instruction counter attestation, deterministic replay receipts, and transaction hash-chaining across all kernel components. It guarantees that every state transition executed by `02_KERNEL` is cryptographically auditable and bit-for-bit replayable.
+Governs kernel-plane reasoning primitives: meta-logic, cognition, causality, state, memory, risk-repair, authority, provenance, integration as they bear on `PROVENANCE CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
 
----
+## 2. Contract terms
 
-## 2. Mathematical Foundations & Trace Formalism
+- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
+- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
+- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
+- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
+- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
 
-A Kernel Execution Trace Event $\mathcal{E}_{\text{trace}}$ is formalized as:
+## 3. Invariants
 
-$$\mathcal{E}_{\text{trace}} = \langle \text{TxID}, \text{Epoch}, \mathcal{S}_{\text{pre\_hash}}, \mathcal{I}_{\text{input}}, \mathcal{S}_{\text{post\_hash}}, \Delta t_{\text{cycles}}, \sigma_{\text{receipt}} \rangle$$
+- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
+- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
+- Consequential effects emit receipts; rollback basin exists before mutation.
+- Competing hypotheses remain visible when evidence does not discriminate.
 
-Where:
-- $\text{TxID} \in \{0, 1\}^{128}$ is a unique transaction identifier.
-- $\text{Epoch} \in \mathbb{N}$ is the monotonic kernel causal epoch.
-- $\mathcal{S}_{\text{pre\_hash}} = \text{BLAKE3}(\text{State}_{\text{pre}})$ is the pre-state root digest.
-- $\mathcal{S}_{\text{post\_hash}} = \text{BLAKE3}(\text{State}_{\text{post}})$ is the post-state root digest.
-- $\sigma_{\text{receipt}} = \text{HMAC}(\text{KernelKey}, \text{TxID} \mathbin{\Vert} \text{Epoch} \mathbin{\Vert} \mathcal{S}_{\text{pre\_hash}} \mathbin{\Vert} \mathcal{S}_{\text{post\_hash}})$.
+## 4. Executed reference
 
-### Invariant 1: Trace Chain Continuity
-$$\forall i \ge 1, \quad \mathcal{E}_{\text{trace}}[i].\mathcal{S}_{\text{pre\_hash}} \equiv \mathcal{E}_{\text{trace}}[i-1].\mathcal{S}_{\text{post\_hash}}$$
+No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
 
-### Invariant 2: Deterministic Replay Equivalence
-$$\text{Replay}(\mathcal{S}_{\text{pre\_hash}}[i], \mathcal{I}_{\text{input}}[i]) \equiv \mathcal{S}_{\text{post\_hash}}[i]$$
+## 5. Gaps
 
----
+Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
 
-## 3. Epistemic Invariants & Non-Repudiation
+## 6. Falsifiers
 
-1. **Append-Only Immutability:** Kernel trace logs are append-only. Rewriting or truncating past trace entries is cryptographically detected and rejected.
-2. **Audit Receipt Generation:** No state change is finalized without emitting an attestation receipt to `17_OBSERVABILITY`.
-3. **Trace Non-Elision:** Diagnostic traces cannot be skipped during emergency or degraded operating regimes.
+F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
 
----
+## Worked semantics
 
-## 4. Execution Mechanics & Replay Engine
+Given an operation touching `KERNEL · PROVENANCE CONTRACT` within the Kernel plane:
 
-```text
-[Transaction Execution]
-          │
-          ▼
-[Capture Pre-State Hash: H_pre]
-          │
-          ▼
-[Execute State Transducer: S_post = Φ(S_pre, Input)]
-          │
-          ▼
-[Capture Post-State Hash: H_post]
-          │
-          ▼
-[Sign Trace Block: σ = Sign(H_pre || Input || H_post)]
-          │
-          ▼
-[Commit Trace to Persistent Ring Buffer & Observability]
-```
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
----
+## Promotion-gate checklist
 
-## 5. Failure Modes & Forensics
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-- **Trace Hash Discontinuity:** Mismatch between expected pre-state hash and actual. **Action:** Instant kernel freeze; initiate memory dump and audit ledger recovery.
-- **Disk Full on Trace Device:** Inability to persist trace logs. **Action:** Fail-closed abort of all mutating transactions; read-only fallback mode.
+## Cross-plane bindings
 
----
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-## 6. Cross-Plane Bindings
+______________________________________________________________________
 
-- **`01_CANON/07_PROVENANCE`**: High-level canonical provenance interface.
-- **`02_KERNEL/04_STATE`**: Supplies state root hashes.
-- **`17_OBSERVABILITY`**: Telemetry ingest and storage.
-- **`20_OPERATIONS`**: Operational audit ledgers.
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
-## 7. Verification & Formal Invariants
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
-Formal verification of hash-chain continuity in Lean 4:
-$$\forall (T : \text{TraceLog}), \quad \text{IsContinuous}(T) \implies \text{IsTamperEvident}(T)$$
+______________________________________________________________________
 
----
+RSCF-NODE
+node_id: amos_02_kernel_08_provenance_kernel_provenance_contract_md
+node_type: note
+path: 02_KERNEL/08_PROVENANCE/KERNEL_PROVENANCE_CONTRACT.md
+claim_class: AMOS_MODEL
 
-## 8. Lineage & Stewardship
+______________________________________________________________________
 
-- **Origin Architect:** Trang Phan
-- **Steward:** Trang Phan
-- **Target:** `v4.4`
+**MOC:** [[02_KERNEL/08_PROVENANCE/08_PROVENANCE_MOC|08_PROVENANCE_MOC]]
 
----
+______________________________________________________________________
 
-## 9. Attestation Metadata
-
-```yaml
-subplane: 02_KERNEL/08_PROVENANCE
-contract_status: ACTIVE_SPECIFICATION
-steward: Trang Phan
-verification_status: CRYPTOGRAPHICALLY_LOCKED
-```
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

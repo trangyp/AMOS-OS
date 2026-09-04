@@ -1,23 +1,20 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: super factory engine v2
-type: reference
-source: 07_SKILLS/amos-c10-tech-engineering-master/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Super Factory Engine V2
 tags:
-  - reference
-  - amos-c10-tech-engineering-master
-  - type/skill
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: CONDITIONAL
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: skill_reference
-overclaim_risk: true
-overclaim_note: Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation.
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AMOS SUPER Factory Engine v2.0.0

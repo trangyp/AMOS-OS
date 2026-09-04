@@ -1,60 +1,21 @@
 ---
-title: Sensitivity Runtime Specification
-type: runtime
-source: 04_RUNTIME/06_EXECUTION
-artifact: SENSITIVITY_RUNTIME.md
-artifact_id: amos_04_runtime_06_execution_sensitivity_runtime
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 04_RUNTIME
-segment: 04_RUNTIME/06_EXECUTION
-artifact_kind: RUNTIME_SPEC
-path: 04_RUNTIME/06_EXECUTION/SENSITIVITY_RUNTIME.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Sensitivity Runtime
 tags:
-  - amos-os
-  - runtime
-  - vault
-  - 06_execution
-  - sensitivity_runtime
-  - perturbation_analysis
-  - stability_governor
-  - rscf
-  - canon_candidate
-  - canon/runtime
-  - tss-the-trang-system
-  - tpe-trang-prediction-engine
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
-    - 11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM
-    - AMOS_CORPUS
-  scope:
-    - RUNTIME_EXECUTION
-    - SENSITIVITY_ANALYSIS
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  execution_moc:
-    artifact: 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
-  tss_framework:
-    artifact: 11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  spec_structure: VERIFIED_SOURCE_STRUCTURE
-  execution_algorithm: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Sensitivity Runtime Execution Specification

@@ -1,15 +1,21 @@
 ---
-title: AMOS All Artifacts Index
-type: navigation_index
-amos_core_target: v4.4
-origin_architect: Trang Phan
-status: ACTIVE_INDEX
-conclusion_class: DERIVED
-updated: 2026-09-03
-rscf:
-  state: DERIVED
-  provenance: static_registry_plus_live_delta_registry
-  scope: repository_wide_navigation
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: All Artifacts Index
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS All Artifacts Index
@@ -34,7 +40,7 @@ The static registry chain is used because Dataview is not a load-bearing depende
 - [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM]]
 - [[06_AGENTS/06_AGENTS_MOC|06_AGENTS]]
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS]]
-- [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS]]
+- [[26_WORKFLOWS/26_WORKFLOWS_MOC|26_WORKFLOWS]]
 - [[09_PROTOCOLS/09_PROTOCOLS_MOC|09_PROTOCOLS]]
 - [[10_MEMORY/10_MEMORY_MOC|10_MEMORY]]
 - [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE]]

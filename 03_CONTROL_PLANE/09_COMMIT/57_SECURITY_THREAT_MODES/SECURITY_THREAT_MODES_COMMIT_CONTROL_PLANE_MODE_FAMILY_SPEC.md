@@ -1,19 +1,21 @@
 ---
-title: SECURITY THREAT MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-type: control-plane
-source: 03_CONTROL_PLANE/09_COMMIT/57_SECURITY_THREAT_MODES
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Security Threat Modes Commit Control Plane Mode Family Spec
 tags:
-  - control-plane
-  - 57_security_threat_modes
-  - canon/control-plane
-  - authz-engine-validation-receipt
-  - routing-policy-validation-receipt
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: DERIVED
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # SECURITY THREAT MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

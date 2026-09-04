@@ -1,104 +1,165 @@
 ---
-title: Provenance Integrity Canon
-type: canon
-source: 01_CANON/01_CORE_LAWS
-artifact: PROVENANCE_INTEGRITY_CANON.md
-artifact_id: amos_01_canon_01_core_laws_provenance_integrity_canon
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/01_CORE_LAWS
-artifact_kind: PROVENANCE
-path: 01_CANON/01_CORE_LAWS/PROVENANCE_INTEGRITY_CANON.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Provenance Integrity Canon
 tags:
-  - amos-os
-  - canon
-  - universe
-  - provenance
-  - canon_placeholder
-  - rscf
-  - canon/universe
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: core_laws
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Provenance Integrity Canon
 
 ## 0. Status
 
-`PROVENANCE_INTEGRITY_CANON.md` is an **ADD-ONLY placeholder** for the **Canon** plane segment at `01_CANON/01_CORE_LAWS`.
+`PROVENANCE_INTEGRITY_CANON.md` defines the proposed AMOS OS **Provenance Integrity** core law.
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
+This artifact replaces a structural placeholder with substantive content. It does not, by its own existence, establish final AMOS canon, executable enforcement, empirical validity, or runtime implementation.
 
 ```text
 PLACEHOLDER != IMPLEMENTED
-
 ADDRESSABLE != VALIDATED
-
 DOCUMENTED != ENFORCED
-
 MODEL != OBSERVATION
-
 SOURCE_CLAIM != VERIFIED
-
 CANON_CANDIDATE != CANONICAL
-
 CANONICAL != EMPIRICAL_TRUTH
-
 CAPABILITY != AUTHORITY
-
 AUTHORIZATION != COMMIT
-
 PROPOSAL != COMMIT
-
 IMPLEMENTED != VALIDATED
-
 LOGGED != APPROVED
-
 UNKNOWN/GAP != PASS
 ```
 
-Origin architect / steward:
-
-**Trang Phan**
+Origin architect / steward: **Trang Phan**
 
 ______________________________________________________________________
 
 ## 1. Purpose
 
-This artifact reserves the **Provenance Integrity Canon** slot within the Canon plane. The Canon plane governs canonical laws, universe/cognition/infrastructure canons, variable registry, glossary, provenance lineage, and supersession.
+The Provenance Integrity Canon defines the AMOS OS requirements for maintaining the integrity of provenance chains. It establishes the invariants that must hold for provenance to be considered trustworthy, and the conditions under which provenance integrity is violated.
 
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+Provenance integrity answers:
+
+> What must be true for a provenance chain to be considered trustworthy, and what happens when provenance integrity is violated?
+
+The Provenance Integrity Canon states:
+
+> **A provenance chain has integrity if and only if it is complete (no missing links), tamper-evident (modifications are detectable), independently verifiable (verification does not depend on the source being verified), and fresh (not stale beyond declared validity). Provenance integrity violation is a fail-closed condition.**
 
 ______________________________________________________________________
 
-## 2. Non-Purpose
+## 2. Formal Definition
 
-This placeholder MUST NOT be used to claim:
+### 2.1 Provenance Integrity Invariant
 
+$$\text{ProvenanceIntegrity}(P) \iff \text{Complete}(P) \wedge \text{TamperEvident}(P) \wedge \text{IndependentlyVerifiable}(P) \wedge \text{Fresh}(P)$$
+
+### 2.2 Completeness
+
+$$\text{Complete}(P) \iff \forall\, n \in P, \text{Source}(n) \neq \text{null} \wedge \text{Timestamp}(n) \neq \text{null} \wedge \text{Identity}(n) \neq \text{null}$$
+
+Every node in the provenance chain must have a source, timestamp, and identity.
+
+### 2.3 Tamper-Evidence
+
+$$\text{TamperEvident}(P) \iff \forall\, n \in P, \exists\, h(n) : \text{Hash}(n) \text{ is cryptographically bound to } \text{Hash}(\text{pred}(n))$$
+
+Each node's hash includes the hash of its predecessor, creating a tamper-evident chain.
+
+### 2.4 Independent Verifiability
+
+$$\text{IndependentlyVerifiable}(P) \iff \text{Verify}(P) \text{ does not require trust in any node in } P$$
+
+### 2.5 Freshness
+
+$$\text{Fresh}(P) \iff \text{Age}(P) \leq \text{ValidityWindow}(P)$$
+
+______________________________________________________________________
+
+## 3. Relationship to Other Core Laws
+
+| Law | Relationship |
+|:---|:---|
+| **L2 Provenance** | L2 defines provenance laws; this canon governs their integrity |
+| **Rule of 2 (R2)** | R2 requires source independence; provenance integrity requires independent verifiability |
+| **Provenance Trust Firewall** | Enforces provenance integrity at the trust boundary |
+| **L22 Replayability** | Provenance integrity is required for deterministic replay |
+
+______________________________________________________________________
+
+## 4. Application Domains
+
+### 4.1 Knowledge Ingestion
+
+When ingesting knowledge into the vault:
+- Every claim must have complete provenance (source, timestamp, identity)
+- Provenance chain must be tamper-evident (hash-chained)
+- Verification must not depend on the source being verified
+- Provenance must be fresh (within validity window)
+
+### 4.2 Decision Recording
+
+When recording decisions:
+- Decision provenance must include all premises and their sources
+- Provenance chain must be complete and tamper-evident
+- Decision freshness must be within validity window
+
+### 4.3 Memory Admission
+
+When admitting to persistent memory:
+- Memory entry provenance must be complete
+- Provenance integrity must be verified before admission
+- Stale provenance triggers revalidation or eviction
+
+______________________________________________________________________
+
+## 5. Worked Semantics
+
+Given a provenance chain $P$ undergoing integrity validation:
+
+1. **Check completeness** — verify every node has source, timestamp, identity
+2. **Check tamper-evidence** — verify hash chain is intact
+3. **Check independent verifiability** — verify that verification doesn't require trust in chain nodes
+4. **Check freshness** — verify age is within validity window
+5. **Classify** — if all pass, provenance integrity holds; if any fail, fail-closed
+6. **Record** — log the validation result
+
+```text
+validate provenance chain P
+  ↓
+check completeness  ──fail──→  flag missing source/timestamp/identity
+  ↓ pass
+check tamper-evidence  ──fail──→  flag hash chain break
+  ↓ pass
+check independent verifiability  ──fail──→  flag circular trust
+  ↓ pass
+check freshness  ──fail──→  flag stale provenance
+  ↓ pass
+provenance integrity holds
+  ↓
+record validation receipt
+```
+
+______________________________________________________________________
+
+## 6. Non-Purpose
+
+This law MUST NOT be used to claim:
 - universal laws of reality;
 - scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
+- empirical truth;
 - runtime enforcement that has not been implemented;
 - final canonical status;
 - authority merely from architectural importance;
@@ -106,7 +167,43 @@ This placeholder MUST NOT be used to claim:
 
 ______________________________________________________________________
 
-## 3. Ingestion Rule
+## 7. Gaps
+
+- Executable binding NOT_ESTABLISHED — this law is specified but not yet enforced by runtime code
+- Canonical status CONDITIONAL — proposed specification, not yet promoted to full canon
+- Automated validation NOT_ESTABLISHED — automated enforcement is not implemented
+- Cross-domain testing NOT_ESTABLISHED — testing across all AMOS domains is not complete
+
+______________________________________________________________________
+
+## 8. Promotion-Gate Checklist
+
+- [x] substantive content populated from AMOS corpus sources
+- [x] formal definition provided (§2)
+- [x] relationship to other core laws documented (§3)
+- [x] application domains specified (§4)
+- [x] worked semantics defined (§5)
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+
+______________________________________________________________________
+
+## 9. Cross-Plane Bindings
+
+- Governed by — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|AMOS_CORE_LAWS]]
+- Kernel enforcement — [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
+- Control-plane gates — [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via — [[20_OPERATIONS/20_OPERATIONS_MOC|20_OPERATIONS_MOC]]
+
+______________________________________________________________________
+
+## 10. Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -145,55 +242,7 @@ AMOS_CANON_INGESTION_RULE:
 
 ______________________________________________________________________
 
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
-______________________________________________________________________
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
-______________________________________________________________________
-
-## 6. Worked semantics (target)
-
-Given an operation touching `01_CANON · PROVENANCE` within the Canon plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 
@@ -205,15 +254,15 @@ RSCF-NODE
 
 node_id: amos_01_canon_01_core_laws_provenance_integrity_canon
 
-node_type: provenance
+node_type: canon
 
 path: 01_CANON/01_CORE_LAWS/PROVENANCE_INTEGRITY_CANON.md
 
 claim_class: AMOS_MODEL
 
-rscf_state: placeholder
+rscf_state: SOURCE_CLAIM
 
-canonical_status: UNKNOWN/GAP
+canonical_status: CONDITIONAL
 
 RSCF-RELATIONS:
 

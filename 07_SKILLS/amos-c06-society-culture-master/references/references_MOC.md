@@ -1,45 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: References MOC — References — Amos C06 Society Culture Master
-type: moc
-source: 07_SKILLS/amos-c06-society-culture-master/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: References Moc
 tags:
-  - references
-  - type/skill
-  - cci-official-manual
-  - china-engines-model
-  - cultural-bifurcation-emotion-logic
-  - [[07_SKILLS/amos-c06-society-culture-master/references/dignity|dignity]]
-  - domain-config
-  - humanity-ice-age-to-present
-  - marketing-gtm-kernel
-  - society-culture-engine-cognitive
-  - vault-domain-knowledge
-  - vietnam-engine-layer
-  - vietnam-engines-model
-  - vietnam-environment-report
-  - vietnamese-fractal-logic-analysis
-  - vietnamese-writing-engine
-  - vietnamese-writing-model
-  - vn-absolute-architecture
-  - vn-governance-politics-pack
-  - vn-labor-shortage-report
-  - vn-marketing-strategy
-  - vn-omnistructure-clean-engine
-  - vn-omnistructure-engine
-  - vn-omnistructure-model
-  - vn-trust-marketplace-strategy
-  - when-humanity-began
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-moc: true
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # References — Map of Content

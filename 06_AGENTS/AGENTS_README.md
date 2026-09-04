@@ -1,67 +1,87 @@
 ---
-title: "06_AGENTS — Agent Classification & Lifecycle Architecture"
-type: architecture_specification
-source: 06_AGENTS
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 06_AGENTS/AMOS_AGENT_SCHEMA_FULL
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-  scope: agents_architecture
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Agents Readme
 tags:
-  - amos-os
-  - agents
-  - classification
-  - lifecycle
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# 06_AGENTS — Agent Classification & Lifecycle Architecture
+# [[AGENTS|AGENTS]] README
 
-## 1. Domain Boundary
+## Purpose
 
-In the MECE Full Brain OS architecture (**Partition C: Cognitive Capability & Orchestration**), agents are bounded, versioned, typed cognitive actors executing delegated subtasks.
+`AGENTS README` is the package readme for the **Agents** plane segment at `06_AGENTS`.
+The Agents plane governs agent specifications, capability envelopes, and delegation boundaries. Normative load-bearing content lives in the sibling contract(s); this readme orients navigation.
 
-An agent is **not** an autonomous persona with sovereign rights. It is a strictly governed process bounded by:
+## Sibling artifacts
 
-```text
-IDENTITY + OBJECTIVE + INVARIANTS + CAPABILITIES + AUTHORITY_BOUNDARY + RSCF_BINDING
-```
+- [[06_AGENTS/AGENTS_AGENT_CONTRACT|AGENTS_AGENT_CONTRACT]]
 
-## 2. Agent Classification Hierarchy
+## Contract discipline
 
-```mermaid
-graph TD
-    A[AMOS Agent System] --> B[Orchestrator Agents<br/>Plan decomposition & synthesis]
-    A --> C[Specialist Worker Agents<br/>Domain-specific computation]
-    A --> D[Assurance & Auditor Agents<br/>Invariant & proof validation]
-    A --> E[Failsafe & Gatekeeper Agents<br/>Emergency rollback & gating]
-```
+Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
 
-### 2.1 Orchestrator Agents
-Responsible for decomposing complex user goals into task Directed Acyclic Graphs (DAGs), selecting appropriate specialist agents, and synthesizing final results under strict confidence boundaries.
+## Gaps
 
-### 2.2 Specialist Worker Agents
-Highly tuned agents possessing narrow domain expertise (e.g. QFM mathematical derivation, legal kernel verification, code fence healing). They operate strictly within assigned RSCF scopes.
+Executable binding PARTIAL unless an executed validation receipt exists for this subsystem ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
 
-### 2.3 Assurance & Auditor Agents
-Independent actors that review proposed state mutations before commit. They evaluate evidence chains and flag epistemic drift or confidence inflation.
+## Worked semantics
 
-### 2.4 Failsafe & Gatekeeper Agents
-System-level monitors with authorization to abort compromised transactions and trigger rollback basin procedures.
+Given an operation touching `AGENTS README` within the Agents plane:
 
-## 3. Formal Agent Lifecycle
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-```text
-PROPOSED ──[Schema Validated]──> ADMITTED ──[Capability Granted]──> ACTIVE
-                                                                      │
-                                                              [Violation Detected]
-                                                                      ▼
-RETIRED <──[Epoch Finalized]── QUARANTINED <──[Token Revoked]─────────┘
-```
+## Promotion-gate checklist
+
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+
+## Cross-plane bindings
+
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+
+______________________________________________________________________
+
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+
+______________________________________________________________________
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: amos_06_agents_agents_readme_md
+node_type: note
+path: 06_AGENTS/AGENTS_README.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[06_AGENTS/06_AGENTS_MOC|06_AGENTS_MOC]]

@@ -1,71 +1,16 @@
 ---
-title: Omega Quantum Stack Canon
-type: canon
-source: 01_CANON/02_UNIVERSE_CANON
-artifact: OMEGA_QUANTUM_STACK_CANON.md
-artifact_id: amos_01_canon_02_universe_canon_omega_quantum_stack_canon
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/02_UNIVERSE_CANON
-artifact_kind: CANON_SPECIFICATION
-path: 01_CANON/02_UNIVERSE_CANON/OMEGA_QUANTUM_STACK_CANON.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Omega Quantum Stack Canon
 tags:
-  - amos-os
-  - canon
-  - universe
-  - omega
-  - omega_quantum_stack
-  - quantum_architecture
-  - quantum_knowledge
-  - cognitive_architecture
-  - murk
-  - executable_brain_model
-  - provenance
-  - rscf
-  - canon/universe
-  - architecture
-  - validation
-  - memory
-  - workflow
-  - law/L19-proof-capsule
-  - integration
-  - law-hierarchy
-  - khung-trang-master
-  - khung-trang-equations
-  - omega-quantum-stack
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: SOURCE_REPORTED_PARTIAL
-validation_status: SOURCE_REPORTED_NOT_INDEPENDENTLY_REVALIDATED
-executable_binding: SOURCE_REPORTED_PARTIAL
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_GROUNDED
-  claim_class: AMOS_MODEL
-  provenance:
-    - AMOS_corpus
-    - AMOS_OMEGA_QUANTUM_STACK
-    - Quantum_Omega_Cognitive_Architecture_Overview
-    - AMOS_QUANTUM_LIBRARY
-    - AMOS_MURK_REASONING_ENGINE
-    - AMOS_MURK_BRAIN_INTEGRATION
-    - EXECUTABLE_BRAIN_MODEL
-  scope:
-    - UNIVERSE_CANON
-    - OMEGA_QUANTUM_STACK
-    - QUANTUM_KNOWLEDGE_ARCHITECTURE
-    - COGNITIVE_ARCHITECTURE
-  confidence_ceiling:
-    architecture: SOURCE_GROUNDED
-    implementation: SOURCE_REPORTED
-    runtime: REQUIRES_EXECUTED_RECEIPT
-    empirical_quantum_claims: REQUIRES_EXTERNAL_EVIDENCE
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # Omega Quantum Stack Canon
@@ -1000,7 +945,7 @@ MEMORY
 !=
 CANON
 
-[[08_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]]
+[[26_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]]
 !=
 AUTHORITY
 
@@ -1946,7 +1891,7 @@ RSCF-RELATIONS:
 
 ---
 
-**Related:**
+**Related:**  
 
 ---
 
@@ -1958,3 +1903,9 @@ RSCF-RELATIONS:
 
 
 The key promotion relative to the original placeholder is **architectural content: SOURCE_GROUNDED**. I did **not** carry forward `RUNTIME_VERIFIED` merely from reported implementation/test counts: the connected Omega architecture describes concrete library, MURK, brain-model, storage, and integration components, but those reports are still source claims until their executable artifacts and receipts are independently checked. :contentReference[oaicite:1]{index=1}
+
+```
+
+```
+```
+```

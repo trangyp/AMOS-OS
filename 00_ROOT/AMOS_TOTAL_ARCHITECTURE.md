@@ -1,52 +1,29 @@
 ---
-title: AMOS Total Architecture
-type: architecture
-source: 00_ROOT
-artifact: AMOS_TOTAL_ARCHITECTURE.md
-artifact_id: 00_root_amos_total_architecture
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 00_ROOT
-segment: 00_ROOT/AMOS_TOTAL_ARCHITECTURE.md
-artifact_kind: ARCHITECTURE
-path: 00_ROOT/AMOS_TOTAL_ARCHITECTURE.md
-tags:
-  - amos-os
-  - architecture
-  - canon/root
-  - canon/universe
-  - mece-architecture
-  - full-brain-os
-  - cognitive-organism
-  - root
-  - rscf
-version: 1.0.0
-updated: '2026-09-03'
-status: POPULATED_ARCHITECTURE
-epistemic_class: AMOS_MODEL
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
 conclusion_class: AMOS_MODEL
-canonical_status: AMOS_MODEL
-implementation_status: SPECIFIED_DOCUMENTARY
-validation_status: DERIVED_CONSISTENT
-ingestion_action: EXPANDED_SYNTHESIS
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-    - 00_ROOT/PLANE_OWNERSHIP_MATRIX
-    - 01_CANON/03_COGNITION_CANON/FULL_BRAIN_OS_CANON
-    - 11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE
-  scope: repository_wide_total_architecture
+epistemic_class: SOURCE_CLAIM
+topic: Amos Total Architecture
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Total Architecture — Unified Full Brain OS Specification
 
-**Origin architect / steward:** Trang Phan
-**Status:** `POPULATED_ARCHITECTURE`
-**Lineage target:** `AMOS Core v4.4`
-**Epistemic classification:** `AMOS_MODEL`
+**Origin architect / steward:** Trang Phan  
+**Status:** `POPULATED_ARCHITECTURE`  
+**Lineage target:** `AMOS Core v4.4`  
+**Epistemic classification:** `AMOS_MODEL`  
 
 ---
 
@@ -117,7 +94,7 @@ Every numbered physical plane in AMOS OS belongs to exactly **one** primary resp
 * **`05_COGNITIVE_ORGANISM`**: Persistent cognitive loops, perceptual organs, supervisory cognition, self-regulation.
 * **`06_AGENTS`**: Bounded worker, orchestrator, and auditor identities.
 * **`07_SKILLS`**: Versioned, reusable capability procedures and tool recipes.
-* **`08_WORKFLOWS`**: Multi-step process orchestration and state-machine transitions.
+* **`26_WORKFLOWS`**: Multi-step process orchestration and state-machine transitions.
 * **`21_DOMAINS`**: Specialist domain taxonomy and subject-matter knowledge routing.
 * **`25_COGNITIVE_MATRIX`**: Fractal cognitive coordinate decomposition (19×19 field and scales).
 * *Explicit non-ownership:* Durable authority grants, platform-level state commit.

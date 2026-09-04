@@ -1,38 +1,21 @@
 ---
-title: "AUTHORITY & CAPABILITY SEPARATION KERNEL"
-type: kernel
-source: 02_KERNEL
-artifact_id: AMOS-KERNEL-AUTHORITY-MASTER
-canonical_name: K_AUTHORITY
-status: CANONICAL
-conclusion_class: CANONICAL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-version: 2.0.0
-created: '2026-08-25'
-updated: '2026-08-28'
-plane: 02_KERNEL
-domain: authority
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: K Authority
 tags:
-  - amos-os
-  - kernel
-  - authority
-  - capability-separation
-  - delegation-witness
-  - epoch-finality
+  - canon-group/tech-ai
   - rscf/claim
-  - rscf/state/canonical
-aliases:
-  - Authority Kernel
-  - K_AUTHORITY
-  - Capability Authority Separation Engine
-  - Delegation Witness Core
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AUTHORITY & CAPABILITY SEPARATION KERNEL

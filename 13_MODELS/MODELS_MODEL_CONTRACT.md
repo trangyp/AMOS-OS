@@ -1,146 +1,105 @@
 ---
-title: "13_MODELS Master Models & Latent World Representation Contract"
-type: control_contract
-source: 13_MODELS
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_GOVERNING_CONTRACT
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - authoritative_AMOS_OS_structure
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-    - 00_ROOT/00_ROOT_MOC
-    - 13_MODELS/13_MODELS_MOC
-  scope: models_governance
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Models Model Contract
 tags:
-  - amos-os
-  - 13-models
-  - contract
-  - latent-world-model
-  - optimal-transport
-  - continuous-normalizing-flow
-  - tensor-networks
-  - model-calibration
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# 13_MODELS Master Models & Latent World Representation Contract
+# MODELS MODEL CONTRACT
 
-**Origin Architect & Steward:** Trang Phan
-**Target AMOS Lineage:** v4.4
-**Plane:** `13_MODELS`
-**Status:** `ACTIVE_GOVERNING_CONTRACT`
-**Epistemic Classification:** `AMOS_MODEL` / `DERIVED`
+## 0. Status
 
----
+Models-plane contract for **MODELS MODEL CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
-## 1. Executive Summary & Structural Boundary Mandate
+## 1. Scope
 
-The `13_MODELS` plane governs all statistical, neural, latent world, and physical models within the AMOS Full Brain OS. It coordinates foundation multimodal models, BCI neural flow models, continuous normalizing flows (CNF), and tensor-compressed representations while enforcing calibration bounds and active inference state transitions.
+Governs model registries and model-output vs observation firewalls as they bear on `MODELS MODEL CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
 
-```text
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                     CANONICAL MODEL REPOSITORY (PLANE 13)                   │
-│                                                                             │
-│  [13_MODELS/01_FOUNDATION]   ──► LLMs, Multimodal Latent World Models       │
-│  [13_MODELS/04_DOMAIN]       ──► BCI Neural Decoders, Quant Pricing Models  │
-│  [13_MODELS/05_CALIBRATION]  ──► Uncertainty Quantification & Conformal Pred│
-│                               │                                             │
-│                               ▼                                             │
-│  [Continuous Normalizing Flow] ──► Optimal Transport & Tensor Compression   │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+## 2. Contract terms
 
----
+- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
+- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
+- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
+- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
+- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
 
-## 2. Hard Model Invariants
+## 3. Invariants
 
-```text
-MODEL != OBSERVATION
-LATENT != REALITY
-STATISTICAL_FIT != CAUSAL_TRUTH
-PREDICTION != COMMIT
-```
+- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
+- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
+- Consequential effects emit receipts; rollback basin exists before mutation.
+- Competing hypotheses remain visible when evidence does not discriminate.
 
-1. **Epistemic Class Guard**: Outputs emitted by any model in `13_MODELS` strictly inherit the `MODEL` epistemic classification. They cannot be promoted to `OBSERVATION` or `DERIVED` without independent physical sensor receipts or formal machine-checked proofs.
-2. **Conformal Uncertainty Quantification**: Every continuous prediction must output a valid conformal prediction set $\mathcal{C}_{1-\alpha}(\mathbf{x})$ guaranteeing finite-sample marginal coverage:
-   $$P\left( Y \in \mathcal{C}_{1-\alpha}(X) \right) \ge 1 - \alpha$$
-3. **No Direct World Effect**: Models cannot directly actuate external tools or mutate state without Control Plane authorization.
+## 4. Executed reference
 
----
+No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
 
-## 3. Nine-Part AMOS Control Contract
+## 5. Gaps
 
-### 3.1 ROLE
-Provides structured, calibrated generative and predictive world representations across continuous and discrete cognitive domains.
+Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
 
-### 3.2 INTERFACES
-- `IFoundationWorldModel`: Ingests multi-modal sensory embeddings and predicts latent future state trajectories $\mathbf{z}_{t+1} \sim p(\mathbf{z}_{t+1} \mid \mathbf{z}_t, \mathbf{a}_t)$.
-- `IOptimalTransportFlow`: Solves dynamic Monge-Kantorovich Schrödinger bridges for neural trajectory alignment.
-- `IConformalCalibrator`: Calculates non-conformity scores and constructs calibrated confidence bands.
-- `ITensorCompressor`: Factorizes large dense model weights into Matrix Product States ($\text{MPS}$) and Tree Tensor Networks ($\text{TTN}$).
+## 6. Falsifiers
 
-### 3.3 DEPENDENCIES
-- `02_KERNEL`: Deterministic mathematical and linear algebra primitives.
-- `04_RUNTIME`: Hardware acceleration execution runtimes (CUDA / Metal / WebGPU).
-- `12_STATE`: Shared memory state registers for zero-copy latent vector exchange.
-- `22_RESEARCH`: SOTA papers governing optimal transport, Riemannian flow matching, and BCI decoders.
+F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
 
-### 3.4 INVARIANTS
-1. **Bounded Latency Invariant**: Reflexive model inferences must complete within declared latency budgets ($< 15\text{ ms}$ for BCI models).
-2. **Deterministic Inference Mode**: For any given input $\mathbf{x}$ and random seed $\sigma$, the model output must be 100% bitwise reproducible.
-3. **Receipt Generation**: Every inference batch emits a signed execution summary logged to `17_OBSERVABILITY`.
+## Worked semantics
 
-### 3.5 AUTHORITY
-Governed by `AMOS_CORE v4.4`, origin architect **Trang Phan**.
+Given an operation touching `MODELS MODEL CONTRACT` within the Models plane:
 
-### 3.6 PROVENANCE
-Engineered from continuous normalizing flows, active inference free energy principles, and conformal prediction theory.
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-### 3.7 TESTS
-- Unit verification of conformal coverage guarantees under synthetic out-of-distribution shifts.
-- Benchmarking of continuous normalizing flow transport cost ($W_2$ error $< 0.005$).
-- Stress testing of MPS tensor contraction numerical stability under 16-bit floating point quantization.
+## Promotion-gate checklist
 
-### 3.8 FAILURE MODES
-- Latent manifold divergence or numerical NaN during flow integration.
-- Coverage guarantee violation under extreme non-stationary distribution drift.
-- Inference timeout exceeding real-time control limits.
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-### 3.9 RECOVERY
-- Instant fallback to conservative prior distribution and rejection of non-conformal outputs into the `UNKNOWN/GAP` ledger.
-- Automated model re-calibration trigger upon statistical covariate shift detection.
+## Cross-plane bindings
 
----
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-## 4. AMOS OS MECE Plane Integration
+______________________________________________________________________
 
-| AMOS Plane | Role & Responsibilities |
-| :--- | :--- |
-| **[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]]** | Manages GPU compute pipelines and foundation model execution threads. |
-| **[[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM]]** | Consumes latent world state representations for multi-agent planning. |
-| **[[12_STATE/12_STATE_MOC|12_STATE]]** | Buffers latent state vectors via zero-copy Arrow memory maps. |
-| **[[13_MODELS/13_MODELS_MOC|13_MODELS]]** | Host plane housing model weights, flow architectures, and calibration ledgers. |
-| **[[22_RESEARCH/01_PAPERS/01_PAPERS_MOC|22_RESEARCH/01_PAPERS]]** | Supplies foundational mathematical theories and empirical validation papers. |
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
-## 5. Structural Invariants & Governance
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
-1. **Uncalibrated Model Ban**: No model may be deployed to active decision pipelines without passing conformal calibration verification.
-2. **No Capability Escapes**: Models operate within sandboxed memory allocations and cannot access raw kernel memory pointers.
-3. **Lineage**: Governed under AMOS v4.4; origin steward **Trang Phan**.
+______________________________________________________________________
 
----
+RSCF-NODE
+node_id: amos_13_models_models_model_contract_md
+node_type: note
+path: 13_MODELS/MODELS_MODEL_CONTRACT.md
+claim_class: AMOS_MODEL
 
-## 6. Cross-Plane References
+______________________________________________________________________
 
-- Models Plane MOC: [[13_MODELS/13_MODELS_MOC|13_MODELS MOC]]
-- Models README: [[13_MODELS/MODELS_README|MODELS_README]]
-- Multimodal Latent World Model: [[13_MODELS/FOUNDATION_BCI_MULTIMODAL_LATENT_WORLD_MODEL|Multimodal Latent World Model]]
-- Optimal Transport Flow Engine: [[13_MODELS/OPTIMAL_TRANSPORT_CONTINUOUS_NORMALIZING_FLOW_AND_COMPRESSION_ENGINE|OT Flow Engine]]
-- Quantum Tensor Compression: [[22_RESEARCH/01_PAPERS/SOTA_QUANTUM_TENSOR_NETWORKS_MPS_TTN_LLM_COMPRESSION_2026|Quantum Tensor Networks 2026]]
+**MOC:** [[13_MODELS/13_MODELS_MOC|13_MODELS_MOC]]

@@ -1,32 +1,21 @@
 ---
-title: 16 Mode Template MOC
-type: moc
-source: 03_CONTROL_PLANE/09_COMMIT/16_MODE_TEMPLATE
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 16 Mode Template Moc
 tags:
-  - 16-mode-template
-  - canon/control-plane
-  - mode-template-commit-control-plane-tests
-  - mode-template-commit-control-plane-aliases
-  - mode-template-commit-control-plane-benchmarks
-  - mode-template-commit-control-plane-composition
-  - mode-template-commit-control-plane-domain-weights
-  - mode-template-commit-control-plane-engine-weights
-  - mode-template-commit-control-plane-exit-criteria
-  - mode-template-commit-control-plane-governance
-  - mode-template-commit-control-plane-layer-weights
-  - mode-template-commit-control-plane-mode-spec
-  - mode-template-commit-control-plane-observability
-  - mode-template-commit-control-plane-preconditions
-  - mode-template-commit-control-plane-provenance
-  - mode-template-commit-control-plane-purpose-scope
-  - mode-template-commit-control-plane-safety-gates
-  - mode-template-commit-control-plane-validation
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: EMPIRICAL
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 16 Mode Template — Map of Content

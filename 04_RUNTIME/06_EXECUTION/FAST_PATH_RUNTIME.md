@@ -1,60 +1,21 @@
 ---
-title: Fast Path Runtime Specification
-type: runtime
-source: 04_RUNTIME/06_EXECUTION
-artifact: FAST_PATH_RUNTIME.md
-artifact_id: amos_04_runtime_06_execution_fast_path_runtime
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 04_RUNTIME
-segment: 04_RUNTIME/06_EXECUTION
-artifact_kind: RUNTIME_SPEC
-path: 04_RUNTIME/06_EXECUTION/FAST_PATH_RUNTIME.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Fast Path Runtime
 tags:
-  - amos-os
-  - runtime
-  - vault
-  - 06_execution
-  - fast_path_runtime
-  - low_latency_execution
-  - system1_reasoning
-  - rscf
-  - canon_candidate
-  - canon/runtime
-  - ubi-x-cognition-matrix
-  - amos-mind-os-framework
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
-    - 25_COGNITIVE_MATRIX/UBI_X_COGNITION_MATRIX
-    - AMOS_CORPUS
-  scope:
-    - RUNTIME_EXECUTION
-    - FAST_PATH_EXECUTION
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  execution_moc:
-    artifact: 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
-  matrix_binding:
-    artifact: 25_COGNITIVE_MATRIX/UBI_X_COGNITION_MATRIX
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  spec_structure: VERIFIED_SOURCE_STRUCTURE
-  execution_algorithm: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Fast Path Runtime Execution Specification

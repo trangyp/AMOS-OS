@@ -1,48 +1,20 @@
 ---
-title: AGENT TEMPLATES
-type: agent
-source: 11_KNOWLEDGE
 canon-group: meta
 canon-type: framework
-canon-status: active
-canon-scope: agent-architecture
-canon-layer: meta-agent
-canon-owner: Trang Phan
-artifact-id: AMOS-AGENT-TEMPLATES
-artifact-type: framework-registry
-artifact-class: agent-factory-architecture
-version: 2.0.0
-schema-version: 1.0.0
-protocol-version: 1.0.0
-amos-core-target: v4.4
 rscf-state: source-claim
-rscf-class: STRUCTURAL_MODEL
-rscf-confidence-ceiling: source-bounded
-rscf-provenance-required: true
-topic: agent-templates
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Agent Templates
 tags:
   - canon-group/tech-ai
-  - knowledge
-  - vault
-  - canon/framework
-  - canon/agent
   - rscf/claim
   - rscf/provenance
   - rscf/state/source-claim
-  - topic/agent-templates
-  - topic/agent-architecture
-  - topic/agent-factory
-  - agents
-  - agent-schema
+  - misc
 created: 2026-08-22
-updated: 2026-08-25
-origin-architect: Trang Phan
-steward: Trang Phan
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+---
 ---
 
 # AMOS Agent Templates
@@ -1891,7 +1863,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

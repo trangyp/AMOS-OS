@@ -1,18 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS_AGILE_DELIVERY_KERNEL_V0_TECH7_3
-type: note
-source: 11_KNOWLEDGE
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Amos Agile Delivery Kernel V0 Tech7 3
 tags:
-  - vault
-  - 11_knowledge
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AMOS AGILE DELIVERY KERNEL V0 TECH7 3
@@ -6100,7 +6098,7 @@ epistemic_class: AMOS_MODEL
 source_state: SOURCE_CLAIM
 ---
 
-## Agile Delivery Kernel
+# Agile Delivery Kernel
 
 ## Functions
 -
@@ -6119,7 +6117,7 @@ ______________________________________________________________________
 ## 336. Atomic Note — Scrum Planning
 
 ```markdown
-## Scrum Planning
+# Scrum Planning
 
 ## Inputs
 - product_backlog
@@ -6141,7 +6139,7 @@ ______________________________________________________________________
 ## 337. Atomic Note — Kanban Flow
 
 ```markdown
-## Kanban Flow
+# Kanban Flow
 
 ## Inputs
 - work_items
@@ -6160,7 +6158,7 @@ ______________________________________________________________________
 ## 338. Atomic Note — Retrospective
 
 ```markdown
-## Retrospective
+# Retrospective
 
 ## Inputs
 - sprint_data
@@ -6179,7 +6177,7 @@ ______________________________________________________________________
 ## 339. Atomic Note — Agile Metrics
 
 ```markdown
-## Agile Metrics
+# Agile Metrics
 
 ## Inputs
 - sprint_data
@@ -6212,7 +6210,7 @@ ______________________________________________________________________
 
 ## 341. Proposed Dataview — Kernel Index
 
-```text
+```dataview
 TABLE
   source,
   rscf.state AS "RSCF State"
@@ -6224,7 +6222,7 @@ ______________________________________________________________________
 
 ## 342. Proposed Dataview — Agile Kernel
 
-```text
+```dataview
 TABLE
   type,
   source,
@@ -6237,7 +6235,7 @@ ______________________________________________________________________
 
 ## 343. Proposed Dataview — Source Claims
 
-```text
+```dataview
 TABLE
   source,
   rscf.scope AS "Scope"

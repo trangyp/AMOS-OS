@@ -1,20 +1,21 @@
 ---
-title: CAUSAL MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-type: control-plane
-source: 03_CONTROL_PLANE/09_COMMIT/24_CAUSAL_MODES
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Causal Modes Commit Control Plane Mode Family Spec
 tags:
-  - control-plane
-  - 24_causal_modes
-  - canon/control-plane
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # CAUSAL MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

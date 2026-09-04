@@ -1,62 +1,21 @@
 ---
-type: registry
-source: 01_CANON/05_VARIABLE_REGISTRY
-artifact_id: AMOS-UNIT-REGISTRY
-name: UNIT_REGISTRY
-title: "AMOS Unit Registry — Canonical Dimensions, Units, Scales, Conversion, and Measurement Semantics"
-document_version: 1.0.0
-canon_version: 4.4
-amos_core_target: v4.4
-status: ACTIVE_CANON_CANDIDATE
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
 conclusion_class: AMOS_MODEL
-rscf_state: derived
-canon_group: meta
-canon_type: registry
-origin_architect: Trang Phan
-steward: Trang Phan
-created: 2026-08-25
-updated: 2026-08-25
+epistemic_class: SOURCE_CLAIM
+topic: Unit Registry
 tags:
-  - amos
-  - canon
-  - universe
-  - amos-os
-  - amos-core
-  - amos-core-v4-4
-  - registry
-  - units
-  - dimensions
-  - measurement
-  - quantities
-  - scales
-  - normalization
-  - conversion
-  - dimensional-analysis
-  - uncertainty
-  - provenance
-  - precision
-  - computational-units
-  - physical-units
-  - semantic-units
-  - rscf
-  - canon-group/meta
-  - canon/registry
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
-  - rscf/state/derived
-  - readme
-  - architecture
-  - placement-rules
-  - amos-core-laws
-  - law-hierarchy
-  - cognitive-matrix-architecture
-aliases:
-  - AMOS Unit Registry - Unit Registry - AMOS Measurement Registry - AMOS Quantity and Dimension
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Unit Registry

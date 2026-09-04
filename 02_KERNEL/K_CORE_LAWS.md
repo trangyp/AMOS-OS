@@ -1,41 +1,21 @@
 ---
-title: "AMOS CORE LAWS & INVARIANT GOVERNANCE KERNEL"
-type: kernel
-source: 02_KERNEL
-artifact_id: AMOS-KERNEL-CORE-LAWS-MASTER
-canonical_name: K_CORE_LAWS
-status: CANONICAL
-conclusion_class: CANONICAL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-version: 2.0.0
-created: '2026-08-25'
-updated: '2026-08-28'
-plane: 02_KERNEL
-domain: meta-logic
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: K Core Laws
 tags:
-  - amos-os
-  - kernel
-  - core-laws
-  - law-of-law
-  - rule-of-2
-  - rule-of-4
-  - signal-fidelity
-  - structural-integrity
-  - qls-84-laws
+  - canon-group/tech-ai
   - rscf/claim
-  - rscf/state/canonical
-aliases:
-  - AMOS Core Laws Kernel
-  - K_CORE_LAWS
-  - Invariant Governance Kernel
-  - The Five Canonical Laws
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS CORE LAWS & INVARIANT GOVERNANCE KERNEL
@@ -2068,7 +2048,7 @@ Bức tường lửa nhận thức ngăn chặn sự ngộ nhận giữa năng l
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #1:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #1
+# Chạy test kiểm thử tự động cho Core Law Scenario #1
 amos-test-engine --law-check --scenario-id LAW_TEST_01 --strict-invariants
 ```
 
@@ -2079,7 +2059,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #2:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #2
+# Chạy test kiểm thử tự động cho Core Law Scenario #2
 amos-test-engine --law-check --scenario-id LAW_TEST_02 --strict-invariants
 ```
 
@@ -2090,7 +2070,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #3:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #3
+# Chạy test kiểm thử tự động cho Core Law Scenario #3
 amos-test-engine --law-check --scenario-id LAW_TEST_03 --strict-invariants
 ```
 
@@ -2101,7 +2081,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #4:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #4
+# Chạy test kiểm thử tự động cho Core Law Scenario #4
 amos-test-engine --law-check --scenario-id LAW_TEST_04 --strict-invariants
 ```
 
@@ -2112,7 +2092,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #5:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #5
+# Chạy test kiểm thử tự động cho Core Law Scenario #5
 amos-test-engine --law-check --scenario-id LAW_TEST_05 --strict-invariants
 ```
 
@@ -2123,7 +2103,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #6:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #6
+# Chạy test kiểm thử tự động cho Core Law Scenario #6
 amos-test-engine --law-check --scenario-id LAW_TEST_06 --strict-invariants
 ```
 
@@ -2134,7 +2114,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #7:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #7
+# Chạy test kiểm thử tự động cho Core Law Scenario #7
 amos-test-engine --law-check --scenario-id LAW_TEST_07 --strict-invariants
 ```
 
@@ -2145,7 +2125,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #8:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #8
+# Chạy test kiểm thử tự động cho Core Law Scenario #8
 amos-test-engine --law-check --scenario-id LAW_TEST_08 --strict-invariants
 ```
 
@@ -2156,7 +2136,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #9:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #9
+# Chạy test kiểm thử tự động cho Core Law Scenario #9
 amos-test-engine --law-check --scenario-id LAW_TEST_09 --strict-invariants
 ```
 
@@ -2167,7 +2147,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #10:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #10
+# Chạy test kiểm thử tự động cho Core Law Scenario #10
 amos-test-engine --law-check --scenario-id LAW_TEST_10 --strict-invariants
 ```
 
@@ -2178,7 +2158,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #11:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #11
+# Chạy test kiểm thử tự động cho Core Law Scenario #11
 amos-test-engine --law-check --scenario-id LAW_TEST_11 --strict-invariants
 ```
 
@@ -2189,7 +2169,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #12:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #12
+# Chạy test kiểm thử tự động cho Core Law Scenario #12
 amos-test-engine --law-check --scenario-id LAW_TEST_12 --strict-invariants
 ```
 
@@ -2200,7 +2180,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #13:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #13
+# Chạy test kiểm thử tự động cho Core Law Scenario #13
 amos-test-engine --law-check --scenario-id LAW_TEST_13 --strict-invariants
 ```
 
@@ -2211,7 +2191,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #14:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #14
+# Chạy test kiểm thử tự động cho Core Law Scenario #14
 amos-test-engine --law-check --scenario-id LAW_TEST_14 --strict-invariants
 ```
 
@@ -2222,7 +2202,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #15:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #15
+# Chạy test kiểm thử tự động cho Core Law Scenario #15
 amos-test-engine --law-check --scenario-id LAW_TEST_15 --strict-invariants
 ```
 
@@ -2233,7 +2213,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #16:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #16
+# Chạy test kiểm thử tự động cho Core Law Scenario #16
 amos-test-engine --law-check --scenario-id LAW_TEST_16 --strict-invariants
 ```
 
@@ -2244,7 +2224,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #17:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #17
+# Chạy test kiểm thử tự động cho Core Law Scenario #17
 amos-test-engine --law-check --scenario-id LAW_TEST_17 --strict-invariants
 ```
 
@@ -2255,7 +2235,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #18:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #18
+# Chạy test kiểm thử tự động cho Core Law Scenario #18
 amos-test-engine --law-check --scenario-id LAW_TEST_18 --strict-invariants
 ```
 
@@ -2266,7 +2246,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #19:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #19
+# Chạy test kiểm thử tự động cho Core Law Scenario #19
 amos-test-engine --law-check --scenario-id LAW_TEST_19 --strict-invariants
 ```
 
@@ -2277,7 +2257,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #20:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #20
+# Chạy test kiểm thử tự động cho Core Law Scenario #20
 amos-test-engine --law-check --scenario-id LAW_TEST_20 --strict-invariants
 ```
 
@@ -2288,7 +2268,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #21:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #21
+# Chạy test kiểm thử tự động cho Core Law Scenario #21
 amos-test-engine --law-check --scenario-id LAW_TEST_21 --strict-invariants
 ```
 
@@ -2299,7 +2279,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #22:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #22
+# Chạy test kiểm thử tự động cho Core Law Scenario #22
 amos-test-engine --law-check --scenario-id LAW_TEST_22 --strict-invariants
 ```
 
@@ -2310,7 +2290,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #23:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #23
+# Chạy test kiểm thử tự động cho Core Law Scenario #23
 amos-test-engine --law-check --scenario-id LAW_TEST_23 --strict-invariants
 ```
 
@@ -2321,7 +2301,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #24:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #24
+# Chạy test kiểm thử tự động cho Core Law Scenario #24
 amos-test-engine --law-check --scenario-id LAW_TEST_24 --strict-invariants
 ```
 
@@ -2332,7 +2312,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #25:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #25
+# Chạy test kiểm thử tự động cho Core Law Scenario #25
 amos-test-engine --law-check --scenario-id LAW_TEST_25 --strict-invariants
 ```
 
@@ -2343,7 +2323,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #26:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #26
+# Chạy test kiểm thử tự động cho Core Law Scenario #26
 amos-test-engine --law-check --scenario-id LAW_TEST_26 --strict-invariants
 ```
 
@@ -2354,7 +2334,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #27:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #27
+# Chạy test kiểm thử tự động cho Core Law Scenario #27
 amos-test-engine --law-check --scenario-id LAW_TEST_27 --strict-invariants
 ```
 
@@ -2365,7 +2345,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #28:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #28
+# Chạy test kiểm thử tự động cho Core Law Scenario #28
 amos-test-engine --law-check --scenario-id LAW_TEST_28 --strict-invariants
 ```
 
@@ -2376,7 +2356,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #29:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #29
+# Chạy test kiểm thử tự động cho Core Law Scenario #29
 amos-test-engine --law-check --scenario-id LAW_TEST_29 --strict-invariants
 ```
 
@@ -2387,7 +2367,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #30:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #30
+# Chạy test kiểm thử tự động cho Core Law Scenario #30
 amos-test-engine --law-check --scenario-id LAW_TEST_30 --strict-invariants
 ```
 
@@ -2398,7 +2378,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #31:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #31
+# Chạy test kiểm thử tự động cho Core Law Scenario #31
 amos-test-engine --law-check --scenario-id LAW_TEST_31 --strict-invariants
 ```
 
@@ -2409,7 +2389,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #32:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #32
+# Chạy test kiểm thử tự động cho Core Law Scenario #32
 amos-test-engine --law-check --scenario-id LAW_TEST_32 --strict-invariants
 ```
 
@@ -2420,7 +2400,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #33:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #33
+# Chạy test kiểm thử tự động cho Core Law Scenario #33
 amos-test-engine --law-check --scenario-id LAW_TEST_33 --strict-invariants
 ```
 
@@ -2431,7 +2411,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #34:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #34
+# Chạy test kiểm thử tự động cho Core Law Scenario #34
 amos-test-engine --law-check --scenario-id LAW_TEST_34 --strict-invariants
 ```
 
@@ -2442,7 +2422,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #35:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #35
+# Chạy test kiểm thử tự động cho Core Law Scenario #35
 amos-test-engine --law-check --scenario-id LAW_TEST_35 --strict-invariants
 ```
 
@@ -2453,7 +2433,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #36:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #36
+# Chạy test kiểm thử tự động cho Core Law Scenario #36
 amos-test-engine --law-check --scenario-id LAW_TEST_36 --strict-invariants
 ```
 
@@ -2464,7 +2444,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #37:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #37
+# Chạy test kiểm thử tự động cho Core Law Scenario #37
 amos-test-engine --law-check --scenario-id LAW_TEST_37 --strict-invariants
 ```
 
@@ -2475,7 +2455,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #38:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #38
+# Chạy test kiểm thử tự động cho Core Law Scenario #38
 amos-test-engine --law-check --scenario-id LAW_TEST_38 --strict-invariants
 ```
 
@@ -2486,7 +2466,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #39:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #39
+# Chạy test kiểm thử tự động cho Core Law Scenario #39
 amos-test-engine --law-check --scenario-id LAW_TEST_39 --strict-invariants
 ```
 
@@ -2497,7 +2477,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #40:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #40
+# Chạy test kiểm thử tự động cho Core Law Scenario #40
 amos-test-engine --law-check --scenario-id LAW_TEST_40 --strict-invariants
 ```
 
@@ -2508,7 +2488,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #41:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #41
+# Chạy test kiểm thử tự động cho Core Law Scenario #41
 amos-test-engine --law-check --scenario-id LAW_TEST_41 --strict-invariants
 ```
 
@@ -2519,7 +2499,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #42:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #42
+# Chạy test kiểm thử tự động cho Core Law Scenario #42
 amos-test-engine --law-check --scenario-id LAW_TEST_42 --strict-invariants
 ```
 
@@ -2530,7 +2510,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #43:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #43
+# Chạy test kiểm thử tự động cho Core Law Scenario #43
 amos-test-engine --law-check --scenario-id LAW_TEST_43 --strict-invariants
 ```
 
@@ -2541,7 +2521,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #44:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #44
+# Chạy test kiểm thử tự động cho Core Law Scenario #44
 amos-test-engine --law-check --scenario-id LAW_TEST_44 --strict-invariants
 ```
 
@@ -2552,7 +2532,7 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 Mô phỏng cuộc tấn công giả mạo tiền đề hoặc cố ý chèn mâu thuẫn vào Tầng #45:
 
 ```bash
-## Chạy test kiểm thử tự động cho Core Law Scenario #45
+# Chạy test kiểm thử tự động cho Core Law Scenario #45
 amos-test-engine --law-check --scenario-id LAW_TEST_45 --strict-invariants
 ```
 

@@ -1,34 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS Content Agent Matrix — Governed Multi-Agent Content Operating System
-type: agent
-source: 11_KNOWLEDGE
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Content Agent Matrix System
 tags:
-  - agents
-  - knowledge
-  - vault
   - canon-group/tech-ai
-  - canon/framework
-  - canon/protocol
   - rscf/claim
   - rscf/provenance
   - rscf/state/source-claim
-  - topic/content-agent
-  - topic/content-matrix
-  - topic/multi-agent
-  - topic/content-marketing
-  - topic/orchestration
-  - architecture
-  - memory
-  - skill
-  - validation
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Content Agent Matrix
@@ -2957,7 +2944,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

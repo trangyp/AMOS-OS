@@ -1,68 +1,21 @@
 ---
-title: QLS Master
-type: qls
-source: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact: QLS_MASTER.md
-artifact_id: amos_11_knowledge_05_frameworks_qls_master
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 11_KNOWLEDGE
-segment: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact_kind: MASTER
-path: 11_KNOWLEDGE/05_FRAMEWORKS/QLS_MASTER.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Qls Master
 tags:
-  - amos-os
-  - knowledge
-  - vault
-  - 05_frameworks
-  - qls_master
-  - quantum_logic_structure
-  - four_pillars
-  - formal_logic
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-  - qls-framework
-  - qcla-master
-  - ldai-logically-deterministic-ai
-  - amos-x-qls
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - QLS_FRAMEWORK
-    - QLS_QUANTUM_LOGIC_STRUCTURE_MASTER_PROVENANCE_AND
-    - AMOS_CORPUS
-  scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - LOGIC_MASTER
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  framework:
-    artifact:
-      -   - QLS_FRAMEWORK
-  causal_logic:
-    artifact:
-      -   - QCLA_MASTER
-  deterministic_logic:
-    artifact:
-      -   - LDAI_LOGICALLY_DETERMINISTIC_AI
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  framework_structure: VERIFIED_SOURCE_STRUCTURE
-  master_rules: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # QLS Master Specification

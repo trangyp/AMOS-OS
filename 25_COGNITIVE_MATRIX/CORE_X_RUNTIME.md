@@ -1,109 +1,16 @@
 ---
-title: Core x Runtime Cognitive Matrix
-type: cognitive
-source: 25_COGNITIVE_MATRIX
-artifact: CORE_X_RUNTIME.md
-artifact_id: amos_25_cognitive_matrix_core_x_runtime
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 25_COGNITIVE_MATRIX
-segment: 25_COGNITIVE_MATRIX
-artifact_kind: MATRIX
-path: 25_COGNITIVE_MATRIX/CORE_X_RUNTIME.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Core X Runtime
 tags:
-  - amos-os
-  - cognitive-matrix
-  - vault
-  - core_x_runtime
-  - runtime_execution
-  - deterministic_loop
-  - deterministic_reasoning_cycle
-  - input_telemetry_ingestion
-  - verified_commit_dispatch
-  - reality_gate
-  - canonical_laws
-  - runtime_integration
-  - state_transition
-  - proof_capsule
-  - provenance
-  - dependency_closure
-  - scope
-  - regime
-  - freshness
-  - causal_epoch
-  - mvcc
-  - cas
-  - atomic_multi_rscf
-  - local_finalization
-  - proof_based_coordination_avoidance
-  - failure_recovery
-  - rscf
-  - canon_candidate
-  - canon/matrix
-  - core-x-runtime-matrix
-  - integration
-  - validation
-  - canon
-  - k-rscf
-  - k-hml
-  - k-gmef
-  - k-provenance
-  - k-provenance-topology
-  - k-failure-recovery
-  - k-causal-epoch
-  - k-mvcc
-  - k-cas
-  - k-atomic-multi-rscf
-  - amos-core-v4-4
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-formal_verification_status: NOT_ESTABLISHED
-runtime_enforcement_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - 01_CANON/01_CANON_MOC
-    - 04_RUNTIME/04_RUNTIME_MOC
-    - AMOS_CORPUS
-  scope:
-    - COGNITIVE_MATRIX
-    - RUNTIME_INTEGRATION
-    - CORE_RUNTIME_INTERFACE
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  matrix_counterpart:
-    artifact:
-      -   - CORE_X_RUNTIME_MATRIX
-  runtime_moc:
-    artifact: 04_RUNTIME/04_RUNTIME_MOC
-  canon_moc:
-    artifact: 01_CANON/01_CANON_MOC
-  cognitive_matrix:
-    artifact:
-      -   - 25_COGNITIVE_MATRIX_MOC
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  matrix_structure: VERIFIED_SOURCE_STRUCTURE
-  execution_mesh_structure: VERIFIED_SOURCE_STRUCTURE
-  cross_plane_routing: SOURCE_DEFINED_MODEL
-  input_telemetry_ingestion: SOURCE_DEFINED_MODEL
-  deterministic_reasoning_cycle: SOURCE_DEFINED_MODEL
-  verified_commit_dispatch: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
-  executable_pipeline: NOT_ESTABLISHED
-  signed_state_transition_runtime: NOT_ESTABLISHED
-  empirical_validation: NOT_ESTABLISHED
-  formal_verification: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # Core x Runtime Cognitive Matrix Specification
@@ -5515,3 +5422,10 @@ RSCF-RELATIONS:
 ---
 
 **END OF `CORE_X_RUNTIME.md`**
+
+
+```
+
+```
+```
+```

@@ -1,23 +1,21 @@
 ---
-title: "AMOS C12 Earth & Ecology Domain Architecture"
-type: domain_architecture_contract
-source: 21_DOMAINS
-domain: C12_EARTH_ECOLOGY
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-status: ACTIVE_DOMAIN_CONTRACT
-conclusion_class: DERIVED
-updated: 2026-09-03
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance:
-    - 11_KNOWLEDGE/AMOS_C12_EARTH_ECOLOGY_MASTER_KNOWLEDGE
-    - 08_WORKFLOWS/amos-c12-earth-ecology-master-workflow
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-    - 00_ROOT/PLANE_OWNERSHIP_MATRIX
-  scope: c12_earth_ecology_functional_domain_ownership
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: C12 Earth Ecology Domain Architecture
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # C12 Earth & Ecology — Domain Architecture Contract
@@ -82,7 +80,7 @@ Primary knowledge:
 [[11_KNOWLEDGE/AMOS_C12_EARTH_ECOLOGY_MASTER_KNOWLEDGE|C12 Earth & Ecology Master Knowledge]]
 
 Execution bridge:
-[[08_WORKFLOWS/amos-c12-earth-ecology-master-workflow|C12 Earth & Ecology Master Workflow]]
+[[26_WORKFLOWS/amos-c12-earth-ecology-master-workflow|C12 Earth & Ecology Master Workflow]]
 
 Cross-domain composition:
 [[11_KNOWLEDGE/AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR|Cross-Domain Tensor Composition Governor]]

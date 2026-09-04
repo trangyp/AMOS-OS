@@ -1,26 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: 03 Policy MOC
-type: moc
-source: 03_CONTROL_PLANE/03_POLICY
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 03 Policy Moc
 tags:
-  - 03-policy
-  - canon/control-plane
-  - bio-logical-governance-policy
-  - canon-policy
-  - heritage-policy
-  - neurosyncai-governance-policy
-  - policy-decision
-  - policy-engine
-  - ubi-integrity-policy
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 03 Policy — Map of Content
@@ -42,7 +37,7 @@ rscf:
 
 ## Subdirectories
 
-- [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
+- [[03_CONTROL_PLANE/03_POLICY/00_INDEX/POLICY_MAP|POLICY_MAP]] — 00_INDEX
 
 ______________________________________________________________________
 

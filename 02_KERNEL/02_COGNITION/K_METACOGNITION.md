@@ -1,62 +1,16 @@
 ---
-title: K METACOGNITION
-type: note
-source: 02_KERNEL/02_COGNITION
-artifact_id: AMOS-OS-K-METACOGNITION
-canonical_name: K_METACOGNITION
-artifact_type: kernel_metacognition_contract
-status: AMOS_MODEL
-conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: KERNEL
-kernel_family: REASONING
-domain: metacognition
-scope: AMOS_OS
-created: 2026-08-25
-updated: 2026-08-25
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: K Metacognition
 tags:
-  - amos-os
-  - kernel
-  - core
   - canon-group/tech-ai
-  - canon/model
-  - kernel/reasoning
-  - kernel/metacognition
-  - kernel/epistemic
-  - kernel/provenance
-  - kernel/uncertainty
-  - kernel/validation
-  - kernel/dependency
-  - kernel/scope
-  - kernel/regime
-  - kernel/sensitivity
-  - kernel/rscf
   - rscf/claim
   - rscf/provenance
-  - rscf/state/model
-  - topic/metacognition
-  - readme
-  - architecture
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - source-lineage
-  - supersession-log
-  - k-core19-logic
-  - k-distinction-relation-constraint
-  - k-law-hierarchy
-  - k-meta-logic
-  - k-counterfactual
-  - authoritative-state
-aliases:
-  - AMOS Metacognition Kernel - Metacognition Kernel - K Metacognition - K_METACOGNITION
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # K_METACOGNITION
@@ -2299,7 +2253,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

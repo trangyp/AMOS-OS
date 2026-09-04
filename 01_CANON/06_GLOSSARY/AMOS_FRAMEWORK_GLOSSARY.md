@@ -1,112 +1,120 @@
 ---
-title: AMOS Framework Glossary
-type: glossary
-source: 01_CANON/06_GLOSSARY
-artifact: AMOS_FRAMEWORK_GLOSSARY.md
-artifact_id: amos_01_canon_06_glossary_amos_framework_glossary
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/06_GLOSSARY
-artifact_kind: GLOSSARY
-path: 01_CANON/06_GLOSSARY/AMOS_FRAMEWORK_GLOSSARY.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Framework Glossary
 tags:
-  - amos-os
-  - canon
-  - universe
-  - glossary
-  - canon_placeholder
-  - rscf
-  - canon/universe
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Framework Glossary
 
 ## 0. Status
 
-`AMOS_FRAMEWORK_GLOSSARY.md` is an **ADD-ONLY placeholder** for the **Canon** plane segment at `01_CANON/06_GLOSSARY`.
+`AMOS_FRAMEWORK_GLOSSARY.md` defines the proposed AMOS OS **AMOS Framework** glossary.
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
+This artifact replaces a structural placeholder with substantive content.
 
 ```text
 PLACEHOLDER != IMPLEMENTED
-
 ADDRESSABLE != VALIDATED
-
 DOCUMENTED != ENFORCED
-
 MODEL != OBSERVATION
-
 SOURCE_CLAIM != VERIFIED
-
 CANON_CANDIDATE != CANONICAL
-
 CANONICAL != EMPIRICAL_TRUTH
-
 CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
 UNKNOWN/GAP != PASS
 ```
 
-Origin architect / steward:
-
-**Trang Phan**
+Origin architect / steward: **Trang Phan**
 
 ______________________________________________________________________
 
 ## 1. Purpose
 
-This artifact reserves the **AMOS Framework Glossary** slot within the Canon plane. The Canon plane governs canonical laws, universe/cognition/infrastructure canons, variable registry, glossary, provenance lineage, and supersession.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+The AMOS Framework Glossary defines the canonical terminology used across the AMOS OS framework — covering core architectural concepts, structural primitives, and governance mechanisms.
 
 ______________________________________________________________________
 
-## 2. Non-Purpose
+## 2. Term Definitions
 
-This placeholder MUST NOT be used to claim:
-
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
+| Term | Definition | Category |
+|:---|:---|:---|
+| AMOS | Autonomous Multi-Operational System — the complete cognitive architecture | Core |
+| Canon | Canonical law or principle that governs a domain of the system | Governance |
+| Core Law | Foundational law in the L0-L32 law hierarchy | Governance |
+| Kernel | The runtime kernel that enforces canonical laws during execution | Runtime |
+| Control Plane | The plane that manages authority, delegation, and policy | Governance |
+| Runtime | The execution engine that carries out governed operations | Runtime |
+| RSCF | Reasoning-Source-Claim-Freshness — epistemic classification framework | Epistemic |
+| HML | High/Mid/Low — three-speed validation lens for claim rigor | Epistemic |
+| MECE | Mutually Exclusive, Collectively Exhaustive — structural property | Architecture |
+| GMEF | Governed Mutation Evolution Framework — governs system self-modification | Evolution |
+| MOC | Map of Content — navigational index for a vault section | Navigation |
+| Plane | A top-level architectural division (Canon, Kernel, Control, Runtime) | Architecture |
+| Segment | A sub-division within a plane | Architecture |
+| Artifact | A typed, provenance-stamped document in the vault | Structure |
+| Receipt | A cryptographic record of a consequential action | Audit |
+| Checkpoint | A verified state snapshot for recovery | Recovery |
+| Epoch | A causal epoch — a validity interval for causal state | Causality |
+| Shard | A locally-finalized partition of system state | Distributed |
+| MVCC | Multi-Version Concurrency Control | Concurrency |
+| CAS | Compare-And-Swap — atomic concurrency primitive | Concurrency |
+| ALU | Absolute Logic Unit — irreducible logic primitive (19 total) | Logic |
+| UML | Universal Meta-Law — governing meta-law (7 total) | Logic |
+| UOP | Universal Operator Primitive — operational primitive (6 total) | Logic |
+| LoL | Law of Law — the highest-order meta-law | Logic |
+| R2 | Rule of 2 — minimum 2 independent sources for actionable claims | Epistemic |
+| R4 | Rule of 4 — maximum 4 components per abstraction layer | Architecture |
+| UBI | Unified Biological Intelligence — 4-domain biological model | Biology |
+| QLS | Quantum Logic Structure — superposition reasoning framework | Quantum |
+| QCLA | Quantum Causality Layer Architecture — quantum causal model | Quantum |
+| FRAI | Fractal Reasoning AI — recursive self-similar reasoning | Reasoning |
+| TSS | The Trang System — governance and institutional framework | Governance |
+| TPE | Trang Prediction Engine — foresight and prediction system | Reasoning |
 
 ______________________________________________________________________
 
-## 3. Ingestion Rule
+## 3. Usage Notes
+
+- All terms in this glossary are AMOS_MODEL unless otherwise stated
+- Terms marked as "Core" are foundational to the framework
+- Terms marked as "Alias" are alternative names for canonical terms
+- Terms marked as "Crosswalk" map concepts across different canons
+- No term in this glossary should be interpreted as empirical truth
+
+______________________________________________________________________
+
+## 4. Cross-References
+
+- See [[01_CANON/06_GLOSSARY/CANONICAL_GLOSSARY|CANONICAL_GLOSSARY]] for the master glossary
+- See [[01_CANON/06_GLOSSARY/CANON_ALIASES|CANON_ALIASES]] for canonical aliases
+- See [[01_CANON/06_GLOSSARY/DEPRECATED_TERMS|DEPRECATED_TERMS]] for deprecated terminology
+- See [[01_CANON/05_VARIABLE_REGISTRY/UNIVERSAL_VARIABLE_REGISTRY|UNIVERSAL_VARIABLE_REGISTRY]] for variable definitions
+
+______________________________________________________________________
+
+## 5. Gaps
+
+- Canonical status CONDITIONAL — proposed specification, not yet promoted to full canon
+- Cross-glossary consistency validation NOT_ESTABLISHED
+- Automated term resolution NOT_ESTABLISHED
+
+______________________________________________________________________
+
+## 6. Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -117,26 +125,6 @@ AMOS_CANON_INGESTION_RULE:
     overwrite: false
   new_framework:
     action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
   uncertainty:
     action:
       - MARK_GAP_OR_COMPETING
@@ -145,55 +133,7 @@ AMOS_CANON_INGESTION_RULE:
 
 ______________________________________________________________________
 
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
-______________________________________________________________________
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
-______________________________________________________________________
-
-## 6. Worked semantics (target)
-
-Given an operation touching `01_CANON · GLOSSARY` within the Canon plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 
@@ -211,9 +151,9 @@ path: 01_CANON/06_GLOSSARY/AMOS_FRAMEWORK_GLOSSARY.md
 
 claim_class: AMOS_MODEL
 
-rscf_state: placeholder
+rscf_state: DERIVED
 
-canonical_status: UNKNOWN/GAP
+canonical_status: CONDITIONAL
 
 RSCF-RELATIONS:
 

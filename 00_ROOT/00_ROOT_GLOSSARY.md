@@ -1,166 +1,983 @@
 ---
-title: 00 Root Glossary — Plane Governance Specification
-type: specification
-source: 00_ROOT
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-canonical_status: ACTIVE_CANON_CANDIDATE
-updated: 2026-09-04
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-    - 00_ROOT/00_ROOT_MOC
-  scope: plane_governance
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 00 Root Glossary
 tags:
-  - amos-os
-  - 00-root
-  - specification
-  - 00-root-glossary
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# 00 Root Glossary — Plane Governance Specification
+# 00 ROOT GLOSSARY
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Conclusion Class:** `AMOS_MODEL`
-> **Status:** `ACTIVE_SPECIFICATION`
+## 0. Status
 
----
+**Root-plane artifact.**
 
-## 1. Architectural Scope
+**AMOS_MODEL · CONDITIONAL · implementation PARTIAL.**
 
-`00_ROOT_GLOSSARY` defines the canonical terminology, typed contracts, and semantic invariants for the `00_ROOT` meta-plane within the AMOS Full Brain OS MECE architecture. It serves as the authoritative glossary for all terms used across the 26-plane vault, ensuring that every artifact, agent, and cross-reference operates on a shared vocabulary. The glossary governs:
+______________________________________________________________________
 
-- **Term definitions** for AMOS-specific concepts (RSCF, MECE, plane, partition, epistemic class, conclusion class).
-- **Semantic boundary enforcement** preventing conflation of distinct concepts (e.g., capability vs authority, model vs observation).
-- **Cross-plane terminology consistency** ensuring that terms like "commit," "rollback," "receipt," and "canon" carry identical semantics regardless of which plane uses them.
-- **Epistemic class taxonomy** defining the allowable values for `epistemic_class` and `conclusion_class` frontmatter fields.
+## 1. Purpose
 
-This file exists because terminology drift is a primary vector for entropy corruption. Without a root-level glossary, downstream planes may silently redefine shared terms, producing semantic contradictions that propagate through the vault.
+`00 ROOT GLOSSARY` defines typed artifact specification, serving the Root plane's obligation:
 
-```text
-GLOSSARY = canonical_terminology_contract
-GLOSSARY != implementation_dictionary
-GLOSSARY != runtime_api_spec
-TERM_DEFINED != TERM_IMPLEMENTED
+- vault-wide identity
+- architecture map
+- authoritative state pointers
+- release governance
+
+______________________________________________________________________
+
+## 2. Semantics
+
+### 2.1 Typed state
+
+Every load-bearing field is typed.
+
+Unknown values are recorded as:
+
+$$
+\boxed{\mathrm{UNKNOWN/GAP}}
+$$
+
+They are **never invented**.
+
+Conceptually:
+
+$$
+x \notin \mathrm{Known}
+\;\Longrightarrow\;
+\operatorname{state}(x)=\mathrm{UNKNOWN/GAP}
+$$
+
+not:
+
+$$
+x \notin \mathrm{Known}
+\;\Longrightarrow\;
+\operatorname{state}(x)=\mathrm{ASSUMED\_VALID}
+$$
+
+______________________________________________________________________
+
+### 2.2 Scope and regime
+
+Scope and regime are declared on every claim.
+
+A cross-regime transfer requires an explicit bridge:
+
+$$
+C_{R_i}
+\xrightarrow{\;\text{explicit bridge}\;}
+C_{R_j}
+$$
+
+Therefore:
+
+$$
+R_i \neq R_j
+\;\land\;
+\neg B_{i\rightarrow j}
+\;\Longrightarrow\;
+C_{R_i}\not\Rightarrow C_{R_j}
+$$
+
+where:
+
+- (R_i) = source regime
+- (R_j) = destination regime
+- (B\_{i\\rightarrow j}) = explicit regime bridge
+- (C_R) = claim scoped to regime (R)
+
+______________________________________________________________________
+
+### 2.3 Confidence ceiling
+
+The artifact declares a confidence ceiling of:
+
+$$
+C_{\max}=0.95
+$$
+
+Conclusion confidence cannot exceed the weakest load-bearing premise.
+
+For load-bearing premises (P_1,\\ldots,P_n):
+
+$$
+C_{\mathrm{conclusion}}
+\leq
+\min_{1\leq i\leq n} C(P_i)
+$$
+
+subject also to the artifact ceiling:
+
+$$
+\boxed{
+C_{\mathrm{conclusion}}
+\leq
+\min
+\left(
+0.95,\,
+C(P_1),\,
+C(P_2),\,
+\ldots,\,
+C(P_n)
+\right)
+}
+$$
+
+______________________________________________________________________
+
+## 3. Failure Modes Guarded
+
+`00 ROOT GLOSSARY` guards against:
+
+| Failure mode            | Meaning within this artifact                                             |
+| ----------------------- | ------------------------------------------------------------------------ |
+| `STALE_READ`            | State is consumed outside its valid freshness window.                    |
+| `SCOPE_LEAK`            | A claim or state escapes its declared applicability scope.               |
+| `REGIME_DRIFT`          | Reasoning or state silently transfers into a different regime.           |
+| `CONFIDENCE_INFLATION`  | Derived confidence exceeds what its premises support.                    |
+| `AUTHORITY_ESCALATION`  | Capability or access is incorrectly treated as authorization.            |
+| `PROVENANCE_LOSS`       | Source identity, ancestry, or dependency lineage is lost.                |
+| `SILENT_PARTIAL_COMMIT` | Only part of a state transition succeeds without explicit failure state. |
+| `UNKNOWN_AS_VALID`      | Missing or unresolved information is silently promoted to valid state.   |
+
+The guarded failure set can be represented as:
+
+$$
+\mathcal F_{\mathrm{root}}
+=
+\{
+\mathrm{STALE\_READ},
+\mathrm{SCOPE\_LEAK},
+\mathrm{REGIME\_DRIFT},
+\mathrm{CONFIDENCE\_INFLATION},
+\mathrm{AUTHORITY\_ESCALATION},
+\mathrm{PROVENANCE\_LOSS},
+\mathrm{SILENT\_PARTIAL\_COMMIT},
+\mathrm{UNKNOWN\_AS\_VALID}
+\}
+$$
+
+______________________________________________________________________
+
+## 4. Validation
+
+No artifact-specific executor exists yet.
+
+Executed OS validators exist as patterns:
+
+- [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]
+- [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+
+These provide validation patterns, but they do **not** constitute an executed validation receipt specific to `00 ROOT GLOSSARY`.
+
+### 4.1 Required tests before promotion
+
+Before promotion, the artifact requires:
+
+1. identity validation
+
+1. type-contract validation
+
+1. negative-case validation
+
+   - missing input
+   - malformed input
+   - stale input
+
+1. authority-boundary validation
+
+1. rollback validation
+
+The promotion condition is therefore:
+
+$$
+\operatorname{Promotable}(A)
+=
+I(A)
+\land
+T(A)
+\land
+N(A)
+\land
+U(A)
+\land
+R(A)
+$$
+
+where:
+
+- (I(A)) = identity validation passes
+- (T(A)) = type-contract validation passes
+- (N(A)) = required negative cases pass
+- (U(A)) = authority-boundary validation passes
+- (R(A)) = rollback validation passes
+
+For the current artifact:
+
+$$
+\neg\operatorname{ExecutedArtifactSpecificReceipt}
+$$
+
+therefore implementation promotion remains:
+
+$$
+\boxed{\mathrm{PARTIAL}}
+$$
+
+______________________________________________________________________
+
+## 5. Gaps
+
+The following remain **OPEN**:
+
+### 5.1 Implementation binding
+
+$$
+G_{\mathrm{implementation}}
+=
+\mathrm{UNKNOWN/GAP}
+$$
+
+### 5.2 Empirical validation
+
+$$
+G_{\mathrm{empirical}}
+=
+\mathrm{UNKNOWN/GAP}
+$$
+
+### 5.3 Cross-artifact consistency checks
+
+$$
+G_{\mathrm{cross\text{-}artifact}}
+=
+\mathrm{UNKNOWN/GAP}
+$$
+
+Therefore:
+
+$$
+\mathcal G_{\mathrm{open}}
+=
+\{
+G_{\mathrm{implementation}},
+G_{\mathrm{empirical}},
+G_{\mathrm{cross\text{-}artifact}}
+\}
+$$
+
+and:
+
+$$
+\boxed{
+\mathcal G_{\mathrm{open}}
+\neq
+\varnothing
+}
+$$
+
+______________________________________________________________________
+
+## 6. Falsifiers
+
+### F1 — Canonical contradiction
+
+If a canonical source contradicts the declared semantics:
+
+$$
+C_{\mathrm{canonical}}
+\perp
+S_{\mathrm{declared}}
+$$
+
+then the affected semantic claim is invalidated.
+
+______________________________________________________________________
+
+### F2 — Executed invariant violation
+
+If an executed test violates a stated invariant:
+
+$$
+\exists T_i:
+T_i
+\Rightarrow
+\neg I_i
+$$
+
+then the corresponding invariant claim fails.
+
+______________________________________________________________________
+
+### F3 — UNKNOWN promoted to PASS
+
+If the artifact promotes unresolved state to valid state:
+
+$$
+\mathrm{UNKNOWN/GAP}
+\rightarrow
+\mathrm{PASS}
+$$
+
+without sufficient validation, the artifact violates its own semantics.
+
+Therefore:
+
+$$
+\boxed{
+\mathrm{UNKNOWN/GAP}
+\not\Rightarrow
+\mathrm{PASS}
+}
+$$
+
+______________________________________________________________________
+
+## Worked Semantics
+
+Given an operation (O) touching `00 ROOT GLOSSARY` within the Root plane:
+
+$$
+O:
+S_t
+\rightarrow
+S_{t+1}
+$$
+
+the operation follows the governed transition sequence:
+
+$$
+\boxed{
+\mathrm{Admit}
+\rightarrow
+\mathrm{BindScope}
+\rightarrow
+\mathrm{CheckAuthority}
+\rightarrow
+\mathrm{ValidatePreconditions}
+\rightarrow
+\mathrm{Propose}
+\rightarrow
+\mathrm{CommitOrHold}
+}
+$$
+
+______________________________________________________________________
+
+## 1. Admit
+
+Resolve the artifact by:
+
+$$
+(\mathrm{id},\mathrm{version})
+$$
+
+The artifact is admissible only if both identity and version resolve:
+
+$$
+\operatorname{Resolve}(\mathrm{id},\mathrm{version})
+=
+\mathrm{VALID}
+$$
+
+If the identifier cannot be resolved:
+
+$$
+\neg\operatorname{Resolve}(\mathrm{id},\mathrm{version})
+$$
+
+then:
+
+$$
+\boxed{
+\operatorname{state}
+=
+\mathrm{UNKNOWN/GAP}
+}
+$$
+
+and the operation fails closed:
+
+$$
+\mathrm{UNRESOLVED\_ID}
+\Rightarrow
+\mathrm{FAIL\_CLOSED}
+$$
+
+______________________________________________________________________
+
+## 2. Bind Scope
+
+Before mutation, declare:
+
+$$
+\mathrm{domain}
+$$
+
+$$
+\mathrm{regime}
+$$
+
+and:
+
+$$
+H/M/L
+$$
+
+applicability.
+
+Define the operation envelope:
+
+$$
+\Sigma_O
+=
+(D,R,HML)
+$$
+
+where:
+
+- (D) = domain
+- (R) = regime
+- (HML) = applicable hierarchical resolution
+
+Mutation is not admissible until:
+
+$$
+\boxed{
+\Sigma_O
+\text{ is explicitly bound}
+}
+$$
+
+______________________________________________________________________
+
+## 3. Check Authority
+
+`authority_ref` must be epoch-valid.
+
+Let:
+
+$$
+A_r
+=
+\mathrm{authority\_ref}
+$$
+
+and:
+
+$$
+E_t
+=
+\mathrm{current\ authority\ epoch}
+$$
+
+Then authorization requires:
+
+$$
+\operatorname{ValidAt}(A_r,E_t)=1
+$$
+
+Capability alone never authorizes.
+
+Therefore:
+
+$$
+\boxed{
+\mathrm{Capability}
+\not\Rightarrow
+\mathrm{Authority}
+}
+$$
+
+and:
+
+$$
+\mathrm{CommitAllowed}
+\Rightarrow
+\operatorname{ValidAt}(A_r,E_t)
+$$
+
+______________________________________________________________________
+
+## 4. Validate Preconditions
+
+Dependency closure is traversed only to the smallest result-changing set.
+
+Let the full dependency graph be:
+
+$$
+G=(V,E)
+$$
+
+and let:
+
+$$
+D_O\subseteq V
+$$
+
+be the dependencies reachable from operation (O).
+
+The required validation set is not automatically all of (D_O).
+
+Instead, seek the smallest sufficient subset:
+
+$$
+D_O^{*}
+\subseteq
+D_O
+$$
+
+such that:
+
+$$
+\operatorname{Validate}(D_O^{*})
+$$
+
+is sufficient to determine whether the operation's result can validly change.
+
+Conceptually:
+
+$$
+\boxed{
+D_O^{*}
+=
+\arg\min_{D'\subseteq D_O}
+|D'|
+}
+$$
+
+subject to:
+
+$$
+\operatorname{DecisionSufficient}(D')=1
+$$
+
+All load-bearing premises in (D_O^{\*}) must remain valid.
+
+If:
+
+$$
+\exists P_i\in D_O^{*}:
+\operatorname{Valid}(P_i)=0
+$$
+
+then dependent conclusions cannot be promoted.
+
+______________________________________________________________________
+
+## 5. Propose
+
+The candidate state is non-authoritative until all required gates pass.
+
+Let:
+
+$$
+S'
+=
+\operatorname{Propose}(S_t,O)
+$$
+
+Then:
+
+$$
+S'
+=
+\mathrm{PROPOSAL}
+$$
+
+not:
+
+$$
+S'
+=
+\mathrm{COMMITTED}
+$$
+
+The governing invariant is:
+
+$$
+\boxed{
+\mathrm{PROPOSAL}
+\neq
+\mathrm{COMMIT}
+}
+$$
+
+A proposed state may become authoritative only after all required gates succeed:
+
+$$
+\mathrm{PROPOSAL}
++
+\mathrm{VALID\_GATES}
+\rightarrow
+\mathrm{COMMIT}
+$$
+
+______________________________________________________________________
+
+## 6. Commit or Hold
+
+For load-bearing premises:
+
+$$
+P_1,P_2,\ldots,P_n
+$$
+
+commit requires:
+
+$$
+\bigwedge_{i=1}^{n}\operatorname{Valid}(P_i)
+$$
+
+Thus:
+
+$$
+\boxed{
+\mathrm{COMMIT}
+\iff
+\bigwedge_{i=1}^{n}
+\operatorname{Valid}(P_i)
+}
+$$
+
+within the declared artifact semantics.
+
+If any required premise fails:
+
+$$
+\exists P_k:
+\operatorname{Valid}(P_k)=0
+$$
+
+then:
+
+$$
+\mathrm{COMMIT}
+\rightarrow
+\mathrm{HOLD}
+$$
+
+The recovery rule is local:
+
+$$
+\operatorname{Invalidate}(P_k)
+\rightarrow
+\operatorname{Invalidate}
+\left(
+\operatorname{Descendants}(P_k)
+\right)
+$$
+
+while:
+
+$$
+\operatorname{UnaffectedState}
+\rightarrow
+\operatorname{Preserve}
+$$
+
+Therefore:
+
+$$
+\boxed{
+\text{failed premise}
+\rightarrow
+\text{dependent invalidation only}
+}
+$$
+
+not:
+
+$$
+\text{failed premise}
+\rightarrow
+\text{unnecessary global invalidation}
+$$
+
+A receipt must then record the resulting state:
+
+$$
+R_O
+=
+\operatorname{Receipt}
+\left(
+O,
+S_t,
+S',
+\mathrm{validation},
+\mathrm{authority},
+\mathrm{result}
+\right)
+$$
+
+______________________________________________________________________
+
+## Promotion-Gate Checklist
+
+- [ ] typed schema bound to this artifact
+
+- [ ] identity + versioning implemented
+
+- [ ] negative cases covered
+
+  - [ ] missing input
+  - [ ] malformed input
+  - [ ] stale input
+  - [ ] unauthorized input
+
+- [ ] provenance edges persisted and validated
+
+- [ ] rollback basin demonstrated for consequential effects
+
+- [ ] executed validation receipt specific to this artifact
+
+- [ ] unresolved critical gaps registered as `UNKNOWN/GAP` and visible
+
+The promotion gate can be represented as:
+
+$$
+G_{\mathrm{promotion}}
+=
+G_{\mathrm{schema}}
+\land
+G_{\mathrm{identity}}
+\land
+G_{\mathrm{negative}}
+\land
+G_{\mathrm{provenance}}
+\land
+G_{\mathrm{rollback}}
+\land
+G_{\mathrm{receipt}}
+\land
+G_{\mathrm{gap\ visibility}}
+$$
+
+Therefore:
+
+$$
+\boxed{
+\mathrm{PROMOTE}
+\iff
+G_{\mathrm{promotion}}=1
+}
+$$
+
+with the additional integrity condition:
+
+$$
+\mathrm{CriticalGap}
+\neq
+\mathrm{UNKNOWN\ hidden}
+$$
+
+Instead:
+
+$$
+\boxed{
+\mathrm{CriticalGap}
+\Rightarrow
+\mathrm{UNKNOWN/GAP\ visible}
+}
+$$
+
+______________________________________________________________________
+
+## Cross-Plane Bindings
+
+## Canon Governance
+
+Governed by canon:
+
+[[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+
+**AMOS Core Laws · LAW_HIERARCHY**
+
+The relationship is:
+
+$$
+\mathrm{LAW\_HIERARCHY}
+\rightarrow
+\mathrm{00\ ROOT\ GLOSSARY}
+$$
+
+in the governance direction.
+
+______________________________________________________________________
+
+## Kernel Interaction
+
+[[02_KERNEL/KERNEL_README|KERNEL_README]]
+
+Conceptually:
+
+$$
+\mathrm{00\ ROOT\ GLOSSARY}
+\leftrightarrow
+\mathrm{KERNEL}
+$$
+
+for declared kernel interactions, without implying identity between the Root artifact and Kernel authority.
+
+______________________________________________________________________
+
+## Control-Plane Gates
+
+[[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+
+Governed operations pass through applicable control-plane gates:
+
+$$
+\mathrm{Operation}
+\rightarrow
+\mathrm{ControlPlaneGates}
+\rightarrow
+\mathrm{CommitDecision}
+$$
+
+______________________________________________________________________
+
+## Observability
+
+Observed by:
+
+[[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]]
+
+but observability is never treated as authority:
+
+$$
+\boxed{
+\mathrm{Observation}
+\neq
+\mathrm{Authority}
+}
+$$
+
+and:
+
+$$
+\mathrm{Observed}(x)
+\not\Rightarrow
+\mathrm{Authorized}(x)
+$$
+
+______________________________________________________________________
+
+## Operations and Recovery
+
+Recovered via operations:
+
+[[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+
+The recovery relationship is:
+
+$$
+\mathrm{Failure}
+\rightarrow
+\mathrm{OperationsRecovery}
+\rightarrow
+\mathrm{NearestValidState}
+$$
+
+with unaffected state preserved wherever dependencies permit.
+
+______________________________________________________________________
+
+## Root Navigation
+
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] | [[00_ROOT/AMOS MOC|AMOS MOC]]
+
+______________________________________________________________________
+
+**Related:**
+[[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+______________________________________________________________________
+
+## RSCF-NODE
+
+```yaml
+RSCF-NODE:
+  node_id: amos_00_root_00_root_glossary_md
+  node_type: note
+  path: 00_ROOT/00_ROOT_GLOSSARY.md
+  claim_class: AMOS_MODEL
 ```
 
----
+______________________________________________________________________
 
-## 2. Governing Invariants
+**MOC:** [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
 
-- **INV-ROOT-GLO-001 (Term Uniqueness):** Each canonical term has exactly one authoritative definition in this glossary. Competing definitions in downstream planes are flagged as `COMPETING` and must not be silently resolved.
-- **INV-ROOT-GLO-002 (Epistemic Non-Conflation):** The glossary enforces strict separation between `MODEL`, `OBSERVATION`, `SOURCE_CLAIM`, `DERIVED`, and `UNKNOWN/GAP` epistemic classes. No term definition may bridge these classes without explicit governed promotion.
-- **INV-ROOT-GLO-003 (Axiom Adherence):** All glossary definitions are strictly bound by M01 through M20 core laws. Definitions that contradict a core law are rejected.
-- **INV-ROOT-GLO-004 (Fail-Closed on Missing Terms):** If a term used in a canonical artifact is absent from this glossary, the artifact's coverage verification returns `UNKNOWN/GAP` for that term, blocking promotion.
-- **INV-ROOT-GLO-005 (Immutable Receipts):** Glossary updates emit auditable trace logs to `17_OBSERVABILITY`, including the old definition, new definition, and promotion record.
-- **INV-ROOT-GLO-006 (Non-Promotion Firewall):** A glossary entry confirms that a term is defined; it does not confirm that the term's referent is implemented, deployed, or empirically validated. `DOCUMENTED != IMPLEMENTED`.
-- **INV-ROOT-GLO-007 (Steward Authority):** Trang Phan remains the origin architect and steward. Agent-initiated glossary additions require governed successor evidence and explicit promotion records.
+______________________________________________________________________
 
----
+## Integrity Boundary
 
-## 3. Mathematical Formulation
+The source artifact explicitly classifies itself as:
 
-Let $\mathcal{T}$ be the set of all canonical AMOS terms and $\mathcal{D}: \mathcal{T} \to \mathcal{S}$ be the definition function mapping each term to its semantic specification string. The glossary completeness invariant requires:
+$$
+\boxed{
+\mathrm{AMOS\_MODEL}
+\cdot
+\mathrm{CONDITIONAL}
+\cdot
+\mathrm{implementation\ PARTIAL}
+}
+$$
 
-$$\forall t \in \mathcal{T}_{\text{used}}: \exists! d \in \mathcal{S} \mid \mathcal{D}(t) = d$$
+Accordingly, the mathematical expressions above formalize the **declared semantics of the supplied AMOS artifact**. They do not establish that every represented mechanism has an executed implementation or empirical validation.
 
-where $\mathcal{T}_{\text{used}}$ is the set of terms appearing in canonical vault artifacts. The epistemic separation invariant requires:
+The current load-bearing unresolved state remains:
 
-$$\forall t \in \mathcal{T}: \text{epistemicClass}(\mathcal{D}(t)) \in \{\texttt{MODEL}, \texttt{OBSERVATION}, \texttt{SOURCE\_CLAIM}, \texttt{DERIVED}, \texttt{UNKNOWN/GAP}\}$$
+$$
+\boxed{
+\mathrm{ImplementationBinding}
+=
+\mathrm{UNKNOWN/GAP}
+}
+$$
 
-$$\text{epistemicClass}(\mathcal{D}(t)) = \texttt{MODEL} \implies \text{epistemicClass}(\mathcal{D}(t)) \neq \texttt{OBSERVATION}$$
+$$
+\boxed{
+\mathrm{EmpiricalValidation}
+=
+\mathrm{UNKNOWN/GAP}
+}
+$$
 
-The term entropy metric $H_{\text{term}}(t)$ measures definitional drift across planes:
+$$
+\boxed{
+\mathrm{CrossArtifactConsistency}
+=
+\mathrm{UNKNOWN/GAP}
+}
+$$
 
-$$H_{\text{term}}(t) = -\sum_{i=1}^{n} p_i \log_2 p_i$$
+Therefore the strongest exact conclusion supported by the supplied artifact is:
 
-where $p_i$ is the fraction of planes using definition variant $i$ for term $t$. $H_{\text{term}}(t) = 0$ indicates perfect consistency; $H_{\text{term}}(t) > 0$ triggers a `COMPETING` alert.
-
----
-
-## 4. Operational Architecture
-
-```mermaid
-graph TD
-    A[Canonical Artifact] --> B[Term Extraction]
-    B --> C{Term in glossary?}
-    C -->|Yes| D{Definition consistent?}
-    C -->|No| E[Flag: UNKNOWN/GAP term]
-    D -->|Yes| F[Pass: term verified]
-    D -->|No| G[Flag: COMPETING definition]
-    E --> H[17_OBSERVABILITY]
-    G --> H
-    F --> I[Coverage receipt]
-```
-
-The glossary verification pass is non-mutating: it detects and reports only. Term additions and definition updates require governed promotion through the control plane.
-
-### Canonical Term Registry (Excerpt)
-
-| Term | Definition | Epistemic Class |
-|:---|:---|:---|
-| RSCF | Root Source Claim Framework; provenance tracking for all AMOS artifacts | DERIVED |
-| MECE | Mutually Exclusive, Collectively Exhaustive partition of planes | DERIVED |
-| Plane | Physical/operational namespace in the vault (00 through 25) | DERIVED |
-| Partition | Functional responsibility domain (A through F) grouping planes | DERIVED |
-| Canon | Admitted law/definition/lineage artifact in 01_CANON | SOURCE_CLAIM |
-| Receipt | Cryptographic audit trace emitted to 17_OBSERVABILITY | DERIVED |
-| Commit | State mutation delta admitted by control plane authority | DERIVED |
-| Rollback | Reversible state change applying inverse delta | DERIVED |
-| MVCC | Multi-Version Concurrency Control for state versioning | DERIVED |
-| CAS | Compare-And-Swap monotonic version comparison | DERIVED |
-
----
-
-## 5. MECE Mapping to AMOS Full Brain OS
-
-| Glossary Component | Primary Plane | Partition | Key Dependencies |
-|:---|:---|:---|:---|
-| Term definitions | 00_ROOT | Meta-plane | 01_CANON, 11_KNOWLEDGE |
-| Epistemic class taxonomy | 00_ROOT | Meta-plane | 01_CANON/01_CORE_LAWS |
-| Cross-plane consistency | 00_ROOT | Meta-plane | 17_OBSERVABILITY |
-| Canon terminology | 01_CANON | A | 00_ROOT |
-| State terminology | 12_STATE | D | 00_ROOT |
-| Security terminology | 18_SECURITY | E | 00_ROOT |
-
-`00_ROOT` glossary is the meta-plane terminology authority. Downstream planes may specialize terms but must not contradict root definitions.
-
----
-
-## 6. Safety Invariants & Firewalls
-
-- **INV-ROOT-GLO-101 (No Silent Redefinition):** Downstream planes must not silently redefine canonical terms. Firewall: `ROOT_DEFINITION > PLANE_SPECIALIZATION`.
-- **INV-ROOT-GLO-102 (No Epistemic Bridging):** A term defined as `MODEL` must not be used as `OBSERVATION` in any artifact without explicit governed promotion. Firewall: `MODEL != OBSERVATION`.
-- **INV-ROOT-GLO-103 (No Authority from Definition):** Defining a term does not grant authority over its referent. Firewall: `CAPABILITY != AUTHORITY`.
-- **INV-ROOT-GLO-104 (No Implementation from Documentation):** A glossary entry documenting a mechanism does not confirm the mechanism is implemented. Firewall: `DOCUMENTED != IMPLEMENTED`.
-- **INV-ROOT-GLO-105 (Competing Preservation):** When two planes offer incompatible definitions, both are preserved as `COMPETING` rather than silently resolved. Firewall: `COMPETING != RESOLVED`.
-
----
-
-## 7. Navigation & Bindings
-
-- **Master MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
-- **Partition Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]
-- **Core Laws:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- **RSCF Nodes:** [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-- **Knowledge Base:** [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]]
-- **Observability:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]
-- **Schemas:** [[16_SCHEMAS/16_SCHEMAS_MOC|16_SCHEMAS_MOC]]
-- **Control Plane Contract:** [[03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT|CONTROL_PLANE_CONTROL_PLANE_CONTRACT]]
-
----
-
-## 8. Known Gaps & Falsifiers
-
-- **GAP-ROOT-GLO-001:** The glossary is not exhaustively populated for all 7,098+ canonical vault notes. Terms appearing only in archived or historical artifacts may be absent. State: `UNKNOWN/GAP`.
-- **GAP-ROOT-GLO-002:** Vietnamese-language terms from the Khung Trang canon do not have standardized English glossary entries in all cases. State: `PARTIAL`.
-- **GAP-ROOT-GLO-003:** The term entropy metric $H_{\text{term}}$ is specified but not yet computed across the full vault. State: `UNIMPLEMENTED`.
-- **GAP-ROOT-GLO-004:** Falsifier: if any canonical term is found to have two incompatible authoritative definitions in this glossary, the term uniqueness invariant is falsified.
-- **GAP-ROOT-GLO-005:** Falsifier: if a core law (M01-M20) is found to contradict a glossary definition, the axiom adherence invariant is falsified and the definition must be repaired or removed.
+$$
+\boxed{
+\mathrm{ClaimClass}
+=
+\mathrm{AMOS\_MODEL}
+\land
+\mathrm{CONDITIONAL}
+\land
+\mathrm{ImplementationStatus}
+=
+\mathrm{PARTIAL}
+}
+$$

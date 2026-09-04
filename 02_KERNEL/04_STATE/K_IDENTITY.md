@@ -1,59 +1,21 @@
 ---
-title: K IDENTITY
-type: identity
-source: 02_KERNEL/04_STATE
-artifact_id: AMOS-OS-K-IDENTITY
-canonical_name: K_IDENTITY
-artifact_type: kernel_identity_contract
-status: AMOS_MODEL
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
 conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: KERNEL
-kernel_family: IDENTITY
-domain: identity
-scope: AMOS_OS
-updated: 2026-08-26
+epistemic_class: SOURCE_CLAIM
+topic: K Identity
 tags:
-  - amos-os
-  - kernel
-  - core
   - canon-group/tech-ai
-  - canon/model
-  - kernel/identity
-  - kernel/provenance
-  - kernel/state
-  - kernel/dependency
-  - kernel/versioning
-  - kernel/causality
-  - kernel/validation
-  - rscf/identity
+  - rscf/claim
   - rscf/provenance
-  - rscf/state/model
-  - topic/identity
-  - topic/semantic-identity
-  - topic/provenance-lineage
-  - readme
-  - architecture
-  - authoritative-state
-  - amos-core-laws
-  - law-hierarchy
-  - canonical-glossary
-  - canon-provenance
-  - source-lineage
-  - supersession-log
-  - k-context-state
-  - k-event-bus
-  - k-structural-reasoning
-  - k-causal-epoch
-aliases:
-  - AMOS Identity Kernel - Identity Kernel - K Identity - K_IDENTITY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # K IDENTITY
@@ -2410,7 +2372,7 @@ SAMENESS.
 ## Related
 
 README ·
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]] ·
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]] ·
 [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] ·
 [[00_ROOT/DEPENDENCY_MAP|DEPENDENCY_MAP]] ·
 [[00_ROOT/AUTHORITATIVE_STATE|AUTHORITATIVE_STATE]] ·
@@ -2449,7 +2411,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

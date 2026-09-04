@@ -1,20 +1,21 @@
 ---
-title: REASONING MODES COMMIT CONTROL PLANE PROVENANCE
-type: provenance
-source: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/05_MEASURE
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Reasoning Modes Commit Control Plane Provenance
 tags:
-  - control-plane
-  - 06_reasoning_modes/05_measure
-  - canon/control-plane
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # REASONING MODES COMMIT CONTROL PLANE PROVENANCE

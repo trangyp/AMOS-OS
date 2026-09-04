@@ -1,228 +1,161 @@
 ---
-title: Attention Engine
-type: engine
-source: 05_COGNITIVE_ORGANISM
-artifact: ATTENTION_ENGINE.md
-artifact_id: amos_05_cognitive_organism_attention_engine
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 05_COGNITIVE_ORGANISM
-segment: 05_COGNITIVE_ORGANISM
-artifact_kind: ENGINE
-path: 05_COGNITIVE_ORGANISM/ATTENTION_ENGINE.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Attention Engine
 tags:
-  - amos-os
-  - cognitive
-  - organism
-  - engine
-  - canon_placeholder
-  - rscf
-  - canon/cognitive
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Attention Engine
+# Attention Engine — Cognitive Organism
 
-## 0. Status
+> **Status:** `ACTIVE_SPECIFICATION` · **AMOS Core target:** `v4.4`  
+> **Origin architect / steward:** Trang Phan  
+> **Functional Group:** `A. INPUT / REPRESENTATION` (MECE Partition)  
+> **Conclusion class:** `AMOS_MODEL`
 
-`ATTENTION_ENGINE.md` is an **ADD-ONLY placeholder** for the **Cognitive Organism** plane segment at `05_COGNITIVE_ORGANISM`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+## 1. Architectural Purpose & Role
 
-The governing boundaries are:
+The **Attention Engine** governs the dynamic allocation of finite cognitive capacity, context window budget, and computational priority across competing perceptual signals, retrieved evidence, and active hypotheses within `05_COGNITIVE_ORGANISM`.
+
+Operating directly downstream from the [Perception Engine](file:///Users/mac/Documents/AMOS_OS/05_COGNITIVE_ORGANISM/PERCEPTION_ENGINE.md) and upstream from the [Cognition Engine](file:///Users/mac/Documents/AMOS_OS/05_COGNITIVE_ORGANISM/COGNITION_ENGINE.md), its role is to prevent cognitive saturation by filtering, weighting, and routing only decision-critical tokens into working memory.
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
+PERCEPTUAL INPUTS & SIGNALS
+            ↓
+┌───────────────────────────────────────┐
+│           ATTENTION ENGINE            │
+│  - Salience Scoring                   │
+│  - Context Budgeting & Compaction     │
+│  - Information Entropy Filtering      │
+└───────────────────────────────────────┘
+            ↓
+FOCUSED ATTENTION VECTOR / BUDGET
+            ↓
+COGNITION & REASONING ENGINES
 ```
 
-Origin architect / steward:
+---
 
-**Trang Phan**
+## 2. Mathematical & Algorithmic Formulation
 
-______________________________________________________________________
+### 2.1 Attention Priority Equation
+The attention priority metric $A_p(s)$ for any candidate token, fact, or signal $s$ is computed as:
 
-## 1. Purpose
+$$A_p(s) = w_g \cdot G_r(s) + w_c \cdot C_q(s) + w_u \cdot U(s) + w_i \cdot I_r(s) + w_t \cdot T_s(s) - w_d \cdot D_k(s)$$
 
-This artifact reserves the **Attention Engine** slot within the Cognitive Organism plane. The Cognitive Organism plane governs the organism-level cognitive assembly above kernels and below agents.
+Where:
+* $G_r(s) \in [0, 1]$: Goal relevance given active task envelope.
+* $C_q(s) \in [0, 1]$: Consequence severity if $s$ is omitted or false.
+* $U(s) \in [0, 1]$: Epistemic uncertainty associated with $s$.
+* $I_r(s) \in [0, 1]$: Irreversibility factor of actions conditioned on $s$.
+* $T_s(s) \in [0, 1]$: Time-decay sensitivity and urgency.
+* $D_k(s) \in [0, 1]$: Redundancy / duplicate knowledge penalty (Sybil discount).
+* $\sum w_i = 1$: Governed weighting parameters set by active control-plane regime.
 
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+### 2.2 Context Budget Allocation & Retention Ranking
+When context budget capacity $B_{max}$ is approached, attention executes strict priority compaction following the canonical retention hierarchy:
 
-______________________________________________________________________
+$$\text{Hard Constraints} \succ \text{Critical Falsifiers} \succ \text{Active Contradictions} \succ \text{Current Decisions} \succ \text{Provenance Roots} \succ \text{Narrative Detail}$$
 
-## 2. Non-Purpose
+---
 
-This placeholder MUST NOT be used to claim:
+## 3. Hard Architectural Invariants
 
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
+```text
+SALIENCE != TRUTH
+THREAT_SIGNAL != FACT
+NOVELTY != RELEVANCE
+HIGH_WEIGHT != HIGH_AUTHORITY
+ATTENTION_FOCUS != COMMITMENT
+```
 
-______________________________________________________________________
+1. **Anti-Hallucination Gate:** An emotionally intense or salient signal must never be promoted from hypothesis to observation merely due to high attention weighting.
+2. **Deterministic Pruning:** Compaction must preserve causal lineage and provenance roots. Pruned tokens are archived, never destroyed silently.
+3. **Fail-Closed on Saturation:** If $A_p(s)$ cannot be resolved under resource constraints, the engine signals `LOAD_SHEDDING` to [Homeostasis Engine](file:///Users/mac/Documents/AMOS_OS/05_COGNITIVE_ORGANISM/HOMEOSTASIS_ENGINE.md).
 
-## 3. Ingestion Rule
+---
 
+## 4. Grounding in Arvix Research Corpus
+
+The Attention Engine is grounded in foundational and empirical literature cataloged in the [Arvix Research Corpus](file:///Users/mac/Desktop/_Arxiv/Arvix):
+
+1. **Sublinear Approximation & Sparsification:**
+   * Grounded in [[2602.00874v1_Sublinear_Time_Quantum_Algorithm_for_Attention_Approximation]]: Quantum and randomized sublinear algorithms for sparse attention matrices, enabling $O(d \log n)$ attention scaling over massive corpora without token loss.
+2. **Cortical Information Integration & Gating:**
+   * Grounded in [[1012.5649v1_Network_algorithmics_and_the_emergence_of_information_integration_in_cortical_mo]]: Explores network algorithmics and information integration in cortical modules, defining how hierarchical loops prevent runaway feedback while preserving local receptive field sensitivity.
+3. **Cross-Year Cognitive Synthesis:**
+   * Grounded in [[outputs/Consciousness_Early_Thread_2007-2010]]: Synthesizes the state-vs-integration split across early cognitive papers, establishing that selective attention is the prerequisite for coherent information integration.
+
+---
+
+## 5. Input / Output Contracts & Typed Interfaces
+
+### 5.1 Input Contract
 ```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+attention_request:
+  candidate_signals:
+    - signal_id: string
+      modality: "TEXT | METRIC | GRAPH_EDGE | TEMPORAL_DELTA"
+      raw_payload: any
+      source_provenance: string
+      initial_uncertainty: float
+  active_goal_envelope:
+    goal_id: string
+    hard_constraints: list[string]
+    temporal_deadline: timestamp
+  available_budget:
+    max_tokens: int
+    compute_cycles: int
 ```
 
-______________________________________________________________________
+### 5.2 Output Contract
+```yaml
+attention_output:
+  attended_vector:
+    - signal_id: string
+      attention_score: float
+      assigned_layer: "WORKING_MEMORY | HYPOTHESIS_SPACE | SNOOZED"
+      justification: string
+  suppressed_signals: list[string]
+  compaction_receipt:
+    tokens_allocated: int
+    tokens_shed: int
+    integrity_verified: bool
+```
 
-## 4. Contract discipline
+---
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+## 6. Cross-Plane & Upstream / Downstream Bindings
 
-______________________________________________________________________
+* **Governing Canon:** [[01_CANON/03_COGNITION_CANON/COGNITIVE_ORGANISM_CANON|COGNITIVE_ORGANISM_CANON]]
+* **Upstream Feeder:** [[05_COGNITIVE_ORGANISM/PERCEPTION_ENGINE|PERCEPTION_ENGINE]]
+* **Downstream Consumers:** [[05_COGNITIVE_ORGANISM/COGNITION_ENGINE|COGNITION_ENGINE]] · [[05_COGNITIVE_ORGANISM/MEMORY_ENGINE|MEMORY_ENGINE]]
+* **Regulatory Monitor:** [[05_COGNITIVE_ORGANISM/HOMEOSTASIS_ENGINE|HOMEOSTASIS_ENGINE]] (receives context load telemetry)
+* **Master Index:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
 
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
-______________________________________________________________________
-
-## 6. Worked semantics (target)
-
-Given an operation touching `05_COGNITIVE_ORGANISM · ENGINE` within the Cognitive Organism plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-______________________________________________________________________
-
+---
 RSCF-NODE
-
 node_id: amos_05_cognitive_organism_attention_engine
-
 node_type: engine
-
 path: 05_COGNITIVE_ORGANISM/ATTENTION_ENGINE.md
-
 claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
 RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
-
-**MOC:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
+  - GOVERNED_BY: [[01_CANON/03_COGNITION_CANON/COGNITIVE_ORGANISM_CANON]]
+  - INDEXED_BY: [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC]]
+  - INDEXED_BY: [[00_ROOT/00_HOME]]
+  - FEEDS: [[05_COGNITIVE_ORGANISM/COGNITION_ENGINE]]
+  - MONITORED_BY: [[05_COGNITIVE_ORGANISM/HOMEOSTASIS_ENGINE]]

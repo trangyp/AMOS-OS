@@ -1,22 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: INDEX REPAIR GAP REPORT 2026-08-26
-type: index
-source: 00_ROOT
-canon-group: reference
-rscf-state: derived
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Index Repair Gap Report 2026 08 26
 tags:
-  - gap-report
-  - audit
-  - canon/root
-  - skill
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: root_index
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Index Repair Gap Report — 2026-08-26
@@ -35,7 +34,7 @@ rscf:
 | `00_ROOT`                             | 41            | 40                       | 41                                        | 97.6%           | 100%           |
 | `06_AGENTS`                           | 6             | 5                        | 6                                         | 83.3%           | 100%           |
 | `07_SKILLS`                           | 12            | 8                        | 12                                        | 66.7%           | 100%           |
-| `08_WORKFLOWS`                        | 6             | 5                        | 6                                         | 83.3%           | 100%           |
+| `26_WORKFLOWS`                        | 6             | 5                        | 6                                         | 83.3%           | 100%           |
 | `Templates`                           | 1             | 0                        | 1                                         | 0%              | 100%           |
 | All other 17 zones                    | 1,100         | 1,100                    | 1,100                                     | 100%            | 100%           |
 | **Total (28 zones)**                  | **77,204**    | **23,549**               | **77,204**                                | **30.5%**       | **100%**       |

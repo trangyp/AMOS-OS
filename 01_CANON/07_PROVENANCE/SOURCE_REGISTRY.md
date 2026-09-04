@@ -1,56 +1,16 @@
 ---
-title: SOURCE REGISTRY
-type: registry
-source: 01_CANON/07_PROVENANCE
-artifact_id: AMOS-OS-SOURCE-REGISTRY
-canonical_name: SOURCE_REGISTRY
-artifact_type: canonical_source_registry
-status: SOURCE_CLAIM
-conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-domain: canon
-scope: AMOS_OS
-authority_scope: source-identification-classification-registration-and-resolution
-created: 2026-08-25
-updated: 2026-08-25
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Source Registry
 tags:
-  - amos-os
-  - canon
-  - universe
-  - canon-group/meta
-  - canon/framework
-  - canon/registry
-  - canon/provenance
-  - canon/lineage
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
   - rscf/state/source-claim
-  - topic/source-identity
-  - topic/source-classification
-  - topic/provenance-topology
-  - topic/source-independence
-  - topic/evidence-topology
-  - topic/freshness
-  - topic/sybil-hardening
-  - topic/persistent-provenance
-  - readme
-  - architecture
-  - neural-network
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - source-lineage
-  - canonical-glossary
-  - deprecated-terms
-aliases:
-  - AMOS Source Registry - AMOS OS Source Registry - Canon Source Registry
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AMOS OS Source Registry
@@ -2861,7 +2821,7 @@ UNKNOWN/GAP.
 ## Related
 
 README ·
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]] ·
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]] ·
 [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] ·
 [[00_ROOT/SYSTEM_MAP|SYSTEM_MAP]] ·
 NAMING_STANDARD ·
@@ -2891,7 +2851,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

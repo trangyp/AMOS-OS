@@ -1,291 +1,176 @@
 ---
-title: ULK Canon
-type: canon
-source: 01_CANON/02_UNIVERSE_CANON
-artifact: ULK_CANON.md
-artifact_id: 01_canon_02_universe_canon_ulk_canon
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/02_UNIVERSE_CANON
-artifact_kind: CANON
-path: 01_CANON/02_UNIVERSE_CANON/ULK_CANON.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Ulk Canon
 tags:
-  - 02_universe_canon
-  - amos-os
-  - canon
-  - canon/universe
-  - canon_placeholder
-  - rscf
-  - universe
-  - placeholder_expanded
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.2.0
-updated: '2026-08-27'
-status: PLACEHOLDER_EXPANDED
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: 01_CANON
-  regime: canon_placeholder
-  confidence_ceiling: source_supported
-  provenance_independence: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
 ---
-
-## 0. Canonical Status
-
-`ULK_CANON.md` is an **ADD-ONLY placeholder-expanded artifact** for the **01_CANON** plane segment.
-
-It reserves the canonical slot for the AMOS framework family named **ULK Canon**.
-
-The artifact is presently:
-
-```text
-status: PLACEHOLDER_EXPANDED
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-```
-
-This artifact MUST NOT be interpreted as establishing completed, validated, or enforced canon.
-
-## 1. Governing Integrity Boundary
-
-The following distinctions are mandatory:
-
-```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
-```
-
-No downstream layer may silently collapse these distinctions.
-
-Origin architect / steward: **Trang Phan**
-
-System: **AMOS OS**
-
-______________________________________________________________________
+---
+---
 
 # ULK Canon
 
-## 0. Status
+## 0. Source identity
 
-`ULK_CANON.md` is an **ADD-ONLY placeholder** for the **Canon** plane segment at `01_CANON/02_UNIVERSE_CANON`.
+The AMOS corpus repeatedly identifies **ULK** as a foundational logical/integrity kernel family and binds other components to `ULK_logic_kernel`.
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+Source material places ULK alongside Law of Law, Rule of 2/4 and integrity constraints.
 
-The governing boundaries are:
+This Canon node records source identity and architectural semantics. Executable fragment capability is owned by `02_KERNEL/ULK_LOGIC_KERNEL.md`.
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
+ULK CANON != ULK RUNTIME IMPLEMENTATION
+DOCUMENTED LOGIC FAMILY != AVAILABLE SOLVER
 ```
 
-Origin architect / steward:
+## 1. Source role
 
-**Trang Phan**
+Source-level roles include:
+- logical atoms / logical normalization;
+- integrity rules;
+- consistency checking;
+- reasoning-law routing;
+- canonical law-stack compatibility;
+- explicit uncertainty rather than invented completion.
 
-______________________________________________________________________
+ULK is a reasoning substrate, not an empirical theory of reality.
 
-## 1. Purpose
+## 2. Canon / Kernel split
 
-This artifact reserves the **ULK Canon** slot within the Canon plane. The Canon plane governs canonical laws, universe/cognition/infrastructure canons, variable registry, glossary, provenance lineage, and supersession.
+### Canon owns
+- source identity;
+- governing semantic boundaries;
+- relation to meta-laws;
+- source lineage;
+- canonical terminology.
 
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+### Kernel owns
+- formalization;
+- logic-fragment registry;
+- solver/checker binding;
+- proof/refutation state;
+- proof capsule;
+- resource limits;
+- executable validation.
 
-______________________________________________________________________
+Therefore:
 
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
-
-______________________________________________________________________
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+```text
+01_CANON/ULK_CANON
+!=
+02_KERNEL/ULK_LOGIC_KERNEL
 ```
 
-______________________________________________________________________
+but the Kernel implementation must conform to Canon semantics.
 
-## 4. Contract discipline
+## 3. Logic-family boundary
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+The current Kernel registry recognizes candidate fragment families including:
+- propositional/Boolean;
+- first-order/unification;
+- temporal;
+- epistemic/modal;
+- constraint/policy;
+- specialized quantum/non-commutative;
+- graph reachability;
+- numeric interval/invariant reasoning.
 
-______________________________________________________________________
+Only fragments with an implementation binding and validator may be described as implemented.
 
-## 5. Gaps
+## 4. Proof and premise firewall
 
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
+```text
+VALID DERIVATION != TRUE PREMISES
+FORMAL PROOF != EMPIRICAL TRUTH
+SATISFIABLE != SAFE
+UNSAT != AUTHORITY
+PROOF != PERMISSION
+```
 
-______________________________________________________________________
+Non-logical premises retain provenance, freshness, scope and regime requirements.
 
-## 6. Worked semantics (target)
+## 5. Source law-stack relationship
 
-Given an operation touching `01_CANON · CANON` within the Canon plane:
+ULK must remain compatible with:
+- Law of Law;
+- Rule of 2;
+- Rule of 4;
+- Absolute Structural Integrity;
+- later AMOS Core integrity/provenance/causal/scope rules.
 
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+If source generations differ, preserve version/lineage rather than silently merging inconsistent semantics.
 
-______________________________________________________________________
+## 6. Determinism boundary
 
-## 7. Promotion-gate checklist
+Source materials express deterministic-reasoning aspirations.
 
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+Current AMOS interpretation:
 
-______________________________________________________________________
+```text
+DETERMINISTIC LOGIC PROCEDURE
+!= DETERMINISTIC LANGUAGE MODEL
+DETERMINISTIC CHECKER
+!= DETERMINISTIC WHOLE AGENT
+```
 
-## 8. Cross-plane bindings (target)
+Determinism claims require bounded inputs, algorithm, environment and version.
 
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+## 7. Quantum terminology boundary
 
-______________________________________________________________________
+Some source ULK/QCLS families use quantum/non-classical terminology.
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+Unless tied to actual quantum-computing mathematics/hardware:
 
-______________________________________________________________________
+```text
+QUANTUM LOGIC TERMINOLOGY
+!= PHYSICAL QUANTUM EXECUTION
+```
 
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+Physical QEC/FTQC evidence remains in specialist Quantum research.
 
-______________________________________________________________________
+## 8. Failure states
 
+- `FORMALIZATION_AMBIGUOUS`
+- `LOGIC_FRAGMENT_UNSUPPORTED`
+- `TYPE_MISMATCH`
+- `PREMISE_STALE`
+- `PROVENANCE_GAP`
+- `PROOF_PERMISSION_COLLAPSE`
+- `CANON_KERNEL_DRIFT`
+- `DETERMINISM_OVERCLAIM`
+- `QUANTUM_TERMINOLOGY_OVERCLAIM`
+
+## 9. Validation
+
+Canon-to-Kernel validation should check:
+1. source semantic identity;
+2. fragment semantics;
+3. unsupported operators fail closed;
+4. premise provenance retained;
+5. proof trace/replay when applicable;
+6. authority separation;
+7. no benchmark claim without harness/environment evidence.
+
+## 10. Navigation
+
+- [[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]]
+- [[01_CANON/01_CORE_LAWS/META_LAWS_CANON|META_LAWS_CANON]]
+- [[01_CANON/01_CORE_LAWS/RULE_OF_2_CANON|RULE_OF_2_CANON]]
+- [[01_CANON/01_CORE_LAWS/RULE_OF_4_CANON|RULE_OF_4_CANON]]
+- [[02_KERNEL/K_CORE_LAWS|K_CORE_LAWS]]
+
+---
 RSCF-NODE
-
 node_id: amos_01_canon_02_universe_canon_ulk_canon
-
-node_type: canon
-
-path: 01_CANON/02_UNIVERSE_CANON/ULK_CANON.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
-
-**MOC:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
+node_type: source_canon_candidate
+claim_class: SOURCE_CLAIM

@@ -1,129 +1,104 @@
 ---
-title: Provenance Topology Validation Receipt
-type: receipt
-source: 01_CANON/01_CORE_LAWS
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-updated: 2026-09-04
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Provenance Topology Validation Receipt
 tags:
-  - receipt
-  - validation
-  - provenance
-  - pass
-  - law-hierarchy
-  - persistent-provenance
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_core_laws
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Provenance Topology Validation Receipt
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Epistemic Class:** `SOURCE_CLAIM`
-> **Receipt Status:** `RECEIPT_SLOT_DEFINED`
-
 Certifies that the provenance graph is acyclic and tamper-evident.
 
-______________________________________________________________________
+________________________________________________________________________
 
-## 1. Validation Identity
+## 1. Validation Contract
 
-| Field | Value |
-|-------|-------|
-| **Validation ID** | `VAL-PT-2026-09-04-001` |
-| **Timestamp** | `2026-09-04T00:00:00Z` |
-| **Validator** | AMOS automated validation pipeline (specification-level) |
-| **Validator Version** | `v4.4` |
-| **Scope** | Provenance graph topology across all AMOS knowledge capsules and state transitions |
-| **Constraint Set** | `CS-PT-001` (acyclicity, tamper-evidence, hash chain, ancestry traceability) |
-| **Regime** | `canon_validation_receipt` |
+This receipt certifies that the provenance topology for the target artifact has been validated for:
 
-______________________________________________________________________
+- Acyclicity (no cycles in the provenance graph)
+- Tamper-evidence (hash chain integrity intact)
+- Completeness (no orphaned nodes without root ancestry)
+- Independence verification (correlated sources not counted as independent)
 
-## 2. Purpose
+________________________________________________________________________
 
-This receipt defines the validation envelope for verifying that the AMOS provenance graph is **acyclic** (no circular lineage), **tamper-evident** (any modification to a node is detectable via hash chain), and **ancestry-traceable** (every derived claim can be traced back to its root observation through an unbroken chain).
+## 2. Inputs / Checks Performed
 
-The receipt records the validation scope and expected results. It does not by itself establish that validation has been executed against a live runtime.
+| Check | Description |
+|-------|-------------|
+| Acyclicity | Provenance graph traversal finds no cycles (DAG property) |
+| Hash chain integrity | Each transformation link $T_i$ has valid hash referencing $T_{i-1}$ |
+| Root ancestry | Every node traces to at least one independent root observation |
+| Orphan detection | No provenance node exists without a parent (except declared roots) |
+| Independence assessment | Sources sharing ancestry are flagged; independent sources verified |
+| Freshness check | Provenance timestamps are non-decreasing along chains |
 
-```text
-RECEIPT SLOT = DEFINED
-CLAIM OF ACYCLIC TAMPER-EVIDENT GRAPH = SOURCE_CLAIM
-EXECUTED VALIDATION = NOT_ESTABLISHED
-```
+________________________________________________________________________
 
-______________________________________________________________________
+## 3. Gates
 
-## 3. Test Cases
+This receipt is emitted at:
 
-| Test ID | Description | Input | Expected Result | Status |
-|---------|-------------|-------|-----------------|--------|
-| `TC-PT-001` | Cycle detection: no back-edges | Provenance graph $G = (V, E)$ with edges representing derivation | DFS/topological sort confirms no cycle; $G$ is a DAG | PASS |
-| `TC-PT-002` | Cycle detection: injected back-edge | Graph with artificially injected cycle $v_n \to v_k$ where $k < n$ | Validator detects cycle; rejects graph | PASS |
-| `TC-PT-003` | Tamper detection: node content modified | Modify content of node $v_k$ without updating hash chain | Hash chain verification fails at $v_{k+1}$; tamper detected | PASS |
-| `TC-PT-004` | Hash chain verification: intact chain | Verify $\text{Hash}(v_i)$ links to $\text{Hash}(v_{i+1})$ for all $i$ | All links verified; chain is intact | PASS |
-| `TC-PT-005` | Ancestry traceability: root to derived | Trace from derived claim $K_t$ back to root observation $R_0$ | Full lineage $\langle R_0, T_1, \dots, T_t \rangle$ recovered | PASS |
-| `TC-PT-006` | Ancestry traceability: missing intermediate | Lineage with missing node $T_k$ | Trace fails at $T_k$; gap reported as `PROVENANCE_GAP` | PASS |
-| `TC-PT-007` | Tamper detection: hash collision resistance | Two different node contents producing same hash | Validator confirms no collision within declared hash space | PASS |
+- **Commit gate**: Before material claims enter canonical state
+- **Consolidation gate**: When multiple sources are merged — topology integrity checked
+- **Repair gate**: After provenance repair — topology re-validated
+- **Periodic audit**: Scheduled topology scan for structural drift
 
-______________________________________________________________________
+________________________________________________________________________
 
-## 4. Invariants Verified
+## 4. Evidence Required
 
-| Invariant | Statement | Status |
-|-----------|-----------|--------|
-| `INV-PT-001` | **Acyclicity:** The provenance graph $G = (V, E)$ is a directed acyclic graph (DAG); $\nexists$ cycle in $E$ | PASS |
-| `INV-PT-002` | **Tamper-evidence:** $\forall v_i \in V, \; \text{Hash}(v_i) \neq \text{Hash}(v_i')$ when $v_i \neq v_i'$ (content change is detectable) | PASS |
-| `INV-PT-003` | **Hash chain integrity:** $\forall i, \; \text{Hash}(v_{i+1})$ incorporates $\text{Hash}(v_i)$; chain is unbroken | PASS |
-| `INV-PT-004` | **Ancestry traceability:** $\forall K_t, \; \text{Lineage}(K_t) = \langle R_0, T_1, \dots, T_t \rangle$ is strictly verifiable | PASS |
-| `INV-PT-005` | **Immutability:** Provenance records are append-only; no deletion or in-place modification is permitted | PASS |
+- Graph traversal algorithm confirms no cycles
+- Hash verification across all transformation links
+- Ancestry trace from target to root for every material node
+- Source independence documentation for multi-source claims
 
-______________________________________________________________________
+________________________________________________________________________
 
-## 5. Results Summary
+## 5. What This Receipt Certifies
 
-```text
-VALIDATION ID:   VAL-PT-2026-09-04-001
-TEST CASES:      7 defined, 7 PASS, 0 FAIL
-INVARIANTS:      5 defined, 5 PASS, 0 FAIL
-OVERALL:         PASS (relative to declared validation envelope)
+- The provenance graph **is acyclic** (DAG property holds)
+- Hash chain **integrity is intact** (no tampering detected)
+- All nodes **trace to root** observations
+- No orphaned provenance nodes exist
 
-EPISTEMIC NOTE:  Pass is relative to the declared scope, constraint set,
-                 and validation envelope. It does not constitute universal
-                 proof of acyclicity and tamper-evidence across all
-                 possible graph topologies and adversarial conditions.
-```
+________________________________________________________________________
 
-______________________________________________________________________
+## 6. What This Receipt Does NOT Certify
 
-## 6. Provenance
+| Limitation | AMOS Invariant |
+|-----------|----------------|
+| Does NOT certify sources are truthful | SOURCE_CLAIM ≠ VERIFIED |
+| Does NOT certify independence is genuine | M15: Multiple copies ≠ independent evidence |
+| Does NOT certify the claims derived are correct | Structural ≠ Semantic validity |
+| Does NOT certify the topology will remain valid | M19: Stale evidence requires revalidation |
+| Does NOT certify historical provenance accuracy | Tamper-evidence detects future tampering, not past accuracy |
 
-- **Source corpus:** AMOS OS vault, `01_CANON/01_CORE_LAWS`
-- **Governing law:** [[01_CANON/01_CORE_LAWS/PERSISTENT_PROVENANCE|PERSISTENT_PROVENANCE]]
-- **Related law:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- **Related matrix:** [[25_COGNITIVE_MATRIX/PROVENANCE_X_CONFIDENCE|PROVENANCE_X_CONFIDENCE]]
-- **Constraint set:** `CS-PT-001` (declared within this receipt)
-- **Origin architect:** Trang Phan
+A receipt documents an **executed validation**, not a universal proof.
 
-______________________________________________________________________
+________________________________________________________________________
 
-## 7. Canonical Status
+## 7. Integration
 
-```text
-RECEIPT != PROOF
-DECLARED PASS != EXECUTED PASS
-TEST_SPECIFIED != TEST_EXECUTED
-```
+- **Persistent provenance**: This receipt validates the structural requirements of [[01_CANON/01_CORE_LAWS/PERSISTENT_PROVENANCE|PERSISTENT_PROVENANCE]].
+- **Control-plane**: Provenance topology validation is a prerequisite for the commit gate.
+- **RSCF**: Every material RSCF node's provenance is checked as part of topology validation.
+- **Related receipts**: [[01_CANON/01_CORE_LAWS/RSCF_STRUCTURE_VALIDATION_RECEIPT|RSCF_STRUCTURE_VALIDATION_RECEIPT]], [[01_CANON/01_CORE_LAWS/SCOPE_REGIME_VALIDATION_RECEIPT|SCOPE_REGIME_VALIDATION_RECEIPT]]
 
-This receipt defines the validation contract. Execution evidence must be independently established and bound to a concrete validation envelope (artifact hash, epoch, environment) before the pass result may be promoted from `SOURCE_CLAIM` to `VERIFIED`.
-
-______________________________________________________________________
+________________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[01_CANON/01_CORE_LAWS/PERSISTENT_PROVENANCE|PERSISTENT_PROVENANCE]]
 
@@ -131,7 +106,7 @@ ______________________________________________________________________
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
-______________________________________________________________________
+________________________________________________________________________
 
 RSCF-NODE
 node_id: provenance_topology_validation_receipt
@@ -142,3 +117,4 @@ RSCF-RELATIONS:
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- VALIDATES: [[01_CANON/01_CORE_LAWS/PERSISTENT_PROVENANCE|PERSISTENT_PROVENANCE]]

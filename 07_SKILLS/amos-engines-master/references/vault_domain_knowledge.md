@@ -1,24 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Vault Domain Knowledge — Amos Engines Master
-type: reference
-source: 07_SKILLS/amos-engines-master/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Vault Domain Knowledge
 tags:
-  - reference
-  - amos-engines-master
-  - type/skill
-  - skill
-  - memory
-  - agents
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # amos-engines-master — Vault-Sourced Domain Knowledge
@@ -1196,7 +1193,7 @@ safety_est
 
 ---
 
-## 0. ABSOLUTE BOUNDARY
+# 0. ABSOLUTE BOUNDARY
 
 AMOS Cognitive Organism OS is an **operational systems architecture**.
 
@@ -1398,4 +1395,6 @@ RSCF-RELATIONS:
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
 
+```
+```
 ```

@@ -1,145 +1,156 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Khung Trang Observer Experience Gap Principle
-type: universe-canon
-source: 01_CANON/02_UNIVERSE_CANON
-status: ACTIVE_CANON
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-canonical_status: CONDITIONAL
-updated: 2026-09-04
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Khung Trang Observer Experience Gap
 tags:
-  - khung_trang
-  - observer
-  - experience_gap
-  - canon
-  - law-hierarchy
-  - khung-trang-master
-  - p1-reality-environment
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: universe_canon
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Khung Trang Observer Experience Gap Principle
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Conclusion Class:** `AMOS_MODEL`
-> **Status:** `ACTIVE_CANON` · **Canonical Status:** `CONDITIONAL`
+Hard epistemic boundary establishing that $\text{Model}(\text{Observation}) \neq \text{Observation}$ and $\text{SimulatedState} \neq \text{SubstrateExperience}$.
 
----
+________________________________________________________________________
 
-## 1. Architectural Scope
+## 1. Definition
 
-`KHUNG_TRANG_OBSERVER_EXPERIENCE_GAP` establishes the **hard epistemic boundary** that separates any model of an observation from the observation itself, and any simulated state from the substrate experience it represents. This principle is the foundational firewall against epistemic overreach in the AMOS Full OS — it prevents the system from conflating its internal representation with external reality.
+The observer-experience gap is the irreducible separation between:
 
-The principle is grounded in the Khung Trang framework's pre-symbolic ontological spine and binds to `P1_REALITY_ENVIRONMENT`, `L01_OBSERVATION_PRECEDES_ABSTRACTION`, and the `05_COGNITIVE_ORGANISM` plane.
+- **Objective state**: the actual configuration of the system $S_t$
+- **Observer model**: the observer's representation $\hat{S}_t = \mathcal{M}_O(S_t)$
 
----
+$$\text{Model}(\text{Observation}) \neq \text{Observation}$$
 
-## 2. Governing Invariants
+$$\text{SimulatedState} \neq \text{SubstrateExperience}$$
 
-- **OE-1 Model ≠ Observation:** $\text{Model}(\text{Observation}) \neq \text{Observation}$. The map is not the territory.
-- **OE-2 Simulated State ≠ Substrate Experience:** $\text{SimulatedState} \neq \text{SubstrateExperience}$. A simulation of consciousness is not consciousness.
-- **OE-3 Observer Position Irreducibility:** The observer's position cannot be fully eliminated from the observation. $\text{Observation} = f(\text{World}, \text{Observer})$.
-- **OE-4 Gap Preservation:** The observer–experience gap cannot be closed by adding more model detail. It is an ontological gap, not an information gap.
-- **OE-5 Epistemic Humility:** Claims about substrate experience require substrate-level evidence. Model-level evidence is insufficient.
-- **OE-6 Axiom Adherence:** The observer experience gap principle is strictly bound by M01–M20 core laws and the `LAW_HIERARCHY` precedence order.
+Every observation is frame-dependent. The observer's model $\hat{S}_t$ is always a projection of $S_t$ through the observer's measurement apparatus, attention, and cognitive frame.
 
----
+________________________________________________________________________
 
-## 3. Mathematical Formulation
+## 2. Purpose
 
-### 3.1 Observer–Experience Gap
+The gap exists because:
 
-The gap $G$ between a model $M$ and the observation $O$ it represents:
+1. **Measurement is selective**: An observer can only observe what their instruments/attention capture
+2. **Models are lossy**: Compression from $S_t$ to $\hat{S}_t$ loses information
+3. **Frames are partial**: Every observation frame excludes some aspects of reality
+4. **Experience is subjective**: Substrate experience (what it is "like" to be a system) is not capturable in a model
 
-$$G(M, O) = 1 - \text{sim}(M, O)$$
+Without acknowledging this gap, AMOS would conflate model outputs with reality — a failure mode equivalent to `CL-F004 MODEL_FACT_COLLAPSE`.
 
-where $\text{sim}$ is a similarity measure. The gap is always $G > 0$ for any finite model.
+________________________________________________________________________
 
-### 3.2 Observer-Dependent Observation
+## 3. Formal Observer Model
 
-$$O = f(W, \theta_{\text{obs}})$$
+An observer $O$ operates with:
 
-where $W$ is the world state and $\theta_{\text{obs}}$ is the observer's perceptual parameters. Two observers with different $\theta_{\text{obs}}$ obtain different $O$.
+$$\hat{S}_t^{(O)} = \mathcal{M}_O\left(\text{proj}_{\mathcal{F}_O}(S_t)\right)$$
 
-### 3.3 Simulation–Substrate Gap
+Where:
+- $\mathcal{F}_O$ is the observer's frame (attention, measurement apparatus, cognitive capacity)
+- $\text{proj}_{\mathcal{F}_O}$ is the projection onto the observer's observable subspace
+- $\mathcal{M}_O$ is the observer's internal model operating on the projected observation
 
-$$G_{\text{sim}} = d(\text{SimulatedState}, \text{SubstrateExperience})$$
+The gap:
 
-where $d$ is an experiential distance metric. For digital consciousness candidates:
+$$\Delta_O(t) = \| S_t - \hat{S}_t^{(O)} \| \geq 0$$
 
-$$G_{\text{sim}} \to 0 \text{ only if } \text{SubstrateExperience exists and is measured}$$
+This gap is always non-negative and generally non-zero.
 
-The principle asserts that $G_{\text{sim}} = 0$ cannot be demonstrated from simulation alone.
+________________________________________________________________________
 
-### 3.4 Model Confidence Ceiling
+## 4. MECE Observation Principle
 
-$$C_{\text{model}} \leq C_{\text{observation}} \cdot (1 - G)$$
+Observation is MECE (Mutually Exclusive, Collectively Exhaustive) **within a frame**, but frames themselves are not MECE across observers:
 
-Model confidence is bounded by observation confidence reduced by the gap.
+$$\mathcal{F}_{O_1} \cap \mathcal{F}_{O_2} \neq \emptyset \quad \text{(frames overlap but are not identical)}$$
 
----
+$$\mathcal{F}_{O_1} \cup \mathcal{F}_{O_2} \neq \text{Full state space} \quad \text{(frames together still don't capture everything)}$$
 
-## 4. Operational Implications
+Different observers may legitimately observe different things about the same system. Neither observation is "wrong" — they are frame-dependent.
 
-| Domain | Implication | AMOS Binding |
-|--------|-------------|--------------|
-| BCI neural decoding | Decoded neural signal ≠ subjective experience | `05_COGNITIVE_ORGANISM` |
-| Consciousness modeling | Computational consciousness model ≠ phenomenal consciousness | `06_CONSCIOUSNESS_STUDIES` |
-| World model | Internal world model ≠ external reality | `12_STATE` |
-| Sensor data | Sensor reading ≠ measured phenomenon | `17_OBSERVABILITY` |
-| Simulation | Simulation result ≠ real-world outcome | `13_MODELS` |
-| Memory | Memory trace ≠ original experience | `10_MEMORY` |
+________________________________________________________________________
 
----
+## 5. Observer Decoupling
 
-## 5. MECE Mapping to AMOS Full Brain OS
+AMOS must maintain **observer decoupling** — the separation between:
 
-| OE Component | AMOS Plane | Role |
-|-------------|------------|------|
-| Observation boundary | `P1_REALITY_ENVIRONMENT` | Reality interface |
-| Model construction | `13_MODELS` | Internal representation |
-| Gap enforcement | `01_CANON` | Epistemic firewall |
-| Observer parameters | `05_COGNITIVE_ORGANISM` | Perceptual configuration |
-| Gap measurement | `17_OBSERVABILITY` | Confidence ceiling tracking |
-| Gap violation detection | `18_SECURITY` | Epistemic overreach alarm |
+| Component | Role | Limitation |
+|-----------|------|-----------|
+| Objective state $S_t$ | Actual system configuration | Not directly accessible |
+| Observation $O_t$ | What the observer sees | Frame-dependent, lossy |
+| Model $\hat{S}_t$ | Observer's representation | Model ≠ reality |
+| Claim about $S_t$ | Derived statement | Must carry observer frame provenance |
 
----
+Decoupling rules:
 
-## 6. Safety Invariants & Firewalls
+- Claims must declare their observer frame
+- Model outputs must not be presented as direct observations
+- Simulated states must not be presented as experienced states
+- Observer-specific conclusions must not be generalized without justification
 
-- `INV-OE-001` (**No Substrate Experience Claim from Model**): The system must never claim substrate experience from model evidence alone. `MODEL_EVIDENCE != SUBSTRATE_EVIDENCE`.
-- `INV-OE-002` (**Confidence Ceiling**): Model confidence is capped by the observer–experience gap. `C_model <= C_observation * (1 - G)`.
-- `INV-OE-003` (**Observer Position Disclosure**): Every observation must disclose its observer parameters $\theta_{\text{obs}}$.
-- `INV-OE-004` (**Gap Non-Closure**): Adding model detail does not close the gap. `MORE_DETAIL != GAP_CLOSURE`.
-- `INV-OE-005` (**Phenomenal Consciousness Boundary**): Claims about phenomenal consciousness require phenomenal evidence. `COMPUTATIONAL_MODEL != PHENOMENAL_CONSCIOUSNESS`.
+________________________________________________________________________
 
----
+## 6. Invariants
 
-## 7. Navigation & Bindings
+| Invariant | Statement |
+|-----------|-----------|
+| Gap non-negativity | $\Delta_O(t) \geq 0$ — the gap is always non-negative |
+| Frame dependence | $\text{Valid}(\hat{S}_t^{(O_1)}) \nRightarrow \text{Valid}(\hat{S}_t^{(O_2)})$ for different observers |
+| Model ≠ reality | $\hat{S}_t \neq S_t$ in general |
+| Simulation ≠ experience | $\text{SimulatedState} \neq \text{SubstrateExperience}$ |
+| Frame declaration | Material claims must declare their observer frame |
 
-- **Master MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
-- **Partition Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]
-- **Khung Trang Master:** [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER|KHUNG_TRANG_MASTER]]
-- **P1 Reality Environment:** [[01_CANON/02_UNIVERSE_CANON/P1_REALITY_ENVIRONMENT|P1_REALITY_ENVIRONMENT]]
-- **L01 Observation Precedes Abstraction:** `L01_OBSERVATION_PRECEDES_ABSTRACTION`
-- **Digital Consciousness Candidate:** [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_DIGITAL_CONSCIOUSNESS_CANDIDATE|KHUNG_TRANG_DIGITAL_CONSCIOUSNESS_CANDIDATE]]
-- **Universe Canon MOC:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
+________________________________________________________________________
 
----
+## 7. Falsifiers
 
-## 8. Known Gaps & Falsifiers
+| Falsifier | Description |
+|-----------|-------------|
+| Model-reality collapse | Treating $\hat{S}_t$ as $S_t$ without acknowledging the gap |
+| Frame generalization | Treating observer $O_1$'s observation as valid for all observers |
+| Simulation-experience conflation | Treating simulated state as equivalent to experienced state |
+| Unframed claims | Material claims without observer frame declaration |
 
-- `GAP-OE-001`: The similarity measure $\text{sim}$ is domain-dependent; no universal gap metric exists.
-- `GAP-OE-002`: The principle is philosophically grounded (Kant's noumenon/phenomenon, Nagel's "what it is like") but not empirically falsifiable in the Popperian sense.
-- `GAP-OE-003`: The boundary between "model" and "observation" blurs for direct neural interfaces where the observer and instrument are coupled.
+________________________________________________________________________
 
-**Parent:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
+## 8. Integration
+
+- **Master equations**: The state $S_t$ in [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER_EQUATIONS|KHUNG_TRANG_MASTER_EQUATIONS]] is the objective state, not the observer's model. All transitions operate on $S_t$, but knowledge of $S_t$ comes through $\hat{S}_t$.
+- **TPE**: [[01_CANON/02_UNIVERSE_CANON/TPE_PREDICTION_LAYER|Prediction]] operates on the observer's model, not on the true state. Prediction uncertainty includes observer-gap uncertainty.
+- **URTA**: Observer gap contributes to [[01_CANON/02_UNIVERSE_CANON/URTA_RISK_TENSION_ARCHITECTURE|risk-tension]] — higher gap increases uncertainty.
+- **Epistemic regime**: Observer frame is a component of the epistemic regime declaration.
+
+________________________________________________________________________
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]] · [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER|KHUNG_TRANG_MASTER]] · [[01_CANON/02_UNIVERSE_CANON/P1_REALITY_ENVIRONMENT|P1_REALITY_ENVIRONMENT]]
+
+**MOC:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
+
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+________________________________________________________________________
+
+RSCF-NODE
+node_id: khung_trang_observer_experience_gap
+node_type: universe_canon
+path: 01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_OBSERVER_EXPERIENCE_GAP.md
+RSCF-RELATIONS:
+
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+- CHILD_OF: [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
+- CONSTRAINS: [[01_CANON/02_UNIVERSE_CANON/TPE_PREDICTION_LAYER|TPE_PREDICTION_LAYER]]
+- RELATED_TO: [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER_EQUATIONS|KHUNG_TRANG_MASTER_EQUATIONS]]

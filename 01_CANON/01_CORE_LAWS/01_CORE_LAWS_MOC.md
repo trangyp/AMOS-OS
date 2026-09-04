@@ -1,54 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: 01 Core Laws MOC
-type: moc
-source: 01_CANON/01_CORE_LAWS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 01 Core Laws Moc
 tags:
-  - 01-core-laws
-  - canon/universe
-  - amos-core-laws
-  - canon-law-crosswalk
-  - core-law-crosswalk
-  - law/L0-integrity
-  - law/L10-failure-recovery
-  - law/L11-knowledge-memory
-  - law/L15-fractal-knowledge
-  - law/L16-hml
-  - law/L17-rscf
-  - law/L18-gmef
-  - law/L19-proof-capsule
-  - law/L1-epistemic
-  - law/L20-adversarial
-  - law/L21-epistemic-regime
-  - law/L22-atomic-reasoning
-  - law/L23-mvcc-cas
-  - law/L24-causal-epoch
-  - law/L25-shard-local
-  - law/L26-proof-coordination
-  - law/L27-gap
-  - law/L28-critical-gap
-  - law/L29-decision-value
-  - law/L2-provenance
-  - law/L30-authority-boundary
-  - law/L31-amos-plane
-  - law/L33-kernel
-  - law/L3-dependency
-  - law/L4-causal
-  - law/L5-scope-regime
-  - law/L6-uncertainty
-  - law/L7-authority
-  - law/L8-execution
-  - law/L9-evolution
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-moc: true
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: core_laws
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 01 Core Laws — Map of Content

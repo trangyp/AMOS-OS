@@ -1,19 +1,21 @@
 ---
-title: CAUSAL INTERVENTION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-type: control-plane
-source: 03_CONTROL_PLANE/09_COMMIT/89_CAUSAL_INTERVENTION_MODES
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Causal Intervention Modes Commit Control Plane Mode Family Spec
 tags:
-  - control-plane
-  - 89_causal_intervention_modes
-  - canon/control-plane
-  - authz-engine-validation-receipt
-  - routing-policy-validation-receipt
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: DERIVED
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # CAUSAL INTERVENTION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

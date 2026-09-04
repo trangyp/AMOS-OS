@@ -25,6 +25,10 @@ tags:
   - reversible-computing
   - energy-policy
   - jevons-paradox
+rscf:
+  state: DERIVED
+  provenance: authoritative_AMOS_OS_structure
+  scope: 22_RESEARCH
 ---
 
 # Thermodynamic Limits of AI Computation: Landauer Dissipation, Non-Equilibrium Energy Scaling, and Reversible Computing in Sovereign AI Infrastructures

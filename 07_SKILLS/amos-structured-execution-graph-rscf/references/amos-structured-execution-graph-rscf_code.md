@@ -1,22 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: amos structured execution graph rscf code
-type: reference
-source: 07_SKILLS/amos-structured-execution-graph-rscf/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Structured Execution Graph Rscf Code
 tags:
-  - reference
-  - amos-structured-execution-graph-rscf
-  - type/skill
-  - skill
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Code Reference
@@ -43,7 +42,7 @@ from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Any, Optional
 
-## Configure structured logging
+# Configure structured logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
@@ -103,7 +102,7 @@ class AMOSBrainContinuousExecutor:
 
 > Path: `brain/A/amos_brain_manual_fix_execution.md` | Size: 9401 chars | Match score: 12
 
-## amos_brain_manual_fix_execution
+# amos_brain_manual_fix_execution
 
 ```
 

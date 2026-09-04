@@ -1,21 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Amos-C01-Meta-Logic-Master MOC
-type: moc
-source: 07_SKILLS/amos-c01-meta-logic-master
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos C01 Meta Logic Master Moc
 tags:
-  - amos-c01-meta-logic-master
-  - type/skill
-  - agent-template
-  - skill
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Amos-C01-Meta-Logic-Master — Map of Content
@@ -25,7 +25,7 @@ rscf:
 
 ## Files
 
-- [[07_SKILLS/amos-c01-meta-logic-master/references/detailed-references|detailed-references]]
+- [[07_SKILLS/amos-c01-meta-logic-master/references/detailed-references.md|detailed-references]]
 
 - AGENT_TEMPLATE
 - SKILL

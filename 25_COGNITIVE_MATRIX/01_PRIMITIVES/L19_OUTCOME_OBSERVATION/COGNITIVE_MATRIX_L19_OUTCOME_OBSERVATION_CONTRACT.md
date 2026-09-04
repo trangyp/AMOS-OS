@@ -1,58 +1,90 @@
 ---
-title: "Cognitive Matrix L19 Outcome Observation Contract — Cognitive Matrix Cell & Coordinate Specification"
-type: cognitive_matrix_specification
-source: 25_COGNITIVE_MATRIX
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-  scope: cognitive_matrix_routing
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Cognitive Matrix L19 Outcome Observation Contract
 tags:
-  - amos-os
-  - cognitive-matrix
-  - 19x19-matrix
-  - cognitive-matrix-l19-outcome-observation-contract
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Cognitive Matrix L19 Outcome Observation Contract — Cognitive Matrix Cell & Coordinate Specification
+# L19_OUTCOME_OBSERVATION — Outcome observation Contract
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Conclusion Class:** `AMOS_MODEL`
-> **Status:** `ACTIVE_SPECIFICATION`
+## 0. Status
+Cognitive Matrix-plane contract for **L19 OUTCOME OBSERVATION CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
----
+## 1. Scope
+Governs primitives L00–L29, lifecycle operations O00–O16, control planes C01–C09, scales, cell registry, routing, validation, generators as they bear on `L19 OUTCOME OBSERVATION CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
 
-## 1. Coordinate Architecture & Role
+## 2. Contract terms
+- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
+- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
+- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
+- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
+- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
 
-`COGNITIVE_MATRIX_L19_OUTCOME_OBSERVATION_CONTRACT` establishes a formal cognitive cell coordinate within the 19x19 AMOS Cognitive Matrix, enabling fractal task routing, tensor decomposition, and multi-agent coordination.
+## 3. Invariants
+- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
+- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
+- Consequential effects emit receipts; rollback basin exists before mutation.
+- Competing hypotheses remain visible when evidence does not discriminate.
 
-```text
-CELL != MONOLITH
-ROUTING != ARBITRARY_DISPATCH
-COORDINATE != ABSOLUTE_TRUTH
-```
+## 4. Executed reference
+No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
 
----
+## 5. Gaps
+Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
 
-## 2. Tensor Composition & Routing Invariants
+## 6. Falsifiers
+F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
+## Worked semantics
+Given an operation touching `COGNITIVE MATRIX · L19 OUTCOME OBSERVATION CONTRACT` within the Cognitive Matrix plane:
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-1. **Deterministic Coordinate Hashing:** Every task vector maps to a deterministic set of matrix cells.
-2. **Zero Coordinate Collision:** Shard-local matrix states maintain disjoint write namespaces.
-3. **Receipt Validation:** Handoffs across matrix cells require proof-of-grounding receipts.
+## Promotion-gate checklist
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
----
+## Cross-plane bindings
+- Governed by canon — [[01_CANON/01_CANON_README|01_CANON_README]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/02_KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/03_CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/17_OBSERVABILITY_README|17_OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/20_OPERATIONS_README|20_OPERATIONS_README]]
+RSCF-NODE
+node_id: cognitive_matrix_l19_outcome_observation_contract
+node_type: note
+path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L19_OUTCOME_OBSERVATION/COGNITIVE_MATRIX_L19_OUTCOME_OBSERVATION_CONTRACT.md
+RSCF-RELATIONS:
 
-## 3. Integration & Navigation
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- CHILD_OF: [[25_COGNITIVE_MATRIX/01_PRIMITIVES/COGNITIVE_MATRIX_PRIMITIVES_CONTRACT|COGNITIVE_MATRIX_PRIMITIVES_CONTRACT]]
+  claim_class: AMOS_MODEL
 
-- **Matrix MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
-- **137 Math Integration:** [[22_RESEARCH/01_MATHEMATICS/AMOS_137_MATH_REGISTRY|AMOS_137_MATH_REGISTRY]]
-- **Cognitive Organism:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
+______________________________________________________________________
+
+**MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L19_OUTCOME_OBSERVATION/L19_OUTCOME_OBSERVATION_MOC|L19_OUTCOME_OBSERVATION_MOC]]
+
+______________________________________________________________________
+
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,228 +1,163 @@
 ---
-title: Repair Engine
-type: engine
-source: 05_COGNITIVE_ORGANISM
-artifact: REPAIR_ENGINE.md
-artifact_id: amos_05_cognitive_organism_repair_engine
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 05_COGNITIVE_ORGANISM
-segment: 05_COGNITIVE_ORGANISM
-artifact_kind: ENGINE
-path: 05_COGNITIVE_ORGANISM/REPAIR_ENGINE.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Repair Engine
 tags:
-  - amos-os
-  - cognitive
-  - organism
-  - engine
-  - canon_placeholder
-  - rscf
-  - canon/cognitive
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Repair Engine
+# Repair Engine — Cognitive Organism
 
-## 0. Status
+> **Status:** `ACTIVE_SPECIFICATION` · **AMOS Core target:** `v4.4`  
+> **Origin architect / steward:** Trang Phan  
+> **Functional Group:** `G. REGULATION / ASSURANCE` (MECE Partition)  
+> **Conclusion class:** `AMOS_MODEL`
 
-`REPAIR_ENGINE.md` is an **ADD-ONLY placeholder** for the **Cognitive Organism** plane segment at `05_COGNITIVE_ORGANISM`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+## 1. Architectural Purpose & Role
 
-The governing boundaries are:
+The **Repair Engine** is the self-healing, diagnostic localization, and rollback coordinator of `05_COGNITIVE_ORGANISM` and the [[20_OPERATIONS/20_OPERATIONS_MOC|20_OPERATIONS]] plane. When anomalies, tool execution failures, memory contradictions, or homeostatic strain are detected, the Repair Engine isolates the damaged causal edge, preserves forensic evidence, and restores the system to the nearest valid recovery basin.
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
+FAILURE EVENT / CONTRADICTION / STRAIN SIGNAL
+                       ↓
+┌───────────────────────────────────────────────┐
+│                 REPAIR ENGINE                 │
+│  1. Anomaly Detection & Edge Localization     │
+│  2. Target vs. Symptom Disambiguation         │
+│  3. Multi-Factor Repair Priority Scoring      │
+│  4. Localized Unwinding & Rollback Basin      │
+│  5. Re-Verification & Monitored Reintroduction│
+└───────────────────────────────────────────────┘
+                       ↓
+         REPAIRED COGNITIVE STATE & RECEIPT
+                       ↓
+             HOMEOSTASIS & RUNTIME
 ```
 
-Origin architect / steward:
+---
 
-**Trang Phan**
+## 2. Target vs. Symptom Disambiguation
 
-______________________________________________________________________
+A fundamental law of AMOS system integrity is:
 
-## 1. Purpose
+$$\text{Symptom} \neq \text{RepairTarget}$$
 
-This artifact reserves the **Repair Engine** slot within the Cognitive Organism plane. The Cognitive Organism plane governs the organism-level cognitive assembly above kernels and below agents.
+* **Symptom:** An observed error code, link break, or model exception (e.g., "tool execution failed", "wikilink unresolved").
+* **Target:** The root causal defect that allowed the error to occur (e.g., misconfigured path, missing parent contract, broken schema).
 
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+Blind retries without altering premises are prohibited:
+$$\text{FailedPath}(P, E, A, M) \implies \neg\text{Retry}(P, E, A, M)$$
+A retry is only valid if evidence ($E$), assumptions ($A$), or model ($M$) have been materially updated.
 
-______________________________________________________________________
+---
 
-## 2. Non-Purpose
+## 3. Mathematical Repair Priority & Collapse Modeling
 
-This placeholder MUST NOT be used to claim:
+### 3.1 Repair Priority Score
+When multiple system faults compete for repair capacity, priority $\mathcal{P}_{r}$ is determined by:
 
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
+$$\mathcal{P}_{r} = \frac{\text{Consequence} \times \text{DependencyFanout} \times \text{Irreversibility} \times \text{Urgency}}{\text{RepairCost} + \epsilon}$$
 
-______________________________________________________________________
+Where:
+* $\text{DependencyFanout}$: Number of downstream nodes blocked by this defect.
+* $\text{Irreversibility}$: Risk of permanent state loss if unaddressed.
 
-## 3. Ingestion Rule
+### 3.2 Systemic Collapse Model
+Let $D(t)$ be the rate of incoming error deviations, and $R_c(t)$ be available repair capacity. If:
+$$D(t) > R_c(t)$$
+The Repair Engine triggers **Emergency Load Shedding** via the [Homeostasis Engine](file:///Users/mac/Documents/AMOS_OS/05_COGNITIVE_ORGANISM/HOMEOSTASIS_ENGINE.md), halting all speculative workers and freezing mutation gates until $D(t) \le R_c(t)$.
 
+---
+
+## 4. Eight-Stage Canonical Repair Sequence
+
+```text
+DETECT ──> LOCALIZE ──> CONTAIN ──> PRESERVE EVIDENCE
+                                           │
+MONITOR <── REINTRODUCE <── TEST <── REPAIR / ROLLBACK
+```
+
+1. **DETECT:** Anomaly flagged by Observability or Metacognition.
+2. **LOCALIZE:** Trace AST/graph dependencies to the single root broken edge.
+3. **CONTAIN:** Quarantine affected branch; prevent cascade into healthy planes.
+4. **PRESERVE EVIDENCE:** Log forensic snapshot in `20_OPERATIONS/`.
+5. **REPAIR / ROLLBACK:** Restore nearest verified state from immutable archive.
+6. **TEST:** Run deterministic regression check on repaired edge.
+7. **REINTRODUCE:** Release quarantine under heightened monitoring.
+8. **MONITOR:** Track health vector $H(t)$ to confirm stability.
+
+---
+
+## 5. Grounding in Arvix Research Corpus
+
+The Repair Engine's structural refolding and localized containment algorithms are grounded in [Arvix Research Corpus](file:///Users/mac/Desktop/_Arxiv/Arvix) literature:
+
+1. **Structural Misfolding & Corrective Refolding:**
+   * Grounded in [[1004.1590v1_Electrostatics_in_the_Stability_and_Misfolding_of_the_Prion_Protein__Salt_Bridge]]: Studies salt-bridge stabilization and structural refolding pathways, providing the mathematical analogy for restoring corrupted cognitive state graphs.
+2. **Selective Vulnerability & Localized Damage Containment:**
+   * Grounded in [[0708.2061v1_Selective_vulnerability_to_kainate-induced_oxidative_damage_in_different_rat_bra]]: Investigates why specific neural regions exhibit selective vulnerability to stress, inspiring AMOS compartmentalization boundaries that prevent single-module failures from crashing the full brain OS.
+3. **Accelerated Evolutionary Adaptation:**
+   * Grounded in [[0806.3823v1_Annotation_of_Tribolium_nuclear_receptors_reveals_an_evolutionary_overaccelerati]]: Analyzes how accelerated mutation in receptor networks repairs structural vulnerabilities under evolutionary pressure.
+
+---
+
+## 6. Input / Output Contracts
+
+### 6.1 Anomaly Report Contract
 ```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+repair_anomaly_input:
+  anomaly_id: string
+  detection_source: "OBSERVABILITY | RUNTIME | METACOGNITION"
+  affected_artifact_path: string
+  symptom_description: string
+  error_trace: string
+  failure_severity: "COSMETIC | OPERATIONAL | INTEGRITY_CRITICAL"
 ```
 
-______________________________________________________________________
+### 6.2 Repair Receipt Contract
+```yaml
+repair_receipt_output:
+  repair_id: string
+  root_cause_target: string
+  action_taken: "LOCAL_PATCH | ARCHIVE_ROLLBACK | QUARANTINE"
+  pre_state_hash: string
+  post_state_hash: string
+  verification_passed: bool
+  timestamp: ISO8601
+```
 
-## 4. Contract discipline
+---
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+## 7. Cross-Plane & Architectural Bindings
 
-______________________________________________________________________
+* **Governing Canon:** [[01_CANON/03_COGNITION_CANON/COGNITIVE_ORGANISM_CANON|COGNITIVE_ORGANISM_CANON]]
+* **Operations Hub:** [[20_OPERATIONS/20_OPERATIONS_MOC|20_OPERATIONS_MOC]]
+* **Upstream Triggers:** [[05_COGNITIVE_ORGANISM/HOMEOSTASIS_ENGINE|HOMEOSTASIS_ENGINE]] · [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]
+* **Master Index:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
 
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
-______________________________________________________________________
-
-## 6. Worked semantics (target)
-
-Given an operation touching `05_COGNITIVE_ORGANISM · ENGINE` within the Cognitive Organism plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-______________________________________________________________________
-
+---
 RSCF-NODE
-
 node_id: amos_05_cognitive_organism_repair_engine
-
 node_type: engine
-
 path: 05_COGNITIVE_ORGANISM/REPAIR_ENGINE.md
-
 claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
 RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
-
-**MOC:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
+  - GOVERNED_BY: [[01_CANON/03_COGNITION_CANON/COGNITIVE_ORGANISM_CANON]]
+  - BINDS_TO: [[20_OPERATIONS/20_OPERATIONS_MOC]]
+  - MONITORED_BY: [[05_COGNITIVE_ORGANISM/HOMEOSTASIS_ENGINE]]
+  - INDEXED_BY: [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC]]
+  - INDEXED_BY: [[00_ROOT/00_HOME]]

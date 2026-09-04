@@ -1,95 +1,104 @@
 ---
-title: "INV-AUTHZ-029 — Snapshot Isolation Consistency"
-type: authority_invariant
-source: 03_CONTROL_PLANE/04_AUTHORITY
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_INVARIANT
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT
-    - 01_CANON/01_CORE_LAWS/LAW_HIERARCHY
-  scope: authority_governance
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Inv Authz 029
 tags:
-  - amos-os
-  - authority
-  - invariant
-  - control-plane
-  - inv-authz-029
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# INV-AUTHZ-029 — Snapshot Isolation Consistency
+# INV-AUTHZ-029
 
-## 1. Formal Specification
+## 0. Status
 
-> **Invariant Statement:**
-> `Transactions read exclusively from immutable committed snapshots at epoch E_read.`
+Control Plane-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
 
-## 2. Invariant Rule & Mathematical Formulation
+## 1. Purpose
 
-Let $T$ be a transaction with read epoch $E_{\text{read}}(T)$, and $\text{Snapshot}(E_k)$ the immutable committed state at epoch $E_k$:
+`INV-AUTHZ-029` defines typed artifact specification, serving the Control Plane plane's obligation: governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback.
 
-$$\forall T \in \mathcal{T}, \forall r \in \text{Reads}(T), \quad \text{Source}(r) = \text{Snapshot}(E_{\text{read}}(T))$$
+## 2. Semantics
 
-The snapshot is immutable — no concurrent writes may modify it:
+- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
+- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
+- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
 
-$$\text{Immutable}(\text{Snapshot}(E_k)) \implies \forall w, \quad \text{Write}(w, \text{Snapshot}(E_k)) = \text{False}$$
+## 3. Failure modes guarded
 
-The read epoch is fixed at transaction start:
+STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
 
-$$E_{\text{read}}(T) = E_{\text{start}}(T) \quad \text{(fixed for transaction lifetime)}$$
+## 4. Validation
 
-Transactions do not observe uncommitted changes:
+No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
 
-$$\forall T, \forall w \in \text{Writes}(\text{concurrent}(T)), \quad \text{Visible}(w, T) = \text{False} \text{ if } \text{Commit}(w) > E_{\text{read}}(T)$$
+## 5. Gaps
 
-## 3. Enforcement & Verification
+Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
 
-- **Evaluation Point:** Evaluated at the transaction read gate. Every read operation is directed to the immutable snapshot at the transaction's read epoch.
-- **Violation Consequence:** If a read operation attempts to access uncommitted or post-epoch state, the read is redirected to the correct snapshot. A `SNAPSHOT_ISOLATION_VIOLATION` receipt is emitted to `17_OBSERVABILITY`.
-- **Recovery Procedure:** The transaction continues with reads from the correct snapshot. If the snapshot is no longer available (garbage collected), the transaction is aborted and must be retried with a newer read epoch.
-- **Verification Cadence:** Synchronous at every read operation. A periodic audit verifies that all active transactions are reading from their designated snapshots.
-- **Governed By:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+## 6. Falsifiers
 
-## 4. Attack Vectors & Mitigations
+F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
 
-- **Snapshot Bypass:** An agent reads from the live state instead of the committed snapshot to observe uncommitted changes. Mitigated by the read gate that directs all reads to the immutable snapshot.
-- **Snapshot Manipulation:** An attacker modifies a committed snapshot to alter the transaction's view. Mitigated by the immutability of committed snapshots and by [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-044|INV-AUTHZ-044]] Merkle tree verification.
-- **Epoch Advancement Race:** A transaction's read epoch becomes stale as the system advances. Mitigated by the read epoch being fixed at transaction start, ensuring consistent reads throughout the transaction.
-- **Snapshot Garbage Collection Race:** A snapshot is garbage collected while a transaction is still reading from it. Mitigated by the garbage collection protocol that checks for active transactions before removing snapshots.
+## Worked semantics
 
-## 5. Dependencies & Prerequisites
+Given an operation touching `INV-AUTHZ-029` within the Control Plane plane:
 
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-028|INV-AUTHZ-028]] — Single writer per shard ensures writes are serialized, supporting snapshot creation.
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-044|INV-AUTHZ-044]] — Merkle tree proof verification enables snapshot integrity verification.
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-002|INV-AUTHZ-002]] — Epoch expiration defines snapshot boundaries.
-- **Requires:** A snapshot management system with immutable snapshot creation and retention.
-- **Requires:** A garbage collection protocol that respects active transactions.
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-## 6. Provenance & Audit Trail
+## Promotion-gate checklist
 
-- **Receipt Type:** `SNAPSHOT_READ_RECEIPT` — emitted for every transaction read, recording the read epoch, snapshot hash, and read path.
-- **Storage Location:** `17_OBSERVABILITY` with transaction-ID-indexed and epoch-indexed partitions.
-- **Receipt Fields:** Transaction ID, read epoch, snapshot hash, read path, read result hash, BLAKE3 hash.
-- **Immutability:** Snapshot read receipts are append-only per [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-014|INV-AUTHZ-014]].
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-## 7. Related Invariants
+## Cross-plane bindings
 
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-002|INV-AUTHZ-002]] — Capability Token Epoch Expiration
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-007|INV-AUTHZ-007]] — Atomic State Transition Barrier
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-015|INV-AUTHZ-015]] — Coordination Avoidance Verification
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-028|INV-AUTHZ-028]] — Single Writer per Shard
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-043|INV-AUTHZ-043]] — Non-Interference in Shard Reads
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-## 8. Navigation & Bindings
+______________________________________________________________________
 
-- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
-- **Control Plane Contract:** [[03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT|CONTROL_PLANE_CONTRACT]]
-- **Canon Law Hierarchy:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- **Kernel:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
-- **Observability:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+
+______________________________________________________________________
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: cp_03_control_plane_04_authority_inv_authz_029_md
+node_type: note
+path: 03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-029.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04_AUTHORITY_MOC]]
+
+______________________________________________________________________
+
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,71 +1,16 @@
 ---
-title: K MULTI HYPOTHESIS
-type: hypothesis
-source: 02_KERNEL/02_COGNITION
-artifact_id: AMOS-OS-K-MULTI-HYPOTHESIS
-canonical_name: K_MULTI_HYPOTHESIS
-artifact_type: kernel_multi_hypothesis_contract
-status: AMOS_MODEL
-conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: KERNEL
-kernel_family: REASONING
-domain: multi-hypothesis-reasoning
-scope: AMOS_OS
-created: 2026-08-25
-updated: 2026-08-25
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: K Multi Hypothesis
 tags:
-  - amos-os
-  - kernel
-  - core
   - canon-group/tech-ai
-  - canon/model
-  - kernel/reasoning
-  - kernel/multi-hypothesis
-  - kernel/competing-hypotheses
-  - kernel/epistemic
-  - kernel/provenance
-  - kernel/evidence-topology
-  - kernel/dependency
-  - kernel/causal
-  - kernel/counterfactual
-  - kernel/metacognition
-  - kernel/scope
-  - kernel/regime
-  - kernel/freshness
-  - kernel/sensitivity
-  - kernel/validation
-  - kernel/rscf
   - rscf/claim
   - rscf/provenance
-  - rscf/state/model
-  - topic/multi-hypothesis
-  - topic/competing-hypotheses
-  - topic/discriminating-evidence
-  - readme
-  - architecture
-  - placement-rules
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - source-lineage
-  - supersession-log
-  - k-core19-logic
-  - k-distinction-relation-constraint
-  - k-law-hierarchy
-  - k-meta-logic
-  - k-counterfactual
-  - k-metacognition
-  - authoritative-state
-aliases:
-  - AMOS Multi Hypothesis Kernel - Multi Hypothesis Kernel - K Multi Hypothesis - K_MULTI_HYPOTH
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # K_MULTI_HYPOTHESIS
@@ -2779,7 +2724,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

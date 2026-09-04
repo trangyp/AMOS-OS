@@ -1,23 +1,27 @@
 ---
-title: AMOS Domain Architecture Index
-type: domain_architecture_index
-source: 21_DOMAINS
-amos_core_target: v4.4
-origin_architect: Trang Phan
-status: ACTIVE_INDEX
-conclusion_class: DERIVED
-updated: 2026-09-03
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: active__AMOS_OS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Domain Architecture Index
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Domain Architecture Index
 
 This index is the semantic owner map for the twelve Full-Brain C-domains.
-Knowledge stays in `11_KNOWLEDGE`; execution stays in `08_WORKFLOWS`; specialist capabilities stay in
+Knowledge stays in `11_KNOWLEDGE`; execution stays in `26_WORKFLOWS`; specialist capabilities stay in
 Skills/Models. Each contract below owns identity, routing, MECE H-level ownership and composition
 boundaries.
 

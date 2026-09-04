@@ -1,62 +1,21 @@
 ---
-title: Omega FX Structural OS Specification
-type: domain
-source: 21_DOMAINS/09_FINANCE
-artifact: OMEGA_FX_STRUCTURAL_OS.md
-artifact_id: amos_21_domains_09_finance_omega_fx_structural_os
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 21_DOMAINS
-segment: 21_DOMAINS/09_FINANCE
-artifact_kind: DOMAIN_OS
-path: 21_DOMAINS/09_FINANCE/OMEGA_FX_STRUCTURAL_OS.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Omega Fx Structural Os
 tags:
-  - amos-os
-  - domain
-  - vault
-  - 09_finance
-  - omega_fx_structural_os
-  - currency_architecture
-  - fx_execution_platform
-  - rscf
-  - canon_candidate
-  - canon/domain
-  - trang-zero-forex
-  - macro-economy-kernel
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - 21_DOMAINS/09_FINANCE/TRANG_ZERO_FOREX
-    - 21_DOMAINS/09_FINANCE/09_FINANCE_MOC
-    - AMOS_CORPUS
-  scope:
-    - DOMAIN_FINANCE
-    - FX_OS
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  forex_engine:
-    artifact:
-      -   - TRANG_ZERO_FOREX
-  finance_moc:
-    artifact:
-      -   - 09_FINANCE_MOC
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  domain_structure: VERIFIED_SOURCE_STRUCTURE
-  os_platform: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Omega FX Structural OS Specification

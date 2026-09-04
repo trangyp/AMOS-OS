@@ -1,25 +1,16 @@
 ---
-type: invariant
-source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: L02 Attention Primitives Cognitive Matrix Invariants
 tags:
-  - amos
-  - cognitive-matrix
-  - matrix/l02
-  - attention
-  - invariants
-  - rscf
-  - governance
-  - domain/cognitive-matrix
-title: L02_ATTENTION — Invariants
-origin_architect: Trang Phan
-status: MODEL_SPECIFICATION / SOURCE-BOUNDED / UNVALIDATED
-epistemic_class: MODEL
-runtime_alignment: AMOS Full Brain OS / AMOS_CORE v4.4 lineage
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # L02_ATTENTION — Invariants
@@ -2025,7 +2016,7 @@ AUTHORITY TO COMMIT
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

@@ -4,6 +4,7 @@ type: architectural_specification
 source: 00_ROOT
 aliases:
   - _MOC
+  - MOC
   -  Moc
 amos_core_target: v4.4
 artifact_id: AMOS-_MOC

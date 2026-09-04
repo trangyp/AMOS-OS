@@ -1,42 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: DMER_L5 — Deterministic Multi-Epoch Recovery (Level 5)
-type: law
-source: 01_CANON/01_CORE_LAWS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Dmer L5
 tags:
-  - canon
-  - core_law
-  - dmer
-  - recovery
-  - distinction
-  - mutation
-  - entropy
-  - repair
-  - dual_loop
-  - multi_epoch
-  - cascading_fault
-  - state_rewind
-  - rollback
-  - collapse_recovery
-  - viability
-  - adaptive_optionality
-  - silent_decay
-  - repair_capacity
-  - canon/universe
-  - law-hierarchy
-  - k-failure-recovery
-  - trang-framework-recursive-ontology-dynamics
-  - amos-dmer-dual-loop-architecture
-  - four-process-architecture-dmer
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: core_laws
-  node_id: dmer_l5
-  node_type: core_law
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # DMER_L5 — Deterministic Multi-Epoch Recovery (Level 5)

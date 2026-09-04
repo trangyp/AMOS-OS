@@ -1,95 +1,104 @@
 ---
-title: INV-AUTHZ-016 — Strict Role Separation
-type: authority_invariant
-source: 03_CONTROL_PLANE/04_AUTHORITY
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_INVARIANT
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT
-    - 01_CANON/01_CORE_LAWS/LAW_HIERARCHY
-  scope: authority_governance
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Inv Authz 016
 tags:
-  - amos-os
-  - authority
-  - invariant
-  - control-plane
-  - inv-authz-016
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# INV-AUTHZ-016 — Strict Role Separation
+# INV-AUTHZ-016
 
-## 1. Formal Specification
+## 0. Status
 
-> **Invariant Statement:**
-> `An agent assigned as an Auditor cannot execute worker tasks within the same transaction.`
+Control Plane-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
 
-## 2. Invariant Rule & Mathematical Formulation
+## 1. Purpose
 
-Let $\text{Role}(a, T)$ be the role of agent $a$ in transaction $T$, and $\mathcal{R}_{\text{audit}}, \mathcal{R}_{\text{worker}}$ the audit and worker role sets:
+`INV-AUTHZ-016` defines typed artifact specification, serving the Control Plane plane's obligation: governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback.
 
-$$\forall a \in \mathcal{A}, \forall T \in \mathcal{T}, \quad \text{Role}(a, T) = \text{AUDITOR} \implies \text{Role}(a, T) \neq \text{WORKER}$$
+## 2. Semantics
 
-The role separation is enforced per transaction, not just per epoch:
+- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
+- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
+- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
 
-$$\forall T, \quad \text{Roles}(T) \cap \mathcal{R}_{\text{audit}} \cap \mathcal{R}_{\text{worker}} = \emptyset$$
+## 3. Failure modes guarded
 
-The mutual exclusion constraint on agent-role assignments:
+STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
 
-$$\forall a, \forall T, \quad |\text{Roles}(a, T) \cap (\mathcal{R}_{\text{audit}} \cup \mathcal{R}_{\text{worker}})| \le 1$$
+## 4. Validation
 
-An agent may switch roles across transactions but never hold both simultaneously:
+No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
 
-$$\text{Role}(a, T_1) = \text{AUDITOR} \land \text{Role}(a, T_2) = \text{WORKER} \implies T_1 \neq T_2$$
+## 5. Gaps
 
-## 3. Enforcement & Verification
+Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
 
-- **Evaluation Point:** Evaluated at the Control Plane gate when an agent is assigned a role within a transaction. The gate checks that the agent does not already hold a conflicting role in the same transaction.
-- **Violation Consequence:** If an agent attempts to hold both auditor and worker roles in the same transaction, the role assignment is refused. A `ROLE_SEPARATION_VIOLATION` receipt is emitted to `17_OBSERVABILITY`.
-- **Recovery Procedure:** The transaction must be restructured with separate agents for audit and worker roles. Alternatively, the agent may be reassigned to a single role for the transaction.
-- **Verification Cadence:** Synchronous at every role assignment. A periodic audit verifies that no transaction has agents holding conflicting roles.
-- **Governed By:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+## 6. Falsifiers
 
-## 4. Attack Vectors & Mitigations
+F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
 
-- **Dual-Role Exploitation:** An agent assigned as auditor also executes worker tasks, allowing it to audit its own work and suppress findings. Mitigated by the strict role separation check that prevents dual-role assignment within a transaction.
-- **Role Switching Mid-Transaction:** An agent switches from auditor to worker (or vice versa) during a transaction to exploit both roles. Mitigated by the per-transaction role binding that prevents mid-transaction role changes.
-- **Shadow Role Assumption:** An agent informally assumes a second role without formal assignment. Mitigated by the Control Plane only recognizing formally assigned roles for authorization decisions.
-- **Collusion via Role Sharing:** Two agents share role information to coordinate audit evasion. Mitigated by [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-042|INV-AUTHZ-042]] identity continuity and by audit trail review.
+## Worked semantics
 
-## 5. Dependencies & Prerequisites
+Given an operation touching `INV-AUTHZ-016` within the Control Plane plane:
 
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-003|INV-AUTHZ-003]] — Least privilege scope bounding ensures agents are only assigned roles within their task scope.
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-005|INV-AUTHZ-005]] — No self-escalation prevents agents from self-assigning conflicting roles.
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-042|INV-AUTHZ-042]] — Strict identity continuity prevents role impersonation.
-- **Requires:** A role assignment registry with per-transaction role tracking.
-- **Requires:** A mutual exclusion enforcement mechanism for conflicting roles.
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-## 6. Provenance & Audit Trail
+## Promotion-gate checklist
 
-- **Receipt Type:** `ROLE_ASSIGNMENT_RECEIPT` — emitted for every role assignment within a transaction, recording the agent, role, transaction ID, and separation check result.
-- **Storage Location:** `17_OBSERVABILITY` with transaction-ID-indexed and agent-indexed partitions.
-- **Receipt Fields:** Agent identity, assigned role, transaction ID, separation check result, assigning authority, epoch, BLAKE3 hash.
-- **Immutability:** Role assignment receipts are append-only per [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-014|INV-AUTHZ-014]].
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-## 7. Related Invariants
+## Cross-plane bindings
 
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-003|INV-AUTHZ-003]] — Least Privilege Scope Bounding
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-005|INV-AUTHZ-005]] — No Self-Escalation
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-006|INV-AUTHZ-006]] — Multi-Party Authorization for Canon
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-042|INV-AUTHZ-042]] — Strict Identity Continuity
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-050|INV-AUTHZ-050]] — Master Stewardship Immutable Binding
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-## 8. Navigation & Bindings
+______________________________________________________________________
 
-- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
-- **Control Plane Contract:** [[03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT|CONTROL_PLANE_CONTRACT]]
-- **Canon Law Hierarchy:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- **Kernel:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
-- **Observability:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+
+______________________________________________________________________
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: cp_03_control_plane_04_authority_inv_authz_016_md
+node_type: note
+path: 03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-016.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04_AUTHORITY_MOC]]
+
+______________________________________________________________________
+
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

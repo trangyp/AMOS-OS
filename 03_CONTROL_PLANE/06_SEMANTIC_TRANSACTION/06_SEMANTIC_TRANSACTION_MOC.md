@@ -1,25 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: 06 Semantic Transaction MOC
-type: moc
-source: 03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 06 Semantic Transaction Moc
 tags:
-  - 06-semantic-transaction
-  - canon/control-plane
-  - canon-semantic-transaction
-  - cross-framework-transaction
-  - lineage-graph
-  - multi-rscf-transaction
-  - parameter-provenance
-  - semantic-transaction
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 06 Semantic Transaction — Map of Content
@@ -40,7 +36,7 @@ rscf:
 
 ## Subdirectories
 
-- [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
+- [[03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION/00_INDEX/SEMANTIC_TRANSACTION_MAP|SEMANTIC_TRANSACTION_MAP]] — 00_INDEX
 
 ______________________________________________________________________
 

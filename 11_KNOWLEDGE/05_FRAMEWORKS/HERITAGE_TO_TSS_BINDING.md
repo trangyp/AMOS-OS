@@ -1,75 +1,21 @@
 ---
-title: Heritage-to-TSS Binding
-type: heritage
-source: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact: HERITAGE_TO_TSS_BINDING.md
-artifact_id: amos_11_knowledge_05_frameworks_heritage_to_tss_binding
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 11_KNOWLEDGE
-segment: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact_kind: BINDING
-path: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_TO_TSS_BINDING.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Heritage To Tss Binding
 tags:
-  - amos-os
-  - knowledge
-  - vault
-  - 05_frameworks
-  - heritage_tss_binding
-  - tss
-  - heritage
-  - decision_governance
-  - lifecycle_coupling
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-  - heritage-intelligence-master
-  - tss-the-trang-system
-  - heritage-x-tss
-  - heritage-x-tss-matrix
-  - tpe-trang-prediction-engine
-  - tss-seven-cycles
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - HERITAGE_INTELLIGENCE_CANON
-    - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
-    - AMOS_CORPUS
-  scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - FRAMEWORK_BINDINGS
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  source_framework:
-    name: Heritage Decision Intelligence™
-    artifact:
-      -   - HERITAGE_INTELLIGENCE_MASTER
-  target_framework:
-    name: The Trang System™
-    artifact:
-      -   - TSS_THE_TRANG_SYSTEM
-  cognitive_matrix_binding:
-    artifact:
-      -   - HERITAGE_X_TSS
-    matrix:
-      -   - HERITAGE_X_TSS_MATRIX
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  binding_structure: VERIFIED_SOURCE_STRUCTURE
-  decision_rules: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Heritage-to-TSS Binding

@@ -1,27 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS FOREX PACKAGES UKR RECURSIVE KERNEL
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Forex Packages Ukr Recursive Kernel
 tags:
-  - kernel
-  - core
-  - runtime
-  - canon/knowledge
-  - memory
-  - system-scan-agent
-  - automation-profiles
-  - amos-simulation-kernel-v0-math-foundations
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
-  - rscf/state/observation
-type: document
-source: 11_KNOWLEDGE/kernel
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS FOREX PACKAGES UKR RECURSIVE KERNEL
@@ -216,77 +210,77 @@ The function mutates ``state`` by appending ``UKRStageResult`` entries.  At the
 end it builds and returns a ``CanonPermission`` that aggregates the outcomes
 of the ULK meta‑law validators.
 """
-## ---------------------------------------------------------------
-## 1. Boundary – stabilise the admission boundary for this signal
-## ---------------------------------------------------------------
+# ---------------------------------------------------------------
+# 1. Boundary – stabilise the admission boundary for this signal
+# ---------------------------------------------------------------
 _dummy_stage(state, "BOUNDARY")
-## 2. Difference – compute delta between current and prior signal state
+# 2. Difference – compute delta between current and prior signal state
 _dummy_stage(state, "DIFFERENCE")
-## 3. Filter – apply distinction filter to remove noise/irrelevant features
+# 3. Filter – apply distinction filter to remove noise/irrelevant features
 _dummy_stage(state, "FILTER")
-## 4. Memory – bind recursive memory trace for continuity preservation
+# 4. Memory – bind recursive memory trace for continuity preservation
 _dummy_stage(state, "MEMORY")
-## 5. Valuation – assess load vs capacity (set load/capacity)
+# 5. Valuation – assess load vs capacity (set load/capacity)
 state.load = Decimal(state.load or "0")
 state.capacity = Decimal(state.capacity or "1")
 _dummy_stage(state, "VALUATION")
-## 6. Phase – determine ontological phase transition state
+# 6. Phase – determine ontological phase transition state
 _dummy_stage(state, "PHASE")
-## 7. Threshold – check observability threshold (persistence × interaction × memory > dissolution)
+# 7. Threshold – check observability threshold (persistence × interaction × memory > dissolution)
 _dummy_stage(state, "THRESHOLD")
-## 8. Action – generate candidate action from surviving distinctions
+# 8. Action – generate candidate action from surviving distinctions
 _dummy_stage(state, "ACTION")
-## 9. Feedback – measure feedback integrity (set feedback_integrity)
+# 9. Feedback – measure feedback integrity (set feedback_integrity)
 state.feedback_integrity = Decimal("0.9")
 _dummy_stage(state, "FEEDBACK")
-## 10. Correction – apply recursive error-correction to candidate
+# 10. Correction – apply recursive error-correction to candidate
 _dummy_stage(state, "CORRECTION")
-## 11. Repair – repair boundary and memory damage from correction
+# 11. Repair – repair boundary and memory damage from correction
 _dummy_stage(state, "REPAIR")
-## 12. Mutation – apply bounded variation to corrected candidate
+# 12. Mutation – apply bounded variation to corrected candidate
 _dummy_stage(state, "MUTATION")
-## 13. Inheritance – inherit stable patterns from parent generation
+# 13. Inheritance – inherit stable patterns from parent generation
 _dummy_stage(state, "INHERITANCE")
-## 14. HML_CHECK – verify High/Medium/Low alignment (set alignment)
+# 14. HML_CHECK – verify High/Medium/Low alignment (set alignment)
 state.hml_alignment = Decimal("0.8")
 _dummy_stage(state, "HML_CHECK")
-## 15. ENTROPY_TEST – test entropy gradient against meta-entropy threshold (set entropy)
+# 15. ENTROPY_TEST – test entropy gradient against meta-entropy threshold (set entropy)
 state.entropy = Decimal("0.2")
 _dummy_stage(state, "ENTROPY_TEST")
-## 16. SURVIVAL – compute survival score from persistence × interaction × memory (set survival_score)
+# 16. SURVIVAL – compute survival score from persistence × interaction × memory (set survival_score)
 state.survival_score = Decimal("0.7")
 _dummy_stage(state, "SURVIVAL")
-## 17. EVOLUTION – commit surviving candidate to next generation
+# 17. EVOLUTION – commit surviving candidate to next generation
 _dummy_stage(state, "EVOLUTION")
 
-## -------------------------------------------------------------------
-## Meta‑law validation
-## -------------------------------------------------------------------
-## Consistency – no contradictions in this mock, pass empty list.
+# -------------------------------------------------------------------
+# Meta‑law validation
+# -------------------------------------------------------------------
+# Consistency – no contradictions in this mock, pass empty list.
 law_of_law = consistency_passed([])
-## Duality – we mock a simple pair list.
+# Duality – we mock a simple pair list.
 rule_of_two = duality_passed([("bull", "bear")])
-## Quadrant – use dummy scores.
+# Quadrant – use dummy scores.
 rule_of_four = quadrant_passed(
     q1=Decimal("0.9"), q2=Decimal("0.85"), q3=Decimal("0.8"), q4=Decimal("0.88"), threshold=Decimal("0.75")
 )
-## Continuity – ensure stage order.
+# Continuity – ensure stage order.
 continuity = continuity_passed(state.passed_stages, STAGE_ORDER)
-## Identity – mock hash comparison (same hash).
+# Identity – mock hash comparison (same hash).
 identity = identity_stable("hash123", "hash123")
-## Load‑Capacity – compare values set above.
+# Load‑Capacity – compare values set above.
 load_capacity = load_capacity_passed(state.load, state.capacity)
-## Feedback – check threshold.
+# Feedback – check threshold.
 feedback = feedback_integrity_passed(state.feedback_integrity, Decimal("0.5"))
 
-## Additional aggregate metrics (computed from UKR stage outputs).
+# Additional aggregate metrics (computed from UKR stage outputs).
 tat2_passed = True
 hml_alignment = state.hml_alignment
 entropy_score = state.entropy
 survival_score = state.survival_score
 permission_score = Decimal("0.85")
 
-## Assemble final permission object.
+# Assemble final permission object.
 permission = CanonPermission(
     signal_id=state.signal_id if hasattr(state, "signal_id") else "ukr_forex_signal",
     law_of_law=law_of_law,

@@ -1,21 +1,16 @@
 ---
-title: COMMIT CONTROL PLANE VALIDATION
-type: control-plane
-source: 03_CONTROL_PLANE/09_COMMIT/02_DEEP_ANALYSIS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Commit Control Plane Validation
 tags:
-  - control-plane
-  - commit
-  - deep_analysis
-  - note
-  - canon/control-plane
-  - integration
-  - validation
-  - memory
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # K COUNTERFACTUAL

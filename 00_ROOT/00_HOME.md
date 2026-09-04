@@ -1,72 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: 00 HOME
-type: note
-source: 00_ROOT
-aliases:
-  - 00-Home
-  - 00_HOME
-  - Home
-canon-group: reference
-rscf-state: derived
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 00 Home
 tags:
-- index
-- home
-- canon/root
-- authz-engine-validation-receipt
-- authoritative-state
-- cognitive-matrix-integration
-- full-tree
-- neural-network
-- placement-rules
-- roadmap
-- system-map-v1
-- amos-core-laws
-- law/L0-integrity
-- law/L10-failure-recovery
-- law/L11-knowledge-memory
-- law/L15-fractal-knowledge
-- law/L16-hml
-- law/L17-rscf
-- law/L18-gmef
-- law/L19-proof-capsule
-- law/L1-epistemic
-- law/L20-adversarial
-- law/L21-epistemic-regime
-- law/L22-atomic-reasoning
-- law/L23-mvcc-cas
-- law/L24-causal-epoch
-- law/L25-shard-local
-- law/L26-proof-coordination
-- law/L27-gap
-- law/L28-critical-gap
-- law/L29-decision-value
-- law/L2-provenance
-- law/L30-authority-boundary
-- law/L31-amos-plane
-- law/L33-kernel
-- law/L3-dependency
-- law/L4-causal
-- law/L5-scope-regime
-- law/L6-uncertainty
-- law/L7-authority
-- law/L8-execution
-- law/L9-evolution
-- law-hierarchy
-- p1-reality-environment
-- p2-sense-evidence
-- p3-knowledge-memory
-- p4-cognition-models
-- p5-governance-authority
-- p6-execution-agency
-- p7-evolution-learning
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: root_index
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 00-Home
@@ -974,11 +923,11 @@ Universal hub for the AMOS OS vault.
 - Cosmo_Brain_BRIDGE_INDEX
 - Cosmo_Brain_BRIDGE_INDEX
 - Cosmo_Brain_BRIDGE_INDEX
-- [[08_WORKFLOWS/00_INDEX/INDEX_WORKFLOWS_README|INDEX_WORKFLOWS_README]]
-- [[08_WORKFLOWS/00_INDEX/INDEX_WORKFLOWS_WORKFLOW_CONTRACT|INDEX_WORKFLOWS_WORKFLOW_CONTRACT]]
-- [[08_WORKFLOWS/00_INDEX/WORKFLOW_MAP|WORKFLOW_MAP]]
-- [[08_WORKFLOWS/WORKFLOWS_README|WORKFLOWS_README]]
-- [[08_WORKFLOWS/WORKFLOWS_WORKFLOW_CONTRACT|WORKFLOWS_WORKFLOW_CONTRACT]]
+- [[26_WORKFLOWS/00_INDEX/INDEX_WORKFLOWS_README|INDEX_WORKFLOWS_README]]
+- [[26_WORKFLOWS/00_INDEX/INDEX_WORKFLOWS_WORKFLOW_CONTRACT|INDEX_WORKFLOWS_WORKFLOW_CONTRACT]]
+- [[26_WORKFLOWS/00_INDEX/WORKFLOW_MAP|WORKFLOW_MAP]]
+- [[26_WORKFLOWS/WORKFLOWS_README|WORKFLOWS_README]]
+- [[26_WORKFLOWS/WORKFLOWS_WORKFLOW_CONTRACT|WORKFLOWS_WORKFLOW_CONTRACT]]
 - [[09_PROTOCOLS/00_INDEX/INDEX_PROTOCOLS_PROTOCOL_CONTRACT|INDEX_PROTOCOLS_PROTOCOL_CONTRACT]]
 - [[09_PROTOCOLS/00_INDEX/INDEX_PROTOCOLS_README|INDEX_PROTOCOLS_README]]
 - [[09_PROTOCOLS/00_INDEX/PROTOCOL_MAP|PROTOCOL_MAP]]

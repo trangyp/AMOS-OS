@@ -1,62 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: 11 Knowledge MOC
-type: moc
-source: 11_KNOWLEDGE
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Knowledge Moc
 tags:
-- 11-knowledge
-- canon/knowledge
-- agent-onboarding-guide
-- agent-schema
-- agent-templates
-- amos-biology-quantum-bridge-governor
-- amos-c01-meta-logic-master-knowledge
-- amos-c02-math-compute-master-knowledge
-- amos-c03-physics-cosmos-master-knowledge
-- amos-c04-bio-neuro-master-knowledge
-- amos-c05-mind-behavior-master-knowledge
-- amos-c06-society-culture-master-knowledge
-- amos-c07-econ-finance-master-knowledge
-- amos-c08-strategy-game-master-knowledge
-- amos-c09-org-law-policy-master-knowledge
-- amos-c10-tech-engineering-master-knowledge
-- amos-c11-design-language-master-knowledge
-- amos-c12-earth-ecology-master-knowledge
-- amos-cognitive-organism-os
-- amos-cognitive-organism-os-detail
-- amos-content-agent-matrix-system
-- amos-cross-domain-tensor-composition-governor
-- amos-emotion-cognition-decision-bridge-governor
-- amos-ev-vietnam
-- amos-full-brain-os-architecture
-- amos-learning-memory-knowledge-feedback-governor
-- amos-obsidian-linking-plugins
-- amos-runtime-state
-- amos-security-control-access-bridge-governor
-- amos-ubi-omnis-use-cases
-- amos-value-creation-os
-- amos-vietnamese-global-cultural-bridge-governor
-- claim-tensor
-- environment-scan-agent
-- evidence-tensor
-- executor-agent
-- integrated-agent
-- investment-agent
-- readme
-- relation-tensor
-- tensors
-- tensor-contracts
-- trang-framework-recursive-ontology-dynamics
-- amos-llm-wiki
-- amos-home
-moc: true
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 11 Knowledge — Map of Content
@@ -115,64 +74,24 @@ rscf:
 - [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]] — Trang recursive ontology dynamics
 - [[00_ROOT/AMOS_LLM_WIKI|AMOS_LLM_WIKI]] — Karpathy LLM Wiki pattern adapted for AMOS
 
----
+______________________________________________________________________
 
 ## Subdirectory Maps of Content (49 Domain Sub-Planes)
+## Subdirectory Maps of Content
 
 - [[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC|02_CLAIMS_MOC]] — `02_CLAIMS` (Claims & epistemic registry)
 - [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]] — `03_RSCF` (Reality-Signal-Claim Framework objects)
 - [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] — `05_FRAMEWORKS` (Canonical framework registry)
 - [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/06_DOMAIN_KNOWLEDGE_MOC|06_DOMAIN_KNOWLEDGE_MOC]] — `06_DOMAIN_KNOWLEDGE` (Domain-specific knowledge modules)
 - [[11_KNOWLEDGE/_arxiv_md/_arxiv_md_MOC|_arxiv_md_MOC]] — `_arxiv_md` (ArXiv research synthesis library)
-- [[11_KNOWLEDGE/stubs/amos-general_moc|amos-general_moc]] — `amos-general` (General AMOS core models)
-- [[11_KNOWLEDGE/stubs/architecture_moc|architecture_moc]] — `architecture` (Architecture specifications)
-- [[11_KNOWLEDGE/stubs/audit_moc|audit_moc]] — `audit` (System integrity and audit reports)
-- [[11_KNOWLEDGE/stubs/biology-ubi_moc|biology-ubi_moc]] — `biology-ubi` (Unified Biological Intelligence canon)
-- [[11_KNOWLEDGE/stubs/brain_moc|brain_moc]] — `brain` (Cosmo brain & cognitive modules)
-- [[11_KNOWLEDGE/stubs/canon_moc|canon_moc]] — `canon` (Core canonical law & axioms)
-- [[11_KNOWLEDGE/stubs/cognitive_moc|cognitive_moc]] — `cognitive` (Cognitive layers L00–L29)
-- [[11_KNOWLEDGE/stubs/control_moc|control_moc]] — `control` (Control planes & authority gates)
-- [[11_KNOWLEDGE/stubs/dated_moc|dated_moc]] — `dated` (Historical dated audits & milestones)
-- [[11_KNOWLEDGE/stubs/economy_moc|economy_moc]] — `economy` (Economic models & wealth games)
-- [[11_KNOWLEDGE/stubs/emotion_moc|emotion_moc]] — `emotion` (Affective dynamics & emotion engine)
-- [[11_KNOWLEDGE/stubs/energy_moc|energy_moc]] — `energy` (Energy systems & power infrastructure)
+- [[11_KNOWLEDGE/stubs/STUB_MOC_INDEX|STUB_MOC_INDEX]] — Stub MOC registry (39 pending sub-MOC aliases; each is `UNKNOWN/GAP`)
 - [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]] — `engine` (Core computational and reasoning engines)
-- [[11_KNOWLEDGE/stubs/field_moc|field_moc]] — `field` (19×19 strategic field & ontologies)
-- [[11_KNOWLEDGE/stubs/fractal_moc|fractal_moc]] — `fractal` (Fractal mathematics & FRAI reasoning)
-- [[11_KNOWLEDGE/stubs/governance_moc|governance_moc]] — `governance` (Governance & institutional dynamics)
-- [[11_KNOWLEDGE/stubs/human_moc|human_moc]] — `human` (Human intelligence & social systems)
-- [[11_KNOWLEDGE/stubs/indexes_moc|indexes_moc]] — `indexes` (Master cross-index registers)
 - [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] — `kernel` (Computational kernels & logic ALUs)
-- [[11_KNOWLEDGE/stubs/layers_moc|layers_moc]] — `layers` (7-layer stack definitions)
-- [[11_KNOWLEDGE/stubs/learning_moc|learning_moc]] — `learning` (Learning systems & memory models)
-- [[11_KNOWLEDGE/stubs/logic_moc|logic_moc]] — `logic` (Logic systems, QLS, ULK)
-- [[11_KNOWLEDGE/stubs/math_moc|math_moc]] — `math` (Mathematical foundations & arithmetic geometry)
-- [[11_KNOWLEDGE/stubs/memory_moc|memory_moc]] — `memory` (Memory graphs & state retention)
-- [[11_KNOWLEDGE/stubs/misc_moc|misc_moc]] — `misc` (Extended research & canonical manuals)
-- [[11_KNOWLEDGE/stubs/models_moc|models_moc]] — `models` (Mathematical & physical models)
-- [[11_KNOWLEDGE/stubs/pipelines_moc|pipelines_moc]] — `pipelines` (Orchestration & data pipelines)
-- [[11_KNOWLEDGE/stubs/probability-stats_moc|probability-stats_moc]] — `probability-stats` (Stochastic kernels & stats)
-- [[11_KNOWLEDGE/stubs/qfm_moc|qfm_moc]] — `qfm` (Quantum Fractal Math convergence)
-- [[11_KNOWLEDGE/stubs/quantum_moc|quantum_moc]] — `quantum` (Quantum logic, QLS, QCLA, QCI)
-- [[11_KNOWLEDGE/stubs/reports_moc|reports_moc]] — `reports` (System completion & audit reports)
-- [[11_KNOWLEDGE/stubs/rscf_moc|rscf_moc]] — `rscf` (RSCF proof capsules & assertions)
-- [[11_KNOWLEDGE/stubs/security_moc|security_moc]] — `security` (Cybersecurity, access control, trust)
-- [[11_KNOWLEDGE/stubs/signal_moc|signal_moc]] — `signal` (Signal processing & DSP kernels)
-- [[11_KNOWLEDGE/stubs/speed_moc|speed_moc]] — `speed` (Quantum-speed parallel evaluation)
-- [[11_KNOWLEDGE/stubs/strategy_moc|strategy_moc]] — `strategy` (Game theory & strategic foresight)
-- [[11_KNOWLEDGE/stubs/system_moc|system_moc]] — `system` (System architecture & OS integration)
-- [[11_KNOWLEDGE/stubs/tech-coding_moc|tech-coding_moc]] — `tech-coding` (Programming architectures & tools)
-- [[11_KNOWLEDGE/stubs/tests_moc|tests_moc]] — `tests` (Verification suites & test harnesses)
 - [[11_KNOWLEDGE/trang/trang_MOC|trang_MOC]] — `trang` (Trang Master frameworks, TSS, TPE, ∅)
-- [[11_KNOWLEDGE/stubs/universe-cosmos_moc|universe-cosmos_moc]] — `universe-cosmos` (Universe Total Canon & physics)
-- [[11_KNOWLEDGE/stubs/vietnamese_moc|vietnamese_moc]] — `vietnamese` (Vietnamese strategic & cultural analysis)
 - [[11_KNOWLEDGE/LLM_WIKI/LLM_WIKI_MOC|LLM_WIKI_MOC]] — `llm-wiki` (LLM Wiki subsystem)
 - [[11_KNOWLEDGE/SOTA_AGENT_TOOLING_REPOS|SOTA_AGENT_TOOLING_REPOS]] — `sota-tooling` (Curated SOTA agent/skill/workflow tooling repos)
-
----
-
-**Parent:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]]
-
----
-
-**Related:** [[01_CANON/01_CANON_MOC|01_CANON_MOC]] · [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] · [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] · [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
+- [[11_KNOWLEDGE/SOTA_AI_SAFETY_ALIGNMENT_2026|SOTA_AI_SAFETY_ALIGNMENT_2026]] — `sota-ai-safety` (AI safety, alignment, reward hacking 2026)
+- [[11_KNOWLEDGE/SOTA_BCI_NEURAL_FOUNDATION_MODELS|SOTA_BCI_NEURAL_FOUNDATION_MODELS]] — `sota-bci` (BCI & Neural Foundation Models: DeeperBrain, Dareplane, aDBS)
+- [[11_KNOWLEDGE/SOTA_EMBODIED_AI_ROBOTICS_2026|SOTA_EMBODIED_AI_ROBOTICS_2026]] — `sota-embodied` (Embodied AI and robot learning 2026)
+- [[11_KNOWLEDGE/SOTA_LLM_TRANSFORMER_ARCHITECTURE_2026|SOTA_LLM_TRANSFORMER_ARCHITECTURE_2026]] — `sota-llm` (LLM / Transformer architecture 2026)
+- [[11_KNOWLEDGE/SOTA_QUANTUM_BRAIN_DYNAMICS_AND_COMPUTING|SOTA_QUANTUM_BRAIN_DYNAMICS_AND_COMPUTING]] — `sota-quantum-brain` (Quantum Brain Dynamics & Computing: Covariant QEC, LMG Hamiltonian)

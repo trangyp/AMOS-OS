@@ -167,17 +167,17 @@ from pathlib import Path
 import re
 
 
-## ============================================================
-## AMOS UNIVERSAL RENAME ENGINE — CLEAN, SAFE, DETERMINISTIC
-## ============================================================
+# ============================================================
+# AMOS UNIVERSAL RENAME ENGINE — CLEAN, SAFE, DETERMINISTIC
+# ============================================================
 
-## Toggle: DRY RUN vs REAL RUN
+# Toggle: DRY RUN vs REAL RUN
 DRY_RUN = False
 
-## Root folder automatically detected
+# Root folder automatically detected
 TARGET_ROOT = Path(__file__).resolve().parent / "_AMOS_UNIVERSE"
 
-## Folders we should NEVER modify
+# Folders we should NEVER modify
 SKIP_DIRS = {
     ".git",
     ".idea",
@@ -186,7 +186,7 @@ SKIP_DIRS = {
     "_Archive",
 }
 
-## Remove these patterns from filenames/folder names
+# Remove these patterns from filenames/folder names
 REMOVE_PATTERNS = [
     r"SUPERSTACK",
     r"SUPER",
@@ -201,7 +201,7 @@ REMOVE_PATTERNS = [
     r"ULTRA",
 ]
 
-## Allowed file extensions to rename
+# Allowed file extensions to rename
 FILE_EXTS = {
     ".json",
     ".py",
@@ -210,7 +210,7 @@ FILE_EXTS = {
 }
 
 
-## ----------------------- HELPERS -----------------------
+# ----------------------- HELPERS -----------------------
 
 def clean_base(name: str) -> str:
     """Cleans unwanted patterns and normalizes underscores."""
@@ -272,7 +272,7 @@ def rename_item(path: Path):
         path.rename(new_path)
 
 
-## ----------------------- MAIN -----------------------
+# ----------------------- MAIN -----------------------
 
 def main():
     if not TARGET_ROOT.exists():
@@ -4012,7 +4012,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

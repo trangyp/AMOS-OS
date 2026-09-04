@@ -1,40 +1,27 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: References MOC — References — Amos C02 Math Compute Master
-type: moc
-source: 07_SKILLS/amos-c02-math-compute-master/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: References Moc
 tags:
-  - references
-  - type/skill
-  - ancient-math
-  - complex-analysis-bridge
-  - computational-complexity-model
-  - control-systems-kernel
-  - domain-config
-  - engineering-math-engine-cognitive
-  - engineering-math-kernel
-  - engineering-math-kernel-vinfinity
-  - integrated-optimization
-  - network-structure-diagnostics
-  - numerical-methods-engine-layer
-  - spectral-method-governance
-  - vault-domain-knowledge
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-moc: true
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # References — Map of Content
 
 **Path:** `07_SKILLS/amos-c02-math-compute-master/references`
-**Files:** 13 | **Subdirectories:** 0
+**Files:** 14 | **Subdirectories:** 0
 
 ## Files
 
@@ -51,6 +38,7 @@ rscf:
 - [[07_SKILLS/amos-c02-math-compute-master/references/numerical_methods_engine_layer|numerical_methods_engine_layer]]
 - [[07_SKILLS/amos-c02-math-compute-master/references/spectral_method_governance|spectral_method_governance]]
 - [[07_SKILLS/amos-c02-math-compute-master/references/vault_domain_knowledge|vault_domain_knowledge]]
+- [[07_SKILLS/amos-c02-math-compute-master/references/arvix_mathematics_computation_evidence_bridge|arvix_mathematics_computation_evidence_bridge]]
 
 ______________________________________________________________________
 

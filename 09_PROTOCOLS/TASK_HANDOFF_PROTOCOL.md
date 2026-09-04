@@ -1,186 +1,337 @@
 ---
-title: Task Handoff Protocol Specification
-type: protocol_specification
-source: 09_PROTOCOLS
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - authoritative_AMOS_OS_structure
-    - 06_AGENTS/06_AGENTS_MOC
-    - 03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT
-    - 08_WORKFLOWS/08_WORKFLOWS_MOC
-    - 18_SECURITY/18_SECURITY_MOC
-  scope: inter_agent_handoff
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Task Handoff Protocol
 tags:
-  - amos-os
-  - protocols
-  - task-handoff
-  - agent-delegation
-  - capability-attenuation
-  - blake3-receipt
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
-# Task Handoff Protocol Specification (THP-01)
+# Task Handoff Protocol Specification
 
-**Origin Architect & Steward:** Trang Phan
-**Target AMOS Lineage:** v4.4
-**Plane:** `09_PROTOCOLS`
-**Status:** `ACTIVE_SPECIFICATION`
-**Epistemic Classification:** `AMOS_MODEL` / `DERIVED`
+## 1. Purpose
 
----
-
-## 1. Executive Summary & Protocol Purpose
-
-The **Task Handoff Protocol (THP-01)** formalizes the exact cryptographic sequence, state machine transitions, capability attenuation envelopes, and validation contracts required when an orchestrator or parent agent delegates a subtask to a specialist worker agent.
-
-It ensures that delegated execution cannot escape assigned authorization bounds, violate epistemic rules, or corrupt the global system state upon subagent failure.
+The Task Handoff Protocol formalizes the exact sequence, data structures, and validation rules required when an orchestrator or parent agent delegates a subtask to a specialist worker agent. This protocol ensures that delegated work maintains full provenance, respects authority boundaries, and produces verifiable execution receipts.
 
 ```text
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                    TWO-PHASE TASK HANDOFF STATE MACHINE                     │
-│                                                                             │
-│  [Orchestrator Agent]                             [Specialist Worker Agent] │
-│          │                                                   │              │
-│          │ 1. PREPARE: Mint Attenuated Capability Token      │              │
-│          │    & Task Capsule (Budget, Scope, Invariants)     │              │
-│          ├──────────────────────────────────────────────────►│              │
-│          │                                                   │ 2. VALIDATE: │
-│          │                                                   │ Preconditions│
-│          │ 3. ACK_PREPARE: Bind Local Working State          │ Scope Check  │
-│          │◄──────────────────────────────────────────────────┤              │
-│          │                                                   │              │
-│          │ 4. COMMIT_EXECUTE: Start Bounded Routine          │              │
-│          ├──────────────────────────────────────────────────►│              │
-│          │                                                   │ 5. EXECUTE:  │
-│          │                                                   │ Bounded Run  │
-│          │ 6. EMIT_RECEIPT: Proof Capsule & BLAKE3 Digest    │ Trace Log    │
-│          │◄──────────────────────────────────────────────────┤              │
-│          │                                                   │              │
-│          │ 7. FINALIZE: Verify Receipt & Ingest Output       │              │
-│          │    (Or ROLLBACK on Invariant Violation)           │              │
-└──────────┴───────────────────────────────────────────────────┴──────────────┘
+CORE INVARIANT:
+───────────────
+AgentCapability != AgentAuthority
+Delegation transfers CAPABILITY scope only
+Authority remains with the delegating control-plane chain
 ```
 
----
+## 2. Handoff Lifecycle & Sequence
 
-## 2. Nine-Part AMOS Control Contract
+```text
+[Orchestrator]                             [Specialist Worker]
+      |                                              |
+      | 1. Generate Task Capsule                     |
+      |    (Objective, Scope, Invariants, Budget)    |
+      |--------------------------------------------->|
+      |                                              | 2. Validate Preconditions &
+      |                                              |    Verify Authority Token
+      |                                              |
+      | 3. Acknowledge & Bind Working State          |
+      |<---------------------------------------------|
+      |                                              | 4. Execute Bounded Routine
+      |                                              |
+      | 5. Return Execution Receipt & Proof Capsule  |
+      |<---------------------------------------------|
+      |                                              |
+      | 6. Validate Receipt & Ingest Output          |
+      |                                              |
+```
 
-### 2.1 ROLE
-Governs secure, verifiable task delegation and context handoffs across autonomous agents while preventing capability leakage or hallucination propagation.
+### 2.1 Detailed Phase Descriptions
 
-### 2.2 INTERFACES
-- `ITaskCapsuleFactory`: Constructs strongly-typed task delegation capsules.
-- `ICapabilityAttenuationEngine`: Mints cryptographically attenuated capability tokens with expiration deadlines and scoped tool permissions.
-- `IHandoffStateMachine`: Enforces two-phase prepare/commit handoff transitions and timeout rollbacks.
-- `IReceiptValidator`: Cryptographically validates execution proofs before parent ingestion.
+**Phase 1 — Task Capsule Generation:**
+The orchestrator constructs a typed task capsule containing the objective, scope boundaries, required invariants, resource budget, and authority token. The capsule is the single source of truth for the delegated work.
 
-### 2.3 DEPENDENCIES
-- `03_CONTROL_PLANE`: Authority matrices and permission registries.
-- `06_AGENTS`: Agent identity definitions and role boundaries.
-- `08_WORKFLOWS`: Multi-step state machine engines.
-- `18_SECURITY`: Cryptographic signing and token verification.
+**Phase 2 — Precondition Validation:**
+The worker agent validates:
+- Authority token authenticity and scope coverage
+- Required input artifacts exist and are fresh
+- Dependency closure is satisfied
+- No material conflicts with concurrent work
+- Budget and timeout are sufficient
 
-### 2.4 INVARIANTS
-1. **Non-Escalation Invariant**: A delegated worker agent CAN NEVER acquire or grant itself permissions exceeding the scope of its parent orchestrator.
-2. **Strict Provenance Invariant**: The returned execution receipt must explicitly record all intermediate claim DAG nodes, citations, and tools invoked.
-3. **Fail-Closed Invariant**: In the event of an unresolvable contradiction or timeout, the worker MUST emit a structured `UNKNOWN/GAP` rather than hallucinating a completion.
-4. **Linear Resource Bounding**: Every handoff capsule specifies hard caps on token consumption, wall-clock time, and tool invocations.
+**Phase 3 — Working State Binding:**
+The worker acknowledges receipt and binds its local working state to the task capsule. This creates a causal link: all worker actions are now attributable to the parent task.
 
-### 2.5 AUTHORITY
-Governed by `AMOS_CORE v4.4`, origin architect **Trang Phan**.
+**Phase 4 — Bounded Execution:**
+The worker executes within the declared scope, maintaining:
+- Provenance chain for all intermediate conclusions
+- Epistemic class preservation (no silent upgrades)
+- Budget consumption tracking
+- Failure mode detection
 
-### 2.6 PROVENANCE
-Engineered from distributed RPC protocols, Macaroon/Biscuit capability tokens, and transactional state machine standards.
+**Phase 5 — Receipt Generation:**
+The worker emits a structured execution receipt containing all outputs, intermediate nodes, citations, budget consumption, and any encountered anomalies.
 
-### 2.7 TESTS
-- Unit verification of capability attenuation rules under privilege escalation attacks.
-- Timeout injection and automatic rollback recovery benchmarks ($\Delta t < 5.0\text{ ms}$).
-- Adversarial receipt tampering and signature forgery validation.
+**Phase 6 — Receipt Validation:**
+The orchestrator validates the receipt against the original task capsule, checking scope compliance, invariant preservation, and output quality.
 
-### 2.8 FAILURE MODES
-- Worker agent crash or network partition during execution.
-- Token budget exhaustion before task completion.
-- Invariant breach or corrupted return schema.
+## 3. Capsule Structure
 
-### 2.9 RECOVERY
-- Automatic task cancellation and compensation rollback on parent orchestrator.
-- Re-delegation to alternative worker or emission of gap record to the human steward.
-
----
-
-## 3. Data Structure & Capsule Schema
-
-### YAML Task Capsule Specification:
 ```yaml
-task_id: "TASK-2026-09-04-00284"
-parent_task_id: "ORCH-TASK-9042"
+task_id: "TASK-2026-09-04-00129"
+parent_task_id: "ORCH-TASK-8812"
 delegating_agent: "amos-orchestrator-alpha"
 target_agent: "amos-qfm-specialist-01"
 objective: "Verify mathematical proof of Lemma 4.2 in singularity paper"
 confidence_ceiling: 0.95
-resource_budget:
-  max_tokens: 4000
-  timeout_seconds: 30
-  max_tool_calls: 5
+max_token_budget: 4000
+timeout_seconds: 30
 rscf_scope: "22_RESEARCH/01_MATHEMATICS"
 required_invariants:
-  - "L0_INTEGRITY: SOURCE_CLAIM != VERIFIED"
-  - "L28_CRITICAL_GAP: FAIL_CLOSED_ON_UNKNOWN"
+  - "M04: SOURCE_CLAIM != VERIFIED"
+  - "M14: TEST_PASS != UNIVERSAL_PROOF"
 input_references:
   - "[[22_RESEARCH/01_MATHEMATICS/AMOS_137_MATH_REGISTRY]]"
-authority_token: "AUTH-CAP-99182-SIG-ED25519-EXP-20260904T150000Z"
+authority_token: "AUTH-GR-88912-EXP-20260904"
 ```
 
-### Execution Return Receipt Schema:
+### 3.1 Capsule Field Definitions
+
+| Field | Type | Description |
+| :--- | :--- | :--- |
+| `task_id` | UUID | Unique identifier for this task instance |
+| `parent_task_id` | UUID | Causal parent (for nested delegation chains) |
+| `delegating_agent` | Agent ID | Identity of the delegating orchestrator |
+| `target_agent` | Agent ID | Identity of the assigned worker |
+| `objective` | String | Declarative goal statement |
+| `confidence_ceiling` | Float [0,1] | Maximum confidence the worker may claim |
+| `max_token_budget` | Integer | Computational resource limit |
+| `timeout_seconds` | Integer | Wall-clock execution limit |
+| `rscf_scope` | Path | RSCF namespace boundary for the work |
+| `required_invariants` | List | Invariants the worker must preserve |
+| `input_references` | List[Link] | Wikilinks to required input artifacts |
+| `authority_token` | Token | Scoped, time-limited authority grant |
+
+## 4. Execution Receipt Structure
+
 ```yaml
-receipt_id: "RCPT-2026-09-04-00591"
-task_id: "TASK-2026-09-04-00284"
-status: "COMPLETED_VERIFIED"
-epistemic_class: "DERIVED"
-confidence_score: 0.942
-proof_artifacts:
-  - "22_RESEARCH/01_MATHEMATICS/LEMMA_4_2_LEAN4_PROOF"
-tokens_consumed: 1842
-wall_clock_elapsed_ms: 1248
-blake3_receipt_hash: "3b9a8f2c1d0e4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b"
+receipt_id: "RCP-2026-09-04-00129"
+task_id: "TASK-2026-09-04-00129"
+worker_agent: "amos-qfm-specialist-01"
+status: "COMPLETED"
+execution_time_ms: 1247
+tokens_consumed: 3842
+outputs:
+  - artifact: "[[22_RESEARCH/01_MATHEMATICS/LEMMA_4_2_VERIFICATION]]"
+    conclusion_class: "DERIVED"
+    confidence: 0.91
+intermediate_nodes:
+  - node_id: "INT-001"
+    source: "arXiv:2503.00016"
+    claim: "Time-irreversible quantum-classical dynamics"
+    epistemic_class: "SOURCE_CLAIM"
+invariants_preserved:
+  - "M04: SOURCE_CLAIM != VERIFIED ✓"
+  - "M14: TEST_PASS != UNIVERSAL_PROOF ✓"
+budget_consumption:
+  tokens: 3842
+  percentage: 96.05
+anomalies: []
+```
+
+## 5. Invariants
+
+- **Non-Escalation**: The target agent cannot grant itself additional scopes or tools. Authority flows downward only.
+- **Strict Provenance**: The returning receipt must include all intermediate nodes and citations used during execution.
+- **Fail-Closed**: If the target agent encounters an unresolvable contradiction, it must emit a structured `UNKNOWN/GAP` record rather than hallucinating a resolution.
+- **Budget Enforcement**: If the worker exceeds `max_token_budget`, execution is terminated and a partial receipt is returned.
+- **Timeout Enforcement**: If execution exceeds `timeout_seconds`, the worker is terminated and the orchestrator receives a timeout receipt.
+- **Scope Containment**: All worker actions must remain within the declared `rscf_scope`. Out-of-scope writes are rejected.
+
+## 6. Failure Modes & Recovery
+
+| Failure | Detection | Recovery |
+| :--- | :--- | :--- |
+| Worker unreachable | Timeout on Phase 3 acknowledgment | Reassign to backup worker, or escalate |
+| Authority token expired | Phase 2 validation failure | Reject task, request fresh token from control plane |
+| Budget exceeded | Runtime budget monitor | Terminate, return partial receipt |
+| Invariant violation | Receipt validation Phase 6 | Reject receipt, quarantine worker, escalate |
+| Worker crash | Missing Phase 5 receipt within timeout | Terminate, reassign, log failure |
+| Scope creep detected | Post-execution audit | Reject out-of-scope artifacts, quarantine |
+
+## 7. Nested Delegation
+
+Workers may further delegate subtasks, creating a delegation tree:
+
+```text
+ORCH-TASK-8812 (Orchestrator)
+├── TASK-001 (QFM Specialist)
+│   ├── TASK-001a (Sub-worker A)
+│   └── TASK-001b (Sub-worker B)
+├── TASK-002 (Literature Agent)
+└── TASK-003 (Verification Agent)
+```
+
+**Constraint:** The delegation depth is bounded by `MAX_DELEGATION_DEPTH` (default: 3). Beyond this, escalation to human oversight is required.
+
+---
+
+## 8. Failure Recovery & Rollback
+
+### 8.1 Failure Classification
+
+```yaml
+failure_classification:
+  recoverable_failures:
+    - type: "TIMEOUT"
+      detection: "Worker does not acknowledge within timeout_seconds"
+      recovery: "Retry with fresh worker; preserve task capsule"
+      rollback: "None — task not yet started"
+    
+    - type: "PARTIAL_COMPLETION"
+      detection: "Worker returns receipt with status=PARTIAL"
+      recovery: "Orchestrator re-delegates remaining work"
+      rollback: "None — partial results preserved"
+    
+    - type: "BUDGET_OVERFLOW"
+      detection: "Worker exceeds max_token_budget"
+      recovery: "Terminate worker; return partial receipt"
+      rollback: "Rollback worker's local state to pre-task snapshot"
+  
+  unrecoverable_failures:
+    - type: "INVARIANT_VIOLATION"
+      detection: "Receipt validation Phase 6 detects invariant breach"
+      recovery: "Reject receipt; quarantine worker; escalate to control plane"
+      rollback: "Rollback all artifacts modified by worker to pre-task state"
+    
+    - type: "SCOPE_CREEP"
+      detection: "Post-execution audit finds out-of-scope writes"
+      recovery: "Reject out-of-scope artifacts; quarantine worker"
+      rollback: "Rollback all out-of-scope writes"
+    
+    - type: "PROVENANCE_TAMPERING"
+      detection: "Receipt contains modified provenance chains"
+      recovery: "Reject receipt; quarantine worker; escalate to security"
+      rollback: "Rollback all artifacts; preserve tampering evidence"
+```
+
+### 8.2 Rollback Protocol
+
+```yaml
+rollback_protocol:
+  triggers:
+    - "Receipt validation failure"
+    - "Invariant violation detected"
+    - "Scope creep detected"
+    - "Provenance tampering detected"
+  
+  procedure:
+    step_1: "Identify all artifacts modified by worker"
+    step_2: "For each artifact, locate pre-task snapshot"
+    step_3: "Verify snapshot integrity (hash check)"
+    step_4: "Restore artifacts to pre-task state"
+    step_5: "Invalidate all dependent descendants"
+    step_6: "Generate rollback receipt"
+    step_7: "Notify affected downstream tasks"
+    step_8: "Quarantine worker pending investigation"
+  
+  rollback_receipt:
+    rollback_id: "RB-2026-09-04-001"
+    task_id: "TASK-2026-09-04-00129"
+    worker_agent: "amos-qfm-specialist-01"
+    artifacts_affected: 3
+    artifacts_restored: 3
+    descendants_invalidated: 7
+    rollback_reason: "INVARIANT_VIOLATION"
+    rollback_authority: "CONTROL_PLANE"
+    rollback_timestamp: "2026-09-04T10:35:00Z"
+```
+
+### 8.3 Compensation Protocol
+
+When rollback is not possible (e.g., external side effects), compensation is used:
+
+```yaml
+compensation_protocol:
+  triggers:
+    - "External API call cannot be undone"
+    - "File already shared with external party"
+    - "Network request already sent"
+  
+  procedure:
+    step_1: "Classify side effect as compensable or non-compensable"
+    step_2: "If compensable → execute compensation action"
+    step_3: "If non-compensable → log as PERMANENT_SIDE_EFFECT"
+    step_4: "Generate compensation receipt"
+    step_5: "Escalate non-compensable effects to human oversight"
+  
+  compensation_types:
+    - "inverse_action: Undo the original action if possible"
+    - "notification: Notify affected parties of the change"
+    - "rollback_external: Request external system rollback"
+    - "accept_permanent: Accept and document the permanent effect"
 ```
 
 ---
 
-## 4. AMOS OS MECE Plane Integration
+## 9. Delegation Chain Integrity
 
-| AMOS Plane | Role & Responsibilities |
-| :--- | :--- |
-| **[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE]]** | Validates capability delegation limits and mints authority tokens. |
-| **[[06_AGENTS/06_AGENTS_MOC|06_AGENTS]]** | Hosts orchestrator and specialist worker agent state lifecycles. |
-| **[[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS]]** | Manages handoff orchestration and timeout compensation logic. |
-| **[[09_PROTOCOLS/09_PROTOCOLS_MOC|09_PROTOCOLS]]** | Defines the physical wire protocol and Protobuf envelope contracts. |
-| **[[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY]]** | Logs handoff latency, resource consumption, and delegation traces. |
-| **[[18_SECURITY/18_SECURITY_MOC|18_SECURITY]]** | Verifies cryptographic token signatures and enforces sandbox constraints. |
+### 9.1 Chain Properties
+
+| Property | Description | Enforcement |
+| :--- | :--- | :--- |
+| **Causal Lineage** | Every task traces back to an orchestrator | parent_task_id chain |
+| **Authority Monotonicity** | Authority never increases down the chain | Authority scope checked at each level |
+| **Budget Conservation** | Child budgets ≤ parent budget | Budget allocation validated |
+| **Scope Containment** | Child scope ⊂ parent scope | Scope validated at delegation |
+| **Depth Limit** | Chain depth ≤ MAX_DELEGATION_DEPTH | Hard limit enforced |
+
+### 9.2 Chain Validation
+
+```yaml
+chain_validation:
+  validation_points:
+    - "On delegation: validate child scope ⊂ parent scope"
+    - "On delegation: validate child budget ≤ parent budget"
+    - "On delegation: validate authority scope ≤ parent authority"
+    - "On receipt: validate all invariants preserved"
+    - "On receipt: validate provenance chain unbroken"
+  
+  chain_integrity_check:
+    method: "Walk delegation chain from leaf to root"
+    checks:
+      - "Every task has valid parent_task_id"
+      - "No circular delegation (depth limit prevents this)"
+      - "Authority tokens are valid at each level"
+      - "Budget allocations are consistent"
+    failure_action: "Quarantine affected chain; escalate to control plane"
+```
+
+### 9.3 Chain Compression
+
+When delegation chains become deep, intermediate results can be compressed:
+
+```yaml
+chain_compression:
+  trigger: "Chain depth > 2"
+  method: "Merge intermediate receipts into single composite receipt"
+  constraints:
+    - "All intermediate provenance preserved"
+    - "All intermediate invariants validated"
+    - "Compression receipt includes full chain lineage"
+  benefit: "Reduces receipt size; simplifies downstream validation"
+```
 
 ---
 
-## 5. Structural Invariants & Governance
+## 10. Cross-Vault References
 
-1. **Non-Escalation Boundary**: A subtask handoff can only attenuate authority, never amplify it.
-2. **Immutable Traceability**: Every delegation event is logged to [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY]].
-3. **No Unwarranted Promotion**: Output receipts remain subject to parent orchestrator and control plane admission.
-4. **Lineage**: Governed under AMOS v4.4; origin steward **Trang Phan**.
-
----
-
-## 6. Cross-Plane References
-
-- Protocols MOC: [[09_PROTOCOLS/09_PROTOCOLS_MOC|09_PROTOCOLS MOC]]
-- Agents MOC: [[06_AGENTS/06_AGENTS_MOC|06_AGENTS MOC]]
-- Workflows MOC: [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS MOC]]
-- Control Plane Authority: [[03_CONTROL_PLANE/04_AUTHORITY/00_INDEX/CONTROL_PLANE_AUTHORITY_MAP|CONTROL_PLANE_AUTHORITY_MAP]]
-- Multi-Agent Epistemic Chain: [[08_WORKFLOWS/AUTONOMOUS_MULTI_AGENT_EPISTEMIC_VERIFICATION_CHAIN|Autonomous Epistemic Verification]]
+- [[06_AGENTS/AGENTS_AGENT_CONTRACT|AGENT_CONTRACT]]
+- [[03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT|CONTROL_PLANE_CONTRACT]]
+- [[09_PROTOCOLS/COORDINATION_AVOIDANCE_PROTOCOL|COORDINATION_AVOIDANCE_PROTOCOL]]
+- [[09_PROTOCOLS/AGENT_TOOL_INTERACTION_PROTOCOL|AGENT_TOOL_INTERACTION_PROTOCOL]]
+- [[10_MEMORY/EPISODIC_MEMORY_SUBSTRATE|EPISODIC_MEMORY_SUBSTRATE]] — Task executions recorded as episodes
+- [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]] — Task receipts feed observability

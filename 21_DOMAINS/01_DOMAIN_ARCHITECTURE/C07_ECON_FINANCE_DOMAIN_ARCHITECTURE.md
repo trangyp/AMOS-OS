@@ -1,23 +1,21 @@
 ---
-title: "AMOS C07 Economics & Finance Domain Architecture"
-type: domain_architecture_contract
-source: 21_DOMAINS
-domain: C07_ECON_FINANCE
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-status: ACTIVE_DOMAIN_CONTRACT
-conclusion_class: DERIVED
-updated: 2026-09-03
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance:
-    - 11_KNOWLEDGE/AMOS_C07_ECON_FINANCE_MASTER_KNOWLEDGE
-    - 08_WORKFLOWS/amos-c07-econ-finance-master-workflow
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-    - 00_ROOT/PLANE_OWNERSHIP_MATRIX
-  scope: c07_econ_finance_functional_domain_ownership
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: C07 Econ Finance Domain Architecture
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # C07 Economics & Finance — Domain Architecture Contract
@@ -82,7 +80,7 @@ Primary knowledge:
 [[11_KNOWLEDGE/AMOS_C07_ECON_FINANCE_MASTER_KNOWLEDGE|C07 Economics & Finance Master Knowledge]]
 
 Execution bridge:
-[[08_WORKFLOWS/amos-c07-econ-finance-master-workflow|C07 Economics & Finance Master Workflow]]
+[[26_WORKFLOWS/amos-c07-econ-finance-master-workflow|C07 Economics & Finance Master Workflow]]
 
 Cross-domain composition:
 [[11_KNOWLEDGE/AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR|Cross-Domain Tensor Composition Governor]]

@@ -24,6 +24,10 @@ tags:
   - adaptive-therapy
   - clonal-dynamics
   - game-theory
+rscf:
+  state: DERIVED
+  provenance: authoritative_AMOS_OS_structure
+  scope: 22_RESEARCH
 ---
 
 # Cancer Evolutionary Therapy: Non-Equilibrium Clonal Dynamics, Steered Resistance Manifolds, and Adaptive Control in AMOS Mathematical Biology

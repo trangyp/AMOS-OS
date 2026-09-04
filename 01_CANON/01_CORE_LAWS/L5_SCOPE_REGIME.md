@@ -1,32 +1,21 @@
 ---
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: L5 Scope Regime
 tags:
-  - canon
-  - core_laws
-  - scope
-  - regime
-  - temporal
-  - freshness
-  - applicability
-  - rscf
-  - governance
-  - canon/universe
-  - law/L0-integrity
-  - law/L1-epistemic
-  - law/L2-provenance
-  - law/L3-dependency
-  - law/L4-causal
-title: "L5 Scope, Regime, and Temporal Laws"
-origin_architect: Trang Phan
-status: AMOS_MODEL
-canon_status: PROPOSED_CANON_CONTENT
-epistemic_class: AMOS_MODEL
-type: document
-source: 01_CANON/01_CORE_LAWS
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # L5 Scope, Regime, and Temporal Laws
@@ -3361,7 +3350,7 @@ STATUS = VERIFIED_FINAL_CANON
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

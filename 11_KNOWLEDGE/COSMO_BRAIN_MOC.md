@@ -1,49 +1,21 @@
 ---
-title: 00 Cosmo Brain MOC
-created: '2026-08-22'
-origin_architect: Trang Phan
-type: moc
-source: 11_KNOWLEDGE
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Cosmo Brain Moc
 tags:
-  - canon-group/human-system
-  - canon/framework
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
-  - rscf/state/observation
-  - index
-  - architecture
-  - amos-obsidian-linking-plugins
-  - amos-layer-maps
-  - amos-templates
-  - fractal-runtime
-  - logic-kernel
-  - constraint-engine
-  - tensor-contracts
-  - claim-tensor
-  - evidence-tensor
-  - relation-tensor
-  - memory-architecture
-  - boundary-identity
-  - governance-tensor
-  - rscf-proof-capsule
-  - regime-freshness
-  - adversarial-validation
-  - sensitivity-falsifiers
-  - error-recovery
-  - cognition-kernel
-  - final-gate
-  - speed-governor
-  - agents
-  - skill
-status: living
-provenance: MODEL
-confidence: DERIVED
-moc: true
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 00 Cosmo Brain MOC
@@ -1260,7 +1232,7 @@ to architectural skills in `.devin/skills/`. Each skill contains:
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

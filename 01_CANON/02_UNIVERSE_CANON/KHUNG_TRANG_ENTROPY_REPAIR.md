@@ -1,36 +1,146 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Khung Trang Entropy Repair Dynamics
-type: universe-canon
-source: 01_CANON/02_UNIVERSE_CANON
-status: ACTIVE_SPECIFICATION
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
 epistemic_class: SOURCE_CLAIM
-conclusion_class: SOURCE_CLAIM
-canonical_status: ACTIVE_CANON_CANDIDATE
-updated: 2026-09-04
+topic: Khung Trang Entropy Repair
 tags:
-  - khung_trang
-  - entropy
-  - repair
-  - canon
-  - law-hierarchy
-  - khung-trang-master
-  - dmer-l5
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: universe_canon
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Khung Trang Entropy Repair Dynamics
 
-Protocol for repairing semantic drift, information entropy spikes, and epistemic contradictions.
+Protocol for repairing semantic drift, information entropy spikes, and epistemic contradictions through entropy accounting, entropy-shedding, and structural repair.
 
-______________________________________________________________________
+________________________________________________________________________
+
+## 1. Definition
+
+**Entropy** in the Khung Trang Framework is the normalized measure of disorder, inconsistency, or information degradation within a system state:
+
+$$E(S) \in [0, 1]$$
+
+Where:
+- $E = 0$: perfectly ordered, fully consistent state
+- $E = 1$: maximally disordered, fully inconsistent state
+
+**Entropy repair** is the process of reducing $E(S)$ toward acceptable thresholds through structured interventions.
+
+________________________________________________________________________
+
+## 2. Purpose
+
+Systems accumulate entropy through:
+- Semantic drift (claims diverging from evidence)
+- Contradiction accumulation (incompatible claims coexisting)
+- Provenance degradation (lineage integrity weakening)
+- Structural decay (schema violations, broken references)
+- Knowledge staleness (evidence expiring without revalidation)
+
+Without entropy repair, systems degrade until they become unreliable. The entropy repair protocol provides a structured path to recover canonical structure.
+
+________________________________________________________________________
+
+## 3. Entropy Accounting
+
+Every material system state carries an entropy measurement:
+
+$$E_{\text{total}}(S) = \alpha \cdot E_{\text{semantic}}(S) + \beta \cdot E_{\text{structural}}(S) + \gamma \cdot E_{\text{provenance}}(S) + \delta \cdot E_{\text{temporal}}(S)$$
+
+Where:
+- $E_{\text{semantic}}$: inconsistency between claims and evidence
+- $E_{\text{structural}}$: schema violations, broken references, missing fields
+- $E_{\text{provenance}}$: lineage gaps, tamper-evidence failures
+- $E_{\text{temporal}}$: staleness of evidence relative to current time
+- $\alpha, \beta, \gamma, \delta$: weighting coefficients (system-specific, sum to 1)
+
+Entropy thresholds:
+
+| Threshold | $E_{\text{total}}$ | Action |
+|-----------|---------------------|--------|
+| GREEN | $< 0.2$ | Normal operation |
+| YELLOW | $[0.2, 0.5)$ | Increased monitoring, targeted repair |
+| ORANGE | $[0.5, 0.8)$ | Active repair, quarantine affected subsystems |
+| RED | $\geq 0.8$ | Full structural repair, possible rollback |
+
+________________________________________________________________________
+
+## 4. Entropy-Shedding
+
+Entropy-shedding is the process of identifying and removing entropy sources:
+
+1. **Identify** the highest-entropy components via entropy decomposition
+2. **Classify** entropy source: semantic, structural, provenance, or temporal
+3. **Quarantine** high-entropy subsystems to prevent contagion
+4. **Repair or discard** each quarantined component:
+   - Semantic: revalidate claims against evidence
+   - Structural: fix schema violations, restore references
+   - Provenance: re-establish lineage from root evidence
+   - Temporal: revalidate with fresh evidence or mark stale
+5. **Reassemble** repaired components and verify system-level entropy reduction
+
+Entropy-shedding priority:
+
+$$\text{Priority}(C_i) = \frac{E(C_i) \cdot \text{impact}(C_i)}{\text{repair\_cost}(C_i)}$$
+
+Repair the highest-priority entropy source first.
+
+________________________________________________________________________
+
+## 5. Repair Protocols
+
+| Protocol | Trigger | Action |
+|----------|---------|--------|
+| Semantic repair | $E_{\text{semantic}} > 0.5$ | Revalidate claims against root evidence |
+| Structural repair | $E_{\text{structural}} > 0.5$ | Fix schema violations, restore broken references |
+| Provenance repair | $E_{\text{provenance}} > 0.5$ | Re-establish lineage from independent roots |
+| Temporal repair | $E_{\text{temporal}} > 0.5$ | Revalidate with fresh evidence or mark stale |
+| Full repair | $E_{\text{total}} > 0.8$ | All protocols in sequence, with rollback checkpoints |
+
+________________________________________________________________________
+
+## 6. Invariants
+
+| Invariant | Statement |
+|-----------|-----------|
+| Entropy measurable | $\forall S : E(S)$ is computable from system state |
+| Repair reduces entropy | $\text{Repair}(S) \Rightarrow E(S_{\text{post}}) < E(S_{\text{pre}})$ |
+| Quaranine prevents contagion | $\text{Quarantine}(C) \Rightarrow$ entropy in $C$ does not propagate to unrelated components |
+| Repair preserves unaffected state | $\text{Repair}(F) \Rightarrow$ state outside $\text{descendants}(F)$ unchanged |
+| Threshold enforcement | $E_{\text{total}} \geq 0.8 \Rightarrow$ mandatory full repair before normal operation resumes |
+
+________________________________________________________________________
+
+## 7. Falsifiers
+
+| Falsifier | Description |
+|-----------|-------------|
+| Entropy increase after repair | $E(S_{\text{post}}) > E(S_{\text{pre}})$ — repair made things worse |
+| Entropy hiding | Quarantining without repair — entropy persists but is hidden |
+| Unmeasured entropy | System operates without entropy accounting |
+| Contagion during repair | Repair operation spreads entropy to unaffected components |
+
+________________________________________________________________________
+
+## 8. Integration
+
+- **Master equations**: Entropy $E$ is a core quantity in [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER_EQUATIONS|KHUNG_TRANG_MASTER_EQUATIONS]]; entropy changes are driven by the state transition function $\mathcal{F}$.
+- **Rollback**: When entropy exceeds RED threshold, [[01_CANON/01_CORE_LAWS/ROLLBACK_AND_RECOVERY_BASINS|rollback]] to nearest valid basin may be required.
+- **Provenance**: Provenance entropy is validated by [[01_CANON/01_CORE_LAWS/PROVENANCE_TOPOLOGY_VALIDATION_RECEIPT|provenance topology validation]].
+- **URTA**: High entropy states increase [[01_CANON/02_UNIVERSE_CANON/URTA_RISK_TENSION_ARCHITECTURE|risk-tension scores]].
+- **Control-plane**: Full repair requires control-plane authorization.
+
+________________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]] · [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER|KHUNG_TRANG_MASTER]] · [[01_CANON/01_CORE_LAWS/DMER_L5|DMER_L5]]
 
@@ -38,7 +148,7 @@ ______________________________________________________________________
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
-______________________________________________________________________
+________________________________________________________________________
 
 RSCF-NODE
 node_id: khung_trang_entropy_repair
@@ -49,132 +159,5 @@ RSCF-RELATIONS:
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
-
-______________________________________________________________________
-
-## 1. Architectural Scope
-
-`KHUNG_TRANG_ENTROPY_REPAIR` defines the protocol for detecting, isolating, and repairing semantic drift, information entropy spikes, and epistemic contradictions within the AMOS universe canon. It is a normative canon artifact governed by `DMER_L5` (the fifth-level law in the DMER hierarchy) and operates as the canonical repair mechanism for ontological corruption. The protocol governs:
-
-- **Entropy detection** identifying when the cognitive state vector diverges from the canonical baseline beyond an acceptable Lyapunov threshold.
-- **Drift isolation** freezing affected shards and preventing entropy propagation to downstream planes.
-- **Causal rollback** restoring the system to the latest valid snapshot with cryptographic provenance.
-- **Convergence re-synchronization** replaying governed log events to restore normal multi-agent operation.
-- **Epistemic contradiction resolution** preserving competing hypotheses rather than fabricating resolution.
-
-This file exists because entropy corruption is the primary failure mode for distributed cognitive systems. Without a canonical repair protocol, entropy spikes propagate silently through the vault, producing semantic contradictions that are difficult to detect and expensive to repair.
-
-```text
-ENTROPY_REPAIR = canonical_repair_protocol
-ENTROPY_REPAIR != runtime_implementation
-ENTROPY_REPAIR != empirical_validation
-REPAIR_SPECIFIED != REPAIR_EXECUTED
-```
-
----
-
-## 2. Governing Invariants
-
-- **INV-CANON-ENT-001 (Lyapunov Stability):** The cognitive state vector $\mathbf{x}(t)$ must satisfy the Lyapunov stability condition relative to the canonical baseline $\mathbf{x}^*$. Divergence beyond the threshold $\alpha$ triggers repair.
-- **INV-CANON-ENT-002 (DMER L5 Adherence):** All repair procedures are governed by DMER Level 5, which defines the maximum allowable entropy repair depth and the non-compensatory refusal gates.
-- **INV-CANON-ENT-003 (Axiom Adherence):** All repair procedures are strictly bound by M01 through M20 core laws. Repairs that violate a core law are rejected.
-- **INV-CANON-ENT-004 (Fail-Closed Repair):** If the repair cannot restore the system to within the Lyapunov threshold, the system remains in isolated read-only mode rather than promoting a partially repaired state.
-- **INV-CANON-ENT-005 (Immutable Receipts):** Every repair event emits a cryptographic receipt to `17_OBSERVABILITY` including the entropy measurement, repair delta, and convergence verification.
-- **INV-CANON-ENT-006 (Non-Promotion Firewall):** A successful repair confirms structural restoration; it does not confirm semantic correctness or empirical validity. `REPAIRED != VERIFIED`.
-- **INV-CANON-ENT-007 (Steward Authority):** Trang Phan remains the origin architect and steward. Repair protocol changes require governed successor evidence.
-
----
-
-## 3. Mathematical Formulation
-
-The Lyapunov function $V(\mathbf{x})$ measures cognitive state divergence:
-
-$$V(\mathbf{x}) = \frac{1}{2} (\mathbf{x} - \mathbf{x}^*)^T \mathbf{P} (\mathbf{x} - \mathbf{x}^*), \quad \mathbf{P} \succ 0$$
-
-The repair trigger condition:
-
-$$\frac{dV(\mathbf{x})}{dt} > -\alpha \|\mathbf{x} - \mathbf{x}^*\|^2, \quad \alpha > 0$$
-
-The entropy measurement $H_{\text{semantic}}$ quantifies semantic drift:
-
-$$H_{\text{semantic}}(t) = -\sum_{i=1}^{n} p_i(t) \log_2 p_i(t)$$
-
-where $p_i(t)$ is the probability mass of semantic interpretation $i$ at time $t$. The repair threshold:
-
-$$H_{\text{semantic}}(t) > H_{\text{threshold}} \implies \text{trigger repair}$$
-
-The repair delta $\Delta_{\text{repair}}$ must satisfy the reversibility invariant:
-
-$$\text{Rollback}(\Delta_{\text{repair}}) \circ \text{Apply}(\Delta_{\text{repair}}) = \mathbb{I}$$
-
----
-
-## 4. Operational Architecture
-
-```mermaid
-graph TD
-    A[Continuous Entropy Scan] --> B{H > threshold?}
-    B -->|No| C[Normal operation]
-    B -->|Yes| D[DETECT-01: Drift Detection]
-    D --> E[ISOLATE-02: Freeze shard epochs]
-    E --> F[Causal rollback to S_clean]
-    F --> G[REPAIR-03: Deterministic replay]
-    G --> H{Convergence verified?}
-    H -->|Yes| I[Resume normal operation]
-    H -->|No| J[Remain in read-only mode]
-    I --> K[Emit repair receipt]
-    J --> K
-    K --> L[17_OBSERVABILITY]
-```
-
-The 3-phase repair sequence (DETECT-01, ISOLATE-02, REPAIR-03) is MECE: each phase has a distinct responsibility, and no phase overlaps with another.
-
----
-
-## 5. MECE Mapping to AMOS Full Brain OS
-
-| Repair Component | Primary Plane | Partition | Key Dependencies |
-|:---|:---|:---|:---|
-| Entropy detection | 01_CANON | A | 02_KERNEL, 17_OBSERVABILITY |
-| Drift isolation | 02_KERNEL | B | 03_CONTROL_PLANE, 12_STATE |
-| Causal rollback | 02_KERNEL | B | 12_STATE, 04_RUNTIME |
-| Convergence re-sync | 04_RUNTIME | B | 02_KERNEL, 09_PROTOCOLS |
-| Repair receipts | 17_OBSERVABILITY | F | 01_CANON, 02_KERNEL |
-| DMER L5 governance | 01_CANON/01_CORE_LAWS | A | 01_CANON/02_UNIVERSE_CANON |
-
-`01_CANON` owns the repair protocol specification (Partition A). Execution is delegated to `02_KERNEL` and `04_RUNTIME` (Partition B). Receipts flow to `17_OBSERVABILITY` (Partition F).
-
----
-
-## 6. Safety Invariants & Firewalls
-
-- **INV-CANON-ENT-101 (No Partial Promotion):** A repair that does not achieve convergence within the Lyapunov threshold must not promote the partially repaired state. Firewall: `PARTIAL_REPAIR != CONVERGED`.
-- **INV-CANON-ENT-102 (No Silent Resolution):** Epistemic contradictions detected during repair are preserved as `COMPETING` rather than silently resolved. Firewall: `COMPETING != RESOLVED`.
-- **INV-CANON-ENT-103 (No Implementation from Protocol):** The repair protocol specification does not confirm executable implementation. Firewall: `DOCUMENTED != IMPLEMENTED`.
-- **INV-CANON-ENT-104 (No Authority from Repair):** A successful repair does not confer authority over the repaired artifact. Firewall: `CAPABILITY != AUTHORITY`.
-- **INV-CANON-ENT-105 (Zero Data Loss):** The repair protocol must achieve zero data loss during rollback and replay. Any data loss is a critical violation. Firewall: `DATA_LOSS = CRITICAL_VIOLATION`.
-
----
-
-## 7. Navigation & Bindings
-
-- **Master MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
-- **Universe Canon MOC:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
-- **Khung Trang Master:** [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER|KHUNG_TRANG_MASTER]]
-- **Foundational Ontology:** [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_FOUNDATIONAL_ONTOLOGY|KHUNG_TRANG_FOUNDATIONAL_ONTOLOGY]]
-- **Master Equations:** [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER_EQUATIONS|KHUNG_TRANG_MASTER_EQUATIONS]]
-- **Core Laws:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- **DMER L5:** [[01_CANON/01_CORE_LAWS/DMER_L5|DMER_L5]]
-- **IER Architecture:** [[02_KERNEL/AMOS_IDENTITY_ENTROPY_REPAIR_ARCHITECTURE|AMOS_IDENTITY_ENTROPY_REPAIR_ARCHITECTURE]]
-- **Kernel:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
-- **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
-
----
-
-## 8. Known Gaps & Falsifiers
-
-- **GAP-CANON-ENT-001:** The entropy threshold $H_{\text{threshold}}$ is specified as a parameter but its exact value for each cognitive domain is not canonically fixed. State: `UNKNOWN/GAP`.
-- **GAP-CANON-ENT-002:** The 3-phase repair sequence is specified but not yet fully implemented as an executable repair engine. State: `UNIMPLEMENTED`.
-- **GAP-CANON-ENT-003:** The relationship between DMER L5 and the M01-M20 core law hierarchy is not fully mapped. State: `PARTIAL`.
-- **GAP-CANON-ENT-004:** Falsifier: if a repair event is found to have promoted a partially repaired state without convergence verification, the no-partial-promotion invariant is falsified.
-- **GAP-CANON-ENT-005:** Falsifier: if a repair event is found to have silently resolved a competing hypothesis rather than preserving it, the no-silent-resolution invariant is falsified.
+- FEEDS_INTO: [[01_CANON/01_CORE_LAWS/ROLLBACK_AND_RECOVERY_BASINS|ROLLBACK_AND_RECOVERY_BASINS]]
+- RELATED_TO: [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER_EQUATIONS|KHUNG_TRANG_MASTER_EQUATIONS]]

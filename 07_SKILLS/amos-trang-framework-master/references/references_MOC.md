@@ -1,51 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: References MOC — References — Amos Trang Framework Master
-type: moc
-source: 07_SKILLS/amos-trang-framework-master/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: References Moc
 tags:
-  - references
-  - type/skill
-  - cosmo-brain-reasoning-os
-  - first-principle-reasoning-trang
-  - full-phuong-phap-trang
-  - full-phuong-phap-trang-v2
-  - khung-trang
-  - khung-trang-architecture
-  - khung-trang-formalization
-  - khung-trang-language
-  - khung-trang-language-v2
-  - kien-truc-trang
-  - kien-truc-trang-v2
-  - phuong-phap-trang-restructure
-  - phuong-phap-trang-restructure-v2
-  - reality-grammar-equation
-  - seven-cycles-trang-system
-  - tpe-official-manual
-  - tpe-trang-prediction-engine
-  - trang-cascade
-  - trang-dsc-submission-portfolio
-  - trang-empty-framework
-  - trang-empty-framework-complete
-  - trang-grand-system-codex
-  - trang-grand-system-logic-spec
-  - trang-reality-architecture-corpus
-  - trang-system-codex-meta-laws
-  - trang-system-codex-meta-laws-v2
-  - trangs-legacy
-  - tss-official-manual
-  - uap-trang-empty-framework
-  - vault-domain-knowledge
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-moc: true
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # References — Map of Content

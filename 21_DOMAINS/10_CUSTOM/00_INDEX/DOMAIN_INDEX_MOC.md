@@ -47,3 +47,31 @@ The **10_CUSTOM** domain provides specialized epistemological ontologies, invari
 1. **LATEST != AUTHORITATIVE:** All domain representations require explicit RSCF provenance and transaction proofs.
 2. **MODEL != RUNTIME:** Domain models must not be conflated with deployed executable execution boundaries.
 3. **FAIL-CLOSED:** In the event of schema mutation or unverified external telemetry, fail-closed isolation is mandatory.
+
+## Domain Scope
+
+Custom covers heritage intelligence domains, NeuroSyncAI domains, planetary synchronization interfaces, and custom domain templates. This domain is part of the AMOS Cognitive Capability partition (MECE group C) and routes specialist reasoning through the 21_DOMAINS plane. It connects to the AMOS Full Brain OS through capability delegation from 05_COGNITIVE_ORGANISM and skill binding through 07_SKILLS.
+
+## Key Artifacts
+
+- [[21_DOMAINS/10_CUSTOM/00_INDEX/DOMAIN_INDEX_MOC|Domain Index]]
+- [[07_SKILLS/07_SKILLS_MOC|Skills MOC]]
+- [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|Knowledge MOC]]
+- [[22_RESEARCH/01_PAPERS/01_PAPERS_MOC|Research Papers MOC]]
+- [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|MECE Architecture]]
+- [[01_CANON/03_COGNITION_CANON/AMOS_COGNITION_CANON|Cognition Canon]]
+- [[13_MODELS/13_MODELS_MOC|Models MOC]]
+- [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|Cognitive Organism MOC]]
+
+## Cross-Domain Bridges
+
+- [[21_DOMAINS/11_C01_META_LOGIC/00_INDEX/DOMAIN_INDEX_MOC|C01 Meta Logic]]
+- [[21_DOMAINS/12_C02_MATH_COMPUTE/00_INDEX/DOMAIN_INDEX_MOC|C02 Math Compute]]
+- [[21_DOMAINS/20_C10_TECH_ENGINEERING/00_INDEX/DOMAIN_INDEX_MOC|C10 Tech Engineering]]
+
+## Epistemic Status
+
+- **Epistemic class**: AMOS_MODEL
+- **Conclusion class**: DERIVED
+- **Confidence ceiling**: Navigation artifact; domain authority depends on individual artifact epistemic classes
+- **MECE partition**: Group C — Cognitive Capability & Orchestration

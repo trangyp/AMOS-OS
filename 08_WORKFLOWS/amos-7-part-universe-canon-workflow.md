@@ -123,7 +123,7 @@ ORIENT -> MAP -> TEST -> CHALLENGE -> SYNTHESIZE
 ## Failure Paths
 
 - **Scope failure**: If target or scope is missing, raise GapError and fail closed.
-- **Mapping failure**: If parts are missing, flag as `missing_part:{name}` and mark CONDITIONAL.
+- **Mapping failure**: If parts are missing, flag as `missing_part:amos-7-part-universe-canon-workflow` and mark CONDITIONAL.
 - **Firewall failure**: If SOURCE_CANON is promoted to EMPIRICAL_LAW, flag violation and block.
 - **Authority failure**: Write-classified operations (manage_lifecycle, escalate_gaps) require authorized_write.
 - **Unknown execution**: Mark as GAP, do not fabricate to remove placeholders.

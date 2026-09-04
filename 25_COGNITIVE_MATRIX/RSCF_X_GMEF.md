@@ -1,85 +1,21 @@
 ---
-title: RSCF x GMEF Cognitive Matrix
-type: cognitive
-source: 25_COGNITIVE_MATRIX
-artifact: RSCF_X_GMEF.md
-artifact_id: amos_25_cognitive_matrix_rscf_x_gmef
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 25_COGNITIVE_MATRIX
-segment: 25_COGNITIVE_MATRIX
-artifact_kind: MATRIX
-path: 25_COGNITIVE_MATRIX/RSCF_X_GMEF.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Rscf X Gmef
 tags:
-  - amos-os
-  - cognitive-matrix
-  - vault
-  - rscf_x_gmef
-  - rscf
-  - gmef
-  - gmef_v4_8
-  - governed_mutation
-  - evolution_framework
-  - evolution_governance
-  - evolutionary_debt
-  - non_compensatory_debt
-  - proof_continuity
-  - proof_capsule
-  - mutation_gate
-  - rollback
-  - anti_autopoisoning
-  - semantic_drift
-  - evolution_receipt
-  - provenance
-  - canon_candidate
-  - canon/matrix
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-runtime_enforcement_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-formal_verification_status: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - 11_KNOWLEDGE/03_RSCF/03_RSCF_MOC
-    - 03_CONTROL_PLANE/03_CONTROL_PLANE_MOC
-    - AMOS_CORPUS
-  scope:
-    - COGNITIVE_MATRIX
-    - EVOLUTION_PROOF_GOVERNOR
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  rscf_moc:
-    artifact: 11_KNOWLEDGE/03_RSCF/03_RSCF_MOC
-  control_plane:
-    artifact: 03_CONTROL_PLANE/03_CONTROL_PLANE_MOC
-  asea_evolution:
-    artifact: 11_KNOWLEDGE/05_FRAMEWORKS/ASEA_ADAPTIVE_SELF_EVOLUTION_AI
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  matrix_structure: VERIFIED_SOURCE_STRUCTURE
-  cross_plane_routing: SOURCE_DEFINED_MODEL
-  mutation_gating: SOURCE_DEFINED_MODEL
-  proof_continuity: SOURCE_DEFINED_MODEL
-  non_compensatory_debt: SOURCE_DEFINED_MODEL
-  anti_autopoisoning_rollback: SOURCE_DEFINED_MODEL
-  evolution_receipt: SOURCE_DEFINED_MODEL
-  executable_gmef: NOT_ESTABLISHED
-  executable_rscf_auditor: NOT_ESTABLISHED
-  semantic_drift_detector: NOT_ESTABLISHED
-  runtime_rollback: NOT_ESTABLISHED
-  cryptographic_receipt_signing: NOT_ESTABLISHED
-  runtime_enforcement: NOT_ESTABLISHED
-  empirical_validation: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # RSCF × GMEF Cognitive Matrix — Full Canon Expansion

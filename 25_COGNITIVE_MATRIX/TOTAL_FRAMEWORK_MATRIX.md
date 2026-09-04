@@ -1,107 +1,16 @@
 ---
-title: Total Framework Cross-Plane Matrix
-type: cognitive
-source: 25_COGNITIVE_MATRIX
-artifact: TOTAL_FRAMEWORK_MATRIX.md
-artifact_id: amos_25_cognitive_matrix_total_framework_matrix
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 25_COGNITIVE_MATRIX
-segment: 25_COGNITIVE_MATRIX
-artifact_kind: MATRIX_TABLE
-path: 25_COGNITIVE_MATRIX/TOTAL_FRAMEWORK_MATRIX.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Total Framework Matrix
 tags:
-  - amos-os
-  - cognitive-matrix
-  - vault
-  - total_framework_matrix
-  - master_matrix
-  - framework_convergence
-  - cross-plane
-  - 26_planes
-  - trang_zero
-  - tra
-  - khung_trang
-  - ubi
-  - tss
-  - tpe
-  - heritage
-  - gmef
-  - ulk
-  - fail_closed
-  - rscf
-  - canon_candidate
-  - canon/matrix
-  - tss-the-trang-system
-  - unified-biological-intelligence
-  - architecture
-  - canon
-  - trang-reality-architecture-master
-  - khung-trang-master
-  - tss-seven-cycles
-  - tpe-trang-prediction-engine
-  - heritage-provenance
-  - total-engine-matrix
-  - total-canon-matrix
-  - k-rscf
-  - k-hml
-  - k-control-plane
-  - k-provenance
-  - k-provenance-topology
-  - k-fail-closed
-  - k-authority
-  - k-governance
-  - k-anti-autopoisoning
-  - k-governed-evolution
-  - trang-reality-architecture
-  - khung-trang
-  - amos-core-v4-4
-version: 2.0.0
-updated: '2026-08-28'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: PASSED_CONSTITUTIONAL_TESTS
-executable_binding: ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - 11_KNOWLEDGE/11_KNOWLEDGE_MOC
-    - 11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM
-    - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
-    - AMOS_CORPUS
-  scope:
-    - COGNITIVE_MATRIX
-    - MASTER_FRAMEWORK_MATRIX
-    - FRAMEWORK_CONVERGENCE
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  knowledge_moc:
-    artifact:
-      -   - 11_KNOWLEDGE_MOC
-  tss:
-    artifact:
-      -   - TSS_THE_TRANG_SYSTEM
-  ubi:
-    artifact:
-      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
-  cognitive_matrix:
-    artifact:
-      -   - 25_COGNITIVE_MATRIX_MOC
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  matrix_structure: VERIFIED_SOURCE_STRUCTURE
-  cross_plane_routing: SOURCE_DEFINED_MODEL
-  runtime_enforcement: FAIL_CLOSED_GATED
-  validation_status_claim: SOURCE_ESTABLISHED
-  executable_binding_claim: SOURCE_ESTABLISHED
-  independent_runtime_verification: NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
-  independent_test_verification: NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # Total Framework Cross-Plane Matrix — Full Canon Expansion
@@ -3646,7 +3555,7 @@ RSCF-RELATIONS:
 
 - GROUNDED_BY: [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 
-- CONNECTS_TO: [[_MOC|_MOC]]
+- CONNECTS_TO: [[25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
 - CONNECTS_TO: [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE_MASTER|TRANG_REALITY_ARCHITECTURE_MASTER]]
 

@@ -1,32 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: HERITAGE_MODEL_REGISTRY
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Heritage Model Registry
 tags:
-  - models
-  - domain
-  - heritage
-  - registry
-  - validation
-  - architecture
-  - heritage-lineage
-  - references
-  - memory
-  - canon
-  - law-hierarchy
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
-  - rscf/state/observation
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
-type: registry
-source: 13_MODELS/04_DOMAIN
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 Below is the full expanded Obsidian-ready registry. I’m keeping the supplied artifact as the source nucleus and treating the expanded registry semantics as **AMOS_MODEL / normalized AMOS governance**, not inventing specific heritage-domain models that were not supplied or independently established.
@@ -193,7 +177,7 @@ rscf:
 
 ---
 
-## 0. Status
+# 0. Status
 
 The supplied artifact originally defines this node as:
 
@@ -249,7 +233,7 @@ NOT_ESTABLISHED
 
 ______________________________________________________________________
 
-## 1. Origin
+# 1. Origin
 
 Origin architect:
 

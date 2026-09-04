@@ -1,80 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: COSMO BRAIN BRIDGE INDEX
-type: index
-source: 11_KNOWLEDGE
-canon-group: reference
-rscf-state: derived
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Cosmo Brain Bridge Index
 tags:
-  - index
-  - bridge
-  - cosmo-brain
-  - canon/knowledge
-  - adversarial-validation
-  - agents
-  - ai-workforce-layer
-  - architecture
-  - amos-cognition-total-kernel
-  - canon
-  - amos-omni-factory-engine
-  - amos-super-consciousness-engine
-  - amos-ubi-kernel
-  - boundary-identity
-  - claim-tensor
-  - cognition-kernel
-  - constraint-engine
-  - engineering-standards-library
-  - equation-firewall
-  - error-recovery
-  - evidence-tensor
-  - final-gate
-  - fractal-runtime
-  - governance-tensor
-  - implementation-manifest
-  - kernel-protocol
-  - khung-trang-full-max-detail-architecture-equations
-  - logic-kernel
-  - memory-architecture
-  - readme
-  - regime-freshness
-  - relation-tensor
-  - relation-topology
-  - rscf-proof-capsule
-  - sensitivity-falsifiers
-  - skill
-  - speed-governor
-  - system-status
-  - tensor-contracts
-  - validation
-  - integration
-  - ratpak
-  - unipower-tech-design-metabrain
-  - consulting-engine-super
-  - agent-working-instructions-v2
-  - agi-completion-report
-  - amos-infinite-complete
-  - hallucination-cleanup-report
-  - money-regimes-structural-analysis
-  - final-system-integration-report
-  - consolidation-report
-  - deployment-guide
-  - production-deployment-report
-  - emergency-crash-prevention
-  - operational-status
-  - system-optimization-complete
-  - system-status-summary
-  - system-status-summary-v2
-  - system-status-summary-v3
-  - agent-naming-convention
-  - agent-template
-  - amos-cognitive-architecture-matrix
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Cosmo Brain Bridge Index

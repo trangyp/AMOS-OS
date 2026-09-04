@@ -1,55 +1,16 @@
 ---
-title: CANON PROVENANCE
-type: canon
-source: 01_CANON/07_PROVENANCE
-artifact_id: AMOS-OS-CANON-PROVENANCE
-canonical_name: CANON_PROVENANCE
-artifact_type: canonical_provenance_registry
-registry_type: canon_lineage_and_evidence_registry
-status: SOURCE_CLAIM
-conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-domain: canon
-scope: AMOS_OS
-authority_scope: canon-provenance-lineage-and-supersession
-created: 2026-08-25
-updated: 2026-08-25
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Canon Provenance
 tags:
-  - amos-os
-  - canon
-  - universe
-  - canon-group/meta
-  - canon/provenance
-  - canon/lineage
-  - canon/supersession
-  - canon/evidence
-  - canon/registry
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
   - rscf/state/source-claim
-  - topic/canon-provenance
-  - topic/source-lineage
-  - topic/provenance-topology
-  - topic/version-lineage
-  - topic/causal-lineage
-  - topic/sybil-hardening
-  - topic/persistent-provenance
-  - readme
-  - architecture
-  - neural-network
-  - amos-core-laws
-  - law-hierarchy
-  - canonical-glossary
-  - deprecated-terms
-aliases:
-  - AMOS Canon Provenance - Canon Provenance Registry - AMOS Canon Lineage Registry - Canon Sour
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AMOS OS Canon Provenance
@@ -3021,7 +2982,7 @@ UNTIL EVIDENCE CLOSES THE PATH.
 ## Related
 
 README ·
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]] ·
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]] ·
 [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] ·
 [[00_ROOT/SYSTEM_MAP|SYSTEM_MAP]] ·
 NAMING_STANDARD ·
@@ -3053,7 +3014,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

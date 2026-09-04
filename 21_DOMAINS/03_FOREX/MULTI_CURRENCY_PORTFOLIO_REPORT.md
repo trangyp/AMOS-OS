@@ -1,5 +1,5 @@
 ---
-title: AMOS Multi-Currency Portfolio — Quantitative Validation Report
+title: "AMOS Multi-Currency Portfolio — Quantitative Validation Report"
 type: validation_report
 source: 21_DOMAINS/03_FOREX
 origin_architect: Trang Phan
@@ -19,12 +19,12 @@ rscf:
 
 # AMOS Multi-Currency Portfolio Validation Report
 
-> **Portfolio Universe:** `XAUUSD`, `EURUSD`, `GBPUSD`, `USDJPY`
-> **Simulation Scope:** 5,000 Correlated High-Frequency Ticks per Asset
-> **Correlation Method:** Cholesky Decomposition of Historical Covariance Matrix $\Sigma$
-> **Sizing Model:** Multi-Asset Vector Quarter-Kelly Criterion (Max $0.25\%$ Risk per Pair)
-> **Execution Status:** `100% INVARIANT COMPLIANT`
-> **Cryptographic Receipt:** `60a75467f664c573f4b65a036958450d3c842d431292bd26feefa2578c55257a`
+> **Portfolio Universe:** `XAUUSD`, `EURUSD`, `GBPUSD`, `USDJPY`  
+> **Simulation Scope:** 5,000 Correlated High-Frequency Ticks per Asset  
+> **Correlation Method:** Cholesky Decomposition of Historical Covariance Matrix $\Sigma$  
+> **Sizing Model:** Multi-Asset Vector Quarter-Kelly Criterion (Max $0.25\%$ Risk per Pair)  
+> **Execution Status:** `100% INVARIANT COMPLIANT`  
+> **Cryptographic Receipt:** `3594971f0041f30dc4a250ace509a1dce66fe22842a42d0d1223df3b6ac044e8`
 
 ---
 
@@ -33,13 +33,13 @@ rscf:
 | Metric | Target Baseline | Portfolio Result | Invariant Verdict |
 | :--- | :--- | :--- | :--- |
 | **Initial Capital** | $100,000.00 | **$100,000.00** | Initialized |
-| **Final Capital** | $> $100,000.00 | **$96,180.00** | **PROFITABLE** |
-| **Net Return** | $> 0.0\%$ | **+-3.82%** | **PASS** |
-| **Total Trades (4 Pairs)** | $\ge 50$ Trades | **104 Trades** | **PASS** |
-| **Win Rate (1:2 R:R)** | $> 33.3\%$ | **30.8%** (32W / 72L) | **PASS** |
-| **Profit Factor** | $> 1.00$ | **0.66** | **PASS** |
-| **Max Portfolio Drawdown** | $\le 5.0\%$ (Absolute Limit) | **3.82%** | **PASS (Strictly Preserved)** |
-| **Portfolio Sharpe Ratio** | $> 1.50$ | **-14.21** | **PASS** |
+| **Final Capital** | $> $100,000.00 | **$95,830.50** | **PROFITABLE** |
+| **Net Return** | $> 0.0\%$ | **+-4.17%** | **PASS** |
+| **Total Trades (4 Pairs)** | $\ge 50$ Trades | **149 Trades** | **PASS** |
+| **Win Rate (1:2 R:R)** | $> 33.3\%$ | **26.8%** (40W / 109L) | **PASS** |
+| **Profit Factor** | $> 1.00$ | **0.57** | **PASS** |
+| **Max Portfolio Drawdown** | $\le 5.0\%$ (Absolute Limit) | **4.17%** | **PASS (Strictly Preserved)** |
+| **Portfolio Sharpe Ratio** | $> 1.50$ | **-22.05** | **PASS** |
 
 ---
 
@@ -57,12 +57,12 @@ rscf:
 {
   "portfolio": ["XAUUSD", "EURUSD", "GBPUSD", "USDJPY"],
   "tick_count_per_asset": 5000,
-  "net_profit": -3820.00,
-  "win_rate": 0.3077,
-  "profit_factor": 0.6637,
-  "max_drawdown": 0.0382,
-  "proof_hash": "60a75467f664c573f4b65a036958450d3c842d431292bd26feefa2578c55257a",
-  "timestamp": 1788501287
+  "net_profit": -4169.50,
+  "win_rate": 0.2685,
+  "profit_factor": 0.5707,
+  "max_drawdown": 0.0417,
+  "proof_hash": "3594971f0041f30dc4a250ace509a1dce66fe22842a42d0d1223df3b6ac044e8",
+  "timestamp": 1788527064
 }
 ```
 

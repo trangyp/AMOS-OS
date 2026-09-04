@@ -1,99 +1,16 @@
 ---
-title: Total Engine Cross-Plane Matrix
-type: cognitive
-source: 25_COGNITIVE_MATRIX
-artifact: TOTAL_ENGINE_MATRIX.md
-artifact_id: amos_25_cognitive_matrix_total_engine_matrix
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 25_COGNITIVE_MATRIX
-segment: 25_COGNITIVE_MATRIX
-artifact_kind: MATRIX_TABLE
-path: 25_COGNITIVE_MATRIX/TOTAL_ENGINE_MATRIX.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Total Engine Matrix
 tags:
-  - amos-os
-  - cognitive-matrix
-  - vault
-  - total_engine_matrix
-  - engine_routing
-  - multi_engine_convergence
-  - domain_engines
-  - canonical_domain_engines
-  - c01_c12
-  - super_engines
-  - ldai
-  - frai
-  - asea
-  - dcp
-  - fail_closed
-  - cross-plane
-  - control-plane
-  - runtime
-  - domains
-  - rscf
-  - canon_candidate
-  - canon/matrix
-  - validation
-  - total-canon-matrix
-  - unified-biological-intelligence
-  - tss-the-trang-system
-  - tpe-trang-prediction-engine
-  - k-rscf
-  - k-hml
-  - k-control-plane
-  - k-domains
-  - k-provenance
-  - k-provenance-topology
-  - k-fail-closed
-  - k-authority
-  - k-governance
-  - k-anti-autopoisoning
-  - k-governed-evolution
-  - c10-tech-engineering
-  - amos-core-v4-4
-version: 2.0.0
-updated: '2026-08-28'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: PASSED_CONSTITUTIONAL_TESTS
-executable_binding: ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - 03_CONTROL_PLANE/03_CONTROL_PLANE_MOC
-    - 21_DOMAINS/21_DOMAINS_MOC
-    - 11_KNOWLEDGE/11_KNOWLEDGE_MOC
-    - AMOS_CORPUS
-  scope:
-    - COGNITIVE_MATRIX
-    - MASTER_ENGINE_MATRIX
-    - DOMAIN_ENGINES_C01_C12
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  control_plane:
-    artifact:
-      -   - 03_CONTROL_PLANE_MOC
-  domains_moc:
-    artifact:
-      -   - 21_DOMAINS_MOC
-  cognitive_matrix:
-    artifact:
-      -   - 25_COGNITIVE_MATRIX_MOC
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  matrix_structure: VERIFIED_SOURCE_STRUCTURE
-  cross_plane_routing: SOURCE_DEFINED_MODEL
-  runtime_enforcement: FAIL_CLOSED_GATED
-  executable_binding_claim: SOURCE_ESTABLISHED
-  constitutional_test_claim: SOURCE_ESTABLISHED
-  independent_runtime_verification: NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
-  independent_test_verification: NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # Total Engine Cross-Plane Matrix — Full Canon Expansion

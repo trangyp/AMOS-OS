@@ -1,26 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: SOTA Agent Skill / Workflow / Orchestration Repos
-type: wiki
-source: 11_KNOWLEDGE/LLM_WIKI/raw/SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_25.md
-date: '2026-08-25'
-epistemic_class: DERIVED
-provenance: Synthesized from web_search and README snippets
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_25.md
-  scope: AMOS_knowledge
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Sota Agent Skill Workflow Repos
 tags:
-  - llm-wiki
-  - sota
-  - agent-skills
-  - agent-workflows
-  - orchestration
-  - github
-  - llm-wiki-synthesis
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # SOTA Agent Skill / Workflow / Orchestration Repositories

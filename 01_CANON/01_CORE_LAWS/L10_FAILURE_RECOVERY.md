@@ -1,38 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: L10 FAILURE RECOVERY
-type: failure-mode
-source: 01_CANON/01_CORE_LAWS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: L10 Failure Recovery
 tags:
-  - canon
-  - core_laws
-  - failure_recovery
-  - resilience
-  - rollback
-  - provenance
-  - governance
-  - canon/universe
-  - dmer-l5
-  - validation
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-  - provenance-topology
-  - mvcc-cas
-  - causal-epoch-finality
-  - atomic-multi-rscf-reasoning
-  - fail-closed-governance
-  - rollback-and-recovery-basins
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: core_laws
-  canonical_status: CONDITIONAL
-  specification_status: PROPOSED_SPECIFICATION
-  node_id: l10_failure_recovery
-  node_type: note
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # L10 Failure & Recovery Laws
@@ -91,7 +69,7 @@ Recovery is not defined as merely returning a subsystem to an operational state.
 
 ---
 
-## 1. Governing Objective
+# 1. Governing Objective
 
 The objective of L10 is to minimize:
 
@@ -2756,4 +2734,9 @@ FAIL
 
 **Conclusion class: CONDITIONAL / AMOS_MODEL.**
 
+```
+```
+
+```
+```
 ```

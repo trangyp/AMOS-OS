@@ -1,64 +1,21 @@
 ---
-title: Fractal Runtime Specification
-type: runtime
-source: 04_RUNTIME/06_EXECUTION
-artifact: FRACTAL_RUNTIME.md
-artifact_id: amos_04_runtime_06_execution_fractal_runtime
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 04_RUNTIME
-segment: 04_RUNTIME/06_EXECUTION
-artifact_kind: RUNTIME_SPEC
-path: 04_RUNTIME/06_EXECUTION/FRACTAL_RUNTIME.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Fractal Runtime
 tags:
-  - amos-os
-  - runtime
-  - vault
-  - 06_execution
-  - fractal_runtime
-  - multi_scale_recursion
-  - lacunarity_gating
-  - rscf
-  - canon_candidate
-  - canon/runtime
-  - frai-fractal-reasoning-ai
-  - trang-lacunarity
-  - heritage-fractal-mathematics
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
-    - 11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI
-    - 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LACUNARITY
-    - AMOS_CORPUS
-  scope:
-    - RUNTIME_EXECUTION
-    - FRACTAL_EXECUTION
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  execution_moc:
-    artifact: 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
-  frai_framework:
-    artifact: 11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI
-  lacunarity_framework:
-    artifact: 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LACUNARITY
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  spec_structure: VERIFIED_SOURCE_STRUCTURE
-  execution_algorithm: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Fractal Runtime Execution Specification

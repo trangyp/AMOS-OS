@@ -9,7 +9,10 @@ parent_skill: amos-memory-systems-master
 domain: memory
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
+  conclusion_class: AMOS_MODEL
 tags:
+  rscf-state: DERIVED
+  conclusion_class: AMOS_MODEL
   - type/skill
   - type/skill
   - domain/memory-systems
@@ -45,7 +48,6 @@ law_compliance:
   - L17
 license: MIT
 steward: Trang Phan
----
 
 # Agent Memory Dynamics Rscf Engine
 
@@ -194,7 +196,7 @@ ______________________________________________________________________
 - **Parent**: `amos-memory-systems-master` — routes to this skill when memory specialization is needed
 - **Peers**: Other skills in the `memory` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
-- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Workflow**: Each skill has a corresponding workflow in `26_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
 
 ## Evaluation

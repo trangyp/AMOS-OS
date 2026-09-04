@@ -1,60 +1,27 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: References MOC — References — Amos C07 Econ Finance Master
-type: moc
-source: 07_SKILLS/amos-c07-econ-finance-master/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: References Moc
 tags:
-  - references
-  - type/skill
-  - 11k-investment-agent
-  - australia-economy-engine
-  - australia-engine-layer
-  - bizfin-engine-sector-packs
-  - bizfin-kernel
-  - bizfin-super-engine
-  - business-finance-super-engine
-  - coercion-economy
-  - consulting-bizfin-engine
-  - datapoint-economic-role-mapping
-  - easy-fractal-money
-  - econ-finance-engine-cognitive
-  - econ-finance-engine-layer
-  - floating-economy-market
-  - fractal-economy
-  - global-signal-economy-masterplan
-  - innovative-private-sector-solutions
-  - market-econ-kernel
-  - money-regimes-structural-analysis
-  - revenue-architecture-kernel
-  - sector-rotation-engine
-  - signal-economy-investor-pitch
-  - signal-economy-planetary-consent
-  - signal-economy-rollout-playbook
-  - signal-economy-trust-study
-  - subscription-agent
-  - ubi-super-engine
-  - uni-market-engine
-  - vault-domain-knowledge
-  - vn-business-model-criteria
-  - vn-vscci-investment-proposal
-  - wealth-game-hack-5000
-  - wealth-game-hack-50000
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-moc: true
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # References — Map of Content
 
 **Path:** `07_SKILLS/amos-c07-econ-finance-master/references`
-**Files:** 33 | **Subdirectories:** 0
+**Files:** 34 | **Subdirectories:** 0
 
 ## Files
 
@@ -91,6 +58,7 @@ rscf:
 - [[07_SKILLS/amos-c07-econ-finance-master/references/vn_vscci_investment_proposal|vn_vscci_investment_proposal]]
 - [[07_SKILLS/amos-c07-econ-finance-master/references/wealth_game_hack_5000|wealth_game_hack_5000]]
 - [[07_SKILLS/amos-c07-econ-finance-master/references/wealth_game_hack_50000|wealth_game_hack_50000]]
+- [[07_SKILLS/amos-c07-econ-finance-master/references/arvix_quantum_econ_finance_evidence_bridge|arvix_quantum_econ_finance_evidence_bridge]]
 
 ______________________________________________________________________
 

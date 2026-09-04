@@ -1,60 +1,16 @@
 ---
-title: K CONSTRAINT PROPAGATION
-type: constraint
-source: 02_KERNEL/09_INTEGRATION
-artifact_id: AMOS-OS-K-CONSTRAINT-PROPAGATION
-canonical_name: K_CONSTRAINT_PROPAGATION
-artifact_type: kernel_constraint_propagation_contract
-status: AMOS_MODEL
-conclusion_class: MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: KERNEL
-scope: AMOS_OS
-updated: 2026-08-26
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: K Constraint Propagation
 tags:
-  - kernel
-  - integration
-  - note
-  - canon/kernel
-  - readme
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - source-lineage
-  - supersession-log
-  - k-distinction-relation-constraint
-  - k-binding
-  - k-identity
-  - k-law-hierarchy
-  - k-provenance
-  - k-provenance-topology
-  - k-sybil-hardening
-  - k-context-state
-  - k-system-state
-  - k-world-model
-  - k-memory-admission
-  - k-memory-conflict
-  - k-memory-retrieval
-  - k-context-compaction
-  - k-capability-authorization
-  - k-risk-constraint
-  - k-effect-classification
-  - k-information-exposure
-  - k-causal-closure
-  - k-causal-epoch
-  - k-multi-hypothesis
-  - k-metacognition
-  - k-commit-time-authority
-  - k-collapse-recovery
-  - k-repair-priority
-  - k-repair-harm
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # K CONSTRAINT PROPAGATION
@@ -2925,7 +2881,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

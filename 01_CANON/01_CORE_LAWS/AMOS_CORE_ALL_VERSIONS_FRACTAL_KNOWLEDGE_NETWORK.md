@@ -1,82 +1,16 @@
 ---
-title: AMOS Core All Versions Fractal Knowledge Network
-type: law
-source: 01_CANON/01_CORE_LAWS
-artifact: AMOS_CORE_ALL_VERSIONS_FRACTAL_KNOWLEDGE_NETWORK.md
-artifact_id: amos_01_canon_01_core_laws_amos_core_all_versions_fractal_knowledge_network
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/01_CORE_LAWS
-artifact_kind: CORE_LINEAGE_NETWORK
-path: 01_CANON/01_CORE_LAWS/AMOS_CORE_ALL_VERSIONS_FRACTAL_KNOWLEDGE_NETWORK.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Amos Core All Versions Fractal Knowledge Network
 tags:
-  - amos-os
-  - canon
-  - core
-  - core_law
-  - versions
-  - lineage
-  - evolution
-  - fractal_knowledge_network
-  - rscf
-  - hml
-  - gmef
-  - provenance
-  - provenance_topology
-  - persistent_provenance
-  - causal_lineage
-  - competing_hypotheses
-  - epistemic_regimes
-  - mvcc
-  - cas
-  - transactions
-  - causal_epochs
-  - coordination_avoidance
-  - knowledge_harvest
-  - recursive_retrieval
-  - canon/core
-  - readme
-  - amos-core
-  - runtime-lineage
-  - fractal-knowledge-network
-  - selective-invalidation
-  - trang-framework-recursive-ontology-dynamics
-version: 1.0.0
-updated: '2026-08-28'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: MIXED_BY_VERSION
-validation_status: VERSION_AND_CLAIM_SPECIFIC
-executable_binding: PARTIAL_SOURCE_REPORTED
-ingestion_action: NATIVE_CANON_NORMALIZATION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_GROUNDED
-  claim_class: AMOS_MODEL
-  provenance:
-    - AMOS_CORE_ALL_VERSIONS_FRACTAL_KNOWLEDGE_NETWORK.json
-    - AMOS_CORE_ALL_VERSIONS_EXHAUSTIVE_MASTER_UPDATED.json
-    - AMOS_CORE_ALL_VERSIONS_EXHAUSTIVE_MASTER.json
-    - AMOS_CORE_v3_0_to_v4_4_lineage
-    - AMOS_corpus
-  scope:
-    - AMOS_CORE
-    - CORE_LAWS
-    - VERSION_LINEAGE
-    - FRACTAL_KNOWLEDGE_NETWORK
-    - RSCF
-    - GMEF
-    - KNOWLEDGE_HARVEST
-  confidence_ceiling:
-    lineage_v3_0_to_v4_4: SOURCE_GROUNDED
-    lineage_v1_0_to_v5_8: UNKNOWN/GAP
-    architectural_model: SOURCE_GROUNDED
-    implementation: VERSION_SPECIFIC
-    benchmarks: TEST_SCOPE_ONLY
-    empirical_generalization: NOT_LICENSED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AMOS Core All Versions Fractal Knowledge Network
@@ -3437,7 +3371,7 @@ RSCF-RELATIONS:
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

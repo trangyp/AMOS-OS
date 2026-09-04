@@ -1,24 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: LLM Wiki MOC
-type: moc
-source: 11_KNOWLEDGE/LLM_WIKI
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Llm Wiki Moc
 tags:
-  - llm-wiki
-  - 11-knowledge
-  - canon/knowledge
-  - amos-llm-wiki
-  - llm-wiki-log
-  - amos-llm-wiki-tool
-  - karpathy-llm-wiki-summary
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # LLM Wiki — Map of Content
@@ -97,7 +94,7 @@ rscf:
 ## Related MOCs
 
 - [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]]
-- [[_MOC|_MOC]]
+- [[00_ROOT_MOC|00_ROOT_MOC]]
 - [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
 
 ______________________________________________________________________
@@ -109,7 +106,7 @@ path: 11_KNOWLEDGE/LLM_WIKI/LLM_WIKI_MOC.md
 RSCF-RELATIONS:
 
 - INDEXED_BY: [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]]
-- INDEXED_BY: [[_MOC|_MOC]]
+- INDEXED_BY: [[00_ROOT_MOC|00_ROOT_MOC]]
 - INDEXED_BY: [[00_ROOT/AMOS_LLM_WIKI|AMOS_LLM_WIKI]]
   claim_class: AMOS_MODEL
 

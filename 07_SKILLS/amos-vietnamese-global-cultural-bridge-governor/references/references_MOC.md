@@ -1,31 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: References MOC — References — Amos Vietnamese Global Cultural Bridge Governor
-type: moc
-source: 07_SKILLS/amos-vietnamese-global-cultural-bridge-governor/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: References Moc
 tags:
-  - references
-  - type/skill
-  - vault-domain-knowledge
-  - vn-20-impossible-competitions
-  - vn-akashic-thong-thien
-  - vn-amos-absolute-architecture
-  - vn-amos-absolute-integration
-  - vn-cross-time-civilization-journey
-  - vn-gia-he-dieu-tiet
-  - vn-map-of-everything
-  - vn-neural-invariance-silence
-  - vn-what-you-discovered
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-moc: true
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # References — Map of Content

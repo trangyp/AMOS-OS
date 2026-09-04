@@ -1,76 +1,21 @@
 ---
-title: Heritage-to-TRANG Zero Binding
-type: heritage
-source: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact: HERITAGE_TO_TRANG_ZERO_BINDING.md
-artifact_id: amos_11_knowledge_05_frameworks_heritage_to_trang_zero_binding
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 11_KNOWLEDGE
-segment: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact_kind: BINDING
-path: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_TO_TRANG_ZERO_BINDING.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Heritage To Trang Zero Binding
 tags:
-  - amos-os
-  - knowledge
-  - vault
-  - 05_frameworks
-  - heritage_zero_binding
-  - trang_zero
-  - heritage
-  - null_state_ground
-  - invariant_root
-  - anti_autopoisoning
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-  - heritage-intelligence-master
-  - trang-zero-framework
-  - heritage-x-trang-zero
-  - heritage-x-trang-zero-matrix
-  - trang-reality-architecture
-  - heritage-zero-framework
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - HERITAGE_INTELLIGENCE_CANON
-    - TRANG_ZERO_FRAMEWORK_CANON
-    - AMOS_CORPUS
-  scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - FRAMEWORK_BINDINGS
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  source_framework:
-    name: Heritage Decision Intelligence™
-    artifact:
-      -   - HERITAGE_INTELLIGENCE_MASTER
-  target_framework:
-    name: Trang ∅ / Trang Zero Framework
-    artifact:
-      -   - TRANG_ZERO_FRAMEWORK
-  cognitive_matrix_binding:
-    artifact:
-      -   - HERITAGE_X_TRANG_ZERO
-    matrix:
-      -   - HERITAGE_X_TRANG_ZERO_MATRIX
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  binding_structure: VERIFIED_SOURCE_STRUCTURE
-  null_state_rules: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Heritage-to-TRANG Zero Binding

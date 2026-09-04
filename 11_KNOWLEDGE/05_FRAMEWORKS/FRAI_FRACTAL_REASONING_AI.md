@@ -1,77 +1,21 @@
 ---
-title: FRAI — Fractal Reasoning AI
-type: fractal
-source: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact: FRAI_FRACTAL_REASONING_AI.md
-artifact_id: amos_11_knowledge_05_frameworks_frai_fractal_reasoning_ai
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 11_KNOWLEDGE
-segment: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact_kind: REASONING
-path: 11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Frai Fractal Reasoning Ai
 tags:
-  - amos-os
-  - knowledge
-  - vault
-  - 05_frameworks
-  - frai
-  - fractal_reasoning_ai
-  - self_similarity
-  - multi_scale_reasoning
-  - lmh_architecture
-  - recursive_decomposition
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-  - ldai-logically-deterministic-ai
-  - trang-lmh-architecture
-  - trang-reality-architecture
-  - khung-trang
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - TRANG_FRAI_FRACTAL_REASONING_AI
-    - AMOS_FRACTAL_CONSCIOUSNESS_WHITEPAPER_FULL_FIXED
-    - AMOS_CORPUS
-  scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - FRACTAL_REASONING
-    - SOURCE_DEFINED_FRAI_MODEL
-framework_binding:
-  primary:
-    name: Trang FRAI (Fractal Reasoning AI)
-    acronym: FRAI
-    role: MULTI_SCALE_FRACTAL_REASONING_ENGINE
-  underlying_deterministic_engine:
-    name: Trang LDAI (Logically Deterministic AI)
-    acronym: LDAI
-    artifact:
-      -   - LDAI_LOGICALLY_DETERMINISTIC_AI
-  structural_grounding:
-    name: Trang LMH Architecture
-    artifact:
-      -   - TRANG_LMH_ARCHITECTURE
-  cognitive_matrix_binding:
-    artifact:
-      -   - 25_COGNITIVE_MATRIX_MOC
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  framework_structure: VERIFIED_SOURCE_STRUCTURE
-  fractal_logic: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # FRAI — Fractal Reasoning AI™

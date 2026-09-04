@@ -1,68 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS RSCF NODES
-type: rscf
-source: 00_ROOT
-canon-group: reference
-rscf-state: derived
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Rscf Nodes
 tags:
-- rscf
-- index
-- nodes
-- canon/root
-- authoritative-state
-- cognitive-matrix-integration
-- full-tree
-- neural-network
-- placement-rules
-- roadmap
-- system-map-v1
-- amos-core-laws
-- law/L0-integrity
-- law/L10-failure-recovery
-- law/L11-knowledge-memory
-- law/L15-fractal-knowledge
-- law/L16-hml
-- law/L17-rscf
-- law/L18-gmef
-- law/L19-proof-capsule
-- law/L1-epistemic
-- law/L20-adversarial
-- law/L21-epistemic-regime
-- law/L22-atomic-reasoning
-- law/L23-mvcc-cas
-- law/L24-causal-epoch
-- law/L25-shard-local
-- law/L26-proof-coordination
-- law/L27-gap
-- law/L28-critical-gap
-- law/L29-decision-value
-- law/L2-provenance
-- law/L30-authority-boundary
-- law/L31-amos-plane
-- law/L33-kernel
-- law/L3-dependency
-- law/L4-causal
-- law/L5-scope-regime
-- law/L6-uncertainty
-- law/L7-authority
-- law/L8-execution
-- law/L9-evolution
-- law-hierarchy
-- p1-reality-environment
-- p2-sense-evidence
-- p3-knowledge-memory
-- p4-cognition-models
-- p5-governance-authority
-- p6-execution-agency
-- p7-evolution-learning
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: root_index
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS RSCF Nodes
@@ -963,11 +916,11 @@ Index of all RSCF-class notes in the AMOS OS vault.
 - [[07_SKILLS/00_INDEX/SKILL_MAP|SKILL_MAP]]
 - [[07_SKILLS/SKILLS_README|SKILLS_README]]
 - [[07_SKILLS/SKILLS_SKILL_CONTRACT|SKILLS_SKILL_CONTRACT]]
-- [[08_WORKFLOWS/00_INDEX/INDEX_WORKFLOWS_README|INDEX_WORKFLOWS_README]]
-- [[08_WORKFLOWS/00_INDEX/INDEX_WORKFLOWS_WORKFLOW_CONTRACT|INDEX_WORKFLOWS_WORKFLOW_CONTRACT]]
-- [[08_WORKFLOWS/00_INDEX/WORKFLOW_MAP|WORKFLOW_MAP]]
-- [[08_WORKFLOWS/WORKFLOWS_README|WORKFLOWS_README]]
-- [[08_WORKFLOWS/WORKFLOWS_WORKFLOW_CONTRACT|WORKFLOWS_WORKFLOW_CONTRACT]]
+- [[26_WORKFLOWS/00_INDEX/INDEX_WORKFLOWS_README|INDEX_WORKFLOWS_README]]
+- [[26_WORKFLOWS/00_INDEX/INDEX_WORKFLOWS_WORKFLOW_CONTRACT|INDEX_WORKFLOWS_WORKFLOW_CONTRACT]]
+- [[26_WORKFLOWS/00_INDEX/WORKFLOW_MAP|WORKFLOW_MAP]]
+- [[26_WORKFLOWS/WORKFLOWS_README|WORKFLOWS_README]]
+- [[26_WORKFLOWS/WORKFLOWS_WORKFLOW_CONTRACT|WORKFLOWS_WORKFLOW_CONTRACT]]
 - [[09_PROTOCOLS/00_INDEX/INDEX_PROTOCOLS_PROTOCOL_CONTRACT|INDEX_PROTOCOLS_PROTOCOL_CONTRACT]]
 - [[09_PROTOCOLS/00_INDEX/INDEX_PROTOCOLS_README|INDEX_PROTOCOLS_README]]
 - [[09_PROTOCOLS/00_INDEX/PROTOCOL_MAP|PROTOCOL_MAP]]
@@ -69046,7 +68999,7 @@ Index of all RSCF-class notes in the AMOS OS vault.
 - [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
 - [[00_ROOT/00_HOME|00_HOME]]
 - [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC (02_KERNEL)]]
-[[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]|[[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]
+[[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]
 
 ---
 RSCF-NODE
@@ -69056,8 +69009,8 @@ path: 00_ROOT/AMOS_RSCF_NODES.md
 RSCF-RELATIONS:
   - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
   - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - CANON_REF: [[01_CANON/01_CORE_LAWS/L17_RSCF|L17_RSCF]]|[[01_CANON/01_CORE_LAWS/L17_RSCF|L17_RSCF]]
-  - KERNEL_REF: [[02_KERNEL/09_INTEGRATION/K_RSCF|K_RSCF]]|[[02_KERNEL/09_INTEGRATION/K_RSCF|K_RSCF]]
+  - CANON_REF: [[01_CANON/01_CORE_LAWS/L17_RSCF|L17_RSCF]] · [[01_CANON/01_CORE_LAWS/L17_RSCF|L17_RSCF]]
+  - KERNEL_REF: [[02_KERNEL/09_INTEGRATION/K_RSCF|K_RSCF]] · [[02_KERNEL/09_INTEGRATION/K_RSCF|K_RSCF]]
   - RELATED_TO: [[00_ROOT/ARXIV_RSCF_KNOWLEDGE_NODE|ARXIV_RSCF_KNOWLEDGE_NODE]]
 claim_class: AMOS_MODEL
 

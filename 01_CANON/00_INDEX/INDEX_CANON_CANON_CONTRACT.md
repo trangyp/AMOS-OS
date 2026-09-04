@@ -1,19 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: INDEX CANON CANON CONTRACT
-type: note
-source: 01_CANON/00_INDEX
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Index Canon Canon Contract
 tags:
-  - note
-  - canon/universe
-  - canon
-rscf:
-  state: DERIVED
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: index_navigation
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AMOS OS — CANON Contract
@@ -2131,7 +2128,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 **Artifact status:** `PROPOSED_SPECIFICATION`
 **Structural status:** `COMPLETE_FOR_DECLARED_MODEL_SCOPE`

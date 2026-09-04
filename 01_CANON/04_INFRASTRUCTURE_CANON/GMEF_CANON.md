@@ -1,227 +1,92 @@
 ---
-title: GMEF Canon
-type: canon
-source: 01_CANON/04_INFRASTRUCTURE_CANON
-artifact: GMEF_CANON.md
-artifact_id: amos_01_canon_04_infrastructure_canon_gmef_canon
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/04_INFRASTRUCTURE_CANON
-artifact_kind: CANON
-path: 01_CANON/04_INFRASTRUCTURE_CANON/GMEF_CANON.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Gmef Canon
 tags:
-  - amos-os
-  - canon
-  - universe
-  - canon_placeholder
-  - rscf
-  - canon/universe
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# GMEF Canon
+# GMEF Infrastructure Canon — Governed Mutation & Evolution Framework
 
-## 0. Status
+> **Authoritative Canon Boundary**
+>
+> This document defines the canonical laws governing autonomous self-mutation, code evolution, and schema migration under the **Governed Mutation & Evolution Framework (GMEF)** in AMOS Core v4.4.
+>
+> ```text
+> UNGOVERNED MUTATION == DRIFT & SYSTEMIC DECAY
+> EVOLUTION CANNOT WEAKEN ROOT CANONICAL LAWS
+> PRE-COMPUTED ROLLBACK BASIN IS MANDATORY BEFORE MUTATION
+> CAPABILITY TO MUTATE != AUTHORITY TO COMMIT
+> ```
 
-`GMEF_CANON.md` is an **ADD-ONLY placeholder** for the **Canon** plane segment at `01_CANON/04_INFRASTRUCTURE_CANON`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+## 1. Architectural Purpose & Risk Model
 
-The governing boundaries are:
+Autonomous cognitive systems that adapt or evolve their internal components face three primary hazards:
+1. **Semantic Drift**: Progressive misalignment between system representations and ground truth;
+2. **Invariant Erosion**: Code mutations that subtly bypass security, safety, or authority firewalls;
+3. **Irreversible Corruption**: State modifications that lack backward-compatible recovery paths.
 
-```text
-PLACEHOLDER != IMPLEMENTED
+The **GMEF Canon** establishes the mandatory governance gates and invariant constraints under which any mutation (schema update, skill evolution, workflow refactoring, or engine patch) must execute.
 
-ADDRESSABLE != VALIDATED
+---
 
-DOCUMENTED != ENFORCED
+## 2. The 8 Mandatory GMEF Evolution Gates
 
-MODEL != OBSERVATION
+Every proposed system mutation $\Delta M$ must traverse eight validation gates prior to authoritative admission:
 
-SOURCE_CLAIM != VERIFIED
+$$\text{AdmitMutation}(\Delta M) \iff \bigwedge_{k \in \{0, 1, 2, 4, 5, 7, 16, 17\}} L_k(\Delta M) == \text{PASS}$$
 
-CANON_CANDIDATE != CANONICAL
+1. **Gate $L_0$ (Structural Integrity)**: Schema validity, parseability, and typing compliance.
+2. **Gate $L_1$ (Epistemic Grounding)**: Declared epistemic status (`SOURCE_CLAIM`, `DERIVED`, `AMOS_MODEL`); no ungrounded assertions.
+3. **Gate $L_2$ (Provenance Lineage)**: Cryptographic parent hash, origin author/agent, and complete dependency closure.
+4. **Gate $L_4$ (Causal DAG Validity)**: Monotonic causal epoch advance; absence of backward causal loops.
+5. **Gate $L_5$ (Scope & Regime Enforcement)**: Operational domain boundaries and applicability envelopes explicitly defined.
+6. **Gate $L_7$ (Fenced Authority)**: Valid epoch lease and signature from an authorized Control Plane principal.
+7. **Gate $L_{16}$ (Pre-Computed Rollback Basin)**: Fully validated inverse operation or snapshot restoration recipe verified before applying mutations.
+8. **Gate $L_{17}$ (Automated Regression Verification)**: Execution receipts demonstrating that existing regression test suites pass without degradation.
 
-CANONICAL != EMPIRICAL_TRUTH
+---
 
-CAPABILITY != AUTHORITY
+## 3. Canonical Evolution Invariants
 
-AUTHORIZATION != COMMIT
+- **GMEF-01 (Immutable Core Laws)**: Root canonical laws (`01_CANON`), the Law of Law, and core invariants cannot be mutated or weakened by autonomous evolution.
+- **GMEF-02 (Sandboxed Staging)**: All evolutionary mutations must compile and execute in an isolated runtime sandbox before promotion.
+- **GMEF-03 (Monotonic Lineage)**: Deprecated components remain accessible in historical lineage graphs; deletion of historical provenance is prohibited.
 
-PROPOSAL != COMMIT
+---
 
-IMPLEMENTED != VALIDATED
+## 4. Cross-Plane Bindings
 
-LOGGED != APPROVED
+- **`02_KERNEL/09_INTEGRATION/K_GMEF`**: Executes the algorithmic gate checks and validation pipeline.
+- **`03_CONTROL_PLANE`**: Issues and fences evolutionary modification leases.
+- **`19_TESTS`**: Provides the automated regression verification harness for Gate $L_{17}$.
+- **`20_OPERATIONS`**: Records evolutionary changesets and migration ledger receipts.
 
-UNKNOWN/GAP != PASS
-```
+---
 
-Origin architect / steward:
-
-**Trang Phan**
-
-______________________________________________________________________
-
-## 1. Purpose
-
-This artifact reserves the **GMEF Canon** slot within the Canon plane. The Canon plane governs canonical laws, universe/cognition/infrastructure canons, variable registry, glossary, provenance lineage, and supersession.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
-______________________________________________________________________
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
-
-______________________________________________________________________
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
-```
-
-______________________________________________________________________
-
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
-______________________________________________________________________
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
-______________________________________________________________________
-
-## 6. Worked semantics (target)
-
-Given an operation touching `01_CANON · CANON` within the Canon plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-______________________________________________________________________
-
-RSCF-NODE
-
+```RSCF-NODE
 node_id: amos_01_canon_04_infrastructure_canon_gmef_canon
-
-node_type: canon
-
-path: 01_CANON/04_INFRASTRUCTURE_CANON/GMEF_CANON.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
-
-**MOC:** [[01_CANON/04_INFRASTRUCTURE_CANON/04_INFRASTRUCTURE_CANON_MOC|04_INFRASTRUCTURE_CANON_MOC]]
+node_type: infrastructure_canon
+plane: 01_CANON
+domain: INFRASTRUCTURE
+claim_class: CANONICAL_LAW
+status: ACTIVE_CANON
+confidence_ceiling: ABSOLUTE_FOR_CANONICAL_LAW
+falsifiers:
+  - System self-modification committed without pre-computed rollback verification.
+  - Evolutionary change that relaxes or deletes an existing safety invariant.
+```

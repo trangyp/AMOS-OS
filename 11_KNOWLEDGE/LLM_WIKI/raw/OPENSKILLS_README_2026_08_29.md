@@ -1,17 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-date: 2026-08-29
-epistemic_class: OBSERVATION
-provenance: GitHub README, not independently verified
-rscf:
-  claim_class: DERIVED
-  provenance: GitHub README (ljluestc/OpenSkills)
-  scope: AMOS_knowledge
-  state: SOURCE_CLAIM
-source: https://raw.githubusercontent.com/ljluestc/OpenSkills/main/README.md
-title: OpenSkills SDK README — Raw Capture
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Openskills Readme 2026 08 29
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # OpenSkills SDK README — Raw Capture
@@ -115,13 +119,13 @@ from openskills import SkillManager
 
 manager = SkillManager([Path("./infographic-skills")])
 
-## Discover infographic-skills (Layer 1 - Metadata)
+# Discover infographic-skills (Layer 1 - Metadata)
 await manager.discover()
 
-## Match user query
+# Match user query
 skills = manager.match("summarize meeting")
 
-## Load instruction (Layer 2)
+# Load instruction (Layer 2)
 if skills:
     instruction = await manager.load_instruction(skills[0].name)
     print(instruction.content)
@@ -140,19 +144,19 @@ OpenSkills supports executing scripts in an isolated sandbox environment using [
 #### Option 1: Docker (Recommended)
 
 ```bash
-## Pull and run the sandbox container
+# Pull and run the sandbox container
 docker run -d --name aio-sandbox \
   -p 8080:8080 \
   ghcr.io/agent-infra/aio-sandbox:latest
 
-## Verify it's running
+# Verify it's running
 curl http://localhost:8080/health
 ```
 
 #### Option 2: Docker Compose
 
 ```yaml
-## docker-compose.yml
+# docker-compose.yml
 version: '3.8'
 services:
   sandbox:
@@ -267,7 +271,7 @@ scripts:
     description: Upload summary to cloud storage
 ---
 
-## Meeting Summary Skill
+# Meeting Summary Skill
 
 You are a professional meeting assistant...
 
@@ -360,21 +364,21 @@ export AZURE_OPENAI_API_VERSION=2024-02-15-preview  # Optional
 ```python
 from openskills import AzureOpenAIClient, SkillAgent
 
-## Method 1: Using environment variables
+# Method 1: Using environment variables
 client = AzureOpenAIClient()
 
-## Method 2: Explicit configuration
+# Method 2: Explicit configuration
 client = AzureOpenAIClient(
     api_key="your-api-key",
     endpoint="https://your-resource.openai.azure.com",
     deployment="gpt-4",
 )
 
-## Method 3: Using create_client helper
+# Method 3: Using create_client helper
 from openskills import create_client
 client = create_client("azure", deployment="gpt-4")
 
-## Use with SkillAgent
+# Use with SkillAgent
 agent = SkillAgent(
     skill_paths=["./infographic-skills"],
     llm_client=client,
@@ -405,10 +409,10 @@ python demo.py
 #### Sandbox Demo (Recommended)
 
 ```bash
-## 1. Start sandbox first
+# 1. Start sandbox first
 docker run -d -p 8080:8080 ghcr.io/agent-infra/aio-sandbox:latest
 
-## 2. Run demo with sandbox
+# 2. Run demo with sandbox
 cd examples/file-to-article-generator
 export OPENAI_API_KEY=your-api-key
 python demo.py /path/to/your/file.pdf
@@ -425,16 +429,16 @@ The sandbox demo will:
 ## CLI Commands
 
 ```bash
-## List all infographic-skills
+# List all infographic-skills
 openskills list
 
-## Show skill details
+# Show skill details
 openskills show meeting-summary
 
-## Validate a skill
+# Validate a skill
 openskills validate ./my-skill/
 
-## Match query to infographic-skills
+# Match query to infographic-skills
 openskills match "summarize meeting"
 ```
 

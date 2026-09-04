@@ -1,64 +1,21 @@
 ---
-title: Design for Absolute Integrity
-type: architecture
-source: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact: DESIGN_FOR_ABSOLUTE_INTEGRITY.md
-artifact_id: amos_11_knowledge_05_frameworks_design_for_absolute_integrity
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 11_KNOWLEDGE
-segment: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact_kind: FRAMEWORK
-path: 11_KNOWLEDGE/05_FRAMEWORKS/DESIGN_FOR_ABSOLUTE_INTEGRITY.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Design For Absolute Integrity
 tags:
-  - amos-os
-  - knowledge
-  - vault
-  - 05_frameworks
-  - design_for_absolute_integrity
-  - dfai
-  - structural_design
-  - engineering_methodology
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-  - absolute-structural-integrity
-  - domain-canon-programming
-  - psi-framework
-  - amos-organism-os-framework
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - ABSOLUTE_INTEGRITY_ARCHITECTURE_CANONICAL_ROOT
-    - AMOS_CORPUS
-  scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - DESIGN_METHODOLOGY
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  root_theorem:
-    artifact:
-      -   - ABSOLUTE_STRUCTURAL_INTEGRITY
-  canonical_programming:
-    artifact:
-      -   - DOMAIN_CANON_PROGRAMMING
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  framework_structure: VERIFIED_SOURCE_STRUCTURE
-  design_methodology: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Design for Absolute Integrity™ (DFAI)

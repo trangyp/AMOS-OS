@@ -1,7 +1,4 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
 title: WORKFLOW MAP
 type: workflow
 source: 08_WORKFLOWS/00_INDEX

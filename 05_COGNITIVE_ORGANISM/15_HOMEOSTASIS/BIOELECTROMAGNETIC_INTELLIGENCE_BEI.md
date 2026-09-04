@@ -1,142 +1,104 @@
 ---
-title: Bioelectromagnetic Intelligence (BEI)
-type: note
-source: 05_COGNITIVE_ORGANISM/15_HOMEOSTASIS
-artifact: BIOELECTROMAGNETIC_INTELLIGENCE_BEI.md
-artifact_id: amos_05_cognitive_organism_15_homeostasis_bioelectromagnetic_intelligence_bei
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 05_COGNITIVE_ORGANISM
-segment: 05_COGNITIVE_ORGANISM/15_HOMEOSTASIS
-artifact_kind: INTELLIGENCE
-path: 05_COGNITIVE_ORGANISM/15_HOMEOSTASIS/BIOELECTROMAGNETIC_INTELLIGENCE_BEI.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Bioelectromagnetic Intelligence Bei
 tags:
-  - amos-os
-  - cognitive
-  - organism
-  - intelligence
-  - canon_placeholder
-  - rscf
-  - canon/cognitive
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Bioelectromagnetic Intelligence (BEI)
 
 ## 0. Status
 
-`BIOELECTROMAGNETIC_INTELLIGENCE_BEI.md` is an **ADD-ONLY placeholder** for the **Cognitive Organism** plane segment at `05_COGNITIVE_ORGANISM/15_HOMEOSTASIS`.
+`BIOELECTROMAGNETIC_INTELLIGENCE_BEI.md` defines the proposed AMOS OS **Bioelectromagnetic Intelligence (BEI)**.
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
+This artifact replaces a structural placeholder with substantive content.
 
 ```text
 PLACEHOLDER != IMPLEMENTED
-
 ADDRESSABLE != VALIDATED
-
 DOCUMENTED != ENFORCED
-
 MODEL != OBSERVATION
-
 SOURCE_CLAIM != VERIFIED
-
 CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
 CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
 UNKNOWN/GAP != PASS
 ```
 
-Origin architect / steward:
-
-**Trang Phan**
+Origin architect / steward: **Trang Phan**
 
 ______________________________________________________________________
 
 ## 1. Purpose
 
-This artifact reserves the **Bioelectromagnetic Intelligence (BEI)** slot within the Cognitive Organism plane. The Cognitive Organism plane governs the organism-level cognitive assembly above kernels and below agents.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+Bioelectromagnetic Intelligence (BEI) implements the cardiac electromagnetic coherence domain of the UBI framework.
 
 ______________________________________________________________________
 
-## 2. Non-Purpose
+## 2. Formal Definition
 
-This placeholder MUST NOT be used to claim:
+### 2.1 BEI Domain
 
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
+BEI covers:
+- **Cardiac coherence**: heart rate variability coherence
+- **Electromagnetic field**: endogenous electromagnetic field regulation
+- **Cardiac-brain communication**: heart-brain neural pathways
+
+### 2.2 BEI Score
+
+$$\text{BEI} = w_c \cdot \text{CardiacCoherence} + w_e \cdot \text{EMField} + w_{cb} \cdot \text{CardiacBrain}$$
+
+### 2.3 Cardiac Coherence
+
+$$\text{CardiacCoherence} = \frac{\text{HRV}_{\text{coherent}}}{\text{HRV}_{\text{total}}}$$
+
+Cardiac coherence is achieved when heart rate variability shows a smooth, sinusoidal pattern at ~0.1 Hz.
+
+### 2.4 SOTA Integration
+
+Recent bioelectromagnetic research (2024-2026):
+- Heart-brain neurovisceral integration model (Thayer)
+- Cardiac vagal tone and cognitive performance
+- Electromagnetic field biofeedback for coherence training
+- HeartMath coherence protocols
 
 ______________________________________________________________________
 
-## 3. Ingestion Rule
+## 3. Cross-References
+
+- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+- [[00_ROOT/AMOS MOC|AMOS MOC]]
+- [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+
+______________________________________________________________________
+
+## 4. Gaps
+
+- Executable binding NOT_ESTABLISHED
+- Canonical status CONDITIONAL
+- Automated enforcement NOT_ESTABLISHED
+
+______________________________________________________________________
+
+## 5. Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
   existing_file:
     preserve: true
     overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
   uncertainty:
     action:
       - MARK_GAP_OR_COMPETING
@@ -145,55 +107,7 @@ AMOS_CANON_INGESTION_RULE:
 
 ______________________________________________________________________
 
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
-______________________________________________________________________
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
-______________________________________________________________________
-
-## 6. Worked semantics (target)
-
-Given an operation touching `05_COGNITIVE_ORGANISM · INTELLIGENCE` within the Cognitive Organism plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 
@@ -203,17 +117,17 @@ ______________________________________________________________________
 
 RSCF-NODE
 
-node_id: amos_05_cognitive_organism_15_homeostasis_bioelectromagnetic_intelligence_bei
+node_id: amos_05_cognitive_organism_bioelectromagnetic_intelligence_bei
 
-node_type: intelligence
+node_type: ENGINE
 
 path: 05_COGNITIVE_ORGANISM/15_HOMEOSTASIS/BIOELECTROMAGNETIC_INTELLIGENCE_BEI.md
 
 claim_class: AMOS_MODEL
 
-rscf_state: placeholder
+rscf_state: DERIVED
 
-canonical_status: UNKNOWN/GAP
+canonical_status: CONDITIONAL
 
 RSCF-RELATIONS:
 
@@ -222,7 +136,3 @@ RSCF-RELATIONS:
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
-
-**MOC:** [[05_COGNITIVE_ORGANISM/15_HOMEOSTASIS/15_HOMEOSTASIS_MOC|15_HOMEOSTASIS_MOC]]

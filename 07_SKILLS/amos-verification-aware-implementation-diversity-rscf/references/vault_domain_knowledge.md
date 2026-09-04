@@ -1,23 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Vault Domain Knowledge — Amos Verification Aware Implementation Diversity Rscf
-type: reference
-source: 07_SKILLS/amos-verification-aware-implementation-diversity-rscf/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Vault Domain Knowledge
 tags:
-  - reference
-  - amos-verification-aware-implementation-diversity-rscf
-  - type/skill
-  - architecture
-  - memory
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Vault-Sourced Domain Knowledge
@@ -166,7 +164,7 @@ Syntax checking with AST parsing
 
 > Path: `audit/TRUTH_CALIBRATION_IMPLEMENTATION_COMPLETE.md` | Size: 9172 chars | Match score: 13
 
-## AMOS OMEGA TRUTH + EVIDENCE + CALIBRATION ENGINE - IMPLEMENTATION COMPLETE
+# AMOS OMEGA TRUTH + EVIDENCE + CALIBRATION ENGINE - IMPLEMENTATION COMPLETE
 
 ## MISSION ACCOMPLISHED: THE HIGH-PRIORITY GAP IS NOW FILLED
 
@@ -236,7 +234,7 @@ Successfully implemented the **TRUTH + EVIDENCE + CALIBRATION ENGINE** - the mis
 
 > Path: `amos-general/O/OMEGA_IMPLEMENTATION_COMPLETE.md` | Size: 12486 chars | Match score: 12
 
-## OMEGA OFFLINE INTELLIGENCE ORCHESTRATOR - COMPLETE IMPLEMENTATION
+# OMEGA OFFLINE INTELLIGENCE ORCHESTRATOR - COMPLETE IMPLEMENTATION
 ========================================================================
 
 ## MISSION ACCOMPLISHED: 7-LAYER INTELLIGENCE STACK IMPLEMENTATION COMPLETE

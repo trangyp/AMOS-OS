@@ -1,67 +1,47 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: 19 C09 Org Law Policy MOC
-type: moc
-source: 21_DOMAINS/19_C09_ORG_LAW_POLICY
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 19 C09 Org Law Policy Moc
 tags:
-  - 19-c09-org-law-policy
-  - canon/domain
-  - c09-org-law-policy-domains-domain-spec
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 19 C09 Org Law Policy — Map of Content
 
-## 0. Status
-Domains-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
+> [!ABSTRACT] Domain Executive Summary
+> **Domain Engine:** `C09_org_law_policy` (Organizational Systems, Jurisprudence & Policy Governance).
+> **Structural Role:** Owns legal compliance, organizational governance hierarchies, regulatory policy translation, contractual verification, and institutional decision rights in the AMOS Full Brain OS.
 
-## 1. Purpose
-`19 C09 ORG LAW POLICY MOC` defines policy artifact — governs admissibility within declared scope and epochs, serving the Domains plane's obligation: C-family domain engine mappings (C01–C12) onto the OS planes.
+---
 
-## 2. Semantics
-- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
-- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
-- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
+## 1. Core Architecture & Subsystem Artifacts
 
-## 3. Failure modes guarded
-STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
+* [[11_KNOWLEDGE/AMOS_C09_ORG_LAW_POLICY_MASTER_KNOWLEDGE|AMOS C09 Org Law Policy Master Knowledge]] — Authoritative 38 KB canonical domain corpus detailing jurisprudence, statutory interpretation, organizational agency, and governance protocols.
+* [[26_WORKFLOWS/amos-c09-org-law-policy-master-workflow|amos-c09-org-law-policy-master-workflow]] — Governed legal and policy compliance execution workflow.
+* [[18_SECURITY/SECURITY_CONTROL_ACCESS_BRIDGE_GOVERNOR|Security Control Access Bridge Governor]] — The C09 $\to$ C10 $\to$ Runtime bridge translating high-level legal/policy requirements into programmatic access control (DAC, MAC, RBAC).
+* [[23_OPERATING_MODEL/23_OPERATING_MODEL_MOC|23 Operating Model MOC]] — Organizational roles, decision rights, and escalation procedures.
+* [[21_DOMAINS/19_C09_ORG_LAW_POLICY/DOMAINS_C09_ORG_LAW_POLICY_CONTRACT|DOMAINS_C09_ORG_LAW_POLICY_CONTRACT]] — Domain interface contract and invariant bounds.
+* [[21_DOMAINS/19_C09_ORG_LAW_POLICY/C09_ORG_LAW_POLICY_DOMAINS_DOMAIN_SPEC|C09_ORG_LAW_POLICY_DOMAINS_DOMAIN_SPEC]] — Operational domain parameters.
 
-## 4. Validation
-No artifact-specific executor yet; executed OS validators exist as pattern ([[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
+---
 
-## 5. Gaps
-Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
+## 2. Inbound & Outbound Interfaces
 
-## 6. Falsifiers
-F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
-## Worked semantics
-Given an operation touching `19 C09 ORG LAW POLICY MOC` within the Domains plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+* **Omniverse Layers:** [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|Omniverse Brain Layer 1]] (Foundational Law) and Layer 5 (Social & Institutional Dynamics).
+* **Constitutional Law:** Governed by [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] and [[01_CANON/01_CORE_LAWS/L7_AUTHORITY|L7_AUTHORITY]].
+* **Parent Hub:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]].
 
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-## Cross-plane bindings
-- Governed by canon — [[01_CANON_README]] · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS_README]]
+---
+[[21_DOMAINS/21_DOMAINS_MOC|Back to Domains MOC]] · [[00_ROOT/00_ROOT_MOC|Root MOC]]

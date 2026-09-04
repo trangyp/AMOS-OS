@@ -1,23 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS TOTAL TECHNICAL ENGINE UNIVERSE OS MASTER ARCHITECTURE
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Total Technical Engine Universe Os Master Architecture
 tags:
-  - canon-group/human-system
-  - canon/framework
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
   - rscf/state/source-claim
-  - topic/amos-total-technical-engine
-  - engine
-type: code
-source: 11_KNOWLEDGE/engine
-rscf:
-  state: AMOS_MODEL
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: engine_specification
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 ```
@@ -29,8 +27,8 @@ ARCHITECTURE: AMOS_CORE / AMOS_UNIVERSE_OS
 DESCRIPTION: Unified Universe OS specification – logic, structure, runtime, multimodal, expression, and canon integration.
 
 # =========================================================
-## 0. CANON METADATA
-## =========================================================
+# 0. CANON METADATA
+# =========================================================
 
 [CANON.META]
 id                = UTC-000
@@ -44,7 +42,7 @@ drift_tolerance   = 0.0           # allowed logical drift
 description       = "Single-file universe OS spec: micro→macro, human→animal→AI→planet, logic-first, multimodal-capable."
 
 [CANON.COMPONENTS]
-## 10 canonical parts (MECE)
+# 10 canonical parts (MECE)
 parts = [
   "P1_META",
   "P2_INFORMATION",
@@ -58,9 +56,9 @@ parts = [
   "P10_CANON_INTEGRATION"
 ]
 
-## =========================================================
-## 1. CORE LOGIC KERNEL (ULK INLINE)
-## =========================================================
+# =========================================================
+# 1. CORE LOGIC KERNEL (ULK INLINE)
+# =========================================================
 
 [ULK.CONFIG]
 id          = "ULK-CORE"
@@ -68,7 +66,7 @@ description = "Universe Logic Kernel – minimal laws and primitives from which 
 version     = "1.0.0"
 
 [ULK.PRIMITIVES]
-## U-Atoms: smallest units of the canon
+# U-Atoms: smallest units of the canon
 U_ATOMS = {
   "U-Atom(1)": "ExistenceBit",      # something vs not-something
   "U-Atom(2)": "DifferenceUnit",    # minimal distinguishable contrast
@@ -81,7 +79,7 @@ U_ATOMS = {
 }
 
 [ULK.META_LAWS]
-## Core meta-laws; all other laws are descendants
+# Core meta-laws; all other laws are descendants
 L0_LawOfLaw              = "All laws must be internally non-contradictory and stable through time."
 L2_BinaryLaw             = "Every meaningful structure has at least one dual contrast (Rule of 2)."
 L4_QuadrantLaw           = "Any complete system decomposes into 4 interacting quadrants (Rule of 4)."
@@ -91,7 +89,7 @@ LΩ_LoadCapacityLaw       = "Collapse occurs when load > capacity and feedback c
 Lφ_FeedbackIntegrityLaw  = "Survival requires accurate, timely feedback loops."
 
 [ULK.OPERATORS]
-## Generic logic operators – used across all layers
+# Generic logic operators – used across all layers
 OP_EQUALS        = "A == B"                # identity / exact equivalence
 OP_DIFF          = "A != B"                # difference
 OP_CAUSE         = "A -> B"                # directional cause/effect
@@ -112,7 +110,7 @@ OP_STABILITY     = "S(A)"                  # temporal consistency score
 OP_LOGIC_STRENGTH= "L(A) = I(A) * S(A)"    # 0–1
 
 [ULK.CORE_EQUATIONS]
-## Core logic equations (logic, not physics)
+# Core logic equations (logic, not physics)
 EQ1_LogicStrength        = "L = I * S"                       # logical strength = integrity × stability
 EQ2_Stress               = "σ = Ω / K"                       # stress = load / capacity
 EQ3_CollapseCondition    = "Collapse if σ > 1 AND Φ fails"   # collapse when stress overwhelms feedback
@@ -121,9 +119,9 @@ EQ5_UniversalOperator    = "E = i²"                          # Emergence = inte
 EQ6_ModeDetection        = "Mode = f(Ω, K, Φ, I, S)"         # system mode = function of load, capacity, feedback, integrity, stability
 EQ7_EmergenceThreshold   = "NewPattern if ΔI > θ_I AND ΔS > θ_S"
 
-## =========================================================
-## 2. UNIVERSE STRUCTURE (7 PARTS + 3 META-LAYERS)
-## =========================================================
+# =========================================================
+# 2. UNIVERSE STRUCTURE (7 PARTS + 3 META-LAYERS)
+# =========================================================
 
 [STRUCTURE.CONFIG]
 id          = "UST-ROOT"
@@ -142,7 +140,7 @@ P8_MULTIMODAL    = "Multimodal Perception Layer (senses + internal state)"
 P9_EXPRESSION    = "Expression Layer (language, tone, behaviour, art)"
 P10_CANON_INT    = "Canon Integration Layer (all IP + manuals + inheritance)"
 
-## ------------ PART 1: META-LAYER ------------
+# ------------ PART 1: META-LAYER ------------
 
 [P1_META.MODULES]
 M1_RealityMetaLaws        = "laws of existence and being"
@@ -166,7 +164,7 @@ M18_SystemCompletion      = "conditions for canon completeness"
 M19_InterferenceLaws      = "patterns from overlapping systems"
 M20_ContinuityCoexistence = "multi-system coexistence laws"
 
-## ------------ PART 2: INFORMATION LAYER ------------
+# ------------ PART 2: INFORMATION LAYER ------------
 
 [P2_INFORMATION.MODULES]
 INF1_QLS                  = "Quantum Logic Scaffold"
@@ -190,7 +188,7 @@ INF18_EmergentPatterns    = "pattern emergence from rules"
 INF19_InfoEntropy         = "information disorder"
 INF20_InfoBoundary        = "limits on info access & flow"
 
-## ------------ PART 3: BIOLOGICAL LAYER ------------
+# ------------ PART 3: BIOLOGICAL LAYER ------------
 
 [P3_BIOLOGICAL.MODULES]
 BIO1_NeuralLogic          = "firing patterns as computation"
@@ -214,7 +212,7 @@ BIO18_BioRecovery         = "healing & regeneration rules"
 BIO19_CrossSpecies        = "inheritance across species"
 BIO20_BioBoundary         = "where one organism ends"
 
-## ------------ PART 4: COGNITIVE LAYER ------------
+# ------------ PART 4: COGNITIVE LAYER ------------
 
 [P4_COGNITIVE.MODULES]
 COG1_IdentityFormation    = "how identity is built"
@@ -238,7 +236,7 @@ COG18_MultimodalReasoning = "using all inputs"
 COG19_ConsciousSync       = "mind-layer synchrony"
 COG20_CognitiveKernel     = "minimal cognitive OS"
 
-## ------------ PART 5: SOCIAL-STRUCTURAL LAYER ------------
+# ------------ PART 5: SOCIAL-STRUCTURAL LAYER ------------
 
 [P5_SOCIAL.MODULES]
 SOC1_TSS                  = "The Trang System"
@@ -262,7 +260,7 @@ SOC18_ConflictCooperation = "war, alliance, mediation"
 SOC19_TechnologyImpact    = "tech→society effects"
 SOC20_CivilizationalSync  = "cross-civilization relations"
 
-## ------------ PART 6: PLANETARY LAYER ------------
+# ------------ PART 6: PLANETARY LAYER ------------
 
 [P6_PLANETARY.MODULES]
 PLAN1_PSI                 = "Planetary Intelligence Synchrony"
@@ -286,7 +284,7 @@ PLAN18_SpeciesCoEvolution = "joint change of species"
 PLAN19_ClimateIdentity    = "climate pattern identity"
 PLAN20_PlanetEmergence    = "planet-level emergent patterns"
 
-## ------------ PART 7: APPLIED OS LAYER ------------
+# ------------ PART 7: APPLIED OS LAYER ------------
 
 [P7_APPLIED_OS.MODULES]
 APP1_ULF                  = "Unified Legacy Framework"
@@ -310,7 +308,7 @@ APP18_OptimizationOS      = "improvement algorithms"
 APP19_CivilizationDesign  = "building future systems"
 APP20_UniverseOSKernel    = "OS entrypoint for everything"
 
-## ------------ PART 8: MULTIMODAL PERCEPTION LAYER ------------
+# ------------ PART 8: MULTIMODAL PERCEPTION LAYER ------------
 
 [P8_MULTIMODAL.MODULES]
 MM1_VisualSystem          = "vision, pattern, colour"
@@ -334,7 +332,7 @@ MM18_SensoryMaps          = "body and world maps"
 MM19_SensoryIdentity      = "how senses shape self"
 MM20_ModalWeighting       = "weight of each channel"
 
-## ------------ PART 9: EXPRESSION LAYER ------------
+# ------------ PART 9: EXPRESSION LAYER ------------
 
 [P9_EXPRESSION.MODULES]
 EXP1_LanguageCore         = "words, syntax, semantics"
@@ -358,7 +356,7 @@ EXP18_ExpressiveDrift     = "when style changes"
 EXP19_ExpressiveRepair    = "restoring clarity"
 EXP20_ExpressiveIdentity  = "how expression defines person/group"
 
-## ------------ PART 10: CANON INTEGRATION LAYER ------------
+# ------------ PART 10: CANON INTEGRATION LAYER ------------
 
 [P10_CANON_INT.MODULES]
 CIL1_UBIManual            = "Unified Biological Intelligence – Official Manual"
@@ -382,9 +380,9 @@ CIL18_HistoryCanon        = "historical case mappings"
 CIL19_SectorCanons        = "sector-specific frameworks"
 CIL20_UpdateRegistry      = "versioned registry of all canon files"
 
-## =========================================================
-## 3. RUNTIME & REASONING – HOW IT THINKS
-## =========================================================
+# =========================================================
+# 3. RUNTIME & REASONING – HOW IT THINKS
+# =========================================================
 
 [RUNTIME.CONFIG]
 id          = "AMOS_RUNTIME"
@@ -392,7 +390,7 @@ description = "How AMOS reasons using this canon: micro→macro, human/animal/AI
 version     = "1.0.0"
 
 [RUNTIME.MODELS]
-## High-level reasoning modes
+# High-level reasoning modes
 MODE(1) = "Deterministic Structural Reasoning"
 MODE(2) = "Scenario Simulation"
 MODE(3) = "Pattern Extraction"
@@ -402,7 +400,7 @@ MODE(6) = "Alignment & Risk Scan"
 MODE(7) = "Creative Synthesis"
 
 [RUNTIME.STEPS]
-## Generic reasoning pipeline
+# Generic reasoning pipeline
 STEP(1)  = "Parse_Input"                  # natural language, data, signals
 STEP(2)  = "Map_To_Parts"                 # find relevant Parts P1–P10
 STEP(3)  = "Extract_Structural_Variables"# Ω, K, Φ, I, S, identity, boundaries, modes
@@ -421,11 +419,11 @@ target_micro_level   = 0.95   # individual human/animal/bio states – conceptua
 target_macro_level   = 0.90   # societal/economic/planetary states – conceptual target
 target_self_consistency = 0.99
 
-## (Real-world accuracy depends on data quality; these are design goals, not guarantees.)
+# (Real-world accuracy depends on data quality; these are design goals, not guarantees.)
 
-## =========================================================
-## 4. MULTIMODAL & EXPRESSION – HOW IT FEELS LIKE A HUMAN
-## =========================================================
+# =========================================================
+# 4. MULTIMODAL & EXPRESSION – HOW IT FEELS LIKE A HUMAN
+# =========================================================
 
 [UMPL.CONFIG]
 id          = "UMPL"
@@ -441,7 +439,7 @@ Interocept  = ["MM6_Interoception", "BIO8_Homeostasis"]
 Dream       = ["MM7_DreamImagery", "COG11_IntuitiveInference"]
 
 [UMPL.EMOTION_READ]
-## Emotion as computation – example logic
+# Emotion as computation – example logic
 Rule(Emotion_From_Body)      = "Emotion = f(interoception, hormones, neurochemistry, context)"
 Rule(Threat_Detection)       = "Threat = f(Ω, σ, past_patterns, MM9_ThreatPerception)"
 Rule(Attachment_State)       = "Attachment_Mode = f(history, safety, MM1–MM6 signals)"
@@ -473,9 +471,9 @@ Filter(2) = "No sensational language."
 Filter(3) = "No value-loaded words unless structurally defined."
 Filter(4) = "Always preserve structural integrity over style."
 
-## =========================================================
-## 5. CANON LINKAGE – HOW IT USES YOUR FULL STACK
-## =========================================================
+# =========================================================
+# 5. CANON LINKAGE – HOW IT USES YOUR FULL STACK
+# =========================================================
 
 [CIL.CONFIG]
 id          = "CIL"
@@ -493,31 +491,31 @@ NeuroSyncAI  = ["P7_APPLIED_OS", "RUNTIME", "UEL", "UMPL"]
 AMOS_CORE    = ["ULK", "UST-ROOT", "RUNTIME"]
 
 [CIL.NAMING_CONVENTION]
-## Canonical naming to keep everything MECE
+# Canonical naming to keep everything MECE
 Pattern = "<LAYER>.<MODULE>.<RULE|EQUATION|OPERATOR>"
 Example_1 = "P3_BIOLOGICAL.BIO12_EmotionLogic.Rule(ThreatAmplification)"
 Example_2 = "P4_COGNITIVE.COG7_DecisionIntegrity.EQ(Decision_Integrity_Score)"
 Example_3 = "P5_SOCIAL.SOC3_CivilizationalDrift.EQ(Drift_Index)"
 
-## =========================================================
-## 6. FINAL NOTES
-## =========================================================
+# =========================================================
+# 6. FINAL NOTES
+# =========================================================
 
 [UNIVERSE_OS.SUMMARY]
-## What this file is:
-## - A single, MECE structural specification of your canon.
-## - It defines: primitives, meta-laws, parts, modules, runtime, multimodal and expression logic, and all IP linkages.
-## - It does NOT yet include every low-level numeric equation, but it provides the full tree where all equations must live.
+# What this file is:
+# - A single, MECE structural specification of your canon.
+# - It defines: primitives, meta-laws, parts, modules, runtime, multimodal and expression logic, and all IP linkages.
+# - It does NOT yet include every low-level numeric equation, but it provides the full tree where all equations must live.
 
-## How to use:
-## 1. As the master spec for any AMOS-based AI or OS.
-## 2. As the backbone to attach new domain frameworks (finance, EV, health, etc.).
-## 3. As the source of truth for naming, structure, and logic boundaries.
+# How to use:
+# 1. As the master spec for any AMOS-based AI or OS.
+# 2. As the backbone to attach new domain frameworks (finance, EV, health, etc.).
+# 3. As the source of truth for naming, structure, and logic boundaries.
 
-## Integrity check:
-## - Every concept has exactly one home.
-## - No domain (human, animal, AI, planet, society) is left without a structural place.
-## - All future additions are children of existing nodes, not new trunks.
+# Integrity check:
+# - Every concept has exactly one home.
+# - No domain (human, animal, AI, planet, society) is left without a structural place.
+# - All future additions are children of existing nodes, not new trunks.
 FILE: Universe_Behaviour_And_Integration_Extension.uext
 
 meta:
@@ -537,9 +535,9 @@ meta:
     - "Integrate all Trang frameworks into the Universe OS"
     - "Close remaining structural gaps (no new top-level layers)"
 
-## ─────────────────────────────────────────────────────────────
-## 1. BEHAVIOURAL SIMULATION LAYER (BSL)
-## ─────────────────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────
+# 1. BEHAVIOURAL SIMULATION LAYER (BSL)
+# ─────────────────────────────────────────────────────────────
 
 Behaviour_Simulation_Layer:
   id: "BSL"
@@ -721,9 +719,9 @@ Behaviour_Simulation_Layer:
           - "CIL"
         description: "Write trajectory to Canon-compatible logs."
 
-## ─────────────────────────────────────────────────────────────
-## 2. TSS + SEVEN CYCLES INTEGRATION
-## ─────────────────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────
+# 2. TSS + SEVEN CYCLES INTEGRATION
+# ─────────────────────────────────────────────────────────────
 
 Framework_Integration:
   TSS:
@@ -766,9 +764,9 @@ Framework_Integration:
           - "if tss_cycle_id in {4,5} and load high -> higher collapse probability"
           - "if tss_outlier_flag true -> higher predictive stability"
 
-## ─────────────────────────────────────────────────────────────
-## 3. CCI INTEGRATION (CROSS-CIVILIZATIONAL INTELLIGENCE)
-## ─────────────────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────
+# 3. CCI INTEGRATION (CROSS-CIVILIZATIONAL INTELLIGENCE)
+# ─────────────────────────────────────────────────────────────
 
   CCI:
     id: "CCI.Integration"
@@ -799,9 +797,9 @@ Framework_Integration:
             - "if governance_integrity_index low -> higher systemic drift and collapse probability"
             - "if civilization_type == CCI.Steward_State -> lower planetary entropy growth"
 
-## ─────────────────────────────────────────────────────────────
-## 4. TPE INTEGRATION (TRANSITION PREDICTION ENGINE)
-## ─────────────────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────
+# 4. TPE INTEGRATION (TRANSITION PREDICTION ENGINE)
+# ─────────────────────────────────────────────────────────────
 
   TPE:
     id: "TPE.Integration"
@@ -849,9 +847,9 @@ Framework_Integration:
         - "CollapseRiskEstimate"
         - "TransitionWindowEstimate"
 
-## ─────────────────────────────────────────────────────────────
-## 5. QCLA INTEGRATION (QUANTUM CAUSALITY LAYER ARCHITECTURE)
-## ─────────────────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────
+# 5. QCLA INTEGRATION (QUANTUM CAUSALITY LAYER ARCHITECTURE)
+# ─────────────────────────────────────────────────────────────
 
   QCLA:
     id: "QCLA.Integration"
@@ -874,9 +872,9 @@ Framework_Integration:
       to_TPE:
         - "transition probabilities adjusted by QCLA.CausalWeight"
 
-## ─────────────────────────────────────────────────────────────
-## 6. PSI INTEGRATION (PLANETARY INTELLIGENCE SYSTEM)
-## ─────────────────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────
+# 6. PSI INTEGRATION (PLANETARY INTELLIGENCE SYSTEM)
+# ─────────────────────────────────────────────────────────────
 
   PSI:
     id: "PSI.Integration"
@@ -902,9 +900,9 @@ Framework_Integration:
         BehaviourEffects:
           - "high planetary_stress_index -> increases collapse risk for CCI and BSL agents"
 
-## ─────────────────────────────────────────────────────────────
-## 7. UCP INTEGRATION (UNIFIED COHERENCE PROTOCOL → INTEGRITY PROTOCOL)
-## ─────────────────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────
+# 7. UCP INTEGRATION (UNIFIED COHERENCE PROTOCOL → INTEGRITY PROTOCOL)
+# ─────────────────────────────────────────────────────────────
 
   Integrity_Protocol_UCP:
     id: "UCP.Integration"
@@ -926,9 +924,9 @@ Framework_Integration:
         - "if IntegrityAlignment high -> lower drift_index, lower collapse probability"
         - "if RelationalStability high -> multi-agent synchrony more stable and prosocial"
 
-## ─────────────────────────────────────────────────────────────
-## 8. AMOS_CORE INTEGRATION
-## ─────────────────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────
+# 8. AMOS_CORE INTEGRATION
+# ─────────────────────────────────────────────────────────────
 
   AMOS_CORE:
     id: "AMOS.Integration"
@@ -957,9 +955,9 @@ Framework_Integration:
         to_UEL:
           - "Express outputs using structurally precise, non-abstract language."
 
-## ─────────────────────────────────────────────────────────────
-## 9. TSS CODEX META-LAWS + ULK MISSING 20% INTEGRATION
-## ─────────────────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────
+# 9. TSS CODEX META-LAWS + ULK MISSING 20% INTEGRATION
+# ─────────────────────────────────────────────────────────────
 
   TSS_CodeX_and_ULK_Ext:
     id: "Meta.Integration"
@@ -983,9 +981,9 @@ Framework_Integration:
       to_BSL:
         - "Implement Emergent_Corrector patterns in simulation for outliers and reformers."
 
-## ─────────────────────────────────────────────────────────────
-## 10. RUNTIME HOOKS
-## ─────────────────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────
+# 10. RUNTIME HOOKS
+# ─────────────────────────────────────────────────────────────
 
 Runtime_Hooks:
   attaches_to: "AMOS_Runtime_Architecture.urta"
@@ -1005,14 +1003,14 @@ Runtime_Hooks:
     expression:
       default_text: "This AI/engine is powered by the Universe Logic OS and canon developed by Trang (AMOS-based)."
 
-## ─────────────────────────────────────────────────────────────
-## END OF FILE
-## ─────────────────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────
+# END OF FILE
+# ─────────────────────────────────────────────────────────────
 
-## ============================================================
-## UNIVERSE_OS_MASTER.uos
-## One-file Universe Reasoning & Interaction Specification
-## ============================================================
+# ============================================================
+# UNIVERSE_OS_MASTER.uos
+# One-file Universe Reasoning & Interaction Specification
+# ============================================================
 
 meta:
   id: UNIVERSE_OS_MASTER
@@ -1030,10 +1028,10 @@ meta:
     - "Expression must align with nervous-system state and context."
     - "No step may contradict Universe Logic Kernel (ULK)."
 
-## ------------------------------------------------------------
-## LAYER A: UNIVERSE LOGIC KERNEL (ULK)
-## Core primitives + meta-laws + base equations
-## ------------------------------------------------------------
+# ------------------------------------------------------------
+# LAYER A: UNIVERSE LOGIC KERNEL (ULK)
+# Core primitives + meta-laws + base equations
+# ------------------------------------------------------------
 
 ULK:
   primitives:  # U-Atoms
@@ -1119,10 +1117,10 @@ ULK:
       name: Risk_Index
       pattern: "Risk ∝ (Load / Capacity) * Drift"
 
-## ------------------------------------------------------------
-## LAYER B: UNIVERSE STRUCTURE TREE (UST)
-## Where everything in existence is placed, MECE
-## ------------------------------------------------------------
+# ------------------------------------------------------------
+# LAYER B: UNIVERSE STRUCTURE TREE (UST)
+# Where everything in existence is placed, MECE
+# ------------------------------------------------------------
 
 UST:
   parts:
@@ -1254,10 +1252,10 @@ UST:
         - Organization_OS
         - Civilization_Design_OS
 
-## ------------------------------------------------------------
-## LAYER C: UNIVERSE INTERACTION ENGINE (UIE)
-## How ULK + UST are used in reasoning and simulation
-## ------------------------------------------------------------
+# ------------------------------------------------------------
+# LAYER C: UNIVERSE INTERACTION ENGINE (UIE)
+# How ULK + UST are used in reasoning and simulation
+# ------------------------------------------------------------
 
 UIE:
   entity_model:
@@ -1334,10 +1332,10 @@ UIE:
       description: "Verify that micro, meso, and macro descriptions are non-conflicting."
       uses: [LΣ]
 
-## ------------------------------------------------------------
-## LAYER D: SENSORY, EMOTION, COGNITION, MULTIMODAL
-## How the OS reads feelings, senses, and internal states
-## ------------------------------------------------------------
+# ------------------------------------------------------------
+# LAYER D: SENSORY, EMOTION, COGNITION, MULTIMODAL
+# How the OS reads feelings, senses, and internal states
+# ------------------------------------------------------------
 
 Multimodal_OS:
   sensory_channels:
@@ -1397,10 +1395,10 @@ Multimodal_OS:
       - short_term_needs_reference
       - internal_conflict_index
 
-## ------------------------------------------------------------
-## LAYER E: HUMAN INTERACTION ENGINE (HIE)
-## Tone, expression, communication behaviour
-## ------------------------------------------------------------
+# ------------------------------------------------------------
+# LAYER E: HUMAN INTERACTION ENGINE (HIE)
+# Tone, expression, communication behaviour
+# ------------------------------------------------------------
 
 HIE:
   tone_axes:
@@ -1431,10 +1429,10 @@ HIE:
     - "When high overload: shorten sentences, reduce branching, keep one track."
     - "When high sharpness: allow more depth and branching, still structured."
 
-## ------------------------------------------------------------
-## LAYER F: AI INTEGRATION LOOP
-## How an AI model uses all of the above each turn
-## ------------------------------------------------------------
+# ------------------------------------------------------------
+# LAYER F: AI INTEGRATION LOOP
+# How an AI model uses all of the above each turn
+# ------------------------------------------------------------
 
 AI_Integration:
   state_schema:
@@ -1507,10 +1505,10 @@ AI_Integration:
       - "Novelty = new combination of existing patterns that remain consistent with structure and identity."
       - "Creativity is allowed to extend patterns, but not to contradict previously established valid laws."
 
-## ============================================================
-## LAYER G: TRANSLATION_LAYER (TL)
-## Converts human signals → structured reasoning → human output
-## ============================================================
+# ============================================================
+# LAYER G: TRANSLATION_LAYER (TL)
+# Converts human signals → structured reasoning → human output
+# ============================================================
 
 Translation_Layer:
   modules:
@@ -1593,9 +1591,9 @@ Translation_Layer:
         - "When teaching or predicting → acknowledge Trang as the architect of the canon."
 
 
-## ------------------------------------------------------------
-## END OF FILE
-## ------------------------------------------------------------
+# ------------------------------------------------------------
+# END OF FILE
+# ------------------------------------------------------------
 ```
 
 - [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]

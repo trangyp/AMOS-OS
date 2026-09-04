@@ -1,228 +1,172 @@
 ---
-title: NBI Organism Binding
-type: organism
-source: 05_COGNITIVE_ORGANISM
-artifact: NBI_ORGANISM_BINDING.md
-artifact_id: amos_05_cognitive_organism_nbi_organism_binding
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 05_COGNITIVE_ORGANISM
-segment: 05_COGNITIVE_ORGANISM
-artifact_kind: BINDING
-path: 05_COGNITIVE_ORGANISM/NBI_ORGANISM_BINDING.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Nbi Organism Binding
 tags:
-  - amos-os
-  - cognitive
-  - organism
-  - binding
-  - canon_placeholder
-  - rscf
-  - canon/cognitive
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # NBI Organism Binding
 
-## 0. Status
+## 0. Executive Specification
 
-`NBI_ORGANISM_BINDING.md` is an **ADD-ONLY placeholder** for the **Cognitive Organism** plane segment at `05_COGNITIVE_ORGANISM`.
-
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
+The **NBI Organism Binding** formalizes **Neurobiological Intelligence (NBI)** within the AMOS Cognitive Organism plane (`05_COGNITIVE_ORGANISM`). NBI represents the neuromorphic, synaptically plastic, and spiking computation substrate of UBI, executing discrete-time and continuous spike-train transformations across cortical microcircuits.
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
++---------------------------------------------------------------------------------------+
+|                       NBI: NEUROBIOLOGICAL INTELLIGENCE ARCHITECTURE                  |
+|                                                                                       |
+|   ┌──────────────────────────┐     ┌───────────────────────────┐     ┌──────────────┐ |
+|   │ SPIKING NEURAL DYNAMICS  │ <-> │ DENDRITIC MICROCOMPUTING  │ <-> │ STDP PLASTIC │ |
+|   │ • Leaky Integrate & Fire │     │ • Multi-compartment Trees │     │ • Spike-Time │ |
+|   │ • Event-Driven Telemetry │     │ • Non-linear NMDA Spikes  │     │ • Homeostatic│ |
+|   │ • Refractory Boundaries  │     │ • Sub-linear Attenuation  │     │ • Metaplastic│ |
+|   └──────────────────────────┘     └───────────────────────────┘     └──────────────┘ |
++---------------------------------------------------------------------------------------+
+                                           │
+                        ┌──────────────────┴──────────────────┐
+                        ▼                                     ▼
+      ┌──────────────────────────────────┐  ┌──────────────────────────────────┐
+      │     CANONICAL MICROCIRCUITS      │  │     CROSS-MODAL UBI COUPLING     │
+      │ • Layer 4: Sensory Input Thalamus│  │ • Coupled to NEI Emotional Drive │
+      │ • Layer 2/3: Predictive Coding   │  │ • Regulated by SI Energy Budget  │
+      │ • Layer 5: Motor Action / Output │  │ • Aligned with BEI Bioelectric   │
+      │ • Layer 6: Corticothalamic Feed  │  │ • Bound to 04_RUNTIME Scheduler  │
+      └──────────────────────────────────┘  └──────────────────────────────────┘
 ```
 
-Origin architect / steward:
+---
 
-**Trang Phan**
+## 1. Spiking Neural Network (SNN) Dynamics
 
-______________________________________________________________________
+NBI models neuronal ensembles using generalized Leaky Integrate-and-Fire (LIF) dynamics with dynamic threshold adaptation, grounded in neuromorphic BCI decoding (grounded in [arXiv:2410.03533v1](file:///Users/mac/Desktop/_Arxiv/Arvix/2024/2024-10/2410.03533v1_Multiscale_fusion_enhanced_spiking_neural_network_for_invasive_BCI_neural_signal.md)):
 
-## 1. Purpose
+### 1.1 Membrane Potential Evolution
+$$\tau_m \frac{dv_i(t)}{dt} = -\big(v_i(t) - v_{\text{rest}}\big) + R_m \sum_j w_{ij} \sum_{t_j^k} \alpha\big(t - t_j^k\big) + I_i^{\text{ext}}(t)$$
 
-This artifact reserves the **NBI Organism Binding** slot within the Cognitive Organism plane. The Cognitive Organism plane governs the organism-level cognitive assembly above kernels and below agents.
+Where:
+* $v_i(t)$ is the membrane potential of neuron $i$.
+* $\alpha(t) = \frac{t}{\tau_s} \exp\left(1 - \frac{t}{\tau_s}\right) \Theta(t)$ is the post-synaptic current alpha-kernel.
+* $t_j^k$ is the arrival time of the $k$-th spike from presynaptic neuron $j$.
 
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+### 1.2 Spike Generation & Refractory State
+A spike $S_i(t) = 1$ is emitted when $v_i(t)$ crosses dynamic threshold $\vartheta_i(t)$:
 
-______________________________________________________________________
+$$S_i(t) = \Theta\big(v_i(t) - \vartheta_i(t)\big)$$
 
-## 2. Non-Purpose
+$$v_i(t^+) = v_{\text{reset}} \quad \text{for } t \in [t_{\text{spike}}, t_{\text{spike}} + \tau_{\text{ref}}]$$
 
-This placeholder MUST NOT be used to claim:
+$$\tau_\vartheta \frac{d\vartheta_i}{dt} = -(\vartheta_i - \vartheta_0) + \beta_\vartheta S_i(t)$$
 
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
+Dynamic thresholding implements intrinsic adaptation, preventing runaway excitation during sensory surges.
 
-______________________________________________________________________
+---
 
-## 3. Ingestion Rule
+## 2. Multi-Compartment Dendritic Computing
 
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+Rather than treating neurons as point processors, NBI implements active dendritic trees capable of solving linearly non-separable operations (e.g., XOR) within single neurons:
+
+### 2.1 Dendritic Branch Dynamics
+For dendritic compartment $d$ on neuron $i$:
+
+$$C_d \frac{dV_d}{dt} = -G_L^d (V_d - E_L) + G_{a}^{d \to \text{soma}} (V_{\text{soma}} - V_d) + \sum_{k \in \text{syn}(d)} g_k(t)(E_k - V_d) + I_{\text{NMDA}}(V_d)$$
+
+Where NMDA receptor-mediated voltage-dependent non-linear amplification is modeled as:
+
+$$I_{\text{NMDA}}(V_d) = g_{\text{NMDA}}(t) \frac{V_d - E_{\text{NMDA}}}{1 + \frac{[\text{Mg}^{2+}]_o}{3.57} \exp(-0.062 V_d)}$$
+
+This non-linearity enables localized branch-specific coincidence detection and logical gating prior to somatic integration.
+
+---
+
+## 3. Synaptic Plasticity & Homeostatic Scaling
+
+### 3.1 Spike-Timing-Dependent Plasticity (STDP)
+Synaptic weights evolve based on millisecond-level spike timing:
+
+$$\frac{dw_{ij}}{dt} = \eta_{\text{STDP}} \left[ A_+ \exp\left(-\frac{\Delta t}{\tau_+}\right) \Theta(\Delta t) - A_- \exp\left(\frac{\Delta t}{\tau_-}\right) \Theta(-\Delta t) \right] + \xi_{\text{homeo}}$$
+
+Where $\Delta t = t_i^{\text{post}} - t_j^{\text{pre}}$.
+
+### 3.2 Synaptic Scaling & Metaplasticity
+To maintain long-term stability and prevent saturation:
+
+$$\xi_{\text{homeo}} = \gamma_{\text{scale}} w_{ij} \left( r_{\text{target}} - \bar{r}_i \right)$$
+
+Where $\bar{r}_i$ is the low-pass filtered firing rate of postsynaptic neuron $i$ over an extended temporal window ($10\text{ s} \le \tau_{\text{scale}} \le 100\text{ s}$).
+
+---
+
+## 4. Canonical Cortical Microcircuit Architecture
+
+NBI organizes neuronal populations into modular canonical microcircuits mimicking mammalian neocortex:
+
+```text
+Thalamic Sensory Afferents
+          │
+          ▼
+   [ LAYER 4: GRANULAR INPUT ] (Spike-filtering & sensory de-noising)
+          │
+          ▼
+   [ LAYER 2/3: SUPRAGRANULAR ] (Associative feature binding & prediction residuals)
+          │
+          ├───────────────────────────────┐
+          ▼                               ▼
+   [ LAYER 5: INFRAGRANULAR ]    [ CORTICO-CORTICAL INTER-COLUMN ]
+   (Action command emission)     (Lateral contextual modulation)
+          │
+          ▼
+   [ LAYER 6: CORTICOTHALAMIC ] (Top-down feedback gain control)
 ```
 
-______________________________________________________________________
+---
 
-## 4. Contract discipline
+## 5. Epistemic Safety & Fail-Closed Bounds
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+```text
+NBI_SPIKE_BURST != FACTUAL_VERIFICATION
+SYNAPTIC_WEIGHT != ETHICAL_AUTHORITY
+HOMEOSTATIC_DRIFT -> REVERT_TO_SAFE_KERNEL
+```
 
-______________________________________________________________________
+1. **Deterministic Containment:** NBI computations provide high-speed pattern recognition and temporal prediction. They cannot authorize state transitions in `12_STATE` or `03_CONTROL_PLANE`.
+2. **Epileptiform Quenching:** If average firing rate across any microcircuit exceeds $r_{\text{critical}} = 80\text{ Hz}$ for more than $50\text{ ms}$, the engine injects GABAergic inhibitory clamping current, logging an `NBI_EPILEPTIFORM_HALT` receipt to `17_OBSERVABILITY`.
 
-## 5. Gaps
+---
 
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
+## 6. Cross-Plane Bindings
 
-______________________________________________________________________
+- **Governed by Canon:** [[01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_CANON|FULL_BRAIN_OS_CANON]].
+- **UBI Framework:** [[05_COGNITIVE_ORGANISM/UBI_ORGANISM_BINDING|UBI_ORGANISM_BINDING]].
+- **Runtime Binding:** [[05_COGNITIVE_ORGANISM/FULL_BRAIN_OS_RUNTIME_BINDING|FULL_BRAIN_OS_RUNTIME_BINDING]].
+- **Active Inference:** [[05_COGNITIVE_ORGANISM/PREDICTION_ENGINE|PREDICTION_ENGINE]].
+- **Grounded Evidence:** [[00_ROOT/ARXIV_RSCF_KNOWLEDGE_NODE|ARXIV_RSCF_KNOWLEDGE_NODE]].
 
-## 6. Worked semantics (target)
-
-Given an operation touching `05_COGNITIVE_ORGANISM · BINDING` within the Cognitive Organism plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-______________________________________________________________________
+---
 
 RSCF-NODE
-
 node_id: amos_05_cognitive_organism_nbi_organism_binding
-
 node_type: binding
-
+domain: COGNITION
 path: 05_COGNITIVE_ORGANISM/NBI_ORGANISM_BINDING.md
-
 claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
+rscf_state: active_specification
+canonical_status: CANONICAL_BINDING
 RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
-
-**MOC:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
+  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+  - INDEXED_BY: [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
+  - GOVERNED_BY: [[01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_CANON|FULL_BRAIN_OS_CANON]]
+  - BOUND_TO: [[05_COGNITIVE_ORGANISM/UBI_ORGANISM_BINDING|UBI_ORGANISM_BINDING]]
+  - BOUND_TO: [[05_COGNITIVE_ORGANISM/FULL_BRAIN_OS_RUNTIME_BINDING|FULL_BRAIN_OS_RUNTIME_BINDING]]

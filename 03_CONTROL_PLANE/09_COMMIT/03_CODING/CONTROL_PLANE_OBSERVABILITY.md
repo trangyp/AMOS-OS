@@ -1,20 +1,21 @@
 ---
-title: CONTROL PLANE OBSERVABILITY
-type: control-plane
-source: 03_CONTROL_PLANE/09_COMMIT/03_CODING
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Control Plane Observability
 tags:
-  - control-plane
-  - 03_coding
-  - canon/control-plane
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # CONTROL PLANE OBSERVABILITY

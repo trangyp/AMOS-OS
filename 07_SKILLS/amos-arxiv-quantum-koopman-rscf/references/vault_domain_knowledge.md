@@ -1,27 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Vault Domain Knowledge — Amos Arxiv Quantum Koopman Rscf
-type: reference
-source: 07_SKILLS/amos-arxiv-quantum-koopman-rscf/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Vault Domain Knowledge
 tags:
-  - reference
-  - amos-arxiv-quantum-koopman-rscf
-  - type/skill
-  - amos-build-from-spec
-  - 2026-08-22-brain-inventory
-  - 2026-08-22-executable-code-internals
-  - 2026-08-22-amos-full-brain-os-architecture
-  - canon
-  - 2026-08-22-amos-go-board-19x19-formal-system
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Vault-Sourced Domain Knowledge
@@ -384,7 +378,7 @@ rscf/P-
 
 > Path: `indexes/EQUATION_REGISTRY.md` | Size: 9006 chars | Match score: 3
 
-## Equation Registry
+# Equation Registry
 
 Equations are preserved with their source/framework status. AMOS MODEL equations must not be promoted into established empirical law without independent validation.
 

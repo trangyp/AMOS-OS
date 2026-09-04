@@ -1,27 +1,21 @@
 ---
-type: control-plane
-source: 03_CONTROL_PLANE/09_COMMIT/14_COMPOSITE_MODES
-artifact_id: AMOS-MODE-FAMILY-14_COMPOSITE_MODES
-title: 14_COMPOSITE_MODES — Mode Family Placeholder
-document_version: 0.1.0-placeholder
-amos_core_target: v4.4
-created: '2026-08-25'
-origin_architect: Trang Phan
-steward: Trang Phan
-status: PROPOSED_SPECIFICATION
-conclusion_class: UNKNOWN/GAP
-rscf_state: placeholder
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Composite Modes Commit Control Plane Mode Family Spec
 tags:
-  - control-plane
-  - commit
-  - composite_modes
-  - note
-  - canon/control-plane
-rscf:
-  state: DERIVED
-  claim_class: EMPIRICAL
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 14_COMPOSITE_MODES

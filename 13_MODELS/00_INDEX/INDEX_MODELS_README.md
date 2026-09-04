@@ -1,109 +1,16 @@
 ---
-title: INDEX MODELS README
-aliases:
-  - Models Index README
-  - AMOS Models Index
-  - 13 Models Index
-  - Models Navigation Index
-type: index
-artifact_type: index_readme
-document_role: models_plane_navigation_index
-source: 13_MODELS/00_INDEX
-path: 13_MODELS/00_INDEX/INDEX_MODELS_README.md
-plane: 13_MODELS
-segment: 13_MODELS/00_INDEX
-system: AMOS_OS
-origin_architect: Trang Phan
-steward: Trang Phan
-status: ACTIVE_REFERENCE
-canonical_status: CONDITIONAL
-epistemic_status: AMOS_MODEL
-implementation_status: PARTIAL
-runtime_enforcement: PARTIAL
-automated_link_integrity: PARTIAL
-artifact_specific_validation: UNKNOWN/GAP
-executable_binding: NOT_ESTABLISHED
-scope:
-  - index_navigation
-  - models_plane
-  - model_discovery
-  - model_resolution
-  - model_navigation
-  - model_orientation
-resolution_policy:
-  local: BASENAME_WITHIN_OWN_DIRECTORY
-  cross_plane:
-    - '[[00_ROOT/00_HOME|00_HOME]]'
-    - '[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]'
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Index Models Readme
 tags:
-  - amos-os
-  - 00_index
-  - models
-  - model
-  - index
-  - readme
-  - model-navigation
-  - model-discovery
-  - model-resolution
-  - basename-resolution
-  - cross-plane-resolution
-  - cross-plane-navigation
-  - rscf
-  - rscf-node
-  - provenance
-  - dependency
-  - dependency-closure
-  - scope
-  - regime
-  - hml
-  - authority
-  - authorization
-  - capability
-  - proposal
-  - commit
-  - fail-closed
-  - unknown-gap
-  - rollback
-  - selective-invalidation
-  - validation
-  - validation-receipt
-  - link-integrity
-  - routing
-  - governance
-  - model-governance
-  - model-provenance
-  - model-versioning
-  - competing-models
-  - epistemic-regime
-  - canon/model
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-  - model-index-navigation
-  - local-basename-resolution
-  - model-identity-preservation
-  - model-version-navigation
-  - model-provenance-preservation
-  - model-scope-preservation
-  - model-regime-preservation
-  - references
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  node_claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: index_navigation
-  plane: 13_MODELS
-  segment: 13_MODELS/00_INDEX
-  canonical_status: CONDITIONAL
-  implementation_status: PARTIAL
-gaps:
-  automated_link_integrity: PARTIAL
-  artifact_specific_validation_receipt: UNKNOWN/GAP
-  executable_index_validator: NOT_ESTABLISHED
-  complete_model_inventory: NOT_ESTABLISHED
-  complete_alias_policy: NOT_ESTABLISHED
-  complete_collision_policy: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # INDEX MODELS README

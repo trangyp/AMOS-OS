@@ -1,87 +1,87 @@
 ---
-title: "22_RESEARCH — Formal Mathematics & Scientific Foundations"
-type: architecture_specification
-source: 22_RESEARCH
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-    - 01_CANON/01_CANON_README
-  scope: research_architecture
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Research Readme
 tags:
-  - amos-os
-  - research
-  - mathematics
-  - 137-registry
-  - formal-methods
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# 22_RESEARCH — Master Research & Mathematical Foundations
+# RESEARCH README
 
-## 1. Plane Purpose
+## Purpose
 
-The `22_RESEARCH` plane (**Partition F: Assurance, Learning & Lifecycle Evidence**) houses the formal mathematical registries, singularity papers, theoretical frameworks, and academic literature bridges.
+`RESEARCH README` is the package readme for the **Research** plane segment at `22_RESEARCH`.
+The Research plane governs research questions, experiments, competing models, validation, benchmarks. Normative load-bearing content lives in the sibling contract(s); this readme orients navigation.
 
-This plane is the epistemic foundation of the AMOS OS. It provides the mathematical formalism, peer-reviewed literature connections, and theoretical frameworks that underpin all architectural specifications. Research outputs from this plane feed into the canon, models, and domain specifications.
+## Sibling artifacts
 
-```text
-RESEARCH != DOGMA
-HYPOTHESIS != LAW
-FORMULA != IMPLEMENTATION
-DOCUMENTED != IMPLEMENTED
-```
+- [[22_RESEARCH/RESEARCH_RESEARCH_CONTRACT|RESEARCH_RESEARCH_CONTRACT]]
 
----
+## Contract discipline
 
-## 2. Architecture Overview
+Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
 
-The research plane is organized into mathematical registries, paper bridges, and theoretical frameworks. The 137 Math Registry is the central formal artifact, providing 137 master formulas that are referenced across all AMOS planes. ArXiv bridges connect the vault to external academic literature, enabling traceable provenance from architectural claims to peer-reviewed sources.
+## Gaps
 
----
+Executable binding PARTIAL unless an executed validation receipt exists for this subsystem ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
 
-## 3. Key Components
+## Worked semantics
 
-### 3.1 Core Research Repositories
+Given an operation touching `RESEARCH · README` within the Research plane:
 
-- **`01_MATHEMATICS/AMOS_137_MATH_REGISTRY.md`**: Master registry of 137 formal mathematical formulas, matrix definitions, and invariant proofs. This is the mathematical backbone referenced by all planes for formal verification.
-- **`01_MATHEMATICS/SINGULARITY_AND_NON_PROPER_VALUES.md`**: Mathematical foundations on singularity analysis and non-proper value distributions. Provides the theoretical basis for handling boundary conditions and degenerate cases in AMOS models.
-- **`02_ARXIV_BRIDGES/`**: Categorized bridges to physics, quantum computation, AI architecture, and complex systems literature. Each bridge maps an ArXiv paper to relevant AMOS planes with provenance tracking.
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-### 3.2 Research Workflow
+## Promotion-gate checklist
 
-1. **Literature Discovery:** ArXiv corpus indexing engine (`11_KNOWLEDGE`) surfaces relevant papers based on AMOS plane requirements.
-2. **Bridge Construction:** Research agents create formal bridges mapping paper findings to AMOS architectural claims.
-3. **Mathematical Formalization:** Key results are encoded in the 137 Math Registry with formal proofs where applicable.
-4. **Canon Integration:** Verified mathematical results may be promoted to canon laws through the D4 architect approval process.
-5. **Validation:** Mathematical claims are validated against the Lean 4 formal kernel (`02_KERNEL`) where formalization is feasible.
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
----
+## Cross-plane bindings
 
-## 4. Navigation
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-- **Research MOC:** [[22_RESEARCH/22_RESEARCH_MOC|22_RESEARCH_MOC]]
-- **137 Math Registry:** [[22_RESEARCH/01_MATHEMATICS/AMOS_137_MATH_REGISTRY|AMOS_137_MATH_REGISTRY]]
-- **Singularity Theory:** [[22_RESEARCH/01_MATHEMATICS/SINGULARITY_AND_NON_PROPER_VALUES|SINGULARITY_AND_NON_PROPER_VALUES]]
-- **ArXiv Bridges:** [[22_RESEARCH/02_ARXIV_BRIDGES|02_ARXIV_BRIDGES]]
-- **ArXiv Indexing Ledger:** [[11_KNOWLEDGE/ARXIV_DATASET_INDEXING_LEDGER|ARXIV_DATASET_INDEXING_LEDGER]]
-- **Lean 4 Kernel:** [[02_KERNEL/LEAN4_FORMAL_KERNEL|LEAN4_FORMAL_KERNEL]]
-- **Canon:** [[01_CANON/01_CANON_README|01_CANON_README]]
-- **Root Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]
+______________________________________________________________________
 
----
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
-## 5. Status & Gaps
+______________________________________________________________________
 
-- **Status:** `ACTIVE_SPECIFICATION` — the 137 Math Registry and ArXiv bridges are documented and structurally present.
-- **137 Registry Completeness:** The registry contains 137 master formulas. Coverage across all 26 AMOS planes is not uniform; some planes have richer mathematical formalization than others.
-- **Lean 4 Formalization:** A subset of the 137 formulas has been formalized in Lean 4. Complete formalization of all 137 formulas is `UNKNOWN/GAP`.
-- **ArXiv Bridge Coverage:** The ArXiv corpus contains 66,027 indexed papers. Bridge construction (mapping papers to AMOS planes) is an ongoing process with current coverage concentrated in quantum systems, mathematics, and AI/ML domains.
-- **Peer Review Simulation:** Research outputs within AMOS are validated through multi-agent peer review, not external peer review. External academic validation of AMOS-specific theoretical contributions is `UNKNOWN/GAP`.
-- **Epistemic Boundary:** `HYPOTHESIS != LAW` — research findings are provisional until formally proven and canonically promoted. `FORMULA != IMPLEMENTATION` — mathematical formalization does not constitute runtime implementation.
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: amos_22_research_research_readme_md
+node_type: note
+path: 22_RESEARCH/RESEARCH_README.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[22_RESEARCH/22_RESEARCH_MOC|22_RESEARCH_MOC]]

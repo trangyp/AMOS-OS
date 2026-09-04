@@ -1,21 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: unified coding engine spec
-type: reference
-source: 07_SKILLS/amos-ghost-code-symbolic-execution-rscf/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Unified Coding Engine Spec
 tags:
-  - reference
-  - amos-ghost-code-symbolic-execution-rscf
-  - type/skill
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Unified Coding Engine Specification
@@ -201,7 +201,7 @@ rscf:
 
 > Path: `audit/REAL_CODE_VERIFICATION_COMPLETE.md` | Size: 6018 chars | Match score: 10
 
-## AMOS Real Code Verification System - Implementation Complete
+# AMOS Real Code Verification System - Implementation Complete
 
 ## MISSION ACCOMPLISHED
 

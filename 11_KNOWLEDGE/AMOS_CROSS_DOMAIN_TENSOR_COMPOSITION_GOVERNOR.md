@@ -1,115 +1,16 @@
 ---
-title: MODEL MAP
-aliases:
-  - Models Map
-  - AMOS Model Map
-  - 13 Models Map
-  - Models Plane Index Map
-type: map
-artifact_type: navigation_map
-document_role: models_plane_segment_map
-source: 13_MODELS/00_INDEX
-path: 13_MODELS/00_INDEX/MODEL_MAP.md
-system: AMOS_OS
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: 13_MODELS
-segment: 13_MODELS/00_INDEX
-status: ACTIVE_REFERENCE
-canonical_status: CONDITIONAL
-epistemic_status: AMOS_MODEL
-implementation_status: PARTIAL
-graph_validation_status: PARTIAL
-artifact_specific_validation: UNKNOWN/GAP
-executable_binding: NOT_ESTABLISHED
-scope:
-  - index_navigation
-  - models_plane
-  - models_index_segment
-  - local_model_navigation
-  - artifact_discovery
-  - contract_navigation
-coverage:
-  directory: 13_MODELS/00_INDEX
-  recursive: false
-  cross_segment: false
-  exhaustive_models_plane: false
-navigation_contract:
-  orientation:
-    -   - INDEX_MODELS_README
-  normative_contract:
-    -   - INDEX_MODELS_MODEL_CONTRACT
-  cross_segment:
-    - '[[00_ROOT/00_ROOT_MAP|00_ROOT_MAP]]'
-    - '[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]'
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Amos Cross Domain Tensor Composition Governor
 tags:
-  - amos-os
-  - amos-os
-  - 13_models
-  - 00_index
-  - models
-  - model
-  - map
-  - navigation
-  - index
-  - model-navigation
-  - artifact-discovery
-  - local-navigation
-  - segment-navigation
-  - local-scope
-  - directory-scope
-  - model-instances
-  - rscf
-  - rscf-node
-  - fractal-knowledge-network
-  - hml
-  - scope
-  - regime
-  - provenance
-  - provenance-topology
-  - dependency
-  - dependency-closure
-  - authority
-  - authorization
-  - governance
-  - proposal
-  - commit
-  - fail-closed
-  - unknown-gap
-  - rollback
-  - selective-invalidation
-  - validation
-  - graph-validation
-  - validation-receipt
-  - routing
-  - link-integrity
-  - model-identity
-  - model-versioning
-  - model-provenance
-  - competing-models
-  - epistemic-regime
-  - canon/model
-  - readme
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  node_claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: index_navigation
-  plane: 13_MODELS
-  segment: 13_MODELS/00_INDEX
-  canonical_status: CONDITIONAL
-  implementation_status: PARTIAL
-gaps:
-  executable_graph_validation: PARTIAL
-  artifact_specific_validation_receipt: UNKNOWN/GAP
-  complete_models_plane_coverage: NOT_CLAIMED
-  cross_segment_coverage: EXTERNAL
-  complete_model_inventory: NOT_ESTABLISHED
-  executable_map_schema: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # MODEL MAP

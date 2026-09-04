@@ -1,37 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: References MOC — References — Amos Audit Repair Master
-type: moc
-source: 07_SKILLS/amos-audit-repair-master/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: References Moc
 tags:
-  - references
-  - type/skill
-  - 11k-cross-skill-proof-composition
-  - 11k-known-gaps
-  - audit-quality-engine
-  - audit-quality-engine-domains
-  - audit-quality-engine-v0
-  - audit-quality-max
-  - audit-quality-model
-  - brain-consistency-auditor
-  - consolidation-report
-  - critical-fixes-analysis
-  - [[07_SKILLS/amos-audit-repair-master/references/diagnosis|diagnosis]]
-  - final-gate
-  - hallucination-cleanup-report
-  - qa-testing-kernel
-  - system-fixes-complete
-  - system-fixes-progress
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-moc: true
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # References — Map of Content

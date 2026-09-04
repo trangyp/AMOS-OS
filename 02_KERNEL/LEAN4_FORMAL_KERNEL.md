@@ -22,65 +22,105 @@ tags:
   - lean4
   - formal-verification
   - engine
+  - dependent-types
 ---
 
 # Lean 4 Formal Kernel
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Epistemic Class:** `AMOS_MODEL`
+> **Origin Architect / Steward:** Trang Phan  
+> **AMOS_CORE Target:** `v4.4`  
+> **Epistemic Class:** `AMOS_MODEL`  
 > **Conclusion Class:** `DERIVED`
 
 ---
 
-## 1. Architectural Scope
+## 1. Architectural Scope & Type Theory
 
-The **Lean 4 Formal Kernel** is the AMOS-side specification of a Calculus-of-Inductive-Constructions (CIC) proof engine used to verify invariants before they are admitted into the AMOS knowledge base. It exists as a *model* of a formal verification pipeline, not as a deployed compiler or proof assistant. Actual proof construction and checking are delegated to an external Lean 4 toolchain that is governed by the contracts below.
+The **Lean 4 Formal Kernel** is the AMOS OS mathematical core for mechanical formal verification of kernel invariants and state-transition safety proofs. It formalizes AMOS Core Laws (`L01` through `L30`) inside the **Calculus of Inductive Constructions (CIC)** with dependent type theory, inductive families, and computational reflection.
 
 ```text
 FORMAL_MODEL != RUNTIME_VERIFIER
 PROVEN_IN_LEAN != AMOS_CANONICAL
 DOCUMENTED != IMPLEMENTED
+CAPABILITY != AUTHORITY
 ```
 
 ---
 
-## 2. Core Components
+## 2. Formal Type Definitions & Invariant Schemas
 
-| Component | Plane | Role |
-|-----------|-------|------|
-| [[02_KERNEL/LEAN4_INVARIANT_PROVER_ENGINE|LEAN4_INVARIANT_PROVER_ENGINE]] | 02_KERNEL/02_COGNITION | Constructs invariant propositions and tactic scripts. |
-| [[02_KERNEL/LEAN4_PROOF_VERIFICATION_LEDGER|LEAN4_PROOF_VERIFICATION_LEDGER]] | 02_KERNEL/02_COGNITION | Records proof status, elaboration time, and cryptographic proof hash. |
-| [[22_RESEARCH/01_MATHEMATICS/AMOS_137_MATH_REGISTRY|AMOS_137_MATH_REGISTRY]] | 22_RESEARCH/01_MATHEMATICS | Master registry of formalized equations and invariants. |
+### 2.1 Inductive Epoch & RSCF State Types
+```lean
+namespace Amos.Kernel
+
+/-- Epistemic classification regime for claims in the AMOS vault -/
+inductive EpistemicClass where
+  | source_claim : EpistemicClass
+  | observation   : EpistemicClass
+  | derived       : EpistemicClass
+  | amos_model    : EpistemicClass
+  | decision      : EpistemicClass
+  | unknown_gap   : EpistemicClass
+deriving Repr, DecidableEq
+
+/-- Monotonic epoch identifier for Compare-And-Swap (CAS) state commits -/
+structure Epoch where
+  val : Nat
+  monotonic : val > 0
+deriving Repr
+
+/-- RSCF Node representation in Lean 4 -/
+structure RSCFNode where
+  node_id : String
+  epistemic_class : EpistemicClass
+  provenance_hash : String
+  confidence_ceiling : Float
+  epoch : Epoch
+```
+
+### 2.2 Formal State Transition & CAS Correctness Theorem
+```lean
+/-- Atomic Compare-And-Swap state transition predicate -/
+def CAS_Valid (current_epoch next_epoch : Epoch) (prev_hash next_hash : String) : Prop :=
+  next_epoch.val = current_epoch.val + 1 ∧ prev_hash ≠ next_hash ∧ next_hash.length = 64
+
+/-- Theorem: Monotonic Epoch Evolution guarantees anti-rollback in CAS commits -/
+theorem epoch_monotonic_anti_rollback (e1 e2 : Epoch) (h : CAS_Valid e1 e2 p n) :
+  e2.val > e1.val := by
+  rcases h with ⟨h_succ, _, _⟩
+  rw [h_succ]
+  exact Nat.lt_succ_self e1.val
+```
 
 ---
 
-## 3. Governing Invariants
+## 3. Kernel Verification Pipeline & Proof Ledgers
 
-- **INV-L4FK-001 (Model Boundary):** This artifact is an `AMOS_MODEL` of a formal kernel; it does not by itself execute proofs.
-- **INV-L4FK-002 (Proof Closure):** Only theorems with zero `sorry` placeholders and stated tactic closures are recorded as `VERIFIED`.
-- **INV-L4FK-003 (Constructive Preference):** Classical choice axioms are not invoked without explicit declaration and scope limitation.
-- **INV-L4FK-004 (Hash Anchoring):** Every verified proof is bound to a `BLAKE3/SHA-256` digest of its source terms and dependencies.
-
----
-
-## 4. Inputs & Outputs
-
-- **Input:** `FORMAL_KERNEL_INPUT{proposition, dependencies[], tactic_hints[], confidence_ceiling}`
-- **Output:** `FORMAL_KERNEL_OUTPUT{status, proof_hash, elaboration_time, sorry_count, dependency_closure}`
+```mermaid
+flowchart LR
+    A["AMOS Invariant Proposition<br>(L01..L30)"] --> B["Lean 4 Elaboration Engine"]
+    B --> C["Tactic Search & Aesop/Omega"]
+    C --> D{"Sorry Free & Type Checked?"}
+    D -- "Yes" --> E["Generate BLAKE3 Proof Hash"]
+    E --> F["Record in LEAN4_PROOF_VERIFICATION_LEDGER"]
+    D -- "No" --> G["Fail Closed (UNKNOWN/GAP)"]
+```
 
 ---
 
-## 5. Safety & Epistemic Firewalls
+## 4. Governing Invariants
 
-- `FORMAL_PROOF != EMPIRICAL_VALIDATION` — logical correctness does not imply runtime correctness.
-- `VERIFIED_LEMMA != UNIVERSAL_TRUTH` — a proof is valid within the stated axioms and type theory.
+- **INV-L4FK-001 (Constructive Soundness):** Proofs must not invoke classical axioms (`Classical.choice`, `Classical.em`) unless explicitly tagged with `noncomputable` and bounded within epistemic modeling domains.
+- **INV-L4FK-002 (Zero Sorry Tolerance):** No artifact claiming formal verification may contain unproven `sorry` axioms or unverified admits.
+- **INV-L4FK-003 (Cryptographic Proof Binding):** Every verified theorem is anchored to a SHA-256 / BLAKE3 hash of its syntax tree and recorded in [[02_KERNEL/LEAN4_PROOF_VERIFICATION_LEDGER|LEAN4_PROOF_VERIFICATION_LEDGER]].
+- **INV-L4FK-004 (Origin Stewardship):** Origin stewardship is held by Trang Phan under AMOS v4.4 canonical lineage.
 
 ---
 
-## 6. Navigation
+## 5. Navigation & Cross-Plane References
 
-- [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] — Kernel master map
-- [[02_KERNEL/KERNEL_README|KERNEL_README]] — Kernel readme
-- [[01_CANON/01_CORE_LAWS/L22_ATOMIC_REASONING|L22_ATOMIC_REASONING]] — atomic reasoning law
-- [[22_RESEARCH/01_MATHEMATICS/AMOS_137_MATH_REGISTRY|AMOS_137_MATH_REGISTRY]] — math registry
+- [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] — Kernel Master Map
+- [[02_KERNEL/LEAN4_INVARIANT_PROVER_ENGINE|LEAN4_INVARIANT_PROVER_ENGINE]] — Invariant Construction Engine
+- [[02_KERNEL/LEAN4_PROOF_VERIFICATION_LEDGER|LEAN4_PROOF_VERIFICATION_LEDGER]] — Proof Verification Ledger
+- [[01_CANON/01_CORE_LAWS/L22_ATOMIC_REASONING|L22_ATOMIC_REASONING]] — Atomic Reasoning Law
+- [[22_RESEARCH/01_MATHEMATICS/AMOS_137_MATH_REGISTRY|AMOS_137_MATH_REGISTRY]] — Mathematics Registry

@@ -1,65 +1,16 @@
 ---
-title: KERNEL MAP
-type: kernel
-source: 02_KERNEL/00_INDEX
-artifact_id: AMOS-OS-KERNEL-MAP
-canonical_name: KERNEL_MAP
-artifact_type: kernel_topology_map
-status: SOURCE_CLAIM
-conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-domain: kernel
-scope: AMOS_OS
-authority_scope: kernel-structure-and-contract-topology
-created: 2026-08-25
-updated: 2026-08-25
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Kernel Map
 tags:
-  - amos-os
-  - kernel
-  - core
   - canon-group/tech-ai
-  - canon/framework
-  - kernel/map
-  - kernel/topology
-  - kernel/contracts
-  - kernel/invariants
-  - kernel/deterministic
-  - kernel/rscf
-  - kernel/hml
-  - kernel/provenance
-  - kernel/causal-lineage
-  - kernel/epistemic-regime
-  - kernel/persistence
-  - kernel/concurrency
-  - kernel/finality
   - rscf/claim
   - rscf/provenance
   - rscf/state/source-claim
-  - topic/kernel-architecture
-  - topic/deterministic-logic
-  - topic/dependency-closure
-  - topic/atomic-reasoning
-  - topic/governed-evolution
-  - readme
-  - architecture
-  - placement-rules
-  - neural-network
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - source-lineage
-  - supersession-log
-  - authoritative-state
-  - amos-layer-maps
-aliases:
-  - AMOS Kernel Map - AMOS OS Kernel Map - Kernel Topology - Kernel Contract Map
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AMOS OS Kernel Map
@@ -2506,7 +2457,7 @@ ______________________________________________________________________
 ## Related
 
 README ·
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]] ·
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]] ·
 [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] ·
 [[00_ROOT/SYSTEM_MAP|SYSTEM_MAP]] ·
 [[00_ROOT/PLACEMENT_RULES|PLACEMENT_RULES]] ·
@@ -2538,7 +2489,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 
@@ -2556,4 +2507,4 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
+**MOC:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]

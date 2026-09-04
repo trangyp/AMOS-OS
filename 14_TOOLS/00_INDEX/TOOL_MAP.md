@@ -1,21 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: TOOL MAP
-type: map
-source: 14_TOOLS/00_INDEX
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Tool Map
 tags:
-  - amos-os
-  - canon/tool
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: index_navigation
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # TOOL MAP
@@ -26,22 +26,6 @@ Navigation map for the `14_TOOLS/00_INDEX` segment of the Tools plane.
 
 - **Readme** — [[14_TOOLS/00_INDEX/INDEX_TOOLS_README|INDEX_TOOLS_README]]
 - **Contract** — [[14_TOOLS/00_INDEX/INDEX_TOOLS_TOOL_CONTRACT|INDEX_TOOLS_TOOL_CONTRACT]]
-
-## Tool registry
-
-This is the live index of concrete tool artifacts in the `14_TOOLS` plane. Each entry resolves to its canonical specification or MOC.
-
-- [[14_TOOLS/00_INDEX/INDEX_TOOLS_README|INDEX_TOOLS_README]] — Tools segment readme
-- [[14_TOOLS/00_INDEX/INDEX_TOOLS_TOOL_CONTRACT|INDEX_TOOLS_TOOL_CONTRACT]] — Normative tool contract
-- [[14_TOOLS/00_INDEX/TOOLS_MAP|TOOLS_MAP]] — Alias to this map
-- [[14_TOOLS/14_TOOLS_MOC|14_TOOLS_MOC]] — Plane MOC
-- [[14_TOOLS/AMOS_LLM_WIKI_TOOL|AMOS_LLM_WIKI_TOOL]] — LLM wiki tool
-- [[14_TOOLS/AMOS_OBSIDIAN_LINKING_PLUGINS|AMOS_OBSIDIAN_LINKING_PLUGINS]] — Obsidian linking plugins
-- [[14_TOOLS/AMOS_SELF_HEALING_AUTONOMOUS_WASI_MICRO_SANDBOX_GUIDE|AMOS_SELF_HEALING_AUTONOMOUS_WASI_MICRO_SANDBOX_GUIDE]] — WASI micro-sandbox guide
-- [[14_TOOLS/SANDBOX_TOOL_EXECUTION_PROTOCOL|SANDBOX_TOOL_EXECUTION_PROTOCOL]] — Sandbox execution protocol
-- [[14_TOOLS/SIMULATION_KERNEL_DISCRETE_SYSTEM_DYNAMICS|SIMULATION_KERNEL_DISCRETE_SYSTEM_DYNAMICS]] — Discrete system dynamics simulation kernel
-- [[14_TOOLS/TOOLS_README|TOOLS_README]] — Plane readme
-- [[14_TOOLS/TOOLS_TOOL_CONTRACT|TOOLS_TOOL_CONTRACT]] — Plane tool contract
 
 ## Reading order
 
@@ -74,7 +58,7 @@ Given an operation touching `TOOL MAP` within the Tools plane:
 
 ## Cross-plane bindings
 
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 - Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
 - Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
 - Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
@@ -82,7 +66,7 @@ Given an operation touching `TOOL MAP` within the Tools plane:
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 
@@ -98,4 +82,4 @@ claim_class: AMOS_MODEL
 
 ______________________________________________________________________
 
-**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
+**MOC:** [[14_TOOLS/14_TOOLS_MOC|14_TOOLS_MOC]]

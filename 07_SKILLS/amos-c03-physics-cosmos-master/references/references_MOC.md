@@ -1,62 +1,27 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: References MOC — References — Amos C03 Physics Cosmos Master
-type: moc
-source: 07_SKILLS/amos-c03-physics-cosmos-master/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: References Moc
 tags:
-  - references
-  - type/skill
-  - 11k-quantum-library
-  - brain-quantum-enhancement-complete
-  - brain-quantum-omega-complete
-  - brain-quantum-omega-final
-  - brain-supreme-quantum-complete
-  - coherence-energy-law
-  - domain-config
-  - final-quantum-cosmic-enhancement
-  - final-universe
-  - max-power-universe-os
-  - omega-quantum-structural-living
-  - physics-cosmos-engine-cognitive
-  - physics-cosmos-engine-layer
-  - physics-cosmos-model
-  - physics-cosmos-super-x3000
-  - quantum-component-enhancement
-  - quantum-enhanced-complete
-  - quantum-enhancement-mission
-  - quantum-enhancement-progress-v2
-  - quantum-enhancement-ultimate
-  - quantum-field-theory-mapping
-  - quantum-honesty-cycle
-  - quantum-integrity-stack
-  - quantum-logic-scaffold-qls
-  - quantum-logic-system-qls
-  - quantum-os
-  - quantum-speed-systems-thinking
-  - quantum-stack-core3
-  - quantum-stack-core5
-  - quantum-structural-complete
-  - quantum-supremacy-integration
-  - quantum-thermodynamics-cycle
-  - tech-quantum-engine
-  - u3h-atemporal-field
-  - vault-domain-knowledge
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-moc: true
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # References — Map of Content
 
 **Path:** `07_SKILLS/amos-c03-physics-cosmos-master/references`
-**Files:** 35 | **Subdirectories:** 0
+**Files:** 36 | **Subdirectories:** 0
 
 ## Files
 
@@ -95,6 +60,7 @@ rscf:
 - [[07_SKILLS/amos-c03-physics-cosmos-master/references/tech_quantum_engine|tech_quantum_engine]]
 - [[07_SKILLS/amos-c03-physics-cosmos-master/references/u3h_atemporal_field|u3h_atemporal_field]]
 - [[07_SKILLS/amos-c03-physics-cosmos-master/references/vault_domain_knowledge|vault_domain_knowledge]]
+- [[07_SKILLS/amos-c03-physics-cosmos-master/references/arvix_quantum_physics_cosmos_evidence_bridge|arvix_quantum_physics_cosmos_evidence_bridge]]
 
 ______________________________________________________________________
 

@@ -147,5 +147,4 @@ Riemann-1.0's causal world simulation and NavWM's latent world reasoning directl
 14. Enhancing Sim2Real Transfer for Torque-Controlled Robots through Real2Sim Dynamics Estimation. arXiv:2608.22629 (Aug 2026).
 15. DexSim2Real: Foundation Model-Guided Sim-to-Real Transfer for Generalizable Dexterous Manipulation. 2026.
 16. SLIM-0.5B: Learning Action-Grounded Predictive Latents for Robot Manipulation. arXiv:2608.09771 (Aug 2026).
-17. LaDA: Language-Grounded Decoupled Action Representation for Robotic Manipulation. arXiv:2603.12967 (Mar 2026).
-18. SkillsCrafter: Lifelong Language-Conditioned Robotic Manipulation Learning. arXiv:2603.05160 (Mar 2026).
+17. LaDA: Language-Grounded Decoupled Action Representation. arXiv:2603.12967; SkillsCrafter: Lifelong Language-Conditioned Manipulation. arXiv:2603.05160 (Mar 2026).

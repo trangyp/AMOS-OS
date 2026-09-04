@@ -1,66 +1,21 @@
 ---
-title: K MEMORY IMMUNE
-type: memory
-source: 02_KERNEL/05_MEMORY
-artifact_id: AMOS-OS-K-MEMORY-IMMUNE
-canonical_name: K_MEMORY_IMMUNE
-artifact_type: kernel_memory_immune_contract
-status: AMOS_MODEL
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
 conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: KERNEL
-kernel_family: MEMORY
-scope: AMOS_OS
-updated: 2026-08-26
+epistemic_class: SOURCE_CLAIM
+topic: K Memory Immune
 tags:
-  - amos-os
-  - kernel
-  - core
   - canon-group/tech-ai
-  - kernel/memory
-  - kernel/memory-immune
-  - kernel/integrity
-  - kernel/provenance
-  - kernel/conflict
-  - kernel/admission
-  - kernel/recovery
-  - kernel/security
-  - rscf/memory
+  - rscf/claim
   - rscf/provenance
-  - rscf/invalidation
-  - topic/memory-integrity
-  - topic/immune-system
-  - topic/contamination
-  - topic/quarantine
-  - topic/poisoning
-  - topic/sybil-hardening
-  - topic/revalidation
-  - canon/kernel
-  - memory
-  - readme
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - source-lineage
-  - supersession-log
-  - k-identity
-  - k-meta-logic
-  - k-multi-hypothesis
-  - k-memory-admission
-  - k-memory-conflict
-  - k-context-state
-  - k-context-compaction
-  - k-system-state
-  - k-world-model
-  - k-causal-closure
-  - k-causal-epoch
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # K MEMORY IMMUNE
@@ -2421,7 +2376,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

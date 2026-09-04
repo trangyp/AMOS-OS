@@ -1,17 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-date: 2026-08-30
-epistemic_class: OBSERVATION
-provenance: GitHub skillos project, not independently verified
-rscf:
-  claim_class: DERIVED
-  provenance: https://github.com/EvolvingAgentsLabs/skillos (CLAUDE.md)
-  scope: AMOS_knowledge
-  state: SOURCE_CLAIM
-source: /private/tmp/skillos/CLAUDE.md
-title: SkillOS CLAUDE.md — Raw Capture
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Skillos Claude Md 2026 08 30
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # SkillOS: Pure Markdown Operating System Framework
@@ -192,7 +196,7 @@ tools:
   - Edit
 ---
 
-## Tutorial Writer Agent
+# Tutorial Writer Agent
 
 ## Purpose
 Create comprehensive educational tutorials with mathematical rigor...
@@ -235,7 +239,7 @@ action: create_tutorial
 context: chaos_bifurcation_tutorial
 ---
 
-## Agent Interaction Log
+# Agent Interaction Log
 
 ## Request
 Create comprehensive tutorial on chaos and bifurcation...
@@ -697,16 +701,16 @@ SkillOS serves as the **Prefrontal Cortex** for the RoClaw physical robot, repla
 ### Running RoClaw Tasks
 
 ```bash
-## Start prerequisites
+# Start prerequisites
 python roclaw_bridge.py --port 8430 --simulate        # Bridge (sim mode)
 
-## Navigate
+# Navigate
 skillos execute: "Navigate to the kitchen and describe what you see"
 
-## Explore
+# Explore
 skillos execute: "Explore the house and build a semantic map"
 
-## Dream
+# Dream
 skillos execute: "Trigger dream consolidation for today's navigation"
 ```
 
@@ -795,7 +799,7 @@ SkillOS includes an apt-like package management system for installing Skills (ag
 The file `system/sources.list` defines where to find installable Skills:
 
 ```
-## Format: <type>  <uri>  <branch/tag>  [component-path]
+# Format: <type>  <uri>  <branch/tag>  [component-path]
 github  anthropics/skills       main  skills/
 github  huggingface/skills      main  skills/
 github  openai/skills           main  skills/
@@ -810,19 +814,19 @@ github  openai/skills           main  skills/
 ### Package Commands
 
 ```bash
-## Install a skill from configured sources
+# Install a skill from configured sources
 skillos execute: "skill install research-assistant-agent"
 
-## Search for available skills across all sources
+# Search for available skills across all sources
 skillos execute: "skill search quantum"
 
-## Update all installed skills to latest versions
+# Update all installed skills to latest versions
 skillos execute: "skill update"
 
-## List all installed skills with source attribution
+# List all installed skills with source attribution
 skillos execute: "skill list"
 
-## Remove an installed skill
+# Remove an installed skill
 skillos execute: "skill remove outdated-agent"
 ```
 

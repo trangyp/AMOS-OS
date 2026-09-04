@@ -1,43 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: FRACTAL_KNOWLEDGE_NETWORK Specification
-aliases:
-  - FRACTAL_KNOWLEDGE_NETWORK
-  - Fractal Knowledge Network
-  - FKN
-  - H/M/L Knowledge Network
-type: law
-source: 01_CANON/01_CORE_LAWS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Fractal Knowledge Network
 tags:
-  - core_law
-  - fractal
-  - knowledge_network
-  - hml
-  - hierarchical_resolution
-  - traversal
-  - retrieval
-  - dependency
-  - provenance
-  - rscf
-  - gmef
-  - knowledge_graph
-  - adaptive_resolution
-  - selective_loading
-  - context_efficiency
-  - canon
-  - canon/universe
-  - law/L22-replayability
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: core_laws
-  node_id: fractal_knowledge_network
-  node_type: core_law
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # FRACTAL_KNOWLEDGE_NETWORK Specification
@@ -5392,7 +5365,7 @@ tags:
 - knowledge_network
 ---
 
-## FRACTAL_KNOWLEDGE_NETWORK Specification
+# FRACTAL_KNOWLEDGE_NETWORK Specification
 
 Specifies scale-invariant knowledge graph traversal across H/M/L resolutions.
 ```

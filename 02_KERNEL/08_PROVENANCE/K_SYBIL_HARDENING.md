@@ -1,46 +1,21 @@
 ---
-title: K SYBIL HARDENING
-type: note
-source: 02_KERNEL/08_PROVENANCE
-artifact_id: AMOS-OS-K-SYBIL-HARDENING
-canonical_name: K_SYBIL_HARDENING
-artifact_type: kernel_evidence_independence_security_contract
-status: AMOS_MODEL
-conclusion_class: MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: KERNEL
-scope: AMOS_OS
-updated: 2026-08-26
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: K Sybil Hardening
 tags:
-  - kernel
-  - provenance
-  - note
-  - canon/kernel
-  - readme
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - source-lineage
-  - k-provenance
-  - k-provenance-topology
-  - k-structural-reasoning
-  - k-causal-closure
-  - k-multi-hypothesis
-  - k-metacognition
-  - k-memory-admission
-  - k-memory-conflict
-  - k-memory-retrieval
-  - k-context-compaction
-  - k-risk-constraint
-  - k-commit-time-authority
-  - k-information-exposure
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # K SYBIL HARDENING
@@ -2837,7 +2812,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

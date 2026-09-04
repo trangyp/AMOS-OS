@@ -24,6 +24,10 @@ tags:
   - variational-free-energy
   - flow-matching
   - non-equilibrium-thermodynamics
+rscf:
+  state: DERIVED
+  provenance: authoritative_AMOS_OS_structure
+  scope: 22_RESEARCH
 ---
 
 # Active Inference, Non-Equilibrium Variational Thermodynamics, and Riemannian Flow Matching in Autonomous Perception-Action Engines

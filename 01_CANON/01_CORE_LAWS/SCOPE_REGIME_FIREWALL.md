@@ -1,151 +1,200 @@
 ---
-title: SCOPE_REGIME_FIREWALL — Epistemic Regime Boundary Law
-type: law
-source: 01_CANON/01_CORE_LAWS
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-updated: 2026-09-04
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Scope Regime Firewall
 tags:
-  - canon
-  - core_law
-  - firewall
-  - epistemic_boundary
-  - law/L0-integrity
-  - provenance-x-confidence
-  - law/L5-scope-regime
-  - law/L21-epistemic-regime
-  - epistemic-regimes
-  - law/L30-authority-boundary
-  - persistent-provenance
-  - fail-closed-governance
-  - scope-regime-validation-receipt
-rscf:
-  state: CANON_LAW
-  claim_class: CANONICAL_INVARIANT
-  provenance: AMOS_CANON
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # SCOPE_REGIME_FIREWALL — Epistemic Regime Boundary Law
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Epistemic Class:** `CANONICAL_INVARIANT`
-> **Status:** `ACTIVE_CANON_LAW`
-
 The SCOPE_REGIME_FIREWALL strictly prohibits reasoning principles, heuristics, or confidence ratings valid in one regime (e.g. theoretical modeling) from leaking un-gated into distinct operational regimes (e.g. safety-critical execution).
 
-______________________________________________________________________
+________________________________________________________________________
 
-## 1. Architectural Scope
+## 1. Definition
 
-`SCOPE_REGIME_FIREWALL` governs the epistemic regime boundary subsystem of the AMOS Full OS MECE architecture. It applies to all cross-regime transfers of claims, confidence ratings, and reasoning principles. The law enforces a **fail-closed** default: absent an explicit boundary witness, no cross-regime transfer is permitted.
+Every AMOS claim, action, or decision must carry an explicit declaration of both its **scope** and its **epistemic regime**:
 
-This law binds to [[01_CANON/01_CORE_LAWS/L5_SCOPE_REGIME|L5_SCOPE_REGIME]], [[01_CANON/01_CORE_LAWS/L21_EPISTEMIC_REGIME|L21_EPISTEMIC_REGIME]], and [[01_CANON/01_CORE_LAWS/L30_AUTHORITY_BOUNDARY|L30_AUTHORITY_BOUNDARY]].
+```yaml
+ScopeRegimeDeclaration:
+  scope:        <applicability envelope — system, population, environment, scale, time>
+  regime:       <epistemic regime — evidence set, measurement process, institutional rules, model assumptions>
+  regime_class: <THEORETICAL | EMPIRICAL | OPERATIONAL | SAFETY_CRITICAL | GOVERNANCE>
+```
 
-______________________________________________________________________
+A claim valid in one regime is **not** automatically valid in another.
 
-## 2. Formal Definition
+- `REGIME_A validity ⊭ REGIME_B validity`
+- `SCOPE_A validity ⊭ SCOPE_B validity`
 
-A **regime transfer** is the movement of a claim $C$ from epistemic regime $\text{Regime}_A$ to $\text{Regime}_B$:
+This distinction is structural. It cannot be waived by convenience.
 
-$$\text{RegimeTransfer}(C, \text{Regime}_A, \text{Regime}_B) \le \text{Gate}(\text{BoundaryWitness})$$
+________________________________________________________________________
 
-where $\text{Gate}(\text{BoundaryWitness})$ is a gating function that evaluates whether a valid boundary witness authorizes the transfer. The gate returns `TRUE` only when:
+## 2. Purpose
 
-1. A boundary witness (authority signature, test evidence, or independent corroboration) is present.
-2. The witness is valid for the target regime $\text{Regime}_B$.
-3. The witness is current (not stale or expired).
-4. The witness is independent of the agent requesting the transfer.
+The firewall exists to prevent **silent regime leakage** — the phenomenon where a confidence rating, heuristic, or reasoning shortcut valid in a low-stakes theoretical context is silently promoted into a high-stakes operational or safety-critical context without revalidation.
 
-Absent a valid witness, the gate returns `FALSE` and the transfer is blocked (fail-closed).
+Failure modes prevented:
 
-______________________________________________________________________
+```text
+CL-F028 SILENT_REGIME_TRANSFER
+CL-F029 IRREVERSIBLE_ACTION_WITH_INSUFFICIENT_VALIDATION
+CL-F010 REGIME_LEAK
+CL-F009 SCOPE_LEAK
+CL-F011 STALE_EVIDENCE_REUSE
+```
 
-## 3. Governing Invariants
+________________________________________________________________________
 
-$$\text{RegimeTransfer}(C, \text{Regime}_A, \text{Regime}_B) \le \text{Gate}(\text{BoundaryWitness})$$
+## 3. Formal Scope Lattice
 
-- **SRF-1 Fail-Closed Default:** In the absence of a valid boundary witness, all cross-regime transfers are blocked. The system defaults to denial, not permission.
-- **SRF-2 No Silent Leak:** Any cross-regime transfer must produce an auditable boundary witness record in the provenance log.
-- **SRF-3 Scope Monotonic Shrink:** Authorized scope can only shrink or stay constant within a session; it cannot self-expand without a fresh authority grant.
-- **SRF-4 Regime Isolation:** Concurrent agents operating in distinct regimes observe isolated projections; no un-gated cross-contamination is permitted.
-- **SRF-5 Asymmetric Transfer:** Transferring from a stricter regime to a laxer regime (downgrade) is permitted with audit; transferring from a laxer regime to a stricter regime (upgrade) requires a boundary witness.
+Scopes form a partial order $\mathcal{L}_S = (S, \preceq_S)$:
 
-______________________________________________________________________
+$$S_1 \preceq_S S_2 \iff \text{domain}(S_1) \subseteq \text{domain}(S_2) \wedge \text{assumptions}(S_1) \supseteq \text{assumptions}(S_2)$$
 
-## 4. Mathematical Formulation
+A claim validated in $S_1$ may be **promoted** to $S_2$ only when $S_1 \preceq_S S_2$ (the wider scope is a relaxation of the narrower scope's assumptions).
 
-### 4.1 Regime Transfer Gate
+Scope dimensions:
 
-$$\text{Gate}(\text{BoundaryWitness}) = \begin{cases} \text{TRUE} & \text{if witness is present, valid, current, and independent} \\ \text{FALSE} & \text{otherwise} \end{cases}$$
+| Dimension | Examples |
+|-----------|----------|
+| system | single component, subsystem, full OS |
+| population | single user, aggregate, population |
+| environment | test fixture, staging, production |
+| scale | unit, integration, end-to-end |
+| time | snapshot, rolling window, longitudinal |
+| measurement | automated test, manual audit, formal proof |
 
-### 4.2 Fail-Closed Law
+________________________________________________________________________
 
-$$\neg \text{Gate}(\text{BoundaryWitness}) \implies \text{RegimeTransfer}(C, A, B) = \text{BLOCKED}$$
+## 4. Formal Regime Structure
 
-### 4.3 Scope Monotonicity
+Epistemic regimes form a lattice $\mathcal{L}_R = (R, \preceq_R)$:
 
-$$\text{Scope}(t_{n+1}) \subseteq \text{Scope}(t_n) \quad \text{(within a session without fresh authority)}$$
+$$R_1 \preceq_R R_2 \iff \text{evidence\_set}(R_1) \subseteq \text{evidence\_set}(R_2) \wedge \text{confidence\_standard}(R_1) \leq \text{confidence\_standard}(R_2)$$
 
-### 4.4 Regime Strictness Ordering
+Regime classes by ascending strictness:
 
-$$\text{SafetyCritical} \succ \text{Operational} \succ \text{Theoretical} \succ \text{Exploratory}$$
+| Regime Class | Evidence Standard | Example |
+|---|---|---|
+| THEORETICAL | Model + consistency | Conceptual design |
+| EMPIRICAL | Observation + measurement | Experimental validation |
+| OPERATIONAL | Deployment evidence + monitoring | Runtime behavior |
+| SAFETY_CRITICAL | Formal verification + adversarial testing | Safety gate |
+| GOVERNANCE | Full provenance + authority + audit trail | Canonical promotion |
 
-where $\succ$ denotes "stricter than". Downgrade ($\succ$ direction) is permitted with audit; upgrade ($\prec$ direction) requires witness.
+A transfer from $R_i$ to $R_j$ where $R_i \prec_R R_j$ requires a **regime bridge** — explicit revalidation evidence sufficient for $R_j$.
 
-______________________________________________________________________
+________________________________________________________________________
 
-## 5. MECE Mapping to AMOS Full Brain OS
+## 5. Regime Transfer Gate
 
-| Firewall Dimension | Affected AMOS Stage | Canonical Gate |
-|-------------------|---------------------|----------------|
-| Fail-closed default | Route / Execute | `L0_INTEGRITY` |
-| Boundary witness | Plan / Commit | `L7_AUTHORITY` |
-| Scope monotonicity | Perceive / Route | `L5_SCOPE_REGIME` |
-| Regime isolation | Execute / Observe | `L21_EPISTEMIC_REGIME` |
-| Asymmetric transfer | Admit / Plan | `L30_AUTHORITY_BOUNDARY` |
+$$\text{RegimeTransfer}(C, R_A, R_B) \le \text{Gate}(\text{BoundaryWitness})$$
 
-______________________________________________________________________
+The transfer gate requires a **BoundaryWitness** — a structured validation receipt certifying:
 
-## 6. Safety Invariants
+1. Source regime $R_A$ and target regime $R_B$ are declared
+2. The bridge evidence $E_{\text{bridge}}$ is sufficient for $R_B$'s confidence standard
+3. No silent weakening of scope assumptions occurred
+4. Provenance from $R_A$ is preserved through the bridge
+5. The transfer does not violate any load-bearing invariant
 
-- `INV-SRF-001` (**No bypass:**) A regime boundary cannot be bypassed by reclassifying the regime of a claim without an authority witness.
-- `INV-SRF-002` (**No silent transfer:**) Every cross-regime transfer produces an auditable record; un-audited transfers are treated as violations.
-- `INV-SRF-003` (**No scope self-expansion:**) An agent may not widen its authorized scope without a fresh authority grant from an independent source.
-- `INV-SRF-004` (**No cross-contamination under concurrency:**) Concurrent agents in distinct regimes observe isolated projections; shared state is mediated by the firewall.
-- `INV-SRF-005` (**Witness independence:**) The boundary witness must be independent of the agent requesting the transfer; self-issued witnesses are invalid.
+Gate evaluation:
 
-______________________________________________________________________
+```text
+TRANSFER_ALLOWED(C, R_A, R_B) =
+  DECLARED(R_A) ∧ DECLARED(R_B)
+  ∧ R_A ≠ R_B
+  ∧ BRIDGE_EVIDENCE(E_bridge) ≥ CONFIDENCE_STANDARD(R_B)
+  ∧ PROVENANCE_PRESERVED(C, R_A, R_B)
+  ∧ NO_INVARIANT_VIOLATION(C)
+```
 
-## 7. Navigation & Bindings
+If any condition fails: **fail closed** — the claim remains confined to $R_A$.
 
-- **Master MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
-- **Partition Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]
-- **Law Hierarchy:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- **Core Laws MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
-- **Index MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
-- **Validation Receipt:** [[01_CANON/01_CORE_LAWS/SCOPE_REGIME_VALIDATION_RECEIPT|SCOPE_REGIME_VALIDATION_RECEIPT]]
-- **Related Laws:** [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]] · [[01_CANON/01_CORE_LAWS/L5_SCOPE_REGIME|L5_SCOPE_REGIME]] · [[01_CANON/01_CORE_LAWS/L21_EPISTEMIC_REGIME|L21_EPISTEMIC_REGIME]] · [[01_CANON/01_CORE_LAWS/L30_AUTHORITY_BOUNDARY|L30_AUTHORITY_BOUNDARY]] · [[01_CANON/01_CORE_LAWS/PERSISTENT_PROVENANCE|PERSISTENT_PROVENANCE]] · [[01_CANON/01_CORE_LAWS/FAIL_CLOSED_GOVERNANCE|FAIL_CLOSED_GOVERNANCE]]
-- **Related Matrices:** [[25_COGNITIVE_MATRIX/PROVENANCE_X_CONFIDENCE|PROVENANCE_X_CONFIDENCE]] · [[01_CANON/01_CORE_LAWS/EPISTEMIC_REGIMES|EPISTEMIC_REGIMES]]
+________________________________________________________________________
 
-______________________________________________________________________
+## 6. Invariants
 
-## 8. Known Gaps & Falsifiers
+| Invariant | Statement | AMOS Root Reference |
+|-----------|-----------|---------------------|
+| M15 | $\text{Multiple copies} \neq \text{independent evidence}$ | Root MOC §32: provenance topology |
+| M18 | $\text{Failed premise} \Rightarrow \text{invalidate dependents only}$ | Root MOC §37: failure model |
+| M19 | $\text{Stale evidence} \Rightarrow \text{requires revalidation}$ | Root MOC §30: freshness rule |
+| M20 | $\text{Irreversible action} \Rightarrow \text{stronger governance}$ | Root MOC §35: authority boundary |
+| M01 | $\text{Integrity} > \text{Completeness} > \text{Fluency}$ | Root MOC §31: epistemic classes |
+| L5.02 | No silent generalization across scopes | AMOS_CORE_LAWS §8 |
+| L5.03 | Regime firewall between evidence domains | AMOS_CORE_LAWS §8 |
+| L5.04 | Regime shift invalidates stale conclusions | AMOS_CORE_LAWS §8 |
 
-- `GAP-SRF-001`: The regime strictness ordering (SafetyCritical $\succ$ Operational $\succ$ Theoretical $\succ$ Exploratory) is a declared hierarchy; novel regimes not in this ordering default to `BLOCK` until classified.
-- `GAP-SRF-002`: The boundary witness independence requirement assumes a supply of trustworthy independent validators; in single-source or low-trust environments, all transfers default to `BLOCK`.
-- `GAP-SRF-003`: Concurrent regime isolation assumes the runtime correctly enforces projection isolation; if the runtime substrate is compromised, isolation may be violated.
-- **Falsifier:** If any claim transfers from a laxer regime to a stricter regime without a valid boundary witness, the fail-closed invariant (`SRF-1`) is falsified.
-- **Falsifier:** If any agent widens its authorized scope without a fresh authority grant, the scope monotonicity invariant (`SRF-3`) is falsified.
+________________________________________________________________________
 
-______________________________________________________________________
+## 7. Enforcement Semantics
 
-**Related:** [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]] · [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]] · [[25_COGNITIVE_MATRIX/PROVENANCE_X_CONFIDENCE|PROVENANCE_X_CONFIDENCE]] · [[01_CANON/01_CORE_LAWS/L5_SCOPE_REGIME|L5_SCOPE_REGIME]] · [[01_CANON/01_CORE_LAWS/L21_EPISTEMIC_REGIME|L21_EPISTEMIC_REGIME]] · [[01_CANON/01_CORE_LAWS/EPISTEMIC_REGIMES|EPISTEMIC_REGIMES]] · [[01_CANON/01_CORE_LAWS/L30_AUTHORITY_BOUNDARY|L30_AUTHORITY_BOUNDARY]] · [[01_CANON/01_CORE_LAWS/PERSISTENT_PROVENANCE|PERSISTENT_PROVENANCE]] · [[01_CANON/01_CORE_LAWS/FAIL_CLOSED_GOVERNANCE|FAIL_CLOSED_GOVERNANCE]] · [[01_CANON/01_CORE_LAWS/SCOPE_REGIME_VALIDATION_RECEIPT|SCOPE_REGIME_VALIDATION_RECEIPT]]
+At commit time, every material claim or action passes through the scope-regime validation check:
+
+```text
+VALIDATE_SCOPE_REGIME(C):
+  1. ASSERT scope_s != NULL
+  2. ASSERT regime_s != NULL
+  3. IF regime_s ≠ regime_context:
+       REQUIRE BoundaryWitness
+       REQUIRE bridge_evidence ≥ confidence_standard(regime_context)
+  4. IF scope_s ⊄ scope_context:
+       REQUIRE scope_bridge
+       REQUIRE scope_justification
+  5. ON FAILURE: fail_closed(C) → retain C in original regime
+```
+
+The receipt for a successful check is the [[01_CANON/01_CORE_LAWS/SCOPE_REGIME_VALIDATION_RECEIPT|SCOPE_REGIME_VALIDATION_RECEIPT]].
+
+________________________________________________________________________
+
+## 8. Falsifiers
+
+The following conditions falsify a SCOPE_REGIME_FIREWALL claim:
+
+| Falsifier | Description |
+|-----------|-------------|
+| Silent promotion | A theoretical-regime claim appears in operational output without bridge evidence |
+| Scope leakage | A component-scoped result is presented as system-wide without generalization proof |
+| Regime collapse | Two distinct regimes are merged into a single confidence rating |
+| Stale bridge | Bridge evidence was valid at $t_1$ but regime shifted at $t_2 > t_1$ |
+| Authority bypass | Regime transfer occurs without control-plane admission |
+
+________________________________________________________________________
+
+## 9. Integration
+
+- **Control-plane**: Scope-regime validation is a mandatory commit gate in the [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|control plane]] admission path.
+- **RSCF**: Every material RSCF node must carry `scope` and `regime` fields.
+- **Failure recovery**: If a regime leak is detected post-hoc, the affected claim chain is frozen and invalidation propagates via [[01_CANON/01_CORE_LAWS/ROLLBACK_AND_RECOVERY_BASINS|ROLLBACK_AND_RECOVERY_BASINS]].
+- **Receipt**: Successful enforcement emits [[01_CANON/01_CORE_LAWS/SCOPE_REGIME_VALIDATION_RECEIPT|SCOPE_REGIME_VALIDATION_RECEIPT]].
+- **Provenance**: Regime bridges are recorded in the [[01_CANON/01_CORE_LAWS/PERSISTENT_PROVENANCE|PERSISTENT_PROVENANCE]] lineage.
+
+________________________________________________________________________
+
+## Related
+
+- [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]] · [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]] · [[25_COGNITIVE_MATRIX/PROVENANCE_X_CONFIDENCE|PROVENANCE_X_CONFIDENCE]] · [[01_CANON/01_CORE_LAWS/L5_SCOPE_REGIME|L5_SCOPE_REGIME]] · [[01_CANON/01_CORE_LAWS/L21_EPISTEMIC_REGIME|L21_EPISTEMIC_REGIME]] · [[01_CANON/01_CORE_LAWS/EPISTEMIC_REGIMES|EPISTEMIC_REGIMES]] · [[01_CANON/01_CORE_LAWS/L30_AUTHORITY_BOUNDARY|L30_AUTHORITY_BOUNDARY]] · [[01_CANON/01_CORE_LAWS/PERSISTENT_PROVENANCE|PERSISTENT_PROVENANCE]] · [[01_CANON/01_CORE_LAWS/FAIL_CLOSED_GOVERNANCE|FAIL_CLOSED_GOVERNANCE]] · [[01_CANON/01_CORE_LAWS/SCOPE_REGIME_VALIDATION_RECEIPT|SCOPE_REGIME_VALIDATION_RECEIPT]]
 
 **MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
 
-______________________________________________________________________
+________________________________________________________________________
 
 RSCF-NODE
 node_id: scope_regime_firewall
@@ -156,10 +205,6 @@ RSCF-RELATIONS:
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- RELATED_TO: [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]]
-- RELATED_TO: [[01_CANON/01_CORE_LAWS/L5_SCOPE_REGIME|L5_SCOPE_REGIME]]
-- RELATED_TO: [[01_CANON/01_CORE_LAWS/L21_EPISTEMIC_REGIME|L21_EPISTEMIC_REGIME]]
-- RELATED_TO: [[01_CANON/01_CORE_LAWS/L30_AUTHORITY_BOUNDARY|L30_AUTHORITY_BOUNDARY]]
+- ENFORCED_BY: [[01_CANON/01_CORE_LAWS/SCOPE_REGIME_VALIDATION_RECEIPT|SCOPE_REGIME_VALIDATION_RECEIPT]]
 - RELATED_TO: [[01_CANON/01_CORE_LAWS/PERSISTENT_PROVENANCE|PERSISTENT_PROVENANCE]]
-- RELATED_TO: [[01_CANON/01_CORE_LAWS/FAIL_CLOSED_GOVERNANCE|FAIL_CLOSED_GOVERNANCE]]
-- RELATED_TO: [[01_CANON/01_CORE_LAWS/SCOPE_REGIME_VALIDATION_RECEIPT|SCOPE_REGIME_VALIDATION_RECEIPT]]
+- RELATED_TO: [[01_CANON/01_CORE_LAWS/ROLLBACK_AND_RECOVERY_BASINS|ROLLBACK_AND_RECOVERY_BASINS]]

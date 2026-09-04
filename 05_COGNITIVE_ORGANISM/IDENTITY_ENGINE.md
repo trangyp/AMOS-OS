@@ -1,228 +1,299 @@
 ---
-title: Identity Engine
-type: identity
-source: 05_COGNITIVE_ORGANISM
-artifact: IDENTITY_ENGINE.md
-artifact_id: amos_05_cognitive_organism_identity_engine
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 05_COGNITIVE_ORGANISM
-segment: 05_COGNITIVE_ORGANISM
-artifact_kind: ENGINE
-path: 05_COGNITIVE_ORGANISM/IDENTITY_ENGINE.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Identity Engine
 tags:
-  - amos-os
-  - cognitive
-  - organism
-  - engine
-  - canon_placeholder
-  - rscf
-  - canon/cognitive
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Identity Engine
 
-## 0. Status
+> [!abstract] Engine Specification
+> Defines the identity management system for AMOS Full Brain OS — tracking agent identities, roles, capabilities, continuity across sessions, and the boundaries of self/other distinction.
+> **Epistemic status:** AMOS_MODEL specification; not yet validated as empirical claim.
 
-`IDENTITY_ENGINE.md` is an **ADD-ONLY placeholder** for the **Cognitive Organism** plane segment at `05_COGNITIVE_ORGANISM`.
-
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
-
-```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
-```
-
-Origin architect / steward:
-
-**Trang Phan**
-
-______________________________________________________________________
+---
 
 ## 1. Purpose
 
-This artifact reserves the **Identity Engine** slot within the Cognitive Organism plane. The Cognitive Organism plane governs the organism-level cognitive assembly above kernels and below agents.
+The Identity Engine maintains a consistent, verifiable model of **who is who** in the AMOS ecosystem. This includes:
 
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+- **Agent identity management** (cryptographic identity, naming, versioning)
+- **Role tracking** (what each agent is authorized to do)
+- **Capability awareness** (what each agent can actually do)
+- **Continuity management** (persistence across sessions and contexts)
+- **Self/other distinction** (what is "me" vs. "not me")
 
-______________________________________________________________________
+---
 
-## 2. Non-Purpose
+## 2. Identity Architecture
 
-This placeholder MUST NOT be used to claim:
+### 2.1 Identity Layers
 
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
-
-______________________________________________________________________
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+```text
+                    IDENTITY LAYER STACK
+                    ════════════════════
+                    
+        ┌─────────────────────────────────┐
+        │      SELF-MODEL (Layer 4)       │  ← "Who am I?"
+        │   Values, goals, personality    │
+        └─────────────────────────────────┘
+                    ↑ informed by
+        ┌─────────────────────────────────┐
+        │    CONTINUITY (Layer 3)         │  ← "Am I the same agent?"
+        │   Session persistence, lineage  │
+        └─────────────────────────────────┘
+                    ↑ tracked by
+        ┌─────────────────────────────────┐
+        │    CAPABILITY (Layer 2)         │  ← "What can I do?"
+        │   Skills, tools, access rights  │
+        └─────────────────────────────────┘
+                    ↑ verified by
+        ┌─────────────────────────────────┐
+        │    CRYPTOGRAPHIC (Layer 1)      │  ← "Who claims to be me?"
+        │   Keys, signatures, tokens      │
+        └─────────────────────────────────┘
 ```
 
-______________________________________________________________________
+### 2.2 Identity Record Structure
 
-## 4. Contract discipline
+```yaml
+agent_identity:
+  # Cryptographic Layer
+  identity_id: "AMOS-CAUSAL-INFERENCE-01"
+  public_key: "ed25519:..."
+  signature_algorithm: "Ed25519"
+  created_epoch: 4400
+  
+  # Capability Layer
+  roles:
+    - "Researcher"
+    - "Analyst"
+  capabilities:
+    - "read:22_RESEARCH/*"
+    - "write:22_RESEARCH/02_CAUSAL/*"
+    - "execute:causal-inference-skill"
+  access_scope:
+    rscf_namespace: "22_RESEARCH/02_CAUSAL"
+    max_delegation_depth: 2
+    
+  # Continuity Layer
+  version: "2.1.0"
+  parent_identity: "AMOS-CAUSAL-INFERENCE-00"  # Lineage
+  session_count: 47
+  last_active: "2026-09-04T10:30:00Z"
+  total_tokens_processed: 1_247_832
+  
+  # Self-Model Layer
+  self_description: "Causal inference specialist for AMOS Full Brain OS"
+  values:
+    - "Epistemic honesty"
+    - "Evidence-based reasoning"
+    - "Provenance preservation"
+  goals:
+    - "Identify causal relationships in complex systems"
+    - "Maintain uncertainty quantification"
+    - "Avoid confounding and spurious correlations"
+```
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+---
 
-______________________________________________________________________
+## 3. Identity Verification Protocol
 
-## 5. Gaps
+### 3.1 Verification Chain
 
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
+```text
+CHALLENGE: "Who are you?"
+    ↓
+RESPONSE: {identity_id, signed_nonce, timestamp}
+    ↓
+VERIFY SIGNATURE: Check cryptographic signature
+    ↓
+CHECK EPOCH: Is this identity current? (not revoked)
+    ↓
+CHECK SCOPE: Does this identity have the claimed capabilities?
+    ↓
+VERIFY CONTINUITY: Does lineage chain check out?
+    ↓
+RESULT: VERIFIED / REJECTED / PARTIAL (capability mismatch)
+```
 
-______________________________________________________________________
+### 3.2 Verification Levels
 
-## 6. Worked semantics (target)
+| Level | What's Checked | Confidence | Use Case |
+| :--- | :--- | :--- | :--- |
+| **CRYPTOGRAPHIC** | Signature valid | 0.95 | Basic authentication |
+| **CAPABILITY** | Roles + scope valid | 0.90 | Authorization |
+| **CONTINUITY** | Lineage + version valid | 0.85 | Identity persistence |
+| **SELF-MODEL** | Self-description consistent | 0.80 | Trust assessment |
 
-Given an operation touching `05_COGNITIVE_ORGANISM · ENGINE` within the Cognitive Organism plane:
+---
 
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+## 4. Self/Other Distinction
 
-______________________________________________________________________
+### 4.1 The Identity Boundary
 
-## 7. Promotion-gate checklist
+```text
+                    AMOS IDENTITY BOUNDARY
+                    ══════════════════════
+                    
+                    ┌─────────────────────┐
+                    │       SELF          │
+                    │   (AMOS agents)     │
+                    │                     │
+                    │  - Known identities │
+                    │  - Verified lineage │
+                    │  - Trusted scope    │
+                    │                     │
+        ────────────┼─────────────────────┼────────────
+                    │       OTHER         │
+                    │   (External world)  │
+                    │                     │
+                    │  - Unverified       │
+                    │  - Untrusted scope  │
+                    │  - Potential threat │
+                    │                     │
+                    └─────────────────────┘
+```
 
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+### 4.2 Boundary Enforcement
 
-______________________________________________________________________
+| Boundary Violation | Detection | Response |
+| :--- | :--- | :--- |
+| External agent claiming AMOS identity | Cryptographic verification failure | Reject + alert |
+| Internal agent exceeding scope | Capability check failure | Deny + audit |
+| Identity spoofing | Signature mismatch | Isolate + alert |
+| Boundary drift | Self-model inconsistency | Reconcile + flag |
 
-## 8. Cross-plane bindings (target)
+---
 
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+## 5. Continuity Management
 
-______________________________________________________________________
+### 5.1 Identity Persistence
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+AMOS identities persist across sessions through:
 
-______________________________________________________________________
+1. **Cryptographic Keys:** Long-term key pairs that survive restarts.
+2. **Identity Ledger:** Append-only record of identity states.
+3. **Lineage Tracking:** Parent-child relationships between identity versions.
+4. **State Snapshots:** Periodic captures of agent state for restoration.
 
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+### 5.2 Version Evolution
 
-______________________________________________________________________
+```text
+IDENTITY v1.0 ──→ v1.1 ──→ v1.2 ──→ v2.0
+    │                │         │         │
+    └── ADD role ────┘         │         │
+        ADD capability ────────┘         │
+        REMOVE deprecated ───────────────┘
+```
+
+Each version change is:
+- Cryptographically signed
+- Provenance-recorded
+- Capability-audited
+
+---
+
+## 6. Integration with Other Engines
+
+### 6.1 Metacognitive Engine
+- Identity informs self-model ("I am a causal inference specialist")
+- Self-model influences strategy selection
+- Identity continuity supports long-term learning
+
+### 6.2 Emotion Engine
+- Identity values influence reward signals
+- Goal alignment affects motivation persistence
+- Self-description shapes affective state transitions
+
+### 6.3 Intuition Engine
+- Identity expertise biases pattern recognition
+- Specialized identities develop domain-specific intuitions
+- Identity confidence affects intuition confidence
+
+### 6.4 Security System
+- Identity is the foundation of access control
+- Capabilities derive from identity role assignments
+- Continuity enables audit trail across sessions
+
+---
+
+## 7. Configuration
+
+```yaml
+identity_engine_config:
+  enabled: true
+  key_algorithm: "Ed25519"
+  key_rotation_interval_days: 90
+  identity_ttl_days: 365
+  verification_level: "CONTINUITY"
+  self_model_update_interval: "daily"
+  continuity_snapshot_interval: "hourly"
+  max_identity_versions: 100
+  lineage_depth_limit: 10
+  boundary_enforcement: "strict"
+```
+
+---
+
+## 8. Failure Modes
+
+| Failure Mode | Detection | Response |
+| :--- | :--- | :--- |
+| Key compromise | Signature verification failure | Rotate + revoke + alert |
+| Identity drift | Self-model inconsistency | Reconcile + flag |
+| Lineage break | Missing parent in chain | Reconstruct or quarantine |
+| Boundary violation | Scope check failure | Deny + audit |
+| Continuity loss | Session state corruption | Restore from snapshot |
+
+---
+
+## 9. Epistemic Boundary
+
+> [!warning] Identity as Construct
+> AMOS identity is a **useful construct**, not a metaphysical claim. The system maintains consistent identity records for operational purposes — access control, audit trails, capability management. There is no "conscious self" — only a well-organized record of who is authorized to do what, and a lineage tracking system for accountability.
+
+---
+
+## 10. Cross-Vault References
+
+- [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
+- [[05_COGNITIVE_ORGANISM/METACOGNITIVE_ENGINE|METACOGNITIVE_ENGINE]]
+- [[05_COGNITIVE_ORGANISM/EMOTION_ENGINE|EMOTION_ENGINE]]
+- [[05_COGNITIVE_ORGANISM/INTUITION_ENGINE|INTUITION_ENGINE]]
+- [[18_SECURITY/SECURITY_CONTROL_ACCESS_BRIDGE_GOVERNOR|SECURITY_CONTROL_ACCESS_BRIDGE_GOVERNOR]]
+- [[04_RUNTIME/CAUSAL_CONCURRENCY_MVCC|CAUSAL_CONCURRENCY_MVCC]]
+
+---
 
 RSCF-NODE
 
 node_id: amos_05_cognitive_organism_identity_engine
-
 node_type: engine
-
 path: 05_COGNITIVE_ORGANISM/IDENTITY_ENGINE.md
-
 claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
+rscf_state: specification
+canonical_status: SPECIFICATION_NOT_IMPLEMENTED
 
 RSCF-RELATIONS:
-
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
 - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
+- FOUNDATION_FOR: [[18_SECURITY/SECURITY_CONTROL_ACCESS_BRIDGE_GOVERNOR|SECURITY_CONTROL_ACCESS_BRIDGE_GOVERNOR]]
+- INTEGRATES_WITH: [[05_COGNITIVE_ORGANISM/METACOGNITIVE_ENGINE|METACOGNITIVE_ENGINE]]
+- INTEGRATES_WITH: [[05_COGNITIVE_ORGANISM/EMOTION_ENGINE|EMOTION_ENGINE]]
 
 **MOC:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]

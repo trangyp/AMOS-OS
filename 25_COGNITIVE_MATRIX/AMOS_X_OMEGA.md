@@ -1,24 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS × Omega
-type: cognitive
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos X Omega
 tags:
-  - amos-os
-  - cognitive-matrix
-  - canon
-  - omega
-  - domain/cognitive-matrix
-  - law-hierarchy
-  - amos-quantum-stack-v0-core
-  - 2026-08-22-executable-brain-model-lineage
-source: 25_COGNITIVE_MATRIX
-rscf:
-  state: AMOS_MODEL
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: cognitive_matrix
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS × Omega

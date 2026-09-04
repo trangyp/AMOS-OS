@@ -5,6 +5,7 @@ status: ACTIVE
 conclusion_class: DERIVED
 origin_architect: Trang Phan
 governed_by: [[21_DOMAINS/07_HEALTHCARE/DOMAINS_HEALTHCARE_CONTRACT.md|DOMAINS_HEALTHCARE_CONTRACT]]
+rscf-state: source-claim
 ---
 
 # 03_HEALTH Map of Content

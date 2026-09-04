@@ -5,6 +5,7 @@ status: ACTIVE
 conclusion_class: DERIVED
 origin_architect: Trang Phan
 governed_by: [[21_DOMAINS/08_LEGAL/DOMAINS_LEGAL_CONTRACT.md|DOMAINS_LEGAL_CONTRACT]]
+rscf-state: source-claim
 ---
 
 # 01_LEGAL_BRAIN Map of Content

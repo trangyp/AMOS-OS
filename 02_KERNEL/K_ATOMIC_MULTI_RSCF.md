@@ -1,28 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: K_ATOMIC_MULTI_RSCF — Atomic Multi-RSCF Transaction Kernel
-type: kernel
-source: 02_KERNEL
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: K Atomic Multi Rscf
 tags:
-  - kernel
-  - rscf
-  - transaction
-  - atomicity
-  - cross-plane
-  - k-mvcc
-  - k-cas
-  - rscf-x-gmef
-  - core-laws
-  - canon/kernel
-rscf:
-  state: CANON_SPEC
-  claim_class: AMOS_SYSTEM_CORE
-  provenance: AMOS_KERNEL
-  scope: core_kernel
-  node_id: k_atomic_multi_rscf
-  node_type: kernel
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # K_ATOMIC_MULTI_RSCF — Atomic Multi-RSCF Transaction Kernel

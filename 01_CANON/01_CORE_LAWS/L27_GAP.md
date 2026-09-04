@@ -1,46 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: L27 GAP
-aliases:
-  - L27 Gap
-  - L27 Gap Law
-  - Gap Law
-type: gap
-source: 01_CANON/01_CORE_LAWS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: L27 Gap
 tags:
-  - canon
-  - core_laws
-  - gap
-  - unknown
-  - epistemic_integrity
-  - anti_fabrication
-  - provenance
-  - validation
-  - proof_capsule
-  - gap_registry
-  - gap_closure
-  - fail_closed
-  - recovery
-  - note
-  - canon/universe
-  - law-hierarchy
-  - law/L25-shard-local
-  - law/L28-critical-gap
-  - law/L10-failure-recovery
-  - law/L17-rscf
-  - fail-closed-governance
-  - trang-framework-recursive-ontology-dynamics
-  - law/L19-proof-capsule
-  - law/L26-proof-coordination
-  - law/L27-gap
-  - architecture
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: core_laws
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # L27 Gap Law
@@ -8789,3 +8759,9 @@ claim_class: AMOS_MODEL
 ---
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+```
+
+```
+```
+```

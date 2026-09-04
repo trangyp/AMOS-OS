@@ -24,6 +24,10 @@ tags:
   - reality-bound-authorization
   - failure-containment
   - multi-agent-safety
+rscf:
+  state: DERIVED
+  provenance: authoritative_AMOS_OS_structure
+  scope: 22_RESEARCH
 ---
 
 # Governed Machine Evolution Framework (GMEF): Reality-Bound Authorization, Epistemic Proofs, and Failure Containment in Autonomous AI Agents

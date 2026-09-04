@@ -1,22 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AGENTS_AMOS_OS_KERNEL
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Agents Amos Os Kernel
 tags:
-  - knowledge
-  - kernel
-  - agents
-  - system-scan-agent
-  - automation-profiles
-  - amos-simulation-kernel-v0-math-foundations
-type: note
-source: 11_KNOWLEDGE/kernel
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # [[AGENTS|AGENTS]] AMOS OS KERNEL — Full Canonical Expansion
@@ -6185,7 +6179,7 @@ type: concept
 epistemic_class: DERIVED
 ---
 
-## AMOS Model ABI
+# AMOS Model ABI
 
 Source-defined boundary behind which the model operates as a
 "cognitive worker" in .
@@ -6206,7 +6200,7 @@ type: concept
 epistemic_class: DERIVED
 ---
 
-## AMOS Context Admission
+# AMOS Context Admission
 
 The model may read only context handles admitted for the
 nontrivial task.
@@ -6225,7 +6219,7 @@ type: concept
 epistemic_class: SOURCE_CLAIM
 ---
 
-## AMOS Authority Tokens
+# AMOS Authority Tokens
 
  prohibits tool execution without
 authority tokens.
@@ -6244,7 +6238,7 @@ type: governance
 epistemic_class: DERIVED
 ---
 
-## AMOS Persistent Memory Firewall
+# AMOS Persistent Memory Firewall
 
 Model-side direct persistent-memory mutation is prohibited by
 .
@@ -6263,7 +6257,7 @@ type: governance
 epistemic_class: DERIVED
 ---
 
-## AMOS Epistemic Promotion Firewall
+# AMOS Epistemic Promotion Firewall
 
 `MODEL` must not be promoted to `VERIFIED` by the model
 without the governed validation path.
@@ -6282,7 +6276,7 @@ type: governance
 epistemic_class: DERIVED
 ---
 
-## AMOS Competing Hypothesis Firewall
+# AMOS Competing Hypothesis Firewall
 
 `COMPETING` hypotheses remain competing until discriminating
 evidence exists.
@@ -6301,7 +6295,7 @@ type: governance
 epistemic_class: DERIVED
 ---
 
-## AMOS Provenance Independence Firewall
+# AMOS Provenance Independence Firewall
 
 Correlated evidence must not be represented as independent
 confirmation.
@@ -6320,7 +6314,7 @@ type: governance
 epistemic_class: DERIVED
 ---
 
-## AMOS Host Runtime Guarantee Firewall
+# AMOS Host Runtime Guarantee Firewall
 
 AMOS conceptual mechanisms must not be represented as
 distributed host-runtime guarantees unless the host actually
@@ -6333,7 +6327,7 @@ ______________________________________________________________________
 
 ## 407. Dataview — Kernel Corpus
 
-```text
+```dataview
 TABLE
   file.link AS Artifact,
   type,
@@ -6348,7 +6342,7 @@ ______________________________________________________________________
 
 ## 408. Dataview — Kernel Source Claims
 
-```text
+```dataview
 TABLE
   file.link AS Artifact,
   rscf.provenance AS Provenance,
@@ -6362,7 +6356,7 @@ ______________________________________________________________________
 
 ## 409. Dataview — Runtime-Tagged Kernel Artifacts
 
-```text
+```dataview
 TABLE
   file.link AS Artifact,
   source,

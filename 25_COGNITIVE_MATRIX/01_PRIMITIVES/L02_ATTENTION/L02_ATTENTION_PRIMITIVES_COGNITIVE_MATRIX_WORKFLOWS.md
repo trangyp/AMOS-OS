@@ -1,26 +1,16 @@
 ---
-type: workflow
-source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: L02 Attention Primitives Cognitive Matrix Workflows
 tags:
-  - amos
-  - cognitive-matrix
-  - matrix/l02
-  - attention
-  - workflows
-  - rscf
-  - hml
-  - governance
-  - domain/cognitive-matrix
-title: L02_ATTENTION — Workflows
-origin_architect: Trang Phan
-status: MODEL_WORKFLOW_CONTRACT / UNIMPLEMENTED / UNVALIDATED
-epistemic_class: MODEL
-runtime_alignment: AMOS Full Brain OS / AMOS_CORE v4.4 lineage
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # L02_ATTENTION — Workflows
@@ -2055,7 +2045,7 @@ The source-grounded attention-governor contract used here preserves Trang Phan a
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

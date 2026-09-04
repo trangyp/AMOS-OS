@@ -1,68 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: References MOC — References — Amos C09 Org Law Policy Master
-type: moc
-source: 07_SKILLS/amos-c09-org-law-policy-master/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: References Moc
 tags:
-  - references
-  - type/skill
-  - advanced-governance-report
-  - bio-data-ownership-charter
-  - bio-data-ownership-legal-tech
-  - bod-engine-v0
-  - brain-governance-ssot-report
-  - change-management-engine
-  - chinese-legal-engine
-  - core-v47-hardened-governance
-  - crisis-management-kernel
-  - deterministic-organisation-governance
-  - domain-config
-  - ethical-reasoning-kernel
-  - ethics-as-infrastructure
-  - global-legal-engine
-  - global-legal-engine-layer
-  - global-legal-engine-model
-  - gov-engine-sector-packs
-  - governance-economy-engine
-  - governance-politics-pack-au
-  - governance-tensor
-  - hse-ceo-engine-layer
-  - kernels-governance-risk
-  - law-stack-enforcement
-  - legal-check-agent
-  - legal-engine-layer-v2
-  - legal-kernel
-  - legal-kernel-org-risk
-  - legal-risk-agent
-  - legal-super-engine
-  - omega-governance-ssot
-  - org-engine
-  - org-governance-engine
-  - org-governance-engine-layer
-  - org-governance-engine-v0
-  - policy-design-engine
-  - trang-ip-protection-plan
-  - ubi-law-families
-  - uni-power-strategic-governance
-  - unified-org-systems-engine
-  - vault-domain-knowledge
-  - vn-legal-engine
-  - vn-legal-engine-domains
-  - vn-legal-engine-v0-domains
-  - vn-legal-engine-vinfinity
-  - vn-nab-legal-audit-report
-  - vn-shareholder-board-report
-  - vn-technical-legal-terms
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-moc: true
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # References — Map of Content

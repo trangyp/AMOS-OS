@@ -1,61 +1,46 @@
 ---
-title: "09_PROTOCOLS MOC — Inter-Agent Protocols & Handoffs"
-type: moc
-source: 09_PROTOCOLS
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_MOC
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-    - 00_ROOT/00_ROOT_MOC
-  scope: 09_protocols_navigation
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 09 Protocols Moc
 tags:
-  - amos-os
-  - 09_protocols
-  - moc
-  - navigation
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# 09_PROTOCOLS MOC — Inter-Agent Protocols & Handoffs
+# 09 Protocols — Map of Content
 
-**Origin Architect / Steward:** Trang Phan
-**AMOS_CORE Target:** `v4.4`
-**Epistemic Class:** `AMOS_MODEL`
-
----
-
-## 1. System Protocol Specifications & Consensus Engines
-
-- [[09_PROTOCOLS/DISTRIBUTED_BFT_STATE_MACHINE_REPLICATION_ENGINE|DISTRIBUTED_BFT_STATE_MACHINE_REPLICATION_ENGINE]] — 7-Node Asynchronous Byzantine Fault-Tolerant (BFT) State Machine Replication, $3f + 1$ quorum intersection, and BLS threshold signature aggregation.
-- [[09_PROTOCOLS/BFT_SMR_EXECUTION_LEDGER|BFT_SMR_EXECUTION_LEDGER]] — 3-Phase consensus trace, Byzantine node isolation, and cryptographic state commit ledger.
-- [[09_PROTOCOLS/DISTRIBUTED_RAFT_CONSENSUS_AND_CAS_SYNC_ENGINE|DISTRIBUTED_RAFT_CONSENSUS_AND_CAS_SYNC_ENGINE]] — 5-Node distributed RAFT consensus, majority quorum replication ($\ge 3/5$), and monotonic Compare-And-Swap (CAS) state epoch finality.
-- [[09_PROTOCOLS/RAFT_CONSENSUS_EXECUTION_LEDGER|RAFT_CONSENSUS_EXECUTION_LEDGER]] — Cluster election traces, AppendEntries envelopes, and cryptographic proof receipts.
-- [[09_PROTOCOLS/PROTOCOLS_README|PROTOCOLS_README]] — Distributed consensus frameworks, network topologies, and fault models.
-- [[09_PROTOCOLS/PROTOCOLS_PROTOCOL_CONTRACT|PROTOCOLS_PROTOCOL_CONTRACT]] — Invariants governing network partition tolerance, quorum intersections, and causal message ordering.
-- [[09_PROTOCOLS/TASK_HANDOFF_PROTOCOL|TASK_HANDOFF_PROTOCOL]] — Task delegation and context capsule specification
-- [[09_PROTOCOLS/COORDINATION_AVOIDANCE_PROTOCOL|COORDINATION_AVOIDANCE_PROTOCOL]] — Coordination-free execution rules (I-confluence)
-- PROTOCOLS_MAP — Protocol navigation map
+> [!ABSTRACT] Protocols Plane Executive Summary
+> The **Protocols Plane** (`09_PROTOCOLS`) owns cross-component interaction semantics, inter-agent handoff contracts, event bus protocols, and proof-based coordination avoidance in the AMOS Full Brain OS.
+> It enforces the separation:
+> $$\text{COMMUNICATION PROTOCOL} \neq \text{WORKFLOW ORCHESTRATION} \quad\land\quad \text{MESSAGE} \neq \text{AUTHORIZED MUTATION}$$
 
 ---
 
-## 2. Invariants
+## 1. Core Subsystem Protocols & Contracts
 
-```text
-CAPABILITY != AUTHORITY
-OBSERVED != CURRENT
-PROPOSAL != COMMIT
-UNKNOWN/GAP != PASS
-```
+* [[09_PROTOCOLS/COORDINATION_AVOIDANCE_PROTOCOL|Coordination Avoidance Protocol]] — Mathematical rules enabling shard-local finalization without distributed locks when proofs establish commutativity ($\text{HasProof}(op) \land \text{NoConflict}(op)$).
+* [[09_PROTOCOLS/TASK_HANDOFF_PROTOCOL|Task Handoff Protocol]] — Formal specification for passing task leases, epistemic context budgets, and rollback tokens between Supervisor, Planner, and Worker agents.
+* [[09_PROTOCOLS/PROTOCOLS_PROTOCOL_CONTRACT|PROTOCOLS_PROTOCOL_CONTRACT]] — Wire format schemas, serialization invariants, and non-repudiation cryptographic contracts.
+* [[09_PROTOCOLS/PROTOCOLS_README|PROTOCOLS_README]] — Structural overview of the Protocols plane.
 
 ---
 
-## 3. Parent Navigation
+## 2. Inbound & Outbound Interfaces
 
-- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] — Master Navigation Hub
-- [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]] — Full OS Partition Architecture
+* **Agent Communication:** Binds agent messaging in [[06_AGENTS/06_AGENTS_MOC|06_AGENTS]].
+* **Runtime Handshake:** Binds execution state transitions in [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]].
+* **Authority Verification:** Governed by [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE]].
+
+---
+[[00_ROOT/00_ROOT_MOC|Root MOC]] · [[AMOS_HOME|AMOS Home]]

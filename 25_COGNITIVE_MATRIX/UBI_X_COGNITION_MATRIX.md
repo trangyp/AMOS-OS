@@ -1,80 +1,16 @@
 ---
-title: UBI x Cognition Cross-Plane Matrix Table
-type: cognitive
-source: 25_COGNITIVE_MATRIX
-artifact: UBI_X_COGNITION_MATRIX.md
-artifact_id: amos_25_cognitive_matrix_ubi_x_cognition_matrix
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 25_COGNITIVE_MATRIX
-segment: 25_COGNITIVE_MATRIX
-artifact_kind: MATRIX_TABLE
-path: 25_COGNITIVE_MATRIX/UBI_X_COGNITION_MATRIX.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Ubi X Cognition Matrix
 tags:
-  - amos-os
-  - cognitive-matrix
-  - vault
-  - ubi_x_cognition_matrix
-  - matrix_table
-  - ubi
-  - cognition
-  - biological_signal
-  - threshold_routing
-  - working_memory
-  - tone_filter
-  - execution_throttle
-  - gamma_clock
-  - nbi
-  - nei
-  - si
-  - bei
-  - rscf
-  - canon_candidate
-  - canon/matrix
-  - ubi-x-cognition
-  - ubi-cognition-binding
-  - k-mvcc
-  - k-atomic-multi-rscf
-  - validation
-  - memory
-  - signals
-  - total-framework-matrix
-  - total-kernel-matrix
-  - total-canon-matrix
-  - k-rscf
-  - k-hml
-  - k-provenance
-  - k-fail-closed
-  - k-governed-evolution
-  - amos-core-v4-4
-version: 2.0.0
-updated: '2026-08-28'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: PASSED_CONSTITUTIONAL_TESTS
-executable_binding: ESTABLISHED
-framework_binding:
-  matrix_spec:
-    artifact:
-      -   - UBI_X_COGNITION
-  knowledge_binding:
-    artifact:
-      -   - UBI_COGNITION_BINDING
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  matrix_structure: VERIFIED_SOURCE_STRUCTURE
-  biological_signal_classes: SOURCE_DEFINED_MODEL
-  cognitive_routing: SOURCE_DEFINED_MODEL
-  threshold_values: SOURCE_DEFINED_MODEL
-  enforcement_actions: SOURCE_DEFINED_MODEL
-  validation_status_claim: SOURCE_ESTABLISHED
-  executable_binding_claim: SOURCE_ESTABLISHED
-  independent_biological_validation: NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
-  independent_runtime_verification: NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # UBI × Cognition Cross-Plane Matrix — Full Canon Expansion

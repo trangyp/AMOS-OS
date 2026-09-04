@@ -1,72 +1,21 @@
 ---
-title: Unified Biological Intelligence
-type: trang-framework
-source: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact: UNIFIED_BIOLOGICAL_INTELLIGENCE.md
-artifact_id: amos_11_knowledge_05_frameworks_unified_biological_intelligence
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 11_KNOWLEDGE
-segment: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact_kind: FRAMEWORK
-path: 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Unified Biological Intelligence
 tags:
-  - amos-os
-  - knowledge
-  - vault
-  - 05_frameworks
-  - ubi
-  - unified_biological_intelligence
-  - nbi
-  - nei
-  - si
-  - bei
-  - biological_logic
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-  - amos-x-ubi
-  - amos-x-ubi-matrix
-  - neurosyncai-framework
-  - neurosyncai-dual-system-architecture
-  - tss-the-trang-system
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - UBI_OFFICIAL_MANUAL
-    - UNIFIED_BIOLOGICAL_INTELLIGENCE_UBI_OFFICIAL
-    - AMOS_CORPUS
-  scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - BIOLOGICAL_INTELLIGENCE
-    - SOURCE_DEFINED_UBI_MODEL
-framework_binding:
-  primary:
-    name: Unified Biological Intelligence™
-    acronym: UBI
-    role: BIOLOGICAL_FOUNDATION_OF_INTELLIGENCE
-  cognitive_matrix_binding:
-    artifact:
-      -   - AMOS_X_UBI
-    matrix:
-      -   - AMOS_X_UBI_MATRIX
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  framework_structure: VERIFIED_SOURCE_STRUCTURE
-  domain_models: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Unified Biological Intelligence™ (UBI)

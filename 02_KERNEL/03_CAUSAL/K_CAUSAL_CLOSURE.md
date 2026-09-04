@@ -1,72 +1,16 @@
 ---
-title: K CAUSAL CLOSURE
-type: note
-source: 02_KERNEL/03_CAUSAL
-artifact_id: AMOS-OS-K-CAUSAL-CLOSURE
-canonical_name: K_CAUSAL_CLOSURE
-artifact_type: kernel_causal_closure_contract
-status: AMOS_MODEL
-conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: KERNEL
-kernel_family: CAUSAL
-domain: causal-closure
-scope: AMOS_OS
-created: 2026-08-25
-updated: 2026-08-25
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: K Causal Closure
 tags:
-  - amos-os
-  - kernel
-  - core
   - canon-group/tech-ai
-  - canon/model
-  - kernel/causal
-  - kernel/causal-closure
-  - kernel/dependency
-  - kernel/provenance
-  - kernel/epistemic
-  - kernel/scope
-  - kernel/regime
-  - kernel/freshness
-  - kernel/rscf
-  - kernel/counterfactual
-  - kernel/multi-hypothesis
-  - kernel/validation
-  - kernel/recovery
-  - provenance/topology
-  - provenance/independence
-  - causal/firewall
-  - causal/lineage
-  - causal/finality
   - rscf/claim
   - rscf/provenance
-  - rscf/state/model
-  - topic/causal-closure
-  - topic/causal-lineage
-  - topic/causal-dependency
-  - k-structural-reasoning
-  - k-counterfactual
-  - k-multi-hypothesis
-  - k-metacognition
-  - readme
-  - architecture
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - source-lineage
-  - k-core19-logic
-  - k-distinction-relation-constraint
-  - k-meta-logic
-  - authoritative-state
-aliases:
-  - AMOS Causal Closure Kernel - Causal Closure Kernel - K Causal Closure - K_CAUSAL_CLOSURE
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # K CAUSAL CLOSURE
@@ -2289,7 +2233,7 @@ CHANGE THAT CLAIM.
 ## Related
 
 README ·
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]] ·
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]] ·
 [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] ·
 [[00_ROOT/DEPENDENCY_MAP|DEPENDENCY_MAP]] ·
 [[01_CANON/00_INDEX/CANON_MAP|CANON_MAP]] ·
@@ -2325,7 +2269,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

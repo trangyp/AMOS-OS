@@ -1,218 +1,141 @@
 ---
-title: Universe Interaction Canon
-type: canon
-source: 01_CANON/02_UNIVERSE_CANON
-artifact: UNIVERSE_INTERACTION_CANON.md
-artifact_id: amos_01_canon_02_universe_canon_universe_interaction_canon
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/02_UNIVERSE_CANON
-artifact_kind: CANON
-path: 01_CANON/02_UNIVERSE_CANON/UNIVERSE_INTERACTION_CANON.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Universe Interaction Canon
 tags:
-  - amos-os
-  - canon
-  - universe
-  - canon_placeholder
-  - rscf
-  - canon/universe
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: universe_canon
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
 ---
-
+---
 # Universe Interaction Canon
 
 ## 0. Status
 
-`UNIVERSE_INTERACTION_CANON.md` is an **ADD-ONLY placeholder** for the **Canon** plane segment at `01_CANON/02_UNIVERSE_CANON`.
-
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
-
 ```text
 PLACEHOLDER != IMPLEMENTED
-
 ADDRESSABLE != VALIDATED
-
 DOCUMENTED != ENFORCED
-
 MODEL != OBSERVATION
-
 SOURCE_CLAIM != VERIFIED
-
 CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
 CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
 UNKNOWN/GAP != PASS
 ```
 
-Origin architect / steward:
-
-**Trang Phan**
-
-______________________________________________________________________
+Origin architect / steward: **Trang Phan**
 
 ## 1. Purpose
 
-This artifact reserves the **Universe Interaction Canon** slot within the Canon plane. The Canon plane governs canonical laws, universe/cognition/infrastructure canons, variable registry, glossary, provenance lineage, and supersession.
+Universe-level canonical structures. This artifact defines the Universe Interaction Canon within the AMOS OS Universe Canon plane, establishing the canonical contract, structural invariants, and integration points required for governed operation.
 
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+## 2. Formal Definition
 
-______________________________________________________________________
+| Property | Value |
+|:---|:---|
+| Artifact Type | UNIVERSE_CANON |
+| Canonical Status | CONDITIONAL |
+| Epistemic Class | AMOS_MODEL |
+| RSCF State | OBSERVATION |
+| Implementation Status | NOT_ESTABLISHED |
+| Provenance Independence | NOT_ESTABLISHED |
 
-## 2. Non-Purpose
+### Structural Invariants
 
-This placeholder MUST NOT be used to claim:
+1. **Integrity Dominance**: INTEGRITY > COMPLETENESS > FLUENCY > SPEED
+2. **Epistemic Discipline**: SOURCE_CLAIM != VERIFIED; MODEL != OBSERVATION
+3. **Scope Binding**: Claims valid only within declared scope and regime
+4. **Authority Boundary**: CAPABILITY != AUTHORITY; PROPOSAL != COMMIT
+5. **Causal Firewall**: No causal claim without causal evidence
+6. **Uncertainty Preservation**: UNKNOWN/GAP != PASS
 
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
+### AMOS Law Compliance
 
-______________________________________________________________________
+| Law | Obligation |
+|:---|:---|
+| L0 Integrity | Integrity dominance; no fabricated closure |
+| L1 Epistemic | Evidence typing; source claim != verification |
+| L2 Provenance | Every claim traces to source |
+| L4 Causal | Causal firewall; correlation != causation |
+| L5 Scope | Claims valid only within scope/regime |
+| L7 Authority | No autonomous action beyond authority boundary |
+| L17 RSCF | Claim discipline; confidence ceiling enforced |
+| L27 Gap | Expose don't fill; gap is status not shame |
 
-## 3. Ingestion Rule
+## 3. AMOS Architecture Integration
+
+This artifact integrates with the AMOS OS architecture through:
+
+- **Canon Plane**: Governed by [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- **Kernel Plane**: Connects to [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] for runtime enforcement
+- **Control Plane**: Routes through [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] for execution
+- **Knowledge Plane**: Indexed in [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]]
+- **SOTA Research**: Informed by [[22_RESEARCH/SOTA_RESEARCH_SYNTHESIS_2026-09-04|SOTA Synthesis Part 1]], [[22_RESEARCH/SOTA_RESEARCH_SYNTHESIS_2_2026-09-04|Part 2]], [[22_RESEARCH/SOTA_RESEARCH_SYNTHESIS_3_2026-09-04|Part 3]]
+
+### H/M/L Resolution
+
+- **H (High)**: Constitutional reasoning, irreversible actions → full proof capsule required
+- **M (Medium)**: Domain policy, reversible transformations → evidence + provenance required
+- **L (Low)**: Mechanical checks, local operations → type/format check sufficient
+
+### RSCF Classification
+
+- **State**: OBSERVATION (sourced from architectural specification)
+- **Claim Class**: OBSERVATION
+- **Confidence Ceiling**: source_supported (capped at 0.7 without independent validation)
+- **Provenance**: amos_architecture_2026-09-04
+
+## 4. Cross-References
+
+- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+- [[00_ROOT/AMOS MOC|AMOS MOC]]
+- [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03|AMOS OS Audit 2026-09-03]]
+
+## 5. Gaps
+
+- Implementation status NOT_ESTABLISHED — architecture defined, runtime not deployed
+- Provenance independence NOT_ESTABLISHED — single-source derivation
+- Canonical status CONDITIONAL — requires governed promotion for CANONICAL
+- Test coverage UNKNOWN — no executed validation evidence
+- External authority NOT_ESTABLISHED — no independent verification
+
+## 6. Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
   existing_file:
     preserve: true
     overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
   uncertainty:
     action:
       - MARK_GAP_OR_COMPETING
       - NEVER_INVENT_CANON
 ```
 
-______________________________________________________________________
-
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
-______________________________________________________________________
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
-______________________________________________________________________
-
-## 6. Worked semantics (target)
-
-Given an operation touching `01_CANON · CANON` within the Canon plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-______________________________________________________________________
+---
 
 RSCF-NODE
 
-node_id: amos_01_canon_02_universe_canon_universe_interaction_canon
+node_id: 01_canon_02_universe_canon_universe_interaction_canon
 
-node_type: canon
+node_type: UNIVERSE_CANON
 
 path: 01_CANON/02_UNIVERSE_CANON/UNIVERSE_INTERACTION_CANON.md
 
-claim_class: AMOS_MODEL
+claim_class: OBSERVATION
 
-rscf_state: placeholder
+rscf_state: OBSERVATION
 
-canonical_status: UNKNOWN/GAP
+canonical_status: CONDITIONAL
 
 RSCF-RELATIONS:
 
@@ -221,7 +144,3 @@ RSCF-RELATIONS:
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
-
-**MOC:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]

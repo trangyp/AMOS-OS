@@ -9,7 +9,10 @@ parent_skill: amos-knowledge-research-master
 domain: knowledge
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
+  conclusion_class: AMOS_MODEL
 tags:
+  rscf-state: DERIVED
+  conclusion_class: AMOS_MODEL
   - type/skill
   - type/skill
   - domain/knowledge-research
@@ -45,7 +48,6 @@ law_compliance:
   - L17
 license: MIT
 steward: Trang Phan
----
 
 # Agent Native Research Artifact Rscf
 
@@ -175,7 +177,7 @@ ______________________________________________________________________
 - **Parent**: `amos-knowledge-research-master` — routes to this skill when knowledge specialization is needed
 - **Peers**: Other skills in the `knowledge` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
-- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Workflow**: Each skill has a corresponding workflow in `26_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
 
 ## Evaluation

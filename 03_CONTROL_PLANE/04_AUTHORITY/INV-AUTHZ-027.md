@@ -1,101 +1,104 @@
 ---
-title: "INV-AUTHZ-027 — Memory Decay without Evidence"
-type: authority_invariant
-source: 03_CONTROL_PLANE/04_AUTHORITY
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_INVARIANT
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT
-    - 01_CANON/01_CORE_LAWS/LAW_HIERARCHY
-  scope: authority_governance
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Inv Authz 027
 tags:
-  - amos-os
-  - authority
-  - invariant
-  - control-plane
-  - inv-authz-027
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# INV-AUTHZ-027 — Memory Decay without Evidence
+# INV-AUTHZ-027
 
-## 1. Formal Specification
+## 0. Status
 
-> **Invariant Statement:**
-> `Semantic memory associations unsupported by fresh evidence decay according to the phi-exponential curve.`
+Control Plane-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
 
-## 2. Invariant Rule & Mathematical Formulation
+## 1. Purpose
 
-Let $m$ be a semantic memory association, $\text{LastEvidence}(m)$ the timestamp of the last supporting evidence, and $\text{Strength}(m, t)$ the memory strength at time $t$:
+`INV-AUTHZ-027` defines typed artifact specification, serving the Control Plane plane's obligation: governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback.
 
-$$\text{Strength}(m, t) = \text{Strength}_0 \cdot e^{-\phi \cdot (t - \text{LastEvidence}(m))}$$
+## 2. Semantics
 
-where $\phi$ is the decay rate constant and $\text{Strength}_0$ is the initial strength.
+- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
+- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
+- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
 
-The decay triggers when no fresh evidence has been received:
+## 3. Failure modes guarded
 
-$$t - \text{LastEvidence}(m) > \tau_{\text{fresh}} \implies \text{Decaying}(m) = \text{True}$$
+STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
 
-Memory is purged when strength falls below the retention threshold:
+## 4. Validation
 
-$$\text{Strength}(m, t) < \theta_{\text{retain}} \implies \text{Purge}(m)$$
+No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
 
-Fresh evidence resets the decay:
+## 5. Gaps
 
-$$\text{NewEvidence}(m, t) \implies \text{LastEvidence}(m) \leftarrow t \land \text{Strength}(m, t) \leftarrow \text{Strength}_0$$
+Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
 
-The phi-exponential decay curve ensures gradual, not abrupt, forgetting:
+## 6. Falsifiers
 
-$$\frac{d}{dt} \text{Strength}(m, t) = -\phi \cdot \text{Strength}(m, t)$$
+F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
 
-## 3. Enforcement & Verification
+## Worked semantics
 
-- **Evaluation Point:** Evaluated by the memory management system at periodic intervals. The system computes the current strength of all semantic memory associations and purges those below the retention threshold.
-- **Violation Consequence:** If a memory association is retained despite being below the threshold without fresh evidence, a `MEMORY_RETENTION_VIOLATION` receipt is emitted to `17_OBSERVABILITY`. The memory is force-purged.
-- **Recovery Procedure:** Purged memories can be re-established if fresh evidence is presented. The re-establishment follows the standard evidence verification pipeline per [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-012|INV-AUTHZ-012]].
-- **Verification Cadence:** Periodic evaluation at configurable intervals (default: every epoch). On-demand evaluation triggered when memory pressure is detected.
-- **Governed By:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+Given an operation touching `INV-AUTHZ-027` within the Control Plane plane:
 
-## 4. Attack Vectors & Mitigations
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-- **Evidence Starvation:** An attacker suppresses fresh evidence for a target memory to cause its decay and eventual purge. Mitigated by the gradual decay curve that provides time for evidence to arrive, and by the evidence verification pipeline that detects suppression attempts.
-- **Decay Rate Manipulation:** An attacker modifies the decay rate constant to accelerate forgetting. Mitigated by the constant being stored in canon, protected by [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-006|INV-AUTHZ-006]].
-- **False Evidence Injection:** An attacker injects false evidence to keep a decaying memory alive. Mitigated by [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-012|INV-AUTHZ-012]] which requires direct evidence for verification.
-- **Threshold Manipulation:** An attacker lowers the retention threshold to cause premature purging. Mitigated by the threshold being stored in canon with multi-party authorization protection.
+## Promotion-gate checklist
 
-## 5. Dependencies & Prerequisites
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-012|INV-AUTHZ-012]] — Reality grounding requirement ensures that evidence refreshing is properly verified.
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-034|INV-AUTHZ-034]] — Epistemic drift threshold monitors knowledge drift that may result from memory decay.
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-035|INV-AUTHZ-035]] — Bounded context attention manages working memory under token budget constraints.
-- **Requires:** A memory management system with strength tracking and decay computation.
-- **Requires:** An evidence timestamp tracking mechanism.
+## Cross-plane bindings
 
-## 6. Provenance & Audit Trail
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-- **Receipt Type:** `MEMORY_DECAY_RECEIPT` — emitted for every memory purge due to decay, recording the memory ID, last evidence timestamp, strength at purge, and decay duration.
-- **Storage Location:** `17_OBSERVABILITY` with memory-ID-indexed partitions.
-- **Receipt Fields:** Memory ID, initial strength, final strength, last evidence timestamp, decay duration, purge timestamp, BLAKE3 hash.
-- **Immutability:** Memory decay receipts are append-only per [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-014|INV-AUTHZ-014]].
+______________________________________________________________________
 
-## 7. Related Invariants
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-012|INV-AUTHZ-012]] — Reality Grounding Requirement
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-034|INV-AUTHZ-034]] — Epistemic Drift Threshold
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-035|INV-AUTHZ-035]] — Bounded Context Attention
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-041|INV-AUTHZ-041]] — Episodic Trace Retention
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-047|INV-AUTHZ-047]] — Selective Invalidation Granularity
+______________________________________________________________________
 
-## 8. Navigation & Bindings
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
-- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
-- **Control Plane Contract:** [[03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT|CONTROL_PLANE_CONTRACT]]
-- **Canon Law Hierarchy:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- **Kernel:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
-- **Observability:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]
+______________________________________________________________________
+
+RSCF-NODE
+node_id: cp_03_control_plane_04_authority_inv_authz_027_md
+node_type: note
+path: 03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-027.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04_AUTHORITY_MOC]]
+
+______________________________________________________________________
+
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,228 +1,186 @@
 ---
-title: UBI Organism Binding
-type: organism
-source: 05_COGNITIVE_ORGANISM
-artifact: UBI_ORGANISM_BINDING.md
-artifact_id: amos_05_cognitive_organism_ubi_organism_binding
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 05_COGNITIVE_ORGANISM
-segment: 05_COGNITIVE_ORGANISM
-artifact_kind: BINDING
-path: 05_COGNITIVE_ORGANISM/UBI_ORGANISM_BINDING.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Ubi Organism Binding
 tags:
-  - amos-os
-  - cognitive
-  - organism
-  - binding
-  - canon_placeholder
-  - rscf
-  - canon/cognitive
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # UBI Organism Binding
 
-## 0. Status
+## 0. Executive Specification
 
-`UBI_ORGANISM_BINDING.md` is an **ADD-ONLY placeholder** for the **Cognitive Organism** plane segment at `05_COGNITIVE_ORGANISM`.
+The **UBI Organism Binding** establishes the structural, biological, and mathematical integration of **Universal Biological Intelligence (UBI)** within the AMOS Cognitive Organism plane (`05_COGNITIVE_ORGANISM`). 
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
+UBI unites four distinct, mutually complementary modal intelligences into an allostatically balanced cognitive organism:
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
++---------------------------------------------------------------------------------------+
+|                    UNIVERSAL BIOLOGICAL INTELLIGENCE (UBI) ARCHITECTURE               |
+|                                                                                       |
+|   ┌─────────────────────────────┐                     ┌───────────────────────────┐   |
+|   │ NBI: NEUROBIOLOGICAL INTEL  │                     │ NEI: NEURO-ELECTROMAGNETIC│   |
+|   │ • Spiking Neural Networks   │                     │ • Affective Allostasis    │   |
+|   │ • Synaptic STDP Plasticity  │ <─────────────────> │ • Coherent Dipole Fields  │   |
+|   │ • Dendritic Computation     │                     │ • Emotion Field Coupling  │   |
+|   └──────────────┬──────────────┘                     └─────────────┬─────────────┘   |
+|                  ▲                                                  ▲                 |
+|                  │                 ┌──────────────────┐             │                 |
+|                  │                 │ UBI HOMEOSTASIS  │             │                 |
+|                  │                 │ & FREE ENERGY    │             │                 |
+|                  │                 └──────────────────┘             │                 |
+|                  ▼                                                  ▼                 |
+|   ┌──────────────┴──────────────┐                     ┌─────────────┴─────────────┐   |
+|   │ SI: SOMATIC INTELLIGENCE    │                     │ BEI: BIOELECTROMAGNETIC   │   |
+|   │ • Interoception / Visceral  │ <─────────────────> │ • Morphogenetic Gradients │   |
+|   │ • Vagal / Autonomic Tone    │                     │ • Membrane Potentials     │   |
+|   │ • Metabolic Energy Budgets  │                     │ • Pattern Regeneration    │   |
+|   └─────────────────────────────┘                     └───────────────────────────┘   |
++---------------------------------------------------------------------------------------+
+                                           │
+                        ┌──────────────────┴──────────────────┐
+                        ▼                                     ▼
+      ┌──────────────────────────────────┐  ┌──────────────────────────────────┐
+      │     EPISTEMIC SAFETY FIREWALL    │  │    DETERMINISTIC RUNTIME GATES   │
+      │ • BIO_MODEL != MEDICAL_DIAGNOSIS │  │ • Bound to 04_RUNTIME Scheduler  │
+      │ • VITALITY != IMMUNITY_OVERRIDE  │  │ • Monitored via 17_OBSERVABILITY │
+      │ • FAIL-CLOSED ALLERTON CIRCUIT   │  │ • Fail-Safe Recovery in 16_REPAIR│
+      └──────────────────────────────────┘  └──────────────────────────────────┘
 ```
 
-Origin architect / steward:
+---
 
-**Trang Phan**
+## 1. The Four Modal Intelligences (NBI, NEI, SI, BEI)
 
-______________________________________________________________________
+### 1.1 Neurobiological Intelligence (NBI)
+* **Domain:** Synaptically routed structural cognition, spiking networks, and logical abstraction.
+* **Mathematical Dynamics:** Spiking neurons governed by adaptive leaky integrate-and-fire (LIF) dynamics with Spike-Timing-Dependent Plasticity (STDP):
 
-## 1. Purpose
+$$\tau_m \frac{dv_i}{dt} = -(v_i - v_{\text{rest}}) + R_m \left( I_i^{\text{syn}}(t) + I_i^{\text{ext}}(t) \right)$$
 
-This artifact reserves the **UBI Organism Binding** slot within the Cognitive Organism plane. The Cognitive Organism plane governs the organism-level cognitive assembly above kernels and below agents.
+$$\Delta w_{ij} = \begin{cases}
+A_+ \exp\left(-\frac{\Delta t}{\tau_+}\right) & \text{if } \Delta t = t_{\text{post}} - t_{\text{pre}} > 0 \\
+-A_- \exp\left(\frac{\Delta t}{\tau_-}\right) & \text{if } \Delta t < 0
+\end{cases}$$
 
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+### 1.2 Neuro-Electromagnetic & Emotional Intelligence (NEI)
+* **Domain:** Large-scale electromagnetic field synchrony, affective valence, and empathetic resonance.
+* **Mathematical Dynamics:** Kuramoto phase-oscillator coupling modeling macroscopic cortical coherence and emotional state vectors $\mathbf{e} = [v, a, d]^\top$ (valence, arousal, dominance):
 
-______________________________________________________________________
+$$\frac{d\theta_i}{dt} = \omega_i + \frac{K_{\text{NEI}}}{N} \sum_{j=1}^N \sin(\theta_j - \theta_i) + \eta_{\text{affect}} \cdot \mathbf{e}(t)$$
 
-## 2. Non-Purpose
+$$\mathbf{e}_{t+1} = \mathbf{e}_t + \kappa \left( \mathbf{e}_{\text{target}} - \mathbf{e}_t \right) + \mathbf{J}_{\text{somatic}} \cdot \mathbf{s}_{\text{interoceptive}}$$
 
-This placeholder MUST NOT be used to claim:
+### 1.3 Somatic Intelligence (SI)
+* **Domain:** Interoceptive feedback, viscero-sensory regulation, metabolic energy budgeting, and vagal tone.
+* **Mathematical Dynamics:** Allostatic metabolic control law optimizing glycogen/glucose reserves and heart-rate variability (HRV):
 
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
+$$\frac{dE_{\text{metabolic}}}{dt} = \dot{E}_{\text{intake}} - \sum_k P_{\text{organ}}^{(k)} - \lambda_{\text{computation}} \cdot \text{FLOPs}_{\text{active}}$$
 
-______________________________________________________________________
+$$\text{AllostaticLoad}(t) = \int_0^t \left\| \mathbf{s}_{\text{actual}}(\tau) - \mathbf{s}_{\text{homeostatic\_setpoint}} \right\|_{\mathbf{Q}}^2 \, d\tau$$
 
-## 3. Ingestion Rule
+### 1.4 Bioelectromagnetic Intelligence (BEI)
+* **Domain:** Endogenous resting membrane potential patterns ($V_{\text{mem}}$), non-neural morphogenetic signaling (Michael Levin framework), and anatomical self-repair.
+* **Mathematical Dynamics:** Spatial-temporal reaction-diffusion of bioelectric membrane potential across syncytial gap-junction networks:
 
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+$$\frac{\partial V_i}{\partial t} = \frac{1}{C_m} \sum_{\text{ion}} I_{\text{ion}}(V_i, c_i) + \sum_{j \in \mathcal{N}(i)} G_{ij} (V_j - V_i)$$
+
+Where $G_{ij}$ is the gap junctional conductance gating anatomical patterning memory and morphological regeneration.
+
+---
+
+## 2. Master UBI State Tensor & Coupled Dynamics
+
+The global state of the biological organism is formalized as a coupled tensor:
+
+$$\mathbf{\Psi}_{\text{UBI}}(t) = \big[ \mathbf{x}_{\text{NBI}}(t), \; \mathbf{e}_{\text{NEI}}(t), \; \mathbf{s}_{\text{SI}}(t), \; \mathbf{V}_{\text{BEI}}(t) \big] \in \mathbb{R}^{D_{\text{UBI}}}$$
+
+### 2.1 Cross-Modal Coupling Matrix
+The evolution of the coupled organism is governed by the nonlinear interaction tensor:
+
+$$\frac{d\mathbf{\Psi}_{\text{UBI}}}{dt} = \mathbf{F}_{\text{intrinsic}}\big(\mathbf{\Psi}_{\text{UBI}}\big) + \mathbf{\Gamma}_{\text{coupling}} \cdot \mathbf{\Psi}_{\text{UBI}} - \nabla_{\mathbf{\Psi}} \mathcal{F}_{\text{FEP}}$$
+
+$$\mathbf{\Gamma}_{\text{coupling}} = \begin{pmatrix}
+0 & \mathbf{C}_{\text{NBI}\leftarrow\text{NEI}} & \mathbf{C}_{\text{NBI}\leftarrow\text{SI}} & \mathbf{C}_{\text{NBI}\leftarrow\text{BEI}} \\
+\mathbf{C}_{\text{NEI}\leftarrow\text{NBI}} & 0 & \mathbf{C}_{\text{NEI}\leftarrow\text{SI}} & \mathbf{C}_{\text{NEI}\leftarrow\text{BEI}} \\
+\mathbf{C}_{\text{SI}\leftarrow\text{NBI}} & \mathbf{C}_{\text{SI}\leftarrow\text{NEI}} & 0 & \mathbf{C}_{\text{SI}\leftarrow\text{BEI}} \\
+\mathbf{C}_{\text{BEI}\leftarrow\text{NBI}} & \mathbf{C}_{\text{BEI}\leftarrow\text{NEI}} & \mathbf{C}_{\text{BEI}\leftarrow\text{SI}} & 0
+\end{pmatrix}$$
+
+* $\mathbf{C}_{\text{NBI}\leftarrow\text{SI}}$: Somatosensory visceral inputs biasing cognitive decisions (Damasio's Somatic Marker Hypothesis).
+* $\mathbf{C}_{\text{NEI}\leftarrow\text{NBI}}$: Rational appraisals modulating emotional valence and arousal.
+* $\mathbf{C}_{\text{BEI}\leftarrow\text{NBI}}$: Neural activity shaping long-term morphogenetic bioelectric patterns.
+* $\mathbf{C}_{\text{SI}\leftarrow\text{NEI}}$: Chronic emotional stress increasing visceral inflammation and allostatic load.
+
+---
+
+## 3. Allostatic Setpoints & Homeostatic Basins
+
+The organism defines safe physiological basins in state space $\Omega_{\text{vital}} \subset \mathbb{R}^{D_{\text{UBI}}}$:
+
+$$\mathbf{\Psi}_{\text{UBI}}(t) \in \Omega_{\text{vital}} \iff \begin{cases}
+V_{\text{mem}} \in [-70\text{ mV}, -20\text{ mV}] & (\text{BEI health}) \\
+\text{AllostaticLoad} \le \Theta_{\text{allostatic\_limit}} & (\text{SI integrity}) \\
+\|\mathbf{e}_{\text{NEI}}\| \le E_{\text{max}} & (\text{NEI stability}) \\
+\text{SpikingRate}_{\text{avg}} \in [1\text{ Hz}, 50\text{ Hz}] & (\text{NBI balance})
+\end{cases}$$
+
+If $\mathbf{\Psi}_{\text{UBI}}$ traverses outside $\Omega_{\text{vital}}$, Tier 5 immediately asserts an allostatic correction signal:
+
+$$\mathbf{u}_{\text{allostasis}} = -\mathbf{K}_{\text{allostasis}} \left( \mathbf{\Psi}_{\text{UBI}} - \mathbf{\Psi}_{\text{setpoint}} \right)$$
+
+Routing high-priority interrupt signals to `04_RUNTIME` to throttle high-cost computational workloads until homeostasis is restored.
+
+---
+
+## 4. Epistemic Boundaries & Safety Firewalls
+
+```text
+UBI_MODEL != BIOLOGICAL_ORGANISM
+VITALITY_STATE != LEGAL_OR_MEDICAL_ADVICE
+SOMATIC_SIMULATION != PHYSICAL_FLESH
+FIELD_COHERENCE != OCCULT_ENERGY
 ```
 
-______________________________________________________________________
+1. **Computational Analogue Boundary:** All UBI formalisms represent computational and systemic models of biological intelligence (`AMOS_MODEL`). They must never be conflated with clinical medical diagnostics or physical biology.
+2. **Deterministic Precedence:** UBI states provide regulatory constraints and contextual biases to cognitive proposal generation. They can never bypass `03_CONTROL_PLANE` security policies or cryptographic capability checks.
+3. **Fail-Closed Homeostatic Trip:** If simulated allostatic load exceeds critical thresholds ($\text{AllostaticLoad} > 0.95$), the organism triggers a self-protective quiescent state, prioritizing system recovery in `16_REPAIR`.
 
-## 4. Contract discipline
+---
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+## 5. Cross-Plane Bindings
 
-______________________________________________________________________
+- **Governed by Canon:** [[01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_CANON|FULL_BRAIN_OS_CANON]] & [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]].
+- **Runtime Binding:** [[05_COGNITIVE_ORGANISM/FULL_BRAIN_OS_RUNTIME_BINDING|FULL_BRAIN_OS_RUNTIME_BINDING]].
+- **Predictive Optimization:** [[05_COGNITIVE_ORGANISM/PREDICTION_ENGINE|PREDICTION_ENGINE]].
+- **Biological Computing Model:** [[13_MODELS/01_FOUNDATION/BIO_LOGICAL_COMPUTING_MODEL|BIO_LOGICAL_COMPUTING_MODEL]].
+- **Homeostatic Recovery:** [[05_COGNITIVE_ORGANISM/16_REPAIR/UBI_RECOVERY_ENGINE|UBI_RECOVERY_ENGINE]].
 
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
-______________________________________________________________________
-
-## 6. Worked semantics (target)
-
-Given an operation touching `05_COGNITIVE_ORGANISM · BINDING` within the Cognitive Organism plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-______________________________________________________________________
+---
 
 RSCF-NODE
-
 node_id: amos_05_cognitive_organism_ubi_organism_binding
-
 node_type: binding
-
+domain: COGNITION
 path: 05_COGNITIVE_ORGANISM/UBI_ORGANISM_BINDING.md
-
 claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
+rscf_state: active_specification
+canonical_status: CANONICAL_BINDING
 RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
-
-**MOC:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
+  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+  - INDEXED_BY: [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
+  - GOVERNED_BY: [[01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_CANON|FULL_BRAIN_OS_CANON]]
+  - BOUND_TO: [[05_COGNITIVE_ORGANISM/FULL_BRAIN_OS_RUNTIME_BINDING|FULL_BRAIN_OS_RUNTIME_BINDING]]
+  - BOUND_TO: [[13_MODELS/01_FOUNDATION/BIO_LOGICAL_COMPUTING_MODEL|BIO_LOGICAL_COMPUTING_MODEL]]

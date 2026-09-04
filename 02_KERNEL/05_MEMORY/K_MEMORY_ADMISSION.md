@@ -1,60 +1,21 @@
 ---
-title: K MEMORY ADMISSION
-type: memory
-source: 02_KERNEL/05_MEMORY
-artifact_id: AMOS-OS-K-MEMORY-ADMISSION
-canonical_name: K_MEMORY_ADMISSION
-artifact_type: kernel_memory_admission_contract
-status: AMOS_MODEL
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
 conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: KERNEL
-kernel_family: MEMORY
-scope: AMOS_OS
-updated: 2026-08-26
+epistemic_class: SOURCE_CLAIM
+topic: K Memory Admission
 tags:
-  - amos-os
-  - kernel
-  - core
   - canon-group/tech-ai
-  - kernel/memory
-  - kernel/memory-admission
-  - kernel/provenance
-  - kernel/epistemics
-  - kernel/freshness
-  - kernel/dependency
-  - kernel/recovery
   - rscf/claim
   - rscf/provenance
-  - topic/memory
-  - topic/admission
-  - topic/persistence
-  - topic/knowledge-harvest
-  - topic/invalidation
-  - canon/kernel
-  - memory
-  - readme
-  - architecture
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - source-lineage
-  - k-identity
-  - k-context-state
-  - k-context-compaction
-  - k-system-state
-  - k-world-model
-  - k-meta-logic
-  - k-multi-hypothesis
-  - k-causal-closure
-  - k-causal-epoch
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # K MEMORY ADMISSION
@@ -2599,7 +2560,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

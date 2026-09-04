@@ -1,30 +1,21 @@
 ---
-title: AMOS OS Root Authorization
-type: note
-source: 00_ROOT
-artifact: 00_ROOT_AUTHORIZATION.md
-artifact_id: AMOS_AUTH_ROOT_000
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-domain: AUTHORIZATION / CONTROL PLANE
-artifact_class: ROOT_AUTHORIZATION_SPECIFICATION
-version: 1.0.0
-updated: '2026-08-26'
-status: PROPOSED_SPECIFICATION
-epistemic_class: MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: UNKNOWN/GAP
-validation_status: UNKNOWN/GAP
-active_root_authority: UNBOUND
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 00 Root Authorization
 tags:
-  - note
-  - canon/root
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: root_index
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS OS — 00 Root Authorization
@@ -3081,7 +3072,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ______________________________________________________________________
 

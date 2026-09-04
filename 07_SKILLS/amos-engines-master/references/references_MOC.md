@@ -1,50 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-moc: true
-rscf:
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
-  state: SOURCE_CLAIM
-source: 07_SKILLS/amos-engines-master/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: References Moc
 tags:
-  - references
-  - type/skill
-  - agi-completion-report
-  - amos-infinite-complete
-  - brain-omega-complete
-  - brain-singularity-complete
-  - brain-transcendent-complete
-  - brain-transcendental-complete
-  - brain-ultimate-intelligence-2026
-  - brain-ultimate-synthesis
-  - brain-ultimate-transcendence
-  - domain-engines
-  - domains-engines-collection
-  - engine-complete
-  - engine-final-complete
-  - engine-models
-  - engine-practical-complete
-  - omega-advanced-intelligence
-  - omega-maximum-enhancement
-  - omega-state-of-the-art
-  - super-consciousness-engine
-  - super-consciousness-engine-max
-  - super-engine-omni-x1000
-  - super-engine-v1
-  - super-engine-v100
-  - super-kernel-engine
-  - trang-asea
-  - unipower-engines-collection
-  - unipower-engines-layer
-  - unipower-tech-design-metabrain
-  - vault-domain-knowledge
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-title: References MOC — References — Amos Engines Master
-type: moc
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # References — Map of Content

@@ -1,60 +1,21 @@
 ---
-title: Canon Source Claim Audit
-type: research
-source: 22_RESEARCH/04_VALIDATION
-artifact: CANON_SOURCE_CLAIM_AUDIT.md
-artifact_id: amos_22_research_04_validation_canon_source_claim_audit
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 22_RESEARCH
-segment: 22_RESEARCH/04_VALIDATION
-artifact_kind: VALIDATION_AUDIT
-path: 22_RESEARCH/04_VALIDATION/CANON_SOURCE_CLAIM_AUDIT.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Canon Source Claim Audit
 tags:
-  - amos-os
-  - research
-  - vault
-  - 04_validation
-  - canon_source_claim_audit
-  - epistemic_audit
-  - provenance_verification
-  - rscf
-  - canon_candidate
-  - canon/research
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: SYSTEM_INVARIANT
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SYSTEM_INVARIANT
-  provenance:
-    - 01_CANON/01_CANON_MOC
-    - 11_KNOWLEDGE/02_CLAIMS/CANON_CLAIM_REGISTRY
-    - AMOS_CORPUS
-  scope:
-    - RESEARCH_VALIDATION
-    - CANON_CLAIM_AUDIT
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  validation_moc:
-    artifact: 22_RESEARCH/04_VALIDATION/04_VALIDATION_MOC
-  claims_registry:
-    artifact: 11_KNOWLEDGE/02_CLAIMS/CANON_CLAIM_REGISTRY
-  canon_moc:
-    artifact: 01_CANON/01_CANON_MOC
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  audit_structure: VERIFIED_SOURCE_STRUCTURE
-  verification_receipt: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Canon Source Claim Audit Report

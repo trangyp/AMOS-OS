@@ -9,7 +9,10 @@ parent_skill: amos-os-runtime-master
 domain: runtime
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
+  conclusion_class: AMOS_MODEL
 tags:
+  rscf-state: DERIVED
+  conclusion_class: AMOS_MODEL
   - type/skill
   - type/skill
   - domain/os-runtime
@@ -50,7 +53,6 @@ law_compliance:
   - L18
 license: MIT
 steward: Trang Phan
----
 
 # AMOS Adaptive Stability Balancer
 
@@ -182,7 +184,7 @@ ______________________________________________________________________
 - **Parent**: `amos-os-runtime-master` — routes to this skill when runtime specialization is needed
 - **Peers**: Other skills in the `runtime` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
-- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Workflow**: Each skill has a corresponding workflow in `26_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
 
 ## Evaluation

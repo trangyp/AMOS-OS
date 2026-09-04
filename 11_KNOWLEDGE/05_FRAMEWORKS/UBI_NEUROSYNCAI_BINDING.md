@@ -1,74 +1,21 @@
 ---
-title: UBI-to-NeurosyncAI Binding
-type: biology
-source: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact: UBI_NEUROSYNCAI_BINDING.md
-artifact_id: amos_11_knowledge_05_frameworks_ubi_neurosyncai_binding
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 11_KNOWLEDGE
-segment: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact_kind: BINDING
-path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_NEUROSYNCAI_BINDING.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Ubi Neurosyncai Binding
 tags:
-  - amos-os
-  - knowledge
-  - vault
-  - 05_frameworks
-  - ubi_neurosyncai_binding
-  - ubi
-  - neurosyncai
-  - human_ai_interface
-  - bio_adaptive_pacing
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-  - unified-biological-intelligence
-  - neurosyncai-framework
-  - amos-x-neurosyncai
-  - amos-x-neurosyncai-matrix
-  - neurosyncai-dual-system-architecture
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - UBI_OFFICIAL_MANUAL
-    - NEUROSYNCAI_CANON
-    - AMOS_CORPUS
-  scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - FRAMEWORK_BINDINGS
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  biological_source:
-    name: Unified Biological Intelligence™
-    artifact:
-      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
-  ai_interface_target:
-    name: NeurosyncAI™ Framework
-    artifact:
-      -   - NEUROSYNCAI_FRAMEWORK
-  cognitive_matrix_binding:
-    artifact:
-      -   - AMOS_X_NEUROSYNCAI
-    matrix:
-      -   - AMOS_X_NEUROSYNCAI_MATRIX
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  binding_structure: VERIFIED_SOURCE_STRUCTURE
-  adaptive_rules: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # UBI-to-NeurosyncAI Binding

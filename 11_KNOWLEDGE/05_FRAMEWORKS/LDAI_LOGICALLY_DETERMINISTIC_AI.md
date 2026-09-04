@@ -1,72 +1,21 @@
 ---
-title: LDAI — Logically Deterministic AI
-type: trang-framework
-source: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact: LDAI_LOGICALLY_DETERMINISTIC_AI.md
-artifact_id: amos_11_knowledge_05_frameworks_ldai_logically_deterministic_ai
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 11_KNOWLEDGE
-segment: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact_kind: REASONING
-path: 11_KNOWLEDGE/05_FRAMEWORKS/LDAI_LOGICALLY_DETERMINISTIC_AI.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Ldai Logically Deterministic Ai
 tags:
-  - amos-os
-  - knowledge
-  - vault
-  - 05_frameworks
-  - ldai
-  - logically_deterministic_ai
-  - syntax_invariant
-  - deterministic_logic
-  - formal_reasoning
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-  - frai-fractal-reasoning-ai
-  - qls-framework
-  - qcla-master
-  - trang-reality-architecture
-  - khung-trang
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - TRANG_LDAI_LOGICALLY_DETERMINISTIC_ARTIFICIAL_INT
-    - AMOS_CORPUS
-  scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - DETERMINISTIC_REASONING
-    - SOURCE_DEFINED_LDAI_MODEL
-framework_binding:
-  primary:
-    name: Trang LDAI (Logically Deterministic AI)
-    acronym: LDAI
-    role: SYNTAX_INVARIANT_DETERMINISTIC_REASONING_ENGINE
-  upstream_fractal_engine:
-    name: Trang FRAI (Fractal Reasoning AI)
-    acronym: FRAI
-    artifact:
-      -   - FRAI_FRACTAL_REASONING_AI
-  logic_scaffold_coupling:
-    artifact:
-      -   - QLS_FRAMEWORK
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  framework_structure: VERIFIED_SOURCE_STRUCTURE
-  deterministic_rules: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # LDAI — Logically Deterministic AI™

@@ -1,27 +1,16 @@
 ---
-type: agent
-source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: L03 Percept Formation Primitives Cognitive Matrix Agents
 tags:
-  - amos
-  - cognitive-matrix
-  - matrix/l03
-  - percept-formation
-  - agents
-  - perception
-  - rscf
-  - hml
-  - governance
-  - domain/cognitive-matrix
-title: L03_PERCEPT_FORMATION — Agents
-origin_architect: Trang Phan
-status: MODEL_AGENT_CONTRACT / UNIMPLEMENTED / UNVALIDATED
-epistemic_class: MODEL
-runtime_alignment: AMOS Full Brain OS / AMOS_CORE v4.4 lineage
-rscf:
-  state: DERIVED
-  claim_class: EMPIRICAL
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # L03_PERCEPT_FORMATION — Agents
@@ -2049,7 +2038,7 @@ The AMOS multimodal-perception layer used as the supporting architecture require
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

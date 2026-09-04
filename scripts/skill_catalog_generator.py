@@ -205,8 +205,8 @@ def generate_catalog_markdown(catalog: dict, skills_dir: Path) -> str:
 def main():
     parser = argparse.ArgumentParser(description="Auto-generate skill catalog from frontmatter")
     parser.add_argument("--skills-dir", default=".devin/skills", help="Skills directory")
-    parser.add_argument("--output", default="skill-catalog.md", help="Output Markdown file")
-    parser.add_argument("--json", default=None, help="Output JSON file")
+    parser.add_argument("--output", default="07_SKILLS/skill-catalog.md", help="Output Markdown file")
+    parser.add_argument("--json", default="07_SKILLS/skill-catalog-index.json", help="Output JSON file")
     parser.add_argument("--summary", action="store_true", help="Print summary only")
     args = parser.parse_args()
 

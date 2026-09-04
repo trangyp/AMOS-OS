@@ -1,18 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: COGNITIVE MATRIX INTEGRATION
-type: integration
-source: 00_ROOT
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Cognitive Matrix Integration
 tags:
-  - note
-  - canon/root
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: root_index
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AMOS OS — Cognitive Matrix Integration
@@ -32,7 +30,7 @@ AMOS_OS/
 ├── 05_COGNITIVE_ORGANISM
 ├── 06_AGENTS
 ├── 07_SKILLS
-├── 08_WORKFLOWS
+├── 26_WORKFLOWS
 ├── ...
 └── 25_COGNITIVE_MATRIX
 ```
@@ -122,7 +120,7 @@ ______________________________________________________________________
 
 ````
 
-## Derived / Proposed AMOS Formalization
+# Derived / Proposed AMOS Formalization
 
 Everything below is **DERIVED / PROPOSED**. It extends the supplied specification without mutating its source metadata, source RSCF block, declared relations, or epistemic state.
 

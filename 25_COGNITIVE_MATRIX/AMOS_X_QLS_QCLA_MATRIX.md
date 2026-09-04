@@ -1,80 +1,21 @@
 ---
-title: AMOS × QLS/QCLA Matrix
-type: matrix
-source: 25_COGNITIVE_MATRIX
-artifact: AMOS_X_QLS_QCLA_MATRIX.md
-artifact_id: amos_25_cognitive_matrix_amos_x_qls_qcla_matrix
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 25_COGNITIVE_MATRIX
-segment: 25_COGNITIVE_MATRIX
-artifact_kind: MATRIX
-path: 25_COGNITIVE_MATRIX/AMOS_X_QLS_QCLA_MATRIX.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos X Qls Qcla Matrix
 tags:
-  - amos-os
-  - cognitive-matrix
-  - matrix
-  - qls
-  - qcla
-  - quantum_logic_scaffold
-  - quantum_logic_system
-  - quantum_causality_layer_architecture
-  - logic
-  - causality
-  - multi_state_reasoning
-  - causal_propagation
-  - collapse
-  - constraints
-  - causal_firewall
-  - deterministic_logic
-  - rscf
-  - canon_candidate
-  - domain/cognitive-matrix
-  - amos-x-qls
-  - amos-x-qcla
-  - law-hierarchy
-  - ubi
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - AMOS_QLS_CORPUS
-    - AMOS_QCLA_CAUSALITY_CORPUS
-  scope: QLS_QCLA_INTEGRATION_MODEL
-framework_binding:
-  QLS:
-    primary_name: Quantum Logic Scaffold™
-    related_name: Quantum Logic System™
-    role: LOGICAL_VALIDITY
-  QCLA:
-    name: Quantum Causality Layer Architecture™
-    role: CAUSAL_VALIDITY
-qcla_disambiguation:
-  required: true
-  selected_branch: Quantum Causality Layer Architecture™
-  excluded_branch:
-    name: Quantum–Chemical Logic Architecture
-    relation: DISTINCT_FRAMEWORK_SAME_ACRONYM
-  merge_status: NOT_AUTHORIZED
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  integration_relation: VERIFIED_SOURCE_STRUCTURE
-  mathematical_expressions: SOURCE_DEFINED_MODEL
-  universal_validity: NOT_ESTABLISHED
-  empirical_thresholds: NOT_ESTABLISHED
-  deterministic_prediction: NOT_ESTABLISHED
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS × QLS/QCLA Matrix

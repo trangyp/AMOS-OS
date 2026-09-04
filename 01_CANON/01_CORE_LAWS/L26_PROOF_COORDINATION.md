@@ -1,47 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: L26 PROOF COORDINATION
-aliases:
-  - L26 Proof Coordination
-  - L26 Proof Coordination Laws
-  - Proof Coordination Laws
-  - PXC
-type: proof
-source: 01_CANON/01_CORE_LAWS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: L26 Proof Coordination
 tags:
-  - canon
-  - core_laws
-  - proof
-  - proof_coordination
-  - compositional_proof
-  - proof_home
-  - independence
-  - provenance
-  - verification
-  - validators
-  - replayability
-  - atomic_reasoning
-  - coordination
-  - note
-  - canon/universe
-  - references
-  - readme
-  - law-hierarchy
-  - law/L19-proof-capsule
-  - law/L22-replayability
-  - law/L23-mvcc-cas
-  - law/L24-causal-epoch
-  - law/L25-shard-local
-  - atomic-multi-rscf
-  - trang-framework-recursive-ontology-dynamics
-  - law/L26-proof-coordination
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: core_laws
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # L26 Proof Coordination Laws
@@ -6034,3 +6003,9 @@ claim_class: AMOS_MODEL
 ---
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+```
+
+```
+```
+```

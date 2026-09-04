@@ -116,6 +116,8 @@ Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic clas
 - `amos-c03-physics-cosmos-master` (primary skill)
 - `amos-c03-physics-cosmos-agent.json` (primary agent)
 - Vault source: `11_KNOWLEDGE/AMOS_C03_PHYSICS_COSMOS_MASTER_KNOWLEDGE.md`
+- Arvix Evidence Bridge: [[07_SKILLS/amos-c03-physics-cosmos-master/references/arvix_quantum_physics_cosmos_evidence_bridge|arvix_quantum_physics_cosmos_evidence_bridge]]
+- External Arvix Hub: [[00_ROOT/ARXIV_RSCF_KNOWLEDGE_NODE|ARXIV_RSCF_KNOWLEDGE_NODE (66,026 papers)]]
 
 ## Provenance
 

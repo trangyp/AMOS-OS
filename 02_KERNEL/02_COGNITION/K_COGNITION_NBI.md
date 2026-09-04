@@ -1,35 +1,21 @@
 ---
-title: NEUROBIOLOGICAL NBI COGNITION KERNEL
-type: kernel
-source: 02_KERNEL/02_COGNITION
-artifact_id: AMOS-KERNEL-K-COGNITION-NBI-MASTER
-canonical_name: K_COGNITION_NBI
-status: CANONICAL
-conclusion_class: CANONICAL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-version: 2.0.0
-created: '2026-08-25'
-updated: '2026-08-28'
-plane: 02_KERNEL
-domain: cognition
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: K Cognition Nbi
 tags:
-  - amos-os
-  - kernel
-  - neurobiological
-  - cognition
-  - ubi
+  - canon-group/tech-ai
   - rscf/claim
-  - rscf/state/canonical
-aliases:
-  - Neurobiological NBI Kernel
-  - K_COGNITION_NBI
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # NEUROBIOLOGICAL NBI COGNITION KERNEL

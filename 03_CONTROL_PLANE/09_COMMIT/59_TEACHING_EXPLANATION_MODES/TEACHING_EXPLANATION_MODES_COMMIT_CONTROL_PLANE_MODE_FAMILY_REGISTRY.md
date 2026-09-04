@@ -1,19 +1,16 @@
 ---
-title: TEACHING EXPLANATION MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-type: control-plane
-source: 03_CONTROL_PLANE/09_COMMIT/59_TEACHING_EXPLANATION_MODES
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Teaching Explanation Modes Commit Control Plane Mode Family Registry
 tags:
-  - control-plane
-  - 59_teaching_explanation_modes
-  - canon/control-plane
-  - authz-engine-validation-receipt
-  - routing-policy-validation-receipt
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: DERIVED
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # TEACHING EXPLANATION MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

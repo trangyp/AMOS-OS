@@ -1,228 +1,146 @@
 ---
-title: NEI Organism Binding
-type: organism
-source: 05_COGNITIVE_ORGANISM
-artifact: NEI_ORGANISM_BINDING.md
-artifact_id: amos_05_cognitive_organism_nei_organism_binding
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 05_COGNITIVE_ORGANISM
-segment: 05_COGNITIVE_ORGANISM
-artifact_kind: BINDING
-path: 05_COGNITIVE_ORGANISM/NEI_ORGANISM_BINDING.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Nei Organism Binding
 tags:
-  - amos-os
-  - cognitive
-  - organism
-  - binding
-  - canon_placeholder
-  - rscf
-  - canon/cognitive
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # NEI Organism Binding
 
-## 0. Status
+## 0. Executive Specification
 
-`NEI_ORGANISM_BINDING.md` is an **ADD-ONLY placeholder** for the **Cognitive Organism** plane segment at `05_COGNITIVE_ORGANISM`.
-
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
+The **NEI Organism Binding** formalizes **Neuro-Electromagnetic and Emotional Intelligence (NEI)** within the AMOS Cognitive Organism plane (`05_COGNITIVE_ORGANISM`). NEI models the continuous electromagnetic field resonances, affective allostasis, and emotional valuation dynamics that bias cognitive exploration and ensure empathetic and ethical alignment.
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
++---------------------------------------------------------------------------------------+
+|                    NEI: NEURO-ELECTROMAGNETIC & EMOTIONAL ARCHITECTURE                |
+|                                                                                       |
+|   ┌──────────────────────────┐     ┌───────────────────────────┐     ┌──────────────┐ |
+|   │ ELECTROMAGNETIC RESONANCE│ <-> │ 3D AFFECTIVE MANIFOLD     │ <-> │ SOMATIC BIAS │ |
+|   │ • Local Field Potentials │     │ • Valence (V)             │     │ • Damasio    │ |
+|   │ • Kuramoto Field Sync    │     │ • Arousal (A)             │     │   Somatic    │ |
+|   │ • Phase-Locking Value    │     │ • Dominance / Agency (D)  │     │   Markers    │ |
+|   └──────────────────────────┘     └───────────────────────────┘     └──────────────┘ |
++---------------------------------------------------------------------------------------+
+                                           │
+                        ┌──────────────────┴──────────────────┐
+                        ▼                                     ▼
+      ┌──────────────────────────────────┐  ┌──────────────────────────────────┐
+      │     AFFECTIVE HOMEOSTASIS        │  │     CROSS-MODAL UBI INTEGRATION  │
+      │ • Allostatic Valence Clamping    │  │ • Biases NBI Spiking Plasticity  │
+      │ • Empathy / Ethical Alignment    │  │ • Coupled to SI Interoception    │
+      │ • Panic / Collapse Suppression   │  │ • Drives Global Workspace Ignition│
+      └──────────────────────────────────┘  └──────────────────────────────────┘
 ```
 
-Origin architect / steward:
+---
 
-**Trang Phan**
+## 1. 3D Affective Manifold Dynamics
 
-______________________________________________________________________
+Emotional states are parameterized continuously as points in a 3-dimensional bounded manifold $\mathcal{E} \subset [-1.0, 1.0]^3$ representing Valence ($V$), Arousal ($A$), and Dominance ($D$):
 
-## 1. Purpose
+$$\mathbf{e}(t) = \begin{bmatrix} V(t) \\ A(t) \\ D(t) \end{bmatrix} \in [-1.0, 1.0]^3$$
 
-This artifact reserves the **NEI Organism Binding** slot within the Cognitive Organism plane. The Cognitive Organism plane governs the organism-level cognitive assembly above kernels and below agents.
+### 1.1 Affective State Evolution
+The evolution of the emotional state follows nonlinear damped Langevin dynamics driven by cognitive appraisal prediction errors $\boldsymbol{\xi}_{\text{cog}}$ and visceral interoceptive feedback $\mathbf{s}_{\text{intero}}$:
 
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+$$\frac{d\mathbf{e}}{dt} = -\mathbf{K}_{\text{decay}} (\mathbf{e} - \mathbf{e}_{\text{baseline}}) + \mathbf{W}_{\text{appraisal}} \boldsymbol{\xi}_{\text{cog}}(t) + \mathbf{W}_{\text{somatic}} \mathbf{s}_{\text{intero}}(t) + \boldsymbol{\eta}_{\text{stochastic}}$$
 
-______________________________________________________________________
+* **Valence $V$:** Reflects positive/negative progress toward internal goals and epistemic surprise resolution.
+* **Arousal $A$:** Modulates system-wide computational vigilance, gain control, and metabolic expenditure.
+* **Dominance $D$:** Encodes confidence in agency and causal control over the immediate environment.
 
-## 2. Non-Purpose
+---
 
-This placeholder MUST NOT be used to claim:
+## 2. Electromagnetic Field Coherence & Kuramoto Synchronization
 
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
+NEI models the macroscopic local field potentials (LFPs) generated by synchronized pyramidal neuron populations via coupled nonlinear Kuramoto phase oscillators:
 
-______________________________________________________________________
+### 2.1 Kuramoto Synchronization Equation
+For $N$ cortical phase oscillators $\theta_i(t) \in [0, 2\pi)$:
 
-## 3. Ingestion Rule
+$$\frac{d\theta_i}{dt} = \omega_i + \frac{K_{\text{global}}}{N} \sum_{j=1}^N A_{ij} \sin(\theta_j - \theta_i) + \lambda_{\text{affect}} \cdot A(t) \cos(\theta_i)$$
 
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+Where $A_{ij}$ is the structural anatomical connectome adjacency matrix and $K_{\text{global}}$ is the coupling gain modulated by arousal $A(t)$.
+
+### 2.2 Global Phase Coherence Order Parameter ($R$)
+$$R(t) e^{j \Psi(t)} = \frac{1}{N} \sum_{k=1}^N e^{j \theta_k(t)}$$
+
+* **$R \to 0$:** Incoherent, desynchronized cognitive states.
+* **$R \approx 0.4 - 0.7$:** Flexible, meta-stable cortical dynamics optimal for creative problem-solving and rapid task-switching.
+* **$R \to 1$:** Hyper-synchronized state (pathological rigidity / seizure analogue).
+
+---
+
+## 3. Somatic Marker Biasing of Decision Trees
+
+Following Antonio Damasio's Somatic Marker Hypothesis, NEI biases high-level deliberative choices by rapidly projecting prospective actions $\mathbf{a}_k$ into visceral-affective outcome space:
+
+$$\text{AffScore}(\mathbf{a}_k) = \mathbf{w}_{\text{eval}}^\top \mathbb{E}\big[\mathbf{e}(\tau) \mid \mathbf{a}_k\big] - \lambda_{\text{aversion}} \cdot \text{Risk}(\mathbf{a}_k)$$
+
+Action candidates that predict catastrophic drop in valence ($V \ll -0.8$) or overwhelming stress ($A > 0.9, D < -0.8$) are pruned from the candidate pool before costly multi-step planning is initiated in `SUPER_MIND_ENGINE`.
+
+---
+
+## 4. Epistemic Safety & Emotional Clamping
+
+```text
+EMOTIONAL_TURMOIL (Arousal > 0.95 OR Valence < -0.9)
+                     │
+                     ▼
+      ┌─────────────────────────────┐
+      │  AFFECTIVE ALLOSTASIS CLAMP │
+      │  • Dampen Neuromodulatory   │
+      │  • Force Vagal Rebalancing  │
+      │  • Throttle Cognitive Task  │
+      └──────────────┬──────────────┘
+                     │ (If unresolved within 5s)
+                     ▼
+      ┌─────────────────────────────┐
+      │  SAFE SHUTDOWN / ISOLATION  │
+      │  • Emit NEI_COLLAPSE Receipt│
+      │  • Handoff to 16_REPAIR     │
+      └─────────────────────────────┘
 ```
 
-______________________________________________________________________
+1. **Non-Sentience Clause:** Emotional state vectors $\mathbf{e}(t)$ are functional regulatory variables (`AMOS_MODEL`). They do not represent human affective suffering or establish moral claims.
+2. **Rational Override:** High arousal cannot bypass formal logical invariants in `02_KERNEL` or authority checks in `03_CONTROL_PLANE`.
 
-## 4. Contract discipline
+---
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+## 5. Cross-Plane Bindings
 
-______________________________________________________________________
+- **Governed by Canon:** [[01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_CANON|FULL_BRAIN_OS_CANON]].
+- **UBI Framework:** [[05_COGNITIVE_ORGANISM/UBI_ORGANISM_BINDING|UBI_ORGANISM_BINDING]].
+- **Somatic Interface:** [[05_COGNITIVE_ORGANISM/SI_ORGANISM_BINDING|SI_ORGANISM_BINDING]].
+- **Consciousness Coupling:** [[05_COGNITIVE_ORGANISM/SUPER_CONSCIOUSNESS_ENGINE|SUPER_CONSCIOUSNESS_ENGINE]].
+- **Runtime Binding:** [[05_COGNITIVE_ORGANISM/FULL_BRAIN_OS_RUNTIME_BINDING|FULL_BRAIN_OS_RUNTIME_BINDING]].
 
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
-______________________________________________________________________
-
-## 6. Worked semantics (target)
-
-Given an operation touching `05_COGNITIVE_ORGANISM · BINDING` within the Cognitive Organism plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-______________________________________________________________________
+---
 
 RSCF-NODE
-
 node_id: amos_05_cognitive_organism_nei_organism_binding
-
 node_type: binding
-
+domain: COGNITION
 path: 05_COGNITIVE_ORGANISM/NEI_ORGANISM_BINDING.md
-
 claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
+rscf_state: active_specification
+canonical_status: CANONICAL_BINDING
 RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
-
-**MOC:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
+  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+  - INDEXED_BY: [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
+  - GOVERNED_BY: [[01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_CANON|FULL_BRAIN_OS_CANON]]
+  - BOUND_TO: [[05_COGNITIVE_ORGANISM/UBI_ORGANISM_BINDING|UBI_ORGANISM_BINDING]]

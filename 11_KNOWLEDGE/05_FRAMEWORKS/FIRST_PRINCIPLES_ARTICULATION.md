@@ -1,68 +1,21 @@
 ---
-title: First Principles Articulation
-type: reasoning
-source: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact: FIRST_PRINCIPLES_ARTICULATION.md
-artifact_id: amos_11_knowledge_05_frameworks_first_principles_articulation
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 11_KNOWLEDGE
-segment: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact_kind: FRAMEWORK
-path: 11_KNOWLEDGE/05_FRAMEWORKS/FIRST_PRINCIPLES_ARTICULATION.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: First Principles Articulation
 tags:
-  - amos-os
-  - knowledge
-  - vault
-  - 05_frameworks
-  - first_principles
-  - fpr
-  - foundational_axioms
-  - root_derivation
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-  - ldai-logically-deterministic-ai
-  - absolute-structural-integrity
-  - qls-framework
-  - cognitive-systems-architecture
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - FPR_FIRST_PRINCIPLE_REASONING
-    - AMOS_CORPUS
-  scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - FIRST_PRINCIPLES
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  primary:
-    name: First Principles Articulation & Reasoning (FPR)
-    acronym: FPR
-    role: ROOT_AXIOM_DISCOVERY_AND_DERIVATION
-  deterministic_logic:
-    artifact:
-      -   - LDAI_LOGICALLY_DETERMINISTIC_AI
-  structural_integrity:
-    artifact:
-      -   - ABSOLUTE_STRUCTURAL_INTEGRITY
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  framework_structure: VERIFIED_SOURCE_STRUCTURE
-  reasoning_model: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # First Principles Articulation & Reasoning (FPR)

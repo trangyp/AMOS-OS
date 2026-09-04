@@ -1,92 +1,100 @@
 ---
-title: 08_LEGAL — Domain Specification
-type: domain_specification
-domain: 08_LEGAL
-family: C09_ORG_LAW_POLICY
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  provenance: authoritative_AMOS_OS_structure
-  scope: active__AMOS_OS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Legal Domains Domain Spec
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# 08_LEGAL — Domain Specification & Legal Kernel Engine
+# LEGAL DOMAINS DOMAIN SPEC
 
-**Origin Architect / Steward:** Trang Phan
-**AMOS_CORE Target:** `v4.4`
-**Epistemic Class:** `AMOS_MODEL`
+## 0. Status
 
----
+Domains-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
 
-## 1. Domain Scope & Formal Jurisprudence
+## 1. Purpose
 
-The **08_LEGAL** domain formalizes deontic logic, statutory rule compliance, cross-border jurisdiction resolution, smart contract verification, and regulatory compliance (GDPR, CCPA, Basel III/IV, MiCA, AI Act) within the AMOS ecosystem.
+`LEGAL DOMAINS DOMAIN SPEC` defines specification — intended semantics; implementation status tracked separately, serving the Domains plane's obligation: C-family domain engine mappings (C01–C12) onto the OS planes.
 
-```
-+----------------------------------------------------------------------------------------------------+
-|                         LEGAL KERNEL & FORMAL JURISPRUDENCE TOPOLOGY                               |
-|                                                                                                    |
-|    [ Statutory Texts / Contracts ] ===> [ Deontic Logic Parser (Obligation $\mathcal{O}$, Permission $\mathcal{P}$) ] |
-|                                                               ||                                   |
-|                                                               \/                                   |
-|                      [ SMT / Z3 Symbolic Constraint & Ambiguity Resolver ]                         |
-|                                                               ||                                   |
-|                                                               \/                                   |
-|                      [ Multi-Jurisdiction Choice-of-Law Conflict Matrix ]                          |
-|                                                               ||                                   |
-|                                                               \/                                   |
-|                      [ Self-Enforcing Smart Legal Contracts & Dispute Arbitration ]                |
-+----------------------------------------------------------------------------------------------------+
-```
+## 2. Semantics
 
----
+- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
+- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
+- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
 
-## 2. Mathematical Formalism & Deontic Logic (KD45 System)
+## 3. Failure modes guarded
 
-### 2.1 Modal Deontic Axioms & Non-Contradiction
-Legal obligations $\mathcal{O}(A)$, permissions $\mathcal{P}(A)$, and prohibitions $\mathcal{F}(A)$ obey standard deontic logic KD45:
+STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
 
-$$\mathcal{O}(A) \iff \neg \mathcal{P}(\neg A) \quad \text{and} \quad \mathcal{F}(A) \iff \mathcal{O}(\neg A)$$
+## 4. Validation
 
-Fundamental normative consistency invariant:
+No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
 
-$$\neg (\mathcal{O}(A) \land \mathcal{F}(A)) \quad \iff \quad \mathcal{O}(A) \implies \mathcal{P}(A) \quad (\text{Axiom } D)$$
+## 5. Gaps
 
-### 2.2 Cross-Border Jurisdiction Conflict Resolution (Choice of Law)
-For a contract spanning jurisdictions $J_1, \dots, J_n$, the applicable statutory regime $J^*$ is selected by optimizing jurisdictional nexus weights $w_k$:
+Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
 
-$$J^* = \arg\max_{J_k} \left( \sum_{m \in \text{Contacts}} w_m \cdot \mathbb{I}(m \in J_k) - \gamma \cdot \text{PublicPolicyConflict}(J_k, J_{forum}) \right)$$
+## 6. Falsifiers
 
----
+F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
 
-## 3. Subdomain Breakdown (MECE)
+## Worked semantics
 
-1. **Statutory Rules Engine (`STAT-01`)**:
-   - Parsing codified statutes into formal first-order predicate logic.
-   - Automated compliance auditing against GDPR, CCPA, Basel III/IV, MiCA, and EU AI Act.
-2. **Smart Contract Verification & Dispute Resolution (`CONTRACT-02`)**:
-   - Symbolic execution of legal contracts for ambiguity, deadlock, and loophole detection.
-   - Multi-jurisdictional choice-of-law arbitration algorithms.
-3. **Intellectual Property & Provenance Registry (`IP-03`)**:
-   - Cryptographic tracking of authorship, patent priority dates, and copyright lineages.
+Given an operation touching `LEGAL DOMAINS DOMAIN SPEC` within the Domains plane:
 
----
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-## 4. Operational Invariants & Safeguards
+## Promotion-gate checklist
 
-- `INV-LEG-001` (**Zero Normative Contradiction**): No legal rule or smart contract clause may be committed if the SMT solver proves satisfiability of both $\mathcal{O}(A)$ and $\mathcal{F}(A)$.
-- `INV-LEG-002` (**Choice of Law Determinism**): Multi-jurisdictional contracts must specify a deterministic choice-of-law clause resolving conflicts prior to execution.
-- `INV-LEG-003` (**Mandatory Human Counsel Gate**): Consequential litigation filings or statutory breach notices require licensed legal counsel sign-off prior to transmission.
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
----
+## Cross-plane bindings
 
-## 5. Provenance & Stewardship
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-- **Lineage**: AMOS v4.4 Legal Subsystem.
-- **Origin Architect & Steward**: Trang Phan.
-- **Epistemic Class**: `AMOS_MODEL` / `DERIVED`.
+______________________________________________________________________
+
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+
+______________________________________________________________________
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: amos_21_domains_08_legal_legal_domains_domain_spec_md
+node_type: note
+path: 21_DOMAINS/08_LEGAL/LEGAL_DOMAINS_DOMAIN_SPEC.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[21_DOMAINS/08_LEGAL/08_LEGAL_MOC|08_LEGAL_MOC]]

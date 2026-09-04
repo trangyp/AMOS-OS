@@ -1,30 +1,20 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS SUPER FABRICATION KERNEL
-type: kernel
-source: 11_KNOWLEDGE/kernel
 canon-group: meta
-canon-type: os-module
+canon-type: framework
 rscf-state: source-claim
-topic: amos-super-fabrication
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Super Fabrication Kernel
 tags:
   - canon-group/tech-ai
-  - canon/framework
   - rscf/claim
   - rscf/provenance
-  - rscf/state/observation
-  - topic/amos-super-fabrication
-  - kernel
+  - rscf/state/source-claim
+  - misc
 created: 2026-08-22
-rscf:
-  state: CONDITIONAL
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
-overclaim_risk: true
-overclaim_note: Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation.
+---
 ---
 
 # AMOS SUPER FABRICATION KERNEL

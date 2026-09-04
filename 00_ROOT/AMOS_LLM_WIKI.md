@@ -1,29 +1,16 @@
 ---
-artifact_id: AMOS-LLM-WIKI
-conclusion_class: DECISION / AMOS_MODEL
-confidence: DERIVED
-name: AMOS LLM Wiki
-origin_architect: Trang Phan
-provenance: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
-status: active
-steward: Trang Phan
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Amos Llm Wiki
 tags:
-  - wiki
-  - llm-wiki
-  - knowledge
-  - obsidian
-  - amos-os
   - canon-group/tech-ai
-  - canon/tooling
-  - llm-wiki-log
-title: AMOS LLM Wiki
-type: schema
-source: 00_ROOT
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance: karpathy_gist
-  scope: AMOS_knowledge
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AMOS LLM Wiki
@@ -1934,7 +1921,7 @@ ______________________________________________________________________
 
 ```yaml
 RSCF-RELATIONS:
-  - INDEXED_BY: [[_MOC|_MOC]]
+  - INDEXED_BY: [[00_ROOT_MOC|00_ROOT_MOC]]
   - INDEXED_BY: [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
   - INDEXED_BY: [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
   - INDEXED_BY: [[11_KNOWLEDGE/LLM_WIKI/LLM_WIKI_MOC|LLM_WIKI_MOC]]
@@ -2382,7 +2369,7 @@ ______________________________________________________________________
 
 Source-declared:
 
-- [[_MOC|_MOC]]
+- [[00_ROOT_MOC|00_ROOT_MOC]]
 - [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
 - [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 - [[11_KNOWLEDGE/LLM_WIKI/LLM_WIKI_MOC|LLM_WIKI_MOC]]
@@ -2392,3 +2379,6 @@ Source-declared:
 ______________________________________________________________________
 
 **MOC:** [[11_KNOWLEDGE/LLM_WIKI/LLM_WIKI_MOC|LLM_WIKI_MOC]]
+
+```
+```

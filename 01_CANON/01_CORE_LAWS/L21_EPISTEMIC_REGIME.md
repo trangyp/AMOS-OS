@@ -1,64 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: L21 EPISTEMIC REGIME
-type: epistemic
-source: 01_CANON/01_CORE_LAWS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: L21 Epistemic Regime
 tags:
-  - canon
-  - core_laws
-  - epistemic
-  - epistemic_regime
-  - declared_regime
-  - regime_firewall
-  - regime_bridge
-  - governed_payload
-  - non_portables
-  - simulation
-  - empirical
-  - canon
-  - speculative
-  - simulation_pessimism
-  - branch_stability
-  - worst_branch_drift
-  - freshness
-  - freshness_axes
-  - temporal_freshness
-  - environmental_freshness
-  - regimeal_freshness
-  - provenance_freshness
-  - scope_freshness
-  - model_freshness
-  - source_freshness
-  - applicability
-  - canon/universe
-  - validation
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-  - law/L17-rscf
-  - law/L18-gmef
-  - law/L19-proof-capsule
-  - law/L20-adversarial
-  - law/L16-hml
-  - provenance-topology
-  - persistent-provenance
-  - scope-regime-firewall
-  - causal-firewall
-  - competing-hypotheses
-  - causal-epoch-finality
-  - law/L10-failure-recovery
-  - law/L11-knowledge-memory
-  - law/L15-fractal-knowledge
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: core_laws
-  canonical_status: CONDITIONAL
-  specification_status: PROPOSED_SPECIFICATION
-  node_id: l21_epistemic_regime
-  node_type: note
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # L21 Epistemic Regime Laws
@@ -5880,4 +5832,6 @@ until authoritative epistemic-regime canon supplies discriminating validation.
 
 **Conclusion class: CONDITIONAL / AMOS_MODEL.**
 
+```
+```
 ```

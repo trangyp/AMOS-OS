@@ -1,58 +1,21 @@
 ---
-title: K BINDING
-type: note
-source: 02_KERNEL/09_INTEGRATION
-artifact_id: AMOS-OS-K-BINDING
-canonical_name: K_BINDING
-artifact_type: kernel_binding_contract
-status: AMOS_MODEL
-conclusion_class: MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: KERNEL
-scope: AMOS_OS
-updated: 2026-08-26
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: K Binding
 tags:
-  - kernel
-  - integration
-  - note
-  - canon/kernel
-  - readme
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - source-lineage
-  - k-distinction-relation-constraint
-  - k-identity
-  - k-law-hierarchy
-  - k-provenance
-  - k-provenance-topology
-  - k-sybil-hardening
-  - k-context-state
-  - k-system-state
-  - k-world-model
-  - k-memory-admission
-  - k-memory-conflict
-  - k-memory-retrieval
-  - k-context-compaction
-  - k-capability-authorization
-  - k-commit-time-authority
-  - k-effect-classification
-  - k-information-exposure
-  - k-risk-constraint
-  - k-causal-closure
-  - k-causal-epoch
-  - k-multi-hypothesis
-  - k-metacognition
-  - k-collapse-recovery
-  - k-repair-priority
-  - k-repair-harm
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # K BINDING
@@ -3202,7 +3165,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

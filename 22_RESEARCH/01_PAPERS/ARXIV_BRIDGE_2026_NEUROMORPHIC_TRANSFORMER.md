@@ -51,7 +51,7 @@ This bridge connects 2026 arXiv pre-prints in neuromorphic computing, spiking ne
 | **arXiv ID** | `2605.16114v1` |
 | **Title** | Scalable neuromorphic computing from autonomous spiking dynamics in a clockless architecture |
 | **Date** | 2026-05 |
-| **Target Planes** | [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC\|05_COGNITIVE_ORGANISM]], [[04_RUNTIME/04_RUNTIME_MOC\|04_RUNTIME]], [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC\|Quantum Systems]] |
+| **Target Planes** | [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM]], [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]], [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC|Quantum Systems]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | Clockless neuromorphic architecture — directly relevant to AMOS cognitive organism's neural substrate and runtime's event-driven execution. Clockless (asynchronous) design maps to AMOS's event-driven cognitive processing model, departing from traditional clock-synchronized computation. Scalability from autonomous spiking dynamics parallels AMOS's self-organizing cognitive architecture. |
 | **Confidence Ceiling** | `EMPIRICAL` for hardware implementation; `SOURCE_CLAIM` for scalability to brain-scale. |
@@ -63,7 +63,7 @@ This bridge connects 2026 arXiv pre-prints in neuromorphic computing, spiking ne
 | **arXiv ID** | `2602.23274v1` |
 | **Title** | Exploiting network topology in brain-scale simulations of spiking neural networks |
 | **Date** | 2026-02 |
-| **Target Planes** | [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC\|05_COGNITIVE_ORGANISM]], [[13_MODELS/13_MODELS_MOC\|13_MODELS]], [[22_RESEARCH/01_PAPERS/SOTA_BRAIN_ATLAS_AND_NEURAL_CONNECTOMICS_2026\|Brain Atlas SOTA]] |
+| **Target Planes** | [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM]], [[13_MODELS/13_MODELS_MOC|13_MODELS]], [[22_RESEARCH/01_PAPERS/SOTA_BRAIN_ATLAS_AND_NEURAL_CONNECTOMICS_2026|Brain Atlas SOTA]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | Brain-scale SNN simulation with topology exploitation — directly relevant to AMOS cognitive organism and models plane. Network topology exploitation connects to AMOS's connectomics-informed neural architecture. Brain-scale simulation capability is critical for AMOS's biological intelligence modeling. |
 | **Confidence Ceiling** | `EMPIRICAL` for simulation accuracy; `SOURCE_CLAIM` for biological fidelity. |
@@ -75,7 +75,7 @@ This bridge connects 2026 arXiv pre-prints in neuromorphic computing, spiking ne
 | **arXiv ID** | `2603.27716v1` |
 | **Title** | The role of neuromorphic principles in the future of biomedicine and healthcare |
 | **Date** | 2026-03 |
-| **Target Planes** | [[21_DOMAINS/29_MEDICAL_CLINICAL/29_MEDICAL_CLINICAL_MOC\|Medical Clinical]], [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC\|05_COGNITIVE_ORGANISM]], [[15_INTERFACES/15_INTERFACES_MOC\|15_INTERFACES]] |
+| **Target Planes** | [[21_DOMAINS/29_MEDICAL_CLINICAL/29_MEDICAL_CLINICAL_MOC|Medical Clinical]], [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM]], [[15_INTERFACES/15_INTERFACES_MOC|15_INTERFACES]] |
 | **Epistemic Class** | `SOURCE_CLAIM` |
 | **AMOS Relevance** | Neuromorphic computing for biomedical applications — bridges AMOS medical domain, cognitive organism, and interface planes. Neuromorphic principles for healthcare connect to AMOS's BCI and neural interface systems. |
 | **Confidence Ceiling** | `SOURCE_CLAIM` — review/prospect paper; clinical deployment NOT_ESTABLISHED. |
@@ -87,7 +87,7 @@ This bridge connects 2026 arXiv pre-prints in neuromorphic computing, spiking ne
 | **arXiv ID** | `2607.10066v1` |
 | **Title** | A neuromorphic vision system for open-world visual intelligence |
 | **Date** | 2026-07 |
-| **Target Planes** | [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC\|05_COGNITIVE_ORGANISM]], [[15_INTERFACES/15_INTERFACES_MOC\|15_INTERFACES]], [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_REALITY_ENVIRONMENT/L01_REALITY_ENVIRONMENT_MOC\|L01 Reality Environment]] |
+| **Target Planes** | [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM]], [[15_INTERFACES/15_INTERFACES_MOC|15_INTERFACES]], [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_REALITY_ENVIRONMENT/L01_REALITY_ENVIRONMENT_MOC|L01 Reality Environment]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | Neuromorphic vision for open-world intelligence — directly relevant to AMOS cognitive organism's perception system and interface plane. Event-based vision maps to AMOS's L01 reality environment primitive. Open-world visual intelligence is critical for AMOS's embodied AI applications. |
 | **Confidence Ceiling** | `EMPIRICAL` for vision benchmarks; `SOURCE_CLAIM` for open-world generalization. |
@@ -99,7 +99,7 @@ This bridge connects 2026 arXiv pre-prints in neuromorphic computing, spiking ne
 | **arXiv ID** | `2607.07373v1` |
 | **Title** | Dynamic neural manifolds for flexible closed-loop control on neuromorphic hardware |
 | **Date** | 2026-07 |
-| **Target Planes** | [[04_RUNTIME/04_RUNTIME_MOC\|04_RUNTIME]], [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC\|05_COGNITIVE_ORGANISM]], [[06_AGENTS/06_AGENTS_MOC\|06_AGENTS]] |
+| **Target Planes** | [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]], [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM]], [[06_AGENTS/06_AGENTS_MOC|06_AGENTS]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | Dynamic neural manifolds on neuromorphic hardware — bridges AMOS runtime, cognitive organism, and agents planes. Closed-loop control on neuromorphic hardware is the execution substrate for AMOS's embodied agents. Dynamic manifold geometry connects to AMOS's Riemannian cognitive geometry. |
 | **Confidence Ceiling** | `EMPIRICAL` for control tasks; `SOURCE_CLAIM` for complex real-world deployment. |
@@ -115,7 +115,7 @@ This bridge connects 2026 arXiv pre-prints in neuromorphic computing, spiking ne
 | **arXiv ID** | `2605.15290v1` |
 | **Title** | GQA-μP: The maximal parameterization update for grouped query attention |
 | **Date** | 2026-05 |
-| **Target Planes** | [[13_MODELS/13_MODELS_MOC\|13_MODELS]], [[04_RUNTIME/04_RUNTIME_MOC\|04_RUNTIME]], [[22_RESEARCH/22_RESEARCH_MOC\|22_RESEARCH]] |
+| **Target Planes** | [[13_MODELS/13_MODELS_MOC|13_MODELS]], [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]], [[22_RESEARCH/22_RESEARCH_MOC|22_RESEARCH]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | GQA with maximal parameterization — directly relevant to AMOS models plane and runtime. Grouped query attention is the standard for efficient LLM inference. μP (maximal update parameterization) enables optimal hyperparameter transfer across model sizes, critical for AMOS's multi-scale model deployment. |
 | **Confidence Ceiling** | `EMPIRICAL` for parameterization efficiency; `SOURCE_CLAIM` for transfer to non-GQA architectures. |
@@ -127,7 +127,7 @@ This bridge connects 2026 arXiv pre-prints in neuromorphic computing, spiking ne
 | **arXiv ID** | `2605.14877v1` |
 | **Title** | HeatKV: Head-tuned KV-cache compression for visual autoregressive modeling |
 | **Date** | 2026-05 |
-| **Target Planes** | [[04_RUNTIME/04_RUNTIME_MOC\|04_RUNTIME]], [[13_MODELS/13_MODELS_MOC\|13_MODELS]], [[10_MEMORY/10_MEMORY_MOC\|10_MEMORY]] |
+| **Target Planes** | [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]], [[13_MODELS/13_MODELS_MOC|13_MODELS]], [[10_MEMORY/10_MEMORY_MOC|10_MEMORY]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | KV-cache compression for visual autoregressive models — directly relevant to AMOS runtime (memory efficiency), models (attention optimization), and memory planes. Head-tuned compression enables longer context windows for AMOS's visual reasoning tasks. |
 | **Confidence Ceiling** | `EMPIRICAL` for visual AR benchmarks; `SOURCE_CLAIM` for text-only models. |
@@ -139,7 +139,7 @@ This bridge connects 2026 arXiv pre-prints in neuromorphic computing, spiking ne
 | **arXiv ID** | `2603.13420v2` |
 | **Title** | Accelerating suffix jailbreak attacks with prefix-shared KV-cache |
 | **Date** | 2026-03 |
-| **Target Planes** | [[18_SECURITY/18_SECURITY_MOC\|18_SECURITY]], [[04_RUNTIME/04_RUNTIME_MOC\|04_RUNTIME]], [[17_OBSERVABILITY/17_OBSERVABILITY_MOC\|17_OBSERVABILITY]] |
+| **Target Planes** | [[18_SECURITY/18_SECURITY_MOC|18_SECURITY]], [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]], [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | KV-cache sharing for adversarial attack acceleration — relevant to AMOS security plane (adversarial robustness) and runtime (KV-cache management). Understanding attack acceleration enables AMOS to design better defenses against suffix jailbreak attacks. |
 | **Confidence Ceiling** | `EMPIRICAL` for attack acceleration; `SOURCE_CLAIM` for defense generalization. |

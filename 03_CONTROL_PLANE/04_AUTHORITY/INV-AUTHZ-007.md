@@ -1,97 +1,104 @@
 ---
-title: INV-AUTHZ-007 — Atomic State Transition Barrier
-type: authority_invariant
-source: 03_CONTROL_PLANE/04_AUTHORITY
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_INVARIANT
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT
-    - 01_CANON/01_CORE_LAWS/LAW_HIERARCHY
-  scope: authority_governance
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Inv Authz 007
 tags:
-  - amos-os
-  - authority
-  - invariant
-  - control-plane
-  - inv-authz-007
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# INV-AUTHZ-007 — Atomic State Transition Barrier
+# INV-AUTHZ-007
 
-## 1. Formal Specification
+## 0. Status
 
-> **Invariant Statement:**
-> `State mutations across multiple shards must succeed as an atomic all-or-nothing transaction.`
+Control Plane-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
 
-## 2. Invariant Rule & Mathematical Formulation
+## 1. Purpose
 
-Let $T = \{ m_1, m_2, \ldots, m_k \}$ be a multi-shard transaction with mutations across shards $S = \{ s_1, s_2, \ldots, s_k \}$:
+`INV-AUTHZ-007` defines typed artifact specification, serving the Control Plane plane's obligation: governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback.
 
-$$\text{Commit}(T) \iff \bigwedge_{i=1}^{k} \text{Prepare}(m_i, s_i) = \text{True}$$
+## 2. Semantics
 
-$$\neg \text{Commit}(T) \implies \bigwedge_{i=1}^{k} \text{Rollback}(m_i, s_i)$$
+- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
+- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
+- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
 
-The atomicity property requires:
+## 3. Failure modes guarded
 
-$$\text{Outcome}(T) \in \{ \text{ALL\_COMMITTED}, \text{ALL\_ROLLED\_BACK} \}$$
+STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
 
-No intermediate state is observable:
+## 4. Validation
 
-$$\forall s_i, s_j \in S, \quad \text{Visible}(s_i, t) = \text{Committed} \implies \text{Visible}(s_j, t) = \text{Committed}$$
+No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
 
-The two-phase commit protocol enforces this with a prepare-then-commit barrier:
+## 5. Gaps
 
-$$\text{Phase 1: } \forall i, \text{Prepare}(m_i) \quad \text{Phase 2: } \forall i, \text{Commit}(m_i) \text{ if all prepared}$$
+Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
 
-## 3. Enforcement & Verification
+## 6. Falsifiers
 
-- **Evaluation Point:** Evaluated at the two-phase commit coordinator when a multi-shard transaction is submitted. The prepare phase checks all shards; the commit phase executes only if all shards prepared successfully.
-- **Violation Consequence:** If any shard fails to prepare, the entire transaction is aborted. All prepared mutations are rolled back. An `ATOMICITY_VIOLATION` receipt is emitted to `17_OBSERVABILITY`.
-- **Recovery Procedure:** The system rolls back all prepared mutations using the pre-allocated rollback basin per [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-010|INV-AUTHZ-010]]. The transaction may be retried after the failing shard is stabilized.
-- **Verification Cadence:** Synchronous during the two-phase commit protocol. A periodic audit verifies that no partially committed transactions exist in the state journal.
-- **Governed By:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
 
-## 4. Attack Vectors & Mitigations
+## Worked semantics
 
-- **Partial Commit Exploitation:** An attacker causes one shard to commit while another rolls back, creating an inconsistent state that can be exploited. Mitigated by the two-phase commit barrier that ensures all shards commit or none do.
-- **Coordinator Compromise:** The commit coordinator is compromised to issue false commit decisions. Mitigated by requiring the coordinator to hold a valid capability token for the transaction, verified per [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-002|INV-AUTHZ-002]].
-- **Shard Timeout Race:** A slow shard times out during prepare, causing a false abort. Mitigated by configurable prepare timeouts with retry logic and by [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-017|INV-AUTHZ-017]] which halts operations on clock divergence.
-- **Rollback Basin Exhaustion:** The rollback basin is not pre-allocated, preventing proper rollback. Mitigated by [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-010|INV-AUTHZ-010]] which requires pre-allocated rollback receipts.
+Given an operation touching `INV-AUTHZ-007` within the Control Plane plane:
 
-## 5. Dependencies & Prerequisites
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-010|INV-AUTHZ-010]] — Rollback basin must be pre-allocated before any multi-shard mutation.
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-017|INV-AUTHZ-017]] — Fail-closed on desync prevents partial commits during clock divergence.
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-029|INV-AUTHZ-029]] — Snapshot isolation ensures consistent reads during the transaction.
-- **Requires:** A two-phase commit coordinator with crash recovery capability.
-- **Requires:** A distributed locking or CAS mechanism per [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-028|INV-AUTHZ-028]].
+## Promotion-gate checklist
 
-## 6. Provenance & Audit Trail
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-- **Receipt Type:** `ATOMIC_TRANSACTION_RECEIPT` — emitted for every multi-shard transaction, recording the prepare and commit decisions for each shard.
-- **Storage Location:** `17_OBSERVABILITY` with transaction-ID-indexed partitions.
-- **Receipt Fields:** Transaction ID, shard set, prepare results vector, commit decision, rollback decision (if applicable), epoch, coordinator identity, BLAKE3 hash.
-- **Immutability:** Transaction receipts are append-only per [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-014|INV-AUTHZ-014]].
+## Cross-plane bindings
 
-## 7. Related Invariants
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-010|INV-AUTHZ-010]] — Rollback Basin Pre-condition
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-017|INV-AUTHZ-017]] — Fail-Closed on Desync
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-028|INV-AUTHZ-028]] — Single Writer per Shard
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-029|INV-AUTHZ-029]] — Snapshot Isolation Consistency
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-049|INV-AUTHZ-049]] — Global Finality Horizon Check
+______________________________________________________________________
 
-## 8. Navigation & Bindings
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
-- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
-- **Control Plane Contract:** [[03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT|CONTROL_PLANE_CONTRACT]]
-- **Canon Law Hierarchy:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- **Kernel:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
-- **Observability:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]
+______________________________________________________________________
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: cp_03_control_plane_04_authority_inv_authz_007_md
+node_type: note
+path: 03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-007.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04_AUTHORITY_MOC]]
+
+______________________________________________________________________
+
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

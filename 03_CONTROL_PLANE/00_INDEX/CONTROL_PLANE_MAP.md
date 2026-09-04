@@ -1,21 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: CONTROL PLANE MAP
-type: map
-source: 03_CONTROL_PLANE/00_INDEX
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Control Plane Map
 tags:
-  - control-plane
-  - index
-  - map
-  - canon/control-plane
-  - amos-layer-maps
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: index_navigation
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 Yes. Paste the following over the incorrect placeholder.
@@ -1867,7 +1862,7 @@ This version is suitable as the **replacement content** for `03_CONTROL_PLANE/00
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 
@@ -1897,4 +1892,4 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
+**MOC:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]

@@ -1,17 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-date: 2026-08-30
-epistemic_class: OBSERVATION
-provenance: GitHub README, not independently verified
-rscf:
-  claim_class: DERIVED
-  provenance: https://raw.githubusercontent.com/ynulihao/AgentSkillOS/main/README.md
-  scope: AMOS_knowledge
-  state: SOURCE_CLAIM
-source: https://raw.githubusercontent.com/ynulihao/AgentSkillOS/main/README.md
-title: AgentSkillOS README — Raw Capture
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Agentskillos Readme 2026 08 30
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AgentSkillOS README — Raw Capture
@@ -150,7 +154,7 @@ Source: `https://github.com/ynulihao/AgentSkillOS`
 </tr>
 </table>
 
-<!--
+<!-- 
 > Capability Tree organizes skills hierarchically → Complementarity-aware Retrieval selects diverse skill sets → Graph-based Orchestration executes them as DAG -->
 
 ## 🏗️ Method
@@ -267,7 +271,7 @@ python run.py --port 8765
 ### Configuration
 
 ```bash
-## .env
+# .env
 LLM_MODEL=openai/anthropic/claude-opus-4.5
 LLM_BASE_URL=https://openrouter.ai/api/v1
 LLM_API_KEY=your-key

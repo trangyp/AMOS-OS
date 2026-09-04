@@ -1,76 +1,21 @@
 ---
-title: QCLA Master
-type: trang-framework
-source: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact: QCLA_MASTER.md
-artifact_id: amos_11_knowledge_05_frameworks_qcla_master
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 11_KNOWLEDGE
-segment: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact_kind: FRAMEWORK
-path: 11_KNOWLEDGE/05_FRAMEWORKS/QCLA_MASTER.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Qcla Master
 tags:
-  - amos-os
-  - knowledge
-  - vault
-  - 05_frameworks
-  - qcla
-  - quantum_causality_layer_architecture
-  - causality
-  - causal_pathways
-  - direct_causality
-  - distributed_causality
-  - delayed_causality
-  - cascading_causality
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-  - qls-framework
-  - amos-x-qcla
-  - amos-x-qls-qcla-matrix
-  - tpe-trang-prediction-engine
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - QUANTUM_CAUSALITY_LAYER_ARCHITECTURE_QCLA_OFF
-    - AMOS_CORPUS
-  scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - CAUSAL_ARCHITECTURE
-    - SOURCE_DEFINED_QCLA_MODEL
-framework_binding:
-  primary:
-    name: Quantum Causality Layer Architecture™
-    acronym: QCLA
-    role: STRUCTURAL_CAUSAL_VALIDATION
-  paired_framework:
-    name: Quantum Logic Scaffold™
-    acronym: QLS
-    artifact:
-      -   - QLS_FRAMEWORK
-  cognitive_matrix_binding:
-    artifact:
-      -   - AMOS_X_QCLA
-    matrix:
-      -   - AMOS_X_QLS_QCLA_MATRIX
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  framework_structure: VERIFIED_SOURCE_STRUCTURE
-  causal_models: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # QCLA — Quantum Causality Layer Architecture™

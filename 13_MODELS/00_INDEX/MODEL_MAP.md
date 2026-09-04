@@ -1,148 +1,16 @@
 ---
-title: MODEL MAP
-aliases:
-  - Models Map
-  - AMOS Model Map
-  - 13 Models Map
-  - Models Plane Map
-  - Models Index Map
-type: map
-artifact_type: navigation_map
-artifact_kind: MODEL_MAP
-document_role: models_plane_segment_navigation_map
-source: 13_MODELS/00_INDEX
-path: 13_MODELS/00_INDEX/MODEL_MAP.md
-artifact_id: amos_13_models_00_index_model_map_md
-node_id: amos_13_models_00_index_model_map_md
-system: AMOS OS
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: 13_MODELS
-segment: 13_MODELS/00_INDEX
-status: ACTIVE_REFERENCE
-canonical_status: CONDITIONAL
-epistemic_class: AMOS_MODEL
-implementation_status: PARTIAL
-validation_status: PARTIAL
-executable_graph_validation: PARTIAL
-artifact_specific_validation_receipt: UNKNOWN/GAP
-executable_binding: NOT_ESTABLISHED
-scope:
-  - index_navigation
-  - models_plane
-  - model_discovery
-  - model_resolution
-  - model_contract_navigation
-  - local_graph_navigation
-  - 13_MODELS
-  - 13_MODELS/00_INDEX
-coverage:
-  local_directory: 13_MODELS/00_INDEX
-  covers_own_directory_only: true
-  recursive_global_coverage: false
-  whole_models_plane_complete: false
-  cross_segment_edges_local: false
-  cross_segment_routes:
-    - '[[00_ROOT/00_ROOT_MAP|00_ROOT_MAP]]'
-    - '[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]'
-reading_order:
-  - '[[13_MODELS/00_INDEX/INDEX_MODELS_README|INDEX_MODELS_README]]'
-  - '[[13_MODELS/00_INDEX/INDEX_MODELS_MODEL_CONTRACT|INDEX_MODELS_MODEL_CONTRACT]]'
-  - contract-bound model artifacts
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Model Map
 tags:
-  - amos-os
-  - amos-os
-  - 00_index
-  - models
-  - model
-  - map
-  - navigation
-  - index
-  - model-navigation
-  - model-discovery
-  - model-resolution
-  - artifact-navigation
-  - graph
-  - knowledge-graph
-  - model-graph
-  - local-graph
-  - cross-segment
-  - local-scope
-  - directory-scope
-  - rscf
-  - rscf-node
-  - fractal-knowledge-network
-  - hml
-  - h-level
-  - m-level
-  - l-level
-  - provenance
-  - provenance-topology
-  - provenance-independence
-  - dependency
-  - dependency-closure
-  - scope
-  - regime
-  - freshness
-  - model-versioning
-  - model-identity
-  - model-lineage
-  - supersession
-  - competing-models
-  - competing-hypotheses
-  - epistemic-regime
-  - epistemic-firewall
-  - source-claim
-  - observation
-  - derived
-  - model
-  - unknown-gap
-  - fail-closed
-  - authority
-  - authorization
-  - capability
-  - proposal
-  - commit
-  - rollback
-  - selective-invalidation
-  - repair
-  - recovery
-  - receipt
-  - graph-validation
-  - link-integrity
-  - routing
-  - control-plane
-  - observability
-  - kernel
-  - canon/model
-  - readme
-  - references
-  - validation
-  - canon
-  - law-hierarchy
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  node_claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: index_navigation
-  plane: 13_MODELS
-  segment: 13_MODELS/00_INDEX
-  canonical_status: CONDITIONAL
-  implementation_status: PARTIAL
-  confidence_ceiling: SOURCE_BOUND
-  provenance_independence: NOT_ESTABLISHED
-gaps:
-  executable_graph_validation: PARTIAL
-  artifact_specific_validation_receipt: UNKNOWN/GAP
-  complete_models_plane_inventory: NOT_ESTABLISHED
-  complete_cross_segment_graph: EXTERNAL
-  executable_map_schema: NOT_ESTABLISHED
-  exact_alias_collision_policy: NOT_ESTABLISHED
-  complete_version_resolution_policy: NOT_ESTABLISHED
-  persistent_graph_transaction_binding: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 > [!NOTE] Source preface
@@ -4860,3 +4728,9 @@ RSCF-RELATIONS:
 ---
 
 **MOC:** [[13_MODELS/13_MODELS_MOC|13_MODELS_MOC]]
+
+```
+
+```
+```
+```

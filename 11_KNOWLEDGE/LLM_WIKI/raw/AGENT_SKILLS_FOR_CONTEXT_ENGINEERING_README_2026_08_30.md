@@ -1,17 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-date: 2026-08-30
-epistemic_class: OBSERVATION
-provenance: GitHub README, not independently verified
-rscf:
-  claim_class: DERIVED
-  provenance: GitHub README (muratcankoylan/Agent-Skills-for-Context-Engineering)
-  scope: AMOS_knowledge
-  state: SOURCE_CLAIM
-source: https://raw.githubusercontent.com/muratcankoylan/Agent-Skills-for-Context-Engineering/main/README.md
-title: Agent Skills for Context Engineering README — Raw Capture
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Agent Skills For Context Engineering Readme 2026 08 30
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Agent Skills for Context Engineering README — Raw Capture
@@ -184,19 +188,19 @@ This repository ships as an [Open Plugins](https://open-plugins.com) plugin. Hos
 Agent Skills require a **directory layout**, not a flat markdown file. Copy the skill folder into your project's skills directory:
 
 ```bash
-## Example: add just the context-fundamentals skill to a Cursor project
+# Example: add just the context-fundamentals skill to a Cursor project
 mkdir -p .cursor/skills
 cp -R skills/context-fundamentals .cursor/skills/
 
-## Claude Code project-scoped install (same directory layout)
+# Claude Code project-scoped install (same directory layout)
 mkdir -p .claude/skills
 cp -R skills/context-fundamentals .claude/skills/
 
-## Codex project-scoped install
+# Codex project-scoped install
 mkdir -p .codex/skills
 cp -R skills/context-fundamentals .codex/skills/
 
-## Generic Agent Skills repo-scoped install (Codex/OpenAI, Copilot CLI, Open Plugins hosts)
+# Generic Agent Skills repo-scoped install (Codex/OpenAI, Copilot CLI, Open Plugins hosts)
 mkdir -p .agents/skills
 cp -R skills/context-fundamentals .agents/skills/
 ```
@@ -316,7 +320,7 @@ python3 -m pip install -r requirements-dev.txt
 ```
 
 ```bash
-## Deterministic gates (also run in CI on every PR)
+# Deterministic gates (also run in CI on every PR)
 python3 -m unittest researcher.scripts.tests.test_skill_frontmatter
 python3 researcher/scripts/validate_platform_compat.py --require-reference-validator
 python3 researcher/scripts/validate_repo.py --strict
@@ -324,16 +328,16 @@ python3 researcher/scripts/skill_health.py --strict --no-history
 python3 researcher/scripts/run_benchmarks.py
 python3 researcher/scripts/check_activation_cases.py
 
-## Per-run readiness (active runs only)
+# Per-run readiness (active runs only)
 python3 researcher/scripts/validate_run.py --run-dir researcher/runs/<run-id>
 
-## Continuous loop, manual
+# Continuous loop, manual
 python3 researcher/scripts/loop_discover.py
 python3 researcher/scripts/loop_step.py --allow-fetch
 python3 researcher/scripts/loop_daily.py
 python3 researcher/scripts/loop_status.py
 
-## Continuous loop, daemon (macOS)
+# Continuous loop, daemon (macOS)
 researcher/orchestration/launchd/install.sh    # install launchd jobs (10-min step, 12h discover, daily ops)
 researcher/orchestration/launchd/uninstall.sh  # remove launchd jobs
 ```

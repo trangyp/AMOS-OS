@@ -1,17 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: 20 Operations MOC
-type: moc
-source: 20_OPERATIONS
-tags: [20-operations, canon/operations, amos-home]
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 20 Operations Moc
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 20 Operations — Map of Content
@@ -24,13 +28,23 @@ rscf:
 - [[20_OPERATIONS/OPERATIONS_OPERATIONS_CONTRACT|OPERATIONS_OPERATIONS_CONTRACT]]
 - [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-## 1. System Operations Specifications & Self-Repair Engines
-
-- [[20_OPERATIONS/AUTONOMOUS_METAMORPHIC_SELF_REPAIR_ENGINE|AUTONOMOUS_METAMORPHIC_SELF_REPAIR_ENGINE]] — Continuous metamorphic audit, archive-first snapshotting, sandboxed AST patch synthesis, and zero-downtime atomic commits.
-- [[20_OPERATIONS/SELF_REPAIR_EXECUTION_LEDGER|SELF_REPAIR_EXECUTION_LEDGER]] — Automated self-repair trace, invariant verification conditions, and cryptographic commit receipts.
-
 ## Current closure chain
 
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-04_PHASE52_COGNITIVE_ORGANISM_PLACEHOLDER_EXPANSION|PHASE52 — Cognitive Organism placeholder expansion + MOC/BCI/SOTA links]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-04_PHASE51_SKILL_SEMANTICS_RUNTIME_GRAPH_CONTEXT_PROVENANCE_CLOSURE|PHASE51 — Skill semantics + runtime graph + context/provenance closure]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-04_PHASE50_SOURCE_READING_FORMAL_SKILL_VERIFICATION_AND_WORKFLOW_GRAPH_ASSURANCE_EXPANSION|PHASE50 — source reading + formal Skill verification + workflow graph assurance]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-04_PHASE49_HIGH_CENTRALITY_SKILL_MATERIALIZATION_AND_ORCHESTRATION_EVIDENCE|PHASE49 — high-centrality Skill materialization + workflow semantics]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-04_PHASE48_SKILL_WORKFLOW_LIBRARY_HEALTH_TEMPLATE_DEBT_CLOSURE|PHASE48 — Skill/Workflow library health + template debt]]
+
+
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-04_PHASE45_KERNEL_SEMANTIC_GAP_AND_BCI_RELIABILITY_EXPANSION|PHASE45 — Kernel semantic gap + BCI reliability expansion]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-04_PHASE46_SKILLS_WORKFLOWS_MECE_ARXIV_BUILDER_REPAIR|PHASE46A — Skills/Workflows ecosystem MECE + arXiv + builder-contract repair]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-04_PHASE46_SKILL_WORKFLOW_PAYLOAD_AND_ORCHESTRATION_REPAIR|PHASE46B — Skill/Workflow payload + materialization + orchestration repair]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-04_PHASE47_CONCURRENT_PHASE46_SKILL_WORKFLOW_RECONCILIATION|PHASE47 — concurrent Phase46 reconciliation]]
+
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03_PHASE42_SCHEMA_AND_COGNITIVE_MATRIX_CONTRACT_DEPTH_CLOSURE|PHASE42 — Schema + Cognitive Matrix contract depth closure]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-04_PHASE43_BCI_ADVERSARIAL_FRONTIER_EVALUATION_MATURITY_AND_SEMANTIC_PRIVACY_CLOSURE|PHASE43 — BCI adversarial-frontier closure]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03_PHASE44_KERNEL_AGENT_MARKDOWN_CONCURRENCY_CLOSURE|PHASE44 — Kernel leaf + Agent + Markdown + concurrency closure]]
 - [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03_PHASE21_EXHAUSTIVE_REFERENCE_IDENTITY_AND_BRAIN_GRAPH_CLOSURE|PHASE21]]
 - [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03_PHASE22_FRESHNESS_CONTRADICTION_AND_DELTA_CLOSURE|PHASE22]]
 - [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03_PHASE23A_ANCHOR_PRESERVING_UNRESOLVED_REGISTRY_RECONCILIATION|PHASE23A]]
@@ -49,24 +63,41 @@ rscf:
 - [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03_PHASE31_COGNITIVE_MATRIX_SPECIFICATION_CLASSIFICATION_CLOSURE|PHASE31]]
 - [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03_PHASE32_FULL_BRAIN_MECE_AND_THIN_NODE_EXPANSION_CLOSURE|PHASE32]]
 - [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03_PHASE33_FULL_BRAIN_MECE_OWNERSHIP_SECURITY_OBSERVABILITY_EXPANSION|PHASE33]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03_PHASE34_DOMAIN_ARCHITECTURE_EXPANSION_AND_MECE_CLOSURE|PHASE34A]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03_PHASE34_CONTROL_AGENT_SKILL_OPERATIONS_DEPTH_SYNTAX_CLOSURE|PHASE34B]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03_PHASE35_FULL_PLANE_DEPTH_MEMORY_TOOL_MODEL_OPERATING_MODEL_REPAIR|PHASE35A]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03_PHASE35_STATE_INTERFACE_RUNTIME_TOOL_TEST_MECE_DEPTH_CLOSURE|PHASE35B]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03_PHASE36_FOUNDATION_MODEL_DEPTH_MARKDOWN_RECOVERY_AND_SOURCE_BOUND_EXPANSION|PHASE36]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03_PHASE37_EXHAUSTIVE_INVENTORY_DELTA_AND_INTERFACE_FAMILY_CLOSURE|PHASE37]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03_PHASE38_OPERATIONS_CONTRACT_SYNTAX_AND_MECE_SUBSYSTEM_DEPTH_CLOSURE|PHASE38]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03_PHASE39_CANON_KERNEL_KNOWLEDGE_ASSURANCE_CONTRACT_CLOSURE|PHASE39]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03_PHASE40_OPERATING_MODEL_LIFECYCLE_AND_INTERFACE_CLOSURE|PHASE40]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03_PHASE41_WORKFLOW_ARCHIVE_COGNITIVE_MATRIX_MECE_SYNTAX_CLOSURE|PHASE41A]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03_PHASE41_BCI_NEUROTECHNOLOGY_SOTA_RESEARCH_AND_C04_MECE_EXPANSION|PHASE41B]]
+
+> **Audit-label normalization:** concurrent work produced duplicate numeric labels at Phase34, Phase35,
+> and Phase41. `A/B` aliases above are navigation identities only; original filenames/Drive IDs are
+> preserved. Numeric phase labels are not stable artifact identity. Phase43 was selected after a fresh
+> availability check after Phase42 and Phase43 were observed to have been claimed concurrently.
+>
+> Phase46A/B preserve two concurrent Skill/Workflow receipts; Phase47 reconciles them without deleting either branch.
 
 ## Current health snapshot
 
 - Authoritative physical vault: `_AMOS_OS`.
 - Canonical reasoning-lineage target: AMOS Core v4.4.
-- Registry-listed active broken-link targets at the last verified graph epoch: `0`.
-- Active semantic gaps safely routed to governed anchors: `14`.
-- Bounded runtime reference validation: `PASS 14/14` for the exact reference bytes recorded by Phase26A.
+- Last recorded link-graph closure reported zero registry-listed active broken-link targets; later mutations require freshness revalidation before treating that count as current.
+- Active semantic gaps remain governed rather than fabricated.
+- Bounded runtime reference validation is evidence only for the exact reference bytes/environment bound by its receipt.
 - Production/deployed runtime closure: `NOT_ESTABLISHED`.
-- Empirical validation of AMOS scientific/biological/quantum/consciousness model claims: scope-specific and not established merely by vault presence.
+- Empirical validation of AMOS scientific/biological/quantum/consciousness model claims is scope-specific and not established merely by vault presence.
 
-`BROKEN_LINKS == 0 != IMPLEMENTATION_COMPLETE`
+`BROKEN_LINKS == 0 AT A RECORDED EPOCH != IMPLEMENTATION_COMPLETE`
 `MODEL != EMPIRICAL_TRUTH`
+`PAST AUDIT PASS != PERMANENT FUTURE STATE`
 
 ## Supporting evidence
 
-- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03|AMOS_OS_AUDIT_2026-09-03]]
-- [[20_OPERATIONS/AMOS_OS_CONTENT_EXPANSION_PLAN_2026-09-04|AMOS_OS_CONTENT_EXPANSION_PLAN_2026-09-04]]
 - [[20_OPERATIONS/AMOS_OS_KERNEL_SEMANTIC_HARDENING_REVISION_LEDGER_2026-09-03|KERNEL_SEMANTIC_HARDENING_REVISION_LEDGER]]
 - [[20_OPERATIONS/AMOS_OS_LINK_GRAPH_RECEIPT_2026-09-03|LINK_GRAPH_RECEIPT]]
 - [[20_OPERATIONS/AMOS_OS_INVENTORY_2026-09-03_PHASE3|PHASE3_INVENTORY]]
@@ -91,4 +122,52 @@ Earlier receipts remain reachable through
 
 `MOC_PRESENT != SUBSYSTEM_IMPLEMENTED`
 
-**Parent:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
+**Parent:** [[AMOS_HOME|AMOS_HOME]]
+
+- [[AMOS_OS_AUDIT_2026-09-04_PHASE48_SKILL_WORKFLOW_LIBRARY_HEALTH_TEMPLATE_DEBT_CLOSURE|PHASE48 — Skill/Workflow library health + template debt]]
+
+
+## Phase52 — Full-Brain MECE / Memory / Framework repair
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-04_PHASE52_FULL_BRAIN_MECE_MEMORY_FRAMEWORK_MARKDOWN_REPAIR|Phase52 Full-Brain MECE, Memory, Framework & Markdown Repair]]
+- [[19_TESTS/PHASE52_ARCHITECTURE_MEMORY_FRAMEWORK_STATIC_VALIDATION|Phase52 bounded static validation]]
+
+
+## Phase53 — Placeholder census and family routing
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-04_PHASE53_PLACEHOLDER_CENSUS_FAMILY_ROUTING_MECE_WORKFLOW_SEMANTIC_REPAIR|Phase53 placeholder census, family routing and workflow repair]]
+
+## Phase54 concurrent context/externalization branch
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-04_PHASE54_CONTEXT_EXTERNALIZATION_RECOVERABILITY_AND_RUNTIME_REUSE_CLOSURE|Phase54 Context externalization, recoverability and runtime reuse]]
+
+This independently created Phase53 receipt is preserved by full filename/Drive identity. Numeric phase label alone is not stable identity.
+
+## Phase54 — Program Analysis MECE / Execution-Grounded Evidence
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-04_PHASE54_PROGRAM_ANALYSIS_MECE_EXECUTION_GROUNDED_EVIDENCE_CLOSURE|Phase54 Program Analysis MECE + execution-grounded evidence]]
+- [[19_TESTS/PHASE54_PROGRAM_ANALYSIS_SKILL_WORKFLOW_STATIC_VALIDATION|Phase54 bounded 10/10 static validation]]
+
+The two Phase54 receipts are concurrent branches. Full artifact identity, not the numeric label, is the
+stable audit key.
+
+## Phase55 — Banking, Healthcare, Wealth and Mixture-of-Depths materialization
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-04_PHASE55_BANKING_HEALTHCARE_WEALTH_AND_MIXTURE_OF_DEPTHS_MATERIALIZATION|Phase55 specialist Skill/workflow materialization]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-04_PHASE56_QUANTUM_SKILL_AND_FRONTIER_RESEARCH_EXPANSION|Phase56 Quantum Skill and frontier research expansion]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-04_PHASE57_FRONTIER_RESEARCH_INTAKE_AND_SPECIALIST_SKILL_MATERIALIZATION|Phase57 Frontier research intake and specialist Skill materialization]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-04_PHASE58_AGENTIC_ASSURANCE_RUNTIME_VERIFICATION_PROVENANCE_EXPANSION|Phase58 Agentic assurance, runtime verification and provenance expansion]]
+
+## Current concurrent frontier/materialization branches — 2026-09-04
+
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-04_PHASE59_TRANSFORMER_EFFICIENCY_MECE_AND_FRONTIER_SOTA_EXPANSION|Phase59 Transformer efficiency MECE and frontier SOTA expansion]]
+  — concurrent Phase59 branch; repairs GQA, RoPE scaling and sparse-attention Skills/workflows and adds the transformer-efficiency family stack.
+
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-04_PHASE60_SPECIALIST_MATERIALIZATION_AND_FRONTIER_RESEARCH_EXPANSION|Phase60 Specialist materialization and frontier research expansion]]
+  — newer durable branch covering recruiting, CDD, transaction banking (with one workflow commit gap), architecture transfer, activation checkpointing, partnerships, digital strategy and additional frontier research.
+
+Numeric phase alone is not stable identity for concurrent work. Use full artifact identity and preserve every durable branch.
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-04_PHASE61_FRONTIER_EVIDENCE_NORMALIZATION_AND_DOMAIN_IMPACT_REPAIR|Phase61 Frontier evidence normalization and domain impact repair]]
+
+
+## Phase62 frontier evidence maturity / SOTA architecture closure
+
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-04_PHASE62_FRONTIER_EVIDENCE_MATURITY_AND_SOTA_ARCHITECTURE_CLOSURE|PHASE62 — frontier evidence maturity + BCI/AI/Tech/Quantum SOTA architecture]]
+- [[19_TESTS/PHASE62_FRONTIER_ARCHITECTURE_STATIC_VALIDATION|PHASE62 static validation — 7/7 declared documentary checks]]
+
+This branch follows the live Phase61 frontier-evidence/domain-impact checkpoint and preserves all concurrent Phase60/61 receipts by full artifact identity.

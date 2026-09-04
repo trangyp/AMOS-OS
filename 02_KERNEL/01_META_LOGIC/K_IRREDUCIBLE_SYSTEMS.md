@@ -1,36 +1,21 @@
 ---
-title: "IRREDUCIBLE SYSTEMS & MINIMAL LOGICAL INTEGRITY KERNEL"
-type: kernel
-source: 02_KERNEL/01_META_LOGIC
-artifact_id: AMOS-KERNEL-IRREDUCIBLE-SYSTEMS-MASTER
-canonical_name: K_IRREDUCIBLE_SYSTEMS
-status: CANONICAL
-conclusion_class: CANONICAL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-version: 2.0.0
-created: '2026-08-25'
-updated: '2026-08-28'
-plane: 02_KERNEL
-domain: meta-logic
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: K Irreducible Systems
 tags:
-  - amos-os
-  - kernel
-  - irreducible-systems
-  - minimal-logical-integrity
-  - kolmogorov-minimal
+  - canon-group/tech-ai
   - rscf/claim
-  - rscf/state/canonical
-aliases:
-  - Irreducible Systems Kernel
-  - K_IRREDUCIBLE_SYSTEMS
-  - Minimal Logical Integrity Core
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # IRREDUCIBLE SYSTEMS & MINIMAL LOGICAL INTEGRITY KERNEL

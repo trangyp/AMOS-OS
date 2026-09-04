@@ -62,6 +62,8 @@ Key design constraints include the dimensionality of the cross-modal embedding (
 - `DOCUMENTED != IMPLEMENTED` — The mathematical architecture and telemetry are documented as a specification ledger; end-to-end real-time deployment with closed-loop correction is not established by this ledger alone.
 - The 36.5% neural conditioning fidelity reflects the non-invasive information bottleneck; the diffusion prior fills gaps with language statistics, which can introduce hallucinated or paraphrased output not present in the subject's actual intent.
 - Classifier-free guidance amplifies neural control but does not guarantee semantic faithfulness; the guidance scale $\gamma$ is a tunable trade-off, not a correctness proof.
+- The 8-dimensional cross-modal embedding space is a severe information bottleneck; higher-dimensional conditioning may improve fidelity but increases training data requirements and overfitting risk.
+- Open-vocabulary WER below 14.8% is a aggregate metric; per-subject and per-utterance variance is not characterized in this ledger.
 
 ---
 

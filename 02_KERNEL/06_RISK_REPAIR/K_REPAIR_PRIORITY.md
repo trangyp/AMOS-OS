@@ -1,59 +1,16 @@
 ---
-title: K REPAIR PRIORITY
-type: repair
-source: 02_KERNEL/06_RISK_REPAIR
-artifact_id: AMOS-OS-K-REPAIR-PRIORITY
-canonical_name: K_REPAIR_PRIORITY
-artifact_type: kernel_repair_priority_contract
-status: AMOS_MODEL
-conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: KERNEL
-kernel_family: RECOVERY
-scope: AMOS_OS
-updated: 2026-08-26
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: K Repair Priority
 tags:
-  - amos-os
-  - kernel
-  - core
-  - kernel/repair
-  - kernel/priority
-  - kernel/recovery
-  - kernel/invariants
-  - kernel/causal
-  - kernel/provenance
-  - kernel/homeostasis
-  - kernel/repair-harm
-  - rscf
-  - topic/triage
-  - topic/repair-order
-  - topic/failure-containment
-  - topic/reversibility
-  - canon/kernel
-  - readme
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - k-core19-logic
-  - k-meta-logic
-  - k-structural-reasoning
-  - k-causal-closure
-  - k-causal-epoch
-  - k-system-state
-  - k-homeostasis
-  - k-repair-harm
-  - k-collapse-recovery
-  - k-memory-admission
-  - k-memory-conflict
-  - k-memory-immune
-  - k-memory-retrieval
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # K REPAIR PRIORITY
@@ -2322,7 +2279,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

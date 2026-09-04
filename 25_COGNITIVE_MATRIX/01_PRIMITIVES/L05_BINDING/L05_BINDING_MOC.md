@@ -1,40 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: L05 Binding MOC
-type: moc
-source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L05_BINDING
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: L05 Binding Moc
 tags:
-  - matrix/l05-binding
-  - domain/cognitive-matrix
-  - primitives-cognitive-matrix-agents
-  - primitives-cognitive-matrix-definition
-  - primitives-cognitive-matrix-dependencies
-  - primitives-cognitive-matrix-equations
-  - primitives-cognitive-matrix-control-planes
-  - primitives-cognitive-matrix-failure-modes
-  - primitives-cognitive-matrix-gap-matrix
-  - primitives-cognitive-matrix-hml
-  - primitives-cognitive-matrix-invariants
-  - primitives-cognitive-matrix-memory
-  - primitives-cognitive-matrix-operators
-  - primitives-cognitive-matrix-protocols
-  - primitives-cognitive-matrix-provenance
-  - primitives-cognitive-matrix-purpose
-  - primitives-cognitive-matrix-repair
-  - primitives-cognitive-matrix-rscf
-  - primitives-cognitive-matrix-skills
-  - primitives-cognitive-matrix-state
-  - primitives-cognitive-matrix-tests
-  - primitives-cognitive-matrix-variables
-  - primitives-cognitive-matrix-workflows
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # L05 Binding — Map of Content

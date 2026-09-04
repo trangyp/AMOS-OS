@@ -1,29 +1,16 @@
 ---
-type: logic
-source: 02_KERNEL/01_META_LOGIC
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: K Meta Logic
 tags:
-  - amos
-  - kernel
-  - core
-  - cognitive-matrix
-  - matrix/l02
-  - attention
-  - purpose
-  - rscf
-  - hml
-  - ai
-  - governance
-  - canon/kernel
-title: L02_ATTENTION — Purpose
-origin_architect: Trang Phan
-status: MODEL_SPECIFICATION / SOURCE-BOUNDED / UNVALIDATED
-epistemic_class: MODEL
-runtime_alignment: AMOS Full Brain OS / AMOS_CORE v4.4 lineage
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # L02_ATTENTION — Purpose
@@ -2035,7 +2022,7 @@ AUTHORIZATION TO COMMIT
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

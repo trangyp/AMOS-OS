@@ -1,36 +1,21 @@
 ---
-title: AMOS Universe Domain Kernels — Complete Catalog (24 Kernels)
-created: '2026-08-22'
-origin: Google Drive — _00_AMOS_CANON/_AMOS_UNIVERSE/Domains/
-origin_architect: Trang Phan
-type: reference
-source: 11_KNOWLEDGE/kernel
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Universe Domain Kernels
 tags:
-  - amos
-  - universe
-  - domain-kernels
-  - biz-market
-  - org-risk-policy
-  - science-health
-  - tech-systems
-  - 24-kernels
-  - x100k
-  - kernel
-  - canon/knowledge
-  - system-scan-agent
-  - automation-profiles
-  - amos-simulation-kernel-v0-math-foundations
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
-  - rscf/state/observation
-status: active
-provenance: VERIFIED
-confidence: VERIFIED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Universe Domain Kernels — 24 Kernels Across 4 Domain Categories

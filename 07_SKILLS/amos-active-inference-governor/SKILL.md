@@ -9,7 +9,10 @@ parent_skill: amos-c05-mind-behavior-master
 domain: mind_behavior
 origin_architect: Trang Phan
 epistemic_class: AMOS_MODEL
+  conclusion_class: AMOS_MODEL
 tags:
+  rscf-state: DERIVED
+  conclusion_class: AMOS_MODEL
   - type/skill
   - type/skill
   - domain/mind-behavior
@@ -45,7 +48,6 @@ law_compliance:
   - L17
 license: MIT
 steward: Trang Phan
----
 
 # AMOS Active Inference Governor
 
@@ -92,9 +94,7 @@ BELIEF_UPDA
 
 ---
 **Links:**
-
 ## Operations
-
 1. **aig.run_governed_loop**: Execute the 10-step governed perception-belief-action loop (OBSERVE -> INFER -> COMPARE -> GENERATE -> GOVERN -> SELECT -> ACT_OR_OBSERVE -> MEASURE -> UPDATE -> STOP_OR_CONTINUE) with every transition bounded...
 2. **aig.evaluate_governance_pass**: Evaluate whether a candidate action passes the governance gate: ConstraintPass AND AuthorityPass AND SafetyPass AND PolicyPass AND ScopePass AND EvidencePass AND ReversibilityPass. Reject actions that fa...
 3. **aig.preserve_competing_hypotheses**: Preserve at least one competing explanation when evidence is weak, stakes are high, interpretations imply different actions, or provenance is correlated. Maintain COMPETING status until discriminati...
@@ -104,109 +104,76 @@ BELIEF_UPDA
 7. **aig.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 8. **aig.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 9. **aig.validate_outputs**: Validate outputs against domain constraints and epistemic class.
-
 ## Related
-
 -
 ```
-
 ## Examples
-
 - **Scenario**: When an AMOS agent must decide whether to update beliefs, gather information, act, continue observing, or stop
-
   - **Input**: A query matching this skill's domain (mind_behavior)
   - **Output**: Structured result with epistemic labels and provenance
-
 - **Scenario**: When prediction-error minimization could conflict with truth, safety, authority, or user intent
-
   - **Input**: A query matching this skill's domain (mind_behavior)
   - **Output**: Structured result with epistemic labels and provenance
-
 - **Scenario**: When perception and action form a feedback loop requiring governed selection
-
   - **Input**: A query matching this skill's domain (mind_behavior)
   - **Output**: Structured result with epistemic labels and provenance
-
 ## Validation Gates
-
 - **L0 Integrity**: All structural elements accounted for; no silent gaps
 - **L1 Epistemic**: Every claim tagged with epistemic class (SOURCE_CLAIM / DERIVED / AMOS_MODEL)
 - **L5 Scope**: Analysis confined to declared scope and domain
 - **L7 Authority**: No autonomous action beyond authority boundary
-
 ## Anti-Patterns
-
 - **Do not use** for tasks outside the mind_behavior domain
 - **Do not use** when the query requires empirical validation that this skill cannot provide
 - **Do not use** when a parent skill or higher-level orchestrator should route instead
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
-
 ## Composition
-
 - **Parent**: `amos-c05-mind-behavior-master` — routes to this skill when mind_behavior specialization is needed
 - **Peers**: Other skills in the `mind_behavior` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
-- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Workflow**: Each skill has a corresponding workflow in `26_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 ## Evaluation
-
 ### Success Criteria
-
 - Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
 - Output includes provenance reference to source evidence
 - Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
 - Output includes gap flags for unresolved unknowns
 - Output does not exceed declared scope
-
 ### Failure Modes
-
 - **Overreach**: Output claims validity beyond its epistemic class
 - **Scope creep**: Output addresses questions outside the declared domain
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
-
 ## Error Handling
-
 - **On scope violation**: Reject the query and route back to parent skill
 - **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 ## Do not use
-
 - For generic analysis outside the mind_behavior framework
 - To claim empirical validation without domain-specific evidence
 - As a substitute for domain-specific evidence
 - Outside mind_behavior domain reasoning
-
 ## References
-
 - `references/pragmatic_action.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - \`\` — skill Map of Content
 - `amos-c05-mind-behavior-master` — parent skill
 - \`\` — corresponding workflow
 - `amos-active-inference-governor-agent` — corresponding agent
-
 ______________________________________________________________________
-
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
-
 **MOC:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
-
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
-
 ______________________________________________________________________
-
 RSCF-NODE
 node_id: amos-active-inference-governor
 node_type: skill
 path: 07_SKILLS/amos-active-inference-governor/SKILL.md
 RSCF-RELATIONS:
-
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

@@ -1,40 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: L27 Multi Agent Cognition MOC
-type: moc
-source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L27_MULTI_AGENT_COGNITION
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: L27 Multi Agent Cognition Moc
 tags:
-  - matrix/l27-multi-agent-cognition
-  - domain/cognitive-matrix
-  - cognitive-matrix-agents
-  - cognitive-matrix-control-planes
-  - cognitive-matrix-definition
-  - cognitive-matrix-dependencies
-  - cognitive-matrix-equations
-  - cognitive-matrix-failure-modes
-  - cognitive-matrix-gap-matrix
-  - cognitive-matrix-hml
-  - cognitive-matrix-invariants
-  - cognitive-matrix-memory
-  - cognitive-matrix-operators
-  - cognitive-matrix-protocols
-  - cognitive-matrix-provenance
-  - cognitive-matrix-purpose
-  - cognitive-matrix-repair
-  - cognitive-matrix-rscf
-  - cognitive-matrix-skills
-  - cognitive-matrix-state
-  - cognitive-matrix-tests
-  - cognitive-matrix-variables
-  - cognitive-matrix-workflows
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # L27 Multi Agent Cognition — Map of Content

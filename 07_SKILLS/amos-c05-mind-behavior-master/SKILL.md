@@ -1,53 +1,21 @@
 ---
-schema_version: 1.0
-name: amos-c05-mind-behavior-master
-description: AMOS C05 Mind & Behavior — emotion (5-axis Emotion Law v0), personality (Personality Engine v0), behavior (Behavior Engine v0), motivation, group dynamics, cognitive/motivational structure. Use when psychological analysis, behavioral reasoning, emotion modeling, personality profiling, or group dynamics. Use whenever the user mentions emotion, mood, personality, behavior, motivation, habits, social dynamics, group climate, or mind modeling — even without explicitly asking for 'C05'. Do not use for generic tasks outside c05 domain.
-parent_skill: none
-domain: c05
-origin_architect: Trang Phan
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
 epistemic_class: SOURCE_CLAIM
-version: 1.1.0
-rscf_state: SOURCE_CLAIM
-hml_level: H
-gmef_gates:
-  - L0_integrity
-  - L1_epistemic
-  - L2_provenance
-  - L5_scope
-  - L7_authority
-collapse_class: reversible
-qfm_gate_set: QFM_v43
-law_compliance:
-  - L0
-  - L1
-  - L2
-  - L4
-  - L5
-  - L7
-  - L16
-  - L17
-  - L18
-title: "AMOS C05 — Mind & Behavior Master"
-type: mind
-source: 11_KNOWLEDGE
+topic: Skill
 tags:
-  - type/skill
-  - type/skill
-  - domain/mind-behavior
-  - epistemic/source_claim
-  - hml/h
-  - epistemic/source_claim
-  - amos-os
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: MODEL
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
-  canonical_status: DOMAIN_KNOWLEDGE_WITH_RESEARCH_BRIDGES
-  node_id: amos_c05_mind_behavior_master_knowledge
-  node_type: note
-license: MIT
-steward: Trang Phan
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS C05 — Mind & Behavior Master Knowledge
@@ -281,6 +249,11 @@ C05 is **not** a mind reader and **not** a clinician. It never converts a model 
 - **Origin architect**: Trang Phan
 - **H-level owners**: H1 Emotion Law, H2 Personality Engine, H3 Behavior Engine, H4 Mind-Behavior Bridge, H5 Cognitive/Motivational Structure (F1-F7), H6 Social/Change Dynamics (F8-F12), H7 Group Dynamics, H8 Micro-State Spectrum & UEE, H9 AMOS/Trang Research Bridge
 
+- `references/arvix_consciousness_mind_behavior_evidence_bridge.md` — loaded on demand
+- [[07_SKILLS/amos-c05-mind-behavior-master/amos-c05-mind-behavior-master_MOC|amos-c05-mind-behavior-master_MOC]] — skill Map of Content
+- [[26_WORKFLOWS/amos-c05-mind-behavior-master-workflow|amos-c05-mind-behavior-master-workflow]] — corresponding workflow
+- [[06_AGENTS/amos-c05-mind-behavior-master-agent|amos-c05-mind-behavior-master-agent]] — corresponding agent
+
 ______________________________________________________________________
 
-**MOC:** references_MOC · [[00_ROOT/00_HOME|00_HOME]]
+**MOC:** [[07_SKILLS/amos-c05-mind-behavior-master/amos-c05-mind-behavior-master_MOC|amos-c05-mind-behavior-master_MOC]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

@@ -1,90 +1,16 @@
 ---
-title: Kernel · CORE19 Deterministic Logic
-canonical_name: K_CORE19_LOGIC
-artifact_id: AMOS-OS-K-CORE19-LOGIC
-artifact: K_CORE19_LOGIC.md
-artifact_type: kernel_logic_contract
-type: logic
-system: AMOS OS
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: 02_KERNEL
-plane_name: KERNEL
-kernel_family: FOUNDATION
-segment: 02_KERNEL/01_META_LOGIC
-domain: deterministic-logic
-scope: AMOS_OS
-status: AMOS_MODEL
-epistemic_class: AMOS_MODEL
-conclusion_class: AMOS_MODEL
-canonical_status: CANON_CANDIDATE / LINEAGE_UNVERIFIED
-historical_identity_status: NOT_ESTABLISHED
-implementation_status: UNKNOWN/GAP
-validation_status: NOT_ESTABLISHED
-runtime_enforcement: NOT_ESTABLISHED
-authority_status: NON_AUTHORITATIVE_MODEL
-executable_binding: NOT_ESTABLISHED
-created: '2026-08-25'
-updated: '2026-08-27'
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: K Core19 Logic
 tags:
-  - amos-os
-  - kernel
-  - foundation
-  - core19
-  - deterministic-logic
-  - kernel/core19
-  - kernel/logic
-  - kernel/deterministic
-  - kernel/invariants
-  - kernel/state-transition
-  - kernel/dependency
-  - kernel/provenance
-  - kernel/scope
-  - kernel/regime
-  - kernel/validation
-  - kernel/recovery
-  - kernel/concurrency
-  - kernel/atomicity
-  - kernel/finality
   - canon-group/tech-ai
-  - canon/model
   - rscf/claim
   - rscf/provenance
-  - rscf/state/model
-  - topic/core19
-  - topic/deterministic-logic
-  - canon
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - source-lineage
-  - supersession-log
-  - authoritative-state
-aliases:
-  - CORE19 Logic
-  - K CORE19 LOGIC
-  - AMOS CORE19 Logic Kernel
-  - CORE19 Deterministic Logic Kernel
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: AMOS_general
-  regime: AMOS_v4_4_kernel_model
-  confidence_ceiling: AMOS_MODEL
-  canonical_lineage: UNKNOWN/GAP
-integrity:
-  fail_closed_on_unknown: true
-  preserve_competing: true
-  preserve_provenance: true
-  preserve_scope: true
-  preserve_regime: true
-  preserve_dependency_edges: true
-  validity_grants_authority: false
-  proposal_is_commit: false
-  deterministic_derivation_verifies_premises: false
-source: 02_KERNEL/01_META_LOGIC
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # K_CORE19_LOGIC
@@ -3139,7 +3065,7 @@ $$
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

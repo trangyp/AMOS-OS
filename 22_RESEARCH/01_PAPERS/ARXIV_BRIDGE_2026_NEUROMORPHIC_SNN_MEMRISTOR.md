@@ -52,7 +52,7 @@ This bridge connects 2026 arXiv pre-prints in neuromorphic computing, spiking ne
 | **arXiv ID** | `2602.23274v1` |
 | **Title** | Exploiting network topology in brain-scale simulations of spiking neural networks |
 | **Date** | 2026-02 |
-| **Target Planes** | [[13_MODELS/13_MODELS_MOC\|13_MODELS]], [[10_MEMORY/10_MEMORY_MOC\|10_MEMORY]], [[04_RUNTIME/04_RUNTIME_MOC\|04_RUNTIME]] |
+| **Target Planes** | [[13_MODELS/13_MODELS_MOC|13_MODELS]], [[10_MEMORY/10_MEMORY_MOC|10_MEMORY]], [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | Brain-scale SNN simulation leveraging network topology for computational efficiency — directly relevant to AMOS model deployment and runtime execution. Topology-aware simulation enables efficient large-scale neuromorphic modeling, paralleling AMOS's fractal learning scales. |
 | **Confidence Ceiling** | `EMPIRICAL` for simulation benchmarks; `SOURCE_CLAIM` for brain-scale claims. |
@@ -68,7 +68,7 @@ This bridge connects 2026 arXiv pre-prints in neuromorphic computing, spiking ne
 | **arXiv ID** | `2605.02432v1` |
 | **Title** | Investigation of filamentation in a-Si Ag Cu memristors with atomic force microscopy |
 | **Date** | 2026-05 |
-| **Target Planes** | [[10_MEMORY/10_MEMORY_MOC\|10_MEMORY]], [[15_INTERFACES/15_INTERFACES_MOC\|15_INTERFACES]], [[13_MODELS/13_MODELS_MOC\|13_MODELS]] |
+| **Target Planes** | [[10_MEMORY/10_MEMORY_MOC|10_MEMORY]], [[15_INTERFACES/15_INTERFACES_MOC|15_INTERFACES]], [[13_MODELS/13_MODELS_MOC|13_MODELS]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | Memristor filament analysis — critical for AMOS bio-memristor analog execution ledger. Atomic-scale filament characterization enables reliable memristive memory devices, supporting AMOS's neuromorphic memory substrate. |
 | **Confidence Ceiling** | `EMPIRICAL` for device characterization; `SOURCE_CLAIM` for scaling claims. |
@@ -80,7 +80,7 @@ This bridge connects 2026 arXiv pre-prints in neuromorphic computing, spiking ne
 | **arXiv ID** | `2605.22943v1` |
 | **Title** | A new method to probe conducting filaments in MoS2-based memristors |
 | **Date** | 2026-05 |
-| **Target Planes** | [[10_MEMORY/10_MEMORY_MOC\|10_MEMORY]], [[15_INTERFACES/15_INTERFACES_MOC\|15_INTERFACES]] |
+| **Target Planes** | [[10_MEMORY/10_MEMORY_MOC|10_MEMORY]], [[15_INTERFACES/15_INTERFACES_MOC|15_INTERFACES]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | MoS2 memristor filament probing — relevant to AMOS bio-electrochemical memristor ledger. 2D material memristors offer alternative substrate for neuromorphic memory, expanding AMOS's hardware options. |
 | **Confidence Ceiling** | `EMPIRICAL` for MoS2 devices; `SOURCE_CLAIM` for integration claims. |
@@ -96,7 +96,7 @@ This bridge connects 2026 arXiv pre-prints in neuromorphic computing, spiking ne
 | **arXiv ID** | `2605.16114v1` |
 | **Title** | Scalable neuromorphic computing from autonomous spiking dynamics in a clockless architecture |
 | **Date** | 2026-05 |
-| **Target Planes** | [[04_RUNTIME/04_RUNTIME_MOC\|04_RUNTIME]], [[13_MODELS/13_MODELS_MOC\|13_MODELS]], [[10_MEMORY/10_MEMORY_MOC\|10_MEMORY]] |
+| **Target Planes** | [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]], [[13_MODELS/13_MODELS_MOC|13_MODELS]], [[10_MEMORY/10_MEMORY_MOC|10_MEMORY]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | Clockless neuromorphic architecture with autonomous spiking — directly relevant to AMOS runtime execution and model deployment. Clockless design eliminates global synchronization, paralleling AMOS's coordination avoidance spec. Autonomous spiking dynamics map to AMOS's self-organizing cognitive state transitions. |
 | **Confidence Ceiling** | `EMPIRICAL` for architecture benchmarks; `SOURCE_CLAIM` for scalability claims. |
@@ -108,7 +108,7 @@ This bridge connects 2026 arXiv pre-prints in neuromorphic computing, spiking ne
 | **arXiv ID** | `2607.10066v1` |
 | **Title** | A neuromorphic vision system for open-world visual intelligence |
 | **Date** | 2026-07 |
-| **Target Planes** | [[15_INTERFACES/15_INTERFACES_MOC\|15_INTERFACES]], [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC\|05_COGNITIVE_ORGANISM]], [[13_MODELS/13_MODELS_MOC\|13_MODELS]] |
+| **Target Planes** | [[15_INTERFACES/15_INTERFACES_MOC|15_INTERFACES]], [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM]], [[13_MODELS/13_MODELS_MOC|13_MODELS]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | Neuromorphic vision for open-world intelligence — relevant to AMOS interfaces and cognitive organism. Event-based vision systems process information asynchronously, aligning with AMOS's clockless runtime philosophy. Open-world visual intelligence requires continual learning, mapping to AMOS's fractal learning engine. |
 | **Confidence Ceiling** | `EMPIRICAL` for vision benchmarks; `SOURCE_CLAIM` for open-world claims. |
@@ -124,7 +124,7 @@ This bridge connects 2026 arXiv pre-prints in neuromorphic computing, spiking ne
 | **arXiv ID** | `2605.29071v1` |
 | **Title** | A hidden bottleneck in classical and quantum linear reservoir computing |
 | **Date** | 2026-05 |
-| **Target Planes** | [[10_MEMORY/10_MEMORY_MOC\|10_MEMORY]], [[13_MODELS/13_MODELS_MOC\|13_MODELS]], [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC\|41 Quantum Systems]] |
+| **Target Planes** | [[10_MEMORY/10_MEMORY_MOC|10_MEMORY]], [[13_MODELS/13_MODELS_MOC|13_MODELS]], [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC|41 Quantum Systems]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | Reservoir computing bottleneck analysis — relevant to AMOS memristive reservoir computing ledger. Identifying fundamental limits in both classical and quantum reservoir computing informs AMOS's hardware-aware model deployment. Quantum reservoir computing bridges AMOS's quantum systems and memory planes. |
 | **Confidence Ceiling** | `EMPIRICAL` for linear reservoir analysis; `SOURCE_CLAIM` for quantum advantage claims. |
@@ -136,7 +136,7 @@ This bridge connects 2026 arXiv pre-prints in neuromorphic computing, spiking ne
 | **arXiv ID** | `2604.09943v1` |
 | **Title** | Vestibular reservoir computing |
 | **Date** | 2026-04 |
-| **Target Planes** | [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC\|05_COGNITIVE_ORGANISM]], [[10_MEMORY/10_MEMORY_MOC\|10_MEMORY]], [[13_MODELS/13_MODELS_MOC\|13_MODELS]] |
+| **Target Planes** | [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM]], [[10_MEMORY/10_MEMORY_MOC|10_MEMORY]], [[13_MODELS/13_MODELS_MOC|13_MODELS]] |
 | **Epistemic Class** | `SOURCE_CLAIM` |
 | **AMOS Relevance** | Vestibular-inspired reservoir computing — novel biological inspiration for AMOS cognitive organism. The vestibular system provides a unique temporal processing substrate, expanding AMOS's bio-inspired computing repertoire beyond visual/auditory models. |
 | **Confidence Ceiling** | `SOURCE_CLAIM` — early-stage concept; empirical validation pending. |
@@ -148,7 +148,7 @@ This bridge connects 2026 arXiv pre-prints in neuromorphic computing, spiking ne
 | **arXiv ID** | `2603.22696v1` |
 | **Title** | Distinct memory properties in spin-wave reservoir computing based on synthetic antiferromagnets |
 | **Date** | 2026-03 |
-| **Target Planes** | [[10_MEMORY/10_MEMORY_MOC\|10_MEMORY]], [[13_MODELS/13_MODELS_MOC\|13_MODELS]] |
+| **Target Planes** | [[10_MEMORY/10_MEMORY_MOC|10_MEMORY]], [[13_MODELS/13_MODELS_MOC|13_MODELS]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | Spin-wave reservoir computing with synthetic antiferromagnets — relevant to AMOS spintronic domain wall ledger and memristive reservoir computing ledger. Spin-wave computing offers ultra-low-power neuromorphic processing, aligning with AMOS's energy-efficient cognitive architecture. Memory properties of spin-wave reservoirs connect to AMOS's tiered memory lifecycle. |
 | **Confidence Ceiling** | `EMPIRICAL` for spin-wave devices; `SOURCE_CLAIM` for scaling claims. |
@@ -164,7 +164,7 @@ This bridge connects 2026 arXiv pre-prints in neuromorphic computing, spiking ne
 | **arXiv ID** | `2603.27716v1` |
 | **Title** | The role of neuromorphic principles in the future of biomedicine and healthcare |
 | **Date** | 2026-03 |
-| **Target Planes** | [[21_DOMAINS/21_DOMAINS_MOC\|21 Domains]], [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC\|05_COGNITIVE_ORGANISM]], [[15_INTERFACES/15_INTERFACES_MOC\|15_INTERFACES]] |
+| **Target Planes** | [[21_DOMAINS/21_DOMAINS_MOC|21 Domains]], [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM]], [[15_INTERFACES/15_INTERFACES_MOC|15_INTERFACES]] |
 | **Epistemic Class** | `SOURCE_CLAIM` |
 | **AMOS Relevance** | Neuromorphic computing for biomedicine — bridges AMOS domains (medical/clinical) with cognitive organism and interfaces. Neuromorphic principles enable real-time, low-power medical devices, aligning with AMOS's BCI interface ledgers. Healthcare applications require strict safety governance, mapping to AMOS's capability-bound governance. |
 | **Confidence Ceiling** | `SOURCE_CLAIM` — perspective/survey paper; clinical validation not established. |
@@ -176,7 +176,7 @@ This bridge connects 2026 arXiv pre-prints in neuromorphic computing, spiking ne
 | **arXiv ID** | `2607.07373v1` |
 | **Title** | Dynamic neural manifolds for flexible closed-loop control on neuromorphic hardware |
 | **Date** | 2026-07 |
-| **Target Planes** | [[04_RUNTIME/04_RUNTIME_MOC\|04_RUNTIME]], [[13_MODELS/13_MODELS_MOC\|13_MODELS]], [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC\|05_COGNITIVE_ORGANISM]] |
+| **Target Planes** | [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]], [[13_MODELS/13_MODELS_MOC|13_MODELS]], [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | Dynamic neural manifolds on neuromorphic hardware for closed-loop control — directly relevant to AMOS runtime execution and cognitive organism. Closed-loop control on neuromorphic hardware instantiates AMOS's three-timescale loop architecture. Neural manifold dynamics connect to AMOS's cognitive state transition model. |
 | **Confidence Ceiling** | `EMPIRICAL` for control benchmarks; `SOURCE_CLAIM` for manifold dynamics claims. |

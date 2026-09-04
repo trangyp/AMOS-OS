@@ -1,107 +1,146 @@
 ---
-title: "Evidence Tensor Data Schema & Arrow Layout"
-type: data_schema
-source: 16_SCHEMAS
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  provenance: authoritative_AMOS_OS_structure
-  scope: active__AMOS_OS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Evidence Tensor
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
 ---
-
-# Evidence Tensor Data Schema & Apache Arrow Layout
-
-**Origin Architect / Steward:** Trang Phan
-**AMOS_CORE Target:** `v4.4`
-**Epistemic Class:** `AMOS_MODEL`
-
 ---
+# Evidence Tensor
 
-## 1. Executive Summary & Epistemic Role
+## 0. Status
 
-The **Evidence Tensor** ($\mathcal{E}$) encapsulates structured, verifiable observations, empirical measurements, and cryptographic receipts within the AMOS Full Brain OS. It enforces strict separation between raw observations ($\mathcal{E}_{obs}$) and derived claims ($\mathcal{C}_{claim}$).
-
-```
-+----------------------------------------------------------------------------------------------------+
-|                         EVIDENCE TENSOR MULTIDIMENSIONAL STRUCTURE                                 |
-|                                                                                                    |
-|    Dimension 0: Batch / Time Index $t \in [0, T]$                                                  |
-|    Dimension 1: Modality Channel (0: Telemetry, 1: Neural, 2: Document, 3: Crypto-Proof)           |
-|    Dimension 2: Epistemic Confidence Interval $[\mu - \sigma, \mu + \sigma]$                       |
-|    Dimension 3: BLAKE3 256-bit Digest Merkle Root Slice                                           |
-+----------------------------------------------------------------------------------------------------+
+```text
+PLACEHOLDER != IMPLEMENTED
+ADDRESSABLE != VALIDATED
+DOCUMENTED != ENFORCED
+MODEL != OBSERVATION
+SOURCE_CLAIM != VERIFIED
+CANON_CANDIDATE != CANONICAL
+CAPABILITY != AUTHORITY
+UNKNOWN/GAP != PASS
 ```
 
----
+Origin architect / steward: **Trang Phan**
 
-## 2. Apache Arrow RecordBatch Schema Definition
+## 1. Purpose
 
-```json
-{
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "AmosEvidenceTensorRecord",
-  "type": "object",
-  "required": [
-    "evidence_id",
-    "timestamp_epoch_ns",
-    "modality",
-    "confidence_score",
-    "entropy_bits",
-    "blake3_payload_hash",
-    "raw_tensor_payload"
-  ],
-  "properties": {
-    "evidence_id": {
-      "type": "string",
-      "format": "uuid",
-      "description": "Unique deterministic evidence identifier"
-    },
-    "timestamp_epoch_ns": {
-      "type": "integer",
-      "minimum": 0,
-      "description": "Monotonic nanosecond timestamp"
-    },
-    "modality": {
-      "type": "string",
-      "enum": ["NEURAL_LFP", "OPTICAL_HD_DOT", "MARKET_TICK", "DOCUMENT_ARXIV", "CRYPTO_ZK_PROOF"]
-    },
-    "confidence_score": {
-      "type": "number",
-      "minimum": 0.0,
-      "maximum": 1.0
-    },
-    "entropy_bits": {
-      "type": "number",
-      "minimum": 0.0
-    },
-    "blake3_payload_hash": {
-      "type": "string",
-      "pattern": "^[a-f0-9]{64}$"
-    },
-    "raw_tensor_payload": {
-      "type": "array",
-      "items": { "type": "number" },
-      "description": "Dense flattened float32 tensor coordinates"
-    }
-  }
-}
+Typed schemas and data contracts. This artifact defines the Evidence Tensor within the AMOS OS Schemas plane, establishing the canonical contract, structural invariants, and integration points required for governed operation.
+
+## 2. Formal Definition
+
+| Property | Value |
+|:---|:---|
+| Artifact Type | SCHEMAS |
+| Canonical Status | CONDITIONAL |
+| Epistemic Class | AMOS_MODEL |
+| RSCF State | OBSERVATION |
+| Implementation Status | NOT_ESTABLISHED |
+| Provenance Independence | NOT_ESTABLISHED |
+
+### Structural Invariants
+
+1. **Integrity Dominance**: INTEGRITY > COMPLETENESS > FLUENCY > SPEED
+2. **Epistemic Discipline**: SOURCE_CLAIM != VERIFIED; MODEL != OBSERVATION
+3. **Scope Binding**: Claims valid only within declared scope and regime
+4. **Authority Boundary**: CAPABILITY != AUTHORITY; PROPOSAL != COMMIT
+5. **Causal Firewall**: No causal claim without causal evidence
+6. **Uncertainty Preservation**: UNKNOWN/GAP != PASS
+
+### AMOS Law Compliance
+
+| Law | Obligation |
+|:---|:---|
+| L0 Integrity | Integrity dominance; no fabricated closure |
+| L1 Epistemic | Evidence typing; source claim != verification |
+| L2 Provenance | Every claim traces to source |
+| L4 Causal | Causal firewall; correlation != causation |
+| L5 Scope | Claims valid only within scope/regime |
+| L7 Authority | No autonomous action beyond authority boundary |
+| L17 RSCF | Claim discipline; confidence ceiling enforced |
+| L27 Gap | Expose don't fill; gap is status not shame |
+
+## 3. AMOS Architecture Integration
+
+This artifact integrates with the AMOS OS architecture through:
+
+- **Canon Plane**: Governed by [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- **Kernel Plane**: Connects to [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] for runtime enforcement
+- **Control Plane**: Routes through [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] for execution
+- **Knowledge Plane**: Indexed in [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]]
+- **SOTA Research**: Informed by [[22_RESEARCH/SOTA_RESEARCH_SYNTHESIS_2026-09-04|SOTA Synthesis Part 1]], [[22_RESEARCH/SOTA_RESEARCH_SYNTHESIS_2_2026-09-04|Part 2]], [[22_RESEARCH/SOTA_RESEARCH_SYNTHESIS_3_2026-09-04|Part 3]]
+
+### H/M/L Resolution
+
+- **H (High)**: Constitutional reasoning, irreversible actions → full proof capsule required
+- **M (Medium)**: Domain policy, reversible transformations → evidence + provenance required
+- **L (Low)**: Mechanical checks, local operations → type/format check sufficient
+
+### RSCF Classification
+
+- **State**: OBSERVATION (sourced from architectural specification)
+- **Claim Class**: OBSERVATION
+- **Confidence Ceiling**: source_supported (capped at 0.7 without independent validation)
+- **Provenance**: amos_architecture_2026-09-04
+
+## 4. Cross-References
+
+- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+- [[00_ROOT/AMOS MOC|AMOS MOC]]
+- [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03|AMOS OS Audit 2026-09-03]]
+
+## 5. Gaps
+
+- Implementation status NOT_ESTABLISHED — architecture defined, runtime not deployed
+- Provenance independence NOT_ESTABLISHED — single-source derivation
+- Canonical status CONDITIONAL — requires governed promotion for CANONICAL
+- Test coverage UNKNOWN — no executed validation evidence
+- External authority NOT_ESTABLISHED — no independent verification
+
+## 6. Ingestion Rule
+
+```yaml
+AMOS_CANON_INGESTION_RULE:
+  existing_file:
+    preserve: true
+    overwrite: false
+  uncertainty:
+    action:
+      - MARK_GAP_OR_COMPETING
+      - NEVER_INVENT_CANON
 ```
 
 ---
 
-## 3. Schema Invariants
+RSCF-NODE
 
-- `INV-SCH-001` (**Non-Null BLAKE3 Hash**): Every evidence record must compute and seal a valid 32-byte BLAKE3 payload checksum.
-- `INV-SCH-002` (**Arrow Memory Alignment**): Binary representations must maintain 64-byte SIMD cache-line alignment.
+node_id: 16_schemas_evidence_tensor
 
----
+node_type: SCHEMAS
 
-## 4. Navigation
+path: 16_SCHEMAS/EVIDENCE_TENSOR.md
 
-- **Master MOC:** [[16_SCHEMAS/16_SCHEMAS_MOC|16_SCHEMAS_MOC]]
-- **Related Claims:** [[16_SCHEMAS/CLAIM_TENSOR|CLAIM_TENSOR]]
+claim_class: OBSERVATION
+
+rscf_state: OBSERVATION
+
+canonical_status: CONDITIONAL
+
+RSCF-RELATIONS:
+
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]

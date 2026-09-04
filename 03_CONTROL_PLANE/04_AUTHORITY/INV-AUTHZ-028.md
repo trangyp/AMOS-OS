@@ -1,97 +1,104 @@
 ---
-title: "INV-AUTHZ-028 — Single Writer per Shard"
-type: authority_invariant
-source: 03_CONTROL_PLANE/04_AUTHORITY
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_INVARIANT
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT
-    - 01_CANON/01_CORE_LAWS/LAW_HIERARCHY
-  scope: authority_governance
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Inv Authz 028
 tags:
-  - amos-os
-  - authority
-  - invariant
-  - control-plane
-  - inv-authz-028
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# INV-AUTHZ-028 — Single Writer per Shard
+# INV-AUTHZ-028
 
-## 1. Formal Specification
+## 0. Status
 
-> **Invariant Statement:**
-> `Within a single shard, concurrent write mutations must acquire a local mutex or execute via CAS.`
+Control Plane-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
 
-## 2. Invariant Rule & Mathematical Formulation
+## 1. Purpose
 
-Let $s$ be a shard, $\text{Writer}(s, t)$ the active writer on shard $s$ at time $t$, and $\text{Lock}(s)$ the local mutex:
+`INV-AUTHZ-028` defines typed artifact specification, serving the Control Plane plane's obligation: governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback.
 
-$$\forall s \in \mathcal{S}, \forall t, \quad |\text{Writer}(s, t)| \le 1 \lor \text{CAS}(\text{Writer}(s, t))$$
+## 2. Semantics
 
-The mutex acquisition requires:
+- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
+- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
+- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
 
-$$\text{Acquire}(\text{Lock}(s), w) \implies \text{Writer}(s, t) = \{ w \} \quad \text{for duration of write}$$
+## 3. Failure modes guarded
 
-The CAS (Compare-And-Swap) alternative:
+STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
 
-$$\text{CAS}(s, \text{expected}, \text{new}) = \begin{cases} \text{True} & \text{if } \text{State}(s) = \text{expected} \\ \text{False} & \text{otherwise} \end{cases}$$
+## 4. Validation
 
-$$\text{CAS}(s, \text{expected}, \text{new}) = \text{True} \implies \text{State}(s) \leftarrow \text{new}$$
+No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
 
-No two writers may hold the mutex simultaneously:
+## 5. Gaps
 
-$$\forall w_1 \neq w_2, \quad \text{Holds}(w_1, \text{Lock}(s)) \implies \neg \text{Holds}(w_2, \text{Lock}(s))$$
+Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
 
-## 3. Enforcement & Verification
+## 6. Falsifiers
 
-- **Evaluation Point:** Evaluated at the shard-level write gate. Every write mutation must either hold the local mutex or use a CAS operation that atomically checks and updates the state.
-- **Violation Consequence:** If a write mutation is attempted without holding the mutex or using CAS, the write is rejected. A `CONCURRENT_WRITE_VIOLATION` receipt is emitted to `17_OBSERVABILITY`.
-- **Recovery Procedure:** The write must be retried with proper mutex acquisition or CAS. If a deadlock is detected, the deadlock resolution protocol aborts one of the conflicting writers.
-- **Verification Cadence:** Synchronous at every write mutation. A periodic audit verifies that no shard has multiple concurrent writers.
-- **Governed By:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
 
-## 4. Attack Vectors & Mitigations
+## Worked semantics
 
-- **Mutex Bypass:** An agent writes to a shard without acquiring the mutex. Mitigated by the shard-level write gate that checks mutex ownership before accepting writes.
-- **Mutex Hijacking:** An agent steals the mutex from the current holder. Mitigated by the mutex implementation being non-preemptive — only the holder can release the mutex.
-- **CAS Race Exploitation:** An attacker exploits a race in the CAS implementation to create inconsistent state. Mitigated by the CAS being implemented as an atomic hardware instruction.
-- **Deadlock Induction:** An attacker creates a deadlock by acquiring mutexes in a circular pattern. Mitigated by the deadlock detection protocol with timeout-based resolution.
+Given an operation touching `INV-AUTHZ-028` within the Control Plane plane:
 
-## 5. Dependencies & Prerequisites
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-007|INV-AUTHZ-007]] — Atomic state transition barrier coordinates multi-shard writes.
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-015|INV-AUTHZ-015]] — Coordination avoidance verification determines when CAS is sufficient vs. mutex.
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-043|INV-AUTHZ-043]] — Non-interference in shard reads ensures reads do not block writes.
-- **Requires:** A mutex implementation with deadlock detection.
-- **Requires:** A CAS primitive at the hardware or runtime level.
+## Promotion-gate checklist
 
-## 6. Provenance & Audit Trail
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-- **Receipt Type:** `SHARD_WRITE_RECEIPT` — emitted for every shard write, recording the writer identity, lock type (mutex or CAS), and write result.
-- **Storage Location:** `17_OBSERVABILITY` with shard-ID-indexed partitions.
-- **Receipt Fields:** Shard ID, writer identity, lock type, lock acquisition timestamp, write result, state hash before and after, BLAKE3 hash.
-- **Immutability:** Shard write receipts are append-only per [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-014|INV-AUTHZ-014]].
+## Cross-plane bindings
 
-## 7. Related Invariants
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-007|INV-AUTHZ-007]] — Atomic State Transition Barrier
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-015|INV-AUTHZ-015]] — Coordination Avoidance Verification
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-029|INV-AUTHZ-029]] — Snapshot Isolation Consistency
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-043|INV-AUTHZ-043]] — Non-Interference in Shard Reads
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-049|INV-AUTHZ-049]] — Global Finality Horizon Check
+______________________________________________________________________
 
-## 8. Navigation & Bindings
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
-- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
-- **Control Plane Contract:** [[03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT|CONTROL_PLANE_CONTRACT]]
-- **Canon Law Hierarchy:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- **Kernel:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
-- **Observability:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]
+______________________________________________________________________
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: cp_03_control_plane_04_authority_inv_authz_028_md
+node_type: note
+path: 03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-028.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04_AUTHORITY_MOC]]
+
+______________________________________________________________________
+
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,72 +1,16 @@
 ---
-title: Omega Quantum Stack
-type: quantum
-source: 01_CANON/02_UNIVERSE_CANON
-artifact: OMEGA_QUANTUM_STACK.md
-artifact_id: amos_01_canon_02_universe_canon_omega_quantum_stack
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/02_UNIVERSE_CANON
-artifact_kind: ARTIFACT
-path: 01_CANON/02_UNIVERSE_CANON/OMEGA_QUANTUM_STACK.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Omega Quantum Stack
 tags:
-  - amos-os
-  - canon
-  - universe
-  - omega
-  - omega_quantum_stack
-  - quantum
-  - quantum_knowledge
-  - cognitive_architecture
-  - murk
-  - executable_brain_model
-  - provenance
-  - rscf
-  - canon/universe
-  - architecture
-  - validation
-  - memory
-  - skill
-  - workflow
-  - law/L19-proof-capsule
-  - integration
-  - law-hierarchy
-  - khung-trang-master
-  - khung-trang-equations
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: SOURCE_REPORTED_PARTIAL
-validation_status: SOURCE_REPORTED_NOT_INDEPENDENTLY_REVALIDATED
-executable_binding: SOURCE_REPORTED_PARTIAL
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_GROUNDED
-  claim_class: AMOS_MODEL
-  provenance:
-    - AMOS_corpus
-    - AMOS_OMEGA_QUANTUM_STACK
-    - OMEGA_QUANTUM_STACK_CANON
-    - Quantum_Omega_Cognitive_Architecture_Overview
-    - AMOS_QUANTUM_LIBRARY
-    - AMOS_MURK_REASONING_ENGINE
-    - AMOS_MURK_BRAIN_INTEGRATION
-    - EXECUTABLE_BRAIN_MODEL
-  scope:
-    - UNIVERSE_CANON
-    - OMEGA_QUANTUM_STACK
-    - QUANTUM_KNOWLEDGE_ARCHITECTURE
-    - COGNITIVE_ARCHITECTURE
-  confidence_ceiling:
-    architecture: SOURCE_GROUNDED
-    implementation: SOURCE_REPORTED
-    runtime: REQUIRES_EXECUTED_RECEIPT
-    empirical_quantum_claims: REQUIRES_EXTERNAL_EVIDENCE
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # Omega Quantum Stack
@@ -1256,7 +1200,7 @@ MEMORY != CANON
 
 SKILL != AUTHORITY
 
-[[08_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]] != VALIDATION
+[[26_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]] != VALIDATION
 
 VAULT NOTE != VERIFIED CLAIM
 
@@ -2135,7 +2079,7 @@ RSCF-RELATIONS:
 
 ---
 
-**Related:**
+**Related:**  
 
 ---
 
@@ -2147,3 +2091,9 @@ RSCF-RELATIONS:
 
 
 This converts the artifact from an empty placeholder into the **operational companion** to `OMEGA_QUANTUM_STACK_CANON.md`, while keeping the promotion ceiling at `SOURCE_GROUNDED_CANON_CANDIDATE`. The implementation remains `SOURCE_REPORTED_PARTIAL`; an artifact/version-bound executed receipt is still the decisive missing evidence for `RUNTIME_VERIFIED`.
+
+```
+
+```
+```
+```

@@ -1,22 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS_EMOTION_COGNITION_DECISION_BRIDGE_GOVERNOR
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Emotion Cognition Decision Bridge Governor
 tags:
-  - knowledge
-  - emotion
-  - cognition
-  - decision
-  - bridge
-  - governor
-type: note
-source: 11_KNOWLEDGE
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS EMOTION COGNITION DECISION BRIDGE GOVERNOR

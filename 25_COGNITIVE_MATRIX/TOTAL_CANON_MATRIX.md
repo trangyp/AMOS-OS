@@ -1,95 +1,21 @@
 ---
-title: Total Canon Cross-Plane Matrix
-type: cognitive
-source: 25_COGNITIVE_MATRIX
-artifact: TOTAL_CANON_MATRIX.md
-artifact_id: amos_25_cognitive_matrix_total_canon_matrix
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 25_COGNITIVE_MATRIX
-segment: 25_COGNITIVE_MATRIX
-artifact_kind: MATRIX_TABLE
-path: 25_COGNITIVE_MATRIX/TOTAL_CANON_MATRIX.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Total Canon Matrix
 tags:
-  - amos-os
-  - cognitive-matrix
-  - vault
-  - total-canon-matrix
-  - master-canon
-  - master_convergence_grid
-  - cross-plane
-  - canon_routing
-  - core_laws
-  - law/L0-integrity
-  - universe_strata
-  - seven_part_universe
-  - epistemic_invariants
-  - enforcement_gates
-  - authority_envelopes
-  - physical_conservation
-  - anti_autopoisoning
-  - null_state
-  - rscf
-  - provenance
-  - canon_candidate
-  - canon/matrix
-  - architecture
-  - canon
-  - k-rscf
-  - k-hml
-  - k-core-laws
-  - k-provenance
-  - k-provenance-topology
-  - k-anti-autopoisoning
-  - k-authority
-  - k-governance
-  - k-reality
-  - k-universe-strata
-  - law/L0-integrity
-  - amos-core-v4-4
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-runtime_enforcement_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-formal_verification_status: NOT_ESTABLISHED
-empirical_validation_status: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - 01_CANON/01_CANON_MOC
-    - 01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC
-    - AMOS_CORPUS
-  scope:
-    - COGNITIVE_MATRIX
-    - MASTER_CANON_MATRIX
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  canon_moc:
-    artifact: 01_CANON/01_CANON_MOC
-  core_laws:
-    artifact: 01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC
-  claims_registry:
-    artifact: CANON_CLAIM_REGISTRY
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  matrix_structure: VERIFIED_SOURCE_STRUCTURE
-  canon_routing: SOURCE_DEFINED_MODEL
-  cross_plane_routing: SOURCE_DEFINED_MODEL
-  epistemic_invariant_mapping: SOURCE_DEFINED_MODEL
-  enforcement_gate_mapping: SOURCE_DEFINED_MODEL
-  executable_gates: NOT_ESTABLISHED
-  runtime_enforcement: NOT_ESTABLISHED
-  formal_verification: NOT_ESTABLISHED
-  empirical_validation: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Total Canon Cross-Plane Matrix — Full Canon Expansion

@@ -1,153 +1,240 @@
 ---
-title: "K_FAILURE_RECOVERY — Universal Failure Recovery & Rollback Kernel"
-type: kernel_specification
-source: 02_KERNEL
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: K Failure Recovery
 tags:
-  - amos-os
-  - kernel
-  - recovery
-  - resilience
-  - fail_closed
-  - rollback
-  - rscf
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: CANON_SPEC
-  claim_class: AMOS_SYSTEM_CORE
-  provenance:
-    - 02_KERNEL/KERNEL_KERNEL_CONTRACT
-    - 03_CONTROL_PLANE/COGNITIVE_VAULT_RESOLVER
-  scope: failure_recovery_kernel
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# K_FAILURE_RECOVERY — Universal Failure Recovery & Rollback Kernel
+# K_FAILURE_RECOVERY — Failure Recovery Kernel
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Epistemic Class:** `AMOS_MODEL`
-> **Status:** `ACTIVE_SPECIFICATION`
+Provides deterministic fail-closed recovery protocols, state rollback mechanisms, and null-state reset basins ($S_0$) across AMOS OS runtime layers.
 
----
+## 1. Role
 
-## 1. Executive Summary & Core Invariants
+The Failure Recovery Kernel is the last-resort safety mechanism in AMOS OS. When any runtime operation, agent action, or control-plane decision produces a result that violates system invariants, this kernel:
 
-`K_FAILURE_RECOVERY` provides deterministic fail-closed recovery protocols, multi-version timestamp rollback mechanisms, and null-state reset basins ($S_0$) across all AMOS OS distributed runtime and cognitive layers. When any subsystem encounters an unverified assertion, cryptographic mismatch, unhandled hardware exception, or memory corruption, the recovery kernel intercepts execution, seals an auditable cryptographic receipt, and restores the system to the last verified consistent epoch snapshot $\mathcal{S}^*$.
+- Detects the invariant violation
+- Classifies the failure severity and blast radius
+- Freezes the affected execution edge
+- Rolls back to the most recent consistent state
+- Reroutes around the failed component
+- Revalidates the restored state
+- Emits a cryptographic error capsule for audit
 
-```
-+-----------------------------------------------------------------------------------+
-|               AMOS FAIL-CLOSED RESILIENCE & ROLLBACK ENGINE                       |
-|                                                                                   |
-|  [ Normal Execution S_t ] ===> (Exception / Invariant Breach Detected)            |
-|                                       ||                                          |
-|                                       \/                                          |
-|                       [ Freeze Runtime Threads & I/O ]                            |
-|                                       ||                                          |
-|                                       \/                                          |
-|                       [ Generate BLAKE3 Forensic Capsule ]                        |
-|                                       ||                                          |
-|                                       \/                                          |
-|                       [ Evaluate Epoch Log & MVCC DAG ]                           |
-|                         /                           \                             |
-|                        /                             \                            |
-|   (Valid Snapshot S* Found)                   (Total Corruption)                  |
-|              ||                                       ||                          |
-|              \/                                       \/                          |
-|  [ Rollback State S_t -> S* ]                 [ Reset to Null Basin S_0 ]         |
-|              ||                                       ||                          |
-|              \/                                       \/                          |
-|   [ Emit Observability Receipt ]          [ Warm Boot Kernel Initialization ]     |
-+-----------------------------------------------------------------------------------+
-```
+## 2. Failure Taxonomy
 
----
+| Class | Severity | Blast Radius | Recovery Strategy |
+|-------|----------|-------------|-------------------|
+| **F1: Local Agent Fault** | LOW | Single agent, no cross-agent state | Agent-local rollback to last checkpoint |
+| **F2: Shard State Inconsistency** | MEDIUM | Shard-local, bounded propagation | Shard-local consensus repair, MVCC snapshot restore |
+| **F3: Cross-Shard Conflict** | HIGH | Multiple shards, partial state divergence | Causal epoch rollback to last epoch boundary |
+| **F4: Control Plane Violation** | CRITICAL | System-wide, authority or canon breach | Full $S_0$ reset of affected subsystem, control plane re-validation |
+| **F5: Provenance Corruption** | CRITICAL | Knowledge graph integrity | Quarantine affected claims, require re-provenance from source |
+| **F6: Runtime-Design Divergence** | HIGH | Design assumptions no longer hold | Freeze affected operations, escalate to human steward |
 
-## 2. Mathematical Formalization & State Machine Dynamics
+## 3. Core Invariants
 
-### 2.1 State Space and Transition Dynamics
-Let the system state at epoch $t$ be $\mathcal{S}_t \in \Sigma$. An operation $O_t: \Sigma \to \Sigma$ transitions the system from $\mathcal{S}_{t-1}$ to $\mathcal{S}_t$.
-The failure predicate $\Phi(\mathcal{S}_t) \in \{0, 1\}$ evaluates invariant compliance:
+- $\text{Failure}(x) \implies \text{Rollback}(x) \lor \text{Reset}(S_0)$
+- No speculative continuation on unhandled exceptions
+- Emits cryptographic error capsules and post-incident verification receipts
+- $\text{Recovery}(x) \implies \text{Provenance\_Preserved}(\text{state}(x))$
+- $\text{Rollback}(x) \leq \text{last\_consistent\_state}(x)$ — never rollback further than necessary
+- $\text{Reset}(S_0) \implies \text{Escalation}(\text{human\_steward})$ — full reset requires human awareness
 
-$$\Phi(\mathcal{S}_t) = 0 \iff \forall \mathcal{I} \in \mathbf{Invariants}, \quad \mathcal{I}(\mathcal{S}_t) = \text{True}$$
+## 4. Failure Detection
 
-### 2.2 Deterministic Rollback Operator
-If $\Phi(\mathcal{S}_t) = 1$ (invariant violation), the kernel applies the rollback operator $\mathcal{R}$:
+### 4.1 Detection Sources
 
-$$\mathcal{R}(\mathcal{S}_t) = \begin{cases}
-\mathcal{S}_{\tau}^*, & \text{if } \exists \tau < t \text{ s.t. } \Phi(\mathcal{S}_{\tau}^*) = 0 \land \operatorname{Hash}(\mathcal{S}_{\tau}^*) = \mathcal{H}_\tau \\
-\mathcal{S}_0, & \text{otherwise (Null-State Reset Basin)}
-\end{cases}$$
+| Source | Detection Mechanism | Trigger |
+|--------|-------------------|---------|
+| Invariant checker | Continuous assertion monitoring | Any M01–M20 violation |
+| Provenance verifier | Ancestry chain validation | Broken or circular provenance |
+| Consensus monitor | Cross-shard state comparison | State divergence beyond threshold |
+| Freshness gate | Staleness timestamp check | Evidence older than regime threshold |
+| Authority verifier | Permission boundary check | Operation exceeds declared authority |
+| Epoch barrier | Causal ordering validation | Monotonic epoch vector violation |
 
-Where $\mathcal{S}_0$ is the immutable, hardcoded bootstrap state containing only verified root contracts.
+### 4.2 Error Capsule Format
 
----
-
-## 3. Python Distributed Rollback & Recovery Engine
-
-```python
-import hashlib
-import time
-from typing import Dict, List, Optional, Any
-
-class FailureRecoveryKernel:
-    """
-    Universal Fail-Closed Recovery Kernel managing MVCC checkpoints and atomic rollback.
-    """
-    def __init__(self, null_state: Dict[str, Any]):
-        self.null_state = null_state
-        self.checkpoints: Dict[int, Dict[str, Any]] = {0: null_state}
-        self.checkpoint_hashes: Dict[int, str] = {0: self._hash_state(null_state)}
-        self.current_epoch: int = 0
-        self.current_state: Dict[str, Any] = null_state.copy()
-
-    def _hash_state(self, state: Dict[str, Any]) -> str:
-        serialized = str(sorted(state.items())).encode('utf-8')
-        return hashlib.sha256(serialized).hexdigest()
-
-    def commit_epoch(self, epoch: int, new_state: Dict[str, Any], invariants_passed: bool) -> bool:
-        if not invariants_passed:
-            return self.trigger_fail_closed_recovery(f"Invariant breach at epoch {epoch}")
-
-        self.current_epoch = epoch
-        self.current_state = new_state.copy()
-        self.checkpoints[epoch] = new_state.copy()
-        self.checkpoint_hashes[epoch] = self._hash_state(new_state)
-        return True
-
-    def trigger_fail_closed_recovery(self, reason: str) -> bool:
-        """
-        Rolls back to the latest verified cryptographic checkpoint or null-state basin.
-        """
-        valid_epochs = sorted([ep for ep in self.checkpoints.keys() if ep < self.current_epoch], reverse=True)
-        for ep in valid_epochs:
-            st = self.checkpoints[ep]
-            if self._hash_state(st) == self.checkpoint_hashes[ep]:
-                self.current_state = st.copy()
-                self.current_epoch = ep
-                # Emit recovery audit log
-                print(f"[RECOVERY] Successfully rolled back to epoch {ep}. Reason: {reason}")
-                return True
-
-        # Fallback to S_0
-        self.current_state = self.null_state.copy()
-        self.current_epoch = 0
-        print(f"[RECOVERY] Total corruption detected. Reset to Null Basin S_0. Reason: {reason}")
-        return True
+```yaml
+Error_Capsule:
+  capsule_id: UUID
+  timestamp: ISO-8601
+  failure_class: F1 | F2 | F3 | F4 | F5 | F6
+  severity: LOW | MEDIUM | HIGH | CRITICAL
+  source_component: ""
+  affected_state: []
+  blast_radius: ""
+  detection_mechanism: ""
+  triggering_operation: {}
+  invariant_violated: ""
+  state_before: ""
+  state_after: ""
+  rollback_target: ""
+  recovery_action: ""
+  verification_result: ""
+  human_escalation_required: BOOLEAN
 ```
 
----
+## 5. Recovery State Machine
 
-## 4. Nine-Part Contract Specification
-1. **ROLE:** Manages fail-closed fault containment, cryptographic forensic recording, and deterministic rollback to verified states.
-2. **INTERFACES:** `IF-KERNEL-EXCEPTION-HANDLER` (Hardware and software signal traps), `IF-ROLLBACK-COORDINATOR` (Epoch rollback trigger).
-3. **DEPENDENCIES:** `02_KERNEL/KERNEL_KERNEL_CONTRACT.md`, `04_RUNTIME/04_RUNTIME_MOC.md`, `17_OBSERVABILITY/17_OBSERVABILITY_MOC.md`.
-4. **INVARIANTS:** `INV-RECOVERY-01`: $\text{Failure}(x) \implies \text{Rollback}(x) \lor \text{Reset}(S_0)$ without speculative continuation.
-5. **AUTHORITY:** Highest-priority system authority under `02_KERNEL/02_KERNEL_MOC.md`.
-6. **PROVENANCE:** AMOS Core Resilience Subsystem (Trang Phan).
-7. **TESTS:** Verified via `scripts/test_failure_recovery_kernel.py` simulating Byzantine state injections and cascade crashes.
-8. **FAILURE:** Secondary corruption of recovery ledger triggers immediate hardware reboot and ROM image re-flashing.
-9. **RECOVERY:** Load cryptographic genesis envelope from `00_ROOT/00_ROOT_MOC.md`.
+```text
+DETECT
+↓
+CLASSIFY (F1–F6)
+↓
+FREEZE_AFFECTED_EDGE
+↓
+CAPTURE_ERROR_CAPSULE
+↓
+SELECT_RECOVERY_STRATEGY
+├── F1 → AGENT_LOCAL_ROLLBACK
+├── F2 → SHARD_REPAIR
+├── F3 → EPOCH_ROLLBACK
+├── F4 → SUBSYSTEM_RESET(S_0)
+├── F5 → PROVENANCE_QUARANTINE
+└── F6 → HUMAN_ESCALATION
+↓
+EXECUTE_RECOVERY
+↓
+REVALIDATE_STATE
+↓
+EMIT_RECOVERY_RECEIPT
+↓
+RESUME_OR_ESCALATE
+```
+
+## 6. Rollback Protocol
+
+### 6.1 MVCC Snapshot Restore
+
+```text
+1. Identify last consistent MVCC snapshot for affected state region
+2. Verify snapshot integrity via CAS epoch tag
+3. Atomically restore state from snapshot
+4. Invalidate all downstream dependent state computed from corrupted version
+5. Re-run dependency graph from restored snapshot forward
+6. Verify restored computation produces consistent results
+```
+
+### 6.2 Causal Epoch Rollback
+
+```text
+1. Identify the causal epoch boundary preceding the failure
+2. Freeze all shards that have progressed past that boundary
+3. Restore each shard to the epoch boundary state
+4. Re-execute the failed epoch with corrected inputs or alternate routing
+5. Verify epoch completion with cross-shard consistency check
+```
+
+### 6.3 Null-State Reset ($S_0$)
+
+The $S_0$ reset is the most severe recovery action. It restores a subsystem to its initial bootstrapped state.
+
+```text
+1. Halt all operations in the affected subsystem
+2. Emit CRITICAL error capsule
+3. Preserve error capsule and full execution trace for forensic analysis
+4. Restore subsystem state from $S_0$ definition (genesis state)
+5. Re-bootstrap all dependent components
+6. Require explicit human steward acknowledgment before resuming
+```
+
+$S_0$ properties:
+- Contains no computed state — only structural invariants and initial configuration
+- Is cryptographically signed at boot time to prevent tampering
+- Is always available as a recovery target for any subsystem
+
+## 7. Reroute Protocol
+
+When a component fails but the operation must continue:
+
+```text
+1. Identify all available alternative paths for the failed operation
+2. Select path with minimal dependency overlap with failed component
+3. Verify alternative path's dependency closure is valid
+4. Execute operation on alternative path
+5. Compare results from original and alternative paths (if both available)
+6. Prefer alternative path result if original path is suspect
+```
+
+## 8. Revalidation Protocol
+
+After any recovery action:
+
+```text
+1. Re-check all invariants (M01–M20) against restored state
+2. Verify provenance chains of restored state are intact
+3. Confirm no contradictory claims were introduced during recovery
+4. Verify freshness timestamps of restored evidence
+5. Run regression checks against known good state patterns
+6. Emit RECOVERY_RECEIPT with full audit trail
+```
+
+## 9. Recovery Receipt
+
+```yaml
+Recovery_Receipt:
+  receipt_id: UUID
+  timestamp: ISO-8601
+  error_capsule_id: ""
+  failure_class: ""
+  recovery_strategy: ""
+  rollback_target: ""
+  recovery_duration: ""
+  state_before_recovery: ""
+  state_after_recovery: ""
+  invariant_check_result: ""
+  provenance_check_result: ""
+  regression_check_result: ""
+  human_escalation: BOOLEAN
+  verification_status: PASS | FAIL | PARTIAL
+```
+
+## 10. Inter-Plane Connections
+
+- **Runtime:** [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]] — Provides execution state and MVCC snapshots
+- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] — Receives escalation requests for HIGH/CRITICAL failures
+- **Universal Kernel:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] — Depends on K_FAIL_CLOSED, K_CAS, K_MVCC
+- **Provenance:** [[02_KERNEL/08_PROVENANCE/08_PROVENANCE_MOC|08_PROVENANCE_MOC]] — Preserves provenance through recovery
+- **Matrix Binding:** [[25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO_MATRIX|HERITAGE_X_TRANG_ZERO_MATRIX]] — Heritage zero-state reference
+
+## 11. Failure Propagation Rules
+
+- F1 failures are **contained** — never escalate to F2+ unless repeated within cooldown
+- F2 failures are **isolated** — shard boundary prevents propagation
+- F3 failures trigger **epoch-wide freeze** until resolved
+- F4 failures trigger **subsystem halt** — no partial recovery
+- F5 failures trigger **quarantine** — affected claims are frozen, not deleted
+- F6 failures trigger **escalation** — human decision required, no autonomous repair
+
+Hard rule: `Do not recompute everything when local repair is sufficient.`
+
+## 12. Testing Requirements
+
+| Test Type | Description | Coverage Target |
+|-----------|-------------|-----------------|
+| Unit | Each recovery strategy (F1–F6) independently verifiable | 100% of recovery paths |
+| Integration | Cross-shard failure and recovery propagation | All F2/F3 combinations |
+| Regression | Recovery does not introduce new invariant violations | All M01–M20 post-recovery |
+| Adversarial | Inject failures during active transactions | Worst-case timing scenarios |
+| Chaos | Random component failures during normal operation | Statistical coverage |
+
+______________________________________________________________________
+
+**MOC:** [[02_KERNEL/03_CAUSAL/03_CAUSAL_MOC|03_CAUSAL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
+
+**Related:** [[02_KERNEL/K_FAIL_CLOSED|K_FAIL_CLOSED]] · [[02_KERNEL/K_CAS|K_CAS]] · [[02_KERNEL/K_MVCC|K_MVCC]] · [[19_TESTS/TESTS_TEST_CONTRACT|TESTS_TEST_CONTRACT]]

@@ -1,147 +1,190 @@
 ---
-title: ROLLBACK_AND_RECOVERY_BASINS Law
-type: law
-source: 01_CANON/01_CORE_LAWS
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-updated: 2026-09-04
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Rollback And Recovery Basins
 tags:
-  - core_law
-  - rollback
-  - recovery_basins
-  - law-hierarchy
-  - law/L10-failure-recovery
-  - dmer-l5
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_core_laws
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # ROLLBACK_AND_RECOVERY_BASINS Law
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Epistemic Class:** `SOURCE_CLAIM`
-> **Status:** `ACTIVE_SPECIFICATION`
+Specifies immutable recovery basins ($B_0, M_0, S_0$) for graceful crisis de-escalation. Recovery proceeds by rolling back to the nearest valid basin state, preserving unaffected state, and invalidating only dependent descendants.
 
-Specifies immutable recovery basins ($B_0, M_0, S_0$) for graceful crisis de-escalation.
+________________________________________________________________________
 
-______________________________________________________________________
+## 1. Definition
 
-## 1. Architectural Scope
+A **recovery basin** $B_k$ is a persisted, verified state from which the system can deterministically restore consistent operation:
 
-`ROLLBACK_AND_RECOVERY_BASINS` defines the typed contracts, invariants, and operational procedures for graceful crisis de-escalation within the AMOS Full OS MECE architecture. It establishes three immutable recovery basins — $B_0$ (baseline), $M_0$ (minimal), and $S_0$ (ground state) — that serve as deterministic rollback targets when the system encounters failure, corruption, or unresolvable critical gaps.
+$$B_k = \langle S_k, P_k, V_k, T_k \rangle$$
 
-This law binds to [[01_CANON/01_CORE_LAWS/L10_FAILURE_RECOVERY|L10_FAILURE_RECOVERY]] and operates within the `DMER_L5` degradation envelope.
+| Field | Meaning |
+|-------|---------|
+| $S_k$ | system state snapshot at basin $k$ |
+| $P_k$ | provenance chain valid at basin $k$ |
+| $V_k$ | validation receipt confirming $S_k$ integrity |
+| $T_k$ | timestamp of basin creation |
 
-______________________________________________________________________
+Basin hierarchy (ordered by recovery cost and state loss):
 
-## 2. Formal Definition
+| Basin | State | Description |
+|-------|-------|-------------|
+| $B_0$ | $S_0$ | Ground state — full system reset, maximum state loss, last resort |
+| $B_1$ | $S_1$ | Subsystem recovery — preserve system-wide state, repair subsystem |
+| $B_2$ | $S_2$ | Local recovery — preserve all but the failed component |
 
-### 2.1 Basin Hierarchy
+Recovery preference:
 
-The three recovery basins form a nested hierarchy of decreasing state richness:
+$$B_2 \succ B_1 \succ B_0$$
+
+Recover from the **nearest valid basin** — never jump to a more distant basin when a closer one is valid.
+
+________________________________________________________________________
+
+## 2. Purpose
+
+When failure occurs, the system must:
+1. Stop damage propagation immediately
+2. Preserve all unaffected work
+3. Restore to a consistent, known-valid state
+4. Resume with minimal state loss
+
+Without recovery basins, failure would cascade unboundedly or require global reset for every error.
+
+Failure modes prevented:
 
 ```text
-B_0 ⊇ M_0 ⊇ S_0
+CL-F019 GLOBAL_INVALIDATION_WITHOUT_CAUSE
+CL-F030 OPTIMIZATION_WEAKENS_INTEGRITY
+CL-F017 UNGOVERNED_EVOLUTION
 ```
 
-| Basin | Name | Description | State Content |
-|-------|------|-------------|---------------|
-| $B_0$ | **Baseline basin** | Last known fully-validated operational state with all committed transactions, provenance chain, and active capability grants | Full state at last validated checkpoint |
-| $M_0$ | **Minimal basin** | Reduced operational state retaining only load-bearing authority, identity, and provenance records; all non-essential capabilities suspended | Core authority + provenance only |
-| $S_0$ | **Ground state basin** | Clean initial state; no derived claims, no active capabilities, no pending transactions; only boot identity and root observations | Boot identity + root observations |
+________________________________________________________________________
 
-### 2.2 Recovery Procedures
+## 3. Formal Recovery Procedure
 
-| Procedure | Trigger | Target Basin | Recovery Action |
-|-----------|---------|-------------|-----------------|
-| **Soft rollback** | Non-critical failure; state corruption recoverable | $B_0$ | Restore from last validated checkpoint; replay committed transactions |
-| **Minimal rollback** | Critical gap detected; authority or provenance compromised | $M_0$ | Shed all non-essential capabilities; retain authority + provenance; re-derive from minimal state |
-| **Hard rollback** | Unresolvable corruption; safety-critical violation | $S_0$ | Full reset to ground state; re-bootstrap from root observations; all derived state discarded |
+$$\text{Recover}(F) = \text{Rollback}(\text{NearestValidBasin}(F)) \circ \text{InvalidateDependents}(F) \circ \text{PreserveUnaffected}(F)$$
 
-______________________________________________________________________
+Step-by-step:
 
-## 3. Governing Invariants
+1. **Detect** the failure $F$ and classify its scope
+2. **Freeze** the affected edge — no further state transitions through the failed path
+3. **Identify** the nearest valid basin $B_k$ such that $F \notin B_k$
+4. **Invalidate** only the dependent descendants of $F$ — leave unrelated branches intact
+5. **Roll back** to $B_k$, restoring $S_k, P_k, V_k$
+6. **Reroute** around the failed path using alternative valid dependencies
+7. **Revalidate** the rerouted path before resuming normal operation
 
-- **RB-1 Basin Immutability:** Recovery basins $B_0, M_0, S_0$ are immutable once established; they cannot be modified in-place, only superseded by a new basin snapshot with a new version hash.
-- **RB-2 Deterministic Revert:** Rollback to any basin is deterministic: $\text{Rollback}(\Delta_k) \circ \text{Apply}(\Delta_k) = \mathbb{I}$ (identity).
-- **RB-3 Provenance Preservation:** Rollback does not delete provenance records; reversed operations remain in the audit log with a `REVERSED` marker.
-- **RB-4 Monotonic De-escalation:** Crisis de-escalation follows $B_0 \to M_0 \to S_0$; the system may not skip a basin level during de-escalation unless the current basin is itself corrupted.
-- **RB-5 Re-bootstrap Authority:** Re-escalation from $S_0$ requires fresh authority witness; prior capabilities are not automatically restored.
+________________________________________________________________________
 
-______________________________________________________________________
+## 4. Selective Invalidation
 
-## 4. Mathematical Formulation
+The selective invalidation principle (AMOS invariant M18) is central:
 
-### 4.1 Basin State Definition
+$$\text{Invalidate}(F) \Rightarrow \text{Invalidate}(\text{descendants}(F)) \wedge \neg \text{Invalidate}(\text{unrelated}(F))$$
 
-$$B_0 = \langle \text{State}_{\text{last\_valid}}, \text{Provenance}_{\text{full}}, \text{Capabilities}_{\text{active}}, H(B_0) \rangle$$
+Invalidation propagates only through the dependency graph:
 
-$$M_0 = \langle \text{Authority}_{\text{core}}, \text{Provenance}_{\text{core}}, \emptyset_{\text{capabilities}}, H(M_0) \rangle$$
+```text
+FAILED NODE/EDGE
+├── DEPENDENT A → INVALIDATE
+│   └── DEPENDENT A1 → INVALIDATE
+├── DEPENDENT B → INVALIDATE
+└── UNRELATED C → PRESERVE
+    └── DEPENDENT C1 → PRESERVE
+```
 
-$$S_0 = \langle \text{BootIdentity}, \text{RootObservations}, \emptyset, H(S_0) \rangle$$
+Global recomputation is the last resort (L3.04, L10.05):
 
-where $H(\cdot)$ denotes the BLAKE3 hash of the basin snapshot.
+```text
+LOCAL INVALIDATION → LOCAL REROUTE → LOCAL REPAIR
+≫
+GLOBAL RESET
+```
 
-### 4.2 Rollback Determinism
+________________________________________________________________________
 
-$$\forall \Delta_k, \quad \text{Rollback}(\Delta_k) \circ \text{Apply}(\Delta_k) = \mathbb{I}$$
+## 5. Basin State Preservation
 
-### 4.3 Basin Containment
+A basin $B_k$ is valid only if its state $S_k$ satisfies:
 
-$$B_0 \supset M_0 \supset S_0 \quad \text{(state richness monotonic decrease)}$$
+$$\text{Valid}(B_k) = \text{Consistent}(S_k) \wedge \text{ProvenanceIntact}(P_k) \wedge \text{ValidationCurrent}(V_k)$$
 
-### 4.4 De-escalation Path
+Basin validity may be checked:
+- At basin creation time
+- At recovery time (before rollback)
+- Periodically as a health check
 
-$$\text{Crisis} \xrightarrow{\text{soft}} B_0 \xrightarrow{\text{minimal}} M_0 \xrightarrow{\text{hard}} S_0$$
+If $B_k$ is found invalid, the next-nearest valid basin is used.
 
-______________________________________________________________________
+________________________________________________________________________
 
-## 5. MECE Mapping to AMOS Full Brain OS
+## 6. Failure Classification
 
-| Basin | Affected AMOS Stage | Canonical Gate | Recovery Contract |
-|-------|---------------------|----------------|-------------------|
-| $B_0$ | Execute / Commit | `L10_FAILURE_RECOVERY` | Checkpoint restore + transaction replay |
-| $M_0$ | Plan / Route | `L7_AUTHORITY` | Authority preservation + capability shed |
-| $S_0$ | Perceive / Admit | `L0_INTEGRITY` | Full re-bootstrap from root observations |
+| Failure Class | Scope | Recovery Target |
+|---|---|---|
+| Component failure | Single node/edge | $B_2$ local recovery |
+| Subsystem failure | Multiple related nodes | $B_1$ subsystem recovery |
+| System-wide failure | Cross-cutting corruption | $B_0$ ground state |
+| Provenance failure | Lineage integrity lost | $B_k$ with provenance re-establishment |
+| Regime failure | Regime boundary violated | $B_k$ with regime revalidation |
 
-______________________________________________________________________
+________________________________________________________________________
 
-## 6. Safety Invariants
+## 7. Invariants
 
-- `INV-RB-001` (**No silent basin corruption:**) If a basin hash fails verification, the basin is marked `CORRUPTED` and the system escalates to the next deeper basin.
-- `INV-RB-002` (**No capability restoration without witness:**) Capabilities shed during de-escalation are not automatically restored; re-escalation requires a fresh authority witness.
-- `INV-RB-003` (**No provenance deletion:**) Rollback preserves all provenance records including those of reversed operations.
-- `INV-RB-004` (**No skip during de-escalation:**) The system may not skip from $B_0$ directly to $S_0$ unless $B_0$ and $M_0$ are both corrupted.
-- `INV-RB-005` (**Ground state verifiability:**) $S_0$ is always verifiable against its boot identity and root observation hashes.
+| Invariant | Statement |
+|-----------|-----------|
+| Nearest valid basin | $\text{Recover}(F) \Rightarrow B_k = \text{argmin}_k \text{ cost}(B_k) \text{ subject to } \text{Valid}(B_k) \wedge F \notin B_k$ |
+| Selective invalidation | $\text{Invalidate}(F) \Rightarrow \text{descendants}(F) \text{ only}$ |
+| State preservation | $\text{Recover}(F) \Rightarrow \text{unaffected state unchanged}$ |
+| Basin persistence | $\text{Valid}(B_k) \text{ is preserved across restart}$ |
+| Provenance preservation | $\text{Recover}(F) \Rightarrow \text{provenance}(F) \text{ is recorded in recovery basin}$ |
 
-______________________________________________________________________
+________________________________________________________________________
 
-## 7. Navigation & Bindings
+## 8. Gates
 
-- **Master MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
-- **Partition Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]
-- **Law Hierarchy:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- **Failure Recovery:** [[01_CANON/01_CORE_LAWS/L10_FAILURE_RECOVERY|L10_FAILURE_RECOVERY]]
-- **DMER Level 5:** [[01_CANON/01_CORE_LAWS/DMER_L5|DMER_L5]]
-- **Validation Receipt:** [[01_CANON/01_CORE_LAWS/ROLLBACK_VALIDATION_RECEIPT|ROLLBACK_VALIDATION_RECEIPT]]
-- **Related Laws:** [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]] · [[01_CANON/01_CORE_LAWS/L7_AUTHORITY|L7_AUTHORITY]]
+- **Recovery gate**: Before rollback, verify $B_k$ is valid
+- **Reroute gate**: Before resuming through rerouted path, verify dependency closure
+- **Revalidation gate**: After reroute, revalidate affected claims before promotion to canonical
+- **Basin creation gate**: Only create basins from validated states
 
-______________________________________________________________________
+________________________________________________________________________
 
-## 8. Known Gaps & Falsifiers
+## 9. Falsifiers
 
-- `GAP-RB-001`: Basin snapshot creation assumes a reliable storage substrate; if the substrate itself is corrupted, all basins may be compromised. Mitigated by hash verification but not eliminated.
-- `GAP-RB-002`: The de-escalation path $B_0 \to M_0 \to S_0$ assumes that crisis severity is classifiable before rollback target selection; misclassification may result in insufficient or excessive rollback.
-- `GAP-RB-003`: Re-escalation from $S_0$ requires fresh authority witness; in a fully degraded environment with no available authority, the system remains at $S_0$ indefinitely.
-- **Falsifier:** If any rollback operation produces a state that does not match the target basin hash, the determinism invariant (`RB-2`) is falsified.
+| Falsifier | Description |
+|-----------|-------------|
+| Global reset for local failure | Full system reset when local repair was sufficient |
+| Unaffected state corruption | Recovery operation damages state outside the failed dependency chain |
+| Basin invalidation not detected | Using an invalid basin for recovery without detection |
+| Provenance loss during rollback | Lineage information lost during recovery |
+| Infinite rollback loop | Recovery creates new failures that trigger repeated rollback |
 
-______________________________________________________________________
+________________________________________________________________________
+
+## 10. Integration
+
+- **Control-plane**: Recovery is orchestrated under control-plane authority; unauthorized recovery is prohibited.
+- **Persistent provenance**: Recovery events are recorded in the provenance chain.
+- **Scope-regime firewall**: If a failure involved regime leakage, recovery must also revalidate regime boundaries.
+- **Receipt**: Successful recovery validation emits [[01_CANON/01_CORE_LAWS/ROLLBACK_VALIDATION_RECEIPT|ROLLBACK_VALIDATION_RECEIPT]].
+- **Entropy repair**: Major structural failures may invoke [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_ENTROPY_REPAIR|entropy repair]] protocols.
+
+________________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[01_CANON/01_CORE_LAWS/L10_FAILURE_RECOVERY|L10_FAILURE_RECOVERY]] · [[01_CANON/01_CORE_LAWS/DMER_L5|DMER_L5]]
 
@@ -149,7 +192,7 @@ ______________________________________________________________________
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
-______________________________________________________________________
+________________________________________________________________________
 
 RSCF-NODE
 node_id: rollback_and_recovery_basins
@@ -160,3 +203,6 @@ RSCF-RELATIONS:
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- ENFORCED_BY: [[01_CANON/01_CORE_LAWS/ROLLBACK_VALIDATION_RECEIPT|ROLLBACK_VALIDATION_RECEIPT]]
+- RELATED_TO: [[01_CANON/01_CORE_LAWS/PERSISTENT_PROVENANCE|PERSISTENT_PROVENANCE]]
+- RELATED_TO: [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_ENTROPY_REPAIR|KHUNG_TRANG_ENTROPY_REPAIR]]

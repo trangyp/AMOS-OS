@@ -1,36 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: 06 Biology MOC
-type: moc
-source: 21_DOMAINS/06_BIOLOGY
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 06 Biology Moc
 tags:
-  - 06-biology
-  - canon/domain
-  - absolute-biological-integrity
-  - bei
-  - biological-programming
-  - biology-domains-domain-spec
-  - cross-species-functional-mode-model
-  - domains-interfaces
-  - domains-provenance
-  - nbi
-  - nei
-  - ubi-consentx-integration
-  - ubi-entropy-correction
-  - ubi-fractal-architecture
-  - ubi-id-exchange-integration
-  - ubi-neurosyncai-integration
-  - ubi-omnis
-  - ubi-ratpak-integration
-  - ubi-super
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 06 Biology — Map of Content
@@ -38,14 +23,7 @@ rscf:
 **Path:** `21_DOMAINS/06_BIOLOGY`
 **Files:** 21 | **Subdirectories:** 1
 
-## 1. Domain Specifications & SOTA Research Papers
-
-- [[22_RESEARCH/01_PAPERS/SOTA_SYNTHETIC_BIO_MEMBRANE_COMPUTING_AND_DNA_STRAND_DISPLACEMENT_2026|SOTA_SYNTHETIC_BIO_MEMBRANE_COMPUTING_AND_DNA_STRAND_DISPLACEMENT_2026]] — SOTA research paper on Membrane P Systems, Chemical Reaction Networks (CRNs), and DNA Strand Displacement.
-- [[21_DOMAINS/06_BIOLOGY/BIOLOGY_DOMAINS_DOMAIN_SPEC|BIOLOGY_DOMAINS_DOMAIN_SPEC]] — Comprehensive Biology Domain specification.
-- [[21_DOMAINS/06_BIOLOGY/DOMAINS_BIOLOGY_CONTRACT|DOMAINS_BIOLOGY_CONTRACT]] — Invariant contract.
-- [[05_COGNITIVE_ORGANISM/MORPHOGENETIC_BIOELECTRIC_CELLULAR_AUTOMATA|MORPHOGENETIC_BIOELECTRIC_CELLULAR_AUTOMATA]] — Bioelectric NCAs & gap junctions.
-
-## 2. Core Domain Files
+## Files
 
 - [[05_COGNITIVE_ORGANISM/15_HOMEOSTASIS/ABSOLUTE_BIOLOGICAL_INTEGRITY|ABSOLUTE_BIOLOGICAL_INTEGRITY]]
 - [[21_DOMAINS/06_BIOLOGY/BEI|BEI]]
@@ -71,7 +49,7 @@ rscf:
 
 ## Subdirectories
 
-- [[21_DOMAINS/06_BIOLOGY/00_INDEX/DOMAIN_INDEX_MOC|00_INDEX]] — Subdomain Navigation
+- [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
 ______________________________________________________________________
 

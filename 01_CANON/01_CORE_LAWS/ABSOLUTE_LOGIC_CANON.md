@@ -1,60 +1,16 @@
 ---
-title: Absolute Logic Canon
-type: canon
-source: 01_CANON/01_CORE_LAWS
-artifact: ABSOLUTE_LOGIC_CANON.md
-artifact_id: amos_01_canon_01_core_laws_absolute_logic_canon
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/01_CORE_LAWS
-artifact_kind: LOG
-path: 01_CANON/01_CORE_LAWS/ABSOLUTE_LOGIC_CANON.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Absolute Logic Canon
 tags:
-  - amos-os
-  - canon
-  - core_laws
-  - absolute_logic
-  - deterministic_logic
-  - recursive_reasoning
-  - epistemic_logic
-  - causal_logic
-  - scope_logic
-  - contradiction
-  - competing_hypotheses
-  - provenance
-  - rscf
-  - fractal_knowledge
-  - governance
-  - canon/core_laws
-  - law-hierarchy
-  - provenance-topology-validation-receipt
-  - scope-regime-validation-receipt
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - rollback-validation-receipt
-  - selective-invalidation
-  - fractal-reasoning
-  - mvcc-cas
-  - validation
-  - epistemic-regimes
-version: 1.0.0
-updated: '2026-08-27'
-status: CANON_CANDIDATE
-epistemic_class: AMOS_MODEL
-canonical_status: CANDIDATE_PENDING_VALIDATION
-implementation_status: PARTIAL_OR_NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: AMOS_core_laws
-  confidence_ceiling: SOURCE_DEPENDENT
-  regime: AMOS_OS_MODEL
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # Absolute Logic Canon
@@ -4092,6 +4048,13 @@ RSCF_NODE:
 ```
 ---
 
-**Related:**
+**Related:**  
 
 ---
+
+
+```
+
+```
+```
+```

@@ -1,17 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-date: 2026-08-30
-epistemic_class: OBSERVATION
-provenance: GitHub README, not independently verified
-rscf:
-  claim_class: DERIVED
-  provenance: GitHub README (vercel-labs/skills)
-  scope: AMOS_knowledge
-  state: SOURCE_CLAIM
-source: https://raw.githubusercontent.com/vercel-labs/skills/main/README.md
-title: Vercel Labs skills CLI README — Raw Capture
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Vercel Labs Skills Readme 2026 08 30
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Vercel Labs skills CLI README — Raw Capture
@@ -49,22 +53,22 @@ npx skills use vercel-labs/agent-skills --skill web-design-guidelines --agent cl
 ### Source Formats
 
 ```bash
-## GitHub shorthand (owner/repo)
+# GitHub shorthand (owner/repo)
 npx skills add vercel-labs/agent-skills
 
-## Full GitHub URL
+# Full GitHub URL
 npx skills add https://github.com/vercel-labs/agent-skills
 
-## Direct path to a skill in a repo
+# Direct path to a skill in a repo
 npx skills add https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guidelines
 
-## GitLab URL
+# GitLab URL
 npx skills add https://gitlab.com/org/repo
 
-## Any git URL
+# Any git URL
 npx skills add git@github.com:vercel-labs/agent-skills.git
 
-## Local path
+# Local path
 npx skills add ./my-local-skills
 ```
 
@@ -73,14 +77,14 @@ npx skills add ./my-local-skills
 Use the same command for public and private repositories. The CLI uses the authentication already configured for the repository URL:
 
 ```bash
-## GitHub shorthand or HTTPS (Git credential helper, GitHub CLI, then SSH fallback)
+# GitHub shorthand or HTTPS (Git credential helper, GitHub CLI, then SSH fallback)
 npx skills add acme/private-skills
 
-## SSH on GitHub, GitLab, or another Git host
+# SSH on GitHub, GitLab, or another Git host
 npx skills add git@github.com:acme/private-skills.git
 npx skills add ssh://git@git.example.com/acme/private-skills.git
 
-## HTTPS on any Git host (uses your configured Git credential helper)
+# HTTPS on any Git host (uses your configured Git credential helper)
 npx skills add https://git.example.com/acme/private-skills.git
 ```
 
@@ -105,31 +109,31 @@ For GitHub tree lookups, `skills` first tries the API anonymously, then an expli
 ### Examples
 
 ```bash
-## List skills in a repository
+# List skills in a repository
 npx skills add vercel-labs/agent-skills --list
 
-## Install specific skills
+# Install specific skills
 npx skills add vercel-labs/agent-skills --skill frontend-design --skill skill-creator
 
-## Install a skill with spaces in the name (must be quoted)
+# Install a skill with spaces in the name (must be quoted)
 npx skills add owner/repo --skill "Convex Best Practices"
 
-## Install to specific agents
+# Install to specific agents
 npx skills add vercel-labs/agent-skills -a claude-code -a opencode
 
-## Non-interactive installation (CI/CD friendly)
+# Non-interactive installation (CI/CD friendly)
 npx skills add vercel-labs/agent-skills --skill frontend-design -g -a claude-code -y
 
-## Install all skills from a repo to all agents
+# Install all skills from a repo to all agents
 npx skills add vercel-labs/agent-skills --all
 
-## Install all skills to specific agents
+# Install all skills to specific agents
 npx skills add vercel-labs/agent-skills --skill '*' -a claude-code
 
-## Install specific skills to all agents
+# Install specific skills to all agents
 npx skills add vercel-labs/agent-skills --agent '*' --skill frontend-design
 
-## Install from a direct SKILL.md or archive download URL
+# Install from a direct SKILL.md or archive download URL
 npx skills add https://example.com/download/my-skill
 ```
 
@@ -167,13 +171,13 @@ When installing interactively, you can choose:
 List all installed skills. Similar to `npm ls`.
 
 ```bash
-## List all installed skills (project and global)
+# List all installed skills (project and global)
 npx skills list
 
-## List only global skills
+# List only global skills
 npx skills ls -g
 
-## Filter by specific agents
+# Filter by specific agents
 npx skills ls -a claude-code -a cursor
 ```
 
@@ -182,33 +186,33 @@ npx skills ls -a claude-code -a cursor
 Search for skills interactively or by keyword.
 
 ```bash
-## Interactive search (fzf-style)
+# Interactive search (fzf-style)
 npx skills find
 
-## Search by keyword
+# Search by keyword
 npx skills find typescript
 
-## Search across every repository owned by an organization or user
+# Search across every repository owned by an organization or user
 npx skills find react --owner vercel
 ```
 
 ### `skills update`
 
 ```bash
-## Update all skills (interactive scope prompt)
+# Update all skills (interactive scope prompt)
 npx skills update
 
-## Update a single skill by name
+# Update a single skill by name
 npx skills update my-skill
 
-## Update multiple specific skills
+# Update multiple specific skills
 npx skills update frontend-design web-design-guidelines
 
-## Update only global or project skills
+# Update only global or project skills
 npx skills update -g
 npx skills update -p
 
-## Non-interactive (auto-detects scope: project if in a project, else global)
+# Non-interactive (auto-detects scope: project if in a project, else global)
 npx skills update -y
 ```
 
@@ -222,10 +226,10 @@ npx skills update -y
 ### `skills init`
 
 ```bash
-## Create SKILL.md in current directory
+# Create SKILL.md in current directory
 npx skills init
 
-## Create a new skill in a subdirectory
+# Create a new skill in a subdirectory
 npx skills init my-skill
 ```
 
@@ -234,31 +238,31 @@ npx skills init my-skill
 Remove installed skills from agents.
 
 ```bash
-## Remove interactively (select from installed skills)
+# Remove interactively (select from installed skills)
 npx skills remove
 
-## Remove specific skill by name
+# Remove specific skill by name
 npx skills remove web-design-guidelines
 
-## Remove multiple skills
+# Remove multiple skills
 npx skills remove frontend-design web-design-guidelines
 
-## Remove from global scope
+# Remove from global scope
 npx skills remove --global web-design-guidelines
 
-## Remove from specific agents only
+# Remove from specific agents only
 npx skills remove --agent claude-code cursor my-skill
 
-## Remove all installed skills without confirmation
+# Remove all installed skills without confirmation
 npx skills remove --all
 
-## Remove all skills from a specific agent
+# Remove all skills from a specific agent
 npx skills remove --skill '*' -a cursor
 
-## Remove a specific skill from all agents
+# Remove a specific skill from all agents
 npx skills remove my-skill --agent '*'
 
-## Use 'rm' alias
+# Use 'rm' alias
 npx skills rm my-skill
 ```
 
@@ -386,7 +390,7 @@ name: my-skill
 description: What this skill does and when to use it
 ---
 
-## My Skill
+# My Skill
 
 Instructions for the agent to follow when this skill is activated.
 
@@ -557,7 +561,7 @@ Ensure you have write access to the target directory.
 | `GH_TOKEN`                | Fallback explicit token for authenticated GitHub API requests              |
 
 ```bash
-## Install internal skills
+# Install internal skills
 INSTALL_INTERNAL_SKILLS=1 npx skills add vercel-labs/agent-skills --list
 ```
 

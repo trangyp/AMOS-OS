@@ -1,30 +1,21 @@
 ---
-title: MODE INDEX COMMIT CONTROL PLANE README
-type: index
-source: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Mode Index Commit Control Plane Readme
 tags:
-  - control-plane
-  - 00_mode_index
-  - canon/control-plane
-  - readme
-  - mode-admission-queue
-  - mode-coverage-matrix
-  - mode-dependency-graph
-  - mode-discovery-queue
-  - mode-extension-protocol
-  - mode-ontology
-  - mode-placeholder-audit-2026-08-25
-  - mode-revalidation-schedule
-  - mode-transition-matrix
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # MODE INDEX COMMIT CONTROL PLANE README

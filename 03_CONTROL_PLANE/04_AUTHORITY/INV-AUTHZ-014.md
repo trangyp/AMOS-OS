@@ -1,96 +1,104 @@
 ---
-title: INV-AUTHZ-014 — Monotonic Provenance Ledger
-type: authority_invariant
-source: 03_CONTROL_PLANE/04_AUTHORITY
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_INVARIANT
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT
-    - 01_CANON/01_CORE_LAWS/LAW_HIERARCHY
-  scope: authority_governance
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Inv Authz 014
 tags:
-  - amos-os
-  - authority
-  - invariant
-  - control-plane
-  - inv-authz-014
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# INV-AUTHZ-014 — Monotonic Provenance Ledger
+# INV-AUTHZ-014
 
-## 1. Formal Specification
+## 0. Status
 
-> **Invariant Statement:**
-> `Provenance records are strictly append-only; historical provenance cannot be overwritten or truncated.`
+Control Plane-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
 
-## 2. Invariant Rule & Mathematical Formulation
+## 1. Purpose
 
-Let $\mathcal{L}$ be the provenance ledger, $\text{Append}(r)$ the append operation for record $r$, and $\text{Modify}(r_i)$ the modification operation on record $r_i$:
+`INV-AUTHZ-014` defines typed artifact specification, serving the Control Plane plane's obligation: governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback.
 
-$$\forall r_i \in \mathcal{L}, \quad \text{Modify}(r_i) = \text{False} \quad \text{(no modification allowed)}$$
+## 2. Semantics
 
-$$\forall r_i \in \mathcal{L}, \quad \text{Delete}(r_i) = \text{False} \quad \text{(no deletion allowed)}$$
+- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
+- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
+- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
 
-The only valid operation on the ledger is append:
+## 3. Failure modes guarded
 
-$$\text{Valid}(\text{Op}(\mathcal{L})) \iff \text{Op} = \text{Append}$$
+STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
 
-The ledger forms a hash chain ensuring tamper-evidence:
+## 4. Validation
 
-$$\text{Hash}(r_i) = \text{BLAKE3}(\text{Content}(r_i) \parallel \text{Hash}(r_{i-1}))$$
+No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
 
-Any modification to a historical record breaks the chain:
+## 5. Gaps
 
-$$\text{VerifyChain}(\mathcal{L}) = \bigwedge_{i=1}^{n} \text{Hash}(r_i) = \text{BLAKE3}(\text{Content}(r_i) \parallel \text{Hash}(r_{i-1}))$$
+Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
 
-## 3. Enforcement & Verification
+## 6. Falsifiers
 
-- **Evaluation Point:** Evaluated at the storage layer whenever a provenance ledger operation is requested. The storage layer only accepts append operations and rejects any modification or deletion of existing records.
-- **Violation Consequence:** If a modification or deletion of a provenance record is attempted, the operation is rejected. A `PROVENANCE_TAMPER_ATTEMPT` receipt is emitted to `17_OBSERVABILITY`. The attempting agent is flagged for investigation.
-- **Recovery Procedure:** No recovery is needed for the ledger itself, since the tamper attempt was blocked. The flagged agent must be reviewed by a gatekeeper. If the ledger chain is somehow broken (hardware failure), a full audit and reconstruction from backup is required.
-- **Verification Cadence:** Synchronous at every ledger operation. A periodic background audit verifies the full hash chain integrity.
-- **Governed By:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
 
-## 4. Attack Vectors & Mitigations
+## Worked semantics
 
-- **Historical Record Modification:** An attacker modifies a provenance record to alter the audit trail. Mitigated by the append-only storage layer that rejects modification operations and by the hash chain that detects any tampering.
-- **Ledger Truncation:** An attacker deletes old provenance records to remove evidence of past actions. Mitigated by the append-only constraint that prevents deletion and by periodic chain verification.
-- **Chain Forking:** An attacker creates a fork of the ledger from an intermediate point to present an alternative history. Mitigated by the hash chain that makes any fork detectable through chain comparison.
-- **Storage Layer Bypass:** An attacker bypasses the storage layer to directly modify the underlying storage. Mitigated by filesystem-level write protections and by the chain verification that detects any direct modifications.
+Given an operation touching `INV-AUTHZ-014` within the Control Plane plane:
 
-## 5. Dependencies & Prerequisites
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-020|INV-AUTHZ-020]] — Audit trail immutability provides the storage-level enforcement of append-only semantics.
-- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-044|INV-AUTHZ-044]] — Merkle tree proof verification enables efficient chain integrity verification.
-- **Requires:** A storage layer with append-only enforcement capability (WORM storage or equivalent).
-- **Requires:** BLAKE3 hashing infrastructure for hash chain computation.
+## Promotion-gate checklist
 
-## 6. Provenance & Audit Trail
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-- **Receipt Type:** `PROVENANCE_APPEND_RECEIPT` — emitted for every successful append to the provenance ledger, recording the appended content, hash, and chain link.
-- **Storage Location:** `17_OBSERVABILITY` with the provenance ledger itself being the primary artifact.
-- **Receipt Fields:** Record content, previous hash, current hash, append timestamp, appending agent identity, epoch, BLAKE3 hash.
-- **Immutability:** The provenance ledger is itself the immutable artifact — it is protected by its own append-only constraint and by [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-020|INV-AUTHZ-020]].
+## Cross-plane bindings
 
-## 7. Related Invariants
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-008|INV-AUTHZ-008]] — Non-Repudiation of Tool Receipts
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-020|INV-AUTHZ-020]] — Audit Trail Immutability
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-033|INV-AUTHZ-033]] — Archive Before Destruction
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-041|INV-AUTHZ-041]] — Episodic Trace Retention
-- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-044|INV-AUTHZ-044]] — Merkle Tree Proof Verification
+______________________________________________________________________
 
-## 8. Navigation & Bindings
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
-- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
-- **Control Plane Contract:** [[03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT|CONTROL_PLANE_CONTRACT]]
-- **Canon Law Hierarchy:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- **Kernel:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
-- **Observability:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]
+______________________________________________________________________
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: cp_03_control_plane_04_authority_inv_authz_014_md
+node_type: note
+path: 03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-014.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04_AUTHORITY_MOC]]
+
+______________________________________________________________________
+
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

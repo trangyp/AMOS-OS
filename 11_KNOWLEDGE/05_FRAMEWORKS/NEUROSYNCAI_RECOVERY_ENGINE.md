@@ -1,68 +1,21 @@
 ---
-title: NeurosyncAI Recovery Engine
-type: neurosyncai
-source: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact: NEUROSYNCAI_RECOVERY_ENGINE.md
-artifact_id: amos_11_knowledge_05_frameworks_neurosyncai_recovery_engine
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 11_KNOWLEDGE
-segment: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact_kind: ENGINE
-path: 11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_RECOVERY_ENGINE.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Neurosyncai Recovery Engine
 tags:
-  - amos-os
-  - knowledge
-  - vault
-  - 05_frameworks
-  - neurosyncai_recovery_engine
-  - fatigue_recovery
-  - autonomic_reset
-  - flow_restoration
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-  - neurosyncai-master
-  - neurosyncai-framework
-  - ubi-entropy-correction
-  - phuong-phap-trang
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - NEUROSYNCAI_FRAMEWORK
-    - UBI_NEUROSYNCAI_BINDING
-    - AMOS_CORPUS
-  scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - RECOVERY_ENGINES
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  master:
-    artifact:
-      -   - NEUROSYNCAI_MASTER
-  framework:
-    artifact:
-      -   - NEUROSYNCAI_FRAMEWORK
-  entropy_correction:
-    artifact:
-      -   - UBI_ENTROPY_CORRECTION
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  framework_structure: VERIFIED_SOURCE_STRUCTURE
-  recovery_model: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # NeurosyncAI Recovery Engine

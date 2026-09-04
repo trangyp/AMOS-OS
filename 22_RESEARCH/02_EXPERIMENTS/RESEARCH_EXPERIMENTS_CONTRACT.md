@@ -1,107 +1,105 @@
 ---
-title: "Research Experiments Contract — Empirical Protocol & Statistical Rigor Specification"
-type: subplane_contract
-plane: 22_RESEARCH
-subplane: 02_EXPERIMENTS
-domain: F_ASSURANCE_LIFECYCLE_EVIDENCE
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 22_RESEARCH/22_RESEARCH_MOC
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-    - 19_TESTS/TESTS_TEST_CONTRACT
-  scope: empirical_experimentation_and_hypothesis_testing
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Research Experiments Contract
 tags:
-  - amos-os
-  - 22-research
-  - experiments
-  - empirical-protocol
-  - hypothesis-testing
-  - power-analysis
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Research Experiments Contract — Empirical Protocol & Statistical Rigor Specification
+# RESEARCH EXPERIMENTS CONTRACT
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Domain Alignment:** Domain F (Assurance, Learning & Lifecycle Evidence)
-> **Conclusion Class:** `DERIVED` (RSCF Validated)
-> **Status:** `ACTIVE_SPECIFICATION`
+## 0. Status
 
----
+Research-plane contract for **EXPERIMENTS CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
-## 1. Architectural Scope & Mission
+## 1. Scope
 
-`22_RESEARCH/02_EXPERIMENTS` defines the mandatory empirical methodologies, pre-registration protocols, experimental design topologies, and statistical power requirements for all scientific, computational, and neurotechnological experiments conducted within AMOS OS.
+Governs research questions, experiments, competing models, validation, benchmarks as they bear on `EXPERIMENTS CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
 
-```text
-CORRELATION != CAUSATION
-STATISTICAL_SIGNIFICANCE != PRACTICAL_EFFECT_SIZE
-SINGLE_TRIAL != REPRODUCIBLE_PHENOMENON
-SIMULATION != PHYSICAL_GROUND_TRUTH
-```
+## 2. Contract terms
 
----
+- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
+- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
+- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
+- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
+- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
 
-## 2. Experimental Lifecycle & Pre-Registration Protocol
+## 3. Invariants
 
-Every experiment must complete a pre-registered lifecycle before any empirical claim can be promoted from `HYPOTHESIS` to `OBSERVATION` or `DERIVED`:
+- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
+- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
+- Consequential effects emit receipts; rollback basin exists before mutation.
+- Competing hypotheses remain visible when evidence does not discriminate.
 
-```mermaid
-stateDiagram-v2
-    [*] --> HYPOTHESIS_FORMULATION: Define H0 & H1
-    HYPOTHESIS_FORMULATION --> PRE_REGISTRATION: Seal BLAKE3 Hash of Protocol
-    PRE_REGISTRATION --> POWER_ANALYSIS: Calculate N (Power >= 0.80, alpha <= 0.01)
-    POWER_ANALYSIS --> DATA_COLLECTION: Double-Blind Execution
-    DATA_COLLECTION --> STATISTICAL_TESTING: Bayes Factor & p-value Analysis
-    STATISTICAL_TESTING --> REPLICATION: Independent Seed Re-run
-    REPLICATION --> SYNTHESIS_COMMITTED: Emit RSCF Evidence Capsule
-    SYNTHESIS_COMMITTED --> [*]
-```
+## 4. Executed reference
 
----
+No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
 
-## 3. Mathematical & Statistical Formulations
+## 5. Gaps
 
-### 3.1 Pre-Hoc Statistical Power Sizing
-Sample sizes $N$ are computed to ensure statistical power $(1 - \beta) \ge 0.80$ at significance level $\alpha \le 0.01$:
+Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
 
-$$N \ge 2 \left( \frac{z_{1 - \alpha/2} + z_{1 - \beta}}{\delta_{\text{effect}}} \right)^2 + \frac{z_{1 - \alpha/2}^2}{2}$$
+## 6. Falsifiers
 
-Where $\delta_{\text{effect}} = \frac{\mu_1 - \mu_0}{\sigma_{\text{pooled}}}$ is Cohen's $d$.
+F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
 
-### 3.2 Bayesian Evidence Updating (Bayes Factor $BF_{10}$)
-To avoid $p$-hacking artifacts, hypothesis support is evaluated via Bayes Factor:
+## Worked semantics
 
-$$BF_{10} = \frac{P(\mathcal{D} \mid \mathcal{H}_1)}{P(\mathcal{D} \mid \mathcal{H}_0)} = \frac{\int P(\mathcal{D} \mid \theta, \mathcal{H}_1) \pi(\theta \mid \mathcal{H}_1)\, d\theta}{\int P(\mathcal{D} \mid \theta_0, \mathcal{H}_0) \pi(\theta_0 \mid \mathcal{H}_0)\, d\theta_0}$$
+Given an operation touching `RESEARCH · EXPERIMENTS CONTRACT` within the Research plane:
 
-| Bayes Factor ($BF_{10}$) | Epistemic Classification | Action Gate |
-| :--- | :--- | :--- |
-| $> 100$ | Decisive Evidence for $\mathcal{H}_1$ | Eligible for `DERIVED` promotion |
-| $10 - 100$ | Strong Evidence for $\mathcal{H}_1$ | Eligible for `OBSERVATION` status |
-| $1 - 10$ | Anecdotal / Weak Evidence | Remains `COMPETING` |
-| $< 1$ | Evidence for $\mathcal{H}_0$ (Null) | Rejects $\mathcal{H}_1$, closes investigation |
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
----
+## Promotion-gate checklist
 
-## 4. Invariants & Guardrails
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-1. **Pre-Registration Immutability:** The BLAKE3 hash of experimental parameters, seeds, and analysis code must be committed to `17_OBSERVABILITY` prior to data generation.
-2. **Double-Blind Tool Routing:** Evaluator agents must not observe the generation model identity during benchmark or output grading.
-3. **Reproducibility Guarantee:** All synthetic experiments must achieve identical numerical outcomes across $\ge 3$ deterministic seeds ($\sigma \in \{\sigma_1, \sigma_2, \sigma_3\}$).
+## Cross-plane bindings
 
----
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-## 5. Lineage & Cross-Plane References
+______________________________________________________________________
 
-- **Parent MOC:** [[22_RESEARCH/22_RESEARCH_MOC|22_RESEARCH_MOC]] · [[22_RESEARCH/02_EXPERIMENTS/02_EXPERIMENTS_MOC|02_EXPERIMENTS_MOC]]
-- **Competing Models:** [[22_RESEARCH/03_COMPETING_MODELS/RESEARCH_COMPETING_MODELS_CONTRACT|RESEARCH_COMPETING_MODELS_CONTRACT]]
-- **Validation Engine:** [[22_RESEARCH/04_VALIDATION/RESEARCH_VALIDATION_CONTRACT|RESEARCH_VALIDATION_CONTRACT]]
-- **Test Invariants:** [[19_TESTS/TESTS_TEST_CONTRACT|19_TESTS]]
-- **Observability Tracing:** [[17_OBSERVABILITY/OBSERVABILITY_OBSERVABILITY_CONTRACT|17_OBSERVABILITY]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+
+______________________________________________________________________
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: amos_22_research_02_experiments_research_experiments_contract_md
+node_type: note
+path: 22_RESEARCH/02_EXPERIMENTS/RESEARCH_EXPERIMENTS_CONTRACT.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[22_RESEARCH/02_EXPERIMENTS/02_EXPERIMENTS_MOC|02_EXPERIMENTS_MOC]]

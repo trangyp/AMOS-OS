@@ -1,126 +1,16 @@
 ---
-title: ULK x RSCF Cross-Plane Matrix Table
-aliases:
-  - ULK × RSCF Cross-Plane Matrix
-  - ULK x RSCF Matrix
-  - ULK RSCF Matrix
-  - ULK RSCF Cross-Plane Matrix Table
-type: cognitive
-source: 25_COGNITIVE_MATRIX
-artifact: ULK_X_RSCF_MATRIX.md
-artifact_id: amos_25_cognitive_matrix_ulk_x_rscf_matrix
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 25_COGNITIVE_MATRIX
-segment: 25_COGNITIVE_MATRIX
-artifact_kind: MATRIX_TABLE
-path: 25_COGNITIVE_MATRIX/ULK_X_RSCF_MATRIX.md
-version: 2.0.0
-updated: '2026-08-28'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: PASSED_CONSTITUTIONAL_TESTS
-executable_binding: ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Ulk X Rscf Matrix
 tags:
-  - amos-os
-  - cognitive-matrix
-  - vault
-  - ulk_x_rscf
-  - ulk_x_rscf_matrix
-  - matrix_table
-  - cross-plane
-  - cross_plane_matrix
-  - universal_logic_kernel
-  - ulk
-  - logic_kernel
-  - rscf
-  - rscf_node
-  - recursive_structure
-  - recursive_reasoning
-  - deterministic_logic
-  - alu
-  - alu_operator
-  - ground_state
-  - distinction
-  - regime
-  - relational_coupling
-  - tensor_coupling
-  - constitutional_projection
-  - type_system
-  - state_hash
-  - sha256
-  - merkle_verification
-  - fail_closed
-  - scope_firewall
-  - invariant
-  - invariant_verification
-  - type_safety
-  - provenance
-  - provenance_aware
-  - source_grounded
-  - source_claim
-  - amos_model
-  - canon_candidate
-  - active_reference
-  - conceptual_source_defined
-  - executable_binding
-  - constitutional_tests
-  - epistemic_boundary
-  - verification
-  - verification_matrix
-  - governance
-  - integrity
-  - causal_firewall
-  - scope_firewall
-  - fractal_knowledge_network
-  - hml
-  - domain/cognitive-matrix
-  - canon/ulk
-  - canon/rscf
-  - ulk-x-rscf
-  - ulk-logic-kernel
-  - k-fail-closed
-  - k-provenance
-framework_binding:
-  matrix_spec:
-    artifact:
-      -   - ULK_X_RSCF
-  ulk:
-    artifact:
-      -   - ULK_LOGIC_KERNEL
-  cognitive_matrix:
-    artifact:
-      -   - 25_COGNITIVE_MATRIX_MOC
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - 25_COGNITIVE_MATRIX/ULK_X_RSCF_MATRIX.md
-    - '[[25_COGNITIVE_MATRIX/ULK_X_RSCF|ULK_X_RSCF]]'
-    - '[[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]]'
-    - AMOS_CORPUS
-  scope:
-    - COGNITIVE_MATRIX
-    - ULK_RSCF_INTEGRATION
-    - LOGIC_TO_RSCF_MAPPING
-    - VERIFICATION
-    - FAIL_CLOSED_GOVERNANCE
-    - SOURCE_DEFINED_MODEL
-epistemic_boundary:
-  artifact_presence: VERIFIED_SOURCE_PRESENCE
-  matrix_rows: VERIFIED_SOURCE_STRUCTURE
-  alu_operator_mapping: SOURCE_DEFINED_MODEL
-  generated_rscf_sections: SOURCE_BLANK_UNRESOLVED
-  verification_checks: SOURCE_DEFINED_MODEL
-  fail_closed_fallbacks: SOURCE_DEFINED_MODEL
-  runtime_implementation: NOT_INDEPENDENTLY_VERIFIED
-  mathematical_completeness: NOT_ESTABLISHED_BY_THIS_ARTIFACT
-  executable_binding: SOURCE_DECLARED_ESTABLISHED_NOT_INDEPENDENTLY_REVALIDATED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # ULK × RSCF Cross-Plane Matrix Table
@@ -2334,7 +2224,7 @@ ______________________________________________________________________
 
 ## 64. Dataview — ULK × RSCF Family
 
-```text
+```dataview
 TABLE
   artifact_kind AS "Kind",
   version AS "Version",
@@ -2349,7 +2239,7 @@ ______________________________________________________________________
 
 ## 65. Dataview — ULK Artifacts
 
-```text
+```dataview
 TABLE
   title AS "Artifact",
   plane AS "Plane",
@@ -2364,7 +2254,7 @@ ______________________________________________________________________
 
 ## 66. Dataview — RSCF Artifacts
 
-```text
+```dataview
 TABLE
   title AS "Artifact",
   plane AS "Plane",
@@ -2378,7 +2268,7 @@ ______________________________________________________________________
 
 ## 67. Dataview — Fail-Closed Artifacts
 
-```text
+```dataview
 TABLE
   title AS "Artifact",
   plane AS "Plane",
@@ -2392,7 +2282,7 @@ ______________________________________________________________________
 
 ## 68. Dataview — Cognitive Matrix Family
 
-```text
+```dataview
 TABLE
   artifact AS "Artifact",
   artifact_kind AS "Kind",

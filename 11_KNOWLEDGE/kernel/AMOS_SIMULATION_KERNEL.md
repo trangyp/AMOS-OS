@@ -1,200 +1,217 @@
 ---
-title: amos-simulation-kernel
-created: '2026-08-22'
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-type: bridge
-source: 11_KNOWLEDGE/kernel
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Simulation Kernel
 tags:
-  - canon-group/human-system
-  - canon/model
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
-  - rscf/state/observation
-  - topic/amos-simulation-kernel
-  - kernel
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-canonical_status: CANONICAL_KERNEL
-updated: 2026-09-04
-provenance: SOURCE_CLAIM
-confidence: VERIFIED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Simulation Kernel
 
-> **Origin Architect / Steward:** Trang Phan
-> **Epistemic Class:** `AMOS_MODEL`
-> **Conclusion Class:** `DERIVED`
-> **Status:** `ACTIVE_SPECIFICATION`
-> **Governing Plane:** `11_KNOWLEDGE/kernel`
-
-> Bridge note -- resolves the `amos-simulation-kernel` link from the Cosmo Brain MOC / daily notes to the real skill in the vault.
-> **Location:** `.devin/skills/amos-simulation-kernel`
+> [!abstract] Kernel Specification
+> Defines the world-model simulation framework for AMOS: counterfactual evaluation, sim-world isolation, forward projection, and Monte Carlo methods. This is the AMOS reasoning/spec pattern for simulation — **not** a claim that AMOS OS executes a live simulation runtime (per AGENTS.md invariant 4).
 
 ---
 
-## 1. Architectural Scope
+## 1. Purpose
 
-The **AMOS Simulation Kernel** defines the core algorithms, data structures, and computational guarantees for simulation-based reasoning within the AMOS OS. It provides discrete-event simulation, continuous-time simulation, Monte Carlo methods, agent-based modeling, and counterfactual scenario generation.
+The Simulation Kernel provides:
 
-This kernel exists to provide the **computational substrate** for all simulation operations, enabling the OS to project outcomes under different scenarios, test hypotheses against simulated data, and explore counterfactual spaces. It enforces the distinction between simulated and observed outcomes.
+- A structured world-model for simulating system behavior under hypothetical conditions
+- Counterfactual evaluation ("what-if" analysis) for decision support
+- Sim-world isolation to prevent simulation artifacts from contaminating live state
+- Forward projection for trajectory planning and outcome estimation
+- Monte Carlo methods for uncertainty propagation through complex systems
 
-**Epistemic Boundary:**
+This kernel consumes outputs from [[11_KNOWLEDGE/kernel/COGNITION_KERNEL|COGNITION_KERNEL]] (scenario trees, hypothesis sets) and [[11_KNOWLEDGE/kernel/AMOS_PROBABILITY_STATISTICS_KERNEL|AMOS_PROBABILITY_STATISTICS_KERNEL]] (distributions, uncertainty models).
+
+---
+
+## 2. World-Model Representation
+
+### 2.1 Simulation State
+
+A simulation state $S_{sim}$ is a snapshot of the system at a given time:
+
+$$S_{sim} = (X, \Theta, D, T)$$
+
+| Component | Symbol | Definition |
+| :--- | :--- | :--- |
+| **State variables** | $X = \{x_1, \ldots, x_n\}$ | Observable and latent system variables |
+| **Parameters** | $\Theta = \{\theta_1, \ldots, \theta_k\}$ | Fixed or slowly-changing model parameters |
+| **Distributions** | $D = \{d_1, \ldots, d_m\}$ | Probability distributions over stochastic variables |
+| **Time index** | $T$ | Simulation clock (discrete epochs or continuous time) |
+
+### 2.2 Transition Model
+
+State transitions in simulation follow a dynamics function:
+
+$$X_{t+1} = f(X_t, \Theta_t, \epsilon_t)$$
+
+where $\epsilon_t \sim D_t$ represents stochastic noise. The dynamics function $f$ is derived from:
+
+- AMOS kernel specifications (logical constraints, control laws)
+- Domain-specific models (business, technical, operational)
+- Empirical data (fitted parameters from historical observations)
+
+---
+
+## 3. Counterfactual Evaluation
+
+### 3.1 Counterfactual Structure
+
+A counterfactual query asks: "If condition $C$ had been true, what would outcome $O$ be?"
+
+$$P(O \mid \text{do}(C), \text{background})$$
+
+using the do-operator (intervention) rather than conditional probability:
+
+- $P(O \mid C)$: Observational — what we see when $C$ is true
+- $P(O \mid \text{do}(C))$: Intervential — what happens when we force $C$ to be true
+
+### 3.2 Counterfactual Pipeline
+
+The counterfactual pipeline: (1) define intervention $\text{do}(C)$, (2) apply to baseline state $S_0$ to obtain $S_0'$, (3) forward-project $S_0' \rightarrow S_1' \rightarrow \ldots \rightarrow S_n'$, (4) extract outcome $O$ from simulated trajectory, (5) compare counterfactual $O$ vs baseline $O$.
+
+### 3.3 Identification Assumptions
+
+Counterfactual evaluation requires: a causal model (DAG or structural equation model), no unmeasured confounders, and consistency ($\text{do}(C = c)$ produces the same state as observing $C = c$ when $C$ is exogenous). These assumptions are flagged as `SOURCE_CLAIM` and must be validated before simulation results are promoted.
+
+---
+
+## 4. Sim-World Isolation
+
+### 4.1 Isolation Invariant
+
+Simulation artifacts must never contaminate live system state:
+
+$$S_{sim} \cap S_{live} = \emptyset \quad \text{(state isolation)}$$
+
+This is enforced by:
+
+- Separate memory spaces for simulation and live state
+- No write-back from simulation to live state without explicit authority gate
+- Simulation outputs classified as `PROPOSAL` until committed through the [[03_CONTROL_PLANE|CONTROL_PLANE]]
+
+### 4.2 Simulation Reentry Protocol
+
+When simulation results influence live decisions: (1) classify result as `PROPOSAL`, not `DECISION`, (2) validate identification assumptions, (3) obtain control-plane approval via authority gate, (4) commit to live state via RSCF transition `PROPOSAL → DECISION`.
+
+---
+
+## 5. Forward Projection
+
+### 5.1 Deterministic Projection
+
+For deterministic dynamics $f$:
+
+$$X_{t+k} = f^k(X_t, \Theta)$$
+
+where $f^k$ denotes $k$ applications of $f$. Used when stochastic noise is negligible or when computing expected trajectories.
+
+### 5.2 Stochastic Projection
+
+For stochastic dynamics with noise $\epsilon_t \sim D$:
+
+$$X_{t+k} = f(X_{t+k-1}, \Theta, \epsilon_{t+k-1})$$
+
+Multiple realizations produce a distribution of possible trajectories, enabling uncertainty quantification over future states.
+
+### 5.3 Horizon and Discounting
+
+Simulation horizons are bounded:
+
+$$H = \min(H_{\max}, H_{\text{decision}})$$
+
+where $H_{\max}$ is a computational limit and $H_{\text{decision}}$ is the decision-relevant horizon. Future outcomes may be discounted:
+
+$$V_{\text{total}} = \sum_{t=0}^{H} \gamma^t \cdot V(X_t), \quad 0 < \gamma \leq 1$$
+
+---
+
+## 6. Monte Carlo Methods
+
+### 6.1 Monte Carlo Estimation
+
+For a quantity of interest $\theta = \mathbb{E}[g(X)]$:
+
+$$\hat{\theta} = \frac{1}{N} \sum_{i=1}^N g(X^{(i)})$$
+
+where $X^{(i)} \sim P(X)$ are $N$ independent samples. Convergence rate:
+
+$$\text{SE}(\hat{\theta}) = \frac{\sigma_g}{\sqrt{N}}$$
+
+### 6.2 Variance Reduction
+
+AMOS supports variance reduction: importance sampling (rare events), control variates (analytically-solvable analogous problems), antithetic variates (symmetric distributions), and stratified sampling (known population structure).
+
+### 6.3 Convergence Diagnostics
+
+Monte Carlo runs are terminated when:
+
+$$\text{SE}(\hat{\theta}) < \epsilon_{\text{tol}}$$
+
+or when the confidence interval width is below the decision threshold. Failure to converge within budget flags the result as `UNKNOWN/GAP`.
+
+---
+
+## 7. Failure Modes
+
+| Failure | Detection | Recovery |
+| :--- | :--- | :--- |
+| Sim-world contamination | Write attempt from sim to live state | Block write; alert control plane |
+| Non-convergence | SE > $\epsilon_{\text{tol}}$ after budget exhausted | Flag as `UNKNOWN/GAP`; request more samples |
+| Model misspecification | Simulated outputs diverge from observations | Recalibrate model; flag discrepancy |
+| Identification violation | Confounders detected post-hoc | Invalidate counterfactual; reclassify as observational |
+| Horizon truncation | Decision-relevant event beyond $H$ | Extend horizon or flag limitation |
+
+---
+
+## 8. Integration Points
+
+| Interface | Direction | Contract |
+| :--- | :--- | :--- |
+| [[11_KNOWLEDGE/kernel/COGNITION_KERNEL\|COGNITION_KERNEL]] | Read | Scenario trees and hypothesis sets as simulation inputs |
+| [[11_KNOWLEDGE/kernel/AMOS_PROBABILITY_STATISTICS_KERNEL\|AMOS_PROBABILITY_STATISTICS_KERNEL]] | Read/Write | Distributions for stochastic simulation; outputs update distributions |
+| [[11_KNOWLEDGE/kernel/AMOS_CONTROL_SYSTEMS_KERNEL\|AMOS_CONTROL_SYSTEMS_KERNEL]] | Read/Write | Simulated states for feedforward control; control laws constrain dynamics |
+| [[11_KNOWLEDGE/kernel/LOGIC_KERNEL\|LOGIC_KERNEL]] | Read | Logical constraints define valid simulation states |
+| [[03_CONTROL_PLANE\|CONTROL_PLANE]] | Write | Simulation proposals submitted for authority gating |
+| [[11_KNOWLEDGE/kernel/AMOS_COUNTERFACTUAL_REASONING_KERNEL\|AMOS_COUNTERFACTUAL_REASONING_KERNEL]] | Read/Write | Counterfactual reasoning framework |
+
+---
+
+```RSCF-NODE
+node_id: simulation_kernel_knowledge_spec
+node_type: kernel_specification
+domain: 11_KNOWLEDGE/kernel
+claim_class: AMOS_MODEL
+confidence_ceiling:
+  world_model: high
+  counterfactual_evaluation: high
+  sim_world_isolation: high
+  monte_carlo_convergence: high
+falsifiers:
+  - Simulation artifact contaminates live state
+  - Counterfactual result promoted without identification validation
+  - Monte Carlo run converges to wrong value due to model misspecification
 ```
-MODEL != OBSERVATION
-DOCUMENTED != IMPLEMENTED
-CAPABILITY != AUTHORITY
-SIMULATION != REALITY
-COUNTERFACTUAL != ACTUAL
-```
-
-**Core Data Structures:**
-- `SimulationState{time, variables, events_queue, random_seed}`
-- `ScenarioTree{nodes, edges, probabilities, outcomes}`
-- `SimulationResult{trajectory, final_state, statistics, confidence_bounds}`
-- `Counterfactual{baseline, intervention, causal_estimate, sensitivity}`
-
-**Core Algorithms:**
-- Discrete-event simulation (event queue, time advancement)
-- ODE/DAE numerical integration (Runge-Kutta, adaptive step)
-- Monte Carlo sampling and variance reduction
-- Agent-based simulation (behavior rules, interaction topology)
-- Counterfactual reasoning (structural causal models, do-calculus)
-
-**Inputs:** `SIM_INPUT{model, initial_state, parameters, time_horizon, scenarios[], random_seed}`
-**Outputs:** `SIM_OUTPUT{trajectories[], statistics, confidence_bounds, counterfactual_estimates[], sensitivity_analysis}`
-
-**Computational Guarantees:** Deterministic reproducibility under fixed seed, bounded numerical error for stable ODEs, convergent Monte Carlo under finite variance, valid counterfactual estimates under causal sufficiency.
-
----
-
-## 2. Governing Invariants
-
-| ID | Invariant | Description |
-|----|-----------|-------------|
-| INV-SK-001 | Seed Reproducibility | Same seed and parameters must produce identical results |
-| INV-SK-002 | Simulation-Reality Label | All simulation outputs must be labelled as simulated, not observed |
-| INV-SK-003 | Time Horizon Boundedness | Simulations must declare a finite time horizon; infinite horizons require explicit justification |
-| INV-SK-004 | Numerical Stability | ODE solvers must detect and report stiffness and divergence |
-| INV-SK-005 | Variance Reporting | Monte Carlo results must report variance and convergence diagnostics |
-| INV-SK-006 | Counterfactual Validity | Counterfactual estimates require causal model specification |
-| INV-SK-007 | Parameter Disclosure | All simulation parameters must be explicitly stated |
-
----
-
-## 3. Mathematical Formulation
-
-**Discrete-event time advancement:**
-
-$$t_{\text{next}} = \min_{e \in Q} t_e$$
-
-**ODE integration (Runge-Kutta 4th order):**
-
-$$x_{n+1} = x_n + \frac{h}{6}(k_1 + 2k_2 + 2k_3 + k_4)$$
-
-where:
-$$k_1 = f(t_n, x_n), \quad k_2 = f(t_n + h/2, x_n + hk_1/2), \quad k_3 = f(t_n + h/2, x_n + hk_2/2), \quad k_4 = f(t_n + h, x_n + hk_3)$$
-
-**Monte Carlo estimator:**
-
-$$\hat{\mu} = \frac{1}{N} \sum_{i=1}^{N} f(X_i), \quad \text{Var}(\hat{\mu}) = \frac{\sigma^2}{N}$$
-
-**Counterfactual (do-calculus):**
-
-$$P(Y | \text{do}(X = x)) = \sum_{z} P(Y | X = x, Z = z) P(Z = z)$$
-
-**Sensitivity index (Sobol):**
-
-$$S_i = \frac{\text{Var}_{X_i}(E_{X_{\sim i}}[Y | X_i])}{\text{Var}(Y)}$$
-
----
-
-## 4. Architecture
-
-```mermaid
-graph TD
-    A[SIM_INPUT] --> B{Simulation Type}
-    B -->|discrete-event| C[Event Queue Processing]
-    B -->|continuous| D[ODE/DAE Integration]
-    B -->|monte-carlo| E[Sampling & Aggregation]
-    B -->|agent-based| F[Agent Behavior Loop]
-    B -->|counterfactual| G[Causal Model Evaluation]
-    C --> H[Trajectory Recording]
-    D --> H
-    E --> H
-    F --> H
-    G --> I[Counterfactual Estimate]
-    H --> J[Statistics & Confidence Bounds]
-    I --> J
-    J --> K[Sensitivity Analysis]
-    K --> L[SIM_OUTPUT]
-```
-
----
-
-## 5. MECE Mapping to AMOS Full Brain OS
-
-| Kernel Component | AMOS Plane | Role |
-|------------------|------------|------|
-| Event Queue Processing | `04_RUNTIME` | Runtime execution |
-| ODE/DAE Integration | `13_MODELS` | Dynamic modelling |
-| Monte Carlo Sampling | `04_RUNTIME` | Computational sampling |
-| Agent-Based Simulation | `06_INTELLIGENCE` | Agent reasoning |
-| Counterfactual Evaluation | `13_MODELS` | Causal modelling |
-| Trajectory Recording | `10_MEMORY` | Episodic recording |
-| Statistics & Confidence | `17_OBSERVABILITY` | Result monitoring |
-| Sensitivity Analysis | `22_RESEARCH` | Research analysis |
-
----
-
-## 6. Safety Invariants & Firewalls
-
-| ID | Firewall | Enforcement |
-|----|----------|-------------|
-| INV-SK-FW-001 | Simulation Label Mandatory | Outputs without simulation label are blocked |
-| INV-SK-FW-002 | Seed Disclosure | Simulations without disclosed seed are flagged |
-| INV-SK-FW-003 | Numerical Divergence Detection | Divergent ODE solvers trigger fail-safe |
-| INV-SK-FW-004 | Counterfactual Model Required | Counterfactual outputs without causal model are blocked |
-| INV-SK-FW-005 | Parameter Disclosure | Simulations with undisclosed parameters are blocked |
-
----
-
-## 7. Navigation & Bindings
-
-- **Parent MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
-- **Knowledge MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
-- **Home:** [[00_ROOT/00_HOME|00_HOME]]
-- **Operational Risk Kernel:** [[11_KNOWLEDGE/kernel/OPERATIONAL_RISK_KERNEL|OPERATIONAL_RISK_KERNEL]]
-- **Design Kernel:** [[11_KNOWLEDGE/kernel/AMOS_DESIGN_KERNEL|AMOS_DESIGN_KERNEL]]
-- **Biological Kernel Computing:** [[11_KNOWLEDGE/kernel/BIOLOGICAL_KERNEL_COMPUTING_BKC|BIOLOGICAL_KERNEL_COMPUTING_BKC]]
-- **Counterfactual Reasoning Kernel:** [[11_KNOWLEDGE/kernel/AMOS_COUNTERFACTUAL_REASONING_KERNEL|AMOS_COUNTERFACTUAL_REASONING_KERNEL]]
-- **Probability Statistics Kernel:** [[11_KNOWLEDGE/kernel/AMOS_PROBABILITY_STATISTICS_KERNEL|AMOS_PROBABILITY_STATISTICS_KERNEL]]
-- **Constraint Engine:** [[11_KNOWLEDGE/engine/CONSTRAINT_ENGINE|CONSTRAINT_ENGINE]]
-- **Core Laws:** [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|01_CORE_LAWS]]
-
----
-
-## 8. Known Gaps & Falsifiers
-
-| ID | Gap | Impact | Action |
-|----|-----|--------|--------|
-| GAP-SK-001 | Model validity | Simulations are only as valid as their models | Flag model assumptions as unverified |
-| GAP-SK-002 | Agent-based emergence | Emergent behavior may not be predictable | Flag agent-based results as exploratory |
-| GAP-SK-003 | Counterfactual identifiability | Not all counterfactuals are identifiable | Flag unidentifiable counterfactuals |
-| GAP-SK-004 | Computational scalability | Large simulations may exceed computational budget | Flag computational cost estimates |
-
----
-
-**Related:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] | [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] | [[11_KNOWLEDGE/kernel/OPERATIONAL_RISK_KERNEL|OPERATIONAL_RISK_KERNEL]] | [[11_KNOWLEDGE/kernel/AMOS_DESIGN_KERNEL|AMOS_DESIGN_KERNEL]] | [[11_KNOWLEDGE/kernel/BIOLOGICAL_KERNEL_COMPUTING_BKC|BIOLOGICAL_KERNEL_COMPUTING_BKC]] | [[11_KNOWLEDGE/kernel/AMOS_COUNTERFACTUAL_REASONING_KERNEL|AMOS_COUNTERFACTUAL_REASONING_KERNEL]]
 
 ______________________________________________________________________
 
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] | [[00_ROOT/00_HOME|00_HOME]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/kernel/COGNITION_KERNEL|COGNITION_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_PROBABILITY_STATISTICS_KERNEL|AMOS_PROBABILITY_STATISTICS_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_CONTROL_SYSTEMS_KERNEL|AMOS_CONTROL_SYSTEMS_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_COUNTERFACTUAL_REASONING_KERNEL|AMOS_COUNTERFACTUAL_REASONING_KERNEL]]
+
+______________________________________________________________________
+
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

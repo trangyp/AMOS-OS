@@ -1,64 +1,21 @@
 ---
-title: Heritage Pattern Intelligence
-type: heritage
-source: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact: HERITAGE_PATTERN_INTELLIGENCE.md
-artifact_id: amos_11_knowledge_05_frameworks_heritage_pattern_intelligence
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 11_KNOWLEDGE
-segment: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact_kind: INTELLIGENCE
-path: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PATTERN_INTELLIGENCE.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Heritage Pattern Intelligence
 tags:
-  - amos-os
-  - knowledge
-  - vault
-  - 05_frameworks
-  - heritage_pattern_intelligence
-  - pattern_recognition
-  - civilizational_patterns
-  - deep_invariants
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-  - heritage-intelligence-master
-  - heritage-fractal-mathematics
-  - heritage-spatial-intelligence
-  - heritage-civilization-system
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - HERITAGE_INTELLIGENCE_CANON
-    - AMOS_CORPUS
-  scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - PATTERN_INTELLIGENCE
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  master_framework:
-    artifact:
-      -   - HERITAGE_INTELLIGENCE_MASTER
-  fractal_math:
-    artifact:
-      -   - HERITAGE_FRACTAL_MATHEMATICS
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  framework_structure: VERIFIED_SOURCE_STRUCTURE
-  pattern_rules: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Heritage Pattern Intelligence

@@ -1,57 +1,68 @@
 ---
-title: "17_OBSERVABILITY MOC — Observability & Epistemic Health"
-type: moc
-source: 17_OBSERVABILITY
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_MOC
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-    - 00_ROOT/00_ROOT_MOC
-  scope: 17_observability_navigation
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 17 Observability Moc
 tags:
-  - amos-os
-  - 17_observability
-  - moc
-  - navigation
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# 17_OBSERVABILITY MOC — Observability & Epistemic Health
+# 17 Observability — Map of Content
 
-**Origin Architect / Steward:** Trang Phan
-**AMOS_CORE Target:** `v4.4`
-**Epistemic Class:** `AMOS_MODEL`
+## 0. Status
+Observability-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
 
----
+## 1. Purpose
+`17 OBSERVABILITY MOC` defines typed artifact specification, serving the Observability plane's obligation: metrics, logs, traces, health signals — observations, never authority.
 
-## 1. Observability Specifications & Telemetry Visualizers
+## 2. Semantics
+- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
+- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
+- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
 
-- [[17_OBSERVABILITY/REALTIME_ORDERBOOK_DOM_STREAMING_VISUALIZER|REALTIME_ORDERBOOK_DOM_STREAMING_VISUALIZER]] — Real-time 60 FPS 10-level Depth-of-Market (DOM) streaming visualizer, Microprice drift, and Order Flow Imbalance (OFI).
-- [[17_OBSERVABILITY/DOM_STREAMING_TELEMETRY_LEDGER|DOM_STREAMING_TELEMETRY_LEDGER]] — Live ASCII Depth-of-Market telemetry trace, liquidity ladders, and invariant receipts.
-- [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] — OpenTelemetry collectors, metric schemas, trace contexts, and alert routes.
-- [[17_OBSERVABILITY/OBSERVABILITY_OBSERVABILITY_CONTRACT|OBSERVABILITY_OBSERVABILITY_CONTRACT]] — Invariants: non-authoritative metrics, monotonic sequence IDs, sub-100ms emission latency.
-- [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY_OBSERVABILITY_MAP]] — Observability navigation map
+## 3. Failure modes guarded
+STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
 
----
+## 4. Validation
+No artifact-specific executor yet; executed OS validators exist as pattern ([[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
 
-## 2. Invariants
+## 5. Gaps
+Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
 
-```text
-CAPABILITY != AUTHORITY
-OBSERVED != CURRENT
-PROPOSAL != COMMIT
-UNKNOWN/GAP != PASS
-```
+## 6. Falsifiers
+F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
+## Worked semantics
+Given an operation touching `17 OBSERVABILITY MOC` within the Observability plane:
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
----
+## Promotion-gate checklist
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-## 3. Parent Navigation
-
-- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] — Master Navigation Hub
-- [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]] — Full OS Partition Architecture
+## Cross-plane bindings
+- Governed by canon — [[01_CANON/01_CANON_README|01_CANON_README]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/02_KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/03_CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/17_OBSERVABILITY_README|17_OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/20_OPERATIONS_README|20_OPERATIONS_README]]

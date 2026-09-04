@@ -1,156 +1,16 @@
 ---
-title: TRANG Reality Architecture Model
-aliases:
-  - Trang Reality Architecture
-  - TRANG Reality Architecture
-  - TRA
-  - TRA Model
-  - Trang Reality Model
-  - Reality Architecture Model
-  - Trang Reality Architecture Master Model
-type: architecture
-source: 13_MODELS/01_FOUNDATION
-artifact: TRANG_REALITY_ARCHITECTURE_MODEL.md
-artifact_id: amos_13_models_01_foundation_trang_reality_architecture_model
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 13_MODELS
-segment: 13_MODELS/01_FOUNDATION
-artifact_kind: MODEL
-path: 13_MODELS/01_FOUNDATION/TRANG_REALITY_ARCHITECTURE_MODEL.md
-version: 0.2.0
-previous_version: 0.1.0
-updated: '2026-08-28'
-status: SOURCE_POPULATED
-epistemic_class: AMOS_MODEL
-canonical_status: CANON_CANDIDATE
-implementation_status: NOT_ESTABLISHED
-validation_status: SOURCE_GROUNDED_NOT_EMPIRICALLY_VALIDATED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-source_basis:
-  primary:
-    artifact: trang_amos_reality_architecture_master_max_detail.json
-    provenance_class: AMOS_corpus
-  supporting:
-    - artifact: KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS.json
-      provenance_class: AMOS_corpus
-    - artifact: trang_zero_framework_complete_v3.json
-      provenance_class: AMOS_corpus
-    - artifact: amos_universal_field_architecture_v2_complete.json
-      provenance_class: AMOS_corpus
-    - artifact: amos_unified_master_combined_max_detail.json
-      provenance_class: AMOS_corpus
-  source_independence: NOT_ASSUMED
-  note: 'Multiple AMOS/Trang corpus artifacts may share lineage. Repetition across descendant artifacts is not independent empirical confirmation.
-
-    '
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Trang Reality Architecture Model
 tags:
-  - amos-os
-  - amos
-  - trang
-  - trang_phan
-  - tra
-  - trang_reality_architecture
-  - reality_architecture
-  - architecture
-  - model
-  - specification
-  - 01_foundation
-  - foundation
-  - reality_model
-  - ontology
-  - recursive_ontology
-  - relational_reality
-  - possibility
-  - difference
-  - relation
-  - constraint
-  - boundary
-  - form
-  - memory
-  - dissolution
-  - variation
-  - selection
-  - error_correction
-  - inheritance
-  - recursion
-  - self_awareness
-  - identity
-  - integrity
-  - stability
-  - persistence
-  - collapse
-  - reconstruction
-  - emergence
-  - information_interaction
-  - intelligence
-  - consciousness_model
-  - evolution
-  - synchrony
-  - ethical_continuity
-  - entropy
-  - entropy_laws
-  - future_debt
-  - repair
-  - recursive_system
-  - scale
-  - renormalization
-  - HML
-  - RSCF
-  - provenance
-  - provenance_topology
-  - epistemic_regime
-  - source_claim
-  - observation
-  - derived
-  - amos_model
-  - competing_hypotheses
-  - causal_firewall
-  - scope_firewall
-  - regime_firewall
-  - confidence_ceiling
-  - sensitivity
-  - falsifier
-  - unknown_gap
-  - fail_closed
-  - canon_candidate
-  - source_grounded
-  - add_only
-  - canon/model
-  - validation
-  - integration
-  - trang-reality-architecture
-  - khung-trang
-  - trang-zero-framework
-  - khung-trang-full-max-detail-architecture-equations
-  - canon
-  - law-hierarchy
-  - trang-reality-architecture-master
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  node_claim_class: AMOS_MODEL
-  provenance:
-    - AMOS_corpus
-    - TRANG_REALITY_ARCHITECTURE
-    - KHUNG_TRANG
-  scope:
-    - AMOS_general
-    - reality_architecture
-    - recursive_ontology_model
-  confidence_ceiling: SOURCE_BOUND
-  empirical_validation: NOT_ESTABLISHED
-gaps:
-  canonical_promotion: OPEN
-  executable_binding: NOT_ESTABLISHED
-  empirical_validation: NOT_ESTABLISHED
-  physical_validation: NOT_ESTABLISHED
-  mathematical_theoremhood: NOT_ESTABLISHED
-  consciousness_validation: NOT_ESTABLISHED
-  runtime_enforcement: NOT_ESTABLISHED
-  artifact_specific_validation_receipt: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # TRANG Reality Architecture Model
@@ -6546,3 +6406,9 @@ RSCF-RELATIONS:
 ---
 
 **MOC:** [[13_MODELS/01_FOUNDATION/01_FOUNDATION_MOC|01_FOUNDATION_MOC]]
+
+```
+
+```
+```
+```

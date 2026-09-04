@@ -1,119 +1,21 @@
 ---
-title: Core x Runtime Cross-Plane Matrix
-type: cognitive
-source: 25_COGNITIVE_MATRIX
-artifact: CORE_X_RUNTIME_MATRIX.md
-artifact_id: amos_25_cognitive_matrix_core_x_runtime_matrix
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 25_COGNITIVE_MATRIX
-segment: 25_COGNITIVE_MATRIX
-artifact_kind: MATRIX_TABLE
-path: 25_COGNITIVE_MATRIX/CORE_X_RUNTIME_MATRIX.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Core X Runtime Matrix
 tags:
-  - amos-os
-  - cognitive-matrix
-  - vault
-  - core_x_runtime_matrix
-  - matrix_table
-  - runtime_dispatch
-  - runtime_pipeline
-  - boot
-  - router
-  - execution
-  - finalization
-  - deterministic_engine
-  - local_proof_finalizer
-  - safe_route
-  - rollback
-  - proof_capsule
-  - substrate_integrity
-  - null_invariant
-  - mece_route_decomposition
-  - syntax_invariant_logic
-  - law_of_law
-  - dependency_closure
-  - causal_epoch
-  - mvcc
-  - cas
-  - atomic_multi_rscf
-  - shard_local_finalization
-  - proof_based_coordination_avoidance
-  - provenance
-  - scope
-  - regime
-  - rscf
-  - canon_candidate
-  - canon/matrix
-  - core-x-runtime
-  - validation
-  - memory
-  - full-brain-bootstrap
-  - canon
-  - law/L19-proof-capsule
-  - local-proof-finalizer
-  - readme
-  - architecture
-  - k-rscf
-  - k-hml
-  - k-gmef
-  - k-provenance
-  - k-provenance-topology
-  - k-failure-recovery
-  - k-causal-epoch
-  - k-mvcc
-  - k-cas
-  - k-atomic-multi-rscf
-  - amos-core-v4-4
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-formal_verification_status: NOT_ESTABLISHED
-runtime_enforcement_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - 25_COGNITIVE_MATRIX/CORE_X_RUNTIME
-    - 04_RUNTIME/04_RUNTIME_MOC
-    - AMOS_CORPUS
-  scope:
-    - COGNITIVE_MATRIX
-    - CROSS_PLANE_MATRIX_TABLE
-    - RUNTIME_STAGE_ROUTING
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  matrix_spec:
-    artifact:
-      -   - CORE_X_RUNTIME
-  runtime_moc:
-    artifact: 04_RUNTIME/04_RUNTIME_MOC
-  canon_moc:
-    artifact: 01_CANON/01_CANON_MOC
-  cognitive_matrix:
-    artifact:
-      -   - 25_COGNITIVE_MATRIX_MOC
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  matrix_structure: VERIFIED_SOURCE_STRUCTURE
-  routed_stage_structure: VERIFIED_SOURCE_STRUCTURE
-  cross_plane_routing: SOURCE_DEFINED_MODEL
-  runtime_stage_names: SOURCE_DEFINED_MODEL
-  subsystem_bindings: SOURCE_DEFINED_MODEL
-  failure_actions: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
-  executable_pipeline: NOT_ESTABLISHED
-  automatic_rollback_runtime: NOT_ESTABLISHED
-  empirical_validation: NOT_ESTABLISHED
-  formal_verification: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Core x Runtime Cross-Plane Routing Matrix Table
@@ -5909,3 +5811,10 @@ RSCF-RELATIONS:
 ---
 
 **END OF `CORE_X_RUNTIME_MATRIX.md`**
+
+
+```
+
+```
+```
+```

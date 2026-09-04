@@ -5,6 +5,7 @@ status: ACTIVE
 conclusion_class: DERIVED
 origin_architect: Trang Phan
 governed_by: [[21_DOMAINS/09_FINANCE/DOMAINS_FINANCE_CONTRACT.md|DOMAINS_FINANCE_CONTRACT]]
+rscf-state: source-claim
 ---
 
 # 04_FINANCIAL_INTELLIGENCE Map of Content

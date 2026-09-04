@@ -1,25 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: LLM Wiki Index
-type: index
-source: 11_KNOWLEDGE/LLM_WIKI
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Llm Wiki Index
 tags:
-  - index
-  - llm-wiki
-  - canon/knowledge
-  - karpathy-llm-wiki-summary
-  - llm-wiki-pattern
-  - amos-llm-wiki
-  - llm-wiki-log
-  - amos-llm-wiki-operations
-  - amos-llm-wiki-tool
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # LLM Wiki Index

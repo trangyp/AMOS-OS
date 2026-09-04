@@ -1,22 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: amos agent memory dynamics rscf engine code
-type: reference
-source: 07_SKILLS/amos-agent-memory-dynamics-rscf-engine/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Agent Memory Dynamics Rscf Engine Code
 tags:
-  - reference
-  - amos-agent-memory-dynamics-rscf-engine
-  - type/skill
-  - skill
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Code Reference
@@ -26,8 +25,8 @@ rscf:
 ## Pseudocode: amos-agent-memory-dynamics-rscf-engine
 
 ```python
-## amos-agent-memory-dynamics-rscf-engine - operational pseudocode
-## This is a reference implementation sketch, not production code.
+# amos-agent-memory-dynamics-rscf-engine - operational pseudocode
+# This is a reference implementation sketch, not production code.
 
 class AmosAgentMemoryDynamicsRscfEngine:
     """RSCF engine for amos-agent-memory-dynamics-rscf-engine."""

@@ -1,16 +1,21 @@
 ---
-title: 20 Planning Modes MOC
-type: moc
-source: 03_CONTROL_PLANE/09_COMMIT/20_PLANNING_MODES
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 20 Planning Modes Moc
 tags:
-  - 20-planning-modes
-  - canon/control-plane
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 20 Planning Modes — Map of Content

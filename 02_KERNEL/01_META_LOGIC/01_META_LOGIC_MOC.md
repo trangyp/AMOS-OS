@@ -1,17 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Meta Logic Moc
-type: note
-source: .
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: 01 Meta Logic Moc
 tags:
-  - note
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 ````markdown
@@ -154,7 +153,7 @@ UNKNOWN/GAP != PASS
 
 ---
 
-## 1. Purpose
+# 1. Purpose
 
 The `01_META_LOGIC` segment provides the Meta Logic layer of the AMOS Kernel.
 
@@ -1505,3 +1504,5 @@ RSCF-RELATIONS:
 ```
 
 The main correction is the `00_INDEX` classification: the supplied link points to `01_CANON/00_INDEX`, so it should be treated as a **cross-plane reference**, not as a verified subdirectory of `02_KERNEL/01_META_LOGIC`. The current Drive search also did not establish the declared 13 kernel files, so the file list is preserved as corpus-supported rather than silently upgraded to a verified live inventory.
+```
+```

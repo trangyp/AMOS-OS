@@ -1,65 +1,21 @@
 ---
-title: UBI Score
-type: biology
-source: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact: UBI_SCORE.md
-artifact_id: amos_11_knowledge_05_frameworks_ubi_score
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 11_KNOWLEDGE
-segment: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact_kind: METRIC
-path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_SCORE.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Ubi Score
 tags:
-  - amos-os
-  - knowledge
-  - vault
-  - 05_frameworks
-  - ubi_score
-  - biological_scoring
-  - alignment_metric
-  - non_compensatory_score
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-  - ubi-score-framework
-  - unified-biological-intelligence
-  - amos-ubi-super-engine
-  - amos-x-ubi
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - UBI_SCORE_FRAMEWORK
-    - UBI_OFFICIAL_MANUAL
-    - AMOS_CORPUS
-  scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - BIOLOGICAL_METRICS
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  score_framework:
-    artifact:
-      -   - UBI_SCORE_FRAMEWORK
-  biological_master:
-    artifact:
-      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  framework_structure: VERIFIED_SOURCE_STRUCTURE
-  score_model: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # UBI Score — Non-Compensatory Alignment Metric

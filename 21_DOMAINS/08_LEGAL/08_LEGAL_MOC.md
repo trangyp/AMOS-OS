@@ -1,25 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: 08 Legal MOC
-type: moc
-source: 21_DOMAINS/08_LEGAL
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 08 Legal Moc
 tags:
-  - 08-legal
-  - canon/domain
-  - amos-legal-kernel
-  - canon-ip-governance
-  - legal-domains-domain-spec
-  - legal-domains-interfaces
-  - legal-domains-provenance
-  - vn-legal-engine
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 08 Legal — Map of Content
@@ -40,7 +36,7 @@ rscf:
 
 ## Subdirectories
 
-- [[21_DOMAINS/08_LEGAL/00_INDEX/DOMAIN_INDEX_MOC|00_INDEX]] — Subdomain Navigation
+- [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
 ______________________________________________________________________
 

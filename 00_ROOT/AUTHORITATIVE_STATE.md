@@ -1,64 +1,21 @@
 ---
-title: AUTHORITATIVE STATE
-type: state
-source: 00_ROOT
-artifact_id: AMOS-OS-AUTHORITATIVE-STATE
-canonical_name: AUTHORITATIVE_STATE
-artifact_type: authoritative_state_contract
-status: AMOS_MODEL
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
 conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: STATE
-scope: AMOS_OS
-authority_domain: repository_state
-authority_level: root_state_record
-created: 2026-08-25
-updated: 2026-08-25
+epistemic_class: SOURCE_CLAIM
+topic: Authoritative State
 tags:
-  - amos-os
-  - amos-os
-  - root
   - canon-group/tech-ai
-  - canon/model
-  - state
-  - state/authoritative
-  - state/epoch
-  - state/lifecycle
-  - state/validation
-  - state/recovery
-  - state/mvcc
-  - state/cas
-  - provenance
-  - provenance/persistent
-  - provenance/lineage
-  - governance
-  - governance/authority
-  - governance/commit
-  - kernel/dependency
-  - kernel/atomicity
-  - kernel/validation
-  - rscf/state/model
-  - topic/authoritative-state
-  - topic/state-transition
-  - topic/commit-integrity
-  - readme
-  - architecture
-  - placement-rules
-  - roadmap
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - source-lineage
-  - supersession-log
-aliases:
-  - AMOS OS Authoritative State - Authoritative State - AMOS Authoritative State - AUTHORITATIVE
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: root_index
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS OS Authoritative State

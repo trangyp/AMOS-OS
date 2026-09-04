@@ -1,18 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: README
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Readme
 tags:
-  - knowledge
-  - readme
-type: note
-source: 11_KNOWLEDGE
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # 01_BRAIN
@@ -2694,7 +2692,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 
-## DERIVED / PROPOSED VAULT PROPERTIES
+# DERIVED / PROPOSED VAULT PROPERTIES
 body_subject: "01_BRAIN"
 artifact_identity_state: "UNRESOLVED"
 body_completeness: "PARTIAL_SCAFFOLD"
@@ -2725,7 +2723,7 @@ ______________________________________________________________________
 
 ## 96. Dataview — Find 11 Knowledge Notes
 
-```text
+```dataview
 TABLE
   type AS "Type",
   source AS "Source"
@@ -2738,7 +2736,7 @@ ______________________________________________________________________
 
 ## 97. Dataview — Find Source Claims
 
-```text
+```dataview
 TABLE
   rscf.state AS "RSCF State",
   rscf.provenance AS "Provenance",
@@ -2751,7 +2749,7 @@ ______________________________________________________________________
 
 ## 98. Dataview — Find Brain-Related Knowledge
 
-```text
+```dataview
 LIST
 FROM #01_brain OR #brain_subsystem OR #cosmo_brain
 SORT file.name ASC
@@ -2763,7 +2761,7 @@ ______________________________________________________________________
 
 If the derived tag is adopted:
 
-```text
+```dataview
 TABLE
   body_subject AS "Subject",
   artifact_identity_state AS "Identity",
@@ -2776,7 +2774,7 @@ ______________________________________________________________________
 
 ## 100. Dataview — Runtime-Unverified Claims
 
-```text
+```dataview
 TABLE
   runtime.source_status AS "Source Status",
   runtime.independently_verified AS "Verified",

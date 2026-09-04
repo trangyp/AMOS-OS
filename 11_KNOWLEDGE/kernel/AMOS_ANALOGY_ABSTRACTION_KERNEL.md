@@ -1,18 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS_ANALOGY_ABSTRACTION_KERNEL
-type: note
-source: 11_KNOWLEDGE
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Amos Analogy Abstraction Kernel
 tags:
-- vault
-- 11_knowledge
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 # AMOS ANALOGY ABSTRACTION KERNEL V0 META COGNITION4 2
 
@@ -4389,7 +4387,7 @@ critical_firewall:
 ## 267. Proposed Obsidian Atomic Note — Kernel
 
 ```markdown
-## Analogy Abstraction Kernel
+# Analogy Abstraction Kernel
 
 > [!important]
 > Analogy illustrates; analogy does not prove.
@@ -4416,7 +4414,7 @@ Only `` is an explicit source wikilink; the others are proposed vault links.
 ## 268. Proposed Atomic Note — Analogy
 
 ```markdown
-## Analogy Mapping
+# Analogy Mapping
 
 ## Structure
 - Source Domain
@@ -4441,7 +4439,7 @@ Analogy illustrates; it does not prove.
 ## 269. Proposed Atomic Note — False Analogy
 
 ```markdown
-## False Analogy Detection
+# False Analogy Detection
 
 ## Failure Classes
 - Surface-only mapping
@@ -4459,7 +4457,7 @@ A detected analogy failure must not be hidden by fluent explanation.
 ## 270. Proposed Atomic Note — Abstraction
 
 ```markdown
-## Abstraction Extraction
+# Abstraction Extraction
 
 1. Identify concrete instance/domain.
 2. Extract entities and properties.
@@ -4478,7 +4476,7 @@ A detected analogy failure must not be hidden by fluent explanation.
 
 ## 271. Proposed Dataview — Kernel Index
 
-```text
+```dataview
 TABLE
   source,
   rscf.state AS "RSCF State",
@@ -4491,7 +4489,7 @@ WHERE contains(file.name, "ANALOGY") OR contains(file.name, "ABSTRACTION")
 
 ## 272. Proposed Dataview — Source Claims
 
-```text
+```dataview
 TABLE
   source,
   rscf.scope AS "Scope"
@@ -6471,3 +6469,4 @@ $$
 \text{test what matters.}
 }
 $$
+

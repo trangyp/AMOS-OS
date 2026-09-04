@@ -1,39 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: 11k murk audit
-type: reference
-source: 07_SKILLS/amos-formal-engines-master/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 11K Murk Audit
 tags:
-  - reference
-  - amos-formal-engines-master
-  - type/skill
-  - agent-onboarding-guide
-  - amos-c01-meta-logic-master-knowledge
-  - amos-c02-math-compute-master-knowledge
-  - amos-c03-physics-cosmos-master-knowledge
-  - amos-c04-bio-neuro-master-knowledge
-  - amos-c05-mind-behavior-master-knowledge
-  - amos-c06-society-culture-master-knowledge
-  - amos-c07-econ-finance-master-knowledge
-  - amos-c08-strategy-game-master-knowledge
-  - amos-c09-org-law-policy-master-knowledge
-  - amos-c10-tech-engineering-master-knowledge
-  - amos-c11-design-language-master-knowledge
-  - amos-c12-earth-ecology-master-knowledge
-  - amos-cognitive-organism-os
-  - amos-cognitive-organism-os-detail
-  - amos-ev-vietnam
-  - amos-full-brain-os-architecture
-  - amos-runtime-state
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 11K MURK Audit

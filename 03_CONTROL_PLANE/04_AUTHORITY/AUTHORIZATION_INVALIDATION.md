@@ -1,71 +1,107 @@
 ---
-title: Authorization Invalidation — Control Plane Authority Specification
-type: control_specification
-source: 03_CONTROL_PLANE
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT
-    - 01_CANON/01_CORE_LAWS/LAW_HIERARCHY
-  scope: control_plane_authority
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Authorization Invalidation
 tags:
-  - amos-os
-  - control-plane
-  - authority
-  - authorization-invalidation
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Authorization Invalidation — Control Plane Authority Specification
+# Authorization Invalidation
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Conclusion Class:** `AMOS_MODEL`
-> **Status:** `ACTIVE_SPECIFICATION`
+## 0. Status
 
----
+Control Plane-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
 
-## 1. Purpose & Authority Domain
+## 1. Purpose
 
-`AUTHORIZATION_INVALIDATION` defines the formal control-plane mechanisms, verification gates, and authority constraints governing execution lifecycle and state mutability within `03_CONTROL_PLANE`.
+`AUTHORIZATION INVALIDATION` defines typed artifact specification, serving the Control Plane plane's obligation: governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback.
 
-In the MECE Full Brain OS architecture (**Partition B: Execution Core & Effect Governance**), authority is never derived from capability:
+## 2. Semantics
 
-```text
-CAPABILITY != AUTHORITY
-PROPOSAL != COMMIT
-INVOCATION != VERIFICATION
-MUTATION != FINALITY
-```
+- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
+- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
+- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
 
----
+## 3. Failure modes guarded
 
-## 2. Formal Invariants & Pre-Conditions
+STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
 
-1. **Epoch-Bound Validity:** All transactions referencing `AUTHORIZATION_INVALIDATION` must validate against the active causal epoch $E_k$.
-2. **Cryptographic Grounding:** Capability tokens must be signed and non-replayable.
-3. **Atomic State Transition:** If any assertion fails during evaluation, state reverts immediately to the pre-transaction snapshot.
-4. **Pre-allocated Rollback Basin:** No mutation may occur without a verified inverse compensation delta $\Delta^{-1}$.
+## 4. Validation
 
----
+No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
 
-## 3. Mathematical & Causal Formulation
+## 5. Gaps
 
-Let $\mathcal{T}$ be the transaction set, $\mathcal{S}$ the state space, and $\mathcal{I}$ the system invariant:
+Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
 
-$$\forall T \in \mathcal{T}, \quad \text{Evaluate}_{AUTHORIZATION_INVALIDATION}(T, \mathcal{S}) \implies \mathcal{I}(T(\mathcal{S})) = 1$$
+## 6. Falsifiers
 
----
+F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
 
-## 4. Cross-Plane Bindings
+## Worked semantics
 
-- **Governed By:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
-- **Axiomatic Grounding:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- **Monitored In:** [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]]
-- **Recovered Via:** [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+Given an operation touching `AUTHORIZATION INVALIDATION` within the Control Plane plane:
+
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+
+## Promotion-gate checklist
+
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+
+## Cross-plane bindings
+
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+
+______________________________________________________________________
+
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+
+______________________________________________________________________
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · authz_invariant_engine
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: authz_authorization_invalidation
+node_type: note
+path: 03_CONTROL_PLANE/04_AUTHORITY/AUTHORIZATION_INVALIDATION.md
+RSCF-RELATIONS:
+
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04_AUTHORITY_MOC]]
+
+______________________________________________________________________
+
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

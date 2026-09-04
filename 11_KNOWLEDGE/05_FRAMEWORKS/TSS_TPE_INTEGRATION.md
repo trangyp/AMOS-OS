@@ -1,74 +1,21 @@
 ---
-title: TSS-TPE Integration
-type: trang-framework
-source: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact: TSS_TPE_INTEGRATION.md
-artifact_id: amos_11_knowledge_05_frameworks_tss_tpe_integration
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 11_KNOWLEDGE
-segment: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact_kind: INTEGRATION
-path: 11_KNOWLEDGE/05_FRAMEWORKS/TSS_TPE_INTEGRATION.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Tss Tpe Integration
 tags:
-  - amos-os
-  - knowledge
-  - vault
-  - 05_frameworks
-  - tss_tpe_integration
-  - tss
-  - tpe
-  - structural_dynamics
-  - structural_foresight
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-  - tss-the-trang-system
-  - tpe-trang-prediction-engine
-  - amos-x-tss-tpe-matrix
-  - tss-seven-cycles
-  - tss-meta-laws
-  - heritage-to-tss-binding
-  - heritage-x-tss
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
-    - THE_TRANG_PREDICTION_ENGINE_TPE_OFFICIAL_MANU
-    - AMOS_CORPUS
-  scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - FRAMEWORK_INTEGRATION
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  structural_system:
-    name: The Trang System™
-    artifact:
-      -   - TSS_THE_TRANG_SYSTEM
-  foresight_engine:
-    name: The Trang Prediction Engine™
-    artifact:
-      -   - TPE_TRANG_PREDICTION_ENGINE
-  cognitive_matrix_binding:
-    artifact:
-      -   - AMOS_X_TSS_TPE_MATRIX
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  integration_structure: VERIFIED_SOURCE_STRUCTURE
-  predictive_rules: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # TSS-TPE Integration

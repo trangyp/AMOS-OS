@@ -1,130 +1,16 @@
 ---
-title: COGNITIVE MATRIX README
-type: cognitive
-source: 25_COGNITIVE_MATRIX
-artifact: COGNITIVE_MATRIX_README.md
-artifact_id: amos_25_cognitive_matrix_cognitive_matrix_readme
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 25_COGNITIVE_MATRIX
-segment: 25_COGNITIVE_MATRIX
-artifact_kind: COGNITIVE_ARCHITECTURE
-path: 25_COGNITIVE_MATRIX/COGNITIVE_MATRIX_README.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Cognitive Matrix Readme
 tags:
-  - amos-os
-  - cognitive-matrix
-  - cognitive_architecture
-  - reasoning_architecture
-  - governed_cognition
-  - hml
-  - rscf
-  - gmef
-  - proof_capsules
-  - provenance
-  - provenance_topology
-  - sybil_hardening
-  - competing_hypotheses
-  - causal_firewall
-  - scope_firewall
-  - regime_firewall
-  - temporal_validity
-  - uncertainty
-  - sensitivity
-  - cognitive_modes
-  - capability_resolution
-  - governance
-  - repair
-  - fast_path
-  - mvcc
-  - cas
-  - causal_epoch
-  - shard_local_finalization
-  - proof_based_coordination_avoidance
-  - anti_fabrication
-  - anti_regression
-  - canon_candidate
-  - domain/cognitive-matrix
-  - readme
-  - validation
-  - task-resolver
-  - capability-resolver
-  - mode-admission-queue
-  - mode-coverage-matrix
-  - mode-dependency-graph
-  - k-hml
-  - k-rscf
-  - k-gmef
-  - k-binding
-  - k-constraint-propagation
-  - k-provenance
-  - k-provenance-topology
-  - k-sybil-hardening
-  - k-counterfactual
-  - k-translation
-  - k-effect-classification
-  - k-information-exposure
-  - k-risk-constraint
-  - k-capability-authorization
-  - k-commit-time-authority
-  - k-homeostasis
-  - k-repair-harm
-  - k-repair-priority
-  - architecture
-  - integration
-  - canon
-  - law/L19-proof-capsule
-  - causal-epoch-finality
-  - shard-local-finalization
-  - proof-based-coordination-avoidance
-version: 1.0.0
-updated: '2026-08-27'
-status: DERIVED_CANDIDATE_CANON
-epistemic_class: AMOS_MODEL
-canonical_status: CANON_CANDIDATE
-implementation_status: NOT_ESTABLISHED_BY_THIS_ARTIFACT
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-formal_verification_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - AMOS_CORPUS
-    - AMOS_CORE_LINEAGE
-    - COGNITIVE_MATRIX_SOURCE
-  scope:
-    - AMOS_GENERAL
-    - COGNITIVE_MATRIX
-    - REASONING_ARCHITECTURE
-    - GOVERNED_COGNITION
-epistemic_boundary:
-  architecture_definition: SOURCE_GROUNDED
-  architecture_normalization: DERIVED
-  implementation: NOT_ESTABLISHED
-  empirical_validation: NOT_ESTABLISHED
-  formal_verification: NOT_ESTABLISHED
-  runtime_enforcement: NOT_ESTABLISHED
-  distributed_system_mechanisms: REASONING_PATTERNS_NOT_RUNTIME_CLAIMS
-lineage:
-  lineage_target: AMOS_CORE_v4_4
-  spine:
-    - deterministic_logic
-    - recursive_rscf_hml
-    - governed_evolution
-    - causal_lineage
-    - epistemic_regimes
-    - competing_hypotheses
-    - provenance_topology
-    - sybil_hardening
-    - persistent_provenance
-    - mvcc_cas_concepts
-    - atomic_multi_rscf_reasoning
-    - causal_epoch_finality
-    - hardened_shard_local_finalization
-    - proof_based_coordination_avoidance
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # COGNITIVE MATRIX README
@@ -255,7 +141,7 @@ No optimization within the Cognitive Matrix may weaken this ordering.
 
 ---
 
-## 1. PURPOSE
+# 1. PURPOSE
 
 The Cognitive Matrix provides a common architecture for deciding:
 
@@ -341,7 +227,7 @@ $$
 
 ---
 
-## 2. NON-GOALS
+# 2. NON-GOALS
 
 The Cognitive Matrix MUST NOT be interpreted as:
 

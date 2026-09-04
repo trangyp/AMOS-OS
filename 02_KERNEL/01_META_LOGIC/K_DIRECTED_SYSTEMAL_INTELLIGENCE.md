@@ -1,76 +1,16 @@
 ---
-title: Kernel · Directed Systemal Intelligence
-canonical_name: K_DIRECTED_SYSTEMAL_INTELLIGENCE
-type: system
-source: 02_KERNEL/01_META_LOGIC
-artifact: K_DIRECTED_SYSTEMAL_INTELLIGENCE.md
-artifact_id: amos_02_kernel_01_meta_logic_k_directed_systemal_intelligence
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-amos_core_target: v4.4
-plane: 02_KERNEL
-plane_name: KERNEL
-segment: 02_KERNEL/01_META_LOGIC
-artifact_kind: INTELLIGENCE
-domain: directed-systemal-intelligence
-path: 02_KERNEL/01_META_LOGIC/K_DIRECTED_SYSTEMAL_INTELLIGENCE.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: K Directed Systemal Intelligence
 tags:
-  - amos-os
-  - kernel
-  - core
-  - intelligence
-  - directed_intelligence
-  - systemal_intelligence
-  - meta_logic
-  - canon/kernel
-  - canon/model
-  - rscf
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
-  - hml
-  - dependency
-  - provenance
-  - scope
-  - regime
-  - governance
-  - validation
-  - recovery
-  - law-hierarchy
-  - amos-core-laws
-  - canon-provenance
-  - source-lineage
-  - supersession-log
-version: 0.2.0
-updated: '2026-08-27'
-status: AMOS_MODEL
-epistemic_class: AMOS_MODEL
-conclusion_class: AMOS_MODEL
-canonical_status: CANON_CANDIDATE / LINEAGE_UNVERIFIED
-historical_identity_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-runtime_enforcement: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: AMOS_general
-  regime: AMOS_v4_4_kernel_model
-  confidence_ceiling: AMOS_MODEL
-  canonical_lineage: UNKNOWN/GAP
-integrity:
-  fail_closed_on_unknown: true
-  preserve_competing: true
-  preserve_provenance: true
-  preserve_scope: true
-  preserve_regime: true
-  preserve_dependencies: true
-  validity_grants_authority: false
-  capability_grants_authority: false
-  proposal_is_commit: false
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # Kernel · Directed Systemal Intelligence
@@ -2739,7 +2679,7 @@ $$
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

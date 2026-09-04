@@ -1,7 +1,4 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
 title: 11k investment agent
 type: reference
 source: 07_SKILLS/amos-c07-econ-finance-master/references

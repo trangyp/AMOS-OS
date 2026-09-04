@@ -1,28 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: HSE ENGINEV AMOS FORMAT WITH UCM
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Hse Enginev Amos Format With Ucm
 tags:
-  - canon-group/human-system
-  - canon/framework
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
-  - rscf/state/observation
-  - topic/hse-enginev-amos-format-with-ucm
-  - engine
-  - skill
-  - architecture
-  - integration
-  - validation
-  - canon
-type: document
-source: 11_KNOWLEDGE/engine
-rscf:
-  state: AMOS_MODEL
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: engine_specification
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # HSE ENGINEV AMOS FORMAT WITH UCM
@@ -1094,8 +1087,8 @@ HSE_ID_REGISTRY = {
 ),
 
 ```
-## 27 archetypes (behavioral templates, not psychology).
-## Fill from your canonical list (EN or VI) – IDs must be stable.
+# 27 archetypes (behavioral templates, not psychology).
+# Fill from your canonical list (EN or VI) – IDs must be stable.
 "archetypes": [
     # EXAMPLE ONLY – REPLACE / EXTEND FROM CANON
     # GAP NOTE: Full canon list not available in vault as of 2026-08-26. Example data retained per G6 (fail closed, do not fabricate).
@@ -1105,7 +1098,7 @@ HSE_ID_REGISTRY = {
     # ... add all 27 archetypes here from the core HSE spec ...
 ],
 
-## 54 human risks (behavior flags; no moral judgment).
+# 54 human risks (behavior flags; no moral judgment).
 "human_risks": [
     # EXAMPLES – full list already written in VN section, reuse exactly.
     {"id": "HR_DELAY_INTENT", "en": "deliberate delay", "vi": "trì hoãn có chủ đích"},
@@ -1117,7 +1110,7 @@ HSE_ID_REGISTRY = {
     # ... add all 54 human risks here, reusing the numbered list exactly ...
 ],
 
-## 196 process risks (system-level errors; not people).
+# 196 process risks (system-level errors; not people).
 "process_risks": [
     # EXAMPLES – structure only; full mapping should come from HSE_Full_Engine_Spec.
     {"id": "PR_KPI_DRIFT", "en": "KPI misalignment across departments",
@@ -1133,7 +1126,7 @@ HSE_ID_REGISTRY = {
     # ... add all 196 process risks with stable IDs + short EN/VN labels ...
 ],
 
-## 20 power forms (power structures).
+# 20 power forms (power structures).
 "power_forms": [
     {"id": "PWR_TITLE", "en": "formal position power", "vi": "quyền lực chức danh"},
     {"id": "PWR_INFO", "en": "information control", "vi": "quyền lực thông tin"},
@@ -1173,7 +1166,7 @@ HSE_BILINGUAL_TERMS = \[
 "vi": "Người có vấn đề, rủi ro cao"},
 
 ```
-## Key generic terms (alignment, drift, load, bottleneck, etc.)
+# Key generic terms (alignment, drift, load, bottleneck, etc.)
 {"key": "TERM_ALIGNMENT", "category": "core_concept",
  "en": "Fit between person, role, and organization",
  "vi": "Sự ăn khớp giữa người – việc – tổ chức"},
@@ -1190,7 +1183,7 @@ HSE_BILINGUAL_TERMS = \[
  "en": "Consistency between what is said and what is done",
  "vi": "Sự thật trong hành vi – nói và làm nhất quán"},
 
-## 5 example human risks (IDs must match HSE_ID_REGISTRY)
+# 5 example human risks (IDs must match HSE_ID_REGISTRY)
 {"key": "HR_DELAY_INTENT", "category": "human_risk",
  "en": "Deliberate delay", "vi": "Trì hoãn có chủ đích"},
 {"key": "HR_MINIMUM_ONLY", "category": "human_risk",
@@ -1206,7 +1199,7 @@ HSE_BILINGUAL_TERMS = \[
  "en": "Low integrity, willing to trade system interest for personal gain",
  "vi": "Thiếu integrity, sẵn sàng đánh đổi lợi ích hệ thống vì lợi ích cá nhân"},
 
-## 5 example process risks
+# 5 example process risks
 {"key": "PR_KPI_DRIFT", "category": "process_risk",
  "en": "KPI misalignment across departments",
  "vi": "KPI không khớp giữa các phòng ban"},
@@ -1223,7 +1216,7 @@ HSE_BILINGUAL_TERMS = \[
  "en": "No single owner for a core process",
  "vi": "Không có một người chịu trách nhiệm chính cho quy trình lõi"},
 
-## 4 example power forms
+# 4 example power forms
 {"key": "PWR_TITLE", "category": "power_form",
  "en": "Formal position power (title on org chart)",
  "vi": "Quyền lực chức danh (ghi trong sơ đồ tổ chức)"},
@@ -1318,7 +1311,7 @@ HSE_RISK_SCORING = {
 ),
 
 ```
-## Generic 0–1 banding (can be reused across layers).
+# Generic 0–1 banding (can be reused across layers).
 "default_band": {
     "low": {"min_inclusive": 0.0, "max_exclusive": 0.30},
     "medium": {"min_inclusive": 0.30, "max_exclusive": 0.70},
@@ -1326,7 +1319,7 @@ HSE_RISK_SCORING = {
     "critical": {"min_inclusive": 0.90, "max_inclusive": 1.0}
 },
 
-## Category-specific overrides (optional).
+# Category-specific overrides (optional).
 "overrides": {
     "human_risk": {
         "low": {"min_inclusive": 0.0, "max_exclusive": 0.25},
@@ -1366,7 +1359,7 @@ HSE_RISK_SCORING = {
     }
 },
 
-## Time-horizon banding for prediction_layer.
+# Time-horizon banding for prediction_layer.
 "time_horizon_bands": {
     "short_term": {
         "horizon_months": [1, 3],
@@ -2817,9 +2810,9 @@ LAYER_14_COUNTRY_PROFILE = {
 ),
 
 ```
-## -----------------------------
-## 1. SCHEMA (APPLIES TO ALL)
-## -----------------------------
+# -----------------------------
+# 1. SCHEMA (APPLIES TO ALL)
+# -----------------------------
 "schema": {
     "iso_code": "ISO-3166 alpha-2 or alpha-3",
     "name_en": "English name",
@@ -2938,10 +2931,10 @@ LAYER_14_COUNTRY_PROFILE = {
     }
 },
 
-## -----------------------------------------------------
-## 2. COUNTRY PROFILES (EXEMPLARS — HIGH-SIGNAL SET)
-## NOTE: use these as templates to generate ALL ISO
-## -----------------------------------------------------
+# -----------------------------------------------------
+# 2. COUNTRY PROFILES (EXEMPLARS — HIGH-SIGNAL SET)
+#    NOTE: use these as templates to generate ALL ISO
+# -----------------------------------------------------
 "country_profiles": [
 
     # 1) United States
@@ -3381,9 +3374,9 @@ LAYER_14_COUNTRY_PROFILE = {
     # NOTE: Extend with BR, MX, ID, NG, ZA, RU, UK, FR, BR, etc.
 ],
 
-## --------------------------------------------------------
-## 3. RULE TO ADD *ALL* COUNTRIES PROGRAMMATICALLY
-## --------------------------------------------------------
+# --------------------------------------------------------
+# 3. RULE TO ADD *ALL* COUNTRIES PROGRAMMATICALLY
+# --------------------------------------------------------
 "population_rule_for_all_countries": {
     "description": (
         "For every ISO-3166 country not explicitly listed above, "
@@ -4181,10 +4174,10 @@ score = \_base_risk_score(global_ctx, human_ctx, mob_ctx)
 risk_level = \_risk_bucket(score)
 
 ```
-## Time horizon: higher risk → shorter horizon
+# Time horizon: higher risk → shorter horizon
 time_horizon_days = max(7, int(180 * (1.0 - score) + 7))
 
-## Decompose risk into different channels (simplified)
+# Decompose risk into different channels (simplified)
 burnout_risk = min(1.0, score + (0.1 if human_ctx.behaviour_type in ["Type_A", "Type_D"] else 0.0))
 team_collapse_risk = min(1.0, score + (0.1 if "factionalism" in human_ctx.human_risks else 0.0))
 project_delay_risk = min(1.0, score + (0.1 if "approval_delay" in human_ctx.process_risks else 0.0))
@@ -4265,7 +4258,7 @@ mctx = sample_mobility_context(gctx)
 labels = generate_outcome_labels(gctx, hctx, mctx)
 
 ```
-## Flattened numeric features for non-LLM models
+# Flattened numeric features for non-LLM models
 features: Dict[str, float] = {
     "feature_hrisk_count": float(len(hctx.human_risks)),
     "feature_prisk_count": float(len(hctx.process_risks)),
@@ -6537,7 +6530,7 @@ social_resilience_band: ["low","medium","high"]
 
 ## - automatic training dataset generation for AI models
 
-##
+## 
 
 ## It is structurally exhaustive (0 structural gap).
 
@@ -11597,14 +11590,14 @@ name,
 region,
 
 ```
-## Demographic
+# Demographic
 population,
 youth_ratio,
 aging_ratio,
 birth_rate,
 migration_pattern,
 
-## Economic
+# Economic
 gdp,
 gdp_per_capita,
 inflation_rate,
@@ -11613,82 +11606,82 @@ informal_economy_ratio,
 sector_mix,
 income_distribution,
 
-## Governance
+# Governance
 bureaucracy_strength,
 corruption_load,
 formal_vs_informal_power,
 regulation_efficiency,
 permit_friction,
 
-## Politics
+# Politics
 political_system,
 election_cycle_length,
 polarization_level,
 stability_index,
 protest_risk,
 
-## Society
+# Society
 collectivism_level,
 trust_in_institutions,
 gender_gap,
 education_quality,
 urban_rural_split,
 
-## Culture
+# Culture
 negotiation_style,
 power_distance,
 communication_style,
 time_orientation,
 hierarchy_model,
 
-## Infrastructure
+# Infrastructure
 roads_quality,
 logistics_efficiency,
 grid_stability,
 internet_penetration,
 data_center_capacity,
 
-## Technology
+# Technology
 digital_adoption,
 mobile_first_index,
 tech_maturity,
 fintech_penetration,
 cybersecurity_level,
 
-## Mobility
+# Mobility
 motorcycle_ratio,
 car_ratio,
 public_transport_quality,
 congestion_pattern,
 ride-hailing_penetration,
 
-## Energy
+# Energy
 renewables_ratio,
 fossil_dependency,
 price_volatility,
 power_loss_ratio,
 energy_security_index,
 
-## Environment
+# Environment
 climate_risks,
 disaster_frequency,
 pollution_level,
 heat_stress,
 flood_risk,
 
-## Market
+# Market
 brand_loyalty,
 price_sensitivity,
 consumer_confidence,
 middle_class_size,
 e-commerce_penetration,
 
-## Derived System Indices
+# Derived System Indices
 national_stability,
 ev_feasibility,
 national_risk_score,
 
-## Time Cycles
+# Time Cycles
 socio_political_cycle,
 economic_cycle,
 climate_cycle,

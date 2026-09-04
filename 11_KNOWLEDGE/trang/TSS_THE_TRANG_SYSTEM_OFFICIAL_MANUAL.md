@@ -1,30 +1,21 @@
 ---
-title: "TSS — The Trang System Official Manual (7 Cycles, 4 Variables)"
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/training/TSS_Official_Manual.pdf"
-origin_architect: "Trang Phan"
-type: training-manual
-source: 11_KNOWLEDGE/trang
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Tss The Trang System Official Manual
 tags:
-  - canon-group/governance
-  - canon/model
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
-  - rscf/state/observation
-  - rscf/T-topology
-  - rscf/K-compression
-  - rscf/mu-mutation
-  - rscf/G-relation
-  - topic/governance-economy-model
-  - trang
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # The Trang System™ (TSS) — Official Manual

@@ -1,69 +1,16 @@
 ---
-title: FAIL_CLOSED_GOVERNANCE Law
-type: law
-source: 01_CANON/01_CORE_LAWS
-artifact: FAIL_CLOSED_GOVERNANCE.md
-artifact_id: amos_01_canon_01_core_laws_fail_closed_governance
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/01_CORE_LAWS
-artifact_kind: CORE_LAW
-path: 01_CANON/01_CORE_LAWS/FAIL_CLOSED_GOVERNANCE.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Fail Closed Governance
 tags:
-  - amos-os
-  - canon
-  - core_law
-  - fail_closed
-  - governance
-  - authority
-  - ambiguity
-  - invariant
-  - execution
-  - suspension
-  - admission
-  - authorization
-  - commit
-  - rollback
-  - repair
-  - provenance
-  - freshness
-  - rscf
-  - transactions
-  - safety
-  - canon/core
-  - law-hierarchy
-  - atomic-multi-rscf-reasoning
-version: 1.0.0
-updated: '2026-08-28'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: SOURCE_BOUND
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_NORMALIZATION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_GROUNDED
-  claim_class: AMOS_MODEL
-  provenance:
-    - AMOS_corpus
-    - 01_CANON/01_CORE_LAWS
-  scope:
-    - CORE_LAWS
-    - GOVERNANCE
-    - EXECUTION_GATING
-    - AUTHORITY
-    - INVARIANT_ENFORCEMENT
-  regime: governed_execution
-  confidence_ceiling:
-    source_rule: SOURCE_GROUNDED
-    expanded_semantics: AMOS_MODEL
-    implementation: UNKNOWN
-    runtime_validation: UNKNOWN
-  provenance_independence: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # FAIL_CLOSED_GOVERNANCE Law
@@ -3521,7 +3468,7 @@ RSCF-RELATIONS:
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

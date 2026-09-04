@@ -1,52 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: EPISTEMIC_REGIMES Classification Law
-aliases:
-  - EPISTEMIC_REGIMES
-  - Epistemic Regimes
-  - Epistemic Regimes Classification
-  - Epistemic Classification Law
-type: law
-source: 01_CANON/01_CORE_LAWS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Epistemic Regimes
 tags:
-  - core_law
-  - epistemic
-  - epistemic_regimes
-  - classification
-  - knowledge_class
-  - source_claim
-  - observation
-  - derived
-  - model
-  - provenance
-  - evidence
-  - scope
-  - regime
-  - confidence
-  - rscf
-  - core_laws
-  - canon
-  - canon/universe
-  - law/L21-epistemic-regime
-  - law/L27-gap
-  - law/L28-critical-gap
-  - law/L17-rscf
-  - readme
-  - law-hierarchy
-  - law/L22-atomic-reasoning
-  - law/L1-epistemic
-  - law/L5-scope-regime
-  - scope-regime-firewall
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: core_laws
-  node_id: epistemic_regimes
-  node_type: core_law
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # EPISTEMIC_REGIMES Classification Law

@@ -1,17 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-date: 2026-08-29
-epistemic_class: OBSERVATION
-provenance: GitHub README, not independently verified
-rscf:
-  claim_class: DERIVED
-  provenance: GitHub README (EvolvingAgentsLabs/skillos)
-  scope: AMOS_knowledge
-  state: SOURCE_CLAIM
-source: https://raw.githubusercontent.com/EvolvingAgentsLabs/skillos/main/README.md
-title: SkillOS README — Raw Capture
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Skill Os Readme 2026 08 29
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # SkillOS README — Raw Capture
@@ -42,13 +46,13 @@ ______________________________________________________________________
 ## Quick Start
 
 ```bash
-## 1. Clone the repo
+# 1. Clone the repo
 git clone https://github.com/EvolvingAgentsLabs/skillos.git && cd skillos
 
-## 2. Run Claude Code
+# 2. Run Claude Code
 claude --dangerously-skip-permissions
 
-## 3. Boot SkillOS
+# 3. Boot SkillOS
 boot skillos
 ```
 
@@ -73,7 +77,7 @@ ______________________________________________________________________
 
 ```bash
 ./skillos.sh
-## Or directly:
+# Or directly:
 python3 skillos.py
 ```
 
@@ -112,11 +116,11 @@ python agent_runtime.py interactive                                          # I
 **Run multi-agent scenarios with any provider:**
 
 ```bash
-## Cognitive pipeline — forces step-by-step execution for mid-tier models
+# Cognitive pipeline — forces step-by-step execution for mid-tier models
 python run_scenario.py scenarios/Operation_Echo_Q.md "quantum cepstral analysis" \
     --provider gemma-openrouter --no-stream
 
-## Strategy auto-selects based on model tier (or override manually)
+# Strategy auto-selects based on model tier (or override manually)
 python run_scenario.py scenarios/ProjectAortaScenario.md "quantum arterial navigation" \
     --provider gemma-openrouter --strategy cognitive_pipeline --no-stream
 ```
@@ -124,9 +128,9 @@ python run_scenario.py scenarios/ProjectAortaScenario.md "quantum arterial navig
 **Gemma 4 on a free Colab GPU** — no local GPU needed:
 
 ```bash
-## 1. Open notebooks/skillos_gemma4_colab.ipynb in Google Colab (T4 GPU)
-## 2. Run all cells — you'll get a Cloudflare tunnel URL
-## 3. On your local machine:
+# 1. Open notebooks/skillos_gemma4_colab.ipynb in Google Colab (T4 GPU)
+# 2. Run all cells — you'll get a Cloudflare tunnel URL
+# 3. On your local machine:
 OLLAMA_BASE_URL=https://xxx.trycloudflare.com/v1 python agent_runtime.py --provider gemma "Your goal"
 ```
 
@@ -147,7 +151,7 @@ tools: Read, Write, WebFetch
 extends: orchestration/base
 ---
 
-## ExampleAgent
+# ExampleAgent
 You are a research specialist. Given a topic, you...
 ```
 
@@ -226,7 +230,7 @@ Four automated benchmarks prove the architecture across three domains — code e
 All verification is automated (`ast.parse()` + regex + exact answer checks) — no LLM judge needed.
 
 ```bash
-## Run benchmarks
+# Run benchmarks
 python3 benchmarks/benchmark_patch.py        # Code editing: strict-patch
 python3 benchmarks/benchmark_math.py         # Math: formal-proof
 python3 benchmarks/benchmark_physiology.py   # Physiology: system-dynamics
@@ -272,10 +276,10 @@ Two complex multi-agent scenarios are validated end-to-end with each release, ac
 4-agent pipeline: quantum theorist → pure mathematician → Qiskit engineer → system architect. Derives quantum algorithms in a LaTeX Knowledge Wiki before writing code, proving that markdown acts as a persistent mathematical blackboard.
 
 ```bash
-## Claude Code
+# Claude Code
 skillos execute: "Run the Operation Echo-Q scenario"
 
-## Gemma 4 via OpenRouter (cognitive pipeline)
+# Gemma 4 via OpenRouter (cognitive pipeline)
 python run_scenario.py scenarios/Operation_Echo_Q.md "quantum cepstral analysis" \
     --provider gemma-openrouter --no-stream
 ```
@@ -289,10 +293,10 @@ python run_scenario.py scenarios/Operation_Echo_Q.md "quantum cepstral analysis"
 3-agent cognitive pipeline: visionary → mathematician → quantum engineer. Produces a 36KB clinical vision document and 37KB rigorous mathematical framework for radiation-free catheter navigation via pressure wave echo analysis.
 
 ```bash
-## Claude Code
+# Claude Code
 skillos execute: "Run the Project Aorta scenario"
 
-## Gemma 4 via OpenRouter (cognitive pipeline)
+# Gemma 4 via OpenRouter (cognitive pipeline)
 python run_scenario.py scenarios/ProjectAortaScenario.md "quantum arterial navigation" \
     --provider gemma-openrouter --no-stream
 ```
@@ -340,22 +344,22 @@ ______________________________________________________________________
 ## Example Commands
 
 ```bash
-## Research and content
+# Research and content
 skillos execute: "Research the latest AI developments and create a report"
 skillos execute: "Write a technical blog post about quantum computing"
 
-## Development
+# Development
 skillos execute: "Create a data pipeline for processing CSV files"
 skillos execute: "Analyze this codebase and suggest improvements"
 
-## Knowledge base (Karpathy LLM Wiki pattern)
+# Knowledge base (Karpathy LLM Wiki pattern)
 skillos execute: "Initialize a knowledge base on transformer architectures"
 skillos execute: "What are the key differences between MHA and MLA attention?"
 
-## Physical robot
+# Physical robot
 skillos execute: "Navigate to the kitchen and describe what you see"
 
-## Built-in scenarios
+# Built-in scenarios
 skillos execute: "Run the Operation Echo-Q scenario"
 skillos execute: "Run the RealWorld_Research_Task scenario in EXECUTION MODE"
 ```

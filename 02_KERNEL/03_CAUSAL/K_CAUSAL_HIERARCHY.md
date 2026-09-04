@@ -1,68 +1,16 @@
 ---
-title: K CAUSAL HIERARCHY
-type: note
-source: 02_KERNEL/03_CAUSAL
-artifact_id: AMOS-OS-K-CAUSAL-HIERARCHY
-canonical_name: K_CAUSAL_HIERARCHY
-artifact_type: kernel_causal_hierarchy_contract
-status: AMOS_MODEL
-conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: KERNEL
-kernel_family: CAUSAL
-domain: causal-hierarchy
-scope: AMOS_OS
-created: 2026-08-25
-updated: 2026-08-25
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: K Causal Hierarchy
 tags:
-  - amos-os
-  - kernel
-  - core
   - canon-group/tech-ai
-  - canon/model
-  - kernel/causal
-  - kernel/causal-hierarchy
-  - kernel/causal-closure
-  - kernel/causal-epoch
-  - kernel/dependency
-  - kernel/provenance
-  - kernel/regime
-  - kernel/scope
-  - kernel/multi-hypothesis
-  - kernel/validation
-  - rscf/state/model
-  - causal/hierarchy
-  - causal/mechanism
-  - causal/confounding
-  - causal/mediation
-  - causal/feedback
-  - causal/effect
-  - topic/causal-hierarchy
-  - topic/causal-inference
-  - k-counterfactual
-  - k-core19-logic
-  - k-meta-logic
-  - readme
-  - architecture
-  - authoritative-state
-  - amos-core-laws
-  - law-hierarchy
-  - canon-provenance
-  - source-lineage
-  - k-structural-reasoning
-  - k-causal-closure
-  - k-causal-epoch
-  - k-metacognition
-  - k-multi-hypothesis
-aliases:
-  - AMOS Causal Hierarchy Kernel - Causal Hierarchy Kernel - K Causal Hierarchy - K_CAUSAL_HIERA
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # K CAUSAL HIERARCHY
@@ -2392,7 +2340,7 @@ WITH FLUENT EXPLANATION.
 ## Related
 
 README ·
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]] ·
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]] ·
 [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] ·
 [[00_ROOT/DEPENDENCY_MAP|DEPENDENCY_MAP]] ·
 [[00_ROOT/AUTHORITATIVE_STATE|AUTHORITATIVE_STATE]] ·
@@ -2429,7 +2377,7 @@ README
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

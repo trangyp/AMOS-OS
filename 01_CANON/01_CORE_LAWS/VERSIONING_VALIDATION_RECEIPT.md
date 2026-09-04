@@ -1,125 +1,105 @@
 ---
-title: Versioning Validation Receipt
-type: receipt
-source: 01_CANON/01_CORE_LAWS
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-updated: 2026-09-04
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Versioning Validation Receipt
 tags:
-  - receipt
-  - validation
-  - versioning
-  - pass
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_core_laws
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Versioning Validation Receipt
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Epistemic Class:** `SOURCE_CLAIM`
-> **Receipt Status:** `RECEIPT_SLOT_DEFINED`
+Certifies that strict monotonicity across state version increments has been validated.
 
-Certifies strict monotonicity across state version increments.
+________________________________________________________________________
 
-______________________________________________________________________
+## 1. Validation Contract
 
-## 1. Validation Identity
+This receipt certifies that version transitions for the target artifact have been validated for:
 
-| Field | Value |
-|-------|-------|
-| **Validation ID** | `VAL-VER-2026-09-04-001` |
-| **Timestamp** | `2026-09-04T00:00:00Z` |
-| **Validator** | AMOS automated validation pipeline (specification-level) |
-| **Validator Version** | `v4.4` |
-| **Scope** | State version increment chain across all AMOS core law artifacts |
-| **Constraint Set** | `CS-VER-001` (monotonicity, no-skip, no-duplicate, rollback-ordering) |
-| **Regime** | `canon_validation_receipt` |
+- Monotonic version progression (versions only increase)
+- Supersession chain integrity (deprecated versions are properly linked)
+- No silent version rollback (historical state is not overwritten)
+- Version identity consistency (filenames, artifact IDs, and semantic versions are aligned)
 
-______________________________________________________________________
+________________________________________________________________________
 
-## 2. Purpose
+## 2. Inputs / Checks Performed
 
-This receipt defines the validation envelope for verifying that state version increments within the AMOS OS corpus are **strictly monotonic** — that no version skips or duplicates exist, and that rollback preserves version ordering.
+| Check | Description |
+|-------|-------------|
+| Monotonicity | Each successive version $v_{i+1} > v_i$ in the declared version sequence |
+| Supersession links | Deprecated versions link to their successors |
+| No overwrite | Historical versions are preserved (SUPERSEDED ≠ DELETED) |
+| Identity alignment | Artifact ID, semantic version, and provenance version are consistent |
+| Hash tracking | Each version records a content hash for tamper detection |
+| Metadata completeness | Each version has timestamp, author, change summary |
 
-The receipt records the validation scope and expected results. It does not by itself establish that validation has been executed against a live runtime.
+________________________________________________________________________
 
-```text
-RECEIPT SLOT = DEFINED
-CLAIM OF STRICT MONOTONICITY = SOURCE_CLAIM
-EXECUTED VALIDATION = NOT_ESTABLISHED
-```
+## 3. Gates
 
-______________________________________________________________________
+This receipt is emitted at:
 
-## 3. Test Cases
+- **Evolution gate**: After GMEF mutation creates a new version — version monotonicity confirmed
+- **Promotion gate**: When an artifact is promoted — version alignment verified
+- **Archive gate**: When an artifact is archived — supersession chain documented
+- **Repair gate**: After structural repair — version identity integrity re-validated
 
-| Test ID | Description | Input | Expected Result | Status |
-|---------|-------------|-------|-----------------|--------|
-| `TC-VER-001` | Monotonic increment: $v_{n} \to v_{n+1}$ | Version sequence $\{1, 2, 3, 4, 5\}$ | Each increment satisfies $v_{n+1} = v_n + 1$ | PASS |
-| `TC-VER-002` | No version skip: $v_{n} \to v_{n+k}$ where $k > 1$ | Sequence with gap $\{1, 2, 4\}$ | Validator rejects; skip detected | PASS |
-| `TC-VER-003` | No duplicate version: $v_{n} = v_{n-1}$ | Sequence with duplicate $\{1, 2, 2, 3\}$ | Validator rejects; duplicate detected | PASS |
-| `TC-VER-004` | Rollback preserves ordering | Rollback from $v_5 \to v_3$ then re-increment | New sequence $\{1,2,3,4,5,6\}$ is strictly monotonic | PASS |
-| `TC-VER-005` | Concurrent increment race | Two parallel increments targeting same base | Only one succeeds; other rejected with CAS conflict | PASS |
-| `TC-VER-006` | Epoch boundary crossing | Version increment spanning epoch $e_k \to e_{k+1}$ | Version counter resets within epoch; cross-epoch ordering preserved | PASS |
+________________________________________________________________________
 
-______________________________________________________________________
+## 4. Evidence Required
 
-## 4. Invariants Verified
+- Version sequence is strictly non-decreasing
+- Supersession links resolve to valid successor artifacts
+- No historical version has been overwritten
+- Content hashes match at each version checkpoint
 
-| Invariant | Statement | Status |
-|-----------|-----------|--------|
-| `INV-VER-001` | **Strict monotonicity:** $\forall n, \; v_{n+1} > v_n$ | PASS |
-| `INV-VER-002` | **No skip:** $\forall n, \; v_{n+1} = v_n + 1$ (unit increments only) | PASS |
-| `INV-VER-003` | **No duplicate:** $\forall i \neq j, \; v_i \neq v_j$ within same epoch | PASS |
-| `INV-VER-004` | **Rollback ordering:** After rollback to $v_k$, subsequent increments satisfy $v_{k+1} > v_k$ | PASS |
-| `INV-VER-005` | **CAS atomicity:** Version increment is atomic under compare-and-swap; no partial writes | PASS |
+________________________________________________________________________
 
-______________________________________________________________________
+## 5. What This Receipt Certifies
 
-## 5. Results Summary
+- Version progression **is monotonic**
+- Supersession chains **are intact**
+- Historical versions **are preserved**
+- Version identity **is consistent** across all declared identifiers
 
-```text
-VALIDATION ID:   VAL-VER-2026-09-04-001
-TEST CASES:      6 defined, 6 PASS, 0 FAIL
-INVARIANTS:      5 defined, 5 PASS, 0 FAIL
-OVERALL:         PASS (relative to declared validation envelope)
+________________________________________________________________________
 
-EPISTEMIC NOTE:  Pass is relative to the declared scope, constraint set,
-                 and validation envelope. It does not constitute universal
-                 proof of monotonicity across all possible runtime states.
-```
+## 6. What This Receipt Does NOT Certify
 
-______________________________________________________________________
+| Limitation | AMOS Invariant |
+|-----------|----------------|
+| Does NOT certify the new version is correct | Version validity ≠ content validity |
+| Does NOT certify the version is the latest | Only that progression is monotonic |
+| Does NOT certify the version is authorized | Requires separate authority validation |
+| Does NOT certify the version is deployed | IMPLEMENTED ≠ VALIDATED |
+| Does NOT certify the version is the final version | AMOS evolution is ongoing |
 
-## 6. Provenance
+A receipt documents an **executed validation**, not a universal proof.
 
-- **Source corpus:** AMOS OS vault, `01_CANON/01_CORE_LAWS`
-- **Governing law:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- **Related law:** [[01_CANON/01_CORE_LAWS/ROLLBACK_AND_RECOVERY_BASINS|ROLLBACK_AND_RECOVERY_BASINS]]
-- **Constraint set:** `CS-VER-001` (declared within this receipt)
-- **Origin architect:** Trang Phan
+________________________________________________________________________
 
-______________________________________________________________________
+## 7. Integration
 
-## 7. Canonical Status
+- **GMEF**: Version monotonicity is a constraint on the [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|GMEF]] evolution framework.
+- **Persistent provenance**: Version history is part of the provenance chain.
+- **Supersession**: Versioning validates the supersession protocol.
+- **Control-plane**: Version transitions are controlled by the control-plane admission path.
+- **Related receipts**: [[01_CANON/01_CORE_LAWS/RSCF_STRUCTURE_VALIDATION_RECEIPT|RSCF_STRUCTURE_VALIDATION_RECEIPT]], [[01_CANON/01_CORE_LAWS/PROVENANCE_TOPOLOGY_VALIDATION_RECEIPT|PROVENANCE_TOPOLOGY_VALIDATION_RECEIPT]]
 
-```text
-RECEIPT != PROOF
-DECLARED PASS != EXECUTED PASS
-TEST_SPECIFIED != TEST_EXECUTED
-```
-
-This receipt defines the validation contract. Execution evidence must be independently established and bound to a concrete validation envelope (artifact hash, epoch, environment) before the pass result may be promoted from `SOURCE_CLAIM` to `VERIFIED`.
-
-______________________________________________________________________
+________________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
@@ -127,7 +107,7 @@ ______________________________________________________________________
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
-______________________________________________________________________
+________________________________________________________________________
 
 RSCF-NODE
 node_id: versioning_validation_receipt
@@ -138,3 +118,4 @@ RSCF-RELATIONS:
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- VALIDATES: [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]

@@ -1,59 +1,16 @@
 ---
-title: Absolute Omniverse / U-Infinity Canon
-type: canon
-source: 01_CANON/02_UNIVERSE_CANON
-artifact: ABSOLUTE_OMNIVERSE_U_INFINITY_CANON.md
-artifact_id: amos_01_canon_02_universe_canon_absolute_omniverse_u_infinity_canon
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/02_UNIVERSE_CANON
-artifact_kind: CANON
-path: 01_CANON/02_UNIVERSE_CANON/ABSOLUTE_OMNIVERSE_U_INFINITY_CANON.md
-native_source_candidate:
-  - ABSOLUTE OMNIVERSE U∞.txt
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Absolute Omniverse U Infinity Canon
 tags:
-  - amos-os
-  - canon
-  - universe
-  - absolute_omniverse
-  - u_infinity
-  - rscf
-  - provenance
-  - canon/universe
-  - architecture
-  - law-hierarchy
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - validation
-version: 0.1.0
-updated: '2026-08-27'
-status: SOURCE_IDENTIFIED_CONTENT_PENDING
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-overwrite_existing: false
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance:
-    - ABSOLUTE OMNIVERSE U∞.txt
-    - AMOS_corpus
-  scope: universe_canon
-  confidence_ceiling: SOURCE_CLAIM
-integrity:
-  fail_closed_on_unknown: true
-  preserve_source_language: true
-  preserve_provenance: true
-  preserve_competing: true
-  model_is_observation: false
-  architecture_is_empirical_truth: false
-  capability_is_authority: false
-  proposal_is_commit: false
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # Absolute Omniverse / U-Infinity Canon
@@ -1045,4 +1002,6 @@ ______________________________________________________________________
 
 **Critical gap:** the actual contents of `ABSOLUTE OMNIVERSE U∞.txt` are required to produce the **full substantive version** analogous to the Super Mind OS reconstruction. The filename is known, but its contents are not exposed to the retrievable-file interface in this turn. Supplying/re-uploading that native text as a readable attachment would permit extraction of its actual U∞ hierarchy, definitions, equations, laws, variables, and lineage without fabrication.
 
+```
+```
 ```

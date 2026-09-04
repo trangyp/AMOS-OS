@@ -1,227 +1,164 @@
 ---
-title: AMOS Core v4.4 Canon
-type: canon
-source: 01_CANON/04_INFRASTRUCTURE_CANON
-artifact: AMOS_CORE_V4_4_CANON.md
-artifact_id: amos_01_canon_04_infrastructure_canon_amos_core_v4_4_canon
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/04_INFRASTRUCTURE_CANON
-artifact_kind: CANON
-path: 01_CANON/04_INFRASTRUCTURE_CANON/AMOS_CORE_V4_4_CANON.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Core V4 4 Canon
 tags:
-  - amos-os
-  - canon
-  - universe
-  - canon_placeholder
-  - rscf
-  - canon/universe
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# AMOS Core v4.4 Canon
+# AMOS Core v4.4 Infrastructure Canon
 
-## 0. Status
+> **Authoritative Canon Boundary**
+>
+> `AMOS_CORE_V4_4_CANON.md` defines the sovereign architectural laws, execution invariants, and state-transition semantics for the **AMOS Core v4.4** platform.
+>
+> ```text
+> LATEST != AUTHORITATIVE
+> DOCUMENTED != IMPLEMENTED
+> MODEL != DEPLOYED_RUNTIME
+> CAPABILITY != AUTHORITY
+> PROPOSAL != COMMIT
+> STRUCTURAL SIMILARITY != IDENTITY
+> UNKNOWN/GAP != PASS
+> ```
 
-`AMOS_CORE_V4_4_CANON.md` is an **ADD-ONLY placeholder** for the **Canon** plane segment at `01_CANON/04_INFRASTRUCTURE_CANON`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+## 1. Lineage & Sovereign Stewardship
 
-The governing boundaries are:
+- **Origin Architect & Steward**: Trang Phan.
+- **Governed Lineage**: `v3.0` (Deterministic Logic) $\rightarrow$ `v3.2.1` (Recursive RSCF + H/M/L) $\rightarrow$ `v3.5` (Epistemic Regimes) $\rightarrow$ `v3.7` (Provenance Topology) $\rightarrow$ `v4.0` (Multi-Agent Fencing) $\rightarrow$ **`v4.4`** (Full Brain OS MECE Operating Architecture).
+- **Post-v4.4 Rule**: Any subsequent candidate version tags (`v4.5`–`v4.17`) remain experimental working drafts or consolidation labels unless an explicit predecessor-successor chain, changeset hash, regression test receipt, and steward authorization record are admitted.
+
+---
+
+## 2. The 10 Invariant Laws of AMOS Core v4.4
+
+### Law 1: Authority Precedence (Law of Hierarchical Governance)
+Authority is strictly directional and cannot be self-issued by execution capabilities:
+$$\text{Canon} \succ \text{Policy/Operating Model} \succ \text{Control Plane/Commit} \succ \text{Runtime Execution} \succ \text{Tool/Agent Capability}$$
+Having the technical capability to write to disk or execute a tool confers zero authority to commit system state.
+
+### Law 2: Epistemic Stratification & Non-Fabrication
+Every assertion, conclusion, and tensor cell in AMOS must be explicitly tagged with its verified epistemic class:
+$$\text{OBSERVATION} \ne \text{SOURCE\_CLAIM} \ne \text{MODEL} \ne \text{DERIVED} \ne \text{COMPETING} \ne \text{UNKNOWN/GAP}$$
+No agent, LLM, or compiler may fill missing knowledge with fluent text. An unresolved premise must remain explicitly visible as `UNKNOWN/GAP`.
+
+### Law 3: Dependency Closure & Selective Invalidation
+State transitions require full traversal of load-bearing dependency closures. When a premise or dependency fails:
+$$\text{Failed Node } D_k \implies \text{Invalidate}(\{D_k\} \cup \text{Descendants}(D_k))$$
+Unrelated parallel subgraphs must be preserved. Global reset is prohibited when local rollback basins can isolate the failure.
+
+### Law 4: Proof-Based Coordination Avoidance
+Shards and local agents may proceed without global distributed synchronization if and only if:
+1. Local dependency closure is mathematically bounded;
+2. Provenance independence is demonstrated;
+3. Causal epochs do not cross shard boundaries;
+4. No shared read-write conflicts exist.
+Otherwise, execution must escalate to Control Plane coordination.
+
+### Law 5: Causal Epoch Finality
+Ordering of state mutations is strictly monotonic and epoch-governed:
+$$\text{PROPOSE} \longrightarrow \text{VALIDATE} \longrightarrow \text{COMMIT} \longrightarrow \text{FINALIZE\_EPOCH}$$
+Historical mutation is strictly prohibited; corrections must be executed as explicit forward supersessions ($S_0 \rightarrow S_1 \rightarrow \text{RollbackTo}(S_0) \text{ as } S_2$).
+
+### Law 6: Atomic Multi-RSCF Transitions
+When an architectural change depends on multiple mutually supporting RSCF claims ($R_1, R_2, \dots, R_n$), all claims must validate and commit simultaneously. Partial promotion is an epistemic corruption defect.
+
+### Law 7: Shard-Local Finalization
+Autonomous local commit is permitted within an isolated domain under demonstrated boundary conditions, preventing global lock contention while preserving system-wide consistency.
+
+### Law 8: Multi-Version Concurrency Control (MVCC) & Compare-And-Swap (CAS)
+Every authoritative commit requires CAS verification against the expected parent snapshot:
+$$\text{CAS}(H_{\text{expected}}, H_{\text{proposed}}) \iff (H_{\text{current}} == H_{\text{expected}}) \implies \text{Commit}$$
+If parent state has drifted, the candidate is declared `STALE_CANDIDATE` and must be revalidated.
+
+### Law 9: Governed Mutation & Evolution Framework (GMEF)
+System self-modification operates within strict evolutionary gates ($L_0$ Integrity, $L_1$ Epistemic, $L_2$ Provenance, $L_5$ Scope, $L_7$ Authority). Mutations cannot bypass testing gates or alter immutable core laws.
+
+### Law 10: Fail-Closed Safety Boundary
+Whenever a critical gap, ambiguous identity, unverified authority, or conflicting provenance is encountered on a consequential execution path, the system must immediately fail closed and hold execution rather than proceed on heuristic assumptions.
+
+---
+
+## 3. Physical-to-Functional MECE Mapping
+
+AMOS Core v4.4 enforces strict separation between physical storage folders and functional domains:
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
+┌────────────────────────────────────────────────────────────────────────────┐
+│                    AMOS CORE v4.4 SOVEREIGN ENVELOPE                       │
+├──────────────────────────┬─────────────────────────────────────────────────┤
+│ DOMAIN A: NORMATIVE      │ 01_CANON (Laws, Canons, Variable Registries)    │
+│                          │ 23_OPERATING_MODEL (Roles, Rights, Escalation)  │
+├──────────────────────────┼─────────────────────────────────────────────────┤
+│ DOMAIN B: EXECUTION      │ 02_KERNEL (Deterministic Logic, MVCC, CAS)      │
+│           & GOVERNANCE   │ 03_CONTROL_PLANE (Authz, Transactions, Finality)│
+│                          │ 04_RUNTIME (Execution Lifecycle, Replay)        │
+├──────────────────────────┼─────────────────────────────────────────────────┤
+│ DOMAIN C: COGNITION &    │ 05_COGNITIVE_ORGANISM (7-Group Functional Organs│
+│           ORCHESTRATION  │ 06_AGENTS, 07_SKILLS, 26_WORKFLOWS              │
+│                          │ 21_DOMAINS (C01–C12 Specialists), 25_MATRIX     │
+├──────────────────────────┼─────────────────────────────────────────────────┤
+│ DOMAIN D: SUBSTRATES     │ 10_MEMORY (8-Class Partition, Immune Eviction)  │
+│                          │ 11_KNOWLEDGE (SOTA Research, Empirical Bridges) │
+│                          │ 12_STATE, 13_MODELS, 16_SCHEMAS                 │
+├──────────────────────────┼─────────────────────────────────────────────────┤
+│ DOMAIN E: ADAPTERS       │ 09_PROTOCOLS, 14_TOOLS, 15_INTERFACES           │
+│                          │ 18_SECURITY (Trust Roots, Taint & Ingress Gates)│
+├──────────────────────────┼─────────────────────────────────────────────────┤
+│ DOMAIN F: ASSURANCE      │ 17_OBSERVABILITY (12 Typed Graphs, Receipts)    │
+│                          │ 19_TESTS, 20_OPERATIONS (Audit Ledgers)         │
+│                          │ 22_RESEARCH, 24_ARCHIVE (Preserved Lineage)     │
+└──────────────────────────┴─────────────────────────────────────────────────┘
 ```
 
-Origin architect / steward:
+---
 
-**Trang Phan**
+## 4. Operational Transition Sequence
 
-______________________________________________________________________
-
-## 1. Purpose
-
-This artifact reserves the **AMOS Core v4.4 Canon** slot within the Canon plane. The Canon plane governs canonical laws, universe/cognition/infrastructure canons, variable registry, glossary, provenance lineage, and supersession.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
-______________________________________________________________________
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
-
-______________________________________________________________________
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+```text
+CURRENT_AUTHORITATIVE_STATE
+        │
+        ▼  Read Snapshot S0
+[CANDIDATE STATE GENERATION]
+        │
+        ▼  Bind Explicit Provenance & Ancestry
+[DEPENDENCY CLOSURE EVALUATION]
+        │
+        ▼  Check Scope, Epoch Freshness, and Invariant Compliance
+[MULTI-LAYER VALIDATION GATES] (Schema, Security, Causal, Regimes)
+        │
+        ▼  Compare-And-Swap (H_current == H_expected)
+[ATOMIC COMMIT & FINALITY]
+        │
+        ▼  Emit Execution & Audit Receipts to 17_OBSERVABILITY & 20_OPERATIONS
+NEW_AUTHORITATIVE_STATE (Epoch N+1)
 ```
 
-______________________________________________________________________
+---
 
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
-______________________________________________________________________
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
-______________________________________________________________________
-
-## 6. Worked semantics (target)
-
-Given an operation touching `01_CANON · CANON` within the Canon plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-______________________________________________________________________
-
-RSCF-NODE
-
+```RSCF-NODE
 node_id: amos_01_canon_04_infrastructure_canon_amos_core_v4_4_canon
-
-node_type: canon
-
-path: 01_CANON/04_INFRASTRUCTURE_CANON/AMOS_CORE_V4_4_CANON.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
-
-**MOC:** [[01_CANON/04_INFRASTRUCTURE_CANON/04_INFRASTRUCTURE_CANON_MOC|04_INFRASTRUCTURE_CANON_MOC]]
+node_type: infrastructure_canon
+plane: 01_CANON
+domain: INFRASTRUCTURE
+claim_class: CANONICAL_LAW
+status: ACTIVE_CANON
+confidence_ceiling: ABSOLUTE_FOR_CANONICAL_LAW
+falsifiers:
+  - Runtime modification of state bypassing Control Plane authority gates.
+  - Silent promotion of MODEL or UNKNOWN/GAP to VERIFIED without proof receipts.
+```

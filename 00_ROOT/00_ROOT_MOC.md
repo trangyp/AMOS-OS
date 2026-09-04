@@ -1,116 +1,16 @@
 ---
-type: note
-source: 00_ROOT
-aliases:
-  - AMOS MOC
-  - AMOS OS MOC
-  - AMOS Master Index
-  - AMOS Root Map
-  - AMOS OS Navigation Hub
-  - MOC
-amos_core_target: v4.4
-artifact_id: AMOS-OS-MOC
-canon_group: tech-ai
-canon_type: navigation
-conclusion_class: SOURCE_CLAIM / AMOS_MODEL
-created: 2026-08-25
-document_version: 2.0.0
-moc_version: 1.0.0
-name: AMOS_OS_MOC
-origin_architect: Trang Phan
-related:
-  - AMOS_COGNITIVE_BRAIN_MANIFEST
-  - 00_HOME
-  - ARCHITECTURE
-  - FULL_TREE
-  - SYSTEM_MAP
-  - AUTHORITATIVE_STATE
-  - DEPENDENCY_MAP
-  - NAMING_STANDARD
-  - PLACEMENT_RULES
-  - ROADMAP
-  - RSCF_NODE_INDEX
-  - GMEF
-  - HML_CANON
-  - "COSMO_BRAIN_MOC|00 Cosmo Brain MOC"
-  - "KNOWLEDGE_MOC|11_KNOWLEDGE MOC"
-  - AMOS_OBSIDIAN_LINKING_PLUGINS
-  - AMOS_LAYER_MAPS
-scope:
-  - AMOS_OS
-  - root_navigation
-  - architecture_navigation
-  - dependency_navigation
-  - governance_navigation
-  - runtime_navigation
-  - cognitive_navigation
-  - knowledge_navigation
-status: ACTIVE_MOC
-steward: Trang Phan
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: 00 Root Moc
 tags:
-  - amos
-  - amos-os
-  - root
-  - map-of-content
-  - architecture
-  - navigation
-  - canon
-  - kernel
-  - control-plane
-  - runtime
-  - cognitive-organism
-  - agents
-  - skills
-  - workflows
-  - protocols
-  - memory
-  - knowledge
-  - state
-  - models
-  - tools
-  - interfaces
-  - schemas
-  - observability
-  - security
-  - tests
-  - operations
-  - domains
-  - research
-  - operating-model
-  - archive
-  - cognitive-matrix
-  - rscf
-  - gmef
-  - hml
-  - provenance
-  - authority
-  - lifecycle
-  - failure-recovery
   - canon-group/tech-ai
-  - canon/navigation
   - rscf/claim
   - rscf/provenance
-  - rscf/state/derived
-  - topic/amos-os
-  - topic/moc
-  - topic/root-navigation
-  - full-tree
-  - authoritative-state
-  - placement-rules
-  - roadmap
-  - cognitive-matrix-integration
-  - neural-network
-  - system-map-v1
-  - amos-core-laws
-  - amos-obsidian-linking-plugins
-title: AMOS OS — Master Map of Content
-updated: 2026-08-26
-moc: true
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: root_index
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AMOS OS — Master Map of Content
@@ -210,7 +110,7 @@ AMOS_OS/
 ├── 05_COGNITIVE_ORGANISM
 ├── 06_AGENTS
 ├── 07_SKILLS
-├── 08_WORKFLOWS
+├── 26_WORKFLOWS
 ├── 09_PROTOCOLS
 ├── 10_MEMORY
 ├── 11_KNOWLEDGE
@@ -234,17 +134,18 @@ ______________________________________________________________________
 
 ## 1.1 MECE Responsibility Partition
 
-This partition is derived from [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]] and [[00_ROOT/PLANE_OWNERSHIP_MATRIX|PLANE_OWNERSHIP_MATRIX]]. It is reconciled with the canonical A–F domain partition as of `2026-09-04`.
+This partition is derived from [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]] and [[00_ROOT/PLANE_OWNERSHIP_MATRIX|PLANE_OWNERSHIP_MATRIX]].
 
-- **A — Normative & Governance Definition** → [[01_CANON/01_CANON_MOC|01_CANON]], [[23_OPERATING_MODEL/23_OPERATING_MODEL_MOC|23_OPERATING_MODEL]]
-- **B — Execution Core & Effect Governance** → [[02_KERNEL/02_KERNEL_MOC|02_KERNEL]], [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE]], [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]]
-- **C — Cognitive Capability & Orchestration** → [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM]], [[06_AGENTS/06_AGENTS_MOC|06_AGENTS]], [[07_SKILLS/07_SKILLS_MOC|07_SKILLS]], [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS]], [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS]], [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX]]
-- **D — Information, Memory, State & Model Substrate** → [[10_MEMORY/10_MEMORY_MOC|10_MEMORY]], [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE]], [[12_STATE/12_STATE_MOC|12_STATE]], [[13_MODELS/13_MODELS_MOC|13_MODELS]], [[16_SCHEMAS/16_SCHEMAS_MOC|16_SCHEMAS]]
-- **E — Interaction, Security & Effect Adapters** → [[09_PROTOCOLS/09_PROTOCOLS_MOC|09_PROTOCOLS]], [[14_TOOLS/14_TOOLS_MOC|14_TOOLS]], [[15_INTERFACES/15_INTERFACES_MOC|15_INTERFACES]], [[18_SECURITY/18_SECURITY_MOC|18_SECURITY]]
-- **F — Assurance, Learning & Lifecycle Evidence** → [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY]], [[19_TESTS/19_TESTS_MOC|19_TESTS]], [[20_OPERATIONS/20_OPERATIONS_MOC|20_OPERATIONS]], [[22_RESEARCH/22_RESEARCH_MOC|22_RESEARCH]], [[24_ARCHIVE/24_ARCHIVE_MOC|24_ARCHIVE]]
+- **A — Universal Canon / Anchor plane** → [[01_CANON/01_CANON_MOC|01_CANON]]
+- **B — OS Kernel / Core identity plane** → [[02_KERNEL/02_KERNEL_MOC|02_KERNEL]]
+- **C — Execution & runtime plane** → [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE]], [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]], [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX]]
+- **D — Cognition & organism plane** → [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM]], [[06_AGENTS/06_AGENTS_MOC|06_AGENTS]], [[10_MEMORY/10_MEMORY_MOC|10_MEMORY]], [[19_TESTS/19_TESTS_MOC|19_TESTS]]
+- **E — Human-system integration plane** → [[07_SKILLS/07_SKILLS_MOC|07_SKILLS]], [[26_WORKFLOWS/26_WORKFLOWS_MOC|26_WORKFLOWS]], [[09_PROTOCOLS/09_PROTOCOLS_MOC|09_PROTOCOLS]], [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE]], [[12_STATE/12_STATE_MOC|12_STATE]], [[13_MODELS/13_MODELS_MOC|13_MODELS]], [[14_TOOLS/14_TOOLS_MOC|14_TOOLS]], [[15_INTERFACES/15_INTERFACES_MOC|15_INTERFACES]], [[16_SCHEMAS/16_SCHEMAS_MOC|16_SCHEMAS]], [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY]], [[18_SECURITY/18_SECURITY_MOC|18_SECURITY]], [[20_OPERATIONS/20_OPERATIONS_MOC|20_OPERATIONS]], [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS]], [[22_RESEARCH/22_RESEARCH_MOC|22_RESEARCH]], [[23_OPERATING_MODEL/23_OPERATING_MODEL_MOC|23_OPERATING_MODEL]]
+- **F — Stewardship / archive plane** → [[24_ARCHIVE/24_ARCHIVE_MOC|24_ARCHIVE]]
 - **Known structural GAPs / strays**:
-  - 08_PLANETARY — RESOLVED: no directory exists; entry retained for historical traceability.
-  - Root-level 04_STRATEGY_MOC — controlled redirect to [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]; not in the canonical MECE tree.
+  - 08_PLANETARY — not in the canonical MECE tree; status = UNKNOWN/GAP pending allocation or archival. **Resolution**: 08_PLANETARY is Layer 6 (Planetary & Ecological) of the Omniverse Brain architecture. Workflows were renumbered to `26_WORKFLOWS` (2026-09-04) to resolve the numbering collision. Recommended: either keep 08_PLANETARY as-is or integrate into `21_DOMAINS/22_C12_EARTH_ECOLOGY/`.
+  - Root-level 04_STRATEGY_MOC — not in the canonical MECE tree; status = UNKNOWN/GAP pending allocation or archival.
+  - `00_ROOT_MAP\nand/` — corrupted stray directory with literal newline in name; should be deleted.
 
 ______________________________________________________________________
 
@@ -478,6 +379,10 @@ ______________________________________________________________________
 - [[02_KERNEL/07_AUTHORITY/00_INDEX/KERNEL_AUTHORITY_MAP|KERNEL_AUTHORITY_MAP]]
 - [[02_KERNEL/08_PROVENANCE/00_INDEX/KERNEL_PROVENANCE_MAP|KERNEL_PROVENANCE_MAP]]
 - [[02_KERNEL/09_INTEGRATION/00_INDEX/INTEGRATION_MAP|INTEGRATION_MAP]]
+- [[02_KERNEL/DETERMINISTIC_LOGIC_KERNEL|DETERMINISTIC_LOGIC_KERNEL]] — M01-M20 logic kernel with proof trails and inference rules catalog
+- [[02_KERNEL/ABSOLUTE_LOGIC_KERNEL_19x19|ABSOLUTE_LOGIC_KERNEL_19x19]] — 19×19 Minimal Universal Reasoning Kernel (MURK): 19 primitives, interaction matrix, TriDomain, tensor, resolution algorithms
+- [[02_KERNEL/NEURAL_SYMBOLIC_HYBRID|NEURAL_SYMBOLIC_HYBRID]] — Neural-symbolic hybrid kernel spec with neuro/symbolic binding contracts
+- [[02_KERNEL/SOFT_REALTIME_SCHEDULER|SOFT_REALTIME_SCHEDULER]] — Soft real-time scheduler with latency/prioritization/energy trade-offs
 
 ## 5. Control Plane
 
@@ -554,6 +459,8 @@ ______________________________________________________________________
 - [[04_RUNTIME/00_INDEX/RUNTIME_MAP|RUNTIME_MAP]]
 - [[04_RUNTIME/00_INDEX/INDEX_RUNTIME_README|INDEX_RUNTIME_README]]
 - [[04_RUNTIME/RUNTIME_RUNTIME_CONTRACT|RUNTIME_RUNTIME_CONTRACT]]
+- [[04_RUNTIME/CAS_VERSION_VECTOR|CAS_VERSION_VECTOR]] — Compare-and-swap version vector protocol with causal ordering
+- [[04_RUNTIME/MULTI_EPOCH_COORDINATION|MULTI_EPOCH_COORDINATION]] — Multi-epoch coordination protocol with finality and rollback
 
 ## 7. Cognitive Organism
 
@@ -585,6 +492,15 @@ ______________________________________________________________________
 - [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP|COGNITIVE_ORGANISM_MAP]]
 - [[05_COGNITIVE_ORGANISM/00_INDEX/INDEX_COGNITIVE_ORGANISM_README|INDEX_COGNITIVE_ORGANISM_README]]
 - [[05_COGNITIVE_ORGANISM/00_INDEX/INDEX_COGNITIVE_ORGANISM_COGNITIVE_ORGANISM_CONTRACT|INDEX_COGNITIVE_ORGANISM_COGNITIVE_ORGANISM_CONTRACT]]
+- [[05_COGNITIVE_ORGANISM/04_COGNITION/ATTENTION_SELECTION_ARCHITECTURE|Attention Selection Architecture]] — Saliency maps, competitive inhibition, attention windows (04_COGNITION)
+- [[05_COGNITIVE_ORGANISM/04_COGNITION/REASONING_INFERENCE_ENGINE|Reasoning Inference Engine]] — Bayesian/analogical/abductive reasoning engine (04_COGNITION)
+- [[05_COGNITIVE_ORGANISM/04_COGNITION/LEARNING_ADAPTATION_ENGINE|Learning Adaptation Engine]] — Online/meta/transfer learning engine (04_COGNITION)
+- [[05_COGNITIVE_ORGANISM/06_WORLD_MODEL/INTERNAL_WORLD_MODEL|Internal World Model]] — Hierarchical predictive self/environment/other model (06_WORLD_MODEL)
+- [[05_COGNITIVE_ORGANISM/06_WORLD_MODEL/PREDICTIVE_CODING_FRAMEWORK|Predictive Coding Framework]] — Free energy prediction-error minimization (06_WORLD_MODEL)
+- [[05_COGNITIVE_ORGANISM/01_IDENTITY/SELF_MODEL_IDENTITY_REGISTRY|Self-Model Identity Registry]] — Persistent self-model and identity coherence (01_IDENTITY)
+- [[05_COGNITIVE_ORGANISM/01_IDENTITY/ETHICAL_ALIGNMENT_REGULATOR|Ethical Alignment Regulator]] — Value alignment and moral constraint regulator (01_IDENTITY)
+- [[05_COGNITIVE_ORGANISM/COGNITIVE_STACK_30_LAYER_SPECIFICATION|COGNITIVE_STACK_30_LAYER_SPECIFICATION]] — Full 30-layer cognitive stack (L0–L29), 17 lifecycle operations, 9 control planes, H/M/L scales
+- [[05_COGNITIVE_ORGANISM/GLOBAL_WORKSPACE_IMPLEMENTATION|GLOBAL_WORKSPACE_IMPLEMENTATION]] — J-space structured workspace, MANAR metacognitive navigator, GWA broadcast, MIRROR O(1) self-modeling
 
 ## 8. Agents
 
@@ -680,7 +596,7 @@ ______________________________________________________________________
 
 ## 10. Workflows
 
-## `08_WORKFLOWS`
+## `26_WORKFLOWS`
 
 Workflows coordinate multi-step execution.
 
@@ -708,9 +624,9 @@ ______________________________________________________________________
 
 ### Key workflows indexes
 
-- [[08_WORKFLOWS/00_INDEX/WORKFLOW_MAP|WORKFLOW_MAP]]
-- [[08_WORKFLOWS/00_INDEX/INDEX_WORKFLOWS_README|INDEX_WORKFLOWS_README]]
-- [[08_WORKFLOWS/00_INDEX/INDEX_WORKFLOWS_WORKFLOW_CONTRACT|INDEX_WORKFLOWS_WORKFLOW_CONTRACT]]
+- [[26_WORKFLOWS/00_INDEX/WORKFLOW_MAP|WORKFLOW_MAP]]
+- [[26_WORKFLOWS/00_INDEX/INDEX_WORKFLOWS_README|INDEX_WORKFLOWS_README]]
+- [[26_WORKFLOWS/00_INDEX/INDEX_WORKFLOWS_WORKFLOW_CONTRACT|INDEX_WORKFLOWS_WORKFLOW_CONTRACT]]
 
 ## 11. Protocols
 
@@ -750,6 +666,8 @@ ______________________________________________________________________
 - [[09_PROTOCOLS/00_INDEX/PROTOCOL_MAP|PROTOCOL_MAP]]
 - [[09_PROTOCOLS/00_INDEX/INDEX_PROTOCOLS_README|INDEX_PROTOCOLS_README]]
 - [[09_PROTOCOLS/00_INDEX/INDEX_PROTOCOLS_PROTOCOL_CONTRACT|INDEX_PROTOCOLS_PROTOCOL_CONTRACT]]
+- [[09_PROTOCOLS/AGENT_TOOL_INTERACTION_PROTOCOL|AGENT_TOOL_INTERACTION_PROTOCOL]] — Agent-to-tool invocation protocol with M10 enforcement
+- [[09_PROTOCOLS/KNOWLEDGE_PROVENANCE_BINDING_PROTOCOL|KNOWLEDGE_PROVENANCE_BINDING_PROTOCOL]] — Knowledge-provenance binding with promotion pipeline and falsification gates
 
 ## 12. Memory
 
@@ -832,6 +750,9 @@ ______________________________________________________________________
 ### Key knowledge indexes
 
 - [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
+- [[11_KNOWLEDGE/GRAPH_FAMILY_SPECIFICATION|GRAPH_FAMILY_SPECIFICATION]] — 12 typed graph families (knowledge, causal, provenance, authority, temporal, spatial, epistemic, intent, communication, resource, identity, evolution) with invariants and cross-graph morphisms
+- [[11_KNOWLEDGE/RSCF_FORMAL_SPECIFICATION|RSCF_FORMAL_SPECIFICATION]] — 15-layer Recursive Structural Coherence Field anatomy, 12 functional RSCF types, lifecycle, update operations, trust vector, integration with 30-layer cognitive stack
+- [[11_KNOWLEDGE/engine/WORLD_MODEL_ENGINE_SPEC|WORLD_MODEL_ENGINE_SPEC]] — World model engine implementation spec mapping 2026 SOTA (World Labs, Cosmos 3, JEPA) to AMOS patterns
 
 ## 14. State
 
@@ -870,6 +791,9 @@ ______________________________________________________________________
 - [[12_STATE/00_INDEX/STATE_STATE_MAP|STATE_STATE_MAP]]
 - [[12_STATE/00_INDEX/INDEX_STATE_README|INDEX_STATE_README]]
 - [[12_STATE/00_INDEX/INDEX_STATE_STATE_CONTRACT|INDEX_STATE_STATE_CONTRACT]]
+- [[12_STATE/12_STATE_MOC|12_STATE_MOC]] — MECE map of the state plane: 9 state families, `Memory != Knowledge != State`, runtime snapshots and freshness ledger
+- [[12_STATE/01_RUNTIME_SNAPSHOTS/AMOS_RUNTIME_STATE|AMOS_RUNTIME_STATE]] — Current runtime state snapshot
+- [[12_STATE/AMOS_RUNTIME_STATE_FRESHNESS_2026-09-03|AMOS_RUNTIME_STATE_FRESHNESS_2026-09-03]] — Runtime state freshness ledger
 
 ## 15. Models
 
@@ -905,6 +829,8 @@ ______________________________________________________________________
 - [[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]]
 - [[13_MODELS/00_INDEX/INDEX_MODELS_README|INDEX_MODELS_README]]
 - [[13_MODELS/00_INDEX/INDEX_MODELS_MODEL_CONTRACT|INDEX_MODELS_MODEL_CONTRACT]]
+- [[13_MODELS/13_MODELS_MOC|13_MODELS_MOC]] — Omniverse Brain 10-layer world/system model MECE map, bound to graph-family and tensor frameworks
+- [[13_MODELS/01_FOUNDATION/OMNIVERSE_BRAIN_10_LAYER_SPECIFICATION|OMNIVERSE_BRAIN_10_LAYER_SPECIFICATION]] — Canonical 10-layer mathematical model specification
 
 ## 16. Tools
 
@@ -994,6 +920,12 @@ ______________________________________________________________________
 - [[16_SCHEMAS/00_INDEX/SCHEMA_MAP|SCHEMA_MAP]]
 - [[16_SCHEMAS/00_INDEX/INDEX_SCHEMAS_README|INDEX_SCHEMAS_README]]
 - [[16_SCHEMAS/00_INDEX/INDEX_SCHEMAS_SCHEMA_CONTRACT|INDEX_SCHEMAS_SCHEMA_CONTRACT]]
+- [[16_SCHEMAS/16_SCHEMAS_MOC|16_SCHEMAS_MOC]] — MECE map of the schemas plane: tensor framework, schema families, compatibility rules
+- [[16_SCHEMAS/PROTOCOL_SCHEMA|PROTOCOL_SCHEMA]] — typed schema for protocol artifacts (09_PROTOCOLS)
+- [[16_SCHEMAS/KNOWLEDGE_SCHEMA|KNOWLEDGE_SCHEMA]] — typed schema for knowledge claims (11_KNOWLEDGE)
+- [[16_SCHEMAS/MEMORY_SCHEMA|MEMORY_SCHEMA]] — typed schema for memory records (10_MEMORY)
+- [[16_SCHEMAS/SECURITY_SCHEMA|SECURITY_SCHEMA]] — typed schema for security artifacts (18_SECURITY)
+- [[16_SCHEMAS/10_RSCF/10_RSCF_MOC|10_RSCF_MOC]] — composition map of the 6 RSCF schemas
 
 ## 19. Observability
 
@@ -1241,6 +1173,19 @@ ______________________________________________________________________
 - [[22_RESEARCH/00_INDEX/RESEARCH_RESEARCH_MAP|RESEARCH_RESEARCH_MAP]]
 - [[22_RESEARCH/00_INDEX/INDEX_RESEARCH_README|INDEX_RESEARCH_README]]
 - [[22_RESEARCH/00_INDEX/INDEX_RESEARCH_RESEARCH_CONTRACT|INDEX_RESEARCH_RESEARCH_CONTRACT]]
+- [[22_RESEARCH/SOTA_QUANTUM_ERROR_CORRECTION_BREAKTHROUGHS_2026|SOTA_QUANTUM_ERROR_CORRECTION_BREAKTHROUGHS_2026]] — 2026 QEC convergence: NVIDIA AI decoding, IBM Nighthawk, Nord Quantique bosonic, IQM novel codes, D-Wave dual-rail
+- [[22_RESEARCH/SOTA_AGENTIC_AI_MULTI_AGENT_SYSTEMS_2026|SOTA_AGENTIC_AI_MULTI_AGENT_SYSTEMS_2026]] — 2026 agentic AI survey: orchestration taxonomies, cognitive foundations, trust-weighted coordination, evaluation frameworks
+- [[22_RESEARCH/SOTA_BCI_FOUNDATION_MODELS_NEURAL_INTERFACES_2026|SOTA_BCI_FOUNDATION_MODELS_NEURAL_INTERFACES_2026]] — 2026 BCI update: foundation model benchmarking, speech neuroprosthetics, IEEE/ISO standardization, consumer BCI
+- [[22_RESEARCH/SOTA_NEUROMORPHIC_PHOTONIC_COMPUTING_2026|SOTA_NEUROMORPHIC_PHOTONIC_COMPUTING_2026]] — 2026 neuromorphic/photonic breakthroughs: Intel Loihi 3, BrainChip Akida 2.0, Lightmatter Envise, memristive SNNs
+- [[22_RESEARCH/SOTA_WORLD_MODELS_GENERATIVE_SIMULATION_2026|SOTA_WORLD_MODELS_GENERATIVE_SIMULATION_2026]] — 2026 world models: World Labs Atlas, Cosmos 3, Genie 3, JEPA evolution, Riemann-1.0
+- [[22_RESEARCH/SOTA_AI_SAFETY_ALIGNMENT_FRONTIER_RISK_2026|SOTA_AI_SAFETY_ALIGNMENT_FRONTIER_RISK_2026]] — 2026 AI safety/alignment: regulatory hardening (EU Art 101, FRONTIER Act), agentic misalignment, scalable oversight, positive-attractor alignment
+- [[22_RESEARCH/SOTA_BCI_NEURAL_INTERFACES_2026|SOTA_BCI_NEURAL_INTERFACES_2026]] — 2026 BCI SOTA: Neuralink 21+ patients, Synchron Stentrode, Blackrock 10k channels, China Neuracle NEO, speech neuroprosthetics
+- [[22_RESEARCH/SOTA_QUANTUM_COMPUTING_2026|SOTA_QUANTUM_COMPUTING_2026]] — 2026 quantum computing: IBM 70 qubit advantage, IonQ qLDPC breakeven, Quantinuum Helios, Google Willow, D-Wave
+- [[22_RESEARCH/SOTA_QUANTUM_BIOLOGY_CONSCIOUSNESS_2026|SOTA_QUANTUM_BIOLOGY_CONSCIOUSNESS_2026]] — 2026 quantum biology: Hameroff fractal time crystals, Wiest MT substrate, QBIT spintronic oscillators, cavity QED
+- [[22_RESEARCH/SOTA_NEUROMORPHIC_COMPUTING_2026|SOTA_NEUROMORPHIC_COMPUTING_2026]] — 2026 neuromorphic: Intel Loihi 3, IBM NorthPole, BrainChip Akida 2, SpiNNaker2, event-driven SNNs
+- [[22_RESEARCH/SOTA_WORLD_MODELS_SIMULATION_2026|SOTA_WORLD_MODELS_SIMULATION_2026]] — 2026 world models: World Labs spatial intelligence, Physical Intelligence π0, NVIDIA Cosmos, JEPA, Genie 2
+- [[22_RESEARCH/SOTA_AI_SAFETY_ALIGNMENT_2026|SOTA_AI_SAFETY_ALIGNMENT_2026]] — 2026 AI safety: Constitutional AI, mechanistic interpretability, EU AI Act enforcement, scalable oversight, alignment tax
+- [[22_RESEARCH/SOTA_COGNITIVE_ARCHITECTURE_2026|SOTA_COGNITIVE_ARCHITECTURE_2026]] — 2026 cognitive architectures: Soar/ACT-R/LIDA lineage, JEPA as cognitive core, GWT, IIT, predictive processing, AMOS positioning
 
 ## 26. Operating Model
 
@@ -1916,6 +1861,8 @@ conclusion:
     - capability and authority must remain distinct.
     - unknown gaps must not be treated as pass.
     - component contracts should include provenance, tests, failure, and recovery.
+    - P0-P2 gaps from the 2026-09-04 audit have received substantive specifications: cognitive organs (attention, reasoning, learning, world model, predictive coding, identity, ethics), typed graph families (12 graphs), runtime coordination (CAS/version vectors, multi-epoch), and SOTA research (neuromorphic/photonic, world models, AI safety/alignment).
+    - Schemas and State MOC layers converted from templated boilerplate to substantive MECE maps; Schemas plane MECE gap filled with protocol/knowledge/memory/security schema families.
 
   not_established:
     - every linked component exists
@@ -1928,6 +1875,7 @@ conclusion:
     - exhaustive implementation audit
     - exact active dependency graph
     - exact component-level validation status
+    - empirical validation of cognitive/consciousness-adjacent model lenses
 ```
 
 ______________________________________________________________________
@@ -2009,12 +1957,33 @@ ______________________________________________________________________
 
 ## 48. Changelog
 
+## v2.3.0 — 2026-09-04 (round 3: schemas/state/models MECE completion)
+
+- Expanded templated MOCs into substantive MECE navigation maps: `16_SCHEMAS/16_SCHEMAS_MOC.md` (64→153 lines, tensor framework + schema families + compatibility rules), `12_STATE/12_STATE_MOC.md` (64→187 lines, 9 state families, Memory≠Knowledge≠State, runtime snapshots + freshness ledger), `16_SCHEMAS/10_RSCF/10_RSCF_MOC.md` (38→134 lines, 6 RSCF schema composition + epistemic guardrails), `13_MODELS/13_MODELS_MOC.md` (82→133 lines, 10-layer model bound to graph-family + tensor frameworks)
+- Filled MECE gap in Schemas plane: created 4 new typed schema families — `16_SCHEMAS/PROTOCOL_SCHEMA.md` (285 lines), `16_SCHEMAS/KNOWLEDGE_SCHEMA.md` (209 lines), `16_SCHEMAS/MEMORY_SCHEMA.md` (253 lines), `16_SCHEMAS/SECURITY_SCHEMA.md` (262 lines) — preserving `Memory != Knowledge != State` and `Capability != Authority` boundaries
+- Added 1 new SOTA research synthesis: `22_RESEARCH/SOTA_AI_SAFETY_ALIGNMENT_FRONTIER_RISK_2026.md` (414 lines — EU Art 101, FRONTIER Act, agentic misalignment, scalable oversight, positive-attractor alignment, AMOS invariant mapping)
+- Verified P3 cleanup: corrupted stray directory `00_ROOT_MAP\nand/` no longer present; 08_PLANETARY resolution (Layer 6, 26_PLANETARY recommendation) documented and preserved
+- Updated ROOT_MOC navigation with all round 3 files; documented remaining UNKNOWN/GAP (executable MVCC/MVCC finality, schema validators, model-output/simulation firewalls)
+
+## v2.2.0 — 2026-09-04 (comprehensive audit & expansion)
+
+- Full vault structure scan: 26 numbered layers, 3,000+ files audited
+- Fixed 2 truncated specifications: `02_KERNEL/DETERMINISTIC_LOGIC_KERNEL.md` (44→220+ lines, full axiom enforcement, proof trails, non-monotonic management), `09_PROTOCOLS/COORDINATION_AVOIDANCE_PROTOCOL.md` (48→200+ lines, full I-confluence theory, shard-local finalization, proof-based coordination avoidance)
+- Expanded 3 thin engine models: `11_KNOWLEDGE/engine/CONSCIOUSNESS_ENGINE_MODEL.md` (49→200+ lines, global workspace architecture, UST tree, state machine), `EMOTION_ENGINE_MODEL.md` (49→200+ lines, ASV dynamics, homeostatic regulation, 5 kernel specs), `CONSTRAINT_ENGINE.md` (49→200+ lines, constraint tensor, admissibility function, propagation protocol)
+- Expanded `15_INTERFACES/BCI_EXPRESSION_GATEWAY_ADAPTER.md` (63→200+ lines, 2026 BCI modality specs, foundation model integration, 8 safety invariants)
+- Expanded `10_MEMORY/EPISODIC_MEMORY_SUBSTRATE.md` (58→250+ lines, 4-tier strata, retention curves, temporal replay engine, storage schema)
+- Added 3 new SOTA research syntheses: `SOTA_QUANTUM_ERROR_CORRECTION_BREAKTHROUGHS_2026.md` (NVIDIA/IBM/Nord Quantique/IQM/D-Wave convergence), `SOTA_AGENTIC_AI_MULTI_AGENT_SYSTEMS_2026.md` (orchestration taxonomy, cognitive foundations, trust-weighted coordination), `SOTA_BCI_FOUNDATION_MODELS_NEURAL_INTERFACES_2026.md` (DeeperBrain, ST-EEGFormer, speech neuroprosthetics, IEEE standards)
+- Added 2 new protocol specifications: `09_PROTOCOLS/AGENT_TOOL_INTERACTION_PROTOCOL.md` (M10 enforcement, sandbox execution, output classification), `09_PROTOCOLS/KNOWLEDGE_PROVENANCE_BINDING_PROTOCOL.md` (promotion pipeline, provenance record structure, contradiction detection)
+- Resolved 08_PLANETARY MECE gap: identified as Layer 6 Omniverse Brain, recommended renumber to 26_PLANETARY
+- Documented corrupted stray directory `00_ROOT_MAP\nand/` for deletion
+- Updated ROOT_MOC navigation with all new files and structural fixes
+
 ## v2.1.0 — 2026-08-26 (index repair)
 
 - extended `ARXIV_QFM_MOC.md` with 44,264 missing arXiv entries (pass 1); content-based reclassification of 26,136 papers from "Other" into Quantum/Fractal/Math/QFM (pass 2); C01-C12 domain classification of 18,969 papers (pass 3a); manual classification of final 26 (pass 3b); 66,028/66,028 files indexed (100%), 0 unclassified;
 - audited `25_COGNITIVE_MATRIX/COGNITIVE_MATRIX_MOC.md`: 3 unindexed files added; 1,551/1,551 files now indexed (100%);
 - created `11_KNOWLEDGE/Cosmo_Brain_BRIDGE_INDEX.md` — comprehensive bridge index to external symlinked Cosmo Brain vault: 8,253 entries covering all meaningful subdirectories; 1 genuine broken link fixed;
-- audited ALL 28 top-level vault zones: 8 unindexed files found across 00_ROOT, 06_AGENTS, 07_SKILLS, 08_WORKFLOWS, Templates; all 8 fixed;
+- audited ALL 28 top-level vault zones: 8 unindexed files found across 00_ROOT, 06_AGENTS, 07_SKILLS, 26_WORKFLOWS, Templates; all 8 fixed;
 - removed 12 stale arXiv MOC entries pointing to non-existent files;
 - repaired 1,107 broken wiki-links across 82+ navigation files: section-style links → file links, skill display names → bridge index, concept abbreviations → plain text, path-style links → correct filenames;
 - fixed 8 case-mismatch broken links in `11_KNOWLEDGE_MOC.md` (files existed but with different casing);

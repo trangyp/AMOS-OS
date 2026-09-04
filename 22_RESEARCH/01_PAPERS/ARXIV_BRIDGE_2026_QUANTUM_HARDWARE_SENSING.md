@@ -53,7 +53,7 @@ This bridge connects 2026 arXiv pre-prints in quantum hardware platforms (neutra
 | **arXiv ID** | `2605.19245v1` |
 | **Title** | Entangling gate performance and fidelity limits with neutral atom Förster resonance |
 | **Date** | 2026-05 |
-| **Target Planes** | [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC\|Quantum Systems]], [[02_KERNEL/02_KERNEL_MOC\|02_KERNEL]] |
+| **Target Planes** | [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC|Quantum Systems]], [[02_KERNEL/02_KERNEL_MOC|02_KERNEL]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | Neutral atom entangling gate fidelity analysis — directly relevant to AMOS quantum systems domain. Fidelity limits inform AMOS kernel's error correction requirements. Förster resonance gates are a leading neutral-atom two-qubit gate approach. |
 | **Confidence Ceiling** | `EMPIRICAL` for gate fidelity measurements; `SOURCE_CLAIM` for scalability to large atom arrays. |
@@ -65,7 +65,7 @@ This bridge connects 2026 arXiv pre-prints in quantum hardware platforms (neutra
 | **arXiv ID** | `2605.21276v1` |
 | **Title** | Benchmarking a machine-learning differential equations solver on a neutral-atom quantum processor |
 | **Date** | 2026-05 |
-| **Target Planes** | [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC\|Quantum Systems]], [[13_MODELS/13_MODELS_MOC\|13_MODELS]], [[22_RESEARCH/05_BENCHMARKS/05_BENCHMARKS_MOC\|Benchmarks]] |
+| **Target Planes** | [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC|Quantum Systems]], [[13_MODELS/13_MODELS_MOC|13_MODELS]], [[22_RESEARCH/05_BENCHMARKS/05_BENCHMARKS_MOC|Benchmarks]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | ML on neutral-atom hardware — bridges AMOS quantum systems and models planes. Benchmarking approach aligns with AMOS research plane's benchmark requirements. Differential equation solving on quantum hardware is relevant to AMOS's neural ODE dynamics engine. |
 | **Confidence Ceiling** | `EMPIRICAL` for benchmark results; `SOURCE_CLAIM` for advantage over classical solvers. |
@@ -77,7 +77,7 @@ This bridge connects 2026 arXiv pre-prints in quantum hardware platforms (neutra
 | **arXiv ID** | `2604.18531v1` |
 | **Title** | AtomTwin.jl: a physics-native digital twin framework for neutral-atom quantum processors |
 | **Date** | 2026-04 |
-| **Target Planes** | [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC\|Quantum Systems]], [[04_RUNTIME/04_RUNTIME_MOC\|04_RUNTIME]], [[17_OBSERVABILITY/17_OBSERVABILITY_MOC\|17_OBSERVABILITY]] |
+| **Target Planes** | [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC|Quantum Systems]], [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]], [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY]] |
 | **Epistemic Class** | `SOURCE_CLAIM` |
 | **AMOS Relevance** | Digital twin for quantum processors — maps to AMOS runtime (simulation) and observability (monitoring). Physics-native modeling approach aligns with AMOS's physics-grounded architecture. Digital twins enable AMOS to simulate quantum hardware behavior before deployment. |
 | **Confidence Ceiling** | `SOURCE_CLAIM` — framework proposal; validation against real hardware ongoing. |
@@ -93,7 +93,7 @@ This bridge connects 2026 arXiv pre-prints in quantum hardware platforms (neutra
 | **arXiv ID** | `2605.29674v1` |
 | **Title** | Error-corrected phase estimation averaged over variable grids on a trapped-ion quantum processor |
 | **Date** | 2026-05 |
-| **Target Planes** | [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC\|Quantum Systems]], [[02_KERNEL/02_KERNEL_MOC\|02_KERNEL]] |
+| **Target Planes** | [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC|Quantum Systems]], [[02_KERNEL/02_KERNEL_MOC|02_KERNEL]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | Error-corrected quantum phase estimation on real trapped-ion hardware — directly relevant to AMOS quantum systems and kernel error correction. Demonstrates QEC working on current hardware, not just simulation. |
 | **Confidence Ceiling** | `EMPIRICAL` for trapped-ion implementation; `SOURCE_CLAIM` for generalization to other platforms. |
@@ -105,7 +105,7 @@ This bridge connects 2026 arXiv pre-prints in quantum hardware platforms (neutra
 | **arXiv ID** | `2605.28599v1` |
 | **Title** | Thermodynamic-limit dispersion relations on trapped-ion quantum hardware |
 | **Date** | 2026-05 |
-| **Target Planes** | [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC\|Quantum Systems]], [[22_RESEARCH/01_MATHEMATICS/22_MATHEMATICS_MOC\|Mathematics]] |
+| **Target Planes** | [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC|Quantum Systems]], [[22_RESEARCH/01_MATHEMATICS/22_MATHEMATICS_MOC|Mathematics]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | Thermodynamic-limit quantum simulation on trapped ions — relevant to AMOS quantum systems and mathematical foundations. Dispersion relations connect to AMOS's energy-complexity bounds and thermodynamic AI limits. |
 | **Confidence Ceiling** | `EMPIRICAL` for trapped-ion simulation; `SOURCE_CLAIM` for thermodynamic limit extrapolation. |
@@ -117,7 +117,7 @@ This bridge connects 2026 arXiv pre-prints in quantum hardware platforms (neutra
 | **arXiv ID** | `2604.21342v1` |
 | **Title** | Scalable surface ion trap design for magnetic quantum sensing and gradiometry |
 | **Date** | 2026-04 |
-| **Target Planes** | [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC\|Quantum Systems]], [[15_INTERFACES/15_INTERFACES_MOC\|15_INTERFACES]] |
+| **Target Planes** | [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC|Quantum Systems]], [[15_INTERFACES/15_INTERFACES_MOC|15_INTERFACES]] |
 | **Epistemic Class** | `SOURCE_CLAIM` |
 | **AMOS Relevance** | Scalable ion trap for quantum sensing — bridges AMOS quantum systems and interface planes. Magnetic sensing and gradiometry relevant to AMOS's BCI neural interface detection systems. Scalable design important for AMOS's deployment considerations. |
 | **Confidence Ceiling** | `SOURCE_CLAIM` — design proposal; fabrication and testing ongoing. |
@@ -133,7 +133,7 @@ This bridge connects 2026 arXiv pre-prints in quantum hardware platforms (neutra
 | **arXiv ID** | `2605.11457v1` |
 | **Title** | Loss-induced quantum nonreciprocity and entanglement in superconducting qubits |
 | **Date** | 2026-05 |
-| **Target Planes** | [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC\|Quantum Systems]], [[18_SECURITY/18_SECURITY_MOC\|18_SECURITY]] |
+| **Target Planes** | [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC|Quantum Systems]], [[18_SECURITY/18_SECURITY_MOC|18_SECURITY]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | Quantum nonreciprocity in superconducting qubits — relevant to AMOS quantum systems and security planes. Nonreciprocal quantum devices enable AMOS's quantum-secure communication channels. Loss-induced nonreciprocity is a novel approach to quantum isolation. |
 | **Confidence Ceiling** | `EMPIRICAL` for superconducting implementation; `SOURCE_CLAIM` for security applications. |
@@ -149,7 +149,7 @@ This bridge connects 2026 arXiv pre-prints in quantum hardware platforms (neutra
 | **arXiv ID** | `2605.21702v1` |
 | **Title** | Journey in quantum metrology and sensing from foundations to applications: a review |
 | **Date** | 2026-05 |
-| **Target Planes** | [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC\|Quantum Systems]], [[17_OBSERVABILITY/17_OBSERVABILITY_MOC\|17_OBSERVABILITY]], [[22_RESEARCH/22_RESEARCH_MOC\|22_RESEARCH]] |
+| **Target Planes** | [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC|Quantum Systems]], [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY]], [[22_RESEARCH/22_RESEARCH_MOC|22_RESEARCH]] |
 | **Epistemic Class** | `SOURCE_CLAIM` |
 | **AMOS Relevance** | Comprehensive review of quantum metrology — provides the knowledge base for AMOS quantum sensing applications. Connects AMOS quantum systems to observability (precision measurement) and research (foundations to applications). |
 | **Confidence Ceiling** | `SOURCE_CLAIM` — review paper; individual claims should be traced to primary sources. |
@@ -161,7 +161,7 @@ This bridge connects 2026 arXiv pre-prints in quantum hardware platforms (neutra
 | **arXiv ID** | `2605.21219v1` |
 | **Title** | Enhanced quantum metrology by criticality-assisted noncommutative preparation |
 | **Date** | 2026-05 |
-| **Target Planes** | [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC\|Quantum Systems]], [[22_RESEARCH/01_MATHEMATICS/22_MATHEMATICS_MOC\|Mathematics]] |
+| **Target Planes** | [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC|Quantum Systems]], [[22_RESEARCH/01_MATHEMATICS/22_MATHEMATICS_MOC|Mathematics]] |
 | **Epistemic Class** | `SOURCE_CLAIM` |
 | **AMOS Relevance** | Criticality-enhanced quantum metrology — connects AMOS quantum systems to criticality theory (relevant to cognitive matrix phase transitions). Noncommutative preparation protocols may inform AMOS's quantum-enhanced sensing for BCI applications. |
 | **Confidence Ceiling** | `SOURCE_CLAIM` — theoretical enhancement; experimental validation pending. |
@@ -173,7 +173,7 @@ This bridge connects 2026 arXiv pre-prints in quantum hardware platforms (neutra
 | **arXiv ID** | `2605.00576v1` |
 | **Title** | High-pressure magnetic transition in iron observed via diamond quantum sensing |
 | **Date** | 2026-05 |
-| **Target Planes** | [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC\|Quantum Systems]], [[21_DOMAINS/13_C03_PHYSICS_COSMOS/13_C03_PHYSICS_COSMOS_MOC\|C03 Physics-Cosmos]] |
+| **Target Planes** | [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC|Quantum Systems]], [[21_DOMAINS/13_C03_PHYSICS_COSMOS/13_C03_PHYSICS_COSMOS_MOC|C03 Physics-Cosmos]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | Diamond NV-center quantum sensing — directly relevant to AMOS quantum systems and physics-cosmos domain. Diamond quantum sensors are a leading technology for AMOS's BCI magnetic field detection and neural activity sensing. |
 | **Confidence Ceiling** | `EMPIRICAL` for diamond sensing; `SOURCE_CLAIM` for BCI application translation. |
@@ -185,7 +185,7 @@ This bridge connects 2026 arXiv pre-prints in quantum hardware platforms (neutra
 | **arXiv ID** | `2605.18392v1` |
 | **Title** | Precision limits for time-dependent quantum metrology under Markovian noise |
 | **Date** | 2026-05 |
-| **Target Planes** | [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC\|Quantum Systems]], [[22_RESEARCH/01_MATHEMATICS/22_MATHEMATICS_MOC\|Mathematics]] |
+| **Target Planes** | [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC|Quantum Systems]], [[22_RESEARCH/01_MATHEMATICS/22_MATHEMATICS_MOC|Mathematics]] |
 | **Epistemic Class** | `SOURCE_CLAIM` |
 | **AMOS Relevance** | Precision bounds for quantum metrology under noise — establishes fundamental limits for AMOS quantum sensing. Markovian noise model relevant to AMOS's stochastic neural dynamics. Time-dependent metrology connects to AMOS's dynamic cognitive state tracking. |
 | **Confidence Ceiling** | `SOURCE_CLAIM` — theoretical bounds; Markovian assumption may not hold in all practical scenarios. |
@@ -202,7 +202,7 @@ This bridge connects 2026 arXiv pre-prints in quantum hardware platforms (neutra
 | **Title** | Towards unified brain-to-text decoding across speech production and perception |
 | **Authors** | Yuan, Yang, Zhang, Cheng, et al. (Zhejiang University, Shanghai Institute) |
 | **Date** | 2026-03 |
-| **Target Planes** | [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC\|05_COGNITIVE_ORGANISM]], [[15_INTERFACES/15_INTERFACES_MOC\|15_INTERFACES]], [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L08_REPRESENTATION/L08_REPRESENTATION_MOC\|L08 Representation]] |
+| **Target Planes** | [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM]], [[15_INTERFACES/15_INTERFACES_MOC|15_INTERFACES]], [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L08_REPRESENTATION/L08_REPRESENTATION_MOC|L08 Representation]] |
 | **Epistemic Class** | `EMPIRICAL` |
 | **AMOS Relevance** | Unified brain-to-text decoding across production and perception — major advance for AMOS BCI interface plane. Unifying speech production and perception decoding maps to AMOS's unified cognitive representation hypothesis. |
 | **Confidence Ceiling** | `EMPIRICAL` for decoding accuracy; `SOURCE_CLAIM` for generalization across languages and subjects. |

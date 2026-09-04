@@ -1,20 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AUTHORITY WITNESS
-type: authority
-source: 03_CONTROL_PLANE/04_AUTHORITY
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Authority Witness
 tags:
-  - control-plane
-  - authority
-  - note
-  - canon/control-plane
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: authority_governance
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # AUTHORITY_WITNESS.md
@@ -4966,7 +4962,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

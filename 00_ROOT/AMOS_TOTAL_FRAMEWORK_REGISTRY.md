@@ -1,52 +1,29 @@
 ---
-title: AMOS Total Framework Registry
-type: registry
-source: 00_ROOT
-artifact: AMOS_TOTAL_FRAMEWORK_REGISTRY.md
-artifact_id: 00_root_amos_total_framework_registry
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 00_ROOT
-segment: 00_ROOT/AMOS_TOTAL_FRAMEWORK_REGISTRY.md
-artifact_kind: REGISTRY
-path: 00_ROOT/AMOS_TOTAL_FRAMEWORK_REGISTRY.md
-tags:
-  - amos-os
-  - framework-registry
-  - canon/root
-  - rscf
-  - hml
-  - tss
-  - tpe
-  - ubi
-  - fkn
-  - frameworks
-version: 1.0.0
-updated: '2026-09-03'
-status: POPULATED_REGISTRY
-epistemic_class: AMOS_MODEL
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
 conclusion_class: AMOS_MODEL
-canonical_status: AMOS_MODEL
-implementation_status: SPECIFIED_DOCUMENTARY
-validation_status: DERIVED_CONSISTENT
-ingestion_action: EXPANDED_SYNTHESIS
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS
-    - 11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC
-    - 11_KNOWLEDGE/trang/TRANG_FRAMEWORK
-  scope: repository_wide_framework_registry
+epistemic_class: SOURCE_CLAIM
+topic: Amos Total Framework Registry
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Total Framework Registry — Canonical Epistemic Frameworks
 
-**Origin architect / steward:** Trang Phan
-**Status:** `POPULATED_REGISTRY`
-**Lineage target:** `AMOS Core v4.4`
-**Epistemic classification:** `AMOS_MODEL`
+**Origin architect / steward:** Trang Phan  
+**Status:** `POPULATED_REGISTRY`  
+**Lineage target:** `AMOS Core v4.4`  
+**Epistemic classification:** `AMOS_MODEL`  
 
 ---
 
@@ -54,7 +31,7 @@ rscf:
 
 The **AMOS Total Framework Registry** indexes and coordinates all overarching conceptual, epistemic, and cognitive modeling frameworks across AMOS OS.
 
-Frameworks provide **the conceptual grammar, reasoning invariants, and formal scaffolds** that bridge low-level Kernel computations (`02_KERNEL`) with high-level Agent orchestrations (`06_AGENTS` / `08_WORKFLOWS`).
+Frameworks provide **the conceptual grammar, reasoning invariants, and formal scaffolds** that bridge low-level Kernel computations (`02_KERNEL`) with high-level Agent orchestrations (`06_AGENTS` / `26_WORKFLOWS`).
 
 ```text
 FRAMEWORK != KERNEL != IMPLEMENTED RUNTIME

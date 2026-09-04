@@ -1,86 +1,100 @@
 ---
-title: "23_OPERATING_MODEL — Service Level Objectives (SLAs & SLOs)"
-type: governance_specification
-plane: 23_OPERATING_MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 23_OPERATING_MODEL/OPERATING_MODEL_OPERATING_MODEL_CONTRACT
-    - 17_OBSERVABILITY/OBSERVABILITY_OBSERVABILITY_CONTRACT
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-  scope: governance_service_levels
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Service Levels
 tags:
-  - amos-os
-  - 23-operating-model
-  - service-levels
-  - sla
-  - slo
-  - governance
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Service Level Objectives (SLAs & SLOs)
+# SERVICE LEVELS
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Epistemic Class:** `AMOS_MODEL`
-> **Status:** `ACTIVE_SPECIFICATION`
+## 0. Status
 
----
+Operating Model-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
 
-## 1. Architectural Scope & Purpose
+## 1. Purpose
 
-`SERVICE_LEVELS` defines the quantitative Service Level Indicators (SLIs), Service Level Objectives (SLOs), and Service Level Agreements (SLAs) across all computation, neural telemetry, transactional, cryptographic, and memory subsystems of the AMOS Full Brain OS. It operationalizes error budgets, performance burn rates, and automated circuit breakers to enforce real-time reliability.
+`SERVICE LEVELS` defines typed artifact specification, serving the Operating Model plane's obligation: roles, decision rights, governance forums, escalation paths, service levels.
 
----
+## 2. Semantics
 
-## 2. Mathematical Formalism & Quantitative SLO Catalog
+- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
+- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
+- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
 
-An SLI metric $M(t)$ is evaluated against target threshold $\theta_{\text{target}}$ over rolling evaluation window $W$:
+## 3. Failure modes guarded
 
-$$\text{SLO Compliance}(W) = \frac{\int_{t \in W} \mathbb{I}(M(t) \le \theta_{\text{target}}) dt}{|W|} \ge \text{Target Percentage}$$
+STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
 
-### Master Quantitative SLO Catalog:
+## 4. Validation
 
-| Subsystem / Service | SLI Metric | Target SLO | Measurement Window | Error Budget Policy |
-| :--- | :--- | :--- | :--- | :--- |
-| **Neural BCI Closed-Loop Decoding** | Intent Inference Latency | $p_{99} < 5.0\text{ ms}$ | 1-minute rolling | Burn rate $> 2\times \implies$ downgrade filter resolution |
-| **Quantitative Forex Risk Engine** | Kill-Switch Order Cancel | $p_{99} < 25.0\text{ ms}$ | Real-time market tick | Burn rate $> 1\times \implies$ immediate market liquidation |
-| **MicroVM Sandbox Tool Spawning** | Cold Boot Latency | $p_{95} < 15.0\text{ ms}$ | Per tool invocation | Warm pool auto-scale expansion |
-| **Distributed Epistemic Tracing** | Ingestion Throughput | $\ge 10,000\text{ spans/s}$ | 5-minute peak | Shed non-critical debug telemetry |
-| **CAS State Epoch Finalization** | Zero-Divergence Commit Rate | $100.00\%$ | Lifetime epoch commits | Instant fail-closed halt on divergence |
-| **Kernel Availability & Uptime** | Total System Uptime | $\ge 99.999\%$ | Annualized rolling | Freeze non-essential maintenance deploys |
-| **Vector Associative Retrieval** | Top-10 HNSW Query Time | $p_{95} < 2.0\text{ ms}$ | Continuous rolling | Index quantization & cache warm-up |
-| **Cross-Plane Message Bus** | Transit Latency | $p_{99} < 50.0\,\mu\text{s}$ | Inter-plane message | Lock-free Disruptor ring buffer resize |
+No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
 
----
+## 5. Gaps
 
-## 3. Error Budget & Burn Rate Governance
+Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
 
-1. **Error Budget Depletion:** When the 30-day rolling error budget for any subsystem drops below $20\%$, all non-essential feature deployments and speculative research tasks on that subsystem are automatically frozen.
-2. **Burn Rate Alerts:**
-   $$\text{Burn Rate} = \frac{1 - \text{SLI}_{\text{observed}}}{1 - \text{SLO}_{\text{target}}}$$
-   - $\text{Burn Rate} \ge 14.4 \implies$ P1 Critical Alert (2% budget consumed in 1 hour).
-   - $\text{Burn Rate} \ge 6.0 \implies$ P2 High Alert (5% budget consumed in 6 hours).
+## 6. Falsifiers
 
----
+F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
 
-## 4. Cross-Plane Bindings & Enforcement
+## Worked semantics
 
-- **`17_OBSERVABILITY`**: Continuously samples SLI telemetry streams and computes real-time burn rates.
-- **`20_OPERATIONS`**: Ingests SLA breach tickets and triggers automated incident runbooks.
-- **`03_CONTROL_PLANE`**: Restricts capability tokens when subsystems exceed error budgets.
+Given an operation touching `SERVICE LEVELS` within the Operating Model plane:
 
----
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-## 5. Lineage & Stewardship
+## Promotion-gate checklist
 
-- **Origin Architect:** Trang Phan
-- **Steward:** Trang Phan
-- **Target:** `v4.4`
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+
+## Cross-plane bindings
+
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+
+______________________________________________________________________
+
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+
+______________________________________________________________________
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: amos_23_operating_model_05_service_levels_service_levels_md
+node_type: note
+path: 23_OPERATING_MODEL/05_SERVICE_LEVELS/SERVICE_LEVELS.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[23_OPERATING_MODEL/05_SERVICE_LEVELS/05_SERVICE_LEVELS_MOC|05_SERVICE_LEVELS_MOC]]

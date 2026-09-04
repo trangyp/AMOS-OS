@@ -1,106 +1,105 @@
 ---
-title: "Runtime Runtime Contract — Master Execution Core & Virtualized Infrastructure Governance"
-type: plane_contract
-plane: 04_RUNTIME
-domain: B_EXECUTION_CORE_EFFECTS
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 04_RUNTIME/04_RUNTIME_MOC
-    - 04_RUNTIME/AMOS_LLM_INFRASTRUCTURE_ADAPTER_RUNTIME
-    - 04_RUNTIME/CAUSAL_CONCURRENCY_MVCC
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-  scope: runtime_execution_and_virtualization_governance
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Runtime Runtime Contract
 tags:
-  - amos-os
-  - 04-runtime
-  - plane-contract
-  - execution-core
-  - kv-cache-virtualization
-  - firecracker-sandboxing
-  - mvcc-causal-concurrency
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Runtime Runtime Contract — Master Execution Core & Virtualized Infrastructure Governance
+# RUNTIME RUNTIME CONTRACT
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Domain Alignment:** Domain B (Execution Core & Effect Governance)
-> **Conclusion Class:** `DERIVED` (RSCF Validated)
-> **Status:** `ACTIVE_SPECIFICATION`
+## 0. Status
 
----
+Runtime-plane contract for **RUNTIME CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
-## 1. Architectural Scope & Subsystem Role
+## 1. Scope
 
-`04_RUNTIME` governs the low-latency execution engines, virtualized model inference adapters, memory buses, Firecracker microVM container sandboxes, and multi-version concurrency control (MVCC) epoch schedulers of AMOS OS.
+Governs execution substrate binding kernel contracts to runnable operators under v4.4 runtime rules as they bear on `RUNTIME CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
 
-```text
-EXECUTION != DURABLE_COMMIT
-INFERENCE_OUTPUT != CANONICAL_TRUTH
-CONCURRENCY != COORDINATION_BOTTLENECK
-SANDBOX_CONTAINMENT == ABSOLUTE_BLAST_RADIUS_LIMIT
-```
+## 2. Contract terms
 
-```mermaid
-graph TD
-    REQ[Inference & Tool Execution Requests] --> RTR[01. 4-Tier Dynamic Model Router]
-    RTR --> KVC[02. Radix-Trie Virtualized KV-Cache (92.4% Hit Rate)]
-    KVC --> VM[03. Ephemeral Firecracker / Wasm MicroVM Jails]
-    VM --> ARW[04. Apache Arrow Zero-Copy IPC Streaming Bus]
-    ARW --> MVCC[05. MVCC Causal Concurrency & CAS Commit Engine]
-    MVCC --> ST[12_STATE / 17_OBSERVABILITY]
-```
+- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
+- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
+- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
+- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
+- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
 
----
+## 3. Invariants
 
-## 2. 4-Tier Dynamic Inference Engine Topology
+- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
+- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
+- Consequential effects emit receipts; rollback basin exists before mutation.
+- Competing hypotheses remain visible when evidence does not discriminate.
 
-| Model Tier | Target Workloads | Latency SLA | Quantization / Compute Substrate |
-| :--- | :--- | :--- | :--- |
-| **Tier 1: Ultra-Fast Reflex** | Token filtering, AST syntax verification | $\le 15\text{ ms}$ | FP8 / INT4 on Apple Neural Engine / Tensor Core |
-| **Tier 2: Analytical Specialist** | Schema validation, vector retrieval, logic ALUs| $\le 120\text{ ms}$ | FP16 / BF16 on Multi-GPU Clusters |
-| **Tier 3: Frontier Reasoning** | Mathematical proofs, multi-step counterfactuals | $\le 1.5\text{ s}$ | FP16 with Test-Time Compute Scaling |
-| **Tier 4: Formal Prover** | Lean 4 theorem discharge, ZK-proof generation | $\le 5.0\text{ s}$ | Dedicated SMT-Solver / Halo2 ASIC Pipelines |
+## 4. Executed reference
 
----
+No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
 
-## 3. Mathematical Invariants & Concurrency Guarantees
+## 5. Gaps
 
-### 3.1 Radix-Trie Virtualized KV-Cache Reuse
-Prompt prefix tokens $\mathbf{p}_{1:L}$ are indexed via a deterministic prefix-tree:
+Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
 
-$$\text{CacheHit}(\mathbf{p}) = \arg\max_{\mathbf{k} \in \mathcal{T}} \text{LCP}(\mathbf{p}, \mathbf{k})$$
+## 6. Falsifiers
 
-$$\text{HitRatio} = \frac{\sum \text{Length}(\text{LCP})}{\sum \text{Length}(\mathbf{p})} \ge 0.90$$
+F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
 
-### 3.2 MVCC Causal Epoch Finality
-A state transition $(\Delta S, \tau_{\text{epoch}})$ commits if and only if no conflicting concurrent transaction has modified overlapping shard-local keys:
+## Worked semantics
 
-$$\text{Commit}(\Delta S) \iff \forall k \in \text{Keys}(\Delta S), \quad \text{Version}(k) == \tau_{\text{read}}$$
+Given an operation touching `RUNTIME · RUNTIME CONTRACT` within the Runtime plane:
 
-$$\text{CAS Conflict} \implies \text{Rollback to } S_0 \text{ and Replay with Exponential Backoff}$$
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
----
+## Promotion-gate checklist
 
-## 4. Invariants & Safety Firewalls
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-1. **Deterministic Sandboxing:** All untrusted scripts and external API adapters execute inside isolated Firecracker microVMs with strict memory limits ($M \le 512\text{ MB}$) and CPU quotas.
-2. **Zero Memory Leaks:** Worker processes are recycled after $N_{\max} = 10,000$ execution cycles to eliminate memory fragmentation.
-3. **Causal Vector Clock Tracking:** Every emitted state capsule carries causal vector clocks to ensure monotonic ordering across distributed nodes.
+## Cross-plane bindings
 
----
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-## 5. Lineage & Cross-Plane References
+______________________________________________________________________
 
-- **Parent MOC:** [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
-- **Infrastructure Adapter:** [[04_RUNTIME/AMOS_LLM_INFRASTRUCTURE_ADAPTER_RUNTIME|AMOS_LLM_INFRASTRUCTURE_ADAPTER_RUNTIME]]
-- **MVCC Architecture:** [[04_RUNTIME/CAUSAL_CONCURRENCY_MVCC|CAUSAL_CONCURRENCY_MVCC]]
-- **Tool Sandboxing:** [[14_TOOLS/TOOLS_TOOL_CONTRACT|14_TOOLS]]
-- **State Storage:** [[12_STATE/STATE_STATE_CONTRACT|12_STATE]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+
+______________________________________________________________________
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+______________________________________________________________________
+
+RSCF-NODE
+node_id: amos_04_runtime_runtime_runtime_contract_md
+node_type: note
+path: 04_RUNTIME/RUNTIME_RUNTIME_CONTRACT.md
+claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
+**MOC:** [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]

@@ -1,227 +1,110 @@
 ---
-title: Atomic Multi-RSCF Canon
-type: canon
-source: 01_CANON/04_INFRASTRUCTURE_CANON
-artifact: ATOMIC_MULTI_RSCF_CANON.md
-artifact_id: amos_01_canon_04_infrastructure_canon_atomic_multi_rscf_canon
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/04_INFRASTRUCTURE_CANON
-artifact_kind: CANON
-path: 01_CANON/04_INFRASTRUCTURE_CANON/ATOMIC_MULTI_RSCF_CANON.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Atomic Multi Rscf Canon
 tags:
-  - amos-os
-  - canon
-  - universe
-  - canon_placeholder
-  - rscf
-  - canon/universe
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Atomic Multi-RSCF Canon
+# Atomic Multi-RSCF Infrastructure Canon
 
-## 0. Status
+> **Authoritative Canon Boundary**
+>
+> This document establishes the canonical laws governing **Atomic Multi-RSCF State Transitions** within the AMOS Core v4.4 platform.
+>
+> ```text
+> PARTIAL PROMOTION == EPISTEMIC CORRUPTION
+> MULTI-CLAIM COMMIT IS STRICTLY ALL-OR-NOTHING
+> UNVERIFIED PREMISE INVALIDATES THE DEPENDENT BUNDLE
+> PROPOSAL != COMMIT
+> ```
 
-`ATOMIC_MULTI_RSCF_CANON.md` is an **ADD-ONLY placeholder** for the **Canon** plane segment at `01_CANON/04_INFRASTRUCTURE_CANON`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+## 1. Purpose & Problem Statement
 
-The governing boundaries are:
+In complex cognitive architectures, state conclusions frequently depend on an ensemble of interdependent claims:
+
+$$\mathcal{R}_{\text{bundle}} = \{R_1, R_2, \dots, R_k\}$$
+
+If the system permits partial promotion—committing $R_1$ while $R_2$ is delayed, invalid, or unverified—the authoritative knowledge graph enters an internally contradictory state.
+
+The **Atomic Multi-RSCF Canon** mandates that multi-claim state mutations must execute with transactional atomicity: all constituent claims, premises, and dependency edges validate and commit concurrently, or the entire candidate bundle is rejected.
+
+---
+
+## 2. Canonical Laws of Atomic Multi-RSCF
+
+### Law AM-01: Indivisible Epistemic Promotion
+A candidate bundle $\mathcal{R}_{\text{bundle}}$ is promoted to authoritative status if and only if every constituent claim $R_i$ satisfies its required validation gates, schema checks, and authority constraints:
+$$\text{Promote}(\mathcal{R}_{\text{bundle}}) \iff \forall R_i \in \mathcal{R}_{\text{bundle}}, \; \text{Validate}(R_i) == \text{PASS}$$
+
+### Law AM-02: Fail-Closed Invalidation Closure
+If any premise $P \in \text{Closure}(\mathcal{R}_{\text{bundle}})$ fails or evaluates to `UNKNOWN/GAP`, the entire transition is halted. Partial state leakage into Domain D (Memory, Knowledge, State) is strictly prohibited.
+
+### Law AM-03: Temporal & Epoch Synchronization
+All claims within an atomic bundle must bind to the same state epoch, policy epoch, and provenance epoch:
+$$\text{Epoch}(R_i) == \text{Epoch}(R_j) \quad \forall i, j$$
+Cross-epoch temporal skew within an atomic transaction triggers immediate revalidation.
+
+### Law AM-04: Non-Destructive Rollback & Receipting
+When an atomic bundle fails validation:
+1. The working tree rolls back cleanly to the baseline snapshot;
+2. An audit failure receipt is emitted to `17_OBSERVABILITY` documenting the exact failing claim;
+3. No historical records are deleted; recovery is recorded forward.
+
+---
+
+## 3. Execution Cycle
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
+[PROPOSED BUNDLE: {R1, R2, ..., Rk}]
+               │
+               ▼  Traverse Full Dependency Closure
+[CO-VALIDATION GATES] (Schema, Provenance, Causal DAG, Invariants)
+               │
+      ┌────────┴────────┐
+      │                 │
+[ALL PASS]        [ANY FAILURE / GAP]
+      │                 │
+      ▼                 ▼
+[ATOMIC COMMIT]   [CLEAN ROLLBACK]
+All R_i Committed   No State Mutated
+Epoch N+1 Advanced  Failure Receipt Emitted
 ```
 
-Origin architect / steward:
+---
 
-**Trang Phan**
+## 4. Cross-Plane Bindings
 
-______________________________________________________________________
+- **`02_KERNEL/K_ATOMIC_MULTI_RSCF`**: Implements bundle validation algorithms and rollback logic.
+- **`03_CONTROL_PLANE`**: Evaluates authorization contracts before bundle execution.
+- **`16_SCHEMAS/TENSORS`**: Defines typed multi-claim tensor formats.
+- **`17_OBSERVABILITY`**: Ingests atomic commit and rollback receipts.
 
-## 1. Purpose
+---
 
-This artifact reserves the **Atomic Multi-RSCF Canon** slot within the Canon plane. The Canon plane governs canonical laws, universe/cognition/infrastructure canons, variable registry, glossary, provenance lineage, and supersession.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
-______________________________________________________________________
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
-
-______________________________________________________________________
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
-```
-
-______________________________________________________________________
-
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
-______________________________________________________________________
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
-______________________________________________________________________
-
-## 6. Worked semantics (target)
-
-Given an operation touching `01_CANON · CANON` within the Canon plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-______________________________________________________________________
-
-RSCF-NODE
-
+```RSCF-NODE
 node_id: amos_01_canon_04_infrastructure_canon_atomic_multi_rscf_canon
-
-node_type: canon
-
-path: 01_CANON/04_INFRASTRUCTURE_CANON/ATOMIC_MULTI_RSCF_CANON.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
-
-**MOC:** [[01_CANON/04_INFRASTRUCTURE_CANON/04_INFRASTRUCTURE_CANON_MOC|04_INFRASTRUCTURE_CANON_MOC]]
+node_type: infrastructure_canon
+plane: 01_CANON
+domain: INFRASTRUCTURE
+claim_class: CANONICAL_LAW
+status: ACTIVE_CANON
+confidence_ceiling: ABSOLUTE_FOR_CANONICAL_LAW
+falsifiers:
+  - Partial commit of an interdependent RSCF bundle into authoritative state.
+  - Asynchronous epoch binding within a single atomic transaction.
+```

@@ -1,35 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: INDEX GENERATORS COGNITIVE MATRIX README
-type: note
-source: 25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX
-rscf:
-  state: SOURCE_CLAIM
-  class: STRUCTURAL
-  provenance:
-    - internal
-  freshness: EVERGREEN
-  falsifiers: []
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Index Generators Cognitive Matrix Readme
 tags:
-  - note
-  - readme
-  - task-resolver
-  - capability-resolver
-  - mode-admission-queue
-  - mode-coverage-matrix
-  - mode-dependency-graph
-  - k-constraint-propagation
-  - k-binding
-  - k-rscf
-  - k-hml
-  - k-gmef
-  - k-sybil-hardening
-  - generator-templates
-  - k-counterfactual
-  - k-translation
-canon-group: canon/cognitive-matrix
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 ## ---title: "INDEX GENERATORS COGNITIVE MATRIX README" type: document tags: [note]
@@ -3043,7 +3029,7 @@ Such transitions require their own evidence and governance.
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

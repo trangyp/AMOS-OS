@@ -14,9 +14,9 @@ rscf:
 
 # AMOS 137 Mathematical Registry: End-to-End Formal Verification Ledger
 
-> **Verification Status:** `100% PASSED (21/21 Test Ensembles)`
-> **Execution Date:** `2026-09-04`
-> **Origin Architect / Steward:** Trang Phan
+> **Verification Status:** `100% PASSED (21/21 Test Ensembles)`  
+> **Execution Date:** `2026-09-04`  
+> **Origin Architect / Steward:** Trang Phan  
 > **Axiomatic Grounding:** Lean 4 Formal Kernel & SymPy / NumPy Numerical Engine
 
 ---

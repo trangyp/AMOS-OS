@@ -1,21 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: TAG VOCABULARY
-type: schema
-source: 16_SCHEMAS
-status: APPROVED
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
-  proposal: APPROVED_2026-08-30
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Tag Vocabulary
 tags:
-  - 16-schemas
-  - schema
-  - tag-vocabulary
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Tag Vocabulary (Approved)
@@ -124,14 +124,14 @@ ______________________________________________________________________
 ## Migration map (machine-readable draft)
 
 ```yaml
-## 16_SCHEMAS/TAG_VOCABULARY.md — migration map (old -> canonical)
-## canonical namespaces
+# 16_SCHEMAS/TAG_VOCABULARY.md — migration map (old -> canonical)
+# canonical namespaces
 namespaces:
   type:  [note, skill, workflow, agent, moc, canon, schema, reference, template, readme, index, contract, registry, dataset, research, spec]
   epistemic: [source_canon, source_claim, derived, amos_model, empirical, observation]
   hml:   [h, m, l]
 
-## direct renames (old -> canonical), illustrative subset
+# direct renames (old -> canonical), illustrative subset
 rename:
   amos_os:                    amos-os
   control_plane:              control-plane
@@ -156,14 +156,14 @@ rename:
   l01:                        matrix/l01
   l02:                        matrix/l02
 
-## drop (noise, not taxonomy); resolved in dry-run, paths remain untouched
+# drop (noise, not taxonomy); resolved in dry-run, paths remain untouched
 drop:
   - "*.md"                    # filename leaks
   - regex: '^inv-authz-\d+$' # invariant receipt tags
   - regex: '^[0-9]{2}-[0-9a-z-]+$' # prefixed-filename tags
 
-## note: `drop` trailing-dot matching and any partial-content rules are resolved
-## at dry-run with full per-file context; nothing is deleted until gate approval.
+# note: `drop` trailing-dot matching and any partial-content rules are resolved
+# at dry-run with full per-file context; nothing is deleted until gate approval.
 ```
 
 ______________________________________________________________________
@@ -546,8 +546,8 @@ backup scripts/.tagmigrate10-backup-\* (pruned to the 29 real backups).
 Authoritative scan (scripts/broken links) of real .md notes: 27 distinct broken
 wikilink targets / 39 instances. Repaired 2 unambiguously-rewritable links:
 
-- [[TRANG_LMH]\] -> [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LMH_ARCHITECTURE|TRANG_LMH_ARCHITECTURE]] (x2 in TRANG_L_M_H_DINH_NGHIA_VA_PHUONG_TRINH.md; Target exists 11_KNOWLEDGE/05_FRAMEWORKS/)
-- [[AMOS_FULL_BRAIN_OS]\] -> [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS_FULL_BRAIN_OS_ARCHITECTURE]] (x1, in Trang relation tables)
+- \[[TRANG_LMH]\] -> [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LMH_ARCHITECTURE|TRANG_LMH_ARCHITECTURE]] (x2 in TRANG_L_M_H_DINH_NGHIA_VA_PHUONG_TRINH.md; Target exists 11_KNOWLEDGE/05_FRAMEWORKS/)
+- \[[AMOS_FULL_BRAIN_OS]\] -> [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS_FULL_BRAIN_OS_ARCHITECTURE]] (x1, in Trang relation tables)
   Broken set now 25 targets / 35 instances.
   FAIL-CLOSED justification for the remaining 25 (NOT auto-fixed):
 - 19x ASEA sub-concept links (ASEA_MUTATION/SURVIVAL/T2/L/M/H/RECOVERY/...) -> no individual
@@ -555,7 +555,7 @@ wikilink targets / 39 instances. Repaired 2 unambiguously-rewritable links:
   stubbing is unwarranted authoring => needs human decision (create sub-notes vs point to parent).
 - 1x K_CAUSAL_FIREWALL -> real note is generic stubs/causal_firewall.md; "K\_" implies K-kernel
   variant, not exact match => ambiguous.
-- 5x non-note artifacts: inline JSON regex hit (AGENTSKILLS\_*.md), [[...]\]/[[...]\] marks
+- 5x non-note artifacts: inline JSON regex hit (AGENTSKILLS\_*.md), \[[...]\]/\[[...]\] marks
   (LLM_WIKI_LOG, TAG_VOCABULARY), scraped Home-Assistant titles (ZIMA_TOP10\_*.md), malformed
   \[\[00_HOME\`/ \[\`[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] (INDEX_MODELS_MODEL_CONTRACT.md) => NOT Obsidian note links;
   editing would corrupt source content.
@@ -576,6 +576,6 @@ real-note target (no canon invented):
 - 1x K_CAUSAL_FIREWALL (25_COGNITIVE_MATRIX) -> [[02_KERNEL/03_CAUSAL/K_CAUSAL_CLOSURE|K_CAUSAL_CLOSURE]] (real K-kernel embodying the
   causal-boundary/firewall semantics; K\_ prefix = kernel naming).
   Result: 0 broken targets in maintained notes. Remaining rescan hits are 6 scraped-content artifacts
-  in LLM_WIKI/raw|wiki (json JSON [[...]\] migrations-css noise, .devin path refs, scraped article/
+  in LLM_WIKI/raw|wiki (json JSON \[[...]\] migrations-css noise, .devin path refs, scraped article/
   spec titles) that are NOT Obsidian note links.
   backup scripts/.tagmigrate14-backup-\*.

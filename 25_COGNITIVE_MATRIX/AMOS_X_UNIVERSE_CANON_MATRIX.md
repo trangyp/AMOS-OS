@@ -1,89 +1,21 @@
 ---
-title: AMOS x Universe Canon Cross-Plane Matrix
-type: cognitive
-source: 25_COGNITIVE_MATRIX
-artifact: AMOS_X_UNIVERSE_CANON_MATRIX.md
-artifact_id: amos_25_cognitive_matrix_amos_x_universe_canon_matrix
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 25_COGNITIVE_MATRIX
-segment: 25_COGNITIVE_MATRIX
-artifact_kind: MATRIX_TABLE
-path: 25_COGNITIVE_MATRIX/AMOS_X_UNIVERSE_CANON_MATRIX.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos X Universe Canon Matrix
 tags:
-  - amos-os
-  - cognitive-matrix
-  - vault
-  - amos_x_universe_canon_matrix
-  - matrix_table
-  - universe_canon
-  - seven_part_universe
-  - cross_plane_routing
-  - reality
-  - sense
-  - knowledge
-  - cognition
-  - governance
-  - execution
-  - evolution
-  - provenance
-  - authority
-  - rscf
-  - canon_candidate
-  - canon/matrix
-  - canon
-  - amos-x-ubi
-  - amos-x-tss
-  - amos-x-tpe
-  - amos-x-qls
-  - law-hierarchy
-  - memory
-version: 1.1.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - 25_COGNITIVE_MATRIX/AMOS_X_UNIVERSE_CANON
-    - AMOS_7_PART_UNIVERSE_CANON
-    - 01_CANON/07_PART_UNIVERSE_CANON
-    - AMOS_CORPUS
-  scope:
-    - COGNITIVE_MATRIX
-    - CROSS_PLANE_MATRIX_TABLE
-    - SEVEN_PART_UNIVERSE_CANON
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  matrix_spec:
-    artifact:
-      -   - AMOS_X_UNIVERSE_CANON
-  universe_canon:
-    artifact: 01_CANON/07_PART_UNIVERSE_CANON/07_PART_UNIVERSE_CANON_MOC
-  canonical_partition:
-    P1: REALITY_ENVIRONMENT
-    P2: SENSE_EVIDENCE
-    P3: KNOWLEDGE_MEMORY
-    P4: COGNITION_MODELS
-    P5: GOVERNANCE_AUTHORITY
-    P6: EXECUTION_AGENCY
-    P7: EVOLUTION_LEARNING
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  seven_part_structure: VERIFIED_SOURCE_STRUCTURE
-  cross_plane_routing: AMOS_DERIVED_MAPPING
-  subsystem_bindings: REQUIRE_INDIVIDUAL_PROVENANCE
-  physical_cosmology_mapping: NOT_ESTABLISHED_BY_CURRENT_SEVEN_PART_CANON
-  biological_mapping: NOT_ESTABLISHED_AS_PART_3_IDENTITY
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 ______________________________________________________________________

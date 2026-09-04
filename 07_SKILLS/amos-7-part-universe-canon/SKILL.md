@@ -4,7 +4,10 @@ name: amos-7-part-universe-canon
 title: SKILL — Amos 7 Part Universe Canon
 type: note
 source: 07_SKILLS/amos-7-part-universe-canon
+  conclusion_class: AMOS_MODEL
 tags:
+  rscf-state: DERIVED
+  conclusion_class: AMOS_MODEL
   - type/skill
   - type/skill
   - domain/canon-universe
@@ -50,7 +53,6 @@ domain: canon
 description: AMOS 7-Part Universe Canon — Persistence Canon auditing structural completeness across 7 parts (Constraint, Flow, Structure, Enforcement, Time, Adaptation, Termination). Use when auditing whether a theory/system/institution is structurally complete, analyzing why a system emerges/operates/changes/survives/collapses/recovers, or mapping persistence logic. Do not use for generic tasks outside canon/universe domain.
 license: MIT
 steward: Trang Phan
----
 
 # AMOS 7-Part Universe Canon — Persistence Canon
 
@@ -212,7 +214,7 @@ ______________________________________________________________________
 
 - **Peers**: Other skills in the \`\` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
-- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Workflow**: Each skill has a corresponding workflow in `26_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
 
 ## Evaluation

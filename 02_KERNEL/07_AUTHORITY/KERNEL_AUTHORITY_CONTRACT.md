@@ -1,131 +1,109 @@
 ---
-title: Authority Kernel Contract — Subplane Governance Specification
-type: specification
-source: 02_KERNEL/07_AUTHORITY
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 02_KERNEL/KERNEL_KERNEL_CONTRACT
-    - 01_CANON/01_CORE_LAWS/CANON_CORE_LAWS_CONTRACT
-    - 18_SECURITY/SECURITY_SECURITY_CONTRACT
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-  scope: subplane_governance
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Kernel Authority Contract
 tags:
-  - amos-os
-  - 02-kernel
-  - authority
-  - specification
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# Authority Kernel Contract — Subplane Governance Specification
+# KERNEL AUTHORITY CONTRACT
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Epistemic Class:** `AMOS_MODEL`
-> **Status:** `ACTIVE_SPECIFICATION`
+## 0. Status
 
----
+Kernel-plane contract for **AUTHORITY CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
-## 1. Architectural Scope & Purpose
+## 1. Scope
 
-`KERNEL_AUTHORITY_CONTRACT` defines the cryptographic capability-based access control (CapBAC), permission delegation calculi, Macaroon attenuation tokens, and steward authority verification gates inside the AMOS Kernel. It enforces the fundamental invariant `CAPABILITY != AUTHORITY`, preventing unprivileged subagents or external actors from executing privileged state transformations.
+Governs kernel-plane reasoning primitives: meta-logic, cognition, causality, state, memory, risk-repair, authority, provenance, integration as they bear on `AUTHORITY CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
 
----
+## 2. Contract terms
 
-## 2. Mathematical Foundations & Capability Calculus
+- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
+- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
+- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
+- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
+- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
 
-An Authority Token (Macaroon) $\mathcal{T}_{\text{auth}}$ is formalized as:
+## 3. Invariants
 
-$$\mathcal{T}_{\text{auth}} = \langle \text{Location}, \text{Identifier}, \mathcal{C}_{\text{caveats}}, \sigma_{\text{signature}} \rangle$$
+- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
+- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
+- Consequential effects emit receipts; rollback basin exists before mutation.
+- Competing hypotheses remain visible when evidence does not discriminate.
 
-Where:
-- $\text{Location}$ specifies the target plane / service URI.
-- $\text{Identifier}$ is a 128-bit cryptographic nonce.
-- $\mathcal{C}_{\text{caveats}} = [ c_1, c_2, \dots, c_k ]$ is an ordered list of first-party and third-party attenuation predicates:
-  $$c_i : (\text{Request}, \text{Context}) \to \{ \text{True}, \text{False} \}$$
-- $\sigma_{\text{signature}} = \text{HMAC-SHA256}(K_{\text{root}}, \text{Identifier} \mathbin{\Vert} c_1 \mathbin{\Vert} \dots \mathbin{\Vert} c_k)$ is the chained cryptographic signature.
+## 4. Executed reference
 
-### Invariant 1: Attenuation Monotonicity
-Any subagent holding token $\mathcal{T}$ can only restrict (attenuate) permissions by appending caveat $c_{k+1}$; it can never expand permissions:
-$$\text{Perm}(\mathcal{T} \cup \{ c_{k+1} \}) \subseteq \text{Perm}(\mathcal{T})$$
+No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
 
-### Invariant 2: Steward Origin Sovereignty
-Canonical-tier operations ($\mathcal{P}_{\text{canon}}$) require signature verification from the root key belonging to origin architect **Trang Phan**:
-$$\text{Commit}(\mathcal{P}_{\text{canon}}) \implies \text{VerifySig}(K_{\text{Trang Phan}}, \text{CommitPayload}) = \text{True}$$
+## 5. Gaps
 
----
+Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
 
-## 3. Epistemic Invariants & Security Boundaries
+## 6. Falsifiers
 
-1. **`CAPABILITY != AUTHORITY`**: Possessing a tool or memory pointer does not grant permission to execute it without an unexpired, unrevoked capability token.
-2. **Fail-Closed Gate:** Missing, malformed, or expired tokens reject with zero side-effects.
-3. **Revocation Propagation:** Revocation of parent token immediately invalidates all attenuated child tokens via distributed epoch counters.
+F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
 
----
+## Worked semantics
 
-## 4. Execution Mechanics & Capability Verification Pipeline
+Given an operation touching `KERNEL · AUTHORITY CONTRACT` within the Kernel plane:
 
-```text
-[Inbound Execution Request (Agent / API / BCI)]
-                     │
-                     ▼
-       [Macaroon Chained HMAC Validator] ──► [Invalid Sig? -> Trap & Log Security Alert]
-                     │ (Valid Sig)
-                     ▼
-      [Contextual Caveat Evaluator (Time, Plane, Rate)]
-                     │
-                     ▼
-      [Revocation Bloom Filter Check] ───► [Revoked? -> Reject]
-                     │ (Active)
-                     ▼
-         [Grant Capability Lock & Dispatch]
-```
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
----
+## Promotion-gate checklist
 
-## 5. Failure Modes & Degradation
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-- **Replay Attack:** Re-sending an intercepted token. **Mitigation:** Strict nonce check and tight $\Delta t_{\text{validity}} \le 30\,\text{s}$ expiration windows.
-- **Privilege Escalation Attempt:** Tampering with caveat chain. **Mitigation:** Chained HMAC breaks; immediate process quarantine and lock-out.
+## Cross-plane bindings
 
----
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-## 6. Cross-Plane Bindings
+______________________________________________________________________
 
-- **`01_CANON/01_CORE_LAWS`**: Enforces Authority Law.
-- **`06_AGENTS`**: Limits agent privileges in [[06_AGENTS/AGENTS_AGENT_CONTRACT|AGENTS_AGENT_CONTRACT]].
-- **`14_TOOLS`**: Wraps tool invocation in sandbox capability checks.
-- **`18_SECURITY`**: Root key management and KMS integration.
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
-## 7. Verification & Formal Invariants
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
-Formal verification of Macaroon attenuation in Lean 4:
-$$\forall (T : \text{Macaroon}) (c : \text{Caveat}), \quad \text{AccessSet}(T \circ c) \subseteq \text{AccessSet}(T)$$
+______________________________________________________________________
 
----
+RSCF-NODE
+node_id: amos_02_kernel_07_authority_kernel_authority_contract_md
+node_type: note
+path: 02_KERNEL/07_AUTHORITY/KERNEL_AUTHORITY_CONTRACT.md
+claim_class: AMOS_MODEL
 
-## 8. Lineage & Stewardship
+______________________________________________________________________
 
-- **Origin Architect:** Trang Phan
-- **Steward:** Trang Phan
-- **Target:** `v4.4`
+**MOC:** [[02_KERNEL/07_AUTHORITY/07_AUTHORITY_MOC|07_AUTHORITY_MOC]]
 
----
+______________________________________________________________________
 
-## 9. Attestation Metadata
-
-```yaml
-subplane: 02_KERNEL/07_AUTHORITY
-contract_status: ACTIVE_SPECIFICATION
-steward: Trang Phan
-verification_status: CRYPTOGRAPHICALLY_LOCKED
-```
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

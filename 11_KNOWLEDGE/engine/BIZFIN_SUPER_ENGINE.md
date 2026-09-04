@@ -1,29 +1,20 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: BIZFIN SUPER ENGINE
-type: engine
-source: 11_KNOWLEDGE/engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
-topic: bizfin-super-engine
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Bizfin Super Engine
 tags:
   - canon-group/tech-ai
-  - canon/metric
   - rscf/claim
   - rscf/provenance
   - rscf/state/source-claim
-  - topic/bizfin-super-engine
-  - engine
-  - trang-framework-recursive-ontology-dynamics
+  - misc
 created: 2026-08-22
-rscf:
-  state: AMOS_MODEL
-  claim_class: EMPIRICAL
-  provenance: AMOS_corpus
-  scope: engine_specification
+---
 ---
 
 # BIZFIN SUPER ENGINE

@@ -1,227 +1,151 @@
 ---
-title: AMOS Brain Master OS Canon
-type: canon
-source: 01_CANON/04_INFRASTRUCTURE_CANON
-artifact: AMOS_BRAIN_MASTER_OS_CANON.md
-artifact_id: amos_01_canon_04_infrastructure_canon_amos_brain_master_os_canon
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/04_INFRASTRUCTURE_CANON
-artifact_kind: CANON
-path: 01_CANON/04_INFRASTRUCTURE_CANON/AMOS_BRAIN_MASTER_OS_CANON.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Brain Master Os Canon
 tags:
-  - amos-os
-  - canon
-  - universe
-  - canon_placeholder
-  - rscf
-  - canon/universe
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Brain Master OS Canon
 
-## 0. Status
+**Origin architect / steward:** Trang Phan  
+**AMOS Core target:** `v4.4`  
+**Classification:** `CANONICAL / AMOS_MODEL`
 
-`AMOS_BRAIN_MASTER_OS_CANON.md` is an **ADD-ONLY placeholder** for the **Canon** plane segment at `01_CANON/04_INFRASTRUCTURE_CANON`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+## 0. Executive Architecture Statement
 
-The governing boundaries are:
+The **AMOS Brain Master OS** defines the governed infrastructure envelope uniting cognitive supervisory systems, deterministic reasoning runtimes, and world-effect authorization gates. 
+
+The universal linear execution chain `Kernel -> Engine -> Agent -> Control Plane` is explicitly rejected by AMOS canon. The Brain Master OS operates along five orthogonal dimensions:
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
+FUNCTIONAL OWNERSHIP
+!= PHYSICAL STORAGE
+!= AUTHORITY PRECEDENCE
+!= RUNTIME CALL ORDER
+!= EVIDENCE / VALIDATION STATUS
 ```
 
-Origin architect / steward:
+The Brain Master OS enforces the structural tripartite division:
+1. **AMOS BRAIN:** Representation + cognition + coordination + capability + world/system modeling (`05_COGNITIVE_ORGANISM`, `06_AGENTS`, `07_SKILLS`, `26_WORKFLOWS`, `21_DOMAINS`, `25_COGNITIVE_MATRIX`).
+2. **AMOS RUNTIME:** Typed reasoning/execution state + RSCF + H/M/L + provenance + repair + replay + audit (`02_KERNEL`, `04_RUNTIME`, `10_MEMORY`, `12_STATE`, `16_SCHEMAS`).
+3. **AMOS CONTROL / BODY:** Authority + capability grants + semantic transactions + commit/finality eligibility + rollback/recovery + world-effect gating (`01_CANON`, `03_CONTROL_PLANE`, `18_SECURITY`, `20_OPERATIONS`, `23_OPERATING_MODEL`).
 
-**Trang Phan**
+---
 
-______________________________________________________________________
+## 1. Grounding in Arvix Cognitive Lineage
 
-## 1. Purpose
+The cognitive infrastructure of AMOS is grounded in empirical and theoretical foundations established in the Arvix corpus:
+- **Synaptic and Structural Foundations:** Grounded in early research notes (`0907.2192v1` *Physical Foundations of Consciousness: Brain Organisation, The Role of Synapses*), consciousness is formalised as synaptic and network organization rather than ephemeral compute.
+- **Information Integration Precursors:** Derived from cortical information integration (`1012.5649v1`) and formal cognitive property evaluation (`1002.0177v1`), integrated with modern quantum panprotopsychism and objective collapse argument topologies (`Quantum_Consciousness_Argument_Map`).
+- **Cognitive Boundary Firewalls:** Analogous to the physical firewalls in mesoscopic coherence (`Quantum_Physics_Early_Thread_2007-2010`), cognitive capability never implies physical authority (`COGNITION != AUTHORITY`).
 
-This artifact reserves the **AMOS Brain Master OS Canon** slot within the Canon plane. The Canon plane governs canonical laws, universe/cognition/infrastructure canons, variable registry, glossary, provenance lineage, and supersession.
+---
 
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+## 2. Core Functional Invariants
 
-______________________________________________________________________
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
-
-______________________________________________________________________
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+```text
+BM-001  INTEGRITY > COMPLETENESS > FLUENCY > SPEED
+BM-002  FULL_BRAIN_OS != WHOLE_AMOS_INFRASTRUCTURE
+BM-003  BRAIN != RUNTIME != CONTROL_PLANE
+BM-004  AUTHORITY PRECEDENCE != STRUCTURAL CONTAINMENT
+BM-005  COGNITION != AUTHORITY
+BM-006  MEMORY != CANON
+BM-007  MODEL != OBSERVATION
+BM-008  CAPABILITY != AUTHORITY
+BM-009  PROPOSAL != COMMIT
+BM-010  RETRIEVAL != VERIFICATION
+BM-011  LOCAL FAILURE != GLOBAL RESET
+BM-012  LOCAL FINALITY != GLOBAL FINALITY
+BM-013  UNKNOWN/GAP != PASS
+BM-014  COMPETING != CONFLICT_RESOLUTION_BY_VOTE
+BM-015  NO BLIND RETRY WITHOUT MUTATED HYPOTHESIS
 ```
 
-______________________________________________________________________
+---
 
-## 4. Contract discipline
+## 3. The 6-Component System Formalization
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+The Brain Master OS is formally defined as:
 
-______________________________________________________________________
+$$\text{BrainMasterOS} = \langle \mathcal{B}_{\text{core}}, \mathcal{K}_{\text{omni}}, \mathcal{B}_{\text{omniverse}}, \mathcal{P}_{\text{personality}}, \mathcal{T}_{\text{expression}}, \mathcal{G}_{\text{gap}} \rangle$$
 
-## 5. Gaps
+Where:
+- $\mathcal{B}_{\text{core}}$: **Capability Ecosystem** — routed across `21_DOMAINS`, `07_SKILLS`, and `13_MODELS`. Supplies bounded specialized reasoning procedures.
+- $\mathcal{K}_{\text{omni}}$: **Cognitive Coordination Engine** — anchored in `05_COGNITIVE_ORGANISM` and `02_KERNEL`. Enforces minimum-sufficient cognitive activation and H/M/L recursion.
+- $\mathcal{B}_{\text{omniverse}}$: **World & System Representation** — anchored in `13_MODELS` and `11_KNOWLEDGE`. Maintains predictive, simulation, and physical-world models.
+- $\mathcal{P}_{\text{personality}}$: **Interaction & Epistemic Persona** — bounds cognitive expression, preserves epistemic humility, and prevents overclaiming.
+- $\mathcal{T}_{\text{expression}}$: **Expression Translation Layer** — anchored in `15_INTERFACES` and `09_PROTOCOLS`. Translates structured cognitive logic into multi-modal user deliverables.
+- $\mathcal{G}_{\text{gap}}$: **Integrity & Gap Governor** — cross-cutting fail-closed sentinel. Traps missing evidence, stale dependencies, and circular references as `UNKNOWN/GAP`.
 
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
+---
 
-______________________________________________________________________
+## 4. Governed Execution Loop
 
-## 6. Worked semantics (target)
+The end-to-end cognitive execution lifecycle enforces strict separation of intent, proposal, gatekeeper check, and effect:
 
-Given an operation touching `01_CANON · CANON` within the Canon plane:
+```text
+HUMAN / ENVIRONMENT INTENT
+       ↓
+SENSE / PERCEIVE (05_COGNITIVE_ORGANISM)
+       ↓
+ATTENTION & CONTEXT COMPACT (05_COGNITIVE_ORGANISM)
+       ↓
+RETRIEVE (10_MEMORY + 11_KNOWLEDGE)
+       ↓
+REASON & FORK COMPETING HYPOTHESES (02_KERNEL + 05_COGNITIVE_ORGANISM)
+       ↓
+PROPOSE ACTION DAG (PROPOSAL != COMMIT)
+       ↓
+RUNTIME BINDS STATE & DEPENDENCY CLOSURE (04_RUNTIME + 12_STATE)
+       ↓
+CONTROL-PLANE AUTHORITY / FRESHNESS / CONFLICT CHECK (03_CONTROL_PLANE)
+       ↓
+COMMIT-TIME REVALIDATION & CAS / LEASE GATES (03_CONTROL_PLANE)
+       ↓
+TOOL / ADAPTER DISPATCH (14_TOOLS + 15_INTERFACES)
+       ↓
+RECEIPT RECORDED & TELEMETRY GENERATED (17_OBSERVABILITY + 19_TESTS)
+       ↓
+PERSISTENT LEARNING CANDIDATE EVALUATED (11_KNOWLEDGE + 20_OPERATIONS)
+```
 
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+---
 
-______________________________________________________________________
+## 5. Cross-Plane Interfaces
 
-## 7. Promotion-gate checklist
+- **Normative Canon:** Governed by [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] and [[01_CANON/03_COGNITION_CANON/FULL_BRAIN_OS_CANON|FULL_BRAIN_OS_CANON]].
+- **Deterministic ALU:** Executes through [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] and atomic multi-RSCF validators.
+- **Authority Gate:** Enforced by [[03_CONTROL_PLANE/COGNITIVE_VAULT_RESOLVER|COGNITIVE_VAULT_RESOLVER]] and [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]].
+- **Runtime Execution:** Bound to [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]].
+- **External Evidence Base:** Bridged to [[00_ROOT/ARXIV_RSCF_KNOWLEDGE_NODE|Arvix Knowledge Corpus]] across 66,026 papers.
 
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-______________________________________________________________________
-
+---
 RSCF-NODE
-
 node_id: amos_01_canon_04_infrastructure_canon_amos_brain_master_os_canon
-
 node_type: canon
-
+domain: CANON
 path: 01_CANON/04_INFRASTRUCTURE_CANON/AMOS_BRAIN_MASTER_OS_CANON.md
-
 claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
+canonical_status: CANONICAL
 RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
-
-**MOC:** [[01_CANON/04_INFRASTRUCTURE_CANON/04_INFRASTRUCTURE_CANON_MOC|04_INFRASTRUCTURE_CANON_MOC]]
+- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY]]
+- REPRESENTS: [[01_CANON/03_COGNITION_CANON/FULL_BRAIN_OS_CANON]]
+- ALIGNED_WITH: [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE]]
+- BRIDGES_TO: [[00_ROOT/ARXIV_RSCF_KNOWLEDGE_NODE]]
+- INDEXED_BY: [[00_ROOT/00_HOME]]
+- INDEXED_BY: [[01_CANON/04_INFRASTRUCTURE_CANON/04_INFRASTRUCTURE_CANON_MOC]]

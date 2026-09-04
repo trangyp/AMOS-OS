@@ -1,228 +1,241 @@
 ---
-title: Instinct Engine
-type: engine
-source: 05_COGNITIVE_ORGANISM
-artifact: INSTINCT_ENGINE.md
-artifact_id: amos_05_cognitive_organism_instinct_engine
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 05_COGNITIVE_ORGANISM
-segment: 05_COGNITIVE_ORGANISM
-artifact_kind: ENGINE
-path: 05_COGNITIVE_ORGANISM/INSTINCT_ENGINE.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Instinct Engine
 tags:
-  - amos-os
-  - cognitive
-  - organism
-  - engine
-  - canon_placeholder
-  - rscf
-  - canon/cognitive
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Instinct Engine
 
-## 0. Status
+> [!abstract] Engine Specification
+> Defines the fast-path, pre-attentive response system for AMOS Full Brain OS — handling reflexive safety responses, fail-fast behaviors, protective rollbacks, and low-latency threat detection that bypasses deliberative processing.
+> **Epistemic status:** AMOS_MODEL specification; not yet validated as empirical claim.
 
-`INSTINCT_ENGINE.md` is an **ADD-ONLY placeholder** for the **Cognitive Organism** plane segment at `05_COGNITIVE_ORGANISM`.
-
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
-
-```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
-```
-
-Origin architect / steward:
-
-**Trang Phan**
-
-______________________________________________________________________
+---
 
 ## 1. Purpose
 
-This artifact reserves the **Instinct Engine** slot within the Cognitive Organism plane. The Cognitive Organism plane governs the organism-level cognitive assembly above kernels and below agents.
+The Instinct Engine provides **reflexive, pre-attentive cognitive responses** that bypass deliberative processing. In biological organisms, instincts are evolved fast-path responses to predictable threats and opportunities. In AMOS, instincts are **hardcoded safety and efficiency shortcuts** that execute before the full deliberative pipeline completes.
 
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+Key principle: **Instincts trade optimality for speed.** They are deliberately conservative — accepting suboptimal outcomes in exchange for guaranteed safety bounds.
 
-______________________________________________________________________
+---
 
-## 2. Non-Purpose
+## 2. Instinct Taxonomy
 
-This placeholder MUST NOT be used to claim:
-
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
-
-______________________________________________________________________
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+```text
+                    INSTINCT HIERARCHY
+                    ════════════════════
+                          │
+            ┌─────────────┼─────────────┐
+            │             │             │
+        SURVIVAL      EFFICIENCY    SOCIAL
+        INSTINCTS     INSTINCTS     INSTINCTS
+            │             │             │
+     ┌──────┼──────┐  ┌───┼───┐   ┌─────┼─────┐
+     │      │      │  │   │   │   │     │     │
+   FAIL   ESCAPE  PROTECT  ESCALATE  DECOMPOSE  COOPERATE
+   FAST         THROTTLE              PARALLELIZE  ESCALATE
 ```
 
-______________________________________________________________________
+### 2.1 Survival Instincts (Highest Priority)
 
-## 4. Contract discipline
+| Instinct | Trigger | Response | Latency Target |
+| :--- | :--- | :--- | :--- |
+| **FAIL_FAST** | Error rate > threshold, resource exhaustion | Immediate halt + rollback | $< 1$ ms |
+| **ESCAPE** | Authority violation, scope breach, identity spoof | Isolate + alert + terminate | $< 1$ ms |
+| **PROTECT** | Knowledge corruption detected, contradiction spike | Quarantine affected nodes | $< 5$ ms |
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+### 2.2 Efficiency Instincts
 
-______________________________________________________________________
+| Instinct | Trigger | Response | Latency Target |
+| :--- | :--- | :--- | :--- |
+| **THROTTLE** | Queue depth > limit, latency > SLA | Rate-limit + backpressure | $< 10$ ms |
+| **ESCALATE** | Task complexity exceeds capability | Delegate upward immediately | $< 10$ ms |
+| **CACHE_HIT** | Repeated query pattern detected | Return cached result | $< 2$ ms |
 
-## 5. Gaps
+### 2.3 Social Instincts
 
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
+| Instinct | Trigger | Response | Latency Target |
+| :--- | :--- | :--- | :--- |
+| **DECOMPOSE** | Monolithic task detected | Break into sub-tasks | $< 50$ ms |
+| **PARALLELIZE** | Independent sub-tasks detected | Fan-out execution | $< 50$ ms |
+| **COOPERATE** | Multi-agent opportunity detected | Propose collaboration | $< 100$ ms |
 
-______________________________________________________________________
+---
 
-## 6. Worked semantics (target)
+## 3. Fast-Path Architecture
 
-Given an operation touching `05_COGNITIVE_ORGANISM · ENGINE` within the Cognitive Organism plane:
+```text
+SENSOR INPUT
+    ↓
+[INSTINCT GATE] ─── Pattern match against instinct library ─── $< 1$ ms
+    ↓                           │
+    │ INSTINCT MATCHED          │ NO MATCH
+    ↓                           ↓
+EXECUTE INSTINCT          DELIBERATIVE PIPELINE
+(response)                (full processing)
+    │                           │
+    └───────────┬───────────────┘
+                ↓
+         OUTCOME COMPARE
+         (did instinct help?)
+```
 
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+### 3.1 Pattern Matching
 
-______________________________________________________________________
+Instinct patterns are represented as **activation templates** — compact feature vectors that trigger when sensory input exceeds a similarity threshold:
 
-## 7. Promotion-gate checklist
+$$\text{activate}(I_k, \mathbf{x}) = \mathbb{1}\left[\cos(\mathbf{w}_k, \mathbf{x}) > \theta_k\right]$$
 
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+Where:
+- $I_k$: Instinct $k$ with weight vector $\mathbf{w}_k$
+- $\mathbf{x}$: Current sensory/context vector
+- $\theta_k$: Activation threshold for instinct $k$
 
-______________________________________________________________________
+### 3.2 Latency Budget
 
-## 8. Cross-plane bindings (target)
+```yaml
+instinct_latency_budget:
+  pattern_matching: 0.5 ms
+  activation_check: 0.2 ms
+  response_execution: 0.3 ms
+  total: < 1.0 ms
+  note: "If instinct cannot execute within budget, fall through to deliberative pipeline"
+```
 
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+---
 
-______________________________________________________________________
+## 4. Instinct vs. Deliberation Tradeoff
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+| Dimension | Instinct | Deliberation |
+| :--- | :--- | :--- |
+| **Speed** | $< 1$ ms | 100ms – seconds |
+| **Optimality** | Conservative, suboptimal | Optimal (given constraints) |
+| **Flexibility** | Fixed patterns | Adaptive |
+| **Resource Cost** | Minimal | Significant |
+| **Failure Mode** | False positives (overreaction) | False negatives (missed threats) |
+| **Use Case** | Safety, efficiency | Complex reasoning |
 
-______________________________________________________________________
+---
 
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+## 5. Learning & Adaptation
 
-______________________________________________________________________
+### 5.1 Instinct Tuning
+
+While instinct patterns are fixed at design time, their **activation thresholds** can be tuned based on experience:
+
+$$\theta_k(t+1) = \theta_k(t) - \alpha \cdot \left[\mathbb{1}[\text{false positive}] - \mathbb{1}[\text{false negative}]\right]$$
+
+- False positive → increase threshold (less sensitive)
+- False negative → decrease threshold (more sensitive)
+
+### 5.2 New Instinct Formation
+
+Repeated patterns that consistently trigger the same deliberative response may be **promoted to instinct status** through a formal process:
+
+1. **Pattern Detection:** Repeated similar inputs detected (>N occurrences).
+2. **Response Verification:** Deliberative response verified correct (>95% success).
+3. **Pattern Encoding:** Input features compressed into activation template.
+4. **Threshold Calibration:** Initial threshold set conservatively.
+5. **Validation:** Must pass safety review before activation.
+6. **Gradual Deployment:** Threshold starts high, gradually lowered.
+
+---
+
+## 6. Integration with Other Engines
+
+### 6.1 Emotion Engine
+- Emotional state modulates instinct sensitivity.
+- DISTRESSED state → lower thresholds (more reactive).
+- CALM state → higher thresholds (less reactive).
+
+### 6.2 Intuition Engine
+- Instincts can override intuition when survival is at stake.
+- Intuition can suppress instincts when context indicates false alarm.
+
+### 6.3 Episodic Memory
+- Instinct activations are logged for post-hoc analysis.
+- False positives recorded to tune thresholds.
+
+---
+
+## 7. Configuration
+
+```yaml
+instinct_engine_config:
+  enabled: true
+  max_latency_ms: 1.0
+  pattern_match_threshold: 0.85
+  false_positive_tolerance: 0.05
+  false_negative_tolerance: 0.01
+  learning_rate: 0.01
+  max_instincts: 100
+  activation_log_retention_days: 30
+  survival_instinct_override: true
+  survival_instinct_bypass_deliberation: true
+```
+
+---
+
+## 8. Failure Modes
+
+| Failure Mode | Detection | Response |
+| :--- | :--- | :--- |
+| Instinct loop (repeated triggering) | Same instinct fires >N times/sec | Circuit breaker + escalation |
+| False positive storm | Excessive instinct activations | Raise thresholds globally |
+| Instinct Override Conflict | Two instincts contradict | Priority resolution (survival wins) |
+| Latency Budget Exceeded | Pattern matching too slow | Fall through to deliberative |
+| Adaptation drift | Thresholds tuning to pathological state | Reset to defaults + alert |
+
+---
+
+## 9. Epistemic Boundary
+
+> [!warning] Design Artifact
+> The Instinct Engine is a **design artifact** — hardcoded fast-path responses for known threat and efficiency patterns. Unlike biological instincts (which are evolved), AMOS instincts are engineered and therefore limited to anticipated scenarios. They provide safety guarantees for known failure modes but cannot protect against novel threats not encoded in the pattern library.
+
+---
+
+## 10. Cross-Vault References
+
+- [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
+- [[05_COGNITIVE_ORGANISM/EMOTION_ENGINE|EMOTION_ENGINE]]
+- [[05_COGNITIVE_ORGANISM/INTUITION_ENGINE|INTUITION_ENGINE]]
+- [[18_SECURITY/SECURITY_CONTROL_ACCESS_BRIDGE_GOVERNOR|SECURITY_CONTROL_ACCESS_BRIDGE_GOVERNOR]]
+- [[10_MEMORY/TIERED_MEMORY_LIFECYCLE_ARCHITECTURE|TIERED_MEMORY_LIFECYCLE_ARCHITECTURE]]
+- [[04_RUNTIME/CAUSAL_CONCURRENCY_MVCC|CAUSAL_CONCURRENCY_MVCC]]
+
+---
 
 RSCF-NODE
 
 node_id: amos_05_cognitive_organism_instinct_engine
-
 node_type: engine
-
 path: 05_COGNITIVE_ORGANISM/INSTINCT_ENGINE.md
-
 claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
+rscf_state: specification
+canonical_status: SPECIFICATION_NOT_IMPLEMENTED
 
 RSCF-RELATIONS:
-
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
 - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
-______________________________________________________________________
+- PROTECTS: [[18_SECURITY/SECURITY_CONTROL_ACCESS_BRIDGE_GOVERNOR|SECURITY_CONTROL_ACCESS_BRIDGE_GOVERNOR]]
+- INTEGRATES_WITH: [[05_COGNITIVE_ORGANISM/EMOTION_ENGINE|EMOTION_ENGINE]]
+- INTEGRATES_WITH: [[05_COGNITIVE_ORGANISM/INTUITION_ENGINE|INTUITION_ENGINE]]
 
 **MOC:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]

@@ -1,163 +1,138 @@
 ---
-title: K Cas — Plane Governance Specification
-type: specification
-source: 02_KERNEL
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-canonical_status: ACTIVE_CANON_CANDIDATE
-updated: 2026-09-04
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-    - 00_ROOT/00_ROOT_MOC
-  scope: plane_governance
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: K Cas
 tags:
-  - amos-os
-  - 02-kernel
-  - specification
-  - k-cas
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# K Cas — Plane Governance Specification
+# K_CAS — Compare-And-Swap Epoch ALU
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **Conclusion Class:** `AMOS_MODEL`
-> **Status:** `ACTIVE_SPECIFICATION`
+## 1. Role
 
----
+The Compare-And-Swap (CAS) kernel provides the fundamental lock-free atomic primitive for AMOS OS state transitions. CAS enables concurrent state updates without global locks by allowing a thread to atomically verify that a memory location holds an expected value before writing a new value.
 
-## 1. Architectural Scope
+CAS is the building block for all higher-level concurrency primitives in AMOS: MVCC snapshots, epoch management, shard-local finalization, and coordination-free execution.
 
-`K_CAS` defines the Compare-And-Swap (CAS) protocol, typed contracts, and operational procedures for the `02_KERNEL` plane within the AMOS Full Brain OS MECE architecture. CAS is the fundamental atomic primitive for monotonic version comparison and concurrent state management. The protocol governs:
+## 2. CAS Operation
 
-- **Atomic version comparison** verifying that the current state version matches an expected version before applying a mutation.
-- **Monotonic version ordering** ensuring that state versions strictly increase over time, preventing rollback conflicts and version collisions.
-- **Concurrent write coordination** serializing concurrent mutations to the same state object through atomic compare-and-swap operations.
-- **Fail-closed conflict handling** rejecting mutations when the expected version does not match the current version, preventing lost updates.
-- **Shard-level epoch freezing** using CAS to freeze affected shard execution epochs during identity-entropy repair.
+The CAS operation is defined as:
 
-This file exists because CAS is the load-bearing concurrency primitive for all state management in AMOS. Without atomic compare-and-swap, concurrent mutations would produce lost updates, version collisions, and state corruption.
-
-```text
-K_CAS = atomic_concurrency_primitive
-K_CAS != heuristic_conflict_resolution
-K_CAS != runtime_lifecycle_manager
-CAS_SUCCESS != SEMANTIC_CORRECTNESS
+```
+CAS(location, expected_value, new_value) → {
+    if *location == expected_value:
+        *location = new_value
+        return SUCCESS  // (old_value = expected_value)
+    else:
+        return FAILURE  // (old_value ≠ expected_value, location was modified by another thread)
+}
 ```
 
----
+**Properties:**
+- Atomic: CAS executes as a single uninterruptible operation
+- Lock-free: No mutual exclusion required between concurrent CAS operations
+- Linearizable: Concurrent CAS operations appear to execute in some sequential order
 
-## 2. Governing Invariants
+## 3. AMOS CAS Semantics
 
-- **INV-KERN-CAS-001 (Atomicity):** The CAS operation is atomic: it either succeeds completely (version matches and mutation is applied) or fails completely (version mismatch and no mutation occurs). No partial states are permitted.
-- **INV-KERN-CAS-002 (Monotonic Version Ordering):** State versions must strictly increase over time. $\forall t_1 < t_2: \text{version}(S_{t_1}) < \text{version}(S_{t_2})$.
-- **INV-KERN-CAS-003 (Axiom Adherence):** All CAS operations are strictly bound by M01 through M20 core laws. Operations that violate a core law are rejected.
-- **INV-KERN-CAS-004 (Fail-Closed on Version Mismatch):** When the expected version does not match the current version, the CAS operation returns `FALSE` and no mutation is applied. The caller must re-read and retry.
-- **INV-KERN-CAS-005 (Immutable Receipts):** Every CAS operation emits an auditable trace log to `17_OBSERVABILITY` including the expected version, actual version, and operation result.
-- **INV-KERN-CAS-006 (Non-Promotion Firewall):** A successful CAS confirms atomic mutation; it does not confirm semantic correctness or authority. `CAS_SUCCESS != SEMANTIC_CORRECTNESS`.
-- **INV-KERN-CAS-007 (Steward Authority):** Trang Phan remains the origin architect and steward. CAS protocol changes require governed successor evidence.
+### 3.1 State Transition via CAS
 
----
+A state transition in AMOS follows the CAS loop pattern:
 
-## 3. Mathematical Formulation
-
-### CAS Operation
-
-$$\text{CAS}(S, v_{\text{expected}}, v_{\text{new}}, \Delta) = \begin{cases} \text{TRUE} & \text{if } \text{version}(S) = v_{\text{expected}} \\ & \quad \wedge \text{Apply}(S, \Delta) \\ & \quad \wedge \text{version}(S) \leftarrow v_{\text{new}} \\ \text{FALSE} & \text{otherwise} \end{cases}$$
-
-### Monotonic Version Invariant
-
-$$\forall t_1 < t_2: \text{version}(S_{t_1}) < \text{version}(S_{t_2})$$
-
-### Atomicity Invariant
-
-$$\text{CAS}(S, v, v', \Delta) \in \{\text{TRUE}, \text{FALSE}\}$$
-
-No intermediate state where $\Delta$ is partially applied is ever observable.
-
-### Conflict Rate
-
-The conflict rate $\rho_{\text{conflict}}$ under concurrent access:
-
-$$\rho_{\text{conflict}} = \frac{|\text{CAS failures}|}{|\text{CAS attempts}|}$$
-
-High conflict rates ($\rho_{\text{conflict}} > 0.3$) trigger backoff or coordination avoidance protocols.
-
----
-
-## 4. Operational Architecture
-
-```mermaid
-graph TD
-    A[Write Request] --> B[Read current version v_current]
-    B --> C[CAS: compare v_expected vs v_current]
-    C -->|Match| D[Apply mutation delta]
-    C -->|Mismatch| E[CAS failure: no mutation]
-    D --> F[Increment version to v_new]
-    F --> G[Emit receipt to 17_OBSERVABILITY]
-    E --> H[Caller re-reads and retries]
-    G --> I[Commit to state store]
-    H --> B
+```
+1. READ current state → S_current
+2. COMPUTE desired new state → S_new = f(S_current)
+3. CAS(state_location, S_current, S_new)
+4. If CAS fails (another thread modified state):
+   a. Re-read current state → S_current'
+   b. Re-compute → S_new' = f(S_current')
+   c. Retry CAS
+5. If CAS succeeds → transition complete, emit receipt
 ```
 
-The CAS protocol is non-blocking on failure: the caller receives an immediate `FALSE` result and must re-read the current version before retrying. No locks are held during the retry interval.
+### 3.2 Epoch Tag CAS
 
----
+CAS is used to atomically advance epoch tags:
 
-## 5. MECE Mapping to AMOS Full Brain OS
+```
+CAS(epoch_location, expected_epoch, new_epoch)
+```
 
-| CAS Component | Primary Plane | Partition | Key Dependencies |
-|:---|:---|:---|:---|
-| CAS atomic primitive | 02_KERNEL | B | 12_STATE |
-| Version monotonicity | 02_KERNEL | B | 12_STATE, 04_RUNTIME |
-| Shard epoch freezing | 02_KERNEL | B | 02_KERNEL/IER |
-| Conflict handling | 02_KERNEL | B | 03_CONTROL_PLANE |
-| CAS receipts | 17_OBSERVABILITY | F | 02_KERNEL |
-| State persistence | 12_STATE | D | 02_KERNEL |
+Where `new_epoch = expected_epoch + 1` and the CAS ensures no other thread has advanced the epoch between read and write.
 
-`02_KERNEL` owns the CAS primitive execution (Partition B). State persistence is delegated to `12_STATE` (Partition D). Receipts flow to `17_OBSERVABILITY` (Partition F).
+### 3.3 Optimistic Concurrency Control
 
----
+CAS enables optimistic execution:
+1. Execute operation speculatively without locks
+2. At commit time, CAS the result against the expected pre-condition
+3. If CAS fails, discard speculative work and retry
 
-## 6. Safety Invariants & Firewalls
+This pattern is used throughout AMOS for:
+- Shard-local finalization (CAS finalization record against expected epoch)
+- RSCF observation logging (CAS observation against expected state)
+- Knowledge promotion (CAS claim class against expected class)
 
-- **INV-KERN-CAS-101 (No Partial Application):** Any observable partial application of a CAS mutation is a critical violation. Firewall: `PARTIAL_APPLICATION = CRITICAL_VIOLATION`.
-- **INV-KERN-CAS-102 (No Version Regression):** A version number must never decrease. Any version regression is a critical violation. Firewall: `VERSION_REGRESSION = CRITICAL_VIOLATION`.
-- **INV-KERN-CAS-103 (No Implementation from Specification):** The CAS protocol specification does not confirm executable implementation. Firewall: `DOCUMENTED != IMPLEMENTED`.
-- **INV-KERN-CAS-104 (No Authority from CAS):** A successful CAS does not confer authority over the mutated state. Firewall: `CAPABILITY != AUTHORITY`.
-- **INV-KERN-CAS-105 (No Silent Conflict Resolution):** CAS conflicts are reported, not silently resolved. The caller must explicitly retry. Firewall: `CONFLICT != RESOLVED`.
+## 4. CAS Failure Analysis
 
----
+| Failure Type | Cause | Recovery |
+|-------------|-------|----------|
+| **Spurious failure** | Another thread performed a valid concurrent CAS | Retry with updated state |
+| **ABA problem** | Value changed from A to B and back to A between read and CAS | Use versioned CAS (epoch tags prevent ABA) |
+| **Livelock** | Repeated CAS failures due to high contention | Exponential backoff or escalate to shard coordination |
+| **Starvation** | One thread's CAS always fails due to another thread's priority | Fairness ordering via shard-ID tie-breaking |
 
-## 7. Navigation & Bindings
+### 4.1 ABA Prevention
 
-- **Master MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
-- **Partition Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]
-- **Kernel MOC:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
-- **Kernel README:** [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- **K_MVCC:** [[02_KERNEL/K_MVCC|K_MVCC]]
-- **MVCC_CAS:** [[02_KERNEL/MVCC_CAS|MVCC_CAS]]
-- **IER Architecture:** [[02_KERNEL/AMOS_IDENTITY_ENTROPY_REPAIR_ARCHITECTURE|AMOS_IDENTITY_ENTROPY_REPAIR_ARCHITECTURE]]
-- **Deterministic Logic Kernel:** [[02_KERNEL/DETERMINISTIC_LOGIC_KERNEL|DETERMINISTIC_LOGIC_KERNEL]]
-- **Lean 4 Ledger:** [[02_KERNEL/LEAN4_PROOF_VERIFICATION_LEDGER|LEAN4_PROOF_VERIFICATION_LEDGER]]
-- **Core Laws:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
-- **State:** [[12_STATE/12_STATE_MOC|12_STATE_MOC]]
-- **Observability:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]
+AMOS prevents ABA through epoch tagging:
+- Each state version carries a monotonically increasing epoch number
+- CAS compares both value AND epoch number
+- A value that returns to its previous state but with a different epoch is detected
 
----
+```
+CAS_with_epoch(location, expected_value, expected_epoch, new_value, new_epoch)
+→ requires: value == expected_value AND epoch == expected_epoch
+```
 
-## 8. Known Gaps & Falsifiers
+## 5. CAS Performance Characteristics
 
-- **GAP-KERN-CAS-001:** The CAS protocol is specified but not yet fully implemented as an executable kernel primitive. State: `UNIMPLEMENTED`.
-- **GAP-KERN-CAS-002:** The conflict backoff and coordination avoidance protocols are referenced but not fully specified. State: `PARTIAL`.
-- **GAP-KERN-CAS-003:** The CAS protocol has not been formally verified in Lean 4. State: `UNVERIFIED`.
-- **GAP-KERN-CAS-004:** Falsifier: if any CAS operation is found to produce a partial application, the atomicity invariant is falsified.
-- **GAP-KERN-CAS-005:** Falsifier: if any version number is found to have decreased, the monotonic version ordering invariant is falsified.
+| Metric | Value | Description |
+|--------|-------|-------------|
+| Best case | O(1) | Single CAS succeeds |
+| Average case | O(1 + contention) | Expected retries proportional to contention |
+| Worst case | Unbounded | Livelock under extreme contention (mitigated by backoff) |
+| Throughput | High under low contention | Degrades with high contention |
+| Memory overhead | Zero | No lock structures allocated |
+
+## 6. Invariants
+
+- **CAS-01:** CAS is atomic — no other thread observes a partial write
+- **CAS-02:** CAS is linearizable — concurrent CAS operations have a total order
+- **CAS-03:** CAS failure implies the location was modified — no spurious failures
+- **CAS-04:** Every CAS failure triggers a retry with updated state — no stale writes
+- **CAS-05:** CAS with epoch tags prevents ABA — version monotonicity preserved
+
+## 7. Inter-Plane Connections
+
+- **MVCC:** [[02_KERNEL/K_MVCC|K_MVCC]] — CAS provides the atomic primitive for MVCC snapshot operations
+- **MVCC-CAS Integration:** [[02_KERNEL/MVCC_CAS|MVCC_CAS]] — Combined MVCC/CAS transaction protocol
+- **Coordination Avoidance:** [[09_PROTOCOLS/COORDINATION_AVOIDANCE_PROTOCOL|COORDINATION_AVOIDANCE_PROTOCOL]] — CAS enables coordination-free execution
+- **Failure Recovery:** [[02_KERNEL/K_FAILURE_RECOVERY|K_FAILURE_RECOVERY]] — CAS rollback uses CAS to atomically restore state
+- **Runtime:** [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]] — CAS underlies all runtime state transitions
+
+______________________________________________________________________
+
+**MOC:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
+
+**Related:** [[02_KERNEL/K_MVCC|K_MVCC]] · [[02_KERNEL/MVCC_CAS|MVCC_CAS]] · [[02_KERNEL/K_CAS|K_CAS]]

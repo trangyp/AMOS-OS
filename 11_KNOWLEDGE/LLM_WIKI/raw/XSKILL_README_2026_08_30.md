@@ -1,17 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-date: 2026-08-30
-epistemic_class: OBSERVATION
-provenance: GitHub README, not independently verified
-rscf:
-  claim_class: DERIVED
-  provenance: https://raw.githubusercontent.com/XSkill-Agent/XSkill/main/README.md
-  scope: AMOS_knowledge
-  state: SOURCE_CLAIM
-source: https://raw.githubusercontent.com/XSkill-Agent/XSkill/main/README.md
-title: XSkill README — Raw Capture
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Xskill Readme 2026 08 30
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # XSkill README — Raw Capture
@@ -115,31 +119,31 @@ Before running, you must fill in **two** configuration files.
 Open `eval/run_api_exskill.sh` and set the following variables:
 
 ```bash
-## ── Reasoning Model (the main agent) ──────────────────────────────────────
+# ── Reasoning Model (the main agent) ──────────────────────────────────────
 export REASONING_MODEL_NAME=""
 export REASONING_API_KEY=$API_KEY_1
 export REASONING_END_POINT=""       # OpenAI-compatible endpoint URL
 
-## Optional: second API key for round-robin fallback
+# Optional: second API key for round-robin fallback
 export REASONING_API_KEY_2=$API_KEY_2
 export REASONING_END_POINT_2=""
 
-## ── Verifier Model (LLM-as-judge for scoring) ─────────────────────────────
+# ── Verifier Model (LLM-as-judge for scoring) ─────────────────────────────
 export VERIFIER_MODEL_NAME=""
 export VERIFIER_API_KEY=$API_KEY_2
 export VERIFIER_END_POINT=""
 
-## ── Experience Model (experience generation & skill building) ──────────────
+# ── Experience Model (experience generation & skill building) ──────────────
 export EXPERIENCE_MODEL_NAME=""
 export EXPERIENCE_API_KEY=$API_KEY_2
 export EXPERIENCE_END_POINT=""
 
-## Embedding model for experience retrieval (OpenAI-compatible)
+# Embedding model for experience retrieval (OpenAI-compatible)
 export EXPERIENCE_EMBEDDING_MODEL="text-embedding-3-small"
 export EXPERIENCE_EMBEDDING_API_KEY=$API_KEY_2
 export EXPERIENCE_EMBEDDING_ENDPOINT=""
 
-## ── External Tool API Keys ─────────────────────────────────────────────────
+# ── External Tool API Keys ─────────────────────────────────────────────────
 export SERPAPI_KEY=""               # Required for web_search and image_search tool
 export JINA_API_KEY=""              # Required for visit tool
 ```
@@ -149,7 +153,7 @@ export JINA_API_KEY=""              # Required for visit tool
 ### 2. `eval/configs/tool_configs.yaml` — Per-Tool Runtime Settings
 
 ```yaml
-## visit tool — webpage content fetching
+# visit tool — webpage content fetching
 visit:
   max_content_length: 150000   # Max characters to extract per page
   timeout: 120                 # HTTP request timeout (seconds)
@@ -157,7 +161,7 @@ visit:
   api_endpoint: ""             # Optional: endpoint for the above
   model_name: ""               # Optional: model name for the above
 
-## image_search tool — reverse/visual image search
+# image_search tool — reverse/visual image search
 image_search:
   imgbb_api_key: ""            # Required: ImgBB API key for image hosting
   max_results: 5               # Max search results to return
@@ -237,13 +241,13 @@ If you use XSkill in your research, please cite:
 
 ```bibtex
 @misc{jiang2026xskillcontinuallearningexperience,
-      title={XSkill: Continual Learning from Experience and Skills in Multimodal Agents},
+      title={XSkill: Continual Learning from Experience and Skills in Multimodal Agents}, 
       author={Guanyu Jiang and Zhaochen Su and Xiaoye Qu and Yi R. Fung},
       year={2026},
       eprint={2603.12056},
       archivePrefix={arXiv},
       primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2603.12056},
+      url={https://arxiv.org/abs/2603.12056}, 
 }
 ```
 

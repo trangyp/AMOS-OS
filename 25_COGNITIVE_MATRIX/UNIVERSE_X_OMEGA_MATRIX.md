@@ -1,40 +1,16 @@
 ---
-title: UNIVERSE X OMEGA MATRIX
-type: cognitive
-source: 25_COGNITIVE_MATRIX
-artifact: UNIVERSE_X_OMEGA_MATRIX.md
-artifact_id: amos_25_cognitive_matrix_universe_x_omega_matrix
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 25_COGNITIVE_MATRIX
-segment: 25_COGNITIVE_MATRIX
-artifact_kind: MATRIX
-path: 25_COGNITIVE_MATRIX/UNIVERSE_X_OMEGA_MATRIX.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Universe X Omega Matrix
 tags:
-- amos-os
-- cognitive-matrix
-- canon/matrix
-- rscf
-- provenance
-- universe-x-omega
-- universe-x-omega-matrix
-version: 1.0.0
-updated: '2026-08-28'
-status: CANON_CANDIDATE
-epistemic_class: AMOS_MODEL
-canonical_status: CANDIDATE_PENDING_VALIDATION
-implementation_status: CONCEPTUAL
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: AMOS_cognitive_matrix
-  confidence_ceiling: SOURCE_DEPENDENT
-  regime: AMOS_OS_MODEL
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 Below is the full canonical expansion with tags. I preserve all seven source rows and keep corrupted mathematical fragments conservative: `τ_bio < 0.20`, `Ω ≥ 0.70`, `Debt > 0`, semantic divergence `> 0.05`, and confidence ceiling `≤ 0.30` are recoverable; the P2 reset symbol and P7 ground-state symbol are not recoverable from this artifact and remain explicit gaps.
@@ -408,7 +384,7 @@ Clean Slate Ground State Recovery
 
 ---
 
-## 4. Source Integrity Recovery
+# 4. Source Integrity Recovery
 
 The supplied source contains several rendering artifacts.
 
@@ -471,7 +447,7 @@ source_integrity:
 
 ---
 
-## 5. Threshold Boundary Semantics
+# 5. Threshold Boundary Semantics
 
 The visible mathematical operators matter.
 
@@ -559,7 +535,7 @@ does not satisfy the visible trigger.
 
 ---
 
-## 6. P1 — Reality
+# 6. P1 — Reality
 
 ## Source Row
 
@@ -580,7 +556,7 @@ $$
 
 ---
 
-## 7. P1 Epistemic Boundary
+# 7. P1 Epistemic Boundary
 
 The terminology references physical/thermal/substrate concepts, but this artifact does not provide:
 
@@ -615,7 +591,7 @@ P1:
 
 ---
 
-## 8. P1 Trigger Form
+# 8. P1 Trigger Form
 
 Unlike P3–P7, P1 does not supply a numerical threshold.
 
@@ -639,7 +615,7 @@ Thus the formal connective remains:
 
 ---
 
-## 9. P1 Defense Interpretation
+# 9. P1 Defense Interpretation
 
 `Energy Firewall Throttle` is a source-defined protocol name.
 
@@ -665,7 +641,7 @@ without additional source.
 
 ---
 
-## 10. P2 — Logic
+# 10. P2 — Logic
 
 ## Source Row
 
@@ -686,7 +662,7 @@ $$
 
 ---
 
-## 11. P2 Non-Contradiction Boundary
+# 11. P2 Non-Contradiction Boundary
 
 The source explicitly names:
 
@@ -727,7 +703,7 @@ P2:
 
 ---
 
-## 12. P2 Contradiction Density
+# 12. P2 Contradiction Density
 
 The source distinguishes:
 
@@ -763,7 +739,7 @@ for any \(x\).
 
 ---
 
-## 13. P2 Reset Gap
+# 13. P2 Reset Gap
 
 The source gives:
 
@@ -793,7 +769,7 @@ P2_runtime_defense:
 
 ---
 
-## 14. P3 — Organism
+# 14. P3 — Organism
 
 ## Source Row
 
@@ -814,7 +790,7 @@ $$
 
 ---
 
-## 15. P3 Biological Threshold
+# 15. P3 Biological Threshold
 
 The trigger is explicit:
 
@@ -841,7 +817,7 @@ It does not define the biological meaning or measurement method of \(\tau_{\math
 
 ---
 
-## 16. P3 Cross-Artifact Consistency
+# 16. P3 Cross-Artifact Consistency
 
 The same threshold:
 
@@ -871,7 +847,7 @@ not independent biomedical confirmation.
 
 ---
 
-## 17. P3 Clinical Firewall
+# 17. P3 Clinical Firewall
 
 The terms:
 
@@ -899,7 +875,7 @@ is an AMOS source-defined model threshold, not a verified clinical cutoff.
 
 ---
 
-## 18. P4 — Knowledge
+# 18. P4 — Knowledge
 
 ## Source Row
 
@@ -920,7 +896,7 @@ $$
 
 ---
 
-## 19. P4 Provenance Topology
+# 19. P4 Provenance Topology
 
 This row is explicitly provenance-sensitive.
 
@@ -938,7 +914,7 @@ Thus the matrix treats provenance independence—not merely evidence count—as 
 
 ---
 
-## 20. Independent Roots
+# 20. Independent Roots
 
 The visible threshold gives:
 
@@ -972,7 +948,7 @@ does not satisfy this specific trigger.
 
 ---
 
-## 21. Root Count Does Not Define Independence
+# 21. Root Count Does Not Define Independence
 
 The source says:
 
@@ -1004,7 +980,7 @@ without ancestry analysis.
 
 ---
 
-## 22. Sybil Hardening
+# 22. Sybil Hardening
 
 The P4 row structurally encodes a Sybil-hardening principle:
 
@@ -1024,7 +1000,7 @@ The exact independence algorithm is not supplied.
 
 ---
 
-## 23. P4 Confidence Ceiling
+# 23. P4 Confidence Ceiling
 
 The defense protocol is:
 
@@ -1058,7 +1034,7 @@ The actual confidence may be lower.
 
 ---
 
-## 24. Confidence Ceiling Is Not Confidence Floor
+# 24. Confidence Ceiling Is Not Confidence Floor
 
 Important:
 
@@ -1088,7 +1064,7 @@ are all compatible with the stated ceiling.
 
 ---
 
-## 25. P4 Provenance Invariant
+# 25. P4 Provenance Invariant
 
 Canonical compression:
 
@@ -1104,7 +1080,7 @@ This is one of the matrix's strongest explicit epistemic governance rules.
 
 ---
 
-## 26. P5 — Foresight
+# 26. P5 — Foresight
 
 ## Source Row
 
@@ -1125,7 +1101,7 @@ $$
 
 ---
 
-## 27. P5 Omega Threshold
+# 27. P5 Omega Threshold
 
 The failure boundary is:
 
@@ -1158,7 +1134,7 @@ the trigger is active.
 
 ---
 
-## 28. Omega Semantic Gap
+# 28. Omega Semantic Gap
 
 This artifact does not define the complete semantics of:
 
@@ -1197,7 +1173,7 @@ Omega:
 
 ---
 
-## 29. P5 Modular Decoupling
+# 29. P5 Modular Decoupling
 
 The runtime defense is:
 
@@ -1225,7 +1201,7 @@ These remain external dependencies.
 
 ---
 
-## 30. P6 — Governance
+# 30. P6 — Governance
 
 ## Source Row
 
@@ -1246,7 +1222,7 @@ $$
 
 ---
 
-## 31. P6 Zero-Tolerance Boundary
+# 31. P6 Zero-Tolerance Boundary
 
 The source threshold is:
 
@@ -1276,7 +1252,7 @@ already satisfies the trigger.
 
 ---
 
-## 32. Mutation Debt Gap
+# 32. Mutation Debt Gap
 
 The source does not define:
 
@@ -1298,7 +1274,7 @@ Do not invent them.
 
 ---
 
-## 33. P6 Reversible Governance
+# 33. P6 Reversible Governance
 
 The defense contains two explicit components:
 
@@ -1319,7 +1295,7 @@ The exact rollback target is not supplied.
 
 ---
 
-## 34. P6 Anti-Regression Structure
+# 34. P6 Anti-Regression Structure
 
 At model level, this row strongly aligns with a governed-evolution invariant:
 
@@ -1339,7 +1315,7 @@ Therefore the canonical row should retain that threshold rather than replace it 
 
 ---
 
-## 35. P7 — Evolution
+# 35. P7 — Evolution
 
 ## Source Row
 
@@ -1360,7 +1336,7 @@ $$
 
 ---
 
-## 36. P7 Semantic Divergence Boundary
+# 36. P7 Semantic Divergence Boundary
 
 The trigger is:
 
@@ -1384,7 +1360,7 @@ does not satisfy the strict trigger.
 
 ---
 
-## 37. Semantic Divergence Metric Gap
+# 37. Semantic Divergence Metric Gap
 
 Unknown:
 
@@ -1420,7 +1396,7 @@ Therefore the number `0.05` must not be treated as portable across arbitrary sem
 
 ---
 
-## 38. P7 Ground-State Recovery
+# 38. P7 Ground-State Recovery
 
 The defense is explicitly:
 
@@ -1450,7 +1426,7 @@ P7_defense:
 
 ---
 
-## 39. Clean Slate Does Not Mean Arbitrary Deletion
+# 39. Clean Slate Does Not Mean Arbitrary Deletion
 
 The phrase `Clean Slate Ground State Recovery` should not be expanded into destructive semantics without source.
 
@@ -1472,7 +1448,7 @@ $$
 
 ---
 
-## 40. Seven-Stratum Matrix as Defense-in-Depth
+# 40. Seven-Stratum Matrix as Defense-in-Depth
 
 A useful derived architectural view is:
 
@@ -1492,7 +1468,7 @@ It does not imply that the strata execute in this order.
 
 ---
 
-## 41. No Execution Order Is Defined
+# 41. No Execution Order Is Defined
 
 The table order:
 
@@ -1528,7 +1504,7 @@ execution_order:
 
 ---
 
-## 42. No Priority Order Is Defined
+# 42. No Priority Order Is Defined
 
 Similarly, P7 appearing after P6 does not establish that P7 has higher priority.
 
@@ -1544,7 +1520,7 @@ Therefore multi-trigger priority remains unresolved.
 
 ---
 
-## 43. Concurrent Trigger Problem
+# 43. Concurrent Trigger Problem
 
 Multiple strata may theoretically satisfy their failure triggers simultaneously.
 
@@ -1580,7 +1556,7 @@ Therefore:
 
 ---
 
-## 44. Defense Composition Hypotheses
+# 44. Defense Composition Hypotheses
 
 Several models remain compatible.
 
@@ -1608,7 +1584,7 @@ Status:
 
 ---
 
-## 45. Cheapest Discriminating Evidence
+# 45. Cheapest Discriminating Evidence
 
 The next smallest sufficient source is:
 
@@ -1624,7 +1600,7 @@ and then the relevant P1–P7 canonical nodes.
 
 ---
 
-## 46. Cross-Stratum Threshold Summary
+# 46. Cross-Stratum Threshold Summary
 
 | Plane         | Trigger                       | Boundary Type                     |
 | ------------- | ----------------------------- | --------------------------------- |
@@ -1638,7 +1614,7 @@ and then the relevant P1–P7 canonical nodes.
 
 ---
 
-## 47. Defense Severity Surface
+# 47. Defense Severity Surface
 
 The source names defenses with different action types:
 
@@ -1672,7 +1648,7 @@ unless another artifact explicitly equates them.
 
 ---
 
-## 48. P4 vs P6 Governance Distinction
+# 48. P4 vs P6 Governance Distinction
 
 P4 modifies epistemic confidence:
 
@@ -1692,7 +1668,7 @@ This distinction should be preserved.
 
 ---
 
-## 49. P5 vs P7 Distinction
+# 49. P5 vs P7 Distinction
 
 P5 responds to:
 
@@ -1728,7 +1704,7 @@ $$
 
 ---
 
-## 50. P2 vs P7 Distinction
+# 50. P2 vs P7 Distinction
 
 Both may appear to involve logical/semantic instability, but the source distinguishes them.
 
@@ -1752,7 +1728,7 @@ Therefore contradiction and semantic divergence must not be silently collapsed.
 
 ---
 
-## 51. P1 vs P3 Distinction
+# 51. P1 vs P3 Distinction
 
 P1 concerns:
 
@@ -1776,7 +1752,7 @@ $$
 
 ---
 
-## 52. Omega as Cross-Plane Stress Architecture
+# 52. Omega as Cross-Plane Stress Architecture
 
 The artifact title indicates a cross-plane relation:
 
@@ -1803,7 +1779,7 @@ This vector notation is a **MODEL abstraction**; the source does not explicitly 
 
 ---
 
-## 53. No Scalar Aggregation Is Defined
+# 53. No Scalar Aggregation Is Defined
 
 The presence of:
 
@@ -1827,7 +1803,7 @@ Therefore scalar aggregation remains unresolved.
 
 ---
 
-## 54. No Weighting Function Is Defined
+# 54. No Weighting Function Is Defined
 
 Unknown:
 
@@ -1855,7 +1831,7 @@ omega_aggregation:
 
 ---
 
-## 55. Stress Does Not Equal Failure
+# 55. Stress Does Not Equal Failure
 
 Each row separates:
 
@@ -1879,7 +1855,7 @@ This distinction is explicit in the table structure.
 
 ---
 
-## 56. Trigger Does Not Necessarily Equal Damage
+# 56. Trigger Does Not Necessarily Equal Damage
 
 Likewise:
 
@@ -1895,7 +1871,7 @@ The actual damage model is not supplied.
 
 ---
 
-## 57. Defense Does Not Prove Recovery
+# 57. Defense Does Not Prove Recovery
 
 A defense protocol being activated does not establish that recovery succeeds.
 
@@ -1911,7 +1887,7 @@ No success probabilities or post-defense validation rules are visible here.
 
 ---
 
-## 58. Defense Does Not Prove Safety
+# 58. Defense Does Not Prove Safety
 
 Similarly:
 
@@ -1925,7 +1901,7 @@ Safety would require its own success criteria and validation.
 
 ---
 
-## 59. Runtime Defense Predicate
+# 59. Runtime Defense Predicate
 
 For each row \(i\), a generic derived rule is:
 
@@ -1949,7 +1925,7 @@ Those are implementation gaps.
 
 ---
 
-## 60. Fail-Closed Character
+# 60. Fail-Closed Character
 
 Several defenses are explicitly restrictive:
 
@@ -1968,7 +1944,7 @@ However, `fail_closed` is an architectural characterization of the source-define
 
 ---
 
-## 61. Reversibility Surface
+# 61. Reversibility Surface
 
 The source contains explicit repair-oriented defenses:
 
@@ -1994,7 +1970,7 @@ Yet the reversibility of each actual protocol is not specified.
 
 ---
 
-## 62. P6 Rollback Target Gap
+# 62. P6 Rollback Target Gap
 
 `Mutation Rejection & Rollback` requires a conceptual prior state.
 
@@ -2014,7 +1990,7 @@ Do not choose one without source.
 
 ---
 
-## 63. P7 Ground-State Target Gap
+# 63. P7 Ground-State Target Gap
 
 Likewise, `Ground State Recovery` implies a recovery target, but its exact identity is unresolved.
 
@@ -2024,7 +2000,7 @@ Therefore retrieval of  should precede normalization.
 
 ---
 
-## 64. P4 Independence Sensitivity
+# 64. P4 Independence Sensitivity
 
 P4's outcome is highly sensitive to one quantity:
 
@@ -2050,7 +2026,7 @@ Thus provenance independence is a decisive load-bearing premise.
 
 ---
 
-## 65. P5 Threshold Sensitivity
+# 65. P5 Threshold Sensitivity
 
 The decisive boundary is:
 
@@ -2080,7 +2056,7 @@ The source does not define rounding.
 
 ---
 
-## 66. P7 Threshold Sensitivity
+# 66. P7 Threshold Sensitivity
 
 Likewise:
 
@@ -2102,7 +2078,7 @@ Again, the source does not define measurement precision or rounding.
 
 ---
 
-## 67. P6 Threshold Sensitivity
+# 67. P6 Threshold Sensitivity
 
 P6 has a zero boundary.
 
@@ -2124,7 +2100,7 @@ No epsilon/tolerance is visible here.
 
 ---
 
-## 68. Floating-Point Implementation Gap
+# 68. Floating-Point Implementation Gap
 
 For numerical thresholds such as:
 
@@ -2145,7 +2121,7 @@ Therefore exact executable boundary behavior is not independently specified.
 
 ---
 
-## 69. P4 Integer Boundary
+# 69. P4 Integer Boundary
 
 P4 differs because independent roots are naturally count-like.
 
@@ -2167,7 +2143,7 @@ The phrase strongly suggests root count, but the implementation remains unspecif
 
 ---
 
-## 70. Provenance Independence Firewall
+# 70. Provenance Independence Firewall
 
 P4 prevents a common epistemic error:
 
@@ -2183,7 +2159,7 @@ This is a derived expression of the explicit Sybil lineage framing.
 
 ---
 
-## 71. Causal Firewall
+# 71. Causal Firewall
 
 The table maps stress conditions to defenses.
 
@@ -2211,7 +2187,7 @@ is an AMOS model relationship, not a universal theorem about all reasoning syste
 
 ---
 
-## 72. Scope / Regime Firewall
+# 72. Scope / Regime Firewall
 
 The matrix's applicability envelope is:
 
@@ -2244,7 +2220,7 @@ It must not be silently generalized beyond that envelope.
 
 ---
 
-## 73. Epistemic Typing of Rows
+# 73. Epistemic Typing of Rows
 
 ```yaml
 evidence_topology:
@@ -2287,7 +2263,7 @@ evidence_topology:
 
 ---
 
-## 74. Cross-Plane Interaction Gap
+# 74. Cross-Plane Interaction Gap
 
 The title says **Cross-Plane Matrix**, but this table does not specify interaction terms between strata.
 
@@ -2309,7 +2285,7 @@ Therefore cross-plane coupling strength remains undefined.
 
 ---
 
-## 75. Cascade Hypothesis
+# 75. Cascade Hypothesis
 
 A plausible model is that stress in one plane can propagate to another.
 
@@ -2333,7 +2309,7 @@ Status:
 
 ---
 
-## 76. Independent-Plane Hypothesis
+# 76. Independent-Plane Hypothesis
 
 An alternative is that each row is evaluated independently.
 
@@ -2345,7 +2321,7 @@ No convergence should be forced until the specification supplies coupling rules.
 
 ---
 
-## 77. Adversarial Validation — P1
+# 77. Adversarial Validation — P1
 
 **Strongest supported conclusion:** P1 maps physical entropy dissipation and thermal/substrate spike to Energy Firewall Throttle.
 
@@ -2359,7 +2335,7 @@ not independently validated thermodynamics.
 
 ---
 
-## 78. Adversarial Validation — P2
+# 78. Adversarial Validation — P2
 
 **Strongest supported conclusion:** a non-contradiction violation activates an Instant Reset defense.
 
@@ -2371,7 +2347,7 @@ Result:
 
 ---
 
-## 79. Adversarial Validation — P3
+# 79. Adversarial Validation — P3
 
 **Strongest supported conclusion:**
 
@@ -2389,7 +2365,7 @@ Result:
 
 ---
 
-## 80. Adversarial Validation — P4
+# 80. Adversarial Validation — P4
 
 **Strongest supported conclusion:**
 
@@ -2407,7 +2383,7 @@ the threshold is source-grounded; implementation of independence remains unresol
 
 ---
 
-## 81. Adversarial Validation — P5
+# 81. Adversarial Validation — P5
 
 **Strongest supported conclusion:**
 
@@ -2425,7 +2401,7 @@ threshold source-grounded; metric semantics unresolved.
 
 ---
 
-## 82. Adversarial Validation — P6
+# 82. Adversarial Validation — P6
 
 **Strongest supported conclusion:**
 
@@ -2443,7 +2419,7 @@ governance rule source-grounded; debt calculation unresolved.
 
 ---
 
-## 83. Adversarial Validation — P7
+# 83. Adversarial Validation — P7
 
 **Strongest supported conclusion:**
 
@@ -2461,7 +2437,7 @@ threshold and named defense are source-grounded; implementation remains conditio
 
 ---
 
-## 84. Strongest Matrix-Wide Conclusion
+# 84. Strongest Matrix-Wide Conclusion
 
 The strongest supported matrix-wide conclusion is:
 
@@ -2477,7 +2453,7 @@ Therefore the correct class is:
 
 ---
 
-## 85. Matrix-Wide Invariant
+# 85. Matrix-Wide Invariant
 
 A conservative derived invariant is:
 
@@ -2501,7 +2477,7 @@ The precise runtime activation mechanism remains unspecified.
 
 ---
 
-## 86. Matrix-Wide Fail-Closed Compression
+# 86. Matrix-Wide Fail-Closed Compression
 
 ```text
 DETECT STRESS
@@ -2521,7 +2497,7 @@ This is a derived control-flow representation.
 
 ---
 
-## 87. Matrix-Wide Defense Taxonomy
+# 87. Matrix-Wide Defense Taxonomy
 
 ```yaml
 defense_taxonomy:
@@ -2553,7 +2529,7 @@ defense_taxonomy:
 
 ---
 
-## 88. Escalation Interpretation
+# 88. Escalation Interpretation
 
 The sequence of defenses appears increasingly structural:
 
@@ -2579,7 +2555,7 @@ Therefore no canonical severity ranking is assigned.
 
 ---
 
-## 89. Runtime Defense Is Not Punitive
+# 89. Runtime Defense Is Not Punitive
 
 Nothing in the source supports interpreting the defenses as punishment.
 
@@ -2596,7 +2572,7 @@ They should remain typed system controls.
 
 ---
 
-## 90. Confidence Ceiling Scope
+# 90. Confidence Ceiling Scope
 
 P4 says:
 
@@ -2617,7 +2593,7 @@ Therefore:
 
 ---
 
-## 91. P4 Locality Principle
+# 91. P4 Locality Principle
 
 Given AMOS's local trust architecture, the safest non-inventive handling is not to generalize the P4 ceiling beyond the affected scope.
 
@@ -2633,7 +2609,7 @@ P4_confidence_scope:
 
 ---
 
-## 92. P6 Rollback Locality
+# 92. P6 Rollback Locality
 
 Likewise, `Rollback` does not prove global rollback.
 
@@ -2656,7 +2632,7 @@ P6_rollback_scope:
 
 ---
 
-## 93. P7 Recovery Locality
+# 93. P7 Recovery Locality
 
 `Clean Slate Ground State Recovery` sounds broad, but its exact scope is not explicit.
 
@@ -2669,7 +2645,7 @@ P7_recovery_scope:
 
 ---
 
-## 94. Gap Registry
+# 94. Gap Registry
 
 ```yaml
 GAPS:
@@ -2717,7 +2693,7 @@ GAPS:
 
 ---
 
-## 95. Uncertainty Vector
+# 95. Uncertainty Vector
 
 ```yaml
 UNCERTAINTY_VECTOR:
@@ -2755,7 +2731,7 @@ UNCERTAINTY_VECTOR:
 
 ---
 
-## 96. Confidence Ceiling
+# 96. Confidence Ceiling
 
 ```yaml
 CONFIDENCE_CEILING:
@@ -2799,7 +2775,7 @@ CONFIDENCE_CEILING:
 
 ---
 
-## 97. Source-Declared Validation
+# 97. Source-Declared Validation
 
 The metadata declares:
 
@@ -2820,7 +2796,7 @@ It does not automatically establish:
 
 ---
 
-## 98. Source-Declared Executable Binding
+# 98. Source-Declared Executable Binding
 
 The metadata declares:
 
@@ -2842,7 +2818,7 @@ The visible artifact does not contain executable receipts.
 
 ---
 
-## 99. Machine-Readable Matrix
+# 99. Machine-Readable Matrix
 
 ```yaml
 UNIVERSE_X_OMEGA_MATRIX:
@@ -2960,7 +2936,7 @@ UNIVERSE_X_OMEGA_MATRIX:
 
 ---
 
-## 100. Compact Runtime Representation
+# 100. Compact Runtime Representation
 
 ```yaml
 runtime_matrix:
@@ -3003,7 +2979,7 @@ runtime_matrix:
 
 ---
 
-## 101. RSCF H-Level
+# 101. RSCF H-Level
 
 ```yaml
 H:
@@ -3029,7 +3005,7 @@ H:
 
 ---
 
-## 102. RSCF M-Level
+# 102. RSCF M-Level
 
 ```yaml
 M:
@@ -3074,7 +3050,7 @@ M:
 
 ---
 
-## 103. RSCF L-Level
+# 103. RSCF L-Level
 
 ```yaml
 L:
@@ -3112,7 +3088,7 @@ L:
 
 ---
 
-## 104. Proof Capsule
+# 104. Proof Capsule
 
 ```yaml
 PROOF_CAPSULE:
@@ -3161,7 +3137,7 @@ PROOF_CAPSULE:
 
 ---
 
-## 105. Anti-Fabrication Contract
+# 105. Anti-Fabrication Contract
 
 This artifact MUST NOT be used to claim without additional canonical evidence that:
 
@@ -3208,7 +3184,7 @@ This artifact MUST NOT be used to claim without additional canonical evidence th
 
 ---
 
-## 106. Anti-Regression Contract
+# 106. Anti-Regression Contract
 
 ```yaml
 ANTI_REGRESSION:
@@ -3264,7 +3240,7 @@ ANTI_REGRESSION:
 
 ---
 
-## 107. Invalidation Conditions
+# 107. Invalidation Conditions
 
 Revalidation is required if any of the following changes:
 
@@ -3291,7 +3267,7 @@ INVALIDATION_CONDITIONS:
 
 ---
 
-## 108. Canonical Dependency Topology
+# 108. Canonical Dependency Topology
 
 ```text
 [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
@@ -3326,7 +3302,7 @@ Typed Runtime Defense
 
 ---
 
-## 109. Mermaid — Seven-Stratum Matrix
+# 109. Mermaid — Seven-Stratum Matrix
 
 ```mermaid
 flowchart TD
@@ -3358,7 +3334,7 @@ flowchart TD
 
 ---
 
-## 110. Mermaid — Trigger Architecture
+# 110. Mermaid — Trigger Architecture
 
 ```mermaid
 flowchart LR
@@ -3377,7 +3353,7 @@ flowchart LR
 
 ---
 
-## 111. Mermaid — P4 Provenance Defense
+# 111. Mermaid — P4 Provenance Defense
 
 ```mermaid
 flowchart TD
@@ -3401,9 +3377,9 @@ flowchart TD
 
 ---
 
-## 112. Obsidian Dataview — Universe × Omega
+# 112. Obsidian Dataview — Universe × Omega
 
-```text
+```dataview
 TABLE
   artifact_kind AS "Kind",
   version AS "Version",
@@ -3416,9 +3392,9 @@ SORT artifact_kind ASC
 
 ---
 
-## 113. Obsidian Dataview — Universe Canon
+# 113. Obsidian Dataview — Universe Canon
 
-```text
+```dataview
 TABLE
   title AS "Artifact",
   artifact_kind AS "Kind",
@@ -3430,9 +3406,9 @@ SORT title ASC
 
 ---
 
-## 114. Obsidian Dataview — Omega Stress
+# 114. Obsidian Dataview — Omega Stress
 
-```text
+```dataview
 TABLE
   title AS "Artifact",
   plane AS "Plane",
@@ -3444,9 +3420,9 @@ SORT title ASC
 
 ---
 
-## 115. Obsidian Dataview — Runtime Defense
+# 115. Obsidian Dataview — Runtime Defense
 
-```text
+```dataview
 TABLE
   title AS "Artifact",
   artifact_kind AS "Kind",
@@ -3459,9 +3435,9 @@ SORT title ASC
 
 ---
 
-## 116. Obsidian Dataview — Cognitive Matrix
+# 116. Obsidian Dataview — Cognitive Matrix
 
-```text
+```dataview
 TABLE
   artifact AS "Artifact",
   artifact_kind AS "Kind",
@@ -3474,7 +3450,7 @@ SORT artifact ASC
 
 ---
 
-## 117. Search Tags — Primary
+# 117. Search Tags — Primary
 
 ```text
 #amos_os
@@ -3490,7 +3466,7 @@ SORT artifact ASC
 
 ---
 
-## 118. Search Tags — Universe Strata
+# 118. Search Tags — Universe Strata
 
 ```text
 #universe_canon
@@ -3506,7 +3482,7 @@ SORT artifact ASC
 
 ---
 
-## 119. Search Tags — Omega
+# 119. Search Tags — Omega
 
 ```text
 #omega
@@ -3520,7 +3496,7 @@ SORT artifact ASC
 
 ---
 
-## 120. Search Tags — Runtime Defense
+# 120. Search Tags — Runtime Defense
 
 ```text
 #runtime_defense
@@ -3539,7 +3515,7 @@ SORT artifact ASC
 
 ---
 
-## 121. Search Tags — Provenance
+# 121. Search Tags — Provenance
 
 ```text
 #sybil
@@ -3555,7 +3531,7 @@ SORT artifact ASC
 
 ---
 
-## 122. Search Tags — Governance
+# 122. Search Tags — Governance
 
 ```text
 #governance
@@ -3573,7 +3549,7 @@ SORT artifact ASC
 
 ---
 
-## 123. Search Tags — Integrity
+# 123. Search Tags — Integrity
 
 ```text
 #source_grounded
@@ -3591,7 +3567,7 @@ SORT artifact ASC
 
 ---
 
-## 124. Canon Tags
+# 124. Canon Tags
 
 ```text
 #canon/cognitive-matrix
@@ -3602,7 +3578,7 @@ SORT artifact ASC
 
 ---
 
-## 125. Fractal Retrieval Contract
+# 125. Fractal Retrieval Contract
 
 ```yaml
 FRACTAL_RETRIEVAL:
@@ -3657,7 +3633,7 @@ FRACTAL_RETRIEVAL:
 
 ---
 
-## 126. Canonical Compression
+# 126. Canonical Compression
 
 The matrix can be compressed as:
 
@@ -3723,7 +3699,7 @@ $$
 
 ---
 
-## 127. Epistemic Compression
+# 127. Epistemic Compression
 
 ```text
 SOURCE DEFINES
@@ -3773,7 +3749,7 @@ SOURCE DOES NOT FULLY DEFINE
 
 ---
 
-## 128. Canonical Candidate Statement
+# 128. Canonical Candidate Statement
 
 `UNIVERSE_X_OMEGA_MATRIX.md v2.0.0` defines the AMOS OS Universe × Omega seven-stratum cross-plane stress/defense matrix:
 
@@ -3874,7 +3850,7 @@ It does not independently establish their empirical validity, physical implement
 
 ---
 
-## 129. Inter-Plane Connections
+# 129. Inter-Plane Connections
 
 ## Source-Defined
 
@@ -3894,7 +3870,7 @@ It does not independently establish their empirical validity, physical implement
 
 ---
 
-## 130. RSCF-NODE
+# 130. RSCF-NODE
 
 ```yaml
 RSCF-NODE:
@@ -3991,7 +3967,7 @@ RSCF-NODE:
 
 ---
 
-## 131. RSCF-RELATIONS
+# 131. RSCF-RELATIONS
 
 ```yaml
 RSCF-RELATIONS:
@@ -4044,7 +4020,7 @@ RSCF-RELATIONS:
 
 ---
 
-## 132. Final Integrity Statement
+# 132. Final Integrity Statement
 
 > [!success] Source-grounded core
 > The artifact supplies a complete seven-row Universe × Omega matrix at the level of named strata, stress vectors, failure triggers, and runtime defense protocols.
@@ -4082,7 +4058,7 @@ RSCF-RELATIONS:
 
 ---
 
-## 133. Final Canonical Invariants
+# 133. Final Canonical Invariants
 
 $$
 \boxed{
@@ -4182,7 +4158,7 @@ $$
 
 ---
 
-## 134. Final Vault Tags
+# 134. Final Vault Tags
 
 #amos_os #cognitive_matrix #vault #25_cognitive_matrix #universe_x_omega_matrix #universe_x_omega #universe_omega #matrix_table #cross_plane_matrix #universe_canon #universe_strata #omega #omega_stress #omega_stress_vector #stress_vector #runtime_defense #runtime_defense_protocol #failure_trigger #rscf #reality #logic #organism #knowledge #foresight #governance #evolution #p1_reality #p2_logic #p3_organism #p4_knowledge #p5_foresight #p6_governance #p7_evolution #entropy #entropy_dissipation #substrate #thermal_spike #substrate_spike #energy_firewall #energy_firewall_throttle #contradiction #contradiction_density #non_contradiction #non_contradiction_violation #reset #vagal_distress #biological_telemetry #tau_bio #bio_distress_veto #sybil #sybil_lineage #lineage_dilution #provenance #provenance_independence #lineage_independence #confidence_ceiling #structural_overreach #modular_decoupling #modular_decoupling_protocol #mutation #mutation_debt #mutation_rejection #rollback #self_reference #self_reference_drift #semantic_divergence #clean_slate #ground_state #ground_state_recovery #fail_closed #defense_in_depth #threshold #invariant #scope_firewall #regime_firewall #causal_firewall #epistemic_boundary #source_grounded #source_claim #amos_model #canon_candidate #active_reference #conceptual_source_defined #constitutional_tests #executable_binding #fractal_knowledge_network #hml #proof_capsule #integrity #rollback_governance #evolutionary_governance #persistent_provenance #sybil_hardening #reversible_action #repairable_action #canon/cognitive-matrix #canon/universe #canon/omega #canon/runtime-defense
 

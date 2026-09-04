@@ -1,22 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: agent working instructions v2
-type: reference
-source: 07_SKILLS/amos-agent-systems-master/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Agent Working Instructions V2
 tags:
-  - reference
-  - amos-agent-systems-master
-  - type/skill
-  - architecture
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Agent Working Instructions V2
@@ -49,17 +48,17 @@ ______________________________________________________________________
 #### **1. Singleton Brain Master**
 
 ```python
-## ALWAYS use singleton pattern
+# ALWAYS use singleton pattern
 from master import AMOSBrainMaster
 
 master = AMOSBrainMaster.get_instance()
-## NEVER instantiate directly: master = AMOSBrainMaster()
+# NEVER instantiate directly: master = AMOSBrainMaster()
 ```
 
 #### **2. Pack Registration**
 
 ```python
-## ALWAYS register through canonical registry
+# ALWAYS register through canonical registry
 from kernel import create_pack_registry, PackInterface
 
 class MyPack(PackInterface):
@@ -73,7 +72,7 @@ registry.register_pack('my_pack', MyPack, dependencies=[])
 #### **3. Security Validation**
 
 ```python
-## ALWAYS validate inputs
+# ALWAYS validate inputs
 from core.advanced_security_enhancer import advanced_security_enhancer
 
 user_input = request.get('data', '')
@@ -84,10 +83,10 @@ if not advanced_security_enhancer.validate_input(user_input, 'general'):
 #### **4. Performance Optimization**
 
 ```python
-## ALWAYS use caching and optimization
+# ALWAYS use caching and optimization
 from core.memory_optimizer import memory_optimizer
 
-## Use cached objects
+# Use cached objects
 obj = memory_optimizer.get_cached_object('key', factory_function)
 ```
 
@@ -98,11 +97,11 @@ ______________________________________________________________________
 ### **FILE OPERATIONS**
 
 ```python
-## FORBIDDEN: Direct file operations
+# FORBIDDEN: Direct file operations
 with open('file.txt', 'w') as f:
     f.write('data')
 
-## REQUIRED: Use kernel file operations
+# REQUIRED: Use kernel file operations
 from master import AMOSBrainMaster
 master = AMOSBrainMaster.get_instance()
 file_op = FileOperation('write', 'file.txt', 'data')
@@ -112,12 +111,12 @@ master.persist(file_op)
 ### **CONFIGURATION**
 
 ```python
-## FORBIDDEN: Direct config loading
+# FORBIDDEN: Direct config loading
 import json
 with open('config.json') as f:
     config = json.load(f)
 
-## REQUIRED: Use BrainContext
+# REQUIRED: Use BrainContext
 from kernel import BrainContext
 context = BrainContext(kernel, {})
 config = context.get_shared_state('config', {})
@@ -126,23 +125,23 @@ config = context.get_shared_state('config', {})
 ### **BRAIN OPERATIONS**
 
 ```python
-## FORBIDDEN: Direct brain usage
+# FORBIDDEN: Direct brain usage
 from brain import AMOSBrain
 brain = AMOSBrain()
 
-## REQUIRED: Use kernel routing
+# REQUIRED: Use kernel routing
 kernel.get_brain_service('process_data')
 ```
 
 ### **PACK CREATION**
 
 ```python
-## FORBIDDEN: Unauthorized pack creation
+# FORBIDDEN: Unauthorized pack creation
 class MyPack:
     def __init__(self):
         self.initialize()
 
-## REQUIRED: Use PackInterface and registry
+# REQUIRED: Use PackInterface and registry
 from kernel import PackInterface
 class MyPack(PackInterface):
     def _get_capabilities(self):
@@ -156,7 +155,7 @@ ______________________________________________________________________
 ### **Integration Tests**
 
 ```python
-## ALWAYS run integration tests before deployment
+# ALWAYS run integration tests before deployment
 from tests.simple_integration_tests import simple_integration_test_suite
 
 test_report = simple_integration_test_suite.run_all_tests()
@@ -167,7 +166,7 @@ if test_report['summary']['success_rate'] < 80:
 ### **Performance Tests**
 
 ```python
-## ALWAYS validate performance
+# ALWAYS validate performance
 from core.performance_hardener import performance_hardener
 
 status = performance_hardener.get_status()
@@ -178,7 +177,7 @@ if not status['monitoring']:
 ### **Security Tests**
 
 ```python
-## ALWAYS validate security
+# ALWAYS validate security
 from core.advanced_security_enhancer import advanced_security_enhancer
 
 metrics = advanced_security_enhancer.get_security_metrics()

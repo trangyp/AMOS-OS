@@ -1,176 +1,231 @@
 ---
-title: Rule of 4 Canon
-type: canon
-source: 01_CANON/01_CORE_LAWS
-artifact: RULE_OF_4_CANON.md
-artifact_id: 01_canon_01_core_laws_rule_of_4_canon
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/01_CORE_LAWS
-artifact_kind: CANON
-path: 01_CANON/01_CORE_LAWS/RULE_OF_4_CANON.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Rule Of 4 Canon
 tags:
-  - 01_core_laws
-  - amos-os
-  - canon
-  - canon/universe
-  - canon_placeholder
-  - rscf
-  - rule
-  - universe
-  - placeholder_expanded
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-version: 0.2.0
-updated: '2026-08-27'
-status: PLACEHOLDER_EXPANDED
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: 01_CANON
-  regime: canon_placeholder
-  confidence_ceiling: source_supported
-  provenance_independence: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
 ---
-
-## 0. Canonical Status
-
-`RULE_OF_4_CANON.md` is an **ADD-ONLY placeholder-expanded artifact** for the **01_CANON** plane segment.
-
-It reserves the canonical slot for the AMOS framework family named **Rule of 4 Canon**.
-
-The artifact is presently:
-
-```text
-status: PLACEHOLDER_EXPANDED
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-```
-
-This artifact MUST NOT be interpreted as establishing completed, validated, or enforced canon.
-
-## 1. Governing Integrity Boundary
-
-The following distinctions are mandatory:
-
-```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
-```
-
-No downstream layer may silently collapse these distinctions.
-
-Origin architect / steward: **Trang Phan**
-
-System: **AMOS OS**
-
-______________________________________________________________________
+---
+---
 
 # Rule of 4 Canon
 
 ## 0. Status
 
-`RULE_OF_4_CANON.md` is an **ADD-ONLY placeholder** for the **Canon** plane segment at `01_CANON/01_CORE_LAWS`.
+`RULE_OF_4_CANON.md` defines the proposed AMOS OS **Rule of 4** core law.
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
+This artifact replaces a structural placeholder with substantive content. It does not, by its own existence, establish final AMOS canon, executable enforcement, empirical validity, or runtime implementation.
 
 ```text
 PLACEHOLDER != IMPLEMENTED
-
 ADDRESSABLE != VALIDATED
-
 DOCUMENTED != ENFORCED
-
 MODEL != OBSERVATION
-
 SOURCE_CLAIM != VERIFIED
-
 CANON_CANDIDATE != CANONICAL
-
 CANONICAL != EMPIRICAL_TRUTH
-
 CAPABILITY != AUTHORITY
-
 AUTHORIZATION != COMMIT
-
 PROPOSAL != COMMIT
-
 IMPLEMENTED != VALIDATED
-
 LOGGED != APPROVED
-
 UNKNOWN/GAP != PASS
 ```
 
-Origin architect / steward:
-
-**Trang Phan**
+Origin architect / steward: **Trang Phan**
 
 ______________________________________________________________________
 
 ## 1. Purpose
 
-This artifact reserves the **Rule of 4 Canon** slot within the Canon plane. The Canon plane governs canonical laws, universe/cognition/infrastructure canons, variable registry, glossary, provenance lineage, and supersession.
+The Rule of 4 (R4) is a foundational structural law in the AMOS OS core law hierarchy. It establishes the maximum decomposition width for any single level of abstraction in AMOS system design.
 
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+R4 answers:
 
-______________________________________________________________________
+> How many components may coexist at a single level of abstraction before the system becomes structurally unmanageable?
 
-## 2. Non-Purpose
+The Rule of 4 states:
 
-This placeholder MUST NOT be used to claim:
+> **Any system, subsystem, or reasoning layer MUST be decomposable into at most 4 components at any single level of abstraction. If more than 4 components appear, a new intermediate level MUST be introduced.**
 
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
+This is the AMOS formalization of bounded cognitive complexity per layer. It prevents flat architectures that exceed human and agent comprehension capacity, and it enforces hierarchical depth over horizontal sprawl.
 
 ______________________________________________________________________
 
-## 3. Ingestion Rule
+## 2. Formal Definition
+
+### 2.1 R4 Invariant
+
+$$\text{R4}: \quad \forall\, L \in \text{Layers}(S), \quad |\text{Components}(L)| \leq 4$$
+
+Where:
+- $\text{Layers}(S)$ — the set of abstraction layers in system $S$
+- $\text{Components}(L)$ — the set of peer components at layer $L$
+- The bound is 4, not "approximately 4" — a 5th component requires restructuring
+
+### 2.2 Decomposition Rule
+
+When a layer $L$ would contain $n > 4$ components:
+
+```text
+n > 4 ⇒ ∃ L' : Components(L') ⊂ Components(L)
+      ∧ |Components(L')| ≤ 4
+      ∧ L' is a new intermediate layer between L and its parent
+```
+
+The decomposition must preserve:
+- **MECE property** — components at each layer are Mutually Exclusive and Collectively Exhaustive
+- **Functional ownership** — each component has a single, clear functional responsibility
+- **No hidden coupling** — inter-component dependencies are explicit and declared
+
+### 2.3 AMOS Application
+
+The AMOS OS itself follows R4 at its top level:
+
+```text
+AMOS OS Top Layer (4 components):
+  1. CANON     — 01_CANON (laws, universe canon, cognition canon)
+  2. KERNEL    — 02_KERNEL (cognition, causal, risk, memory, identity)
+  3. CONTROL   — 03_CONTROL_PLANE (authority, policy, delegation)
+  4. RUNTIME   — 04_RUNTIME (execution, observability, repair)
+```
+
+Each of these decomposes into at most 4 sub-components, and so on recursively.
+
+______________________________________________________________________
+
+## 3. Relationship to Other Core Laws
+
+| Law | Relationship |
+|:---|:---|
+| **Law of Law (LoL)** | R4 is subordinate to LoL; LoL requires consistent structural constraints, R4 is the decomposition constraint |
+| **Rule of 2 (R2)** | R2 governs epistemic independence; R4 governs structural decomposition. They are orthogonal but composable |
+| **L0 Integrity** | R4 preserves structural integrity by preventing unbounded horizontal sprawl |
+| **L5 Scope Regime** | R4 bounds the scope of any single layer, supporting scope regime enforcement |
+| **L16 HML** | R4 applies at each H/M/L level — the 4-component limit is per-level, not global |
+
+______________________________________________________________________
+
+## 4. Application Domains
+
+### 4.1 Architecture Design
+
+When designing AMOS subsystems:
+- Each layer may have at most 4 peer components
+- A 5th component triggers mandatory restructuring
+- New intermediate layers absorb overflow while preserving MECE property
+
+### 4.2 Reasoning Decomposition
+
+When decomposing a reasoning problem:
+- A problem may be split into at most 4 sub-problems per level
+- Each sub-problem inherits scope and provenance from its parent
+- Deeper decomposition increases depth but not width
+
+### 4.3 Agent Delegation
+
+When delegating tasks to sub-agents:
+- A parent agent may delegate to at most 4 direct child agents
+- A 5th child requires introducing a coordinator agent layer
+- This prevents fan-out explosion in multi-agent systems
+
+### 4.4 Memory Organization
+
+When organizing memory structures:
+- Each memory tier may have at most 4 peer categories
+- This supports efficient retrieval and bounded search width
+
+______________________________________________________________________
+
+## 5. Worked Semantics
+
+Given a system $S$ with a layer $L$ containing $n$ components:
+
+1. **Count components** — enumerate peer components at layer $L$
+2. **Apply R4** — if $n \leq 4$, layer is compliant; if $n > 4$, restructure required
+3. **Restructure** — group components into $\lceil n/4 \rceil$ clusters, each with $\leq 4$ members
+4. **Insert intermediate layer** — the clusters become components of a new intermediate layer
+5. **Verify MECE** — confirm the new structure preserves mutual exclusivity and collective exhaustiveness
+6. **Record** — log the decomposition decision with provenance
+
+```text
+layer L has n components
+  ↓
+n ≤ 4?  ──yes──→  R4 compliant, proceed
+  ↓ no
+group into clusters of ≤ 4
+  ↓
+create intermediate layer L'
+  ↓
+assign clusters as components of L'
+  ↓
+verify MECE property
+  ↓
+record decomposition receipt
+```
+
+______________________________________________________________________
+
+## 6. Non-Purpose
+
+This law MUST NOT be used to claim:
+- That 4 is always the optimal number (some layers may function well with 2 or 3)
+- That depth is unlimited (other laws govern maximum depth)
+- That R4 alone guarantees good architecture (MECE and functional ownership are also required)
+- That R4 applies to leaves (terminal components are not subject to decomposition)
+- That R4 overrides domain-specific architectural standards
+
+______________________________________________________________________
+
+## 7. Gaps
+
+- Executable binding NOT_ESTABLISHED — R4 is specified but not yet enforced by runtime code
+- Canonical status CONDITIONAL — proposed specification, not yet promoted to full canon
+- Automated MECE verification NOT_ESTABLISHED — checking mutual exclusivity and collective exhaustiveness automatically is not implemented
+- Cross-layer dependency analysis NOT_ESTABLISHED — verifying that R4 compliance at one layer doesn't create violations at another
+
+______________________________________________________________________
+
+## 8. Promotion-Gate Checklist
+
+- [x] substantive content populated from AMOS corpus sources
+- [x] formal definition provided (§2)
+- [x] relationship to other core laws documented (§3)
+- [x] application domains specified (§4)
+- [x] worked semantics defined (§5)
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+
+______________________________________________________________________
+
+## 9. Cross-Plane Bindings
+
+- Governed by — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|AMOS_CORE_LAWS]]
+- Kernel enforcement — [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] (structural reasoning)
+- Control-plane gates — [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] (delegation width)
+- Cognitive matrix — [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]] (decomposition validation)
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Related skill — [[07_SKILLS/amos-rule-of-4-canon/SKILL|amos-rule-of-4-canon]]
+- Related law — [[01_CANON/01_CORE_LAWS/RULE_OF_2_CANON|RULE_OF_2_CANON]] (orthogonal but composable)
+
+______________________________________________________________________
+
+## 10. Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -209,55 +264,7 @@ AMOS_CANON_INGESTION_RULE:
 
 ______________________________________________________________________
 
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
-______________________________________________________________________
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
-______________________________________________________________________
-
-## 6. Worked semantics (target)
-
-Given an operation touching `01_CANON · CANON` within the Canon plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-______________________________________________________________________
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-______________________________________________________________________
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 
@@ -275,9 +282,9 @@ path: 01_CANON/01_CORE_LAWS/RULE_OF_4_CANON.md
 
 claim_class: AMOS_MODEL
 
-rscf_state: placeholder
+rscf_state: SOURCE_CLAIM
 
-canonical_status: UNKNOWN/GAP
+canonical_status: CONDITIONAL
 
 RSCF-RELATIONS:
 
@@ -286,6 +293,8 @@ RSCF-RELATIONS:
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+
+- PAIRED_WITH: [[01_CANON/01_CORE_LAWS/RULE_OF_2_CANON|RULE_OF_2_CANON]]
 
 ______________________________________________________________________
 

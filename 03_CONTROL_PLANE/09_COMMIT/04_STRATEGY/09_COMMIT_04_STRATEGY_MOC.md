@@ -1,25 +1,21 @@
 ---
-title: 04 Strategy MOC — 04 Strategy — 09 Commit / 04 Strategy
-type: moc
-source: 03_CONTROL_PLANE/09_COMMIT/04_STRATEGY
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 09 Commit 04 Strategy Moc
 tags:
-  - 04-strategy
-  - canon/control-plane
-  - strategy-commit-control-plane-mode-spec
-  - strategy-commit-control-plane-provenance
-  - strategy-commit-control-plane-activation-rules
-  - strategy-commit-control-plane-domain-weights
-  - strategy-commit-control-plane-engine-weights
-  - strategy-commit-control-plane-layer-weights
-  - strategy-commit-control-plane-mode-family-spec
-  - strategy-commit-control-plane-preconditions
-  - strategy-commit-control-plane-purpose-scope
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # 04 Strategy — Map of Content

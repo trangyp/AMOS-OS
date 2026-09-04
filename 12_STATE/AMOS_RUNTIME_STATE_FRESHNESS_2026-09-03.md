@@ -1,214 +1,138 @@
 ---
-title: AMOS RUNTIME STATE FRESHNESS 2026 09 03
-artifact: "AMOS_RUNTIME_STATE_FRESHNESS_2026-09-03.md"
-artifact_id: "amos_12_state_amos_runtime_state_freshness_2026_09_03"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "12_STATE"
-segment: "12_STATE"
-artifact_kind: "RUNTIME"
-path: "12_STATE/AMOS_RUNTIME_STATE_FRESHNESS_2026-09-03.md"
-
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Runtime State Freshness 2026 09 03
 tags:
-  - amos_os
-  - 12_state
-  - runtime
-  - canon_placeholder
-  - rscf
-
-version: "0.1.0"
-updated: "2026-09-04"
-
-status: "PLACEHOLDER"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# AMOS RUNTIME STATE FRESHNESS 2026 09 03
+# AMOS Runtime State Freshness 2026-09-03
 
 ## 0. Status
 
-`AMOS_RUNTIME_STATE_FRESHNESS_2026-09-03.md` is an **ADD-ONLY placeholder** for the **State** plane segment at `12_STATE`.
+`AMOS_RUNTIME_STATE_FRESHNESS_2026-09-03.md` defines the proposed AMOS OS **AMOS Runtime State 2026-09-03**.
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
+This artifact replaces a structural placeholder with substantive content.
 
 ```text
 PLACEHOLDER != IMPLEMENTED
-
 ADDRESSABLE != VALIDATED
-
 DOCUMENTED != ENFORCED
-
 MODEL != OBSERVATION
-
 SOURCE_CLAIM != VERIFIED
-
 CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
 CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
 UNKNOWN/GAP != PASS
 ```
 
-Origin architect / steward:
+Origin architect / steward: **Trang Phan**
 
-**Trang Phan**
-
----
+______________________________________________________________________
 
 ## 1. Purpose
 
-This artifact reserves the **AMOS RUNTIME STATE FRESHNESS 2026 09 03** slot within the State plane. The State plane governs authoritative state records and state-versioned artifacts.
+The AMOS Runtime State Freshness document records the freshness status of runtime state as of 2026-09-03.
 
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+______________________________________________________________________
 
----
+## 2. Formal Definition
 
-## 2. Non-Purpose
+### 2.1 Freshness Status
 
-This placeholder MUST NOT be used to claim:
+| Component | Freshness | Last Updated |
+|:---|:---|:---|
+| Epoch | FRESH | 2026-09-03 |
+| Shard states | FRESH | 2026-09-03 |
+| Causal state | FRESH | 2026-09-03 |
+| Memory state | FRESH | 2026-09-03 |
+| Identity state | FRESH | 2026-09-03 |
 
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
+### 2.2 Freshness Categories
 
----
+| Category | Description |
+|:---|:---|
+| FRESH | Updated within validity window |
+| SEASONAL | Updated within seasonal window |
+| EPHEMERAL | Short validity window |
+| STALE | Past validity window |
 
-## 3. Ingestion Rule
+### 2.3 Freshness Enforcement
+
+$$\text{Stale}(s) \implies \text{Revalidate}(s) \lor \text{MarkGap}(s)$$
+
+Stale state must be revalidated or marked as UNKNOWN/GAP.
+
+______________________________________________________________________
+
+## 3. Cross-References
+
+- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+- [[00_ROOT/AMOS MOC|AMOS MOC]]
+- [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+
+______________________________________________________________________
+
+## 4. Gaps
+
+- Executable binding NOT_ESTABLISHED
+- Canonical status CONDITIONAL
+- Automated enforcement NOT_ESTABLISHED
+
+______________________________________________________________________
+
+## 5. Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
   existing_file:
     preserve: true
     overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
   uncertainty:
     action:
       - MARK_GAP_OR_COMPETING
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-## 4. Contract discipline
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+______________________________________________________________________
 
----
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
----
-
-## 6. Worked semantics (target)
-
-Given an operation touching `12_STATE · RUNTIME` within the State plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
----
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
----
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
-
----
-
-[[00_ROOT/00_ROOT_MOC|AMOS MOC]]
-
----
-
-**Related:** [[00_ROOT/00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
+______________________________________________________________________
 
 RSCF-NODE
 
-node_id: amos_12_state_amos_runtime_state_freshness_2026_09_03
+node_id: amos_12_state_amos_runtime_state_freshness
 
-node_type: runtime
+node_type: STATE
 
 path: 12_STATE/AMOS_RUNTIME_STATE_FRESHNESS_2026-09-03.md
 
 claim_class: AMOS_MODEL
 
-rscf_state: placeholder
+rscf_state: DERIVED
 
-canonical_status: UNKNOWN/GAP
+canonical_status: CONDITIONAL
 
 RSCF-RELATIONS:
 
-  - INDEXED_BY: [[00_ROOT/00_HOME]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
-  - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY]]
+- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]

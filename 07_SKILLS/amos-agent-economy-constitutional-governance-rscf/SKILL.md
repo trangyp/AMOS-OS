@@ -9,7 +9,10 @@ parent_skill: amos-c07-econ-finance-master
 domain: econ
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
+  conclusion_class: AMOS_MODEL
 tags:
+  rscf-state: DERIVED
+  conclusion_class: AMOS_MODEL
   - type/skill
   - type/skill
   - domain/econ-finance
@@ -47,7 +50,6 @@ law_compliance:
   - L17
 license: MIT
 steward: Trang Phan
----
 
 # Agent Economy Constitutional Governance Rscf
 
@@ -177,7 +179,7 @@ ______________________________________________________________________
 - **Parent**: `amos-c07-econ-finance-master` — routes to this skill when econ specialization is needed
 - **Peers**: Other skills in the `econ` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
-- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Workflow**: Each skill has a corresponding workflow in `26_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
 
 ## Evaluation

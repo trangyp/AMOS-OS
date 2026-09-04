@@ -1,23 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: AMOS REINFORCEMENT LEARNING ANALYSIS KERNEL V0 MACHINE ARCHITECTURE4 2
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Reinforcement Learning Analysis Kernel
 tags:
-  - canon-group/biology
-  - canon/framework
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
   - rscf/state/source-claim
-  - topic/amos-reinforcement-learning-analysis-ker
-  - kernel
-type: data
-source: 11_KNOWLEDGE/kernel
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS REINFORCEMENT LEARNING ANALYSIS KERNEL V0 MACHINE ARCHITECTURE4 2

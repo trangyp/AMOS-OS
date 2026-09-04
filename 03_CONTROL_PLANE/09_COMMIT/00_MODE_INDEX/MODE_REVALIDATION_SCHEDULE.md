@@ -1,232 +1,146 @@
 ---
-title: AMOS OS Mode Revalidation Schedule
-type: validation
-source: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX
-artifact: MODE_REVALIDATION_SCHEDULE.md
-artifact_id: 03_control_plane_09_commit_00_mode_index_mode_revalidation_schedule
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 03_CONTROL_PLANE
-segment: 03_CONTROL_PLANE/09_COMMIT
-artifact_kind: VALIDATION
-path: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_REVALIDATION_SCHEDULE.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Mode Revalidation Schedule
 tags:
-  - 00_mode_index
-  - 09_commit
-  - amos-os
-  - canon/control-plane
-  - canon/universe
-  - commit
-  - control-plane
-  - mode_index
-  - note
-  - revalidation
-  - rscf
-  - schedule
-  - validation
-  - placeholder_expanded
-version: 0.2.0
-updated: '2026-08-27'
-status: PLACEHOLDER_EXPANDED
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: 03_CONTROL_PLANE
-  regime: canon_placeholder
-  confidence_ceiling: source_supported
-  provenance_independence: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
 ---
+---
+# Mode Revalidation Schedule
 
-## 0. Canonical Status
-
-`MODE_REVALIDATION_SCHEDULE.md` is an **ADD-ONLY placeholder-expanded artifact** for the **03_CONTROL_PLANE** plane segment.
-
-It reserves the canonical slot for the AMOS framework family named **AMOS OS Mode Revalidation Schedule**.
-
-The artifact is presently:
-
-```text
-status: PLACEHOLDER_EXPANDED
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-```
-
-This artifact MUST NOT be interpreted as establishing completed, validated, or enforced canon.
-
-## 1. Governing Integrity Boundary
-
-The following distinctions are mandatory:
+## 0. Status
 
 ```text
 PLACEHOLDER != IMPLEMENTED
-
 ADDRESSABLE != VALIDATED
-
 DOCUMENTED != ENFORCED
-
 MODEL != OBSERVATION
-
 SOURCE_CLAIM != VERIFIED
-
 CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
 CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
 UNKNOWN/GAP != PASS
 ```
 
-No downstream layer may silently collapse these distinctions.
-
 Origin architect / steward: **Trang Phan**
 
-System: **AMOS OS**
+## 1. Purpose
 
-______________________________________________________________________
+Control plane artifacts. This artifact defines the Mode Revalidation Schedule within the AMOS OS Control Plane plane, establishing the canonical contract, structural invariants, and integration points required for governed operation.
 
-# AMOS OS — Mode Revalidation Schedule
+## 2. Formal Definition
 
-> **Status:** `CANDIDATE_CANON`
->
-> **Conclusion class:** `DERIVED`
->
-> **AMOS CORE target:** `v4.4`
->
-> **Origin Architect:** Trang Phan
->
-> **Artifact:** `MODE_REVALIDATION_SCHEDULE.md`
+| Property | Value |
+|:---|:---|
+| Artifact Type | CONTROL_PLANE |
+| Canonical Status | CONDITIONAL |
+| Epistemic Class | AMOS_MODEL |
+| RSCF State | OBSERVATION |
+| Implementation Status | NOT_ESTABLISHED |
+| Provenance Independence | NOT_ESTABLISHED |
 
-______________________________________________________________________
+### Structural Invariants
 
-## 0. PURPOSE
+1. **Integrity Dominance**: INTEGRITY > COMPLETENESS > FLUENCY > SPEED
+2. **Epistemic Discipline**: SOURCE_CLAIM != VERIFIED; MODEL != OBSERVATION
+3. **Scope Binding**: Claims valid only within declared scope and regime
+4. **Authority Boundary**: CAPABILITY != AUTHORITY; PROPOSAL != COMMIT
+5. **Causal Firewall**: No causal claim without causal evidence
+6. **Uncertainty Preservation**: UNKNOWN/GAP != PASS
 
-`MODE_REVALIDATION_SCHEDULE` is the governed AMOS OS artifact whose purpose is to schedule and track periodic revalidation of admitted modes against current state, authority, and regime.
+### AMOS Law Compliance
 
-It answers the question:
+| Law | Obligation |
+|:---|:---|
+| L0 Integrity | Integrity dominance; no fabricated closure |
+| L1 Epistemic | Evidence typing; source claim != verification |
+| L2 Provenance | Every claim traces to source |
+| L4 Causal | Causal firewall; correlation != causation |
+| L5 Scope | Claims valid only within scope/regime |
+| L7 Authority | No autonomous action beyond authority boundary |
+| L17 RSCF | Claim discipline; confidence ceiling enforced |
+| L27 Gap | Expose don't fill; gap is status not shame |
 
-> When and under what conditions must an admitted mode be revalidated?
+## 3. AMOS Architecture Integration
 
-It does **not** assert that every described mechanism is currently implemented or empirically validated.
+This artifact integrates with the AMOS OS architecture through:
 
-It does **not** grant authority.
+- **Canon Plane**: Governed by [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- **Kernel Plane**: Connects to [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] for runtime enforcement
+- **Control Plane**: Routes through [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] for execution
+- **Knowledge Plane**: Indexed in [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]]
+- **SOTA Research**: Informed by [[22_RESEARCH/SOTA_RESEARCH_SYNTHESIS_2026-09-04|SOTA Synthesis Part 1]], [[22_RESEARCH/SOTA_RESEARCH_SYNTHESIS_2_2026-09-04|Part 2]], [[22_RESEARCH/SOTA_RESEARCH_SYNTHESIS_3_2026-09-04|Part 3]]
 
-It does **not** silently conflate specification with executable runtime.
+### H/M/L Resolution
 
-______________________________________________________________________
+- **H (High)**: Constitutional reasoning, irreversible actions → full proof capsule required
+- **M (Medium)**: Domain policy, reversible transformations → evidence + provenance required
+- **L (Low)**: Mechanical checks, local operations → type/format check sufficient
 
-## 1. CORE LAW
+### RSCF Classification
 
-```text
-ADMISSION AT T0 IS NOT ADMISSION AT T1.
+- **State**: OBSERVATION (sourced from architectural specification)
+- **Claim Class**: OBSERVATION
+- **Confidence Ceiling**: source_supported (capped at 0.7 without independent validation)
+- **Provenance**: amos_architecture_2026-09-04
+
+## 4. Cross-References
+
+- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+- [[00_ROOT/AMOS MOC|AMOS MOC]]
+- [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03|AMOS OS Audit 2026-09-03]]
+
+## 5. Gaps
+
+- Implementation status NOT_ESTABLISHED — architecture defined, runtime not deployed
+- Provenance independence NOT_ESTABLISHED — single-source derivation
+- Canonical status CONDITIONAL — requires governed promotion for CANONICAL
+- Test coverage UNKNOWN — no executed validation evidence
+- External authority NOT_ESTABLISHED — no independent verification
+
+## 6. Ingestion Rule
+
+```yaml
+AMOS_CANON_INGESTION_RULE:
+  existing_file:
+    preserve: true
+    overwrite: false
+  uncertainty:
+    action:
+      - MARK_GAP_OR_COMPETING
+      - NEVER_INVENT_CANON
 ```
 
-______________________________________________________________________
-
-## 2. FUNDAMENTAL DISTINCTIONS
-
-```text
-SCHEDULED != PERFORMED
-
-PERFORMED != PASSED
-
-PASSED != CURRENT
-
-NO_FRESHNESS_VIOLATION != STILL_VALID
-
-REVALIDATION_DEFERRED != REVALIDATION_UNNECESSARY
-```
-
-______________________________________________________________________
-
-## 3. WHY THIS ARTIFACT EXISTS
-
-Without `MODE_REVALIDATION_SCHEDULE`, AMOS mode governance would be forced to infer revalidation timing and freshness from implicit conventions, file names, or model-generated interpretations.
-
-This artifact makes the governing structure explicit and auditable.
-
-______________________________________________________________________
-
-## 4. 3. Triggers
-
-Time, event, state change, dependency change, authority change.
-
-______________________________________________________________________
-
-## 5. 4. Schedule Objects
-
-mode_id, last_validated, next_due, regime, evidence.
-
-______________________________________________________________________
-
-## 6. 5. Failure to Revalidate
-
-Quarantine, escalation, supersession.
-
-______________________________________________________________________
-
-## 9. TESTS AND FALSIFIERS
-
-`MODE_REVALIDATION_SCHEDULE` is falsified if any of the following occur:
-
-- The artifact permits a mode to be treated as admitted without evidence.
-- It conflates a registry/schedule/graph entry with authority or execution.
-- It allows a declared distinction to be silently ignored.
-- It accepts a claim as proven without a corresponding evidence artifact.
-- It permits cyclic, stale, or unbounded governance without detection.
-
-______________________________________________________________________
-
-## 10. STATUS PRESERVATION
-
-This artifact remains `CANDIDATE_CANON / DERIVED` until:
-
-- the exact historical source or approved new specification is bound;
-- the canon/provenance process promotes it;
-- formal verification and empirical validation evidence are attached;
-- the relevant supersession and source registry entries are updated.
-
-## END — MODE_REVALIDATION_SCHEDULE
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-______________________________________________________________________
+---
 
 RSCF-NODE
-node_id: mode_revalidation_schedule
-node_type: note
+
+node_id: 03_control_plane_09_commit_00_mode_index_mode_revalidation_schedule
+
+node_type: CONTROL_PLANE
+
 path: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_REVALIDATION_SCHEDULE.md
+
+claim_class: OBSERVATION
+
+rscf_state: OBSERVATION
+
+canonical_status: CONDITIONAL
+
 RSCF-RELATIONS:
 
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-  claim_class: AMOS_MODEL
 
-______________________________________________________________________
-
-**MOC:** [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/00_MODE_INDEX_MOC|00_MODE_INDEX_MOC]]
+- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]

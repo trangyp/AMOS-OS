@@ -1,21 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Vault Domain Knowledge — Amos Temporal Multiscale Rscf Engine
-type: reference
-source: 07_SKILLS/amos-temporal-multiscale-rscf-engine/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Vault Domain Knowledge
 tags:
-  - reference
-  - amos-temporal-multiscale-rscf-engine
-  - type/skill
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Vault-Sourced Domain Knowledge
@@ -95,7 +95,7 @@ class AMOSBrainMultiscaleEnhanced:
 
 > Path: `logic/Deterministic_Logic_Law_Model.md` | Size: 1464 chars | Match score: 5 | content_hash: aeafbe4721385157
 
-## AMOS Deterministic Logic & Law Engine (OMEGA)
+# AMOS Deterministic Logic & Law Engine (OMEGA)
 
 
 The **Deterministic Logic and Law Engine** forms the top reasoning layer for AMOS, guaranteeing strict consistency, logical conflict resolution, and compliance.
@@ -129,7 +129,7 @@ If multiple laws or rules conflict, apply:
 
 > Path: `rscf/SKILL (rscf).md` | Size: 1071 chars | Match score: 5 | content_hash: 24f40a537f42f350
 
-## RSCF — Resonance Scan Causal Field
+# RSCF — Resonance Scan Causal Field
 
 ## Purpose
 RSCF (Resonance Scan Causal Field) is the AMOS proof capsule format for

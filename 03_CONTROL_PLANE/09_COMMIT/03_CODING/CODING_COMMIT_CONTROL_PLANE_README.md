@@ -1,42 +1,21 @@
 ---
-title: CODING COMMIT CONTROL PLANE README
-type: control-plane
-source: 03_CONTROL_PLANE/09_COMMIT/03_CODING
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Coding Commit Control Plane Readme
 tags:
-  - control-plane
-  - 03_coding
-  - canon/control-plane
-  - readme
-  - commit-control-plane-mode-family-spec
-  - control-plane-activation-rules
-  - control-plane-aliases
-  - control-plane-benchmarks
-  - control-plane-composition
-  - control-plane-deprecation-supersession
-  - control-plane-domain-weights
-  - control-plane-engine-weights
-  - control-plane-exit-criteria
-  - control-plane-failure-recovery
-  - control-plane-governance
-  - control-plane-layer-weights
-  - control-plane-mode-spec
-  - control-plane-observability
-  - control-plane-preconditions
-  - control-plane-provenance
-  - control-plane-purpose-scope
-  - control-plane-routing-bindings
-  - control-plane-safety-gates
-  - control-plane-tests
-  - control-plane-transition-rules
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # CODING COMMIT CONTROL PLANE README

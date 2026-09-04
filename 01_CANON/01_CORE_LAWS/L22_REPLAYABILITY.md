@@ -1,38 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: L22_REPLAYABILITY — Deterministic Replayability Law
-type: law
-source: 01_CANON/01_CORE_LAWS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: L22 Replayability
 tags:
-  - canon
-  - core_law
-  - replayability
-  - deterministic_replay
-  - determinism
-  - state_transition
-  - transaction_receipt
-  - root_inputs
-  - pinned_inputs
-  - execution_trace
-  - reproducibility
-  - verification
-  - provenance
-  - causal_lineage
-  - auditability
-  - integrity
-  - canon/universe
-  - law/L8-execution
-  - law/L23-mvcc-cas
-  - law/L24-causal-epoch
-rscf:
-  state: CANON_LAW
-  claim_class: CANONICAL_INVARIANT
-  provenance: AMOS_CANON
-  scope: core_laws
-  node_id: l22_replayability
-  node_type: core_law
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # L22_REPLAYABILITY — Deterministic Replayability Law

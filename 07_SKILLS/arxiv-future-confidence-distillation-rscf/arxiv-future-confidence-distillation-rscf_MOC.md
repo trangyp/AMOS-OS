@@ -1,20 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Arxiv-Future-Confidence-Distillation-Rscf MOC
-type: moc
-source: 07_SKILLS/arxiv-future-confidence-distillation-rscf
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Arxiv Future Confidence Distillation Rscf Moc
 tags:
-  - arxiv-future-confidence-distillation-rsc
-  - type/skill
-  - skill
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Arxiv-Future-Confidence-Distillation-Rscf — Map of Content

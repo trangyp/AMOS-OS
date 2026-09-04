@@ -1,112 +1,87 @@
 ---
-title: "15_INTERFACES — Multi-Modal API & Component Protocol Architecture"
-type: architectural_specification
-source: 15_INTERFACES
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  provenance: authoritative_AMOS_OS_structure
-  scope: active__AMOS_OS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Interfaces Readme
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# 15_INTERFACES — Multi-Modal API & Component Protocol Architecture
+# INTERFACES README
 
-**Origin Architect / Steward:** Trang Phan
-**AMOS_CORE Target:** `v4.4`
-**Epistemic Class:** `AMOS_MODEL`
+## Purpose
 
----
+`INTERFACES README` is the package readme for the **Interfaces** plane segment at `15_INTERFACES`.
+The Interfaces plane governs cross-boundary message schemas and interface contracts. Normative load-bearing content lives in the sibling contract(s); this readme orients navigation.
 
-## 1. Architectural Scope & Multi-Modal Boundary
+## Sibling artifacts
 
-The **15_INTERFACES** plane defines the external and inter-process communication boundaries for the AMOS Full Brain OS. It standardizes four distinct interface classes:
-1. **gRPC / Protocol Buffers v3**: High-throughput, strongly typed RPCs for microservices and daemon co-processors.
-2. **OpenAPI 3.1 REST & JSON-LD**: Public developer APIs with cryptographic proof receipt headers.
-3. **AsyncAPI 3.0 Event Streams**: Real-time WebSocket, SSE, and ZeroMQ publish-subscribe telemetry channels.
-4. **WebAssembly Component Model (WASI 0.2 / WIT)**: Zero-overhead, type-safe host-to-plugin execution interfaces.
+- [[15_INTERFACES/INTERFACES_INTERFACE_CONTRACT|INTERFACES_INTERFACE_CONTRACT]]
 
-```
-+----------------------------------------------------------------------------------------------------+
-|                         AMOS MULTI-MODAL INTERFACE BUS TOPOLOGY                                    |
-|                                                                                                    |
-|    [ User BCI / UI Surface ]       [ External REST / OpenAPI ]       [ Distributed Agent Nodes ]   |
-|               ||                               ||                                ||                |
-|               \/                               \/                                \/                |
-|    [ WebSocket / SSE Event Stream ]   [ Envoy / gRPC Gateway ]          [ ZeroMQ Lockless Ring ]   |
-|               \________________________________|_________________________________/                 |
-|                                                ||                                                  |
-|                                                \/                                                  |
-|                      [ WebAssembly WASI 0.2 Component Model Boundary ]                             |
-|                                                ||                                                  |
-|                                                \/                                                  |
-|                      [ Capability-Attenuated Kernel Dispatch Engine ]                              |
-+----------------------------------------------------------------------------------------------------+
-```
+## Contract discipline
 
----
+Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
 
-## 2. WebAssembly Interface Type (WIT) Component Definition
+## Gaps
 
-```wit
-package amos:full-brain-os@4.4.0;
+Executable binding PARTIAL unless an executed validation receipt exists for this subsystem ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
 
-interface cognitive-evaluator {
-    use amos:types/epistemic.{entropy-gradient, belief-state, confidence-interval};
+## Worked semantics
 
-    record evaluation-request {
-        claim-id: string,
-        evidence-hashes: list<string>,
-        confidence-ceiling: float32,
-    }
+Given an operation touching `INTERFACES · README` within the Interfaces plane:
 
-    record evaluation-result {
-        admitted: bool,
-        calibrated-entropy: entropy-gradient,
-        receipt-blake3: string,
-    }
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-    evaluate-claim: func(req: evaluation-request) -> result<evaluation-result, string>;
-}
+## Promotion-gate checklist
 
-world amos-sandbox-host {
-    import amos:types/crypto;
-    export cognitive-evaluator;
-}
-```
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
----
+## Cross-plane bindings
 
-## 3. OpenAPI 3.1 Cryptographic Proof Header Specification
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-All synchronous HTTP endpoints emit standard AMOS verification headers:
+______________________________________________________________________
 
-```http
-HTTP/1.1 200 OK
-Content-Type: application/json
-X-AMOS-Core-Version: 4.4.0
-X-AMOS-Epoch-Finality: 1048576
-X-AMOS-Blake3-Receipt: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-X-AMOS-Epistemic-Class: AMOS_MODEL
-X-AMOS-Origin-Steward: Trang Phan
-```
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
-## 4. Operational Invariants
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
-- `INV-INT-001` (**Zero-Copy Deserialization**): High-frequency telemetry interfaces must utilize flatbuffers or memory-mapped Apache Arrow record batches to eliminate serialization overhead.
-- `INV-INT-002` (**Strict Capability Binding**): Every interface invocation must provide an Ed25519 or Dilithium-signed capability token with non-expired TTL.
-- `INV-INT-003` (**Idempotency Guarantee**): Mutating POST/PUT endpoints require client-supplied `Idempotency-Key` headers enforced by the transaction engine.
+______________________________________________________________________
 
----
+RSCF-NODE
+node_id: amos_15_interfaces_interfaces_readme_md
+node_type: note
+path: 15_INTERFACES/INTERFACES_README.md
+claim_class: AMOS_MODEL
 
-## 5. Navigation & Bindings
+______________________________________________________________________
 
-- **Master MOC:** [[15_INTERFACES/15_INTERFACES_MOC|15_INTERFACES_MOC]]
-- **Schema Definitions:** [[16_SCHEMAS/16_SCHEMAS_MOC|16_SCHEMAS_MOC]]
-- **Root Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]
+**MOC:** [[15_INTERFACES/15_INTERFACES_MOC|15_INTERFACES_MOC]]

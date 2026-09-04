@@ -1,118 +1,21 @@
 ---
-title: Core x Control Plane Cross-Plane Matrix
-type: cognitive
-source: 25_COGNITIVE_MATRIX
-artifact: CORE_X_CONTROL_PLANE_MATRIX.md
-artifact_id: amos_25_cognitive_matrix_core_x_control_plane_matrix
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 25_COGNITIVE_MATRIX
-segment: 25_COGNITIVE_MATRIX
-artifact_kind: MATRIX_TABLE
-path: 25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE_MATRIX.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Core X Control Plane Matrix
 tags:
-  - amos-os
-  - cognitive-matrix
-  - vault
-  - core_x_control_plane_matrix
-  - matrix_table
-  - cross-plane
-  - routing_matrix
-  - control-plane
-  - canon_plane
-  - authority_envelopes
-  - control_harnesses
-  - integrity
-  - reality
-  - cognition
-  - governance
-  - state_validation
-  - telemetry
-  - prompt_harness
-  - skill_harness
-  - multi_agent_dispatcher
-  - enforcement_gates
-  - provenance
-  - scope
-  - regime
-  - authority
-  - capability
-  - rscf
-  - proof_capsules
-  - dependency_closure
-  - causal_epoch
-  - mvcc
-  - cas
-  - shard_local_finalization
-  - proof_based_coordination_avoidance
-  - canon_candidate
-  - canon/matrix
-  - core-x-control-plane
-  - skill
-  - validation
-  - canon
-  - law/L0-integrity
-  - capability-resolver
-  - k-rscf
-  - k-hml
-  - k-gmef
-  - k-provenance
-  - k-provenance-topology
-  - k-capability-authorization
-  - k-commit-time-authority
-  - amos-core-v4-4
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-formal_verification_status: NOT_ESTABLISHED
-runtime_enforcement_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - 25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE
-    - 03_CONTROL_PLANE/03_CONTROL_PLANE_MOC
-    - 01_CANON/01_CANON_MOC
-    - AMOS_CORPUS
-  scope:
-    - COGNITIVE_MATRIX
-    - CROSS_PLANE_MATRIX_TABLE
-    - CORE_CONTROL_PLANE_ROUTING
-    - AUTHORITY_ENVELOPE_ROUTING
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  matrix_spec:
-    artifact:
-      -   - CORE_X_CONTROL_PLANE
-  cognitive_matrix:
-    artifact:
-      -   - 25_COGNITIVE_MATRIX_MOC
-  control_plane:
-    artifact: 03_CONTROL_PLANE/03_CONTROL_PLANE_MOC
-  canon_plane:
-    artifact: 01_CANON/01_CANON_MOC
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  matrix_structure: VERIFIED_SOURCE_STRUCTURE
-  routed_laws: VERIFIED_SOURCE_STRUCTURE
-  cross_plane_routing: SOURCE_DEFINED_MODEL
-  authority_envelopes: SOURCE_DEFINED_MODEL
-  control_harness_mapping: SOURCE_DEFINED_MODEL
-  enforcement_gate_mapping: SOURCE_DEFINED_MODEL
-  implementation: NOT_ESTABLISHED
-  runtime_enforcement: NOT_ESTABLISHED
-  empirical_validation: NOT_ESTABLISHED
-  formal_verification: NOT_ESTABLISHED
-  cryptographic_enforcement: NOT_ESTABLISHED
-  multi_agent_runtime: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Core x Control Plane Cross-Plane Routing Matrix Table
@@ -145,7 +48,7 @@ It does **not**, by itself, establish that the named harnesses or gates are impl
 
 ---
 
-## 0. Epistemic Boundary
+# 0. Epistemic Boundary
 
 The source supports the existence and structure of the matrix as an AMOS corpus artifact.
 
@@ -4086,3 +3989,10 @@ RSCF-RELATIONS:
 ---
 
 **END OF `CORE_X_CONTROL_PLANE_MATRIX.md`**
+
+
+```
+
+```
+```
+```

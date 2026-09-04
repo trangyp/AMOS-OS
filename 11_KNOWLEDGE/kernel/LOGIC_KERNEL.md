@@ -1,191 +1,204 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: LOGIC KERNEL
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Logic Kernel
 tags:
-  - kernel
-  - core
-  - runtime
-  - canon/knowledge
-  - system-scan-agent
-  - automation-profiles
-  - amos-simulation-kernel-v0-math-foundations
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
-  - rscf/state/observation
-type: document
-source: 11_KNOWLEDGE/kernel
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-canonical_status: CANONICAL_KERNEL
-updated: 2026-09-04
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: EMPIRICAL
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Deterministic Logic Kernel
 
-> **Origin Architect / Steward:** Trang Phan
-> **Epistemic Class:** `AMOS_MODEL`
-> **Conclusion Class:** `DERIVED`
-> **Status:** `ACTIVE_SPECIFICATION`
-> **Governing Plane:** `11_KNOWLEDGE/kernel`
+> [!abstract] Kernel Specification
+> Defines the core deterministic inference engine for AMOS: logical objects, evaluation rules, contradiction handling, entailment protocols, and non-monotonic consequence management. This is the AMOS reasoning/spec pattern for propositional and first-order logic operations — it is **not** a claim that AMOS OS deploys this as a live runtime (per AGENTS.md invariant 4).
 
 ---
 
-## 1. Architectural Scope
+## 1. Purpose
 
-The **Deterministic Logic Kernel** defines the core logical objects, inference rules, and normalization procedures for all logic operations within the AMOS OS. It provides a multi-mode logic system that supports positive, negative, zero, dual, and meta logic modes, with explicit contradiction preservation and entailment verification.
+The Deterministic Logic Kernel provides:
 
-This kernel exists to provide the **logical reasoning substrate** for all AMOS operations. It enforces deterministic normalization, explicit contradiction handling, and the separation of syntactic normalization from semantic entailment.
+- A formal substrate for propositional and restricted first-order inference
+- Normalization of equivalent logical expressions under supported input forms
+- Explicit contradiction preservation rather than silent repair
+- Entailment tracking with provenance and scope discipline
+- Non-monotonic retraction and cascading consequence management
 
-**Epistemic Boundary:**
+This kernel is referenced by [[02_KERNEL/DETERMINISTIC_LOGIC_KERNEL|02_KERNEL Deterministic Logic Kernel]] (the canonical specification in `02_KERNEL/`). This file provides the knowledge-layer operational profile.
+
+---
+
+## 2. Core Logical Objects
+
+| Object | Symbol | Definition |
+| :--- | :--- | :--- |
+| **Atom** | $p, q, r$ | Indivisible propositions with a truth-value assignment |
+| **Negation** | $\lnot p$ | Classical complement; if $p$ is TRUE, $\lnot p$ is FALSE |
+| **Conjunction** | $p \land q$ | TRUE iff both $p$ and $q$ are TRUE |
+| **Disjunction** | $p \lor q$ | TRUE iff at least one of $p, q$ is TRUE |
+| **Implication** | $p \rightarrow q$ | Equivalently $\lnot p \lor q$; material conditional |
+| **Bottom** | $\bot$ | Contradiction / unsatisfiable; always FALSE in classical fragments |
+| **Paradox** | $\pi$ | Explicit paradox state; preserved rather than collapsed |
+
+### 2.1 Logic Modes
+
+| Mode | Description | Validity |
+| :--- | :--- | :--- |
+| **Positive** | Only atoms and conjunctions | Fragment-verified |
+| **Negative** | Negation introduced | Requires contradiction tracking |
+| **Zero** | Identity / vacuous cases | Edge-case coverage |
+| **Dual** | Classical two-valued | Fully supported |
+| **Multi** | Multi-valued / fuzzy extension | Scope-restricted |
+| **Meta** | Reasoning about reasoning | Control-plane gated |
+
+### 2.2 Convergence and Divergence
+
+- **Convergence**: Inference sequence terminates in a unique normal form for given premises/mode
+- **Divergence**: Sequence cycles or fails to terminate; detected via cycle detection in proof trail assembly
+
+---
+
+## 3. Invariants
+
+| ID | Invariant | Enforcement |
+| :--- | :--- | :--- |
+| **LK-01** | Normalization is deterministic for equivalent supported inputs | Canonical form uniqueness check |
+| **LK-02** | Contradiction is preserved explicitly, never silently repaired | Bottom/Paradox states never collapsed without authority |
+| **LK-03** | Syntactic normalization is distinguished from semantic entailment | Two-phase evaluation: normalize → then check entailment |
+| **LK-04** | Classical truth is not inferred from unsupported meta-logic operators | Mode gate: meta-logic outputs carry `PROPOSAL` class |
+| **LK-05** | Propositional behavior is used only within its verified fragment | Scope check: fragment boundary enforced at premise admission |
+| **LK-06** | No state promotion occurs without valid provenance closure | Proof trail required for every entailment claim |
+
+These invariants are consistent with AMOS core law ordering: $\text{INTEGRITY} > \text{COMPLETENESS} > \text{FLUENCY}$ (M01).
+
+---
+
+## 4. Contradiction Management
+
+### 4.1 Explicit Contradiction States
+
+A proposition and its negation may coexist as an explicit contradiction state: $\text{CONTRADICTION}(p) \iff p \land \lnot p$ both carry SUPPORTED truth-values. The kernel does **not** resolve this to $\bot$ automatically — the contradiction is flagged with metadata ($p, \lnot p$, sources, timestamp), downstream consumers receive the explicit state, and resolution requires higher-authority rules. Without authority, the kernel emits `UNKNOWN/GAP`.
+
+### 4.2 Contradiction Detection Pipeline
+
+Contradiction detection: (1) existence check — is $\lnot p$ already supported? (2) provenance compare — are $p$ and $\lnot p$ from independent sources? (3) flag contradiction state (do not auto-resolve), (4) escalate to control-plane or quarantine.
+
+### 4.3 Bottom vs Paradox
+
+- **Bottom** ($\bot$): Classical contradiction, resolvable within the logic fragment
+- **Paradox** ($\pi$): Self-referential or undecidable; preserved as a first-class state and never silently eliminated
+
+---
+
+## 5. Entailment Rules
+
+### 5.1 Entailment Claim Requirements
+
+An entailment claim $\Gamma \vdash \phi$ requires:
+
+1. A premise set $\Gamma = \{p_1, p_2, \ldots, p_n\}$ with valid provenance
+2. An admitted inference rule $r$ (see §5.2)
+3. An applicable logic fragment (mode and scope declaration)
+4. A proof trail $\pi$ connecting $\Gamma$ to $\phi$
+
+### 5.2 Admitted Inference Rules
+
+| Rule | Form | Class |
+| :--- | :--- | :--- |
+| Modus Ponens | $p, p \rightarrow q \vdash q$ | Classical |
+| Modus Tollens | $\lnot q, p \rightarrow q \vdash \lnot p$ | Classical |
+| Hypothetical Syllogism | $p \rightarrow q, q \rightarrow r \vdash p \rightarrow r$ | Classical |
+| Conjunction Elimination | $p \land q \vdash p$ | Classical |
+| Disjunction Introduction | $p \vdash p \lor q$ | Classical |
+| Contradiction Introduction | $p, \lnot p \vdash \bot$ | Classical |
+| Default Reasoning | $\text{ABNORMAL}(p) \text{ not shown} \vdash p$ (defeasible) | Non-Monotonic |
+| Belief Revision (AGM) | $K * p = \text{Cn}(K \cup \{p\}) \setminus \text{inconsistencies}$ | Non-Monotonic |
+
+### 5.3 Proof Trail Formalization
+
+A valid proof trail $\pi$ satisfies:
+
+$$\pi = \langle (p_1, r_1, p_2), (p_2, r_2, p_3), \ldots, (p_{n-1}, r_{n-1}, p_n) \rangle$$
+
+where:
+
+- Each $p_i$ is a supported proposition or premise
+- Each $r_i$ is an admitted inference rule
+- $p_n = \phi$ (the conclusion)
+- No $p_i$ has been retracted or placed in `QUARANTINED` status
+- Scope and regime of every premise are compatible with the conclusion
+
+---
+
+## 6. Non-Monotonic Consequence Management
+
+### 6.1 Retraction Protocol
+
+When a premise is retracted (contradiction detected, evidence stale, authority revoked): (1) identify dependents via graph traversal, (2) classify impact as direct vs transitive, (3) retract dependent subtree only (M18), (4) quarantine affected claims or mark `UNKNOWN/GAP`, (5) notify downstream agents/state.
+
+### 6.2 Minimal Retraction Scope (M18 Enforcement)
+
+- Only the **dependent closure** of the retracted premise is affected
+- Sibling claims sharing premises but not dependent on the retracted one are **preserved**
+- If a claim has **multiple independent proof trails**, only trails containing the retracted premise are invalidated; the claim remains valid if at least one independent trail survives
+
+---
+
+## 7. Failure Modes
+
+| Failure | Detection | Recovery |
+| :--- | :--- | :--- |
+| Invalid proof trail | Premise validation fails | Output `UNKNOWN/GAP`; no promotion |
+| Circular dependency | Cycle detection in trail | Reject inference; log circular dependency |
+| Stale premise | Freshness check | Force revalidation; mark dependents `QUARANTINED` |
+| Scope mismatch | Fragment compatibility check | Reject inference; log scope conflict |
+| Divergent normalization | Termination check | Flag as unsupported input; escalate |
+
+---
+
+## 8. Integration Points
+
+| Interface | Direction | Contract |
+| :--- | :--- | :--- |
+| [[02_KERNEL/DETERMINISTIC_LOGIC_KERNEL\|02_KERNEL Logic Spec]] | Read | Canonical axiom/inference definitions |
+| [[11_KNOWLEDGE/kernel/COGNITION_KERNEL\|COGNITION_KERNEL]] | Write | Logical operations supply the symbolic plane for cognitive processing |
+| [[11_KNOWLEDGE/kernel/AMOS_CONTROL_SYSTEMS_KERNEL\|AMOS_CONTROL_SYSTEMS_KERNEL]] | Read | Invariant enforcement order feeds control-system priority |
+| [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL\|AMOS_SIMULATION_KERNEL]] | Write | Entailment results used in counterfactual evaluation |
+| [[11_KNOWLEDGE/kernel/AMOS_PROBABILITY_STATISTICS_KERNEL\|AMOS_PROBABILITY_STATISTICS_KERNEL]] | Read/Write | Probabilistic rules interface with certainty factors |
+| [[01_CANON/01_CORE_LAWS\|AMOS_CORE_LAWS]] | Read | Axiom definitions; immutable premises |
+| [[03_CONTROL_PLANE\|CONTROL_PLANE]] | Write | Inference results submitted for authority gating |
+
+---
+
+```RSCF-NODE
+node_id: logic_kernel_knowledge_spec
+node_type: kernel_specification
+domain: 11_KNOWLEDGE/kernel
+claim_class: AMOS_MODEL
+confidence_ceiling:
+  contradiction_management: high
+  entailment_formalization: high
+  non_monotonic_retraction: high
+falsifiers:
+  - Contradiction state is silently resolved without authority
+  - Entailment claim accepted without valid proof trail
+  - Non-monotonic retraction affects siblings outside dependent closure
 ```
-MODEL != OBSERVATION
-DOCUMENTED != IMPLEMENTED
-CAPABILITY != AUTHORITY
-SYNTACTIC_NORMALIZATION != SEMANTIC_ENTAILMENT
-META_LOGIC != CLASSICAL_TRUTH
-```
 
-**Core Logical Objects:**
-`ATOM, NOT, AND, OR, IMPLIES, BOTTOM, PARADOX`
+______________________________________________________________________
 
-**Logic Modes:**
-`positive | negative | zero | dual | multi | meta`
-
-**Convergence/Divergence Forms:**
-The kernel distinguishes between convergent reasoning paths (multiple paths reach the same conclusion) and divergent paths (same starting point yields different conclusions under different modes).
-
-**Inputs:** `LOGIC_INPUT{propositions[], inference_rules[], mode, premises[]}`
-**Outputs:** `LOGIC_OUTPUT{normalized_form, entailment_claims[], contradiction_states[], mode_result}`
-
-**Computational Guarantees:** Deterministic normalization for equivalent supported inputs, explicit contradiction preservation, tested propositional behavior within verified fragments only.
-
----
-
-## 2. Governing Invariants
-
-| ID | Invariant | Description |
-|----|-----------|-------------|
-| INV-LK-001 | Deterministic Normalization | Equivalent supported inputs must normalize to the same form |
-| INV-LK-002 | Contradiction Preservation | Contradictions must be represented explicitly, not silently repaired |
-| INV-LK-003 | Syntax-Semantics Separation | Syntactic normalization must be distinguished from semantic entailment |
-| INV-LK-004 | No Classical Truth Inference | Do not infer classical truth from unsupported meta-logic operators |
-| INV-LK-005 | Verified Fragment Only | Use tested propositional behavior only within its verified fragment |
-| INV-LK-006 | Entailment Completeness | Entailment claims require premises + inference rule + applicable logic fragment |
-| INV-LK-007 | Mode Declaration | Logic mode must be declared before evaluation |
-
----
-
-## 3. Mathematical Formulation
-
-**Normalization:**
-
-$$\text{Norm}(p_1) = \text{Norm}(p_2) \quad \text{if } p_1 \equiv p_2 \text{ (equivalent supported inputs)}$$
-
-**Contradiction representation:**
-
-$$\text{Contra}(p) = \{p, \neg p\} \quad \text{(explicit contradiction state, not repaired)}$$
-
-**Entailment:**
-
-$$\Gamma \models \phi \quad \text{requires} \quad \Gamma \neq \emptyset \wedge \exists r \in \text{Rules} : r(\Gamma) = \phi \wedge \text{Fragment}(r) \in \text{Verified}$$
-
-**Convergence:**
-
-$$\text{Convergent}(\pi_1, \pi_2) = \text{Conclusion}(\pi_1) = \text{Conclusion}(\pi_2)$$
-
-**Divergence:**
-
-$$\text{Divergent}(\pi_1, \pi_2) = \text{Premises}(\pi_1) = \text{Premises}(\pi_2) \wedge \text{Conclusion}(\pi_1) \neq \text{Conclusion}(\pi_2)$$
-
-**Mode applicability:**
-
-$$\text{Valid}(r, m) = r \in \text{Rules}(m) \wedge m \in \{\text{positive, negative, zero, dual, multi, meta}\}$$
-
----
-
-## 4. Architecture
-
-```mermaid
-graph TD
-    A[LOGIC_INPUT] --> B[Mode Declaration]
-    B --> C[Normalization]
-    C --> D{Contradiction?}
-    D -->|yes| E[Explicit Contradiction State]
-    D -->|no| F[Entailment Evaluation]
-    F --> G{Rule + Fragment Valid?}
-    G -->|yes| H[Entailment Claim]
-    G -->|no| I[Unsupported: Flag]
-    E --> J[LOGIC_OUTPUT]
-    H --> J
-    I --> J
-    C --> K[Convergence/Divergence Check]
-    K --> J
-```
-
----
-
-## 5. MECE Mapping to AMOS Full Brain OS
-
-| Kernel Component | AMOS Plane | Role |
-|------------------|------------|------|
-| Mode Declaration | `03_CONTROL_PLANE` | Mode routing |
-| Normalization | `04_RUNTIME` | Normalization execution |
-| Contradiction Handling | `12_STATE` | State representation |
-| Entailment Evaluation | `06_INTELLIGENCE` | Inference reasoning |
-| Convergence/Divergence | `17_OBSERVABILITY` | Path monitoring |
-| Fragment Verification | `16_SCHEMAS` | Schema verification |
-| Unsupported Flag | `17_OBSERVABILITY` | Alert generation |
-
----
-
-## 6. Safety Invariants & Firewalls
-
-| ID | Firewall | Enforcement |
-|----|----------|-------------|
-| INV-LK-FW-001 | No Silent Contradiction Repair | Silent contradiction repair is blocked |
-| INV-LK-FW-002 | No Unsupported Classical Truth | Inferring classical truth from unsupported operators is blocked |
-| INV-LK-FW-003 | Fragment Boundary | Operations outside verified fragments are blocked |
-| INV-LK-FW-004 | Entailment Completeness | Entailment without premises + rule + fragment is blocked |
-| INV-LK-FW-005 | Mode Required | Operations without declared mode are blocked |
-
----
-
-## 7. Navigation & Bindings
-
-- **Parent MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
-- **Home:** [[00_ROOT/00_HOME|00_HOME]]
-- **Knowledge MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
-- **OS Integrated Agent Kernel:** [[11_KNOWLEDGE/kernel/AMOS_OS_INTEGRATED_AGENT_KERNEL|AMOS_OS_INTEGRATED_AGENT_KERNEL]]
-- **BizFin Kernel:** [[11_KNOWLEDGE/kernel/AMOS_BIZFIN_KERNEL_V0|AMOS_BIZFIN_KERNEL_V0]]
-- **Policy Design Kernel:** [[11_KNOWLEDGE/kernel/AMOS_POLICY_DESIGN_KERNEL_V0_GOVERNANCE_RISK|AMOS_POLICY_DESIGN_KERNEL_V0_GOVERNANCE_RISK]]
-- **Forex Packages UKR Kernel:** [[11_KNOWLEDGE/kernel/AMOS_FOREX_PACKAGES_UKR_RECURSIVE_KERNEL|AMOS_FOREX_PACKAGES_UKR_RECURSIVE_KERNEL]]
-- **Cognition Kernel:** [[11_KNOWLEDGE/kernel/COGNITION_KERNEL|COGNITION_KERNEL]]
-- **Cognition Engine:** [[11_KNOWLEDGE/engine/COGNITION_ENGINE_MODEL|COGNITION_ENGINE_MODEL]]
-- **Simulation Kernel:** [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL|AMOS_SIMULATION_KERNEL]]
-- **Core Laws:** [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|01_CORE_LAWS]]
-
----
-
-## 8. Known Gaps & Falsifiers
-
-| ID | Gap | Impact | Action |
-|----|-----|--------|--------|
-| GAP-LK-001 | Fragment coverage | Not all logical operators may be in verified fragments | Flag operations outside verified fragments |
-| GAP-LK-002 | Meta-logic semantics | Meta-logic operators may not have classical semantics | Flag meta-logic as non-classical |
-| GAP-LK-003 | Multi-mode interaction | Interactions between logic modes are not fully characterized | Flag cross-mode operations |
-| GAP-LK-004 | Paradox handling | PARADOX object semantics may be underspecified | Flag paradox states for manual review |
-
----
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] | [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] | [[11_KNOWLEDGE/kernel/AMOS_OS_INTEGRATED_AGENT_KERNEL|AMOS_OS_INTEGRATED_AGENT_KERNEL]] | [[11_KNOWLEDGE/kernel/AMOS_BIZFIN_KERNEL_V0|AMOS_BIZFIN_KERNEL_V0]] | [[11_KNOWLEDGE/kernel/AMOS_POLICY_DESIGN_KERNEL_V0_GOVERNANCE_RISK|AMOS_POLICY_DESIGN_KERNEL_V0_GOVERNANCE_RISK]] | [[11_KNOWLEDGE/kernel/AMOS_FOREX_PACKAGES_UKR_RECURSIVE_KERNEL|AMOS_FOREX_PACKAGES_UKR_RECURSIVE_KERNEL]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[02_KERNEL/DETERMINISTIC_LOGIC_KERNEL|02_KERNEL Logic Spec]] · [[11_KNOWLEDGE/kernel/COGNITION_KERNEL|COGNITION_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL|AMOS_SIMULATION_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_PROBABILITY_STATISTICS_KERNEL|AMOS_PROBABILITY_STATISTICS_KERNEL]]
 
 ______________________________________________________________________
 

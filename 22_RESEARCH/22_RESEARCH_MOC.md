@@ -1,93 +1,72 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: 22 Research MOC
-type: moc
-source: 22_RESEARCH
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 22 Research Moc
 tags:
-  - 22-research
-  - canon/research
-  - amos-home
-moc: true
-rscf:
-  state: DERIVED
-  claim_class: EMPIRICAL
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# 22_RESEARCH MOC — Formal Mathematics, SOTA Papers & Validation Hub
+# 22 Research — Map of Content
 
-**Origin Architect / Steward:** Trang Phan
-**AMOS_CORE Target:** `v4.4`
-**Epistemic Class:** `AMOS_MODEL`
+**Path:** `22_RESEARCH`
+**Role:** Research, empirical evidence synthesis, SOTA technical benchmarks, and competitive hypothesis evaluation within AMOS Full Brain OS.
 
----
+## 1. Master Research Syntheses & Frontier Benchmarks (SOTA 2026)
 
-## 1. Core Mathematical Registries
+### Frontier Tech & Brain-Computer Interfaces (BCI)
+- [[22_RESEARCH/FRONTIER_TECH_RESEARCH_MOC|Frontier Tech Research MOC]] — Master navigation hub for emerging technologies and deep scientific syntheses.
+- [[22_RESEARCH/SOTA_BCI_FOUNDATION_MODELS_NEURAL_INTERFACES_2026|SOTA BCI Foundation Models & Neural Interfaces 2026]] — Deep dive into EEG foundation models (DeeperBrain), speech neuroprosthetics (UC Berkeley/UCSF, BrainGate2), and real-time closed-loop neuromodulation.
+- [[22_RESEARCH/RSCF_BCI_SHI_TRANSDURAL_TELEMETRY_2026|RSCF BCI Shi Transdural Telemetry 2026]] — High-bandwidth, minimally invasive transdural neural telemetry interface and signal reconstruction.
+- [[22_RESEARCH/01_PAPERS/SOTA_BCI_AND_NEUROTECHNOLOGY_SYNTHESIS_2026|SOTA BCI & Neurotechnology Synthesis 2026]] — Neural manifold dynamics, EEG representations, and electrophysiological topologies.
 
-- [[22_RESEARCH/01_MATHEMATICS/AMOS_137_MATH_REGISTRY|AMOS_137_MATH_REGISTRY]] — **All 137 formal mathematical formulas (F001–F137)** across $\mathcal{I}$-confluence, singularity theory, fine-structure constant $\alpha$, quantum logic, epistemic entropy, and multi-agent integrated information $\Phi$.
-- [[22_RESEARCH/01_MATHEMATICS/AMOS_137_MATH_VERIFICATION_REPORT|AMOS_137_MATH_VERIFICATION_REPORT]] — **End-to-end formal proof & numerical execution ledger** validating all formula families with 100% convergence.
-- [[22_RESEARCH/01_MATHEMATICS/COSMO_HUMAN_PROBLEM_MATHEMATICAL_TOPOLOGY|COSMO_HUMAN_PROBLEM_MATHEMATICAL_TOPOLOGY]] — Persistent Homology filtration, Betti curves, and sheaf cohomology for human cognitive and social deadlock resolution.
-- [[22_RESEARCH/01_MATHEMATICS/SINGULARITY_AND_NON_PROPER_VALUES|SINGULARITY_AND_NON_PROPER_VALUES]] — Non-proper value sets (Jelonek set $S_f$), bifurcation sets, and topological singularity invariants.
-- [[22_RESEARCH/01_MATHEMATICS/TOPOLOGICAL_QUANTUM_ORDER_AND_SPECTRAL_GAPS|TOPOLOGICAL_QUANTUM_ORDER_AND_SPECTRAL_GAPS]] — Local Topological Quantum Order (LTQO) invariants and spectral gap stability.
+### Quantum Computing & Fault-Tolerant Architectures
+- [[22_RESEARCH/SOTA_QUANTUM_ERROR_CORRECTION_BREAKTHROUGHS_2026|SOTA Quantum Error Correction Breakthroughs 2026]] — Logical qubit scaling, bivariate bicycle LDPC codes, neutral atom arrays (Harvard/QuEra), and fault-tolerant thresholds.
+- [[22_RESEARCH/01_PAPERS/SOTA_QUANTUM_COMPUTING_AND_ADVANTAGE_BENCHMARKS_2026|SOTA Quantum Computing, QML & Advantage Benchmarks 2026]] — Hardware landscape, quantum advantage scrutiny, and empirical baseline comparisons.
 
----
+### Frontier AI, Cognitive Architectures & World Models
+- [[22_RESEARCH/SOTA_AGENTIC_AI_MULTI_AGENT_SYSTEMS_2026|SOTA Agentic AI & Multi-Agent Systems 2026]] — Multi-agent consensus, hierarchical delegation, and reflection loops.
+- [[22_RESEARCH/01_PAPERS/SOTA_FOUNDATION_AGENTS_AND_COGNITIVE_ARCHITECTURES_2026|SOTA Foundation Agents & Cognitive Architectures Synthesis 2026]] — Test-time compute scaling, tree-search orchestration, and active inference.
+- [[22_RESEARCH/SOTA_AI_SAFETY_ALIGNMENT_FRONTIER_RISK_2026|SOTA AI Safety, Alignment & Frontier Risk 2026]] — Mechanistic interpretability (SAE), constitutional self-governance, and catastrophic risk mitigation.
+- [[22_RESEARCH/SOTA_WORLD_MODELS_GENERATIVE_SIMULATION_2026|SOTA World Models & Generative Physical Simulation 2026]] — Physical simulation, predictive dynamics, and action-conditioned world modeling.
+- [[22_RESEARCH/SOTA_NEUROMORPHIC_PHOTONIC_COMPUTING_2026|SOTA Neuromorphic & Photonic Computing 2026]] — Analog photonic tensor accelerators, spiking neural substrates, and sub-nanosecond inference.
 
-## 2. SOTA Research Syntheses & Monographs
+### Cross-Vault Bridges & Governance Contracts
+- [[22_RESEARCH/AMOS_FRONTIER_RESEARCH_BRIDGE_2026-09-04|AMOS Frontier Research Bridge]] — Epistemic mapping connecting AMOS Full OS architecture with external literature.
+- [[22_RESEARCH/AMOS_SOTA_RESEARCH_SYNTHESIS_2025_2026|AMOS SOTA Research Synthesis 2025–2026]] — Unified multi-domain state-of-the-art compendium.
+- [[22_RESEARCH/FRONTIER_EVIDENCE_MATURITY_AND_PROMOTION_CONTRACT|Frontier Evidence Maturity & Promotion Contract]] — Verification gates from external preprint to canonical model.
+- [[22_RESEARCH/AGENT_SKILLS_WORKFLOWS_SOTA_2026-09-04|Agent Skills & Workflows SOTA Review]] — Analysis of modern skill-directed agent design patterns.
+- [[22_RESEARCH/SOTA_AGENT_TOOLING_REPOS|SOTA Agent Tooling Repositories]] — Ecosystem survey of agentic runtimes and tool protocols.
 
-### Brain-Computer Interfaces & Bio-Computing
-- [[22_RESEARCH/01_PAPERS/SOTA_DIFFUSION_SCHRODINGER_BRIDGES_AND_OPTIMAL_TRANSPORT_BCI_2026|SOTA_DIFFUSION_SCHRODINGER_BRIDGES_AND_OPTIMAL_TRANSPORT_BCI_2026]] — **2026 SOTA Research Paper** on Diffusion Schrödinger Bridges and Entropic Optimal Transport for zero-shot cross-subject neural decoding.
-- [[22_RESEARCH/01_PAPERS/SOTA_HOLOGRAPHIC_BCI_BRAIN_MACHINE_CO_ADAPTATION_2026|SOTA_HOLOGRAPHIC_BCI_BRAIN_MACHINE_CO_ADAPTATION_2026]] — **2026 SOTA Research Paper** on 10,000-cell two-photon optogenetics and dual-optimization co-adaptation.
-- [[22_RESEARCH/01_PAPERS/SOTA_MEMRISTIVE_NEUROMORPHIC_SPIKING_AND_DENDRITIC_COMPUTATION_2026|SOTA_MEMRISTIVE_NEUROMORPHIC_SPIKING_AND_DENDRITIC_COMPUTATION_2026]] — **2026 SOTA Research Paper** on second-order memristor crossbars and non-linear multi-compartmental dendritic computation.
-- [[22_RESEARCH/01_PAPERS/SOTA_NEUROMORPHIC_OPTOGENETICS_AND_PHOTONIC_BCI_2026|SOTA_NEUROMORPHIC_OPTOGENETICS_AND_PHOTONIC_BCI_2026]] — **2026 Deep Research Monograph** on two-photon holographic optogenetics, NIR-GEVIs, MZI silicon photonic meshes, and sub-2.5ms closed-loop deconvolution.
-- [[22_RESEARCH/01_PAPERS/SOTA_SYNTHETIC_BIO_MEMBRANE_COMPUTING_AND_DNA_STRAND_DISPLACEMENT_2026|SOTA_SYNTHETIC_BIO_MEMBRANE_COMPUTING_AND_DNA_STRAND_DISPLACEMENT_2026]] — **2026 SOTA Research Paper** on Membrane P Systems, Chemical Reaction Networks (CRNs), and leak-less toehold-mediated DNA strand displacement.
-- [[10_MEMORY/SPINTRONIC_DOMAIN_WALL_AND_NEUROMORPHIC_CROSSBAR_MONOGRAPH|SPINTRONIC_DOMAIN_WALL_AND_NEUROMORPHIC_CROSSBAR_MONOGRAPH]] — **2026 Formal Research Monograph** on Spintronic Domain Wall Racetrack Memories, SOT-MRAM, LLGS dynamics, and dense analog neuromorphic memristive crossbars.
+- [[22_RESEARCH/01_PAPERS/ARXIV_BRIDGE_2026_CODING_MULTIMODAL_EMBODIED_QUANTUM_SENSING|ArXiv Bridge 2026 — Coding, Multimodal, Embodied, Quantum Sensing]] — 20-paper cross-domain SOTA bridge (AI coding agents, multimodal video, embodied robotics, quantum sensing) mapped to AMOS planes/skills.
+### Fresh arXiv sweep (2026-09-04)
+- [[22_RESEARCH/01_PAPERS/SOTA_DIGEST_BCI_AI_QUANTUM_2026-09-04|SOTA Digest — BCI / AI / Quantum / Photonic (2026-09-04)]] — 15 recent arXiv preprints compiled into AMOS cross-plane relevance map.
+## 2. Research Plane Subdirectories
 
-### Quantum Information & Physics
-- [[22_RESEARCH/01_PAPERS/SOTA_GKP_BOSONIC_CODES_AND_CONTINUOUS_VARIABLE_QUANTUM_COMPUTING_2026|SOTA_GKP_BOSONIC_CODES_AND_CONTINUOUS_VARIABLE_QUANTUM_COMPUTING_2026]] — **2026 SOTA Research Paper** on continuous-variable GKP grid states, homodyne feedback, and bosonic error correction.
-- [[22_RESEARCH/01_PAPERS/SOTA_NON_ABELIAN_ANYONS_AND_TOPOLOGICAL_QUANTUM_COMPUTING_2026|SOTA_NON_ABELIAN_ANYONS_AND_TOPOLOGICAL_QUANTUM_COMPUTING_2026]] — **2026 SOTA Research Paper** on Fibonacci anyon braiding ($SU(2)_3$), Majorana Zero Modes (MZMs), and fault-tolerant topological quantum architectures.
-- [[22_RESEARCH/01_PAPERS/SOTA_FAULT_TOLERANT_QUANTUM_SURFACE_CODES_AND_QKD_2026|SOTA_FAULT_TOLERANT_QUANTUM_SURFACE_CODES_AND_QKD_2026]] — **2026 SOTA Research Paper** on distance-7 rotated planar surface code lattices, real-time FPGA MWPM syndrome decoding, and CV-QKD.
-- [[22_RESEARCH/01_PAPERS/SOTA_QUANTUM_TENSOR_NETWORKS_MPS_TTN_LLM_COMPRESSION_2026|SOTA_QUANTUM_TENSOR_NETWORKS_MPS_TTN_LLM_COMPRESSION_2026]] — **2026 SOTA Research Paper** on Matrix Product States (MPS) and Tree Tensor Networks (TTN) for ultra-low-rank LLM belief manifold compression.
-- [[22_RESEARCH/01_PAPERS/SOTA_QUANTUM_COMPUTING_NEURAL_DECODING_2026|SOTA_QUANTUM_COMPUTING_NEURAL_DECODING_2026]] — Neutral-atom Rydberg tweezer arrays, topological surface code syndrome decoders, and continuous-variable Gaussian cluster states.
+- [[22_RESEARCH/01_PAPERS/01_PAPERS_MOC|01_PAPERS_MOC]] — Academic papers registry, external evidence intake, and theoretical literature.
+- [[22_RESEARCH/02_ARXIV_BRIDGES.md|02_ARXIV_BRIDGES]] — arXiv ingestion protocol, research-to-canon pipeline, quantum/BCI/AI frontier tracking, and cross-plane linkage to 11_KNOWLEDGE and 25_COGNITIVE_MATRIX.
+- [[22_RESEARCH/01_MATHEMATICS/01_MATHEMATICS_MOC|01_MATHEMATICS_MOC]] — Mathematical proofs, category theory, and non-commutative geometry.
+- [[22_RESEARCH/02_EXPERIMENTS/02_EXPERIMENTS_MOC|02_EXPERIMENTS_MOC]] — Empirical trial protocols and reproducibility logs.
+- [[22_RESEARCH/03_COMPETING_MODELS/03_COMPETING_MODELS_MOC|03_COMPETING_MODELS_MOC]] — Competing hypotheses and discriminating test designs.
+- [[22_RESEARCH/04_VALIDATION/04_VALIDATION_MOC|04_VALIDATION_MOC]] — Falsification suites, theorem verification, and robustness receipts.
+- [[22_RESEARCH/05_BENCHMARKS/05_BENCHMARKS_MOC|05_BENCHMARKS_MOC]] — Comparative performance baselines and ablation studies.
 
-### Causal, Geometric & Multi-Agent Swarm AI
-- [[22_RESEARCH/01_PAPERS/SOTA_CAUSAL_DISCOVERY_AND_COUNTERFACTUAL_INFERENCE_IN_AGENTIC_AI_2026|SOTA_CAUSAL_DISCOVERY_AND_COUNTERFACTUAL_INFERENCE_IN_AGENTIC_AI_2026]] — **2026 SOTA Research Paper** on algebraic acyclicity DAG discovery, Structural Causal Models, and counterfactual world models.
-- [[22_RESEARCH/01_PAPERS/SOTA_ACTIVE_INFERENCE_THERMODYNAMICS_FLOW_MATCHING_2026|SOTA_ACTIVE_INFERENCE_THERMODYNAMICS_FLOW_MATCHING_2026]] — **2026 SOTA Research Paper** on Friston Free Energy Principle, non-equilibrium stochastic thermodynamics, and continuous-time Riemannian Flow Matching.
-- [[22_RESEARCH/01_PAPERS/SOTA_GEOMETRIC_CLIFFORD_NEURAL_NETWORKS_AND_SPATIAL_BCI_2026|SOTA_GEOMETRIC_CLIFFORD_NEURAL_NETWORKS_AND_SPATIAL_BCI_2026]] — **2026 SOTA Research Paper** on Cl(3,1) multivector neural networks, SE(3) equivariance, and 6-DOF holographic BCI motor trajectory decoding.
-- [[22_RESEARCH/01_PAPERS/SOTA_HYPERBOLIC_KNOWLEDGE_EMBEDDINGS_POINCARE_LORENTZ_2026|SOTA_HYPERBOLIC_KNOWLEDGE_EMBEDDINGS_POINCARE_LORENTZ_2026]] — **2026 SOTA Research Paper** on Poincaré ball and Lorentz manifold hyperbolic knowledge graph embeddings.
-- [[22_RESEARCH/01_PAPERS/SOTA_ZERO_KNOWLEDGE_EPISTEMIC_PROOFS_FOR_MULTI_AGENT_SWARMS_2026|SOTA_ZERO_KNOWLEDGE_EPISTEMIC_PROOFS_FOR_MULTI_AGENT_SWARMS_2026]] — **2026 SOTA Research Paper** on Halo2 recursive zero-knowledge epistemic verification for multi-agent swarms.
-- [[22_RESEARCH/01_PAPERS/SOTA_BCI_AI_QUANTUM_SYNTHESIS_2026|SOTA_BCI_AI_QUANTUM_SYNTHESIS_2026]] — Integrated master synthesis across Photonic BCI, Spintronics, Neural World Models, and Lattice Post-Quantum Cryptography.
+## 3. Plane Contracts & Architecture
 
-### Applied & Topological Foundations
-- [[22_RESEARCH/01_PAPERS/TOPOLOGICAL_DATA_ANALYSIS_MAPPER_AND_BETTI_CURVES|TOPOLOGICAL_DATA_ANALYSIS_MAPPER_AND_BETTI_CURVES]] — **2026 SOTA Research Paper** on Persistent Homology, Vietoris-Rips simplicial filtration, and Betti curve tracking ($\beta_0, \beta_1$) for cosmic web manifolds.
-- [[22_RESEARCH/01_PAPERS/TDA_BETTI_COSMO_EXECUTION_LEDGER|TDA_BETTI_COSMO_EXECUTION_LEDGER]] — Cosmic web persistent homology filtration ledger, Betti numbers, and cryptographic proof receipts.
-- [[22_RESEARCH/01_PAPERS/NEURO_SYMBOLIC_THEORETICAL_AND_PHOTONIC_COMPUTING_2026|NEURO_SYMBOLIC_THEORETICAL_AND_PHOTONIC_COMPUTING_2026]] — Lean 4 formal auto-formalization, Mach-Zehnder optical matrix processors, and OPM-MEG biomagnetism.
-- [[22_RESEARCH/01_PAPERS/01_PAPERS_MOC|01_PAPERS_MOC]] — Academic paper and external evidence registry.
+- [[22_RESEARCH/RESEARCH_RESEARCH_CONTRACT|Research Plane Contract]] — Epistemic boundaries, evidence standards, and anti-overclaim firewalls.
+- [[22_RESEARCH/RESEARCH_README|Research Plane Architecture README]] — Operational guidelines for scientific inquiry.
 
----
+______________________________________________________________________
 
-## 3. Experimental Validation & Benchmarks
-
-- [[22_RESEARCH/02_EXPERIMENTS/02_EXPERIMENTS_MOC|02_EXPERIMENTS_MOC]] — Empirical experiment logs, protocol specifications, and telemetry records.
-- [[22_RESEARCH/03_COMPETING_MODELS/03_COMPETING_MODELS_MOC|03_COMPETING_MODELS_MOC]] — Competing model falsification ledger and hypothesis registry.
-- [[22_RESEARCH/04_VALIDATION/04_VALIDATION_MOC|04_VALIDATION_MOC]] — Canon source claim audits, cross-framework validation, and empirical status tables.
-- [[22_RESEARCH/05_BENCHMARKS/05_BENCHMARKS_MOC|05_BENCHMARKS_MOC]] — Benchmark suites, Putnam mathematical test sets, and performance baselines.
-
----
-
-## 4. Governance Invariants
-
-```text
-EMPIRICAL_BREAKTHROUGH != PRODUCTION_COMMIT
-THEORETICAL_MODEL != GROUND_TRUTH
-TEST_SPECIFIED != TEST_EXECUTED
-```
-
----
-
-## 5. Parent Navigation
-
-- **Master Navigation Hub:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
-- **Full OS Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]
+**Parent:** [[AMOS_HOME|AMOS_HOME]] · [[_MOC|_MOC]]

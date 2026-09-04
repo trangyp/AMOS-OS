@@ -1,30 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: GENERATOR REGISTRY
-type: note
-source: 25_COGNITIVE_MATRIX/12_GENERATORS
-rscf:
-  state: SOURCE_CLAIM
-  class: STRUCTURAL
-  provenance:
-    - internal
-  freshness: EVERGREEN
-  falsifiers: []
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Generator Registry
 tags:
-  - note
-  - 12-generators
-  - readme
-  - generator-output
-  - generator-falsification
-  - generator-promotion
-  - task-resolver
-  - capability-resolver
-  - mode-admission-queue
-  - mode-coverage-matrix
-  - mode-dependency-graph
-canon-group: canon/cognitive-matrix
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 ## ---title: "GENERATOR REGISTRY" type: document tags: [note]
@@ -2755,7 +2746,7 @@ It does not invent completion.
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

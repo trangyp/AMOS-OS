@@ -1,44 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: "Human Systems Engine Vietnam — Full 4,412KB PDF (2,819 lines, 0 GAP)"
-type: engine
-source: 11_KNOWLEDGE/engine
-created: '2026-08-22'
-origin: Google Drive — _00_AMOS_CANON/_Archive/Human_Systems_Engine_(HSE)_VN.pdf
-origin_type: SOURCE
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Human Systems Engine Vietnam Full Hse Vn
 tags:
-  - amos
-  - hse
-  - vietnam
-  - human-systems-engine
-  - archetype
-  - cycle
-  - risk
-  - politic
-  - 63-provinces
-  - 27-archetypes
-  - 16-factors
-  - 7-cycles
-  - 4-human-types
-  - 33-tech-roles
-  - 4-power-layers
-  - 5-policy-layers
-  - MECE
-  - deterministic
-  - AI-ready
-  - engine
-  - canon/knowledge
-  - system-scan-agent
-  - automation-profiles
-  - amos-simulation-kernel-v0-math-foundations
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: AMOS_MODEL
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: engine_specification
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Human Systems Engine™ VN (HSE VN) — Complete Deterministic Model

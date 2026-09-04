@@ -1,20 +1,21 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Karpathy LLM Wiki Gist
-type: raw
-source: 11_KNOWLEDGE/LLM_WIKI/raw
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Karpathy Llm Wiki Gist
 tags:
-  - raw
-  - source
-  - llm-wiki
-  - karpathy-llm-wiki-summary
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
-  scope: AMOS_knowledge
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Karpathy LLM Wiki Gist (Raw)

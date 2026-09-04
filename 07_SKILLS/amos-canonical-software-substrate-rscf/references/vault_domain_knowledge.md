@@ -1,24 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: Vault Domain Knowledge — Amos Canonical Software Substrate Rscf
-type: reference
-source: 07_SKILLS/amos-canonical-software-substrate-rscf/references
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Vault Domain Knowledge
 tags:
-  - reference
-  - amos-canonical-software-substrate-rscf
-  - type/skill
-  - 2026-08-22-amos-obsidian-memory-bridge
-  - law-hierarchy
-  - 2026-08-22-cognitive-substrate-reality-gate
-  - 2026-08-22-cognitive-substrate-reasoning-graph
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # Vault-Sourced Domain Knowledge

@@ -1,24 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: P7 EVOLUTION LEARNING
-type: note
-source: 01_CANON/02_UNIVERSE_CANON
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: P7 Evolution Learning
 tags:
-  - note
-  - canon/universe
-  - p1-reality-environment
-  - p2-sense-evidence
-  - p3-knowledge-memory
-  - p4-cognition-models
-  - p5-governance-authority
-  - p6-execution-agency
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: universe_canon
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # P7 Evolution / Learning
@@ -4695,7 +4687,7 @@ UNBOUNDED SELF-REDEFINITION.
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

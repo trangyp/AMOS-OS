@@ -1,199 +1,200 @@
 ---
-title: amos-control-systems-kernel
-created: '2026-08-22'
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-type: bridge
-source: 11_KNOWLEDGE/kernel
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Control Systems Kernel
 tags:
-  - canon-group/human-system
-  - canon/framework
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
-  - rscf/state/observation
-  - topic/amos-control-systems-kernel
-  - kernel
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-canonical_status: CANONICAL_KERNEL
-updated: 2026-09-04
-provenance: SOURCE_CLAIM
-confidence: VERIFIED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Control Systems Kernel
 
-> **Origin Architect / Steward:** Trang Phan
-> **Epistemic Class:** `AMOS_MODEL`
-> **Conclusion Class:** `DERIVED`
-> **Status:** `ACTIVE_SPECIFICATION`
-> **Governing Plane:** `11_KNOWLEDGE/kernel`
-
-> Bridge note -- resolves the `amos-control-systems-kernel` link from the Cosmo Brain MOC / daily notes to the real skill in the vault.
-> **Location:** `.devin/skills/amos-control-systems-kernel`
+> [!abstract] Kernel Specification
+> Defines the feedback/feedforward control architecture for AMOS: PID and optimal control models, stability criteria, invariant enforcement (M10, M12, M20), and the enforcement pipeline. This is the AMOS reasoning/spec pattern for control systems — **not** a claim that AMOS OS executes PID control loops in a deployed runtime (per AGENTS.md invariant 4).
 
 ---
 
-## 1. Architectural Scope
+## 1. Purpose
 
-The **AMOS Control Systems Kernel** defines the core algorithms, data structures, and computational guarantees for control-theoretic operations within the AMOS OS. It provides feedback loop management, stability analysis, setpoint tracking, disturbance rejection, and control surface allocation.
+The Control Systems Kernel provides:
 
-This kernel exists to provide the **mathematical foundation** for all control-plane operations, ensuring that system behavior remains bounded, stable, and responsive under perturbation. It implements classical (PID, LQR), modern (state-space, observer-based), and adaptive control strategies.
+- A formal control-theoretic framework for governing AMOS system behavior
+- Feedback and feedforward control loops for error correction and anticipatory action
+- PID (Proportional-Integral-Derivative) control model for continuous adjustment
+- Stability analysis and enforcement of system invariants
+- Authority enforcement via M10 (tool access ≠ permission) and M12 (capability ≠ authority)
 
-**Epistemic Boundary:**
+This kernel bridges the gap between AMOS's logical inference layer and its operational enforcement mechanisms.
+
+---
+
+## 2. Control Loop Architecture
+
+### 2.1 Feedback Control Loop
+
+A standard feedback loop for AMOS system regulation:
+
+$$u(t) = K_p \cdot e(t) + K_i \cdot \int_0^t e(\tau) \, d\tau + K_d \cdot \frac{de(t)}{dt}$$
+
+where:
+
+| Parameter | Symbol | Role |
+| :--- | :--- | :--- |
+| **Error signal** | $e(t) = r(t) - y(t)$ | Difference between desired state $r(t)$ and observed state $y(t)$ |
+| **Proportional gain** | $K_p$ | Responsive to current error magnitude |
+| **Integral gain** | $K_i$ | Corrects accumulated steady-state error |
+| **Derivative gain** | $K_d$ | Dampens oscillation by predicting error trajectory |
+| **Control signal** | $u(t)$ | Action applied to the system |
+
+### 2.2 Feedforward Control
+
+When the disturbance is measurable, feedforward control anticipates and pre-compensates:
+
+$$u_{ff}(t) = G_d^{-1} \cdot d(t)$$
+
+where $G_d$ is the disturbance transfer function and $d(t)$ is the measured disturbance. In AMOS terms, this corresponds to anticipatory governance actions (e.g., preemptively revoking tool access when an anomaly pattern is detected).
+
+### 2.3 Combined Architecture
+
+The combined control signal is:
+
+$$u(t) = u_{fb}(t) + u_{ff}(t)$$
+
+where $u_{fb}$ is the PID feedback term and $u_{ff}$ is the feedforward term.
+
+---
+
+## 3. Stability Analysis
+
+### 3.1 Stability Criteria
+
+A control loop is stable if $\lim_{t \to \infty} e(t) = 0$ for all bounded inputs. In discrete AMOS contexts: $\|e_{k+1}\| \leq \rho \cdot \|e_k\|$, where $0 < \rho < 1$.
+
+### 3.2 Lyapunov Stability Function
+
+A Lyapunov function $V(x)$ satisfies $V(x) > 0 \;\forall x \neq 0$, $V(0) = 0$, and $\dot{V}(x) \leq 0 \;\forall x$. For AMOS, $x$ represents the system state vector and $V(x)$ measures deviation from desired invariant configuration.
+
+### 3.3 Gain and Phase Margins
+
+Gain margin $\geq 6$ dB and phase margin $\geq 30°$ are enforced as invariants.
+
+---
+
+## 4. PID Control Model for AMOS
+
+### 4.1 Proportional Term — Immediate Error Response
+
+$$P(t) = K_p \cdot e(t)$$
+
+Applied when: An observed state deviates from the expected state. Example: tool usage exceeds authorized scope → proportional revocation of the specific permission.
+
+### 4.2 Integral Term — Accumulated Correction
+
+$$I(t) = K_i \cdot \int_0^t e(\tau) \, d\tau$$
+
+Applied when: Small persistent errors accumulate over time. Example: repeated small authority violations across epochs → escalating response proportional to accumulated violation history.
+
+### 4.3 Derivative Term — Predictive Damping
+
+$$D(t) = K_d \cdot \frac{de(t)}{dt}$$
+
+Applied when: Error is changing rapidly. Example: sudden spike in anomaly detections → proactive throttling before the proportional response can over-correct.
+
+### 4.4 Anti-Windup
+
+Integral windup occurs when the integrator accumulates error during saturation. Anti-windup clamps:
+
+$$I_{clamped}(t) = \max\left(I_{\min}, \min\left(I(t), I_{\max}\right)\right)$$
+
+In AMOS terms: the integral term is bounded to prevent disproportionate escalation from historical violations.
+
+---
+
+## 5. Invariant Enforcement
+
+### 5.1 M10 Enforcement: Tool Access ≠ Tool Permission
+
+$$\text{ACCESS}(a, t) \not\Rightarrow \text{PERMISSION}(a, t)$$
+
+Every tool invocation passes through an authorization gate that checks the current permission state independently of the access state.
+
+### 5.2 M12 Enforcement: Capability ≠ Authority
+
+$$\text{CAPABILITY}(a, t) \not\Rightarrow \text{AUTHORITY}(a, t)$$
+
+Authority grants are tracked in a separate registry from capability declarations. Both must be checked at commit time.
+
+### 5.3 M20 Enforcement: Irreversible Actions Require Stronger Governance
+
+Irreversible actions require elevated authority thresholds:
+
+$$\text{IRREVERSIBLE}(a) \Rightarrow \text{AUTHORITY}(a) \geq \text{THRESHOLD}_{\text{high}}$$
+
+The control kernel flags irreversible actions and routes them through a higher-authority approval path.
+
+---
+
+## 6. Control Pipeline
+
+The control pipeline: (1) compute error $e(t) = r(t) - y(t)$, (2) compute PID signal $u_{fb}(t)$, (3) inject feedforward $u_{ff}(t)$ if disturbance measurable, (4) invariant gate (M10, M12, M20), (5) stability check (gain/phase margin), (6) apply control action $u(t)$.
+
+---
+
+## 7. Failure Modes
+
+| Failure | Detection | Recovery |
+| :--- | :--- | :--- |
+| Integral windup | $I(t) > I_{\max}$ | Clamp integrator; reset accumulated error |
+| Oscillation | $\|e_{k+1}\| / \|e_k\| > 1$ for $n$ consecutive epochs | Reduce $K_p$; increase $K_d$; alert control plane |
+| Authority bypass | M10/M12 check fails at gate | Reject action; escalate to higher authority |
+| Feedforward error | $u_{ff}$ increases rather than reduces $e(t)$ | Disable feedforward; revert to feedback-only mode |
+| Stability violation | Phase margin < $30°$ or gain margin < $6$ dB | Reduce loop gain; trigger safe-mode degradation |
+
+---
+
+## 8. Integration Points
+
+| Interface | Direction | Contract |
+| :--- | :--- | :--- |
+| [[03_CONTROL_PLANE\|CONTROL_PLANE]] | Read/Write | Authority grants, invariant definitions, escalation paths |
+| [[11_KNOWLEDGE/kernel/LOGIC_KERNEL\|LOGIC_KERNEL]] | Read | Logical invariants enforced as control constraints |
+| [[11_KNOWLEDGE/kernel/COGNITION_KERNEL\|COGNITION_KERNEL]] | Write | Control signals for attention shifts and priority |
+| [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL\|AMOS_SIMULATION_KERNEL]] | Read | Simulated system states used for feedforward computation |
+| [[01_CANON/01_CORE_LAWS\|AMOS_CORE_LAWS]] | Read | M10, M12, M20 invariant definitions |
+
+---
+
+```RSCF-NODE
+node_id: control_systems_kernel_knowledge_spec
+node_type: kernel_specification
+domain: 11_KNOWLEDGE/kernel
+claim_class: AMOS_MODEL
+confidence_ceiling:
+  pid_control_model: high
+  stability_analysis: high
+  m10_m12_enforcement: high
+  m20_enforcement: high
+falsifiers:
+  - Control loop enters sustained oscillation undetected
+  - M10 or M12 enforcement bypassed at commit gate
+  - Integral windup causes disproportionate escalation
 ```
-MODEL != OBSERVATION
-DOCUMENTED != IMPLEMENTED
-CAPABILITY != AUTHORITY
-CONTROL_DESIGN != CONTROL_DEPLOYMENT
-STABILITY_ANALYSIS != STABILITY_GUARANTEE
-```
-
-**Core Data Structures:**
-- `ControlState{setpoint, measured, error, integral, derivative, output}`
-- `ControlLoop{loop_id, plant_model, controller, observer, stability_margin}`
-- `StabilityCertificate{loop_id, gain_margin, phase_margin, lyapunov_function}`
-
-**Core Algorithms:**
-- PID control with anti-windup
-- LQR (Linear Quadratic Regulator) optimal control
-- State-space observer (Luenberger/Kalman)
-- Lyapunov stability analysis
-- Adaptive control with parameter estimation
-
-**Inputs:** `CONTROL_INPUT{setpoint, measured_state, disturbance, constraints}`
-**Outputs:** `CONTROL_OUTPUT{control_signal, stability_report, error_metrics, adaptation_delta}`
-
-**Computational Guarantees:** Bounded-input bounded-output (BIBO) stability under specified conditions, deterministic convergence for linear plants, bounded tracking error for adaptive modes.
-
----
-
-## 2. Governing Invariants
-
-| ID | Invariant | Description |
-|----|-----------|-------------|
-| INV-CS-001 | BIBO Stability | For bounded inputs, the controlled system must produce bounded outputs |
-| INV-CS-002 | Error Boundedness | Tracking error must remain within declared bounds under specified disturbance profiles |
-| INV-CS-003 | Anti-Windup Enforcement | Integral terms must be clamped to prevent windup under saturation |
-| INV-CS-004 | Stability Margin Preservation | Gain and phase margins must remain above minimum thresholds |
-| INV-CS-005 | Observer Convergence | State observers must converge to true state under observability conditions |
-| INV-CS-006 | Control Surface Allocation | Control signals must respect actuator limits and allocation constraints |
-| INV-CS-007 | Lyapunov Decrease | For stable modes, a Lyapunov function must exhibit strict decrease |
-
----
-
-## 3. Mathematical Formulation
-
-**PID control law:**
-
-$$u(t) = K_p e(t) + K_i \int_0^t e(\tau) d\tau + K_d \frac{de(t)}{dt}$$
-
-**LQR optimal control:**
-
-$$u^*(t) = -K x(t), \quad K = R^{-1} B^T P$$
-
-where $P$ solves the algebraic Riccati equation:
-
-$$A^T P + PA - PBR^{-1}B^T P + Q = 0$$
-
-**Lyapunov stability condition:**
-
-$$V(x) > 0, \quad \dot{V}(x) < 0 \quad \forall x \neq 0$$
-
-**Stability margins:**
-
-$$G_m = \frac{1}{|L(j\omega_{\pi})|}, \quad \phi_m = \pi + \angle L(j\omega_g)$$
-
-where $L$ is the open-loop transfer function, $\omega_\pi$ is the phase crossover, and $\omega_g$ is the gain crossover.
-
-**Kalman filter update:**
-
-$$\hat{x}_{k|k} = \hat{x}_{k|k-1} + K_k(y_k - H\hat{x}_{k|k-1})$$
-
----
-
-## 4. Architecture
-
-```mermaid
-graph TD
-    A[Setpoint] --> B[Error Computation]
-    C[Measured State] --> B
-    B --> D[Controller: PID/LQR/Adaptive]
-    D --> E[Control Signal]
-    E --> F[Plant]
-    F --> C
-    F --> G[Observer: Luenberger/Kalman]
-    G --> H[Estimated State]
-    H --> D
-    D --> I[Stability Analysis]
-    I --> J[Stability Certificate]
-    E --> K[Anti-Windup Clamp]
-    K --> E
-```
-
----
-
-## 5. MECE Mapping to AMOS Full Brain OS
-
-| Kernel Component | AMOS Plane | Role |
-|------------------|------------|------|
-| Error Computation | `03_CONTROL_PLANE` | Control error routing |
-| Controller (PID/LQR) | `04_RUNTIME` | Control signal generation |
-| Plant Interface | `12_STATE` | State interaction |
-| Observer | `17_OBSERVABILITY` | State estimation |
-| Stability Analysis | `17_OBSERVABILITY` | Stability monitoring |
-| Anti-Windup | `03_CONTROL_PLANE` | Safety clamp |
-| Adaptation Delta | `13_MODELS` | Model adaptation |
-| Stability Certificate | `16_SCHEMAS` | Certificate schema |
-
----
-
-## 6. Safety Invariants & Firewalls
-
-| ID | Firewall | Enforcement |
-|----|----------|-------------|
-| INV-CS-FW-001 | Stability Margin Floor | Control loops below minimum margin are flagged and degraded |
-| INV-CS-FW-002 | Anti-Windup Mandatory | Controllers without anti-windup are rejected |
-| INV-CS-FW-003 | Actuator Limit Enforcement | Control signals exceeding actuator limits are clamped |
-| INV-CS-FW-004 | Observer Divergence Detection | Divergent observers trigger fail-safe mode |
-| INV-CS-FW-005 | Lyapunov Violation Alert | Violation of Lyapunov decrease triggers stability alert |
-
----
-
-## 7. Navigation & Bindings
-
-- **Parent MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
-- **Knowledge MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
-- **Home:** [[00_ROOT/00_HOME|00_HOME]]
-- **BizFin Kernel:** [[11_KNOWLEDGE/kernel/AMOS_BIZFIN_KERNEL_V0|AMOS_BIZFIN_KERNEL_V0]]
-- **Revenue Architecture Kernel:** [[11_KNOWLEDGE/kernel/AMOS_REVENUE_ARCHITECTURE_KERNEL|AMOS_REVENUE_ARCHITECTURE_KERNEL]]
-- **Psychology Decision Kernel:** [[11_KNOWLEDGE/kernel/AMOS_PSYCHOLOGY_DECISION_KERNEL|AMOS_PSYCHOLOGY_DECISION_KERNEL]]
-- **Simulation Kernel:** [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL|AMOS_SIMULATION_KERNEL]]
-- **Constraint Engine:** [[11_KNOWLEDGE/engine/CONSTRAINT_ENGINE|CONSTRAINT_ENGINE]]
-- **Core Laws:** [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|01_CORE_LAWS]]
-
----
-
-## 8. Known Gaps & Falsifiers
-
-| ID | Gap | Impact | Action |
-|----|-----|--------|--------|
-| GAP-CS-001 | Nonlinear plant coverage | Classical control assumes linear plants | Flag nonlinear plants for adaptive mode |
-| GAP-CS-002 | Disturbance model accuracy | Disturbance profiles are estimated | Flag disturbance rejection as bounded, not guaranteed |
-| GAP-CS-003 | Observer observability | Observers require full observability | Flag partially observable systems |
-| GAP-CS-004 | Adaptive convergence rate | Adaptive control convergence depends on excitation | Flag insufficient excitation conditions |
-
----
-
-**Related:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] | [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] | [[11_KNOWLEDGE/kernel/AMOS_BIZFIN_KERNEL_V0|AMOS_BIZFIN_KERNEL_V0]] | [[11_KNOWLEDGE/kernel/AMOS_REVENUE_ARCHITECTURE_KERNEL|AMOS_REVENUE_ARCHITECTURE_KERNEL]] | [[11_KNOWLEDGE/kernel/AMOS_PSYCHOLOGY_DECISION_KERNEL|AMOS_PSYCHOLOGY_DECISION_KERNEL]]
 
 ______________________________________________________________________
 
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] | [[00_ROOT/00_HOME|00_HOME]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[03_CONTROL_PLANE|CONTROL_PLANE]] · [[11_KNOWLEDGE/kernel/LOGIC_KERNEL|LOGIC_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL|AMOS_SIMULATION_KERNEL]]
+
+______________________________________________________________________
+
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

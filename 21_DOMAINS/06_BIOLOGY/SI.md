@@ -1,63 +1,21 @@
 ---
-title: Somatic Intelligence (SI) Domain Engine
-type: domain
-source: 21_DOMAINS/06_BIOLOGY
-artifact: SI.md
-artifact_id: amos_21_domains_06_biology_si
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 21_DOMAINS
-segment: 21_DOMAINS/06_BIOLOGY
-artifact_kind: DOMAIN_ENGINE
-path: 21_DOMAINS/06_BIOLOGY/SI.md
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Si
 tags:
-  - amos-os
-  - domain
-  - vault
-  - 06_biology
-  - si
-  - somatic_intelligence
-  - biotensegrity_proprioception
-  - rscf
-  - canon_candidate
-  - canon/domain
-  - ubi-somatic-intelligence
-  - unified-biological-intelligence
-  - uba-framework
-version: 1.0.0
-updated: '2026-08-27'
-status: ACTIVE_REFERENCE
-epistemic_class: AMOS_MODEL
-canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
-implementation_status: CONCEPTUAL_SOURCE_DEFINED
-validation_status: NOT_INDEPENDENTLY_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: NATIVE_CANON_INGESTION
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_SOMATIC_INTELLIGENCE
-    - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
-    - AMOS_CORPUS
-  scope:
-    - DOMAIN_BIOLOGY
-    - SI_ENGINE
-    - SOURCE_DEFINED_MODEL
-framework_binding:
-  domain_knowledge:
-    artifact: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_SOMATIC_INTELLIGENCE
-  biological_master:
-    artifact: 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
-  matrix_binding:
-    artifact: 25_COGNITIVE_MATRIX/UBI_X_FULL_BRAIN
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  domain_structure: VERIFIED_SOURCE_STRUCTURE
-  telemetry_engine: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Somatic Intelligence (SI) Domain Engine

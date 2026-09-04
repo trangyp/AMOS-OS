@@ -1,166 +1,16 @@
 ---
-title: QLS Model Registry
-aliases:
-  - "AMOS QLS Model Registry"
-  - "QLS Registry"
-  - "QLS Domain Model Registry"
-  - "QLS Models"
-
-type: model
-source: "13_MODELS/04_DOMAIN"
-
-artifact: "QLS_MODEL_REGISTRY.md"
-artifact_id: "amos_13_models_04_domain_qls_model_registry"
-
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-
-plane: "13_MODELS"
-segment: "13_MODELS/04_DOMAIN"
-artifact_kind: "REGISTRY"
-registry_class: "DOMAIN_MODEL_REGISTRY"
-domain_identifier: "QLS"
-path: "13_MODELS/04_DOMAIN/QLS_MODEL_REGISTRY.md"
-
-version: "0.2.0"
-previous_version: "0.1.0"
-updated: "2026-08-28"
-
-status: "SOURCE_NUCLEUS_EXPANDED"
-source_status: "PLACEHOLDER"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "CONDITIONAL"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "STRUCTURAL_ONLY"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
-
-source_grounding:
-  registry_identity: "SOURCE_GROUNDED"
-  registry_path: "SOURCE_GROUNDED"
-  registry_purpose: "SOURCE_GROUNDED"
-  ingestion_rule: "SOURCE_GROUNDED"
-  qls_identifier: "SOURCE_GROUNDED"
-  qls_expansion: "UNKNOWN/GAP"
-  qls_native_definition: "UNKNOWN/GAP"
-  qls_native_master_source: "UNKNOWN/GAP"
-  qls_model_inventory: "UNKNOWN/GAP"
-  qls_model_families: "UNKNOWN/GAP"
-  qls_equation_inventory: "UNKNOWN/GAP"
-
-registry_state:
-  registry_identity: "ESTABLISHED_BY_SOURCE"
-  registry_contract: "NORMALIZED_AMOS_MODEL"
-  qls_acronym_expansion: "UNKNOWN/GAP"
-  qls_native_definition: "UNKNOWN/GAP"
-  substantive_native_canon: "UNKNOWN/GAP"
-  qls_model_inventory: "UNKNOWN/GAP"
-  qls_model_families: "UNKNOWN/GAP"
-  qls_equation_registry: "UNKNOWN/GAP"
-  qls_runtime: "NOT_ESTABLISHED"
-  authoritative_runtime_registry: "NOT_ESTABLISHED"
-  empirical_validation: "NOT_ESTABLISHED"
-  formal_validation: "NOT_ESTABLISHED"
-  causal_validation: "NOT_ESTABLISHED"
-  executable_binding: "NOT_ESTABLISHED"
-  provenance_independence: "NOT_ESTABLISHED"
-
-claim_ceiling:
-  registry_identity: "SOURCE_CLAIM"
-  registry_contract: "AMOS_MODEL"
-  qls_meaning: "UNKNOWN/GAP"
-  qls_model_inventory: "UNKNOWN/GAP"
-  qls_scientific_claims: "NOT_ESTABLISHED"
-  qls_mathematical_claims: "NOT_ESTABLISHED"
-  qls_causal_claims: "NOT_ESTABLISHED"
-  qls_runtime_capability: "NOT_ESTABLISHED"
-
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Qls Model Registry
 tags:
-  - amos-os
-  - amos
-  - trang
-  - trang_phan
-  - qls
-  - qls_model
-  - qls_registry
-  - qls_model_registry
-  - domain_model
-  - domain_registry
-  - model
-  - models
-  - specification
-  - registry
-  - model_registry
-  - architecture
-  - 04_domain
-  - canon/model
-  - canon/domain
-  - canon_candidate
-  - native_canon
-  - canon_ingestion
-  - source_claim
-  - observation
-  - derived
-  - AMOS_MODEL
-  - epistemic_regime
-  - epistemic_class
-  - conclusion_class
-  - model_observation_firewall
-  - model_output_firewall
-  - provenance
-  - provenance_topology
-  - source_ancestry
-  - model_ancestry
-  - provenance_independence
-  - sybil_hardening
-  - confidence_ceiling
-  - scope
-  - regime
-  - temporal_validity
-  - freshness
-  - causal_firewall
-  - scope_firewall
-  - regime_firewall
-  - temporal_firewall
-  - provenance_firewall
-  - authority_firewall
-  - equation_firewall
-  - mathematical_firewall
-  - competing_hypotheses
-  - competing_models
-  - contradiction
-  - falsifier
-  - sensitivity
-  - uncertainty
-  - unknown_gap
-  - fail_closed
-  - rscf
-  - hml
-  - proof_capsule
-  - dependency_closure
-  - selective_invalidation
-  - governed_evolution
-  - model_lifecycle
-  - versioning
-  - mvcc
-  - cas
-  - rollback
-  - validation
-  - validation_receipt
-  - governance
-  - add_only
-  - no_overwrite
-  - external_evidence
-  - native_source_required
-rscf:
-  state: "DERIVED"
-  claim_class: "DERIVED"
-  node_claim_class: "AMOS_MODEL"
-  provenance: "AMOS_corpus"
-  scope: "AMOS_general"
-  regime: "qls_domain_model_registry"
-  provenance_independence: "NOT_ESTABLISHED"
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # QLS Model Registry
@@ -7281,7 +7131,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-**Related:** · · · · · ·
+**Related:** 
 
 ______________________________________________________________________
 

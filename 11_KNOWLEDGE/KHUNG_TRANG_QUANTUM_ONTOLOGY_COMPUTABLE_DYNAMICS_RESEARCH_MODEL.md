@@ -1,32 +1,21 @@
 ---
-type: quantum
-source: 11_KNOWLEDGE
-id: TRA-RESEARCH-QUANTUM-ONTOLOGY-COMPUTABLE-DYNAMICS
-title: "Khung Trang — Quantum, Ontology & Computable Recursive Survival Dynamics"
-origin_architect: Trang Phan
-source_name: Khung trang
-artifact_type: research_model
-conclusion_class: MODEL
-evidence_class: SOURCE_CLAIM
-canon_status: NON_CANONICAL
-validation_status: UNVALIDATED
-research_status: OPEN
-language: vi
-domains:
-  - quantum_systems - ontology - emergence - causal_dynamics - complex_systems - cognition
-frameworks:
-  - Trang_Framework - HML - recursive_survival_dynamics
-proposed_location: 22_RESEARCH/03_COMPETING_MODELS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Khung Trang Quantum Ontology Computable Dynamics Research Model
 tags:
-  - knowledge
-  - note
-  - canon/knowledge
-  - integration
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Khung Trang — Quantum, Ontology & Computable Recursive Survival Dynamics
@@ -3635,7 +3624,7 @@ This preserves the source as a stable research object while validation evolves i
 
 ______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ______________________________________________________________________
 

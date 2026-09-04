@@ -1,20 +1,16 @@
 ---
-title: CONTROL PLANE MODE FAMILY REGISTRY
-type: control-plane
-source: 03_CONTROL_PLANE/09_COMMIT/67_MONITORING_ALERTING_MODES
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: Control Plane Mode Family Registry
 tags:
-  - control-plane
-  - 67_monitoring_alerting_modes
-  - canon/control-plane
-  - routing-policy-validation-receipt
-  - authz-engine-validation-receipt
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # CONTROL PLANE MODE FAMILY REGISTRY

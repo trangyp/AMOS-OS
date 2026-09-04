@@ -1,25 +1,21 @@
 ---
-title: AMOS OS Audit 2026-09-03 Phase31 Cognitive Matrix Specification Classification Closure
-type: audit_and_repair_receipt
-source: 20_OPERATIONS
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-amos_core_target: v4.4
-status: COMPLETE_FOR_RECORDED_CURRENT_SCOPE
-epistemic_class: OBSERVATION
-conclusion_class: CONDITIONAL
-updated: 2026-09-03
-rscf:
-  state: OBSERVATION
-  claim_class: VALIDATION_RECEIPT
-  provenance:
-    - 00_ROOT/AUTHORITATIVE_STATE
-    - 25_COGNITIVE_MATRIX/10_ROUTING/COGNITIVE_MATRIX_ROUTING_CONTRACT
-    - 25_COGNITIVE_MATRIX/11_VALIDATION/COGNITIVE_MATRIX_VALIDATION_CONTRACT
-    - live_Google_Drive_placeholder_signature_scan
-    - current_file_bytes_before_and_after_repair
-  scope: cognitive_matrix_document_classification_and_native_obsidian_content_integrity
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Amos Os Audit 2026 09 03 Phase31 Cognitive Matrix Specification Classification Closure
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS OS Audit — Phase31 Cognitive Matrix Specification Classification Closure

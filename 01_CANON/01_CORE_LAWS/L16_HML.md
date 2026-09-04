@@ -1,44 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: L16 HML
-type: note
-source: 01_CANON/01_CORE_LAWS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: L16 Hml
 tags:
-  - canon
-  - core_laws
-  - hml
-  - three_speed_lens
-  - governance
-  - domain_policy
-  - mechanical_checks
-  - strictness_inheritance
-  - level_assignment
-  - no_level_skipping
-  - epistemic_governance
-  - canon/universe
-  - validation
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-  - amos-core-all-versions-fractal-knowledge-network
-  - rscf
-  - gmef
-  - provenance-topology
-  - competing-hypotheses
-  - scope-regime-firewall
-  - law/L10-failure-recovery
-  - law/L11-knowledge-memory
-  - law/L15-fractal-knowledge
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: core_laws
-  canonical_status: CONDITIONAL
-  specification_status: PROPOSED_SPECIFICATION
-  node_id: l16_hml
-  node_type: note
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # L16 H/M/L Lens Laws
@@ -4710,4 +4682,6 @@ UNLESS CANONICALLY MAPPED
 
 **Conclusion class: CONDITIONAL / AMOS_MODEL.**
 
+```
+```
 ```

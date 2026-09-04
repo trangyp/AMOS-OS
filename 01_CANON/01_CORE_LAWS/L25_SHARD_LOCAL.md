@@ -1,45 +1,16 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: L25 SHARD LOCAL
-type: note
-source: 01_CANON/01_CORE_LAWS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: L25 Shard Local
 tags:
-  - canon
-  - core_laws
-  - note
-  - shard_local
-  - sharding
-  - shard_boundaries
-  - local_decisions
-  - local_facts
-  - global_facts
-  - global_invariants
-  - cross_shard
-  - coordination
-  - boundary_contracts
-  - shard_interfaces
-  - conflict_protocol
-  - concurrent_histories
-  - merge_discipline
-  - last_write_wins
-  - locality
-  - distributed_reasoning
-  - coordination_avoidance
-  - provenance
-  - canon/universe
-  - law-hierarchy
-  - trang-framework-recursive-ontology-dynamics
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: core_laws
-  canonical_status: CONDITIONAL
-  specification_status: PROPOSED_SPECIFICATION
-  node_id: l25_shard_local
-  node_type: note
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
 ---
 
 # L25 Shard-Local Law

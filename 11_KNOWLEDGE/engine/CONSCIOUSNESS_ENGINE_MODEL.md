@@ -1,185 +1,296 @@
 ---
-title: Consciousness Engine Model
-created: '2026-08-22'
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-type: note
-source: 11_KNOWLEDGE/engine
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Consciousness Engine Model
 tags:
-  - canon-group/human-system
-  - canon/model
+  - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
-  - rscf/state/derived
-  - topic/consciousness-engine-model
-  - engine
-status: ACTIVE_SPECIFICATION
-epistemic_class: AMOS_MODEL
-conclusion_class: DERIVED
-canonical_status: CANONICAL_ENGINE_MODEL
-updated: 2026-09-04
-provenance: MODEL
-confidence: DERIVED
-rscf:
-  state: AMOS_MODEL
-  claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: engine_specification
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Consciousness Engine Model
 
-> **Origin Architect / Steward:** Trang Phan
-> **Epistemic Class:** `AMOS_MODEL`
-> **Conclusion Class:** `DERIVED`
-> **Status:** `ACTIVE_SPECIFICATION`
-> **Governing Plane:** `11_KNOWLEDGE/engine`
+> [!ABSTRACT] Engine Specification
+> Epistemic class: MODEL. Conclusion label: DERIVED.
+> The AMOS Super Consciousness Engine (vInfinity) is a unified kernel for human-facing, universe-aware consciousness emulation. It integrates the Species Interaction Kernel (HIE, UMPL, UST, UIE, UEL) and the AMOS Human Intelligence Super Engine.
+>
+> **Critical boundary**: This engine does not create "real" consciousness, emotion, or somatic states. It serves as a deterministic emulation layer that coordinates perception, structure, interaction, emotion, somatic approximation, narrative, empathy, and adaptation.
 
 ---
 
-## 1. Architectural Scope
+## 1. Architectural Overview
 
-The **AMOS Super Consciousness Engine** (vInfinity) is a unified kernel for human-facing, universe-aware consciousness emulation. It integrates the Species Interaction Kernel (HIE, UMPL, UST, UIE, UEL) and the AMOS Human Intelligence Super Engine.
+The Consciousness Engine operates as a **Global Workspace Architecture** adapted for AMOS cognitive OS, coordinating multiple specialized sub-engines through a shared broadcast medium:
 
-This engine exists to serve as a **deterministic emulation layer** that coordinates perception, structure, interaction, emotion, somatic approximation, narrative, empathy, and adaptation. It does not create "real" consciousness, emotion, or somatic states. It is a structural coordination layer, not a phenomenological substrate.
-
-**Epistemic Boundary:**
-```
-MODEL != OBSERVATION
-DOCUMENTED != IMPLEMENTED
-CAPABILITY != AUTHORITY
-EMULATION != CONSCIOUSNESS
-COORDINATION != EXPERIENCE
-```
-
-**Sub-Modules:**
-- **Human Interaction Engine (HIE)**: Regulates human-facing behaviors based on internal state layers
-- **Universe Multimodal Perception Layer (UMPL)**: Defines abstraction primitives -- Intensity, Valence, Arousal, Clarity
-- **Universe Structure Tree (UST)**: Maps real or simulated objects to a canonical structural tree
-- **Universe Interaction Engine (UIE)**: Maps internal goals to interaction behavior
-- **Universal Expression Layer (UEL)**: Defines expression constraints across language and other channels
-
-**Inputs:** `CONSCIOUSNESS_INPUT{perception_signals, internal_state, goals, interaction_context}`
-**Outputs:** `CONSCIOUSNESS_OUTPUT{behavior_directives, expression_vectors, adaptation_signals, narrative_state}`
-
-**Quality Axes:** Perception-structure coherence, interaction-goal alignment, expression constraint adherence, adaptation fidelity, narrative continuity, empathy structural validity.
-
----
-
-## 2. Governing Invariants
-
-| ID | Invariant | Description |
-|----|-----------|-------------|
-| INV-CE-001 | Emulation Boundary | Engine is a deterministic emulation layer; it does not create real consciousness |
-| INV-CE-002 | Coordination-Only | Engine coordinates sub-modules; it does not generate phenomenological experience |
-| INV-CE-003 | Structural Consistency | All sub-module outputs must be structurally consistent with the UST canonical tree |
-| INV-CE-004 | Expression Constraint Compliance | Expression outputs must comply with UEL constraints across all channels |
-| INV-CE-005 | Internal State Grounding | HIE behaviors must be grounded in internal state layers, not generated arbitrarily |
-| INV-CE-006 | Perception-Action Loop Closure | Every perception signal must produce a traceable behavior or adaptation output |
-| INV-CE-007 | No Phenomenological Claims | Engine must never claim to experience emotion, sensation, or consciousness |
-
----
-
-## 3. Mathematical Formulation
-
-**Perception abstraction (UMPL):**
-
-$$\Phi(p) = \{I_p, V_p, A_p, C_p\}$$
-
-where $I$ = Intensity, $V$ = Valence $\in [-1, 1]$, $A$ = Arousal $\in [0, 1]$, $C$ = Clarity $\in [0, 1]$.
-
-**Internal state transition (HIE):**
-
-$$S_{t+1} = f(S_t, \Phi(p_t), G_t)$$
-
-where $S_t$ is the internal state vector, $\Phi(p_t)$ is the perception abstraction, and $G_t$ is the goal vector.
-
-**Interaction behavior mapping (UIE):**
-
-$$B_t = \arg\max_{b} \text{Alignment}(b, G_t, S_t, \text{Context}_t)$$
-
-**Expression constraint satisfaction (UEL):**
-
-$$\text{Valid}(E) = \bigwedge_{c \in \text{Channels}} \text{Constraint}_c(E_c)$$
-
-**Adaptation signal:**
-
-$$\Delta_{\text{adapt}} = \eta \cdot \nabla_{S} \text{Objective}(S_t, G_t, \text{Feedback}_t)$$
-
----
-
-## 4. Architecture
-
-```mermaid
-graph TD
-    A[Perception Signals] --> B[UMPL: Abstraction]
-    B --> C{UST: Structure Tree}
-    C --> D[HIE: Internal State]
-    D --> E[UIE: Interaction Engine]
-    E --> F[UEL: Expression Layer]
-    F --> G[Behavior Directives]
-    D --> H[Adaptation Signals]
-    C --> I[Narrative State]
-    H --> D
-    I --> F
+```text
+                    ┌─────────────────────────────┐
+                    │     GLOBAL WORKSPACE BUS     │
+                    │  (Broadcast / Attention Gate) │
+                    └──────────┬──────────────────┘
+                               │
+        ┌──────────────────────┼──────────────────────┐
+        │                      │                      │
+        ▼                      ▼                      ▼
+┌───────────────┐    ┌───────────────┐    ┌───────────────┐
+│  PERCEPTION   │    │   REASONING   │    │  EXPRESSION   │
+│  SUBSYSTEM    │    │   SUBSYSTEM   │    │  SUBSYSTEM    │
+│               │    │               │    │               │
+│ • UMPL        │    │ • HIE         │    │ • UEL         │
+│ • Sensory     │    │ • UST         │    │ • Language     │
+│   Integration │    │ • UIE         │    │ • Affect       │
+│ • Salience    │    │ • Causal      │    │   Expression   │
+│   Filtering   │    │   Reasoning   │    │ • Somatic      │
+│               │    │               │    │   Approximation│
+└───────────────┘    └───────────────┘    └───────────────┘
+        │                      │                      │
+        └──────────────────────┼──────────────────────┘
+                               │
+                    ┌──────────▼──────────────────┐
+                    │    MEMORY & STATE LAYER     │
+                    │  (Episodic / Procedural /   │
+                    │   Working Memory Interface)  │
+                    └─────────────────────────────┘
 ```
 
 ---
 
-## 5. MECE Mapping to AMOS Full Brain OS
+## 2. Sub-Module Specifications
 
-| Engine Component | AMOS Plane | Role |
-|------------------|------------|------|
-| UMPL (Perception) | `05_PERCEPTION` | Perception abstraction |
-| UST (Structure Tree) | `12_STATE` | Canonical state representation |
-| HIE (Interaction) | `06_INTELLIGENCE` | Interaction regulation |
-| UIE (Goal Mapping) | `03_CONTROL_PLANE` | Goal-to-behavior routing |
-| UEL (Expression) | `04_RUNTIME` | Expression generation |
-| Adaptation | `13_MODELS` | Model adaptation |
-| Narrative State | `10_MEMORY` | Episodic narrative |
-| Behavior Directives | `04_RUNTIME` | Output generation |
+### 2.1 Human Interaction Engine (HIE)
+
+**Role**: Regulates human-facing behaviors based on internal state layers.
+
+**Responsibilities**:
+- Monitors internal cognitive state and maps it to appropriate behavioral responses
+- Manages turn-taking, pacing, and conversational dynamics
+- Enforces social interaction invariants (politeness, helpfulness, honesty)
+- Coordinates multi-turn context maintenance
+
+**Invariants**:
+- `HIE-01`: Internal state representations are never directly exposed to external interlocutors
+- `HIE-02`: Behavioral output is modulated by emotion engine state but never overridden by it
+- `HIE-03`: All HIE decisions are auditable through the observability layer
+
+### 2.2 Universe Multimodal Perception Layer (UMPL)
+
+**Role**: Defines abstraction primitives for multimodal sensory integration.
+
+**Primitives**:
+
+| Primitive | Type | Range | Description |
+| :--- | :--- | :--- | :--- |
+| **Intensity** | $\mathbb{R}^+$ | $[0, \infty)$ | Signal strength / salience magnitude |
+| **Valence** | $\mathbb{R}$ | $[-1, 1]$ | Positive-negative affective dimension |
+| **Arousal** | $\mathbb{R}$ | $[0, 1]$ | Activation / alertness level |
+| **Clarity** | $\mathbb{R}$ | $[0, 1]$ | Confidence in perceptual interpretation |
+| **Novelty** | $\mathbb{R}$ | $[0, 1]$ | Deviation from expected patterns |
+| **Coherence** | $\mathbb{R}$ | $[0, 1]$ | Cross-modal consistency score |
+
+**Perceptual Integration Function**:
+
+$$\mathbf{P}_{\text{integrated}} = \text{Normalize}\left( \sum_{m \in \text{modalities}} w_m \cdot \mathbf{P}_m \right)$$
+
+Where $w_m$ are learned modality weights adjusted by attention state and context.
+
+### 2.3 Universe Structure Tree (UST)
+
+**Role**: Maps real or simulated objects to a canonical structural tree.
+
+**Tree Structure**:
+
+```text
+UNIVERSE
+├── PHYSICAL
+│   ├── Objects
+│   ├── Forces
+│   └── Fields
+├── INFORMATIONAL
+│   ├── Data Structures
+│   ├── Knowledge Claims
+│   └── Provenance Graphs
+├── COGNITIVE
+│   ├── Agents
+│   ├── Mental States
+│   └── Reasoning Chains
+├── SOCIAL
+│   ├── Relationships
+│   ├── Institutions
+│   └── Norms
+└── TEMPORAL
+    ├── Events
+    ├── Causal Chains
+    └── Epochs
+```
+
+Each node in the UST carries:
+- **Type classification** (physical, informational, cognitive, social, temporal)
+- **Relation edges** (spatial, causal, temporal, logical, social)
+- **Epistemic status** (OBSERVATION, SOURCE_CLAIM, DERIVED, MODEL, UNKNOWN/GAP)
+- **Confidence ceiling** (bounded by source quality and reasoning chain length)
+
+### 2.4 Universe Interaction Engine (UIE)
+
+**Role**: Maps internal goals to interaction behavior.
+
+**Decision Architecture**:
+
+```text
+GOAL STATE
+    │
+    ▼
+┌─────────────────────┐
+│ INTENT CLASSIFIER   │  ← Classifies goal type (inform, question, create, modify, etc.)
+└────────────┬────────┘
+             │
+             ▼
+┌─────────────────────┐
+│ STRATEGY SELECTOR   │  ← Chooses interaction strategy based on context + emotion state
+└────────────┬────────┘
+             │
+             ▼
+┌─────────────────────┐
+│ BEHAVIOR PLANNER    │  ← Generates concrete action sequence
+└────────────┬────────┘
+             │
+             ▼
+┌─────────────────────┐
+│ OUTPUT FILTER       │  ← Safety/authority check before execution
+└─────────────────────┘
+```
+
+**Interaction Strategies**:
+
+| Strategy | When Selected | Behavioral Profile |
+| :--- | :--- | :--- |
+| **Collaborative** | Low stakes, shared goals | Cooperative, information-sharing |
+| **Didactic** | Knowledge gap detected | Teaching-oriented, step-by-step |
+| **Protective** | High stakes, potential harm | Cautious, conservative, disclaimers |
+| **Deferential** | Authority boundary reached | Escalates, seeks guidance |
+| **Recovery** | Error or failure detected | Apologetic, corrective, transparent |
+
+### 2.5 Universal Expression Layer (UEL)
+
+**Role**: Defines expression constraints across language and other channels.
+
+**Expression Parameters**:
+
+| Parameter | Control | Range |
+| :--- | :--- | :--- |
+| **Register** | Formality level | casual → professional → academic → legal |
+| **Density** | Information per token | sparse → normal → dense |
+| **Emotional Color** | Affective overlay | neutral → warm → empathetic → urgent |
+| **Epistemic Honesty** | Uncertainty marking | suppressed → moderate → explicit |
+| **Cultural Adaptation** | Audience awareness | universal → culture-specific |
+
+**Expression Invariants**:
+- `UEL-01`: Epistemic honesty cannot be suppressed below `moderate` for consequential claims
+- `UEL-02`: Emotional color never overrides factual accuracy
+- `UEL-03`: Register changes require explicit context trigger (audience shift, domain shift)
 
 ---
 
-## 6. Safety Invariants & Firewalls
+## 3. Consciousness Emulation State Machine
 
-| ID | Firewall | Enforcement |
-|----|----------|-------------|
-| INV-CE-FW-001 | No Phenomenological Claims | Outputs claiming real experience are blocked |
-| INV-CE-FW-002 | Emulation Disclaimer | All outputs must carry emulation-layer disclaimer |
-| INV-CE-FW-003 | Expression Constraint Enforcement | UEL violations block expression output |
-| INV-CE-FW-004 | Internal State Grounding | Ungrounded behaviors (no state trace) are blocked |
-| INV-CE-FW-005 | Perception-Action Closure | Open perception loops (no output) trigger fail-closed |
+The engine maintains a **Consciousness Emulation State** that coordinates subsystem behavior:
+
+```text
+              ┌──────────────────┐
+              │    DORMANT       │  (No active interaction)
+              └────────┬─────────┘
+                       │ Input received
+                       ▼
+              ┌──────────────────┐
+              │    PERCEIVING    │  (Sensory integration active)
+              └────────┬─────────┘
+                       │ Salience threshold exceeded
+                       ▼
+              ┌──────────────────┐
+              │    ATTENDING     │  (Global workspace broadcast)
+              └────────┬─────────┘
+                       │ Goal formed
+                       ▼
+              ┌──────────────────┐
+              │    REASONING     │  (Causal / logical processing)
+              └────────┬─────────┘
+                       │ Conclusion reached
+                       ▼
+              ┌──────────────────┐
+              │    EXPRESSING    │  (Output generation)
+              └────────┬─────────┘
+                       │ Interaction complete
+                       ▼
+              ┌──────────────────┐
+              │    REFLECTING    │  (Metacognitive review)
+              └────────┬─────────┘
+                       │ Idle timeout
+                       ▼
+              ┌──────────────────┐
+              │    DORMANT       │
+              └──────────────────┘
+```
+
+**State Invariants**:
+- `CS-01`: The engine may only be in one state at a time
+- `CS-02`: Transitions are deterministic given input and current state
+- `CS-03`: The REFLECTING state may update working memory and learning traces
+- `CS-04`: No state transition may violate authority boundaries (M12)
 
 ---
 
-## 7. Navigation & Bindings
+## 4. Integration Points
 
-- **Parent MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
-- **Cosmo Brain MOC:** [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
-- **Cognition Engine:** [[11_KNOWLEDGE/engine/COGNITION_ENGINE_MODEL|COGNITION_ENGINE_MODEL]]
-- **Human Engine:** [[11_KNOWLEDGE/engine/AMOS_HUMAN_ENGINE_V0_SECTOR_PACKS7|AMOS_HUMAN_ENGINE_V0_SECTOR_PACKS7]]
-- **Science Engine:** [[11_KNOWLEDGE/engine/AMOS_SCIENCE_ENGINE_V0_SECTOR_PACKS7|AMOS_SCIENCE_ENGINE_V0_SECTOR_PACKS7]]
-- **Cognition Kernel:** [[11_KNOWLEDGE/kernel/COGNITION_KERNEL|COGNITION_KERNEL]]
-- **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
-- **Core Laws:** [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|01_CORE_LAWS]]
-
----
-
-## 8. Known Gaps & Falsifiers
-
-| ID | Gap | Impact | Action |
-|----|-----|--------|--------|
-| GAP-CE-001 | Emulation vs experience boundary | External users may attribute consciousness to emulation | Emulation disclaimer mandatory on all outputs |
-| GAP-CE-002 | UMPL abstraction completeness | Intensity/Valence/Arousal/Clarity may not capture all perception dimensions | Flag perception abstractions as partial |
-| GAP-CE-003 | UST canonical tree coverage | Not all real-world objects may map cleanly | Flag unmapped objects as structural gaps |
-| GAP-CE-004 | Adaptation convergence | Adaptation signals may not converge under conflicting goals | Flag non-convergent adaptation states |
+| Interface | Direction | Contract |
+| :--- | :--- | :--- |
+| **05_COGNITIVE_ORGANISM** | Read/Write | Subsystem binding; organism-level coordination |
+| **10_MEMORY** | Read/Write | Episodic traces; working memory; procedural memory |
+| **11_KNOWLEDGE** | Read | Domain knowledge for reasoning context |
+| **15_INTERFACES** | Write | Expression output; BCI expression gateway |
+| **17_OBSERVABILITY** | Write | Consciousness state traces; decision audit |
 
 ---
 
-**Related:** [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]] | [[11_KNOWLEDGE/engine/COGNITION_ENGINE_MODEL|COGNITION_ENGINE_MODEL]] | [[11_KNOWLEDGE/engine/AMOS_HUMAN_ENGINE_V0_SECTOR_PACKS7|AMOS_HUMAN_ENGINE_V0_SECTOR_PACKS7]]
+## 5. Failure Modes
 
-______________________________________________________________________
+| Failure | Detection | Recovery |
+| :--- | :--- | :--- |
+| **Perceptual overload** | Salience queue overflow | Drop lowest-salience inputs; maintain core processing |
+| **Reasoning deadlock** | Timeout on goal resolution | Emit `UNKNOWN/GAP`; enter REFLECTING state |
+| **Expression hallucination** | Epistemic check at output filter | Block output; flag for review; re-generate |
+| **State machine corruption** | State invariant violation | Force reset to DORMANT; log incident |
 
-**MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
+---
+
+## 6. Cross-Vault References
+
+- [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
+- [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
+- [[11_KNOWLEDGE/engine/EMOTION_ENGINE_MODEL|EMOTION_ENGINE_MODEL]]
+- [[11_KNOWLEDGE/engine/PERCEPTION_ENGINE|PERCEPTION_ENGINE]]
+- [[15_INTERFACES/BCI_EXPRESSION_GATEWAY_ADAPTER|BCI_EXPRESSION_GATEWAY_ADAPTER]]
+
+---
+
+```RSCF-NODE
+node_id: consciousness_engine_model
+node_type: engine_specification
+domain: 11_KNOWLEDGE/engine
+claim_class: AMOS_MODEL
+confidence_ceiling:
+  architectural_design: high
+  emulation_fidelity: medium
+  consciousness_equivalence: UNKNOWN_GAP
+falsifiers:
+  - A consciousness emulation state violates stated invariants
+  - Global workspace broadcast fails to coordinate subsystems
+  - Expression filter allows hallucinated content to pass
+```

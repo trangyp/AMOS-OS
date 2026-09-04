@@ -155,7 +155,7 @@ Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic clas
 ## Output Template
 
 ```text
-## amos human intellige
+# amos human intellige
 
 ---
 **MOC:**
