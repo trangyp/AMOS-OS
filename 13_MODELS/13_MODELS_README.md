@@ -1,93 +1,120 @@
 ---
-title: "13 Models — README"
-type: readme
-source: 13_MODELS
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: models_readme
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 13 Models Readme
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# 13 Models — README
+# 13 Models — Architecture & Subsystem Specification
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **MECE Domain:** D — Information, Memory, State & Model Substrate
-> **Epistemic Class:** `AMOS_MODEL`
-> **Status:** `ACTIVE`
+> [!ABSTRACT] Plane Identity in AMOS Full Brain OS
+> **Plane:** `13_MODELS` (Group D: Information, Memory, State & Model Substrate).
+> **Role:** Governs all formal representations, analytical abstractions, and mathematical simulations within AMOS OS.
+> Models represent structured interpretations—they formalize hypotheses, parameterize dynamical systems, and structure multi-scale cognition without confusing simulation with physical reality.
 
-## Role
+---
 
-Models represent structured interpretations or simulations — they capture assumptions, scope, regime, inputs, outputs, dependencies, validity, and falsifiers. The `13_MODELS` plane is the canonical home for model specifications, calibration records, and model identity governance within the AMOS Full Brain OS Architecture.
+## 1. MECE Subsystem Organization
 
-In the MECE partition ([[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]), `13_MODELS` belongs to **Domain D — Information, Memory, State & Model Substrate** alongside `10_MEMORY`, `11_KNOWLEDGE`, `12_STATE`, and `16_SCHEMAS`. Its primary ownership is **model identity, calibration, and lifecycle governance**.
-
-## Hard Rules
+`13_MODELS` is organized into three mutually exclusive, collectively exhaustive (MECE) segments:
 
 ```
+┌────────────────────────────────────────────────────────────────────────┐
+│                        13_MODELS ARCHITECTURE                          │
+├────────────────────────────────────────────────────────────────────────┤
+│  01_FOUNDATION — Universal & Physical Computing Models                 │
+│  • Trang Reality Architecture Model (TRANG_REALITY_ARCHITECTURE_MODEL) │
+│  • Universal Field Architecture Model (UNIVERSAL_FIELD_ARCHITECTURE)   │
+│  • Bio-Logical Computing Model (BIO_LOGICAL_COMPUTING_MODEL)           │
+│  • Omniverse Brain 10-Layer Specification (OMNIVERSE_BRAIN_10_LAYER)   │
+├────────────────────────────────────────────────────────────────────────┤
+│  04_DOMAIN — Specialist Domain & Cognitive Logic Registries           │
+│  • Quantum Logic System Model Registry (QLS_MODEL_REGISTRY)            │
+│  • Quantum Classical Logic Algebra Registry (QCLA_MODEL_REGISTRY)      │
+│  • Temporal Predictive Engine Registry (TPE_MODEL_REGISTRY)            │
+│  • NeuroSyncAI Model Registry (NEUROSYNCAI_MODEL_REGISTRY)             │
+│  • Unified Biological Intelligence Registry (UBI_MODEL_REGISTRY)       │
+│  • Heritage Model Registry (HERITAGE_MODEL_REGISTRY)                   │
+├────────────────────────────────────────────────────────────────────────┤
+│  05_CALIBRATION — Epistemic Boundaries & Uncertainty Protocols         │
+│  • Confidence Ceiling Calibration (CONFIDENCE_CEILING_CALIBRATION)     │
+│  • Provenance Independence Calibration (PROVENANCE_INDEPENDENCE)       │
+│  • UBI Score Calibration (UBI_SCORE_CALIBRATION)                       │
+└────────────────────────────────────────────────────────────────────────┘
+```
+
+### 1.1 `01_FOUNDATION` (Foundational Substrates)
+* **Purpose:** Provides universal mathematical models of reality, quantum-classical field interactions, and biological non-von Neumann computation.
+* **Key Artifacts:**
+  * [[13_MODELS/01_FOUNDATION/TRANG_REALITY_ARCHITECTURE_MODEL|Trang Reality Architecture Model]]: Universal ontological dynamics and recursive distinction matrices.
+  * [[13_MODELS/01_FOUNDATION/UNIVERSAL_FIELD_ARCHITECTURE_MODEL|Universal Field Architecture Model]]: Multi-scale continuous field theory over 19×19 cognitive coordinate grids.
+  * [[13_MODELS/01_FOUNDATION/BIO_LOGICAL_COMPUTING_MODEL|Bio-Logical Computing Model]]: 4-tier biological computing hierarchy (epigenetic, dendritic, population manifold, active inference).
+  * [[13_MODELS/01_FOUNDATION/OMNIVERSE_BRAIN_10_LAYER_SPECIFICATION|Omniverse Brain 10-Layer Specification]]: 10-layer world-modeling hierarchy spanning sub-quantum to trans-domain scales.
+
+### 1.2 `04_DOMAIN` (Specialist Models)
+* **Purpose:** Formalizes operational engines and domain-specific problem spaces.
+* **Key Artifacts:**
+  * [[13_MODELS/04_DOMAIN/QLS_MODEL_REGISTRY|QLS Model Registry]]: Multi-valued quantum logic states, non-distributive lattices, and quantum phase logic.
+  * [[13_MODELS/04_DOMAIN/QCLA_MODEL_REGISTRY|QCLA Model Registry]]: Quantum-Classical Logic Algebra mapping quantum states into classical Boolean decisions.
+  * [[13_MODELS/04_DOMAIN/TPE_MODEL_REGISTRY|TPE Model Registry]]: Temporal Predictive Engine generating hierarchical predictive coding priors.
+  * [[13_MODELS/04_DOMAIN/NEUROSYNCAI_MODEL_REGISTRY|NeuroSyncAI Model Registry]]: Real-time neural decoding and cross-modal synchronization models.
+  * [[13_MODELS/04_DOMAIN/UBI_MODEL_REGISTRY|UBI Model Registry]]: Unified Biological Intelligence models across bioelectromagnetic, neurobiological, neuroemotional, and somatic domains.
+
+### 1.3 `05_CALIBRATION` (Uncertainty & Calibration Protocols)
+* **Purpose:** Enforces strict epistemic calibration so models never overclaim empirical validity.
+* **Key Artifacts:**
+  * [[13_MODELS/05_CALIBRATION/CONFIDENCE_CEILING_CALIBRATION|Confidence Ceiling Calibration]]: Imposes $C(\text{Output}) \le \min_i C(\text{Input}_i)$ unless independent empirical revalidation occurs.
+  * [[13_MODELS/05_CALIBRATION/PROVENANCE_INDEPENDENCE_CALIBRATION|Provenance Independence Calibration]]: Discounts multi-source agreement when sources share underlying models or training datasets.
+  * [[13_MODELS/05_CALIBRATION/UBI_SCORE_CALIBRATION|UBI Score Calibration]]: Standardizes biological intelligence indices across organismic scales.
+
+---
+
+## 2. Hard Epistemic Firewalls for Models
+
+In adherence to AMOS OS Core Invariants (`AGENTS.md` v4.4):
+
+```text
 MODEL != OBSERVATION
 MODEL != DEPLOYED_RUNTIME
-TEST_SPECIFIED != TEST_EXECUTED
-CAPABILITY != AUTHORITY
+SIMULATION != PHYSICAL_REALITY
+CANONICAL_MODEL != EMPIRICAL_TRUTH
+MATHEMATICAL_ELEGANCE != EMPIRICAL_CORRECTNESS
 ```
 
-A model is a structured hypothesis. It carries assumptions, scope boundaries, and falsifiability conditions. A model does not become an observation by repetition, nor does it become a deployed runtime by specification.
+1. **`MODEL != OBSERVATION`**: A model's simulated output is an analytical hypothesis (`AMOS_MODEL`), never physical empirical evidence (`OBSERVATION`), until confirmed by independent sensor observation.
+2. **`FAIL_CLOSED_ON_REGIME_BREACH`**: Every model has a defined applicability envelope (temperature, dimensionality, noise threshold, biological species). Operating outside this regime forces the model output to fail closed to `UNKNOWN/GAP`.
+3. **`RECEIPT_REQUIRED`**: High-consequence decisions derived from model predictions require validation receipts logged in `20_OPERATIONS`.
 
-## Sub-Directories
+---
 
-| Sub-directory | Purpose |
-|---------------|---------|
-| `01_FOUNDATION/` | Foundational model specifications — base model contracts, axioms, and formal definitions |
-| `04_DOMAIN/` | Domain-specific model bindings — maps models to AMOS domain planes |
-| `05_CALIBRATION/` | Model calibration records — parameter tuning, validation results, drift detection |
+## 3. Inter-Plane Integration
 
-## Key Files
+* **Knowledge Substrate:** Formalizes raw research from [11_KNOWLEDGE/KNOWLEDGE_MOC.md](file:///Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/KNOWLEDGE_MOC.md) and [00_ROOT/ARXIV_RSCF_KNOWLEDGE_NODE.md](file:///Users/mac/Documents/AMOS_OS/00_ROOT/ARXIV_RSCF_KNOWLEDGE_NODE.md).
+* **Cognitive Assembly:** Parameterizes cognitive engines in [05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC.md](file:///Users/mac/Documents/AMOS_OS/05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC.md).
+* **Research Feedback:** Ingests experimental findings from [22_RESEARCH/22_RESEARCH_MOC.md](file:///Users/mac/Documents/AMOS_OS/22_RESEARCH/22_RESEARCH_MOC.md).
+* **Master Governance:** Rooted in [00_ROOT/00_ROOT_MOC.md](file:///Users/mac/Documents/AMOS_OS/00_ROOT/00_ROOT_MOC.md) and [00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE.md](file:///Users/mac/Documents/AMOS_OS/00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE.md).
 
-- [[13_MODELS/13_MODELS_MOC|13_MODELS_MOC]] — Navigation MOC for the entire Models plane
-- [[13_MODELS/MODELS_MODEL_CONTRACT|MODELS_MODEL_CONTRACT]] — Formal contract governing model identity, lifecycle, and authority
-- [[13_MODELS/01_FOUNDATION/01_FOUNDATION_MOC|01_FOUNDATION_MOC]] — Foundational models MOC
-- [[13_MODELS/04_DOMAIN/04_DOMAIN_MOC|04_DOMAIN_MOC]] — Domain models MOC
-- [[13_MODELS/05_CALIBRATION/05_CALIBRATION_MOC|05_CALIBRATION_MOC]] — Calibration MOC
-
-## Model Lifecycle
-
-1. **Specification** — A model is specified with explicit assumptions, scope, inputs, outputs, and falsifiers
-2. **Foundation** — The model is registered in `01_FOUNDATION/` with its formal definition
-3. **Domain Binding** — The model is bound to one or more AMOS domains in `04_DOMAIN/`
-4. **Calibration** — The model is calibrated and validated in `05_CALIBRATION/`
-5. **Deployment** — If the model passes calibration, it may be deployed (deployment is a separate authority decision)
-6. **Monitoring** — Deployed models are monitored for drift, performance degradation, and assumption violations
-7. **Retirement** — Models that fail monitoring or are superseded are archived with full provenance
-
-## Inter-Plane Connections
-
-### Domain D (Information, Memory, State & Model Substrate)
-- **Memory:** [[10_MEMORY/10_MEMORY_MOC|10_MEMORY]] — Models are persisted as memory artifacts; memory substrates store model state
-- **Knowledge:** [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE]] — Models formalize knowledge claims; knowledge plane provides the epistemic substrate
-- **State:** [[12_STATE/12_STATE_MOC|12_STATE]] — Model state is tracked as part of the overall system state; state snapshots include model versions
-- **Schemas:** [[16_SCHEMAS/16_SCHEMAS_MOC|16_SCHEMAS]] — Schemas define the structure and type system that models must conform to
-
-### Cross-Domain Dependencies
-- **Research:** [[22_RESEARCH/22_RESEARCH_MOC|22_RESEARCH]] — Research produces and validates models; competing models are preserved
-- **Tests:** [[19_TESTS/19_TESTS_MOC|19_TESTS]] — Tests verify model behavior against specifications
-- **Observability:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY]] — Model drift and performance are observed
-- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE]] — Model deployment requires control-plane authority
-- **Runtime:** [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]] — Deployed models execute under runtime governance
-
-## Epistemic Boundary
-
-Models are `AMOS_MODEL` artifacts. They are derived from knowledge and research but are not themselves observations. A model's confidence ceiling is capped at the weakest load-bearing premise. Models must preserve `SOURCE_CLAIM`, `EMPIRICAL`, `COMPETING`, and `UNKNOWN/GAP` distinctions from their source evidence.
-
-`MODEL != OBSERVATION`
-`MODEL != DEPLOYED_RUNTIME`
-`DOCUMENTED != IMPLEMENTED`
-
-______________________________________________________________________
-
-**Parent:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
-**MECE Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]
+---
+RSCF-NODE
+node_id: 13_models_readme
+node_type: plane_readme
+domain: 13_MODELS
+path: 13_MODELS/13_MODELS_README.md
+RSCF-RELATIONS:
+  - IMPLEMENTS: [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE]]
+  - INDEXED_BY: [[13_MODELS/13_MODELS_MOC]]
+  - INDEXED_BY: [[00_ROOT/00_ROOT_MOC]]
+claim_class: AMOS_MODEL
