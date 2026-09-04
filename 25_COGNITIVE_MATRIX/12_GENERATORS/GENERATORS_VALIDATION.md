@@ -103,9 +103,9 @@ ______________________________________________________________________
 
 # 12 Generators Validation
 
-> **Status:** `PLACEHOLDER`
+> **Status:** `PLACEHOLDER_EXPANDED`
 >
-> **Class:** `MATRIX_INFRASTRUCTURE_PLACEHOLDER`
+> **Class:** `MATRIX_INFRASTRUCTURE_PLACEHOLDER_EXPANDED`
 >
 > **Validation state:** `UNVALIDATED`
 >
@@ -114,6 +114,8 @@ ______________________________________________________________________
 > **Origin architect / steward:** Trang Phan
 >
 > **AMOS_CORE target:** `v4.4`
+>
+> **Architecture reference:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]
 
 ______________________________________________________________________
 
@@ -142,9 +144,44 @@ VALIDATION_CONTRACT_EXISTS
 != GENERATOR_VALIDATED
 ```
 
-______________________________________________________________________
+### 0.1 Validation methodology overview
 
-## 1. Constitutional boundaries
+The Generator validation methodology follows the MECE architecture partition defined in [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]], which separates:
+
+```text
+FUNCTIONAL OWNERSHIP
+!= PHYSICAL STORAGE
+!= AUTHORITY PRECEDENCE
+!= RUNTIME CALL ORDER
+!= EVIDENCE / VALIDATION STATUS
+```
+
+Generator validation operates within the `25_COGNITIVE_MATRIX` plane but draws on multiple planes for its evidence base:
+
+- **`01_CANON`** — provides canonical laws and glossary definitions that semantic validation checks against
+- **`03_CONTROL_PLANE`** — provides authority tokens and policy epochs that authority-boundary validation requires
+- **`10_ROUTING`** — determines which Generator and Validator path is selected for each validation request
+- **`11_VALIDATION`** — provides the general-purpose validation framework and promotion gates that Generator validation feeds into
+- **`16_SCHEMAS`** — provides schema definitions that structural validation checks against
+- **`17_OBSERVABILITY`** — receives validation traces and metrics for audit and monitoring
+- **`19_TESTS`** — provides the test contract framework that Generator tests follow
+
+The validation methodology is **evidence-bearing, provenance-aware, scope-bound, regime-bound, and reversible**. It follows the AMOS governing law:
+
+```text
+Generation expands candidate space, not evidence space.
+```
+
+Therefore validation must establish that a Generator's output is a **candidate** — not verified knowledge, not authorized action, not canonical truth — before any downstream promotion, authority, or commitment process may act on it.
+
+The validation methodology is organized into four phases:
+
+1. **Structural validation** (GV0–GV3): Identity, syntax, schema, template checks that establish the Generator and its output are well-formed.
+2. **Semantic validation** (GV4–GV6): Terminology, source/canon, and provenance checks that establish the output preserves AMOS epistemic boundaries.
+3. **Operational validation** (GV7–GV13): Dependency, epistemic, scope/regime, temporal, determinism, idempotency, and state checks that establish the output is valid within its declared envelope.
+4. **Boundary validation** (GV14–GV18): Authority, effect, recovery, security, and adversarial checks that establish the output respects AMOS governance boundaries.
+
+Each phase produces evidence that feeds into the validation result tensor (Section 5) and the validation receipt (Section 11). A `PASS` in any phase does not imply a `PASS` in subsequent phases.
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2697,7 +2734,7 @@ rscf:
   confidence_ceiling: 0
 
   status:
-    PLACEHOLDER
+    PLACEHOLDER_EXPANDED
 ```
 
 ______________________________________________________________________
@@ -2711,7 +2748,7 @@ gmef:
     AMOS-CM-12-GENERATORS-VALIDATION
 
   governance_status:
-    PLACEHOLDER
+    PLACEHOLDER_EXPANDED
 
   governed_operations:
     - GENERATOR_VALIDATION
@@ -3120,7 +3157,7 @@ as an AMOS-aligned structural placeholder.
 **Final state**
 
 ```text
-PLACEHOLDER
+PLACEHOLDER_EXPANDED
 UNVALIDATED
 VALIDATION_NOT_RUN
 UNKNOWN/GAP
@@ -3151,7 +3188,6 @@ WORKER
 
 That gives `12_GENERATORS` its own validation surface without duplicating the general-purpose `11_VALIDATION` subsystem.
 
-```
 ---
 
 00_ROOT_MOC|AMOS MOC
@@ -3165,9 +3201,13 @@ node_id: generators_validation
 node_type: note
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_VALIDATION.md
 RSCF-RELATIONS:
-  - INDEXED_BY:
-  - INDEXED_BY:
+  - INDEXED_BY: [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+  - INDEXED_BY: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
+  - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+  - VALIDATES: [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_CONTRACT|GENERATOR_CONTRACT]]
+  - FEEDS: [[25_COGNITIVE_MATRIX/11_VALIDATION/PROMOTION_GATES|PROMOTION_GATES]]
 claim_class: AMOS_MODEL
 
 ---
 **MOC:**
+````

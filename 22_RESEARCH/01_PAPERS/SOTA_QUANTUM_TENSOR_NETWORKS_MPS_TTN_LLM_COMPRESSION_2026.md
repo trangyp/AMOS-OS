@@ -123,11 +123,11 @@ The global quantum state vector $| \Psi \rangle = \prod_{k=1}^N \hat{U}_k(\bolds
 
 | AMOS Plane | Role & Responsibilities |
 | :--- | :--- |
-| **[[02_KERNEL/02_KERNEL_MOC\|02_KERNEL]]** | Executes SIMD SVD tensor contractions and monotonic rank-truncation verification. |
-| **[[12_STATE/12_STATE_MOC\|12_STATE]]** | Zero-copy Arrow IPC state buffers for streaming MPS tensor trains. |
-| **[[13_MODELS/13_MODELS_MOC\|13_MODELS]]** | Houses compressed transformer and RNN model artifacts. |
-| **[[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC\|21_DOMAINS/41_QUANTUM]]** | Direct hardware compilation to Qiskit / Cirq quantum execution backends. |
-| **[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC\|25_COGNITIVE_MATRIX]]** | Tensor-network routing backbone coordinating inter-plane communication tensors. |
+| **[[02_KERNEL/02_KERNEL_MOC|02_KERNEL]]** | Executes SIMD SVD tensor contractions and monotonic rank-truncation verification. |
+| **[[12_STATE/12_STATE_MOC|12_STATE]]** | Zero-copy Arrow IPC state buffers for streaming MPS tensor trains. |
+| **[[13_MODELS/13_MODELS_MOC|13_MODELS]]** | Houses compressed transformer and RNN model artifacts. |
+| **[[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC|21_DOMAINS/41_QUANTUM]]** | Direct hardware compilation to Qiskit / Cirq quantum execution backends. |
+| **[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX]]** | Tensor-network routing backbone coordinating inter-plane communication tensors. |
 
 ---
 

@@ -141,12 +141,12 @@ Engineered from MCP specifications, ZeroMQ messaging patterns, and reactive stre
 
 | AMOS Plane | Role & Responsibilities |
 | :--- | :--- |
-| **[[00_ROOT/00_ROOT_MOC\|00_ROOT]]** | Root navigation hub exposing interface documentation and system maps. |
-| **[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC\|03_CONTROL_PLANE]]** | Gates all external inbound actions through permission check filters. |
-| **[[04_RUNTIME/04_RUNTIME_MOC\|04_RUNTIME]]** | Hosts live interface daemon processes and connection managers. |
-| **[[15_INTERFACES/15_INTERFACES_MOC\|15_INTERFACES]]** | Host plane housing all interface adapters, socket servers, and UI plugins. |
-| **[[16_SCHEMAS/16_SCHEMAS_MOC\|16_SCHEMAS]]** | Authoritative data type definitions for all interface payloads. |
-| **[[18_SECURITY/18_SECURITY_MOC\|18_SECURITY]]** | Enforces rate limits, IP whitelists, and TLS certificates. |
+| **[[00_ROOT/00_ROOT_MOC|00_ROOT]]** | Root navigation hub exposing interface documentation and system maps. |
+| **[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE]]** | Gates all external inbound actions through permission check filters. |
+| **[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]]** | Hosts live interface daemon processes and connection managers. |
+| **[[15_INTERFACES/15_INTERFACES_MOC|15_INTERFACES]]** | Host plane housing all interface adapters, socket servers, and UI plugins. |
+| **[[16_SCHEMAS/16_SCHEMAS_MOC|16_SCHEMAS]]** | Authoritative data type definitions for all interface payloads. |
+| **[[18_SECURITY/18_SECURITY_MOC|18_SECURITY]]** | Enforces rate limits, IP whitelists, and TLS certificates. |
 
 ---
 

@@ -140,11 +140,11 @@ $$\mathcal{C}_{\mathcal{B}}(\text{Claim}) = \mathcal{C}_{\mathcal{A}}(\text{Clai
 
 | AMOS Plane | Role & Responsibilities |
 | :--- | :--- |
-| **[[01_CANON/01_CANON_MOC\|01_CANON]]** | Parent normative plane establishing universal axioms. |
-| **[[06_AGENTS/06_AGENTS_MOC\|06_AGENTS]]** | Hosts domain-specialist agents (`amos-quantum-specialist`, `amos-bci-specialist`). |
-| **[[07_SKILLS/07_SKILLS_MOC\|07_SKILLS]]** | Houses modular skills specialized for each domain. |
-| **[[21_DOMAINS/21_DOMAINS_MOC\|21_DOMAINS]]** | Host plane managing all 48 specialist domain models and alias registries. |
-| **[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC\|25_COGNITIVE_MATRIX]]** | Routes cross-domain tensor contractions across multi-dimensional state coordinates. |
+| **[[01_CANON/01_CANON_MOC|01_CANON]]** | Parent normative plane establishing universal axioms. |
+| **[[06_AGENTS/06_AGENTS_MOC|06_AGENTS]]** | Hosts domain-specialist agents (`amos-quantum-specialist`, `amos-bci-specialist`). |
+| **[[07_SKILLS/07_SKILLS_MOC|07_SKILLS]]** | Houses modular skills specialized for each domain. |
+| **[[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS]]** | Host plane managing all 48 specialist domain models and alias registries. |
+| **[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX]]** | Routes cross-domain tensor contractions across multi-dimensional state coordinates. |
 
 ---
 

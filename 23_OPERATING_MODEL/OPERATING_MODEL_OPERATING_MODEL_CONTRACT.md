@@ -153,11 +153,11 @@ Engineered from organizational governance frameworks, military command-and-contr
 
 | AMOS Plane | Role & Responsibilities |
 | :--- | :--- |
-| **[[01_CANON/01_CANON_MOC\|01_CANON]]** | Normative law definitions paired with Operating Model accountability. |
-| **[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC\|03_CONTROL_PLANE]]** | Enforces decision rights matrices at runtime commit gates. |
-| **[[06_AGENTS/06_AGENTS_MOC\|06_AGENTS]]** | Defines agent identities bound by RACI roles. |
-| **[[20_OPERATIONS/20_OPERATIONS_MOC\|20_OPERATIONS]]** | Records escalation ledgers and steward decision logs. |
-| **[[23_OPERATING_MODEL/23_OPERATING_MODEL_MOC\|23_OPERATING_MODEL]]** | Host plane managing governance forums, decision matrices, and escalation rules. |
+| **[[01_CANON/01_CANON_MOC|01_CANON]]** | Normative law definitions paired with Operating Model accountability. |
+| **[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE]]** | Enforces decision rights matrices at runtime commit gates. |
+| **[[06_AGENTS/06_AGENTS_MOC|06_AGENTS]]** | Defines agent identities bound by RACI roles. |
+| **[[20_OPERATIONS/20_OPERATIONS_MOC|20_OPERATIONS]]** | Records escalation ledgers and steward decision logs. |
+| **[[23_OPERATING_MODEL/23_OPERATING_MODEL_MOC|23_OPERATING_MODEL]]** | Host plane managing governance forums, decision matrices, and escalation rules. |
 
 ---
 

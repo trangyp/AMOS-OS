@@ -137,10 +137,10 @@ Formulated from published neutral atom Rydberg benchmarks (Harvard/QuEra), rotat
 
 | AMOS Plane | Role & Interaction |
 | :--- | :--- |
-| **[[18_SECURITY/18_SECURITY_MOC\|18_SECURITY]]** | Ingests cryptographic keys from quantum key distribution (QKD) channels. |
-| **[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC\|25_COGNITIVE_MATRIX]]** | Implements isometric tensor network contractions on hyperbolic Poincaré lattices. |
-| **[[22_RESEARCH/01_PAPERS/01_PAPERS_MOC\|22_RESEARCH/01_PAPERS]]** | Authors and indexes foundational quantum and topological physics papers. |
-| **[[21_DOMAINS/21_DOMAINS_MOC\|21_DOMAINS]]** | Master domain routing plane coordinating quantum with financial, bio, and engineering domains. |
+| **[[18_SECURITY/18_SECURITY_MOC|18_SECURITY]]** | Ingests cryptographic keys from quantum key distribution (QKD) channels. |
+| **[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX]]** | Implements isometric tensor network contractions on hyperbolic Poincaré lattices. |
+| **[[22_RESEARCH/01_PAPERS/01_PAPERS_MOC|22_RESEARCH/01_PAPERS]]** | Authors and indexes foundational quantum and topological physics papers. |
+| **[[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS]]** | Master domain routing plane coordinating quantum with financial, bio, and engineering domains. |
 
 ---
 

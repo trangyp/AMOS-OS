@@ -128,12 +128,12 @@ where the superoperator dissipator is $\mathcal{D}[\hat{O}]\hat{\rho} = \hat{O} 
 
 | AMOS Plane | Responsibility & Binding |
 | :--- | :--- |
-| **[[02_KERNEL/02_KERNEL_MOC\|02_KERNEL]]** | Owns deterministic symplectic transformation matrices and CAS verification for quadrature state updates. |
-| **[[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC\|05_COGNITIVE_ORGANISM]]** | Maps decoded neural trajectories to working memory hypothesis spaces and metacognitive confidence vectors. |
-| **[[10_MEMORY/10_MEMORY_MOC\|10_MEMORY]]** | Direct optical associative storage of GKP-encoded neural patterns in holographic crystal buffers. |
-| **[[15_INTERFACES/15_INTERFACES_MOC\|15_INTERFACES]]** | Implements the physical optical homodyne and GEVI camera driver protocols with zero-copy shared memory. |
-| **[[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC\|21_DOMAINS/41_QUANTUM]]** | Governs physical quantum hardware drivers, pulse calibration schedules, and cryostat telemetry. |
-| **[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC\|25_COGNITIVE_MATRIX]]** | Performs holographic tensor network routing between cortical representations and LLM latent vectors. |
+| **[[02_KERNEL/02_KERNEL_MOC|02_KERNEL]]** | Owns deterministic symplectic transformation matrices and CAS verification for quadrature state updates. |
+| **[[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM]]** | Maps decoded neural trajectories to working memory hypothesis spaces and metacognitive confidence vectors. |
+| **[[10_MEMORY/10_MEMORY_MOC|10_MEMORY]]** | Direct optical associative storage of GKP-encoded neural patterns in holographic crystal buffers. |
+| **[[15_INTERFACES/15_INTERFACES_MOC|15_INTERFACES]]** | Implements the physical optical homodyne and GEVI camera driver protocols with zero-copy shared memory. |
+| **[[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC|21_DOMAINS/41_QUANTUM]]** | Governs physical quantum hardware drivers, pulse calibration schedules, and cryostat telemetry. |
+| **[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX]]** | Performs holographic tensor network routing between cortical representations and LLM latent vectors. |
 
 ---
 

@@ -122,11 +122,11 @@ Engineered from OpenTelemetry standards, W3C Distributed Tracing, and distribute
 
 | AMOS Plane | Role & Responsibilities |
 | :--- | :--- |
-| **[[02_KERNEL/02_KERNEL_MOC\|02_KERNEL]]** | Emits deterministic transition receipts and CAS state change events. |
-| **[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC\|03_CONTROL_PLANE]]** | Logs authority grants, capability token minting, and gate decisions. |
-| **[[04_RUNTIME/04_RUNTIME_MOC\|04_RUNTIME]]** | Generates thread execution metrics, garbage collection pauses, and tick spans. |
-| **[[17_OBSERVABILITY/17_OBSERVABILITY_MOC\|17_OBSERVABILITY]]** | Host plane managing tracing daemons, metric collectors, and telemetry buses. |
-| **[[20_OPERATIONS/20_OPERATIONS_MOC\|20_OPERATIONS]]** | Persists daily audit ledgers and executed validation records. |
+| **[[02_KERNEL/02_KERNEL_MOC|02_KERNEL]]** | Emits deterministic transition receipts and CAS state change events. |
+| **[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE]]** | Logs authority grants, capability token minting, and gate decisions. |
+| **[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]]** | Generates thread execution metrics, garbage collection pauses, and tick spans. |
+| **[[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY]]** | Host plane managing tracing daemons, metric collectors, and telemetry buses. |
+| **[[20_OPERATIONS/20_OPERATIONS_MOC|20_OPERATIONS]]** | Persists daily audit ledgers and executed validation records. |
 
 ---
 

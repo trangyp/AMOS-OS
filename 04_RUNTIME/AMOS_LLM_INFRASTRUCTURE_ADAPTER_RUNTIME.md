@@ -164,11 +164,11 @@ Root System Prompt [01_CANON / AGENTS.md]  (Shared by 100% of agents)
 
 | AMOS Plane | Role & Binding |
 | :--- | :--- |
-| **[[04_RUNTIME/04_RUNTIME_MOC\|04_RUNTIME]]** | Core host plane managing adapter lifecycle, thread pools, and streaming buffers. |
-| **[[02_KERNEL/02_KERNEL_MOC\|02_KERNEL]]** | Invariant validation and final CAS state commitment. |
-| **[[12_STATE/12_STATE_MOC\|12_STATE]]** | Zero-copy shared memory state bus and session registers. |
-| **[[14_TOOLS/14_TOOLS_MOC\|14_TOOLS]]** | Sandboxed tool execution environment and API adapters. |
-| **[[18_SECURITY/18_SECURITY_MOC\|18_SECURITY]]** | Token authentication, credential isolation, and capability verification. |
+| **[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]]** | Core host plane managing adapter lifecycle, thread pools, and streaming buffers. |
+| **[[02_KERNEL/02_KERNEL_MOC|02_KERNEL]]** | Invariant validation and final CAS state commitment. |
+| **[[12_STATE/12_STATE_MOC|12_STATE]]** | Zero-copy shared memory state bus and session registers. |
+| **[[14_TOOLS/14_TOOLS_MOC|14_TOOLS]]** | Sandboxed tool execution environment and API adapters. |
+| **[[18_SECURITY/18_SECURITY_MOC|18_SECURITY]]** | Token authentication, credential isolation, and capability verification. |
 
 ---
 

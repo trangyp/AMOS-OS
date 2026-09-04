@@ -159,12 +159,12 @@ blake3_receipt_hash: "3b9a8f2c1d0e4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e
 
 | AMOS Plane | Role & Responsibilities |
 | :--- | :--- |
-| **[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC\|03_CONTROL_PLANE]]** | Validates capability delegation limits and mints authority tokens. |
-| **[[06_AGENTS/06_AGENTS_MOC\|06_AGENTS]]** | Hosts orchestrator and specialist worker agent state lifecycles. |
-| **[[08_WORKFLOWS/08_WORKFLOWS_MOC\|08_WORKFLOWS]]** | Manages handoff orchestration and timeout compensation logic. |
-| **[[09_PROTOCOLS/09_PROTOCOLS_MOC\|09_PROTOCOLS]]** | Defines the physical wire protocol and Protobuf envelope contracts. |
-| **[[17_OBSERVABILITY/17_OBSERVABILITY_MOC\|17_OBSERVABILITY]]** | Logs handoff latency, resource consumption, and delegation traces. |
-| **[[18_SECURITY/18_SECURITY_MOC\|18_SECURITY]]** | Verifies cryptographic token signatures and enforces sandbox constraints. |
+| **[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE]]** | Validates capability delegation limits and mints authority tokens. |
+| **[[06_AGENTS/06_AGENTS_MOC|06_AGENTS]]** | Hosts orchestrator and specialist worker agent state lifecycles. |
+| **[[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS]]** | Manages handoff orchestration and timeout compensation logic. |
+| **[[09_PROTOCOLS/09_PROTOCOLS_MOC|09_PROTOCOLS]]** | Defines the physical wire protocol and Protobuf envelope contracts. |
+| **[[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY]]** | Logs handoff latency, resource consumption, and delegation traces. |
+| **[[18_SECURITY/18_SECURITY_MOC|18_SECURITY]]** | Verifies cryptographic token signatures and enforces sandbox constraints. |
 
 ---
 

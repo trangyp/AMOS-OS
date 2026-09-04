@@ -130,14 +130,14 @@ Every cognitive transition emits an epistemic proof tuple $\Pi = (\text{DAG}_{\t
 
 | AMOS Plane | Role & Responsibilities |
 | :--- | :--- |
-| **[[00_ROOT/00_ROOT_MOC\|00_ROOT]]** | Owns root cognitive brain manifest, system maps, and global navigation. |
-| **[[02_KERNEL/02_KERNEL_MOC\|02_KERNEL]]** | Executes deterministic transition ALUs and Lean 4 invariant proof checkers. |
-| **[[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC\|05_COGNITIVE_ORGANISM]]** | Coordinates multi-organ perception, attention, and metacognitive hypothesis generation. |
-| **[[06_AGENTS/06_AGENTS_MOC\|06_AGENTS]]** | Scopes bounded agent identities and contract boundaries across fractal tiers. |
-| **[[08_WORKFLOWS/08_WORKFLOWS_MOC\|08_WORKFLOWS]]** | Governs multi-step state machine orchestrations and compensation logic. |
-| **[[10_MEMORY/10_MEMORY_MOC\|10_MEMORY]]** | Manages fractal learning, episodic replay, and hierarchical memory reduction. |
-| **[[17_OBSERVABILITY/17_OBSERVABILITY_MOC\|17_OBSERVABILITY]]** | Monitors continuous KL divergence, Rényi entropy metrics, and shard telemetry. |
-| **[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC\|25_COGNITIVE_MATRIX]]** | Maps tensor routing indices across fractal scale coordinates $(k, x, y, z)$. |
+| **[[00_ROOT/00_ROOT_MOC|00_ROOT]]** | Owns root cognitive brain manifest, system maps, and global navigation. |
+| **[[02_KERNEL/02_KERNEL_MOC|02_KERNEL]]** | Executes deterministic transition ALUs and Lean 4 invariant proof checkers. |
+| **[[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM]]** | Coordinates multi-organ perception, attention, and metacognitive hypothesis generation. |
+| **[[06_AGENTS/06_AGENTS_MOC|06_AGENTS]]** | Scopes bounded agent identities and contract boundaries across fractal tiers. |
+| **[[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS]]** | Governs multi-step state machine orchestrations and compensation logic. |
+| **[[10_MEMORY/10_MEMORY_MOC|10_MEMORY]]** | Manages fractal learning, episodic replay, and hierarchical memory reduction. |
+| **[[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY]]** | Monitors continuous KL divergence, Rényi entropy metrics, and shard telemetry. |
+| **[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX]]** | Maps tensor routing indices across fractal scale coordinates $(k, x, y, z)$. |
 
 ---
 

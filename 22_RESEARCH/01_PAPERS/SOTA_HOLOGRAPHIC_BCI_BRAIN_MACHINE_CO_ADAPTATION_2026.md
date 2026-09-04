@@ -120,13 +120,13 @@ To maintain closed-loop sensorimotor assimilation below biological perceptual th
 
 | AMOS Plane | Role & Responsibility |
 | :--- | :--- |
-| **[[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC\|05_COGNITIVE_ORGANISM]]** | Integrates decoded motor intents into somatic state representations and intention arbiters. |
-| **[[08_WORKFLOWS/08_WORKFLOWS_MOC\|08_WORKFLOWS]]** | Manages autonomous calibration workflows and real-time safety interlocks. |
-| **[[14_TOOLS/14_TOOLS_MOC\|14_TOOLS]]** | Encapsulates GPU-accelerated WGS hologram calculation and SLM driver tool adapters. |
-| **[[15_INTERFACES/15_INTERFACES_MOC\|15_INTERFACES]]** | Owns direct hardware bus drivers for camera sensors, DACs, and laser triggers. |
-| **[[17_OBSERVABILITY/17_OBSERVABILITY_MOC\|17_OBSERVABILITY]]** | Continuously logs closed-loop timing telemetry, photon dose metrics, and error rates. |
-| **[[21_DOMAINS/14_C04_BIO_NEURO/14_C04_BIO_NEURO_MOC\|14_C04_BIO_NEURO]]** | Nearest existing domain plane for neurotechnology models, neural coordinate atlases, and bio-safety rules (registered gap: no dedicated BCI_NEUROTECHNOLOGY domain yet). |
-| **[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC\|25_COGNITIVE_MATRIX]]** | Routes high-dimensional neural latent vectors into the full OS cognitive coordinate matrix. |
+| **[[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM]]** | Integrates decoded motor intents into somatic state representations and intention arbiters. |
+| **[[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS]]** | Manages autonomous calibration workflows and real-time safety interlocks. |
+| **[[14_TOOLS/14_TOOLS_MOC|14_TOOLS]]** | Encapsulates GPU-accelerated WGS hologram calculation and SLM driver tool adapters. |
+| **[[15_INTERFACES/15_INTERFACES_MOC|15_INTERFACES]]** | Owns direct hardware bus drivers for camera sensors, DACs, and laser triggers. |
+| **[[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY]]** | Continuously logs closed-loop timing telemetry, photon dose metrics, and error rates. |
+| **[[21_DOMAINS/14_C04_BIO_NEURO/14_C04_BIO_NEURO_MOC|14_C04_BIO_NEURO]]** | Nearest existing domain plane for neurotechnology models, neural coordinate atlases, and bio-safety rules (registered gap: no dedicated BCI_NEUROTECHNOLOGY domain yet). |
+| **[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX]]** | Routes high-dimensional neural latent vectors into the full OS cognitive coordinate matrix. |
 
 ---
 

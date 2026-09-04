@@ -124,10 +124,10 @@ This dynamic threshold prevents runaway potentiation, stabilizing memory traces 
 
 | AMOS Plane | Role in Spiking-Astrocyte Integration |
 | :--- | :--- |
-| **[[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC\|05_COGNITIVE_ORGANISM]]** | Hosts biophysical neural models and homeostatic regulation loops. |
-| **[[10_MEMORY/10_MEMORY_MOC\|10_MEMORY]]** | Manages lifelong synaptic memory consolidation and slow astrocytic decay curves. |
-| **[[13_MODELS/13_MODELS_MOC\|13_MODELS]]** | Provides spiking-astrocyte neural network architectures ($\text{SANNs}$). |
-| **[[21_DOMAINS/14_C04_BIO_NEURO/14_C04_BIO_NEURO_MOC\|14_C04_BIO_NEURO]]** | Authoritative neuroscience domain specifications and empirical calibration data. |
+| **[[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM]]** | Hosts biophysical neural models and homeostatic regulation loops. |
+| **[[10_MEMORY/10_MEMORY_MOC|10_MEMORY]]** | Manages lifelong synaptic memory consolidation and slow astrocytic decay curves. |
+| **[[13_MODELS/13_MODELS_MOC|13_MODELS]]** | Provides spiking-astrocyte neural network architectures ($\text{SANNs}$). |
+| **[[21_DOMAINS/14_C04_BIO_NEURO/14_C04_BIO_NEURO_MOC|14_C04_BIO_NEURO]]** | Authoritative neuroscience domain specifications and empirical calibration data. |
 
 ---
 

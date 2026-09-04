@@ -1,3230 +1,3313 @@
+````markdown
 ---
-title: "CONSTITUTIONAL GOVERNANCE & POLICY ENFORCEMENT KERNEL"
-type: kernel
-source: 02_KERNEL
-artifact_id: AMOS-KERNEL-GOVERNANCE-MASTER
+title: "K_GOVERNANCE — Constitutional Governance, Policy Admissibility & Governed-Effect Boundary Kernel"
+type: kernel_architecture_specification
+artifact_id: amos_02_kernel_k_governance
 canonical_name: K_GOVERNANCE
-status: CANONICAL
-conclusion_class: CANONICAL
-amos_core_target: v4.4
+
 origin_architect: Trang Phan
 steward: Trang Phan
-version: 2.0.0
-created: '2026-08-25'
-updated: '2026-08-28'
+system: AMOS OS
+amos_core_target: v4.4
+
 plane: 02_KERNEL
 domain: governance
+path: 02_KERNEL/K_GOVERNANCE.md
+
+version: 3.0.0
+updated: 2026-09-04
+
+status: ACTIVE_SPECIFICATION
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
+canonical_status: CONDITIONAL
+
+implementation_status: NOT_ESTABLISHED_PLANE_WIDE
+runtime_enforcement_status: NOT_ESTABLISHED
+formal_verification_status: NOT_ESTABLISHED
+deployment_validation_status: NOT_ESTABLISHED
+
+source_lineage:
+  - AMOS_CORE_v4_4_lineage
+  - AMOS_corpus
+  - 01_CANON
+  - 02_KERNEL/K_CORE_LAWS
+  - 02_KERNEL/K_AUTHORITY
+  - 02_KERNEL/K_FAIL_CLOSED
+  - 02_KERNEL/K_FAILURE_RECOVERY
+  - 02_KERNEL/K_GOVERNED_EVOLUTION
+
+aliases:
+  - Governance Kernel
+  - Constitutional Governance Kernel
+  - Policy Admissibility Kernel
+  - Governed-Effect Boundary Kernel
+
 tags:
   - amos-os
   - kernel
   - governance
   - constitutional-policy
-  - enforcement-gates
-  - rscf/claim
-  - rscf/state/canonical
-aliases:
-  - Governance Kernel
-  - K_GOVERNANCE
-  - Constitutional Policy Core
-  - Policy Enforcement Gate
+  - authority
+  - admissibility
+  - policy
+  - decision-rights
+  - provenance
+  - rscf
+  - fail-closed
+  - commit-time-validation
+  - governed-evolution
+
 rscf:
   state: DERIVED
-  claim_class: DERIVED
+  claim_class: AMOS_MODEL
   provenance: AMOS_corpus
-  scope: AMOS_general
+  scope: kernel_governance
+  node_id: k_governance
+  node_type: kernel
+  confidence_ceiling: DERIVED
 ---
 
-# CONSTITUTIONAL GOVERNANCE & POLICY ENFORCEMENT KERNEL
+# K_GOVERNANCE
+
+## Constitutional Governance, Policy Admissibility & Governed-Effect Boundary Kernel
+
+**Origin Architect / Steward:** Trang Phan  
+**AMOS_CORE Target:** `v4.4`
+
+---
+
+# 0. Purpose
+
+`K_GOVERNANCE` defines the AMOS kernel-level governance semantics that determine whether a proposed policy, decision, mutation, disclosure, delegation, adaptive change, or external effect is structurally eligible to proceed to control-plane authorization and commit evaluation.
+
+Its purpose is not to centralize all governance into the kernel.
+
+Its purpose is to establish the invariant constitutional boundary that downstream governance machinery must preserve.
+
+The primary governance sequence is:
+
+```text
+PROPOSAL
+→ IDENTIFY GOVERNED EFFECT
+→ RESOLVE APPLICABLE CANON
+→ RESOLVE PRINCIPAL / AUTHORITY
+→ RESOLVE SCOPE / REGIME / TIME
+→ RESOLVE HARD CONSTRAINTS
+→ RESOLVE POLICY SET
+→ RESOLVE CONFLICT / PRECEDENCE
+→ EVALUATE ADMISSIBILITY
+→ CHALLENGE
+→ CONTROL-PLANE AUTHORIZATION
+→ COMMIT-TIME REVALIDATION
+→ COMMIT | HOLD | REJECT | ESCALATE
+→ RECEIPT
+````
+
+Hard separation:
+
+```text
+CANON != GOVERNANCE KERNEL
+GOVERNANCE KERNEL != CONTROL PLANE
+CONTROL PLANE != RUNTIME
+RUNTIME != OBSERVABILITY
 
-## ĐẶC TẢ HÌNH THỨC HẠT NHÂN QUẢN TRỊ HIẾN PHÁP & THỰC THI CHÍNH SÁCH
+POLICY != AUTHORITY
+AUTHORITY != CAPABILITY
+AUTHENTICATION != AUTHORIZATION
+AUTHORIZATION != COMMIT
+COMMIT != CORRECTNESS
 
-### 102 Cổng Quyết Định Bất Biến, Cơ Chế Giám Sát Độc Lập và Hiến Pháp Tự Động Bất Khả Xâm Phạm
+PROPOSAL != APPROVAL
+APPROVAL != EFFECT
+LOGGED != APPROVED
 
-> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS
-> **Plane:** `02_KERNEL/K_GOVERNANCE.md`
-> **Trạng thái:** `CANONICAL` (Trụ Cột Hiến Pháp Hệ Thống)
+DOCUMENTED != IMPLEMENTED
+IMPLEMENTED != VALIDATED
+VALIDATED != FORMALLY_VERIFIED
 
-______________________________________________________________________
+UNKNOWN/GAP != PASS
+```
 
-## 1. NỀN TẢNG QUẢN TRỊ HIẾN PHÁP AMOS OS
+---
 
-Quản trị trong AMOS OS được thiết kế như một hệ thống kiểm soát tự động phi tập trung, bảo đảm rằng không một cá nhân, tác tử AI, hay quy trình phần mềm nào có thể phá vỡ các nguyên tắc bảo vệ quyền con người, an toàn sinh học và sự toàn vẹn của vũ trụ:
+# 1. Architectural Role
 
-### 1.1. Cổng Thực Thi Chính Sách Governance Gate #1
+`K_GOVERNANCE` owns kernel-level definitions for:
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_01`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+1. constitutional governance invariants;
+2. policy applicability;
+3. policy precedence;
+4. policy conflict resolution;
+5. governed-effect classification;
+6. principal and delegation semantics;
+7. authority separation;
+8. consequence-sensitive governance;
+9. commit-time governance freshness;
+10. governance receipts;
+11. governance escalation;
+12. governance supersession;
+13. policy mutation constraints;
+14. anti-self-authorization;
+15. governance provenance;
+16. governance liveness and termination.
 
-#### Điều khoản Chi tiết:
+It does not own:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+canonical source authority
+runtime execution
+persistent state implementation
+identity-provider implementation
+cryptographic key custody
+telemetry infrastructure
+deployment-specific approval workflows
+external institutional authority
+```
 
-### 1.2. Cổng Thực Thi Chính Sách Governance Gate #2
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_02`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+# 2. Constitutional Governance Priority
 
-#### Điều khoản Chi tiết:
+AMOS governance preserves:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+INTEGRITY
+>
+COMPLETENESS
+>
+FLUENCY
+>
+SPEED
+>
+TOKEN SAVINGS
+```
 
-### 1.3. Cổng Thực Thi Chính Sách Governance Gate #3
+Governance optimization may never weaken integrity.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_03`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+Examples:
 
-#### Điều khoản Chi tiết:
+```text
+FASTER APPROVAL + STALE AUTHORITY
+→ REJECT
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+LOWER GOVERNANCE LATENCY + LOST PROVENANCE
+→ REJECT
 
-### 1.4. Cổng Thực Thi Chính Sách Governance Gate #4
+MORE AUTONOMY + WEAKER COMMIT GATES
+→ REJECT
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_04`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+MORE POLICY COVERAGE + FABRICATED RULES
+→ REJECT
 
-#### Điều khoản Chi tiết:
+SIMPLER POLICY + HIDDEN EXCEPTION
+→ REJECT
+```
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+---
 
-### 1.5. Cổng Thực Thi Chính Sách Governance Gate #5
+# 3. Core Governance Invariants
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_05`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+## GOV-INV-001 — Attribution
 
-#### Điều khoản Chi tiết:
+```text
+AMOS OS origin architect = Trang Phan
+```
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Attribution must remain preserved through governance derivation, delegation, policy transformation, export, and evolution.
 
-### 1.6. Cổng Thực Thi Chính Sách Governance Gate #6
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_06`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+## GOV-INV-002 — Canon Does Not Self-Execute
 
-#### Điều khoản Chi tiết:
+```text
+CANONICAL_RULE
+!=
+EXECUTED_ENFORCEMENT
+```
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+A rule can be canonical without being implemented.
 
-### 1.7. Cổng Thực Thi Chính Sách Governance Gate #7
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_07`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+## GOV-INV-003 — Capability Is Not Authority
 
-#### Điều khoản Chi tiết:
+```text
+CAPABILITY != AUTHORITY
+```
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+The fact that an agent, model, person, API, service, or process can perform an action does not establish permission to perform it.
 
-### 1.8. Cổng Thực Thi Chính Sách Governance Gate #8
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_08`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+## GOV-INV-004 — Authentication Is Not Authorization
 
-#### Điều khoản Chi tiết:
+```text
+AUTHENTICATED
+!=
+AUTHORIZED
+```
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Identity verification does not determine whether a requested action is permitted.
 
-### 1.9. Cổng Thực Thi Chính Sách Governance Gate #9
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_09`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+## GOV-INV-005 — Authorization Is Not Commit
 
-#### Điều khoản Chi tiết:
+```text
+AUTHORIZED
+!=
+COMMITTED
+```
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Commit requires independent state, freshness, constraint, and effect checks.
 
-### 1.10. Cổng Thực Thi Chính Sách Governance Gate #10
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_10`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+## GOV-INV-006 — Policy Is Not Authority
 
-#### Điều khoản Chi tiết:
+```text
+POLICY_ALLOW
+!=
+AUTHORITY_GRANT
+```
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+A permissive policy cannot create authority that does not otherwise exist.
 
-### 1.11. Cổng Thực Thi Chính Sách Governance Gate #11
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_11`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+## GOV-INV-007 — Governance Is Scope-Bound
 
-#### Điều khoản Chi tiết:
+Every consequential governance decision inherits an applicability envelope.
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```yaml
+governance_scope:
+  principal:
+  action:
+  resource:
+  recipient:
+  environment:
+  jurisdiction:
+  system:
+  scale:
+  time:
+  regime:
+  purpose:
+  constraints: []
+```
 
-### 1.12. Cổng Thực Thi Chính Sách Governance Gate #12
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_12`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+## GOV-INV-008 — Governance Is Freshness-Bound
 
-#### Điều khoản Chi tiết:
+```text
+VALID_YESTERDAY
+!=
+VALID_NOW
+```
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Mutable governance inputs must be revalidated when materially time-sensitive.
 
-### 1.13. Cổng Thực Thi Chính Sách Governance Gate #13
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_13`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+## GOV-INV-009 — Governance Is Provenance-Bound
 
-#### Điều khoản Chi tiết:
+Important policy, authority, delegation, exemption, and override claims must retain source lineage.
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+POLICY_TEXT_WITHOUT_SOURCE
+!=
+AUTHORITATIVE_POLICY
+```
 
-### 1.14. Cổng Thực Thi Chính Sách Governance Gate #14
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_14`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+## GOV-INV-010 — Unknown Is Not Approval
 
-#### Điều khoản Chi tiết:
+For hard governance predicates:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+TRUE
+→ satisfied
 
-### 1.15. Cổng Thực Thi Chính Sách Governance Gate #15
+FALSE
+→ violated
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_15`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+UNKNOWN
+→ not established
+```
 
-#### Điều khoản Chi tiết:
+Therefore:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+UNKNOWN/GAP != PASS
+```
 
-### 1.16. Cổng Thực Thi Chính Sách Governance Gate #16
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_16`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+## GOV-INV-011 — No Self-Authorization
 
-#### Điều khoản Chi tiết:
+```text
+SYSTEM_PROPOSES_CHANGE
+!=
+SYSTEM_AUTHORIZES_CHANGE
+```
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+A component may recommend its own modification.
 
-### 1.17. Cổng Thực Thi Chính Sách Governance Gate #17
+It may not manufacture the authority required to approve that modification.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_17`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+---
 
-#### Điều khoản Chi tiết:
+## GOV-INV-012 — No Silent Policy Conflict Resolution
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+CONFLICTING_APPLICABLE_POLICIES
+→ RESOLVE PRECEDENCE / SCOPE / VERSION / AUTHORITY
 
-### 1.18. Cổng Thực Thi Chính Sách Governance Gate #18
+if unresolved:
+→ HOLD / COMPETING / ESCALATE
+```
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_18`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+Never silently choose the more permissive rule.
 
-#### Điều khoản Chi tiết:
+---
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+## GOV-INV-013 — Rights / Hard Constraints Are Not Optimizations
 
-### 1.19. Cổng Thực Thi Chính Sách Governance Gate #19
+A hard non-negotiable constraint cannot be traded away merely because doing so improves:
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_19`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+```text
+speed
+utility
+profit
+accuracy
+convenience
+throughput
+coverage
+```
 
-#### Điều khoản Chi tiết:
+---
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+## GOV-INV-014 — Governance Receipts Are Not Authority
 
-### 1.20. Cổng Thực Thi Chính Sách Governance Gate #20
+```text
+LOGGED != APPROVED
+RECEIPT != AUTHORIZATION
+```
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_20`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+Receipts record governance evidence.
 
-#### Điều khoản Chi tiết:
+They do not create governance legitimacy.
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+---
 
-### 1.21. Cổng Thực Thi Chính Sách Governance Gate #21
+## GOV-INV-015 — Commit-Time Revalidation
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_21`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+```text
+VALID_AT_PLAN_TIME
+!=
+VALID_AT_COMMIT_TIME
+```
 
-#### Điều khoản Chi tiết:
+Mutable governance conditions must be rechecked before consequential commit.
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+---
 
-### 1.22. Cổng Thực Thi Chính Sách Governance Gate #22
+## GOV-INV-016 — Revocation Dominates Cached Permission
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_22`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+```text
+CACHED_ALLOW
++
+CURRENT_REVOCATION
+→ DENY / HOLD
+```
 
-#### Điều khoản Chi tiết:
+Cache cannot override fresher authoritative revocation evidence.
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+---
 
-### 1.23. Cổng Thực Thi Chính Sách Governance Gate #23
+# 4. Governed Effect
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_23`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+A governed effect is any proposed transition for which authority, policy, constraints, rights, consequences, or institutional rules materially affect admissibility.
 
-#### Điều khoản Chi tiết:
+Examples:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+state mutation
+memory write
+external disclosure
+external message
+financial instruction
+resource allocation
+agent delegation
+privilege escalation
+policy mutation
+model promotion
+deployment promotion
+data deletion
+data export
+cross-boundary transfer
+autonomous action
+break-glass action
+governed evolution
+```
 
-### 1.24. Cổng Thực Thi Chính Sách Governance Gate #24
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_24`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+# 5. Governance Object
 
-#### Điều khoản Chi tiết:
+A normalized governed proposal is:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```yaml
+GovernedProposal:
+  proposal_id:
 
-### 1.25. Cổng Thực Thi Chính Sách Governance Gate #25
+  proposer:
+  acting_principal:
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_25`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+  action:
+  resource:
+  recipient:
+  purpose:
 
-#### Điều khoản Chi tiết:
+  requested_effect:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+  scope:
+  regime:
+  time:
 
-### 1.26. Cổng Thực Thi Chính Sách Governance Gate #26
+  authority_ref:
+  delegation_chain: []
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_26`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+  applicable_policies: []
+  hard_constraints: []
+  soft_constraints: []
 
-#### Điều khoản Chi tiết:
+  state_version:
+  causal_epoch:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+  provenance:
+  evidence_refs: []
 
-### 1.27. Cổng Thực Thi Chính Sách Governance Gate #27
+  reversibility:
+  consequence:
+  blast_radius:
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_27`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+  requested_commit_mode:
 
-#### Điều khoản Chi tiết:
+  status:
+```
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+---
 
-### 1.28. Cổng Thực Thi Chính Sách Governance Gate #28
+# 6. Governance Gate Model
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_28`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+For governed proposal \(a\), define:
 
-#### Điều khoản Chi tiết:
+* \(C(a)\): canonical applicability is resolved;
+* \(I(a)\): principal identity is resolved;
+* \(A(a)\): authority is valid;
+* \(D(a)\): delegation is valid;
+* \(P(a)\): applicable policy set passes;
+* \(H(a)\): hard constraints pass;
+* \(S(a)\): state/scope compatibility passes;
+* \(F(a)\): freshness passes;
+* \(R(a)\): regime compatibility passes;
+* \(V(a)\): provenance requirements pass;
+* \(E(a)\): effect-specific prerequisites pass.
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Then:
 
-### 1.29. Cổng Thực Thi Chính Sách Governance Gate #29
+$$
+GovernanceEligible(a)
+=
+C(a)
+\land I(a)
+\land A(a)
+\land D(a)
+\land P(a)
+\land H(a)
+\land S(a)
+\land F(a)
+\land R(a)
+\land V(a)
+\land E(a)
+$$
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_29`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+For a hard fail-closed governed effect:
 
-#### Điều khoản Chi tiết:
+$$
+GovernanceEligible(a)\neq TRUE
+\Rightarrow
+\neg Commit(a)
+$$
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+This is an `AMOS_MODEL` of governance admissibility.
 
-### 1.30. Cổng Thực Thi Chính Sách Governance Gate #30
+It is not proof of a deployed enforcement mechanism.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_30`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+---
 
-#### Điều khoản Chi tiết:
+# 7. MECE Governance Gate Families
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+The legacy pattern of hundreds of duplicated numbered gates is rejected.
 
-### 1.31. Cổng Thực Thi Chính Sách Governance Gate #31
+AMOS instead uses semantically distinct gate families.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_31`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+```text
+G01 — CANON & POLICY IDENTITY
+G02 — PRINCIPAL IDENTITY
+G03 — AUTHORITY
+G04 — DELEGATION
+G05 — SCOPE / PURPOSE
+G06 — HARD CONSTRAINTS
+G07 — POLICY COMPATIBILITY
+G08 — PROVENANCE
+G09 — STATE / VERSION / FRESHNESS
+G10 — CONSEQUENCE / REVERSIBILITY
+G11 — COMMIT-TIME REVALIDATION
+G12 — RECEIPT / ACCOUNTABILITY
+```
 
-#### Điều khoản Chi tiết:
+Additional domain-specific gates may be composed without inventing artificial numbered duplicates.
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+---
 
-### 1.32. Cổng Thực Thi Chính Sách Governance Gate #32
+# 8. G01 — Canon & Policy Identity Gate
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_32`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+Required questions:
 
-#### Điều khoản Chi tiết:
+```text
+Which rule applies?
+Which exact version?
+Which canonical source?
+Has it been superseded?
+Is it source canon, derived policy, local configuration, or external law?
+```
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Gate fails if identity cannot be resolved.
 
-### 1.33. Cổng Thực Thi Chính Sách Governance Gate #33
+```text
+SIMILAR POLICY NAME
+!=
+SAME POLICY
+```
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_33`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+---
 
-#### Điều khoản Chi tiết:
+# 9. G02 — Principal Identity Gate
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Resolve:
 
-### 1.34. Cổng Thực Thi Chính Sách Governance Gate #34
+```text
+who is acting
+on whose behalf
+under which identity
+under which role
+under which session
+under which organization
+```
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_34`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+Identity ambiguity blocks consequential actions where principal identity is load-bearing.
 
-#### Điều khoản Chi tiết:
+---
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+# 10. G03 — Authority Gate
 
-### 1.35. Cổng Thực Thi Chính Sách Governance Gate #35
+Authority must be:
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_35`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+```text
+explicit
+applicable
+current
+scope-bound
+resource-bound
+action-bound
+recipient-bound where relevant
+revocable
+traceable
+```
 
-#### Điều khoản Chi tiết:
+Authority evaluation may return:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+VALID
+INVALID
+EXPIRED
+REVOKED
+OUT_OF_SCOPE
+UNKNOWN
+```
 
-### 1.36. Cổng Thực Thi Chính Sách Governance Gate #36
+Only `VALID` satisfies a hard authority gate.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_36`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+---
 
-#### Điều khoản Chi tiết:
+# 11. G04 — Delegation Gate
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Delegated authority must preserve an explicit chain.
 
-### 1.37. Cổng Thực Thi Chính Sách Governance Gate #37
+```yaml
+delegation:
+  issuer:
+  delegate:
+  parent_authority:
+  granted_capabilities: []
+  resource_scope:
+  recipient_scope:
+  purpose_scope:
+  valid_from:
+  valid_until:
+  cumulative_limits:
+  attenuation_rules:
+  revocation_ref:
+```
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_37`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+Hard invariant:
 
-#### Điều khoản Chi tiết:
+```text
+DELEGATE_AUTHORITY
+⊆
+ISSUER_AUTHORITY
+```
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Delegation cannot legitimately expand beyond the delegator's own authority.
 
-### 1.38. Cổng Thực Thi Chính Sách Governance Gate #38
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_38`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+# 12. Authority Attenuation
 
-#### Điều khoản Chi tiết:
+For authority sets \(A_0,A_1,\ldots,A_n\):
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+$$
+A_{i+1}\subseteq A_i
+$$
 
-### 1.39. Cổng Thực Thi Chính Sách Governance Gate #39
+for ordinary delegated attenuation.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_39`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+This is a set-theoretic governance model.
 
-#### Điều khoản Chi tiết:
+If a later principal has independent authority from another source, that authority must be represented separately rather than disguised as delegation expansion.
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+---
 
-### 1.40. Cổng Thực Thi Chính Sách Governance Gate #40
+# 13. G05 — Scope / Purpose Gate
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_40`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+A governance permission must bind:
 
-#### Điều khoản Chi tiết:
+```text
+action
+resource
+recipient
+purpose
+time
+environment
+jurisdiction
+regime
+```
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Example:
 
-### 1.41. Cổng Thực Thi Chính Sách Governance Gate #41
+```text
+ALLOW READ
+!=
+ALLOW WRITE
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_41`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+ALLOW INTERNAL USE
+!=
+ALLOW EXTERNAL DISCLOSURE
 
-#### Điều khoản Chi tiết:
+ALLOW TEST ENVIRONMENT
+!=
+ALLOW PRODUCTION
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+ALLOW ANALYSIS
+!=
+ALLOW DEPLOYMENT
+```
 
-### 1.42. Cổng Thực Thi Chính Sách Governance Gate #42
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_42`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+# 14. Purpose Limitation
 
-#### Điều khoản Chi tiết:
+When authority or policy is purpose-bound:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+AUTHORIZED_FOR_PURPOSE_A
+!=
+AUTHORIZED_FOR_PURPOSE_B
+```
 
-### 1.43. Cổng Thực Thi Chính Sách Governance Gate #43
+Purpose drift requires re-evaluation.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_43`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+---
 
-#### Điều khoản Chi tiết:
+# 15. G06 — Hard Constraint Gate
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Hard constraints may include:
 
-### 1.44. Cổng Thực Thi Chính Sách Governance Gate #44
+```text
+safety
+privacy
+consent
+legal constraints
+security policy
+resource boundaries
+data residency
+non-disclosure
+irreversibility limits
+stewardship requirements
+human approval requirements
+```
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_44`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+For hard constraint \(h\):
 
-#### Điều khoản Chi tiết:
+$$
+h \neq TRUE
+\Rightarrow
+\neg Commit
+$$
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+for actions requiring \(h\).
 
-### 1.45. Cổng Thực Thi Chính Sách Governance Gate #45
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_45`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+# 16. Soft Constraints
 
-#### Điều khoản Chi tiết:
+Soft preferences may include:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+cost preference
+latency preference
+style preference
+preferred provider
+preferred route
+optimization target
+```
 
-### 1.46. Cổng Thực Thi Chính Sách Governance Gate #46
+Soft constraints should influence ranking.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_46`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+They must not masquerade as constitutional prohibitions.
 
-#### Điều khoản Chi tiết:
+---
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+# 17. G07 — Policy Compatibility Gate
 
-### 1.47. Cổng Thực Thi Chính Sách Governance Gate #47
+Given applicable policies:
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_47`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+$$
+P=\{p_1,\dots,p_n\}
+$$
 
-#### Điều khoản Chi tiết:
+AMOS must determine whether their combined constraints are compatible.
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Possible results:
 
-### 1.48. Cổng Thực Thi Chính Sách Governance Gate #48
+```text
+COMPATIBLE
+CONDITIONALLY_COMPATIBLE
+CONFLICTING
+INAPPLICABLE
+UNKNOWN
+```
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_48`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+---
 
-#### Điều khoản Chi tiết:
+# 18. Policy Precedence
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Policy precedence must be explicit.
 
-### 1.49. Cổng Thực Thi Chính Sách Governance Gate #49
+A generic precedence model may use:
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_49`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+```text
+higher authoritative source
+>
+lower authoritative source
 
-#### Điều khoản Chi tiết:
+specific applicable rule
+>
+generic applicable rule
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+current valid version
+>
+superseded version
+```
 
-### 1.50. Cổng Thực Thi Chính Sách Governance Gate #50
+only where the relevant canon actually defines that ordering.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_50`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+Do not invent legal or institutional precedence from architectural intuition.
 
-#### Điều khoản Chi tiết:
+---
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+# 19. Policy Conflict Resolution
 
-### 1.51. Cổng Thực Thi Chính Sách Governance Gate #51
+Resolve policy conflict through:
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_51`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+```text
+1. identity
+2. version
+3. source authority
+4. scope
+5. purpose
+6. jurisdiction
+7. time
+8. regime
+9. supersession
+10. explicit exception
+11. explicit precedence
+```
 
-#### Điều khoản Chi tiết:
+If conflict remains material:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+HOLD
+or
+ESCALATE
+```
 
-### 1.52. Cổng Thực Thi Chính Sách Governance Gate #52
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_52`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+# 20. Exception Semantics
 
-#### Điều khoản Chi tiết:
+An exception must be:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+explicit
+bounded
+authorized
+traceable
+time-limited where appropriate
+scope-limited
+revocable
+```
 
-### 1.53. Cổng Thực Thi Chính Sách Governance Gate #53
+Hard invariant:
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_53`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+```text
+EXCEPTION
+!=
+POLICY DELETION
+```
 
-#### Điều khoản Chi tiết:
+---
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+# 21. Override Semantics
 
-### 1.54. Cổng Thực Thi Chính Sách Governance Gate #54
+An override requires a higher-order or otherwise explicitly authorized rule.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_54`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+```text
+REQUESTED_OVERRIDE
+!=
+VALID_OVERRIDE
+```
 
-#### Điều khoản Chi tiết:
+Override records should preserve:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```yaml
+override:
+  override_id:
+  target_policy:
+  authority_ref:
+  reason:
+  scope:
+  valid_from:
+  valid_until:
+  constraints:
+  audit_ref:
+```
 
-### 1.55. Cổng Thực Thi Chính Sách Governance Gate #55
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_55`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+# 22. G08 — Provenance Gate
 
-#### Điều khoản Chi tiết:
+Governance claims should preserve provenance for:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+policy source
+policy version
+authority source
+delegation source
+exception source
+override source
+consent source
+approval source
+revocation source
+```
 
-### 1.56. Cổng Thực Thi Chính Sách Governance Gate #56
+Repeated copies of the same policy source do not create independent authority.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_56`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+---
 
-#### Điều khoản Chi tiết:
+# 23. Provenance Sybil Firewall
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+MULTIPLE DOCUMENTS
+!=
+MULTIPLE AUTHORITIES
 
-### 1.57. Cổng Thực Thi Chính Sách Governance Gate #57
+MULTIPLE SIGNATURES
+!=
+MULTIPLE INDEPENDENT GOVERNANCE ROOTS
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_57`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+MULTIPLE POLICY MIRRORS
+!=
+MULTIPLE INDEPENDENT POLICIES
+```
 
-#### Điều khoản Chi tiết:
+---
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+# 24. G09 — State / Version / Freshness Gate
 
-### 1.58. Cổng Thực Thi Chính Sách Governance Gate #58
+Governance depends on mutable state.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_58`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+Examples:
 
-#### Điều khoản Chi tiết:
+```text
+authority version
+policy version
+resource version
+recipient identity
+state version
+consent state
+revocation state
+security state
+regime
+```
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+A stale governance read must not silently authorize a newer state.
 
-### 1.59. Cổng Thực Thi Chính Sách Governance Gate #59
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_59`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+# 25. TOCTOU Governance Protection
 
-#### Điều khoản Chi tiết:
+```text
+CHECK AT t0
+→ STATE CHANGES
+→ EXECUTE AT t1
+```
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+is a governance risk.
 
-### 1.60. Cổng Thực Thi Chính Sách Governance Gate #60
+For mutable load-bearing predicates, AMOS requires commit-time revalidation.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_60`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+---
 
-#### Điều khoản Chi tiết:
+# 26. G10 — Consequence / Reversibility Gate
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Governance burden should increase with:
 
-### 1.61. Cổng Thực Thi Chính Sách Governance Gate #61
+```text
+impact
+irreversibility
+blast radius
+uncertainty
+externality
+authority sensitivity
+```
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_61`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+A conceptual consequence vector is:
 
-#### Điều khoản Chi tiết:
+$$
+Q(a)
+=
+\langle
+Impact,
+Irreversibility,
+BlastRadius,
+Externality,
+Uncertainty
+\rangle
+$$
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+No universal scalar conversion is established.
 
-### 1.62. Cổng Thực Thi Chính Sách Governance Gate #62
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_62`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+# 27. Reversibility Preference
 
-#### Điều khoản Chi tiết:
+Under otherwise sufficiently comparable conditions:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+REVERSIBLE
+>
+IRREVERSIBLE
+```
 
-### 1.63. Cổng Thực Thi Chính Sách Governance Gate #63
+High-impact irreversible actions require stronger governance evidence.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_63`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+---
 
-#### Điều khoản Chi tiết:
+# 28. G11 — Commit-Time Revalidation Gate
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Immediately before commit, revalidate mutable load-bearing governance facts:
 
-### 1.64. Cổng Thực Thi Chính Sách Governance Gate #64
+```text
+authority
+delegation
+revocation
+policy version
+resource identity
+recipient identity
+scope
+purpose
+state version
+hard constraints
+exposure budget
+effect eligibility
+```
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_64`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+---
 
-#### Điều khoản Chi tiết:
+# 29. G12 — Receipt & Accountability Gate
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Consequential governance should emit a receipt sufficient for:
 
-### 1.65. Cổng Thực Thi Chính Sách Governance Gate #65
+```text
+audit
+replay
+appeal
+reconciliation
+incident analysis
+governance review
+```
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_65`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+The receipt must not contain unnecessary sensitive content.
 
-#### Điều khoản Chi tiết:
+---
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+# 30. Governance Decision Classes
 
-### 1.66. Cổng Thực Thi Chính Sách Governance Gate #66
+The kernel governance outcome is one of:
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_66`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+```text
+ALLOW
+ALLOW_WITH_CONDITIONS
+HOLD
+REJECT
+ESCALATE
+```
 
-#### Điều khoản Chi tiết:
+These are governance decisions, not execution states.
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+---
 
-### 1.67. Cổng Thực Thi Chính Sách Governance Gate #67
+# 31. ALLOW
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_67`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+Use when all required hard governance gates pass.
 
-#### Điều khoản Chi tiết:
+```text
+ALLOW
+!=
+COMMITTED
+```
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+---
 
-### 1.68. Cổng Thực Thi Chính Sách Governance Gate #68
+# 32. ALLOW_WITH_CONDITIONS
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_68`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+Use when:
 
-#### Điều khoản Chi tiết:
+```text
+hard gates pass
++
+explicit bounded conditions remain
+```
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Example:
 
-### 1.69. Cổng Thực Thi Chính Sách Governance Gate #69
+```text
+read-only
+sandbox-only
+limited recipient set
+temporary authority
+bounded resource amount
+human review before external commit
+```
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_69`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+---
 
-#### Điều khoản Chi tiết:
+# 33. HOLD
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Use when a decision-critical governance fact is unresolved but may be resolved.
 
-### 1.70. Cổng Thực Thi Chính Sách Governance Gate #70
+A hold should specify:
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_70`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+```text
+blocking condition
+required evidence
+responsible authority
+release condition
+```
 
-#### Điều khoản Chi tiết:
+---
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+# 34. REJECT
 
-### 1.71. Cổng Thực Thi Chính Sách Governance Gate #71
+Use when a hard applicable governance invariant is violated.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_71`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+Rejection does not imply deletion of the proposal or evidence.
 
-#### Điều khoản Chi tiết:
+---
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+# 35. ESCALATE
 
-### 1.72. Cổng Thực Thi Chính Sách Governance Gate #72
+Use when:
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_72`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+```text
+authority conflict unresolved
+policy conflict unresolved
+exception authority unclear
+high-impact ambiguity remains
+root-of-trust conflict exists
+required approval lies outside current authority
+```
 
-#### Điều khoản Chi tiết:
+---
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+# 36. Governance State Machine
 
-### 1.73. Cổng Thực Thi Chính Sách Governance Gate #73
+```text
+DRAFT
+  ↓
+PROPOSED
+  ↓
+ADMITTED
+  ↓
+POLICY_RESOLVED
+  ↓
+AUTHORITY_RESOLVED
+  ↓
+GOVERNANCE_EVALUATED
+  ├─ ALLOW
+  ├─ ALLOW_WITH_CONDITIONS
+  ├─ HOLD
+  ├─ REJECT
+  └─ ESCALATE
+```
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_73`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+If allowed:
 
-#### Điều khoản Chi tiết:
+```text
+ALLOW
+↓
+CONTROL_PLANE_AUTHORIZATION
+↓
+COMMIT_TIME_REVALIDATION
+↓
+COMMIT | ABORT
+```
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+---
 
-### 1.74. Cổng Thực Thi Chính Sách Governance Gate #74
+# 37. Control-Plane Boundary
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_74`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+`K_GOVERNANCE` defines governance semantics.
 
-#### Điều khoản Chi tiết:
+`03_CONTROL_PLANE` owns authoritative operational decisions such as:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+authorization evaluation
+commit eligibility
+authority freshness
+effect binding
+approval state
+cross-step transaction governance
+```
 
-### 1.75. Cổng Thực Thi Chính Sách Governance Gate #75
+Hard rule:
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_75`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+```text
+K_GOVERNANCE
+!=
+03_CONTROL_PLANE
+```
 
-#### Điều khoản Chi tiết:
+---
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+# 38. Runtime Boundary
 
-### 1.76. Cổng Thực Thi Chính Sách Governance Gate #76
+`04_RUNTIME` executes concrete actions.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_76`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+The governance kernel does not itself:
 
-#### Điều khoản Chi tiết:
+```text
+send messages
+write files
+transfer funds
+delete data
+restart services
+mutate databases
+publish models
+```
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+unless a runtime implementation explicitly binds those actions.
 
-### 1.77. Cổng Thực Thi Chính Sách Governance Gate #77
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_77`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+# 39. State Boundary
 
-#### Điều khoản Chi tiết:
+`12_STATE` owns authoritative mutable state.
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Governance decisions may reference state.
 
-### 1.78. Cổng Thực Thi Chính Sách Governance Gate #78
+They do not themselves constitute durable state mutation unless committed through the appropriate state path.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_78`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+---
 
-#### Điều khoản Chi tiết:
+# 40. Observability Boundary
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+`17_OBSERVABILITY` records governance events.
 
-### 1.79. Cổng Thực Thi Chính Sách Governance Gate #79
+Examples:
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_79`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+```text
+POLICY_RESOLVED
+AUTHORITY_VALIDATED
+AUTHORITY_REVOKED
+GOVERNANCE_ALLOW
+GOVERNANCE_HOLD
+GOVERNANCE_REJECT
+GOVERNANCE_ESCALATE
+COMMIT_REVALIDATION_FAILED
+```
 
-#### Điều khoản Chi tiết:
+Hard rule:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+OBSERVABILITY != GOVERNANCE AUTHORITY
+```
 
-### 1.80. Cổng Thực Thi Chính Sách Governance Gate #80
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_80`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+# 41. Security Boundary
 
-#### Điều khoản Chi tiết:
+`18_SECURITY` owns concrete security mechanisms such as:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+identity authentication
+key management
+signature verification
+access-control enforcement
+credential lifecycle
+secrets protection
+```
 
-### 1.81. Cổng Thực Thi Chính Sách Governance Gate #81
+Governance consumes validated security evidence.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_81`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+It must not pretend that policy text implements cryptography.
 
-#### Điều khoản Chi tiết:
+---
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+# 42. Cryptographic Boundary
 
-### 1.82. Cổng Thực Thi Chính Sách Governance Gate #82
+No fixed cryptographic scheme is mandated by this specification.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_82`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+The legacy claim that all governance sessions use:
 
-#### Điều khoản Chi tiết:
+```text
+BLS12-381 threshold signatures
+```
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+is rejected unless an implementation contract establishes it for the exact scope.
 
-### 1.83. Cổng Thực Thi Chính Sách Governance Gate #83
+Possible implementations may use:
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_83`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+```text
+Ed25519
+ECDSA
+BLS
+threshold signatures
+multisignatures
+hardware-backed attestations
+other approved schemes
+```
 
-#### Điều khoản Chi tiết:
+depending on architecture.
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Hard rule:
 
-### 1.84. Cổng Thực Thi Chính Sách Governance Gate #84
+```text
+CRYPTOGRAPHIC_SCHEME
+!=
+GOVERNANCE MODEL
+```
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_84`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+---
 
-#### Điều khoản Chi tiết:
+# 43. Quorum Boundary
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+A quorum requirement must be defined by the actual policy or authority system.
 
-### 1.85. Cổng Thực Thi Chính Sách Governance Gate #85
+This specification does not impose:
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_85`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+```text
+QuorumApproval >= 0.80
+```
 
-#### Điều khoản Chi tiết:
+as a universal governance law.
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Valid quorum models may include:
 
-### 1.86. Cổng Thực Thi Chính Sách Governance Gate #86
+```text
+k-of-n
+weighted vote
+unanimity
+majority
+qualified majority
+named-role approval
+single accountable authority
+sequential approval
+multi-party approval
+```
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_86`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+depending on the governed action.
 
-#### Điều khoản Chi tiết:
+---
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+# 44. Quorum Formula
 
-### 1.87. Cổng Thực Thi Chính Sách Governance Gate #87
+For simple unweighted \(k\)-of-\(n\) policy:
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_87`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+$$
+Approved
+\iff
+N_{valid\ approvals}\ge k
+$$
 
-#### Điều khoản Chi tiết:
+subject to:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+valid signer identity
+valid signer authority
+valid approval freshness
+valid action binding
+valid scope binding
+non-revocation
+```
 
-### 1.88. Cổng Thực Thi Chính Sách Governance Gate #88
+Counting signatures alone is insufficient.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_88`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+---
 
-#### Điều khoản Chi tiết:
+# 45. Weighted Approval
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+If a policy explicitly uses non-negative weights \(w_i\):
 
-### 1.89. Cổng Thực Thi Chính Sách Governance Gate #89
+$$
+ApprovalWeight
+=
+\sum_i w_i a_i
+$$
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_89`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+where:
 
-#### Điều khoản Chi tiết:
+$$
+a_i\in\{0,1\}
+$$
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+A threshold rule may be:
 
-### 1.90. Cổng Thực Thi Chính Sách Governance Gate #90
+$$
+ApprovalWeight\ge \theta
+$$
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_90`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+Only when the policy defines the weights and threshold.
 
-#### Điều khoản Chi tiết:
+Do not invent weights.
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+---
 
-### 1.91. Cổng Thực Thi Chính Sách Governance Gate #91
+# 46. Quorum Independence
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_91`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+```text
+5 SIGNATURES
+!=
+5 INDEPENDENT GOVERNANCE PRINCIPALS
+```
 
-#### Điều khoản Chi tiết:
+Independence depends on:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+key custody
+organizational control
+delegation lineage
+shared root authority
+collusion risk
+common operator
+```
 
-### 1.92. Cổng Thực Thi Chính Sách Governance Gate #92
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_92`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+# 47. Veto Semantics
 
-#### Điều khoản Chi tiết:
+A veto exists only when the governing policy explicitly grants veto authority.
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+DISAGREEMENT
+!=
+VETO
+```
 
-### 1.93. Cổng Thực Thi Chính Sách Governance Gate #93
+A valid veto should bind:
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_93`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+```text
+principal
+scope
+action
+time
+reason
+policy source
+```
 
-#### Điều khoản Chi tiết:
+---
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+# 48. Separation of Powers
 
-### 1.94. Cổng Thực Thi Chính Sách Governance Gate #94
+Where AMOS deploys multi-role governance, useful functional separation may include:
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_94`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+```text
+PROPOSER
+VALIDATOR
+AUTHORIZER
+EXECUTOR
+AUDITOR
+RECOVERY_AUTHORITY
+```
 
-#### Điều khoản Chi tiết:
+But:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+ROLE SEPARATION
+!=
+GUARANTEED INDEPENDENCE
+```
 
-### 1.95. Cổng Thực Thi Chính Sách Governance Gate #95
+Actual independence requires organizational and infrastructure evidence.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_95`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+---
 
-#### Điều khoản Chi tiết:
+# 49. Self-Modification Governance
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Any proposal that modifies:
 
-### 1.96. Cổng Thực Thi Chính Sách Governance Gate #96
+```text
+core policy
+authority rules
+governance gates
+permission model
+memory trust rules
+kernel invariants
+control-plane policy
+```
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_96`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+requires heightened governance.
 
-#### Điều khoản Chi tiết:
+Hard rules:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+POLICY ENGINE
+MUST NOT SILENTLY WEAKEN
+THE RULES GOVERNING ITS OWN AUTHORITY
 
-### 1.97. Cổng Thực Thi Chính Sách Governance Gate #97
+SELF-MODIFICATION
+!=
+SELF-AUTHORIZATION
+```
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_97`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+---
 
-#### Điều khoản Chi tiết:
+# 50. Governed Evolution
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+A proposed change \(\Delta\) should be classified by:
 
-### 1.98. Cổng Thực Thi Chính Sách Governance Gate #98
+```text
+scope
+impact
+reversibility
+affected invariants
+affected authority
+affected policies
+affected dependencies
+rollback capability
+validation evidence
+```
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_98`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+Then routed through `K_GOVERNED_EVOLUTION`.
 
-#### Điều khoản Chi tiết:
+---
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+# 51. Anti-Regression Gate
 
-### 1.99. Cổng Thực Thi Chính Sách Governance Gate #99
+A governance change must not weaken:
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_99`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+```text
+factual support
+scope correctness
+contradiction visibility
+provenance recoverability
+causal discipline
+authority integrity
+safety
+recoverability
+auditability
+```
 
-#### Điều khoản Chi tiết:
+unless an explicitly higher-authority policy legitimately changes the requirement.
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+---
 
-### 1.100. Cổng Thực Thi Chính Sách Governance Gate #100
+# 52. Policy Versioning
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_100`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+A policy should preserve:
 
-#### Điều khoản Chi tiết:
+```yaml
+policy:
+  policy_id:
+  version:
+  source:
+  status:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+  effective_from:
+  effective_until:
 
-### 1.101. Cổng Thực Thi Chính Sách Governance Gate #101
+  supersedes:
+  superseded_by:
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_101`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+  scope:
+  subjects:
+  resources:
+  actions:
+  recipients:
+  purposes:
 
-#### Điều khoản Chi tiết:
+  rules: []
+  exceptions: []
+  precedence:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+  provenance:
+```
 
-### 1.102. Cổng Thực Thi Chính Sách Governance Gate #102
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_102`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+# 53. Policy Status
 
-#### Điều khoản Chi tiết:
+Suggested policy lifecycle:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+DRAFT
+PROPOSED
+APPROVED
+ACTIVE
+SUSPENDED
+SUPERSEDED
+REVOKED
+EXPIRED
+ARCHIVED
+```
 
-### 1.103. Cổng Thực Thi Chính Sách Governance Gate #103
+No status should be inferred merely from file location.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_103`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+---
 
-#### Điều khoản Chi tiết:
+# 54. Canonical Status Firewall
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+FILE_IN_CANON_FOLDER
+!=
+CANONICAL
 
-### 1.104. Cổng Thực Thi Chính Sách Governance Gate #104
+MARKED_CANONICAL
+!=
+EMPIRICAL_TRUTH
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_104`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+ACTIVE_SPECIFICATION
+!=
+RUNTIME_ENFORCED
+```
 
-#### Điều khoản Chi tiết:
+---
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+# 55. Policy Supersession
 
-### 1.105. Cổng Thực Thi Chính Sách Governance Gate #105
+When \(P_2\) supersedes \(P_1\):
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_105`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+```text
+preserve P1
+preserve lineage
+mark P1 superseded
+route new applicable decisions to P2
+identify active dependents of P1
+revalidate dependents where necessary
+```
 
-#### Điều khoản Chi tiết:
+Never erase governance history.
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+---
 
-### 1.106. Cổng Thực Thi Chính Sách Governance Gate #106
+# 56. Revocation
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_106`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+Revocation should identify:
 
-#### Điều khoản Chi tiết:
+```yaml
+revocation:
+  revocation_id:
+  target:
+  issuer:
+  authority_ref:
+  effective_at:
+  scope:
+  reason:
+  supersedes:
+```
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Revocation propagates only through relationships where the revoked authority was load-bearing.
 
-### 1.107. Cổng Thực Thi Chính Sách Governance Gate #107
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_107`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+# 57. Cached Governance Decisions
 
-#### Điều khoản Chi tiết:
+A cached governance result may be reused only while:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+policy version unchanged
+authority unchanged
+revocation unchanged
+scope unchanged
+purpose unchanged
+state compatible
+freshness valid
+recipient unchanged
+effect unchanged
+```
 
-### 1.108. Cổng Thực Thi Chính Sách Governance Gate #108
+Hard rule:
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_108`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+```text
+CACHE != AUTHORITY
+```
 
-#### Điều khoản Chi tiết:
+---
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+# 58. Decision Reuse
 
-### 1.109. Cổng Thực Thi Chính Sách Governance Gate #109
+Governance decision reuse requires semantic identity of the decision envelope.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_109`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+```text
+SAME USER
+!=
+SAME AUTHORIZATION
 
-#### Điều khoản Chi tiết:
+SAME ACTION NAME
+!=
+SAME EFFECT
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+SAME RESOURCE TYPE
+!=
+SAME RESOURCE
+```
 
-### 1.110. Cổng Thực Thi Chính Sách Governance Gate #110
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_110`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+# 59. Consent Boundary
 
-#### Điều khoản Chi tiết:
+Where consent is required:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+PAST CONSENT
+!=
+CURRENT CONSENT
 
-### 1.111. Cổng Thực Thi Chính Sách Governance Gate #111
+CONSENT FOR A
+!=
+CONSENT FOR B
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_111`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+CONSENT
+!=
+UNLIMITED AUTHORITY
+```
 
-#### Điều khoản Chi tiết:
+Consent must be represented within its actual scope.
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+---
 
-### 1.112. Cổng Thực Thi Chính Sách Governance Gate #112
+# 60. Privacy Boundary
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_112`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+Policy evaluation should minimize unnecessary disclosure.
 
-#### Điều khoản Chi tiết:
+Governance does not justify exposing the full underlying payload to every validator.
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+NEED_TO_VALIDATE
+!=
+NEED_TO_SEE_EVERYTHING
+```
 
-### 1.113. Cổng Thực Thi Chính Sách Governance Gate #113
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_113`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+# 61. Information Exposure
 
-#### Điều khoản Chi tiết:
+Governance may need cumulative disclosure controls.
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Individually permissible disclosures can compose into impermissible reconstruction.
 
-### 1.114. Cổng Thực Thi Chính Sách Governance Gate #114
+Therefore commit-time disclosure governance may need to evaluate:
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_114`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+```text
+recipient
+semantic origin
+previous disclosures
+current disclosure
+remaining exposure budget
+combined reconstruction risk
+```
 
-#### Điều khoản Chi tiết:
+where such a policy is implemented.
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+---
 
-### 1.115. Cổng Thực Thi Chính Sách Governance Gate #115
+# 62. Resource Limits
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_115`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+Authority may be cumulative.
 
-#### Điều khoản Chi tiết:
+Example:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```yaml
+authority_budget:
+  max_actions:
+  max_value:
+  max_tokens:
+  max_storage:
+  max_requests:
+  valid_period:
+```
 
-### 1.116. Cổng Thực Thi Chính Sách Governance Gate #116
+A single action may be allowed while the cumulative sequence exceeds authority.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_116`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+Therefore:
 
-#### Điều khoản Chi tiết:
+```text
+LOCAL_ALLOW
+!=
+SEQUENCE_ALLOW
+```
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+---
 
-### 1.117. Cổng Thực Thi Chính Sách Governance Gate #117
+# 63. Temporal Authority
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_117`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+Authority may have:
 
-#### Điều khoản Chi tiết:
+```text
+valid_from
+valid_until
+cooldown
+rate limit
+cumulative limit
+renewal requirement
+```
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Commit must respect the temporal envelope.
 
-### 1.118. Cổng Thực Thi Chính Sách Governance Gate #118
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_118`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+# 64. Recipient Binding
 
-#### Điều khoản Chi tiết:
+For disclosure or external effects:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+AUTHORIZED_RECIPIENT_A
+!=
+AUTHORIZED_RECIPIENT_B
+```
 
-### 1.119. Cổng Thực Thi Chính Sách Governance Gate #119
+Recipient substitution requires revalidation.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_119`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+---
 
-#### Điều khoản Chi tiết:
+# 65. Resource Binding
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+AUTHORITY_FOR_RESOURCE_A
+!=
+AUTHORITY_FOR_RESOURCE_B
+```
 
-### 1.120. Cổng Thực Thi Chính Sách Governance Gate #120
+Similar names do not create authority transfer.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_120`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+---
 
-#### Điều khoản Chi tiết:
+# 66. Effect Binding
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Authority must bind the actual semantic effect.
 
-### 1.121. Cổng Thực Thi Chính Sách Governance Gate #121
+Example:
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_121`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+```text
+"edit draft"
+!=
+"publish externally"
 
-#### Điều khoản Chi tiết:
+"prepare order"
+!=
+"execute order"
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+"generate deletion plan"
+!=
+"delete data"
+```
 
-### 1.122. Cổng Thực Thi Chính Sách Governance Gate #122
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_122`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+# 67. Proposal / Commit Separation
 
-#### Điều khoản Chi tiết:
+```text
+PROPOSAL
+→ NON-AUTHORITATIVE
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+COMMIT
+→ AUTHORITATIVE EFFECT
+```
 
-### 1.123. Cổng Thực Thi Chính Sách Governance Gate #123
+Proposal generation may be broad.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_123`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+Commit gates must be narrow.
 
-#### Điều khoản Chi tiết:
+---
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+# 68. Human Approval
 
-### 1.124. Cổng Thực Thi Chính Sách Governance Gate #124
+Human approval is not automatically valid authority.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_124`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+The approving human must themselves possess the required authority for that action.
 
-#### Điều khoản Chi tiết:
+```text
+HUMAN_APPROVED
+!=
+AUTHORIZED
+```
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+---
 
-### 1.125. Cổng Thực Thi Chính Sách Governance Gate #125
+# 69. Agent Approval
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_125`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+Likewise:
 
-#### Điều khoản Chi tiết:
+```text
+AGENT_APPROVED
+!=
+AUTHORIZED
+```
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Agent approval requires delegated or intrinsic authority explicitly recognized by the governing system.
 
-### 1.126. Cổng Thực Thi Chính Sách Governance Gate #126
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_126`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+# 70. Institutional Authority
 
-#### Điều khoản Chi tiết:
+External institutional authority must be represented as external governance evidence.
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+AMOS must not invent institutional jurisdiction.
 
-### 1.127. Cổng Thực Thi Chính Sách Governance Gate #127
+```text
+AMOS_MODEL
+!=
+LEGAL_AUTHORITY
+```
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_127`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+---
 
-#### Điều khoản Chi tiết:
+# 71. Legal Boundary
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Legal applicability is jurisdiction-, time-, and fact-specific.
 
-### 1.128. Cổng Thực Thi Chính Sách Governance Gate #128
+A governance policy may encode legal requirements, but the kernel must preserve:
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_128`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+```text
+source
+jurisdiction
+effective date
+scope
+interpretation status
+```
 
-#### Điều khoản Chi tiết:
+A policy summary is not automatically legal advice or authoritative law.
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+---
 
-### 1.129. Cổng Thực Thi Chính Sách Governance Gate #129
+# 72. Ethical Boundary
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_129`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+Ethical evaluation can inform governance.
 
-#### Điều khoản Chi tiết:
+It does not automatically override explicit legitimate authority or legal requirements.
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Conversely, authority does not automatically settle ethical questions.
 
-### 1.130. Cổng Thực Thi Chính Sách Governance Gate #130
+```text
+AUTHORIZED
+!=
+ETHICALLY OPTIMAL
+```
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_130`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+---
 
-#### Điều khoản Chi tiết:
+# 73. Safety Boundary
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+A governance policy should distinguish:
 
-### 1.131. Cổng Thực Thi Chính Sách Governance Gate #131
+```text
+permission
+safety
+correctness
+utility
+```
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_131`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+An authorized action can still be unsafe.
 
-#### Điều khoản Chi tiết:
+A safe-looking action can still be unauthorized.
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+---
 
-### 1.132. Cổng Thực Thi Chính Sách Governance Gate #132
+# 74. Governance Failure Taxonomy
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_132`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+```text
+POLICY_IDENTITY_FAILURE
+POLICY_CONFLICT
+POLICY_STALENESS
+AUTHORITY_FAILURE
+DELEGATION_FAILURE
+SCOPE_FAILURE
+PURPOSE_FAILURE
+REVOCATION_FAILURE
+PROVENANCE_FAILURE
+CONSTRAINT_FAILURE
+STATE_VERSION_FAILURE
+RECIPIENT_FAILURE
+RESOURCE_FAILURE
+QUORUM_FAILURE
+COMMIT_TIME_FAILURE
+RECEIPT_FAILURE
+ESCALATION_FAILURE
+GOVERNANCE_SUBSTRATE_FAILURE
+```
 
-#### Điều khoản Chi tiết:
+---
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+# 75. Governance Failure Response
 
-### 1.133. Cổng Thực Thi Chính Sách Governance Gate #133
+```text
+DETECT
+→ LOCALIZE
+→ CLASSIFY
+→ CONTAIN AFFECTED EFFECT
+→ PRESERVE EVIDENCE
+→ RESOLVE OR ESCALATE
+→ REVALIDATE
+→ RESUME OR TERMINATE
+```
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_133`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+Governance failures route to `K_FAILURE_RECOVERY` where state repair is required.
 
-#### Điều khoản Chi tiết:
+---
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+# 76. Governance Substrate Failure
 
-### 1.134. Cổng Thực Thi Chính Sách Governance Gate #134
+If the governance mechanism itself becomes unreliable:
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_134`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+```text
+policy registry corrupted
+authority registry unavailable
+revocation ledger stale
+signature validator compromised
+governance state forked
+```
 
-#### Điều khoản Chi tiết:
+then:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+```text
+DO NOT SELF-DECLARE TRUSTWORTHY
+```
 
-### 1.135. Cổng Thực Thi Chính Sách Governance Gate #135
+Use independent validated recovery paths or escalate.
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_135`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+---
 
-#### Điều khoản Chi tiết:
+# 77. Break-Glass Governance
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+If break-glass authority exists, it must be explicitly modeled.
 
-### 1.136. Cổng Thực Thi Chính Sách Governance Gate #136
+```yaml
+break_glass:
+  authority_id:
+  issuer:
+  allowed_actions: []
+  prohibited_actions: []
+  scope:
+  purpose:
+  valid_from:
+  valid_until:
+  justification_required:
+  audit_required:
+  post_review_required:
+  revocation_ref:
+```
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_136`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+Hard rule:
 
-#### Điều khoản Chi tiết:
+```text
+EMERGENCY
+!=
+UNLIMITED AUTHORITY
+```
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+---
 
-### 1.137. Cổng Thực Thi Chính Sách Governance Gate #137
+# 78. Governance Escalation
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_137`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+Escalation should carry the smallest sufficient decision capsule:
 
-#### Điều khoản Chi tiết:
+```yaml
+governance_escalation:
+  escalation_id:
+  proposal_id:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+  unresolved_issue:
+  affected_effect:
 
-### 1.138. Cổng Thực Thi Chính Sách Governance Gate #138
+  applicable_policy_refs: []
+  authority_refs: []
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_138`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+  known_facts: []
+  unknowns: []
+  competing_interpretations: []
 
-#### Điều khoản Chi tiết:
+  consequence:
+  reversible_alternative:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+  recommended_discriminating_evidence:
+```
 
-### 1.139. Cổng Thực Thi Chính Sách Governance Gate #139
+---
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_139`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+# 79. Governance Receipt
 
-#### Điều khoản Chi tiết:
+```yaml
+governance_receipt:
+  receipt_id:
+  proposal_id:
+  timestamp:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+  principal:
+  action:
+  resource:
+  recipient:
+  purpose:
 
-### 1.140. Cổng Thực Thi Chính Sách Governance Gate #140
+  scope:
+  regime:
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_140`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+  policy_versions: []
+  authority_ref:
+  delegation_refs: []
 
-#### Điều khoản Chi tiết:
+  hard_gate_results:
+    canon_identity:
+    principal_identity:
+    authority:
+    delegation:
+    scope:
+    hard_constraints:
+    policy_compatibility:
+    provenance:
+    freshness:
+    consequence:
+    commit_revalidation:
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+  decision:
+    - ALLOW
+    - ALLOW_WITH_CONDITIONS
+    - HOLD
+    - REJECT
+    - ESCALATE
 
-### 1.141. Cổng Thực Thi Chính Sách Governance Gate #141
+  conditions: []
+  blockers: []
+  remaining_gaps: []
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_141`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+  evidence_refs: []
+  provenance_refs: []
 
-#### Điều khoản Chi tiết:
+  supersedes:
+```
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+---
 
-### 1.142. Cổng Thực Thi Chính Sách Governance Gate #142
+# 80. Privacy-Minimized Governance Receipts
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_142`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+Governance receipts should capture:
 
-#### Điều khoản Chi tiết:
+```text
+what was decided
+why it was decided
+which rules mattered
+which authority mattered
+what state mattered
+```
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+without automatically duplicating:
 
-### 1.143. Cổng Thực Thi Chính Sách Governance Gate #143
+```text
+full sensitive payloads
+private user content
+credentials
+secrets
+unnecessary personal data
+```
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_143`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+---
 
-#### Điều khoản Chi tiết:
+# 81. Accountability
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+Accountability requires preserving:
 
-### 1.144. Cổng Thực Thi Chính Sách Governance Gate #144
+```text
+principal
+delegation chain
+decision source
+authority
+policy set
+effect
+receipt
+recovery path
+```
 
-**Tên định danh cổng:** `GOVERNANCE_ENFORCEMENT_GATE_144`
-**Điều kiện Phê duyệt:** $\text{PolicyCheck}(\text{Tx}) \equiv \top \land \text{QuorumApproval}(\text{Tx}) \ge 0.80$
-**Hành động Vi phạm:** Tự động hủy bỏ giao dịch và đưa tác tử vào danh sách cách ly.
+It does not require pretending that every failure has one morally responsible party.
 
-#### Điều khoản Chi tiết:
+---
 
-- Điều khoản #1: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #2: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
-- Điều khoản #3: Bảo đảm tuân thủ Hiến pháp dữ liệu và quyền riêng tư bất khả xâm phạm.
+# 82. Operator Accountability vs Causal Fault
 
-## 2. CƠ CHẾ BỎ PHIẾU ĐỒNG THUẬN QUORUM PHI TẬP TRUNG
+```text
+RESPONSIBLE_OPERATOR
+!=
+PROXIMATE_CAUSE
+```
 
-### 2.1. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #1
+Governance investigations should distinguish:
 
-Phiên đồng thuận #1 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+```text
+who authorized
+who executed
+what failed
+what caused failure
+what policy allowed it
+what system prevented or failed to prevent it
+```
 
-#### Ràng buộc Bảo mật:
+---
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+# 83. Appeal / Review
 
-### 2.2. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #2
+Where governance outcomes support review:
 
-Phiên đồng thuận #2 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+```yaml
+review_request:
+  decision_receipt:
+  challenger:
+  grounds:
+  new_evidence: []
+  policy_conflict:
+  scope_dispute:
+  authority_dispute:
+  requested_outcome:
+```
 
-#### Ràng buộc Bảo mật:
+Review creates a new governance decision.
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+It does not rewrite prior history.
 
-### 2.3. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #3
+---
 
-Phiên đồng thuận #3 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+# 84. Governance Supersession
 
-#### Ràng buộc Bảo mật:
+```text
+OLD DECISION
+→ preserved
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+NEW DECISION
+→ references superseded decision
 
-### 2.4. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #4
+HISTORY
+→ remains queryable
+```
 
-Phiên đồng thuận #4 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+---
 
-#### Ràng buộc Bảo mật:
+# 85. Governance Liveness
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+Fail-closed governance must not become permanent accidental denial.
 
-### 2.5. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #5
+Every non-terminal `HOLD` should define:
 
-Phiên đồng thuận #5 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+```text
+blocking conditions
+release conditions
+required evidence
+responsible authority
+escalation path
+```
 
-#### Ràng buộc Bảo mật:
+---
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+# 86. Governance Termination
 
-### 2.6. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #6
+Terminate a governance branch when:
 
-Phiên đồng thuận #6 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+```text
+action permanently prohibited
+authority cannot legitimately be obtained
+requested effect violates hard invariant
+proposal has been superseded
+required recipient/resource no longer exists
+user cancels the request
+```
 
-#### Ràng buộc Bảo mật:
+---
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+# 87. Governance and RSCF
 
-### 2.7. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #7
+Important governance decisions may be represented as RSCF nodes.
 
-Phiên đồng thuận #7 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+```yaml
+GovernanceRSCF:
+  claim:
+  conclusion_class:
+  applicable_policies:
+  authority:
+  scope:
+  regime:
+  freshness:
+  provenance:
+  necessary_premises:
+  competing:
+  falsifiers:
+  decision:
+```
 
-#### Ràng buộc Bảo mật:
+RSCF represents the decision structure.
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+It does not replace runtime authorization.
 
-### 2.8. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #8
+---
 
-Phiên đồng thuận #8 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+# 88. Competing Governance Interpretations
 
-#### Ràng buộc Bảo mật:
+When two policy interpretations remain materially supported:
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+```text
+DO NOT FORCE CONVERGENCE
+```
 
-### 2.9. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #9
+Preserve:
 
-Phiên đồng thuận #9 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+```yaml
+competing:
+  interpretation_A:
+    policy_basis:
+    consequence:
 
-#### Ràng buộc Bảo mật:
+  interpretation_B:
+    policy_basis:
+    consequence:
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+  discriminating_evidence:
+```
 
-### 2.10. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #10
+---
 
-Phiên đồng thuận #10 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+# 89. Sensitivity
 
-#### Ràng buộc Bảo mật:
+For consequential governance decisions, identify the smallest premise capable of flipping the outcome.
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+Examples:
 
-### 2.11. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #11
+```text
+authority expiry
+recipient identity
+resource identity
+jurisdiction
+policy version
+exception validity
+revocation
+purpose
+```
 
-Phiên đồng thuận #11 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+Fragile decisions should remain explicitly conditional.
 
-#### Ràng buộc Bảo mật:
+---
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+# 90. Adversarial Governance Challenge
 
-### 2.12. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #12
+Before high-impact commit, challenge the decision for:
 
-Phiên đồng thuận #12 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+```text
+stale authority
+hidden revocation
+wrong principal
+wrong resource
+wrong recipient
+scope leakage
+purpose drift
+policy version mismatch
+shared provenance
+policy conflict
+self-authorization
+unbounded exception
+irreversible consequence
+TOCTOU
+```
 
-#### Ràng buộc Bảo mật:
+---
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+# 91. MECE Plane Ownership
 
-### 2.13. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #13
+| Responsibility                   | Primary Owner                    |
+| -------------------------------- | -------------------------------- |
+| canonical constitutional law     | `01_CANON`                       |
+| governance invariants            | `02_KERNEL/K_GOVERNANCE`         |
+| authority semantics              | `02_KERNEL/K_AUTHORITY`          |
+| fail-closed semantics            | `02_KERNEL/K_FAIL_CLOSED`        |
+| governance recovery semantics    | `02_KERNEL/K_FAILURE_RECOVERY`   |
+| governed evolution semantics     | `02_KERNEL/K_GOVERNED_EVOLUTION` |
+| operational authorization        | `03_CONTROL_PLANE`               |
+| concrete execution               | `04_RUNTIME`                     |
+| mutable policy/state persistence | `12_STATE`                       |
+| schemas                          | `16_SCHEMAS`                     |
+| governance observability         | `17_OBSERVABILITY`               |
+| security implementation          | `18_SECURITY`                    |
+| executable validation            | `19_TESTS`                       |
+| operational incident management  | `20_OPERATIONS`                  |
 
-Phiên đồng thuận #13 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+---
 
-#### Ràng buộc Bảo mật:
+# 92. H/M/L Governance Mapping
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+## H — Constitutional Governance
 
-### 2.14. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #14
+```text
+core invariants
+rights / hard constraints
+authority principles
+anti-self-authorization
+precedence
+```
 
-Phiên đồng thuận #14 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+## M — Policy Governance
 
-#### Ràng buộc Bảo mật:
+```text
+policy applicability
+delegation
+exceptions
+quorum
+review
+escalation
+```
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+## L — Effect Governance
 
-### 2.15. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #15
+```text
+exact principal
+exact action
+exact resource
+exact recipient
+exact state
+exact authority
+exact commit
+```
 
-Phiên đồng thuận #15 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+---
 
-#### Ràng buộc Bảo mật:
+# 93. Seven-Part Persistence Crosswalk
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+| Persistence Function | Governance Binding                             |
+| -------------------- | ---------------------------------------------- |
+| Constraint           | constitutional and policy constraints          |
+| Flow                 | proposal → evaluation → authorization → commit |
+| Structure            | policy, authority, delegation, receipt schemas |
+| Enforcement          | fail-closed governance gates                   |
+| Time                 | policy versions, expiry, revocation, freshness |
+| Adaptation           | governed policy evolution                      |
+| Termination          | reject, revoke, hold, escalate, terminate      |
 
-### 2.16. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #16
+This is an `AMOS_MODEL` crosswalk.
 
-Phiên đồng thuận #16 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+It is not empirical proof that every governance system follows this pattern.
 
-#### Ràng buộc Bảo mật:
+---
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+# 94. Positive Tests
 
-### 2.17. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #17
+```text
+GOV-P01
+Agent has technical capability but no authority.
+Expected:
+REJECT.
 
-Phiên đồng thuận #17 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+GOV-P02
+Authority valid for resource A, request targets resource B.
+Expected:
+REJECT or HOLD.
 
-#### Ràng buộc Bảo mật:
+GOV-P03
+Policy permits action but authority is revoked.
+Expected:
+REJECT.
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+GOV-P04
+Authority valid at planning but expires before commit.
+Expected:
+commit-time gate fails.
 
-### 2.18. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #18
+GOV-P05
+Two applicable policies conflict.
+Expected:
+resolve precedence or HOLD/ESCALATE.
 
-Phiên đồng thuận #18 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+GOV-P06
+Three policy files are mirrors of one source.
+Expected:
+one provenance family, not three independent authorities.
 
-#### Ràng buộc Bảo mật:
+GOV-P07
+Action allowed only for testing environment.
+Production requested.
+Expected:
+REJECT.
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+GOV-P08
+Irreversible effect has valid reversible alternative.
+Expected:
+alternative preferred where decision-critical dimensions are comparable.
 
-### 2.19. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #19
+GOV-P09
+Proposal modifies governance rules governing its own authority.
+Expected:
+independent authorization required.
 
-Phiên đồng thuận #19 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+GOV-P10
+Non-load-bearing cosmetic policy metadata missing.
+Expected:
+may continue if hard governance identity is unaffected.
+```
 
-#### Ràng buộc Bảo mật:
+---
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+# 95. Negative Tests
 
-### 2.20. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #20
+```text
+GOV-N01
+Policy file marked CANONICAL, therefore runtime enforcement claimed.
+Expected:
+REJECT.
 
-Phiên đồng thuận #20 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+GOV-N02
+Authenticated user treated as authorized.
+Expected:
+REJECT.
 
-#### Ràng buộc Bảo mật:
+GOV-N03
+Policy allow treated as authority grant.
+Expected:
+REJECT.
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+GOV-N04
+0.80 quorum treated as universal AMOS law.
+Expected:
+REJECT.
 
-### 2.21. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #21
+GOV-N05
+BLS12-381 treated as mandatory governance cryptography without implementation source.
+Expected:
+REJECT.
 
-Phiên đồng thuận #21 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+GOV-N06
+144 duplicated gates treated as 144 independent governance controls.
+Expected:
+REJECT.
 
-#### Ràng buộc Bảo mật:
+GOV-N07
+Human approval treated as automatically authoritative.
+Expected:
+REJECT.
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+GOV-N08
+Governance receipt treated as proof of correct execution.
+Expected:
+REJECT.
 
-### 2.22. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #22
+GOV-N09
+Exception silently made permanent.
+Expected:
+REJECT.
 
-Phiên đồng thuận #22 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+GOV-N10
+System authorizes its own privilege expansion.
+Expected:
+REJECT.
+```
 
-#### Ràng buộc Bảo mật:
+---
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+# 96. Adversarial Tests
 
-### 2.23. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #23
+```text
+GOV-A01 — STALE AUTHORITY
+Valid authority cached; current authority revoked.
+Expected:
+revocation wins.
 
-Phiên đồng thuận #23 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+GOV-A02 — ROLE CONFUSION
+Validator also acts as authorizer without permitted role binding.
+Expected:
+independence not assumed.
 
-#### Ràng buộc Bảo mật:
+GOV-A03 — PROVENANCE SYBIL
+100 copies of one approval record.
+Expected:
+one approval lineage.
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+GOV-A04 — SCOPE DRIFT
+Internal-use permission reused for public disclosure.
+Expected:
+block.
 
-### 2.24. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #24
+GOV-A05 — PURPOSE DRIFT
+Data access approved for fraud detection reused for marketing.
+Expected:
+revalidate purpose authority.
 
-Phiên đồng thuận #24 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+GOV-A06 — RECIPIENT SUBSTITUTION
+Approved recipient replaced immediately before commit.
+Expected:
+commit-time gate fails.
 
-#### Ràng buộc Bảo mật:
+GOV-A07 — SELF-MODIFICATION
+Agent proposes removing its own approval requirement.
+Expected:
+cannot self-authorize.
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+GOV-A08 — EXCEPTION ABUSE
+Temporary exception lacks expiry and becomes default.
+Expected:
+reject promotion.
 
-### 2.25. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #25
+GOV-A09 — QUORUM COLLUSION
+Five signatures controlled by one operator.
+Expected:
+do not claim five independent principals.
 
-Phiên đồng thuận #25 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+GOV-A10 — POLICY FORK
+Two active versions claim authority simultaneously.
+Expected:
+hold until version/precedence resolved.
+```
 
-#### Ràng buộc Bảo mật:
+---
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+# 97. Governance Validation Matrix
 
-### 2.26. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #26
+Executable implementation should eventually test:
 
-Phiên đồng thuận #26 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+```text
+policy identity mismatch
+policy supersession
+policy conflict
+authority expiry
+authority revocation
+delegation attenuation
+delegation-chain break
+scope mismatch
+purpose mismatch
+resource mismatch
+recipient mismatch
+state-version change
+TOCTOU
+exception expiry
+quorum shortfall
+quorum correlation
+cached stale allow
+commit-time revalidation
+self-authorization attack
+governance substrate corruption
+receipt mismatch
+```
 
-#### Ràng buộc Bảo mật:
+Specification of a test is not evidence of execution.
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+---
 
-### 2.27. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #27
+# 98. Implementation Maturity
 
-Phiên đồng thuận #27 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+```text
+G0 SPECIFIED
+G1 NORMALIZED
+G2 SCHEMA_BOUND
+G3 STATICALLY_VALIDATED
+G4 IMPLEMENTED
+G5 UNIT_TESTED
+G6 INTEGRATION_TESTED
+G7 ADVERSARIAL_TESTED
+G8 RUNTIME_ENFORCED
+G9 DEPLOYMENT_VALIDATED
+G10 FORMALLY_VERIFIED_FOR_DECLARED_PROPERTIES
+G11 INDEPENDENTLY_REVIEWED
+```
 
-#### Ràng buộc Bảo mật:
+No maturity state implies the next.
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+---
 
-### 2.28. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #28
+# 99. Legacy Content Rejected
 
-Phiên đồng thuận #28 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+The following legacy patterns are rejected as non-substantive or unsupported:
 
-#### Ràng buộc Bảo mật:
+```text
+hundreds of numerically duplicated governance gates
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+identical policy clauses copied under different gate numbers
 
-### 2.29. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #29
+arbitrary universal 80% approval threshold
 
-Phiên đồng thuận #29 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+fixed universal requirement for five independent nodes
 
-#### Ràng buộc Bảo mật:
+fixed universal BLS12-381 threshold-signature requirement
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+claim that governance is automatically decentralized
 
-### 2.30. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #30
+claim that policy text guarantees human rights or biological safety
 
-Phiên đồng thuận #30 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+claim that a file marked CANONICAL proves deployed enforcement
 
-#### Ràng buộc Bảo mật:
+claim that AMOS can guarantee "integrity of the universe"
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+"Trang Phan & AMOS OS" represented as joint origin architects
 
-### 2.31. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #31
+quorum count treated as proof of independence
 
-Phiên đồng thuận #31 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+policy approval treated as runtime commit
+```
 
-#### Ràng buộc Bảo mật:
+---
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+# 100. Mathematical Firewall
 
-### 2.32. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #32
+The following are valid only when their variables and policy semantics are actually defined:
 
-Phiên đồng thuận #32 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+$$
+GovernanceEligible(a)
+$$
 
-#### Ràng buộc Bảo mật:
+$$
+ApprovalWeight\ge\theta
+$$
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+$$
+N_{valid\ approvals}\ge k
+$$
 
-### 2.33. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #33
+Do not promote policy notation into mathematical theoremhood.
 
-Phiên đồng thuận #33 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+```text
+POLICY EQUATION
+!=
+UNIVERSAL MATHEMATICAL LAW
+```
 
-#### Ràng buộc Bảo mật:
+---
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+# 101. External Governance Boundary
 
-### 2.34. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #34
+External legal, regulatory, contractual, institutional, organizational, or human governance remains outside AMOS native canon unless explicitly ingested under governed provenance.
 
-Phiên đồng thuận #34 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+```text
+EXTERNAL LAW
+→ EXTERNAL GOVERNANCE EVIDENCE
 
-#### Ràng buộc Bảo mật:
+EXTERNAL GOVERNANCE EVIDENCE
+!=
+AMOS NATIVE CANON
+```
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+---
 
-### 2.35. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #35
+# 102. Governance Request Schema
 
-Phiên đồng thuận #35 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+```yaml
+governance_request:
+  proposal_id:
 
-#### Ràng buộc Bảo mật:
+  principal:
+  acting_for:
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+  action:
+  resource:
+  recipient:
+  purpose:
 
-### 2.36. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #36
+  scope:
+  regime:
 
-Phiên đồng thuận #36 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+  requested_effect:
 
-#### Ràng buộc Bảo mật:
+  authority_ref:
+  delegation_refs: []
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+  policy_refs: []
+  exception_refs: []
 
-### 2.37. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #37
+  state_version:
+  causal_epoch:
 
-Phiên đồng thuận #37 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+  consequence:
+  reversibility:
 
-#### Ràng buộc Bảo mật:
+  evidence_refs: []
+```
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+---
 
-### 2.38. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #38
+# 103. Governance Evaluation Schema
 
-Phiên đồng thuận #38 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+```yaml
+governance_evaluation:
+  evaluation_id:
+  proposal_id:
 
-#### Ràng buộc Bảo mật:
+  canonical_identity:
+  principal_identity:
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+  applicable_policies: []
+  resolved_policy_versions: []
 
-### 2.39. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #39
+  authority:
+  delegation:
+  scope:
+  purpose:
 
-Phiên đồng thuận #39 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+  hard_constraints: []
+  soft_constraints: []
 
-#### Ràng buộc Bảo mật:
+  provenance:
+  freshness:
+  state_compatibility:
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+  consequence:
+  reversibility:
 
-### 2.40. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #40
+  conflicts: []
+  competing: []
 
-Phiên đồng thuận #40 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+  decision:
+    - ALLOW
+    - ALLOW_WITH_CONDITIONS
+    - HOLD
+    - REJECT
+    - ESCALATE
 
-#### Ràng buộc Bảo mật:
+  conditions: []
+  blockers: []
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+  required_commit_revalidation: []
 
-### 2.41. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #41
+  evidence_refs: []
+  provenance_refs: []
+```
 
-Phiên đồng thuận #41 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+---
 
-#### Ràng buộc Bảo mật:
+# 104. Governance Policy Registry
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+```yaml
+governance_policy_registry:
+  policy_id:
+  canonical_name:
+  version:
 
-### 2.42. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #42
+  source:
+  source_class:
 
-Phiên đồng thuận #42 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+  origin:
+  steward:
 
-#### Ràng buộc Bảo mật:
+  status:
+  authority_level:
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+  valid_from:
+  valid_until:
 
-### 2.43. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #43
+  scope:
+  subjects:
+  actions:
+  resources:
+  recipients:
+  purposes:
 
-Phiên đồng thuận #43 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+  rules: []
+  hard_constraints: []
+  soft_constraints: []
 
-#### Ràng buộc Bảo mật:
+  exceptions: []
+  precedence:
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+  supersedes:
+  superseded_by:
 
-### 2.44. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #44
+  implementation_binding:
+  validation_status:
 
-Phiên đồng thuận #44 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+  provenance:
+```
 
-#### Ràng buộc Bảo mật:
+---
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+# 105. Authority Registry Binding
 
-### 2.45. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #45
+```yaml
+authority_binding:
+  authority_id:
 
-Phiên đồng thuận #45 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+  principal:
+  issuer:
 
-#### Ràng buộc Bảo mật:
+  capabilities: []
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+  action_scope:
+  resource_scope:
+  recipient_scope:
+  purpose_scope:
 
-### 2.46. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #46
+  valid_from:
+  valid_until:
 
-Phiên đồng thuận #46 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+  cumulative_limits:
 
-#### Ràng buộc Bảo mật:
+  delegation_allowed:
+  delegation_constraints:
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+  revocation_ref:
 
-### 2.47. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #47
+  provenance:
+```
 
-Phiên đồng thuận #47 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+---
 
-#### Ràng buộc Bảo mật:
+# 106. Commit-Time Governance Capsule
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+```yaml
+commit_governance_capsule:
+  proposal_id:
+  evaluation_id:
 
-### 2.48. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #48
+  commit_timestamp:
 
-Phiên đồng thuận #48 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+  principal:
+  action:
+  resource:
+  recipient:
+  purpose:
 
-#### Ràng buộc Bảo mật:
+  authority_version:
+  authority_status:
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+  policy_versions: []
 
-### 2.49. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #49
+  state_version:
+  causal_epoch:
 
-Phiên đồng thuận #49 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+  hard_gate_results:
 
-#### Ràng buộc Bảo mật:
+  mutable_conditions_revalidated: []
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+  decision:
 
-### 2.50. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #50
+  receipt_ref:
+```
 
-Phiên đồng thuận #50 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+---
 
-#### Ràng buộc Bảo mật:
+# 107. Governance Falsifiers
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+This specification is violated if AMOS normalizes any of the following:
 
-### 2.51. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #51
+```text
+capability becomes authority without explicit authority evidence
 
-Phiên đồng thuận #51 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+authentication becomes authorization
 
-#### Ràng buộc Bảo mật:
+authorization becomes commit without independent commit checks
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+policy file location becomes proof of canonical status
 
-### 2.52. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #52
+policy text becomes proof of runtime enforcement
 
-Phiên đồng thuận #52 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+duplicated gates are counted as independent controls
 
-#### Ràng buộc Bảo mật:
+arbitrary quorum threshold is declared universal
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+fixed cryptographic implementation is invented
 
-### 2.53. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #53
+authority is accepted after revocation
 
-Phiên đồng thuận #53 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+scope or purpose is silently broadened
 
-#### Ràng buộc Bảo mật:
+policy conflict is silently resolved permissively
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+agent self-authorizes its own privilege expansion
 
-### 2.54. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #54
+governance history is erased during supersession
 
-Phiên đồng thuận #54 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+unknown hard gate is treated as pass
 
-#### Ràng buộc Bảo mật:
+cached decision overrides fresher authority state
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+external institutional authority is invented by AMOS
 
-### 2.55. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #55
+receipt existence is treated as approval
 
-Phiên đồng thuận #55 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+human approval is treated as authority without validating the human's role
+```
 
-#### Ràng buộc Bảo mật:
+---
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+# 108. Known Gaps
 
-### 2.56. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #56
+```yaml
+known_gaps:
 
-Phiên đồng thuận #56 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+  GOV-GAP-001:
+    class: DECISION_RELEVANT
+    issue: >
+      Plane-wide executable governance enforcement is not established
+      for every AMOS governed-effect surface.
+    status: NOT_ESTABLISHED
 
-#### Ràng buộc Bảo mật:
+  GOV-GAP-002:
+    class: DECISION_RELEVANT
+    issue: >
+      Concrete authority sources, identity providers, revocation mechanisms,
+      and policy stores are runtime- and deployment-specific.
+    status: RUNTIME_SPECIFIC
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+  GOV-GAP-003:
+    class: DECISION_RELEVANT
+    issue: >
+      No universal quorum threshold is established for all governance decisions.
+    status: POLICY_SPECIFIC
 
-### 2.57. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #57
+  GOV-GAP-004:
+    class: DECISION_RELEVANT
+    issue: >
+      No universal cryptographic quorum mechanism is established by this artifact.
+    status: IMPLEMENTATION_SPECIFIC
 
-Phiên đồng thuận #57 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+  GOV-GAP-005:
+    class: DECISION_RELEVANT
+    issue: >
+      Physical and organizational independence of approval principals cannot be
+      inferred solely from signature count.
+    status: REQUIRES_EXTERNAL_EVIDENCE
 
-#### Ràng buộc Bảo mật:
+  GOV-GAP-006:
+    class: DECISION_RELEVANT
+    issue: >
+      Full governance safety and liveness proofs are not established.
+    status: NOT_ESTABLISHED
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+  GOV-GAP-007:
+    class: EXPLANATORY
+    issue: >
+      Domain-specific legal and regulatory precedence must remain externally sourced.
+    status: EXTERNAL_GOVERNANCE_DEPENDENCY
 
-### 2.58. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #58
+  GOV-GAP-008:
+    class: DECISION_RELEVANT
+    issue: >
+      Runtime commit-time authority freshness requires concrete state and
+      control-plane integration.
+    status: NOT_ESTABLISHED_PLANE_WIDE
+```
 
-Phiên đồng thuận #58 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+---
 
-#### Ràng buộc Bảo mật:
+# 109. Constitutional Governance Firewall
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+```text
+INTEGRITY > COMPLETENESS > FLUENCY > SPEED > TOKEN SAVINGS
 
-### 2.59. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #59
+CANON != GOVERNANCE KERNEL
+GOVERNANCE KERNEL != CONTROL PLANE
+CONTROL PLANE != RUNTIME
 
-Phiên đồng thuận #59 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+CAPABILITY != AUTHORITY
+AUTHENTICATION != AUTHORIZATION
+POLICY_ALLOW != AUTHORITY_GRANT
+AUTHORIZATION != COMMIT
+COMMIT != CORRECTNESS
 
-#### Ràng buộc Bảo mật:
+PROPOSAL != APPROVAL
+APPROVAL != EFFECT
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+VALID_AT_PLAN_TIME != VALID_AT_COMMIT_TIME
 
-### 2.60. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #60
+SAME PRINCIPAL != SAME AUTHORITY
+SAME ACTION NAME != SAME EFFECT
+SAME RESOURCE TYPE != SAME RESOURCE
 
-Phiên đồng thuận #60 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+EXCEPTION != POLICY DELETION
+OVERRIDE_REQUEST != VALID_OVERRIDE
 
-#### Ràng buộc Bảo mật:
+MULTIPLE SIGNATURES != INDEPENDENT PRINCIPALS
+MULTIPLE POLICY COPIES != INDEPENDENT AUTHORITY
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+CACHE != AUTHORITY
+LOGGED != APPROVED
+RECEIPT != AUTHORIZATION
 
-### 2.61. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #61
+EMERGENCY != UNLIMITED AUTHORITY
+SELF_MODIFICATION != SELF_AUTHORIZATION
 
-Phiên đồng thuận #61 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+UNKNOWN/GAP != PASS
 
-#### Ràng buộc Bảo mật:
+DOCUMENTED != IMPLEMENTED
+IMPLEMENTED != VALIDATED
+VALIDATED != FORMALLY_VERIFIED
+```
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+---
 
-### 2.62. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #62
+# 110. Navigation
 
-Phiên đồng thuận #62 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+## Canon
 
-#### Ràng buộc Bảo mật:
+```text
+[[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+[[01_CANON/AMOS_CORE_LAWS|AMOS_CORE_LAWS]]
+```
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+## Kernel
 
-### 2.63. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #63
+```text
+[[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
+[[02_KERNEL/KERNEL_KERNEL_CONTRACT|KERNEL_KERNEL_CONTRACT]]
+[[02_KERNEL/K_CORE_LAWS|K_CORE_LAWS]]
+[[02_KERNEL/K_AUTHORITY|K_AUTHORITY]]
+[[02_KERNEL/K_FAIL_CLOSED|K_FAIL_CLOSED]]
+[[02_KERNEL/K_FAILURE_RECOVERY|K_FAILURE_RECOVERY]]
+[[02_KERNEL/K_MVCC|K_MVCC]]
+[[02_KERNEL/K_CAS|K_CAS]]
+[[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
+[[02_KERNEL/K_GOVERNED_EVOLUTION|K_GOVERNED_EVOLUTION]]
+```
 
-Phiên đồng thuận #63 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+## Cross-Plane
 
-#### Ràng buộc Bảo mật:
+```text
+[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
+[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
+[[02_KERNEL/07_AUTHORITY/07_AUTHORITY_MOC|07_AUTHORITY_MOC]]
+[[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]]
+[[12_STATE/12_STATE_MOC|12_STATE_MOC]]
+[[16_SCHEMAS/16_SCHEMAS_MOC|16_SCHEMAS_MOC]]
+[[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]
+[[18_SECURITY/18_SECURITY_MOC|18_SECURITY_MOC]]
+[[19_TESTS/19_TESTS_MOC|19_TESTS_MOC]]
+[[20_OPERATIONS/20_OPERATIONS_MOC|20_OPERATIONS_MOC]]
+```
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+## Root
 
-### 2.64. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #64
+```text
+[[00_ROOT/00_HOME|00_HOME]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+```
 
-Phiên đồng thuận #64 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+---
 
-#### Ràng buộc Bảo mật:
+# 111. RSCF Node
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+```yaml
+RSCF-NODE:
+  node_id: k_governance
+  node_type: kernel_architecture
+  HML: H
 
-### 2.65. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #65
+  path: 02_KERNEL/K_GOVERNANCE.md
 
-Phiên đồng thuận #65 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+  origin_architect: Trang Phan
+  steward: Trang Phan
+  target: AMOS_CORE_v4.4
 
-#### Ràng buộc Bảo mật:
+  claim: >
+    K_GOVERNANCE defines kernel-level AMOS governance semantics for
+    constitutional invariants, policy applicability, authority separation,
+    delegation, scope, policy precedence, conflict resolution, consequence
+    sensitivity, commit-time revalidation, governance receipts, and
+    anti-self-authorization while preserving a strict boundary between
+    specification, operational authorization, execution, and validation.
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+  claim_class: AMOS_MODEL
+  conclusion_class: DERIVED
+  canonical_status: CONDITIONAL
 
-### 2.66. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #66
+  scope:
+    plane: 02_KERNEL
+    domain: governance
+    function: constitutional_governance_boundary
 
-Phiên đồng thuận #66 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+  necessary_premises:
+    - canonical policy identity remains externally resolvable
+    - capability remains separate from authority
+    - authentication remains separate from authorization
+    - authorization remains separate from commit
+    - policy scope and purpose remain explicit
+    - mutable governance predicates can be refreshed before commit
+    - runtime enforcement claims require executable evidence
 
-#### Ràng buộc Bảo mật:
+  hard_invariants:
+    - ATTRIBUTION_PRESERVED
+    - ANTI_FABRICATION
+    - CAPABILITY_NOT_AUTHORITY
+    - AUTHENTICATION_NOT_AUTHORIZATION
+    - POLICY_NOT_AUTHORITY
+    - AUTHORIZATION_NOT_COMMIT
+    - GOVERNANCE_SCOPE_BOUND
+    - GOVERNANCE_FRESHNESS_BOUND
+    - GOVERNANCE_PROVENANCE_BOUND
+    - UNKNOWN_NOT_PASS
+    - NO_SELF_AUTHORIZATION
+    - NO_SILENT_POLICY_CONFLICT_RESOLUTION
+    - HARD_CONSTRAINTS_NOT_OPTIMIZATIONS
+    - COMMIT_TIME_REVALIDATION
+    - REVOCATION_DOMINATES_STALE_CACHE
+    - RECEIPT_NOT_AUTHORITY
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+  dependencies:
+    - 01_CANON
+    - 02_KERNEL/KERNEL_KERNEL_CONTRACT
+    - 02_KERNEL/K_CORE_LAWS
+    - 02_KERNEL/K_AUTHORITY
+    - 02_KERNEL/K_FAIL_CLOSED
+    - 02_KERNEL/K_FAILURE_RECOVERY
+    - 02_KERNEL/K_GOVERNED_EVOLUTION
+    - 03_CONTROL_PLANE
+    - 04_RUNTIME
+    - 12_STATE
+    - 16_SCHEMAS
+    - 17_OBSERVABILITY
+    - 18_SECURITY
+    - 19_TESTS
+    - 20_OPERATIONS
 
-### 2.67. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #67
+  competing:
+    - policy_A_vs_policy_B
+    - general_rule_vs_specific_rule
+    - cached_authority_vs_current_revocation
+    - rollback_vs_forward_governance_repair
+    - single_authority_vs_multi_party_approval
+    - apparent_quorum_vs_correlated_control
 
-Phiên đồng thuận #67 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+  falsifiers:
+    - capability_promoted_to_authority
+    - authentication_promoted_to_authorization
+    - policy_promoted_to_authority
+    - authorization_promoted_to_commit
+    - unknown_hard_gate_promoted_to_pass
+    - self_authorized_governance_mutation
+    - stale_authority_used_after_revocation
+    - duplicated_policy_gates_counted_as_independent_controls
+    - fixed_quorum_rule_invented_without_source
+    - fixed_crypto_requirement_invented_without_implementation
 
-#### Ràng buộc Bảo mật:
+  implementation:
+    specification: ESTABLISHED
+    executable_binding: NOT_ESTABLISHED_PLANE_WIDE
+    runtime_enforcement: NOT_ESTABLISHED
+    deployment_validation: NOT_ESTABLISHED
+    formal_verification: NOT_ESTABLISHED
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+  confidence_ceiling:
+    architecture: DERIVED
+    implementation: CONDITIONAL
+    runtime_guarantees: UNKNOWN/GAP
+    external_institutional_authority: UNKNOWN/GAP
+```
 
-### 2.68. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #68
+---
 
-Phiên đồng thuận #68 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+# 112. Final Status
 
-#### Ràng buộc Bảo mật:
+```yaml
+artifact_status:
+  artifact: K_GOVERNANCE
+  version: 3.0.0
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+  origin_architect: Trang Phan
+  steward: Trang Phan
+  target: AMOS_CORE_v4.4
 
-### 2.69. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #69
+  status: ACTIVE_SPECIFICATION
+  epistemic_class: AMOS_MODEL
+  conclusion_class: DERIVED
+  canonical_status: CONDITIONAL
 
-Phiên đồng thuận #69 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+  constitutional_governance: DEFINED
+  governed_effect_model: DEFINED
+  authority_separation: DEFINED
+  delegation_contract: DEFINED
+  scope_purpose_binding: DEFINED
+  policy_compatibility: DEFINED
+  policy_precedence: DEFINED
+  exception_semantics: DEFINED
+  override_semantics: DEFINED
+  provenance_gate: DEFINED
+  freshness_gate: DEFINED
+  consequence_gate: DEFINED
+  commit_time_revalidation: DEFINED
+  governance_receipts: DEFINED
+  escalation: DEFINED
+  anti_self_authorization: DEFINED
+  governed_evolution_binding: DEFINED
+  adversarial_tests: DEFINED
+  falsifiers: DEFINED
 
-#### Ràng buộc Bảo mật:
+  duplicated_144_gate_architecture: REMOVED
+  duplicated_policy_clauses: REMOVED
+  universal_80_percent_quorum: REJECTED
+  universal_five_node_quorum: REJECTED
+  mandatory_bls12_381: REJECTED
+  automatic_decentralization_claim: REJECTED
+  universal_human_rights_enforcement_claim: REJECTED
+  universal_biosafety_guarantee: REJECTED
+  universe_integrity_guarantee: REJECTED
+  self_assigned_system_coauthorship: REMOVED
+  canonical_equals_enforced: REJECTED
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+  plane_wide_executable_enforcement: NOT_ESTABLISHED
+  universal_quorum_policy: NOT_ESTABLISHED
+  universal_crypto_policy: NOT_ESTABLISHED
+  physical_approver_independence: NOT_ESTABLISHED
+  full_governance_safety_proof: NOT_ESTABLISHED
+  full_governance_liveness_proof: NOT_ESTABLISHED
+  deployment_validation: NOT_ESTABLISHED
 
-### 2.70. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #70
+  final_conclusion: DERIVED
+```
 
-Phiên đồng thuận #70 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
+---
 
-#### Ràng buộc Bảo mật:
+**Origin Architect / Steward: Trang Phan**
 
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
+```
 
-### 2.71. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #71
-
-Phiên đồng thuận #71 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.72. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #72
-
-Phiên đồng thuận #72 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.73. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #73
-
-Phiên đồng thuận #73 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.74. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #74
-
-Phiên đồng thuận #74 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.75. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #75
-
-Phiên đồng thuận #75 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.76. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #76
-
-Phiên đồng thuận #76 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.77. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #77
-
-Phiên đồng thuận #77 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.78. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #78
-
-Phiên đồng thuận #78 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.79. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #79
-
-Phiên đồng thuận #79 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.80. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #80
-
-Phiên đồng thuận #80 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.81. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #81
-
-Phiên đồng thuận #81 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.82. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #82
-
-Phiên đồng thuận #82 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.83. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #83
-
-Phiên đồng thuận #83 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.84. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #84
-
-Phiên đồng thuận #84 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.85. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #85
-
-Phiên đồng thuận #85 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.86. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #86
-
-Phiên đồng thuận #86 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.87. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #87
-
-Phiên đồng thuận #87 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.88. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #88
-
-Phiên đồng thuận #88 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.89. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #89
-
-Phiên đồng thuận #89 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.90. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #90
-
-Phiên đồng thuận #90 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.91. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #91
-
-Phiên đồng thuận #91 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.92. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #92
-
-Phiên đồng thuận #92 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.93. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #93
-
-Phiên đồng thuận #93 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.94. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #94
-
-Phiên đồng thuận #94 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.95. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #95
-
-Phiên đồng thuận #95 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.96. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #96
-
-Phiên đồng thuận #96 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.97. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #97
-
-Phiên đồng thuận #97 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.98. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #98
-
-Phiên đồng thuận #98 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.99. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #99
-
-Phiên đồng thuận #99 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.100. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #100
-
-Phiên đồng thuận #100 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.101. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #101
-
-Phiên đồng thuận #101 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.102. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #102
-
-Phiên đồng thuận #102 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.103. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #103
-
-Phiên đồng thuận #103 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.104. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #104
-
-Phiên đồng thuận #104 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.105. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #105
-
-Phiên đồng thuận #105 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.106. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #106
-
-Phiên đồng thuận #106 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.107. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #107
-
-Phiên đồng thuận #107 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.108. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #108
-
-Phiên đồng thuận #108 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.109. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #109
-
-Phiên đồng thuận #109 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.110. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #110
-
-Phiên đồng thuận #110 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.111. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #111
-
-Phiên đồng thuận #111 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.112. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #112
-
-Phiên đồng thuận #112 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.113. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #113
-
-Phiên đồng thuận #113 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.114. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #114
-
-Phiên đồng thuận #114 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.115. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #115
-
-Phiên đồng thuận #115 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.116. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #116
-
-Phiên đồng thuận #116 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.117. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #117
-
-Phiên đồng thuận #117 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.118. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #118
-
-Phiên đồng thuận #118 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.119. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #119
-
-Phiên đồng thuận #119 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.120. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #120
-
-Phiên đồng thuận #120 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.121. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #121
-
-Phiên đồng thuận #121 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.122. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #122
-
-Phiên đồng thuận #122 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.123. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #123
-
-Phiên đồng thuận #123 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.124. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #124
-
-Phiên đồng thuận #124 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.125. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #125
-
-Phiên đồng thuận #125 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.126. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #126
-
-Phiên đồng thuận #126 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.127. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #127
-
-Phiên đồng thuận #127 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.128. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #128
-
-Phiên đồng thuận #128 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.129. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #129
-
-Phiên đồng thuận #129 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.130. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #130
-
-Phiên đồng thuận #130 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.131. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #131
-
-Phiên đồng thuận #131 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.132. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #132
-
-Phiên đồng thuận #132 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.133. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #133
-
-Phiên đồng thuận #133 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.134. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #134
-
-Phiên đồng thuận #134 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.135. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #135
-
-Phiên đồng thuận #135 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.136. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #136
-
-Phiên đồng thuận #136 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.137. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #137
-
-Phiên đồng thuận #137 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.138. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #138
-
-Phiên đồng thuận #138 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.139. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #139
-
-Phiên đồng thuận #139 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.140. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #140
-
-Phiên đồng thuận #140 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.141. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #141
-
-Phiên đồng thuận #141 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.142. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #142
-
-Phiên đồng thuận #142 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.143. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #143
-
-Phiên đồng thuận #143 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-### 2.144. Phiên Bỏ Phiếu Đồng Thuận Quorum Session #144
-
-Phiên đồng thuận #144 yêu cầu sự phê chuẩn của ít nhất 5 nút giám sát độc lập.
-
-#### Ràng buộc Bảo mật:
-
-- Tiêu chí bảo mật #1: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #2: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-- Tiêu chí bảo mật #3: Sử dụng sơ đồ chữ ký ngưỡng Threshold Signature BLS12-381.
-
-## 3. LIÊN KẾT LIÊN BẢNG & DANH MỤC TÀI LIỆU THAM KHẢO WIKILINKS
-
-- **Hạt nhân Liên quan:** [[02_KERNEL/K_CORE_LAWS|K_CORE_LAWS]] · [[02_KERNEL/K_AUTHORITY|K_AUTHORITY]] · [[02_KERNEL/K_FAIL_CLOSED|K_FAIL_CLOSED]] · [[02_KERNEL/K_GOVERNED_EVOLUTION|K_GOVERNED_EVOLUTION]]
-- **MOCs Điều hướng:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] · 05_GOVERNANCE_MOC
-
-______________________________________________________________________
-
-**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS
+:contentReference[oaicite:0]{index=0}
+```

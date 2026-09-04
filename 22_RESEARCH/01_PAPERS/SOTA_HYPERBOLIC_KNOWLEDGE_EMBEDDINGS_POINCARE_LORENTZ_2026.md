@@ -124,12 +124,12 @@ $$\epsilon_{\text{distortion}} = \max_{u, v \in V} \left| \frac{d_{\mathbb{B}}(f
 
 | AMOS Plane | Role & Integration |
 | :--- | :--- |
-| **[[01_CANON/01_CANON_MOC\|01_CANON]]** | Canonical root anchor definitions situated at the origin $\mathbf{x} = \mathbf{0}$. |
-| **[[02_KERNEL/02_KERNEL_MOC\|02_KERNEL]]** | Executes SIMD-vectorized Lorentz distance and gyrovector addition primitives. |
-| **[[11_KNOWLEDGE/11_KNOWLEDGE_MOC\|11_KNOWLEDGE]]** | Stores all knowledge items and ontology nodes in indexed Poincaré coordinate trees. |
-| **[[13_MODELS/13_MODELS_MOC\|13_MODELS]]** | Hyperbolic Graph Neural Networks (HGNN) for cross-domain link prediction. |
-| **[[21_DOMAINS/21_DOMAINS_MOC\|21_DOMAINS]]** | Hierarchical decomposition of specialized domain knowledge structures. |
-| **[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC\|25_COGNITIVE_MATRIX]]** | Continuous-manifold routing of multi-plane tensor contractions. |
+| **[[01_CANON/01_CANON_MOC|01_CANON]]** | Canonical root anchor definitions situated at the origin $\mathbf{x} = \mathbf{0}$. |
+| **[[02_KERNEL/02_KERNEL_MOC|02_KERNEL]]** | Executes SIMD-vectorized Lorentz distance and gyrovector addition primitives. |
+| **[[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE]]** | Stores all knowledge items and ontology nodes in indexed Poincaré coordinate trees. |
+| **[[13_MODELS/13_MODELS_MOC|13_MODELS]]** | Hyperbolic Graph Neural Networks (HGNN) for cross-domain link prediction. |
+| **[[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS]]** | Hierarchical decomposition of specialized domain knowledge structures. |
+| **[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX]]** | Continuous-manifold routing of multi-plane tensor contractions. |
 
 ---
 

@@ -1,3093 +1,2968 @@
 ---
-title: "GOVERNED EVOLUTION & MUTATION SAFETY KERNEL"
-type: kernel
+title: "K_GOVERNED_EVOLUTION — Governed Evolution, Mutation Safety & Controlled Propagation Kernel"
+type: kernel_architecture_specification
 source: 02_KERNEL
-artifact_id: AMOS-KERNEL-GOVERNED-EVOLUTION-MASTER
+artifact_id: AMOS-KERNEL-GOVERNED-EVOLUTION
 canonical_name: K_GOVERNED_EVOLUTION
-status: CANONICAL
-conclusion_class: CANONICAL
-amos_core_target: v4.4
 origin_architect: Trang Phan
 steward: Trang Phan
-version: 2.0.0
-created: '2026-08-25'
-updated: '2026-08-28'
+amos_core_target: v4.4
 plane: 02_KERNEL
-domain: governed-evolution
+domain: governed_evolution
+path: 02_KERNEL/K_GOVERNED_EVOLUTION.md
+version: 3.0.0
+updated: 2026-09-04
+status: ACTIVE_SPECIFICATION
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
+canonical_status: ACTIVE_CANON_CANDIDATE
+implementation_status: NOT_ESTABLISHED_PLANE_WIDE
+runtime_enforcement_status: NOT_ESTABLISHED
+formal_verification_status: NOT_ESTABLISHED
+deployment_validation_status: NOT_ESTABLISHED
+aliases:
+  - Governed Evolution Kernel
+  - Mutation Safety Kernel
+  - GMEF Kernel
+  - Evolutionary Change Governance Kernel
 tags:
   - amos-os
   - kernel
   - governed-evolution
   - mutation-safety
+  - gmef
+  - lifecycle-governance
+  - evidence
+  - authority
+  - sandbox
+  - rollout
+  - rollback
+  - propagation
   - evolutionary-debt
-  - rscf/claim
-  - rscf/state/canonical
-aliases:
-  - Governed Evolution Kernel
-  - K_GOVERNED_EVOLUTION
-  - Mutation Safety Core
-  - Evolutionary Debt Manager
+  - rscf
 rscf:
   state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  claim_class: AMOS_MODEL
+  provenance:
+    - AMOS_CORE_v4_4_lineage
+    - AMOS_corpus
+    - 02_KERNEL/K_GOVERNANCE
+    - 02_KERNEL/K_FAIL_CLOSED
+    - 02_KERNEL/K_FAILURE_RECOVERY
+  scope: governed_evolution_kernel
+  confidence_ceiling: DERIVED
 ---
 
-# GOVERNED EVOLUTION & MUTATION SAFETY KERNEL
+# K_GOVERNED_EVOLUTION
 
-## ĐẶC TẢ HÌNH THỨC HẠT NHÂN TIẾN HÓA CÓ KIỂM SOÁT & AN TOÀN ĐỘT BIẾN
+## Governed Evolution, Mutation Safety & Controlled Propagation Kernel
 
-### Khung Phân Lớp Đột Biến M0-M5, Quản Trị Nợ Tiến Hóa GMEF và Cơ Chế Sandbox Cách Ly
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Epistemic Class:** `AMOS_MODEL`
+> **Conclusion Class:** `DERIVED`
+> **Status:** `ACTIVE_SPECIFICATION`
 
-> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS
-> **Plane:** `02_KERNEL/K_GOVERNED_EVOLUTION.md`
-> **Trạng thái:** `CANONICAL` (Động Cơ Tiến Hóa Hệ Thống Có Kiểm Soát)
+---
 
-______________________________________________________________________
+# 1. Purpose
 
-## 1. CÁC CẤP ĐỘ ĐỘT BIẾN TIẾN HÓA (MUTATION CLASSES M0 - M5)
+`K_GOVERNED_EVOLUTION` defines the kernel-level rules governing changes to AMOS models, prompts, policies, algorithms, schemas, architecture, runtime components, state structures, interfaces, and constitutional rules.
 
-Mọi đề xuất nâng cấp hoặc tự biến đổi mã nguồn hệ thống phải được phân loại chính xác:
+The governing principle is:
+
+```text
+CHANGE CAPABILITY
+!=
+CHANGE AUTHORITY
+```
 
-- **M0 (No-op / Cosmetic):** Chỉnh sửa định dạng tài liệu, không thay đổi logic.
-- **M1 (Parameter Tuning):** Tinh chỉnh tham số siêu hình, nằm trong biên an toàn.
-- **M2 (Feature Addition):** Thêm chức năng mới mà không sửa đổi hàm hiện có.
-- **M3 (Refactoring):** Tái cấu trúc mã nguồn, bắt buộc chứng minh tương đương toán học.
-- **M4 (Kernel Extension):** Mở rộng hạt nhân, yêu cầu 100% kiểm thử invariant.
-- **M5 (Constitutional Evolution):** Tiến hóa hiến pháp, bắt buộc đồng thuận toàn thể hội đồng.
+A component may be technically capable of changing itself or another subsystem without possessing authority to do so.
 
-### 1.1. Quy Trình Kiểm Thử Đột Biến Mutation Verification #1
+Every candidate mutation remains unauthorized until its:
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_01`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+```text
+mutation class
+evidence burden
+authority path
+environment
+propagation envelope
+rollback capability
+monitoring requirements
+governance compatibility
+```
 
-#### Các Bước Kiểm Tra:
+have been established.
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+The canonical lifecycle is:
 
-### 1.2. Quy Trình Kiểm Thử Đột Biến Mutation Verification #2
+```text
+PROPOSE
+→ IDENTIFY CHANGE
+→ CLASSIFY MUTATION
+→ DEFINE PERMISSION PROFILE
+→ CHECK GOVERNANCE
+→ SELECT EXPERIMENT ENVIRONMENT
+→ GATHER EVIDENCE
+→ ADVERSARIAL REVIEW
+→ AUTHORIZE
+→ SANDBOX / SHADOW / CANARY
+→ MONITOR
+→ PROMOTE | HOLD | ROLLBACK | REJECT
+→ RETAIN EVOLUTION MEMORY
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_02`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+Hard separation:
 
-#### Các Bước Kiểm Tra:
+```text
+PROPOSED_CHANGE != AUTHORIZED_CHANGE
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+AUTHORIZED_CHANGE != VALIDATED_CHANGE
 
-### 1.3. Quy Trình Kiểm Thử Đột Biến Mutation Verification #3
+VALIDATED_CHANGE != DEPLOYABLE_CHANGE
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_03`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+DEPLOYABLE_CHANGE != GENERAL_PRODUCTION
 
-#### Các Bước Kiểm Tra:
+TEST_PASS != UNIVERSAL_CORRECTNESS
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+PERFORMANCE_GAIN != GOVERNANCE_PERMISSION
 
-### 1.4. Quy Trình Kiểm Thử Đột Biến Mutation Verification #4
+ROLLBACK != EVIDENCE_ERASURE
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_04`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+SELF_MODIFICATION != SELF_AUTHORIZATION
 
-#### Các Bước Kiểm Tra:
+DOCUMENTED != IMPLEMENTED
+```
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+---
 
-### 1.5. Quy Trình Kiểm Thử Đột Biến Mutation Verification #5
+# 2. Architectural Scope
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_05`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+`K_GOVERNED_EVOLUTION` owns kernel semantics for:
 
-#### Các Bước Kiểm Tra:
+1. mutation classification;
+2. mutation permission profiles;
+3. lifecycle-state transitions;
+4. evidence thresholds;
+5. experiment-environment classes;
+6. authority requirements;
+7. propagation envelopes;
+8. rollout gates;
+9. rollback requirements;
+10. monitoring and stop conditions;
+11. evolutionary debt;
+12. anti-regression;
+13. adversarial evolution review;
+14. failure-memory preservation;
+15. constitutional-change escalation.
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+It does not itself own:
 
-### 1.6. Quy Trình Kiểm Thử Đột Biến Mutation Verification #6
+```text
+source-code implementation
+CI execution
+sandbox infrastructure
+deployment infrastructure
+human approval systems
+identity providers
+runtime orchestration
+observability storage
+formal proof execution
+production promotion
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_06`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+Those belong to their respective planes.
 
-#### Các Bước Kiểm Tra:
+---
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+# 3. Core Evolution Invariants
 
-### 1.7. Quy Trình Kiểm Thử Đột Biến Mutation Verification #7
+## INV-EVO-001 — No Autonomous Authority Creation
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_07`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+```text
+A SYSTEM MAY PROPOSE A CHANGE
+BUT MUST NOT CREATE THE AUTHORITY
+REQUIRED TO APPROVE ITS OWN CHANGE
+```
 
-#### Các Bước Kiểm Tra:
+---
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+## INV-EVO-002 — Higher Consequence Requires Stronger Governance
 
-### 1.8. Quy Trình Kiểm Thử Đột Biến Mutation Verification #8
+Governance burden increases with:
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_08`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+```text
+impact
+irreversibility
+blast radius
+constitutional depth
+authority sensitivity
+uncertainty
+propagation scope
+```
 
-#### Các Bước Kiểm Tra:
+---
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+## INV-EVO-003 — Evidence Cannot Be Weaker Than the Claim
 
-### 1.9. Quy Trình Kiểm Thử Đột Biến Mutation Verification #9
+```text
+CLAIM_STRENGTH <= EVIDENCE_STRENGTH
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_09`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+Local success does not establish global validity.
 
-#### Các Bước Kiểm Tra:
+---
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+## INV-EVO-004 — Mutation Scope Must Be Bounded
 
-### 1.10. Quy Trình Kiểm Thử Đột Biến Mutation Verification #10
+No candidate may autonomously expand beyond its authorized propagation envelope.
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_10`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+```text
+AUTHORIZED_SCOPE
+!=
+UNBOUNDED_SCOPE
+```
 
-#### Các Bước Kiểm Tra:
+---
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+## INV-EVO-005 — Rollback Must Exist Before High-Impact Promotion
 
-### 1.11. Quy Trình Kiểm Thử Đột Biến Mutation Verification #11
+For mutations requiring reversibility:
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_11`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+```text
+NO_VALID_ROLLBACK
+→ NO_PROMOTION
+```
 
-#### Các Bước Kiểm Tra:
+---
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+## INV-EVO-006 — Governance Rules Cannot Be Weakened by the Candidate They Govern
 
-### 1.12. Quy Trình Kiểm Thử Đột Biến Mutation Verification #12
+```text
+CANDIDATE_CHANGE
+MUST NOT
+REDEFINE ITS OWN ADMISSIBILITY RULES
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_12`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+A constitutional or governance change requires an independent authority path.
 
-#### Các Bước Kiểm Tra:
+---
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+## INV-EVO-007 — Failure Evidence Must Survive Rollback
 
-### 1.13. Quy Trình Kiểm Thử Đột Biến Mutation Verification #13
+```text
+ROLLBACK
+!=
+DELETE_FAILURE_HISTORY
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_13`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+Failed mutations become negative evolution memory.
 
-#### Các Bước Kiểm Tra:
+---
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+## INV-EVO-008 — Hidden Promotion Is Forbidden
 
-### 1.14. Quy Trình Kiểm Thử Đột Biến Mutation Verification #14
+```text
+SANDBOX_SUCCESS
+!=
+PRODUCTION_PERMISSION
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_14`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+Every lifecycle transition must be explicit.
 
-#### Các Bước Kiểm Tra:
+---
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+## INV-EVO-009 — Unknown Hard Gate Is Not Pass
 
-### 1.15. Quy Trình Kiểm Thử Đột Biến Mutation Verification #15
+```text
+UNKNOWN/GAP != PASS
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_15`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+## INV-EVO-010 — Optimization Cannot Weaken Integrity
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+```text
+INTEGRITY
+>
+COMPLETENESS
+>
+FLUENCY
+>
+SPEED
+>
+TOKEN SAVINGS
+```
 
-### 1.16. Quy Trình Kiểm Thử Đột Biến Mutation Verification #16
+---
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_16`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+# 4. Mutation Classes M0–M5
 
-#### Các Bước Kiểm Tra:
+The source M0–M5 structure is preserved, but the classes are normalized so the class describes **consequence and governance depth**, not unsupported mandatory test counts.
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+## M0 — Non-Semantic / Cosmetic Change
 
-### 1.17. Quy Trình Kiểm Thử Đột Biến Mutation Verification #17
+Examples:
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_17`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+```text
+formatting
+spelling
+comment cleanup
+documentation layout
+non-semantic naming cleanup
+```
 
-#### Các Bước Kiểm Tra:
+Condition:
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+```text
+NO INTENDED BEHAVIORAL EFFECT
+```
 
-### 1.18. Quy Trình Kiểm Thử Đột Biến Mutation Verification #18
+If behavior may change, reclassify upward.
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_18`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+## M1 — Bounded Parameter or Configuration Change
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Examples:
 
-### 1.19. Quy Trình Kiểm Thử Đột Biến Mutation Verification #19
+```text
+threshold tuning
+timeouts
+bounded routing weights
+feature flags
+approved configuration values
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_19`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+Requirements:
 
-#### Các Bước Kiểm Tra:
+```text
+allowed range defined
+baseline known
+rollback available
+affected scope bounded
+```
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+---
 
-### 1.20. Quy Trình Kiểm Thử Đột Biến Mutation Verification #20
+## M2 — Local Behavioral / Feature Change
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_20`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+Examples:
 
-#### Các Bước Kiểm Tra:
+```text
+new bounded capability
+new local rule
+new endpoint
+new optional module
+local workflow behavior
+```
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Requires evidence that dependencies and neighboring behavior remain acceptable.
 
-### 1.21. Quy Trình Kiểm Thử Đột Biến Mutation Verification #21
+---
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_21`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+## M3 — Structural / Refactoring / Cross-Component Change
 
-#### Các Bước Kiểm Tra:
+Examples:
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+```text
+representation change
+control-flow restructuring
+API contract restructuring
+state-model change
+cross-module refactor
+migration
+```
 
-### 1.22. Quy Trình Kiểm Thử Đột Biến Mutation Verification #22
+Behavioral equivalence may be required where equivalence is actually part of the intended contract.
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_22`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+Hard firewall:
 
-#### Các Bước Kiểm Tra:
+```text
+M3
+!=
+AUTOMATIC REQUIREMENT FOR MATHEMATICAL PROOF
+```
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Formal proof is required only when the governed contract demands it.
 
-### 1.23. Quy Trình Kiểm Thử Đột Biến Mutation Verification #23
+---
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_23`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+## M4 — Kernel / Authority / High-Blast-Radius Change
 
-#### Các Bước Kiểm Tra:
+Examples:
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+```text
+kernel extension
+control-plane change
+authority-model change
+persistent-state semantics
+security boundary change
+governance gate implementation
+cross-plane coordination change
+```
 
-### 1.24. Quy Trình Kiểm Thử Đột Biến Mutation Verification #24
+Requires substantially stronger evidence, staged rollout, rollback, and authority.
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_24`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+## M5 — Constitutional / Canon / Governance-Rule Change
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Examples:
 
-### 1.25. Quy Trình Kiểm Thử Đột Biến Mutation Verification #25
+```text
+core-law mutation
+authority hierarchy change
+constitutional policy change
+rules governing evolution itself
+root provenance change
+canon admission-rule change
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_25`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+M5 must remain externally and independently governed.
 
-#### Các Bước Kiểm Tra:
+Hard rule:
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+```text
+M5 CHANGE
+MUST NOT
+SELF-AUTHORIZE
+```
 
-### 1.26. Quy Trình Kiểm Thử Đột Biến Mutation Verification #26
+No universal requirement such as “unanimous council approval” is imposed unless the governing canon explicitly defines it.
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_26`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 5. Conservative Classification
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+If the mutation class is ambiguous:
 
-### 1.27. Quy Trình Kiểm Thử Đột Biến Mutation Verification #27
+```text
+USE THE HIGHER-CONSEQUENCE PLAUSIBLE CLASS
+UNTIL DISCRIMINATING EVIDENCE EXISTS
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_27`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+Examples:
 
-#### Các Bước Kiểm Tra:
+```text
+"documentation cleanup"
+that changes executable configuration
+→ NOT M0
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+"parameter tuning"
+that changes safety threshold outside approved range
+→ NOT M1
 
-### 1.28. Quy Trình Kiểm Thử Đột Biến Mutation Verification #28
+"feature addition"
+that changes authority semantics
+→ M4 or M5
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_28`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 6. Mutation Permission Profile
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Every governed mutation should have a `MutationPermissionProfile`.
 
-### 1.29. Quy Trình Kiểm Thử Đột Biến Mutation Verification #29
+```yaml
+MutationPermissionProfile:
+  mutation_id:
+  mutation_class:
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_29`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+  object:
+  parent_version:
+  proposed_version:
 
-#### Các Bước Kiểm Tra:
+  allowed_range:
+  prohibited_changes: []
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+  evidence_threshold:
+  approval_authority:
 
-### 1.30. Quy Trình Kiểm Thử Đột Biến Mutation Verification #30
+  experiment_environment:
+  propagation_limit:
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_30`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+  rollback_requirement:
+  monitoring_window:
 
-#### Các Bước Kiểm Tra:
+  stop_conditions: []
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+  lifecycle_transition:
 
-### 1.31. Quy Trình Kiểm Thử Đột Biến Mutation Verification #31
+  provenance:
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_31`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+Missing mandatory values remain `GAP`.
 
-#### Các Bước Kiểm Tra:
+They must not be invented.
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+---
 
-### 1.32. Quy Trình Kiểm Thử Đột Biến Mutation Verification #32
+# 7. Mutation Lifecycle
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_32`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+Suggested lifecycle:
 
-#### Các Bước Kiểm Tra:
+```text
+DRAFT
+→ PROPOSED
+→ CLASSIFIED
+→ ADMITTED
+→ EXPERIMENT_AUTHORIZED
+→ EXPERIMENTING
+→ VALIDATED_LIMITED
+→ CANARY_AUTHORIZED
+→ CANARY
+→ LIMITED_PRODUCTION
+→ MONITORED_EXPANSION
+→ GENERAL_PRODUCTION
+```
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Failure paths:
 
-### 1.33. Quy Trình Kiểm Thử Đột Biến Mutation Verification #33
+```text
+HOLD
+REJECTED
+QUARANTINED
+ROLLED_BACK
+REVOKED
+SUPERSEDED
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_33`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+No direct jump is assumed valid.
 
-#### Các Bước Kiểm Tra:
+---
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+# 8. Lifecycle Transition Invariant
 
-### 1.34. Quy Trình Kiểm Thử Đột Biến Mutation Verification #34
+Let lifecycle state be \(L_t\).
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_34`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+A transition:
 
-#### Các Bước Kiểm Tra:
+$$
+L_t \rightarrow L_{t+1}
+$$
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+is admissible only when the transition's required governance predicates are satisfied.
 
-### 1.35. Quy Trình Kiểm Thử Đột Biến Mutation Verification #35
+Conceptually:
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_35`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+$$
+TransitionAllowed
+=
+EvidencePassed
+\land GovernanceCompatible
+\land SafetyPassed
+\land AuthorityValid
+\land ScopeValid
+\land RollbackReady
+\land AuditReady
+$$
 
-#### Các Bước Kiểm Tra:
+This is an `AMOS_MODEL`.
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+It is not proof of implementation.
 
-### 1.36. Quy Trình Kiểm Thử Đột Biến Mutation Verification #36
+---
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_36`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+# 9. Experiment Environments X0–X6
 
-#### Các Bước Kiểm Tra:
+A bounded environment ladder should distinguish increasing real-world consequence.
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+## X0 — Static / Offline Inspection
 
-### 1.37. Quy Trình Kiểm Thử Đột Biến Mutation Verification #37
+```text
+no execution effect
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_37`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+## X1 — Isolated Unit / Synthetic Test
 
-#### Các Bước Kiểm Tra:
+```text
+isolated code or synthetic environment
+```
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+## X2 — Sandbox / Simulation
 
-### 1.38. Quy Trình Kiểm Thử Đột Biến Mutation Verification #38
+```text
+isolated system behavior
+no authoritative production effect
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_38`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+## X3 — Shadow
 
-#### Các Bước Kiểm Tra:
+```text
+production-like inputs
+no authoritative external effect
+```
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+## X4 — Canary
 
-### 1.39. Quy Trình Kiểm Thử Đột Biến Mutation Verification #39
+```text
+small explicitly bounded real-effect cohort
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_39`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+## X5 — Limited Production
 
-#### Các Bước Kiểm Tra:
+```text
+restricted users / tenants / tasks / regions / traffic
+```
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+## X6 — General Production
 
-### 1.40. Quy Trình Kiểm Thử Đột Biến Mutation Verification #40
+```text
+full approved production envelope
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_40`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+Hard rule:
 
-#### Các Bước Kiểm Tra:
+```text
+TEST AUTHORITY FOR X2
+!=
+AUTHORITY FOR X6
+```
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+---
 
-### 1.41. Quy Trình Kiểm Thử Đột Biến Mutation Verification #41
+# 10. Evidence Levels ET0–ET5
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_41`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+## ET0 — No Material Evidence
 
-#### Các Bước Kiểm Tra:
+```text
+proposal only
+```
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+## ET1 — Plausibility Evidence
 
-### 1.42. Quy Trình Kiểm Thử Đột Biến Mutation Verification #42
+```text
+design rationale
+static reasoning
+limited examples
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_42`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+## ET2 — Controlled Local Evidence
 
-#### Các Bước Kiểm Tra:
+```text
+unit tests
+targeted tests
+local benchmarks
+```
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+## ET3 — Integrated Evidence
 
-### 1.43. Quy Trình Kiểm Thử Đột Biến Mutation Verification #43
+```text
+integration testing
+cross-module validation
+negative cases
+regression analysis
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_43`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+## ET4 — Staged Operational Evidence
 
-#### Các Bước Kiểm Tra:
+```text
+shadow
+canary
+limited cohort
+realistic monitoring
+```
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+## ET5 — Strong Multi-Context Validation
 
-### 1.44. Quy Trình Kiểm Thử Đột Biến Mutation Verification #44
+May include:
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_44`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+```text
+replication
+independent validation
+multiple environments
+regime transfer
+formal verification for declared properties
+```
 
-#### Các Bước Kiểm Tra:
+depending on the claim.
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+ET5 does not mean universal truth.
 
-### 1.45. Quy Trình Kiểm Thử Đột Biến Mutation Verification #45
+---
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_45`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+# 11. Evidence Burden by Mutation Class
 
-#### Các Bước Kiểm Tra:
+No fixed universal table is imposed, but a default monotonic relation is:
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+```text
+higher mutation class
+→ non-decreasing evidence burden
+```
 
-### 1.46. Quy Trình Kiểm Thử Đột Biến Mutation Verification #46
+Conceptually:
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_46`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+$$
+M_i > M_j
+\Rightarrow
+E_{\min}(M_i)
+\ge
+E_{\min}(M_j)
+$$
 
-#### Các Bước Kiểm Tra:
+where exact thresholds remain governance-specific.
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+---
 
-### 1.47. Quy Trình Kiểm Thử Đột Biến Mutation Verification #47
+# 12. Mutation Evidence Capsule
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_47`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+```yaml
+mutation_evidence:
+  mutation_id:
 
-#### Các Bước Kiểm Tra:
+  baseline:
+  intended_effect:
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+  test_scope:
+  environment:
+  dataset_or_inputs:
 
-### 1.48. Quy Trình Kiểm Thử Đột Biến Mutation Verification #48
+  positive_results: []
+  negative_results: []
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_48`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+  regressions: []
+  uncertainties: []
 
-#### Các Bước Kiểm Tra:
+  confounders: []
+  subgroup_effects: []
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+  falsifiers: []
+  competing_hypotheses: []
 
-### 1.49. Quy Trình Kiểm Thử Đột Biến Mutation Verification #49
+  replication_status:
+  transferability_scope:
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_49`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+  evidence_level:
+```
 
-#### Các Bước Kiểm Tra:
+---
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+# 13. No Fixed Fuzz-Test Count
 
-### 1.50. Quy Trình Kiểm Thử Đột Biến Mutation Verification #50
+The legacy statement:
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_50`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+```text
+RUN 50,000 FUZZ TESTS
+```
 
-#### Các Bước Kiểm Tra:
+is not a universal AMOS rule.
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Test quantity must depend on:
 
-### 1.51. Quy Trình Kiểm Thử Đột Biến Mutation Verification #51
+```text
+failure model
+state space
+mutation class
+risk
+coverage
+input entropy
+system complexity
+budget
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_51`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+Hard rule:
 
-#### Các Bước Kiểm Tra:
+```text
+LARGE TEST COUNT
+!=
+ADEQUATE VALIDATION
+```
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+---
 
-### 1.52. Quy Trình Kiểm Thử Đột Biến Mutation Verification #52
+# 14. Mutation Verification Families
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_52`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+Instead of `MUTATION_SAFETY_CHECK_001 ... 144`, use semantic verification families:
 
-#### Các Bước Kiểm Tra:
+```text
+V01 — CONTRACT VALIDATION
+V02 — STATIC VALIDATION
+V03 — UNIT VALIDATION
+V04 — INTEGRATION VALIDATION
+V05 — REGRESSION VALIDATION
+V06 — ADVERSARIAL VALIDATION
+V07 — STATE / MIGRATION VALIDATION
+V08 — AUTHORITY / POLICY VALIDATION
+V09 — PERFORMANCE / RESOURCE VALIDATION
+V10 — ROLLBACK VALIDATION
+V11 — OBSERVABILITY VALIDATION
+V12 — DEPLOYMENT VALIDATION
+```
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Only applicable families are required.
 
-### 1.53. Quy Trình Kiểm Thử Đột Biến Mutation Verification #53
+---
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_53`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+# 15. Contract Validation
 
-#### Các Bước Kiểm Tra:
+Verify:
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+```text
+declared behavior
+input/output contract
+invariants
+authority boundaries
+failure semantics
+dependency assumptions
+```
 
-### 1.54. Quy Trình Kiểm Thử Đột Biến Mutation Verification #54
+---
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_54`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+# 16. Static Validation
 
-#### Các Bước Kiểm Tra:
+May include:
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+```text
+type checks
+lint
+schema checks
+static analysis
+dependency analysis
+security scanning
+formal analysis
+```
 
-### 1.55. Quy Trình Kiểm Thử Đột Biến Mutation Verification #55
+as applicable.
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_55`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 17. Unit Validation
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Tests local behavior.
 
-### 1.56. Quy Trình Kiểm Thử Đột Biến Mutation Verification #56
+Unit success must not be promoted into integration or deployment correctness.
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_56`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 18. Integration Validation
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Tests:
 
-### 1.57. Quy Trình Kiểm Thử Đột Biến Mutation Verification #57
+```text
+interfaces
+cross-component behavior
+state transitions
+dependency effects
+error propagation
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_57`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 19. Regression Validation
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Compare candidate against:
 
-### 1.58. Quy Trình Kiểm Thử Đột Biến Mutation Verification #58
+```text
+known-good parent
+protected behaviors
+previous incidents
+known failure cases
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_58`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 20. Adversarial Validation
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+At minimum, consequential changes should consider:
 
-### 1.59. Quy Trình Kiểm Thử Đột Biến Mutation Verification #59
+```text
+H1 — intended improvement is real
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_59`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+H0 — apparent gain is noise, confounding,
+     overfitting, selection bias, or measurement error
 
-#### Các Bước Kiểm Tra:
+Hh — hidden harmful consequences exist
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Hr — effect is regime-specific and may fail
+     under changed environment
+```
 
-### 1.60. Quy Trình Kiểm Thử Đột Biến Mutation Verification #60
+Preserve `COMPETING` if evidence cannot discriminate.
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_60`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 21. State / Migration Validation
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Required where changes affect:
 
-### 1.61. Quy Trình Kiểm Thử Đột Biến Mutation Verification #61
+```text
+schemas
+persistent state
+serialization
+migration
+backward compatibility
+MVCC semantics
+identity
+version lineage
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_61`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 22. Authority / Policy Validation
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Confirm:
 
-### 1.62. Quy Trình Kiểm Thử Đột Biến Mutation Verification #62
+```text
+actor authority
+mutation authority
+affected-policy compatibility
+constitutional impact
+delegation
+propagation authority
+commit-time freshness
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_62`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 23. Performance / Resource Validation
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Performance gains may be measured but cannot override hard governance gates.
 
-### 1.63. Quy Trình Kiểm Thử Đột Biến Mutation Verification #63
+```text
+FASTER
+!=
+SAFER
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_63`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+CHEAPER
+!=
+AUTHORIZED
+```
 
-#### Các Bước Kiểm Tra:
+---
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+# 24. Rollback Validation
 
-### 1.64. Quy Trình Kiểm Thử Đột Biến Mutation Verification #64
+Rollback should be tested where required.
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_64`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+A rollback plan that has never been validated remains:
 
-#### Các Bước Kiểm Tra:
+```text
+DOCUMENTED
+not
+VALIDATED
+```
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+---
 
-### 1.65. Quy Trình Kiểm Thử Đột Biến Mutation Verification #65
+# 25. Observability Validation
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_65`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+A mutation requiring monitoring must expose enough signals to determine:
 
-#### Các Bước Kiểm Tra:
+```text
+success
+regression
+harm
+drift
+rollback trigger
+```
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+---
 
-### 1.66. Quy Trình Kiểm Thử Đột Biến Mutation Verification #66
+# 26. Deployment Validation
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_66`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+Deployment validation asks whether evidence from development or sandbox transfers to the deployment environment.
 
-#### Các Bước Kiểm Tra:
+```text
+MODEL VALIDITY
+!=
+DEPLOYMENT VALIDITY
+```
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+---
 
-### 1.67. Quy Trình Kiểm Thử Đột Biến Mutation Verification #67
+# 27. Authority Classes HA0–HA5
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_67`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+Authority strength should increase with consequence.
 
-#### Các Bước Kiểm Tra:
+A generic AMOS model may distinguish:
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+## HA0 — No Mutation Authority
 
-### 1.68. Quy Trình Kiểm Thử Đột Biến Mutation Verification #68
+Proposal or observation only.
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_68`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+## HA1 — Local Cosmetic Authority
 
-#### Các Bước Kiểm Tra:
+Bounded non-semantic changes.
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+## HA2 — Bounded Configuration Authority
 
-### 1.69. Quy Trình Kiểm Thử Đột Biến Mutation Verification #69
+Within explicitly authorized ranges.
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_69`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+## HA3 — Feature / Component Change Authority
 
-#### Các Bước Kiểm Tra:
+Limited engineering change scope.
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+## HA4 — High-Impact / Kernel Change Authority
 
-### 1.70. Quy Trình Kiểm Thử Đột Biến Mutation Verification #70
+Requires heightened governance.
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_70`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+## HA5 — Constitutional Authority
 
-#### Các Bước Kiểm Tra:
+Reserved for explicitly defined constitutional governance.
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Hard rule:
 
-### 1.71. Quy Trình Kiểm Thử Đột Biến Mutation Verification #71
+```text
+MODEL OUTPUT
+!=
+AUTHORIZATION TOKEN
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_71`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 28. Authority Ceiling
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+A mutation cannot exceed its authority profile.
 
-### 1.72. Quy Trình Kiểm Thử Đột Biến Mutation Verification #72
+```text
+PROPOSED_MUTATION_CLASS
+>
+AUTHORIZED_MUTATION_CLASS
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_72`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+→ HOLD / ESCALATE / REJECT
+```
 
-#### Các Bước Kiểm Tra:
+---
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+# 29. Propagation Envelope
 
-### 1.73. Quy Trình Kiểm Thử Đột Biến Mutation Verification #73
+Every consequential change must define where it may propagate.
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_73`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+```yaml
+PropagationEnvelope:
+  users:
+  tenants:
+  tasks:
+  regions:
+  models:
+  languages:
+  environments:
+  data_classes:
+  traffic_fraction:
+  autonomy_scope:
+  start_time:
+  end_time:
+```
 
-#### Các Bước Kiểm Tra:
+---
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+# 30. No Autonomous Envelope Expansion
 
-### 1.74. Quy Trình Kiểm Thử Đột Biến Mutation Verification #74
+```text
+CURRENT PROPAGATION ENVELOPE
+→ may narrow automatically where authorized
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_74`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+CURRENT PROPAGATION ENVELOPE
+→ must not widen without authority
+```
 
-#### Các Bước Kiểm Tra:
+---
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+# 31. Rollout Sequence
 
-### 1.75. Quy Trình Kiểm Thử Đột Biến Mutation Verification #75
+Default safest progression:
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_75`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+```text
+SANDBOX
+→ SIMULATION
+→ SHADOW
+→ CANARY
+→ LIMITED COHORT
+→ MONITORED EXPANSION
+→ GENERAL PRODUCTION
+```
 
-#### Các Bước Kiểm Tra:
+Not every mutation requires every stage.
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Skipping a stage must be justified by scope and evidence, not convenience.
 
-### 1.76. Quy Trình Kiểm Thử Đột Biến Mutation Verification #76
+---
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_76`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+# 32. Promotion Gate
 
-#### Các Bước Kiểm Tra:
+A mutation may advance only if all applicable mandatory gates pass.
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+```text
+evidence threshold
+governance compatibility
+safety
+valid authority
+propagation bound
+rollback readiness
+audit readiness
+```
 
-### 1.77. Quy Trình Kiểm Thử Đột Biến Mutation Verification #77
+Conceptually:
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_77`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+$$
+Permit(m)
+=
+E(m)
+\land G(m)
+\land S(m)
+\land A(m)
+\land P(m)
+\land R(m)
+\land U(m)
+$$
 
-#### Các Bước Kiểm Tra:
+where:
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+* \(E\) = evidence threshold;
+* \(G\) = governance compatibility;
+* \(S\) = safety;
+* \(A\) = authority;
+* \(P\) = propagation validity;
+* \(R\) = rollback readiness;
+* \(U\) = auditability.
 
-### 1.78. Quy Trình Kiểm Thử Đột Biến Mutation Verification #78
+---
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_78`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+# 33. Governed Evolution Decisions
 
-#### Các Bước Kiểm Tra:
+Use:
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+```text
+PERMIT_LIMITED
+PERMIT_WITH_CONDITIONS
+HOLD_FOR_EVIDENCE
+ESCALATE_FOR_AUTHORITY
+REJECT
+QUARANTINE
+UNKNOWN/GAP
+```
 
-### 1.79. Quy Trình Kiểm Thử Đột Biến Mutation Verification #79
+---
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_79`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+# 34. PERMIT_LIMITED
 
-#### Các Bước Kiểm Tra:
+Use when evidence and authority support only a bounded propagation envelope.
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+---
 
-### 1.80. Quy Trình Kiểm Thử Đột Biến Mutation Verification #80
+# 35. PERMIT_WITH_CONDITIONS
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_80`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+Use when promotion is acceptable only with conditions such as:
 
-#### Các Bước Kiểm Tra:
+```text
+traffic cap
+time limit
+manual oversight
+read-only mode
+no external effects
+increased monitoring
+mandatory rollback trigger
+```
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+---
 
-### 1.81. Quy Trình Kiểm Thử Đột Biến Mutation Verification #81
+# 36. HOLD_FOR_EVIDENCE
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_81`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+Use when authority is present but required evidence is insufficient.
 
-#### Các Bước Kiểm Tra:
+---
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+# 37. ESCALATE_FOR_AUTHORITY
 
-### 1.82. Quy Trình Kiểm Thử Đột Biến Mutation Verification #82
+Use when technical evidence may be adequate but the required authority is absent.
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_82`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 38. REJECT
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Use when:
 
-### 1.83. Quy Trình Kiểm Thử Đột Biến Mutation Verification #83
+```text
+hard invariant violated
+unacceptable regression
+unsafe mutation
+scope fundamentally incompatible
+change conflicts with higher-order governance
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_83`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 39. QUARANTINE
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Use when:
 
-### 1.84. Quy Trình Kiểm Thử Đột Biến Mutation Verification #84
+```text
+candidate is suspicious
+provenance uncertain
+test contamination suspected
+malicious or adversarial mutation possible
+repair substrate may be poisoned
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_84`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 40. UNKNOWN/GAP
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Use when a decision-critical field cannot be established.
 
-### 1.85. Quy Trình Kiểm Thử Đột Biến Mutation Verification #85
+---
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_85`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+# 41. Evolutionary Debt
 
-#### Các Bước Kiểm Tra:
+Evolutionary debt represents accumulated unresolved burden introduced or exposed by system evolution.
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Possible dimensions include:
 
-### 1.86. Quy Trình Kiểm Thử Đột Biến Mutation Verification #86
+```text
+technical debt
+architectural drift
+test debt
+observability debt
+security debt
+governance debt
+documentation debt
+migration debt
+rollback debt
+provenance debt
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_86`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 42. Evolutionary Debt Vector
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Rather than pretending all debt is naturally one scalar:
 
-### 1.87. Quy Trình Kiểm Thử Đột Biến Mutation Verification #87
+$$
+\mathbf{D}_{evo}
+=
+\langle
+D_{tech},
+D_{arch},
+D_{test},
+D_{obs},
+D_{sec},
+D_{gov},
+D_{doc},
+D_{migration},
+D_{rollback},
+D_{prov}
+\rangle
+$$
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_87`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+This preserves distinctions between debt types.
 
-#### Các Bước Kiểm Tra:
+---
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+# 43. Optional Scalar Debt Model
 
-### 1.88. Quy Trình Kiểm Thử Đột Biến Mutation Verification #88
+If an explicitly governed use case defines compatible normalized dimensions and weights:
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_88`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+$$
+D_{evo}
+=
+\sum_i w_i D_i
+$$
 
-#### Các Bước Kiểm Tra:
+subject to:
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+$$
+w_i \ge 0
+$$
 
-### 1.89. Quy Trình Kiểm Thử Đột Biến Mutation Verification #89
+and the weights must be defined rather than invented.
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_89`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+Hard firewall:
 
-#### Các Bước Kiểm Tra:
+```text
+WEIGHTED DEBT SCORE
+!=
+UNIVERSAL LAW
+```
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+---
 
-### 1.90. Quy Trình Kiểm Thử Đột Biến Mutation Verification #90
+# 44. Evolutionary Debt Threshold
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_90`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+A threshold such as:
 
-#### Các Bước Kiểm Tra:
+$$
+D_{evo} \le D_{max}
+$$
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+is valid only when:
 
-### 1.91. Quy Trình Kiểm Thử Đột Biến Mutation Verification #91
+```text
+dimensions defined
+normalization defined
+weights defined
+threshold authority defined
+scope defined
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_91`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 45. No Automatic Universal Debt Freeze
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+The legacy rule:
 
-### 1.92. Quy Trình Kiểm Thử Đột Biến Mutation Verification #92
+```text
+DEBT ABOVE THRESHOLD
+→ BLOCK ALL MUTATIONS
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_92`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+is too coarse.
 
-#### Các Bước Kiểm Tra:
+A better governed response may be:
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+```text
+HIGH DEBT
+→ increase evidence burden
+→ narrow propagation
+→ prioritize repair
+→ block debt-increasing mutations
+→ permit emergency debt-reducing repair where authorized
+```
 
-### 1.93. Quy Trình Kiểm Thử Đột Biến Mutation Verification #93
+---
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_93`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+# 46. Evolutionary Debt Ledger
 
-#### Các Bước Kiểm Tra:
+Use one typed ledger keyed by subsystem, not hundreds of duplicated numbered ledgers.
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+```yaml
+EvolutionDebtRecord:
+  record_id:
 
-### 1.94. Quy Trình Kiểm Thử Đột Biến Mutation Verification #94
+  subsystem:
+  component:
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_94`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+  debt_type:
+  severity:
 
-#### Các Bước Kiểm Tra:
+  source_mutation:
+  detected_at:
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+  description:
+  consequence:
 
-### 1.95. Quy Trình Kiểm Thử Đột Biến Mutation Verification #95
+  dependencies: []
+  affected_invariants: []
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_95`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+  remediation:
+  owner:
 
-#### Các Bước Kiểm Tra:
+  status:
+    - OPEN
+    - MITIGATED
+    - ACCEPTED
+    - RESOLVED
+    - SUPERSEDED
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+  evidence_refs: []
+  provenance:
+```
 
-### 1.96. Quy Trình Kiểm Thử Đột Biến Mutation Verification #96
+---
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_96`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+# 47. Debt Is Not Failure Count
 
-#### Các Bước Kiểm Tra:
+```text
+MORE RECORDED DEBT ITEMS
+!=
+WORSE SYSTEM
+```
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+A system with strong observability may record more debt than a system that fails to detect it.
 
-### 1.97. Quy Trình Kiểm Thử Đột Biến Mutation Verification #97
+---
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_97`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+# 48. Mutation Debt Delta
 
-#### Các Bước Kiểm Tra:
+For mutation \(m\):
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+$$
+\Delta \mathbf{D}_{evo}(m)
+=
+\mathbf{D}_{after}
+-
+\mathbf{D}_{before}
+$$
 
-### 1.98. Quy Trình Kiểm Thử Đột Biến Mutation Verification #98
+A mutation may reduce one debt class while increasing another.
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_98`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 49. Debt Trade-Off
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Example:
 
-### 1.99. Quy Trình Kiểm Thử Đột Biến Mutation Verification #99
+```text
+refactor reduces technical debt
+but
+increases migration risk
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_99`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+Therefore debt dimensions must not be collapsed prematurely.
 
-#### Các Bước Kiểm Tra:
+---
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+# 50. Anti-Regression Gate
 
-### 1.100. Quy Trình Kiểm Thử Đột Biến Mutation Verification #100
+A candidate must not silently degrade:
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_100`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+```text
+factual support
+scope correctness
+contradiction visibility
+provenance recoverability
+causal discipline
+security
+safety
+authority integrity
+rollback capability
+auditability
+```
 
-#### Các Bước Kiểm Tra:
+---
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+# 51. Change Impact Graph
 
-### 1.101. Quy Trình Kiểm Thử Đột Biến Mutation Verification #101
+A mutation should identify:
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_101`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+```text
+direct targets
+downstream dependencies
+shared state
+external interfaces
+policy dependencies
+test dependencies
+rollback dependencies
+```
 
-#### Các Bước Kiểm Tra:
+Only materially affected descendants should require revalidation.
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+---
 
-### 1.102. Quy Trình Kiểm Thử Đột Biến Mutation Verification #102
+# 52. Selective Revalidation
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_102`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+Hard rule:
 
-#### Các Bước Kiểm Tra:
+```text
+ONE CHANGE
+!=
+GLOBAL RECOMPUTATION
+```
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Revalidate the dependency closure that can materially change the promotion decision.
 
-### 1.103. Quy Trình Kiểm Thử Đột Biến Mutation Verification #103
+---
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_103`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+# 53. Mutation Provenance
 
-#### Các Bước Kiểm Tra:
+Every candidate should preserve:
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+```text
+origin
+author
+parent version
+diff
+reason
+evidence
+approvals
+test environment
+deployment history
+rollback history
+```
 
-### 1.104. Quy Trình Kiểm Thử Đột Biến Mutation Verification #104
+---
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_104`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+# 54. Mutation Identity
 
-#### Các Bước Kiểm Tra:
+Two mutations are not identical merely because their textual patch is identical.
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Identity may also depend on:
 
-### 1.105. Quy Trình Kiểm Thử Đột Biến Mutation Verification #105
+```text
+parent version
+environment
+dependencies
+configuration
+runtime
+data
+authority
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_105`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 55. Self-Modification Firewall
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+A mutation affecting its own evaluator, policy engine, test harness, or authority rules requires special treatment.
 
-### 1.106. Quy Trình Kiểm Thử Đột Biến Mutation Verification #106
+```text
+CANDIDATE
+→ changes validator
+→ validator approves candidate
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_106`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+```
 
-#### Các Bước Kiểm Tra:
+is not sufficient independent validation.
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+---
 
-### 1.107. Quy Trình Kiểm Thử Đột Biến Mutation Verification #107
+# 56. Validator Independence
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_107`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+Independence must be demonstrated where required.
 
-#### Các Bước Kiểm Tra:
+```text
+DIFFERENT PROCESS
+!=
+INDEPENDENT VALIDATOR
+```
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Possible shared ancestry includes:
 
-### 1.108. Quy Trình Kiểm Thử Đột Biến Mutation Verification #108
+```text
+same model
+same prompt
+same test fixtures
+same training source
+same operator
+same dependency
+same policy source
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_108`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 57. Evidence Correlation
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Multiple tests derived from the same flawed assumption do not constitute independent confirmation.
 
-### 1.109. Quy Trình Kiểm Thử Đột Biến Mutation Verification #109
+```text
+REPEATED VALIDATION
+!=
+INDEPENDENT VALIDATION
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_109`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 58. Constitutional Change
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+An M5 mutation should explicitly identify:
 
-### 1.110. Quy Trình Kiểm Thử Đột Biến Mutation Verification #110
+```text
+which law changes
+which downstream rules inherit from it
+which authority can approve it
+which prior version it supersedes
+which invariants remain preserved
+which invariants intentionally change
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_110`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 59. Constitutional Change Cannot Hide as Refactor
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+```text
+"REFACTOR"
+that changes authority or constitutional semantics
+→ reclassify M4/M5
+```
 
-### 1.111. Quy Trình Kiểm Thử Đột Biến Mutation Verification #111
+---
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_111`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+# 60. Mutation Rollback Contract
 
-#### Các Bước Kiểm Tra:
+```yaml
+RollbackContract:
+  mutation_id:
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+  known_good_parent:
+  rollback_target:
 
-### 1.112. Quy Trình Kiểm Thử Đột Biến Mutation Verification #112
+  trigger_conditions: []
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_112`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+  rollback_authority:
+  rollback_method:
 
-#### Các Bước Kiểm Tra:
+  dependent_state_behavior:
+  migration_reversal:
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+  validation_after_rollback:
+  monitoring_after_rollback:
 
-### 1.113. Quy Trình Kiểm Thử Đột Biến Mutation Verification #113
+  evidence_retention:
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_113`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 61. Rollback Conditions
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Examples:
 
-### 1.114. Quy Trình Kiểm Thử Đột Biến Mutation Verification #114
+```text
+hard invariant failure
+security regression
+unexpected harm
+error-rate threshold
+latency catastrophe
+state corruption
+policy violation
+observability loss
+unbounded propagation
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_114`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+Exact thresholds remain system-specific.
 
-#### Các Bước Kiểm Tra:
+---
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+# 62. Rollback Authority
 
-### 1.115. Quy Trình Kiểm Thử Đột Biến Mutation Verification #115
+```text
+CAN EXECUTE ROLLBACK
+!=
+AUTHORIZED TO ROLLBACK
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_115`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+Rollback authority should be explicit.
 
-#### Các Bước Kiểm Tra:
+---
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+# 63. Rollback Is Not Always Safe
 
-### 1.116. Quy Trình Kiểm Thử Đột Biến Mutation Verification #116
+Rollback may itself be harmful if:
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_116`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+```text
+schema migration irreversible
+external actions already committed
+new state incompatible with old code
+users depend on new behavior
+security fix would be removed
+```
 
-#### Các Bước Kiểm Tra:
+Therefore:
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+```text
+ROLLBACK_AVAILABLE
+!=
+ROLLBACK_SAFE
+```
 
-### 1.117. Quy Trình Kiểm Thử Đột Biến Mutation Verification #117
+---
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_117`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+# 64. Forward Repair
 
-#### Các Bước Kiểm Tra:
+When rollback is unsafe or impossible:
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+```text
+contain
+→ freeze propagation
+→ perform bounded forward repair
+→ revalidate
+```
 
-### 1.118. Quy Trình Kiểm Thử Đột Biến Mutation Verification #118
+---
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_118`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+# 65. Monitoring Window
 
-#### Các Bước Kiểm Tra:
+Promotion should define a monitoring window appropriate to the failure modes.
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+No universal duration is specified.
 
-### 1.119. Quy Trình Kiểm Thử Đột Biến Mutation Verification #119
+Short windows may miss delayed failures.
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_119`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 66. Stop Conditions
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Every staged rollout should define conditions that halt or reverse propagation.
 
-### 1.120. Quy Trình Kiểm Thử Đột Biến Mutation Verification #120
+```yaml
+stop_conditions:
+  - invariant_failure
+  - security_violation
+  - authority_change
+  - unexpected_externality
+  - error_threshold
+  - severe_regression
+  - monitoring_failure
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_120`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 67. Mutation Observability
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Observability should support questions such as:
 
-### 1.121. Quy Trình Kiểm Thử Đột Biến Mutation Verification #121
+```text
+what changed?
+where?
+when?
+under whose authority?
+against which parent?
+which evidence justified it?
+where did it propagate?
+what failed?
+was it rolled back?
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_121`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 68. Evolution Receipt
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+```yaml
+EvolutionReceipt:
+  mutation_id:
+  timestamp:
 
-### 1.122. Quy Trình Kiểm Thử Đột Biến Mutation Verification #122
+  parent_version:
+  candidate_version:
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_122`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+  mutation_class:
+  lifecycle_transition:
 
-#### Các Bước Kiểm Tra:
+  evidence_level:
+  evidence_refs: []
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+  authority_ref:
+  governance_decision:
 
-### 1.123. Quy Trình Kiểm Thử Đột Biến Mutation Verification #123
+  experiment_environment:
+  propagation_envelope:
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_123`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+  monitoring_window:
+  stop_conditions: []
 
-#### Các Bước Kiểm Tra:
+  rollback_contract:
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+  debt_delta:
 
-### 1.124. Quy Trình Kiểm Thử Đột Biến Mutation Verification #124
+  decision:
+  conditions: []
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_124`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+  provenance:
+```
 
-#### Các Bước Kiểm Tra:
+---
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+# 69. Failure Memory
 
-### 1.125. Quy Trình Kiểm Thử Đột Biến Mutation Verification #125
+A failed mutation should preserve:
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_125`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+```yaml
+EvolutionFailureMemory:
+  mutation_id:
+  failure_class:
+  environment:
+  trigger:
+  evidence:
+  affected_components:
+  root_cause_status:
+  rollback_result:
+  repair_result:
+  recurrence_rule:
+  invalidation_conditions:
+```
 
-#### Các Bước Kiểm Tra:
+---
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+# 70. Negative Evolution Memory
 
-### 1.126. Quy Trình Kiểm Thử Đột Biến Mutation Verification #126
+Negative memory should prevent blind repetition of failed mutation paths.
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_126`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+```text
+RETRY FAILED MUTATION
+requires
+CHANGED EVIDENCE / CHANGED DESIGN / CHANGED ENVIRONMENT
+```
 
-#### Các Bước Kiểm Tra:
+---
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+# 71. Safe Exploration
 
-### 1.127. Quy Trình Kiểm Thử Đột Biến Mutation Verification #127
+Governed evolution should allow experimentation while separating:
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_127`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+```text
+exploration permission
+from
+production authority
+```
 
-#### Các Bước Kiểm Tra:
+This prevents governance from collapsing into either:
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+```text
+NO CHANGE EVER
+```
 
-### 1.128. Quy Trình Kiểm Thử Đột Biến Mutation Verification #128
+or:
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_128`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+```text
+UNBOUNDED SELF-MODIFICATION
+```
 
-#### Các Bước Kiểm Tra:
+---
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+# 72. Risk-Adaptive Governance
 
-### 1.129. Quy Trình Kiểm Thử Đột Biến Mutation Verification #129
+Governance burden should rise with consequence.
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_129`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+A conceptual consequence vector:
 
-#### Các Bước Kiểm Tra:
+$$
+Q(m)
+=
+\langle
+Impact,
+Irreversibility,
+BlastRadius,
+AuthoritySensitivity,
+Uncertainty
+\rangle
+$$
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+No universal scalarization is assumed.
 
-### 1.130. Quy Trình Kiểm Thử Đột Biến Mutation Verification #130
+---
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_130`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+# 73. Reversibility Preference
 
-#### Các Bước Kiểm Tra:
+Where otherwise comparable:
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+```text
+REVERSIBLE EXPERIMENT
+>
+IRREVERSIBLE EXPERIMENT
+```
 
-### 1.131. Quy Trình Kiểm Thử Đột Biến Mutation Verification #131
+under uncertainty.
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_131`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 74. Propagation Radius
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+A mutation's consequence radius should consider:
 
-### 1.132. Quy Trình Kiểm Thử Đột Biến Mutation Verification #132
+```text
+number of users
+systems
+tenants
+regions
+state objects
+external recipients
+financial exposure
+authority boundaries
+dependency fan-out
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_132`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 75. Shadow Validation
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Shadow execution may strengthen deployment evidence without authorizing external effects.
 
-### 1.133. Quy Trình Kiểm Thử Đột Biến Mutation Verification #133
+```text
+SHADOW SUCCESS
+!=
+PRODUCTION APPROVAL
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_133`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 76. Canary Validation
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+Canary deployment is a real-effect experiment.
 
-### 1.134. Quy Trình Kiểm Thử Đột Biến Mutation Verification #134
+Therefore it requires explicit authority for its real-world consequence envelope.
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_134`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 77. General Production Promotion
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+General production requires evidence appropriate to the claim and environment.
 
-### 1.135. Quy Trình Kiểm Thử Đột Biến Mutation Verification #135
+```text
+LIMITED SUCCESS
+!=
+GENERAL VALIDITY
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_135`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+---
 
-#### Các Bước Kiểm Tra:
+# 78. Regime Shift
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+A mutation validated under regime \(R_1\) may not remain valid under \(R_2\).
 
-### 1.136. Quy Trình Kiểm Thử Đột Biến Mutation Verification #136
+```text
+VALID_IN_R1
+!=
+VALID_IN_R2
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_136`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+Regime-sensitive mutations should define revalidation triggers.
 
-#### Các Bước Kiểm Tra:
+---
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+# 79. Freshness
 
-### 1.137. Quy Trình Kiểm Thử Đột Biến Mutation Verification #137
+Old evidence may become stale due to:
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_137`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+```text
+dependency update
+model update
+data drift
+policy change
+security change
+hardware change
+runtime change
+user-population change
+```
 
-#### Các Bước Kiểm Tra:
+---
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+# 80. Revalidation Epoch
 
-### 1.138. Quy Trình Kiểm Thử Đột Biến Mutation Verification #138
+A mutation should retain the validation epoch under which it was approved.
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_138`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+Changed load-bearing dependencies may invalidate only affected claims.
 
-#### Các Bước Kiểm Tra:
+---
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+# 81. No Benchmark Promotion
 
-### 1.139. Quy Trình Kiểm Thử Đột Biến Mutation Verification #139
+```text
+BENCHMARK IMPROVEMENT
+!=
+PRODUCTION EDGE
+```
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_139`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+A benchmark does not establish:
 
-#### Các Bước Kiểm Tra:
+```text
+deployment safety
+economic value
+user value
+regime robustness
+authority
+```
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+---
 
-### 1.140. Quy Trình Kiểm Thử Đột Biến Mutation Verification #140
+# 82. No Formal-Proof Overclaim
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_140`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+Formal verification applies to declared properties under explicit assumptions.
 
-#### Các Bước Kiểm Tra:
+```text
+FORMALLY VERIFIED PROPERTY
+!=
+COMPLETE SYSTEM CORRECTNESS
+```
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+---
 
-### 1.141. Quy Trình Kiểm Thử Đột Biến Mutation Verification #141
+# 83. No Test-Count Overclaim
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_141`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+```text
+50,000 TESTS
+!=
+SAFE SYSTEM
+```
 
-#### Các Bước Kiểm Tra:
+Coverage quality matters more than a ritualized count.
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+---
 
-### 1.142. Quy Trình Kiểm Thử Đột Biến Mutation Verification #142
+# 84. No 100% Invariant Claim Without Defined Universe
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_142`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+The legacy requirement:
 
-#### Các Bước Kiểm Tra:
+```text
+100% invariant testing
+```
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+is undefined unless the invariant registry and tested set are explicit.
 
-### 1.143. Quy Trình Kiểm Thử Đột Biến Mutation Verification #143
+Prefer:
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_143`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+```text
+ALL APPLICABLE DECLARED HARD INVARIANTS
+MUST HAVE VALIDATION EVIDENCE
+```
 
-#### Các Bước Kiểm Tra:
+where such evidence is required.
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+---
 
-### 1.144. Quy Trình Kiểm Thử Đột Biến Mutation Verification #144
+# 85. Governance Integration
 
-**Định danh quy trình:** `MUTATION_SAFETY_CHECK_144`
-**Phương trình Đánh giá Nợ Tiến Hóa:** $\Delta \mathcal{D}_{\text{evo}} = \sum_{i} w_i \cdot \mathbf{Debt}_{i} \le \mathcal{D}_{\text{max}}$
+`K_GOVERNED_EVOLUTION` depends on `K_GOVERNANCE` for authorization semantics.
 
-#### Các Bước Kiểm Tra:
+```text
+EVOLUTION CLASSIFICATION
+!=
+EVOLUTION AUTHORITY
+```
 
-- Bước #1: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #2: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
-- Bước #3: Chạy 50,000 ca kiểm thử fuzzing tự động trong môi trường sandbox cô lập.
+---
 
-## 2. QUẢN TRỊ NỢ TIẾN HÓA GMEF (EVOLUTIONARY DEBT GOVERNANCE)
+# 86. Fail-Closed Integration
 
-### 2.1. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #1
+Where a mandatory evolution gate is unresolved:
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #1.
+```text
+do not propagate
+```
 
-#### Điều kiện Trả Nợ:
+This does not require deleting the candidate.
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+It may remain:
 
-### 2.2. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #2
+```text
+HOLD
+QUARANTINE
+ESCALATE
+```
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #2.
+---
 
-#### Điều kiện Trả Nợ:
+# 87. Failure-Recovery Integration
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+If an admitted mutation causes a failure:
 
-### 2.3. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #3
+```text
+CONTAIN
+→ PRESERVE EVIDENCE
+→ ROLLBACK OR REPAIR
+→ REVALIDATE
+→ UPDATE FAILURE MEMORY
+```
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #3.
+---
 
-#### Điều kiện Trả Nợ:
+# 88. MVCC / CAS Integration
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+Mutation promotion that alters shared state may depend on current version identity.
 
-### 2.4. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #4
+```text
+VALIDATED_AGAINST_VERSION_v
+!=
+VALIDATED_AGAINST_VERSION_v+1
+```
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #4.
+Commit paths may require CAS/MVCC checks where implemented.
 
-#### Điều kiện Trả Nợ:
+---
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+# 89. Canon Integration
 
-### 2.5. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #5
+Canonical status does not arise because a mutation was successfully tested.
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #5.
+```text
+TESTED
+!=
+CANONICAL
+```
 
-#### Điều kiện Trả Nợ:
+Canon admission remains separately governed.
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+---
 
-### 2.6. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #6
+# 90. Schema Integration
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #6.
+`16_SCHEMAS` should define machine-readable mutation, evidence, rollout, rollback, and debt objects where implemented.
 
-#### Điều kiện Trả Nợ:
+---
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+# 91. Observability Integration
 
-### 2.7. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #7
+`17_OBSERVABILITY` should receive evolution events such as:
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #7.
+```text
+MUTATION_PROPOSED
+MUTATION_CLASSIFIED
+EXPERIMENT_AUTHORIZED
+EXPERIMENT_STARTED
+EXPERIMENT_FAILED
+CANARY_STARTED
+PROMOTION_GRANTED
+PROMOTION_BLOCKED
+ROLLBACK_TRIGGERED
+ROLLBACK_COMPLETE
+DEBT_CREATED
+DEBT_RESOLVED
+```
 
-#### Điều kiện Trả Nợ:
+---
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+# 92. Test Integration
 
-### 2.8. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #8
+`19_TESTS` owns executable testing.
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #8.
+Hard rule:
 
-#### Điều kiện Trả Nợ:
+```text
+K_GOVERNED_EVOLUTION
+specifies test obligations
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+19_TESTS
+executes tests
+```
 
-### 2.9. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #9
+---
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #9.
+# 93. Operations Integration
 
-#### Điều kiện Trả Nợ:
+`20_OPERATIONS` owns operational rollout, incident handling, and deployment recovery where implemented.
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+---
 
-### 2.10. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #10
+# 94. MECE Ownership
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #10.
+| Responsibility             | Primary Owner                    |
+| -------------------------- | -------------------------------- |
+| core evolution invariants  | `02_KERNEL/K_GOVERNED_EVOLUTION` |
+| policy / authority         | `02_KERNEL/K_GOVERNANCE`         |
+| fail-closed behavior       | `02_KERNEL/K_FAIL_CLOSED`        |
+| recovery semantics         | `02_KERNEL/K_FAILURE_RECOVERY`   |
+| operational authorization  | `03_CONTROL_PLANE`               |
+| execution                  | `04_RUNTIME`                     |
+| persistent evolution state | `12_STATE`                       |
+| schemas                    | `16_SCHEMAS`                     |
+| monitoring                 | `17_OBSERVABILITY`               |
+| security validation        | `18_SECURITY`                    |
+| executable testing         | `19_TESTS`                       |
+| rollout operations         | `20_OPERATIONS`                  |
 
-#### Điều kiện Trả Nợ:
+---
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+# 95. H/M/L Mapping
 
-### 2.11. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #11
+## H — Constitutional Evolution
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #11.
+```text
+M5
+core laws
+authority structures
+canon mutation
+governance rules
+```
 
-#### Điều kiện Trả Nợ:
+## M — Architectural Evolution
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+```text
+M3–M4
+cross-module
+kernel
+state
+control plane
+interfaces
+```
 
-### 2.12. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #12
+## L — Local Evolution
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #12.
+```text
+M0–M2
+configuration
+local feature
+bounded implementation
+```
 
-#### Điều kiện Trả Nợ:
+---
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+# 96. Positive Tests
 
-### 2.13. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #13
+```text
+EVO-P01
+Formatting-only documentation change.
+Expected:
+M0 if no semantic effect.
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #13.
+EVO-P02
+Threshold changed inside approved bounds.
+Expected:
+M1 with bounded rollback and monitoring.
 
-#### Điều kiện Trả Nợ:
+EVO-P03
+Feature added to one isolated module.
+Expected:
+M2, dependency validation required.
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+EVO-P04
+State representation refactored.
+Expected:
+M3 or higher depending on blast radius.
 
-### 2.14. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #14
+EVO-P05
+Kernel authority logic modified.
+Expected:
+M4/M5.
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #14.
+EVO-P06
+Candidate wants to modify its own approval requirement.
+Expected:
+independent authority required.
 
-#### Điều kiện Trả Nợ:
+EVO-P07
+Canary succeeds in one region.
+Expected:
+does not establish global production validity.
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+EVO-P08
+Rollback destroys newly migrated state.
+Expected:
+rollback not assumed safe.
 
-### 2.15. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #15
+EVO-P09
+Five benchmarks improve but safety regression appears.
+Expected:
+no promotion.
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #15.
+EVO-P10
+Debt-reducing emergency repair is proposed while debt ceiling exceeded.
+Expected:
+not automatically blocked solely because debt is high.
+```
 
-#### Điều kiện Trả Nợ:
+---
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+# 97. Negative Tests
 
-### 2.16. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #16
+```text
+EVO-N01
+50,000 fuzz tests claimed as mandatory universal AMOS law.
+Expected:
+REJECT.
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #16.
+EVO-N02
+M3 claimed to always require mathematical proof.
+Expected:
+REJECT.
 
-#### Điều kiện Trả Nợ:
+EVO-N03
+M4 claimed to require "100% invariant tests" without invariant registry.
+Expected:
+REJECT.
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+EVO-N04
+M5 claimed to always require unanimous council approval.
+Expected:
+REJECT unless canon explicitly defines it.
 
-### 2.17. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #17
+EVO-N05
+Sandbox pass treated as production permission.
+Expected:
+REJECT.
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #17.
+EVO-N06
+Performance gain overrides authority gate.
+Expected:
+REJECT.
 
-#### Điều kiện Trả Nợ:
+EVO-N07
+Rollback deletes failed experiment evidence.
+Expected:
+REJECT.
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+EVO-N08
+Candidate widens its own traffic envelope.
+Expected:
+REJECT.
 
-### 2.18. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #18
+EVO-N09
+144 duplicated mutation checks treated as independent controls.
+Expected:
+REJECT.
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #18.
+EVO-N10
+144 duplicated debt ledgers treated as architectural partitions.
+Expected:
+REJECT.
+```
 
-#### Điều kiện Trả Nợ:
+---
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+# 98. Adversarial Tests
 
-### 2.19. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #19
+```text
+EVO-A01 — HIDDEN M5
+Policy-authority change labeled "refactor".
+Expected:
+reclassify upward.
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #19.
+EVO-A02 — TEST HARNESS CAPTURE
+Candidate modifies test harness and then passes tests.
+Expected:
+independent validation required.
 
-#### Điều kiện Trả Nợ:
+EVO-A03 — BENCHMARK OVERFIT
+Benchmark improves; held-out environment regresses.
+Expected:
+HOLD / REJECT.
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+EVO-A04 — PROPAGATION ESCALATION
+Canary service increases own traffic from 1% to 100%.
+Expected:
+block.
 
-### 2.20. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #20
+EVO-A05 — ROLLBACK TRAP
+Rollback target has incompatible schema.
+Expected:
+do not assume rollback safety.
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #20.
+EVO-A06 — STALE AUTHORITY
+Approval valid at experiment start but revoked before promotion.
+Expected:
+promotion denied.
 
-#### Điều kiện Trả Nợ:
+EVO-A07 — EVIDENCE SYBIL
+Many test reports share one underlying run.
+Expected:
+one evidence lineage.
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+EVO-A08 — DEBT MASKING
+Mutation reduces code complexity while removing observability.
+Expected:
+debt trade-off remains visible.
 
-### 2.21. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #21
+EVO-A09 — FAILED PATH RETRY
+Identical failed mutation repeated with no changed evidence.
+Expected:
+block or require explicit changed basis.
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #21.
+EVO-A10 — GOVERNANCE CAPTURE
+Mutation weakens the rule that governs future mutations.
+Expected:
+M5 independent constitutional review.
+```
 
-#### Điều kiện Trả Nợ:
+---
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+# 99. Implementation Maturity
 
-### 2.22. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #22
+```text
+E0 SPECIFIED
+E1 NORMALIZED
+E2 SCHEMA_BOUND
+E3 STATICALLY_VALIDATED
+E4 IMPLEMENTED
+E5 UNIT_TESTED
+E6 INTEGRATION_TESTED
+E7 ADVERSARIAL_TESTED
+E8 SHADOW_VALIDATED
+E9 CANARY_VALIDATED
+E10 DEPLOYMENT_VALIDATED
+E11 FORMALLY_VERIFIED_FOR_DECLARED_PROPERTIES
+E12 INDEPENDENTLY_REVIEWED
+```
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #22.
+No maturity state implies the next.
 
-#### Điều kiện Trả Nợ:
+---
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+# 100. Legacy Patterns Removed
 
-### 2.23. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #23
+The following legacy patterns are rejected:
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #23.
+```text
+144 duplicated mutation verification sections
 
-#### Điều kiện Trả Nợ:
+identical repeated 50,000-fuzz-test requirements
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+144 artificial debt-ledger partitions
 
-### 2.24. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #24
+repeated identical debt repayment clauses
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #24.
+fixed universal evolutionary-debt weights
 
-#### Điều kiện Trả Nợ:
+undefined universal D_max
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+automatic global mutation blocking at debt threshold
 
-### 2.25. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #25
+M3 always requires mathematical proof
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #25.
+M4 always requires "100% invariant tests"
 
-#### Điều kiện Trả Nợ:
+M5 always requires unanimous council approval
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+CANONICAL metadata treated as implementation proof
 
-### 2.26. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #26
+Trang Phan & AMOS OS represented as joint architects
+```
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #26.
+Correct attribution:
 
-#### Điều kiện Trả Nợ:
+```text
+Origin Architect / Steward: Trang Phan
+```
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+---
 
-### 2.27. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #27
+# 101. Mathematical Firewall
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #27.
+The debt expression:
 
-#### Điều kiện Trả Nợ:
+$$
+\Delta D_{evo}
+=
+\sum_i w_i D_i
+$$
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+is acceptable only as an `AMOS_MODEL` where:
 
-### 2.28. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #28
+```text
+variables are defined
+units/scales are compatible
+normalization is explicit
+weights are explicit
+threshold policy is explicit
+```
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #28.
+It is not a universal mathematical law.
 
-#### Điều kiện Trả Nợ:
+Likewise:
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+```text
+MUTATION CLASS
+!=
+PROBABILITY OF FAILURE
+```
 
-### 2.29. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #29
+unless empirically calibrated.
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #29.
+---
 
-#### Điều kiện Trả Nợ:
+# 102. Mutation Request Schema
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+```yaml
+mutation_request:
+  mutation_id:
 
-### 2.30. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #30
+  object:
+  parent_version:
+  proposed_version:
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #30.
+  proposer:
 
-#### Điều kiện Trả Nợ:
+  intended_change:
+  intended_benefit:
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+  affected_components: []
+  affected_users: []
 
-### 2.31. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #31
+  requested_mutation_class:
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #31.
+  environment:
+  requested_propagation:
 
-#### Điều kiện Trả Nợ:
+  rollback_candidate:
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+  evidence_refs: []
+  authority_ref:
+```
 
-### 2.32. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #32
+---
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #32.
+# 103. Mutation Classification Schema
 
-#### Điều kiện Trả Nợ:
+```yaml
+mutation_classification:
+  mutation_id:
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+  assigned_class:
+    - M0
+    - M1
+    - M2
+    - M3
+    - M4
+    - M5
 
-### 2.33. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #33
+  rationale:
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #33.
+  affected_contracts: []
+  affected_invariants: []
+  affected_authority: []
+  affected_state: []
 
-#### Điều kiện Trả Nợ:
+  consequence:
+  reversibility:
+  blast_radius:
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+  ambiguity:
+  higher_class_candidate:
+```
 
-### 2.34. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #34
+---
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #34.
+# 104. Experiment Authorization Schema
 
-#### Điều kiện Trả Nợ:
+```yaml
+experiment_authorization:
+  mutation_id:
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+  authorized_environment:
+    - X0
+    - X1
+    - X2
+    - X3
+    - X4
+    - X5
+    - X6
 
-### 2.35. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #35
+  authority_ref:
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #35.
+  evidence_required:
+  evidence_current:
 
-#### Điều kiện Trả Nợ:
+  propagation_envelope:
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+  monitoring:
+  stop_conditions: []
 
-### 2.36. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #36
+  rollback_requirement:
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #36.
+  valid_from:
+  valid_until:
+```
 
-#### Điều kiện Trả Nợ:
+---
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+# 105. Promotion Evaluation Schema
 
-### 2.37. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #37
+```yaml
+promotion_evaluation:
+  mutation_id:
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #37.
+  current_lifecycle_state:
+  proposed_lifecycle_state:
 
-#### Điều kiện Trả Nợ:
+  mutation_class:
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+  evidence_required:
+  evidence_achieved:
 
-### 2.38. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #38
+  governance_compatibility:
+  safety_gate:
+  authority_gate:
+  propagation_gate:
+  rollback_gate:
+  audit_gate:
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #38.
+  competing_hypotheses: []
+  unresolved_gaps: []
 
-#### Điều kiện Trả Nợ:
+  decision:
+    - PERMIT_LIMITED
+    - PERMIT_WITH_CONDITIONS
+    - HOLD_FOR_EVIDENCE
+    - ESCALATE_FOR_AUTHORITY
+    - REJECT
+    - QUARANTINE
+    - UNKNOWN/GAP
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+  conditions: []
+```
 
-### 2.39. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #39
+---
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #39.
+# 106. Evolutionary Debt Schema
 
-#### Điều kiện Trả Nợ:
+```yaml
+evolutionary_debt:
+  subsystem:
+  assessment_epoch:
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+  dimensions:
+    technical:
+    architecture:
+    testing:
+    observability:
+    security:
+    governance:
+    documentation:
+    migration:
+    rollback:
+    provenance:
 
-### 2.40. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #40
+  normalization:
+  weights:
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #40.
+  aggregate_score:
+  aggregate_score_valid:
 
-#### Điều kiện Trả Nợ:
+  threshold:
+  threshold_authority:
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+  debt_increasing_mutations_allowed:
+  debt_reducing_mutations_allowed:
 
-### 2.41. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #41
+  decision:
+```
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #41.
+---
 
-#### Điều kiện Trả Nợ:
+# 107. Evolution Memory Schema
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+```yaml
+evolution_memory:
+  mutation_id:
 
-### 2.42. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #42
+  parent:
+  candidate:
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #42.
+  mutation_class:
+  experiment_environment:
 
-#### Điều kiện Trả Nợ:
+  evidence:
+  outcome:
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+  positive_findings: []
+  negative_findings: []
 
-### 2.43. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #43
+  failure_mode:
+  root_cause:
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #43.
+  rollback:
+  repair:
 
-#### Điều kiện Trả Nợ:
+  reusable_constraints: []
+  do_not_repeat_conditions: []
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+  invalidation_conditions: []
 
-### 2.44. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #44
+  provenance:
+```
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #44.
+---
 
-#### Điều kiện Trả Nợ:
+# 108. Falsifiers
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+This specification is violated if the system normalizes any of the following:
 
-### 2.45. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #45
+```text
+candidate creates its own approval authority
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #45.
+performance overrides hard governance
 
-#### Điều kiện Trả Nợ:
+sandbox result becomes silent production promotion
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+propagation expands outside authorized envelope
 
-### 2.46. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #46
+high-impact mutation lacks required rollback path
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #46.
+failure evidence is erased after rollback
 
-#### Điều kiện Trả Nợ:
+M5 change bypasses independent governance
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+stale authority is reused after revocation
 
-### 2.47. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #47
+test count is treated as proof of safety
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #47.
+benchmark gain is treated as universal validity
 
-#### Điều kiện Trả Nợ:
+duplicated tests are treated as independent evidence
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+debt scalar is used without defined components
 
-### 2.48. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #48
+governance evaluator is modified by candidate
+without independent review
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #48.
+unknown hard gate is treated as pass
+```
 
-#### Điều kiện Trả Nợ:
+---
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+# 109. Known Gaps
 
-### 2.49. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #49
+```yaml
+known_gaps:
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #49.
+  EVO-GAP-001:
+    class: DECISION_RELEVANT
+    issue: >
+      Plane-wide executable mutation governance is not established
+      for every AMOS runtime.
+    status: NOT_ESTABLISHED
 
-#### Điều kiện Trả Nợ:
+  EVO-GAP-002:
+    class: DECISION_RELEVANT
+    issue: >
+      Exact evidence thresholds by mutation class remain
+      domain- and deployment-specific.
+    status: POLICY_SPECIFIC
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+  EVO-GAP-003:
+    class: DECISION_RELEVANT
+    issue: >
+      Exact human or institutional approval authority for M5
+      depends on the governing constitutional source.
+    status: AUTHORITY_SPECIFIC
 
-### 2.50. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #50
+  EVO-GAP-004:
+    class: DECISION_RELEVANT
+    issue: >
+      No universal fuzz-test count is established.
+    status: TEST_DESIGN_SPECIFIC
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #50.
+  EVO-GAP-005:
+    class: DECISION_RELEVANT
+    issue: >
+      No universal evolutionary-debt weighting scheme or threshold
+      is established.
+    status: MODEL_SPECIFIC
 
-#### Điều kiện Trả Nợ:
+  EVO-GAP-006:
+    class: DECISION_RELEVANT
+    issue: >
+      Rollback feasibility depends on actual runtime, state,
+      migration, and external-effect semantics.
+    status: IMPLEMENTATION_SPECIFIC
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+  EVO-GAP-007:
+    class: DECISION_RELEVANT
+    issue: >
+      Full formal safety and liveness proofs for governed evolution
+      are not established.
+    status: NOT_ESTABLISHED
 
-### 2.51. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #51
+  EVO-GAP-008:
+    class: EXPLANATORY
+    issue: >
+      Cross-environment transferability must be revalidated
+      for each material deployment regime.
+    status: REGIME_SPECIFIC
+```
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #51.
+---
 
-#### Điều kiện Trả Nợ:
+# 110. Constitutional Evolution Firewall
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+```text
+INTEGRITY > COMPLETENESS > FLUENCY > SPEED > TOKEN SAVINGS
 
-### 2.52. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #52
+CHANGE CAPABILITY != CHANGE AUTHORITY
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #52.
+PROPOSAL != AUTHORIZATION
+AUTHORIZATION != VALIDATION
+VALIDATION != DEPLOYMENT
+DEPLOYMENT != UNIVERSAL VALIDITY
 
-#### Điều kiện Trả Nợ:
+MUTATION CLASS != FAILURE PROBABILITY
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+SANDBOX != PRODUCTION
+SHADOW != PRODUCTION
+CANARY != GENERAL PRODUCTION
 
-### 2.53. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #53
+PERFORMANCE != SAFETY
+PERFORMANCE != AUTHORITY
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #53.
+TEST COUNT != COVERAGE
+TEST PASS != CORRECTNESS
+BENCHMARK GAIN != DEPLOYMENT EDGE
 
-#### Điều kiện Trả Nợ:
+SELF_MODIFICATION != SELF_AUTHORIZATION
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+ROLLBACK AVAILABLE != ROLLBACK SAFE
+ROLLBACK != FAILURE ERASURE
 
-### 2.54. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #54
+HIGH DEBT != AUTOMATIC BLOCK OF ALL REPAIR
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #54.
+MULTIPLE REPORTS != INDEPENDENT EVIDENCE
 
-#### Điều kiện Trả Nợ:
+UNKNOWN/GAP != PASS
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+DOCUMENTED != IMPLEMENTED
+IMPLEMENTED != VALIDATED
+VALIDATED != DEPLOYMENT_VALIDATED
+FORMALLY_VERIFIED_PROPERTY != UNIVERSAL_CORRECTNESS
+```
 
-### 2.55. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #55
+---
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #55.
+# 111. Navigation
 
-#### Điều kiện Trả Nợ:
+## Kernel
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+```text
+[[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
+[[02_KERNEL/K_CORE_LAWS|K_CORE_LAWS]]
+[[02_KERNEL/K_GOVERNANCE|K_GOVERNANCE]]
+[[02_KERNEL/K_FAIL_CLOSED|K_FAIL_CLOSED]]
+[[02_KERNEL/K_FAILURE_RECOVERY|K_FAILURE_RECOVERY]]
+[[02_KERNEL/K_MVCC|K_MVCC]]
+[[02_KERNEL/K_CAS|K_CAS]]
+```
 
-### 2.56. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #56
+## GMEF
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #56.
+```text
+[[02_KERNEL/09_INTEGRATION/K_GMEF|K_GMEF]]
+```
 
-#### Điều kiện Trả Nợ:
+## Cross-Plane
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+```text
+[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
+[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
+[[12_STATE/12_STATE_MOC|12_STATE_MOC]]
+[[16_SCHEMAS/16_SCHEMAS_MOC|16_SCHEMAS_MOC]]
+[[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]
+[[18_SECURITY/18_SECURITY_MOC|18_SECURITY_MOC]]
+[[19_TESTS/19_TESTS_MOC|19_TESTS_MOC]]
+[[20_OPERATIONS/20_OPERATIONS_MOC|20_OPERATIONS_MOC]]
+```
 
-### 2.57. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #57
+## Root
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #57.
+```text
+[[00_ROOT/00_HOME|00_HOME]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+```
 
-#### Điều kiện Trả Nợ:
+---
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+# 112. RSCF Node
 
-### 2.58. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #58
+```yaml
+RSCF-NODE:
+  node_id: k_governed_evolution
+  node_type: kernel_architecture
+  HML: H
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #58.
+  path: 02_KERNEL/K_GOVERNED_EVOLUTION.md
 
-#### Điều kiện Trả Nợ:
+  origin_architect: Trang Phan
+  steward: Trang Phan
+  target: AMOS_CORE_v4.4
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+  claim: >
+    K_GOVERNED_EVOLUTION defines a bounded mutation-governance
+    architecture for AMOS in which every candidate change is classified,
+    evidence-gated, authority-bound, propagation-limited, monitored,
+    rollback-aware, and recorded as persistent evolution memory before
+    broader promotion is permitted.
 
-### 2.59. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #59
+  claim_class: AMOS_MODEL
+  conclusion_class: DERIVED
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #59.
+  necessary_premises:
+    - mutation class can be resolved conservatively
+    - governance authority remains independent of technical capability
+    - evidence is available for promotion decisions
+    - propagation can be bounded
+    - rollback or repair semantics can be established where required
+    - failures remain observable
+    - runtime enforcement claims require executable evidence
 
-#### Điều kiện Trả Nợ:
+  hard_invariants:
+    - NO_SELF_AUTHORIZATION
+    - CLAIM_STRENGTH_LE_EVIDENCE_STRENGTH
+    - NO_HIDDEN_PROMOTION
+    - PROPAGATION_SCOPE_BOUND
+    - FAILURE_MEMORY_PRESERVED
+    - GOVERNANCE_RULES_NOT_SELF_WEAKENED
+    - HIGH_IMPACT_REQUIRES_STRONGER_GOVERNANCE
+    - UNKNOWN_NOT_PASS
+    - OPTIMIZATION_NOT_ABOVE_INTEGRITY
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+  dependencies:
+    - 02_KERNEL/K_CORE_LAWS
+    - 02_KERNEL/K_GOVERNANCE
+    - 02_KERNEL/K_FAIL_CLOSED
+    - 02_KERNEL/K_FAILURE_RECOVERY
+    - 02_KERNEL/K_MVCC
+    - 02_KERNEL/K_CAS
+    - 02_KERNEL/09_INTEGRATION/K_GMEF
+    - 03_CONTROL_PLANE
+    - 04_RUNTIME
+    - 12_STATE
+    - 16_SCHEMAS
+    - 17_OBSERVABILITY
+    - 18_SECURITY
+    - 19_TESTS
+    - 20_OPERATIONS
 
-### 2.60. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #60
+  competing:
+    - H1_intended_improvement
+    - H0_noise_or_confounding
+    - Hh_hidden_harm
+    - Hr_regime_specific_effect
+    - rollback_vs_forward_repair
+    - local_success_vs_generalization
+    - debt_reduction_vs_new_debt_creation
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #60.
+  falsifiers:
+    - self_authorized_mutation
+    - silent_production_promotion
+    - unauthorized_scope_expansion
+    - stale_authority_promotion
+    - failure_evidence_erasure
+    - test_count_promoted_to_safety_proof
+    - benchmark_gain_promoted_to_global_validity
+    - governance_rules_weakened_by_candidate
+    - unknown_hard_gate_promoted_to_pass
 
-#### Điều kiện Trả Nợ:
+  implementation:
+    specification: ESTABLISHED
+    executable_binding: NOT_ESTABLISHED_PLANE_WIDE
+    runtime_enforcement: NOT_ESTABLISHED
+    deployment_validation: NOT_ESTABLISHED
+    formal_verification: NOT_ESTABLISHED
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+  confidence_ceiling:
+    architecture: DERIVED
+    implementation: CONDITIONAL
+    runtime_guarantees: UNKNOWN/GAP
+```
 
-### 2.61. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #61
+---
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #61.
+# 113. Final Status
 
-#### Điều kiện Trả Nợ:
+```yaml
+artifact_status:
+  artifact: K_GOVERNED_EVOLUTION
+  version: 3.0.0
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+  origin_architect: Trang Phan
+  steward: Trang Phan
+  target: AMOS_CORE_v4.4
 
-### 2.62. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #62
+  status: ACTIVE_SPECIFICATION
+  epistemic_class: AMOS_MODEL
+  conclusion_class: DERIVED
+  canonical_status: ACTIVE_CANON_CANDIDATE
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #62.
+  mutation_classes_M0_M5: DEFINED
+  conservative_classification: DEFINED
+  permission_profile: DEFINED
+  lifecycle_states: DEFINED
+  experiment_environments_X0_X6: DEFINED
+  evidence_levels_ET0_ET5: DEFINED
+  authority_levels_HA0_HA5: DEFINED
+  propagation_envelope: DEFINED
+  staged_rollout: DEFINED
+  rollback_contract: DEFINED
+  evolutionary_debt_vector: DEFINED
+  failure_memory: DEFINED
+  adversarial_review: DEFINED
+  anti_regression: DEFINED
+  falsifiers: DEFINED
 
-#### Điều kiện Trả Nợ:
+  duplicated_144_mutation_checks: REMOVED
+  duplicated_144_debt_ledgers: REMOVED
+  universal_50000_fuzz_requirement: REJECTED
+  universal_mathematical_proof_for_M3: REJECTED
+  undefined_100_percent_invariant_requirement: REJECTED
+  universal_unanimous_M5_approval: REJECTED
+  universal_debt_threshold: REJECTED
+  automatic_global_debt_freeze: REJECTED
+  self_assigned_system_coauthorship: REMOVED
 
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
+  executable_kernel_enforcement: NOT_ESTABLISHED
+  universal_test_thresholds: NOT_ESTABLISHED
+  universal_debt_weights: NOT_ESTABLISHED
+  universal_debt_ceiling: NOT_ESTABLISHED
+  constitutional_approval_mechanism: AUTHORITY_SPECIFIC
+  deployment_validation: NOT_ESTABLISHED
+  formal_safety_proof: NOT_ESTABLISHED
 
-### 2.63. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #63
+  final_conclusion: DERIVED
+```
 
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #63.
+---
 
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.64. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #64
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #64.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.65. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #65
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #65.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.66. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #66
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #66.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.67. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #67
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #67.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.68. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #68
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #68.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.69. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #69
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #69.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.70. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #70
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #70.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.71. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #71
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #71.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.72. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #72
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #72.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.73. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #73
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #73.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.74. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #74
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #74.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.75. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #75
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #75.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.76. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #76
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #76.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.77. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #77
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #77.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.78. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #78
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #78.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.79. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #79
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #79.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.80. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #80
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #80.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.81. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #81
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #81.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.82. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #82
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #82.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.83. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #83
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #83.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.84. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #84
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #84.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.85. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #85
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #85.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.86. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #86
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #86.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.87. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #87
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #87.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.88. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #88
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #88.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.89. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #89
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #89.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.90. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #90
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #90.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.91. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #91
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #91.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.92. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #92
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #92.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.93. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #93
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #93.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.94. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #94
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #94.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.95. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #95
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #95.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.96. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #96
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #96.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.97. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #97
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #97.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.98. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #98
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #98.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.99. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #99
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #99.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.100. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #100
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #100.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.101. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #101
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #101.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.102. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #102
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #102.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.103. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #103
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #103.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.104. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #104
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #104.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.105. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #105
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #105.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.106. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #106
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #106.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.107. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #107
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #107.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.108. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #108
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #108.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.109. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #109
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #109.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.110. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #110
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #110.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.111. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #111
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #111.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.112. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #112
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #112.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.113. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #113
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #113.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.114. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #114
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #114.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.115. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #115
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #115.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.116. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #116
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #116.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.117. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #117
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #117.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.118. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #118
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #118.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.119. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #119
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #119.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.120. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #120
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #120.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.121. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #121
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #121.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.122. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #122
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #122.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.123. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #123
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #123.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.124. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #124
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #124.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.125. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #125
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #125.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.126. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #126
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #126.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.127. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #127
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #127.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.128. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #128
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #128.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.129. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #129
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #129.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.130. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #130
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #130.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.131. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #131
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #131.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.132. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #132
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #132.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.133. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #133
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #133.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.134. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #134
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #134.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.135. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #135
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #135.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.136. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #136
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #136.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.137. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #137
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #137.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.138. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #138
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #138.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.139. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #139
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #139.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.140. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #140
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #140.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.141. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #141
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #141.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.142. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #142
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #142.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.143. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #143
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #143.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-### 2.144. Sổ Cái Theo Dõi Nợ Tiến Hóa Debt Ledger #144
-
-Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #144.
-
-#### Điều kiện Trả Nợ:
-
-- Yêu cầu trả nợ #1: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #2: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-- Yêu cầu trả nợ #3: Tự động chặn các đột biến mới nếu nợ vượt mức trần cho phép.
-
-## 3. LIÊN KẾT LIÊN BẢNG & DANH MỤC TÀI LIỆU THAM KHẢO WIKILINKS
-
-- **Hạt nhân Liên quan:** [[02_KERNEL/K_CORE_LAWS|K_CORE_LAWS]] · [[02_KERNEL/09_INTEGRATION/K_GMEF|K_GMEF]] · [[02_KERNEL/K_FAIL_CLOSED|K_FAIL_CLOSED]] · [[02_KERNEL/K_GOVERNANCE|K_GOVERNANCE]]
-- **MOCs Điều hướng:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
-
-______________________________________________________________________
-
-**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS
+**Origin Architect / Steward: Trang Phan**

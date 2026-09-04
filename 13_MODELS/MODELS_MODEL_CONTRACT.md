@@ -121,11 +121,11 @@ Engineered from continuous normalizing flows, active inference free energy princ
 
 | AMOS Plane | Role & Responsibilities |
 | :--- | :--- |
-| **[[04_RUNTIME/04_RUNTIME_MOC\|04_RUNTIME]]** | Manages GPU compute pipelines and foundation model execution threads. |
-| **[[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC\|05_COGNITIVE_ORGANISM]]** | Consumes latent world state representations for multi-agent planning. |
-| **[[12_STATE/12_STATE_MOC\|12_STATE]]** | Buffers latent state vectors via zero-copy Arrow memory maps. |
-| **[[13_MODELS/13_MODELS_MOC\|13_MODELS]]** | Host plane housing model weights, flow architectures, and calibration ledgers. |
-| **[[22_RESEARCH/01_PAPERS/01_PAPERS_MOC\|22_RESEARCH/01_PAPERS]]** | Supplies foundational mathematical theories and empirical validation papers. |
+| **[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]]** | Manages GPU compute pipelines and foundation model execution threads. |
+| **[[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM]]** | Consumes latent world state representations for multi-agent planning. |
+| **[[12_STATE/12_STATE_MOC|12_STATE]]** | Buffers latent state vectors via zero-copy Arrow memory maps. |
+| **[[13_MODELS/13_MODELS_MOC|13_MODELS]]** | Host plane housing model weights, flow architectures, and calibration ledgers. |
+| **[[22_RESEARCH/01_PAPERS/01_PAPERS_MOC|22_RESEARCH/01_PAPERS]]** | Supplies foundational mathematical theories and empirical validation papers. |
 
 ---
 

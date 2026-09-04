@@ -123,10 +123,10 @@ $$\text{Bootstrapping Latency } T_{\text{boot}} = 8.24\,\text{ms} \quad (\text{A
 
 | AMOS Plane | Role in Verifiable Homomorphic System |
 | :--- | :--- |
-| **[[06_AGENTS/06_AGENTS_MOC\|06_AGENTS]]** | Executes decentralized swarm tasks over encrypted tensors. |
-| **[[18_SECURITY/18_SECURITY_MOC\|18_SECURITY]]** | Enforces NIST PQC lattice constraints, secret key hardware enclave storage, and zk-proof verification. |
-| **[[08_WORKFLOWS/08_WORKFLOWS_MOC\|08_WORKFLOWS]]** | Orchestrates the multi-agent verifiable computation pipeline. |
-| **[[16_SCHEMAS/16_SCHEMAS_MOC\|16_SCHEMAS]]** | Standardizes serialized `FHECiphertextCapsule` and `ZKProofWitness` Arrow records. |
+| **[[06_AGENTS/06_AGENTS_MOC|06_AGENTS]]** | Executes decentralized swarm tasks over encrypted tensors. |
+| **[[18_SECURITY/18_SECURITY_MOC|18_SECURITY]]** | Enforces NIST PQC lattice constraints, secret key hardware enclave storage, and zk-proof verification. |
+| **[[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS]]** | Orchestrates the multi-agent verifiable computation pipeline. |
+| **[[16_SCHEMAS/16_SCHEMAS_MOC|16_SCHEMAS]]** | Standardizes serialized `FHECiphertextCapsule` and `ZKProofWitness` Arrow records. |
 
 ---
 

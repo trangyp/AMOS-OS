@@ -182,13 +182,13 @@ message ClaimVerificationCapsule {
 
 | AMOS Plane | Role in Epistemic Verification |
 | :--- | :--- |
-| **[[02_KERNEL/02_KERNEL_MOC\|02_KERNEL]]** | Executes Lean 4 formal kernel verification and CAS monotonic state validation. |
-| **[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC\|03_CONTROL_PLANE]]** | Evaluates commit authority and gates final promotion into canonical memory. |
-| **[[06_AGENTS/06_AGENTS_MOC\|06_AGENTS]]** | Hosts specialized worker definitions (`amos-claim-extractor`, `amos-epistemic-verifier`, etc.). |
-| **[[08_WORKFLOWS/08_WORKFLOWS_MOC\|08_WORKFLOWS]]** | Manages step orchestration, compensation triggers, and timeout budgets. |
-| **[[16_SCHEMAS/16_SCHEMAS_MOC\|16_SCHEMAS]]** | Supplies formal Protobuf / Arrow schemas for `ClaimTensor` and `EvidenceTensor`. |
-| **[[18_SECURITY/18_SECURITY_MOC\|18_SECURITY]]** | Verifies zk-SNARK proofs and manages Ed25519 signing keys. |
-| **[[20_OPERATIONS/20_OPERATIONS_MOC\|20_OPERATIONS]]** | Records immutable execution receipts in the daily audit ledger. |
+| **[[02_KERNEL/02_KERNEL_MOC|02_KERNEL]]** | Executes Lean 4 formal kernel verification and CAS monotonic state validation. |
+| **[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE]]** | Evaluates commit authority and gates final promotion into canonical memory. |
+| **[[06_AGENTS/06_AGENTS_MOC|06_AGENTS]]** | Hosts specialized worker definitions (`amos-claim-extractor`, `amos-epistemic-verifier`, etc.). |
+| **[[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS]]** | Manages step orchestration, compensation triggers, and timeout budgets. |
+| **[[16_SCHEMAS/16_SCHEMAS_MOC|16_SCHEMAS]]** | Supplies formal Protobuf / Arrow schemas for `ClaimTensor` and `EvidenceTensor`. |
+| **[[18_SECURITY/18_SECURITY_MOC|18_SECURITY]]** | Verifies zk-SNARK proofs and manages Ed25519 signing keys. |
+| **[[20_OPERATIONS/20_OPERATIONS_MOC|20_OPERATIONS]]** | Records immutable execution receipts in the daily audit ledger. |
 
 ---
 

@@ -152,11 +152,11 @@ Engineered from cognitive neuroscience (Global Workspace Theory, Active Inferenc
 
 | AMOS Plane | Role & Responsibilities |
 | :--- | :--- |
-| **[[00_ROOT/00_ROOT_MOC\|00_ROOT]]** | Manifest definition and root architectural binding. |
-| **[[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC\|05_COGNITIVE_ORGANISM]]** | Host plane housing all 18 cognitive engines, bindings, and specifications. |
-| **[[06_AGENTS/06_AGENTS_MOC\|06_AGENTS]]** | Scoped operational actors executing intentions derived by the cognitive organism. |
-| **[[10_MEMORY/10_MEMORY_MOC\|10_MEMORY]]** | Substrate supplying associative and episodic recall. |
-| **[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC\|25_COGNITIVE_MATRIX]]** | Continuous and discrete tensor routing backbone for all inter-organ signals. |
+| **[[00_ROOT/00_ROOT_MOC|00_ROOT]]** | Manifest definition and root architectural binding. |
+| **[[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM]]** | Host plane housing all 18 cognitive engines, bindings, and specifications. |
+| **[[06_AGENTS/06_AGENTS_MOC|06_AGENTS]]** | Scoped operational actors executing intentions derived by the cognitive organism. |
+| **[[10_MEMORY/10_MEMORY_MOC|10_MEMORY]]** | Substrate supplying associative and episodic recall. |
+| **[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX]]** | Continuous and discrete tensor routing backbone for all inter-organ signals. |
 
 ---
 

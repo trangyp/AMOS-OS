@@ -140,10 +140,10 @@ where:
 
 | AMOS Plane | Role & Responsibilities |
 | :--- | :--- |
-| **[[02_KERNEL/02_KERNEL_MOC\|02_KERNEL]]** | Subject of formal invariant fuzzing and CAS edge tests. |
-| **[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC\|03_CONTROL_PLANE]]** | Validates permission boundary test cases. |
-| **[[18_SECURITY/18_SECURITY_MOC\|18_SECURITY]]** | Evaluates cryptographic verification harnesses. |
-| **[[19_TESTS/19_TESTS_MOC\|19_TESTS]]** | Host plane housing fuzzing suites, property tests, and mutation runners. |
+| **[[02_KERNEL/02_KERNEL_MOC|02_KERNEL]]** | Subject of formal invariant fuzzing and CAS edge tests. |
+| **[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE]]** | Validates permission boundary test cases. |
+| **[[18_SECURITY/18_SECURITY_MOC|18_SECURITY]]** | Evaluates cryptographic verification harnesses. |
+| **[[19_TESTS/19_TESTS_MOC|19_TESTS]]** | Host plane housing fuzzing suites, property tests, and mutation runners. |
 
 ---
 

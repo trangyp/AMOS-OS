@@ -113,10 +113,10 @@ $$\sigma_{\text{opt}}(E_{\text{in}}) = \frac{\sqrt{T_{\text{lin}}}}{1 + \beta_{\
 
 | AMOS Plane | Role in Photonic Computing Integration |
 | :--- | :--- |
-| **[[04_RUNTIME/04_RUNTIME_MOC\|04_RUNTIME]]** | Manages photonic kernel drivers, calibration loops, and drift compensation. |
-| **[[13_MODELS/13_MODELS_MOC\|13_MODELS]]** | Compiles deep neural network weights into unitary MZI phase angle maps $(\theta, \phi)$. |
-| **[[14_TOOLS/14_TOOLS_MOC\|14_TOOLS]]** | Provides hardware emulation and Clements mesh decomposition compilers. |
-| **[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC\|25_COGNITIVE_MATRIX]]** | Implements isometric tensor contractions across holographic cognitive bulk channels. |
+| **[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]]** | Manages photonic kernel drivers, calibration loops, and drift compensation. |
+| **[[13_MODELS/13_MODELS_MOC|13_MODELS]]** | Compiles deep neural network weights into unitary MZI phase angle maps $(\theta, \phi)$. |
+| **[[14_TOOLS/14_TOOLS_MOC|14_TOOLS]]** | Provides hardware emulation and Clements mesh decomposition compilers. |
+| **[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX]]** | Implements isometric tensor contractions across holographic cognitive bulk channels. |
 
 ---
 

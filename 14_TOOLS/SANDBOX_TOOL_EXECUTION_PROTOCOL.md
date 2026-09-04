@@ -138,11 +138,11 @@ All other syscalls (including `socket`, `connect`, `fork`, `execve`, `ptrace`) t
 
 | AMOS Plane | Role & Responsibilities |
 | :--- | :--- |
-| **[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC\|03_CONTROL_PLANE]]** | Mints attenuated capability tokens and audits permission scopes. |
-| **[[04_RUNTIME/04_RUNTIME_MOC\|04_RUNTIME]]** | Manages asynchronous process execution threads and IPC streams. |
-| **[[14_TOOLS/14_TOOLS_MOC\|14_TOOLS]]** | Host plane housing tool definitions, schemas, and WASM binaries. |
-| **[[18_SECURITY/18_SECURITY_MOC\|18_SECURITY]]** | Configures seccomp filters, AppArmor profiles, and encryption keys. |
-| **[[20_OPERATIONS/20_OPERATIONS_MOC\|20_OPERATIONS]]** | Logs resource usage statistics and audit trail receipts. |
+| **[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE]]** | Mints attenuated capability tokens and audits permission scopes. |
+| **[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]]** | Manages asynchronous process execution threads and IPC streams. |
+| **[[14_TOOLS/14_TOOLS_MOC|14_TOOLS]]** | Host plane housing tool definitions, schemas, and WASM binaries. |
+| **[[18_SECURITY/18_SECURITY_MOC|18_SECURITY]]** | Configures seccomp filters, AppArmor profiles, and encryption keys. |
+| **[[20_OPERATIONS/20_OPERATIONS_MOC|20_OPERATIONS]]** | Logs resource usage statistics and audit trail receipts. |
 
 ---
 

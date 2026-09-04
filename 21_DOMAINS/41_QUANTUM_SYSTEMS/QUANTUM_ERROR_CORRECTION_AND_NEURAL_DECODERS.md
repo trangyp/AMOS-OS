@@ -144,11 +144,11 @@ $$\rho(t) = \lim_{N \to \infty} \left( \mathcal{M}_{\text{proj}} \exp\left( -i \
 
 | AMOS Plane | Role & Responsibilities |
 | :--- | :--- |
-| **[[02_KERNEL/02_KERNEL_MOC\|02_KERNEL]]** | Executes deterministic syndrome Pauli matrix transformations and CAS verification. |
-| **[[10_MEMORY/10_MEMORY_MOC\|10_MEMORY]]** | Stores quantum calibration tables and noise covariance matrices. |
-| **[[18_SECURITY/18_SECURITY_MOC\|18_SECURITY]]** | Ingests CV-QKD secure key streams for post-quantum OTP encryption. |
-| **[[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC\|21_DOMAINS/41_QUANTUM]]** | Host domain housing pulse schedules, quantum device drivers, and cryostat monitors. |
-| **[[22_RESEARCH/01_PAPERS/01_PAPERS_MOC\|22_RESEARCH/01_PAPERS]]** | Provides theoretical foundations for GKP bosonic codes, surface codes, and anyon braiding. |
+| **[[02_KERNEL/02_KERNEL_MOC|02_KERNEL]]** | Executes deterministic syndrome Pauli matrix transformations and CAS verification. |
+| **[[10_MEMORY/10_MEMORY_MOC|10_MEMORY]]** | Stores quantum calibration tables and noise covariance matrices. |
+| **[[18_SECURITY/18_SECURITY_MOC|18_SECURITY]]** | Ingests CV-QKD secure key streams for post-quantum OTP encryption. |
+| **[[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC|21_DOMAINS/41_QUANTUM]]** | Host domain housing pulse schedules, quantum device drivers, and cryostat monitors. |
+| **[[22_RESEARCH/01_PAPERS/01_PAPERS_MOC|22_RESEARCH/01_PAPERS]]** | Provides theoretical foundations for GKP bosonic codes, surface codes, and anyon braiding. |
 
 ---
 

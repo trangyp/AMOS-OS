@@ -120,12 +120,12 @@ This reduces the recursive verification cost from $\mathcal{O}(|C|)$ circuit syn
 
 | AMOS Plane | Role & Responsibilities |
 | :--- | :--- |
-| **[[02_KERNEL/02_KERNEL_MOC\|02_KERNEL]]** | Provides the deterministic arithmetization compiler and curve group primitives. |
-| **[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC\|03_CONTROL_PLANE]]** | Verifies zero-knowledge proofs before admitting external state effects. |
-| **[[06_AGENTS/06_AGENTS_MOC\|06_AGENTS]]** | Embeds zk-provers inside agent execution harnesses to sign all outgoing claims. |
-| **[[08_WORKFLOWS/08_WORKFLOWS_MOC\|08_WORKFLOWS]]** | Coordinates multi-agent IVC proof folding along sequential workflow steps. |
-| **[[18_SECURITY/18_SECURITY_MOC\|18_SECURITY]]** | Governs cryptographic key lifecycles, proving keys, and verification contracts. |
-| **[[22_RESEARCH/22_RESEARCH_MOC\|22_RESEARCH]]** | Evaluates post-quantum lattice and FRI-based zero-knowledge improvements. |
+| **[[02_KERNEL/02_KERNEL_MOC|02_KERNEL]]** | Provides the deterministic arithmetization compiler and curve group primitives. |
+| **[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE]]** | Verifies zero-knowledge proofs before admitting external state effects. |
+| **[[06_AGENTS/06_AGENTS_MOC|06_AGENTS]]** | Embeds zk-provers inside agent execution harnesses to sign all outgoing claims. |
+| **[[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS]]** | Coordinates multi-agent IVC proof folding along sequential workflow steps. |
+| **[[18_SECURITY/18_SECURITY_MOC|18_SECURITY]]** | Governs cryptographic key lifecycles, proving keys, and verification contracts. |
+| **[[22_RESEARCH/22_RESEARCH_MOC|22_RESEARCH]]** | Evaluates post-quantum lattice and FRI-based zero-knowledge improvements. |
 
 ---
 

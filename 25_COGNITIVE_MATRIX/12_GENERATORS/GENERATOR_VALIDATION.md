@@ -106,9 +106,9 @@ ______________________________________________________________________
 
 # Generator Validation
 
-> **Status:** `PLACEHOLDER`
+> **Status:** `PLACEHOLDER_EXPANDED`
 >
-> **Class:** `MATRIX_INFRASTRUCTURE_PLACEHOLDER`
+> **Class:** `MATRIX_INFRASTRUCTURE_PLACEHOLDER_EXPANDED`
 >
 > **Validation execution:** `NOT_RUN_OR_UNRECOVERED`
 >
@@ -119,6 +119,8 @@ ______________________________________________________________________
 > **Origin architect / steward:** Trang Phan
 >
 > **AMOS_CORE target:** `v4.4`
+>
+> **Architecture reference:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]
 
 ______________________________________________________________________
 
@@ -167,6 +169,25 @@ Should this candidate become canon?
 
 Has global finality been reached?
 ```
+
+### 0.1 Validation methodology and MECE grounding
+
+The Generator validation methodology is grounded in the MECE architecture partition defined in [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]], which separates functional ownership from physical storage, authority precedence, runtime call order, and evidence/validation status. Generator validation operates within the `25_COGNITIVE_MATRIX` plane but draws on multiple planes for its evidence base:
+
+- **`01_CANON`** — canonical laws and glossary definitions that semantic validation (GV4) checks against
+- **`03_CONTROL_PLANE`** — authority tokens and policy epochs that authority-boundary validation (GV15) requires
+- **`10_ROUTING`** — routing validation (Section 60) verifies the correct Generator path was selected
+- **`11_VALIDATION`** — the general-purpose validation framework and promotion gates that Generator validation feeds into (Section 111)
+- **`16_SCHEMAS`** — schema definitions that structural validation (GV3) checks against
+- **`17_OBSERVABILITY`** — receives validation traces and metrics for audit (Section 109)
+- **`19_TESTS`** — the test contract framework that Generator tests follow (Section 81)
+
+The validation methodology follows four principles drawn from the AMOS governing law (`Generation expands candidate space, not evidence space`):
+
+1. **Evidence-bearing**: Every validation result must be backed by typed evidence (SOURCE_CLAIM, OBSERVATION, DERIVED, MODEL, TEST_RECEIPT, etc.) — not by fluency, repetition, or internal agreement alone.
+2. **Provenance-aware**: Validation must preserve and check source ancestry, template lineage, and generator identity. Provenance collapse (multiple derivatives from one source counted as independent) is a blocking failure.
+3. **Scope-bound and regime-bound**: A validation pass applies only within the declared applicability envelope. Cross-scope or cross-regime transfer requires explicit compatibility evidence.
+4. **Reversible**: Validation receipts have temporal validity. Any load-bearing state change (Generator version, template, schema, source, dependency, policy epoch) may invalidate prior receipts and trigger selective revalidation.
 
 ______________________________________________________________________
 
@@ -2789,40 +2810,28 @@ ______________________________________________________________________
 RSCF-RELATIONS:
 
   - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-      ""
 
   - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-      ""
 
-  - PART_OF:
-      ""
+  - PART_OF: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
-  - PART_OF:
-      ""
+  - PART_OF: [[25_COGNITIVE_MATRIX/12_GENERATORS/12_GENERATORS_MOC|12_GENERATORS_MOC]]
 
-  - VALIDATES:
-      "GENERATOR_CONTRACT|Generator Contract"
+  - VALIDATES: [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_CONTRACT|GENERATOR_CONTRACT]]
 
-  - VALIDATES:
-      "GENERATOR_VERSIONING|Generator Versioning"
+  - VALIDATES: [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_VERSIONING|GENERATOR_VERSIONING]]
 
-  - USES:
-      "Generator Provenance"
+  - USES: [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_PROVENANCE|Generator Provenance]]
 
-  - USES:
-      "Generator Tests"
+  - USES: [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_TESTS|Generator Tests]]
 
-  - USES:
-      "GENERATORS_BENCHMARKS|Generator Benchmarks"
+  - USES: [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_BENCHMARKS|Generator Benchmarks]]
 
-  - AUDITED_BY:
-      "GENERATORS_AUDIT|Generator Audit"
+  - AUDITED_BY: [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_AUDIT|Generator Audit]]
 
-  - RELATED_TO:
-      "Generator Integration"
+  - RELATED_TO: [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_INTEGRATION|Generator Integration]]
 
-  - FEEDS:
-      "PROMOTION_GATES|Promotion Gates"
+  - FEEDS: [[25_COGNITIVE_MATRIX/11_VALIDATION/PROMOTION_GATES|Promotion Gates]]
 ```
 
 ______________________________________________________________________
@@ -2886,7 +2895,7 @@ rscf:
     0
 
   status:
-    PLACEHOLDER
+    PLACEHOLDER_EXPANDED
 ```
 
 ______________________________________________________________________
@@ -2900,7 +2909,7 @@ gmef:
     AMOS-CM-12-GENERATOR-VALIDATION
 
   governance_status:
-    PLACEHOLDER
+    PLACEHOLDER_EXPANDED
 
   governed_operations:
     - GENERATOR_VALIDATION
@@ -3657,6 +3666,6 @@ not simply:
 "the output parsed"
 ```
 
-```
 ---
 **MOC:**
+````

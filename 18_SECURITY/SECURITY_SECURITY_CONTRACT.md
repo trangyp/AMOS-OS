@@ -148,11 +148,11 @@ Engineered from NIST Post-Quantum Standards (FIPS 203/204), Zero-Knowledge Crypt
 
 | AMOS Plane | Role & Responsibilities |
 | :--- | :--- |
-| **[[01_CANON/01_CANON_MOC\|01_CANON]]** | Canonical root laws (`L0_INTEGRITY` through `L33_KERNEL`). |
-| **[[02_KERNEL/02_KERNEL_MOC\|02_KERNEL]]** | Deterministic CAS state finalization and Lean 4 invariant checking. |
-| **[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC\|03_CONTROL_PLANE]]** | Gates all state mutations based on security capability tokens. |
-| **[[18_SECURITY/18_SECURITY_MOC\|18_SECURITY]]** | Host plane housing crypto primitives, firewalls, and key management engines. |
-| **[[20_OPERATIONS/20_OPERATIONS_MOC\|20_OPERATIONS]]** | Logs all security violations, access denials, and cryptographic receipts. |
+| **[[01_CANON/01_CANON_MOC|01_CANON]]** | Canonical root laws (`L0_INTEGRITY` through `L33_KERNEL`). |
+| **[[02_KERNEL/02_KERNEL_MOC|02_KERNEL]]** | Deterministic CAS state finalization and Lean 4 invariant checking. |
+| **[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE]]** | Gates all state mutations based on security capability tokens. |
+| **[[18_SECURITY/18_SECURITY_MOC|18_SECURITY]]** | Host plane housing crypto primitives, firewalls, and key management engines. |
+| **[[20_OPERATIONS/20_OPERATIONS_MOC|20_OPERATIONS]]** | Logs all security violations, access denials, and cryptographic receipts. |
 
 ---
 

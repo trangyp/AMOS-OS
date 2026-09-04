@@ -137,10 +137,10 @@ Engineered from non-human primate motor cortex Utah array datasets, human Neurop
 
 | AMOS Plane | Role & Interaction |
 | :--- | :--- |
-| **[[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC\|05_COGNITIVE_ORGANISM]]** | Integrates biological cognitive dynamics into core organism identity. |
-| **[[15_INTERFACES/15_INTERFACES_MOC\|15_INTERFACES]]** | Exposes high-frequency BCI telemetry streams and visualizer surfaces. |
-| **[[22_RESEARCH/01_PAPERS/01_PAPERS_MOC\|22_RESEARCH/01_PAPERS]]** | Publishes verified peer-reviewed BCI and neuromorphic monographs. |
-| **[[21_DOMAINS/21_DOMAINS_MOC\|21_DOMAINS]]** | Master domain routing hub across C01–C12 domain specializations. |
+| **[[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM]]** | Integrates biological cognitive dynamics into core organism identity. |
+| **[[15_INTERFACES/15_INTERFACES_MOC|15_INTERFACES]]** | Exposes high-frequency BCI telemetry streams and visualizer surfaces. |
+| **[[22_RESEARCH/01_PAPERS/01_PAPERS_MOC|22_RESEARCH/01_PAPERS]]** | Publishes verified peer-reviewed BCI and neuromorphic monographs. |
+| **[[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS]]** | Master domain routing hub across C01–C12 domain specializations. |
 
 ---
 

@@ -121,11 +121,11 @@ Non-Clifford Magic State injection (e.g., $|\bar{T}\rangle = \cos(\pi/8)|0_L\ran
 
 | Layer / Plane | Function in AMOS Full Brain OS |
 | :--- | :--- |
-| **[[02_KERNEL/02_KERNEL_MOC\|02_KERNEL]]** | Formal verification of symplectic matrix group properties $\text{Sp}(2n, \mathbb{R})$ for gate schedules. |
-| **[[10_MEMORY/10_MEMORY_MOC\|10_MEMORY]]** | Associative memory persistence utilizing bosonic continuous-variable state vectors. |
-| **[[18_SECURITY/18_SECURITY_MOC\|18_SECURITY]]** | Continuous-Variable Quantum Key Distribution (CV-QKD) using GKP-stabilized photonic pulses. |
-| **[[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC\|21_DOMAINS/41_QUANTUM]]** | Hardware-level pulse sequence definitions, cavity calibration ledgers, and cryo-CMOS interface drivers. |
-| **[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC\|25_COGNITIVE_MATRIX]]** | Continuous-variable tensor contraction routing across multi-plane cognitive substrates. |
+| **[[02_KERNEL/02_KERNEL_MOC|02_KERNEL]]** | Formal verification of symplectic matrix group properties $\text{Sp}(2n, \mathbb{R})$ for gate schedules. |
+| **[[10_MEMORY/10_MEMORY_MOC|10_MEMORY]]** | Associative memory persistence utilizing bosonic continuous-variable state vectors. |
+| **[[18_SECURITY/18_SECURITY_MOC|18_SECURITY]]** | Continuous-Variable Quantum Key Distribution (CV-QKD) using GKP-stabilized photonic pulses. |
+| **[[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC|21_DOMAINS/41_QUANTUM]]** | Hardware-level pulse sequence definitions, cavity calibration ledgers, and cryo-CMOS interface drivers. |
+| **[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX]]** | Continuous-variable tensor contraction routing across multi-plane cognitive substrates. |
 
 ---
 

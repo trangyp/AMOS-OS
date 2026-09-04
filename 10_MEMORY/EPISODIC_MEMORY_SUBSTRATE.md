@@ -161,12 +161,12 @@ $$S(e) = S_0 \cdot \left( 1 + \alpha \cdot \text{Salience}(e) \right)^{\beta \cd
 
 | AMOS Plane | Role & Responsibilities |
 | :--- | :--- |
-| **[[04_RUNTIME/04_RUNTIME_MOC\|04_RUNTIME]]** | Provides execution timestamps and causal epoch clocks. |
-| **[[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC\|05_COGNITIVE_ORGANISM]]** | Directs sleep-phase consolidation and working memory retrieval queries. |
-| **[[10_MEMORY/10_MEMORY_MOC\|10_MEMORY]]** | Core host plane managing physical vector databases, WAL logs, and decay timers. |
-| **[[11_KNOWLEDGE/11_KNOWLEDGE_MOC\|11_KNOWLEDGE]]** | Absorbs consolidated semantic claims into permanent knowledge graphs. |
-| **[[12_STATE/12_STATE_MOC\|12_STATE]]** | Zero-copy shared memory registers for fast episodic retrieval caching. |
-| **[[17_OBSERVABILITY/17_OBSERVABILITY_MOC\|17_OBSERVABILITY]]** | Logs retrieval hit-rates, memory saturation, and consolidation metrics. |
+| **[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]]** | Provides execution timestamps and causal epoch clocks. |
+| **[[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM]]** | Directs sleep-phase consolidation and working memory retrieval queries. |
+| **[[10_MEMORY/10_MEMORY_MOC|10_MEMORY]]** | Core host plane managing physical vector databases, WAL logs, and decay timers. |
+| **[[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE]]** | Absorbs consolidated semantic claims into permanent knowledge graphs. |
+| **[[12_STATE/12_STATE_MOC|12_STATE]]** | Zero-copy shared memory registers for fast episodic retrieval caching. |
+| **[[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY]]** | Logs retrieval hit-rates, memory saturation, and consolidation metrics. |
 
 ---
 

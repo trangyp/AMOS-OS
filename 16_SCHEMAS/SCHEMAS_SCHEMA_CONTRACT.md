@@ -118,11 +118,11 @@ Engineered from Protocol Buffers v3, Apache Arrow IPC, and JSON-Schema Draft 202
 
 | AMOS Plane | Integration & Usage |
 | :--- | :--- |
-| **[[04_RUNTIME/04_RUNTIME_MOC\|04_RUNTIME]]** | Uses runtime schemas for tick frames and execution contexts. |
-| **[[06_AGENTS/06_AGENTS_MOC\|06_AGENTS]]** | Enforces `AgentSchema` on all registered worker definitions. |
-| **[[08_WORKFLOWS/08_WORKFLOWS_MOC\|08_WORKFLOWS]]** | Validates `ClaimVerificationCapsule` payloads during workflow transitions. |
-| **[[12_STATE/12_STATE_MOC\|12_STATE]]** | Memory-mapped Arrow schemas for zero-copy state buses. |
-| **[[17_OBSERVABILITY/17_OBSERVABILITY_MOC\|17_OBSERVABILITY]]** | Formats structured telemetry, spans, and metric logs. |
+| **[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]]** | Uses runtime schemas for tick frames and execution contexts. |
+| **[[06_AGENTS/06_AGENTS_MOC|06_AGENTS]]** | Enforces `AgentSchema` on all registered worker definitions. |
+| **[[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS]]** | Validates `ClaimVerificationCapsule` payloads during workflow transitions. |
+| **[[12_STATE/12_STATE_MOC|12_STATE]]** | Memory-mapped Arrow schemas for zero-copy state buses. |
+| **[[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY]]** | Formats structured telemetry, spans, and metric logs. |
 
 ---
 
