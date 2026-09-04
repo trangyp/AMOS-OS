@@ -119,19 +119,13 @@ Cross-embodiment transfer has emerged as a first-class capability. Qwen-RobotMan
 ## AMOS Integration
 
 ### Agent Architecture
-The closed-loop embodied harness pattern (Zetta's three-timescale loops) maps directly to AMOS agent governance in [[06_AGENTS/06_AGENTS_MOC|06_AGENTS_MOC]]. Action-frequency governance corresponds to the AMOS runtime decision loop; rollout-level critic-recovery maps to the validation pipeline; validation-gated skill updates align with the evolution layer's trusted-core preservation. The Planner-Grounder-Corrector loop from Embodied-R1.5 provides a concrete instantiation of AMOS's reasoning-loop layer with self-correction.
+The closed-loop embodied harness pattern (Zetta's three-timescale loops) maps directly to [[06_AGENTS/06_AGENTS_MOC|06_AGENTS_MOC]]. Action-frequency governance corresponds to the AMOS runtime decision loop; rollout-level critic-recovery maps to the validation pipeline; validation-gated skill updates align with the evolution layer's trusted-core preservation. Embodied-R1.5's Planner-Grounder-Corrector loop provides a concrete instantiation of AMOS's reasoning-loop layer with self-correction.
 
 ### Runtime Execution
 World Action Models that unify policy execution and world simulation within a single causal sequence relate to [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]. The requirement for action-frequency governance at rates beyond large model inference latency motivates AMOS's decoupled agent logic from heterogeneous execution resources (Z-Infra pattern). Hydra's elimination of pixel-space decoding for real-time control informs AMOS runtime optimization for latency-sensitive embodied workloads.
 
-### Cognitive Matrix: World Modeling
-Riemann-1.0's causal world simulation and NavWM's latent world reasoning directly instantiate [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L10_WORLD_MODELING/L10_WORLD_MODELING_MOC|L10_World_Modeling]]. The transition from next-token to next-state prediction under interaction is the core L10 primitive: maintaining consistent internal representations that support predictive modeling of environment dynamics.
-
-### Cognitive Matrix: Action
-VLA models' continuous action generation via flow matching and Hydra's kinodynamic intent vocabulary map to [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L18_ACTION/L18_ACTION_MOC|L18_ACTION]]. The action-frequency governance loop in Zetta provides a concrete multi-timescale action execution model aligned with L18's action primitive definition.
-
-### Cognitive Matrix: Planning
-Hydra's Discrete Latent Planning and NavWM's foresight-driven planning instantiate [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L16_PLANNING/L16_PLANNING_MOC|L16_PLANNING]]. The key insight that planning must occur natively within the world model's latent space—rather than decoding candidates back to pixel space—aligns with L16's planning primitive requirement for efficient search over action consequences.
+### Cognitive Matrix: World Modeling, Action, Planning
+Riemann-1.0's causal world simulation and NavWM's latent world reasoning directly instantiate [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L10_WORLD_MODELING/L10_WORLD_MODELING_MOC|L10_World_Modeling]]—the transition from next-token to next-state prediction under interaction. VLA models' continuous action generation via flow matching and Hydra's kinodynamic intent vocabulary map to [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L18_ACTION/L18_ACTION_MOC|L18_Action]], while Hydra's Discrete Latent Planning and NavWM's foresight-driven planning instantiate [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L16_PLANNING/L16_PLANNING_MOC|L16_Planning]]—planning natively within the world model's latent space rather than decoding candidates back to pixel space.
 
 ---
 

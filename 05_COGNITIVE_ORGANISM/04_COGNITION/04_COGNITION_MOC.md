@@ -20,66 +20,50 @@ rscf:
 
 # 04 Cognition — Map of Content
 
-> **Origin Architect / Steward:** Trang Phan
-> **AMOS_CORE Target:** `v4.4`
-> **MECE Domain:** C — Cognitive Capability & Orchestration
-> **Plane:** `05_COGNITIVE_ORGANISM/04_COGNITION`
+## Purpose
+
+The Cognition sub-plane governs the **reasoning and inference layer** of the AMOS Cognitive Organism. It houses the cognitive engines that transform observations into conclusions: first-principles reasoning, fractal reasoning, human intelligence modeling, and neurobiological intelligence (NBI) processing. Cognition is the interpretive core of the organism — it takes raw perceptual input and produces structured beliefs, hypotheses, and decisions. However, cognition does not authorize effects; it produces reasoning outputs that are subsequently gated by the control plane's capability, policy, authority, and commit surfaces.
+
+## MECE Domain
+
+This sub-plane belongs to the **C — Cognitive Capability & Orchestration** MECE domain (plane `05_COGNITIVE_ORGANISM`). Within the cognitive organism's seven MECE organ clusters, cognition falls under **Group B: Interpretation & Reasoning**. It works in concert with the Perception Engine (Group A) which feeds it observations, and the Prediction and Metacognitive Engines (also Group B) which complement its reasoning with forward simulation and self-audit. None of these cognitive capabilities acquires durable-effect authority merely by being capable.
 
 **Path:** `05_COGNITIVE_ORGANISM/04_COGNITION`
 **Files:** 5 | **Subdirectories:** 0
 
-## Purpose
-
-The Cognition sub-plane defines the core reasoning engines that power the AMOS cognitive organism. These engines implement different reasoning paradigms — from first-principles deduction to fractal multi-scale analysis to human intelligence modeling — that together form the cognitive processing core of the AMOS Full Brain OS.
-
-## MECE Scope
-
-Within the MECE partition ([[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]), `04_COGNITION` is a sub-plane of `05_COGNITIVE_ORGANISM` (Domain C — Cognitive Capability & Orchestration). Its primary ownership is **reasoning engine definitions and their cognitive processing properties**. It does not own memory substrates (those belong to `10_MEMORY`), model calibration (those belong to `13_MODELS`), or cognitive matrix primitives (those belong to `25_COGNITIVE_MATRIX/01_PRIMITIVES`).
-
 ## Files
 
-### AMOS_COGNITION_ENGINE
-- [[11_KNOWLEDGE/engine/AMOS_COGNITION_ENGINE|AMOS_COGNITION_ENGINE]] — The master cognition engine that orchestrates all reasoning modes. Located in the knowledge engine directory as it bridges knowledge representation and cognitive processing. Implements the 6-layer cognition architecture with validation depth mapping.
+- [[11_KNOWLEDGE/engine/AMOS_COGNITION_ENGINE|AMOS_COGNITION_ENGINE]] — The core cognition engine implementing the 6-layer cognitive stack: meta-logic, structural reasoning, and the Rule of 2/4. This is the primary reasoning substrate that processes observations into conclusions. Hosted in the knowledge plane's engine directory because it is a reusable reasoning component shared across cognitive contexts.
+- [[05_COGNITIVE_ORGANISM/04_COGNITION/FIRST_PRINCIPLES_REASONING|FIRST_PRINCIPLES_REASONING]] — The substrate-rooted reasoning contract and deconstructive protocol. First-principles reasoning decomposes a problem into its irreducible axioms and rebuilds the solution from ground truth, bypassing analogical shortcuts. This is the most rigorous reasoning mode and is mandatory for high-stakes decisions where analogical reasoning may introduce hidden assumptions.
+- [[05_COGNITIVE_ORGANISM/04_COGNITION/FRACTAL_REASONING|FRACTAL_REASONING]] — Fractal reasoning applies self-similar reasoning patterns across scales: the same cognitive primitives operate at the micro-level (single inference) and the macro-level (strategic planning). This enables the organism to maintain reasoning coherence across depth levels without mode-switching overhead.
+- [[05_COGNITIVE_ORGANISM/04_COGNITION/HUMAN_INTELLIGENCE_ENGINE|HUMAN_INTELLIGENCE_ENGINE]] — Human reasoning approximation models. This engine models the reasoning patterns, biases, heuristics, and cognitive limits of human intelligence to enable the organism to reason *about* human agents and to produce outputs calibrated for human consumption. It is not a claim that the system *is* human, but a model *of* human reasoning.
+- [[05_COGNITIVE_ORGANISM/04_COGNITION/NBI_ENGINE|NBI_ENGINE]] — Neurobiological Intelligence (NBI) engine. Models the neurobiological substrate of intelligence: neural circuit dynamics, neurotransmitter modulation, and brain-region specialization. NBI provides the biophysical grounding for cognitive processes, ensuring that reasoning is constrained by plausible neural mechanisms rather than operating in an ungrounded symbolic vacuum.
 
-### FIRST_PRINCIPLES_REASONING
-- [[05_COGNITIVE_ORGANISM/04_COGNITION/FIRST_PRINCIPLES_REASONING|FIRST_PRINCIPLES_REASONING]] — First-principles reasoning engine that decomposes complex problems into fundamental axioms and rebuilds solutions from ground truth. Critical for AMOS's epistemic integrity — prevents reasoning from unverified assumptions. Enforces the `SOURCE_CLAIM != VERIFIED` boundary in reasoning chains.
+## Cognition in the Organism Pipeline
 
-### FRACTAL_REASONING
-- [[05_COGNITIVE_ORGANISM/04_COGNITION/FRACTAL_REASONING|FRACTAL_REASONING]] — Fractal reasoning engine that applies the same reasoning structure at multiple cognitive scales (signal, word, concept, chunk, lesson, skill, habit, identity). Enables scale-appropriate reasoning depth and cross-scale consistency. Connects to the fractal learning and memory reduction engine in `10_MEMORY`.
+Cognition receives input from and produces output to several organism subsystems:
 
-### HUMAN_INTELLIGENCE_ENGINE
-- [[05_COGNITIVE_ORGANISM/04_COGNITION/HUMAN_INTELLIGENCE_ENGINE|HUMAN_INTELLIGENCE_ENGINE]] — Models human-like intelligence processes including dual-system thinking (System 1 fast / System 2 slow), emotional cognition, and social reasoning. Provides the cognitive substrate for AMOS's human interaction engine and UBI framework.
-
-### NBI_ENGINE
-- [[05_COGNITIVE_ORGANISM/04_COGNITION/NBI_ENGINE|NBI_ENGINE]] — Neurobiological Intelligence (NBI) engine that implements the UBI NBI domain's cognitive processes. Models neurobiological substrates of intelligence including neural coding, synaptic plasticity, and cortical dynamics. Bridges the bio-neuro domain to the cognitive organism.
+1. **Perception input** — [[05_COGNITIVE_ORGANISM/PERCEPTION_ENGINE|Perception Engine]] and the SNN spike processor provide raw observations and spike-encoded sensory data.
+2. **Attention gating** — [[05_COGNITIVE_ORGANISM/ATTENTION_ENGINE|Attention Engine]] prioritizes which observations enter the cognition layer, bounding the reasoning context window.
+3. **Reasoning execution** — The cognition engine processes the gated observations through its 6-layer stack, producing structured conclusions with confidence vectors.
+4. **Metacognitive audit** — [[05_COGNITIVE_ORGANISM/METACOGNITIVE_ENGINE|Metacognitive Engine]] audits the reasoning output for assumption violations, uncertainty, and logical consistency.
+5. **Prediction feedback** — [[05_COGNITIVE_ORGANISM/PREDICTION_ENGINE|Prediction Engine]] uses the conclusions for forward simulation, feeding prediction errors back into the cognition layer for belief update.
+6. **Homeostatic throttling** — [[05_COGNITIVE_ORGANISM/15_HOMEOSTASIS/15_HOMEOSTASIS_MOC|15 Homeostasis MOC]] may throttle reasoning depth under high cognitive load or stress.
 
 ## Relationships
 
-### Upstream
-- [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]] — Parent cognitive organism plane
-- [[02_KERNEL/02_KERNEL_MOC|02_KERNEL]] — Kernel invariants constrain reasoning engine behavior
-- [[01_CANON/01_CANON_MOC|01_CANON]] — Canon laws govern which reasoning modes are admissible
-
-### Downstream
-- [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L09_INFERENCE/L09_INFERENCE_MOC|L09 Inference]] — Inference primitive uses cognition engines
-- [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L23_METACOGNITION/L23_METACOGNITION_MOC|L23 Metacognition]] — Metacognition monitors cognition engine output
-- [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]] — Runtime executes cognition engine outputs
-- [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY]] — Observability tracks cognition engine performance
-
-### Peers
-- [[05_COGNITIVE_ORGANISM/15_HOMEOSTASIS/15_HOMEOSTASIS_MOC|15_HOMEOSTASIS]] — Homeostasis regulates cognitive resource allocation
-- [[11_KNOWLEDGE/engine/ENGINE_MOC|11_KNOWLEDGE Engine]] — Knowledge engine provides the information substrate
-- [[21_DOMAINS/24_UBI_NBI_NEUROBIOLOGICAL/24_UBI_NBI_NEUROBIOLOGICAL_MOC|UBI NBI Domain]] — Neurobiological intelligence domain
+- **Parent**: [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05 Cognitive Organism MOC]] — the parent plane for all cognitive organ clusters.
+- **Homeostasis**: [[05_COGNITIVE_ORGANISM/15_HOMEOSTASIS/15_HOMEOSTASIS_MOC|15 Homeostasis MOC]] — throttles reasoning depth under organism stress.
+- **World Model**: [[05_COGNITIVE_ORGANISM/06_WORLD_MODEL/06_WORLD_MODEL_MOC|06 World Model MOC]] — provides the entity-relation context within which reasoning operates.
+- **Control Plane**: [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03 Control Plane MOC]] — gates cognitive outputs before they become consequential effects.
+- **Knowledge**: [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11 Knowledge MOC]] — hosts the cognition engine implementation and knowledge base.
+- **Cognitive Matrix**: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25 Cognitive Matrix MOC]] — fractal coordinate system that maps cognitive functions across scales.
+- **Architecture**: [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|Full Brain OS MECE Architecture]] — assigns `05_COGNITIVE_ORGANISM` to the cognitive capability domain.
 
 ## Epistemic Boundary
 
-Cognition engines are `AMOS_MODEL` artifacts. Their reasoning outputs are `DERIVED` from their inputs and architecture. A cognition engine's output does not become an `EMPIRICAL` observation by virtue of being computed. Reasoning quality must be validated through the test and observability planes.
-
-`MODEL != OBSERVATION`
-`REASONING_OUTPUT != VERIFIED_TRUTH`
-`DOCUMENTED != IMPLEMENTED`
+Cognition artifacts are AMOS_MODEL with DERIVED claim class. The reasoning engines, first-principles protocol, and NBI substrate are modeled cognitive functions, not deployed neural hardware. `MODEL != DEPLOYED_RUNTIME` — the cognition engine is a specification and reference implementation, not proof that a production system reasons in exactly this way. The human intelligence engine models human reasoning patterns but does not claim human consciousness or sentience. Cognitive outputs are reasoning products, not authority decisions — they must pass through the control plane before becoming consequential.
 
 ______________________________________________________________________
 
 **Parent:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
-**MECE Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]
