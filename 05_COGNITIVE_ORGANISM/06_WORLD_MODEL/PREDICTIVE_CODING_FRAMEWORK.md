@@ -392,7 +392,7 @@ ______________________________________________________________________
 - **Attention coupling:** [[05_COGNITIVE_ORGANISM/ATTENTION_ENGINE|ATTENTION_ENGINE]] (precision = attention gain)
 - **Homeostasis link:** [[05_COGNITIVE_ORGANISM/HOMEOSTASIS_ENGINE|HOMEOSTASIS_ENGINE]] (free energy as health metric)
 - **Metacognitive audit:** [[05_COGNITIVE_ORGANISM/METACOGNITIVE_ENGINE|METACOGNITIVE_ENGINE]]
-- **Kernel anchors:** [[02_KERNEL/K_META_LOGIC|K_META_LOGIC]]
+- **Kernel anchors:** [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]]]]
 
 ______________________________________________________________________
 

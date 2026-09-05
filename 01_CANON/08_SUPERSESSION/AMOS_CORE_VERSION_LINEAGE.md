@@ -86,7 +86,7 @@ ______________________________________________________________________
 ## 3. Application
 
 This registry is used by:
-- [[02_KERNEL/K_MEMORY_RETRIEVAL|K_MEMORY_RETRIEVAL]] — for supersession-aware retrieval
+- [[02_KERNEL/05_MEMORY/K_MEMORY_RETRIEVAL|K_MEMORY_RETRIEVAL]]]] — for supersession-aware retrieval
 - [[01_CANON/07_PROVENANCE/CANON_PROVENANCE|CANON_PROVENANCE]] — for provenance chain validation
 - [[01_CANON/08_SUPERSESSION/ACTIVE_VS_LEGACY_CANON|ACTIVE_VS_LEGACY_CANON]] — for active/legacy classification
 - [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] — for law hierarchy enforcement

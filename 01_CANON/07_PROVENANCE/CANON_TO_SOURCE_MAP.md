@@ -73,8 +73,8 @@ ______________________________________________________________________
 ## 3. Application
 
 This registry is used by:
-- [[02_KERNEL/K_MEMORY_RETRIEVAL|K_MEMORY_RETRIEVAL]] — for provenance-aware retrieval
-- [[02_KERNEL/K_MEMORY_ADMISSION|K_MEMORY_ADMISSION]] — for provenance validation at admission
+- [[02_KERNEL/05_MEMORY/K_MEMORY_RETRIEVAL|K_MEMORY_RETRIEVAL]]]] — for provenance-aware retrieval
+- [[02_KERNEL/05_MEMORY/K_MEMORY_ADMISSION|K_MEMORY_ADMISSION]]]] — for provenance validation at admission
 - [[17_OBSERVABILITY/PROVENANCE_TRUST_FIREWALL|PROVENANCE_TRUST_FIREWALL]] — for trust boundary enforcement
 - [[01_CANON/01_CORE_LAWS/L2_PROVENANCE|L2_PROVENANCE]] — for provenance law enforcement
 

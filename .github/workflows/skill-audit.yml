@@ -340,7 +340,7 @@ jobs:
           fi
 
       - name: Generate skill catalog
-        run: python3 scripts/skill_catalog_generator.py --output skill-catalog.md --json skill-catalog-index.json
+        run: python3 scripts/skill_catalog_generator.py --output 07_SKILLS/skill-catalog.md --json 07_SKILLS/skill-catalog-index.json
 
       - name: Upload catalog
         uses: actions/upload-artifact@v4
@@ -348,8 +348,8 @@ jobs:
         with:
           name: skill-catalog
           path: |
-            skill-catalog.md
-            skill-catalog-index.json
+            07_SKILLS/skill-catalog.md
+            07_SKILLS/skill-catalog-index.json
           retention-days: 30
 
   quality-score:

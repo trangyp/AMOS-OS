@@ -64,7 +64,7 @@ Governs the mode index registry within the AMOS commit plane — providing the a
 ## Cross-References
 
 - [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]] — Parent commit plane MOC
-- [[03_CONTROL_PLANE/06_AUDIT/06_AUDIT_MOC|06_AUDIT_MOC]] — Audit plane verifies mode admission provenance
+- [[03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/04_AUDIT/04_AUDIT_MOC|06_AUDIT_MOC]]]] — Audit plane verifies mode admission provenance
 - [[03_CONTROL_PLANE/03_POLICY/03_POLICY_MOC|03_POLICY_MOC]] — Policy plane evaluates mode admission criteria
 
 ______________________________________________________________________

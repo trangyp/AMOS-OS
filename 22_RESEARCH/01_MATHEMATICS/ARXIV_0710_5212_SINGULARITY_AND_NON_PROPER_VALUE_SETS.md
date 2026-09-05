@@ -83,6 +83,6 @@ The map $f: \mathbb{R}^n \setminus f^{-1}(K_0(f) \cup S_f) \to \mathbb{R}^n \set
 
 ## 4. Cross References
 
-- **Mathematics Hub:** [[22_RESEARCH/01_MATHEMATICS/01_MATHEMATICS_MOC|01_MATHEMATICS_MOC]]
+- **Mathematics Hub:** [[22_RESEARCH/01_MATHEMATICS/22_MATHEMATICS_MOC|01_MATHEMATICS_MOC]]]]
 - **Research Papers MOC:** [[22_RESEARCH/01_PAPERS/01_PAPERS_MOC|01_PAPERS_MOC]]
 - **Root MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]

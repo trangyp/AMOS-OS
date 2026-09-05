@@ -1,16 +1,21 @@
 ---
-name: symposium-publish
-description: Publish, update, or withdraw an existing Markdown note through Symposium's host-owned review flow. Use when the user asks to publish, share, update, delete, remove, or withdraw a Symposium page.
-metadata:
-  steward: Trang Phan
-  copilot-enabled-agents: claude, codex, opencode
-  copilot-builtin-version: '8'
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Skill
 tags:
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Publish Markdown to Symposium

@@ -55,7 +55,7 @@ Governs the observability surface of the AMOS control plane — defining what th
 
 ## Cross-References
 
-- [[03_CONTROL_PLANE/06_AUDIT/06_AUDIT_MOC|06_AUDIT_MOC]] — Audit plane consumes observability events for compliance
+- [[03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/04_AUDIT/04_AUDIT_MOC|06_AUDIT_MOC]]]] — Audit plane consumes observability events for compliance
 - [[03_CONTROL_PLANE/08_EFFECTS/08_EFFECTS_MOC|08_EFFECTS_MOC]] — Effects plane emits observability events for effect lifecycle
 - [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]] — Commit plane requires observability for finalization audit
 

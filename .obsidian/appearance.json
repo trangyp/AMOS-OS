@@ -1,11 +1,4 @@
 {
   "theme": "obsidian",
-  "translucency": false,
-  "enabledCssSnippets": [
-    "vault-polish",
-    "moc-callouts",
-    "properties-polish",
-    "tag-colors",
-    "canvas-polish"
-  ]
+  "translucency": false
 }

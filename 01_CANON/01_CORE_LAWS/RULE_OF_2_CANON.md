@@ -84,7 +84,7 @@ Two sources $s_1, s_2$ are independent if and only if:
 ∧ ¬one_origin_represented_as_many(s1, s2)
 ```
 
-This is enforced by the AMOS Sybil Hardening kernel contract ([[02_KERNEL/06_RISK_REPAIR/K_SYBIL_HARDENING|K_SYBIL_HARDENING]]), which prevents apparent multiplicity from being mistaken for independent epistemic support.
+This is enforced by the AMOS Sybil Hardening kernel contract ([[02_KERNEL/08_PROVENANCE/K_SYBIL_HARDENING|K_SYBIL_HARDENING]]]]), which prevents apparent multiplicity from being mistaken for independent epistemic support.
 
 ### 2.3 Failure Mode
 
@@ -132,7 +132,7 @@ Before a consequential decision may be committed:
 When admitting information to persistent AMOS memory:
 - Single-source observations enter as OBSERVATION state
 - Two-source corroborated observations may enter as DERIVED
-- The memory admission kernel ([[02_KERNEL/K_MEMORY_ADMISSION|K_MEMORY_ADMISSION]]) enforces R2 at admission time
+- The memory admission kernel ([[02_KERNEL/05_MEMORY/K_MEMORY_ADMISSION|K_MEMORY_ADMISSION]]]]) enforces R2 at admission time
 
 ### 4.4 Provenance Validation
 
@@ -211,7 +211,7 @@ ______________________________________________________________________
 ## 9. Cross-Plane Bindings
 
 - Governed by — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|AMOS_CORE_LAWS]]
-- Kernel enforcement — [[02_KERNEL/06_RISK_REPAIR/K_SYBIL_HARDENING|K_SYBIL_HARDENING]] · [[02_KERNEL/K_MEMORY_ADMISSION|K_MEMORY_ADMISSION]]
+- Kernel enforcement — [[02_KERNEL/08_PROVENANCE/K_SYBIL_HARDENING|K_SYBIL_HARDENING]]]] · [[02_KERNEL/05_MEMORY/K_MEMORY_ADMISSION|K_MEMORY_ADMISSION]]]]
 - Control-plane gates — [[03_CONTROL_PLANE/04_AUTHORITY|04_AUTHORITY]] (commit gate enforces R2)
 - Knowledge plane — [[11_KNOWLEDGE/00_INDEX/KNOWLEDGE_MAP|KNOWLEDGE_MAP]] (ingestion enforces R2)
 - Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
@@ -292,7 +292,7 @@ RSCF-RELATIONS:
 
 - PAIRED_WITH: [[01_CANON/01_CORE_LAWS/RULE_OF_4_CANON|RULE_OF_4_CANON]]
 
-- ENFORCED_BY: [[02_KERNEL/06_RISK_REPAIR/K_SYBIL_HARDENING|K_SYBIL_HARDENING]]
+- ENFORCED_BY: [[02_KERNEL/08_PROVENANCE/K_SYBIL_HARDENING|K_SYBIL_HARDENING]]]]
 
 ______________________________________________________________________
 

@@ -330,7 +330,7 @@ ______________________________________________________________________
 - **Upstream input:** [[05_COGNITIVE_ORGANISM/PERCEPTION_ENGINE|PERCEPTION_ENGINE]]
 - **Downstream consumers:** [[05_COGNITIVE_ORGANISM/COGNITION_ENGINE|COGNITION_ENGINE]] · [[05_COGNITIVE_ORGANISM/MEMORY_ENGINE|MEMORY_ENGINE]]
 - **Regulatory monitor:** [[05_COGNITIVE_ORGANISM/HOMEOSTASIS_ENGINE|HOMEOSTASIS_ENGINE]]
-- **Kernel anchors:** [[02_KERNEL/K_META_LOGIC|K_META_LOGIC]]
+- **Kernel anchors:** [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]]]]
 
 ______________________________________________________________________
 

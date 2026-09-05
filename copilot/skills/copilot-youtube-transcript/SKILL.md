@@ -1,19 +1,21 @@
 ---
-name: copilot-youtube-transcript
-description: Fetch the transcript of a YouTube video using Copilot Plus. Use when the user shares a YouTube URL and wants its contents, a summary, or quotes. Requires an active Copilot Plus license.
-language: en
-license: Copilot Plus
-metadata:
-  steward: Trang Phan
-  copilot-enabled-agents: claude, codex, opencode
-  copilot-builtin-version: '6'
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Skill
 tags:
-  - skill
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # Copilot YouTube transcript

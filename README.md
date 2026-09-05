@@ -1,435 +1,266 @@
 ---
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-title: README — Readme
-type: note
-source: .
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Readme
 tags:
-  - note
-  - vault
-  - epistemic/amos_model
-  - readme
-  - amos-home
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
-# README — Readme
-
-"""
-COSMO Monorepo - Production Readiness Summary
-
-This document provides a comprehensive overview of the current implementation status
-of the COSMO wellness platform and identifies the remaining steps needed for
-production readiness.
-
-## Executive Summary
-
-COSMO is a resonance-based wellness application that transforms voice into visual art.
-The platform has been successfully implemented with a complete infrastructure stack
-including design tokens, UI components, business logic, audio processing, artwork
-generation, analytics, and API client.
-
-**Status:** PHASE 1 READY - Core technical infrastructure complete
-**Production Readiness:** REQUIRE ADDITIONAL WORK (Read full documentation below)
-
-## Current Implementation Status
-
-### COMPLETE PACKAGES
-
-| Package        | Lines of Code | Description                         | Test Coverage |
-| -------------- | ------------- | ----------------------------------- | ------------- |
-| **ui**         | ~1,200        | React Native + Web React components | ✅ Has tests  |
-| **tokens**     | ~750          | Design tokens and theming           | ✅ Has tests  |
-| **domain**     | ~418          | Business logic and domain models    | ✅ Has tests  |
-| **validation** | ~850          | Zod validation schemas              | ✅ Has tests  |
-| **analytics**  | ~352          | Analytics abstraction layer         | ✅ Has tests  |
-| **art-engine** | ~495          | Generative artwork engine           | ✅ Has tests  |
-| **audio**      | ~212          | Audio processing utilities          | ✅ Has tests  |
-| **config**     | ~133          | Configuration management            | ❌ No tests   |
-| **api-client** | ~454          | Type-safe API client                | ❌ No tests   |
-
-**Test Coverage Summary:** 7/9 packages have test files
-
-### Package Implementation Details
-
-#### 1. UI Package
-
-- **26+ React components** including Button, Input, Card, Avatar, Modal, BottomSheet
-- **TypeScript support** with comprehensive type definitions
-- **Cross-platform** support (React Native + web)
-- **Test setup** with @testing-library/react-native
-
-#### 2. Tokens Package
-
-- **75+ design tokens** including colors, typography, spacing
-- **Semantic color system** with 16+ colors
-- **Typography scale** from displayLg to labelSm
-- **Responsive design** with mobile/tablet/desktop breakpoints
-
-#### 3. Domain Package
-
-- **418 lines** of TypeScript business logic
-- **9 comprehensive domain models** (User, Session, Artwork, etc.)
-- **Result/error patterns** with TypeScript typing
-- **DeepPartial and utility types** for type safety
-
-#### 4. Validation Package
-
-- **850+ lines** of Zod schema definitions
-- **Comprehensive validation** for all data models
-- **Full TypeScript inference** for all schemas
-- **Business logic validation** beyond simple type checking
-
-#### 5. Analytics Package
-
-- **352 lines** of analytics abstraction layer
-- **Privacy-conscious** analytics with 50+ event types
-- **Feature flag system** and React hooks
-- **Production-ready** with PostHog integration
-
-#### 6. Art Engine Package
-
-- **495 lines** of deterministic generative artwork
-- **Feature-to-parameter mapping** for visual parameters
-- **6 intention-based color palettes** (calm, focus, energy, etc.)
-- **Multiple export formats** (PNG, WebP, SVG animations)
-
-#### 7. Audio Package
-
-- **212 lines** of audio utilities and processing
-- **Recording quality assessment** and noise estimation
-- **Waveform utilities** and silent segment detection
-- **Storage path management** and file validation
-
-#### 8. Config Package
-
-- **133 lines** of shared configuration
-- **Platform-specific environments** (web vs native)
-- **Feature flag system** with 12 flags
-- **Tier-based entitlements** (free/premium/vip)
-
-#### 9. API Client Package
-
-- **454 lines** of type-safe API methods
-- **40+ API endpoints** covering all application features
-- **Error handling** with Result pattern
-- **Supabase integration** with auth management
-
-## Core Features Implemented
-
-### Application Structure
-
-- **Mobile App (Expo)**: Main application with React Native
-- **Web App (Next.js)**: Web interface with App Router
-- **Monorepo (Turborepo)**: Optimized build system
-
-### Key Functionality
-
-1. **Audio Recording & Processing**: Microphone recording with quality assessment
-1. **Artwork Generation**: Deterministic visual art from acoustic features
-1. **User Authentication**: Email, Apple, Google, and guest authentication
-1. **Onboarding Flow**: Welcome, value carousel, goals, preferences, privacy
-1. **Scan Flow**: Type selection → Intention → Recording → Processing → Generation → Save
-1. **Practice Library**: Meditation, breathing, movement, sound practices
-1. **Reflection System**: Voice and text reflections with mood tracking
-1. **Journey Timeline**: Comprehensive session history and insights
-1. **Gift System**: Secure gift creation and recipient experience
-1. **Subscription Management**: Free/premium/vip tiers with auto-renewal
-
-## Production Readiness Assessment
-
-### WHAT WE'VE ACCOMPLISHED
-
-1. **Technical Infrastructure**
-
-   - TypeScript across all packages
-   - Monorepo structure with Turborepo
-   - Comprehensive testing utilities
-   - Modern test framework with Jest
-   - React Native and web development support
-
-1. **Core Packages**
-
-   - All 9+ packages implemented with production-ready code
-   - Type-safe interfaces across the entire codebase
-   - Component architecture with proper exports
-   - Feature flagging and configuration management
-
-1. **Business Logic**
-
-   - Complete domain models and validation
-   - Deterministic artwork generation algorithms
-   - Audio processing pipeline with feature extraction
-   - Analytics and user tracking system
-
-### REMAINING WORK
-
-#### **High Priority - Production Deployment**
-
-1. **API Credentials & Service Setup**
-
-   - **Supabase**: Add URL, anon key, service role key
-   - **RevenueCat**: Configure iOS and Android subscriptions
-   - **Stripe**: Add public and secret keys for web payments
-   - **PostHog**: Add analytics API key for event tracking
-   - **Sentry**: Configure error tracking DSN
-   - **Resend**: Add email service API key
-
-1. **Audio Processing Algorithm Details**
-
-   - Specify librosa parameters for each acoustic feature
-   - Define noise detection thresholds and filters
-   - Establish minimum quality criteria for recordings
-   - Version control algorithm changes
-
-1. **Artwork Algorithm Specification**
-
-   - Document exact mathematical mappings
-   - Define color palette generation rules
-   - Specify shape and pattern algorithms
-   - Document symmetry and complexity logic
-
-#### **Application Shell & UI**
-
-4. **Design System & Application Shell**
-
-   - Complete implementation of all design tokens
-   - Full UI component library with accessibility
-   - Mobile app shell with Expo Router
-   - Web app shell with Next.js routing
-   - Navigation systems for both platforms
-   - Modal and bottom sheet systems
-
-1. **Authentication & Onboarding**
-
-   - Complete authentication system (email, Apple, Google, guest)
-   - Multi-step onboarding flow implementation
-   - User profile management and settings
-   - Privacy controls and consent management
-
-#### **Business Logic**
-
-6. **Audio Recording & Processing**
-
-   - Microphone permission handling
-   - Audio waveform UI components
-   - Recording quality assessment
-   - Audio upload and processing pipeline
-   - Feature extraction and persistence
-
-1. **Artwork Generation**
-
-   - Complete artwork engine implementation
-   - React Native Skia renderer
-   - Web Canvas/WebGL renderer
-   - Artwork reveal animations
-   - Artwork explanation system
-
-#### **Content & Features**
-
-8. **Practice Library**
-
-   - **Meditation practices**: Audio guidance and scripts
-   - **Breathing exercises**: Instructions and timers
-   - **Movement practices**: Video demonstrations
-   - **Sound practices**: Guided audio sessions
-   - **Practice metadata** with search and filtering
-
-1. **Subscription & Payments**
-
-   - Configure pricing tiers and billing cycles
-   - Implement payment processing integration
-   - Build subscription management screens
-   - Create tier feature comparison pages
-
-#### **Compliance & Legal**
-
-10. **Legal Review**
-
-    - Review all user-facing copy for medical claims
-    - Audit artwork explanation language for neutrality
-    - Validate privacy policy completeness
-    - Ensure accessibility compliance (WCAG 2.2 AA)
-
-01. **Research Ethics**
-
-    - IRB review for consent requirements
-    - Data anonymization protocols
-    - Research participation consent flow
-    - Data export and deletion procedures
-
-## Development Roadmap
-
-### Immediate Priorities (Week 1-2)
-
-1. **Acquire API credentials** from stakeholders
-1. **Approve technical specifications** for artwork and audio processing
-1. **Set up CI/CD pipeline** with GitHub Actions
-1. **Implement test infrastructure** with package-specific jest configs
-1. **Configure monitoring** with Sentry and PostHog
-1. **Establish security measures** and access control
-
-### Month 1 Priorities
-
-1. **Implement design system** (complete tokens, UI components)
-1. **Build authentication system** with social auth providers
-1. **Create audio processing pipeline** with workers
-1. **Develop artwork generation engine** with all features
-1. **Set up development environment** with Supabase and helpers
-
-### Month 2-3 Priorities
-
-1. **Launch core user journey** (scan → record → process → generate → share)
-1. **Implement subscription system** with RevenueCat/Stripe
-1. **Build privacy and data management** features
-1. **Scale mobile app** with proper testing and deployments
-
-### Month 4-6 Priorities
-
-1. **Release practice library** with initial content
-1. **Implement community features** (social, circles, interactions)
-1. **Add marketplace** (product listings, shopping cart)
-1. **Deploy practitioner portal** (professional features)
-
-## Dependencies & Requirements
-
-### External Dependencies
-
-- **Supabase Pro plan**: Backend, PostgreSQL, Auth, Storage, Edge Functions
-- **RevenueCat**: Mobile subscriptions (iOS)
-- **Stripe**: Web payments
-- **PostHog**: Analytics
-- **Sentry**: Error tracking
-- **Resend**: Email service
-
-### Internal Dependencies
-
-- Design system must be complete before UI implementation
-- Authentication must be complete before user features
-- Audio processing must be complete before artwork generation
-- Artwork generation must be complete before reflection flow
-- All core features complete before subscription integration
-
-## ️ Success Metrics
-
-### Technical Metrics
-
-- **App launch time**: < 3 seconds
-- **Recording start**: < 500ms
-- **Processing time**: < 10 seconds
-- **Crash rate**: < 1%
-- **Test coverage**: > 80%
-
-### Product Metrics
-
-- **Onboarding completion**: > 70%
-- **First scan completion**: > 80%
-- **Day 1 retention**: > 40%
-- **Week 1 retention**: > 20%
-- **Subscription conversion**: > 5%
-
-### Quality Metrics
-
-- **Accessibility compliance**: WCAG 2.2 AA
-- **Security audit**: Pass
-- **Performance audit**: Pass
-- **User satisfaction**: > 4.0/5.0
-
-## Project Status Summary
-
-| Phase         | Status             | Duration  | Key Deliverables                                      |
-| ------------- | ------------------ | --------- | ----------------------------------------------------- |
-| **Phase 0**   | ✅ **COMPLETE**    | 2 weeks   | Foundation setup                                      |
-| **Phase 1**   | 🔄 **IN PROGRESS** | 2 weeks   | Design system, app shell                              |
-| **Phase 2**   | 🔄 **PLANNED**     | 3 weeks   | Auth, onboarding, privacy                             |
-| **Phase 3**   | 🔄 **PLANNED**     | 3 weeks   | Audio recording, processing                           |
-| **Phase 4**   | 🔄 **PLANNED**     | 3 weeks   | Artwork generation                                    |
-| **Phase 5-8** | 🔄 **PLANNED**     | 15+ weeks | Reflections, practices, gifts, subscriptions, privacy |
-
-**Total Estimated Duration**: 32 weeks (≈8 months)
-
-## Production Readiness Checklist
-
-### COMPLETED
-
-- [x] Repository audit and structure
-- [x] Screen matrix documentation
-- [x] Architecture decision records
-- [x] Database schema and RLS policies
-- [x] API plan and implementation
-- [x] Implementation plan (this document)
-- [x] Known gaps documentation
-- [x] Environment variables template
-- [x] Monorepo structure initialization
-- [x] Core package implementations
-- [x] TypeScript support
-- [x] Testing utilities
-
-### IN PROGRESS
-
-- [ ] Design system completion
-- [ ] Application shell with navigation
-- [ ] Authentication system
-- [ ] Audio processing pipeline
-- [ ] Artwork generation engine
-
-### NEXT STEPS
-
-1. **Week 1**: Acquire API credentials and approve algorithm specs
-1. **Week 2-4**: Set up CI/CD and monitoring
-1. **Week 3-6**: Implement design system and authentication
-1. **Week 7-10**: Build audio processing and artwork generation
-1. **Week 11-16**: Launch core journey with MVP features
-
-## Conclusion
-
-The COSMO platform has achieved a **robust technical foundation** with 9/10+ packages implemented and production-ready code. The core technical infrastructure, business logic, and component architecture are complete.
-
-**What's Needed for Production:**
-
-1. **API credentials** from stakeholders (CRITICAL)
-1. **Technical specifications** for audio and artwork algorithms (CRITICAL)
-1. **Monolithic application implementation** of all features
-1. **Legal and compliance review** of user-facing content
-1. **Full testing suite** with integration tests
-1. **CI/CD pipelines** for automated deployment
-1. **Monitoring and alerting** for production issues
-
-The technical foundation is solid and production-ready. With the remaining API credentials and algorithm specifications, the team can quickly launch the first phase of the application and iterate based on real-world usage.
-
-______________________________________________________________________
-
-*Document generated: July 17, 2026*
-*Version: 1.0*
-*Status: PHASE 1 READY with CLEAR PATH TO PRODUCTION*
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · generated_architecture · AMOS_quantum_library_v0.1.0 · PRIVACY_POLICY
-
-______________________________________________________________________
-
-```RSCF-NODE
-node_id: README
-node_type: doc
-domain: DOC
-path: README.md
-RSCF-RELATIONS:
-  - INDEXED_BY:
-  - RELATED_TO: AMOS_quantum_library_v0.1.0
-  - RELATED_TO: PRIVACY_POLICY
-claim_class: AMOS_MODEL
+# AMOS Full Brain OS — Master Architecture & Knowledge Vault
+
+> [!IMPORTANT] Canonical Boundary & Invariants
+> **Universal Invariant:**
+> $$\text{LLM} \subset \text{CognitiveExecution}$$
+> $$\text{AMOS} = \text{Kernel} + \text{CognitiveRuntime} + \text{MemorySystem} + \text{WorldModel} + \text{ReasoningSystem} + \text{DecisionSystem} + \text{LearningSystem} + \text{GovernanceSystem}$$
+> $$\text{AMOS} \neq \text{LLM}$$
+>
+> **Three-System Separation:**
+> $$\text{BRAIN} \neq \text{RUNTIME} \neq \text{CONTROL/BODY}$$
+> $$\text{CAPABILITY} \neq \text{AUTHORITY} \quad\land\quad \text{PROPOSAL} \neq \text{COMMIT}$$
+> $$\text{RAW LANGUAGE} \neq \text{INTERNAL LOGIC STATE} \quad\land\quad \text{UNKNOWN} = \text{FAIL-CLOSED}$$
+
+---
+
+## 1. Executive Architectural Summary
+
+AMOS (Automated Multi-plane Operating System) Full Brain OS is a multi-dimensional cognitive operating system and formal epistemic reasoning substrate. It rejects the naive linear pipeline ($\text{Kernel} \to \text{Engine} \to \text{Agent} \to \text{Control Plane}$) in favor of **interacting architectural fields** spanning a **30-layer cognitive stack (L0–L29)**, **9 cross-cutting control planes (C1–C9)**, **17 lifecycle operations**, **8 independent axes**, and a **10-layer Omniverse World Model**.
+
+The system coordinates frontier artificial intelligence, brain-computer interfaces (BCI), neuromorphic computation, and quantum-classical hybrid systems under a strict **Reasoning State Claim Framework (RSCF)** and **fail-closed governance**.
+
+```
+HUMAN / NEURAL / ENVIRONMENT
+              │
+              ▼
+   ┌─────────────────────────────────────────────────────────┐
+   │                  EXPRESSION GATEWAY                     │
+   │  Raw Expression → Intent Extraction → Structural Logic  │
+   │  Direct Neural / BCI Protocol Integration (cBCI, ECoG)  │
+   └──────────────────────────┬──────────────────────────────┘
+                              │
+                              ▼
+   ┌─────────────────────────────────────────────────────────┐
+   │                     OMNI KERNEL                         │
+   │      Routing · Multi-Domain Coordination · Invariants    │
+   └─────────────┬─────────────────────────────┬─────────────┘
+                 │                             │
+                 ▼                             ▼
+   ┌───────────────────────────┐ ┌───────────────────────────┐
+   │        BRAIN CORE         │ │      OMNIVERSE BRAIN      │
+   │     26-Engine Ecosystem   │ │   10-Layer System Model   │
+   │  UBI (BEI, NBI, NEI, SI)  │ │  Physics, Bio, Society,   │
+   │  Domain Engines (C01-C12) │ │  Planetary & Multiverse   │
+   └─────────────┬─────────────┘ └─────────────┬─────────────┘
+                 │                             │
+                 └──────────────┬──────────────┘
+                                │
+                                ▼
+   ┌─────────────────────────────────────────────────────────┐
+   │                   COGNITIVE SYNTHESIS                   │
+   │            Active Inference · Planning · SMT            │
+   └────────────────────────────┬────────────────────────────┘
+                                │
+                                ▼
+   ┌─────────────────────────────────────────────────────────┐
+   │               AMOS OS KERNEL v4.4 RUNTIME               │
+   │    Typed State · RSCF Epistemics · Proof Graphs · CAS   │
+   │  Memory Lifecycle (HOT/WARM/COLD) · Replay · Audit Gate │
+   └────────────────────────────┬────────────────────────────┘
+                                │
+                                ▼
+   ┌─────────────────────────────────────────────────────────┐
+   │              INFRASTRUCTURE CONTROL PLANE               │
+   │  Effect Authorization: FreshAuthority ∧ CausallyPrior   │
+   │    Read Sets · Semantic Transactions · Commit / Rollback│
+   └────────────────────────────┬────────────────────────────┘
+                                │
+                                ▼
+   ┌─────────────────────────────────────────────────────────┐
+   │              HOST / DEPLOYMENT EXECUTION                │
+   │   Skills · Agents · Workflows · Tools · BCI Actuators   │
+   └────────────────────────────┬────────────────────────────┘
+                                │
+                                ▼
+                          WORLD EFFECT
 ```
 
-______________________________________________________________________
+---
 
-**MOC:** [[AMOS_HOME|AMOS_HOME]]
+## 2. Core Tripartite Division of Systems
 
-______________________________________________________________________
+### 2.1 AMOS Brain
+* **Role:** Cognition, emotion, consciousness modeling, multimodal representation, dynamic routing, and capability execution.
+* **Key Subsystems:**
+  * **Expression Gateway:** Front door mapping natural human language, emotional prosody, and direct BCI electrophysiological signals into logic-ready internal structures.
+  * **Personality:** Interaction parameters, style constraints, and relational dynamics (explicitly separated from domain logic).
+  * **Omni Kernel:** Dynamic cognitive routing field activating the **Minimum Sufficient Relevant Region** ($\text{ActiveRegion} = \text{MinSufficientRegion}$) rather than executing the entire brain.
+  * **Brain Core:** 26-engine ecosystem including the UBI stack (Bioelectromagnetic BEI, Neurobiological NBI, Neuroemotional NEI, Somatic SI, Super UBI), fabrication/technology engines, and 12 canonical domain engines (C01 Meta-Logic through C12 Earth-Ecology).
+  * **Omniverse Brain:** 10-layer world and system representation model.
+  * **Super Mind OS:** Autonomous meta-plane integrating Cognition, Emotion, and Consciousness.
 
-**MOC:** [[_MOC|_MOC]]
+### 2.2 AMOS Runtime (OS Kernel v4.4)
+* **Role:** Typed reasoning state, epistemic continuity, memory management, and deterministic verification.
+* **Runtime Loop:**
+  $$\text{Perceive} \to \text{Route} \to \text{Admit} \to \text{Plan} \to \text{Schedule} \to \text{Execute} \to \text{Observe} \to \text{Repair} \to \text{Audit} \to \text{Finalize}$$
+* **Core Mechanisms:**
+  * **Reasoning State Claim Framework (RSCF):** Formally typed epistemic primitives (`OBSERVATION`, `SOURCE_CLAIM`, `DERIVED`, `AMOS_MODEL`, `DECISION`, `UNKNOWN`).
+  * **Memory Substrate:** Managed lifecycle (`HOT` context $\to$ `WARM` episodic $\to$ `COLD` archival $\to$ `QUARANTINED` contradictory) with contradiction detection and falsifier binding.
+  * **Proof Graphs & MVCC:** Multi-Version Concurrency Control with Compare-And-Swap (CAS) on causal epochs.
+
+### 2.3 AMOS Control Plane / Body
+* **Role:** Physical effect authorization, state mutation governance, transactional boundary enforcement, and rollback execution.
+* **Commit-Time Authorization Gate:**
+  $$\text{Authorize}(\text{effect}) = \text{FreshAuthority} \land \text{CausallyPrior} \land \text{EffectBound} \land \text{EligibleAtCommit}$$
+* **Safety Invariant:**
+  $$\text{CAPABILITY} \neq \text{AUTHORITY}$$
+  Knowing *how* to invoke an API, tool, or physical actuator does not constitute permission to commit that mutation.
+
+---
+
+## 3. The 30 Cognitive Primitives (L0–L29) & 9 Control Planes (C1–C9)
+
+As formalized in [[25_COGNITIVE_MATRIX/AMOS_COGNITIVE_ARCHITECTURE_MATRIX|AMOS Cognitive Architecture Matrix]], cognitive execution is decomposed across 13,770 addressable cells ($30 \text{ Primitives} \times 17 \text{ Lifecycle Operations} \times 9 \text{ Control Planes} \times 3 \text{ Scales}$):
+
+| Level | Primitive | Primary Subsystem | Epistemic Function |
+| :--- | :--- | :--- | :--- |
+| **L0** | Reality / Environment | Physical & Neural Substrate | Objective ground truth, thermodynamic boundaries |
+| **L1** | Sensing / Observation | Sensorimotor & BCI Telemetry | Raw signal acquisition, spike sorting, telemetry |
+| **L2** | Attention | Dynamic Salience Filter | Information bottleneck, resource allocation |
+| **L3** | Percept Formation | Feature Extraction & Tokenization | Observation $\neq$ Interpretation firewall |
+| **L4** | Object / Entity Formation | Persistent Identity Registry | Graph node instantiation with invariant tracking |
+| **L5** | Binding | Relational Tensor Engine | Multi-relational semantic connection |
+| **L6** | Working State | Cognitive Workspace / Scratchpad | Transient mutable hypothesis buffer |
+| **L7** | Memory | Tiered Memory Engine | HOT/WARM/COLD consolidation and retrieval |
+| **L8** | Representation | Structural Semantic Graph | Ontological embedding and schema conformance |
+| **L9** | Inference | Meta-Logic Kernel (C01) | SMT solving, deductive and inductive deduction |
+| **L10** | World Modeling | Omniverse Brain (10 Layers) | Multimodal causal environment simulator |
+| **L11** | Causal Modeling | Pearl Causal Hierarchy | $do(\cdot)$ calculus, counterfactual mediation |
+| **L12** | Counterfactual Simulation | Scenario Engine | Alternative timeline and risk branch simulation |
+| **L13** | Prediction | Variational Predictive Field | Predictive coding, free energy minimization |
+| **L14** | Valuation | Multi-Objective Value Function | Alignment, utility, risk and ethical metrics |
+| **L15** | Goal Formation | Executive Intention Engine | Teleological state vectors, invariant bounds |
+| **L16** | Planning | Hierarchical Task Planner | Topological dependency resolution |
+| **L17** | Decision | Commit-Time Decision Filter | Reversibility and expected utility arbitration |
+| **L18** | Action | Execution Plane / Actuators | Tool, agent, and external effect dispatch |
+| **L19** | Outcome Observation | Feedback & Audit Sensor | Post-action reality verification |
+| **L20** | Credit Assignment | Causal Backpropagation | Responsibility and blame attribution |
+| **L21** | Learning | Governed Model Evolution | Parameter and structural adaptation |
+| **L22** | Consolidation | Offline Memory Engine | Dream, prune, compress, index |
+| **L23** | Metacognition | Self-Review & Confidence Engine | Drift detection, error bound estimation |
+| **L24** | Self-Regulation | Homeostasis Governor | Thermal, token, compute, and error budgeting |
+| **L25** | Identity / Continuity | Cryptographic Identity Engine | Hash-chained provenance, continuous self |
+| **L26** | Social Cognition | Multi-Agent Theory of Mind | Intent modeling of other agents and humans |
+| **L27** | Multi-Agent Cognition | Swarm & Consensus Engine | Distributed deliberation, Raft/Paxos consensus |
+| **L28** | Governance | GMEF / RSCF Authority Gate | Constitutional invariants, fail-closed enforcement |
+| **L29** | Evolution | Governed Evolution Loop | Mutation testing, formal verification |
+
+The 9 wrapping control planes are:
+* **C1 Governance Plane:** Authority, Risk, Ethics, Constitutional Law.
+* **C2 Metacognitive Plane:** Monitoring, Calibration, Drift, Self-Repair.
+* **C3 Executive Plane:** Goals, Valuation, Strategic Scheduling.
+* **C4 Reasoning Plane:** Causal Inference, Deduction, Abduction, Simulation.
+* **C5 Representation Plane:** Ontologies, World Models, Schemas, Tensors.
+* **C6 Memory Plane:** Provenance, Working, Episodic, Semantic, Procedural.
+* **C7 Perception Plane:** Reality Contact, Telemetry, Neural Decoding, Sensing.
+* **C8 Execution Plane:** Agents, Workflows, Skills, Actuators, Tools.
+* **C9 Kernel / Control Plane:** Transactions, Epochs, Invalidation, CAS, Replay.
+
+---
+
+## 4. Omniverse Brain — 10-Layer World & System Model
+
+1. **Layer 1 — Foundational Law:** Universal Logic Kernel (`ULK`), Quantitative Invariance (`QCLS`), Metric of Integrity.
+2. **Layer 2 — Physical & Quantum:** Quantum state dynamics, Hamiltonian mechanics, thermodynamics, quantum computing coprocessors.
+3. **Layer 3 — Information & Complexity:** Algorithmic information theory, entropy, network topology, graph theory.
+4. **Layer 4 — Biological & Consciousness:** Universal Biological Intelligence (`UBI`), Neural computation, Brain-Computer Interfaces, neurochemistry.
+5. **Layer 5 — Social & Institutional:** Geopolitics, economics, institutional structures, game-theoretic dynamics.
+6. **Layer 6 — Planetary & Ecological:** Planetary System Interface (`PSI`), Earth-systems metabolism, thermodynamic limits.
+7. **Layer 7 — Temporal & Scenario:** Forward trajectory projections, branching futures, backcasting.
+8. **Layer 8 — Multiverse & Modality:** Possibility space exploration, modal logic, counterfactual bounds.
+9. **Layer 9 — Observer & Perspective:** Relativistic reference frames, epistemic vantage points, cognitive biases.
+10. **Layer 10 — Agent & Fabrication:** Downstream goal-owning agents, robotics, digital twins, physical fabrication.
+
+---
+
+## 5. Frontier Integration: BCI, Quantum & SOTA AI
+
+The vault actively connects to external empirical repositories, including the **Arvix Research Corpus (66,000+ papers at `/Users/mac/Desktop/_Arxiv/Arvix`)** and Google Drive research nodes:
+* **Brain-Computer Interfaces (BCI) & Neurotechnology:**
+  - Zero-shot neural decoders, foundation models for electrophysiology (DeeperBrain, BrainBERT, NeuroGPT).
+  - Closed-loop neural modulation and ECoG/intracranial signal translation (`21_DOMAINS/14_C04_BIO_NEURO`).
+  - Neuro-symbolic alignment connecting EEG/spike manifolds directly into the Expression Gateway.
+* **Quantum Computing & Advantage Benchmarks:**
+  - Skeptical advantage benchmarking against state-of-the-art classical tensor networks (MPS, PEPS, DMRG).
+  - Variational quantum simulation and Quantum Koopman Operator theory (`21_DOMAINS/41_QUANTUM_SYSTEMS`).
+  - Anti-Overclaim Firewall enforcing that quantum analogies are never promoted to physical claims without hardware validation receipts.
+* **Frontier Agentic Systems & World Models:**
+  - Active inference agents operating with variational free energy minimization.
+  - SMT-verified tool invocation via Lie algebroid action compositions.
+  - Provably safe self-repair loops with reversible rollback basins.
+
+---
+
+## 6. Vault Organization & Navigation Map
+
+```
+AMOS_OS/
+├── 00_ROOT/                # Authoritative root MOCs, maps, registries, contracts
+├── 01_CANON/               # Core laws (L0–L33), universe canon, variable registries
+├── 02_KERNEL/              # Meta-logic, cognition, causal, state, memory, authority kernels
+├── 03_CONTROL_PLANE/       # Task contracts, capability manifests, authority, semantic tx
+├── 04_RUNTIME/             # Typed state runtime, execution loop, replay, audit
+├── 05_COGNITIVE_ORGANISM/  # Super Mind, Attention, Homeostasis, Emotion, World Model engines
+├── 06_AGENTS/              # Bounded goal-owning agents (instantiated strictly by need)
+├── 07_SKILLS/              # Deployment capability artifacts and skill catalogs
+├── 08_PLANETARY/           # Planetary metabolism, ecology, PSI closed loops
+├── 26_WORKFLOWS/           # Governing execution workflows and verification recipes
+├── 09_PROTOCOLS/           # Communication, RPC, event bus, and handshake protocols
+├── 10_MEMORY/              # Tiered memory architecture, vector/graph index specifications
+├── 11_KNOWLEDGE/           # Full Brain OS canonical architecture, domain master corpora
+├── 12_STATE/               # System state schemas, MVCC epoch definitions, checkpoints
+├── 13_MODELS/              # Deep models: world models, causal models, prediction engines
+├── 14_TOOLS/               # Actuators, external APIs, code execution environments
+├── 15_INTERFACES/          # Expression Gateway, BCI decoders, multimodal UI adapters
+├── 16_SCHEMAS/             # Strict JSON/Zod schemas for all typed state and transactions
+├── 17_OBSERVABILITY/       # Trace telemetry, invariant audit logs, performance metrics
+├── 18_SECURITY/            # Access control, capability sandboxing, Sybil hardening
+├── 19_TESTS/               # Metamorphic test suites, invariant verification harnesses
+├── 20_OPERATIONS/          # Maintenance, audit receipts, lifecycle operations
+├── 21_DOMAINS/             # 45+ domain specializations (C01–C12, BCI, Quantum, UBI)
+├── 22_RESEARCH/            # SOTA syntheses, paper registries, competitive benchmarks
+├── 23_OPERATING_MODEL/     # Multi-agent coordination and organizational dynamics
+├── 24_ARCHIVE/             # Superseded specifications and historical logs
+└── 25_COGNITIVE_MATRIX/    # 13,770-cell formal cognitive primitive interaction ledger
+```
+
+### Essential Navigation Entrypoints:
+* [[00_ROOT/00_HOME|00_HOME — Universal Hub]]
+* [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC — Authoritative Structural Contract]]
+* [[AMOS_HOME|AMOS_HOME — Active Root Navigation]]
+* [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture Master]]
+* [[25_COGNITIVE_MATRIX/AMOS_COGNITIVE_ARCHITECTURE_MATRIX|AMOS Cognitive Architecture Matrix]]
+* [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC — Domain Engines Hub]]
+* [[22_RESEARCH/22_RESEARCH_MOC|22_RESEARCH_MOC — State of the Art Research]]
+* [[00_ROOT/ARXIV_RSCF_KNOWLEDGE_NODE|Arvix ArXiv Corpus Node (66,026 Papers)]]
+
+---
+
+## 7. Operational Integrity & Maintenance Discipline
+
+1. **No Unanchored Creation:** All additions must carry valid YAML frontmatter, typed RSCF epistemic status, provenance links, and explicit confidence ceilings.
+2. **Fail-Closed on Unknown:** In unresolved domains, declare `UNKNOWN/GAP`. Never fabricate pseudo-authoritative specifications to fill empty slots.
+3. **Receipts Over Claims:** An engine, agent, or capability is not considered validated without an accompanying executed test or verification receipt.
+
+---
+*Maintained under AMOS OS Architecture Standard v4.4* · *Origin Architect: Trang Phan*

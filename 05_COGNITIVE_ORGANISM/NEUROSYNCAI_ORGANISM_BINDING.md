@@ -168,7 +168,7 @@ BIOLOGICAL_INTENT           != ROOT_AUTHORITY
 BCI_ILLITERACY_SESSION      != SYSTEM_CRASH
 ```
 
-1. **The Intent-to-Command Barrier:** A decoded neural signal represents a physiological observation (`OBSERVATION`), never an executive command (`DECISION`). It must pass through [[03_CONTROL_PLANE/04_AUTHORITY/CONTROL_PLANE_AUTHORITY_CONTRACT|CONTROL_PLANE_AUTHORITY_CONTRACT]] before any mutable state action is taken.
+1. **The Intent-to-Command Barrier:** A decoded neural signal represents a physiological observation (`OBSERVATION`), never an executive command (`DECISION`). It must pass through [[03_CONTROL_PLANE/04_AUTHORITY/00_INDEX/CONTROL_PLANE_AUTHORITY_CONTRACT|CONTROL_PLANE_AUTHORITY_CONTRACT]]]] before any mutable state action is taken.
 2. **Fail-Closed Ambiguity Threshold:** If $\text{Confidence}(\mathbf{a}) < 0.85$ or if the sheaf obstruction $H^1 > \epsilon_{\text{tol}}$, the engine emits an `ACTION_HOLD` and requests explicit confirmatory telemetry.
 3. **Emergency Disconnect (Allerton Shunt):** If high-amplitude epileptiform transients or massive impedance spikes are detected ($V > 250\,\mu\text{V}$ across $\ge 30\%$ channels), the BCI stream is immediately air-gapped from downstream engines to prevent cognitive contamination.
 

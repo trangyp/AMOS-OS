@@ -56,7 +56,7 @@ created: 2026-08-22
 
 - [[22_RESEARCH/01_PAPERS/01_PAPERS_MOC|01_PAPERS_MOC]] — Academic papers registry, external evidence intake, and theoretical literature.
 - [[22_RESEARCH/02_ARXIV_BRIDGES.md|02_ARXIV_BRIDGES]] — arXiv ingestion protocol, research-to-canon pipeline, quantum/BCI/AI frontier tracking, and cross-plane linkage to 11_KNOWLEDGE and 25_COGNITIVE_MATRIX.
-- [[22_RESEARCH/01_MATHEMATICS/01_MATHEMATICS_MOC|01_MATHEMATICS_MOC]] — Mathematical proofs, category theory, and non-commutative geometry.
+- [[22_RESEARCH/01_MATHEMATICS/22_MATHEMATICS_MOC|01_MATHEMATICS_MOC]]]] — Mathematical proofs, category theory, and non-commutative geometry.
 - [[22_RESEARCH/02_EXPERIMENTS/02_EXPERIMENTS_MOC|02_EXPERIMENTS_MOC]] — Empirical trial protocols and reproducibility logs.
 - [[22_RESEARCH/03_COMPETING_MODELS/03_COMPETING_MODELS_MOC|03_COMPETING_MODELS_MOC]] — Competing hypotheses and discriminating test designs.
 - [[22_RESEARCH/04_VALIDATION/04_VALIDATION_MOC|04_VALIDATION_MOC]] — Falsification suites, theorem verification, and robustness receipts.

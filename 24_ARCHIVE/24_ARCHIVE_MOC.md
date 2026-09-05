@@ -1,62 +1,146 @@
 ---
-title: "24_ARCHIVE MOC — Historical Preservation & Superseded Artifacts"
-type: moc
-source: 24_ARCHIVE
-origin_architect: Trang Phan
-steward: Trang Phan
-amos_core_target: v4.4
-status: ACTIVE_MOC
-epistemic_class: HISTORICAL_RECORD
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: HISTORICAL_RECORD
-  provenance:
-    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
-    - 00_ROOT/00_ROOT_MOC
-  scope: archive_navigation
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: 24 Archive Moc
 tags:
-  - amos-os
-  - 24_archive
-  - moc
-  - historical
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
 ---
-
-# 24_ARCHIVE MOC — Historical Preservation & Superseded Artifacts
-
-**Origin Architect / Steward:** Trang Phan
-**AMOS_CORE Target:** `v4.4`
-**Epistemic Class:** `HISTORICAL_RECORD`
-
 ---
+# 24 Archive Moc
 
-## 1. Archival Invariants & Governance
-
-1. **Preservation-First Policy**: Obsolete or superseded artifacts are never deleted destructively; they are relocated to `24_ARCHIVE` with full provenance headers.
-2. **Read-Only Status**: All records within Plane 24 are frozen historical snapshots and must not be mutated or cited as active authority.
-3. **Lineage Traceability**: Every archived item maintains bidirectional links to its canonical successor in active planes (`00`–`23`, `25`).
-
----
-
-## 2. Archival Collections
-
-- [[24_ARCHIVE/ARCHIVE_README|ARCHIVE_README]] — Archival repository policies and retention guidelines.
-- [[24_ARCHIVE/ARCHIVE_ARCHIVE_CONTRACT|ARCHIVE_ARCHIVE_CONTRACT]] — Formal preservation and rollback contract.
-- `ROOT_STRAYS_AND_LEGACY_2026-09-03/` — Preserved pre-repair root files and legacy stubs.
-
----
-
-## 3. Invariants
+## 0. Status
 
 ```text
-HISTORICAL != ACTIVE_AUTHORITY
-ARCHIVED != DELETED
-PROVENANCE_PRESERVED == STRICT_INVARIANT
+PLACEHOLDER != IMPLEMENTED
+ADDRESSABLE != VALIDATED
+DOCUMENTED != ENFORCED
+MODEL != OBSERVATION
+SOURCE_CLAIM != VERIFIED
+CANON_CANDIDATE != CANONICAL
+CAPABILITY != AUTHORITY
+UNKNOWN/GAP != PASS
+```
+
+Origin architect / steward: **Trang Phan**
+
+## 1. Purpose
+
+Historical artifacts and superseded content. This artifact defines the 24 Archive Moc within the AMOS OS Archive plane, establishing the canonical contract, structural invariants, and integration points required for governed operation.
+
+## 2. Formal Definition
+
+| Property | Value |
+|:---|:---|
+| Artifact Type | ARCHIVE |
+| Canonical Status | CONDITIONAL |
+| Epistemic Class | AMOS_MODEL |
+| RSCF State | OBSERVATION |
+| Implementation Status | NOT_ESTABLISHED |
+| Provenance Independence | NOT_ESTABLISHED |
+
+### Structural Invariants
+
+1. **Integrity Dominance**: INTEGRITY > COMPLETENESS > FLUENCY > SPEED
+2. **Epistemic Discipline**: SOURCE_CLAIM != VERIFIED; MODEL != OBSERVATION
+3. **Scope Binding**: Claims valid only within declared scope and regime
+4. **Authority Boundary**: CAPABILITY != AUTHORITY; PROPOSAL != COMMIT
+5. **Causal Firewall**: No causal claim without causal evidence
+6. **Uncertainty Preservation**: UNKNOWN/GAP != PASS
+
+### AMOS Law Compliance
+
+| Law | Obligation |
+|:---|:---|
+| L0 Integrity | Integrity dominance; no fabricated closure |
+| L1 Epistemic | Evidence typing; source claim != verification |
+| L2 Provenance | Every claim traces to source |
+| L4 Causal | Causal firewall; correlation != causation |
+| L5 Scope | Claims valid only within scope/regime |
+| L7 Authority | No autonomous action beyond authority boundary |
+| L17 RSCF | Claim discipline; confidence ceiling enforced |
+| L27 Gap | Expose don't fill; gap is status not shame |
+
+## 3. AMOS Architecture Integration
+
+This artifact integrates with the AMOS OS architecture through:
+
+- **Canon Plane**: Governed by [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- **Kernel Plane**: Connects to [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] for runtime enforcement
+- **Control Plane**: Routes through [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] for execution
+- **Knowledge Plane**: Indexed in [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]]
+- **SOTA Research**: Informed by [[22_RESEARCH/SOTA_RESEARCH_SYNTHESIS_2026-09-04|SOTA Synthesis Part 1]], [[22_RESEARCH/SOTA_RESEARCH_SYNTHESIS_2_2026-09-04|Part 2]], [[22_RESEARCH/SOTA_RESEARCH_SYNTHESIS_3_2026-09-04|Part 3]]
+
+### H/M/L Resolution
+
+- **H (High)**: Constitutional reasoning, irreversible actions → full proof capsule required
+- **M (Medium)**: Domain policy, reversible transformations → evidence + provenance required
+- **L (Low)**: Mechanical checks, local operations → type/format check sufficient
+
+### RSCF Classification
+
+- **State**: OBSERVATION (sourced from architectural specification)
+- **Claim Class**: OBSERVATION
+- **Confidence Ceiling**: source_supported (capped at 0.7 without independent validation)
+- **Provenance**: amos_architecture_2026-09-04
+
+## 4. Cross-References
+
+- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+- [[00_ROOT/AMOS MOC|AMOS MOC]]
+- [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03|AMOS OS Audit 2026-09-03]]
+
+## 5. Gaps
+
+- Implementation status NOT_ESTABLISHED — architecture defined, runtime not deployed
+- Provenance independence NOT_ESTABLISHED — single-source derivation
+- Canonical status CONDITIONAL — requires governed promotion for CANONICAL
+- Test coverage UNKNOWN — no executed validation evidence
+- External authority NOT_ESTABLISHED — no independent verification
+
+## 6. Ingestion Rule
+
+```yaml
+AMOS_CANON_INGESTION_RULE:
+  existing_file:
+    preserve: true
+    overwrite: false
+  uncertainty:
+    action:
+      - MARK_GAP_OR_COMPETING
+      - NEVER_INVENT_CANON
 ```
 
 ---
 
-## 4. Parent Navigation
+RSCF-NODE
 
-- **Master Navigation Hub:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
-- **Full OS Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]
+node_id: 24_archive_24_archive_moc
+
+node_type: ARCHIVE
+
+path: 24_ARCHIVE/24_ARCHIVE_MOC.md
+
+claim_class: OBSERVATION
+
+rscf_state: OBSERVATION
+
+canonical_status: CONDITIONAL
+
+RSCF-RELATIONS:
+
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]

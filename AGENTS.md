@@ -1,14 +1,21 @@
 ---
-title: AGENTS
-type: control_contract
-amos_core_target: v4.4
-origin_architect: Trang Phan
-status: ACTIVE_CONTROL_SURFACE
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  provenance: authoritative_AMOS_OS_structure
-  scope: active__AMOS_OS
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+rscf-claim: verified
+rscf-provenance: AMOS_corpus
+conclusion_class: AMOS_MODEL
+epistemic_class: SOURCE_CLAIM
+topic: Agents
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - misc
+created: 2026-08-22
+---
+---
 ---
 
 # AMOS Agent Contract
