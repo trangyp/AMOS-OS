@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Cross-Domain-Tensor-Composition-Governor — Map of Content
 
 **Path:** `07_SKILLS/amos-cross-domain-tensor-composition-governor`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: cross-domain. Parent: amos-rscf-epistemic-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

@@ -39,6 +39,30 @@ created: 2026-08-22
 - [[03_CONTROL_PLANE/09_COMMIT/04_STRATEGY/STRATEGY_COMMIT_CONTROL_PLANE_PURPOSE_SCOPE|STRATEGY_COMMIT_CONTROL_PLANE_PURPOSE_SCOPE]]
 - [[03_CONTROL_PLANE/09_COMMIT/04_STRATEGY/STRATEGY_COMMIT_CONTROL_PLANE_README|STRATEGY_COMMIT_CONTROL_PLANE_README]]
 
+## Purpose
+
+Governs the strategy commit mode family within the AMOS commit plane — defining how strategic reasoning modes are activated, weighted, and committed. Strategy modes orchestrate multi-domain weight selection and engine coordination for high-stakes decisions.
+
+## Key Artifacts
+
+- [[03_CONTROL_PLANE/09_COMMIT/04_STRATEGY/STRATEGY_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC|STRATEGY_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC]] — Canonical specification for the strategy mode family
+- [[03_CONTROL_PLANE/09_COMMIT/04_STRATEGY/STRATEGY_COMMIT_CONTROL_PLANE_MODE_FAMILY_REGISTRY|STRATEGY_COMMIT_CONTROL_PLANE_MODE_FAMILY_REGISTRY]] — Registry of admitted strategy modes with provenance
+- [[03_CONTROL_PLANE/09_COMMIT/04_STRATEGY/STRATEGY_COMMIT_CONTROL_PLANE_ACTIVATION_RULES|STRATEGY_COMMIT_CONTROL_PLANE_ACTIVATION_RULES]] — Rules governing when strategy modes activate and deactivate
+- [[03_CONTROL_PLANE/09_COMMIT/04_STRATEGY/STRATEGY_COMMIT_CONTROL_PLANE_DOMAIN_WEIGHTS|STRATEGY_COMMIT_CONTROL_PLANE_DOMAIN_WEIGHTS]] — Per-domain weight assignments for strategy mode selection
+
+## Invariants
+
+- Strategy mode activation must satisfy all preconditions before commit
+- Domain and engine weights must sum to a normalized distribution
+- Strategy mode transitions must be recorded in the provenance ledger
+- Strategy modes must respect the commit-plane safety gate hierarchy
+
+## Cross-References
+
+- [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]] — Parent commit plane MOC
+- [[03_CONTROL_PLANE/03_POLICY/03_POLICY_MOC|03_POLICY_MOC]] — Policy plane evaluates strategy mode proposals
+- [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/00_MODE_INDEX_MOC|00_MODE_INDEX_MOC]] — Mode index tracks strategy mode admission and conflicts
+
 ______________________________________________________________________
 
 **Parent:** [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]]

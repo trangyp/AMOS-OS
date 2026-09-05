@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Closed-Loop-Learning-Governor — Map of Content
 
 **Path:** `07_SKILLS/amos-closed-loop-learning-governor`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: runtime. Parent: amos-os-runtime-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

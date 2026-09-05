@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Sae-Benchmark-Reliability-Rscf-Engine — Map of Content
 
 **Path:** `07_SKILLS/amos-sae-benchmark-reliability-rscf-engine`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

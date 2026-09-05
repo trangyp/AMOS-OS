@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Fx-Stochastic-Correlation-Rscf-Engine — Map of Content
 
 **Path:** `07_SKILLS/amos-fx-stochastic-correlation-rscf-engine`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: fx. Parent: amos-c07-econ-finance-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

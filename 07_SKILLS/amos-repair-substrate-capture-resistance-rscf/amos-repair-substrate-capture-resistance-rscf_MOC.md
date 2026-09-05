@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Repair-Substrate-Capture-Resistance-Rscf — Map of Content
 
 **Path:** `07_SKILLS/amos-repair-substrate-capture-resistance-rscf`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Agent-Externalization-Architecture-Rscf — Map of Content
 
 **Path:** `07_SKILLS/amos-agent-externalization-architecture-rscf`
+
+## Description
+
+Agent Externalization Architecture — agent systems capability. Use when agent design, delegation reasoning, or multi-agent governance. Use when amos-agent-systems-master routes to this specialized capability. Do not use for generic tasks outside agent domain.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

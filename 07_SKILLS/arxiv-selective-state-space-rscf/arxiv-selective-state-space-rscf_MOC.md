@@ -21,6 +21,10 @@ created: 2026-08-22
 # Arxiv-Selective-State-Space-Rscf — Map of Content
 
 **Path:** `07_SKILLS/arxiv-selective-state-space-rscf`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

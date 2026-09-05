@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Cross-Species-Cognition-Mapper — Map of Content
 
 **Path:** `07_SKILLS/amos-cross-species-cognition-mapper`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: c04. Parent: amos-c04-bio-neuro-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

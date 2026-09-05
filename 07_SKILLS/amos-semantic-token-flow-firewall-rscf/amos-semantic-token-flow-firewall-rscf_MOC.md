@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Semantic-Token-Flow-Firewall-Rscf — Map of Content
 
 **Path:** `07_SKILLS/amos-semantic-token-flow-firewall-rscf`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: security. Parent: amos-security-safety-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

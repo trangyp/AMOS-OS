@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Future-Debt-Option-Value-Governor — Map of Content
 
 **Path:** `07_SKILLS/amos-future-debt-option-value-governor`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: econ. Parent: amos-c07-econ-finance-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

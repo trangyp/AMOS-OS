@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Boundary-Architecture-Rscf-Calculus — Map of Content
 
 **Path:** `07_SKILLS/amos-boundary-architecture-rscf-calculus`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: boundary. Parent: amos-boundary-scope-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

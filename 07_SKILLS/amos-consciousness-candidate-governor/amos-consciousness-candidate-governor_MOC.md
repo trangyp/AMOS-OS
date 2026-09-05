@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Consciousness-Candidate-Governor — Map of Content
 
 **Path:** `07_SKILLS/amos-consciousness-candidate-governor`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

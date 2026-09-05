@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-C08-Strategy-Game-Master — Map of Content
 
 **Path:** `07_SKILLS/amos-c08-strategy-game-master`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: c08. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
 **Files:** 2 | **Subdirectories:** 2
 
 ## Files

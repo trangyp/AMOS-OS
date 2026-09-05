@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Information-Exposure-Control — Map of Content
 
 **Path:** `07_SKILLS/amos-information-exposure-control`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: info. Parent: amos-information-theory-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

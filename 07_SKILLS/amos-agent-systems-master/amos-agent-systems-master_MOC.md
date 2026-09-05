@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Agent-Systems-Master — Map of Content
 
 **Path:** `07_SKILLS/amos-agent-systems-master`
+
+## Description
+
+AMOS Agent Systems — agent fabrication, delegation, agency-consequence tensors, agent economy governance, agent-to-agent protocols. Use when agent design, delegation reasoning, or multi-agent govern. Do not use for generic tasks outside agent domain.
 **Files:** 2 | **Subdirectories:** 2
 
 ## Files

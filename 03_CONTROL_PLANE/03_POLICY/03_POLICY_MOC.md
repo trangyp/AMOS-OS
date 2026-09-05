@@ -39,6 +39,30 @@ created: 2026-08-22
 
 - [[03_CONTROL_PLANE/03_POLICY/00_INDEX/POLICY_MAP|POLICY_MAP]] — 00_INDEX
 
+## Purpose
+
+Governs the policy evaluation surface of the AMOS control plane — encoding, evaluating, and adjudicating the rules that determine whether proposed actions are permitted, denied, or deferred. Policy is the decision layer that sits between capability (what is possible) and authority (what is authorized).
+
+## Key Artifacts
+
+- [[03_CONTROL_PLANE/03_POLICY/POLICY_ENGINE|POLICY_ENGINE]] — Core policy evaluation engine with gate-by-gate adjudication
+- [[03_CONTROL_PLANE/03_POLICY/POLICY_DECISION|POLICY_DECISION]] — Decision record format for permit/deny/defer outcomes
+- [[03_CONTROL_PLANE/03_POLICY/POLICY_REGISTRY|POLICY_REGISTRY]] — Registry of all active policy artifacts with version and signer provenance
+- [[03_CONTROL_PLANE/03_POLICY/CANON_POLICY|CANON_POLICY]] — Canonical policy framework governing vault-wide rule precedence
+
+## Invariants
+
+- Policy decisions must be deterministic given the same inputs and policy version
+- Policy artifacts must be content-addressed with signer identity provenance
+- Deny is the default outcome when policy evaluation is incomplete or ambiguous
+- Policy version must be pinned at commit time; mid-flight policy changes require revalidation
+
+## Cross-References
+
+- [[03_CONTROL_PLANE/02_CAPABILITY/02_CAPABILITY_MOC|02_CAPABILITY_MOC]] — Capability plane provides the surface policy evaluates over
+- [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04_AUTHORITY_MOC]] — Authority plane enforces policy decisions with binding witnesses
+- [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]] — Commit plane pins policy version at commit time for replay safety
+
 ______________________________________________________________________
 
 **Parent:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]

@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Distributed-Attack-Composition-Monitor-Rscf — Map of Content
 
 **Path:** `07_SKILLS/amos-distributed-attack-composition-monitor-rscf`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: security. Parent: amos-security-safety-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

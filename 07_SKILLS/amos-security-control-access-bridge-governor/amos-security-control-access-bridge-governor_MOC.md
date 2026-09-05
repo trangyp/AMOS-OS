@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Security-Control-Access-Bridge-Governor — Map of Content
 
 **Path:** `07_SKILLS/amos-security-control-access-bridge-governor`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: cross-domain (C09 → C10 → Runtime). Parent: amos-security-safety-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

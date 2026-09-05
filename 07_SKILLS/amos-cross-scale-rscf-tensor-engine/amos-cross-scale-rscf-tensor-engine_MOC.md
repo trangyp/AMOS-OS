@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Cross-Scale-Rscf-Tensor-Engine — Map of Content
 
 **Path:** `07_SKILLS/amos-cross-scale-rscf-tensor-engine`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: formal. Parent: amos-formal-engines-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

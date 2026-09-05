@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Information-Theory-Master — Map of Content
 
 **Path:** `07_SKILLS/amos-information-theory-master`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: information. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
 **Files:** 2 | **Subdirectories:** 2
 
 ## Files

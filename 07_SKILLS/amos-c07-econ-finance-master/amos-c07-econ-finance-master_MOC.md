@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-C07-Econ-Finance-Master — Map of Content
 
 **Path:** `07_SKILLS/amos-c07-econ-finance-master`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: c07. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
 **Files:** 2 | **Subdirectories:** 2
 
 ## Files

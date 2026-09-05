@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Law-Stack-Enforcement — Map of Content
 
 **Path:** `07_SKILLS/amos-law-stack-enforcement`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 2 | **Subdirectories:** 1
 
 ## Files

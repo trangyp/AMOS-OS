@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Entropy-Lacunarity-Governor — Map of Content
 
 **Path:** `07_SKILLS/amos-entropy-lacunarity-governor`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: info. Parent: amos-information-theory-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

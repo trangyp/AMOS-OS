@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Commit-Time-Authorization-Rscf-Engine — Map of Content
 
 **Path:** `07_SKILLS/amos-commit-time-authorization-rscf-engine`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: rscf. Parent: amos-rscf-epistemic-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Knowledge-Epistemology-Rscf-Engine — Map of Content
 
 **Path:** `07_SKILLS/amos-knowledge-epistemology-rscf-engine`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: knowledge. Parent: amos-knowledge-research-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

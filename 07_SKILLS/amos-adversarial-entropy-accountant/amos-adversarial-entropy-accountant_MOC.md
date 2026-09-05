@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Adversarial-Entropy-Accountant — Map of Content
 
 **Path:** `07_SKILLS/amos-adversarial-entropy-accountant`
+
+## Description
+
+Adversarial Entropy Accountant — security and safety capability. Use when security analysis, safety verification, or adversarial defense. Use when amos-security-safety-master routes to this specialized capability. Do not use for generic tasks outside security domain.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

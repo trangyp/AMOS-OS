@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Engines-Master — Map of Content
 
 **Path:** `07_SKILLS/amos-engines-master`\
+
+## Description
+
+Origin architect and steward: **Trang Phan**.
 **Files:** 35 | **Subdirectories:** 2
 
 ______________________________________________________________________

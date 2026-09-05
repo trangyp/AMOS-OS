@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Canon-Universe-Master — Map of Content
 
 **Path:** `07_SKILLS/amos-canon-universe-master`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: canon. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: H.
 **Files:** 2 | **Subdirectories:** 2
 
 ## Files

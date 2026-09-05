@@ -21,6 +21,10 @@ created: 2026-08-22
 # Mckinsey-Partnership-Ecosystem-Strategy-Rscf — Map of Content
 
 **Path:** `07_SKILLS/mckinsey-partnership-ecosystem-strategy-rscf`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: mckinsey. Parent: amos-c08-strategy-game-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Observability-Driven-Harness-Evolution-Rscf — Map of Content
 
 **Path:** `07_SKILLS/amos-observability-driven-harness-evolution-rscf`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

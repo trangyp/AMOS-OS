@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Ghost-Code-Symbolic-Execution-Rscf — Map of Content
 
 **Path:** `07_SKILLS/amos-ghost-code-symbolic-execution-rscf`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: formal. Parent: amos-formal-engines-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

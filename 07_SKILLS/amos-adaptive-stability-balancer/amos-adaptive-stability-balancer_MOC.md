@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Adaptive-Stability-Balancer — Map of Content
 
 **Path:** `07_SKILLS/amos-adaptive-stability-balancer`
+
+## Description
+
+Balance stability-preserving operation against adaptation, scaling, exploration, mutation, and recovery in AMOS runtimes. Use when a system risks collapse from excessive load, recursion, concurrency, memory pressure, dependency degradation, operational pressure, oscillation, uncontrolled adaptation, or excessive rigidity; when deciding whether to freeze, contain, degrade gracefully, maintain, recover, cautiously adapt, scale, or resume normal operation; when resource headroom, observability, resilience, dependency health, damping, saturation, collapse thresholds, or recovery capacity matter; or when amos-os-runtime-master routes a runtime stability decision. Preserve hard safety boundaries, hardware/environment scope, H/M/L coupling, bounded resources, reversibility, provenance, regime validity, and selective recovery. Stability does not mean immobility, and adaptation is never allowed to consume th Do not use for generic load balancing, network traffic routing, or tasks outside AMOS runtime stability domain.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-C02-Math-Compute-Master — Map of Content
 
 **Path:** `07_SKILLS/amos-c02-math-compute-master`
+
+## Description
+
+Origin architect and steward: **Trang Phan**.
 **Files:** 2 | **Subdirectories:** 2
 
 ## Files

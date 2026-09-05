@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Structured-Document-Parsing-Rscf — Map of Content
 
 **Path:** `07_SKILLS/amos-structured-document-parsing-rscf`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

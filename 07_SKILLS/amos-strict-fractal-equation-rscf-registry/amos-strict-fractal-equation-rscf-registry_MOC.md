@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Strict-Fractal-Equation-Rscf-Registry — Map of Content
 
 **Path:** `07_SKILLS/amos-strict-fractal-equation-rscf-registry`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: fractal. Parent: amos-fractal-systems-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

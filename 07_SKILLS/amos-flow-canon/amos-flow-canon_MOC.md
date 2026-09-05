@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Flow-Canon — Map of Content
 
 **Path:** `07_SKILLS/amos-flow-canon`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 2 | **Subdirectories:** 1
 
 ## Files

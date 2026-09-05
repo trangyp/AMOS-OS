@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Agent-Storage-Footprint-Rscf — Map of Content
 
 **Path:** `07_SKILLS/amos-agent-storage-footprint-rscf`
+
+## Description
+
+Agent Storage Footprint — knowledge research capability. Use when knowledge management, research, or Obsidian vault integration. Use when amos-knowledge-research-master routes to this specialized capability. Do not use for generic tasks outside knowledge domain.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

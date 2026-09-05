@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Security-Safety-Master — Map of Content
 
 **Path:** `07_SKILLS/amos-security-safety-master`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: security. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: H.
 **Files:** 2 | **Subdirectories:** 2
 
 ## Files

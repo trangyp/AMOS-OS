@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Vietnamese-Global-Cultural-Bridge-Governor — Map of Content
 
 **Path:** `07_SKILLS/amos-vietnamese-global-cultural-bridge-governor`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: cross-domain (C06 Vietnamese ↔ Global). Parent: amos-c06-society-culture-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

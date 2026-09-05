@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Arxiv-Influence-Guided-Symbolic-Regression-Rscf — Map of Content
 
 **Path:** `07_SKILLS/amos-arxiv-influence-guided-symbolic-regression-rscf`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

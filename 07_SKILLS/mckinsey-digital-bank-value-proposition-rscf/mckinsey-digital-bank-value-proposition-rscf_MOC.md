@@ -21,6 +21,10 @@ created: 2026-08-22
 # Mckinsey-Digital-Bank-Value-Proposition-Rscf — Map of Content
 
 **Path:** `07_SKILLS/mckinsey-digital-bank-value-proposition-rscf`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: mckinsey. Parent: amos-c08-strategy-game-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Repository-Ast-Analysis-Rscf — Map of Content
 
 **Path:** `07_SKILLS/amos-repository-ast-analysis-rscf`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Economy-Internet-Money-Rscf-Engine — Map of Content
 
 **Path:** `07_SKILLS/amos-economy-internet-money-rscf-engine`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: econ. Parent: amos-c07-econ-finance-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

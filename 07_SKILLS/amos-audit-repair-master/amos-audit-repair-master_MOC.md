@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Audit-Repair-Master — Map of Content
 
 **Path:** `07_SKILLS/amos-audit-repair-master`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: audit. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
 **Files:** 2 | **Subdirectories:** 2
 
 ## Files

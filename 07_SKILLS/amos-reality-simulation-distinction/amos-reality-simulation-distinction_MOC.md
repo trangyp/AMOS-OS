@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Reality-Simulation-Distinction — Map of Content
 
 **Path:** `07_SKILLS/amos-reality-simulation-distinction`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

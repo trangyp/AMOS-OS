@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Managed-Autonomy-Escalation-Rscf — Map of Content
 
 **Path:** `07_SKILLS/amos-managed-autonomy-escalation-rscf`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: rscf. Parent: amos-rscf-epistemic-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

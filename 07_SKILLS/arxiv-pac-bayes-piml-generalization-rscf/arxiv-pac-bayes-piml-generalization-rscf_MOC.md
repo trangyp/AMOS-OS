@@ -21,6 +21,10 @@ created: 2026-08-22
 # Arxiv-Pac-Bayes-Piml-Generalization-Rscf — Map of Content
 
 **Path:** `07_SKILLS/arxiv-pac-bayes-piml-generalization-rscf`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

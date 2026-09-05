@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Self-Regulated-Simulative-Planning-Rscf — Map of Content
 
 **Path:** `07_SKILLS/amos-self-regulated-simulative-planning-rscf`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: rscf. Parent: amos-rscf-epistemic-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

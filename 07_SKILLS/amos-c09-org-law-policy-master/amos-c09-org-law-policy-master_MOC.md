@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-C09-Org-Law-Policy-Master — Map of Content
 
 **Path:** `07_SKILLS/amos-c09-org-law-policy-master`
+
+## Description
+
+Origin architect and steward: **Trang Phan**.
 **Files:** 2 | **Subdirectories:** 2
 
 ## Files

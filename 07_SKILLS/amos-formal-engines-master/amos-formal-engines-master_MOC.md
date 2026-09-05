@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Formal-Engines-Master — Map of Content
 
 **Path:** `07_SKILLS/amos-formal-engines-master`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: formal. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: H.
 **Files:** 2 | **Subdirectories:** 2
 
 ## Files

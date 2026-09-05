@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Os-Runtime-Master — Map of Content
 
 **Path:** `07_SKILLS/amos-os-runtime-master`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: runtime. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
 **Files:** 2 | **Subdirectories:** 2
 
 ## Files

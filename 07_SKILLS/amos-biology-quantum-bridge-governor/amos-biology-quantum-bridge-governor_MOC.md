@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Biology-Quantum-Bridge-Governor — Map of Content
 
 **Path:** `07_SKILLS/amos-biology-quantum-bridge-governor`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: cross-domain (C04 Bio-Neuro ↔ C03 Physics-Cosmos). Parent: amos-c04-bio-neuro-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

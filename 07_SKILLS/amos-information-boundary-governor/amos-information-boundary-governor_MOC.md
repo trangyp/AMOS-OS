@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Information-Boundary-Governor — Map of Content
 
 **Path:** `07_SKILLS/amos-information-boundary-governor`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: boundary. Parent: amos-boundary-scope-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

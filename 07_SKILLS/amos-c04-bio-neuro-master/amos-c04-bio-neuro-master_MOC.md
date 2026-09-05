@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-C04-Bio-Neuro-Master — Map of Content
 
 **Path:** `07_SKILLS/amos-c04-bio-neuro-master`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: c04. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
 **Files:** 2 | **Subdirectories:** 2
 
 ## Files

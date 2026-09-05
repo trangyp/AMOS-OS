@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Agent-Memory-Dynamics-Rscf-Engine — Map of Content
 
 **Path:** `07_SKILLS/amos-agent-memory-dynamics-rscf-engine`
+
+## Description
+
+Agent Memory Dynamics — memory systems capability. Use when memory management, context continuity, or memory conflict resolution. Use when amos-memory-systems-master routes to this specialized capability. Do not use for generic tasks outside memory domain.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

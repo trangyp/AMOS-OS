@@ -21,6 +21,10 @@ created: 2026-08-22
 # Arxiv-Cdfm-Causal-Discovery-Foundation-Rscf — Map of Content
 
 **Path:** `07_SKILLS/arxiv-cdfm-causal-discovery-foundation-rscf`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

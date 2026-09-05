@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-C10-Tech-Engineering-Master — Map of Content
 
 **Path:** `07_SKILLS/amos-c10-tech-engineering-master`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: c10. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
 **Files:** 2 | **Subdirectories:** 2
 
 ## Files

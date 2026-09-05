@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Context-State-Maintenance-Rscf — Map of Content
 
 **Path:** `07_SKILLS/amos-context-state-maintenance-rscf`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: boundary. Parent: amos-boundary-scope-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Heritage-Decision-Intelligence — Map of Content
 
 **Path:** `07_SKILLS/amos-heritage-decision-intelligence`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: c06. Parent: amos-c06-society-culture-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

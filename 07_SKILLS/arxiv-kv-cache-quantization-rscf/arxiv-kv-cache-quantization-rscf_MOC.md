@@ -21,6 +21,10 @@ created: 2026-08-22
 # Arxiv-Kv-Cache-Quantization-Rscf — Map of Content
 
 **Path:** `07_SKILLS/arxiv-kv-cache-quantization-rscf`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

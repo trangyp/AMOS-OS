@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Fractal-Systems-Master — Map of Content
 
 **Path:** `07_SKILLS/amos-fractal-systems-master`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: fractal. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
 **Files:** 2 | **Subdirectories:** 2
 
 ## Files

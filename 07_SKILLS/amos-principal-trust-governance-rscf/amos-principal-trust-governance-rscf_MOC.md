@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Principal-Trust-Governance-Rscf — Map of Content
 
 **Path:** `07_SKILLS/amos-principal-trust-governance-rscf`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: security. Parent: amos-security-safety-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

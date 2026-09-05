@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Portable-Agent-Authorization-Rscf — Map of Content
 
 **Path:** `07_SKILLS/amos-portable-agent-authorization-rscf`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: agent. Parent: amos-agent-systems-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

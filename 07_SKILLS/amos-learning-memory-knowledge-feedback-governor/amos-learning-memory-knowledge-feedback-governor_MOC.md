@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Learning-Memory-Knowledge-Feedback-Governor — Map of Content
 
 **Path:** `07_SKILLS/amos-learning-memory-knowledge-feedback-governor`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: cross-domain (C05 → Memory → Knowledge). Parent: amos-knowledge-research-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

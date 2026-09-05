@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Counterfactual-Reasoning-Governor — Map of Content
 
 **Path:** `07_SKILLS/amos-counterfactual-reasoning-governor`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: causal. Parent: amos-causal-reasoning-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

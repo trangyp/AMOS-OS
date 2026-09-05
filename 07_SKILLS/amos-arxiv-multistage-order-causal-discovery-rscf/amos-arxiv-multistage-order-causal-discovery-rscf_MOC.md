@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Arxiv-Multistage-Order-Causal-Discovery-Rscf — Map of Content
 
 **Path:** `07_SKILLS/amos-arxiv-multistage-order-causal-discovery-rscf`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

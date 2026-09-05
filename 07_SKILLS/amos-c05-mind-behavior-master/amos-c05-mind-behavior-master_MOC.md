@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-C05-Mind-Behavior-Master — Map of Content
 
 **Path:** `07_SKILLS/amos-c05-mind-behavior-master`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: c05. Parent: none (master). Epistemic class: SOURCE_CLAIM. H/M/L: M.
 **Files:** 2 | **Subdirectories:** 2
 
 ## Files

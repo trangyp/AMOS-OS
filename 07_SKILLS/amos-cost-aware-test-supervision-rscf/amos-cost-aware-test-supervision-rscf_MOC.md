@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Cost-Aware-Test-Supervision-Rscf — Map of Content
 
 **Path:** `07_SKILLS/amos-cost-aware-test-supervision-rscf`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: engines-master. Parent: amos-engines-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

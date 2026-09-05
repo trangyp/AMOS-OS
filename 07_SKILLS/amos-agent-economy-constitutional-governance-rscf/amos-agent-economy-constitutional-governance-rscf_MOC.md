@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Agent-Economy-Constitutional-Governance-Rscf — Map of Content
 
 **Path:** `07_SKILLS/amos-agent-economy-constitutional-governance-rscf`
+
+## Description
+
+Agent Economy Constitutional Governance — econ capability. Use when executing the core capability within this domain. Use when amos-c07-econ-finance-master routes to this specialized capability. Do not use for generic tasks outside econ domain.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

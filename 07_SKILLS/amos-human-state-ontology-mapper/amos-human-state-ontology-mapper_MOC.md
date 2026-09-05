@@ -21,6 +21,10 @@ created: 2026-08-22
 # Amos-Human-State-Ontology-Mapper — Map of Content
 
 **Path:** `07_SKILLS/amos-human-state-ontology-mapper`
+
+## Description
+
+Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files
