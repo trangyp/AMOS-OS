@@ -59,8 +59,8 @@ created: 2026-08-22
 ## 3. Specialist Infrastructure & Frontier Extensions
 
 * [[21_DOMAINS/41_QUANTUM_SYSTEMS/41_QUANTUM_SYSTEMS_MOC|41 Quantum Systems MOC]] — Quantum Koopman operator theory, QEC decoders, and skeptical baselines.
-* [[21_DOMAINS/03_FOREX/03_FOREX_MOC|03 Forex MOC]] — Quantitative foreign exchange, Bayesian neural SDEs, currency liquidity.
-* [[21_DOMAINS/04_STRATEGY/21_DOMAINS_04_STRATEGY_MOC|04 Strategy MOC]] — Specialist strategy and game-theoretic coordination.
+* [[21_DOMAINS/50_FOREX/50_FOREX_MOC|03 Forex MOC]] — Quantitative foreign exchange, Bayesian neural SDEs, currency liquidity.
+* [[21_DOMAINS/55_STRATEGY/21_DOMAINS_55_STRATEGY_MOC|04 Strategy MOC]] — Specialist strategy and game-theoretic coordination.
 
 ---
 [[00_ROOT/00_ROOT_MOC|Root MOC]] · [[AMOS_HOME|AMOS Home]]

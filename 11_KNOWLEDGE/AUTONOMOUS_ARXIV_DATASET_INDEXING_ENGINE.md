@@ -78,7 +78,7 @@ This preserves fine-grained mathematical notation, variable names, and theorem i
 | `cs.AI / cs.LG / cs.RO` | Foundation Latent World Models, Active Inference | `13_MODELS`, `05_COGNITIVE_ORG` |
 | `quant-ph / cond-mat` | Neutral Atoms, Rydberg Tweezers, CV Teleportation | `21_DOMAINS/41_QUANTUM_SYSTEMS` |
 | `q-bio.NC / q-bio.QM` | 2-Photon Holographic Optogenetics, HD-DOT BCI | `05_COGNITIVE_ORG`, `22_RESEARCH` |
-| `q-fin.ST / q-fin.CP` | Order Flow Imbalance, VPIN Toxicity, Rough Heston | `21_DOMAINS/03_FOREX` |
+| `q-fin.ST / q-fin.CP` | Order Flow Imbalance, VPIN Toxicity, Rough Heston | `21_DOMAINS/50_FOREX` |
 | `math.AG / math.DS` | Singularity Theory, Jelonek Set $S_f$, Sheaf Cohomology | `22_RESEARCH/01_MATHEMATICS` |
 
 ---

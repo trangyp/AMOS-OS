@@ -1,21 +1,17 @@
 ---
-canon-group: meta
-canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
-conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
-topic: Clinical Research Domains Clinical Research Contract
+title: CLINICAL RESEARCH DOMAINS CLINICAL RESEARCH CONTRACT
+type: research
+source: 21_DOMAINS/30_CLINICAL_RESEARCH/00_INDEX
 tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
-created: 2026-08-22
----
----
+  - amos-os
+  - canon/domain
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
 
 # CLINICAL RESEARCH DOMAINS CLINICAL RESEARCH CONTRACT

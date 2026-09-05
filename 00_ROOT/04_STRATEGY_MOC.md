@@ -1,8 +1,8 @@
 ---
-title: 04_STRATEGY_MOC (Alias / Redirect)
+title: 55_STRATEGY_MOC (Alias / Redirect)
 type: redirect
 aliases:
-  - 04_STRATEGY_MOC
+  - 55_STRATEGY_MOC
   - 04 Strategy MOC
 target: "[[04_RUNTIME/04_RUNTIME_MOC]]"
 origin_architect: Trang Phan
@@ -17,7 +17,7 @@ rscf:
 ---
 # Attachments Moc — Plane Governance Specification
 
-**Path:** `00_ROOT/04_STRATEGY_MOC.md`
+**Path:** `00_ROOT/55_STRATEGY_MOC.md`
 **Type:** Map of Content
 
 ## Purpose

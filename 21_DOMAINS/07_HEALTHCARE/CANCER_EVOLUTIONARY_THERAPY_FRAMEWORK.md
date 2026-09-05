@@ -1,7 +1,7 @@
 ---
 title: Cancer Evolutionary Therapy — Scientific Review and AMOS State-of-the-Art Framework
 type: scientific_framework
-source: 21_DOMAINS/03_HEALTH
+source: 21_DOMAINS/51_HEALTH
 origin_architect: Trang Phan
 steward: Trang Phan
 amos_core_target: v4.4

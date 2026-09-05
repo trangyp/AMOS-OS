@@ -78,7 +78,7 @@ The Planetary directory covers planetary-scale systems, space exploration, and E
 - **Climate modeling**: GCMs (CESM, GFDL, HadGEM); reanalysis (ERA5, MERRA-2); IPCC AR6; CMIP6
 
 ### AMOS Integration
-- **15 Space Exploration domain**: [[21_DOMAINS/15_SPACE_EXPLORATION/15_SPACE_EXPLORATION_MOC|15 Space Exploration MOC]]
+- **15 Space Exploration domain**: [[21_DOMAINS/60_SPACE_EXPLORATION/60_SPACE_EXPLORATION_MOC|15 Space Exploration MOC]]
 - **C03 domain**: [[21_DOMAINS/13_C03_PHYSICS_COSMOS/13_C03_PHYSICS_COSMOS_MOC|C03 physics-cosmos domain]]
 - **C12 domain**: [[21_DOMAINS/22_C12_EARTH_ECOLOGY/22_C12_EARTH_ECOLOGY_MOC|C12 earth-ecology domain]]
 - **Physics cosmos engine**: [[11_KNOWLEDGE/engine/AMOS_PHYSICS_COSMOS_ENGINE_LAYER|Physics Cosmos Engine]]

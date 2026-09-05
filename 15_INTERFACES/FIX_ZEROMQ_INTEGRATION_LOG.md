@@ -2,7 +2,7 @@
 title: "Forex FIX 4.4 & ZeroMQ Socket Adapter — Integration Test Ledger"
 type: integration_report
 plane: 15_INTERFACES
-domain_ref: 21_DOMAINS/03_FOREX
+domain_ref: 21_DOMAINS/50_FOREX
 amos_core_target: v4.4
 origin_architect: Trang Phan
 steward: Trang Phan
@@ -13,8 +13,8 @@ rscf:
   claim_class: EMPIRICAL
   provenance:
     - 15_INTERFACES/FOREX_FIX44_ZEROMQ_SOCKET_ADAPTER
-    - 21_DOMAINS/03_FOREX/FOREX_DOMAINS_INTERFACES
-    - 21_DOMAINS/03_FOREX/DOMAINS_FOREX_CONTRACT
+    - 21_DOMAINS/50_FOREX/FOREX_DOMAINS_INTERFACES
+    - 21_DOMAINS/50_FOREX/DOMAINS_FOREX_CONTRACT
   scope: socket_adapter_integration
 ---
 

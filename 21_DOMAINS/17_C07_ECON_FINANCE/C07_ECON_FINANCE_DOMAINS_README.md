@@ -1,21 +1,20 @@
 ---
-canon-group: meta
-canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
-conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
-topic: C07 Econ Finance Domains Readme
+title: C07 ECON FINANCE DOMAINS README
+type: finance
+source: 21_DOMAINS/17_C07_ECON_FINANCE
 tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
-created: 2026-08-22
----
----
+  - amos-os
+  - canon/domain
+  - readme
+  - c07-econ-finance-domains-domain-spec
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
+  - law-hierarchy
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # C07 ECON FINANCE DOMAINS README

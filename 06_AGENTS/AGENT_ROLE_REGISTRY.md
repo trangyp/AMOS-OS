@@ -38,10 +38,10 @@ created: 2026-08-22
 | `EXEC_SANDBOX` | Runtime Executor | `04_RUNTIME`, `07_SKILLS` | Sandboxed WASM / MicroVM execution | 32,000 | `DECISION` $\to$ `OBSERVATION` |
 | `EXEC_COMPILER` | AST Compiler | `01_SOFTWARE`, `02_KERNEL` | Deterministic AST lowering, build hash verify | 64,000 | `DERIVED` |
 | `EXEC_SMT` | Formal Prover | `02_KERNEL`, `22_RESEARCH` | Z3 / CVC5 SMT solver theorem proving | 64,000 | `DERIVED` $\to$ `AUTHORITATIVE_PROOF` |
-| `SPEC_QUANT_FOREX` | Quantitative Trader | `21_DOMAINS/03_FOREX` | OFI / VPIN calculation, MT5 ZeroMQ bridge | 32,000 | `MODEL` $\to$ `DECISION` (bounded) |
+| `SPEC_QUANT_FOREX` | Quantitative Trader | `21_DOMAINS/50_FOREX` | OFI / VPIN calculation, MT5 ZeroMQ bridge | 32,000 | `MODEL` $\to$ `DECISION` (bounded) |
 | `SPEC_BIO_NEURO` | Biological Specialist | `21_DOMAINS/06_BIOLOGY`, `23_UBI_BEI` | Cable equation modeling, FBA flux analysis | 32,000 | `MODEL` $\to$ `DERIVED` |
 | `SPEC_LEGAL_DEONTIC` | Statutory Counsel | `21_DOMAINS/08_LEGAL`, `02_KERNEL` | Deontic logic proofs, compliance auditing | 32,000 | `DERIVED` $\to$ `DECISION` |
-| `SPEC_MACRO_ECON` | Economic Modeler | `21_DOMAINS/09_FINANCE`, `17_C07` | DCF valuation, input-output Leontief matrices | 32,000 | `MODEL` $\to$ `DERIVED` |
+| `SPEC_MACRO_ECON` | Economic Modeler | `21_DOMAINS/58_FINANCE`, `17_C07` | DCF valuation, input-output Leontief matrices | 32,000 | `MODEL` $\to$ `DERIVED` |
 | `CURATOR_HNSW` | Semantic Indexer | `10_MEMORY`, `11_KNOWLEDGE` | Dense 1536-dim vector embedding generation | 32,000 | `OBSERVATION` $\to$ `DERIVED` |
 | `CURATOR_EPISODIC` | Episodic Scribe | `10_MEMORY`, `12_STATE` | Trace serialization, salience decay scoring | 16,000 | `OBSERVATION` |
 | `CURATOR_RSCF` | Knowledge Harvester | `11_KNOWLEDGE`, `16_SCHEMAS` | Multi-source RSCF ingestion and grounding | 64,000 | `SOURCE_CLAIM` $\to$ `DERIVED` |

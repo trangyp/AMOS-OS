@@ -60,7 +60,7 @@ Every task is assigned with cryptographic capability verification and executed w
 
 ### AMOS Integration
 - **Agents MOC**: [[06_AGENTS/06_AGENTS_MOC|06_AGENTS_MOC]]
-- **Swarm flocking ledger**: [[21_DOMAINS/04_ROBOTICS/SWARM_FLOCKING_EXECUTION_LEDGER|Swarm Flocking Ledger]]
+- **Swarm flocking ledger**: [[21_DOMAINS/54_ROBOTICS/SWARM_FLOCKING_EXECUTION_LEDGER|Swarm Flocking Ledger]]
 - **Capability-bound governance**: [[07_SKILLS/amos-capability-bound-governance/SKILL|Capability-Bound Governance]]
 - **SOTA embodied AI**: [[22_RESEARCH/01_PAPERS/SOTA_EMBODIED_AI_AND_ROBOT_LEARNING_2026|SOTA Embodied AI 2026]]
 

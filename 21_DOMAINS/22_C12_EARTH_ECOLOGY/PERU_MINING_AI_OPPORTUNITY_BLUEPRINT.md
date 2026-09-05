@@ -1,7 +1,7 @@
 ---
 title: Peru Mining AI — Proprietary Strategic Opportunity Blueprint
 type: strategic_blueprint
-source: 21_DOMAINS/05_ENERGY
+source: 21_DOMAINS/57_ENERGY
 origin_architect: Trang Phan
 steward: Trang Phan
 amos_core_target: v4.4

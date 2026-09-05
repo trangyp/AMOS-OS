@@ -2,7 +2,7 @@
 title: Automated Event-Driven Webhook Dispatcher for Institutional Execution Feeds
 type: interface_specification
 plane: 15_INTERFACES
-domain_ref: 21_DOMAINS/03_FOREX
+domain_ref: 21_DOMAINS/50_FOREX
 amos_core_target: v4.4
 origin_architect: Trang Phan
 steward: Trang Phan
@@ -108,4 +108,4 @@ If all 5 retry attempts fail, the envelope is moved to persistent storage (`12_S
 - **Interfaces MOC:** [[15_INTERFACES/15_INTERFACES_MOC|15_INTERFACES_MOC]]
 - **Webhook Test Ledger:** [[15_INTERFACES/WEBHOOK_DISPATCHER_EXECUTION_LEDGER|WEBHOOK_DISPATCHER_EXECUTION_LEDGER]]
 - **Socket Adapter:** [[15_INTERFACES/FOREX_FIX44_ZEROMQ_SOCKET_ADAPTER|FOREX_FIX44_ZEROMQ_SOCKET_ADAPTER]]
-- **Forex Domain:** [[21_DOMAINS/03_FOREX/03_FOREX_MOC|03_FOREX_MOC]]
+- **Forex Domain:** [[21_DOMAINS/50_FOREX/50_FOREX_MOC|50_FOREX_MOC]]

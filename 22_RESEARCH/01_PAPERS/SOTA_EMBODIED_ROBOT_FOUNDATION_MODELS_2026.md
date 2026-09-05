@@ -34,7 +34,7 @@ Embodied AI has converged on **Vision-Language-Action (VLA) foundation models** 
 4. **Test-time computation** (τ₀-VLA) with world-model-guided beam search for long-horizon tasks
 5. **Efficient MoE embodied VLMs** (Hy-Embodied-VLM-1.0) activating only ~3B params per token
 
-These advances directly inform AMOS OS's [[04_RUNTIME/04_RUNTIME_README|runtime]], [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_README|cognitive organism]], and [[21_DOMAINS/04_ROBOTICS|robotics domain]].
+These advances directly inform AMOS OS's [[04_RUNTIME/04_RUNTIME_README|runtime]], [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_README|cognitive organism]], and [[21_DOMAINS/54_ROBOTICS|robotics domain]].
 
 ## 2. Key Papers & Breakthroughs
 
@@ -106,7 +106,7 @@ Hy-Embodied-VLM-1.0's ~3B active parameters prove that embodied AI doesn't requi
 
 | AMOS Domain | SOTA Connection | Mapping |
 |-------------|----------------|---------|
-| [[21_DOMAINS/04_ROBOTICS|Robotics Domain]] | All 5 papers | VLA foundation models |
+| [[21_DOMAINS/54_ROBOTICS|Robotics Domain]] | All 5 papers | VLA foundation models |
 | [[04_RUNTIME/04_RUNTIME_README|Runtime]] | GigaBrain-0.7 one-stage | Unified runtime pipeline |
 | [[07_SKILLS/amos-k-world-model/SKILL|K_WORLD_MODEL]] | Xiaomi-U0, τ₀-VLA | World model for embodied AI |
 | [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O09_SIMULATION/O09_SIMULATION_MOC|O09 Simulation]] | τ₀-VLA beam search | World-model-guided simulation |

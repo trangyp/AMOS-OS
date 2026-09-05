@@ -68,7 +68,7 @@ Manifold integration preserves the metric structure $R^\top R = I_3$ and $\det(R
 - **Engineering math domain**: [[21_DOMAINS/28_ENGINEERING_MATH/28_ENGINEERING_MATH_MOC|28 Engineering Math MOC]]
 - **C10 domain**: [[21_DOMAINS/20_C10_TECH_ENGINEERING/20_C10_TECH_ENGINEERING_MOC|C10 tech-engineering domain]]
 - **Mechanical structural engine**: [[11_KNOWLEDGE/engine/AMOS_MECHANICAL_STRUCTURAL_ENGINE_LAYER|Mechanical Structural Engine]]
-- **Event neuromorphic SLAM**: [[21_DOMAINS/04_ROBOTICS/EVENT_NEUROMORPHIC_SLAM_LEDGER|Event Neuromorphic SLAM Ledger]]
+- **Event neuromorphic SLAM**: [[21_DOMAINS/54_ROBOTICS/EVENT_NEUROMORPHIC_SLAM_LEDGER|Event Neuromorphic SLAM Ledger]]
 - **SOTA embodied AI**: [[22_RESEARCH/01_PAPERS/SOTA_EMBODIED_AI_AND_ROBOT_LEARNING_2026|SOTA Embodied AI 2026]]
 
 ### Invariants

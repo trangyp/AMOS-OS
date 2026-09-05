@@ -2,7 +2,7 @@
 title: "Forex FIX 4.4 & ZeroMQ Low-Latency Socket Adapter Specification"
 type: interface_specification
 plane: 15_INTERFACES
-domain_ref: 21_DOMAINS/03_FOREX
+domain_ref: 21_DOMAINS/50_FOREX
 amos_core_target: v4.4
 origin_architect: Trang Phan
 steward: Trang Phan
@@ -13,8 +13,8 @@ rscf:
   state: DERIVED
   claim_class: AMOS_MODEL
   provenance:
-    - 21_DOMAINS/03_FOREX/FOREX_DOMAINS_INTERFACES
-    - 21_DOMAINS/03_FOREX/DOMAINS_FOREX_CONTRACT
+    - 21_DOMAINS/50_FOREX/FOREX_DOMAINS_INTERFACES
+    - 21_DOMAINS/50_FOREX/DOMAINS_FOREX_CONTRACT
     - 15_INTERFACES/INTERFACES_README
   scope: low_latency_socket_bridge
 tags:
@@ -119,6 +119,6 @@ Standard institutional protocol over TLS 1.3 socket:
 
 ## 5. Master Navigation & Bindings
 
-- **Forex Domain:** [[21_DOMAINS/03_FOREX/03_FOREX_MOC|03_FOREX_MOC]]
+- **Forex Domain:** [[21_DOMAINS/50_FOREX/50_FOREX_MOC|50_FOREX_MOC]]
 - **Interface MOC:** [[15_INTERFACES/15_INTERFACES_MOC|15_INTERFACES_MOC]]
 - **Integration Log:** [[15_INTERFACES/FIX_ZEROMQ_INTEGRATION_LOG|FIX_ZEROMQ_INTEGRATION_LOG]]

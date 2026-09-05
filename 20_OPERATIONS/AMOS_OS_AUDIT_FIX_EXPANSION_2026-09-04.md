@@ -128,7 +128,7 @@ All 30 remaining broken wikilinks are in `copilot/copilot-conversations/` log fi
 |------|--------|-------|---------------|
 | `14_TOOLS/00_INDEX/TOOLS_MAP.md` | 18 lines | 57 lines | Full tools map with descriptions of all 14_TOOLS contents |
 | `07_SKILLS/skill-catalog.md` | 22 lines | 80 lines | Skill catalog summary with 696 skills, 24 root masters, 46 domains |
-| `00_ROOT/04_STRATEGY_MOC.md` | 23 lines | 162 lines | Strategy MOC with full MECE domain mapping, plane relationships |
+| `00_ROOT/55_STRATEGY_MOC.md` | 23 lines | 162 lines | Strategy MOC with full MECE domain mapping, plane relationships |
 
 ### 3.2 Stub MOC Files Expanded (3+ files)
 

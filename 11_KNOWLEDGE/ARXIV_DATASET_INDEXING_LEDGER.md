@@ -47,7 +47,7 @@ EMPIRICAL_COUNT != COMPLETE_COVERAGE
 | **AI / Machine Learning (cs.AI, cs.LG)** | 10 papers | 0.0% | `13_MODELS / 05_COGNITIVE_ORG` |
 | **Quantum Physics & Computation (quant-ph)** | 67 papers | 0.1% | `21_DOMAINS/41_QUANTUM_SYSTEMS` |
 | **Neuromorphic & Bio-BCI (q-bio.NC, q-bio.QM)** | 26 papers | 0.0% | `05_COGNITIVE_ORG / 22_RESEARCH` |
-| **Quantitative Finance & Microstructure (q-fin)** | 5 papers | 0.0% | `21_DOMAINS/03_FOREX` |
+| **Quantitative Finance & Microstructure (q-fin)** | 5 papers | 0.0% | `21_DOMAINS/50_FOREX` |
 | **Mathematics & Singularity Theory (math)** | 189 papers | 0.3% | `22_RESEARCH/01_MATHEMATICS` |
 | **Other Domain Sciences** | 203 papers | 0.3% | `22_RESEARCH/01_MATHEMATICS` |
 | **Total Indexed (Categorized)** | 500 papers | 0.8% | Multiple Planes |

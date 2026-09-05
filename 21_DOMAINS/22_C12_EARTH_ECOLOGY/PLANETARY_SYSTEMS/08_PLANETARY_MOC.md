@@ -58,7 +58,7 @@ tags:
 - **L25 shard-local**: [[01_CANON/01_CORE_LAWS/L25_SHARD_LOCAL|L25 shard-local law]] — shard-local finalization
 - **C03 physics-cosmos domain**: [[21_DOMAINS/13_C03_PHYSICS_COSMOS/13_C03_PHYSICS_COSMOS_MOC|C03 physics-cosmos domain]] — planetary physics
 - **C12 earth-ecology domain**: [[21_DOMAINS/22_C12_EARTH_ECOLOGY/22_C12_EARTH_ECOLOGY_MOC|C12 earth-ecology domain]] — earth systems
-- **15 space exploration**: [[21_DOMAINS/15_SPACE_EXPLORATION/15_SPACE_EXPLORATION_MOC|15 Space Exploration]] — orbital systems
+- **15 space exploration**: [[21_DOMAINS/60_SPACE_EXPLORATION/60_SPACE_EXPLORATION_MOC|15 Space Exploration]] — orbital systems
 - **Runtime pipeline**: [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME MOC]] — execution stage
 - **Observability**: [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY MOC]] — global telemetry
 

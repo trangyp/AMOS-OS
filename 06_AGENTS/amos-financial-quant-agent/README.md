@@ -24,7 +24,7 @@ Executes order book microstructure analysis, triangular arbitrage graphs, and ro
 > No-arbitrage constraints, CVaR risk bounds, sub-millisecond execution latency constraints.
 
 ## Operational Boundaries & Tools
-- Primary Planes: [[21_DOMAINS/03_FOREX/03_FOREX_MOC]], [[21_DOMAINS/17_C07_ECON_FINANCE/17_C07_ECON_FINANCE_MOC]], [[16_SCHEMAS/16_SCHEMAS_MOC]]
+- Primary Planes: [[21_DOMAINS/50_FOREX/50_FOREX_MOC]], [[21_DOMAINS/17_C07_ECON_FINANCE/17_C07_ECON_FINANCE_MOC]], [[16_SCHEMAS/16_SCHEMAS_MOC]]
 - Telemetry & Observability: [[17_OBSERVABILITY/17_OBSERVABILITY_MOC.md|17_OBSERVABILITY]]
 - Provenance Receipts: [[03_CONTROL_PLANE/05_PROVENANCE/05_PROVENANCE_MOC.md|05_PROVENANCE]]
 

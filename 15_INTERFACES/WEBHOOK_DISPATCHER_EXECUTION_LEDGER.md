@@ -2,7 +2,7 @@
 title: "Automated Webhook Dispatcher — Integration & Delivery Ledger"
 type: integration_ledger
 plane: 15_INTERFACES
-domain_ref: 21_DOMAINS/03_FOREX
+domain_ref: 21_DOMAINS/50_FOREX
 amos_core_target: v4.4
 origin_architect: Trang Phan
 steward: Trang Phan
@@ -15,7 +15,7 @@ rscf:
   provenance:
     - 15_INTERFACES/AUTOMATED_EVENT_DRIVEN_WEBHOOK_DISPATCHER
     - 15_INTERFACES/15_INTERFACES_MOC
-    - 21_DOMAINS/03_FOREX/03_FOREX_MOC
+    - 21_DOMAINS/50_FOREX/50_FOREX_MOC
   scope: webhook_dispatch_integration
 ---
 

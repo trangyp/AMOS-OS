@@ -200,7 +200,7 @@ AMOS `amos-budget-aware-optimizer-selection-rscf-engine` should apply MoE princi
 
 | AMOS Domain | SOTA Connection | Mapping |
 |:---|:---|:---|
-| `21_DOMAINS/04_ROBOTICS` | All 5 papers | VLA foundation models |
+| `21_DOMAINS/54_ROBOTICS` | All 5 papers | VLA foundation models |
 | `04_RUNTIME` | GigaBrain-0.7 one-stage | Unified runtime pipeline |
 | `07_SKILLS/amos-k-world-model` | Xiaomi-U0, τ₀-VLA | World model for embodied AI |
 | `25_COGNITIVE_MATRIX/O09_SIMULATION` | τ₀-VLA beam search | World-model-guided simulation |

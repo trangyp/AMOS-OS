@@ -2,7 +2,7 @@
 title: Forex L2/L3 Depth-of-Market (DOM) — Live Telemetry Ledger
 type: telemetry_ledger
 plane: 17_OBSERVABILITY
-domain_ref: 21_DOMAINS/03_FOREX
+domain_ref: 21_DOMAINS/50_FOREX
 amos_core_target: v4.4
 origin_architect: Trang Phan
 steward: Trang Phan
@@ -14,7 +14,7 @@ rscf:
   claim_class: EMPIRICAL
   provenance:
     - 17_OBSERVABILITY/REALTIME_ORDERBOOK_DOM_STREAMING_VISUALIZER
-    - 21_DOMAINS/03_FOREX/03_FOREX_MOC
+    - 21_DOMAINS/50_FOREX/50_FOREX_MOC
     - 15_INTERFACES/FOREX_FIX44_ZEROMQ_SOCKET_ADAPTER
   scope: live_dom_telemetry
 ---
@@ -81,4 +81,4 @@ rscf:
 
 - [[17_OBSERVABILITY/REALTIME_ORDERBOOK_DOM_STREAMING_VISUALIZER|REALTIME_ORDERBOOK_DOM_STREAMING_VISUALIZER]] — Observability Specification.
 - [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]] — Observability Master Map.
-- [[21_DOMAINS/03_FOREX/03_FOREX_MOC|03_FOREX_MOC]] — Forex Domain Map.
+- [[21_DOMAINS/50_FOREX/50_FOREX_MOC|50_FOREX_MOC]] — Forex Domain Map.

@@ -35,7 +35,7 @@ tags:
 
 | Plane | In DirTree | In MOC | In MECE | In Ownership | Has MOC File | MOC→ROOT_MOC | Has 00_INDEX | Issues |
 |-------|:----------:|:------:|:-------:|:------------:|:------------:|:------------:|:------------:|--------|
-| 00_ROOT | YES | YES | NO (meta-plane) | NO (meta-plane) | YES | N/A | NO | No 00_INDEX; multiple redundant MOC files; 04_STRATEGY_MOC stray redirect |
+| 00_ROOT | YES | YES | NO (meta-plane) | NO (meta-plane) | YES | N/A | NO | No 00_INDEX; multiple redundant MOC files; 55_STRATEGY_MOC stray redirect |
 | 01_CANON | YES | YES | YES (A) | YES (A) | YES | NO→AMOS_HOME | YES | MOC backlinks to AMOS_HOME not 00_ROOT_MOC; Root MOC §1.1 domain label mismatch |
 | 02_KERNEL | YES | YES | YES (B) | YES (B) | YES | YES | YES | Root MOC §1.1 domain label mismatch |
 | 03_CONTROL_PLANE | YES | YES | YES (B) | YES (B) | YES | NO→AMOS_HOME | YES | MOC backlinks to AMOS_HOME; Root MOC §1.1 places in C (MISMATCH: should be B) |
@@ -161,13 +161,13 @@ All other 24 numbered planes have a `00_INDEX/` subdirectory with a map file. `1
 - `AMOS MOC.md`
 - `MOC.md`
 - `00_COSMO_BRAIN_MOC.md` (legitimate cross-reference)
-- `04_STRATEGY_MOC.md` (redirect/alias)
+- `55_STRATEGY_MOC.md` (redirect/alias)
 
 The files `_MOC.md`, `AMOS MOC.md`, and `MOC.md` appear to be duplicates or aliases of the root MOC, creating ambiguity about which is authoritative.
 
-### VIOLATION 7 (INFO): 04_STRATEGY_MOC stray redirect in 00_ROOT
+### VIOLATION 7 (INFO): 55_STRATEGY_MOC stray redirect in 00_ROOT
 
-`00_ROOT/04_STRATEGY_MOC.md` is a redirect file pointing to `04_RUNTIME/04_RUNTIME_MOC`. The root MOC §1.1 explicitly lists this as a "Known structural GAP / stray" with status `UNKNOWN/GAP`. The file exists but is not part of the canonical MECE partition. It is a controlled redirect, not an unmanaged stray.
+`00_ROOT/55_STRATEGY_MOC.md` is a redirect file pointing to `04_RUNTIME/04_RUNTIME_MOC`. The root MOC §1.1 explicitly lists this as a "Known structural GAP / stray" with status `UNKNOWN/GAP`. The file exists but is not part of the canonical MECE partition. It is a controlled redirect, not an unmanaged stray.
 
 ### VIOLATION 8 (INFO): 08_PLANETARY referenced in root MOC but does not exist
 
@@ -246,9 +246,9 @@ The canonical partition is:
 
 **Priority:** P3
 
-### FIX 8 (INFO): Formally classify 04_STRATEGY_MOC redirect
+### FIX 8 (INFO): Formally classify 55_STRATEGY_MOC redirect
 
-**Action:** The `04_STRATEGY_MOC.md` redirect is already documented as a known stray. Consider either:
+**Action:** The `55_STRATEGY_MOC.md` redirect is already documented as a known stray. Consider either:
 - Moving it to `24_ARCHIVE/` as a historical redirect, or
 - Adding it to the Ownership Matrix as a formal alias with `supersedes: []` and `redirect_to: 04_RUNTIME/04_RUNTIME_MOC`.
 

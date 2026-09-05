@@ -2,7 +2,7 @@
 title: Real-Time Order-Book Depth-of-Market (DOM) L2/L3 Streaming Visualizer
 type: observability_specification
 plane: 17_OBSERVABILITY
-domain_ref: 21_DOMAINS/03_FOREX
+domain_ref: 21_DOMAINS/50_FOREX
 amos_core_target: v4.4
 origin_architect: Trang Phan
 steward: Trang Phan
@@ -14,7 +14,7 @@ rscf:
   claim_class: AMOS_MODEL
   provenance:
     - 17_OBSERVABILITY/17_OBSERVABILITY_MOC
-    - 21_DOMAINS/03_FOREX/03_FOREX_MOC
+    - 21_DOMAINS/50_FOREX/50_FOREX_MOC
     - 15_INTERFACES/FOREX_FIX44_ZEROMQ_SOCKET_ADAPTER
   scope: dom_orderbook_streaming
 tags:
@@ -110,5 +110,5 @@ where $I_{\{\cdot\}}$ is the indicator function. Positive $\text{OFI}_k > 0$ sig
 
 - **Observability MOC:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]
 - **DOM Telemetry Ledger:** [[17_OBSERVABILITY/DOM_STREAMING_TELEMETRY_LEDGER|DOM_STREAMING_TELEMETRY_LEDGER]]
-- **Forex Domain:** [[21_DOMAINS/03_FOREX/03_FOREX_MOC|03_FOREX_MOC]]
+- **Forex Domain:** [[21_DOMAINS/50_FOREX/50_FOREX_MOC|50_FOREX_MOC]]
 - **Socket Adapter:** [[15_INTERFACES/FOREX_FIX44_ZEROMQ_SOCKET_ADAPTER|FOREX_FIX44_ZEROMQ_SOCKET_ADAPTER]]

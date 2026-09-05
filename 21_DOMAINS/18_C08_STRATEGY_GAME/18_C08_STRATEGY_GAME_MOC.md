@@ -30,7 +30,7 @@ created: 2026-08-22
 
 * [[11_KNOWLEDGE/AMOS_C08_STRATEGY_GAME_MASTER_KNOWLEDGE|AMOS C08 Strategy Game Master Knowledge]] — Authoritative 24 KB canonical domain corpus detailing game theory formalisms, mechanism design, adversarial threat modeling, and payoff matrices.
 * [[26_WORKFLOWS/amos-c08-strategy-game-master-workflow|amos-c08-strategy-game-master-workflow]] — Governed strategic planning workflow and adversarial red-teaming validation gates.
-* [[21_DOMAINS/04_STRATEGY/21_DOMAINS_04_STRATEGY_MOC|04 Strategy MOC]] — Specialist strategy domain and multi-agent coordination hub.
+* [[21_DOMAINS/55_STRATEGY/21_DOMAINS_55_STRATEGY_MOC|04 Strategy MOC]] — Specialist strategy domain and multi-agent coordination hub.
 * [[21_DOMAINS/18_C08_STRATEGY_GAME/DOMAINS_C08_STRATEGY_GAME_CONTRACT|DOMAINS_C08_STRATEGY_GAME_CONTRACT]] — Domain interface contract and invariant bounds.
 * [[21_DOMAINS/18_C08_STRATEGY_GAME/C08_STRATEGY_GAME_DOMAINS_DOMAIN_SPEC|C08_STRATEGY_GAME_DOMAINS_DOMAIN_SPEC]] — Operational domain parameters.
 

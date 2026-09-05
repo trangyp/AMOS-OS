@@ -276,7 +276,7 @@ September 2026 marks a convergence of breakthroughs across BCI, AI, quantum comp
 - **Method**: automated semantic environment modeling + embedded electrodynamic priors; no on-site fine-tuning
 - **Significance**: first paradigm for end-to-end automation of complex spatial channel manipulation ab initio; bridges digital intelligence and physical-layer wave dynamics
 
-**AMOS binding:** [[21_DOMAINS/04_ROBOTICS/04_ROBOTICS_MOC|04_ROBOTICS_MOC]]; [[04_RUNTIME/06_EXECUTION/BCI_WAVEFRONT_SLM_RUNTIME|BCI Wavefront SLM Runtime]] — wavefront shaping; [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L10_WORLD_MODELING/L10_WORLD_MODELING_MOC|L10_World_Modeling]]
+**AMOS binding:** [[21_DOMAINS/54_ROBOTICS/54_ROBOTICS_MOC|54_ROBOTICS_MOC]]; [[04_RUNTIME/06_EXECUTION/BCI_WAVEFRONT_SLM_RUNTIME|BCI Wavefront SLM Runtime]] — wavefront shaping; [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L10_WORLD_MODELING/L10_WORLD_MODELING_MOC|L10_World_Modeling]]
 
 ---
 
@@ -355,4 +355,4 @@ September 2026 marks a convergence of breakthroughs across BCI, AI, quantum comp
 - **Token budget governance**: [[07_SKILLS/amos-token-budget-governance/SKILL|Token Budget Governance]]
 - **UBI framework**: [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_FRAMEWORK|UBI Framework]]
 - **Health kernel**: [[11_KNOWLEDGE/kernel/HEALTH_KERNEL|Health Kernel]]
-- **04 Robotics domain**: [[21_DOMAINS/04_ROBOTICS/04_ROBOTICS_MOC|04 Robotics MOC]]
+- **04 Robotics domain**: [[21_DOMAINS/54_ROBOTICS/54_ROBOTICS_MOC|04 Robotics MOC]]

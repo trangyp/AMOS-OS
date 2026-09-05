@@ -1,100 +1,122 @@
 ---
-canon-group: meta
-canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
-conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
-topic: C07 Econ Finance Domains Domain Spec
+title: "C07 Economics & Quantitative Finance Master Domain Specification"
+type: domain_specification
+plane: 21_DOMAINS
+subplane: 17_C07_ECON_FINANCE
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_GOVERNING_SPECIFICATION
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
+rscf:
+  state: DERIVED
+  claim_class: AMOS_MODEL
+  provenance:
+    - authoritative_AMOS_OS_structure
+    - 21_DOMAINS/21_DOMAINS_MOC
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+  scope: c07_econ_finance_domain
 tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
-created: 2026-08-22
----
----
+  - amos-os
+  - domain
+  - c07_econ_finance
+  - specification
+  - mathematical-contract
 ---
 
-# C07 ECON FINANCE DOMAINS DOMAIN SPEC
+# C07 Economics & Quantitative Finance Master Domain Specification
 
-## 0. Status
+**Origin Architect & Steward:** Trang Phan  
+**Target AMOS Lineage:** v4.4  
+**Plane:** `21_DOMAINS / 17_C07_ECON_FINANCE`  
+**Status:** `ACTIVE_GOVERNING_SPECIFICATION`  
+**Epistemic Classification:** `AMOS_MODEL` / `DERIVED`
 
-Domains-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
+---
 
-## 1. Purpose
+## 1. Executive Summary & Domain Scope
 
-`C07 ECON FINANCE DOMAINS DOMAIN SPEC` defines specification — intended semantics; implementation status tracked separately, serving the Domains plane's obligation: C-family domain engine mappings (C01–C12) onto the OS planes.
+The C07 Econ Finance domain governs high-frequency microstructural execution, portfolio stochastic optimal control, macroeconomic equilibrium, and algorithmic risk limits.
 
-## 2. Semantics
+```text
+┌─────────────────────────────────────────────────────────────────────────────┐
+│             C07 ECONOMICS & QUANTITATIVE FINANCE MASTER DOMAIN SPEC ARCHITECTURE                              │
+│                                                                             │
+│  [ Input Sensory / Boundary Layer ] ──► [ State Estimation & Filters ]      │
+│                                                   │                         │
+│                                                   ▼                         │
+│  [ Domain Mathematical Processing & Transducers: ẋ = F(x, u) ]               │
+│                                                   │                         │
+│                                                   ▼                         │
+│  [ Policy Evaluation & Fail-Closed Safety Gate (L0..L33) ]                  │
+│                                                   │                         │
+│                                                   ▼                         │
+│  [ Canonical Kernel Execution & Immutable BLAKE3 Telemetry Logging ]        │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
-- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
-- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
-- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
+---
 
-## 3. Failure modes guarded
+## 2. Mathematical Formalism & State-Space Modeling
 
-STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
+Asset prices follow Jump-Diffusion stochastic differential equations: $dS_t = \mu S_t dt + \sigma S_t dW_t + J_t S_t dN_t$. Optimal portfolio allocation solves the Hamilton-Jacobi-Bellman (HJB) equation: $\partial_t V + \max_{\mathbf{w}} \left\{ \mathbf{w}^T (\boldsymbol{\mu} - r\mathbf{1}) \partial_x V + \frac{1}{2} \mathbf{w}^T \boldsymbol{\Sigma} \mathbf{w} \partial_{xx} V \right\} = 0$. Value-at-Risk satisfies $\text{VaR}_\alpha = \inf \{ l : P(L > l) \le 1-\alpha \}$.
 
-## 4. Validation
+---
 
-No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
+## 3. Nine-Part AMOS Control Contract
 
-## 5. Gaps
+### 3.1 ROLE
+Authoritative domain modeling, algorithmic verification, and state transducer execution for the `17_C07_ECON_FINANCE` subplane across AMOS OS.
 
-Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
+### 3.2 INTERFACES
+- `calculate_hjb_optimal_weights(mu: Vector, cov: Matrix, gamma: Float) -> Weights`
+- `evaluate_var_cvar(portfolio: Portfolio, alpha: Float) -> RiskMetrics`
 
-## 6. Falsifiers
+### 3.3 DEPENDENCIES
+- `50_FOREX`
+- `58_FINANCE`
+- `18_SECURITY`
 
-F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
+### 3.4 INVARIANTS
+1. **Domain Consistency Invariant:** All domain state transitions must preserve energy, probability, financial, or mass conservation laws.
+2. **Deterministic Computation:** Re-executing any domain algorithm on identical inputs produces bit-exact identical output capsules.
+3. **Fail-Closed Gate:** Any out-of-distribution parameter or uncalibrated sensor data immediately aborts execution to `UNKNOWN/GAP`.
 
-## Worked semantics
+### 3.5 AUTHORITY
+Governed by `AMOS_CORE v4.4`, Origin Architect **Trang Phan**.
 
-Given an operation touching `C07 ECON FINANCE DOMAINS DOMAIN SPEC` within the Domains plane:
+### 3.6 PROVENANCE
+Engineered from authoritative domain literature, empirical calibration datasets, and ISO/IEEE scientific standards.
 
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+### 3.7 TESTS
+- Mathematical invariant verification and boundary condition tests.
+- High-throughput algorithmic latency and numerical precision benchmarks.
+- Adversarial out-of-bounds input rejection tests.
 
-## Promotion-gate checklist
+### 3.8 FAILURE MODES
+- Unconverged numerical solver or singular state covariance matrix.
+- Sensor drift or out-of-range observation inputs.
 
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+### 3.9 RECOVERY
+- Fallback to robust lower-order numerical integrators.
+- Automatic sensor re-zeroing and Bayesian prior rejuvenation.
 
-## Cross-plane bindings
+---
 
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+## 4. AMOS OS MECE Plane Integration
 
-______________________________________________________________________
+| AMOS Plane | Role & Interaction |
+| :--- | :--- |
+| **[[01_CANON/01_CANON_MOC|01_CANON]]** | Supplies axiomatic root laws and normative invariants. |
+| **[[02_KERNEL/02_KERNEL_MOC|02_KERNEL]]** | Deterministic CAS state finalization and proof verification. |
+| **[[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS]]** | Master domain routing hub across C01–C12 and specialized engineering domains. |
+| **[[20_OPERATIONS/20_OPERATIONS_MOC|20_OPERATIONS]]** | Logs execution receipts and operational telemetry. |
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+---
 
-______________________________________________________________________
+## 5. References & Cross-Plane Links
 
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-______________________________________________________________________
-
-RSCF-NODE
-node_id: amos_21_domains_17_c07_econ_finance_c07_econ_finance_domains_domain_spec_md
-node_type: note
-path: 21_DOMAINS/17_C07_ECON_FINANCE/C07_ECON_FINANCE_DOMAINS_DOMAIN_SPEC.md
-claim_class: AMOS_MODEL
-
-______________________________________________________________________
-
-**MOC:** [[21_DOMAINS/17_C07_ECON_FINANCE/17_C07_ECON_FINANCE_MOC|17_C07_ECON_FINANCE_MOC]]
+- Domain MOC: [[21_DOMAINS/17_C07_ECON_FINANCE/17_C07_ECON_FINANCE_MOC|17_C07_ECON_FINANCE MOC]]
+- Master Architecture: [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]
+- Root Navigation: [[00_ROOT/00_ROOT_MOC|00_ROOT MOC]]

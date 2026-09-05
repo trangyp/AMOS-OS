@@ -1,21 +1,20 @@
 ---
-canon-group: meta
-canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
-conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
-topic: Policy Design Domains Readme
+title: POLICY DESIGN DOMAINS README
+type: design
+source: 21_DOMAINS/32_POLICY_DESIGN
 tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
-created: 2026-08-22
----
----
+  - amos-os
+  - canon/domain
+  - readme
+  - policy-design-domains-domain-spec
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
+  - law-hierarchy
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # POLICY DESIGN DOMAINS README

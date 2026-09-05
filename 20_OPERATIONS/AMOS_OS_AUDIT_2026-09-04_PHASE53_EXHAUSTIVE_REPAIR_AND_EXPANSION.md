@@ -35,7 +35,7 @@ tags:
 | **Markdown Fences & Syntax** | 0 unclosed fences | Verified code blocks and syntax delimiters | 0 unclosed fences | **VERIFIED** |
 | **YAML Frontmatter Integrity** | 0 malformed blocks | Standardized RSCF & metadata fields | 0 malformed blocks | **VERIFIED** |
 | **Escaped Backslash Wikilinks** | 106 targets with `\]]` | Global regex transformation `[[\1\2` | 0 escaped backslash errors | **CLOSED** |
-| **Missing Core Nodes & Contracts** | High-frequency missing targets | Provisioned `PROVENANCE_TRUST_FIREWALL`, `CAUSAL_INFERENCE_ENGINE`, `04_ROBOTICS_MOC`, etc. | All core nodes provisioned & anchored | **CLOSED** |
+| **Missing Core Nodes & Contracts** | High-frequency missing targets | Provisioned `PROVENANCE_TRUST_FIREWALL`, `CAUSAL_INFERENCE_ENGINE`, `54_ROBOTICS_MOC`, etc. | All core nodes provisioned & anchored | **CLOSED** |
 | **Governed Agent Skills** | 7 missing skill stubs | Created full `SKILL.md` and `workflow.md` pairs | 7 skills & workflows created & registered | **CLOSED** |
 | **MECE Domain Partition** | MOC / MECE label mismatch | Standardized 6-Domain (A–F) partition in `00_ROOT/00_ROOT_MOC.md` | 100% MECE alignment across 25 planes | **CLOSED** |
 | **Thin Subsystem Elevation** | 4 thin organism specs | Elevated `05_COGNITIVE_ORGANISM` specs to >3KB rigorous specs | Fully detailed with formal math & SCM models | **CLOSED** |
@@ -54,7 +54,7 @@ tags:
    - `[[05_COGNITIVE_ORGANISM/03_METABOLISM/COMPUTE_ENERGY_REGULATION_CONTRACT]]` (Token budget & energy governor).
    - `[[05_COGNITIVE_ORGANISM/02_CIRCULATION_BLOOD/DYNAMIC_INFORMATION_FLOW_SPEC]]` (Arrow IPC shared memory bus).
 3. **Domain Architecture & Robotics**:
-   - `[[21_DOMAINS/04_ROBOTICS/04_ROBOTICS_MOC]]` (Kinematics, swarm consensus, neuromorphic SLAM).
+   - `[[21_DOMAINS/54_ROBOTICS/54_ROBOTICS_MOC]]` (Kinematics, swarm consensus, neuromorphic SLAM).
    - `[[21_DOMAINS/00_INDEX/DOMAINS_MOC]]` (Unified 45+ domain master taxonomy).
    - `[[21_DOMAINS/27_C11_DESIGN_LANGUAGE/27_C11_DESIGN_LANGUAGE_MOC]]` (Cognitive UI/UX design tokens).
    - `[[21_DOMAINS/01_DOMAIN_ARCHITECTURE/C10_AI_COMPUTE_SYSTEMS_SPECIALIST_ARCHITECTURE]]` (HBM3e, photonics).

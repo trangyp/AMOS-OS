@@ -55,7 +55,7 @@ The **13_C03_PHYSICS_COSMOS** domain encompasses physical systems modeling, cosm
 - [[21_DOMAINS/13_C03_PHYSICS_COSMOS/00_INDEX/C03_PHYSICS_COSMOS_DOMAINS_C03_PHYSICS_COSMOS_CONTRACT|C03 Physics Cosmos Domains Contract]]
 - [[11_KNOWLEDGE/AMOS_C03_PHYSICS_COSMOS_MASTER_KNOWLEDGE|AMOS C03 Physics Cosmos Master Knowledge]]
 - [[22_RESEARCH/01_MATHEMATICS/22_MATHEMATICS_MOC|22 Research Mathematics MOC]]
-- [[21_DOMAINS/15_SPACE_EXPLORATION/00_INDEX/DOMAIN_INDEX_MOC|Space Exploration Domain Index]]
+- [[21_DOMAINS/60_SPACE_EXPLORATION/00_INDEX/DOMAIN_INDEX_MOC|Space Exploration Domain Index]]
 - [[21_DOMAINS/41_QUANTUM_SYSTEMS/00_INDEX/DOMAIN_INDEX_MOC|Quantum Systems Domain Index]]
 - [[21_DOMAINS/22_C12_EARTH_ECOLOGY/00_INDEX/DOMAIN_INDEX_MOC|C12 Earth Ecology Domain Index]]
 - [[21_DOMAINS/44_EV_INFRASTRUCTURE/00_INDEX/DOMAIN_INDEX_MOC|EV Infrastructure Domain Index]]
@@ -66,7 +66,7 @@ The **13_C03_PHYSICS_COSMOS** domain encompasses physical systems modeling, cosm
 ## Cross-Domain Bridges
 
 - [[21_DOMAINS/12_C02_MATH_COMPUTE/00_INDEX/DOMAIN_INDEX_MOC|12 C02 Math Compute]] — Mathematical formalism for physical models
-- [[21_DOMAINS/15_SPACE_EXPLORATION/00_INDEX/DOMAIN_INDEX_MOC|15 Space Exploration]] — Astrophysics and orbital mechanics
+- [[21_DOMAINS/60_SPACE_EXPLORATION/00_INDEX/DOMAIN_INDEX_MOC|15 Space Exploration]] — Astrophysics and orbital mechanics
 - [[21_DOMAINS/41_QUANTUM_SYSTEMS/00_INDEX/DOMAIN_INDEX_MOC|41 Quantum Systems]] — Quantum mechanics and quantum computing
 - [[21_DOMAINS/22_C12_EARTH_ECOLOGY/00_INDEX/DOMAIN_INDEX_MOC|22 C12 Earth Ecology]] — Earth system physics and atmospheric dynamics
 

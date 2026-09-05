@@ -144,7 +144,7 @@ This partition is derived from [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BR
 - **F — Stewardship / archive plane** → [[24_ARCHIVE/24_ARCHIVE_MOC|24_ARCHIVE]]
 - **Known structural GAPs / strays**:
   - 08_PLANETARY — not in the canonical MECE tree; status = UNKNOWN/GAP pending allocation or archival. **Resolution**: 08_PLANETARY is Layer 6 (Planetary & Ecological) of the Omniverse Brain architecture. Workflows were renumbered to `26_WORKFLOWS` (2026-09-04) to resolve the numbering collision. Recommended: either keep 08_PLANETARY as-is or integrate into `21_DOMAINS/22_C12_EARTH_ECOLOGY/`.
-  - Root-level 04_STRATEGY_MOC — not in the canonical MECE tree; status = UNKNOWN/GAP pending allocation or archival.
+  - Root-level 55_STRATEGY_MOC — not in the canonical MECE tree; status = UNKNOWN/GAP pending allocation or archival.
   - `00_ROOT_MAP\nand/` — corrupted stray directory with literal newline in name; should be deleted.
 
 ______________________________________________________________________
