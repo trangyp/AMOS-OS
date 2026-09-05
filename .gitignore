@@ -51,3 +51,7 @@ copilot/copilot-conversations/*.md
 scripts/.tagmigrate-backup-*/
 scripts/.tagmigrate*-backup-*/
 
+
+# Generated skill artifacts
+skills-lock.json
+skill-check.config.json
