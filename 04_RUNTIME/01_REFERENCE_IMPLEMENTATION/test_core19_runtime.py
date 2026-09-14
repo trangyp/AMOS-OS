@@ -80,14 +80,15 @@ class Core19RuntimeTests(unittest.TestCase):
                 c.ImplementationStatus.EXECUTABLE_BOUNDED_CANDIDATE_REBOUND,
             )
 
-    def test_tensor_coordinate_requires_explicit_scale_context_regime(self):
+    def test_tensor_coordinate_requires_explicit_six_axis_binding(self):
         with self.assertRaises(ValueError):
             c.TensorCoordinate(
                 c.Core19.P01_EXISTENCE,
                 c.Core19.P03_CAUSALITY,
-                "",
+                "H",
                 "ctx",
                 "r",
+                "",
             )
         coord = c.TensorCoordinate(
             c.Core19.P01_EXISTENCE,
@@ -95,8 +96,10 @@ class Core19RuntimeTests(unittest.TestCase):
             "H",
             "runtime",
             "active",
+            "auditor",
         )
         self.assertEqual(coord.scale, "H")
+        self.assertEqual(coord.observer, "auditor")
 
     def test_promotion_requires_every_gate(self):
         full = dict(
