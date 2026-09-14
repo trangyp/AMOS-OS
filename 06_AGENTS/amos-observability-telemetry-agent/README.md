@@ -1,85 +1,123 @@
 ---
 title: AMOS Observability & Telemetry Agent
 type: agent_specification
-status: ACTIVE
-conclusion_class: DERIVED
+status: ACTIVE_LOCAL_REFERENCE
+conclusion_class: AMOS_MODEL
 origin_architect: Trang Phan
 governed_by: [[06_AGENTS/AGENT_ROLE_REGISTRY.md|AGENT_ROLE_REGISTRY]]
 role_category: ASSURANCE_LIFECYCLE
-rscf-state: source-claim
+rscf-state: AMOS_MODEL
 ---
 
-# AMOS Observability & Telemetry Agent (`amos-observability-telemetry-agent`)
+# AMOS Observability & Telemetry Agent
 
-## Overview
-Aggregates OpenTelemetry spans, resource metrics, cognitive drift indicators, and health heatmaps.
+## Role
 
-## Governing Contracts & Axioms
-- Governed under the canonical [[AGENTS.md|AMOS Agent Contract]] lineage boundary (v3.0 -> v4.4).
-- Adheres to the central axiom: `CAPABILITY != AUTHORITY`, `DOCUMENTED != IMPLEMENTED`.
-- Role Category: **ASSURANCE_LIFECYCLE** per [[06_AGENTS/AGENT_ROLE_REGISTRY.md|Agent Role Registry]].
+This agent audits attributable execution evidence from workflows, agents, models, tools, memory operations, evaluations, and external effects.
 
-## Primary Invariants
-> [!IMPORTANT]
-> Trace context propagation, non-blocking telemetry pipelines, lossless metric rollups.
+Executable trace semantics are owned by:
 
-## Operational Boundaries & Tools
-- Primary Planes: [[17_OBSERVABILITY/17_OBSERVABILITY_MOC]], [[20_OPERATIONS/20_OPERATIONS_MOC]], [[04_RUNTIME/04_RUNTIME_MOC]]
-- Telemetry & Observability: [[17_OBSERVABILITY/17_OBSERVABILITY_MOC.md|17_OBSERVABILITY]]
-- Provenance Receipts: [[03_CONTROL_PLANE/05_PROVENANCE/05_PROVENANCE_MOC.md|05_PROVENANCE]]
+- `17_OBSERVABILITY/agent_trace_runtime.py`
+- `07_SKILLS/amos-agentops-observability-rscf/SKILL.md`
+- `17_OBSERVABILITY/DISTRIBUTED_EPISTEMIC_TRACING_FRAMEWORK.md`
 
-## Interface Contract
-```protobuf
-syntax = "proto3";
-package amos.agents.amos_observability_telemetry_agent;
+It is an assurance/read layer beneath AMOS control-plane authority.
 
-message AgentTaskRequest {
-  string task_id = 1;
-  string session_id = 2;
-  string target_uri = 3;
-  bytes input_tensor = 4;
-  map<string, string> context_metadata = 5;
-}
+## Hard boundaries
 
-message AgentTaskResponse {
-  string task_id = 1;
-  enum Status {
-    SUCCESS = 0;
-    VERIFICATION_FAILED = 1;
-    INVARIANT_BREACH = 2;
-    TIMEOUT = 3;
-  }
-  Status status = 2;
-  bytes result_payload = 3;
-  string receipt_hash = 4;
-  double confidence_score = 5;
-}
+```text
+CAPABILITY != AUTHORITY
+OBSERVABILITY != AUTHORITY
+TRACE_EDGE != CAUSAL_PROOF
+SPAN_SUCCESS != EFFECT_COMMITTED
+NO_SPAN != NO_EVENT
+SAMPLED_TRACE != COMPLETE_TRACE
+HASH_MATCH != TRUST
 ```
 
+The agent may inspect evidence and emit findings. It does not authorize world effects, promote canon, finalize state, or convert telemetry into validated knowledge.
+
+## Trace responsibilities
+
+The bounded local reference can check:
+
+- trace/span identifier shape;
+- parent integrity and cycles;
+- one-root local trace structure;
+- explicit span/effect states;
+- sampling/drop/collector/known-instrumentation missingness;
+- content-capture mode;
+- authority/receipt references on locally recorded committed effects;
+- canonical receipt identity;
+- entropy/KL calculations under their declared probability domains.
+
+## Content policy
+
+Default tracing is metadata-only.
+
+```text
+RAW INPUT/OUTPUT/PROMPT/TOOL CONTENT
+```
+
+is not automatically logged.
+
+Full content capture requires explicit capture authority and still does not prove privacy, legal, retention, or export compliance.
+
+## Loss boundary
+
+There is no `lossless telemetry` invariant.
+
+Sampling, backpressure, disabled instrumentation, dropped spans, collector faults, retention loss, and schema/parser failures are valid missingness states and must remain visible.
+
+## Evidence states
+
+Use the narrowest applicable state:
+
+```text
+VERIFIED
+DERIVED
+MODEL
+CONDITIONAL
+COMPETING
+UNKNOWN/GAP
+```
+
+A structurally valid trace is evidence that the trace satisfies the tested contract; it is not evidence that every real execution event was observed or that the underlying action was semantically correct.
+
+## Upstream mechanism mapping
+
+Current research coordinates used by the local design:
+
+- OpenTelemetry semantic conventions — `a11c510432b66cca046e79908898856bf0ebfd1a`
+- OpenLLMetry — `62e24c2ffde6c1ee04dc290e52d8d5dbda054cff`
+- Arize Phoenix — `e12748298b366605cc0e2aa60e659f473efbff99`
+
+External semantics remain source evidence. Local naming similarity does not establish protocol conformance.
+
+## Current implementation boundary
+
+Implemented/testable locally:
+
+- deterministic trace contract;
+- missingness classification;
+- bounded content-capture checks;
+- effect evidence checks;
+- receipt hashing;
+- probability/entropy/KL domain checks.
+
+Still `UNKNOWN/GAP` without separate evidence:
+
+- deployed OpenTelemetry SDK/collector/exporter integration;
+- cross-host propagation completeness;
+- production performance and storage durability;
+- global clock correctness;
+- privacy/compliance sufficiency;
+- semantic quality of annotations/evaluations;
+- production incident reconstruction coverage.
+
 ## Navigation
-- Return to: [[06_AGENTS/06_AGENTS_MOC.md|06_AGENTS MOC]], [[00_ROOT/00_ROOT_MOC.md|Root MOC]].
 
-## Purpose
-
-This README provides the human-facing entry point for the `amos-observability-telemetry-agent` plane. It explains the plane's role in AMOS OS, its boundaries, and how to navigate its contents.
-
-## Scope
-
-This plane covers `amos-observability-telemetry-agent` concerns within the AMOS OS architecture. It is mutually exclusive with other numbered planes and collectively exhaustive with respect to the system's functional decomposition.
-
-**In scope:** contracts, MOCs, specifications, and operational notes under this plane.
-**Out of scope:** implementation details of sibling planes; hardware abstraction in `02_KERNEL`; user interface rendering in `15_INTERFACES`.
-
-## Invariants
-
-| ID | Invariant |
-|----|-----------|
-| AMOS-OBSERVABILITY-TELEMETRY-AGENT_README_INV_01 | This README remains the primary human-facing entry point for the plane. |
-| AMOS-OBSERVABILITY-TELEMETRY-AGENT_README_INV_02 | All canonical files in this plane are reachable from the plane MOC. |
-| AMOS-OBSERVABILITY-TELEMETRY-AGENT_README_INV_03 | No plane-specific claim is promoted to `01_CANON` without authority. |
-
-## Cross References
-- [[amos-observability-telemetry-agent/amos-observability-telemetry-agent_MOC|amos-observability-telemetry-agent_MOC]]
-- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
-- [[_MOC|Root _MOC]]
-- [[AGENTS|AGENTS.md]]
+- [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY]]
+- [[17_OBSERVABILITY/OBSERVABILITY_OBSERVABILITY_CONTRACT|Observability Contract]]
+- [[06_AGENTS/06_AGENTS_MOC|06_AGENTS MOC]]
+- [[00_ROOT/00_ROOT_MOC|Root MOC]]
