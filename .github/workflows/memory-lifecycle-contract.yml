@@ -1,0 +1,121 @@
+name: Memory Lifecycle Contract
+
+on:
+  pull_request:
+    branches: [main, durable-workflow-runtime-hardening]
+    paths:
+      - '07_SKILLS/amos-agent-memory-dynamics-rscf-engine/**'
+      - '06_AGENTS/amos-agent-memory-dynamics-rscf-engine-agent.json'
+      - '08_WORKFLOWS/amos-agent-memory-dynamics-rscf-engine-workflow.md'
+      - '10_MEMORY/EXECUTABLE_MEMORY_LIFECYCLE_CONTRACT.md'
+      - '19_TESTS/test_memory_lifecycle.py'
+      - '26_WORKFLOWS/amos-agent-memory-dynamics-rscf-engine-workflow.md'
+      - '.github/agents/amos-memory-runtime-auditor.agent.md'
+      - '.github/workflows/memory-lifecycle-contract.yml'
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  memory-contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+
+      - name: Setup Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+
+      - name: Compile memory runtime surfaces
+        run: |
+          python -m py_compile \
+            07_SKILLS/amos-agent-memory-dynamics-rscf-engine/scripts/memory_lifecycle.py \
+            19_TESTS/test_memory_lifecycle.py
+
+      - name: Execute memory lifecycle self-test
+        run: python 07_SKILLS/amos-agent-memory-dynamics-rscf-engine/scripts/memory_lifecycle.py --self-test
+
+      - name: Execute memory lifecycle regression suite
+        run: python -m unittest -v 19_TESTS/test_memory_lifecycle.py
+
+      - name: Reject stale revision write
+        run: |
+          python - <<'PY'
+          import importlib.util, sys
+          from pathlib import Path
+          p=Path('07_SKILLS/amos-agent-memory-dynamics-rscf-engine/scripts/memory_lifecycle.py')
+          s=importlib.util.spec_from_file_location('mem_ci', p)
+          m=importlib.util.module_from_spec(s); sys.modules[s.name]=m; s.loader.exec_module(m)
+          store=m.MemoryLifecycleStore()
+          store.admit(memory_id='m', namespace='n', content='a', provenance_id='p1', required_scope='n:r', recorded_at='2026-09-14T00:00:00Z')
+          store.revise(memory_id='m', expected_revision=1, content='b', provenance_id='p2', effective_at='2026-09-14T01:00:00Z', recorded_at='2026-09-14T01:00:00Z')
+          try:
+              store.revise(memory_id='m', expected_revision=1, content='c', provenance_id='p3')
+          except m.MemoryConflictError:
+              print('stale write rejected: PASS')
+          else:
+              raise SystemExit('stale write was admitted')
+          finally:
+              store.close()
+          PY
+
+      - name: Reject normal retrieval of quarantined memory
+        run: |
+          python - <<'PY'
+          import importlib.util, sys
+          from pathlib import Path
+          p=Path('07_SKILLS/amos-agent-memory-dynamics-rscf-engine/scripts/memory_lifecycle.py')
+          s=importlib.util.spec_from_file_location('mem_q_ci', p)
+          m=importlib.util.module_from_spec(s); sys.modules[s.name]=m; s.loader.exec_module(m)
+          store=m.MemoryLifecycleStore()
+          store.admit(memory_id='m', namespace='n', content='a', provenance_id='p1', required_scope='n:r', recorded_at='2026-09-14T00:00:00Z')
+          store.quarantine('m', expected_revision=1, reason='conflict')
+          try:
+              store.get('m', scopes={'n:r'})
+          except m.MemoryStateError:
+              print('quarantine retrieval gate: PASS')
+          else:
+              raise SystemExit('quarantined memory leaked into normal retrieval')
+          finally:
+              store.close()
+          PY
+
+      - name: Reject unauthorized memory read
+        run: |
+          python - <<'PY'
+          import importlib.util, sys
+          from pathlib import Path
+          p=Path('07_SKILLS/amos-agent-memory-dynamics-rscf-engine/scripts/memory_lifecycle.py')
+          s=importlib.util.spec_from_file_location('mem_auth_ci', p)
+          m=importlib.util.module_from_spec(s); sys.modules[s.name]=m; s.loader.exec_module(m)
+          store=m.MemoryLifecycleStore()
+          store.admit(memory_id='m', namespace='n', content='a', provenance_id='p1', required_scope='n:r', recorded_at='2026-09-14T00:00:00Z')
+          try:
+              store.get('m', scopes={'other:r'})
+          except m.MemoryAuthorityError:
+              print('scope gate: PASS')
+          else:
+              raise SystemExit('unauthorized memory read was admitted')
+          finally:
+              store.close()
+          PY
+
+      - name: Record bounded evidence
+        run: |
+          {
+            echo '### Memory Lifecycle Contract'
+            echo '- Local SQLite lifecycle semantics: EXECUTED_TESTED_SCOPE'
+            echo '- Stale-write rejection: TESTED'
+            echo '- Quarantine retrieval isolation: TESTED'
+            echo '- Local scope gate: TESTED_CONTRACT_ONLY'
+            echo '- Distributed memory: UNKNOWN/GAP'
+            echo '- Privacy/compliance: UNKNOWN/GAP'
+            echo '- Production authorization: UNKNOWN/GAP'
+            echo '- Deployment authority: NONE'
+          } >> "$GITHUB_STEP_SUMMARY"

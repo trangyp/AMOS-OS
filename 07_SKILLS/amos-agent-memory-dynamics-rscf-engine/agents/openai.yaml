@@ -1,0 +1,3 @@
+interface:
+  display_name: "AMOS Agent Memory Dynamics"
+  short_description: "Govern versioned agent memory, context snapshots, conflicts, provenance, and lifecycle integrity."
