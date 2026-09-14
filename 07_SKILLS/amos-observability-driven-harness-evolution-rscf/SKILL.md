@@ -89,11 +89,13 @@ Read [references/formal-contract.md](references/formal-contract.md) before chang
 
 ## Deterministic surfaces
 
-- Runtime: `scripts/harness_evolution_runtime.py`
-- Receipt validator: `scripts/harness_evolution_contract_check.py`
-- Repository regression suite: `19_TESTS/test_harness_evolution_runtime.py`
+- Evidence-store/base runtime: `scripts/harness_evolution_runtime.py`
+- Active fail-closed decision runtime: `scripts/harness_evolution_guarded_runtime.py`
+- Base receipt validator: `scripts/harness_evolution_contract_check.py`
+- Active fail-closed receipt validator: `scripts/harness_evolution_guarded_contract_check.py`
+- Repository regression suites: `19_TESTS/test_harness_evolution_runtime.py` and `19_TESTS/test_harness_evolution_guarded_runtime.py`
 
-Run the runtime self-test, receipt-validator self-test, and repository regression suite after changing semantics.
+Use the guarded runtime for verdict admission. The base runtime remains part of the evidence-store lineage but must not be used alone to admit KEEP/ROLLBACK. Run both regression suites and both guarded/base self-tests after changing semantics.
 
 ## Parent/dependency contract
 
