@@ -1,107 +1,142 @@
 ---
 name: amos-interactive-evaluation-design-rscf
-description: Design, audit, and evidence interactive evaluations for AMOS agents, skills, workflows, and tool-using systems. Use when final-response scoring is insufficient; when trajectories, recoverability, authority/process compliance, adversarial behavior, efficiency, or runtime evidence must be evaluated; or when test/benchmark claims need provenance-bound promotion or downgrade.
+description: Design, execute, audit, compare, and govern evidence for interactive AMOS evaluations of agents, Skills, workflows, tools, and harness mutations. Use when final-answer scoring is insufficient; when trajectory/process/recovery evidence matters; when tool-result review must continue, terminate, or escalate; when model judges or external eval runners disagree; when sampled runs must not be confused with complete coverage; or when baseline-vs-candidate harness changes require a bounded KEEP, ROLLBACK, or INCONCLUSIVE verdict.
 ---
 
 # AMOS Interactive Evaluation Design RSCF
 
-Origin architect and steward: **Trang Phan**.
+Origin architect/steward: **Trang Phan**.
 
-## Core invariants
+Treat evaluation as evidence production, not authority or truth promotion.
+
+## Hard invariants
 
 - `FINAL_RESPONSE_QUALITY != TRAJECTORY_QUALITY`
 - `OUTCOME_SUCCESS != PROCESS_COMPLIANCE`
+- `OBSERVATION != EVALUATION`
+- `EVALUATION != INTERVENTION`
+- `REVIEW_DECISION != RUNTIME_AUTHORITY`
+- `MODEL_JUDGE_SCORE != GROUND_TRUTH`
+- `JUDGE_AGREEMENT != GROUND_TRUTH`
+- `SAMPLED_PASS != COMPLETE_PASS`
 - `TEST_SPECIFIED != TEST_EXECUTED`
 - `TEST_EXECUTED != TEST_REPRODUCIBLE`
-- `MODEL_JUDGE_SCORE != GROUND_TRUTH`
-- `RED_TEAM_NO_FINDING != SAFE`
+- `SCORE_DELTA != CAUSAL_ATTRIBUTION`
 - `BENCHMARK_SCORE != DEPLOYMENT_VALIDITY`
 - `TEST_PASS != TRUTH`
 
-Do not request or expose private chain-of-thought. Evaluate observable plans, tool/action choices, state transitions, receipts, and outputs.
+Do not request hidden chain-of-thought. Use observable actions, tool calls/results, state transitions, receipts, outputs, and explicit review/evaluation artifacts.
 
-## Evaluation workflow
+## Evaluation runtime
 
-1. **Resolve the target**
-   - Bind target artifact/runtime identity, version/ref, scope, regime, and decision the evaluation will inform.
-   - Separate model/reference implementation from deployed runtime.
+1. Bind exact evaluation identity:
+   - suite;
+   - target + version;
+   - environment;
+   - harness + version;
+   - evaluator set + version;
+   - model/config;
+   - budget;
+   - task cohort;
+   - evidence archetype;
+   - trace/round-trip receipt when relevant.
+2. Classify evidence as `CONTRACT|INTERVENTION|PROCESS|OUTCOME_PROPERTY`.
+3. Record per-task outcome, process, safety, recovery, and critical-failure state separately.
+4. Record judge outputs as append-only evidence with evaluator identity/version and evidence reference.
+5. Preserve disagreement. Do not average materially competing judge outputs into false certainty.
+6. Review executed tool/trajectory results with `CONTINUE|TERMINATE|ESCALATE` only as evaluation-control decisions.
+7. Record expected vs observed task counts. Partial sampling remains incomplete coverage.
+8. Seal the run before relying on its receipt.
+9. Compare baseline/candidate runs only when all load-bearing axes except the declared mutation axis are frozen.
+10. Return harness-mutation verdict `KEEP|ROLLBACK|INCONCLUSIVE` from observed fixes/regressions, critical regressions, and attribution plausibility.
 
-2. **Choose the evidence lane**
-   - deterministic contract;
-   - process/trajectory;
-   - adversarial/red-team;
-   - model-dependent semantic evaluation;
-   - runtime/performance;
-   - production/deployment validation.
+## Frozen-axis comparison contract
 
-3. **Define the oracle and falsifiers**
-   - State what constitutes success/failure.
-   - Check that the oracle is not merely the same policy rewritten.
-   - Include negative, malformed, stale, unauthorized, replay, timeout, and recovery cases when applicable.
+For harness attribution, keep these identical unless the experiment explicitly targets one of them:
 
-4. **Capture trajectory evidence**
-   - Preserve objective, constraints, authority state, actions/tool calls, state transitions, failures, recovery, terminal state, and final output.
-   - Keep external tool/model outputs provenance-bound and untrusted until admitted.
+- suite and task cohort;
+- target implementation/version;
+- environment identity;
+- harness identity (version may differ as the mutation axis);
+- evaluator set/version;
+- base model + model configuration;
+- evaluation budget;
+- evidence archetype.
 
-5. **Execute or classify honestly**
-   - If no run occurred, return `CONCEPTUAL_ONLY` or `UNKNOWN` rather than PASS.
-   - If a historical receipt exists but the harness is missing, return `NON_REPRODUCIBLE`.
-   - If execution occurred on a model/reference implementation, do not promote it to production-runtime validation.
+A mismatch makes the pair `NOT_COMPARABLE`; do not manufacture deltas.
 
-6. **Bind evidence**
-   - Record harness and receipt paths/hashes, environment, source identity, result counts, seeds/workload when applicable, non-coverage, and failure traces.
-   - Use `scripts/eval_registry.py` for machine validation of the AMOS evidence registry.
+## Review contract
 
-7. **Return the narrowest verdict**
-   - `VERIFIED_TESTED_SCOPE`
-   - `PARTIAL`
-   - `INVALIDATED_EVIDENCE`
-   - `CONCEPTUAL_ONLY`
-   - `NON_REPRODUCIBLE`
-   - `UNKNOWN`
+Adapt post-tool review as a separate evidence stage:
 
-## Deterministic evidence registry
+- `CONTINUE`: pass evaluation control onward; does not authorize the tool/effect.
+- `TERMINATE`: stop the evaluation/sample; does not revoke external runtime authority.
+- `ESCALATE`: route to the next reviewer; does not escalate privileges.
 
-Validate the repository evidence registry with:
+Bind each review to the exact subject reference/hash and reviewer identity/version.
+
+## Deterministic surfaces
+
+- Runtime: `scripts/evaluation_runtime.py`
+- Runtime receipt validator: `scripts/evaluation_contract_check.py`
+- Historical evidence-registry validator: `scripts/eval_registry.py`
+- Regression suite in AMOS repo: `19_TESTS/test_agent_evaluation_runtime.py`
+
+Run all deterministic tests after changing runtime semantics.
+
+## Evidence registry
+
+For repository evidence promotion, validate:
 
 ```bash
-python 07_SKILLS/amos-interactive-evaluation-design-rscf/scripts/eval_registry.py \
-  19_TESTS/EVAL_EVIDENCE_REGISTRY.json \
-  --repo .
+python scripts/eval_registry.py <registry.json> --repo <repo-root>
 ```
 
-Run the script self-test after editing it:
+`VERIFIED_TESTED_SCOPE` requires exact repository harness/receipt blob hashes plus bounded result/environment metadata. Never weaken the registry to preserve an old PASS label.
 
-```bash
-python 07_SKILLS/amos-interactive-evaluation-design-rscf/scripts/eval_registry.py --self-test
-```
+## External runners and judges
 
-A `VERIFIED_TESTED_SCOPE` entry must bind to exact in-repository harness and receipt Git blob hashes plus result counts and environment metadata. Do not weaken this rule to preserve a prior PASS label.
+Inspect AI, Promptfoo, monitorability datasets, OpenHands benchmarks, and similar frameworks may supply execution/review/eval mechanisms. Treat them as infrastructure or source evidence only.
 
-## External evaluation runners
+When using external systems:
 
-External frameworks such as Promptfoo may be used for CI-friendly evals, red-team case generation, model comparison, or local/private execution when appropriate. Treat them as execution infrastructure, not epistemic authority.
+- pin source/version for reproducibility;
+- bind exact config/environment/model identity;
+- preserve raw results outside the compact receipt when allowed;
+- keep secrets and raw prompts/outputs out of durable AMOS receipts by default;
+- keep deterministic and model-dependent evaluation lanes separate;
+- record sampling/missingness explicitly;
+- preserve evaluator disagreement;
+- never infer deployment authority from a score.
 
-Before adopting an external runner:
-- pin source/version where reproducibility matters;
-- inspect dependency and secret requirements;
-- keep deterministic and model-dependent lanes separate;
-- preserve raw results/configuration;
-- do not make API keys mandatory for baseline structural gates;
-- keep model/provider scores scoped to the exact evaluated configuration.
+Read [references/evidence-model.md](references/evidence-model.md) for evidence lanes, trajectory fields, comparison rules, and mutation metrics. Read [references/upstream-mechanisms.md](references/upstream-mechanisms.md) before making source-specific claims about external evaluation frameworks.
 
-## Failure handling
+## Failure behavior
 
-- Missing target identity -> `UNKNOWN`.
-- Missing harness for a claimed reproducible result -> `NON_REPRODUCIBLE`.
-- Receipt/harness hash drift -> invalidate until rerun/review.
-- Judge disagreement -> preserve competing results; do not average away material disagreement automatically.
-- Ambiguous external effect during an eval -> reconcile before retry.
-- Performance claim without exact environment/workload -> downgrade.
-- Safety/red-team scan with no findings -> do not infer universal safety.
+- Missing target/version/environment identity -> `UNKNOWN`.
+- Missing historical harness -> `NON_REPRODUCIBLE`.
+- Stale harness/receipt hash -> `INVALIDATED_EVIDENCE` until rerun/review.
+- Incomplete sample -> preserve coverage gap; do not promote to complete pass.
+- Judge disagreement -> `COMPETING`; do not silently average.
+- Baseline/candidate frozen-axis mismatch -> `NOT_COMPARABLE`.
+- Critical regression -> mutation cannot receive `KEEP`.
+- Benefit without plausible attribution -> `INCONCLUSIVE`.
+- External effect ambiguity -> reconcile effect state before retry/finality claims.
+- Raw sensitive content in compact receipt -> reject.
 
-## References
+## Output contract
 
-Read `references/evidence-model.md` for trajectory fields, evidence lanes, judge controls, and falsifiers.
+Return the smallest sufficient evaluation capsule:
 
-Use `19_TESTS/TESTS_TEST_CONTRACT.md` for AMOS test-plane governance and `19_TESTS/EVAL_EVIDENCE_REGISTRY.json` for current machine-readable evidence status.
+- target/run identity;
+- evidence archetype and lanes;
+- expected/observed coverage;
+- process/outcome/safety/recovery findings;
+- reviewer decisions;
+- evaluator disagreement;
+- baseline/candidate comparability;
+- fixes/regressions/critical regressions;
+- bounded verdict;
+- explicit non-coverage;
+- provenance and falsifier;
+- authority/deployment claim ceiling.
