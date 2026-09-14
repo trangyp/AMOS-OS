@@ -22,7 +22,7 @@ created: 2026-08-22
 
 ## 0. Status
 
-Cognitive Matrix-plane contract for **CELL CONTRACTS CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+Cognitive Matrix-plane contract for **CELL CONTRACTS CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation BOUNDED_PARTIAL. Executable bindings exist for cell bindings/status projection, gap lifecycle, dependency audit, and invalidation audit. Full contract semantics are not claimed implemented.
 
 ## 1. Scope
 
@@ -34,47 +34,58 @@ Governs primitives L00–L29, lifecycle operations O00–O16, control planes C01
 - **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
 - **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
 - **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
-- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
+- **Selective invalidation is conditional** — descendant-only invalidation requires a current typed dependency graph and decision-relevant closure; unknown dependency coverage blocks narrow-finality claims.
 
 ## 3. Invariants
 
 - Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
-- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
-- Consequential effects emit receipts; rollback basin exists before mutation.
+- Confidence may not exceed the weakest load-bearing premise; numeric ceilings require explicit policy provenance.
+- Consequential effects require separate authority and commit gates.
 - Competing hypotheses remain visible when evidence does not discriminate.
+- Cell-binding, evidence, authority, dependency, and state-version coordinates may not be silently merged.
 
 ## 4. Executed reference
 
-No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
+Bounded executor and regression owners:
+
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/cognitive_matrix_contract_runtime.py`
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/test_cognitive_matrix_contract_runtime.py`
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/matrix_registry_runtime.py`
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/test_matrix_registry_runtime.py`
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/cognitive_matrix_plane_registry.py`
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/test_cognitive_matrix_plane_registry.py`
+
+The 01–12 plane execution registry passed GitHub Actions run `34851961830` at commit `fdeeb0eaa501d124847e0ad9b0e244409cfd4311`. That is bounded regression evidence only.
 
 ## 5. Gaps
 
-Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
+OPEN: complete executable coverage for every documented cell-contract surface; durable transactional persistence; cross-process version/finality handling; semantic validators for every cell type; complete authority/effect integration; empirical validation outside bounded tests.
 
 ## 6. Falsifiers
 
-F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
+F1: canonical source defines different semantics for this surface. F2: executed tests contradict an invariant. F3: a protected firewall collapses. F4: gap closure occurs without resolution evidence and revalidation. F5: stale or mismatched cell bindings are accepted as current.
 
 ## Worked semantics
 
 Given an operation touching `COGNITIVE MATRIX · CELL CONTRACTS CONTRACT` within the Cognitive Matrix plane:
 
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+1. **Admit** — resolve artifact and exact state_version; unresolved identity ⇒ `UNKNOWN/GAP`.
+1. **Bind coordinates** — preserve source, evidence, dependency, authority, scope, regime, and state-version identities separately.
+1. **Validate preconditions** — reject mismatched or stale bindings.
+1. **Propose** — candidate changes remain proposals.
+1. **Revalidate** — gap closure requires typed resolution evidence plus fresh dependency revalidation.
+1. **Commit or hold** — consequential effects remain outside this contract until external commit authority passes.
 
 ## Promotion-gate checklist
 
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+- [x] typed bounded schemas implemented for major contract coordinates
+- [x] identity/state-version mismatch cases tested
+- [x] gap-resolution and revalidation state machine tested
+- [x] dependency and invalidation audit wrappers implemented
+- [ ] every documented cell-contract artifact has a specific executable validator
+- [ ] durable persistence and transactional recovery demonstrated
+- [ ] external effect authority integrated where consequential
+- [ ] remaining critical gaps stay visible as UNKNOWN/GAP
 
 ## Cross-plane bindings
 
