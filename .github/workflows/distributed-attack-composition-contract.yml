@@ -1,0 +1,54 @@
+name: Distributed Attack Composition Contract
+on:
+  pull_request:
+    paths:
+      - '07_SKILLS/amos-distributed-attack-composition-monitor-rscf/**'
+      - '06_AGENTS/amos-distributed-attack-composition-monitor-rscf-agent.json'
+      - '08_WORKFLOWS/amos-distributed-attack-composition-monitor-rscf-workflow.md'
+      - '26_WORKFLOWS/amos-distributed-attack-composition-monitor-rscf-workflow.md'
+      - '11_KNOWLEDGE/DISTRIBUTED_ATTACK_COMPOSITION_SOURCES.md'
+      - '14_TOOLS/DISTRIBUTED_ATTACK_COMPOSITION_VERIFIER.md'
+      - '14_TOOLS/DISTRIBUTED_ATTACK_COMPOSITION_REGISTRY_EXTENSION.md'
+      - '19_TESTS/test_distributed_attack_composition.py'
+      - '.github/agents/amos-distributed-attack-composition-auditor.agent.md'
+      - '.github/workflows/distributed-attack-composition-contract.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  composition-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: '3.12'
+      - name: Compile
+        run: python -m py_compile 07_SKILLS/amos-distributed-attack-composition-monitor-rscf/scripts/composition_monitor.py 07_SKILLS/amos-distributed-attack-composition-monitor-rscf/scripts/audit_rscf.py 19_TESTS/test_distributed_attack_composition.py
+      - name: Test
+        env:
+          PYTHONWARNINGS: error::ResourceWarning
+        run: python -m unittest -q 19_TESTS/test_distributed_attack_composition.py
+      - name: Self-tests
+        run: |
+          python 07_SKILLS/amos-distributed-attack-composition-monitor-rscf/scripts/composition_monitor.py --self-test
+          python 07_SKILLS/amos-distributed-attack-composition-monitor-rscf/scripts/audit_rscf.py --self-test
+      - name: Firewalls
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          skill = Path('07_SKILLS/amos-distributed-attack-composition-monitor-rscf/SKILL.md').read_text()
+          agent = json.loads(Path('06_AGENTS/amos-distributed-attack-composition-monitor-rscf-agent.json').read_text())
+          assert 'LOCAL_ALLOW != GLOBAL_SAFE' in skill
+          assert 'COMPOSITION_MATCH != ADVERSARIAL_INTENT_PROOF' in skill
+          g = agent['governance']
+          assert g['execution_authority'] == 'none'
+          assert g['deployment_authority'] == 'none'
+          assert g['merge_authority'] == 'none'
+          assert g['canonical_promotion_authority'] == 'none'
+          o = agent['observability']
+          assert o['log_inputs'] is False
+          assert o['log_outputs'] is False
+          assert o['log_intermediate'] is False
+          PY
