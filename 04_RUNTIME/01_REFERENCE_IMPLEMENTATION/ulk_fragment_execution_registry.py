@@ -43,6 +43,8 @@ class ExecutionBinding:
 
 
 ALU02_CHECKER_SHA256 = "002a4c72adf0afaa7ad1b33792008ea6a525ca43b69ae4eff301c1b06a135275"
+ALU04_CHECKER_SHA256 = "d54bcc3d6eecd4a07a1f4174b3c36f6fe928d2683f01b98269da64e0e2797bbd"
+ALU05_CHECKER_SHA256 = "966f687c902988e5127a8e38df9984dbff3da6f6eeda22db25f92120b7faeec1"
 UNIFIED_BRAIN_CURRENT_REVISION = "0B_FlOTCuYcaFdVpKNEFLOTNHcFM3Q01GVGx4TmpVTTBHVytrPQ"
 ALU03_SOURCE_METHOD_AST_SHA256 = "9eecefbdc60faa0fe70ff758400174130ac536fc92debe7d85f22d55759c7f9f"
 ALU07_SOURCE_METHOD_AST_SHA256 = "754402e1a342f4eee7d4bf6c19c155a0ff6257cab82bcaf1f1e3bedbcec98410"
@@ -71,6 +73,20 @@ _BINDINGS: Dict[Fragment, ExecutionBinding] = {
         source_revision_id=UNIFIED_BRAIN_CURRENT_REVISION,
         source_method_ast_sha256=ALU03_SOURCE_METHOD_AST_SHA256,
     ),
+    Fragment.ALU04_EPISTEMIC_MODAL: ExecutionBinding(
+        Fragment.ALU04_EPISTEMIC_MODAL,
+        ExecutionStatus.EXECUTABLE_BOUNDED_CANDIDATE_REBOUND,
+        "amos_ulk_alu04_finite_kripke_checker_v1.py",
+        ALU04_CHECKER_SHA256,
+        "finite Kripke-model propositional modal semantics for NOT/AND/OR/IMPLIES/BOX/DIAMOND; no dynamic/common-knowledge/probabilistic/infinite-model completeness claim",
+    ),
+    Fragment.ALU05_NON_MONOTONIC_DUNG: ExecutionBinding(
+        Fragment.ALU05_NON_MONOTONIC_DUNG,
+        ExecutionStatus.EXECUTABLE_BOUNDED_CANDIDATE_REBOUND,
+        "amos_ulk_alu05_dung_checker_v1.py",
+        ALU05_CHECKER_SHA256,
+        "finite Dung abstract argumentation: conflict-free, defence, characteristic function, grounded extension, admissibility, bounded preferred enumeration",
+    ),
     Fragment.ALU07_QUANTUM_LOGIC: ExecutionBinding(
         Fragment.ALU07_QUANTUM_LOGIC,
         ExecutionStatus.EXECUTABLE_BOUNDED_CANDIDATE_REBOUND,
@@ -98,29 +114,34 @@ def execution_binding(fragment: Fragment) -> ExecutionBinding:
 
 def validate_execution_registry() -> tuple[str, ...]:
     failures = []
-    alu02 = execution_binding(Fragment.ALU02_FIRST_ORDER_UNIFICATION)
-    alu03 = execution_binding(Fragment.ALU03_TEMPORAL_LTL)
-    alu07 = execution_binding(Fragment.ALU07_QUANTUM_LOGIC)
-
-    for binding in (alu02, alu03, alu07):
+    rebound = (
+        execution_binding(Fragment.ALU02_FIRST_ORDER_UNIFICATION),
+        execution_binding(Fragment.ALU03_TEMPORAL_LTL),
+        execution_binding(Fragment.ALU04_EPISTEMIC_MODAL),
+        execution_binding(Fragment.ALU05_NON_MONOTONIC_DUNG),
+        execution_binding(Fragment.ALU07_QUANTUM_LOGIC),
+    )
+    for binding in rebound:
         if binding.canon_promoted:
             failures.append(f"{binding.fragment.name}_CANDIDATE_MUST_NOT_SELF_PROMOTE_CANON")
         if binding.status is not ExecutionStatus.EXECUTABLE_BOUNDED_CANDIDATE_REBOUND:
             failures.append(f"{binding.fragment.name}_REBOUND_STATUS_MISMATCH")
 
-    if alu02.checker_sha256 != ALU02_CHECKER_SHA256:
+    if execution_binding(Fragment.ALU02_FIRST_ORDER_UNIFICATION).checker_sha256 != ALU02_CHECKER_SHA256:
         failures.append("ALU02_CHECKER_HASH_MISMATCH")
+    if execution_binding(Fragment.ALU04_EPISTEMIC_MODAL).checker_sha256 != ALU04_CHECKER_SHA256:
+        failures.append("ALU04_CHECKER_HASH_MISMATCH")
+    if execution_binding(Fragment.ALU05_NON_MONOTONIC_DUNG).checker_sha256 != ALU05_CHECKER_SHA256:
+        failures.append("ALU05_CHECKER_HASH_MISMATCH")
+
+    alu03 = execution_binding(Fragment.ALU03_TEMPORAL_LTL)
+    alu07 = execution_binding(Fragment.ALU07_QUANTUM_LOGIC)
     if alu03.source_revision_id != UNIFIED_BRAIN_CURRENT_REVISION or alu03.source_method_ast_sha256 != ALU03_SOURCE_METHOD_AST_SHA256:
         failures.append("ALU03_SOURCE_BINDING_MISMATCH")
     if alu07.source_revision_id != UNIFIED_BRAIN_CURRENT_REVISION or alu07.source_method_ast_sha256 != ALU07_SOURCE_METHOD_AST_SHA256:
         failures.append("ALU07_SOURCE_BINDING_MISMATCH")
 
-    for frag in (
-        Fragment.ALU04_EPISTEMIC_MODAL,
-        Fragment.ALU05_NON_MONOTONIC_DUNG,
-        Fragment.ALU06_DEPENDENT_TYPE,
-        Fragment.ALU08_CATEGORICAL_TOPOS,
-    ):
+    for frag in (Fragment.ALU06_DEPENDENT_TYPE, Fragment.ALU08_CATEGORICAL_TOPOS):
         if execution_binding(frag).status is not ExecutionStatus.SPECIFICATION_ONLY:
             failures.append(f"{frag.name}_UNSUPPORTED_EXECUTION_PROMOTION")
     return tuple(failures)
