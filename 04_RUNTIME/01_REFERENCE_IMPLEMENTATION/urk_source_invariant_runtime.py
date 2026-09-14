@@ -85,11 +85,11 @@ def _fail(invariant_id: str, evidence: str) -> InvariantResult:
 def check_typed_axes() -> InvariantResult:
     invariant_id = "INV_TYPED_AXES"
     failures = validate_tensor_topology_invariants()
-    expected = ("row", "col", "scale", "context", "regime")
+    expected = ("row", "col", "scale", "context", "regime", "observer")
     actual = tuple(field.name for field in fields(TensorCoordinate))
     if failures or actual != expected:
         return _fail(invariant_id, f"tensor_failures={failures}; fields={actual}")
-    return _pass(invariant_id, "typed coordinate axes are distinct and runtime tensor invariants pass")
+    return _pass(invariant_id, "six typed coordinate axes are explicit, distinct, and runtime tensor invariants pass")
 
 
 def check_p02_conflict_preserved() -> InvariantResult:
@@ -131,11 +131,11 @@ def check_no_1einfinity_dimension() -> InvariantResult:
     forbidden_structural_fields = {"dimension", "dimensions", "shape", "cardinality"}
     if forbidden_structural_fields.intersection(actual):
         return _fail(invariant_id, f"untyped dimension field present: {actual}")
-    if actual != ("row", "col", "scale", "context", "regime"):
+    if actual != ("row", "col", "scale", "context", "regime", "observer"):
         return _fail(invariant_id, f"unexpected coordinate contract: {actual}")
     return _pass(
         invariant_id,
-        "tensor coordinates use typed row/col/scale/context/regime indices; no numeric infinity-cardinality dimension is encoded",
+        "tensor coordinates use typed row/col/scale/context/regime/observer indices; no numeric infinity-cardinality dimension is encoded",
     )
 
 
