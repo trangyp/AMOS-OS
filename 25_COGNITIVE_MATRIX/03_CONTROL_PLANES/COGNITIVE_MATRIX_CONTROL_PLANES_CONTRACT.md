@@ -2,108 +2,158 @@
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
-rscf-claim: verified
+rscf-claim: conditional
 rscf-provenance: AMOS_corpus
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: AMOS_MODEL
 topic: Cognitive Matrix Control Planes Contract
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
----
----
+updated: 2026-09-14
 ---
 
 # COGNITIVE MATRIX CONTROL PLANES CONTRACT
 
 ## 0. Status
 
-Cognitive Matrix-plane contract for **CONTROL PLANES CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+`AMOS_MODEL / BOUNDED EXECUTABLE COVERAGE / PRODUCTION CLOSURE UNKNOWN`
+
+The Cognitive Matrix C01–C09 control-plane set now has an explicit executable reference binding for every declared plane. This is implementation coverage, not proof of universal correctness, deployment validity, or Canon promotion.
 
 ## 1. Scope
 
-Governs primitives L00–L29, lifecycle operations O00–O16, control planes C01–C09, scales, cell registry, routing, validation, generators as they bear on `CONTROL PLANES CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
+The bounded control-plane set is:
 
-## 2. Contract terms
+- `C01 GOVERNANCE`
+- `C02 METACOGNITIVE`
+- `C03 EXECUTIVE`
+- `C04 REASONING`
+- `C05 REPRESENTATION`
+- `C06 MEMORY`
+- `C07 PERCEPTION`
+- `C08 EXECUTION_STAGING`
+- `C09 KERNEL_CONTROL`
 
-- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
-- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
-- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
-- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
-- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
+C06 is implemented in the owning `10_MEMORY` subsystem; the other planes are bound in the generic reference-runtime directory.
 
-## 3. Invariants
+## 2. Protected firewalls
 
-- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
-- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
-- Consequential effects emit receipts; rollback basin exists before mutation.
-- Competing hypotheses remain visible when evidence does not discriminate.
+```text
+CAPABILITY != AUTHORITY
+PROPOSAL != COMMIT
+OBSERVED != CURRENT
+MEMORY != KNOWLEDGE
+RETRIEVED != CURRENT
+TRANSLATION != EQUIVALENCE
+INFERRED != OBSERVED
+CROSS_MODAL_CORRELATION != CAUSATION
+SELECTED != AUTHORIZED
+AUTHORIZED != STAGED
+STAGED != COMMITTED
+TEST_PASS != TRUTH
+IMPLEMENTATION != CANON
+UNKNOWN/GAP != PASS
+```
 
-## 4. Executed reference
+## 3. Typed execution topology
 
-No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
+Machine-checkable registry:
 
-## 5. Gaps
+`04_RUNTIME/01_REFERENCE_IMPLEMENTATION/control_plane_execution_registry.py`
 
-Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
+Registry test:
 
-## 6. Falsifiers
+`04_RUNTIME/01_REFERENCE_IMPLEMENTATION/test_control_plane_execution_registry.py`
 
-F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
+The registry requires exactly nine unique C01–C09 bindings, one implementation artifact and one test artifact per plane, no implementation self-promotion to Canon, C06 ownership by the Memory subsystem, and C08 role `EXECUTION_STAGING` rather than effect commit.
 
-## Worked semantics
+At the tested revision the coverage vector is:
 
-Given an operation touching `COGNITIVE MATRIX · CONTROL PLANES CONTRACT` within the Cognitive Matrix plane:
+`(declared_planes, implementation_files, test_files) = (9, 9, 9)`.
 
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+This vector measures artifact coverage only. It is not semantic or empirical coverage.
 
-## Promotion-gate checklist
+## 4. Plane responsibilities
 
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+### C01 Governance
+Validates externally attested governance prerequisites and emits bounded, state-scoped authority witnesses. It does not commit effects.
 
-## Cross-plane bindings
+### C02 Metacognitive
+Checks reasoning/process state and preserves uncertainty, contradiction, and repair requirements within its bounded contract.
 
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+### C03 Executive
+Selects a unique admissible proposal under declared lexicographic policy. Exact ties remain `COMPETING`. Selection does not mint authority.
 
-______________________________________________________________________
+### C04 Reasoning
+Routes bounded reasoning requests into executable logic fragments while preserving schema, provenance, scope, freshness, and protected uncertainty states.
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+### C05 Representation
+Validates representation transforms, explicit residual loss, epistemic non-upgrade, and decision-required feature preservation.
 
-______________________________________________________________________
+### C06 Memory
+Provides versioned local memory lifecycle semantics with bi-temporal validity, quarantine, tombstoning, operation-scoped authority, provenance, and integrity checking. Memory remains OBSERVATION, not knowledge.
 
-**Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
+### C07 Perception
+Represents multimodal availability and epistemic origin explicitly. Unavailable modalities remain unobserved; fusion cannot inflate confidence or mint causality.
 
-______________________________________________________________________
+### C08 Execution
+Stages effect intent only after executive, kernel, schema/freshness, and authority gates. It does not dispatch or commit durable external effects.
 
-RSCF-NODE
-node_id: cm_tive_matrix_03_control_planes_cognitive_matrix_control_planes_contract
-node_type: note
-path: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/COGNITIVE_MATRIX_CONTROL_PLANES_CONTRACT.md
-claim_class: AMOS_MODEL
+### C09 Kernel Control
+Applies bounded kernel-control gating and fail-closed state rules.
 
-______________________________________________________________________
+## 5. Validation evidence
 
-**MOC:** [[25_COGNITIVE_MATRIX/03_CONTROL_PLANES/03_CONTROL_PLANES_MOC|03_CONTROL_PLANES_MOC]]
+Reference-runtime CI:
 
-______________________________________________________________________
+`.github/workflows/reference-runtime-tests.yml`
 
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+Memory-runtime CI:
+
+`.github/workflows/memory-runtime-tests.yml`
+
+The C01–C09 execution-registry completeness revision passed the complete reference-runtime test lane on 2026-09-14. The Memory lifecycle runtime also passed its dedicated CI lane on 2026-09-14.
+
+These receipts establish only the behavior exercised by the repository tests.
+
+## 6. Remaining UNKNOWN/GAP
+
+Runtime artifact coverage does not close the following:
+
+- production persistence and distributed consensus;
+- cryptographic trust-root independence;
+- external effect receiver finality;
+- cross-process atomicity beyond bounded reference stores;
+- production authorization deployment;
+- empirical model accuracy;
+- sensor calibration;
+- semantic/ontology compatibility across arbitrary domains;
+- memory truthfulness and retrieval quality;
+- full end-to-end observability and recovery under production faults;
+- formal proof of the entire composed C01–C09 system.
+
+These remain `UNKNOWN/GAP` until separately evidenced.
+
+## 7. Composition rule
+
+A local plane PASS cannot override another plane's hard failure.
+
+For a composed consequential path, admissibility requires every load-bearing gate required by that path to pass. A failed or stale dependency invalidates only dependent descendants; unrelated state is preserved.
+
+The intended bounded path for consequential effects is structurally:
+
+`C07/C06 -> C05 -> C04/C02 -> C03 -> C01 -> C09 -> C08 -> AMOS infrastructure commit plane`.
+
+This is an AMOS architectural routing model. It is not a claim that every task must traverse every plane.
+
+## 8. Promotion boundary
+
+```text
+9/9 ARTIFACT COVERAGE != SCIENTIFIC CLOSURE
+9/9 TEST ARTIFACTS != COMPLETE BEHAVIORAL COVERAGE
+GREEN CI != PRODUCTION AUTHORITY
+GREEN CI != CANON PROMOTION
+```
+
+Any stronger claim requires claim-specific proof, provenance, falsifiers, environment identity, and promotion authority.
+
+[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
