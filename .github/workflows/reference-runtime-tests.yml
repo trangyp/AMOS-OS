@@ -35,5 +35,41 @@ jobs:
       - name: Compile reference runtime
         run: python -m py_compile *.py
 
-      - name: Run bounded reference tests
-        run: python -m unittest discover -v -p 'test_*.py'
+      - name: Core-19 runtime
+        run: python -m unittest -v test_core19_runtime.py
+
+      - name: Core-19 tensor and topology
+        run: python -m unittest -v test_core19_tensor_topology.py
+
+      - name: URK source invariants
+        run: python -m unittest -v test_urk_source_invariant_runtime.py
+
+      - name: ULK fragment registry
+        run: python -m unittest -v test_ulk_fragment_execution_registry.py
+
+      - name: Classical SAT firewall
+        run: python -m unittest -v test_classical_sat_firewall.py
+
+      - name: ALU-02 and URK algorithms
+        run: python -m unittest -v test_urk_math_alu02_algorithms.py
+
+      - name: ALU-03 and ALU-07
+        run: python -m unittest -v test_alu03_alu07_rebind.py
+
+      - name: ALU-04 and ALU-05
+        run: python -m unittest -v test_ulk_alu04_alu05.py
+
+      - name: ALU-06 and ALU-08
+        run: python -m unittest -v test_ulk_alu06_alu08.py
+
+      - name: Matrix registry
+        run: python -m unittest -v test_matrix_registry_runtime.py
+
+      - name: Cognitive Matrix runtime
+        run: python -m unittest -v test_cognitive_matrix_runtime.py
+
+      - name: Cognitive Matrix contracts
+        run: python -m unittest -v test_cognitive_matrix_contract_runtime.py
+
+      - name: Human interaction profile
+        run: python -m unittest -v test_human_interaction_profile_runtime.py
