@@ -137,7 +137,7 @@ class ReleaseLedgerStoreTests(unittest.TestCase):
         )
         self.assertEqual(stale.decision, r.LedgerDecision.CAS_MISMATCH)
 
-    def test_recreated_generation_forces_revalidation(self):
+    def test_recreated_generation_forces_revalidation_and_preserves_history(self):
         p = self.store.prepare(self.intent)
         new_identity = self.store.recreate_generation()
         self.assertGreater(new_identity.generation, p.ledger.generation)
@@ -149,6 +149,28 @@ class ReleaseLedgerStoreTests(unittest.TestCase):
             to_state=r.ReleaseState.DISPATCHING,
         )
         self.assertEqual(stale.decision, r.LedgerDecision.REVALIDATE_EFFECT_LEDGER)
+        self.assertEqual(len(self.store.get_history_by_key("key-1")), 1)
+        new_prepare = self.store.prepare(self.intent)
+        self.assertEqual(new_prepare.decision, r.LedgerDecision.PREPARED_NEW)
+        history = self.store.get_history_by_key("key-1")
+        self.assertEqual(len(history), 2)
+        self.assertEqual(
+            {x.ledger_generation for x in history},
+            {p.ledger.generation, new_identity.generation},
+        )
+
+    def test_old_record_cannot_be_transitioned_under_new_generation_even_with_current_identity(self):
+        p = self.store.prepare(self.intent)
+        current = self.store.recreate_generation()
+        out = self.store.transition(
+            record_id=p.record.record_id,
+            expected_record_version=p.record.record_version,
+            expected_ledger_generation=current.generation,
+            expected_ledger_version=current.version,
+            to_state=r.ReleaseState.DISPATCHING,
+        )
+        self.assertEqual(out.decision, r.LedgerDecision.REVALIDATE_EFFECT_LEDGER)
+        self.assertIn("record_generation_changed", out.reason)
 
     def test_illegal_transition_blocks(self):
         p = self.store.prepare(self.intent)
