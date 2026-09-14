@@ -148,9 +148,17 @@ class RegistryTests(unittest.TestCase):
         self.assertFalse(binding.canon_promoted)
         self.assertEqual(validate_execution_registry(), ())
 
-    def test_other_unbound_fragments_stay_specification_only(self):
+    def test_rebound_and_unbound_fragments_are_distinct(self):
         self.assertEqual(
             execution_binding(Fragment.ALU03_TEMPORAL_LTL).status,
+            ExecutionStatus.EXECUTABLE_BOUNDED_CANDIDATE_REBOUND,
+        )
+        self.assertEqual(
+            execution_binding(Fragment.ALU07_QUANTUM_LOGIC).status,
+            ExecutionStatus.EXECUTABLE_BOUNDED_CANDIDATE_REBOUND,
+        )
+        self.assertEqual(
+            execution_binding(Fragment.ALU04_EPISTEMIC_MODAL).status,
             ExecutionStatus.SPECIFICATION_ONLY,
         )
 
