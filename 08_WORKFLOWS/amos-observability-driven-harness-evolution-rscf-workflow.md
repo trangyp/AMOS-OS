@@ -37,7 +37,7 @@ This workflow governs mutation evidence. It does not execute harness writes, eva
 8. **EXECUTE_EVAL_EXTERNALLY** — evaluation is performed by an authorized external runner; this workflow only consumes bounded receipts.
 9. **BIND_EVALUATION** — validate sealed complete-coverage baseline/candidate run receipts and exact comparison receipt; reject frozen-axis drift.
 10. **BIND_EVALUATOR_RELIABILITY** — validate held-out `VALIDATION` calibration report and reliability-gate receipt matching frozen evaluator identity/config.
-11. **MUTATION_VERDICT** — emit `KEEP|ROLLBACK|INCONCLUSIVE` recommendation only.
+11. **MUTATION_VERDICT** — use `harness_evolution_guarded_runtime.py` and the guarded receipt validator; emit `KEEP|ROLLBACK|INCONCLUSIVE` recommendation only. Both KEEP and ROLLBACK require comparable, reliable, isolated, plausibly attributable evidence; otherwise emit `INCONCLUSIVE`.
 12. **OPTIONAL_RECONCILIATION** — observe `KEPT|ROLLED_BACK|NOT_APPLIED`, exact observed harness version, changed-component hashes, and reconciliation evidence.
 13. **TERMINAL** — return bounded receipt hashes, gaps, authority ceiling, and falsifiers.
 
@@ -49,8 +49,8 @@ This workflow governs mutation evidence. It does not execute harness writes, eva
 - Verifier/reward contamination -> invalidate comparative evidence and rerun from a clean state.
 - Incomplete/unsealed evaluation -> `INCONCLUSIVE`; do not extrapolate.
 - Frozen-axis mismatch -> `NOT_COMPARABLE`; do not compute a causal claim.
-- Evaluator reliability not `PASS` -> `INCONCLUSIVE` unless critical regressions independently justify a rollback recommendation.
-- Critical regression -> recommend `ROLLBACK`; do not execute it.
+- Evaluator reliability not `PASS` -> `INCONCLUSIVE`; do not use the untrusted evaluation to justify KEEP or ROLLBACK.
+- Critical regression under comparable, reliable, isolated, plausibly attributable evidence -> recommend `ROLLBACK`; otherwise `INCONCLUSIVE`. Never execute rollback here.
 - Reconciliation mismatch -> preserve recommendation but mark actual effect `UNKNOWN/GAP`.
 
 ## Hard firewalls
