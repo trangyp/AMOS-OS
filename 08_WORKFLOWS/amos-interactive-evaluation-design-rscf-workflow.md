@@ -1,133 +1,66 @@
 ---
 title: amos-interactive-evaluation-design-rscf-workflow
 type: workflow
-source: 08_WORKFLOWS
 skill: amos-interactive-evaluation-design-rscf
 agent: amos-interactive-evaluation-design-rscf-agent
-status: CONDITIONAL
 origin_architect: Trang Phan
+version: 3.0.0
+epistemic_class: AMOS_MODEL
 ---
 
-# Workflow: AMOS Interactive Evaluation Design
+# AMOS Interactive Evaluation Workflow
 
-## Objective
-
-Produce the narrowest defensible evaluation verdict for an agent, Skill, workflow, tool integration, or runtime without collapsing final-output quality into trajectory/process quality or model tests into deployment validity.
-
-## State machine
+State machine:
 
 ```text
 INTAKE
-  -> BIND_TARGET
-  -> CLASSIFY_EVIDENCE_LANE
-  -> DESIGN_ORACLE
-  -> DESIGN_NEGATIVES
-  -> EXECUTE_OR_CLASSIFY_UNEXECUTED
-  -> CAPTURE_TRAJECTORY
-  -> FORENSICS
-  -> REGISTRY_VALIDATE
-  -> VERDICT
-  -> TERMINAL
+ -> BIND_RUN_IDENTITY
+ -> CLASSIFY_ARCHETYPE
+ -> DESIGN_ORACLE
+ -> EXECUTE_OR_CLASSIFY
+ -> RECORD_TASK_RESULTS
+ -> RECORD_REVIEWS
+ -> RECORD_JUDGMENTS
+ -> RECORD_COVERAGE
+ -> SEAL_RUN
+ -> OPTIONAL_BASELINE_COMPARE
+ -> OPTIONAL_MUTATION_VERDICT
+ -> REGISTRY_GATE
+ -> CLAIM_GATE
+ -> TERMINAL
 ```
-
-## Inputs
-
-- target artifact/runtime + version/ref;
-- decision the evaluation informs;
-- scope/regime/environment;
-- available harnesses, configurations, receipts and raw results;
-- observable trajectory/tool/action traces when interactive behavior is evaluated;
-- authority/process contract when process compliance matters.
 
 ## Gates
 
-### G1 — Target identity
+1. **BIND_RUN_IDENTITY** — bind suite, target/version, environment, harness/version, evaluator set/version, model/config, budget, task cohort, trace identity and evidence archetype.
+2. **CLASSIFY_ARCHETYPE** — use `CONTRACT|INTERVENTION|PROCESS|OUTCOME_PROPERTY`; one lane cannot substitute for another.
+3. **DESIGN_ORACLE** — define explicit success/failure predicates, falsifiers, and negative cases. Reject circular or same-policy-as-oracle designs.
+4. **EXECUTE_OR_CLASSIFY** — no execution means no PASS. Keep reference/model execution separate from deployed-runtime validation.
+5. **RECORD_TASK_RESULTS** — preserve outcome/process/safety/recovery/critical-failure state independently.
+6. **RECORD_REVIEWS** — bind `CONTINUE|TERMINATE|ESCALATE` to exact subject hash. Review control never supplies runtime authority.
+7. **RECORD_JUDGMENTS** — bind evaluator identity/version/evidence reference. Material disagreement remains `COMPETING`.
+8. **RECORD_COVERAGE** — store expected and observed counts; `SAMPLED_PASS != COMPLETE_PASS`.
+9. **SEAL_RUN** — reject late evidence after sealing; produce hash-bound run receipt.
+10. **OPTIONAL_BASELINE_COMPARE** — compare only if suite, target/version, environment, harness identity, evaluator, model/config, budget, cohort and archetype match. Harness version may differ as the declared mutation axis.
+11. **OPTIONAL_MUTATION_VERDICT** — return `KEEP|ROLLBACK|INCONCLUSIVE`; critical regressions block KEEP.
+12. **REGISTRY_GATE** — historical evidence promotion still passes `eval_registry.py` exact-hash rules.
+13. **CLAIM_GATE** — enforce `MODEL_JUDGE_SCORE != GROUND_TRUTH`, `SCORE_DELTA != CAUSAL_ATTRIBUTION`, `EVAL_RESULT != DEPLOYMENT_AUTHORITY`.
 
-Resolve exact target identity. Missing identity -> `UNKNOWN`.
+## Recovery
 
-### G2 — Evidence lane
+- Incomplete task coverage -> preserve gap and downgrade completeness.
+- Judge disagreement -> keep competing results and identify next discriminating evidence.
+- Frozen-axis mismatch -> `NOT_COMPARABLE`; do not compute performance attribution.
+- Ambiguous external effect -> reconcile the effect independently of evaluation score.
+- Raw sensitive content discovered in compact evidence -> quarantine/reject and re-run with metadata/hash capture.
+- Critical harness regression -> bounded `ROLLBACK` recommendation; rollback execution still requires owning authority.
 
-Choose one or more independent lanes:
-- deterministic contract;
-- trajectory/process;
-- adversarial/red-team;
-- model-dependent semantic;
-- runtime/performance;
-- production/deployment.
-
-Do not let one lane substitute for another.
-
-### G3 — Oracle quality
-
-Define explicit success/failure predicates and falsifiers. Reject circular tests where the oracle merely restates the implementation/policy under test.
-
-### G4 — Negative coverage
-
-Include applicable malformed, missing, stale, unauthorized, replay, timeout, partial-effect, poisoned-tool/prompt, failure-recovery and stopping cases.
-
-### G5 — Execution boundary
-
-If no execution occurred, label the result conceptual/unknown. If execution used a model/reference implementation, do not call it runtime validation.
-
-### G6 — Trajectory capture
-
-For interactive systems preserve observable actions, tool arguments/results, state transitions, authority/effect state, errors, recovery and terminal state. Do not require private chain-of-thought.
-
-### G7 — Evidence binding
-
-Bind harness + receipt identity, source/artifact hashes, environment, result counts, seeds/workload where relevant, non-coverage and failure traces.
-
-### G8 — Registry validation
-
-Run:
+## Deterministic validation
 
 ```bash
-python 07_SKILLS/amos-interactive-evaluation-design-rscf/scripts/eval_registry.py \
-  19_TESTS/EVAL_EVIDENCE_REGISTRY.json \
-  --repo .
+python -m unittest -v 19_TESTS/test_agent_evaluation_runtime.py
+python 07_SKILLS/amos-interactive-evaluation-design-rscf/scripts/evaluation_contract_check.py --self-test
+python 07_SKILLS/amos-interactive-evaluation-design-rscf/scripts/eval_registry.py --self-test
 ```
 
-A stale hash, missing harness or invalid evidence promotion blocks the corresponding registry promotion.
-
-## Verdicts
-
-- `VERIFIED_TESTED_SCOPE`
-- `PARTIAL`
-- `INVALIDATED_EVIDENCE`
-- `CONCEPTUAL_ONLY`
-- `NON_REPRODUCIBLE`
-- `UNKNOWN`
-
-## External eval/red-team runners
-
-External runners such as Promptfoo may organize model comparisons, CI evaluations or adversarial cases. Preserve their exact configs/results and treat them as evidence infrastructure, not epistemic authority. Baseline deterministic gates should not require external model/API secrets.
-
-## Failure/recovery
-
-- missing target identity -> `UNKNOWN`;
-- absent historical harness -> `NON_REPRODUCIBLE`;
-- target/harness/receipt hash drift -> invalidate and rerun/review;
-- ambiguous external effect -> reconcile before retry;
-- judge disagreement -> preserve competing outcomes;
-- performance environment mismatch -> downgrade scope;
-- no adversarial finding -> never infer universal safety.
-
-## Outputs
-
-Return:
-- target identity;
-- evidence lanes used;
-- executed/not-executed classification;
-- trajectory/process findings;
-- adversarial findings;
-- result counts and environment when executed;
-- explicit non-coverage;
-- provenance/hash bindings;
-- final bounded verdict;
-- next discriminating test if unresolved.
-
-## Terminal invariant
-
-`TEST_PASS != TRUTH` and `EVAL_RESULT != DEPLOYMENT_AUTHORITY`.
-
-**MOC:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
+GitHub CI is the repository-copy validation authority for this local reference implementation.

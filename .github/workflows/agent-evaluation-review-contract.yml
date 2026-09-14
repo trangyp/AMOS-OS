@@ -1,0 +1,80 @@
+name: Agent Evaluation Review Contract
+
+on:
+  pull_request:
+    paths:
+      - '07_SKILLS/amos-interactive-evaluation-design-rscf/**'
+      - '06_AGENTS/amos-interactive-evaluation-design-rscf-agent.json'
+      - '08_WORKFLOWS/amos-interactive-evaluation-design-rscf-workflow.md'
+      - '26_WORKFLOWS/amos-interactive-evaluation-design-rscf-workflow.md'
+      - '14_TOOLS/AGENT_EVALUATION_REVIEW_GATE.md'
+      - '19_TESTS/test_agent_evaluation_runtime.py'
+      - '.github/agents/amos-evaluation-auditor.agent.md'
+      - '.github/workflows/agent-evaluation-review-contract.yml'
+  push:
+    branches: [main]
+    paths:
+      - '07_SKILLS/amos-interactive-evaluation-design-rscf/**'
+      - '06_AGENTS/amos-interactive-evaluation-design-rscf-agent.json'
+      - '08_WORKFLOWS/amos-interactive-evaluation-design-rscf-workflow.md'
+      - '26_WORKFLOWS/amos-interactive-evaluation-design-rscf-workflow.md'
+      - '14_TOOLS/AGENT_EVALUATION_REVIEW_GATE.md'
+      - '19_TESTS/test_agent_evaluation_runtime.py'
+      - '.github/agents/amos-evaluation-auditor.agent.md'
+
+permissions:
+  contents: read
+
+jobs:
+  evaluation-review-contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout exact head
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - name: Setup Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: '3.12'
+      - name: Compile deterministic evaluation surfaces
+        run: |
+          python -m py_compile \
+            07_SKILLS/amos-interactive-evaluation-design-rscf/scripts/evaluation_runtime.py \
+            07_SKILLS/amos-interactive-evaluation-design-rscf/scripts/evaluation_contract_check.py \
+            07_SKILLS/amos-interactive-evaluation-design-rscf/scripts/eval_registry.py \
+            19_TESTS/test_agent_evaluation_runtime.py
+      - name: Execute evaluation runtime regression suite
+        run: python -m unittest -v 19_TESTS/test_agent_evaluation_runtime.py
+      - name: Execute evaluation receipt validator self-test
+        run: python 07_SKILLS/amos-interactive-evaluation-design-rscf/scripts/evaluation_contract_check.py --self-test
+      - name: Execute historical evidence registry self-test
+        run: python 07_SKILLS/amos-interactive-evaluation-design-rscf/scripts/eval_registry.py --self-test
+      - name: Reject stale agent logging and production promotion
+        run: |
+          python - <<'PY'
+          import json
+          p='06_AGENTS/amos-interactive-evaluation-design-rscf-agent.json'
+          d=json.load(open(p,encoding='utf-8'))
+          assert d['governance']['promotion_state'] == 'implemented_local_reference'
+          assert d['governance']['deployment_authority'] == 'none'
+          assert d['observability']['raw_input_logging'] is False
+          assert d['observability']['raw_output_logging'] is False
+          assert d['observability']['raw_intermediate_logging'] is False
+          assert d['skill_binding']['skill_path'] == '07_SKILLS/amos-interactive-evaluation-design-rscf/SKILL.md'
+          print('AGENT_BOUNDARY_PASS')
+          PY
+      - name: Record bounded evidence
+        if: always()
+        run: |
+          {
+            echo '### Agent Evaluation Review Contract'
+            echo '- Local evaluation/review runtime: EXECUTED_TESTED_SCOPE'
+            echo '- Review decisions: EVALUATION_FLOW_ONLY'
+            echo '- Judge disagreement: PRESERVED'
+            echo '- Sampling missingness: FIRST_CLASS'
+            echo '- Harness comparability: FROZEN_AXIS_GATED'
+            echo '- Mutation verdicts: KEEP|ROLLBACK|INCONCLUSIVE, authority NONE'
+            echo '- External model-judge correctness: UNKNOWN/GAP'
+            echo '- Production benchmark validity: UNKNOWN/GAP'
+            echo '- Deployment/merge authority: NONE'
+          } >> "$GITHUB_STEP_SUMMARY"
