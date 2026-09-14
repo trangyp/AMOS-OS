@@ -49,12 +49,16 @@ ALU05_CHECKER_SHA256 = "966f687c902988e5127a8e38df9984dbff3da6f6eeda22db25f92120
 ALU06_CHECKER_SHA256 = "12a0907cfce261d5b9dd2fea46ee9496994663735bf4bee7f8006f9b43e6fec3"
 ALU08_CHECKER_SHA256 = "d7ecd0cd5358b374c49a722e2fe084eb957b7719d903f386e263928625e1cd83"
 
-# Last explicitly revalidated source revision in the V206 handoff. This is
-# provenance, not a forever-current claim. Newer revisions are admitted when the
-# fragment AST remains identical under a fresh observation.
 UNIFIED_BRAIN_REVALIDATED_REVISION = (
-    "0B_FlOTCuYcaFNWxxSWNxRWVxSktrSkp3S2NaditUZzAyRFdFPQ"
+    "0B_FlOTCuYcaFdzN6bkVWUWR6V3NrdDFSZ0ljN0ovK3NxRFQwPQ"
 )
+ALU02_UNIFICATION_SOURCE_METHOD_AST_SHA256 = "1100500fd65c9cdd1024043475f5f9976d1c3cad4e470d8ed3e9d08a5ee7e927"
+ALU02_GROUND_EUF_SOURCE_METHOD_AST_SHA256 = "6e5fa23d4061514bce5aa330cf8c9abfd970f162015b907bd82021eacd5c25a1"
+ALU02_ROUTER_SOURCE_METHOD_AST_SHA256 = "3b0b86482d5bd4df9e26b9429e2a5721ba24e20c278673710696f477dd2e50dc"
+ALU02_SUBPROFILE_HASHES = {
+    "SYNTACTIC_UNIFICATION": ALU02_UNIFICATION_SOURCE_METHOD_AST_SHA256,
+    "GROUND_EUF_CONGRUENCE_CLOSURE": ALU02_GROUND_EUF_SOURCE_METHOD_AST_SHA256,
+}
 ALU03_SOURCE_METHOD_AST_SHA256 = (
     "797c881ad2e3c8aa746740025445efcba48e2e76eaa1efe64bc1ac3e4fd1aa69"
 )
@@ -75,7 +79,9 @@ _BINDINGS: Dict[Fragment, ExecutionBinding] = {
         ExecutionStatus.EXECUTABLE_BOUNDED_CANDIDATE_REBOUND,
         "amos_ulk_alu02_unification_reference_checker_v1.py",
         ALU02_CHECKER_SHA256,
-        "finite first-order term unification with occurs-check",
+        "finite syntactic first-order unification with occurs-check plus finite ground-EUF equality/disequality conjunction congruence closure; no quantifiers or complete FOL",
+        source_revision_id=UNIFIED_BRAIN_REVALIDATED_REVISION,
+        source_method_ast_sha256=ALU02_ROUTER_SOURCE_METHOD_AST_SHA256,
     ),
     Fragment.ALU03_TEMPORAL_LTL: ExecutionBinding(
         Fragment.ALU03_TEMPORAL_LTL,
@@ -143,86 +149,54 @@ def validate_fragment_observation(
     observed_method_ast_sha256: str,
     observed_revision_id: Optional[str] = None,
 ) -> Dict[str, object]:
-    """Validate a fresh source observation without whole-file false invalidation.
-
-    A changed file revision with an unchanged callable AST is reported as
-    REVISION_CHANGED_FRAGMENT_STABLE. A changed AST is STALE_REVALIDATE. This
-    function does not grant Canon or effect authority.
-    """
     binding = execution_binding(fragment)
     expected = binding.source_method_ast_sha256
     if expected is None:
-        return {
-            "success": False,
-            "status": "NOT_FRAGMENT_SOURCE_BOUND",
-            "fragment": fragment.value,
-            "authority_granted": False,
-        }
+        return {"success": False,"status": "NOT_FRAGMENT_SOURCE_BOUND","fragment": fragment.value,"authority_granted": False}
     if not _is_sha256(observed_method_ast_sha256):
-        return {
-            "success": False,
-            "status": "ILL_TYPED_AST_HASH",
-            "fragment": fragment.value,
-            "authority_granted": False,
-        }
+        return {"success": False,"status": "ILL_TYPED_AST_HASH","fragment": fragment.value,"authority_granted": False}
     if observed_method_ast_sha256 != expected:
-        return {
-            "success": False,
-            "status": "STALE_REVALIDATE",
-            "fragment": fragment.value,
-            "expected_ast_sha256": expected,
-            "observed_ast_sha256": observed_method_ast_sha256,
-            "observed_revision_id": observed_revision_id,
-            "authority_granted": False,
-        }
-    revision_state = (
-        "SAME_REVALIDATED_REVISION"
-        if observed_revision_id == binding.source_revision_id
-        else "REVISION_CHANGED_FRAGMENT_STABLE"
-    )
-    return {
-        "success": True,
-        "status": "FRAGMENT_SEMANTIC_IDENTITY_MATCH",
-        "revision_state": revision_state,
-        "fragment": fragment.value,
-        "method_ast_sha256": observed_method_ast_sha256,
-        "observed_revision_id": observed_revision_id,
-        "authority_granted": False,
-        "canon_promoted": False,
-    }
+        return {"success": False,"status": "STALE_REVALIDATE","fragment": fragment.value,"expected_ast_sha256": expected,"observed_ast_sha256": observed_method_ast_sha256,"observed_revision_id": observed_revision_id,"authority_granted": False}
+    revision_state = "SAME_REVALIDATED_REVISION" if observed_revision_id == binding.source_revision_id else "REVISION_CHANGED_FRAGMENT_STABLE"
+    return {"success": True,"status": "FRAGMENT_SEMANTIC_IDENTITY_MATCH","revision_state": revision_state,"fragment": fragment.value,"method_ast_sha256": observed_method_ast_sha256,"observed_revision_id": observed_revision_id,"authority_granted": False,"canon_promoted": False}
+
+
+def validate_alu02_subprofile_observation(
+    subprofile: str,
+    observed_method_ast_sha256: str,
+    observed_revision_id: Optional[str] = None,
+) -> Dict[str, object]:
+    """Validate one ALU-02 bounded subprofile without merging decision procedures."""
+    key = str(subprofile or "").strip().upper()
+    expected = ALU02_SUBPROFILE_HASHES.get(key)
+    if expected is None:
+        return {"success": False,"status": "UNKNOWN_ALU02_SUBPROFILE","subprofile": key,"authority_granted": False}
+    if not _is_sha256(observed_method_ast_sha256):
+        return {"success": False,"status": "ILL_TYPED_AST_HASH","subprofile": key,"authority_granted": False}
+    if observed_method_ast_sha256 != expected:
+        return {"success": False,"status": "STALE_REVALIDATE","subprofile": key,"expected_ast_sha256": expected,"observed_ast_sha256": observed_method_ast_sha256,"observed_revision_id": observed_revision_id,"authority_granted": False}
+    return {"success": True,"status": "ALU02_SUBPROFILE_SEMANTIC_IDENTITY_MATCH","subprofile": key,"method_ast_sha256": expected,"revision_state": ("SAME_REVALIDATED_REVISION" if observed_revision_id == UNIFIED_BRAIN_REVALIDATED_REVISION else "REVISION_CHANGED_FRAGMENT_STABLE"),"authority_granted": False,"canon_promoted": False}
 
 
 def validate_execution_registry() -> tuple[str, ...]:
     failures = []
     expected_values = (
-        "ClassicalPropositional",
-        "FirstOrderUnification",
-        "TemporalLTL",
-        "EpistemicModal",
-        "NonMonotonicDung",
-        "DependentType",
-        "QuantumLogic",
-        "CategoricalTopos",
+        "ClassicalPropositional","FirstOrderUnification","TemporalLTL","EpistemicModal",
+        "NonMonotonicDung","DependentType","QuantumLogic","CategoricalTopos",
     )
     if tuple(fragment.value for fragment in Fragment) != expected_values:
         failures.append("ULK_EIGHT_FRAGMENT_IDENTITY_MISMATCH")
     if len(_BINDINGS) != 8 or set(_BINDINGS) != set(Fragment):
         failures.append("ULK_BINDING_CARDINALITY_OR_COVERAGE_MISMATCH")
-
     for fragment in Fragment:
         binding = execution_binding(fragment)
-        if binding.fragment is not fragment:
-            failures.append(f"{fragment.name}_BINDING_IDENTITY_MISMATCH")
-        if binding.canon_promoted:
-            failures.append(f"{fragment.name}_MUST_NOT_SELF_PROMOTE_CANON")
-        if not isinstance(binding.scope, str) or not binding.scope.strip():
-            failures.append(f"{fragment.name}_EMPTY_SCOPE")
+        if binding.fragment is not fragment: failures.append(f"{fragment.name}_BINDING_IDENTITY_MISMATCH")
+        if binding.canon_promoted: failures.append(f"{fragment.name}_MUST_NOT_SELF_PROMOTE_CANON")
+        if not isinstance(binding.scope, str) or not binding.scope.strip(): failures.append(f"{fragment.name}_EMPTY_SCOPE")
         if fragment is Fragment.ALU01_CLASSICAL_PROPOSITIONAL:
-            if binding.status is not ExecutionStatus.EXECUTABLE_BOUNDED:
-                failures.append("ALU01_STATUS_MISMATCH")
+            if binding.status is not ExecutionStatus.EXECUTABLE_BOUNDED: failures.append("ALU01_STATUS_MISMATCH")
         elif binding.status is not ExecutionStatus.EXECUTABLE_BOUNDED_CANDIDATE_REBOUND:
             failures.append(f"{fragment.name}_REBOUND_STATUS_MISMATCH")
-
     expected_hashes = {
         Fragment.ALU02_FIRST_ORDER_UNIFICATION: ALU02_CHECKER_SHA256,
         Fragment.ALU04_EPISTEMIC_MODAL: ALU04_CHECKER_SHA256,
@@ -231,16 +205,14 @@ def validate_execution_registry() -> tuple[str, ...]:
         Fragment.ALU08_CATEGORICAL_TOPOS: ALU08_CHECKER_SHA256,
     }
     for fragment, expected in expected_hashes.items():
-        if not _is_sha256(expected):
-            failures.append(f"{fragment.name}_INVALID_EXPECTED_CHECKER_HASH")
-        if execution_binding(fragment).checker_sha256 != expected:
-            failures.append(f"{fragment.name}_CHECKER_HASH_MISMATCH")
-
-    for fragment in (Fragment.ALU03_TEMPORAL_LTL, Fragment.ALU07_QUANTUM_LOGIC):
+        if not _is_sha256(expected): failures.append(f"{fragment.name}_INVALID_EXPECTED_CHECKER_HASH")
+        if execution_binding(fragment).checker_sha256 != expected: failures.append(f"{fragment.name}_CHECKER_HASH_MISMATCH")
+    for fragment in (Fragment.ALU02_FIRST_ORDER_UNIFICATION, Fragment.ALU03_TEMPORAL_LTL, Fragment.ALU07_QUANTUM_LOGIC):
         binding = execution_binding(fragment)
-        if not binding.source_revision_id:
-            failures.append(f"{fragment.name}_SOURCE_REVISION_MISSING")
-        if not _is_sha256(binding.source_method_ast_sha256):
-            failures.append(f"{fragment.name}_SOURCE_AST_HASH_INVALID")
-
+        if not binding.source_revision_id: failures.append(f"{fragment.name}_SOURCE_REVISION_MISSING")
+        if not _is_sha256(binding.source_method_ast_sha256): failures.append(f"{fragment.name}_SOURCE_AST_HASH_INVALID")
+    for name, expected in ALU02_SUBPROFILE_HASHES.items():
+        if not _is_sha256(expected): failures.append(f"ALU02_{name}_SOURCE_AST_HASH_INVALID")
+    if execution_binding(Fragment.ALU02_FIRST_ORDER_UNIFICATION).source_method_ast_sha256 != ALU02_ROUTER_SOURCE_METHOD_AST_SHA256:
+        failures.append("ALU02_ROUTER_SOURCE_BINDING_MISMATCH")
     return tuple(failures)
