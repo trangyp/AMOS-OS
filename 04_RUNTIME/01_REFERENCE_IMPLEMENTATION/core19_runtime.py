@@ -83,9 +83,9 @@ def _binding_key(namespace: str, version: str) -> Tuple[str, str]:
     return namespace, version
 
 
-@dataclass(frozen=True, order=True)
+@dataclass(frozen=True)
 class Truth4:
-    """Belnap-style evidence pair: support for truth and support for falsity."""
+    """Four-valued evidence pair: support for truth and support for falsity."""
 
     supports_true: bool
     supports_false: bool
@@ -97,6 +97,13 @@ class Truth4:
         return Truth4(
             self.supports_true or other.supports_true,
             self.supports_false or other.supports_false,
+        )
+
+    def leq_information(self, other: "Truth4") -> bool:
+        """Information order: every support bit in self is also present in other."""
+        return (
+            (not self.supports_true or other.supports_true)
+            and (not self.supports_false or other.supports_false)
         )
 
     @property
@@ -173,7 +180,6 @@ def normalize_unary(expr: UnaryExpr) -> UnaryExpr:
 
     assert expr.child is not None
 
-    # Pre-order repair: double NLOGIC must be recognized before recursion.
     if expr.kind is UnaryKind.NLOGIC and expr.child.kind is UnaryKind.NLOGIC:
         assert expr.child.child is not None
         return normalize_unary(expr.child.child)
