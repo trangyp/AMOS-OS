@@ -1,0 +1,77 @@
+name: Agent Observability Contract
+
+on:
+  pull_request:
+    paths:
+      - '17_OBSERVABILITY/**'
+      - '07_SKILLS/amos-agentops-observability-rscf/**'
+      - '06_AGENTS/amos-agentops-observability-rscf-agent.json'
+      - '08_WORKFLOWS/amos-agentops-observability-rscf-workflow.md'
+      - '19_TESTS/test_agent_trace_runtime.py'
+      - '26_WORKFLOWS/amos-agentops-observability-rscf-workflow.md'
+      - '.github/agents/amos-observability-auditor.agent.md'
+      - '.github/workflows/agent-observability-contract.yml'
+  push:
+    branches: [main]
+    paths:
+      - '17_OBSERVABILITY/**'
+      - '07_SKILLS/amos-agentops-observability-rscf/**'
+      - '06_AGENTS/amos-agentops-observability-rscf-agent.json'
+      - '08_WORKFLOWS/amos-agentops-observability-rscf-workflow.md'
+      - '19_TESTS/test_agent_trace_runtime.py'
+      - '26_WORKFLOWS/amos-agentops-observability-rscf-workflow.md'
+
+permissions:
+  contents: read
+
+jobs:
+  observability-contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout exact head
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - name: Setup Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: '3.12'
+      - name: Compile runtime and validators
+        run: |
+          python -m py_compile \
+            17_OBSERVABILITY/agent_trace_runtime.py \
+            07_SKILLS/amos-agentops-observability-rscf/scripts/trace_contract_check.py \
+            19_TESTS/test_agent_trace_runtime.py
+      - name: Execute trace runtime regression suite
+        run: python -m unittest -v 19_TESTS/test_agent_trace_runtime.py
+      - name: Execute receipt validator self-test
+        run: python 07_SKILLS/amos-agentops-observability-rscf/scripts/trace_contract_check.py --self-test
+      - name: Reject telemetry authority escalation
+        run: |
+          cat >/tmp/bad-receipt.json <<'JSON'
+          {"trace_id":"t","span_count":1,"coverage_complete":true,"effect_states":[],"status":"OBSERVED","authority_semantics":"AUTHORIZED","causal_semantics":"TRACE_EDGE_IS_NOT_CAUSAL_PROOF","receipt_hash":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}
+          JSON
+          if python 07_SKILLS/amos-agentops-observability-rscf/scripts/trace_contract_check.py /tmp/bad-receipt.json; then
+            echo 'ERROR: authority escalation admitted'
+            exit 1
+          fi
+      - name: Reject raw prompt in receipt
+        run: |
+          cat >/tmp/raw-receipt.json <<'JSON'
+          {"trace_id":"t","span_count":1,"coverage_complete":true,"effect_states":[],"status":"OBSERVED","authority_semantics":"OBSERVED_REFERENCE_ONLY","causal_semantics":"TRACE_EDGE_IS_NOT_CAUSAL_PROOF","receipt_hash":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","prompt":"secret"}
+          JSON
+          if python 07_SKILLS/amos-agentops-observability-rscf/scripts/trace_contract_check.py /tmp/raw-receipt.json; then
+            echo 'ERROR: raw prompt admitted to receipt'
+            exit 1
+          fi
+      - name: Record bounded evidence
+        run: |
+          {
+            echo '### Agent Observability Contract'
+            echo '- Local SQLite trace semantics: EXECUTED_TESTED_SCOPE'
+            echo '- Default content capture: METADATA_ONLY'
+            echo '- Authority escalation negative: REJECTED'
+            echo '- Raw prompt receipt negative: REJECTED'
+            echo '- Real OTLP/backend integration: UNKNOWN/GAP'
+            echo '- Production telemetry completeness/privacy: UNKNOWN/GAP'
+            echo '- Deployment authority: NONE'
+          } >> "$GITHUB_STEP_SUMMARY"
