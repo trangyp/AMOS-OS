@@ -86,23 +86,26 @@ class Core19RuntimeTests(unittest.TestCase):
             else:
                 self.assertEqual(status, c.ImplementationStatus.SPECIFICATION_ONLY)
 
-    def test_tensor_coordinate_requires_explicit_scale_context_regime(self):
-        with self.assertRaises(ValueError):
-            c.TensorCoordinate(
-                c.Core19.P01_EXISTENCE,
-                c.Core19.P03_CAUSALITY,
-                "",
-                "ctx",
-                "r",
-            )
+    def test_tensor_coordinate_requires_explicit_six_axis_binding(self):
+        fields = ["H", "runtime", "active", "observer-1"]
+        for index in range(len(fields)):
+            candidate = list(fields)
+            candidate[index] = ""
+            with self.assertRaises(ValueError):
+                c.TensorCoordinate(
+                    c.Core19.P01_EXISTENCE,
+                    c.Core19.P03_CAUSALITY,
+                    *candidate,
+                )
         coord = c.TensorCoordinate(
             c.Core19.P01_EXISTENCE,
             c.Core19.P03_CAUSALITY,
             "H",
             "runtime",
             "active",
+            "observer-1",
         )
-        self.assertEqual(coord.scale, "H")
+        self.assertEqual(coord.observer, "observer-1")
 
     def test_promotion_requires_every_gate(self):
         full = dict(
