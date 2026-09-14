@@ -12,98 +12,112 @@ tags:
   - rscf/claim
   - rscf/provenance
   - rscf/state/source-claim
-  - misc
 created: 2026-08-22
----
----
+updated: 2026-09-14
 ---
 
 # COGNITIVE MATRIX SCALES CONTRACT
 
 ## 0. Status
 
-Cognitive Matrix-plane contract for **SCALES CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+- Scale registry: `H_HIGH`, `M_MID`, `L_LOW`.
+- Generic scale contract runtime: `IMPLEMENTED / VALIDATED_BOUNDED`.
+- Domain-specific cross-scale transforms: `UNKNOWN/GAP unless separately evidenced`.
+- Canonical class: `AMOS_MODEL / CONDITIONAL`.
+- Production validity: `NOT ESTABLISHED`.
 
-## 1. Scope
+Origin architect / steward: **Trang Phan**.
 
-Governs primitives L00–L29, lifecycle operations O00–O16, control planes C01–C09, scales, cell registry, routing, validation, generators as they bear on `SCALES CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
+## 1. Hard boundaries
 
-## 2. Contract terms
+```text
+H != M != L
+SAME_PATTERN_ACROSS_SCALE != SAME_MECHANISM
+CROSS_SCALE_SIMILARITY != EQUIVALENCE
+CROSS_SCALE_ASSOCIATION != CAUSATION
+TRANSFORM_DECLARED != TRANSFORM_VALIDATED
+STRUCTURALLY_BOUND != SEMANTICALLY_EQUIVALENT
+MODEL != VERIFIED
+UNKNOWN/GAP != PASS
+```
 
-- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
-- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
-- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
-- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
-- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
+Scale is a typed coordinate. Scale labels are non-interchangeable and may not be silently collapsed during translation, routing, inference, aggregation, or tensor/field projection.
 
-## 3. Invariants
+## 2. Scale artifact contract
 
-- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
-- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
-- Consequential effects emit receipts; rollback basin exists before mutation.
-- Competing hypotheses remain visible when evidence does not discriminate.
+A scale-bound artifact must declare:
+
+- artifact identity;
+- scale identity;
+- state version;
+- scope;
+- regime;
+- provenance.
+
+The artifact's scale cannot be inferred from filename, directory position, or descriptive resemblance alone.
+
+## 3. Cross-scale transform contract
+
+A cross-scale transform requires all of:
+
+- explicit transform identity;
+- distinct source and target scales;
+- assumptions;
+- invariants to be preserved/tested;
+- provenance;
+- validation receipt identity.
+
+Passing this structural contract does not prove that the two scales have identical semantics, mechanisms, causal structure, units, uncertainty, or observability.
 
 ## 4. Executed reference
 
-No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
+Repository implementation:
 
-## 5. Gaps
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/scale_contract_runtime.py`
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/test_scale_contract_runtime.py`
 
-Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
+Executed full reference-runtime CI on 2026-09-14 for commit `a0bbb2f87e00855d93f22d2c1864ff5173a1ebf5` passed, including:
 
-## 6. Falsifiers
+- exact H/M/L registry;
+- mandatory state/scope/regime/provenance on scale artifacts;
+- explicit cross-scale transform evidence requirements;
+- same-scale requests rejected as cross-scale transforms;
+- bounded transform receipts explicitly refuse to claim semantic or causal equivalence.
 
-F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
+`TEST_PASS != TRUTH` and `VALIDATED_CONTRACT != VALIDATED_DOMAIN_TRANSFORM`.
 
-## Worked semantics
+## 5. Tensor/field interaction
 
-Given an operation touching `COGNITIVE MATRIX · SCALES CONTRACT` within the Cognitive Matrix plane:
+Scale may be an axis of a typed coordinate/data field. That fact alone does not establish algebraic tensor semantics.
 
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+```text
+INDEXED_FIELD_WITH_SCALE_AXIS != ALGEBRAIC_TENSOR
+```
 
-## Promotion-gate checklist
+Algebraic tensor claims remain subject to the URK scalar/module/multilinearity/tensor-product and basis firewalls.
 
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+## 6. Remaining gaps
 
-## Cross-plane bindings
+Domain-specific scale transformations require their own mathematical and empirical evidence, including units, observer/resolution assumptions, information loss, uncertainty propagation, invariants, counterexamples, and regime boundaries.
 
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+No generic H/M/L analogy may fill those gaps automatically.
 
-______________________________________________________________________
+## 7. Falsifiers
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+Revise this contract if:
 
-______________________________________________________________________
-
-**Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
-
-______________________________________________________________________
+1. authoritative source changes the scale registry;
+2. an implementation silently interchanges H/M/L;
+3. cross-scale resemblance is used as proof of mechanism or causality;
+4. a transform executes without explicit assumptions/invariants/provenance/receipt;
+5. a scale-axis record is mislabeled an algebraic tensor by dimensional shape alone.
 
 RSCF-NODE
-node_id: cm_25_cognitive_matrix_04_scales_cognitive_matrix_scales_contract
+node_id: cognitive_matrix_scales_contract
 node_type: note
 path: 25_COGNITIVE_MATRIX/04_SCALES/COGNITIVE_MATRIX_SCALES_CONTRACT.md
 claim_class: AMOS_MODEL
 
-______________________________________________________________________
-
 **MOC:** [[25_COGNITIVE_MATRIX/04_SCALES/04_SCALES_MOC|04_SCALES_MOC]]
-
-______________________________________________________________________
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
