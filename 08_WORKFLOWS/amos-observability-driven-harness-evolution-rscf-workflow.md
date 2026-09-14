@@ -1,191 +1,68 @@
 ---
 title: amos-observability-driven-harness-evolution-rscf-workflow
 type: workflow
-source: 08_WORKFLOWS
-Type: Workflow
-Skill: amos-observability-driven-harness-evolution-rscf
-Agent: amos-observability-driven-harness-evolution-rscf-agent
-Trigger: When tech-engineering engine is needed within the c10 domain
-Version: 1.0.0
-tags:
-  - type/workflow
-  - type/workflow
-  - domain/tech-engineering
-  - epistemic/source_claim
-  - hml/m
-  - epistemic/source_claim
-  - amos-os
-rscf:
-  state: AMOS_MODEL
-  claim_class: EMPIRICAL
-  provenance: AMOS_corpus
-  scope: workflow_process
+skill: amos-observability-driven-harness-evolution-rscf
+agent: amos-observability-driven-harness-evolution-rscf-agent
+version: 3.0.0
 origin_architect: Trang Phan
-epistemic_class: SOURCE_CLAIM
-version: 1.1.0
-rscf_state: SOURCE_CLAIM
-hml_level: M
-gmef_gates:
-  - L0_integrity
-  - L1_epistemic
-  - L2_provenance
-  - L5_scope
-  - L7_authority
-collapse_class: reversible
-qfm_gate_set: QFM_v43
-law_compliance:
-  - L0
-  - L1
-  - L2
-  - L4
-  - L5
-  - L7
-  - L16
-  - L17
-  - L18
-domain: c10
+epistemic_class: AMOS_MODEL
+status: implemented_local_reference
 ---
 
-# Workflow: Observability Driven Harness Evolution Rscf
+# Workflow: AMOS Observability-Driven Harness Evolution
 
-## Identity
+This workflow governs mutation evidence. It does not execute harness writes, evaluation jobs, rollback, merge, deployment, or canonical promotion.
 
-Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+## State machine
+
+`INTAKE -> FREEZE_EXPERIMENT -> INVENTORY_SURFACES -> CREATE_MUTATION -> STAGE_CHANGES -> FREEZE_MANIFEST -> ISOLATION_GATE -> EXECUTE_EVAL_EXTERNALLY -> BIND_EVALUATION -> BIND_EVALUATOR_RELIABILITY -> MUTATION_VERDICT -> OPTIONAL_RECONCILIATION -> TERMINAL`
 
 ## Preconditions
 
-- The `amos-observability-driven-harness-evolution-rscf` skill exists and is loaded.
-- The `amos-observability-driven-harness-evolution-rscf-agent` agent is available and has valid content_hash.
-- The query falls within the skill's declared scope and domain.
-- All required vault sources (if any) are accessible.
-- Epistemic class labeling is enabled (SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL).
+- `amos-observability-driven-harness-evolution-rscf` is available.
+- Baseline harness identity is exact and immutable for this experiment.
+- Candidate harness version is distinct from baseline.
+- PR19-compatible evaluation receipts and PR22-compatible calibration receipts can be produced or the workflow will terminate `INCONCLUSIVE`.
+- Mutation authority is separate from this workflow.
 
 ## Steps
 
-1. **Intake**: Identify the problem and confirm it matches the Observability Driven Harness Evolution Rscf scope.
-   - Classify the query against the c10 domain
-   - Route to the appropriate capability
-1. **Skill Invocation**: Load the `amos-observability-driven-harness-evolution-rscf` skill.
-   - Read the skill content and validation gates
-   - Identify which capability is most relevant
-1. **Application**: Apply the Observability Driven Harness Evolution Rscf capability.
-   - Tag every output with its epistemic status (SOURCE / DERIVED / AMOS_MODEL)
-   - Record provenance for every derived claim
-1. **Validation**: Check results against validation gates.
-   - Law of Law: no unresolved contradictions
-   - Epistemic class labels present
-   - Provenance recorded
-1. **Output**: Present results with full provenance and epistemic labeling.
-   - Include confidence ceiling
-   - Record source path for every derived claim
+1. **INTAKE** — bind objective, repository/ref, declared mutation scope, and authority ceiling.
+2. **FREEZE_EXPERIMENT** — freeze target/version, baseline/candidate harness versions, suite/environment, model/config, evaluator set/version, budget, task cohort, evidence archetype, expected task count, and calibrated evaluator identity/config.
+3. **INVENTORY_SURFACES** — register every mutable file path, component class, baseline hash, and mutability flag.
+4. **CREATE_MUTATION** — bind root-cause evidence hash, evidence-bundle hash, predicted fix set, predicted regression set, and attribution mode before evaluation.
+5. **STAGE_CHANGES** — for each changed path require declared surface, exact baseline hash, distinct candidate hash, and rollback hash equal to baseline.
+6. **FREEZE_MANIFEST** — reject later staging; require `COUPLED_SET` when multiple component classes change.
+7. **ISOLATION_GATE** — verify prior tests/rewards are hidden, legitimate agent-owned state is preserved, and shared-verifier residue was sanitized before the next agent phase.
+8. **EXECUTE_EVAL_EXTERNALLY** — evaluation is performed by an authorized external runner; this workflow only consumes bounded receipts.
+9. **BIND_EVALUATION** — validate sealed complete-coverage baseline/candidate run receipts and exact comparison receipt; reject frozen-axis drift.
+10. **BIND_EVALUATOR_RELIABILITY** — validate held-out `VALIDATION` calibration report and reliability-gate receipt matching frozen evaluator identity/config.
+11. **MUTATION_VERDICT** — use `harness_evolution_guarded_runtime.py` and the guarded receipt validator; emit `KEEP|ROLLBACK|INCONCLUSIVE` recommendation only. Both KEEP and ROLLBACK require comparable, reliable, isolated, plausibly attributable evidence; otherwise emit `INCONCLUSIVE`.
+12. **OPTIONAL_RECONCILIATION** — observe `KEPT|ROLLED_BACK|NOT_APPLIED`, exact observed harness version, changed-component hashes, and reconciliation evidence.
+13. **TERMINAL** — return bounded receipt hashes, gaps, authority ceiling, and falsifiers.
 
-## Operations
+## Recovery
 
-1. **Intake**: Identify the problem and confirm it matches the Observability Driven Harness Evolution Rscf scope. - Classify the query against the c10 domain - Route to the appropriate capability
-1. **Skill Invocation**: Load the `amos-observability-driven-harness-evolution-rscf` skill. - Read the skill content and validation gates - Identify which capability is most relevant
-1. **Application**: Apply the Observability Driven Harness Evolution Rscf capability. - Tag every output with its epistemic status (SOURCE / DERIVED / AMOS_MODEL) - Record provenance for every derived claim
-1. **Validation**: Check results against validation gates. - Law of Law: no unresolved contradictions - Epistemic class labels present - Provenance recorded
-1. **Output**: Present results with full provenance and epistemic labeling. - Include confidence ceiling - Record source path for every derived claim
+- Undeclared or immutable surface -> reject mutation; re-inventory rather than widening scope silently.
+- Baseline hash mismatch -> invalidate staged change and re-read current baseline.
+- Cross-component mutation under `SINGLE_COMPONENT` -> reject; either split the experiment or explicitly declare coupled attribution.
+- Verifier/reward contamination -> invalidate comparative evidence and rerun from a clean state.
+- Incomplete/unsealed evaluation -> `INCONCLUSIVE`; do not extrapolate.
+- Frozen-axis mismatch -> `NOT_COMPARABLE`; do not compute a causal claim.
+- Evaluator reliability not `PASS` -> `INCONCLUSIVE`; do not use the untrusted evaluation to justify KEEP or ROLLBACK.
+- Critical regression under comparable, reliable, isolated, plausibly attributable evidence -> recommend `ROLLBACK`; otherwise `INCONCLUSIVE`. Never execute rollback here.
+- Reconciliation mismatch -> preserve recommendation but mark actual effect `UNKNOWN/GAP`.
 
-## Output
+## Hard firewalls
 
-The workflow produces a structured result containing:
+`MUTATION_PROPOSAL != WRITE_AUTHORITY`
 
-- `status` — VERIFIED / DERIVED / CONDITIONAL / UNKNOWN/GAP / REJECTED
-- `capability` — the capability that was executed
-- `summary` — human-readable summary of the result
-- `data` — structured output specific to the capability
-- `gaps` — list of unresolved gap identifiers
-- `warnings` — non-blocking advisory messages
-- `confidence_ceiling` — maximum confidence (capped at 0.95)
-- `provenance` — list of provenance references tracing to source evidence
+`KEEP_RECOMMENDATION != MERGE_AUTHORITY`
 
-## Validation Gates
+`ROLLBACK_RECOMMENDATION != ROLLBACK_EXECUTION`
 
-- **G1 (Intake)**: Problem confirmed within Observability Driven Harness Evolution Rscf scope.
-- **G2 (Application)**: Outputs carry correct epistemic status tags.
-- **G3 (Validation)**: Results pass Law of Law and epistemic class checks.
-- **G4 (Output)**: Output format matches specification; provenance recorded.
+`NEXT_ROUND_DELTA != CAUSAL_PROOF`
 
-## Failure Paths
+`VERIFIER_OR_REWARD_LEAKAGE != VALID_COMPARATIVE_EVIDENCE`
 
-- If validation fails: downgrade confidence, flag the gap, escalate — do not force-fit.
-- If skill content is insufficient: mark as UNKNOWN/GAP and fail closed.
-
-## Provenance
-
-- **Workflow**: `amos-observability-driven-harness-evolution-rscf-workflow.md`
-- **Skill**: `amos-observability-driven-harness-evolution-rscf`
-- **Agent**: `amos-observability-driven-harness-evolution-rscf-agent`
-
-______________________________________________________________________
-
-**MOC:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
-
-## Orchestration Pattern
-
-**Pattern**: Single-Agent with Validation Gates
-
-This workflow follows a single-agent orchestration with explicit validation gates between steps:
-
-1. **Intake** -> validation gate -> **Skill Invocation** -> validation gate -> **Application** -> validation gate -> **Output**
-1. Each gate checks: epistemic labeling, provenance, scope compliance, confidence ceiling
-1. On gate failure: route to error handling or escalate to parent workflow
-
-## Evaluation Gates
-
-### Gate 1: Intake Validation
-
-- Query matches skill scope
-- Required inputs present
-- No scope violations detected
-
-### Gate 2: Skill Load Validation
-
-- Skill file exists and is valid
-- Agent binding is valid
-- Required vault sources accessible
-
-### Gate 3: Output Validation
-
-- Epistemic class labels present
-- Provenance recorded for all derived claims
-- Confidence ceiling not exceeded
-- No unresolved CRITICAL_GAPs
-- Scope compliance verified
-
-## Error Handling
-
-| Error Type       | Detection                    | Recovery                              |
-| ---------------- | ---------------------------- | ------------------------------------- |
-| Scope violation  | Gate 1 check                 | Route to parent skill                 |
-| Missing evidence | Gate 3 check                 | Flag as GAP, reduce confidence to 0.5 |
-| Contradiction    | Gate 3 check                 | Flag as CRITICAL_GAP, halt            |
-| Provenance loss  | Gate 3 check                 | Mark as UNKNOWN, request human review |
-| Timeout          | Step budget exceeded         | Return partial result with warnings   |
-| Drift            | Confidence calibration check | Trigger drift alignment governor      |
-
-## Human-in-the-Loop
-
-- **Default**: Automated execution without human intervention
-- **Escalation triggers**:
-  - CRITICAL_GAP detected
-  - Confidence below 0.3
-  - Scope violation requiring reclassification
-  - Contradiction that cannot be auto-resolved
-- **Review checkpoint**: After Gate 3, if any warnings are present
-
-## Monitoring
-
-- **Trace level**: Full (inputs, outputs, intermediate steps)
-- **Metrics**: Step count, token usage, confidence, gap count, execution time
-- **Alerts**: CRITICAL_GAP, confidence < 0.3, scope violation, timeout
-- **Provenance**: Every output traces back to source evidence via provenance chain
-
-## Composition
-
-- **Skill**: `amos-observability-driven-harness-evolution-rscf`
-- **Agent**: `amos-observability-driven-harness-evolution-rscf-agent`
-- **Parent workflow**: Routes via `AMOS_HOME` or parent skill workflow
-- **Chain depth**: Maximum 3 workflows in sequence without orchestrator approval
-- **Parallel execution**: Supported when independent capabilities are invoked
+`CALIBRATION_PASS != GROUND_TRUTH`
