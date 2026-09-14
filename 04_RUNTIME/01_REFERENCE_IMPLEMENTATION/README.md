@@ -1,131 +1,103 @@
 ---
-canon-group: meta
-canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
+title: AMOS Runtime Reference Implementation
+artifact_id: AMOS-RUNTIME-REFERENCE
+type: runtime_reference
+status: PARTIAL_EXECUTABLE
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
-topic: Readme
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
-created: 2026-08-22
----
----
+origin_architect: Trang Phan
+steward: Trang Phan
 ---
 
-# Runtime Reference Implementation README
+# AMOS Runtime Reference Implementation
 
-## 0. Status
+## Status
 
-`README.md` defines the proposed AMOS OS **Runtime Reference Implementation**.
-
-This artifact replaces a structural placeholder with substantive content.
+The AMOS runtime remains a partially executable reference architecture.
 
 ```text
 PLACEHOLDER != IMPLEMENTED
-ADDRESSABLE != VALIDATED
 DOCUMENTED != ENFORCED
-MODEL != OBSERVATION
-SOURCE_CLAIM != VERIFIED
-CANON_CANDIDATE != CANONICAL
+REFERENCE_EXECUTOR != PRODUCTION_RUNTIME
+TEST_PASS != TRUTH
 CAPABILITY != AUTHORITY
 UNKNOWN/GAP != PASS
 ```
 
-Origin architect / steward: **Trang Phan**
-
-______________________________________________________________________
-
-## 1. Purpose
-
-The Runtime Reference Implementation README provides an overview of the AMOS runtime reference implementation.
-
-______________________________________________________________________
-
-## 2. Formal Definition
-
-### 2.1 Runtime Pipeline
+## Runtime pipeline
 
 ```text
-Perceive → Route → Admit → Plan → Schedule → Execute → Observe → Repair → Audit → Finalize
+Perceive -> Route -> Admit -> Plan -> Schedule -> Execute -> Observe -> Repair -> Audit -> Finalize
 ```
 
-### 2.2 Reference Implementation Status
+## Executable reference surfaces
 
-The AMOS runtime reference implementation is AMOS_MODEL / CONDITIONAL. Architecture and control contracts are structurally present, but system-wide executable closure is not established merely by their presence.
+### Durable workflow persistence
 
-### 2.3 Key Components
+The first bounded durable-execution reference is implemented in:
 
-- [[02_KERNEL/02_KERNEL_MOC|02_KERNEL]] — runtime kernel
-- [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE]] — control plane
-- [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]] — runtime engine
-- [[12_STATE/12_STATE_MOC|12_STATE]] — state management
-- [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY]] — observability
+- `durable_workflow_runtime.py`
+- `DURABLE_WORKFLOW_CONTRACT.md`
+- `19_TESTS/test_durable_workflow_runtime.py`
 
-______________________________________________________________________
+It provides tested local SQLite semantics for:
 
-## 3. Cross-References
+- stable workflow/run identity;
+- explicit checkpoints and state hashes;
+- hash-chained history integrity;
+- completed-step receipts;
+- pure-step retry after interruption;
+- explicit external-effect idempotency keys;
+- ambiguous-effect quarantine and reconciliation;
+- code-version compatibility markers;
+- continue-as-new with explicit state carry only.
 
-- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
-- [[00_ROOT/AMOS MOC|AMOS MOC]]
-- [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+This closes the previous `Executable binding NOT_ESTABLISHED` gap only for this declared local reference surface.
 
-______________________________________________________________________
+## Governing boundaries
 
-## 4. Gaps
+The executable reference preserves:
 
-- Executable binding NOT_ESTABLISHED
-- Canonical status CONDITIONAL
-- Automated enforcement NOT_ESTABLISHED
-
-______________________________________________________________________
-
-## 5. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_file:
-    preserve: true
-    overwrite: false
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+```text
+HISTORY_REPLAY != EFFECT_REEXECUTION
+CHECKPOINT_PRESENT != EFFECT_COMMITTED
+CODE_CHANGE != REPLAY_COMPATIBLE
+IDENTICAL_ARGUMENTS != SAME_OPERATION
+REFERENCE_IMPLEMENTATION != DEPLOYMENT_AUTHORITY
 ```
 
-______________________________________________________________________
+An external effect that was started but lacks a durable completion receipt remains `AMBIGUOUS`; it must be reconciled before retry or continuation.
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+## Cross-plane bindings
 
-______________________________________________________________________
+- `02_KERNEL` — deterministic primitives and invariant checks.
+- `03_CONTROL_PLANE` — authority remains external to runtime capability.
+- `04_RUNTIME` — execution/replay owner.
+- `08_WORKFLOWS` / `26_WORKFLOWS` — workflow transition contracts.
+- `12_STATE` — durable state semantics.
+- `17_OBSERVABILITY` — observation/trace only; no authority inheritance.
+- `19_TESTS` — executed evidence and falsification surface.
 
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+## Remaining gaps
 
-______________________________________________________________________
+- Distributed durable execution: `UNKNOWN/GAP`.
+- Multi-worker leasing/heartbeats: `UNKNOWN/GAP`.
+- Distributed consensus/finality implementation: `UNKNOWN/GAP`.
+- Production database migration/backup behavior: `UNKNOWN/GAP`.
+- External-effect atomicity across third-party systems: `UNKNOWN/GAP`.
+- End-to-end production recovery drills: `UNKNOWN/GAP`.
+- Canonical runtime promotion: `NONE`.
+- Deployment authority: `NONE`.
 
-RSCF-NODE
+## Evidence rule
 
-node_id: amos_04_runtime_runtime_reference_readme
+A local reference test may upgrade only the claims exercised by that test.
 
-node_type: README
+```text
+LOCAL_EXECUTED_TEST
+  -> EXECUTED_TESTED_SCOPE
+  -/> PRODUCTION_VALIDITY
+  -/> DISTRIBUTED_VALIDITY
+  -/> CANONICAL_AUTHORITY
+```
 
-path: 04_RUNTIME/01_REFERENCE_IMPLEMENTATION/README.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: DERIVED
-
-canonical_status: CONDITIONAL
-
-RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+External durable-runtime designs may inform mechanisms, but AMOS imports no external authority from them.

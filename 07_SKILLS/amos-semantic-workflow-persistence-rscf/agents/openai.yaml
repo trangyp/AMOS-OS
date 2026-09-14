@@ -1,0 +1,3 @@
+interface:
+  display_name: "AMOS Workflow Persistence"
+  short_description: "Durable workflow state, replay, effect reconciliation, and recovery"

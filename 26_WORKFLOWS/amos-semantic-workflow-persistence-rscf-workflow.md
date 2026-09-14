@@ -1,163 +1,175 @@
 ---
-canon-group: meta
-canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
-conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
-topic: Amos Semantic Workflow Persistence Rscf Workflow
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
-created: 2026-08-22
----
----
+title: amos-semantic-workflow-persistence-rscf-workflow
+type: workflow
+Skill: amos-semantic-workflow-persistence-rscf
+Agent: amos-semantic-workflow-persistence-rscf-agent
+Version: 2.0.0
+origin_architect: Trang Phan
+steward: Trang Phan
+epistemic_class: AMOS_MODEL
+status: PARTIAL_EXECUTABLE
 ---
 
-# Workflow: Semantic Workflow Persistence Rscf
+# Workflow: AMOS Semantic Workflow Persistence
 
-## Identity
+## Objective
 
-Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+Persist and recover long-running AMOS workflows as typed state while preserving the distinction between deterministic replay and external effects.
 
-## Preconditions
+## Invariants
 
-- The `amos-semantic-workflow-persistence-rscf` skill exists and is loaded.
-- The `amos-semantic-workflow-persistence-rscf-agent` agent is available and has valid content_hash.
-- The query falls within the skill's declared scope and domain.
-- All required vault sources (if any) are accessible.
-- Epistemic class labeling is enabled (SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL).
+```text
+CAPABILITY != AUTHORITY
+CHECKPOINT_PRESENT != EFFECT_COMMITTED
+HISTORY_REPLAY != EFFECT_REEXECUTION
+IDENTICAL_ARGUMENTS != IDENTICAL_OPERATION
+CODE_CHANGE != REPLAY_COMPATIBLE
+AMBIGUOUS != FAILED
+UNKNOWN/GAP != PASS
+TEST_PASS != PRODUCTION_VALIDITY
+```
 
-## Steps
+## Runtime state
 
-1. **Intake**: Identify the problem and confirm it matches the Semantic Workflow Persistence Rscf scope.
-   - Classify the query against the runtime domain
-   - Route to the appropriate capability
-1. **Skill Invocation**: Load the `amos-semantic-workflow-persistence-rscf` skill.
-   - Read the skill content and validation gates
-   - Identify which capability is most relevant
-1. **Application**: Apply the Semantic Workflow Persistence Rscf capability.
-   - Tag every output with its epistemic status (SOURCE / DERIVED / AMOS_MODEL)
-   - Record provenance for every derived claim
-1. **Validation**: Check results against validation gates.
-   - Law of Law: no unresolved contradictions
-   - Epistemic class labels present
-   - Provenance recorded
-1. **Output**: Present results with full provenance and epistemic labeling.
-   - Include confidence ceiling
-   - Record source path for every derived claim
+```yaml
+workflow_state:
+  workflow_id: string
+  run_id: integer
+  code_version: string
+  objective: string
+  scope: string
+  status: RUNNING | COMPLETED | CONTINUED_AS_NEW | BLOCKED | UNKNOWN/GAP
+  explicit_state_hash: string
+  event_head: string
+  dependencies: []
+  unresolved_effects: []
+  authority_ref: optional
+  provenance: []
+  gaps: []
+```
 
-## Operations
+## Transition graph
 
-1. **Intake**: Identify the problem and confirm it matches the Semantic Workflow Persistence Rscf scope. - Classify the query against the runtime domain - Route to the appropriate capability
-1. **Skill Invocation**: Load the `amos-semantic-workflow-persistence-rscf` skill. - Read the skill content and validation gates - Identify which capability is most relevant
-1. **Application**: Apply the Semantic Workflow Persistence Rscf capability. - Tag every output with its epistemic status (SOURCE / DERIVED / AMOS_MODEL) - Record provenance for every derived claim
-1. **Validation**: Check results against validation gates. - Law of Law: no unresolved contradictions - Epistemic class labels present - Provenance recorded
-1. **Output**: Present results with full provenance and epistemic labeling. - Include confidence ceiling - Record source path for every derived claim
+```text
+INTAKE
+  -> BIND_IDENTITY
+  -> LOAD_CHECKPOINT
+  -> VERIFY_HISTORY
+  -> CHECK_CODE_VERSION
+  -> CLASSIFY_NEXT_STEP
+       -> PURE
+       -> EFFECT -> AUTHORITY_GATE
+  -> RECORD_STARTED
+  -> EXECUTE
+       -> COMPLETED_RECEIPT
+       -> RETRYABLE_PURE
+       -> AMBIGUOUS_EFFECT
+  -> CHECKPOINT
+  -> CONTINUE_AS_NEW | FINALIZE | HOLD
+```
 
-## Output
+## Gates
 
-The workflow produces a structured result containing:
+### Identity gate
 
-- `status` — VERIFIED / DERIVED / CONDITIONAL / UNKNOWN/GAP / REJECTED
-- `capability` — the capability that was executed
-- `summary` — human-readable summary of the result
-- `data` — structured output specific to the capability
-- `gaps` — list of unresolved gap identifiers
-- `warnings` — non-blocking advisory messages
-- `confidence_ceiling` — maximum confidence (capped at 0.95)
-- `provenance` — list of provenance references tracing to source evidence
+Require stable workflow ID, run ID, code version, dependency identity, and provenance root. Missing identity -> `UNKNOWN/GAP`.
 
-## Validation Gates
+### Checkpoint gate
 
-- **G1 (Intake)**: Problem confirmed within Semantic Workflow Persistence Rscf scope.
-- **G2 (Application)**: Outputs carry correct epistemic status tags.
-- **G3 (Validation)**: Results pass Law of Law and epistemic class checks.
-- **G4 (Output)**: Output format matches specification; provenance recorded.
+Load only explicit persisted state and receipts. Conversational similarity, model memory, or a cached response is not authoritative workflow state.
 
-## Failure Paths
+### Integrity gate
 
-- If validation fails: downgrade confidence, flag the gap, escalate — do not force-fit.
-- If skill content is insufficient: mark as UNKNOWN/GAP and fail closed.
+Validate state hash, event sequence/hash chain, completed-step receipts, and unresolved-effect set. Mismatch -> `QUARANTINE`.
 
-## Provenance
+### Version gate
 
-- **Workflow**: `amos-semantic-workflow-persistence-rscf-workflow.md`
-- **Skill**: `amos-semantic-workflow-persistence-rscf`
-- **Agent**: `amos-semantic-workflow-persistence-rscf-agent`
+A changed workflow implementation requires an explicit compatibility patch marker before an in-flight history may resume. Preserve old-history behavior until the compatibility window is deliberately retired.
 
-______________________________________________________________________
+### Step classification gate
 
-**MOC:** [[26_WORKFLOWS/26_WORKFLOWS_MOC|26_WORKFLOWS_MOC]]
+`PURE` steps are local/deterministic and may retry after interruption if step identity/input remain stable.
 
-## Orchestration Pattern
+`EFFECT` steps can alter external state and require an explicit effect key, applicable authority, and a durable receipt/reconciliation boundary.
 
-**Pattern**: Single-Agent with Validation Gates
+### Authority gate
 
-This workflow follows a single-agent orchestration with explicit validation gates between steps:
+The AMOS control plane validates consequential effect authority. Workflow capability never self-grants permission.
 
-1. **Intake** -> validation gate -> **Skill Invocation** -> validation gate -> **Application** -> validation gate -> **Output**
-1. Each gate checks: epistemic labeling, provenance, scope compliance, confidence ceiling
-1. On gate failure: route to error handling or escalate to parent workflow
+### Execution gate
 
-## Evaluation Gates
+Record `STARTED` before work.
 
-### Gate 1: Intake Validation
+```text
+PURE success -> COMPLETED
+PURE interruption -> RETRYABLE
+EFFECT success + receipt -> COMPLETED
+EFFECT possible dispatch + uncertain receipt -> AMBIGUOUS
+```
 
-- Query matches skill scope
-- Required inputs present
-- No scope violations detected
+### Reconciliation gate
 
-### Gate 2: Skill Load Validation
+An ambiguous effect must be checked against the actual target/provider before any retry.
 
-- Skill file exists and is valid
-- Agent binding is valid
-- Required vault sources accessible
+```text
+AMBIGUOUS -> COMPLETED
+AMBIGUOUS -> NOT_APPLIED -> RETRYABLE
+```
 
-### Gate 3: Output Validation
+No blind retry.
 
-- Epistemic class labels present
-- Provenance recorded for all derived claims
-- Confidence ceiling not exceeded
-- No unresolved CRITICAL_GAPs
-- Scope compliance verified
+### Continue-as-new gate
 
-## Error Handling
+New run boundaries carry only explicitly selected state. They may not silently carry result caches, undeclared model context, stale authority, or unresolved effects.
 
-| Error Type       | Detection                    | Recovery                              |
-| ---------------- | ---------------------------- | ------------------------------------- |
-| Scope violation  | Gate 1 check                 | Route to parent skill                 |
-| Missing evidence | Gate 3 check                 | Flag as GAP, reduce confidence to 0.5 |
-| Contradiction    | Gate 3 check                 | Flag as CRITICAL_GAP, halt            |
-| Provenance loss  | Gate 3 check                 | Mark as UNKNOWN, request human review |
-| Timeout          | Step budget exceeded         | Return partial result with warnings   |
-| Drift            | Confidence calibration check | Trigger drift alignment governor      |
+### Finalization gate
 
-## Human-in-the-Loop
+Finalize only with valid history, resolvable dependencies, compatible code, no unresolved effects, and required final authority.
 
-- **Default**: Automated execution without human intervention
-- **Escalation triggers**:
-  - CRITICAL_GAP detected
-  - Confidence below 0.3
-  - Scope violation requiring reclassification
-  - Contradiction that cannot be auto-resolved
-- **Review checkpoint**: After Gate 3, if any warnings are present
+## Failure semantics
 
-## Monitoring
+```text
+TIMEOUT != CANCELLED
+CANCELLED != FAILED
+FAILED != AMBIGUOUS
+AMBIGUOUS != UNKNOWN/GAP
+UNKNOWN/GAP != SUCCESS
+```
 
-- **Trace level**: Full (inputs, outputs, intermediate steps)
-- **Metrics**: Step count, token usage, confidence, gap count, execution time
-- **Alerts**: CRITICAL_GAP, confidence < 0.3, scope violation, timeout
-- **Provenance**: Every output traces back to source evidence via provenance chain
+A timeout after possible external dispatch is `AMBIGUOUS`, not a safe retry signal.
 
-## Composition
+## Parallelism
 
-- **Skill**: `amos-semantic-workflow-persistence-rscf`
-- **Agent**: `amos-semantic-workflow-persistence-rscf-agent`
-- **Parent workflow**: Routes via `AMOS_HOME` or parent skill workflow
-- **Chain depth**: Maximum 3 workflows in sequence without orchestrator approval
-- **Parallel execution**: Supported when independent capabilities are invoked
+Parallel transitions require distinct step identities, dependency independence or explicit merge semantics, and compatible effect-key semantics. Otherwise serialize.
+
+## Executable evidence
+
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/durable_workflow_runtime.py`
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/DURABLE_WORKFLOW_CONTRACT.md`
+- `19_TESTS/test_durable_workflow_runtime.py`
+- `07_SKILLS/amos-semantic-workflow-persistence-rscf/scripts/durable_contract_check.py`
+
+The executable evidence supports only the declared local reference boundary.
+
+## Output schema
+
+```yaml
+result:
+  workflow_id: string
+  run_id: integer
+  code_version: string
+  status: string
+  next_transition: string | null
+  unresolved_effects: []
+  checkpoint_valid: true | false | unknown
+  history_integrity: valid | invalid | unknown
+  replay_compatibility: compatible | incompatible | unknown
+  authority_state: valid | invalid | required | unknown
+  provenance: []
+  gaps: []
+  verdict: VERIFIED_TESTED_SCOPE | PARTIAL | CONDITIONAL | UNKNOWN/GAP | QUARANTINE
+```
+
+## Boundary
+
+Local reference validation does not establish production durability, distributed consensus, multi-worker leasing, external transaction atomicity, or deployment authority.
