@@ -22,14 +22,33 @@ class Formula:
     agent: str | None = None
     args: Tuple["Formula", ...] = ()
 
+    def __post_init__(self) -> None:
+        if self.kind is Kind.ATOM:
+            if self.atom is None or not self.atom.strip() or self.agent is not None or self.args:
+                raise ValueError("ATOM requires exactly one non-empty atom")
+            return
+        if self.atom is not None:
+            raise ValueError("non-ATOM formula cannot carry atom")
+        if self.kind is Kind.NOT:
+            if self.agent is not None or len(self.args) != 1:
+                raise ValueError("NOT requires one argument and no agent")
+            return
+        if self.kind in (Kind.BOX, Kind.DIAMOND):
+            if self.agent is None or not self.agent.strip() or len(self.args) != 1:
+                raise ValueError("modal operator requires one argument and explicit agent")
+            return
+        if self.kind in (Kind.AND, Kind.OR, Kind.IMPLIES):
+            if self.agent is not None or len(self.args) != 2:
+                raise ValueError("binary connective requires two arguments and no agent")
+            return
+        raise ValueError(f"unsupported formula kind: {self.kind}")
+
     @staticmethod
     def atom_(name: str) -> "Formula":
-        if not name.strip(): raise ValueError("atom must be non-empty")
         return Formula(Kind.ATOM, atom=name)
     @staticmethod
     def unary(kind: Kind, x: "Formula", agent: str | None=None) -> "Formula":
         if kind not in (Kind.NOT, Kind.BOX, Kind.DIAMOND): raise ValueError("not unary")
-        if kind in (Kind.BOX, Kind.DIAMOND) and (agent is None or not agent.strip()): raise ValueError("modal operator requires agent")
         return Formula(kind, agent=agent, args=(x,))
     @staticmethod
     def binary(kind: Kind, a: "Formula", b: "Formula") -> "Formula":
@@ -44,6 +63,7 @@ class KripkeModel:
 
     def __post_init__(self) -> None:
         if not self.worlds: raise ValueError("worlds must be non-empty")
+        if any(not world.strip() for world in self.worlds): raise ValueError("world names must be non-empty")
         for agent, edges in self.relations.items():
             if not agent.strip(): raise ValueError("agent must be non-empty")
             for u,v in edges:
@@ -54,7 +74,8 @@ class KripkeModel:
 
     def successors(self, agent: str, world: str) -> FrozenSet[str]:
         if world not in self.worlds: raise KeyError(world)
-        return frozenset(v for u,v in self.relations.get(agent, frozenset()) if u == world)
+        if agent not in self.relations: raise KeyError(agent)
+        return frozenset(v for u,v in self.relations[agent] if u == world)
 
 
 def holds(model: KripkeModel, world: str, formula: Formula) -> bool:
