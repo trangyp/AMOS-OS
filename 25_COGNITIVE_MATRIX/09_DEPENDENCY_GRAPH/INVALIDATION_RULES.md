@@ -1,67 +1,72 @@
 ---
 canon-group: meta
 canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
+rscf-state: derived
+rscf-claim: bounded-validated
+rscf-provenance: AMOS_corpus_plus_executable_repair
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: DERIVED
 topic: Invalidation Rules
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
+updated: 2026-09-14
+origin_architect: Trang Phan
 ---
----
----
 
-# INVALIDATION_RULES — Definition
+# INVALIDATION_RULES — Executable bounded contract
 
-**Package:** `INVALIDATION_RULES_`
-**Class:** `COGNITIVE_MATRIX_CONTRACT`
-**Epistemic class:** `DERIVED / MODEL EXTENSION`
-**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
-**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
+**Class:** `COGNITIVE_MATRIX_CONTRACT`  
+**Status:** `IMPLEMENTED_BOUNDED / VALIDATED_BOUNDED`  
+**Runtime:** `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/cognitive_matrix_runtime.py` and `cognitive_matrix_contract_runtime.py`
 
-## Scope
+## Selective invalidation
 
-Covers the operation contract for this lifecycle operator.
+For a directed dependency graph, invalidating a node changes only the state that depends on it through load-bearing edges.
 
-## Definition
-
-INVALIDATION
-
-This is a **contract-level definition**, not an implementation claim.
-
-## Hard boundaries
+Runtime rule:
 
 ```text
-CONTRACT_FILLED != IMPLEMENTED
-DOCUMENTED != EXECUTABLE
-MODEL != VERIFIED
-UNKNOWN/GAP != PASS
+invalidated root:
+  ACTIVE -> QUARANTINED
+
+load-bearing descendants through
+HARD | EVIDENCE | AUTHORITY:
+  ACTIVE -> STALE
+
+SOFT-only descendants:
+  unchanged
+
+unrelated nodes:
+  unchanged
 ```
 
+If the invalidated root is already `FALSIFIED` or `COMPETING`, that stronger epistemic condition is preserved rather than overwritten by quarantine.
+
+## Hard invariants
+
+```text
+STALE != FALSE
+INVALIDATED_ANCESTOR != ALL_DESCENDANTS_FALSE
+SOFT_DEPENDENCY != LOAD_BEARING_DEPENDENCY
+QUARANTINE != DELETE
+UNRELATED_STATE -> PRESERVE
+```
+
+Invalidation is dependency-sensitive, not global. A source change therefore creates a bounded revalidation requirement over its dependent closure rather than erasing the entire matrix.
+
+Runtime bindings:
+- `DependencyKind.propagates_staleness`
+- `DependencyGraph.descendants`
+- `DependencyGraph.selective_invalidate`
+- `audit_selective_invalidation`
+
+Validation: `test_cognitive_matrix_runtime.py` and `test_cognitive_matrix_contract_runtime.py`.
+
 ______________________________________________________________________
 
-[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
+[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/09_DEPENDENCY_GRAPH_MOC|09_DEPENDENCY_GRAPH_MOC]]
 
 RSCF-NODE
 node_id: invalidation_rules_graph_definition
-node_type: note
-path: 09_DEPENDENCY_GRAPH/INVALIDATION_RULES\_/INVALIDATION_RULES.md
-claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/INVALIDATION_RULES.md
-
-______________________________________________________________________
-
-**MOC:** [[25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/09_DEPENDENCY_GRAPH_MOC|09_DEPENDENCY_GRAPH_MOC]]
-
-______________________________________________________________________
-
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+node_type: EXECUTABLE_CONTRACT
+claim_class: AMOS_MODEL
+rscf_state: VALIDATED_BOUNDED
