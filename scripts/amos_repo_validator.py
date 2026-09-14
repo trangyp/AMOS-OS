@@ -23,8 +23,15 @@ def frontmatter(text: str) -> dict[str, str]:
 def changed(base: str | None) -> set[str] | None:
     if not base:
         return None
-    for rev in (f'origin/{base}...HEAD', f'{base}...HEAD'):
-        p = subprocess.run(['git','diff','--name-only',rev], cwd=ROOT, text=True,
+    # Compare the two concrete trees directly. This does not require merge-base
+    # history and therefore remains valid in a shallow CI checkout where only
+    # HEAD and the target base ref have been fetched.
+    commands = (
+        ['git', 'diff', '--name-only', f'origin/{base}', 'HEAD'],
+        ['git', 'diff', '--name-only', base, 'HEAD'],
+    )
+    for cmd in commands:
+        p = subprocess.run(cmd, cwd=ROOT, text=True,
                            stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)
         if p.returncode == 0:
             return {x for x in p.stdout.splitlines() if x}
