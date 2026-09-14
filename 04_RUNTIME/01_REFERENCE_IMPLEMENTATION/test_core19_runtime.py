@@ -35,6 +35,16 @@ class Core19RuntimeTests(unittest.TestCase):
                 a.join_information(b.join_information(d)),
             )
 
+    def test_truth4_information_order_is_explicit_not_python_lexicographic(self):
+        self.assertTrue(c.TRUTH4_NEITHER.leq_information(c.TRUTH4_TRUE_ONLY))
+        self.assertTrue(c.TRUTH4_NEITHER.leq_information(c.TRUTH4_FALSE_ONLY))
+        self.assertTrue(c.TRUTH4_TRUE_ONLY.leq_information(c.TRUTH4_BOTH))
+        self.assertTrue(c.TRUTH4_FALSE_ONLY.leq_information(c.TRUTH4_BOTH))
+        self.assertFalse(c.TRUTH4_TRUE_ONLY.leq_information(c.TRUTH4_FALSE_ONLY))
+        self.assertFalse(c.TRUTH4_FALSE_ONLY.leq_information(c.TRUTH4_TRUE_ONLY))
+        with self.assertRaises(TypeError):
+            _ = c.TRUTH4_TRUE_ONLY < c.TRUTH4_FALSE_ONLY
+
     def test_double_nlogic_is_checked_before_child_descent(self):
         x = c.UnaryExpr.atom("x")
         expr = c.UnaryExpr.nlogic(c.UnaryExpr.nlogic(x))
