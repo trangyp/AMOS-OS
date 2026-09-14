@@ -1,32 +1,32 @@
 ---
 canon-group: meta
 canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
+rscf-state: derived
+rscf-provenance: AMOS_corpus_plus_executable_binding
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: DERIVED
 topic: 03 Policy Moc
 tags:
   - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
-  - rscf/state/source-claim
-  - misc
+  - rscf/state/derived
+  - control-plane
 created: 2026-08-22
----
----
+updated: 2026-09-14
+origin_architect: Trang Phan
 ---
 
 # 03 Policy — Map of Content
 
 **Path:** `03_CONTROL_PLANE/03_POLICY`
-**Files:** 9 | **Subdirectories:** 1
 
 ## Files
 
 - [[03_CONTROL_PLANE/03_POLICY/BIO_LOGICAL_GOVERNANCE_POLICY|BIO_LOGICAL_GOVERNANCE_POLICY]]
 - [[03_CONTROL_PLANE/03_POLICY/CANON_POLICY|CANON_POLICY]]
+- `canon_admission_gate.py` — fail-closed candidate-canon prepare/commit gate
+- `test_canon_admission_gate.py` — bounded adversarial/unit verification
 - [[03_CONTROL_PLANE/03_POLICY/HERITAGE_POLICY|HERITAGE_POLICY]]
 - [[03_CONTROL_PLANE/03_POLICY/NEUROSYNCAI_GOVERNANCE_POLICY|NEUROSYNCAI_GOVERNANCE_POLICY]]
 - [[03_CONTROL_PLANE/03_POLICY/POLICY_CONTROL_PLANE_README|POLICY_CONTROL_PLANE_README]]
@@ -41,28 +41,40 @@ created: 2026-08-22
 
 ## Purpose
 
-Governs the policy evaluation surface of the AMOS control plane — encoding, evaluating, and adjudicating the rules that determine whether proposed actions are permitted, denied, or deferred. Policy is the decision layer that sits between capability (what is possible) and authority (what is authorized).
+Governs the policy evaluation surface of the AMOS control plane: encoding, evaluating, and adjudicating the rules that determine whether proposed actions or state promotions are permitted, denied, held, quarantined, or forced to revalidate.
+
+Policy sits between capability and authority. Evidence quality may establish candidate eligibility; it cannot manufacture commit authority.
 
 ## Key Artifacts
 
-- [[03_CONTROL_PLANE/03_POLICY/POLICY_ENGINE|POLICY_ENGINE]] — Core policy evaluation engine with gate-by-gate adjudication
-- [[03_CONTROL_PLANE/03_POLICY/POLICY_DECISION|POLICY_DECISION]] — Decision record format for permit/deny/defer outcomes
-- [[03_CONTROL_PLANE/03_POLICY/POLICY_REGISTRY|POLICY_REGISTRY]] — Registry of all active policy artifacts with version and signer provenance
-- [[03_CONTROL_PLANE/03_POLICY/CANON_POLICY|CANON_POLICY]] — Canonical policy framework governing vault-wide rule precedence
+- [[03_CONTROL_PLANE/03_POLICY/POLICY_ENGINE|POLICY_ENGINE]] — broader policy-evaluation specification/engine surface
+- [[03_CONTROL_PLANE/03_POLICY/POLICY_DECISION|POLICY_DECISION]] — decision record surface
+- [[03_CONTROL_PLANE/03_POLICY/POLICY_REGISTRY|POLICY_REGISTRY]] — policy registry surface
+- [[03_CONTROL_PLANE/03_POLICY/CANON_POLICY|CANON_POLICY]] — current canon-admission policy boundary
+- `canon_admission_gate.py` — bounded executable admission gate; confidence is metadata, not authority
+- [[02_KERNEL/01_META_LOGIC/K_CANON_ADMISSION_REPAIR_OVERLAY_2026-09-14|K_CANON Admission Repair Overlay]] — active interpretation guard for stale confidence-based promotion rules
 
 ## Invariants
 
-- Policy decisions must be deterministic given the same inputs and policy version
-- Policy artifacts must be content-addressed with signer identity provenance
-- Deny is the default outcome when policy evaluation is incomplete or ambiguous
-- Policy version must be pinned at commit time; mid-flight policy changes require revalidation
+- Policy decisions must be deterministic given the same typed inputs and policy identity.
+- Policy artifacts must preserve source/version/provenance identity.
+- Deny, hold, competing, quarantine, or revalidation is preferred over invented permission when mandatory evidence or authority is missing.
+- Policy identity must be pinned at prepare and rechecked at commit.
+- `confidence >= threshold` is never sufficient canon-promotion authority.
+- An unresolved same-scope contradiction cannot be erased by policy priority.
+- `COMMITTABLE` is a permission result, not evidence that a durable write occurred.
+
+## Current bounded executable evidence
+
+`canon_admission_gate.py` is locally verified by 12 tests covering missing evidence, competing claims, contradictions, mathematical and implementation evidence, authority, and source/policy/baseline/authority freshness.
+
+System-wide policy enforcement remains partial until durable commit/release and all policy surfaces are bound to equivalent control-plane contracts.
 
 ## Cross-References
 
-- [[03_CONTROL_PLANE/02_CAPABILITY/02_CAPABILITY_MOC|02_CAPABILITY_MOC]] — Capability plane provides the surface policy evaluates over
-- [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04_AUTHORITY_MOC]] — Authority plane enforces policy decisions with binding witnesses
-- [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]] — Commit plane pins policy version at commit time for replay safety
-
-______________________________________________________________________
+- [[03_CONTROL_PLANE/02_CAPABILITY/02_CAPABILITY_MOC|02_CAPABILITY_MOC]]
+- [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04_AUTHORITY_MOC]]
+- [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]]
+- [[02_KERNEL/01_META_LOGIC/K_CANON_ADMISSION_REPAIR_OVERLAY_2026-09-14|K_CANON Admission Repair Overlay]]
 
 **Parent:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
