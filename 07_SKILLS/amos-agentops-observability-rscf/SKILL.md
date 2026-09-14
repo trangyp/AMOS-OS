@@ -1,6 +1,6 @@
 ---
 name: amos-agentops-observability-rscf
-description: Govern and execute AMOS agent/runtime observability using typed traces, span lineage, missingness, privacy-aware capture, effect-state observations, receipts, and bounded OpenTelemetry projections. Use when instrumenting or auditing agents, workflows, model/tool/memory/effect calls, trace continuity, telemetry privacy, incident reconstruction, or claims based on runtime observations.
+description: Govern and execute AMOS agent/runtime observability using typed traces, privacy-aware capture, durable OTLP transport state, backend read-back verification, missingness, effect observations, and bounded receipts. Use when instrumenting or auditing agents/workflows/model-tool-memory-effect calls, exporting traces, diagnosing transport ambiguity, verifying telemetry arrived at a backend, or evaluating claims based on runtime observations.
 ---
 
 # AMOS AgentOps Observability RSCF
@@ -17,57 +17,56 @@ Operate observability below AMOS infrastructure authority. Telemetry is evidence
 - `CORRELATION_ID != AUTHORITY_WITNESS`
 - `NO_SPAN != NO_EVENT`
 - `RAW_CONTENT_CAPTURE != DEFAULT`
-- `OTEL_PROJECTION != OTLP_EXPORT`
-- `OTEL_PROJECTION != SEMANTIC_CONVENTION_CONFORMANCE`
+- `HTTP_ACK != BACKEND_READBACK_VERIFIED`
+- `EXPORT_PROCESS_SUCCESS != TRACE_ARRIVED`
+- `OTLP_ACCEPTED != AMOS_EVIDENCE_COMPLETE`
+- `PERSISTENT_QUEUE != AUTHORITY_CONTEXT_PERSISTENCE`
+- `IN_DOUBT != SAFE_TO_BLIND_RETRY`
+- `BACKEND_READBACK_MATCH != CAUSAL_PROOF`
 - `TOOL_OUTPUT != TRUSTED_INSTRUCTION`
-- `OBSERVED_EFFECT != AUTHORIZED_EFFECT`
 
 ## Runtime
 
-1. Bind the observed subject, version, environment, provenance root, and scope.
-2. Start one trace root and attach child spans with kinds `WORKFLOW|AGENT|MODEL|TOOL|MEMORY|EFFECT|EVAL`.
-3. Default to `METADATA_ONLY`. Store payload hashes, not raw inputs/outputs.
-4. Use `REDACTED_CONTENT` only when content inspection is decision-relevant and allowed. Redact secrets before persistence.
-5. Record `event_time` separately from observation/record time.
-6. Record expected/captured/dropped signals and explicit missingness reasons.
-7. For external effects, record `PROPOSED|COMMITTED|REJECTED|IN_DOUBT|COMPENSATED` only as observations. Authority remains control-plane-owned.
-8. Produce a receipt only after span/ledger integrity checks.
-9. If exporting to another telemetry system, preserve AMOS provenance/effect/authority-reference extensions and label the mapping as a compatibility projection unless protocol conformance is independently tested.
-10. Keep causal conclusions below the evidence licensed by the instrumentation design.
+1. Bind subject/version, environment, provenance root, run ID, build ID, and claim scope.
+2. Build typed spans `WORKFLOW|AGENT|MODEL|TOOL|MEMORY|EFFECT|EVAL`; default to `METADATA_ONLY`.
+3. Verify trace/ledger integrity and close all spans before export evidence is claimed.
+4. Project one trace into bounded OTLP/HTTP JSON while preserving AMOS provenance, effect, capture, run, and build attributes.
+5. Enqueue the exact payload in the durable local outbox; never persist transport secrets/authorization headers.
+6. Classify transport as `QUEUED|SENDING|ACKED|PARTIAL|RETRYABLE|PERMANENT_FAILURE|PROTOCOL_ERROR|IN_DOUBT|RECONCILED_PRESENT`.
+7. Retry only protocol-classified retryable responses. An ambiguous network outcome becomes `IN_DOUBT` and requires read-back reconciliation before any retry.
+8. Treat HTTP `ACKED` as one-hop acceptance only. It is not end-to-end or backend read-back verification.
+9. Read the trace back from an isolated backend/project/run identity and compare exact trace/span IDs, parentage, names, run/build IDs, and required `amos.*` attributes.
+10. Promote only an exact uncontaminated match to `VERIFIED_ROUNDTRIP`; otherwise return `NOT_VERIFIED` with missing, extra, duplicate, mismatch, or contamination evidence.
+11. Keep authorization, effect finality, causal claims, and epistemic promotion outside the telemetry transport layer.
 
 ## Deterministic surfaces
 
-- Reference runtime: `17_OBSERVABILITY/agent_trace_runtime.py`
-- Regression suite: `19_TESTS/test_agent_trace_runtime.py`
-- Receipt validator: `scripts/trace_contract_check.py`
+- Trace runtime: `17_OBSERVABILITY/agent_trace_runtime.py`
+- Transport/read-back runtime: `17_OBSERVABILITY/trace_transport_runtime.py`
+- Trace tests: `19_TESTS/test_agent_trace_runtime.py`
+- Transport/read-back tests: `19_TESTS/test_trace_transport_runtime.py`
+- Trace receipt validator: `scripts/trace_contract_check.py`
+- Transport/read-back validator: `scripts/transport_roundtrip_check.py`
 
-Run the regression suite when runtime semantics change. Run the receipt validator before relying on a generated observability receipt in consequential reasoning.
+Run both regression suites when observability semantics change. Validate receipts before using them in consequential reasoning.
 
-## Progressive references
+## Progressive reference
 
-Read [references/observability-boundaries.md](references/observability-boundaries.md) when mapping OpenTelemetry/OpenInference/OpenLLMetry/Langfuse concepts, handling content capture, or deciding whether telemetry evidence can support a stronger claim.
+Read [references/observability-boundaries.md](references/observability-boundaries.md) when mapping OpenTelemetry, OTLP, Collector, OpenInference/Phoenix, OpenLLMetry, or Langfuse mechanisms; deciding retry/reconciliation semantics; handling content capture; or determining whether telemetry supports a stronger claim.
 
 ## Output contract
 
-Return the smallest useful capsule:
-
-- trace/receipt identity;
-- subject/version/environment;
-- span classes observed;
-- effect states observed;
-- missingness/coverage;
-- integrity status;
-- content-capture mode;
-- provenance roots;
-- unresolved gaps;
-- claim ceiling and falsifier.
+Return the smallest useful evidence capsule: trace/export/receipt identity; run/build/environment; transport state; backend read-back status; missingness/contamination; effect observations; integrity state; provenance; unresolved gaps; claim ceiling and falsifier.
 
 ## Failure behavior
 
-- Missing parent, cross-trace parent, or stale/terminal parent attachment: reject.
-- Unknown span/effect state: reject.
-- Ledger/hash mismatch: `INVALIDATED_EVIDENCE`.
-- Dropped/uninstrumented signals: preserve missingness; never infer zero/failure absence.
-- Ambiguous external effect: `IN_DOUBT`; reconcile before retry/finalization.
-- Missing authority: record the gap; do not infer authority from telemetry.
-- Sensitive content without explicit capture justification: keep metadata-only.
+- Trace topology/hash failure: `INVALIDATED_EVIDENCE`.
+- Queue capacity overflow: fail closed; do not silently drop.
+- HTTP 400 or other non-retryable response: terminal transport failure.
+- HTTP 429/502/503/504: bounded retry policy; honor `Retry-After` where applicable.
+- Partial OTLP success: terminal `PARTIAL`; do not blindly resend the full request.
+- Malformed HTTP 200 OTLP response: `PROTOCOL_ERROR`, not ACK.
+- Network/no-response/restart while sending: `IN_DOUBT`; reconcile before retry.
+- Backend trace exists after ambiguous send: `RECONCILED_PRESENT`, not forged HTTP ACK.
+- Stale run/build, duplicate spans, missing/extra spans, or attribute mismatch: `NOT_VERIFIED`.
+- Sensitive content without explicit persistence authority: retain metadata/hash only.
