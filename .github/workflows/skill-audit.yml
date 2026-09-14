@@ -46,6 +46,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -54,6 +56,9 @@ jobs:
 
       - name: Compile deterministic validators
         run: python3 -m compileall -q scripts
+
+      - name: Run validator regression tests
+        run: python3 -m unittest discover -s scripts/tests -p 'test_*.py' -v
 
       - name: Validate pinned external source registry
         run: python3 scripts/validate_external_agent_sources.py
@@ -64,8 +69,13 @@ jobs:
       - name: Validate workflow local-reference integrity
         run: python3 scripts/validate_workflow_references.py
 
-      - name: Validate changed-file whitespace integrity
-        run: git diff --check "${{ github.event.pull_request.base.sha || github.event.before }}" "${{ github.sha }}" || git diff --check HEAD^
+      - name: Validate pull-request whitespace integrity
+        if: github.event_name == 'pull_request'
+        run: git diff --check "${{ github.event.pull_request.base.sha }}" "${{ github.sha }}"
+
+      - name: Validate pushed-commit whitespace integrity
+        if: github.event_name == 'push' && github.event.before != '0000000000000000000000000000000000000000'
+        run: git diff --check "${{ github.event.before }}" "${{ github.sha }}"
 
       - name: Record scoped validation summary
         if: always()
