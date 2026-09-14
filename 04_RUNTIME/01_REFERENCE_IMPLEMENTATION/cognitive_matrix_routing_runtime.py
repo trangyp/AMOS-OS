@@ -30,7 +30,9 @@ class QueryKind(Enum):
     FIRST_ORDER_THEOREM_PROVING = "FIRST_ORDER_THEOREM_PROVING"
     TEMPORAL_FINITE_TRACE_CHECK = "TEMPORAL_FINITE_TRACE_CHECK"
     TEMPORAL_MODEL_CHECK = "TEMPORAL_MODEL_CHECK"
+    MODAL_K_FINITE_MODEL_CHECK = "MODAL_K_FINITE_MODEL_CHECK"
     EPISTEMIC_MODAL = "EPISTEMIC_MODAL"
+    DUNG_ABSTRACT_FRAMEWORK_CHECK = "DUNG_ABSTRACT_FRAMEWORK_CHECK"
     NON_MONOTONIC = "NON_MONOTONIC"
     DEPENDENT_TYPE = "DEPENDENT_TYPE"
     QUANTUM_LOGIC = "QUANTUM_LOGIC"
@@ -224,6 +226,8 @@ def route(request: RouteRequest, candidates: Sequence[RouteCandidate]) -> Routin
             return RoutingDecision(RouteStatus.UNKNOWN_GAP, None, "matching implementation state is unknown", (), tuple(rejected), 0, request.authority_bound)
         return RoutingDecision(RouteStatus.DENY, None, "no candidate satisfies all hard constraints", (), tuple(rejected), 0, request.authority_bound)
 
+    # Semantic policy priority dominates registration order. Specialist is a tie-breaker
+    # only after explicit numeric policy priority; no performance score can bypass gates.
     best_key = max((candidate.policy_priority, int(candidate.specialist)) for candidate in eligible)
     best = [candidate for candidate in eligible if (candidate.policy_priority, int(candidate.specialist)) == best_key]
     if len(best) != 1:
@@ -313,6 +317,32 @@ def reference_candidates(scope: str = "reference", regime: str = "active") -> Tu
             True,
             "ULK-v2.1/LTLf-bounded-repair-2026-09-14",
             ("ulk-v2.1-ltlf-local-repair",),
+        ),
+        RouteCandidate(
+            "alu04-modal-k-finite-model-runtime",
+            (QueryKind.MODAL_K_FINITE_MODEL_CHECK,),
+            (scope,),
+            (regime,),
+            ("ULK_ALU04_MODAL_K_FINITE_KRIPKE",),
+            ImplementationState.EXECUTABLE_BOUNDED_SUBFRAGMENT,
+            True,
+            100,
+            True,
+            "ULK-v2.1/modal-K-bounded-repair-2026-09-14",
+            ("modal-k-primary-semantics", "alu04-local-repair"),
+        ),
+        RouteCandidate(
+            "alu05-dung-abstract-argumentation-runtime",
+            (QueryKind.DUNG_ABSTRACT_FRAMEWORK_CHECK,),
+            (scope,),
+            (regime,),
+            ("ULK_ALU05_DUNG_ARGUMENTATION",),
+            ImplementationState.EXECUTABLE_BOUNDED_SUBFRAGMENT,
+            True,
+            100,
+            True,
+            "ULK-v2.1/Dung-bounded-repair-2026-09-14",
+            ("dung-semantics-source", "alu05-local-repair"),
         ),
         RouteCandidate(
             "quantum-alu07-placeholder",
