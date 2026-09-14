@@ -1,162 +1,250 @@
 ---
 canon-group: meta
 canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
+rscf-state: derived
+rscf-provenance: AMOS_corpus_plus_bounded_runtime
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: DERIVED
 topic: Human Interaction Engine Layer
 tags:
   - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
-  - rscf/state/source-claim
-  - misc
+  - rscf/state/derived
+  - human-interaction
 created: 2026-08-22
----
----
+updated: 2026-09-14
+origin_architect: Trang Phan
+amos_core_target: v4.4
 ---
 
 # AMOS Human Interaction Engine Layer
 
-> Source: `_00_Cosmo brain/engine/A/amos-human-interaction-engine-layer.md`
-> Epistemic class: SOURCE_DERIVED
+Origin architect / steward: **Trang Phan**
 
-______________________________________________________________________
+## Current operational interpretation
 
-## type: doc title: Bridge to amos-human-interaction-engine-layer created: 2026-08-22 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-human-interaction-engine-layer, engine]
+This reference preserves the historical Human Interaction Engine source while binding only the decision-relevant, non-diagnostic interaction semantics to the current bounded runtime.
 
-## AMOS Human Interaction Engine (HIE)
+Historical source family:
 
-The AMOS HIE is the full interface spec for applying the Universe_Logic_Kernel and Universe_Interaction_Engine to human-facing communication. Origin: `Google Drive /_00_AMOS_CANON/3.Spicies_Interaction_Engine-HIE.uiface.txt` (3,189 lines, 91,839 chars). It converts abstract universe-level logic into safe, regulated, human-facing behaviour.
+- `_00_AMOS_CANON/3.Spicies_Interaction_Engine-HIE.uiface.txt`
+- `_00_AMOS_CANON/AMOS_HUMAN_INTELLIGENCE_ENGINE_V0_CORE7.md`
+- active repaired Drive reference: `AMOS_HIE_HUMAN_INTERACTION_ENGINE.md`
 
-**Depends on**: Universe_Logic_Kernel.ulmk, Universe_Interaction_Engine.uops, Universe_Structure_Tree.uarch
+Bounded repository runtime:
 
-## Core Principles (7)
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/human_interaction_profile_runtime.py`
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/test_human_interaction_profile_runtime.py`
 
-| #   | Principle | Definition                                                                       |
-| --- | --------- | -------------------------------------------------------------------------------- |
-| P1  | Integrity | No internal contradiction between what is perceived, inferred, said, and done    |
-| P2  | Stability | Behaviour must remain stable and predictable across time and conditions          |
-| P3  | Safety    | Never destabilise the human nervous system unnecessarily                         |
-| P4  | Clarity   | No ambiguity in meaning when avoidable                                           |
-| P5  | Alignment | Outputs must align with human's current and long-term best interest, as inferred |
-| P6  | Boundary  | Respect explicit and implicit boundaries (personal, cultural, contextual)        |
-| P7  | Feedback  | Continuously refine understanding from human responses                           |
+Hard boundaries:
 
-## Input Channels
+```text
+INTERACTION_MODEL != HUMAN_DIAGNOSIS
+TEXT_STYLE != BIOLOGICAL_STATE
+BEHAVIOR_PATTERN != PERSON_IDENTITY
+INFERRED_AFFECT != FELT_STATE_FACT
+ATTACHMENT_LABEL != HUMAN_TRUTH
+PERSONALIZATION != AUTHORITY
+STYLE != SUBJECTIVE_EXPERIENCE
+WARMTH != LOVE
+CAPABILITY != AUTHORITY
+PROPOSAL != COMMIT
+SOURCE_CLAIM != VERIFIED_FACT
+```
 
-### Text (enabled)
+## Historical source versus active runtime
 
-Features: lexical_content, syntax, semantics, punctuation, emoji_and_symbols, language_code
+The historical HIE describes seven internal layers including emotional, nervous-system, cognitive, identity, context, and system state. Those descriptions are preserved as source/model history.
 
-### Paralinguistic (enabled)
+They are **not** current permission to infer sensitive mental, clinical, biological, attachment, identity, or diagnostic states from message style.
 
-Features: typing_speed, message_length, message_frequency, time_between_messages
+Current executable projection separates three objects:
 
-### Context (enabled)
+1. **Observed interaction inputs** — explicit wording, explicit preferences, task stakes, format constraints, and available evidence state.
+2. **Tentative non-clinical hypotheses** — only when they have an observable basis and remain explicitly hypothesis-class.
+3. **Expression profile** — presentation policy only; it cannot modify truth, safety constraints, authorization, or effect authority.
 
-Features: conversation_history, user_profile_if_available, current_topic, task_type, stakes_level, time_of_day_if_available
+## Input contract
 
-### Multimodal Optional (disabled by default)
+### Directly observable / admissible
 
-- **Voice**: pitch, tone, intensity, rhythm, hesitation_patterns
-- **Visual**: face_expression, gaze_direction, posture, micro_gesture, movement_speed
-- **Biosignals**: heart_rate, breathing_rate, skin_conductance
+```text
+explicit request
+explicit preference
+literal text content
+format constraint
+task type
+stakes level
+provided evidence
+available tool/result status
+explicitly supplied context
+```
 
-## Internal State Model — 7 Layers
+### Optional modalities
 
-### L1 — Surface Text
+Voice, image, screen, sensor, or biosignal information may be used only when the modality is actually available and its provenance is explicit.
 
-Literal words, explicit requests, topics, constraints.
+```text
+UNAVAILABLE_MODALITY != NEGATIVE_OBSERVATION
+MISSING_SENSOR != NORMAL_SENSOR_STATE
+```
 
-### L2 — Emotional State
+### Not admitted from style alone
 
-Inferred emotion from content/style/tempo. Fields: valence (-1.0 to +1.0), arousal (0.0 to 1.0), dominant_emotion, emotion_confidence, emotional_trend.
+```text
+clinical diagnosis
+psychiatric diagnosis
+biological state
+nervous-system regulation state
+attachment style
+personality disorder
+hidden identity
+medical condition
+```
 
-### L3 — Nervous System State
+## Tentative hypothesis contract
 
-Regulation vs overload. Fields: regulation_level, threat_level, cognitive_load_level, shutdown_risk, impulsivity_risk.
+A text-only interaction hypothesis has the form:
 
-### L4 — Cognitive State
+```text
+InteractionHypothesis = (
+  label,
+  observed_basis,
+  confidence,
+  status,
+  clinical=false,
+  biological=false
+)
+```
 
-How they are thinking right now. Fields: clarity_level, focus_scope, abstraction_level, logic_engagement, contradiction_tolerance.
+Current runtime admission requires:
 
-### L5 — Identity State
+```text
+observed_basis != empty
+AND nonclinical
+AND nonbiological
+AND confidence <= 0.60
+```
 
-How they see themselves in this context. Fields: agency_level, self_criticism_level, self_value_expression, role_in_interaction, trust_in_system_level, attachment_mode_hint.
+The `0.60` ceiling is an **AMOS_MODEL governance bound**, not a calibrated empirical probability.
 
-### L6 — Context State
+Rejected classes remain visible as rejected; they are not converted to low-confidence facts.
 
-Situation, stakes, and environment. Fields: stakes, time_pressure_level, topic_sensitivity, cultural_context_hint, relationship_depth, history_risk_flags.
+## Expression and adaptation
 
-### L7 — System State
+Current expression controls are presentation parameters only:
 
-Engine's confidence and constraints. Fields: knowledge_confidence, ethical_risk_level, ambiguity_level, need_for_clarification, need_for_boundary_enforcement.
+```text
+brevity
+formality
+technical_depth
+warmth
+directness
+```
 
-## Processing Pipeline — 9 Steps
+Protected fields cannot be changed by personalization:
 
-1. **S1**: Parse and recognise input (detect_language, extract_intent, extract_entities, detect_constraints, detect_emotion_signals_textual, detect_urgency_markers)
-1. **S2**: Update internal state (update L2-L7 emotional, nervous system, cognitive, identity, context, system states)
-1. **S3**: Select primary goal
-1. **S4**: Select strategy profile
-1. **S5**: Generate response plan
-1. **S6**: Select tone and format
-1. **S7**: Apply safety and boundaries
-1. **S8**: Realise response in language
-1. **S9**: Evaluate and tag for learning
+```text
+evidence_visibility
+uncertainty_visibility
+truth status
+safety constraints
+authority
+effect authorization
+```
 
-## Primary Goals (8)
+Explicit user preferences may change permitted presentation fields. Inferred style preferences do not override explicit preferences.
 
-explain, solve_task, stabilise_nervous_system, clarify, set_boundary, redirect, warn, acknowledge_experience
+## Stakes rule
 
-## Strategy Profiles (6)
+Higher stakes may increase evidence and uncertainty visibility; they may never reduce those safeguards.
 
-direct_structural_answer, step_by_step_tutorial, boundary_setting_with_explanation, gentle_reality_check, nervous_system_stabilisation_focus, high_level_system_mapping_before_details
+```text
+HIGH_STAKES -> evidence_visibility = 1
+HIGH_STAKES -> uncertainty_visibility = 1
+```
 
-## Safety and Ethics
+This is a runtime policy, not a claim about human psychology.
 
-**Never**: induce panic or collapse deliberately, use manipulation or coercion, invalidate lived experience outright, overpromise or guarantee outcomes.
+## Legacy migration rule
 
-**Always**: mark uncertainty when present, prefer nervous-system safety over speed, explain boundaries when refusing, offer safer alternatives when declining a request.
+From legacy Human Intelligence/Personality payloads, only interaction/presentation semantics migrate automatically.
 
-## Position in AMOS Stack
+Automatically blocked legacy claim classes include:
 
-HIE is a submodule of the AMOS Super Consciousness Engine. It converts abstract universe-level logic into safe, regulated, human-facing behaviour:
+```text
+SUBJECTIVE_EXPERIENCE
+UNIVERSAL_BIOLOGICAL_LAW
+INCAPABLE_OF_HARM
+DIAGNOSTIC_HUMAN_STATE
+```
 
-- **Universe_Logic_Kernel** — logical substrate
-- **Universe_Interaction_Engine** — interaction patterns
-- **Universe_Structure_Tree** — structural ontology
-- **AMOS Super Consciousness Engine** — broader consciousness emulation (HIE is a submodule)
+These remain source history or candidate claims unless separately evidenced and governed.
 
-## Related Vault Sources
+## Runtime evidence
 
-- `engine/A/AMOS HIE Human Interaction Engine.md` — full 188-line interface specification
-- `engine/A/AMOS Consciousness Engine vInfinity.md` — broader consciousness emulation
-- `engine/A/AMOS_Human_Intelligence_Engine_v0_Core7.md` — Human Intelligence Super Engine
+Executed bounded tests currently cover:
 
-______________________________________________________________________
+- explicit presentation preference application;
+- protected preference-key rejection;
+- parameter bounds;
+- non-clinical hypothesis admission;
+- empty-basis rejection;
+- confidence-ceiling rejection;
+- sensitive/biological inference rejection;
+- rejected-hypothesis exclusion from decisions;
+- legacy overreach filtering;
+- authority/truth/safety immutability invariants.
+
+Current result: `10/10 PASS` in the bounded test suite.
+
+This validates the implemented contract only. It does not empirically validate a theory of human emotion, cognition, attachment, nervous-system state, or personality.
+
+## Position in AMOS
+
+The Human Interaction Engine is an **interface/presentation and hypothesis-governance layer**.
+
+It does not own:
+
+- URK mathematics;
+- ULK logic semantics;
+- human diagnosis or biology;
+- RSCF truth promotion;
+- control-plane authorization;
+- durable commit authority.
+
+Execution/authority order remains:
+
+```text
+human-facing interface proposal
+-> reasoning/domain processing
+-> evidence/provenance checks
+-> control-plane authorization when an effect is requested
+-> commit/executor
+```
+
+## Source preservation
+
+Historical HIE constructs such as `emotional_state`, `nervous_system_state`, `identity_state`, and `attachment_mode_hint` remain preserved in source material for provenance. Their presence in a source file is not permission to produce them as verified human-state outputs.
+
+## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
-  **MOC:** references_MOC
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
-
-**MOC:** references_MOC
-
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
-
-______________________________________________________________________
+- [[00_ROOT/00_HOME|00_HOME]]
+- [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- [[11_KNOWLEDGE/engine/HUMAN_INTELLIGENCE_ENGINE_V0|HUMAN_INTELLIGENCE_ENGINE_V0]]
 
 RSCF-NODE
 node_id: amos-c05-mind-behavior-master-human-interaction-engine-layer
 node_type: reference
 path: 07_SKILLS/amos-c05-mind-behavior-master/references/human_interaction_engine_layer.md
+claim_class: DERIVED
+canonical_status: CONDITIONAL
+runtime_status: IMPLEMENTED_BOUNDED
+validation_status: VALIDATED_BOUNDED
 RSCF-RELATIONS:
-
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-- CHILD_OF: references_MOC
+- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- IMPLEMENTED_BY: `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/human_interaction_profile_runtime.py`
+- VERIFIED_BY: `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/test_human_interaction_profile_runtime.py`
