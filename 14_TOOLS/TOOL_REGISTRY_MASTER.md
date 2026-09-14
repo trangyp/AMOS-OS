@@ -61,6 +61,7 @@ graph TD
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **`amos-llm-wiki`** | [[14_TOOLS/AMOS_LLM_WIKI_TOOL]] | $T_1$ | `FS_READ_VAULT` | $64\text{ MB} / 500\text{ ms}$ | [[14_TOOLS/TOOLS_README]] |
 | **`amos-obsidian-linking`** | [[14_TOOLS/AMOS_OBSIDIAN_LINKING_PLUGINS]] | $T_1$ | `FS_READ_VAULT \| AST_PARSE` | $128\text{ MB} / 1000\text{ ms}$ | [[14_TOOLS/TOOLS_TOOL_CONTRACT]] |
+| **`amos-agent-interop-compiler`** | [[14_TOOLS/AMOS_AGENT_INTEROPERABILITY_COMPILER]] | $T_1$ | `FS_READ_AGENT_METADATA \| MANIFEST_VALIDATE \| MANIFEST_COMPILE` | bounded local process / 5000 ms default | local positive + negative fixture PASS; repository-wide compatibility pending CI |
 | **`amos-wasi-micro-sandbox`** | [[14_TOOLS/AMOS_SELF_HEALING_AUTONOMOUS_WASI_MICRO_SANDBOX_GUIDE]] | $T_2$ | `WASI_EPHEMERAL \| NO_NET` | $256\text{ MB} / 2500\text{ ms}$ | [[14_TOOLS/WASM_SANDBOX_CAPABILITY_LEDGER]] |
 | **`amos-sandbox-execution`** | [[14_TOOLS/SANDBOX_TOOL_EXECUTION_PROTOCOL]] | $T_2$ | `WASI_CORE_COMPUTE` | $512\text{ MB} / 5000\text{ ms}$ | [[14_TOOLS/SANDBOX_TOOL_EXECUTION_PROTOCOL]] |
 | **`amos-simulation-kernel`** | [[14_TOOLS/SIMULATION_KERNEL_DISCRETE_SYSTEM_DYNAMICS]] | $T_2$ | `ODE_SOLVE \| NUMPY_SIMD` | $1024\text{ MB} / 10000\text{ ms}$ | [[14_TOOLS/SIMULATION_KERNEL_DISCRETE_SYSTEM_DYNAMICS]] |
@@ -70,6 +71,8 @@ graph TD
 | **`amos-cas-epoch-engine`** | [[12_STATE/DISTRIBUTED_SNAPSHOT_AND_CAS_EPOCH_ENGINE]] | $T_4$ | `CAS_COMMIT \| EPOCH_BUMP` | $512\text{ MB} / 100\text{ ms}$ | [[12_STATE/AMOS_RUNTIME_STATE_FRESHNESS_2026-09-03]] |
 
 The GitHub research adapter is read-only by contract. Repository mutation is a distinct T4 effect class and requires separate authority; read access must never be promoted into write authority by convenience.
+
+The interoperability compiler is T1 only when checking metadata or writing projections to stdout/ephemeral scratch. Persisting generated output into authoritative repository state remains a separately authorized write effect.
 
 ---
 
@@ -132,6 +135,7 @@ message ToolExecutionReceipt {
 3. **Receipt Emission**: Every tool invocation ($T_1 \dots T_4$) emits a cryptographically verifiable `ToolExecutionReceipt` to `17_OBSERVABILITY`.
 4. **Fail-Closed Default**: Any unregistered tool or malformed schema input fails closed with `UNKNOWN/GAP`.
 5. **Read/Write Separation**: External repository discovery/read capabilities do not imply branch, file, PR, issue, release, merge, or workflow-dispatch authority.
+6. **Projection Separation**: Exported A2A/MCP candidate manifests do not imply protocol conformance, deployed endpoints, executable handlers, credentials, or invocation authority.
 
 ---
 
@@ -140,6 +144,7 @@ message ToolExecutionReceipt {
 - **Master Tools MOC**: [[14_TOOLS/14_TOOLS_MOC]]
 - **Tool Contract Specification**: [[14_TOOLS/TOOLS_TOOL_CONTRACT]]
 - **GitHub Research Adapter**: [[14_TOOLS/GITHUB_REPOSITORY_RESEARCH_ADAPTER]]
+- **Agent Interoperability Compiler**: [[14_TOOLS/AMOS_AGENT_INTEROPERABILITY_COMPILER]]
 - **WASM Sandbox Capability Ledger**: [[14_TOOLS/WASM_SANDBOX_CAPABILITY_LEDGER]]
 - **Agent Mesh Protocol**: [[06_AGENTS/AGENT_ROLE_REGISTRY]]
 - **Security Control Access Bridge**: [[18_SECURITY/SECURITY_CONTROL_ACCESS_BRIDGE_GOVERNOR]]
