@@ -1,67 +1,58 @@
 ---
 canon-group: meta
 canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
+rscf-state: derived
 rscf-provenance: AMOS_corpus
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: DERIVED
 topic: Cell Authority
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
+updated: 2026-09-14
 ---
----
----
 
-# CELL_AUTHORITY — Definition
+# CELL_AUTHORITY — Executable Authority Binding
 
-**Package:** `CELL_AUTHORITY_`
-**Class:** `COGNITIVE_MATRIX_CONTRACT`
-**Epistemic class:** `DERIVED / MODEL EXTENSION`
-**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
-**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
+**Origin architect / steward:** Trang Phan  
+**Status:** `IMPLEMENTED_BOUNDED / VALIDATED_BOUNDED`  
+**Runtime:** `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/matrix_registry_runtime.py`
 
-## Scope
+## Authority witness
 
-Covers the operation contract for this lifecycle operator.
-
-## Definition
-
-CELL_AUTHORITY
-
-This is a **contract-level definition**, not an implementation claim.
-
-## Hard boundaries
+A bounded authority witness binds:
 
 ```text
-CONTRACT_FILLED != IMPLEMENTED
-DOCUMENTED != EXECUTABLE
-MODEL != VERIFIED
-UNKNOWN/GAP != PASS
+witness_id
+principal
+scope[]
+policy_hash
+state_version
+fresh
 ```
 
-______________________________________________________________________
+A cell may pass the bounded authority check only when:
 
-[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+1. its maturity is `AUTHORIZED_BOUNDED`;
+2. it names an existing authority witness;
+3. the witness is fresh;
+4. required scope is explicitly granted;
+5. policy hash matches exactly;
+6. witness state version matches the cell state version.
 
-______________________________________________________________________
+## Invariants
 
-RSCF-NODE
-node_id: cell_authority_contracts_definition
-node_type: note
-path: 06_CELL_CONTRACTS/CELL_AUTHORITY\_/CELL_AUTHORITY.md
-claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/06_CELL_CONTRACTS/CELL_AUTHORITY.md
+```text
+CAPABILITY != AUTHORITY
+VALIDATED_BOUNDED != AUTHORIZED_BOUNDED
+AUTHORITY_SCOPE_A != AUTHORITY_SCOPE_B
+STALE_AUTHORITY != CURRENT_AUTHORITY
+POLICY_HASH_MISMATCH -> REJECT
+STATE_VERSION_MISMATCH -> REJECT
+```
 
-______________________________________________________________________
+Evidence quality cannot manufacture authority. A routing or skill capability also cannot self-promote a cell into an authorized state.
 
-**MOC:** [[25_COGNITIVE_MATRIX/06_CELL_CONTRACTS/06_CELL_CONTRACTS_MOC|06_CELL_CONTRACTS_MOC]]
+## Boundary
 
-______________________________________________________________________
+`AUTHORIZED_BOUNDED` is an internal bounded runtime state. It is not by itself permission for an external durable/world effect; infrastructure commit-time authorization remains authoritative.
 
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]]
