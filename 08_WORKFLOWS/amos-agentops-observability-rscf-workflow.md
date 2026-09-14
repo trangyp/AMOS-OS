@@ -4,7 +4,7 @@ type: workflow
 skill: amos-agentops-observability-rscf
 agent: amos-agentops-observability-rscf-agent
 origin_architect: Trang Phan
-version: 2.0.0
+version: 3.0.0
 epistemic_class: AMOS_MODEL
 ---
 
@@ -12,36 +12,43 @@ epistemic_class: AMOS_MODEL
 
 State machine:
 
-`INTAKE -> BIND_SUBJECT -> SELECT_CAPTURE -> START_TRACE -> OBSERVE -> RECORD_MISSINGNESS -> CLOSE_SPANS -> VERIFY_LEDGER -> BUILD_RECEIPT -> CLAIM_GATE -> TERMINAL`
+`INTAKE -> BIND -> LOCAL_TRACE_VERIFIED -> ENCODED -> QUEUED -> SENDING -> TRANSPORT_CLASSIFIED -> READBACK -> ROUNDTRIP_GATE -> RECEIPT -> TERMINAL`
 
 ## Gates
 
-1. **INTAKE** — define the runtime/agent behavior being observed and the claim the trace is intended to support or falsify.
-2. **BIND_SUBJECT** — bind subject identity/version, environment, provenance root and scope.
-3. **SELECT_CAPTURE** — default `METADATA_ONLY`; permit `REDACTED_CONTENT` only when content is decision-relevant and persistence is authorized.
-4. **START_TRACE** — create one trace root; reject orphan or cross-trace parentage.
-5. **OBSERVE** — use typed spans: `WORKFLOW|AGENT|MODEL|TOOL|MEMORY|EFFECT|EVAL`.
-6. **RECORD_MISSINGNESS** — record expected/captured/dropped signal counts and cause where known.
-7. **CLOSE_SPANS** — terminal status is `OK|ERROR|IN_DOUBT|CANCELLED`; external effect state remains a separate observation.
-8. **VERIFY_LEDGER** — hash/lineage mismatch invalidates evidence.
-9. **BUILD_RECEIPT** — bind trace identity, subjects, environments, coverage and effect states.
-10. **CLAIM_GATE** — enforce:
-   - `TRACE != AUTHORITY`
-   - `TRACE_EDGE != CAUSAL_PROOF`
-   - `SPAN_SUCCESS != EFFECT_COMMITTED`
-   - `NO_SPAN != NO_EVENT`
-11. **TERMINAL** — return `OBSERVED`, `INCOMPLETE`, `IN_DOUBT`, or `INVALIDATED_EVIDENCE` with gaps.
+1. **INTAKE/BIND** — define the observed claim; bind trace, subject/version, environment, provenance root, run ID and build ID.
+2. **LOCAL_TRACE_VERIFIED** — require closed typed spans, explicit missingness and intact trace ledger.
+3. **ENCODED** — project one trace to bounded OTLP/HTTP JSON; preserve required `amos.*` attributes; persist no transport secrets.
+4. **QUEUED/SENDING** — write the exact payload to the durable outbox before network send.
+5. **TRANSPORT_CLASSIFIED** — distinguish `ACKED`, `PARTIAL`, `RETRYABLE`, `PERMANENT_FAILURE`, `PROTOCOL_ERROR`, and `IN_DOUBT`.
+6. **READBACK** — query an isolated backend/project/run identity. Process exit or HTTP ACK alone is insufficient.
+7. **ROUNDTRIP_GATE** — exact-match trace/span IDs, parentage, names, run/build IDs and required AMOS attributes; reject stale, duplicate, missing, extra or mismatched evidence.
+8. **RECEIPT** — validate trace, transport and round-trip receipts.
+9. **TERMINAL** — return `VERIFIED_ROUNDTRIP`, `NOT_VERIFIED`, `PARTIAL`, `IN_DOUBT`, `PERMANENT_FAILURE`, `PROTOCOL_ERROR`, or `INVALIDATED_EVIDENCE` with gaps.
+
+## Non-compensatory firewalls
+
+- `HTTP_ACK != BACKEND_READBACK_VERIFIED`
+- `EXPORT_PROCESS_SUCCESS != TRACE_ARRIVED`
+- `IN_DOUBT != SAFE_TO_BLIND_RETRY`
+- `PERSISTENT_QUEUE != AUTHORITY_CONTEXT_PERSISTENCE`
+- `VERIFIED_ROUNDTRIP != AUTHORITY`
+- `VERIFIED_ROUNDTRIP != CAUSAL_PROOF`
 
 ## Recovery
 
-- Exporter/backend ambiguity: mark coverage gap; do not infer successful export.
-- Ambiguous external effect: `IN_DOUBT -> observe/reconcile -> retry|compensate|finalize` only after discrimination.
-- Sensitive payload discovered in telemetry: quarantine the telemetry artifact, rotate/revoke secrets when applicable, and re-run with metadata-only or corrected redaction.
-- Missing authority: telemetry may record an authority reference, but cannot supply or mint it.
+- 429/502/503/504: bounded protocol retry; honor `Retry-After` when supplied.
+- Partial success: preserve `PARTIAL`; do not resend the whole request automatically.
+- Timeout/disconnect/restart while sending: `IN_DOUBT`; backend read-back must discriminate before retry.
+- Trace found after ambiguous send: `RECONCILED_PRESENT`, never rewrite history to HTTP `ACKED`.
+- Stale run/build contamination or topology mismatch: `NOT_VERIFIED`.
+- Missing authority: record the gap; telemetry cannot mint it.
 
 ## Validation surfaces
 
 - `python -m unittest -v 19_TESTS/test_agent_trace_runtime.py`
+- `python -m unittest -v 19_TESTS/test_trace_transport_runtime.py`
 - `python 07_SKILLS/amos-agentops-observability-rscf/scripts/trace_contract_check.py --self-test`
+- `python 07_SKILLS/amos-agentops-observability-rscf/scripts/transport_roundtrip_check.py --self-test`
 
 GitHub CI is the branch validation authority for the repository copy.
