@@ -64,9 +64,13 @@ graph TD
 | **`amos-wasi-micro-sandbox`** | [[14_TOOLS/AMOS_SELF_HEALING_AUTONOMOUS_WASI_MICRO_SANDBOX_GUIDE]] | $T_2$ | `WASI_EPHEMERAL \| NO_NET` | $256\text{ MB} / 2500\text{ ms}$ | [[14_TOOLS/WASM_SANDBOX_CAPABILITY_LEDGER]] |
 | **`amos-sandbox-execution`** | [[14_TOOLS/SANDBOX_TOOL_EXECUTION_PROTOCOL]] | $T_2$ | `WASI_CORE_COMPUTE` | $512\text{ MB} / 5000\text{ ms}$ | [[14_TOOLS/SANDBOX_TOOL_EXECUTION_PROTOCOL]] |
 | **`amos-simulation-kernel`** | [[14_TOOLS/SIMULATION_KERNEL_DISCRETE_SYSTEM_DYNAMICS]] | $T_2$ | `ODE_SOLVE \| NUMPY_SIMD` | $1024\text{ MB} / 10000\text{ ms}$ | [[14_TOOLS/SIMULATION_KERNEL_DISCRETE_SYSTEM_DYNAMICS]] |
+| **`agent-reach-health`** | [[14_TOOLS/AGENT_REACH_TOOL]] | $T_3$ | `NETWORK_READ \| PROCESS_EXEC_DIAGNOSTIC` | bounded by host policy / $180\text{ s}$ | CI gate pending |
 | **`amos-fix-zeromq`** | [[15_INTERFACES/FOREX_FIX44_ZEROMQ_SOCKET_ADAPTER]] | $T_3$ | `SOCKET_DMA \| L3_FEED` | $2048\text{ MB} / \text{Continuous}$ | [[15_INTERFACES/FIX_ZEROMQ_INTEGRATION_LOG]] |
 | **`amos-bci-decoder`** | [[15_INTERFACES/BCI_EXPRESSION_GATEWAY_ADAPTER]] | $T_3$ | `SHM_ATTACH \| BCI_10KHZ` | $4096\text{ MB} / \text{Continuous}$ | [[15_INTERFACES/NEUROMORPHIC_SPIKING_BCI_DECODER_LEDGER]] |
+| **`agent-reach-bootstrap`** | [[14_TOOLS/AGENT_REACH_TOOL]] | $T_4$ | `USER_PACKAGE_WRITE \| NETWORK_READ_GITHUB \| PROCESS_EXEC_PYTHON` | bounded by host policy / $300\text{ s}$ | CI gate pending |
 | **`amos-cas-epoch-engine`** | [[12_STATE/DISTRIBUTED_SNAPSHOT_AND_CAS_EPOCH_ENGINE]] | $T_4$ | `CAS_COMMIT \| EPOCH_BUMP` | $512\text{ MB} / 100\text{ ms}$ | [[12_STATE/AMOS_RUNTIME_STATE_FRESHNESS_2026-09-03]] |
+
+Agent Reach is intentionally split into diagnostic and mutation capabilities. Registration of `agent-reach-health` does not authorize `agent-reach-bootstrap`, and neither capability grants authority to the upstream tools that Agent Reach discovers or installs.
 
 ---
 
@@ -128,6 +132,7 @@ message ToolExecutionReceipt {
 2. **Deterministic WASI Sandboxing**: All Tier 2 computational scripts run in isolated WebAssembly runtimes with no ambient filesystem or environment access (`wasi:filesystem/preopens` restricted to scratch memory).
 3. **Receipt Emission**: Every tool invocation ($T_1 \dots T_4$) emits a cryptographically verifiable `ToolExecutionReceipt` to `17_OBSERVABILITY`.
 4. **Fail-Closed Default**: Any unregistered tool or malformed schema input fails closed with `UNKNOWN/GAP`.
+5. **External Toolchain Separation**: A manager/installer such as Agent Reach may discover or install upstream providers, but the discovered provider is not admitted or authorized merely because the manager is registered.
 
 ---
 
@@ -135,6 +140,8 @@ message ToolExecutionReceipt {
 
 - **Master Tools MOC**: [[14_TOOLS/14_TOOLS_MOC]]
 - **Tool Contract Specification**: [[14_TOOLS/TOOLS_TOOL_CONTRACT]]
+- **Agent Reach Integration**: [[14_TOOLS/AGENT_REACH_TOOL]]
+- **Agent Reach Bootstrap**: [[04_RUNTIME/01_BOOT/agent_reach_bootstrap.py]]
 - **WASM Sandbox Capability Ledger**: [[14_TOOLS/WASM_SANDBOX_CAPABILITY_LEDGER]]
 - **Agent Mesh Protocol**: [[06_AGENTS/AGENT_ROLE_REGISTRY]]
 - **Security Control Access Bridge**: [[18_SECURITY/SECURITY_CONTROL_ACCESS_BRIDGE_GOVERNOR]]
