@@ -1,109 +1,176 @@
 ---
 canon-group: meta
 canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
+rscf-state: derived
+rscf-provenance: AMOS_corpus_plus_executable_binding
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: DERIVED
 topic: Control Plane Effects Contract
 tags:
   - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
-  - rscf/state/source-claim
-  - misc
+  - rscf/state/derived
+  - control-plane
 created: 2026-08-22
----
----
+updated: 2026-09-14
+origin_architect: Trang Phan
+canonical_status: CONDITIONAL
 ---
 
 # CONTROL PLANE EFFECTS CONTRACT
 
 ## 0. Status
 
-Control Plane-plane contract for **EFFECTS CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+Control-plane effects contract. `AMOS_MODEL`; canonical status `CONDITIONAL`; implementation `PARTIAL_WITH_LOCAL_LEDGER_BINDING`.
+
+Origin architect / steward: **Trang Phan**.
 
 ## 1. Scope
 
-Governs governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback as they bear on `EFFECTS CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
+Governs the effect boundary where a previously governed internal proposal may become an external consequence. This contract spans task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, and rollback only to the extent they bear on effect release.
 
-## 2. Contract terms
+Dependency closure remains load-bearing: a release conclusion inherits the weakest required premise.
 
-- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
-- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
-- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
-- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
-- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
+## 2. Protected firewalls
 
-## 3. Invariants
+```text
+CAPABILITY != AUTHORITY
+PROPOSAL != COMMIT
+COMMITTABLE != COMMITTED
+OBSERVED != CURRENT
+IDEMPOTENCY != AUTHORIZATION
+DISPATCHING != COMMITTED
+EXTERNALIZED_UNKNOWN != COMMITTED
+LOCAL_TRANSACTION != DISTRIBUTED_CONSENSUS
+TEST_PASS != UNIVERSAL_TRUTH
+```
 
-- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
-- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
-- Consequential effects emit receipts; rollback basin exists before mutation.
-- Competing hypotheses remain visible when evidence does not discriminate.
+Epochs remain distinct unless an explicit mapping licenses equivalence:
 
-## 4. Executed reference
+```text
+state_version != causal_epoch != policy_epoch != provenance_epoch != ledger_generation
+```
 
-No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
+## 3. Local executable release binding
 
-## 5. Gaps
+A subsystem-local executor now exists for the persistence/idempotency portion of effect release:
 
-Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
+- `release_ledger_store_v44.py`
+- `test_release_ledger_store_v44.py`
+- [[03_CONTROL_PLANE/08_EFFECTS/EFFECT_RELEASE_LEDGER_VALIDATION_RECEIPT_2026-09-14|Effect Release Ledger Validation Receipt — 2026-09-14]]
 
-## 6. Falsifiers
+It provides a bounded SQLite/WAL reference for:
 
-F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
+- durable local release records;
+- generation and monotonic ledger version;
+- per-record version;
+- compare-and-swap transition checks;
+- generation-scoped idempotency key/effect digest uniqueness;
+- transaction/authority/principal lineage binding;
+- committed receipt requirement;
+- uncertain dispatch/externalization reconciliation status;
+- history retention across ledger generations.
 
-## Worked semantics
+It does not replace policy, authorization, commit entitlement, external sink acknowledgement, or distributed finality.
 
-Given an operation touching `CONTROL PLANE · EFFECTS CONTRACT` within the Control Plane plane:
+## 4. Release identity
 
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+The release surface binds at least:
 
-## Promotion-gate checklist
+```text
+ledger_id
+ledger_generation
+ledger_version
+ledger_hash
+record_version
+idempotency_key
+effect_digest
+transaction_id
+authority_id
+principal
+release_state
+committed_receipt
+```
 
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+Current `ledger_hash` is an identity/version hash. Full row-content/Merkle integrity remains outside this bounded implementation.
 
-## Cross-plane bindings
+## 5. Release-state invariants
 
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+- same key + different digest => block;
+- same digest + different key => block;
+- same key+digest cannot cross transaction/authority/principal lineage;
+- same key+digest + committed receipt => already committed;
+- `DISPATCHING` / `EXTERNALIZED_UNKNOWN` => reconciliation required;
+- `COMMITTED` requires a receipt;
+- stale ledger generation/version or record version cannot transition state;
+- old-generation records cannot be transitioned under a new generation;
+- new ledger generations retain historical records;
+- unrelated historical evidence is not erased during incarnation changes.
 
-______________________________________________________________________
+## 6. Authority and commit boundary
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+The local ledger enforces release lineage and persistence; it does not establish authority.
 
-______________________________________________________________________
+Authority/policy freshness and exact effect entitlement must be established upstream. The ledger's `authority_id` and `principal` are identifiers within release lineage, not proof that a caller is authorized now.
 
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+The administrative generation-recreation operation is a reference primitive and must be authority-gated by the caller in production use.
 
-______________________________________________________________________
+## 7. Current validation evidence
+
+Local bounded execution on 2026-09-14:
+
+- Python compilation: PASS.
+- release-ledger unit/adversarial suite: 13 PASS, 0 FAIL.
+- `ResourceWarning` promoted to error: PASS after connection lifecycle repair.
+- generation-history preservation: PASS.
+- stale-generation record attack using current ledger identity: blocked / revalidation required.
+
+This is local reference evidence, not GitHub Actions, distributed consensus, or production deployment evidence.
+
+## 8. Selective invalidation and recovery
+
+A failed release premise invalidates only the dependent effect-release path. Historical committed/aborted evidence in prior generations remains retained.
+
+`EXTERNALIZED_UNKNOWN` is not auto-retried. It remains an explicit recovery/reconciliation state until an external observation plus governing policy licenses `COMMITTED` or `ABORTED`.
+
+The store models that transition but does not implement the external reconciliation observer itself.
+
+## 9. Gaps
+
+- distributed consensus / multi-node release finality: `NOT_ESTABLISHED`;
+- receiver or external sink acknowledgement protocol: `NOT_ESTABLISHED`;
+- automated reconciliation against external systems: `NOT_ESTABLISHED`;
+- cryptographic receipt validation: `NOT_ESTABLISHED`;
+- full-content hash chain / Merkle proof: `NOT_ESTABLISHED`;
+- system-wide binding of every consequential tool/domain Skill to this ledger: `PARTIAL`;
+- empirical production validation: `NOT_ESTABLISHED`.
+
+## 10. Promotion boundary
+
+This contract remains `AMOS_MODEL / CONDITIONAL`. The local executor closes the prior subsystem-local persistence gap only within its declared boundary. It does not promote the whole effects plane to canonical or fully implemented status.
+
+## 11. Cross-plane bindings
+
+- [[03_CONTROL_PLANE/03_POLICY/CANON_POLICY|CANON_POLICY]]
+- [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04_AUTHORITY_MOC]]
+- [[03_CONTROL_PLANE/08_EFFECTS/EFFECT_RELEASE_STATE|EFFECT_RELEASE_STATE]]
+- [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]]
+- [[03_CONTROL_PLANE/10_EXPOSURE/10_EXPOSURE_MOC|10_EXPOSURE_MOC]]
+- [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]]
+- [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
 RSCF-NODE
 node_id: cp_03_control_plane_08_effects_control_plane_effects_contract_md
-node_type: note
+node_type: CONTRACT
 path: 03_CONTROL_PLANE/08_EFFECTS/CONTROL_PLANE_EFFECTS_CONTRACT.md
 claim_class: AMOS_MODEL
+rscf_state: DERIVED
+canonical_status: CONDITIONAL
 
-______________________________________________________________________
+RSCF-RELATIONS:
+- IMPLEMENTED_BOUNDED_BY: `release_ledger_store_v44.py`
+- VERIFIED_BOUNDED_BY: `test_release_ledger_store_v44.py`
+- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
 **MOC:** [[03_CONTROL_PLANE/08_EFFECTS/08_EFFECTS_MOC|08_EFFECTS_MOC]]
-
-______________________________________________________________________
-
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
