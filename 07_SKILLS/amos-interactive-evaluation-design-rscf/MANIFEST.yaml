@@ -1,22 +1,25 @@
-bundle_version: 1.1.0
-bundle_date: 2026-08-28
+bundle_version: 2.0.0
+bundle_date: 2026-09-14
 schema_version: "1.0"
 compatible_with:
-  - claude-code
-  - claude-chat
+  - chatgpt
   - codex
-  - gemini-cli
   - copilot
+  - claude-code
+  - gemini-cli
 dependencies: []
-security_verdict: pass
-epistemic_class: SOURCE_CLAIM
+security_verdict: CONDITIONAL_REVIEW_REQUIRED
+epistemic_class: AMOS_MODEL
 steward: Trang Phan
 license: MIT
 files:
   - path: "SKILL.md"
+  - path: "agents/openai.yaml"
   - path: "amos-interactive-evaluation-design-rscf_MOC.md"
+  - path: "references/evidence-model.md"
   - path: "references/references_MOC.md"
   - path: "references/vault_domain_knowledge.md"
+  - path: "scripts/eval_registry.py"
   - path: "scripts/hooks/hooks_config.yaml"
   - path: "scripts/hooks/post_tool_use.py"
   - path: "scripts/hooks/pre_tool_use.py"
