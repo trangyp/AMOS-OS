@@ -1,23 +1,14 @@
-bundle_version: 1.1.0
-bundle_date: 2026-08-28
+bundle_version: 3.0.0
+bundle_date: 2026-09-14
 schema_version: "1.0"
-compatible_with:
-  - claude-code
-  - claude-chat
-  - codex
-  - gemini-cli
-  - copilot
-dependencies: []
-security_verdict: pass
-epistemic_class: SOURCE_CLAIM
-steward: Trang Phan
-license: MIT
+origin_architect: Trang Phan
+promotion_state: implemented_local_reference
+deployment_authority: none
+epistemic_class: AMOS_MODEL
 files:
   - path: "SKILL.md"
-  - path: "amos-aibom-lifecycle-assurance-rscf_MOC.md"
-  - path: "references/aibom_subsystems.md"
-  - path: "references/references_MOC.md"
-  - path: "scripts/hooks/hooks_config.yaml"
-  - path: "scripts/hooks/post_tool_use.py"
-  - path: "scripts/hooks/pre_tool_use.py"
-  - path: "scripts/hooks/stop.py"
+  - path: "agents/openai.yaml"
+  - path: "scripts/aibom.py"
+  - path: "scripts/audit_rscf.py"
+  - path: "references/assurance-boundaries.md"
+  - path: "references/upstream-mechanisms.md"
