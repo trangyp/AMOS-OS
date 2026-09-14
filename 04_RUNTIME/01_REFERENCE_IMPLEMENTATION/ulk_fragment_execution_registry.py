@@ -45,6 +45,7 @@ class ExecutionBinding:
 ALU02_CHECKER_SHA256 = "002a4c72adf0afaa7ad1b33792008ea6a525ca43b69ae4eff301c1b06a135275"
 ALU04_CHECKER_SHA256 = "869d095013dabdfdce089e1f4065350417b5e77722c26738d6beded0ec87eac0"
 ALU05_CHECKER_SHA256 = "8e613729ca3a0ef9d24a8bafba432ab9b358fe3c2b4a8ac945ee7b1660ed658c"
+ALU06_CHECKER_SHA256 = "cd54cdb730a3a9d93ccd18593afa3c70bd31fe472151bacc4d905f132d200eda"
 ALU08_CHECKER_SHA256 = "69805185573b26c12618d212b5254247e1877bd1a628f12d4a744886464bd019"
 UNIFIED_BRAIN_CURRENT_REVISION = "0B_FlOTCuYcaFdVpKNEFLOTNHcFM3Q01GVGx4TmpVTTBHVytrPQ"
 ALU03_SOURCE_METHOD_AST_SHA256 = "9eecefbdc60faa0fe70ff758400174130ac536fc92debe7d85f22d55759c7f9f"
@@ -88,6 +89,13 @@ _BINDINGS: Dict[Fragment, ExecutionBinding] = {
         ALU05_CHECKER_SHA256,
         "finite Dung abstract argumentation: conflict-free, defence, characteristic function, grounded extension, admissibility, bounded preferred enumeration",
     ),
+    Fragment.ALU06_DEPENDENT_TYPE: ExecutionBinding(
+        Fragment.ALU06_DEPENDENT_TYPE,
+        ExecutionStatus.EXECUTABLE_BOUNDED_CANDIDATE_REBOUND,
+        "amos_ulk_alu06_dependent_pi_checker_v1.py",
+        ALU06_CHECKER_SHA256,
+        "bounded dependent Pi-calculus: predicative universes, Pi formation, lambda/application typing, capture-avoiding substitution, alpha-equivalence, beta normalization with explicit budget; no inductive families, identity types, univalence, proof-assistant completeness, or full Martin-Lof type theory claim",
+    ),
     Fragment.ALU07_QUANTUM_LOGIC: ExecutionBinding(
         Fragment.ALU07_QUANTUM_LOGIC,
         ExecutionStatus.EXECUTABLE_BOUNDED_CANDIDATE_REBOUND,
@@ -122,28 +130,23 @@ def execution_binding(fragment: Fragment) -> ExecutionBinding:
 
 def validate_execution_registry() -> tuple[str, ...]:
     failures = []
-    rebound = (
-        execution_binding(Fragment.ALU02_FIRST_ORDER_UNIFICATION),
-        execution_binding(Fragment.ALU03_TEMPORAL_LTL),
-        execution_binding(Fragment.ALU04_EPISTEMIC_MODAL),
-        execution_binding(Fragment.ALU05_NON_MONOTONIC_DUNG),
-        execution_binding(Fragment.ALU07_QUANTUM_LOGIC),
-        execution_binding(Fragment.ALU08_CATEGORICAL_TOPOS),
-    )
+    rebound = tuple(execution_binding(fragment) for fragment in Fragment if fragment is not Fragment.ALU01_CLASSICAL_PROPOSITIONAL)
     for binding in rebound:
         if binding.canon_promoted:
             failures.append(f"{binding.fragment.name}_CANDIDATE_MUST_NOT_SELF_PROMOTE_CANON")
         if binding.status is not ExecutionStatus.EXECUTABLE_BOUNDED_CANDIDATE_REBOUND:
             failures.append(f"{binding.fragment.name}_REBOUND_STATUS_MISMATCH")
 
-    if execution_binding(Fragment.ALU02_FIRST_ORDER_UNIFICATION).checker_sha256 != ALU02_CHECKER_SHA256:
-        failures.append("ALU02_CHECKER_HASH_MISMATCH")
-    if execution_binding(Fragment.ALU04_EPISTEMIC_MODAL).checker_sha256 != ALU04_CHECKER_SHA256:
-        failures.append("ALU04_CHECKER_HASH_MISMATCH")
-    if execution_binding(Fragment.ALU05_NON_MONOTONIC_DUNG).checker_sha256 != ALU05_CHECKER_SHA256:
-        failures.append("ALU05_CHECKER_HASH_MISMATCH")
-    if execution_binding(Fragment.ALU08_CATEGORICAL_TOPOS).checker_sha256 != ALU08_CHECKER_SHA256:
-        failures.append("ALU08_CHECKER_HASH_MISMATCH")
+    exact_hashes = {
+        Fragment.ALU02_FIRST_ORDER_UNIFICATION: ALU02_CHECKER_SHA256,
+        Fragment.ALU04_EPISTEMIC_MODAL: ALU04_CHECKER_SHA256,
+        Fragment.ALU05_NON_MONOTONIC_DUNG: ALU05_CHECKER_SHA256,
+        Fragment.ALU06_DEPENDENT_TYPE: ALU06_CHECKER_SHA256,
+        Fragment.ALU08_CATEGORICAL_TOPOS: ALU08_CHECKER_SHA256,
+    }
+    for fragment, expected in exact_hashes.items():
+        if execution_binding(fragment).checker_sha256 != expected:
+            failures.append(f"{fragment.name}_CHECKER_HASH_MISMATCH")
 
     alu03 = execution_binding(Fragment.ALU03_TEMPORAL_LTL)
     alu07 = execution_binding(Fragment.ALU07_QUANTUM_LOGIC)
@@ -151,7 +154,4 @@ def validate_execution_registry() -> tuple[str, ...]:
         failures.append("ALU03_SOURCE_BINDING_MISMATCH")
     if alu07.source_revision_id != UNIFIED_BRAIN_CURRENT_REVISION or alu07.source_method_ast_sha256 != ALU07_SOURCE_METHOD_AST_SHA256:
         failures.append("ALU07_SOURCE_BINDING_MISMATCH")
-
-    if execution_binding(Fragment.ALU06_DEPENDENT_TYPE).status is not ExecutionStatus.SPECIFICATION_ONLY:
-        failures.append("ALU06_DEPENDENT_TYPE_UNSUPPORTED_EXECUTION_PROMOTION")
     return tuple(failures)
