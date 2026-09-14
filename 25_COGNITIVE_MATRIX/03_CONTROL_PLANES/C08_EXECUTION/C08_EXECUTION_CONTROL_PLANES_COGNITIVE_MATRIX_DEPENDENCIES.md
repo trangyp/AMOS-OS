@@ -2,66 +2,50 @@
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
-rscf-claim: verified
+rscf-claim: conditional
 rscf-provenance: AMOS_corpus
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: AMOS_MODEL
 topic: C08 Execution Control Planes Cognitive Matrix Dependencies
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
----
----
+updated: 2026-09-14
 ---
 
 # C08 — Dependencies
 
-**Package:** `C08_EXECUTION`
-**Class:** `COGNITIVE_MATRIX_CONTRACT`
-**Epistemic class:** `DERIVED / MODEL EXTENSION`
-**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
-**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
-
-## Scope
-
-Covers the operation contract for this lifecycle operator.
+**Package:** `C08_EXECUTION`  
+**Class:** `COGNITIVE_MATRIX_CONTROL_PLANE`  
+**Status:** `DEPENDENCY_GRAPH_REPAIRED / EXECUTABLE_BOUNDED_REFERENCE`
 
 ## Upstream dependencies
 
-## Downstream dependents
+- `C01_GOVERNANCE` — supplies effect-scoped authority; C08 cannot mint it.
+- `C03_EXECUTIVE` — supplies a uniquely selected proposal; competing/held output is not executable input.
+- `C09_KERNEL_CONTROL` — supplies current kernel condition/freshness constraints.
 
-Dependency direction follows the primitive flow order; cycles are defects.
+## Downstream dependency
 
-## Hard boundaries
+- `AMOS_INFRASTRUCTURE_COMMIT_PLANE` — owns commit-time revalidation, idempotency/finality state, receiver receipts, and durable external-effect release.
+
+## Dependency invariants
 
 ```text
-CONTRACT_FILLED != IMPLEMENTED
-DOCUMENTED != EXECUTABLE
-MODEL != VERIFIED
+C03_SELECT != C01_AUTHORITY
+C01_AUTHORITY != C08_STAGE
+C08_STAGE != INFRASTRUCTURE_COMMIT
+STALE_UPSTREAM -> REVALIDATE
+COMPETING_UPSTREAM -> HOLD
 UNKNOWN/GAP != PASS
 ```
 
-______________________________________________________________________
+The previous generated contract listed no upstream dependencies; that representation was inconsistent with C03's declared `C03 -> C08` edge and with C08's own authority boundary.
 
-[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+## Executable binding
 
-______________________________________________________________________
+`04_RUNTIME/01_REFERENCE_IMPLEMENTATION/c08_execution_runtime.py`
 
-RSCF-NODE
-node_id: c08_planes_dependencies
-node_type: note
-path: 03_CONTROL_PLANES/C08_EXECUTION/C08_EXECUTION_CONTROL_PLANES_COGNITIVE_MATRIX_DEPENDENCIES.md
-claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C08_EXECUTION/C08_EXECUTION_CONTROL_PLANES_COGNITIVE_MATRIX_DEPENDENCIES.md
+Dependency direction is acyclic in this bounded flow:
 
-______________________________________________________________________
+`C01 + C03 + C09 -> C08 -> infrastructure commit`.
 
-**MOC:** [[25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C08_EXECUTION/C08_EXECUTION_MOC|C08_EXECUTION_MOC]]
-
-______________________________________________________________________
-
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
