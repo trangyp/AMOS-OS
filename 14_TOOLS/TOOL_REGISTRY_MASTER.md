@@ -62,6 +62,7 @@ graph TD
 | **`amos-obsidian-linking`** | [[14_TOOLS/AMOS_OBSIDIAN_LINKING_PLUGINS]] | T1 | `FS_READ_VAULT | AST_PARSE` | declared local bound | row-specific evidence required |
 | **`amos-agent-interop-compiler`** | [[14_TOOLS/AMOS_AGENT_INTEROPERABILITY_COMPILER]] | T1 | `FS_READ_AGENT_METADATA | MANIFEST_VALIDATE | MANIFEST_COMPILE` | bounded local process | local positive/negative fixtures + CI on active branch |
 | **`amos-agent-evaluation-review`** | [[14_TOOLS/AGENT_EVALUATION_REVIEW_GATE]] | T1 | `EVAL_RUN_VALIDATE | REVIEW_RECORD_VALIDATE | JUDGE_DISAGREEMENT_AUDIT | SAMPLING_COVERAGE_AUDIT | BASELINE_CANDIDATE_COMPARE | HARNESS_MUTATION_VERDICT` | bounded local SQLite/reference validation | local 20-test regression suite + receipt validator; external judge validity remains separately governed |
+| **`amos-evaluator-calibration`** | [[14_TOOLS/EVALUATOR_CALIBRATION_VERIFIER]] | T1 | `EVALUATOR_CALIBRATION_RECORD_VALIDATE | HELD_OUT_VALIDATION_LINEAGE_AUDIT | ABSTENTION_COVERAGE_AUDIT | WILSON_INTERVAL_CALCULATE | BRIER_SCORE_CALCULATE | ECE_CALCULATE | EVALUATOR_RELIABILITY_GATE | EVALUATOR_DRIFT_COMPARE | CALIBRATION_RECEIPT_VALIDATE` | bounded local SQLite/reference validation | local 37-test regression suite + runtime/receipt self-tests; external judge/reference validity remains separately governed |
 | **`amos-aibom-provenance`** | [[14_TOOLS/AIBOM_PROVENANCE_VERIFIER]] | T1 | `AIBOM_NORMALIZE_LOCAL | CYCLONEDX_JSON_IMPORT_LOCAL | SPDX_JSON_IMPORT_LOCAL | IN_TOTO_SUBJECT_BIND_VALIDATE | AIBOM_STRUCTURAL_VERIFY | AIBOM_POLICY_GAP_AUDIT | VULNERABILITY_APPLICABILITY_CLASSIFY | OUTPUT_BINDING_VALIDATE | AIBOM_DRIFT_COMPARE | AIBOM_LEDGER_VERIFY` | bounded local SQLite/reference validation | local 26-test regression suite + receipt validator; external signature/scanner/network evidence remains separately governed |
 | **`amos-wasi-micro-sandbox`** | [[14_TOOLS/AMOS_SELF_HEALING_AUTONOMOUS_WASI_MICRO_SANDBOX_GUIDE]] | T2 | `WASI_EPHEMERAL | NO_NET` | declared contract | deployment/runtime proof remains row-specific |
 | **`amos-sandbox-execution`** | [[14_TOOLS/SANDBOX_TOOL_EXECUTION_PROTOCOL]] | T2 | `WASI_CORE_COMPUTE` | declared contract | deployment/runtime proof remains row-specific |
@@ -81,6 +82,8 @@ The interoperability compiler is T1 only when checking metadata or writing proje
 The trace transport tool never stores transport credentials in its durable outbox or receipts. A network endpoint/header supplied by a caller does not become durable AMOS authority.
 
 The evaluation-review tool is local/read-oriented. `CONTINUE|TERMINATE|ESCALATE`, `KEEP|ROLLBACK|INCONCLUSIVE`, scores, and judge outputs are evaluation evidence only. External model judges or hosted evaluation runners are separate T3 operations and do not inherit authority from this T1 validator.
+
+The evaluator-calibration tool is local/read-oriented. Calibration and reliability evidence are T1. Executing external judges, collecting hosted human labels, or querying hosted experiment backends are separate T3 operations. `CALIBRATED != CORRECT`, `REFERENCE_LABEL != GROUND_TRUTH`, and a reliability gate never grants deployment authority.
 
 The AIBOM provenance tool is local/read-oriented. Local parsing, normalization, digest/lineage checks, evidence classification and drift comparison are T1. Hosted SBOM generation, vulnerability-database queries, registry access, transparency-log queries, GitHub artifact-attestation services and cryptographic signature verification are separate T3 operations. Their outputs remain evidence and do not inherit deployment, merge or canonical-promotion authority.
 
@@ -148,6 +151,8 @@ This descriptor is an AMOS model schema. It does not assert that every listed to
 9. **Evaluation separation**: `REVIEW_DECISION != RUNTIME_AUTHORITY`; `MODEL_JUDGE_SCORE != GROUND_TRUTH`; `SAMPLED_PASS != COMPLETE_PASS`; `SCORE_DELTA != CAUSAL_ATTRIBUTION`; `EVAL_RESULT != DEPLOYMENT_AUTHORITY`.
 10. **Supply-chain evidence separation**: `BOM_PRESENT != COMPLETE_INVENTORY`; `DIGEST_MATCH != SIGNATURE_VERIFIED`; `SIGNATURE_VERIFIED != SEMANTIC_CORRECTNESS`; `VULNERABILITY_ID_MATCH != VULNERABILITY_APPLICABLE`; `AIBOM_SEALED != POLICY_COMPLETE`; `POLICY_COMPLETE != DEPLOYMENT_VALIDITY`; `AIBOM_EVIDENCE != AUTHORITY`.
 
+11. **Evaluator calibration separation**: `CALIBRATED != CORRECT`; `REFERENCE_LABEL != GROUND_TRUTH`; `AGREEMENT != TRUTH`; `SCORE != PROBABILITY`; `CALIBRATION_COHORT != VALIDATION_COHORT`; `RELIABILITY_GATE_PASS != DEPLOYMENT_VALIDITY`; `DRIFT_DELTA != CAUSAL_ATTRIBUTION`.
+
 ## 5. Cross-Plane Architectural Bindings
 
 - **Master Tools MOC**: [[14_TOOLS/14_TOOLS_MOC]]
@@ -155,6 +160,7 @@ This descriptor is an AMOS model schema. It does not assert that every listed to
 - **GitHub Research Adapter**: [[14_TOOLS/GITHUB_REPOSITORY_RESEARCH_ADAPTER]]
 - **Agent Interoperability Compiler**: [[14_TOOLS/AMOS_AGENT_INTEROPERABILITY_COMPILER]]
 - **Agent Evaluation Review Gate**: [[14_TOOLS/AGENT_EVALUATION_REVIEW_GATE]]
+- **Evaluator Calibration Verifier**: [[14_TOOLS/EVALUATOR_CALIBRATION_VERIFIER]]
 - **AIBOM Provenance Verifier**: [[14_TOOLS/AIBOM_PROVENANCE_VERIFIER]]
 - **Agent Trace Transport Verifier**: [[14_TOOLS/AGENT_TRACE_TRANSPORT_VERIFIER]]
 - **WASM Sandbox Capability Ledger**: [[14_TOOLS/WASM_SANDBOX_CAPABILITY_LEDGER]]
