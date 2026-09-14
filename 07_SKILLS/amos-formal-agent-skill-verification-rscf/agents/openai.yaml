@@ -1,0 +1,3 @@
+interface:
+  display_name: "AMOS Skill Capability Verifier"
+  short_description: "Bounded static effect-containment audit for agent Skills"

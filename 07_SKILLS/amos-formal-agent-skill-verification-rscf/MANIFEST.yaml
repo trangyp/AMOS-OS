@@ -1,23 +1,13 @@
-bundle_version: 1.1.0
-bundle_date: 2026-08-28
+bundle_version: 3.0.0
+bundle_date: 2026-09-14
 schema_version: "1.0"
-compatible_with:
-  - claude-code
-  - claude-chat
-  - codex
-  - gemini-cli
-  - copilot
-dependencies: []
-security_verdict: pass
-epistemic_class: SOURCE_CLAIM
+epistemic_class: AMOS_MODEL
 steward: Trang Phan
-license: MIT
+status: implemented_local_reference
 files:
   - path: "SKILL.md"
-  - path: "amos-formal-agent-skill-verification-rscf_MOC.md"
-  - path: "references/references_MOC.md"
-  - path: "references/vault_domain_knowledge.md"
-  - path: "scripts/hooks/hooks_config.yaml"
-  - path: "scripts/hooks/post_tool_use.py"
-  - path: "scripts/hooks/pre_tool_use.py"
-  - path: "scripts/hooks/stop.py"
+  - path: "agents/openai.yaml"
+  - path: "scripts/verify_skill.py"
+  - path: "scripts/audit_rscf.py"
+  - path: "references/upstream-mechanisms.md"
+  - path: "references/formal-boundaries.md"

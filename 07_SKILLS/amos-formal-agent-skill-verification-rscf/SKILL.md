@@ -1,212 +1,58 @@
 ---
-canon-group: meta
-canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
-conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
-topic: Skill
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
-created: 2026-08-22
----
----
+name: amos-formal-agent-skill-verification-rscf
+description: Audit agent Skills for bounded capability containment by statically analyzing deterministic script-side effects, comparing observed effects with an explicit capability manifest, surfacing dynamic-analysis gaps, and preserving proof scope. Use for high-assurance Skill review, executable effect containment, irreversible-tool governance, or deciding whether tested Skill behavior remains inside declared permissions without confusing static containment with semantic safety, runtime authorization, or deployment validity.
 ---
 
-# Formal Agent Skill Verification Rscf
+# AMOS Formal Agent Skill Verification RSCF
 
-## Identity
+Origin architect/steward: **Trang Phan**.
 
-Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+Use this Skill to establish a bounded evidence claim about deterministic Skill code. Do not call a Skill "formally verified" merely because static analysis passes.
 
-## When to Use
+## Runtime
 
-- When auditing claims against evidence and provenance
-- When detecting gaps in capabilities, evidence, tests, or monitors
-- When allocating repair resources to highest-leverage gaps
-- When verifying gap closure across the full lifecycle chain
-- When the parent skill (`amos-audit-repair-master`) routes to this specialized capability
-- When managing lifecycle operations across classify, validate, trace, assess, and detect
-- When detecting drift in evidence chains, provenance freshness, or confidence calibration
-- When validating outputs against domain constraints and epistemic class
+`BIND -> DECLARE -> STATIC_EFFECT_SCAN -> CONTAINMENT -> DYNAMIC_GAP -> RECEIPT -> CHALLENGE`
 
-## Capabilities
+1. Bind exact Skill source identity and revision.
+2. Require an explicit capability manifest with `allowed_effects`.
+3. Run `scripts/verify_skill.py <skill_dir> <manifest.json>`.
+4. Treat observed effects as an over-approximation of syntactically visible Python behavior.
+5. Return `VIOLATION` for undeclared observed effects or parse failures.
+6. Return `UNKNOWN` for unresolved dynamic behavior.
+7. Return `CONTAINED` only for the bounded static property.
+8. Run `scripts/audit_rscf.py` on consequential receipts.
 
-- **formal_agent.audit_claim**: Audit claims against evidence, provenance, and epistemic class
-- **formal_agent.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
-- **formal_agent.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
-- **formal_agent.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
-- **formal_agent.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
+## Effect vocabulary
 
-> **Reference**: See `references/vault_domain_knowledge.md` (content_hash: cd93125cf7e77c1e) for the full vault-sourced domain knowledge (9546 chars).
+`FS_READ | FS_WRITE | PROCESS_EXEC | NETWORK | ENV_READ | DYNAMIC_CODE | DYNAMIC_IMPORT | SERIALIZATION_UNSAFE`
 
-- **formal_agent.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-- **formal_agent.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-- **formal_agent.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+## Hard invariants
 
-## Operations
+- `CAPABILITY != AUTHORITY`.
+- `STATIC_CONTAINMENT != SEMANTIC_SAFETY`.
+- `STATIC_CONTAINMENT != FORMAL_PROGRAM_PROOF`.
+- `NO_FINDING != NO_BEHAVIOR`.
+- `DECLARED_EFFECT != AUTHORIZED_EFFECT`.
+- `SKILL_TEXT != EXECUTABLE_BEHAVIOR`.
+- `AST_VISIBLE != RUNTIME_COMPLETE`.
+- `SCANNER_TRIGGER != RUNTIME_EFFECT`.
+- Dynamic imports/reflection/native binaries/external tools create `UNKNOWN/GAP` unless separately bounded.
+- When analyzer signatures resemble sensitive or outbound operations, represent the detection rule structurally when possible instead of embedding unnecessary active-looking literals. Treat cross-Skill scanner composition as evidence to investigate, not proof that the verifier executed the flagged effect.
+- A scanner finding is evidence, not exploitability proof.
+- A clean scanner result is not deployment validity.
 
-1. **formal_agent.audit_claim**: Audit claims against evidence, provenance, and epistemic class
-1. **formal_agent.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
-1. **formal_agent.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
-1. **formal_agent.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
-1. **formal_agent.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
-1. **formal_agent.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-1. **formal_agent.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-1. **formal_agent.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+## Inputs
 
-## 11_KNOWLEDGE Vault Content
+Use a Skill directory plus a manifest such as:
 
-> **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)
+```json
+{"allowed_effects":["FS_READ"]}
+```
 
-### RSCF Epistemic Substrate
+## Outputs
 
-This RSCF engine operates on the AMOS RSCF (Reasoning, Scope, Claim, Falsifier) epistemic substrate.
+Return the receipt verdict, observed/allowed effects, violations, dynamic gaps, scanned file hashes, exact scope, provenance and falsifiers.
 
-**RSCF objects**: claim / class / premises / evidence / provenance / scope / regime / freshness / dependencies / competing hypotheses / falsifiers / confidence ceiling.
+## Progressive references
 
-**RSCF state kinds**: OBSERVATION, SOURCE_CLAIM, DERIVED, MODEL, DECISION, UNKNOWN.
-
-**RSCF laws**:
-
-- `CLAIM != FACT`: a claim is not a fact; it must be labeled with epistemic class
-- `CONFIDENCE <= EVIDENCE`: confidence cannot exceed evidence support
-- `FALSIFIER_REQUIRED`: every claim must declare its falsifier
-- `SCOPE_BOUND`: every claim is valid only within its declared scope and regime
-- `PROVENANCE_REQUIRED`: every claim must have traceable provenance
-
-**RSCF validation gates**:
-
-- G1 (Law of Law): no unresolved contradictions
-- G2 (Epistemic class): all claims labeled, no class promotion without evidence
-- G3 (Provenance): source path recorded for every derived claim
-- G4 (Anti-overreach): no claim beyond declared scope
-- G5 (Equation firewall): equations carry status tags
-- G6 (Failure mode): on failure, downgrade, flag, escalate
-
-### Epistemic Boundary
-
-This RSCF engine is an epistemic governance tool. It does not prove claims are true, that all falsifiers are known, or that the RSCF framework is complete.
-
-## Failure Modes
-
-- **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
-- **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
-- **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
-- **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
-- **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and relabel.
-
-## Validation Gates
-
-- **G1 (Law of Law)**: No unresolved contradictions within the skill's scope.
-- **G2 (Epistemic class)**: All claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL — never claim beyond evidence.
-- **G3 (Provenance)**: Source path recorded for every derived claim.
-- **G4 (Anti-overreach)**: No claim beyond the skill's declared scope and epistemic class.
-- **G5 (Equation firewall)**: Equations carry status tags (ESTABLISHED_MATH / SOURCE_DERIVED / AMOS_MODEL / EMPIRIC
-
-______________________________________________________________________
-
-**Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
-
-## Related
-
-- [[07_SKILLS/amos-formal-agent-skill-verification-rscf/amos-formal-agent-skill-verification-rscf_MOC|amos-formal-agent-skill-verification-rscf_MOC]]
-
-## Examples
-
-- **Scenario**: When auditing claims against evidence and provenance
-
-  - **Input**: A query matching this skill's domain (audit)
-  - **Output**: Structured result with epistemic labels and provenance
-
-- **Scenario**: When detecting gaps in capabilities, evidence, tests, or monitors
-
-  - **Input**: A query matching this skill's domain (audit)
-  - **Output**: Structured result with epistemic labels and provenance
-
-- **Scenario**: When allocating repair resources to highest-leverage gaps
-
-  - **Input**: A query matching this skill's domain (audit)
-  - **Output**: Structured result with epistemic labels and provenance
-
-## Anti-Patterns
-
-- **Do not use** for tasks outside the audit domain
-- **Do not use** when the query requires empirical validation that this skill cannot provide
-- **Do not use** when a parent skill or higher-level orchestrator should route instead
-- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
-- **Do not chain** more than 3 skills without explicit orchestrator approval
-
-## Composition
-
-- **Parent**: `amos-audit-repair-master` — routes to this skill when audit specialization is needed
-- **Peers**: Other skills in the `audit` domain may be composed in sequence
-- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
-- **Workflow**: Each skill has a corresponding workflow in `26_WORKFLOWS/`
-- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
-## Evaluation
-
-### Success Criteria
-
-- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
-- Output includes provenance reference to source evidence
-- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
-- Output includes gap flags for unresolved unknowns
-- Output does not exceed declared scope
-
-### Failure Modes
-
-- **Overreach**: Output claims validity beyond its epistemic class
-- **Scope creep**: Output addresses questions outside the declared domain
-- **Provenance loss**: Output cannot trace back to source evidence
-- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
-
-## Error Handling
-
-- **On scope violation**: Reject the query and route back to parent skill
-- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
-- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
-- **On provenance loss**: Mark output as UNKNOWN and require human review
-- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
-## Do not use
-
-- For generic audit analysis outside the AMOS audit/repair framework
-- To claim empirical validation of repair or recovery theories
-- As a substitute for domain-specific audit or quality evidence
-- Outside audit/repair domain reasoning
-
-## References
-
-- `references/references_MOC.md` — loaded on demand
-- `references/vault_domain_knowledge.md` — loaded on demand
-- \`\` — skill Map of Content
-- `amos-audit-repair-master` — parent skill
-- \`\` — corresponding workflow
-- `amos-formal-agent-skill-verification-rscf-agent` — corresponding agent
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
-
-**MOC:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
-
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
-
-______________________________________________________________________
-
-RSCF-NODE
-node_id: amos-formal-agent-skill-verification-rscf
-node_type: skill
-path: 07_SKILLS/amos-formal-agent-skill-verification-rscf/SKILL.md
-RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-- CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
+Read `references/upstream-mechanisms.md` for source provenance and `references/formal-boundaries.md` for proof boundaries.
