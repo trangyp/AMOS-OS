@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
-import copy
-import json
 from pathlib import Path
 import sys
 import tempfile
@@ -81,7 +79,7 @@ class ExternalSourceRegistryTests(unittest.TestCase):
 
 
 class SkillSurfaceTests(unittest.TestCase):
-    def test_modern_skill_requires_existing_bundled_reference(self) -> None:
+    def test_portable_skill_requires_existing_bundled_reference(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             skill_dir = Path(temporary) / "sample-skill"
             skill_dir.mkdir()
@@ -94,10 +92,35 @@ class SkillSurfaceTests(unittest.TestCase):
                 "Load `references/missing.md`.\n",
                 encoding="utf-8",
             )
-            errors, warnings, name = skill_surface.validate_skill(path, strict_legacy=False)
+            errors, warnings, name, portable = skill_surface.validate_skill(
+                path, strict_legacy=False
+            )
             self.assertEqual(name, "sample-skill")
+            self.assertTrue(portable)
             self.assertFalse(warnings)
             self.assertTrue(any("does not exist" in error for error in errors))
+
+    def test_extended_legacy_skill_is_warning_not_portable(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            skill_dir = Path(temporary) / "sample-skill"
+            skill_dir.mkdir()
+            path = skill_dir / "SKILL.md"
+            path.write_text(
+                "---\n"
+                "title: legacy metadata\n"
+                "name: sample-skill\n"
+                "description: Use when a sufficiently concrete sample capability is required.\n"
+                "version: 1.0.0\n"
+                "---\n",
+                encoding="utf-8",
+            )
+            errors, warnings, name, portable = skill_surface.validate_skill(
+                path, strict_legacy=False
+            )
+            self.assertFalse(errors)
+            self.assertEqual(name, "sample-skill")
+            self.assertFalse(portable)
+            self.assertTrue(warnings)
 
     def test_legacy_skill_is_warning_by_default(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
@@ -105,9 +128,12 @@ class SkillSurfaceTests(unittest.TestCase):
             skill_dir.mkdir()
             path = skill_dir / "SKILL.md"
             path.write_text("# Legacy Skill\n", encoding="utf-8")
-            errors, warnings, name = skill_surface.validate_skill(path, strict_legacy=False)
+            errors, warnings, name, portable = skill_surface.validate_skill(
+                path, strict_legacy=False
+            )
             self.assertFalse(errors)
             self.assertIsNone(name)
+            self.assertFalse(portable)
             self.assertTrue(warnings)
 
 
