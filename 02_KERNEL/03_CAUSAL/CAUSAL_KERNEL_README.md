@@ -14,6 +14,7 @@ tags:
   - rscf/state/source-claim
   - misc
 created: 2026-08-22
+updated: 2026-09-14
 ---
 ---
 ---
@@ -22,60 +23,89 @@ created: 2026-08-22
 
 ## Purpose
 
-`CAUSAL KERNEL README` is the package readme for the **Kernel** plane segment at `02_KERNEL/03_CAUSAL`.
-The Kernel plane governs kernel-plane reasoning primitives: meta-logic, cognition, causality, state, memory, risk-repair, authority, provenance, integration. Normative load-bearing content lives in the sibling contract(s); this readme orients navigation.
+`02_KERNEL/03_CAUSAL` owns AMOS causal-claim structure, evidence-class boundaries, causal-role distinctions, and bounded validation rules. It does not infer causal truth from graph structure, sequence, correlation, analogy, or model fit.
+
+The current executable owner for the generic causal evidence gate is:
+
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/causal_claim_runtime.py`
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/test_causal_claim_runtime.py`
+
+## Core distinction set
+
+```text
+ASSOCIATION != CAUSATION
+TEMPORAL_PRECEDENCE != CAUSATION
+GRAPH_REACHABILITY != CAUSATION
+MODEL_FIT != INTERVENTION_EFFECT
+MEDIATOR != CONFOUNDER
+NECESSARY != SUFFICIENT
+VALIDATED_CLAIM != DEPLOYMENT_AUTHORITY
+```
+
+Causal conclusions remain bound to source/target identity, scope, regime, state version, evidence identity, identification assumptions, and unresolved reverse-causation state.
 
 ## Sibling artifacts
 
-- [[02_KERNEL/03_CAUSAL/KERNEL_CAUSAL_CONTRACT|KERNEL_CAUSAL_CONTRACT]]
-- [[02_KERNEL/03_CAUSAL/K_CAUSAL_CLOSURE|K_CAUSAL_CLOSURE]]
-- [[02_KERNEL/03_CAUSAL/K_CAUSAL_EPOCH|K_CAUSAL_EPOCH]]
-- [[02_KERNEL/03_CAUSAL/K_CAUSAL_HIERARCHY|K_CAUSAL_HIERARCHY]]
+- [[02_KERNEL/03_CAUSAL/KERNEL_CAUSAL_CONTRACT|KERNEL_CAUSAL_CONTRACT]] — current generic causal evidence gate contract
+- [[02_KERNEL/03_CAUSAL/K_CAUSAL_CLOSURE|K_CAUSAL_CLOSURE]] — closure claims; require explicit boundary/intervention semantics
+- [[02_KERNEL/03_CAUSAL/K_CAUSAL_EPOCH|K_CAUSAL_EPOCH]] — causal epoch/state concepts
+- [[02_KERNEL/03_CAUSAL/K_CAUSAL_HIERARCHY|K_CAUSAL_HIERARCHY]] — causal claim classification
+- [[02_KERNEL/03_CAUSAL/K_CROSS_SCALE_CAUSALITY|K_CROSS_SCALE_CAUSALITY]] — cross-scale source/model material; structural analogy does not prove cross-scale mechanism
+- [[02_KERNEL/03_CAUSAL/K_BIOLOGICAL_CAUSALITY|K_BIOLOGICAL_CAUSALITY]] — biological source/model material; requires domain evidence
+- [[02_KERNEL/03_CAUSAL/K_QUANTUM_CAUSALITY|K_QUANTUM_CAUSALITY]] — source/model material; do not import quantum terminology into ordinary causal claims without physics-grounded definitions
 
 ## Contract discipline
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+- Type the causal claim before assessing it.
+- Keep observational association, temporal precedence, enabling condition, mediation, confounding, necessity, sufficiency, mechanism, and intervention effects distinct.
+- Prefer intervention/natural-experiment evidence when claiming intervention effects.
+- Preserve reverse-causation uncertainty.
+- Preserve scale/regime and target population.
+- Make identification assumptions explicit.
+- Use the weakest accurate conclusion class.
+- Keep causal validation separate from authority to intervene.
 
-## Gaps
+## Current implementation boundary
 
-Executable binding PARTIAL unless an executed validation receipt exists for this subsystem ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
+The generic runtime validates whether declared evidence classes are structurally sufficient for the declared causal claim. It does **not** independently establish that a study satisfies exchangeability, positivity, consistency/SUTVA, exclusion restrictions, measurement validity, correct adjustment, transportability, or absence of unmeasured confounding.
+
+Domain causal estimators/discovery algorithms remain `UNKNOWN/GAP` unless separately implemented and validated.
 
 ## Worked semantics
 
-Given an operation touching `CAUSAL KERNEL README` within the Kernel plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+1. Resolve source, target, claim class, scope, regime, and state version.
+2. Bind evidence identities and evidence classes.
+3. Reject graph reachability/model fit as sole causal identification evidence.
+4. Check claim-specific evidence requirements.
+5. Block effect-like claims when reverse causation remains unresolved.
+6. Preserve any weaker supported claim instead of promoting or discarding evidence wholesale.
+7. Return bounded support/not-licensed classification.
+8. Route consequential interventions through independent risk/authority/commit controls.
 
 ## Promotion-gate checklist
 
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+- [x] typed generic causal-claim schema
+- [x] typed generic evidence-class schema
+- [x] scope/regime/version checks
+- [x] association/temporal/graph/model-fit causal firewalls
+- [x] reverse-causation blocker
+- [ ] domain-specific causal identification verification
+- [ ] quantitative estimators and uncertainty
+- [ ] discovery/adjustment algorithms
+- [ ] external empirical validation
+- [ ] intervention authority/deployment validity
 
 ## Cross-plane bindings
 
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+- Parent Kernel — [[02_KERNEL/02_KERNEL_CONTRACT|02_KERNEL_CONTRACT]]
+- Canon — [[01_CANON/01_CANON_MOC|01_CANON_MOC]]
+- Control plane — [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
+- Runtime — [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
+- Observability — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]]
 
 ______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ______________________________________________________________________
 
