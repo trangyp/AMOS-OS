@@ -74,6 +74,12 @@ class FiniteCategoryTests(unittest.TestCase):
         self.assertTrue(category.is_thin())
         self.assertEqual(category.thin_preorder_matrix(()), ())
 
+    def test_non_string_identities_fail_closed(self):
+        with self.assertRaises(CategoryInvariantError):
+            Morphism("f", "x", 1)
+        with self.assertRaises(CategoryInvariantError):
+            FiniteCategory(frozenset({"x", 1}), {}, {}, {})
+
     def test_missing_composable_pair_fails_closed(self):
         morphisms = {"id": Morphism("id", "x", "x")}
         with self.assertRaises(CategoryInvariantError):
