@@ -1,182 +1,66 @@
 {
   "name": "amos-interactive-evaluation-design-rscf-agent",
-  "display_name": "Interactive Evaluation Design Rscf",
-  "description": "Interactive Evaluation Design Rscf — Tech-engineering engine. Bound to c10 domain. Use when tech-engineering engine is needed within the AMOS framework.",
-  "author": "Trang Phan",
-  "steward": "Trang Phan",
-  "system": "AMOS_OS",
-  "role": "Interactive Evaluation Design Rscf — Tech-engineering engine within the c10 domain.",
+  "display_name": "AMOS Interactive Evaluation",
+  "description": "Read/audit-oriented AMOS agent for trajectory-aware evaluation, post-tool review evidence, sampling coverage, judge disagreement, and baseline/candidate harness comparison.",
+  "version": "3.0.0",
+  "origin_architect": "Trang Phan",
   "skill_binding": {
     "primary_skill": "amos-interactive-evaluation-design-rscf",
-    "skill_path": ".devin/skills/amos-interactive-evaluation-design-rscf/SKILL.md"
+    "skill_path": "07_SKILLS/amos-interactive-evaluation-design-rscf/SKILL.md"
   },
   "capabilities": [
     {
-      "name": "interactive_evaluation.analyze_architecture",
-      "description": "Analyze software architecture: patterns, dependencies, coupling, cohesion",
+      "name": "interactive_evaluation.run_audit",
+      "description": "Audit evaluation run identity, evidence archetype, coverage, result binding, and receipt integrity.",
       "side_effect": "read"
     },
     {
-      "name": "interactive_evaluation.discover_program",
-      "description": "Discover program behavior: black-box analysis, symbolic execution, fuzzing",
+      "name": "interactive_evaluation.review_audit",
+      "description": "Audit CONTINUE/TERMINATE/ESCALATE review records without promoting review control into runtime authority.",
       "side_effect": "read"
     },
     {
-      "name": "interactive_evaluation.verify_code_facts",
-      "description": "Verify code facts: type safety, memory safety, termination, complexity",
+      "name": "interactive_evaluation.judge_disagreement",
+      "description": "Preserve and analyze evaluator disagreement without averaging away material conflicts.",
       "side_effect": "read"
     },
     {
-      "name": "interactive_evaluation.optimize_performance",
-      "description": "Optimize performance: profiling, bottleneck analysis, and resource tuning",
-      "side_effect": "read"
-    },
-    {
-      "name": "interactive_evaluation.enforce_bounds",
-      "description": "Enforce bounded code: resource limits, time limits, and capability limits",
+      "name": "interactive_evaluation.harness_compare",
+      "description": "Compare frozen-axis baseline and candidate harness runs and produce bounded KEEP/ROLLBACK/INCONCLUSIVE evidence.",
       "side_effect": "read"
     }
-  ],
-  "operations": [
-    {
-      "step": 1,
-      "action": "Load the amos-interactive-evaluation-design-rscf skill and its content",
-      "gate": "skill_loaded"
-    },
-    {
-      "step": 2,
-      "action": "Classify the query against c10 sub-capabilities",
-      "gate": "domain_confirmed"
-    },
-    {
-      "step": 3,
-      "action": "Apply the appropriate capability with epistemic class labeling",
-      "gate": "epistemic_labeled"
-    },
-    {
-      "step": 4,
-      "action": "Validate results against domain validation gates",
-      "gate": "gates_passed"
-    },
-    {
-      "step": 5,
-      "action": "Present results with provenance and confidence ceiling",
-      "gate": "output_validated"
-    }
-  ],
-  "integrity_requirements": [
-    "Law of Law: no unresolved contradictions within the skill's scope",
-    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
-    "Provenance: source path recorded for every derived claim",
-    "Anti-overreach: no claim beyond the skill's declared scope",
-    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
-  ],
-  "safety_constraints": [
-    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
-    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
   ],
   "depends_on_skills": [
-    "amos-interactive-evaluation-design-rscf"
+    "amos-interactive-evaluation-design-rscf",
+    "amos-observability-driven-harness-evolution-rscf"
   ],
-  "depends_on_workflows": [
-    "amos-interactive-evaluation-design-rscf-workflow.md"
-  ],
-  "epistemic_class": "AMOS_MODEL",
-  "claim_ceiling": 0.95,
-  "lifecycle": {
-    "status": "active",
-    "deprecated": false,
-    "deprecation_date": null,
-    "successor": null
-  },
+  "depends_on_workflows": ["amos-interactive-evaluation-design-rscf-workflow.md"],
   "governance": {
-    "owner_team": "AMOS_CORE",
-    "business_domain": "c10",
     "risk_tier": "medium",
-    "observability": "structured_logs+content_hash",
     "approval_mode": "steward_review",
-    "promotion_state": "production"
-  },
-  "content_hash": "a01eb018eab17b7e",
-  "implementation": {
-    "type": "json",
-    "file": "amos-interactive-evaluation-design-rscf-agent.json",
-    "class": null,
-    "executable": true
-  },
-  "version": "1.1.0",
-  "reasoning_pattern": "ReAct",
-  "termination_criteria": {
-    "max_steps": 10,
-    "max_tokens": 8000,
-    "stop_on_confidence_below": 0.3,
-    "stop_on_critical_gap": true,
-    "stop_on_scope_violation": true,
-    "human_in_the_loop": false
-  },
-  "error_recovery": {
-    "on_timeout": "return partial result with GAP flag",
-    "on_scope_violation": "reject and route to parent",
-    "on_contradiction": "flag CRITICAL_GAP and halt",
-    "on_provenance_loss": "mark as UNKNOWN and request human review",
-    "on_drift": "trigger drift alignment governor"
-  },
-  "context_management": {
-    "strategy": "progressive_disclosure",
-    "max_context_tokens": 4000,
-    "compaction_threshold": 0.8,
-    "scratchpad_enabled": true
-  },
-  "evaluation_metrics": {
-    "success_rate_target": 0.85,
-    "false_positive_rate_max": 0.1,
-    "avg_steps_target": 3.0,
-    "provenance_coverage_target": 1.0
-  },
-  "composition_rules": {
-    "can_delegate_to": [],
-    "can_receive_from": [],
-    "max_chain_depth": 3,
-    "requires_orchestrator": true
+    "promotion_state": "implemented_local_reference",
+    "deployment_authority": "none",
+    "merge_authority": "none"
   },
   "observability": {
-    "trace_level": "full",
-    "log_inputs": true,
-    "log_outputs": true,
-    "log_intermediate": true,
-    "metrics_enabled": true
+    "capture_default": "METADATA_ONLY",
+    "raw_input_logging": false,
+    "raw_output_logging": false,
+    "raw_intermediate_logging": false,
+    "hash_bound_evidence": true,
+    "sampling_missingness_required": true,
+    "judge_disagreement_preserved": true,
+    "authority_semantics": "EVALUATION_DOES_NOT_GRANT_AUTHORITY"
   },
-  "tags": [
-    "type/agent",
-    "canon/agent",
-    "domain/tech-engineering",
-    "rscf/source_claim",
-    "hml/m",
-    "epistemic/amos_model",
-    "amos_os"
-  ],
-  "origin_architect": "Trang Phan",
-  "rscf_state": "SOURCE_CLAIM",
-  "hml_level": "M",
-  "gmef_gates": [
-    "L0_integrity",
-    "L1_epistemic",
-    "L2_provenance",
-    "L5_scope",
-    "L7_authority"
-  ],
-  "collapse_class": "reversible",
-  "qfm_gate_set": "QFM_v43",
-  "law_compliance": [
-    "L0",
-    "L1",
-    "L2",
-    "L4",
-    "L5",
-    "L7",
-    "L16",
-    "L17",
-    "L18"
-  ],
-  "domain": "c10"
+  "termination_criteria": {
+    "stop_on_critical_gap": true,
+    "stop_on_scope_violation": true,
+    "stop_on_noncomparability_for_attribution": true,
+    "human_in_the_loop": true
+  },
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false
+  },
+  "epistemic_class": "AMOS_MODEL"
 }
