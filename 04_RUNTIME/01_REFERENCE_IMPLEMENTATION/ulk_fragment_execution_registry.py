@@ -42,10 +42,13 @@ class ExecutionBinding:
     source_method_ast_sha256: Optional[str] = None
 
 
-ALU02_CHECKER_SHA256 = "002a4c72adf0afaa7ad1b33792008ea6a525ca43b69ae4eff301c1b06a135275"
+# Exact SHA-256 values are execution identities for the repository files named
+# in the corresponding bindings. Any checker-byte mutation invalidates its
+# receipt until this registry is explicitly rebound after regression testing.
+ALU02_CHECKER_SHA256 = "d85590549de8efb76ffb0b929fc7a53a036f21c34fcc3327527d08462d826b7c"
 ALU04_CHECKER_SHA256 = "d54bcc3d6eecd4a07a1f4174b3c36f6fe928d2683f01b98269da64e0e2797bbd"
 ALU05_CHECKER_SHA256 = "966f687c902988e5127a8e38df9984dbff3da6f6eeda22db25f92120b7faeec1"
-ALU06_CHECKER_SHA256 = "12a0907cfce261d5b9dd2fea46ee9496994663735bf4bee7f8006f9b43e6fec3"
+ALU06_CHECKER_SHA256 = "72cb28e12874d01144f2035049a1f88ea0ffdb4eea736b4355c119d1b29cd82c"
 ALU08_CHECKER_SHA256 = "d7ecd0cd5358b374c49a722e2fe084eb957b7719d903f386e263928625e1cd83"
 UNIFIED_BRAIN_CURRENT_REVISION = "0B_FlOTCuYcaFdVpKNEFLOTNHcFM3Q01GVGx4TmpVTTBHVytrPQ"
 ALU03_SOURCE_METHOD_AST_SHA256 = "9eecefbdc60faa0fe70ff758400174130ac536fc92debe7d85f22d55759c7f9f"
