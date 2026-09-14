@@ -1,0 +1,42 @@
+name: External Skill Security
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '07_SKILLS/**'
+      - '.github/agents/**'
+      - '.github/instructions/**'
+  push:
+    branches: [main]
+    paths:
+      - '07_SKILLS/**'
+      - '.github/agents/**'
+      - '.github/instructions/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  security-events: write
+
+concurrency:
+  group: external-skill-security-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  scan-agent-skills:
+    name: Cisco AI Skill Scanner
+    uses: cisco-ai-defense/skill-scanner/.github/workflows/scan-skills.yml@431cb58a5ac333bc0bb9aaa23f7c30ac628f59f8
+    with:
+      skill_path: 07_SKILLS
+      scan_mode: scan-all
+      policy: strict
+      fail_on_severity: high
+      python_version: '3.12'
+      upload_sarif: true
+      use_llm: false
+      use_behavioral: true
+      lenient: false
+    permissions:
+      contents: read
+      security-events: write

@@ -10,64 +10,87 @@ rscf:
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-
 ---
 
 # AMOS Global Contract for AI Coding Agents
 
-## 1. Brain source of truth
+## 1. Repository source of truth
 
-Use the Obsidian vault (`/Users/mac/Documents/AMOS_OS/`) as the reasoning brain.
-Primary canon: `cosmo-brain/AMOS_UNIFIED_BRAIN_COGNITION_ARCHITECTURE_ROUTING_v1.md`.
-Read UBCAR before making architectural or naming decisions.
+Operate from the checked-out repository, not a hard-coded local filesystem path.
+
+Resolve architecture in this order:
+1. `AGENTS.md`
+2. `00_ROOT/`
+3. `01_CANON/` when canonical AMOS semantics are involved
+4. `02_KERNEL/`, `03_CONTROL_PLANE/`, `04_RUNTIME/` for executable/runtime ownership
+5. the directly affected plane, schemas, tests, and provenance records
+
+`LATEST != AUTHORITATIVE`. Search supersession/version lineage instead of assuming newest filename wins.
 
 ## 2. Engineering posture
 
-- Think like a software engineer: prefer scripts, guardrails, and repeatable pipelines over one-off edits.
-- Use the vault to decide, then commit back to the vault.
-- For skills: ensure `SKILL.md` has `## Identity`, `## Capabilities`, `## Operations`, `## When to Use`, and `## Detailed Reference`.
-- For agents: ensure JSON has real capabilities, no broken dependencies, and `amos-{name}-agent.json` naming.
-- For workflows: ensure markdown and JSON are bound to a skill and an agent.
+- Prefer deterministic scripts, typed contracts, tests, and repeatable pipelines over one-off prose edits.
+- Search before creating a new owner, registry, schema, agent, skill, workflow, or tool.
+- Use feature branches for material changes.
+- Prefer adapters around third-party systems rather than vendoring entire external repositories.
+- Keep external source identity and immutable commit/ref in provenance when a mechanism is adopted.
 
-## 3. Epistemic discipline (RSCF)
+## 3. GitHub-native specialization
 
-Every claim-bearing artifact must carry:
+Use the repository agents under `.github/agents/` when their role matches:
+- `AMOS Architect` for architecture and ownership decisions;
+- `AMOS Skill Security Auditor` for external skill/agent/tool admission and security review;
+- `AMOS Integration Engineer` for approved implementation work.
 
-```yaml
-rscf:
-  state: <SOURCE_CLAIM | DERIVED | AMOS_MODEL | CONDITIONAL | COMPETING | UNKNOWN/GAP>
-  claim_class: <same as state>
-  provenance: <AMOS_corpus | arxiv | web | AMOS_CANON>
-  scope: <AMOS_general | canon | arxiv | ...>
-```
+File-pattern rules under `.github/instructions/` provide additional contracts for skills, workflows, and tools.
 
-## 4. Quality gates
+## 4. Epistemic discipline
 
-Run before committing:
+Preserve:
+- SOURCE_CANON / SOURCE_CLAIM / OBSERVATION / DERIVED / AMOS_MODEL / PREDICTION / DECISION / UNKNOWN/GAP;
+- capability / authority / permission;
+- declared / implemented / available / validated / approved;
+- proposal / staged effect / committed effect.
 
-- `python3 scripts/skill_guardrail_checker.py --skills-dir .devin/skills --summary`
+Do not promote external README claims, benchmarks, star counts, or security claims into AMOS truth without independent evidence.
+
+## 5. Skill discipline
+
+Use the portable Agent Skills baseline: `name` + `description` frontmatter, compact `SKILL.md`, and progressive loading through `scripts/`, `references/`, and `assets/` when needed.
+
+AMOS metadata may extend this format but must not break portability unnecessarily.
+
+External skills are quarantined candidates until structural, security, dependency, license, test, and governance gates pass.
+
+## 6. Quality gates
+
+Use the repository-native validators applicable to the change. Typical skill gates include:
+
+- `python3 scripts/validate.py`
 - `python3 scripts/skill_binding_checker.py`
-- `python3 scripts/skill_operations_enhancer.py --dry-run 07_SKILLS` (when needed)
+- `python3 scripts/skill_dependency_graph.py`
+- `python3 scripts/skill_guardrail_checker.py --skip-references`
+- `python3 scripts/skill_regression_harness.py`
+- `python3 scripts/skill_quality_scorer.py --min-score 80`
 
-## 5. Git rules
+Do not convert a failed gate into a warning merely to obtain a green build.
 
-- Use `.devin/` for new configuration; use `~/.config/devin/` for global config only.
-- Do not write to `.claude/`, `.cursor/`, or other tool-specific directories.
-- Commit messages use the multi-line `$(cat <<'EOF'...EOF)` pattern with a Devin co-authored footer.
-- Do not force-push, rewrite history, or commit secrets.
+## 7. Git and security rules
 
-## 6. Anti-overclaim
+- Do not force-push or rewrite history.
+- Do not commit secrets, cookies, tokens, credentials, local absolute paths, generated caches, or personal authentication state.
+- Do not execute arbitrary install/bootstrap commands copied from newly discovered repositories before inspection.
+- Pin third-party CI/workflow dependencies to immutable commits when security or reproducibility matters.
+- Tool availability is not tool authority.
 
-- UBCAR is a composition model, not a new architecture.
-- Quantum, fractal, and math terms are reasoning analogies unless explicitly grounded.
-- No claim without proof capsule or `rscf` provenance.
+## 8. Continuous enhancement
 
-## 7. Continuous enhancement
+When scanning public repositories for improvements:
+1. identify the AMOS gap first;
+2. inspect primary source code/docs at a specific commit;
+3. extract the mechanism, assumptions, limits, and failure modes;
+4. compare against existing AMOS capability before adding anything;
+5. integrate the smallest non-duplicative mechanism;
+6. preserve provenance and test the result.
 
-- Keep searching public repositories for best skill / agent / workflow patterns.
-- Ingest findings into `11_KNOWLEDGE/LLM_WIKI/` as `raw/` captures and `wiki/` synthesis.
-- Run end-to-end ingestion trials (guardrail + RSCF canonicalizer) before promoting an external skill.
-
-______________________________________________________________________
-
-**MOC:** [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
+Do not accumulate GitHub patterns merely because they are popular.
