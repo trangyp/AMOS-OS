@@ -155,20 +155,17 @@ class RegistryTests(unittest.TestCase):
             Fragment.ALU04_EPISTEMIC_MODAL,
             Fragment.ALU05_NON_MONOTONIC_DUNG,
             Fragment.ALU07_QUANTUM_LOGIC,
+            Fragment.ALU08_CATEGORICAL_TOPOS,
         )
         for fragment in rebound:
             self.assertEqual(
                 execution_binding(fragment).status,
                 ExecutionStatus.EXECUTABLE_BOUNDED_CANDIDATE_REBOUND,
             )
-        for fragment in (
-            Fragment.ALU06_DEPENDENT_TYPE,
-            Fragment.ALU08_CATEGORICAL_TOPOS,
-        ):
-            self.assertEqual(
-                execution_binding(fragment).status,
-                ExecutionStatus.SPECIFICATION_ONLY,
-            )
+        self.assertEqual(
+            execution_binding(Fragment.ALU06_DEPENDENT_TYPE).status,
+            ExecutionStatus.SPECIFICATION_ONLY,
+        )
 
     def test_algorithm_precondition_gates(self):
         self.assertTrue(
