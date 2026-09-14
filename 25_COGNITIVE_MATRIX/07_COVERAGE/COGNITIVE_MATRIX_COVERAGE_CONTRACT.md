@@ -22,7 +22,7 @@ created: 2026-08-22
 
 ## 0. Status
 
-Cognitive Matrix-plane contract for **COVERAGE CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+Cognitive Matrix-plane contract for **COVERAGE CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; bounded reference implementation exists for multidimensional coverage and threshold auditing. Coverage is not a scalar proof of completion.
 
 ## 1. Scope
 
@@ -30,51 +30,62 @@ Governs primitives L00–L29, lifecycle operations O00–O16, control planes C01
 
 ## 2. Contract terms
 
+- **Coverage remains vector-valued** across address/source/contract/implementation/validation/authority dimensions unless an explicit decision policy defines a projection.
 - **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
-- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
+- **Firewalls preserved** — ADDRESS_COVERAGE ≠ IMPLEMENTATION · IMPLEMENTATION ≠ VALIDATION · VALIDATION ≠ AUTHORITY · TEST_PASS ≠ TRUTH.
 - **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
-- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
-- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
+- **Selective invalidation is gated** — dependency-aware changes may lower affected coverage dimensions only when affected sets are established; unknown impact requires conservative status.
 
 ## 3. Invariants
 
-- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
-- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
-- Consequential effects emit receipts; rollback basin exists before mutation.
-- Competing hypotheses remain visible when evidence does not discriminate.
+- Every coverage component is finite and lies in [0,1].
+- Empty registry coverage is represented as zero in every dimension, not as completeness.
+- Address coverage may equal 1 while implementation, validation, or authority coverage remain incomplete.
+- Thresholds must be explicit and bounded; passing a chosen threshold is not universal completeness.
+- No weighted scalar score may silently replace the vector.
 
 ## 4. Executed reference
 
-No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
+Bounded executor and regression owners:
+
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/cognitive_matrix_runtime.py`
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/matrix_registry_runtime.py`
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/test_cognitive_matrix_runtime.py`
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/test_matrix_registry_runtime.py`
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/cognitive_matrix_plane_registry.py`
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/test_cognitive_matrix_plane_registry.py`
+
+The 01–12 execution registry passed GitHub Actions run `34851961830` at commit `fdeeb0eaa501d124847e0ad9b0e244409cfd4311`. This validates bounded implementation ownership, not completeness of the Cognitive Matrix.
 
 ## 5. Gaps
 
-Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
+OPEN: authoritative inventory of every intended cell; live reconciliation from repository/runtime state into coverage records; persistence across processes; decision-specific threshold governance; independent validation of any empirical coverage claim; effect-authority coverage where applicable.
 
 ## 6. Falsifiers
 
-F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
+F1: canonical source defines different coverage semantics. F2: a coverage component can leave [0,1]. F3: empty or address-only coverage is promoted to complete. F4: a scalar score hides a failed dimension. F5: threshold passage is represented as semantic truth or authority.
 
 ## Worked semantics
 
-Given an operation touching `COGNITIVE MATRIX · COVERAGE CONTRACT` within the Cognitive Matrix plane:
+Given a finite set of registered cells:
 
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+1. **Count declared addressability** separately from maturity dimensions.
+1. **Compute each maturity ratio** independently.
+1. **Apply explicit thresholds** only for the decision that declared them.
+1. **Return INCOMPLETE** when any required dimension is below its threshold.
+1. **Preserve failed dimensions** in the result; do not average them away.
+1. **Recompute after material state changes** rather than carrying stale coverage forward.
 
 ## Promotion-gate checklist
 
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+- [x] multidimensional bounded coverage schema implemented
+- [x] range checks implemented
+- [x] empty-state and address-vs-completion adversarial tests implemented
+- [x] explicit threshold audit implemented
+- [ ] full live inventory binding established
+- [ ] persistence and epoch reconciliation established
+- [ ] decision-specific policy authority for non-default thresholds established
+- [ ] empirical coverage claims independently validated where used
 
 ## Cross-plane bindings
 
