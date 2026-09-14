@@ -2,66 +2,86 @@
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
-rscf-claim: verified
+rscf-claim: conditional
 rscf-provenance: AMOS_corpus
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: AMOS_MODEL
 topic: C05 Representation Control Planes Cognitive Matrix Definition
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
----
----
+updated: 2026-09-14
 ---
 
-# C05 — Definition
+# C05 — Representation
 
-**Package:** `C05_REPRESENTATION`
-**Class:** `COGNITIVE_MATRIX_CONTRACT`
-**Epistemic class:** `DERIVED / MODEL EXTENSION`
-**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
-**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
+**Package:** `C05_REPRESENTATION`  
+**Class:** `COGNITIVE_MATRIX_CONTROL_PLANE`  
+**Origin architect / steward:** Trang Phan  
+**Status:** `EXECUTABLE_BOUNDED_REFERENCE / TESTED`
 
 ## Scope
 
-Covers the operation contract for this lifecycle operator.
+C05 governs bounded transformations between explicit representations while preserving scope, regime, observer context, provenance, epistemic class, schema identity, and decision-relevant structure.
 
-## Definition
+The typed transform surface is:
 
-REPRESENTATION
+`T[source,target,map_type,scope,regime,observer,status]`.
 
-This is a **contract-level definition**, not an implementation claim.
+A concrete request additionally binds source/target schema hashes, epistemic levels, preserved features, lost features, decision-required features, provenance, and unresolved gaps.
 
-## Hard boundaries
+## Residual model
+
+For a declared source representation `x` and target representation `y`, C05 records the explicit structural residual as the set of declared lost features.
+
+A transform is blocked for a decision use when
+
+`DecisionRequiredFeatures ∩ LostFeatures != empty`.
+
+This is a set-theoretic implementation condition, not a universal metric of semantic distance.
+
+## Equivalence boundary
+
+A bounded equivalence flag may be emitted only when:
+
+- residual loss is empty; and
+- every decision-required feature is explicitly preserved.
+
+Otherwise a successful transform remains a translation, not an equivalence.
 
 ```text
-CONTRACT_FILLED != IMPLEMENTED
-DOCUMENTED != EXECUTABLE
-MODEL != VERIFIED
-UNKNOWN/GAP != PASS
+TRANSLATION != EQUIVALENCE
+BIDIRECTIONALITY IS NOT ASSUMED
+SIMILARITY != SEMANTIC IDENTITY
 ```
 
-______________________________________________________________________
+## Epistemic firewall
 
-[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+Representation change cannot upgrade epistemic standing.
 
-______________________________________________________________________
+If the target epistemic level is stronger than the source epistemic level, C05 returns `BLOCK_EPISTEMIC_UPGRADE`.
 
-RSCF-NODE
-node_id: c05_planes_definition
-node_type: note
-path: 03_CONTROL_PLANES/C05_REPRESENTATION/C05_REPRESENTATION_CONTROL_PLANES_COGNITIVE_MATRIX_DEFINITION.md
-claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C05_REPRESENTATION/C05_REPRESENTATION_CONTROL_PLANES_COGNITIVE_MATRIX_DEFINITION.md
+```text
+OBSERVATION --transform--> VERIFIED   # forbidden without independent verification
+SOURCE_CLAIM --transform--> VERIFIED  # forbidden without independent verification
+```
 
-______________________________________________________________________
+## Executable binding
 
-**MOC:** [[25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C05_REPRESENTATION/C05_REPRESENTATION_MOC|C05_REPRESENTATION_MOC]]
+Reference runtime:
 
-______________________________________________________________________
+`04_RUNTIME/01_REFERENCE_IMPLEMENTATION/c05_representation_runtime.py`
 
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+Adversarial tests:
+
+`04_RUNTIME/01_REFERENCE_IMPLEMENTATION/test_c05_representation_runtime.py`
+
+The reference-runtime CI completed successfully for the C05 adversarial test revision on 2026-09-14.
+
+## Remaining gaps
+
+- no universal semantic-loss metric is claimed;
+- ontology compatibility remains caller-declared unless separately validated;
+- unit and scale transforms require domain-specific validators;
+- representation fidelity does not prove factual truth;
+- empirical benchmark quality remains `UNKNOWN/GAP` until measured.
+
+[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
