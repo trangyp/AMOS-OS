@@ -1,43 +1,52 @@
 #!/usr/bin/env python3
+"""Validate structured trace artifacts emitted by an AgentOps observability run.
+
+Non-trace outputs pass through. This hook does not score prose or infer semantic
+quality from keywords. Compatible trace JSON is validated deterministically.
 """
-PostToolUse hook for amos-agentops-observability-rscf.
-Fires AFTER skill execution succeeds. Validates output quality.
-Per Skills-vs-MCP-vs-Hooks (2026): deterministic post-execution gate.
-"""
+from __future__ import annotations
+
+import importlib.util
+import json
 import sys
-import re
 from pathlib import Path
 
-SKILL_DIR = Path(__file__).parent.parent
+SKILL_DIR = Path(__file__).resolve().parents[2]
+REPO = SKILL_DIR.parents[1]
+RUNTIME = REPO / "17_OBSERVABILITY" / "agent_trace_runtime.py"
 
-def check_epistemic_labels(output):
-    """Verify output contains epistemic state labels."""
-    epistemic_states = ["SOURCE_CLAIM", "DERIVED", "AMOS_MODEL", "OBSERVATION", "CONDITIONAL"]
-    has_any = any(state in output for state in epistemic_states)
-    if not has_any:
-        print("WARN: Output lacks epistemic state labels")
-    return True  # Warn only
 
-def check_provenance(output):
-    """Verify output records provenance."""
-    if 'source:' not in output.lower() and 'provenance:' not in output.lower():
-        print("WARN: Output lacks provenance recording")
-    return True
+def load_runtime():
+    spec = importlib.util.spec_from_file_location("amos_post_trace_runtime", RUNTIME)
+    module = importlib.util.module_from_spec(spec)
+    sys.modules[spec.name] = module
+    assert spec.loader is not None
+    spec.loader.exec_module(module)
+    return module
 
-def check_confidence_ceiling(output):
-    """Verify output declares confidence ceiling."""
-    if 'confidence' not in output.lower():
-        print("WARN: Output lacks confidence ceiling declaration")
-    return True
 
-def main():
-    # Read output from stdin (piped by harness)
-    output = sys.stdin.read() if not sys.stdin.isatty() else ""
-    if output:
-        check_epistemic_labels(output)
-        check_provenance(output)
-        check_confidence_ceiling(output)
+def main() -> int:
+    raw = sys.stdin.read() if not sys.stdin.isatty() else ""
+    if not raw.strip():
+        return 0
+    try:
+        obj = json.loads(raw)
+    except json.JSONDecodeError:
+        return 0
+    if not isinstance(obj, dict) or "trace_id" not in obj or "spans" not in obj:
+        return 0
+    if not RUNTIME.exists():
+        print("BLOCK: agent_trace_runtime.py not found")
+        return 1
+    try:
+        mod = load_runtime()
+        env = mod.TraceEnvelope.from_dict(obj)
+        env.validate()
+    except Exception as exc:
+        print(f"BLOCK: invalid structured trace artifact: {exc}")
+        return 1
     return 0
 
+
 if __name__ == "__main__":
-    sys.exit(main())
+    raise SystemExit(main())
