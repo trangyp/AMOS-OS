@@ -100,7 +100,6 @@ class Truth4:
         )
 
     def leq_information(self, other: "Truth4") -> bool:
-        """Information order: every support bit in self is also present in other."""
         return (
             (not self.supports_true or other.supports_true)
             and (not self.supports_false or other.supports_false)
@@ -166,26 +165,13 @@ def _toggle_not(expr: UnaryExpr) -> UnaryExpr:
 
 
 def normalize_unary(expr: UnaryExpr) -> UnaryExpr:
-    """Normalize the repaired bounded NOT/NLOGIC fragment.
-
-    Rewrite precedence is intentional:
-      1. NLOGIC(NLOGIC(x)) reduces before child descent.
-      2. Strict subterms are then normalized.
-      3. A single NLOGIC toggles normalized truth negation.
-
-    This prevents the historical bottom-up shadowing defect.
-    """
     if expr.kind is UnaryKind.ATOM:
         return expr
-
     assert expr.child is not None
-
     if expr.kind is UnaryKind.NLOGIC and expr.child.kind is UnaryKind.NLOGIC:
         assert expr.child.child is not None
         return normalize_unary(expr.child.child)
-
     normalized_child = normalize_unary(expr.child)
-
     if expr.kind is UnaryKind.NOT:
         return _toggle_not(normalized_child)
     if expr.kind is UnaryKind.NLOGIC:
@@ -229,17 +215,25 @@ def matrix_coordinate_count() -> int:
 
 @dataclass(frozen=True)
 class TensorCoordinate:
-    """Typed coordinate. Scale/context/regime remain opaque caller-defined indices."""
+    """Six-axis URK coordinate with explicit observer dependence.
+
+    This follows the active v0.6.1 repair candidate while remaining AMOS_MODEL:
+    Core19 x Core19 x Scale x Context x Regime x Observer.
+    """
 
     row: Core19
     col: Core19
     scale: str
     context: str
     regime: str
+    observer: str
 
     def __post_init__(self) -> None:
-        if not self.scale.strip() or not self.context.strip() or not self.regime.strip():
-            raise ValueError("scale, context, and regime must be explicit non-empty indices")
+        indices = (self.scale, self.context, self.regime, self.observer)
+        if any(not value.strip() for value in indices):
+            raise ValueError(
+                "scale, context, regime, and observer must be explicit non-empty indices"
+            )
 
 
 @dataclass(frozen=True)
@@ -271,8 +265,19 @@ class ImplementationStatus(Enum):
     SPECIFICATION_ONLY = "SPECIFICATION_ONLY"
 
 
+_EXECUTABLE_BOUNDED_FRAGMENTS = frozenset(
+    {
+        LogicFragment.CLASSICAL_PROPOSITIONAL,
+        LogicFragment.FIRST_ORDER_UNIFICATION,
+        LogicFragment.TEMPORAL_LTL,
+        LogicFragment.EPISTEMIC_MODAL,
+        LogicFragment.NON_MONOTONIC_DUNG,
+    }
+)
+
+
 def implementation_status(fragment: LogicFragment) -> ImplementationStatus:
-    if fragment is LogicFragment.CLASSICAL_PROPOSITIONAL:
+    if fragment in _EXECUTABLE_BOUNDED_FRAGMENTS:
         return ImplementationStatus.EXECUTABLE_BOUNDED
     if fragment is LogicFragment.QUANTUM_LOGIC:
         return ImplementationStatus.CANONICAL_BOUNDED_CLAIM_REBIND_PENDING
@@ -304,19 +309,15 @@ class PromotionEvidence:
 
 
 def validate_runtime_invariants() -> Tuple[str, ...]:
-    """Return invariant failures. Empty tuple means all bounded checks passed."""
     failures = []
-
     if len(Core19) != 19:
         failures.append("CORE19_COUNT")
     if matrix_coordinate_count() != 361:
         failures.append("MATRIX_COORDINATE_COUNT")
-
     for value in TRUTH4_DOMAIN:
         if value.neg().neg() != value:
             failures.append("TRUTH4_NEGATION_INVOLUTION")
             break
-
     atom = UnaryExpr.atom("x")
     probes = [
         atom,
@@ -333,5 +334,4 @@ def validate_runtime_invariants() -> Tuple[str, ...]:
         if normalize_unary(UnaryExpr.nlogic(UnaryExpr.nlogic(probe))) != normalized:
             failures.append("NLOGIC_INVOLUTION")
             break
-
     return tuple(dict.fromkeys(failures))
