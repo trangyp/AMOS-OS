@@ -2,7 +2,7 @@ name: Durable Workflow Contract
 
 on:
   pull_request:
-    branches: [main, github-agent-ecosystem-upgrade, agent-interoperability-compiler, agent-runtime-policy-hardening, agent-eval-evidence-hardening]
+    branches: [main, github-agent-ecosystem-upgrade, agent-interoperability-compiler, agent-runtime-policy-hardening, agent-eval-evidence-hardening, durable-workflow-runtime-hardening]
     paths:
       - '04_RUNTIME/01_REFERENCE_IMPLEMENTATION/**'
       - '07_SKILLS/amos-semantic-workflow-persistence-rscf/**'
@@ -33,10 +33,10 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: '3.12'
 
@@ -64,13 +64,7 @@ jobs:
             "explicit_state_hash": "state",
             "event_head": "event",
             "steps": [
-              {
-                "step_id": "send",
-                "kind": "EFFECT",
-                "status": "AMBIGUOUS",
-                "effect_key": "send-1",
-                "output_hash": null
-              }
+              {"step_id": "send", "kind": "EFFECT", "status": "AMBIGUOUS", "effect_key": "send-1", "output_hash": null}
             ]
           }
           JSON
@@ -82,19 +76,14 @@ jobs:
       - name: Reject effect key reuse with different input
         run: |
           python - <<'PY'
-          import importlib.util
-          import sys
-          import tempfile
+          import importlib.util, sys, tempfile
           from pathlib import Path
-
           path = Path('04_RUNTIME/01_REFERENCE_IMPLEMENTATION/durable_workflow_runtime.py')
           spec = importlib.util.spec_from_file_location('durable_runtime_ci', path)
           mod = importlib.util.module_from_spec(spec)
           sys.modules[spec.name] = mod
           spec.loader.exec_module(mod)
-
-          db = tempfile.NamedTemporaryFile(suffix='.sqlite3', delete=False)
-          db.close()
+          db = tempfile.NamedTemporaryFile(suffix='.sqlite3', delete=False); db.close()
           store = mod.DurableWorkflowStore(db.name)
           ref = store.start('wf-key-conflict', 'v1', {})
           store.execute_step(ref, 'e1', mod.StepKind.EFFECT, {'x': 1}, lambda x: x, effect_key='same-key')
@@ -111,19 +100,14 @@ jobs:
       - name: Reject code-version drift without patch
         run: |
           python - <<'PY'
-          import importlib.util
-          import sys
-          import tempfile
+          import importlib.util, sys, tempfile
           from pathlib import Path
-
           path = Path('04_RUNTIME/01_REFERENCE_IMPLEMENTATION/durable_workflow_runtime.py')
           spec = importlib.util.spec_from_file_location('durable_runtime_version_ci', path)
           mod = importlib.util.module_from_spec(spec)
           sys.modules[spec.name] = mod
           spec.loader.exec_module(mod)
-
-          db = tempfile.NamedTemporaryFile(suffix='.sqlite3', delete=False)
-          db.close()
+          db = tempfile.NamedTemporaryFile(suffix='.sqlite3', delete=False); db.close()
           store = mod.DurableWorkflowStore(db.name)
           ref = store.start('wf-version-ci', 'v1', {})
           try:
@@ -144,6 +128,7 @@ jobs:
             echo '- Ambiguous-effect blind retry: REJECTED'
             echo '- Effect-key/input conflict: REJECTED'
             echo '- Unpatched replay-version drift: REJECTED'
+            echo '- Action dependencies: immutable commit SHAs'
             echo '- Distributed runtime: UNKNOWN/GAP'
             echo '- Production durability: UNKNOWN/GAP'
             echo '- Deployment authority: NONE'

@@ -1,0 +1,42 @@
+name: Workflow Supply Chain Contract
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/**'
+      - 'scripts/validate_workflow_supply_chain.py'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/**'
+      - 'scripts/validate_workflow_supply_chain.py'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  immutable-action-refs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Setup Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+      - name: Compile validator
+        run: python -m py_compile scripts/validate_workflow_supply_chain.py
+      - name: Validator self-test
+        run: python scripts/validate_workflow_supply_chain.py --self-test
+      - name: Enforce immutable external action refs
+        run: python scripts/validate_workflow_supply_chain.py --repo .
+      - name: Record bounded evidence
+        run: |
+          {
+            echo '### Workflow Supply Chain Contract'
+            echo '- External action identity pins: VALIDATED'
+            echo '- Movable tags/branches: REJECTED'
+            echo '- Action source safety/transitive dependencies: NOT_PROVEN_BY_THIS_GATE'
+          } >> "$GITHUB_STEP_SUMMARY"

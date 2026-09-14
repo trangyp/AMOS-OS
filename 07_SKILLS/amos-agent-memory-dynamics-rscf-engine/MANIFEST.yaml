@@ -1,19 +1,22 @@
-bundle_version: 1.1.0
-bundle_date: 2026-08-28
+bundle_version: 2.0.0
+bundle_date: 2026-09-14
 schema_version: "1.0"
 compatible_with:
+  - chatgpt
   - claude-code
-  - claude-chat
   - codex
   - gemini-cli
   - copilot
 dependencies: []
-security_verdict: pass
-epistemic_class: SOURCE_CLAIM
+security_verdict: bounded_local_reference
+epistemic_class: AMOS_MODEL
 steward: Trang Phan
 license: MIT
 files:
   - path: "SKILL.md"
+  - path: "agents/openai.yaml"
+  - path: "references/memory-lifecycle.md"
+  - path: "scripts/memory_contract_check.py"
   - path: "amos-agent-memory-dynamics-rscf-engine_MOC.md"
   - path: "references/amos-agent-memory-dynamics-rscf-engine_code.md"
   - path: "references/references_MOC.md"

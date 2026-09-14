@@ -1,0 +1,3 @@
+interface:
+  display_name: "AMOS Memory Lifecycle"
+  short_description: "Govern versioned AMOS memory, retrieval, quarantine, and temporal validity"

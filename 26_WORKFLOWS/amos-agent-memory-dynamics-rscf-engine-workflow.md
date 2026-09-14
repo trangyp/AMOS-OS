@@ -1,163 +1,67 @@
 ---
-canon-group: meta
-canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
-conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
-topic: Amos Agent Memory Dynamics Rscf Engine Workflow
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
-created: 2026-08-22
----
----
+title: amos-agent-memory-dynamics-rscf-engine-workflow
+type: workflow
+Skill: amos-agent-memory-dynamics-rscf-engine
+Agent: amos-agent-memory-dynamics-rscf-engine-agent
+Version: 2.0.0
+domain: memory
+origin_architect: Trang Phan
+epistemic_class: AMOS_MODEL
 ---
 
-# Workflow: Agent Memory Dynamics Rscf Engine
+# Workflow: AMOS Agent Memory Lifecycle
 
-## Identity
+## Objective
 
-Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+Preserve persistent memory as governed historical evidence, not truth, current state, or authority.
 
-## Preconditions
+## State machine
 
-- The `amos-agent-memory-dynamics-rscf-engine` skill exists and is loaded.
-- The `amos-agent-memory-dynamics-rscf-engine-agent` agent is available and has valid content_hash.
-- The query falls within the skill's declared scope and domain.
-- All required vault sources (if any) are accessible.
-- Epistemic class labeling is enabled (SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL).
+`INTAKE -> AUTHORITY_RESOLVED -> INTEGRITY_CHECKED -> ELIGIBILITY_RESOLVED -> EXECUTED -> RECORDED -> COMPLETE`
 
-## Steps
+Failure exits: `REJECTED | QUARANTINED | UNKNOWN_GAP`.
 
-1. **Intake**: Identify the problem and confirm it matches the Agent Memory Dynamics Rscf Engine scope.
-   - Classify the query against the memory domain
-   - Route to the appropriate capability
-1. **Skill Invocation**: Load the `amos-agent-memory-dynamics-rscf-engine` skill.
-   - Read the skill content and validation gates
-   - Identify which capability is most relevant
-1. **Application**: Apply the Agent Memory Dynamics Rscf Engine capability.
-   - Tag every output with its epistemic status (SOURCE / DERIVED / AMOS_MODEL)
-   - Record provenance for every derived claim
-1. **Validation**: Check results against validation gates.
-   - Law of Law: no unresolved contradictions
-   - Epistemic class labels present
-   - Provenance recorded
-1. **Output**: Present results with full provenance and epistemic labeling.
-   - Include confidence ceiling
-   - Record source path for every derived claim
+Persistent memory states: `ACTIVE | QUARANTINED | SUPERSEDED | EXPIRED | TOMBSTONED`.
 
-## Operations
+## Execution
 
-1. **Intake**: Identify the problem and confirm it matches the Agent Memory Dynamics Rscf Engine scope. - Classify the query against the memory domain - Route to the appropriate capability
-1. **Skill Invocation**: Load the `amos-agent-memory-dynamics-rscf-engine` skill. - Read the skill content and validation gates - Identify which capability is most relevant
-1. **Application**: Apply the Agent Memory Dynamics Rscf Engine capability. - Tag every output with its epistemic status (SOURCE / DERIVED / AMOS_MODEL) - Record provenance for every derived claim
-1. **Validation**: Check results against validation gates. - Law of Law: no unresolved contradictions - Epistemic class labels present - Provenance recorded
-1. **Output**: Present results with full provenance and epistemic labeling. - Include confidence ceiling - Record source path for every derived claim
+1. Resolve operation, memory scope, provenance, temporal coordinates, and explicit capabilities.
+2. Reject unauthorized reads/writes; read authority never implies mutation authority.
+3. Verify stored content hashes and ledger continuity before consequential reuse.
+4. Apply lifecycle eligibility plus event-valid and recorded-time constraints.
+5. Execute exactly one bounded operation:
+   - `ADMIT`: new provenance-bound `OBSERVATION`.
+   - `REVISE`: new version + predecessor `SUPERSEDED`.
+   - `QUARANTINE`: isolate conflict/contamination.
+   - `EXPIRE`: stop normal retrieval while keeping lineage.
+   - `TOMBSTONE`: terminate active use while keeping lineage.
+   - `READ/HISTORY`: retrieve only.
+   - `ASSEMBLE_CONTEXT`: construct bounded `OBSERVATION` context only.
+6. Append a lifecycle event and preserve origin/version/predecessor lineage.
+7. Return scope, provenance, state, temporal bounds, context eligibility, and unresolved gaps.
 
-## Output
+## Hard firewalls
 
-The workflow produces a structured result containing:
+- `MEMORY != KNOWLEDGE`
+- `MEMORY != CURRENT_STATE`
+- `RETRIEVED != CURRENT`
+- `REMEMBERED != AUTHORIZED`
+- `CONTENT_HASH_EQUAL != MEMORY_IDENTITY_EQUAL`
+- `REVISION != IN_PLACE_REWRITE`
+- `QUARANTINED != RETRIEVABLE_BY_DEFAULT`
+- `TOMBSTONED != DELETED_LINEAGE`
+- `SIMILARITY != VALIDITY`
+- `RECORDED_TIME != EVENT_VALID_TIME`
+- `CONTEXT_ASSEMBLY != EPISTEMIC_PROMOTION`
 
-- `status` — VERIFIED / DERIVED / CONDITIONAL / UNKNOWN/GAP / REJECTED
-- `capability` — the capability that was executed
-- `summary` — human-readable summary of the result
-- `data` — structured output specific to the capability
-- `gaps` — list of unresolved gap identifiers
-- `warnings` — non-blocking advisory messages
-- `confidence_ceiling` — maximum confidence (capped at 0.95)
-- `provenance` — list of provenance references tracing to source evidence
+## Executable surfaces
 
-## Validation Gates
+- Runtime: `10_MEMORY/memory_lifecycle_runtime.py`
+- Tests: `19_TESTS/test_memory_lifecycle_runtime.py`
+- Skill validator: `07_SKILLS/amos-agent-memory-dynamics-rscf-engine/scripts/memory_contract_check.py`
 
-- **G1 (Intake)**: Problem confirmed within Agent Memory Dynamics Rscf Engine scope.
-- **G2 (Application)**: Outputs carry correct epistemic status tags.
-- **G3 (Validation)**: Results pass Law of Law and epistemic class checks.
-- **G4 (Output)**: Output format matches specification; provenance recorded.
+## Evidence boundary
 
-## Failure Paths
+Validated target: local SQLite lifecycle semantics and deterministic contract tests.
 
-- If validation fails: downgrade confidence, flag the gap, escalate — do not force-fit.
-- If skill content is insufficient: mark as UNKNOWN/GAP and fail closed.
-
-## Provenance
-
-- **Workflow**: `amos-agent-memory-dynamics-rscf-engine-workflow.md`
-- **Skill**: `amos-agent-memory-dynamics-rscf-engine`
-- **Agent**: `amos-agent-memory-dynamics-rscf-engine-agent`
-
-______________________________________________________________________
-
-**MOC:** [[26_WORKFLOWS/26_WORKFLOWS_MOC|26_WORKFLOWS_MOC]]
-
-## Orchestration Pattern
-
-**Pattern**: Single-Agent with Validation Gates
-
-This workflow follows a single-agent orchestration with explicit validation gates between steps:
-
-1. **Intake** -> validation gate -> **Skill Invocation** -> validation gate -> **Application** -> validation gate -> **Output**
-1. Each gate checks: epistemic labeling, provenance, scope compliance, confidence ceiling
-1. On gate failure: route to error handling or escalate to parent workflow
-
-## Evaluation Gates
-
-### Gate 1: Intake Validation
-
-- Query matches skill scope
-- Required inputs present
-- No scope violations detected
-
-### Gate 2: Skill Load Validation
-
-- Skill file exists and is valid
-- Agent binding is valid
-- Required vault sources accessible
-
-### Gate 3: Output Validation
-
-- Epistemic class labels present
-- Provenance recorded for all derived claims
-- Confidence ceiling not exceeded
-- No unresolved CRITICAL_GAPs
-- Scope compliance verified
-
-## Error Handling
-
-| Error Type       | Detection                    | Recovery                              |
-| ---------------- | ---------------------------- | ------------------------------------- |
-| Scope violation  | Gate 1 check                 | Route to parent skill                 |
-| Missing evidence | Gate 3 check                 | Flag as GAP, reduce confidence to 0.5 |
-| Contradiction    | Gate 3 check                 | Flag as CRITICAL_GAP, halt            |
-| Provenance loss  | Gate 3 check                 | Mark as UNKNOWN, request human review |
-| Timeout          | Step budget exceeded         | Return partial result with warnings   |
-| Drift            | Confidence calibration check | Trigger drift alignment governor      |
-
-## Human-in-the-Loop
-
-- **Default**: Automated execution without human intervention
-- **Escalation triggers**:
-  - CRITICAL_GAP detected
-  - Confidence below 0.3
-  - Scope violation requiring reclassification
-  - Contradiction that cannot be auto-resolved
-- **Review checkpoint**: After Gate 3, if any warnings are present
-
-## Monitoring
-
-- **Trace level**: Full (inputs, outputs, intermediate steps)
-- **Metrics**: Step count, token usage, confidence, gap count, execution time
-- **Alerts**: CRITICAL_GAP, confidence < 0.3, scope violation, timeout
-- **Provenance**: Every output traces back to source evidence via provenance chain
-
-## Composition
-
-- **Skill**: `amos-agent-memory-dynamics-rscf-engine`
-- **Agent**: `amos-agent-memory-dynamics-rscf-engine-agent`
-- **Parent workflow**: Routes via `AMOS_HOME` or parent skill workflow
-- **Chain depth**: Maximum 3 workflows in sequence without orchestrator approval
-- **Parallel execution**: Supported when independent capabilities are invoked
+Still `UNKNOWN/GAP`: distributed memory consistency, semantic extraction accuracy, embedding/graph retrieval quality, privacy/compliance sufficiency, production performance, and automated promotion into validated knowledge.

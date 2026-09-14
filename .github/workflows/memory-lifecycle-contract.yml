@@ -1,0 +1,129 @@
+name: Memory Lifecycle Contract
+
+on:
+  pull_request:
+    branches: [main, durable-workflow-runtime-hardening]
+    paths:
+      - '10_MEMORY/memory_lifecycle_runtime.py'
+      - '07_SKILLS/amos-agent-memory-dynamics-rscf-engine/**'
+      - '06_AGENTS/amos-agent-memory-dynamics-rscf-engine-agent.json'
+      - '08_WORKFLOWS/amos-agent-memory-dynamics-rscf-engine-workflow.md'
+      - '19_TESTS/test_memory_lifecycle_runtime.py'
+      - '26_WORKFLOWS/amos-agent-memory-dynamics-rscf-engine-workflow.md'
+      - '.github/agents/amos-memory-lifecycle-auditor.agent.md'
+      - '.github/workflows/memory-lifecycle-contract.yml'
+  push:
+    branches: [main]
+    paths:
+      - '10_MEMORY/memory_lifecycle_runtime.py'
+      - '07_SKILLS/amos-agent-memory-dynamics-rscf-engine/**'
+      - '06_AGENTS/amos-agent-memory-dynamics-rscf-engine-agent.json'
+      - '08_WORKFLOWS/amos-agent-memory-dynamics-rscf-engine-workflow.md'
+      - '19_TESTS/test_memory_lifecycle_runtime.py'
+      - '26_WORKFLOWS/amos-agent-memory-dynamics-rscf-engine-workflow.md'
+      - '.github/agents/amos-memory-lifecycle-auditor.agent.md'
+      - '.github/workflows/memory-lifecycle-contract.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  memory-contract:
+    name: memory-contract
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Setup Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+
+      - name: Compile memory runtime surfaces
+        run: |
+          python -m py_compile \
+            10_MEMORY/memory_lifecycle_runtime.py \
+            07_SKILLS/amos-agent-memory-dynamics-rscf-engine/scripts/memory_contract_check.py \
+            19_TESTS/test_memory_lifecycle_runtime.py
+
+      - name: Execute memory lifecycle regression suite
+        run: python -m unittest -v 19_TESTS/test_memory_lifecycle_runtime.py
+
+      - name: Execute Skill contract self-test
+        run: python 07_SKILLS/amos-agent-memory-dynamics-rscf-engine/scripts/memory_contract_check.py --self-test
+
+      - name: Reject quarantined context leakage
+        run: |
+          cat > /tmp/quarantined.json <<'JSON'
+          {
+            "memory_id": "m1",
+            "origin_id": "o1",
+            "version": 1,
+            "scope": "project:A",
+            "provenance": "fixture",
+            "state": "QUARANTINED",
+            "epistemic_class": "OBSERVATION",
+            "context_eligible": true
+          }
+          JSON
+          if python 07_SKILLS/amos-agent-memory-dynamics-rscf-engine/scripts/memory_contract_check.py /tmp/quarantined.json; then
+            echo 'ERROR: quarantined memory was admitted into context'
+            exit 1
+          fi
+
+      - name: Reject memory epistemic promotion
+        run: |
+          cat > /tmp/promoted.json <<'JSON'
+          {
+            "memory_id": "m2",
+            "origin_id": "o2",
+            "version": 1,
+            "scope": "project:A",
+            "provenance": "fixture",
+            "state": "ACTIVE",
+            "epistemic_class": "VALIDATED",
+            "context_eligible": true
+          }
+          JSON
+          if python 07_SKILLS/amos-agent-memory-dynamics-rscf-engine/scripts/memory_contract_check.py /tmp/promoted.json; then
+            echo 'ERROR: memory was promoted beyond OBSERVATION by the memory plane'
+            exit 1
+          fi
+
+      - name: Reject invalid bi-temporal interval
+        run: |
+          cat > /tmp/time.json <<'JSON'
+          {
+            "memory_id": "m3",
+            "origin_id": "o3",
+            "version": 1,
+            "scope": "project:A",
+            "provenance": "fixture",
+            "state": "ACTIVE",
+            "epistemic_class": "OBSERVATION",
+            "valid_from": 20,
+            "valid_to": 10,
+            "context_eligible": true
+          }
+          JSON
+          if python 07_SKILLS/amos-agent-memory-dynamics-rscf-engine/scripts/memory_contract_check.py /tmp/time.json; then
+            echo 'ERROR: invalid temporal interval was admitted'
+            exit 1
+          fi
+
+      - name: Record bounded evidence
+        run: |
+          {
+            echo '### Memory Lifecycle Contract'
+            echo '- Local SQLite lifecycle semantics: EXECUTED_TESTED_SCOPE'
+            echo '- Quarantine leakage: REJECTED'
+            echo '- Memory-to-knowledge promotion: REJECTED'
+            echo '- Invalid event-valid interval: REJECTED'
+            echo '- Distributed memory consistency: UNKNOWN/GAP'
+            echo '- Semantic retrieval quality: UNKNOWN/GAP'
+            echo '- Production performance: UNKNOWN/GAP'
+            echo '- Deployment authority: NONE'
+          } >> "$GITHUB_STEP_SUMMARY"
