@@ -28,6 +28,7 @@ class QueryKind(Enum):
     CLASSICAL_INFERENCE = "CLASSICAL_INFERENCE"
     FIRST_ORDER_TERM_UNIFICATION = "FIRST_ORDER_TERM_UNIFICATION"
     FIRST_ORDER_THEOREM_PROVING = "FIRST_ORDER_THEOREM_PROVING"
+    TEMPORAL_FINITE_TRACE_CHECK = "TEMPORAL_FINITE_TRACE_CHECK"
     TEMPORAL_MODEL_CHECK = "TEMPORAL_MODEL_CHECK"
     EPISTEMIC_MODAL = "EPISTEMIC_MODAL"
     NON_MONOTONIC = "NON_MONOTONIC"
@@ -223,8 +224,6 @@ def route(request: RouteRequest, candidates: Sequence[RouteCandidate]) -> Routin
             return RoutingDecision(RouteStatus.UNKNOWN_GAP, None, "matching implementation state is unknown", (), tuple(rejected), 0, request.authority_bound)
         return RoutingDecision(RouteStatus.DENY, None, "no candidate satisfies all hard constraints", (), tuple(rejected), 0, request.authority_bound)
 
-    # Semantic policy priority dominates registration order. Specialist is a tie-breaker
-    # only after explicit numeric policy priority; no performance score can bypass gates.
     best_key = max((candidate.policy_priority, int(candidate.specialist)) for candidate in eligible)
     best = [candidate for candidate in eligible if (candidate.policy_priority, int(candidate.specialist)) == best_key]
     if len(best) != 1:
@@ -301,6 +300,19 @@ def reference_candidates(scope: str = "reference", regime: str = "active") -> Tu
             True,
             "2026-09-14-candidate",
             ("alu02-drive-checker", "alu02-local-integration"),
+        ),
+        RouteCandidate(
+            "alu03-ltlf-finite-trace-runtime",
+            (QueryKind.TEMPORAL_FINITE_TRACE_CHECK,),
+            (scope,),
+            (regime,),
+            ("ULK_ALU03_LTLF_FINITE_TRACE",),
+            ImplementationState.EXECUTABLE_BOUNDED_SUBFRAGMENT,
+            True,
+            100,
+            True,
+            "ULK-v2.1/LTLf-bounded-repair-2026-09-14",
+            ("ulk-v2.1-ltlf-local-repair",),
         ),
         RouteCandidate(
             "quantum-alu07-placeholder",
