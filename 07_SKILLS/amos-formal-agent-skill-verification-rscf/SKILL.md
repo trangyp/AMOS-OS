@@ -35,7 +35,9 @@ Use this Skill to establish a bounded evidence claim about deterministic Skill c
 - `DECLARED_EFFECT != AUTHORIZED_EFFECT`.
 - `SKILL_TEXT != EXECUTABLE_BEHAVIOR`.
 - `AST_VISIBLE != RUNTIME_COMPLETE`.
+- `SCANNER_TRIGGER != RUNTIME_EFFECT`.
 - Dynamic imports/reflection/native binaries/external tools create `UNKNOWN/GAP` unless separately bounded.
+- When analyzer signatures resemble sensitive or outbound operations, represent the detection rule structurally when possible instead of embedding unnecessary active-looking literals. Treat cross-Skill scanner composition as evidence to investigate, not proof that the verifier executed the flagged effect.
 - A scanner finding is evidence, not exploitability proof.
 - A clean scanner result is not deployment validity.
 
