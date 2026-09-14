@@ -20,7 +20,7 @@ created: 2026-08-22
 # 06 Agent Systems — Map of Content
 
 > [!ABSTRACT] Agent Systems Plane Executive Summary
-> The **Agent Systems Plane** (`06_AGENT_SYSTEMS`) owns agent fabrication, delegation lifecycle, agency-consequence modeling, and agent-economy governance. It defines the construction contract for agents, the lifecycle through which agents are proposed, admitted, activated, delegated, revoked, and archived, and the constitutional governance that bounds agent economies.
+> The **Agent Systems Plane** (`06_AGENT_SYSTEMS`) owns agent fabrication, agent-instance delegation lifecycle, governed task lifecycle, agency-consequence modeling, and agent-economy governance. It defines the construction contract for agents, the lifecycle through which agents are proposed, admitted, activated, delegated, revoked, and archived, and the task-state contract through which work is submitted, executed, interrupted, completed, canceled, rejected, or failed.
 > Core invariant:
 > $$\text{CAPABILITY} \neq \text{AUTHORITY} \neq \text{AGENCY} \neq \text{CONSEQUENCE}$$
 
@@ -31,7 +31,8 @@ created: 2026-08-22
 | Artifact | Description |
 |---|---|
 | [[06_AGENT_SYSTEMS/AGENT_SCHEMA\|Agent Schema]] | Agent construction contract: IDENTITY + OBJECTIVE + CAPABILITIES + CONSTRAINTS |
-| [[06_AGENT_SYSTEMS/DELEGATION_LIFECYCLE\|Delegation Lifecycle]] | Lifecycle: PROPOSED → ADMITTED → ACTIVE → DELEGATING → REVOKED → ARCHIVED |
+| [[06_AGENT_SYSTEMS/DELEGATION_LIFECYCLE\|Delegation Lifecycle]] | Agent-instance lifecycle: PROPOSED → ADMITTED → ACTIVE → DELEGATING → REVOKED → ARCHIVED |
+| [[06_AGENT_SYSTEMS/TASK_LIFECYCLE_CONTRACT\|Task Lifecycle Contract]] | Executable task-state, epoch, lease/fencing, artifact, interruption/resume, cancellation, and child-attenuation contract |
 | [[06_AGENT_SYSTEMS/AGENCY_CONSEQUENCE_TENSOR\|Agency Consequence Tensor]] | 9-axis tensor mapping agency decisions to consequence dimensions |
 | [[06_AGENT_SYSTEMS/AGENT_ECONOMY_GOVERNANCE\|Agent Economy Governance]] | Constitutional governance for agent economies and multi-agent coordination |
 
@@ -41,18 +42,21 @@ created: 2026-08-22
 
 - **Control Plane Gates:** [[03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT|Control Plane Contract]]
 - **Runtime Sandbox:** [[04_RUNTIME/RUNTIME_RUNTIME_CONTRACT|Runtime Contract]]
+- **External Agent/Tool Protocol ABI:** [[04_RUNTIME/AGENT_INTEROPERABILITY_ABI|Agent Interoperability ABI]]
 - **Security Boundary:** [[18_SECURITY/SECURITY_SECURITY_CONTRACT|Security Contract]]
 - **Lifecycle Governance:** [[18_LIFECYCLE/PROMOTION_GATES|Promotion Gates]]
-- **Protocols:** [[23_PROTOCOLS/A2A_PROTOCOL_SPEC|A2A Protocol]]
 
 ---
 
 ## 3. Key Invariants
 
 1. Every agent carries a typed schema binding (IDENTITY, OBJECTIVE, CAPABILITIES, CONSTRAINTS).
-2. Delegation is temporal, revocable, and attenuation-bound: `ChildScope(t) ⊆ ParentScope(t)`.
-3. Agency consequences are measured across 9 axes; no single axis may override non-compensatory refusals.
-4. Agent economies operate under constitutional governance; no agent may self-promote authority.
+2. Agent delegation is temporal, revocable, and attenuation-bound: `ChildScope(t) ⊆ ParentScope(t)`.
+3. Task state is distinct from agent-instance state; terminal tasks do not restart in place.
+4. Stale lease owners or fencing tokens cannot advance task state.
+5. Task completion requires persisted result artifacts but does not imply durable commit authority.
+6. Agency consequences are measured across 9 axes; no single axis may override non-compensatory refusals.
+7. Agent economies operate under constitutional governance; no agent may self-promote authority.
 
 ---
 
@@ -68,7 +72,8 @@ created: 2026-08-22
 ## 5. Gaps
 
 - Agent economy runtime enforcement: UNKNOWN/GAP
-- A2A protocol binding to agent schema: CONDITIONAL (specification only)
+- Deployed A2A/MCP endpoint bindings: UNKNOWN/GAP unless separately evidenced
+- Task-lifecycle structural validator: IMPLEMENTED on the current candidate branch; promotion depends on CI evidence
 - Agency consequence tensor empirical validation: NOT_ESTABLISHED
 
 ---

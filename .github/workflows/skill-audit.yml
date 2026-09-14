@@ -2,9 +2,9 @@ name: AMOS Repository Contract
 
 on:
   pull_request:
-    branches: [main, github-agent-ecosystem-upgrade]
     paths:
       - '06_AGENTS/**'
+      - '06_AGENT_SYSTEMS/**'
       - '07_SKILLS/**'
       - '08_WORKFLOWS/**'
       - '14_TOOLS/**'
@@ -13,9 +13,15 @@ on:
       - 'scripts/**'
       - '.github/**'
   push:
-    branches: [main, develop]
+    branches:
+      - main
+      - develop
+      - 'agent-*'
+      - 'github-*'
+      - 'integrate-*'
     paths:
       - '06_AGENTS/**'
+      - '06_AGENT_SYSTEMS/**'
       - '07_SKILLS/**'
       - '08_WORKFLOWS/**'
       - '14_TOOLS/**'
@@ -51,6 +57,7 @@ jobs:
         run: |
           python3 scripts/amos_repo_validator.py --self-test
           python3 scripts/agent_protocol_abi.py --self-test
+          python3 scripts/validate_agent_task_lifecycle.py --self-test
       - name: Validate changed AMOS contracts
         env:
           BASE_REF: ${{ github.base_ref }}
@@ -69,5 +76,6 @@ jobs:
           echo "## AMOS Repository Contract" >> "$GITHUB_STEP_SUMMARY"
           echo "- Validator self-tests execute before repository checks." >> "$GITHUB_STEP_SUMMARY"
           echo "- Changed skills and agents are hard-gated; legacy corpus debt is reported separately." >> "$GITHUB_STEP_SUMMARY"
+          echo "- Task lifecycle legality, leases/fencing, artifact completion, and child attenuation have executable self-tests." >> "$GITHUB_STEP_SUMMARY"
           echo "- Legacy A2A declarations are not promoted to deployed endpoints." >> "$GITHUB_STEP_SUMMARY"
           echo "- External skill threat scanning remains a separate defense-in-depth workflow." >> "$GITHUB_STEP_SUMMARY"
