@@ -1,0 +1,224 @@
+{
+  "registry_id": "AMOS_EXTERNAL_AGENT_SOURCE_REGISTRY",
+  "schema_version": "1.0.0",
+  "verified_at": "2026-09-14",
+  "origin_architect": "Trang Phan",
+  "steward": "Trang Phan",
+  "epistemic_class": "OBSERVATION",
+  "purpose": "Pin external agent, skill, workflow, and tool-protocol sources used as reference mechanisms for AMOS evolution.",
+  "governance": {
+    "default_admission_state": "REFERENCE_ONLY",
+    "source_is_not_authority": true,
+    "source_is_not_canon": true,
+    "automatic_admission": false,
+    "automatic_installation": false,
+    "automatic_merge": false,
+    "commit_pin_required": true,
+    "allowed_resource_classes": [
+      "AGENT",
+      "SKILL",
+      "INSTRUCTION",
+      "WORKFLOW",
+      "PLUGIN",
+      "TOOL_SERVER",
+      "PROTOCOL",
+      "RUNTIME",
+      "OBSERVABILITY"
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "anthropic-agent-skills",
+      "repository": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "commit_sha": "34040c9c568585f6929bedeaad110ad08f079624",
+      "verified_at": "2026-09-14",
+      "license": "MIXED",
+      "license_scope": "Repository README states many skills are Apache-2.0 while document skills are source-available reference material; license must be checked per imported path.",
+      "resource_classes": ["SKILL", "PLUGIN"],
+      "mechanisms": [
+        "self-contained SKILL.md bundles",
+        "bundled scripts and resources",
+        "dynamic task-specific loading",
+        "skill templates and production reference patterns"
+      ],
+      "amos_targets": ["07_SKILLS", "06_AGENT_SYSTEMS"],
+      "admission_state": "REFERENCE_ONLY",
+      "authority_effect": "NONE"
+    },
+    {
+      "source_id": "google-agent-skills",
+      "repository": "google/skills",
+      "url": "https://github.com/google/skills",
+      "commit_sha": "150f8525e7e3329603b18d23a0f434aa29137eda",
+      "verified_at": "2026-09-14",
+      "license": "Apache-2.0",
+      "license_scope": "Repository-level skill collection; verify any referenced third-party component independently.",
+      "resource_classes": ["SKILL", "PLUGIN", "TOOL_SERVER"],
+      "mechanisms": [
+        "installable Agent Skills collections",
+        "skill registry patterns",
+        "plugins that bundle skills with MCP servers",
+        "product-specific progressive capability packaging"
+      ],
+      "amos_targets": ["07_SKILLS", "14_TOOLS"],
+      "admission_state": "REFERENCE_ONLY",
+      "authority_effect": "NONE"
+    },
+    {
+      "source_id": "github-awesome-copilot",
+      "repository": "github/awesome-copilot",
+      "url": "https://github.com/github/awesome-copilot",
+      "commit_sha": "a796341150aad27a2e2d0887db3b6d1ae0949523",
+      "verified_at": "2026-09-14",
+      "license": "MIT",
+      "license_scope": "Repository license; individual integrations still require capability and authority review.",
+      "resource_classes": ["AGENT", "SKILL", "INSTRUCTION", "WORKFLOW", "PLUGIN"],
+      "mechanisms": [
+        "file-based custom agents",
+        "separate instructions, skills, plugins, hooks, and workflows",
+        "machine-readable discovery index",
+        "explicit third-party inspection boundary"
+      ],
+      "amos_targets": ["06_AGENTS", "07_SKILLS", "08_WORKFLOWS"],
+      "admission_state": "REFERENCE_ONLY",
+      "authority_effect": "NONE"
+    },
+    {
+      "source_id": "openai-agents-python",
+      "repository": "openai/openai-agents-python",
+      "url": "https://github.com/openai/openai-agents-python",
+      "commit_sha": "fbf59a40e9da5adb88d370fefaeaae0478376d4a",
+      "verified_at": "2026-09-14",
+      "license": "MIT",
+      "license_scope": "Repository license.",
+      "resource_classes": ["AGENT", "RUNTIME", "WORKFLOW", "OBSERVABILITY"],
+      "mechanisms": [
+        "agents-as-tools and explicit handoffs",
+        "input and output guardrails",
+        "human-in-the-loop execution",
+        "sessions and tracing",
+        "sandbox agents for long-running workspace tasks"
+      ],
+      "amos_targets": ["06_AGENT_SYSTEMS", "08_WORKFLOWS", "17_OBSERVABILITY"],
+      "admission_state": "REFERENCE_ONLY",
+      "authority_effect": "NONE"
+    },
+    {
+      "source_id": "google-adk-python",
+      "repository": "google/adk-python",
+      "url": "https://github.com/google/adk-python",
+      "commit_sha": "460715b6c62c8e9ab00931c502381ee0364e39b6",
+      "verified_at": "2026-09-14",
+      "license": "Apache-2.0",
+      "license_scope": "Repository license.",
+      "resource_classes": ["AGENT", "RUNTIME", "WORKFLOW", "TOOL_SERVER"],
+      "mechanisms": [
+        "graph workflow runtime",
+        "routing, fan-out, fan-in, loops, retries, and dynamic nodes",
+        "structured task delegation API",
+        "tool confirmation and human-in-the-loop gates",
+        "evaluation and deployment surfaces"
+      ],
+      "amos_targets": ["04_RUNTIME", "06_AGENT_SYSTEMS", "08_WORKFLOWS"],
+      "admission_state": "REFERENCE_ONLY",
+      "authority_effect": "NONE"
+    },
+    {
+      "source_id": "microsoft-agent-framework",
+      "repository": "microsoft/agent-framework",
+      "url": "https://github.com/microsoft/agent-framework",
+      "commit_sha": "926b4ecacdaa95cb909c9d08f77b4fd898f273c0",
+      "verified_at": "2026-09-14",
+      "license": "MIT",
+      "license_scope": "Repository license.",
+      "resource_classes": ["AGENT", "SKILL", "RUNTIME", "WORKFLOW", "OBSERVABILITY"],
+      "mechanisms": [
+        "sequential, concurrent, handoff, and group orchestration",
+        "checkpointing and restartability",
+        "human-in-the-loop and time-travel workflow inspection",
+        "OpenTelemetry observability",
+        "declarative agents and agent skills"
+      ],
+      "amos_targets": ["04_RUNTIME", "06_AGENT_SYSTEMS", "07_SKILLS", "08_WORKFLOWS", "17_OBSERVABILITY"],
+      "admission_state": "REFERENCE_ONLY",
+      "authority_effect": "NONE"
+    },
+    {
+      "source_id": "langgraph",
+      "repository": "langchain-ai/langgraph",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "commit_sha": "e539ac122f4126f6dd850581c1494948cf620e31",
+      "verified_at": "2026-09-14",
+      "license": "MIT",
+      "license_scope": "Repository license.",
+      "resource_classes": ["RUNTIME", "WORKFLOW", "OBSERVABILITY"],
+      "mechanisms": [
+        "durable stateful workflow execution",
+        "failure recovery and exact resume",
+        "human interrupts with state inspection or modification",
+        "short-term and persistent memory integration"
+      ],
+      "amos_targets": ["04_RUNTIME", "08_WORKFLOWS", "12_STATE"],
+      "admission_state": "REFERENCE_ONLY",
+      "authority_effect": "NONE"
+    },
+    {
+      "source_id": "a2a-protocol",
+      "repository": "a2aproject/A2A",
+      "url": "https://github.com/a2aproject/A2A",
+      "commit_sha": "6d6640c29b102f7a8d23784901351b5d2454fe71",
+      "verified_at": "2026-09-14",
+      "license": "Apache-2.0",
+      "license_scope": "Repository license.",
+      "resource_classes": ["PROTOCOL", "AGENT", "WORKFLOW"],
+      "mechanisms": [
+        "Agent Card capability discovery",
+        "opaque agent interoperability",
+        "long-running task lifecycle",
+        "JSON-RPC over HTTP(S) with streaming and push",
+        "structured data and file exchange"
+      ],
+      "amos_targets": ["06_AGENT_SYSTEMS", "09_PROTOCOLS", "15_INTERFACES"],
+      "admission_state": "REFERENCE_ONLY",
+      "authority_effect": "NONE"
+    },
+    {
+      "source_id": "model-context-protocol-python",
+      "repository": "modelcontextprotocol/python-sdk",
+      "url": "https://github.com/modelcontextprotocol/python-sdk",
+      "commit_sha": "9972c21aa42054fb1450c5fc614761ed11847ec6",
+      "verified_at": "2026-09-14",
+      "license": "MIT",
+      "license_scope": "Repository license.",
+      "resource_classes": ["PROTOCOL", "TOOL_SERVER"],
+      "mechanisms": [
+        "standardized tool and context server/client transport",
+        "typed server/client protocol boundary",
+        "tool discovery without agent identity conflation"
+      ],
+      "amos_targets": ["14_TOOLS", "15_INTERFACES", "09_PROTOCOLS"],
+      "admission_state": "REFERENCE_ONLY",
+      "authority_effect": "NONE"
+    },
+    {
+      "source_id": "github-mcp-server",
+      "repository": "github/github-mcp-server",
+      "url": "https://github.com/github/github-mcp-server",
+      "commit_sha": "7d13a7ad6f2a17f351a6d77ce280c85ae1821f4d",
+      "verified_at": "2026-09-14",
+      "license": "MIT",
+      "license_scope": "Repository license.",
+      "resource_classes": ["TOOL_SERVER", "PROTOCOL"],
+      "mechanisms": [
+        "GitHub repository, issue, pull-request, workflow, and security tool surfaces",
+        "native GitHub authorization boundary",
+        "OAuth, GitHub App, and fine-grained PAT deployment modes",
+        "least-privilege repository and permission scoping"
+      ],
+      "amos_targets": ["14_TOOLS", "15_INTERFACES", "18_SECURITY"],
+      "admission_state": "REFERENCE_ONLY",
+      "authority_effect": "NONE"
+    }
+  ]
+}
