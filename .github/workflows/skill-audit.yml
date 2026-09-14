@@ -34,13 +34,12 @@ concurrency:
 
 env:
   PYTHON_VERSION: '3.12'
-  TIMEOUT_MINUTES: 10
 
 jobs:
   validate:
     name: Validate Skills
     runs-on: ubuntu-latest
-    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
+    timeout-minutes: 10
     permissions:
       contents: read
     steps:
@@ -75,7 +74,7 @@ jobs:
   security:
     name: Security Scan
     runs-on: ubuntu-latest
-    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
+    timeout-minutes: 10
     permissions:
       contents: read
     steps:
@@ -109,7 +108,7 @@ jobs:
   integrity:
     name: Lock File Verification
     runs-on: ubuntu-latest
-    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
+    timeout-minutes: 10
     permissions:
       contents: read
     steps:
@@ -133,7 +132,7 @@ jobs:
   dependency-graph:
     name: Dependency Graph
     runs-on: ubuntu-latest
-    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
+    timeout-minutes: 10
     permissions:
       contents: read
     steps:
@@ -157,7 +156,7 @@ jobs:
   token-budget:
     name: Token Budget Analysis
     runs-on: ubuntu-latest
-    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
+    timeout-minutes: 10
     permissions:
       contents: read
     steps:
@@ -183,7 +182,7 @@ jobs:
   eval-harness:
     name: Eval Harness Check
     runs-on: ubuntu-latest
-    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
+    timeout-minutes: 10
     permissions:
       contents: read
     steps:
@@ -201,7 +200,7 @@ jobs:
   version-check:
     name: Version & Manifest Check
     runs-on: ubuntu-latest
-    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
+    timeout-minutes: 10
     permissions:
       contents: read
     steps:
@@ -254,7 +253,7 @@ jobs:
   regression-test:
     name: Regression Tests
     runs-on: ubuntu-latest
-    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
+    timeout-minutes: 10
     permissions:
       contents: read
     steps:
@@ -291,7 +290,7 @@ jobs:
   binding-check:
     name: Binding Integrity
     runs-on: ubuntu-latest
-    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
+    timeout-minutes: 10
     permissions:
       contents: read
     steps:
@@ -318,7 +317,7 @@ jobs:
   guardrail-check:
     name: Guardrail Check
     runs-on: ubuntu-latest
-    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
+    timeout-minutes: 10
     permissions:
       contents: read
     steps:
@@ -355,7 +354,7 @@ jobs:
   quality-score:
     name: Quality Score
     runs-on: ubuntu-latest
-    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
+    timeout-minutes: 10
     permissions:
       contents: read
     steps:
