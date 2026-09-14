@@ -2,9 +2,9 @@
 """Validate AMOS Agent Skills and GitHub custom-agent repository surfaces.
 
 The repository contains legacy AMOS skills that predate the portable Agent Skills
-frontmatter. Those files are reported as migration warnings by default, while any
-skill that declares modern `name`/`description` metadata is validated strictly.
-Use --strict-legacy only for a dedicated migration change.
+frontmatter. Those files are reported as migration warnings by default. Skills
+using only portable `name`/`description` metadata receive stricter bundled-resource
+checks. Use --strict-legacy only for a dedicated migration change.
 """
 
 from __future__ import annotations
@@ -18,6 +18,7 @@ from typing import Iterable
 NAME = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 REFERENCE = re.compile(r"(?<![A-Za-z0-9_./-])(references/[A-Za-z0-9_./-]+\.md)")
 TOP_LEVEL_SCALAR = re.compile(r"^([A-Za-z0-9_-]+):\s*(.*?)\s*$")
+PORTABLE_KEYS = {"name", "description"}
 
 
 def frontmatter(text: str) -> tuple[dict[str, str], str | None]:
@@ -35,8 +36,9 @@ def frontmatter(text: str) -> tuple[dict[str, str], str | None]:
         if not match:
             continue
         key, value = match.groups()
-        # Lists/maps are legacy/host-specific metadata; only scalar discovery keys
-        # are needed by this validator.
+        # Nested YAML/list values are deliberately ignored. We only need top-level
+        # scalar discovery keys plus enough metadata to distinguish extended legacy
+        # frontmatter from the portable two-key form.
         if value and not value.startswith(("[", "{")):
             result[key] = value.strip("'\"")
     return result, None
@@ -56,27 +58,30 @@ def agent_files(root: Path) -> Iterable[Path]:
     return sorted(agents_root.glob("*.agent.md"))
 
 
-def validate_skill(path: Path, strict_legacy: bool) -> tuple[list[str], list[str], str | None]:
+def validate_skill(
+    path: Path, strict_legacy: bool
+) -> tuple[list[str], list[str], str | None, bool]:
     errors: list[str] = []
     warnings: list[str] = []
     text = path.read_text(encoding="utf-8")
     if not text.strip():
-        return [f"{path}: empty SKILL.md"], warnings, None
+        return [f"{path}: empty SKILL.md"], warnings, None, False
 
     meta, fm_error = frontmatter(text)
     if fm_error:
         message = f"{path}: legacy/non-portable metadata ({fm_error}); migration deferred"
         if strict_legacy:
-            return [message], warnings, None
-        return errors, [message], None
+            return [message], warnings, None, False
+        return errors, [message], None, False
 
     name = meta.get("name")
     description = meta.get("description")
-    modern = bool(name or description)
+    has_discovery_metadata = bool(name or description)
+    portable = bool(name and description and set(meta) == PORTABLE_KEYS)
 
-    if modern:
+    if has_discovery_metadata:
         if not name:
-            errors.append(f"{path}: modern skill is missing frontmatter name")
+            errors.append(f"{path}: skill with discovery metadata is missing name")
         elif not NAME.fullmatch(name):
             errors.append(f"{path}: name must be lowercase-hyphenated: {name!r}")
         elif path.parent.name != name:
@@ -85,19 +90,23 @@ def validate_skill(path: Path, strict_legacy: bool) -> tuple[list[str], list[str
             )
 
         if not description:
-            errors.append(f"{path}: modern skill is missing frontmatter description")
+            errors.append(f"{path}: skill with discovery metadata is missing description")
         elif len(description) < 30:
             errors.append(f"{path}: description is too short to be a reliable trigger")
         elif len(description) > 1200:
             errors.append(f"{path}: description is too large for discovery metadata")
 
-        # Modern skills make a stronger portability claim, so local bundled
-        # references must actually exist. Legacy references are left as migration
-        # observations rather than causing unrelated historical failures.
-        for reference in sorted(set(REFERENCE.findall(text))):
-            target = path.parent / reference
-            if not target.is_file():
-                errors.append(f"{path}: referenced local file does not exist: {reference}")
+        if portable:
+            for reference in sorted(set(REFERENCE.findall(text))):
+                target = path.parent / reference
+                if not target.is_file():
+                    errors.append(f"{path}: referenced local file does not exist: {reference}")
+        else:
+            message = f"{path}: extended legacy frontmatter; portable two-key migration deferred"
+            if strict_legacy:
+                errors.append(message)
+            else:
+                warnings.append(message)
     else:
         message = f"{path}: legacy frontmatter (no portable name/description); migration deferred"
         if strict_legacy:
@@ -105,7 +114,7 @@ def validate_skill(path: Path, strict_legacy: bool) -> tuple[list[str], list[str
         else:
             warnings.append(message)
 
-    return errors, warnings, name
+    return errors, warnings, name, portable
 
 
 def validate_agent(path: Path) -> tuple[list[str], list[str]]:
@@ -147,7 +156,7 @@ def main() -> int:
     parser.add_argument(
         "--strict-legacy",
         action="store_true",
-        help="Treat pre-portable AMOS skill metadata as errors instead of migration warnings",
+        help="Treat pre-portable/extended AMOS skill metadata as errors instead of migration warnings",
     )
     parser.add_argument("--summary", action="store_true", help="Print only aggregate warnings")
     args = parser.parse_args()
@@ -155,22 +164,23 @@ def main() -> int:
     root = args.root.resolve()
     errors: list[str] = []
     warnings: list[str] = []
-    modern_names: dict[str, Path] = {}
+    names: dict[str, Path] = {}
     skill_count = 0
-    modern_count = 0
+    portable_count = 0
 
     for path in skill_files(root):
         skill_count += 1
-        skill_errors, skill_warnings, name = validate_skill(path, args.strict_legacy)
+        skill_errors, skill_warnings, name, portable = validate_skill(path, args.strict_legacy)
         errors.extend(skill_errors)
         warnings.extend(skill_warnings)
+        if portable:
+            portable_count += 1
         if name:
-            modern_count += 1
-            previous = modern_names.get(name)
+            previous = names.get(name)
             if previous:
-                errors.append(f"{path}: duplicate modern skill name {name!r}; first seen at {previous}")
+                errors.append(f"{path}: duplicate skill name {name!r}; first seen at {previous}")
             else:
-                modern_names[name] = path
+                names[name] = path
 
     agent_count = 0
     for path in agent_files(root):
@@ -194,7 +204,7 @@ def main() -> int:
 
     print(
         "Agent/Skill surface: PASS "
-        f"({skill_count} skills; {modern_count} portable-metadata skills; "
+        f"({skill_count} skills; {portable_count} portable-frontmatter skills; "
         f"{agent_count} GitHub agents; {len(warnings)} migration warnings)"
     )
     if warnings and not args.summary:
