@@ -22,6 +22,7 @@ class ArgumentationFramework:
         if a not in self.arguments: raise KeyError(a)
         return frozenset(x for x,y in self.attacks if y==a)
     def attacked_by(self, S: FrozenSet[str]) -> FrozenSet[str]:
+        if not S.issubset(self.arguments): raise ValueError("set contains unknown argument")
         return frozenset(y for x,y in self.attacks if x in S)
 
 def conflict_free(af: ArgumentationFramework, S: FrozenSet[str]) -> bool:
@@ -29,6 +30,8 @@ def conflict_free(af: ArgumentationFramework, S: FrozenSet[str]) -> bool:
     return not any(a in S and b in S for a,b in af.attacks)
 
 def defends(af: ArgumentationFramework, S: FrozenSet[str], a: str) -> bool:
+    if not S.issubset(af.arguments): raise ValueError("set contains unknown argument")
+    if a not in af.arguments: raise KeyError(a)
     attacked=af.attacked_by(S)
     return all(attacker in attacked for attacker in af.attackers(a))
 
@@ -49,6 +52,7 @@ def admissible(af: ArgumentationFramework, S: FrozenSet[str]) -> bool:
 
 def preferred_extensions(af: ArgumentationFramework, max_arguments: int=18) -> Tuple[FrozenSet[str], ...]:
     n=len(af.arguments)
+    if max_arguments < 0: raise ValueError("max_arguments must be non-negative")
     if n>max_arguments: raise ValueError("preferred enumeration is exponential; explicit bound exceeded")
     args=sorted(af.arguments)
     admiss=[]
