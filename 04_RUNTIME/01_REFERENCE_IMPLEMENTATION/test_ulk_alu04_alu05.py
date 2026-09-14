@@ -1,6 +1,27 @@
+import hashlib
+import pathlib
 import unittest
+
+import amos_ulk_alu04_finite_kripke_checker_v1 as alu04
+import amos_ulk_alu05_dung_checker_v1 as alu05
 from amos_ulk_alu04_finite_kripke_checker_v1 import Formula, Kind, KripkeModel, holds
 from amos_ulk_alu05_dung_checker_v1 import ArgumentationFramework, admissible, characteristic, conflict_free, defends, grounded_extension, preferred_extensions
+from ulk_fragment_execution_registry import ALU04_CHECKER_SHA256, ALU05_CHECKER_SHA256
+
+
+class ProvenanceTests(unittest.TestCase):
+    def test_alu04_exact_checker_hash(self):
+        self.assertEqual(
+            hashlib.sha256(pathlib.Path(alu04.__file__).read_bytes()).hexdigest(),
+            ALU04_CHECKER_SHA256,
+        )
+
+    def test_alu05_exact_checker_hash(self):
+        self.assertEqual(
+            hashlib.sha256(pathlib.Path(alu05.__file__).read_bytes()).hexdigest(),
+            ALU05_CHECKER_SHA256,
+        )
+
 
 class ModalTests(unittest.TestCase):
     def model(self):
@@ -34,6 +55,7 @@ class ModalTests(unittest.TestCase):
     def test_invalid_relation_endpoint_rejected(self):
         with self.assertRaises(ValueError): KripkeModel(frozenset({"w"}), {"a":frozenset({("w","x")})}, {})
 
+
 class DungTests(unittest.TestCase):
     def test_grounded_chain(self):
         af=ArgumentationFramework(frozenset({"a","b","c"}), frozenset({("a","b"),("b","c")}))
@@ -56,5 +78,6 @@ class DungTests(unittest.TestCase):
         af=ArgumentationFramework(frozenset(str(i) for i in range(19)), frozenset())
         with self.assertRaises(ValueError): preferred_extensions(af)
         with self.assertRaises(ValueError): preferred_extensions(af,max_arguments=-1)
+
 
 if __name__=="__main__": unittest.main()
