@@ -14,23 +14,26 @@ from core19_tensor_topology import (
 class TensorTests(unittest.TestCase):
     def test_axes_do_not_alias(self):
         store = URKTensorStore[str]()
-        h = TensorCoordinate(Core19.P01_EXISTENCE, Core19.P03_CAUSALITY, "H", "ctx", "normal")
-        m = TensorCoordinate(Core19.P01_EXISTENCE, Core19.P03_CAUSALITY, "M", "ctx", "normal")
+        h = TensorCoordinate(Core19.P01_EXISTENCE, Core19.P03_CAUSALITY, "H", "ctx", "normal", "obs")
+        m = TensorCoordinate(Core19.P01_EXISTENCE, Core19.P03_CAUSALITY, "M", "ctx", "normal", "obs")
+        other_observer = TensorCoordinate(Core19.P01_EXISTENCE, Core19.P03_CAUSALITY, "H", "ctx", "normal", "obs2")
         store.bind(TensorEntry(h, "high", CellStatus.AMOS_MODEL))
         store.bind(TensorEntry(m, "mid", CellStatus.DERIVED))
-        self.assertEqual(len(store), 2)
+        store.bind(TensorEntry(other_observer, "other", CellStatus.DERIVED))
+        self.assertEqual(len(store), 3)
         self.assertEqual(store.get(h).value, "high")
         self.assertEqual(store.get(m).value, "mid")
+        self.assertEqual(store.get(other_observer).value, "other")
 
     def test_unbound_is_unbound_not_zero(self):
         store = URKTensorStore[int]()
-        coord = TensorCoordinate(Core19.P05_INFORMATIONAL, Core19.P19_NULL_LOGIC, "L", "ctx", "normal")
+        coord = TensorCoordinate(Core19.P05_INFORMATIONAL, Core19.P19_NULL_LOGIC, "L", "ctx", "normal", "obs")
         self.assertIsNone(store.get(coord))
         self.assertEqual(store.status(coord), CellStatus.UNBOUND)
 
     def test_conflicting_rebind_fails_closed(self):
         store = URKTensorStore[int]()
-        coord = TensorCoordinate(Core19.P01_EXISTENCE, Core19.P01_EXISTENCE, "H", "ctx", "normal")
+        coord = TensorCoordinate(Core19.P01_EXISTENCE, Core19.P01_EXISTENCE, "H", "ctx", "normal", "obs")
         store.bind(TensorEntry(coord, 1, CellStatus.AMOS_MODEL, "s1"))
         with self.assertRaises(CoordinateConflictError):
             store.bind(TensorEntry(coord, 2, CellStatus.AMOS_MODEL, "s1"))
