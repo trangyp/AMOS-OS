@@ -1,0 +1,93 @@
+name: Evaluation Evidence Contract
+
+on:
+  pull_request:
+    paths:
+      - '19_TESTS/EVAL_EVIDENCE_REGISTRY.json'
+      - '19_TESTS/TEST_SUITE_MANIFEST.md'
+      - '07_SKILLS/amos-interactive-evaluation-design-rscf/**'
+      - '08_WORKFLOWS/amos-interactive-evaluation-design-rscf-workflow.md'
+      - '26_WORKFLOWS/amos-interactive-evaluation-design-rscf-workflow.md'
+      - '.github/agents/amos-evaluation-auditor.agent.md'
+      - '.github/workflows/eval-evidence-contract.yml'
+  push:
+    branches: [main]
+    paths:
+      - '19_TESTS/EVAL_EVIDENCE_REGISTRY.json'
+      - '19_TESTS/TEST_SUITE_MANIFEST.md'
+      - '07_SKILLS/amos-interactive-evaluation-design-rscf/**'
+      - '08_WORKFLOWS/amos-interactive-evaluation-design-rscf-workflow.md'
+      - '26_WORKFLOWS/amos-interactive-evaluation-design-rscf-workflow.md'
+      - '.github/agents/amos-evaluation-auditor.agent.md'
+      - '.github/workflows/eval-evidence-contract.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  evidence-contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Compile evidence validator
+        run: python -m py_compile 07_SKILLS/amos-interactive-evaluation-design-rscf/scripts/eval_registry.py
+
+      - name: Self-test evidence validator
+        run: python 07_SKILLS/amos-interactive-evaluation-design-rscf/scripts/eval_registry.py --self-test
+
+      - name: Validate evaluation registry
+        run: |
+          python 07_SKILLS/amos-interactive-evaluation-design-rscf/scripts/eval_registry.py \
+            19_TESTS/EVAL_EVIDENCE_REGISTRY.json --repo .
+
+      - name: Re-execute reproducible AUTHZ reference harness
+        run: |
+          python 03_CONTROL_PLANE/04_AUTHORITY/authz_invariant_engine.py | tee /tmp/authz.out
+          grep -q '17/17 AUTHZ invariant tests pass' /tmp/authz.out
+
+      - name: Reject non-reproducible routing evidence promotion
+        run: |
+          python - <<'PY'
+          import json
+          p = '19_TESTS/EVAL_EVIDENCE_REGISTRY.json'
+          d = json.load(open(p, encoding='utf-8'))
+          r = next(e for e in d['entries'] if e['suite_id'] == 'TS-ROUTING-03')
+          r['evidence_class'] = 'EXECUTED_MODEL'
+          r['verdict'] = 'VERIFIED_TESTED_SCOPE'
+          json.dump(d, open('/tmp/invalid-routing-registry.json', 'w', encoding='utf-8'))
+          PY
+          if python 07_SKILLS/amos-interactive-evaluation-design-rscf/scripts/eval_registry.py /tmp/invalid-routing-registry.json --repo .; then
+            echo 'Expected missing routing harness promotion to fail closed'
+            exit 1
+          fi
+
+      - name: Reject stale evidence hash
+        run: |
+          python - <<'PY'
+          import json
+          p = '19_TESTS/EVAL_EVIDENCE_REGISTRY.json'
+          d = json.load(open(p, encoding='utf-8'))
+          a = next(e for e in d['entries'] if e['suite_id'] == 'TS-AUTHZ-02')
+          a['harness_blob_sha'] = '0' * 40
+          json.dump(d, open('/tmp/stale-hash-registry.json', 'w', encoding='utf-8'))
+          PY
+          if python 07_SKILLS/amos-interactive-evaluation-design-rscf/scripts/eval_registry.py /tmp/stale-hash-registry.json --repo .; then
+            echo 'Expected stale evidence hash to fail closed'
+            exit 1
+          fi
+
+      - name: Record bounded evidence
+        if: always()
+        run: |
+          echo '## Evaluation Evidence Contract' >> "$GITHUB_STEP_SUMMARY"
+          echo '' >> "$GITHUB_STEP_SUMMARY"
+          echo '- Registry structural/hash validation executed' >> "$GITHUB_STEP_SUMMARY"
+          echo '- AUTHZ reference harness re-executed on this runner' >> "$GITHUB_STEP_SUMMARY"
+          echo '- Missing-harness promotion negative test executed' >> "$GITHUB_STEP_SUMMARY"
+          echo '- Stale-hash negative test executed' >> "$GITHUB_STEP_SUMMARY"
+          echo '- PASS remains bounded to these exact checks; it is not a whole-system benchmark.' >> "$GITHUB_STEP_SUMMARY"

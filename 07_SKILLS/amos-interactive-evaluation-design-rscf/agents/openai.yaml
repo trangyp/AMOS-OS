@@ -1,0 +1,3 @@
+interface:
+  display_name: "AMOS Interactive Evaluation"
+  short_description: "Design and audit trajectory-aware, evidence-bound agent evaluations."

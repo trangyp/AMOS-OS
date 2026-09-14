@@ -1,0 +1,106 @@
+{
+  "schema": "amos.eval-evidence-registry.v1",
+  "generated_from": "benchmark-forensics review of agent-runtime-policy-hardening@808dd7ffe3d77ec8a33d0dd88fe91cba46b7be39",
+  "entries": [
+    {
+      "suite_id": "TS-AUTHZ-02",
+      "target": "03_CONTROL_PLANE/04_AUTHORITY reference authorization invariant engine",
+      "scope": "17 recorded probes over selected authorization invariant families in the reference implementation",
+      "evidence_class": "EXECUTED_MODEL",
+      "verdict": "PARTIAL",
+      "harness_path": "03_CONTROL_PLANE/04_AUTHORITY/authz_invariant_engine.py",
+      "receipt_path": "03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT.md",
+      "harness_blob_sha": "4b75725b43e71ac75ba3f8b88fa2c1d5ba9ccdd0",
+      "receipt_blob_sha": "3458bc7f288cc0a4d587cec2af939494234db097",
+      "result": {
+        "total": 17,
+        "passed": 17,
+        "failed": 0,
+        "exit_code": 0
+      },
+      "environment": {
+        "runtime": "Python; exact version not recorded by receipt",
+        "hardware": "UNKNOWN",
+        "execution_commit": "UNKNOWN"
+      },
+      "not_proven": [
+        "all 50 declared authorization invariants",
+        "production deployment",
+        "commit-time durable effect correctness",
+        "distributed or concurrent authorization behavior"
+      ],
+      "evidence_note": "Reproducible harness and receipt are present in-tree, but the historical receipt does not bind the original run to an exact environment and source commit."
+    },
+    {
+      "suite_id": "TS-ROUTING-03",
+      "target": "25_COGNITIVE_MATRIX routing policy reference validator",
+      "scope": "historical receipt records 19 constitutional/adversarial routing tests",
+      "evidence_class": "UNKNOWN",
+      "verdict": "NON_REPRODUCIBLE",
+      "receipt_path": "25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT.md",
+      "receipt_blob_sha": "e175bb425d57cd97ea41dc7e77516752dd5a6fd9",
+      "historical_result": {
+        "total": 19,
+        "passed": 19,
+        "failed": 0,
+        "exit_code": 0
+      },
+      "not_proven": [
+        "current routing behavior",
+        "production router enforcement",
+        "reproducibility from the active repository",
+        "all routing states or adversarial cases"
+      ],
+      "evidence_note": "The receipt names routing_policy_validator.py, but that executor is absent from the active repository. Preserve the receipt as historical evidence without promoting it to reproducible validation."
+    },
+    {
+      "suite_id": "TS-MATH-04",
+      "target": "22_RESEARCH mathematical registry verification claims",
+      "scope": "verification report lists 21 formula/result rows while asserting coverage of a 137-formula registry",
+      "evidence_class": "UNKNOWN",
+      "verdict": "NON_REPRODUCIBLE",
+      "receipt_path": "22_RESEARCH/01_MATHEMATICS/AMOS_137_MATH_VERIFICATION_REPORT.md",
+      "receipt_blob_sha": "ea191ad33dc9f80e8920e900c1ebabbe48cdcf7e",
+      "not_proven": [
+        "formal proof of all 137 formulas",
+        "Lean 4 verification of the complete registry",
+        "reproduction of the stated numerical results",
+        "theoretical correctness of domain-specific interpretations"
+      ],
+      "evidence_note": "The report is preserved as a source claim. It does not bind an executable harness, environment, raw outputs, or source hashes, and its visible table does not independently demonstrate all 137 claimed formulas."
+    },
+    {
+      "suite_id": "TS-ARROW-06",
+      "target": "04_RUNTIME Arrow IPC state bus",
+      "scope": "architecture and implementation model described in the active specification",
+      "evidence_class": "CONCEPTUAL_DESIGN",
+      "verdict": "CONCEPTUAL_ONLY",
+      "source_path": "04_RUNTIME/06_EXECUTION/ARROW_IPC_STATE_BUS_ENGINE.md",
+      "source_blob_sha": "8f7a8f0e1451a3e9f07cba7c3daf8f346230e842",
+      "not_proven": [
+        "sub-microsecond latency",
+        "zero-copy end-to-end runtime behavior",
+        "race freedom",
+        "20+ agent production synchronization",
+        "active deployed runtime"
+      ],
+      "evidence_note": "The cited artifact is an AMOS_MODEL specification, not an executed benchmark receipt."
+    },
+    {
+      "suite_id": "TS-ZK-07",
+      "target": "18_SECURITY post-quantum and neural zero-knowledge attestation",
+      "scope": "architectural specification and mathematical design",
+      "evidence_class": "CONCEPTUAL_DESIGN",
+      "verdict": "CONCEPTUAL_ONLY",
+      "source_path": "18_SECURITY/POST_QUANTUM_LATTICE_CRYPTOGRAPHY_AND_NEURAL_ZK_ATTESTATION.md",
+      "source_blob_sha": "d8adc12a115f3b95fd02d48f7f4b23a4330b23ef",
+      "not_proven": [
+        "deployed FIPS-compliant cryptographic implementation",
+        "neural intent proof correctness",
+        "3.5 ms verification latency ceiling",
+        "zero raw neural leakage in a running system"
+      ],
+      "evidence_note": "The cited artifact declares itself an architectural specification; it is not an executed cryptographic validation receipt."
+    }
+  ]
+}

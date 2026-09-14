@@ -1,163 +1,133 @@
 ---
-canon-group: meta
-canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
-conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
-topic: Amos Interactive Evaluation Design Rscf Workflow
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
-created: 2026-08-22
----
----
+title: amos-interactive-evaluation-design-rscf-workflow
+type: workflow
+source: 26_WORKFLOWS
+skill: amos-interactive-evaluation-design-rscf
+agent: amos-interactive-evaluation-design-rscf-agent
+status: CONDITIONAL
+origin_architect: Trang Phan
 ---
 
-# Workflow: Interactive Evaluation Design Rscf
+# Workflow: AMOS Interactive Evaluation Design
 
-## Identity
+## Objective
 
-Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+Produce the narrowest defensible evaluation verdict for an agent, Skill, workflow, tool integration, or runtime without collapsing final-output quality into trajectory/process quality or model tests into deployment validity.
 
-## Preconditions
+## State machine
 
-- The `amos-interactive-evaluation-design-rscf` skill exists and is loaded.
-- The `amos-interactive-evaluation-design-rscf-agent` agent is available and has valid content_hash.
-- The query falls within the skill's declared scope and domain.
-- All required vault sources (if any) are accessible.
-- Epistemic class labeling is enabled (SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL).
+```text
+INTAKE
+  -> BIND_TARGET
+  -> CLASSIFY_EVIDENCE_LANE
+  -> DESIGN_ORACLE
+  -> DESIGN_NEGATIVES
+  -> EXECUTE_OR_CLASSIFY_UNEXECUTED
+  -> CAPTURE_TRAJECTORY
+  -> FORENSICS
+  -> REGISTRY_VALIDATE
+  -> VERDICT
+  -> TERMINAL
+```
 
-## Steps
+## Inputs
 
-1. **Intake**: Identify the problem and confirm it matches the Interactive Evaluation Design Rscf scope.
-   - Classify the query against the c10 domain
-   - Route to the appropriate capability
-1. **Skill Invocation**: Load the `amos-interactive-evaluation-design-rscf` skill.
-   - Read the skill content and validation gates
-   - Identify which capability is most relevant
-1. **Application**: Apply the Interactive Evaluation Design Rscf capability.
-   - Tag every output with its epistemic status (SOURCE / DERIVED / AMOS_MODEL)
-   - Record provenance for every derived claim
-1. **Validation**: Check results against validation gates.
-   - Law of Law: no unresolved contradictions
-   - Epistemic class labels present
-   - Provenance recorded
-1. **Output**: Present results with full provenance and epistemic labeling.
-   - Include confidence ceiling
-   - Record source path for every derived claim
+- target artifact/runtime + version/ref;
+- decision the evaluation informs;
+- scope/regime/environment;
+- available harnesses, configurations, receipts and raw results;
+- observable trajectory/tool/action traces when interactive behavior is evaluated;
+- authority/process contract when process compliance matters.
 
-## Operations
+## Gates
 
-1. **Intake**: Identify the problem and confirm it matches the Interactive Evaluation Design Rscf scope. - Classify the query against the c10 domain - Route to the appropriate capability
-1. **Skill Invocation**: Load the `amos-interactive-evaluation-design-rscf` skill. - Read the skill content and validation gates - Identify which capability is most relevant
-1. **Application**: Apply the Interactive Evaluation Design Rscf capability. - Tag every output with its epistemic status (SOURCE / DERIVED / AMOS_MODEL) - Record provenance for every derived claim
-1. **Validation**: Check results against validation gates. - Law of Law: no unresolved contradictions - Epistemic class labels present - Provenance recorded
-1. **Output**: Present results with full provenance and epistemic labeling. - Include confidence ceiling - Record source path for every derived claim
+### G1 — Target identity
 
-## Output
+Resolve exact target identity. Missing identity -> `UNKNOWN`.
 
-The workflow produces a structured result containing:
+### G2 — Evidence lane
 
-- `status` — VERIFIED / DERIVED / CONDITIONAL / UNKNOWN/GAP / REJECTED
-- `capability` — the capability that was executed
-- `summary` — human-readable summary of the result
-- `data` — structured output specific to the capability
-- `gaps` — list of unresolved gap identifiers
-- `warnings` — non-blocking advisory messages
-- `confidence_ceiling` — maximum confidence (capped at 0.95)
-- `provenance` — list of provenance references tracing to source evidence
+Choose one or more independent lanes:
+- deterministic contract;
+- trajectory/process;
+- adversarial/red-team;
+- model-dependent semantic;
+- runtime/performance;
+- production/deployment.
 
-## Validation Gates
+Do not let one lane substitute for another.
 
-- **G1 (Intake)**: Problem confirmed within Interactive Evaluation Design Rscf scope.
-- **G2 (Application)**: Outputs carry correct epistemic status tags.
-- **G3 (Validation)**: Results pass Law of Law and epistemic class checks.
-- **G4 (Output)**: Output format matches specification; provenance recorded.
+### G3 — Oracle quality
 
-## Failure Paths
+Define explicit success/failure predicates and falsifiers. Reject circular tests where the oracle merely restates the implementation/policy under test.
 
-- If validation fails: downgrade confidence, flag the gap, escalate — do not force-fit.
-- If skill content is insufficient: mark as UNKNOWN/GAP and fail closed.
+### G4 — Negative coverage
 
-## Provenance
+Include applicable malformed, missing, stale, unauthorized, replay, timeout, partial-effect, poisoned-tool/prompt, failure-recovery and stopping cases.
 
-- **Workflow**: `amos-interactive-evaluation-design-rscf-workflow.md`
-- **Skill**: `amos-interactive-evaluation-design-rscf`
-- **Agent**: `amos-interactive-evaluation-design-rscf-agent`
+### G5 — Execution boundary
 
-______________________________________________________________________
+If no execution occurred, label the result conceptual/unknown. If execution used a model/reference implementation, do not call it runtime validation.
+
+### G6 — Trajectory capture
+
+For interactive systems preserve observable actions, tool arguments/results, state transitions, authority/effect state, errors, recovery and terminal state. Do not require private chain-of-thought.
+
+### G7 — Evidence binding
+
+Bind harness + receipt identity, source/artifact hashes, environment, result counts, seeds/workload where relevant, non-coverage and failure traces.
+
+### G8 — Registry validation
+
+Run:
+
+```bash
+python 07_SKILLS/amos-interactive-evaluation-design-rscf/scripts/eval_registry.py \
+  19_TESTS/EVAL_EVIDENCE_REGISTRY.json \
+  --repo .
+```
+
+A stale hash, missing harness or invalid evidence promotion blocks the corresponding registry promotion.
+
+## Verdicts
+
+- `VERIFIED_TESTED_SCOPE`
+- `PARTIAL`
+- `INVALIDATED_EVIDENCE`
+- `CONCEPTUAL_ONLY`
+- `NON_REPRODUCIBLE`
+- `UNKNOWN`
+
+## External eval/red-team runners
+
+External runners such as Promptfoo may organize model comparisons, CI evaluations or adversarial cases. Preserve their exact configs/results and treat them as evidence infrastructure, not epistemic authority. Baseline deterministic gates should not require external model/API secrets.
+
+## Failure/recovery
+
+- missing target identity -> `UNKNOWN`;
+- absent historical harness -> `NON_REPRODUCIBLE`;
+- target/harness/receipt hash drift -> invalidate and rerun/review;
+- ambiguous external effect -> reconcile before retry;
+- judge disagreement -> preserve competing outcomes;
+- performance environment mismatch -> downgrade scope;
+- no adversarial finding -> never infer universal safety.
+
+## Outputs
+
+Return:
+- target identity;
+- evidence lanes used;
+- executed/not-executed classification;
+- trajectory/process findings;
+- adversarial findings;
+- result counts and environment when executed;
+- explicit non-coverage;
+- provenance/hash bindings;
+- final bounded verdict;
+- next discriminating test if unresolved.
+
+## Terminal invariant
+
+`TEST_PASS != TRUTH` and `EVAL_RESULT != DEPLOYMENT_AUTHORITY`.
 
 **MOC:** [[26_WORKFLOWS/26_WORKFLOWS_MOC|26_WORKFLOWS_MOC]]
-
-## Orchestration Pattern
-
-**Pattern**: Single-Agent with Validation Gates
-
-This workflow follows a single-agent orchestration with explicit validation gates between steps:
-
-1. **Intake** -> validation gate -> **Skill Invocation** -> validation gate -> **Application** -> validation gate -> **Output**
-1. Each gate checks: epistemic labeling, provenance, scope compliance, confidence ceiling
-1. On gate failure: route to error handling or escalate to parent workflow
-
-## Evaluation Gates
-
-### Gate 1: Intake Validation
-
-- Query matches skill scope
-- Required inputs present
-- No scope violations detected
-
-### Gate 2: Skill Load Validation
-
-- Skill file exists and is valid
-- Agent binding is valid
-- Required vault sources accessible
-
-### Gate 3: Output Validation
-
-- Epistemic class labels present
-- Provenance recorded for all derived claims
-- Confidence ceiling not exceeded
-- No unresolved CRITICAL_GAPs
-- Scope compliance verified
-
-## Error Handling
-
-| Error Type       | Detection                    | Recovery                              |
-| ---------------- | ---------------------------- | ------------------------------------- |
-| Scope violation  | Gate 1 check                 | Route to parent skill                 |
-| Missing evidence | Gate 3 check                 | Flag as GAP, reduce confidence to 0.5 |
-| Contradiction    | Gate 3 check                 | Flag as CRITICAL_GAP, halt            |
-| Provenance loss  | Gate 3 check                 | Mark as UNKNOWN, request human review |
-| Timeout          | Step budget exceeded         | Return partial result with warnings   |
-| Drift            | Confidence calibration check | Trigger drift alignment governor      |
-
-## Human-in-the-Loop
-
-- **Default**: Automated execution without human intervention
-- **Escalation triggers**:
-  - CRITICAL_GAP detected
-  - Confidence below 0.3
-  - Scope violation requiring reclassification
-  - Contradiction that cannot be auto-resolved
-- **Review checkpoint**: After Gate 3, if any warnings are present
-
-## Monitoring
-
-- **Trace level**: Full (inputs, outputs, intermediate steps)
-- **Metrics**: Step count, token usage, confidence, gap count, execution time
-- **Alerts**: CRITICAL_GAP, confidence < 0.3, scope violation, timeout
-- **Provenance**: Every output traces back to source evidence via provenance chain
-
-## Composition
-
-- **Skill**: `amos-interactive-evaluation-design-rscf`
-- **Agent**: `amos-interactive-evaluation-design-rscf-agent`
-- **Parent workflow**: Routes via `AMOS_HOME` or parent skill workflow
-- **Chain depth**: Maximum 3 workflows in sequence without orchestrator approval
-- **Parallel execution**: Supported when independent capabilities are invoked
