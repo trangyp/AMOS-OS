@@ -1,67 +1,51 @@
 ---
 canon-group: meta
 canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
+rscf-state: derived
 rscf-provenance: AMOS_corpus
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: DERIVED
 topic: Coverage Thresholds
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
+updated: 2026-09-14
 ---
----
----
 
-# COVERAGE_THRESHOLDS — Definition
+# COVERAGE_THRESHOLDS — Executable Threshold Contract
 
-**Package:** `COVERAGE_THRESHOLDS_`
-**Class:** `COGNITIVE_MATRIX_CONTRACT`
-**Epistemic class:** `DERIVED / MODEL EXTENSION`
-**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
-**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
+**Origin architect / steward:** Trang Phan  
+**Status:** `IMPLEMENTED_BOUNDED / VALIDATED_BOUNDED`  
+**Runtime:** `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/matrix_registry_runtime.py`
 
-## Scope
+## Dimensions
 
-Covers the operation contract for this lifecycle operator.
-
-## Definition
-
-THRESHOLDS
-
-This is a **contract-level definition**, not an implementation claim.
-
-## Hard boundaries
+Coverage thresholds are defined independently for:
 
 ```text
-CONTRACT_FILLED != IMPLEMENTED
-DOCUMENTED != EXECUTABLE
-MODEL != VERIFIED
-UNKNOWN/GAP != PASS
+source
+contract
+implementation
+validation
+authority
 ```
 
-______________________________________________________________________
+Each threshold is a finite real value in `[0,1]`. Address coverage is measured but is not used as a substitute for the other dimensions.
 
-[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+Default strict thresholds are `1.0` for all five decision dimensions. A caller may explicitly use lower thresholds for a bounded task, but the selected thresholds must travel with the resulting audit claim.
 
-______________________________________________________________________
+## Invariants
 
-RSCF-NODE
-node_id: coverage_thresholds_coverage_definition
-node_type: note
-path: 07_COVERAGE/COVERAGE_THRESHOLDS\_/COVERAGE_THRESHOLDS.md
-claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/07_COVERAGE/COVERAGE_THRESHOLDS.md
+```text
+0 <= threshold_d <= 1
+ADDRESS_COVERAGE != IMPLEMENTATION_COVERAGE
+IMPLEMENTATION_COVERAGE != VALIDATION_COVERAGE
+VALIDATION_COVERAGE != AUTHORITY_COVERAGE
+CUSTOM_THRESHOLD != UNIVERSAL_COMPLETENESS_STANDARD
+```
 
-______________________________________________________________________
+A threshold outside `[0,1]` is rejected by the runtime.
 
-**MOC:** [[25_COGNITIVE_MATRIX/07_COVERAGE/07_COVERAGE_MOC|07_COVERAGE_MOC]]
+## Boundary
 
-______________________________________________________________________
+Threshold selection is an AMOS decision model, not an empirical law. Passing a bounded threshold does not imply that the full AMOS OS is complete.
 
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]]
