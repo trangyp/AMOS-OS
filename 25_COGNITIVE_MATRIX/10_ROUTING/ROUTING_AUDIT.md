@@ -1,146 +1,65 @@
 ---
 canon-group: meta
-canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
-conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+canon-type: validation_summary
+rscf-state: derived
+rscf-provenance: AMOS_corpus_plus_executable_repair
+conclusion_class: DERIVED
+epistemic_class: DERIVED
 topic: Routing Audit
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
+updated: 2026-09-14
+origin_architect: Trang Phan
 ---
----
+
 # Routing Audit
 
-## 0. Status
+## Evidence layers
 
-```text
-PLACEHOLDER != IMPLEMENTED
-ADDRESSABLE != VALIDATED
-DOCUMENTED != ENFORCED
-MODEL != OBSERVATION
-SOURCE_CLAIM != VERIFIED
-CANON_CANDIDATE != CANONICAL
-CAPABILITY != AUTHORITY
-UNKNOWN/GAP != PASS
-```
+1. Historical repository receipt: structural routing-policy validator recorded `19/19 PASS`; this is preserved as bounded prior evidence.
+2. Current repair runtime: `cognitive_matrix_routing_runtime.py` has a separate local suite.
+3. ALU-02 integration: the router exposes finite first-order term unification without upgrading full FOL theorem proving.
+4. GitHub CI/deployment: not established for this branch head unless an external workflow receipt is attached later.
 
-Origin architect / steward: **Trang Phan**
+## Current local repair checks
 
-## 1. Purpose
+The current local routing suite checks:
 
-Cross-plane cognitive matrices. This artifact defines the Routing Audit within the AMOS OS Cognitive Matrix plane, establishing the canonical contract, structural invariants, and integration points required for governed operation.
+- specialist precedence independent of registration order;
+- explicit-target failure without silent fallback;
+- ambiguity preservation;
+- `UNKNOWN/GAP` and failed premise handling;
+- regime/scope/capability hard gates;
+- selective epoch freshness;
+- validation gating;
+- capability/authority separation;
+- independent provenance-root counting;
+- incapable fallback rejection;
+- wildcard scope rejection;
+- duplicate target rejection;
+- bounded classical routing;
+- ALU-02 bounded unification routing;
+- full-FOL theorem-proving denial;
+- ALU-07 rebind visibility;
+- effectful routes remaining proposal-only.
 
-## 2. Formal Definition
+Local result in this repair pass: `24/24 PASS` for the routing unit suite plus `5/5 PASS` routing-to-unification integration checks.
 
-| Property | Value |
-|:---|:---|
-| Artifact Type | COGNITIVE_MATRIX |
-| Canonical Status | CONDITIONAL |
-| Epistemic Class | AMOS_MODEL |
-| RSCF State | OBSERVATION |
-| Implementation Status | NOT_ESTABLISHED |
-| Provenance Independence | NOT_ESTABLISHED |
+These counts are local reconstructed execution evidence, not CI and not deployment validation.
 
-### Structural Invariants
+## Falsifiers / downgrade triggers
 
-1. **Integrity Dominance**: INTEGRITY > COMPLETENESS > FLUENCY > SPEED
-2. **Epistemic Discipline**: SOURCE_CLAIM != VERIFIED; MODEL != OBSERVATION
-3. **Scope Binding**: Claims valid only within declared scope and regime
-4. **Authority Boundary**: CAPABILITY != AUTHORITY; PROPOSAL != COMMIT
-5. **Causal Firewall**: No causal claim without causal evidence
-6. **Uncertainty Preservation**: UNKNOWN/GAP != PASS
-
-### AMOS Law Compliance
-
-| Law | Obligation |
-|:---|:---|
-| L0 Integrity | Integrity dominance; no fabricated closure |
-| L1 Epistemic | Evidence typing; source claim != verification |
-| L2 Provenance | Every claim traces to source |
-| L4 Causal | Causal firewall; correlation != causation |
-| L5 Scope | Claims valid only within scope/regime |
-| L7 Authority | No autonomous action beyond authority boundary |
-| L17 RSCF | Claim discipline; confidence ceiling enforced |
-| L27 Gap | Expose don't fill; gap is status not shame |
-
-## 3. AMOS Architecture Integration
-
-This artifact integrates with the AMOS OS architecture through:
-
-- **Canon Plane**: Governed by [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- **Kernel Plane**: Connects to [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] for runtime enforcement
-- **Control Plane**: Routes through [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] for execution
-- **Knowledge Plane**: Indexed in [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]]
-- **SOTA Research**: Informed by [[22_RESEARCH/SOTA_RESEARCH_SYNTHESIS_2026-09-04|SOTA Synthesis Part 1]], [[22_RESEARCH/SOTA_RESEARCH_SYNTHESIS_2_2026-09-04|Part 2]], [[22_RESEARCH/SOTA_RESEARCH_SYNTHESIS_3_2026-09-04|Part 3]]
-
-### H/M/L Resolution
-
-- **H (High)**: Constitutional reasoning, irreversible actions → full proof capsule required
-- **M (Medium)**: Domain policy, reversible transformations → evidence + provenance required
-- **L (Low)**: Mechanical checks, local operations → type/format check sufficient
-
-### RSCF Classification
-
-- **State**: OBSERVATION (sourced from architectural specification)
-- **Claim Class**: OBSERVATION
-- **Confidence Ceiling**: source_supported (capped at 0.7 without independent validation)
-- **Provenance**: amos_architecture_2026-09-04
-
-## 4. Cross-References
-
-- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
-- [[00_ROOT/AMOS MOC|AMOS MOC]]
-- [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03|AMOS OS Audit 2026-09-03]]
-
-## 5. Gaps
-
-- Implementation status NOT_ESTABLISHED — architecture defined, runtime not deployed
-- Provenance independence NOT_ESTABLISHED — single-source derivation
-- Canonical status CONDITIONAL — requires governed promotion for CANONICAL
-- Test coverage UNKNOWN — no executed validation evidence
-- External authority NOT_ESTABLISHED — no independent verification
-
-## 6. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_file:
-    preserve: true
-    overwrite: false
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
-```
-
----
+- a hard-scope mismatch routes successfully;
+- registration order changes the semantic winner;
+- a materially tied route is silently selected;
+- an effectful route is marked committed by this runtime;
+- full FOL proof search is represented as implemented because ALU-02 unification passes;
+- an unrelated epoch change invalidates a route with no dependency on that epoch;
+- a stale load-bearing epoch is reused;
+- duplicate provenance descendants are counted as independent roots.
 
 RSCF-NODE
-
 node_id: 25_cognitive_matrix_10_routing_routing_audit
-
-node_type: COGNITIVE_MATRIX
-
+node_type: VALIDATION_SUMMARY
 path: 25_COGNITIVE_MATRIX/10_ROUTING/ROUTING_AUDIT.md
-
-claim_class: OBSERVATION
-
-rscf_state: OBSERVATION
-
-canonical_status: CONDITIONAL
-
-RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+claim_class: DERIVED
+rscf_state: DERIVED

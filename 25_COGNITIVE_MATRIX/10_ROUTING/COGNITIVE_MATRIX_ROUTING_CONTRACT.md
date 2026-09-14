@@ -1,109 +1,68 @@
 ---
 canon-group: meta
-canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
+canon-type: runtime_contract
+rscf-state: derived
+rscf-provenance: AMOS_corpus_plus_executable_repair
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: DERIVED
 topic: Cognitive Matrix Routing Contract
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
+updated: 2026-09-14
+origin_architect: Trang Phan
 ---
----
----
 
-# COGNITIVE MATRIX ROUTING CONTRACT
+# Cognitive Matrix Routing Contract
 
-## 0. Status
+## Status
 
-Cognitive Matrix-plane contract for **ROUTING CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+`AMOS_MODEL / EXECUTABLE_BOUNDED_REFERENCE / CANONICAL_STATUS_CONDITIONAL`
 
-## 1. Scope
+## Contract
 
-Governs primitives L00–L29, lifecycle operations O00–O16, control planes C01–C09, scales, cell registry, routing, validation, generators as they bear on `ROUTING CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
+Routing is a constrained selection function over a declared candidate set. Let `C(q)` be the candidates matching query kind `q`. Let `H(c,q)` be the conjunction of hard admissibility predicates for scope, regime, capabilities, implementation state, validation, epoch freshness, and explicit evidence requirements.
 
-## 2. Contract terms
+The admissible set is defined by:
 
-- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
-- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
-- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
-- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
-- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
+`A(q) := { c in C(q) : H(c,q) }`.
 
-## 3. Invariants
+This is ordinary set-builder notation. It does not imply that every routing criterion is mathematical truth; the predicates are policy/model definitions.
 
-- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
-- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
-- Consequential effects emit receipts; rollback basin exists before mutation.
-- Competing hypotheses remain visible when evidence does not discriminate.
+Decision behavior:
 
-## 4. Executed reference
+- `A(q)=empty` -> visible `DENY`, `REBIND_REQUIRED`, or `UNKNOWN/GAP` according to the blocking state;
+- one policy-maximal candidate -> `ROUTED` for non-effectful work;
+- multiple materially equal policy-maximal candidates -> `AMBIGUOUS`;
+- effectful eligible route without authority binding -> `AUTHORITY_REQUIRED`;
+- effectful eligible route with an authority binding -> `PROPOSAL_ONLY`, never commit.
 
-No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
+## Protected distinctions
 
-## 5. Gaps
+```text
+ELIGIBLE != AUTHORIZED_TO_COMMIT
+SUBFRAGMENT_EXECUTABLE != WHOLE_FRAGMENT_EXECUTABLE
+PROVENANCE_ROOT_COUNT != PROVEN_INDEPENDENCE
+ROUTING_DEPENDENCY != CAUSATION
+VALIDATED_POLICY != LIVE_DEPLOYMENT
+```
 
-Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
+## Integration
 
-## 6. Falsifiers
+- logic semantics remain owned by ULK;
+- mathematical/meta-structural objects remain owned by URK;
+- epistemic state remains RSCF-governed;
+- durable effects remain control-plane governed;
+- dependency freshness consumes typed dependency relations rather than generic graph adjacency.
 
-F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
+## Current implementation
 
-## Worked semantics
-
-Given an operation touching `COGNITIVE MATRIX · ROUTING CONTRACT` within the Cognitive Matrix plane:
-
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-## Promotion-gate checklist
-
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-## Cross-plane bindings
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-**Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
-
-______________________________________________________________________
+- runtime: `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/cognitive_matrix_routing_runtime.py`
+- tests: `test_cognitive_matrix_routing_runtime.py`
+- ALU-02 executor: `unification_runtime.py`
+- integration tests: `test_routing_unification_integration.py`
 
 RSCF-NODE
-node_id: cm_25_cognitive_matrix_10_routing_cognitive_matrix_routing_contract
-node_type: note
+node_id: cm_25_cognitive_matrix_10_routing_contract
+node_type: ROUTING_CONTRACT
 path: 25_COGNITIVE_MATRIX/10_ROUTING/COGNITIVE_MATRIX_ROUTING_CONTRACT.md
 claim_class: AMOS_MODEL
-
-______________________________________________________________________
-
-**MOC:** [[25_COGNITIVE_MATRIX/10_ROUTING/10_ROUTING_MOC|10_ROUTING_MOC]]
-
-______________________________________________________________________
-
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+rscf_state: DERIVED

@@ -1,146 +1,95 @@
 ---
 canon-group: meta
-canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
+canon-type: runtime_contract
+rscf-state: derived
+rscf-provenance: AMOS_corpus_plus_executable_repair
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
-topic: Binding Rules
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
+epistemic_class: DERIVED
+topic: Routing Binding Rules
 created: 2026-08-22
+updated: 2026-09-14
+origin_architect: Trang Phan
 ---
----
-# Binding Rules
 
-## 0. Status
-
-```text
-PLACEHOLDER != IMPLEMENTED
-ADDRESSABLE != VALIDATED
-DOCUMENTED != ENFORCED
-MODEL != OBSERVATION
-SOURCE_CLAIM != VERIFIED
-CANON_CANDIDATE != CANONICAL
-CAPABILITY != AUTHORITY
-UNKNOWN/GAP != PASS
-```
+# Routing Binding Rules
 
 Origin architect / steward: **Trang Phan**
 
-## 1. Purpose
+Bindings are typed constraints, not naming conventions.
 
-Cross-plane cognitive matrices. This artifact defines the Binding Rules within the AMOS OS Cognitive Matrix plane, establishing the canonical contract, structural invariants, and integration points required for governed operation.
+## Request binding
 
-## 2. Formal Definition
+A `RouteRequest` binds:
 
-| Property | Value |
-|:---|:---|
-| Artifact Type | COGNITIVE_MATRIX |
-| Canonical Status | CONDITIONAL |
-| Epistemic Class | AMOS_MODEL |
-| RSCF State | OBSERVATION |
-| Implementation Status | NOT_ESTABLISHED |
-| Provenance Independence | NOT_ESTABLISHED |
+- request identity;
+- query kind;
+- exact scope;
+- exact regime;
+- required capabilities;
+- optional explicit target;
+- load-bearing premise state;
+- current named epochs;
+- explicit minimum independent-evidence-root threshold when required;
+- effectfulness and presence/absence of an authority binding;
+- consequence class;
+- payload.
 
-### Structural Invariants
+Missing scope/regime identity is invalid. A wildcard candidate scope/regime is rejected by the bounded reference runtime.
 
-1. **Integrity Dominance**: INTEGRITY > COMPLETENESS > FLUENCY > SPEED
-2. **Epistemic Discipline**: SOURCE_CLAIM != VERIFIED; MODEL != OBSERVATION
-3. **Scope Binding**: Claims valid only within declared scope and regime
-4. **Authority Boundary**: CAPABILITY != AUTHORITY; PROPOSAL != COMMIT
-5. **Causal Firewall**: No causal claim without causal evidence
-6. **Uncertainty Preservation**: UNKNOWN/GAP != PASS
+## Candidate binding
 
-### AMOS Law Compliance
+A `RouteCandidate` binds:
 
-| Law | Obligation |
-|:---|:---|
-| L0 Integrity | Integrity dominance; no fabricated closure |
-| L1 Epistemic | Evidence typing; source claim != verification |
-| L2 Provenance | Every claim traces to source |
-| L4 Causal | Causal firewall; correlation != causation |
-| L5 Scope | Claims valid only within scope/regime |
-| L7 Authority | No autonomous action beyond authority boundary |
-| L17 RSCF | Claim discipline; confidence ceiling enforced |
-| L27 Gap | Expose don't fill; gap is status not shame |
+- stable target identity;
+- supported query kinds;
+- exact scopes/regimes;
+- capabilities;
+- implementation state;
+- validation state;
+- semantic policy priority;
+- specialist/default role;
+- source version;
+- provenance roots;
+- load-bearing epoch dependencies.
 
-## 3. AMOS Architecture Integration
+Duplicate target IDs fail the candidate registry closed.
 
-This artifact integrates with the AMOS OS architecture through:
+## Implementation-state boundary
 
-- **Canon Plane**: Governed by [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- **Kernel Plane**: Connects to [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] for runtime enforcement
-- **Control Plane**: Routes through [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] for execution
-- **Knowledge Plane**: Indexed in [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]]
-- **SOTA Research**: Informed by [[22_RESEARCH/SOTA_RESEARCH_SYNTHESIS_2026-09-04|SOTA Synthesis Part 1]], [[22_RESEARCH/SOTA_RESEARCH_SYNTHESIS_2_2026-09-04|Part 2]], [[22_RESEARCH/SOTA_RESEARCH_SYNTHESIS_3_2026-09-04|Part 3]]
-
-### H/M/L Resolution
-
-- **H (High)**: Constitutional reasoning, irreversible actions → full proof capsule required
-- **M (Medium)**: Domain policy, reversible transformations → evidence + provenance required
-- **L (Low)**: Mechanical checks, local operations → type/format check sufficient
-
-### RSCF Classification
-
-- **State**: OBSERVATION (sourced from architectural specification)
-- **Claim Class**: OBSERVATION
-- **Confidence Ceiling**: source_supported (capped at 0.7 without independent validation)
-- **Provenance**: amos_architecture_2026-09-04
-
-## 4. Cross-References
-
-- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
-- [[00_ROOT/AMOS MOC|AMOS MOC]]
-- [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03|AMOS OS Audit 2026-09-03]]
-
-## 5. Gaps
-
-- Implementation status NOT_ESTABLISHED — architecture defined, runtime not deployed
-- Provenance independence NOT_ESTABLISHED — single-source derivation
-- Canonical status CONDITIONAL — requires governed promotion for CANONICAL
-- Test coverage UNKNOWN — no executed validation evidence
-- External authority NOT_ESTABLISHED — no independent verification
-
-## 6. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_file:
-    preserve: true
-    overwrite: false
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+```text
+EXECUTABLE_BOUNDED
+EXECUTABLE_BOUNDED_SUBFRAGMENT
+REBIND_PENDING
+SPECIFICATION_ONLY
+UNKNOWN
 ```
 
----
+`EXECUTABLE_BOUNDED_SUBFRAGMENT` is intentionally narrower than full-fragment execution. ALU-02 finite first-order term unification occupies this state; it does not license quantifier inference or theorem-prover completeness.
+
+## Epoch rule
+
+Only declared load-bearing epoch dependencies invalidate a cached route. An unrelated epoch change does not force global invalidation.
+
+For candidate `c` with bound epoch dependencies `E_c` and current epoch map `E`:
+
+`Fresh(c,E)` iff every `(k,v)` in `E_c` satisfies `E[k]=v`.
+
+This is a definition of the reference contract, not a universal law of distributed systems.
+
+## Authority rule
+
+`authority_bound=True` means only that the routing request carries an authority binding. It does not authorize commit inside the router.
+
+```text
+ROUTE_ELIGIBLE + AUTHORITY_BOUND + EFFECTFUL
+-> PROPOSAL_ONLY
+```
+
+Commit-time authorization remains a control-plane responsibility.
 
 RSCF-NODE
-
 node_id: 25_cognitive_matrix_10_routing_binding_rules
-
-node_type: COGNITIVE_MATRIX
-
+node_type: ROUTING_BINDING_CONTRACT
 path: 25_COGNITIVE_MATRIX/10_ROUTING/BINDING_RULES.md
-
-claim_class: OBSERVATION
-
-rscf_state: OBSERVATION
-
-canonical_status: CONDITIONAL
-
-RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+claim_class: AMOS_MODEL
+rscf_state: DERIVED

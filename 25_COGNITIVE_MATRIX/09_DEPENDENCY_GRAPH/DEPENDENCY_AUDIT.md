@@ -1,69 +1,53 @@
 ---
 canon-group: meta
-canon-type: framework
+canon-type: validation_summary
 rscf-state: derived
 rscf-provenance: AMOS_corpus_plus_executable_repair
-conclusion_class: AMOS_MODEL
+conclusion_class: DERIVED
 epistemic_class: DERIVED
 topic: Dependency Audit
 created: 2026-08-22
 updated: 2026-09-14
 origin_architect: Trang Phan
-canonical_status: CONDITIONAL
 ---
 
-# DEPENDENCY_AUDIT — Executable Dependency Graph Audit
+# Dependency Audit
 
-## Status
+The typed dependency runtime separates load-bearing dependency from support, alternatives, contradiction, observation, supersession, invalidation proposal, and correlation.
 
-`IMPLEMENTED_BOUNDED / LOCALLY_VALIDATED`
+## Incremental algorithm admission
 
-Executor: `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/cognitive_matrix_dependency_runtime.py`.
+`incremental_dependency_index.py` adds an insertion-incremental reachability index.
 
-## Audit procedure
+For an already closed reachability relation and a newly admitted edge `u -> v`, only nodes that already reach `u` (plus `u`) can acquire reachability to `v` or its existing descendants. The runtime therefore updates the Cartesian product:
 
-1. require unique node IDs;
-2. require unique edge IDs;
-3. require every active edge endpoint to resolve to a declared node;
-4. preserve the typed relation instead of flattening edges;
-5. build load-bearing adjacency only from `NECESSARY`, `DERIVED_FROM`, and `CONDITIONED_ON`;
-6. compute Boolean transitive closure;
-7. surface load-bearing cycles as `UNKNOWN/GAP` unless fixed-point semantics are separately declared;
-8. extract contradiction pairs without selecting a winner;
-9. extract `INVALIDATES` and `SUPERSEDES` relations as proposals, not committed effects;
-10. export direct load-bearing dependency maps for the coverage engine;
-11. on invalidation, stale only transitive dependents and preserve unrelated state.
+`Pred+(u) x Succ+(v)`
 
-## Graph status
+where the `+` notation here means "include the endpoint itself". This is an implementation identity for single-edge insertion against the maintained transitive closure, not a causal equation.
 
-```text
-VALID_BOUNDED
-INVALID
-UNKNOWN/GAP
-```
+Cycle localization uses Tarjan strongly connected components. When fixed-point cycle semantics are not explicitly enabled, a new edge that creates a cycle is rejected before state mutation.
 
-`INVALID` is used for malformed graph identity/endpoints. `UNKNOWN/GAP` is used for a structurally known graph whose cyclic load-bearing semantics are unresolved.
+Deletion is intentionally different: the insertion delta rule is not deletion-correct. By default edge removal returns `RECOMPUTE_REQUIRED`; an explicit bounded path may perform full recomputation.
 
-## Executed evidence — 2026-09-14
+## Local evidence
 
-Local bounded runs:
-- dependency unit suite: 19 pass / 0 fail;
-- dependency-to-coverage integration: 3 pass / 0 fail;
-- combined dependency repair suite: 22 pass / 0 fail;
-- seeded DAG stress: 5,000 graphs;
-- closure checks: 29,949 node-level comparisons against independent DFS reachability;
-- selective invalidation checks: 5,000 comparisons against independently constructed reverse reachability;
-- observed stress mismatches: 0.
+Current local incremental suite: `10/10 PASS`, including randomized DAG insertion differential checks against independent full reachability recomputation and non-mutation on blocked cycle attempts.
 
-No GitHub Actions receipt is attached to this repair.
+A synthetic benchmark with 220 nodes and 900 acyclic insertions produced the same final closure and measured approximately:
 
-## Non-claims
+- incremental insertion maintenance: `0.0133 s`;
+- full closure recomputed after every insertion: `0.6734 s`;
+- observed ratio: about `50.8x` for that benchmark/environment.
 
-```text
-22 LOCAL PASS != SYSTEM-WIDE CORRECTNESS
-DEPENDENCY_GRAPH != CAUSAL_GRAPH
-INVALIDATION_PROPOSAL != AUTHORIZED_EFFECT
-ACYCLIC_GRAPH != EMPIRICAL_TRUTH
-```
+This is a bounded synthetic benchmark, not a universal performance claim.
 
-[[25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/COGNITIVE_MATRIX_DEPENDENCY_GRAPH_CONTRACT|COGNITIVE_MATRIX_DEPENDENCY_GRAPH_CONTRACT]]
+## External knowledge provenance
+
+The implementation is informed by established graph/SCC methods and by semi-naive/differential incremental-computation principles. It does not copy external source code. External mechanism familiarity does not grant AMOS semantic or Canon authority.
+
+RSCF-NODE
+node_id: dependency_audit_graph_definition
+node_type: VALIDATION_SUMMARY
+path: 25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/DEPENDENCY_AUDIT.md
+claim_class: DERIVED
+rscf_state: DERIVED

@@ -1,146 +1,97 @@
 ---
 canon-group: meta
-canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
+canon-type: runtime_contract
+rscf-state: derived
+rscf-provenance: AMOS_corpus_plus_executable_repair
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: DERIVED
 topic: Routing Policy
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
+updated: 2026-09-14
+origin_architect: Trang Phan
 ---
----
+
 # Routing Policy
-
-## 0. Status
-
-```text
-PLACEHOLDER != IMPLEMENTED
-ADDRESSABLE != VALIDATED
-DOCUMENTED != ENFORCED
-MODEL != OBSERVATION
-SOURCE_CLAIM != VERIFIED
-CANON_CANDIDATE != CANONICAL
-CAPABILITY != AUTHORITY
-UNKNOWN/GAP != PASS
-```
 
 Origin architect / steward: **Trang Phan**
 
-## 1. Purpose
+## Status
 
-Cross-plane cognitive matrices. This artifact defines the Routing Policy within the AMOS OS Cognitive Matrix plane, establishing the canonical contract, structural invariants, and integration points required for governed operation.
+`AMOS_MODEL / EXECUTABLE_BOUNDED_REFERENCE / NOT_CANON_PROMOTION`
 
-## 2. Formal Definition
+Executable owner:
+`04_RUNTIME/01_REFERENCE_IMPLEMENTATION/cognitive_matrix_routing_runtime.py`
 
-| Property | Value |
-|:---|:---|
-| Artifact Type | COGNITIVE_MATRIX |
-| Canonical Status | CONDITIONAL |
-| Epistemic Class | AMOS_MODEL |
-| RSCF State | OBSERVATION |
-| Implementation Status | NOT_ESTABLISHED |
-| Provenance Independence | NOT_ESTABLISHED |
+Historical structural-policy evidence remains useful but bounded: the prior routing-policy validator recorded 19/19 passing cases. That receipt is evidence for the tested policy surface, not proof of live deployment. The current bounded runtime is a separate implementation surface and must be tested separately.
 
-### Structural Invariants
+## Routing order
 
-1. **Integrity Dominance**: INTEGRITY > COMPLETENESS > FLUENCY > SPEED
-2. **Epistemic Discipline**: SOURCE_CLAIM != VERIFIED; MODEL != OBSERVATION
-3. **Scope Binding**: Claims valid only within declared scope and regime
-4. **Authority Boundary**: CAPABILITY != AUTHORITY; PROPOSAL != COMMIT
-5. **Causal Firewall**: No causal claim without causal evidence
-6. **Uncertainty Preservation**: UNKNOWN/GAP != PASS
+The router evaluates in this order:
 
-### AMOS Law Compliance
+1. validate registry identity;
+2. reject failed or `UNKNOWN/GAP` load-bearing premises;
+3. bind an explicit target if requested;
+4. hard-filter query kind, scope, regime, capabilities, implementation state, validation, load-bearing epochs, and explicitly requested evidence-root threshold;
+5. rank only the remaining eligible routes by declared semantic policy priority, then specialist status;
+6. preserve a material tie as `AMBIGUOUS`;
+7. separate route eligibility from effect authority;
+8. return an effectful route only as `PROPOSAL_ONLY` for the infrastructure/control plane.
 
-| Law | Obligation |
-|:---|:---|
-| L0 Integrity | Integrity dominance; no fabricated closure |
-| L1 Epistemic | Evidence typing; source claim != verification |
-| L2 Provenance | Every claim traces to source |
-| L4 Causal | Causal firewall; correlation != causation |
-| L5 Scope | Claims valid only within scope/regime |
-| L7 Authority | No autonomous action beyond authority boundary |
-| L17 RSCF | Claim discipline; confidence ceiling enforced |
-| L27 Gap | Expose don't fill; gap is status not shame |
+Registration order, speed, convenience, or a soft score cannot override a failed hard gate.
 
-## 3. AMOS Architecture Integration
+## Current bounded logic routes
 
-This artifact integrates with the AMOS OS architecture through:
+- Classical propositional inference: `EXECUTABLE_BOUNDED`.
+- ALU-02 finite first-order **term unification with occurs-check**: `EXECUTABLE_BOUNDED_SUBFRAGMENT`.
+- Full first-order theorem proving / quantifier proof search: not implemented.
+- ALU-07 quantum logic: `REBIND_PENDING` until exact checker/receipt identity is rebound.
+- Temporal/LTL, epistemic/modal, non-monotonic/Dung, dependent type, categorical/topos: no executable route in this reference registry yet.
 
-- **Canon Plane**: Governed by [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- **Kernel Plane**: Connects to [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] for runtime enforcement
-- **Control Plane**: Routes through [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] for execution
-- **Knowledge Plane**: Indexed in [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]]
-- **SOTA Research**: Informed by [[22_RESEARCH/SOTA_RESEARCH_SYNTHESIS_2026-09-04|SOTA Synthesis Part 1]], [[22_RESEARCH/SOTA_RESEARCH_SYNTHESIS_2_2026-09-04|Part 2]], [[22_RESEARCH/SOTA_RESEARCH_SYNTHESIS_3_2026-09-04|Part 3]]
+ALU-02 source evidence is bound to the 2026-09-14 `_00_AMOS_CANON` candidate profile/checker/receipt. The source checker SHA-256 is `002a4c72adf0afaa7ad1b33792008ea6a525ca43b69ae4eff301c1b06a135275`. The repository runtime adds explicit resource bounds and therefore requires its own local regression evidence; it does not inherit Canon authority from the Drive candidate.
 
-### H/M/L Resolution
+## Hard invariants
 
-- **H (High)**: Constitutional reasoning, irreversible actions → full proof capsule required
-- **M (Medium)**: Domain policy, reversible transformations → evidence + provenance required
-- **L (Low)**: Mechanical checks, local operations → type/format check sufficient
-
-### RSCF Classification
-
-- **State**: OBSERVATION (sourced from architectural specification)
-- **Claim Class**: OBSERVATION
-- **Confidence Ceiling**: source_supported (capped at 0.7 without independent validation)
-- **Provenance**: amos_architecture_2026-09-04
-
-## 4. Cross-References
-
-- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
-- [[00_ROOT/AMOS MOC|AMOS MOC]]
-- [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03|AMOS OS Audit 2026-09-03]]
-
-## 5. Gaps
-
-- Implementation status NOT_ESTABLISHED — architecture defined, runtime not deployed
-- Provenance independence NOT_ESTABLISHED — single-source derivation
-- Canonical status CONDITIONAL — requires governed promotion for CANONICAL
-- Test coverage UNKNOWN — no executed validation evidence
-- External authority NOT_ESTABLISHED — no independent verification
-
-## 6. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_file:
-    preserve: true
-    overwrite: false
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+```text
+HARD_GATE_FAIL -> INELIGIBLE
+UNKNOWN/GAP != PASS
+EXPLICIT_TARGET_MISSING -> VISIBLE_FAILURE
+AMBIGUOUS != SILENT_WINNER
+CAPABILITY != AUTHORITY
+ROUTED != COMMITTED
+VALIDATION_PASS != CANON_PROMOTION
+REGISTRATION_ORDER != SEMANTIC_PRIORITY
+SCOPE_MISMATCH != FALLBACK_PERMISSION
+DEPENDENCY_FRESHNESS_IS_SELECTIVE
 ```
 
----
+Shared provenance descendants do not create independent evidence roots merely by count.
+
+## External algorithm admissions
+
+External algorithms are admitted as mechanisms only after AMOS boundary checks:
+
+- first-order unification: Robinson / Martelli-Montanari family semantics with occurs-check;
+- Tarjan SCC: cycle localization for dependency topology;
+- semi-naive / differential-style delta propagation: incremental dependency reachability for insertions;
+- e-graphs/equality saturation: research candidate for future rewrite search, not admitted as Canon or current executor;
+- SMT incremental scopes: research candidate for repeated constraint solving;
+- symbolic model checking: research candidate for temporal/state transition verification.
+
+`ALGORITHM_KNOWN_ON_INTERNET != AMOS_ADMITTED_IMPLEMENTATION`.
+
+## Non-claims
+
+- no live deployment claim;
+- no full FOL theorem-prover claim;
+- no effect authority;
+- no Canon promotion;
+- no universal optimality of policy priority;
+- no claim that all internet algorithms have been exhaustively enumerated.
 
 RSCF-NODE
-
 node_id: 25_cognitive_matrix_10_routing_routing_policy
-
-node_type: COGNITIVE_MATRIX
-
+node_type: COGNITIVE_MATRIX_ROUTING_POLICY
 path: 25_COGNITIVE_MATRIX/10_ROUTING/ROUTING_POLICY.md
-
-claim_class: OBSERVATION
-
-rscf_state: OBSERVATION
-
+claim_class: AMOS_MODEL
+rscf_state: DERIVED
 canonical_status: CONDITIONAL
-
-RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
