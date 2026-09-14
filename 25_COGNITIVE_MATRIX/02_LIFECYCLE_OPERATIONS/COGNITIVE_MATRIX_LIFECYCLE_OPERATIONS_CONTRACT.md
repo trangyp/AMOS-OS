@@ -14,85 +14,120 @@ tags:
   - rscf/state/source-claim
   - misc
 created: 2026-08-22
----
----
+updated: 2026-09-14
 ---
 
 # COGNITIVE MATRIX LIFECYCLE OPERATIONS CONTRACT
 
 ## 0. Status
 
-Cognitive Matrix-plane contract for **LIFECYCLE OPERATIONS CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+Contract for lifecycle operations `O00`–`O16`.
+
+- Canonical class: `AMOS_MODEL / CONDITIONAL`.
+- Generic lifecycle contract runtime: `IMPLEMENTED / VALIDATED_BOUNDED`.
+- Per-operation domain-semantic executors: `PARTIAL / UNKNOWN-GAP where not separately bound`.
+- Production/deployment validity: `NOT ESTABLISHED`.
+
+Origin architect / steward: **Trang Phan**.
 
 ## 1. Scope
 
-Governs primitives L00–L29, lifecycle operations O00–O16, control planes C01–C09, scales, cell registry, routing, validation, generators as they bear on `LIFECYCLE OPERATIONS CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
+The lifecycle plane contains exactly 17 operation identities:
 
-## 2. Contract terms
+`O00_DISTINCTION`, `O01_OBJECT`, `O02_RELATION`, `O03_BINDING`, `O04_STATE`, `O05_MEMORY`, `O06_MODEL`, `O07_INFERENCE`, `O08_PREDICTION`, `O09_SIMULATION`, `O10_VALUE`, `O11_GOAL`, `O12_PLAN`, `O13_DECISION`, `O14_ACTION`, `O15_OBSERVATION`, `O16_LEARNING`.
 
-- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
-- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
-- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
-- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
-- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
+The generic runtime owns operation identity, typed transition requests, artifact identity, state-version binding, scope, regime, provenance, epistemic-transition receipts, explicit dependency binding, and the action/authority boundary.
 
-## 3. Invariants
+## 2. Hard firewalls
 
-- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
-- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
-- Consequential effects emit receipts; rollback basin exists before mutation.
-- Competing hypotheses remain visible when evidence does not discriminate.
+```text
+OPERATION_ID != IMPLEMENTATION
+OPERATION_ORDER != DEPENDENCY
+OPERATION_ORDER != CAUSALITY
+MEMORY != KNOWLEDGE
+PREDICTION != CAUSATION
+SIMULATION != DEPLOYMENT
+ACTION != EFFECT_AUTHORITY
+CAPABILITY != AUTHORITY
+LEARNING != HOST_MODEL_WEIGHT_MUTATION
+PROPOSAL != COMMIT
+OBSERVED != CURRENT
+TEST_PASS != TRUTH
+```
 
-## 4. Executed reference
+`O00`–`O16` numbering does not establish an execution chain. Dependencies must be explicitly declared and typed.
 
-No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
+## 3. Epistemic transition rule
 
-## 5. Gaps
+A lifecycle operation may preserve the input epistemic class without additional promotion evidence.
 
-Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
+A requested change in epistemic class must carry a distinct epistemic-transition/revalidation receipt. Operation names such as `INFERENCE`, `MODEL`, `PREDICTION`, or `DECISION` do not themselves authorize an epistemic upgrade.
 
-## 6. Falsifiers
+## 4. Consequential action rule
 
-F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
+A consequential-effect request is structurally admissible only on `O14_ACTION` and must bind an authority witness identity.
 
-## Worked semantics
+Even then, the lifecycle runtime produces a **non-authoritative contract receipt** only. External effect staging/commit remains owned by the control/infrastructure planes.
 
-Given an operation touching `COGNITIVE MATRIX · LIFECYCLE OPERATIONS CONTRACT` within the Cognitive Matrix plane:
+```text
+LIFECYCLE_ACTION_VALID != COMMIT_AUTHORIZED
+```
 
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+## 5. Learning boundary
 
-## Promotion-gate checklist
+`O16_LEARNING` means governed mutation of external AMOS artifacts/state under the applicable control plane. It does not grant permission or capability to mutate the host model's neural weights.
 
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+## 6. Executed reference
 
-## Cross-plane bindings
+Repository implementation:
 
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/lifecycle_operation_runtime.py`
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/test_lifecycle_operation_runtime.py`
 
-______________________________________________________________________
+Executed CI evidence on 2026-09-14, commit `eab367ac78a109c5424f32e1a0b4a7ee32d9047e`:
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+- exact 17-operation registry;
+- operation order creates no dependency edges;
+- only explicit typed dependencies are admitted;
+- epistemic changes fail closed without transition receipt;
+- consequential requests outside `O14_ACTION` fail closed;
+- consequential action requests require authority witness identity;
+- valid lifecycle action still does not mint effect authority;
+- `O16_LEARNING` never grants host-weight mutation;
+- memory/prediction/simulation names do not silently upgrade semantics;
+- complete reference-runtime unittest discovery passed.
 
-______________________________________________________________________
+This validates bounded contract behavior only.
 
-**Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
+## 7. Remaining gaps
 
-______________________________________________________________________
+Generic lifecycle contract closure is not semantic completion of all operations. Open per-operation gaps may include:
+
+- domain-specific transformation semantics;
+- source/canon reconciliation;
+- mathematical correctness of claimed equations;
+- state transition implementation;
+- empirical validation;
+- persistence/concurrency;
+- authorization/finality;
+- rollback/recovery.
+
+Unresolved gaps remain `UNKNOWN/GAP`.
+
+## 8. Selective invalidation boundary
+
+Dependency-based invalidation is an AMOS governance/runtime mechanism, not a mathematical theorem. It may mark dependent state stale/affected only when dependency orientation, state epoch, closure algorithm, and validation evidence are explicitly bound. It does not prove descendants false.
+
+## 9. Falsifiers
+
+Revise this contract if:
+
+1. authoritative source changes the O00–O16 identity set;
+2. a lifecycle implementation infers dependencies merely from operation numbering;
+3. an operation name upgrades epistemic status without evidence;
+4. action/capability mints effect authority;
+5. learning is represented as host neural-weight self-mutation;
+6. bounded generic contract coverage is represented as semantic completion.
 
 RSCF-NODE
 node_id: cm_02_lifecycle_operations_cognitive_matrix_lifecycle_operations_contract
@@ -100,10 +135,6 @@ node_type: note
 path: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/COGNITIVE_MATRIX_LIFECYCLE_OPERATIONS_CONTRACT.md
 claim_class: AMOS_MODEL
 
-______________________________________________________________________
-
 **MOC:** [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/02_LIFECYCLE_OPERATIONS_MOC|02_LIFECYCLE_OPERATIONS_MOC]]
-
-______________________________________________________________________
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
