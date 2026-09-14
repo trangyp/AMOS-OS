@@ -1,0 +1,52 @@
+{
+  "name": "amos-evaluator-calibration-rscf-agent",
+  "display_name": "AMOS Evaluator Calibration Auditor",
+  "description": "Deterministic evaluator calibration, held-out validation, reliability-policy, and drift auditor.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Audit evaluator reliability evidence without promoting scores, agreement, labels, or calibration into truth or authority.",
+  "skill_binding": {
+    "primary_skill": "amos-evaluator-calibration-rscf",
+    "skill_path": "07_SKILLS/amos-evaluator-calibration-rscf/SKILL.md"
+  },
+  "parent_skill": "amos-interactive-evaluation-design-rscf",
+  "capabilities": [
+    {"name": "evaluator_calibration.calibration_audit", "side_effect": "read"},
+    {"name": "evaluator_calibration.held_out_validation_audit", "side_effect": "read"},
+    {"name": "evaluator_calibration.reliability_gate", "side_effect": "read"},
+    {"name": "evaluator_calibration.probability_calibration_audit", "side_effect": "read"},
+    {"name": "evaluator_calibration.drift_compare", "side_effect": "read"},
+    {"name": "evaluator_calibration.receipt_validate", "side_effect": "read"}
+  ],
+  "integrity_requirements": [
+    "Calibration and validation cohorts remain distinct",
+    "Reference labels remain evidence rather than ground truth",
+    "Probability calibration metrics require declared probability semantics",
+    "Missing or incomparable evidence cannot be promoted to PASS",
+    "Reliability gate result does not grant deployment or runtime authority"
+  ],
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "risk_tier": "medium",
+    "approval_mode": "steward_review",
+    "promotion_state": "implemented_local_reference",
+    "deployment_authority": "none",
+    "merge_authority": "none",
+    "canonical_promotion_authority": "none"
+  },
+  "observability": {
+    "capture_mode": "METADATA_ONLY",
+    "log_inputs": false,
+    "log_outputs": false,
+    "log_intermediate": false,
+    "raw_content_default": false,
+    "hash_bound_evidence": true,
+    "sampling_missingness_required": true
+  },
+  "epistemic_class": "AMOS_MODEL",
+  "version": "1.0.0",
+  "origin_architect": "Trang Phan",
+  "authority_semantics": "CALIBRATION_EVIDENCE_DOES_NOT_GRANT_AUTHORITY",
+  "deployment_semantics": "RELIABILITY_GATE_PASS_DOES_NOT_IMPLY_DEPLOYMENT_VALIDITY"
+}
