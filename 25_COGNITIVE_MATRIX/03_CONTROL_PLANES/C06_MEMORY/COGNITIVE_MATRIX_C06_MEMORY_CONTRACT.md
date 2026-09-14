@@ -2,89 +2,132 @@
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
-rscf-claim: verified
+rscf-claim: conditional
 rscf-provenance: AMOS_corpus
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: AMOS_MODEL
 topic: Cognitive Matrix C06 Memory Contract
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
----
----
+updated: 2026-09-14
 ---
 
-# C06_MEMORY — Memory control: lifecycle gating, trust states, consolidation thresholds.
+# C06_MEMORY — Memory lifecycle control
 
 ## 0. Status
-Cognitive Matrix-plane contract for **C06 MEMORY CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+
+`EXECUTABLE_BOUNDED_LOCAL_REFERENCE / SQLITE / TESTED`
+
+Origin architect / steward: **Trang Phan**.
+
+C06 now has a subsystem-local executable reference. This does not promote memory to knowledge or establish distributed production correctness.
 
 ## 1. Scope
-Governs primitives L00–L29, lifecycle operations O00–O16, control planes C01–C09, scales, cell registry, routing, validation, generators as they bear on `C06 MEMORY CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
 
-## 2. Contract terms
-- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
-- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
-- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
-- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
-- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
+C06 governs bounded admission, versioned revision, retrieval, quarantine, expiration, tombstoning, provenance retention, bi-temporal validity, and local integrity checking.
 
-## 3. Invariants
-- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
-- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
-- Consequential effects emit receipts; rollback basin exists before mutation.
-- Competing hypotheses remain visible when evidence does not discriminate.
+## 2. Hard epistemic boundaries
 
-## 4. Executed reference
-No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
+```text
+MEMORY != KNOWLEDGE
+MEMORY != CURRENT_STATE
+RETRIEVED != CURRENT
+REMEMBERED != AUTHORIZED
+CONTENT_HASH_EQUAL != MEMORY_IDENTITY_EQUAL
+REVISION != IN_PLACE_REWRITE
+QUARANTINED != DEFAULT_RETRIEVABLE
+TOMBSTONED != DELETED_LINEAGE
+SIMILARITY != VALIDITY
+RECORDED_TIME != EVENT_VALID_TIME
+CONTEXT_ASSEMBLY != EPISTEMIC_PROMOTION
+```
 
-## 5. Gaps
-Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
+All ordinary retrievals remain `OBSERVATION` objects.
 
-## 6. Falsifiers
-F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
-## Worked semantics
-Given an operation touching `COGNITIVE MATRIX · C06 MEMORY CONTRACT` within the Cognitive Matrix plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+## 3. Lifecycle
 
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+Bounded state transitions are:
 
-## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CANON_README|01_CANON_README]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/02_KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/03_CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/17_OBSERVABILITY_README|17_OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/20_OPERATIONS_README|20_OPERATIONS_README]]
-RSCF-NODE
-node_id: cognitive_matrix_c06_memory_contract
-node_type: note
-path: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY/COGNITIVE_MATRIX_C06_MEMORY_CONTRACT.md
-RSCF-RELATIONS:
+`ACTIVE -> QUARANTINED | EXPIRED | TOMBSTONED`
 
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-- CHILD_OF: [[25_COGNITIVE_MATRIX/03_CONTROL_PLANES/COGNITIVE_MATRIX_CONTROL_PLANES_CONTRACT|COGNITIVE_MATRIX_CONTROL_PLANES_CONTRACT]]
-  claim_class: AMOS_MODEL
+A revision does not mutate historical content in place:
 
-______________________________________________________________________
+`ACTIVE(v) -> SUPERSEDED(v) + ACTIVE(v+1)`.
 
-**MOC:** [[25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY/C06_MEMORY_MOC|C06_MEMORY_MOC]]
+The predecessor remains addressable for explicitly authorized forensic/history access.
 
-______________________________________________________________________
+## 4. Bi-temporal contract
 
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+Each version records separately:
+
+- `valid_from`, `valid_to`: represented-world applicability interval;
+- `recorded_at`: time AMOS stored the version.
+
+`recorded_at` is never substituted for event-valid time.
+
+## 5. Authority
+
+Read and write capabilities are operation-specific. A read scope does not imply any write scope.
+
+Reference capability forms:
+
+- `memory:admit:<scope>`
+- `memory:revise:<scope>`
+- `memory:quarantine:<scope>`
+- `memory:expire:<scope>`
+- `memory:tombstone:<scope>`
+- `memory:read:<scope>`
+- `memory:forensic:<scope>`
+
+The witness must be fresh and state-version compatible.
+
+## 6. Integrity model
+
+The local runtime stores:
+
+1. SHA-256 content identity for every memory version;
+2. immutable origin identity and predecessor version lineage;
+3. an append-only operation ledger whose events bind the previous event hash.
+
+`verify_integrity()` checks stored content against its bound digest and recomputes the event chain.
+
+Hash-chain validity is evidence of local record integrity only. It is not proof that remembered content is true.
+
+## 7. Executable reference
+
+Runtime:
+
+`10_MEMORY/memory_lifecycle_runtime.py`
+
+Adversarial tests:
+
+`10_MEMORY/test_memory_lifecycle_runtime.py`
+
+CI:
+
+`.github/workflows/memory-runtime-tests.yml`
+
+The initial Memory Runtime CI lane completed successfully on 2026-09-14.
+
+Tests cover admission, default retrieval, versioned revision, stale-version rejection, quarantine isolation, expiration/tombstone lineage, bi-temporal validity, scoped authority, duplicate-content identity separation, and deliberate content/event-ledger tampering.
+
+## 8. Remaining UNKNOWN/GAP
+
+The local SQLite reference does **not** establish:
+
+- distributed consistency or consensus;
+- vector/embedding retrieval quality;
+- graph-extraction correctness;
+- truthfulness of stored content;
+- production latency or throughput;
+- cross-tenant authorization correctness;
+- privacy/compliance sufficiency;
+- automatic knowledge promotion;
+- independent trust-root or hardware-backed persistence guarantees.
+
+## 9. Promotion boundary
+
+`TEST_PASS != TRUTH` and `MEMORY_RUNTIME_VALID != KNOWLEDGE_VALID`.
+
+Any promotion beyond `AMOS_MODEL / bounded executable reference` requires independent evidence for the target claim and regime.
+
+[[10_MEMORY/10_MEMORY_README|10_MEMORY_README]] · [[25_COGNITIVE_MATRIX/03_CONTROL_PLANES/COGNITIVE_MATRIX_CONTROL_PLANES_CONTRACT|CONTROL_PLANES_CONTRACT]]
