@@ -81,6 +81,7 @@ class EffectIntent:
 @dataclass(frozen=True)
 class EffectRecord:
     record_id: int
+    ledger_generation: int
     intent: EffectIntent
     state: ReleaseState
     record_version: int
@@ -134,14 +135,17 @@ class ReleaseLedgerStore:
                 """
                 CREATE TABLE IF NOT EXISTS effect_records (
                     record_id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    idempotency_key TEXT NOT NULL UNIQUE,
-                    effect_digest TEXT NOT NULL UNIQUE,
+                    ledger_generation INTEGER NOT NULL CHECK (ledger_generation >= 1),
+                    idempotency_key TEXT NOT NULL,
+                    effect_digest TEXT NOT NULL,
                     transaction_id TEXT NOT NULL,
                     authority_id TEXT NOT NULL,
                     principal TEXT NOT NULL,
                     state TEXT NOT NULL,
                     record_version INTEGER NOT NULL CHECK (record_version >= 1),
-                    committed_receipt TEXT
+                    committed_receipt TEXT,
+                    UNIQUE (ledger_generation, idempotency_key),
+                    UNIQUE (ledger_generation, effect_digest)
                 )
                 """
             )
@@ -207,6 +211,7 @@ class ReleaseLedgerStore:
     def _record_from_row(row: sqlite3.Row) -> EffectRecord:
         return EffectRecord(
             record_id=row["record_id"],
+            ledger_generation=row["ledger_generation"],
             intent=EffectIntent(
                 row["idempotency_key"],
                 row["effect_digest"],
@@ -221,23 +226,32 @@ class ReleaseLedgerStore:
 
     def get_by_key(self, idempotency_key: str) -> Optional[EffectRecord]:
         with closing(self._connect()) as conn:
+            ledger = self._identity_locked(conn)
             row = conn.execute(
-                "SELECT * FROM effect_records WHERE idempotency_key = ?",
-                (idempotency_key,),
+                "SELECT * FROM effect_records WHERE ledger_generation = ? AND idempotency_key = ?",
+                (ledger.generation, idempotency_key),
             ).fetchone()
             return None if row is None else self._record_from_row(row)
+
+    def get_history_by_key(self, idempotency_key: str) -> tuple[EffectRecord, ...]:
+        with closing(self._connect()) as conn:
+            rows = conn.execute(
+                "SELECT * FROM effect_records WHERE idempotency_key = ? ORDER BY ledger_generation, record_id",
+                (idempotency_key,),
+            ).fetchall()
+            return tuple(self._record_from_row(row) for row in rows)
 
     def prepare(self, intent: EffectIntent) -> LedgerResult:
         with closing(self._connect()) as conn:
             conn.execute("BEGIN IMMEDIATE")
             ledger = self._identity_locked(conn)
             by_key = conn.execute(
-                "SELECT * FROM effect_records WHERE idempotency_key = ?",
-                (intent.idempotency_key,),
+                "SELECT * FROM effect_records WHERE ledger_generation = ? AND idempotency_key = ?",
+                (ledger.generation, intent.idempotency_key),
             ).fetchone()
             by_digest = conn.execute(
-                "SELECT * FROM effect_records WHERE effect_digest = ?",
-                (intent.effect_digest,),
+                "SELECT * FROM effect_records WHERE ledger_generation = ? AND effect_digest = ?",
+                (ledger.generation, intent.effect_digest),
             ).fetchone()
 
             if by_key is not None and by_key["effect_digest"] != intent.effect_digest:
@@ -267,11 +281,12 @@ class ReleaseLedgerStore:
             conn.execute(
                 """
                 INSERT INTO effect_records (
-                    idempotency_key, effect_digest, transaction_id, authority_id,
+                    ledger_generation, idempotency_key, effect_digest, transaction_id, authority_id,
                     principal, state, record_version, committed_receipt
-                ) VALUES (?, ?, ?, ?, ?, ?, 1, NULL)
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, 1, NULL)
                 """,
                 (
+                    ledger.generation,
                     intent.idempotency_key,
                     intent.effect_digest,
                     intent.transaction_id,
@@ -310,6 +325,14 @@ class ReleaseLedgerStore:
                 conn.execute("ROLLBACK")
                 return LedgerResult(LedgerDecision.NOT_FOUND, ledger)
             record = self._record_from_row(row)
+            if record.ledger_generation != ledger.generation:
+                conn.execute("ROLLBACK")
+                return LedgerResult(
+                    LedgerDecision.REVALIDATE_EFFECT_LEDGER,
+                    ledger,
+                    record,
+                    "record_generation_changed",
+                )
             if record.record_version != expected_record_version:
                 conn.execute("ROLLBACK")
                 return LedgerResult(LedgerDecision.CAS_MISMATCH, ledger, record, "record_version_changed")
@@ -349,14 +372,13 @@ class ReleaseLedgerStore:
             return LedgerResult(LedgerDecision.TRANSITIONED, new_ledger, self._record_from_row(new_row))
 
     def recreate_generation(self) -> LedgerIdentity:
-        """Administrative local reference: new ledger incarnation, records cleared."""
+        """Administrative local reference: new ledger incarnation; history is retained."""
         with closing(self._connect()) as conn:
             conn.execute("BEGIN IMMEDIATE")
             current = self._identity_locked(conn)
             generation = current.generation + 1
             version = 0
             new_hash = _ledger_hash(current.ledger_id, generation, version)
-            conn.execute("DELETE FROM effect_records")
             conn.execute(
                 "UPDATE ledger_meta SET generation = ?, version = ?, ledger_hash = ? WHERE singleton = 1",
                 (generation, version, new_hash),
