@@ -1,0 +1,3 @@
+interface:
+  display_name: "AMOS Harness Evolution"
+  short_description: "Audit bounded harness mutations, evaluation isolation, rollback evidence, and keep/rollback recommendations."
