@@ -29,7 +29,7 @@ class TensorEntry(Generic[T]):
 
 
 class URKTensorStore(Generic[T]):
-    """Sparse typed tensor over Core19 x Core19 x scale x context x regime.
+    """Sparse typed tensor over Core19 x Core19 x scale x context x regime x observer.
 
     Sparse storage is intentional: absence means UNBOUND, not zero or false.
     Coordinates are immutable once bound unless the exact same entry is replayed.
@@ -59,7 +59,14 @@ class URKTensorStore(Generic[T]):
             self._entries[key]
             for key in sorted(
                 self._entries,
-                key=lambda c: (c.row.value, c.col.value, c.scale, c.context, c.regime),
+                key=lambda c: (
+                    c.row.value,
+                    c.col.value,
+                    c.scale,
+                    c.context,
+                    c.regime,
+                    c.observer,
+                ),
             )
         )
 
@@ -121,11 +128,24 @@ def validate_tensor_topology_invariants() -> Tuple[str, ...]:
     if len(set(coordinates)) != 361:
         failures.append("CORE19_PAIR_COORDINATE_UNIQUENESS")
 
-    a = TensorCoordinate(Core19.P01_EXISTENCE, Core19.P02_COMPETING, "H", "ctx", "r")
-    b = TensorCoordinate(Core19.P01_EXISTENCE, Core19.P02_COMPETING, "M", "ctx", "r")
-    c = TensorCoordinate(Core19.P01_EXISTENCE, Core19.P02_COMPETING, "H", "ctx2", "r")
-    d = TensorCoordinate(Core19.P01_EXISTENCE, Core19.P02_COMPETING, "H", "ctx", "r2")
-    if len({a, b, c, d}) != 4:
+    base = TensorCoordinate(
+        Core19.P01_EXISTENCE,
+        Core19.P02_COMPETING,
+        "H",
+        "ctx",
+        "r",
+        "observer-a",
+    )
+    probes = {
+        base,
+        TensorCoordinate(Core19.P03_CAUSALITY, Core19.P02_COMPETING, "H", "ctx", "r", "observer-a"),
+        TensorCoordinate(Core19.P01_EXISTENCE, Core19.P03_CAUSALITY, "H", "ctx", "r", "observer-a"),
+        TensorCoordinate(Core19.P01_EXISTENCE, Core19.P02_COMPETING, "M", "ctx", "r", "observer-a"),
+        TensorCoordinate(Core19.P01_EXISTENCE, Core19.P02_COMPETING, "H", "ctx2", "r", "observer-a"),
+        TensorCoordinate(Core19.P01_EXISTENCE, Core19.P02_COMPETING, "H", "ctx", "r2", "observer-a"),
+        TensorCoordinate(Core19.P01_EXISTENCE, Core19.P02_COMPETING, "H", "ctx", "r", "observer-b"),
+    }
+    if len(probes) != 7:
         failures.append("TENSOR_AXIS_IDENTITY")
 
     matrix = TopologyMatrixStore()
