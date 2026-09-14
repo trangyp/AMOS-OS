@@ -1,0 +1,30 @@
+{
+  "schema": "amos.agent-protocol-gateway-policy.v1",
+  "gateway_id": "amos-agent-protocol-gateway-candidate",
+  "version": "1.0.0",
+  "status": "CANDIDATE_POLICY",
+  "protocols": ["mcp", "a2a", "llm"],
+  "transports": ["stdio", "http", "streamable-http", "sse", "a2a-http", "provider-native"],
+  "discovery": {
+    "static_first": true,
+    "stdio_launch_requires_explicit_authority": true,
+    "untrusted_stdio_requires_sandbox": true,
+    "auto_execute_untrusted_config": false
+  },
+  "instruction_taint": {
+    "tool_descriptions_untrusted": true,
+    "tool_outputs_untrusted": true,
+    "allow_instruction_override": false
+  },
+  "authority": {
+    "gateway_is_commit_authority": false,
+    "consequential_calls_require_control_plane": true,
+    "capability_implies_authority": false
+  },
+  "observability": {
+    "correlation_identity": true,
+    "redact_credentials": true,
+    "telemetry_is_authority": false
+  },
+  "unknown_behavior": "fail_closed"
+}
