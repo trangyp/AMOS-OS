@@ -1,4 +1,4 @@
-bundle_version: 2.0.0
+bundle_version: 3.0.0
 bundle_date: 2026-09-14
 schema_version: "1.0"
 compatible_with:
@@ -17,3 +17,4 @@ files:
   - path: "agents/openai.yaml"
   - path: "references/observability-boundaries.md"
   - path: "scripts/trace_contract_check.py"
+  - path: "scripts/transport_roundtrip_check.py"
