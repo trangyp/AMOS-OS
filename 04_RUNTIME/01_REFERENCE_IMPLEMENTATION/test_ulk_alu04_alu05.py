@@ -1,6 +1,6 @@
 import unittest
 from amos_ulk_alu04_finite_kripke_checker_v1 import Formula, Kind, KripkeModel, holds
-from amos_ulk_alu05_dung_checker_v1 import ArgumentationFramework, admissible, characteristic, conflict_free, grounded_extension, preferred_extensions
+from amos_ulk_alu05_dung_checker_v1 import ArgumentationFramework, admissible, characteristic, conflict_free, defends, grounded_extension, preferred_extensions
 
 class ModalTests(unittest.TestCase):
     def model(self):
@@ -13,11 +13,19 @@ class ModalTests(unittest.TestCase):
         m=self.model(); p=Formula.atom_("p")
         self.assertTrue(holds(m,"w0",Formula.unary(Kind.BOX,p,"a")))
         self.assertTrue(holds(m,"w0",Formula.unary(Kind.DIAMOND,p,"a")))
-    def test_box_vacuous_and_diamond_false_on_no_successors(self):
+    def test_box_vacuous_and_diamond_false_on_declared_agent_no_successors(self):
         m=KripkeModel(frozenset({"w"}), {"a":frozenset()}, {})
         p=Formula.atom_("p")
         self.assertTrue(holds(m,"w",Formula.unary(Kind.BOX,p,"a")))
         self.assertFalse(holds(m,"w",Formula.unary(Kind.DIAMOND,p,"a")))
+    def test_unknown_agent_fails_closed(self):
+        m=self.model(); p=Formula.atom_("p")
+        with self.assertRaises(KeyError): holds(m,"w0",Formula.unary(Kind.BOX,p,"missing"))
+    def test_malformed_formula_rejected_at_construction(self):
+        p=Formula.atom_("p")
+        with self.assertRaises(ValueError): Formula(Kind.AND,args=(p,))
+        with self.assertRaises(ValueError): Formula(Kind.ATOM,atom="p",args=(p,))
+        with self.assertRaises(ValueError): Formula(Kind.BOX,args=(p,))
     def test_modal_duality_on_finite_model(self):
         m=self.model(); p=Formula.atom_("p")
         not_box_not_p=Formula.unary(Kind.NOT, Formula.unary(Kind.BOX, Formula.unary(Kind.NOT,p), "a"))
@@ -39,8 +47,14 @@ class DungTests(unittest.TestCase):
         af=ArgumentationFramework(frozenset({"a"}), frozenset({("a","a")}))
         self.assertFalse(conflict_free(af,frozenset({"a"})))
         self.assertFalse(admissible(af,frozenset({"a"})))
+    def test_unknown_argument_sets_fail_closed(self):
+        af=ArgumentationFramework(frozenset({"a"}), frozenset())
+        with self.assertRaises(ValueError): defends(af,frozenset({"missing"}),"a")
+        with self.assertRaises(KeyError): defends(af,frozenset(),"missing")
+        with self.assertRaises(ValueError): af.attacked_by(frozenset({"missing"}))
     def test_preferred_enumeration_bound(self):
         af=ArgumentationFramework(frozenset(str(i) for i in range(19)), frozenset())
         with self.assertRaises(ValueError): preferred_extensions(af)
+        with self.assertRaises(ValueError): preferred_extensions(af,max_arguments=-1)
 
 if __name__=="__main__": unittest.main()
