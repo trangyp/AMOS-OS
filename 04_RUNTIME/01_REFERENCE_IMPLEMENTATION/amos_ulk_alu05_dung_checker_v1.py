@@ -14,14 +14,24 @@ from typing import FrozenSet, Tuple
 class ArgumentationFramework:
     arguments: FrozenSet[str]
     attacks: FrozenSet[Tuple[str,str]]
+
     def __post_init__(self) -> None:
-        if any(not a.strip() for a in self.arguments): raise ValueError("arguments must be non-empty strings")
-        for a,b in self.attacks:
-            if a not in self.arguments or b not in self.arguments: raise ValueError("attack endpoint outside argument set")
+        if any(not isinstance(a, str) or not a.strip() for a in self.arguments):
+            raise ValueError("arguments must be non-empty strings")
+        for attack in self.attacks:
+            if not isinstance(attack, tuple) or len(attack) != 2:
+                raise ValueError("attack must be a pair")
+            a,b=attack
+            if a not in self.arguments or b not in self.arguments:
+                raise ValueError("attack endpoint outside argument set")
+
     def attackers(self, a: str) -> FrozenSet[str]:
         if a not in self.arguments: raise KeyError(a)
         return frozenset(x for x,y in self.attacks if y==a)
+
     def attacked_by(self, S: FrozenSet[str]) -> FrozenSet[str]:
+        if not S.issubset(self.arguments):
+            raise ValueError("set contains unknown argument")
         return frozenset(y for x,y in self.attacks if x in S)
 
 def conflict_free(af: ArgumentationFramework, S: FrozenSet[str]) -> bool:
@@ -29,6 +39,8 @@ def conflict_free(af: ArgumentationFramework, S: FrozenSet[str]) -> bool:
     return not any(a in S and b in S for a,b in af.attacks)
 
 def defends(af: ArgumentationFramework, S: FrozenSet[str], a: str) -> bool:
+    if not S.issubset(af.arguments): raise ValueError("set contains unknown argument")
+    if a not in af.arguments: raise KeyError(a)
     attacked=af.attacked_by(S)
     return all(attacker in attacked for attacker in af.attackers(a))
 
@@ -48,6 +60,8 @@ def admissible(af: ArgumentationFramework, S: FrozenSet[str]) -> bool:
     return conflict_free(af,S) and S.issubset(characteristic(af,S))
 
 def preferred_extensions(af: ArgumentationFramework, max_arguments: int=18) -> Tuple[FrozenSet[str], ...]:
+    if type(max_arguments) is not int or max_arguments < 0:
+        raise ValueError("max_arguments must be a non-negative integer")
     n=len(af.arguments)
     if n>max_arguments: raise ValueError("preferred enumeration is exponential; explicit bound exceeded")
     args=sorted(af.arguments)
