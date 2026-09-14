@@ -1,0 +1,52 @@
+name: Information Exposure Control Contract
+on:
+  pull_request:
+    paths:
+      - '07_SKILLS/amos-information-exposure-control/**'
+      - '06_AGENTS/amos-information-exposure-control-agent.json'
+      - '08_WORKFLOWS/amos-information-exposure-control-workflow.md'
+      - '26_WORKFLOWS/amos-information-exposure-control-workflow.md'
+      - '11_KNOWLEDGE/INFORMATION_EXPOSURE_CONTROL_SOURCES.md'
+      - '14_TOOLS/INFORMATION_EXPOSURE_CONTROL_VERIFIER.md'
+      - '14_TOOLS/TOOL_REGISTRY_MASTER.md'
+      - '19_TESTS/test_information_exposure_control.py'
+      - '.github/agents/amos-information-exposure-auditor.agent.md'
+      - '.github/workflows/information-exposure-control-contract.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  information-exposure-control-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: '3.12'
+      - name: Compile deterministic surfaces
+        run: |
+          python -m py_compile \
+            07_SKILLS/amos-information-exposure-control/scripts/exposure_control.py \
+            07_SKILLS/amos-information-exposure-control/scripts/validate_exposure_control.py \
+            07_SKILLS/amos-information-exposure-control/scripts/validate_multi_skill_join.py \
+            19_TESTS/test_information_exposure_control.py
+      - name: Run exposure regression suite
+        env:
+          PYTHONWARNINGS: error::ResourceWarning
+        run: python -m unittest -q 19_TESTS/test_information_exposure_control.py
+      - name: Run runtime self-tests
+        env:
+          PYTHONWARNINGS: error::ResourceWarning
+        run: |
+          python 07_SKILLS/amos-information-exposure-control/scripts/exposure_control.py --self-test
+          python 07_SKILLS/amos-information-exposure-control/scripts/validate_exposure_control.py --self-test
+          python 07_SKILLS/amos-information-exposure-control/scripts/validate_multi_skill_join.py --self-test
+      - name: Enforce authority and privacy-math firewalls
+        run: |
+          grep -q 'PolicyUnit != DifferentialPrivacyEpsilon' 07_SKILLS/amos-information-exposure-control/SKILL.md
+          grep -q 'AuthorizationAllow != ExposureAllow' 07_SKILLS/amos-information-exposure-control/SKILL.md
+          grep -q 'ExposureReceipt != EffectCommitted' 07_SKILLS/amos-information-exposure-control/SKILL.md
+          grep -q '"execution_authority": "none"' 06_AGENTS/amos-information-exposure-control-agent.json
+          grep -q '"merge_authority": "none"' 06_AGENTS/amos-information-exposure-control-agent.json
+          ! grep -q '"log_inputs": true' 06_AGENTS/amos-information-exposure-control-agent.json
+          ! grep -q '"log_outputs": true' 06_AGENTS/amos-information-exposure-control-agent.json
