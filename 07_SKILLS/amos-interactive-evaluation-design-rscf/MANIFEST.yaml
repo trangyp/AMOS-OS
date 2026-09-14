@@ -1,4 +1,4 @@
-bundle_version: 2.0.0
+bundle_version: 3.0.0
 bundle_date: 2026-09-14
 schema_version: "1.0"
 compatible_with:
@@ -15,12 +15,8 @@ license: MIT
 files:
   - path: "SKILL.md"
   - path: "agents/openai.yaml"
-  - path: "amos-interactive-evaluation-design-rscf_MOC.md"
   - path: "references/evidence-model.md"
-  - path: "references/references_MOC.md"
-  - path: "references/vault_domain_knowledge.md"
+  - path: "references/upstream-mechanisms.md"
   - path: "scripts/eval_registry.py"
-  - path: "scripts/hooks/hooks_config.yaml"
-  - path: "scripts/hooks/post_tool_use.py"
-  - path: "scripts/hooks/pre_tool_use.py"
-  - path: "scripts/hooks/stop.py"
+  - path: "scripts/evaluation_runtime.py"
+  - path: "scripts/evaluation_contract_check.py"
