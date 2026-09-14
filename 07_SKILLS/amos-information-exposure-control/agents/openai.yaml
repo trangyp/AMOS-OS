@@ -1,0 +1,3 @@
+interface:
+  display_name: "AMOS Information Exposure Control"
+  short_description: "Govern cumulative semantic-origin exposure and proof composition"
