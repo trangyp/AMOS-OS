@@ -1,0 +1,72 @@
+name: Trace Transport Roundtrip Contract
+
+on:
+  pull_request:
+    paths:
+      - '17_OBSERVABILITY/trace_transport_runtime.py'
+      - '19_TESTS/test_trace_transport_runtime.py'
+      - '07_SKILLS/amos-agentops-observability-rscf/**'
+      - '06_AGENTS/amos-agentops-observability-rscf-agent.json'
+      - '08_WORKFLOWS/amos-agentops-observability-rscf-workflow.md'
+      - '26_WORKFLOWS/amos-agentops-observability-rscf-workflow.md'
+      - '.github/agents/amos-observability-auditor.agent.md'
+      - '.github/workflows/trace-transport-roundtrip-contract.yml'
+  push:
+    branches: [main]
+    paths:
+      - '17_OBSERVABILITY/trace_transport_runtime.py'
+      - '19_TESTS/test_trace_transport_runtime.py'
+      - '07_SKILLS/amos-agentops-observability-rscf/**'
+
+permissions:
+  contents: read
+
+jobs:
+  transport-roundtrip-contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout exact head
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - name: Setup Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: '3.12'
+      - name: Compile transport surfaces
+        run: |
+          python -m py_compile \
+            17_OBSERVABILITY/trace_transport_runtime.py \
+            19_TESTS/test_trace_transport_runtime.py \
+            07_SKILLS/amos-agentops-observability-rscf/scripts/transport_roundtrip_check.py
+      - name: Execute transport regression suite
+        run: python -m unittest -v 19_TESTS/test_trace_transport_runtime.py
+      - name: Execute receipt validator self-test
+        run: python 07_SKILLS/amos-agentops-observability-rscf/scripts/transport_roundtrip_check.py --self-test
+      - name: Reject transport-to-roundtrip promotion
+        run: |
+          cat >/tmp/bad.json <<'JSON'
+          {"export_id":"e","trace_id":"t","run_id":"r","build_id":"b","payload_hash":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","state":"ACKED","attempt_count":1,"last_http_status":200,"transport_semantics":"HTTP_ACK_IS_NOT_BACKEND_READBACK_VERIFICATION","authority_semantics":"TRANSPORT_DOES_NOT_GRANT_AUTHORITY","receipt_hash":"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb","status":"VERIFIED_ROUNDTRIP"}
+          JSON
+          if python 07_SKILLS/amos-agentops-observability-rscf/scripts/transport_roundtrip_check.py /tmp/bad.json; then
+            echo 'ERROR: transport receipt self-promoted to round-trip verification'; exit 1
+          fi
+      - name: Reject raw telemetry content in receipts
+        run: |
+          cat >/tmp/raw.json <<'JSON'
+          {"export_id":"e","trace_id":"t","run_id":"r","build_id":"b","payload_hash":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","state":"ACKED","attempt_count":1,"last_http_status":200,"transport_semantics":"HTTP_ACK_IS_NOT_BACKEND_READBACK_VERIFICATION","authority_semantics":"TRANSPORT_DOES_NOT_GRANT_AUTHORITY","receipt_hash":"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb","prompt":"secret"}
+          JSON
+          if python 07_SKILLS/amos-agentops-observability-rscf/scripts/transport_roundtrip_check.py /tmp/raw.json; then
+            echo 'ERROR: raw content admitted to transport receipt'; exit 1
+          fi
+      - name: Record bounded evidence
+        run: |
+          {
+            echo '### Trace Transport Roundtrip Contract'
+            echo '- Local OTLP/HTTP JSON projection: EXECUTED_TESTED_SCOPE'
+            echo '- Durable outbox/retry/IN_DOUBT semantics: EXECUTED_TESTED_SCOPE'
+            echo '- Local mock HTTP transport: EXECUTED_TESTED_SCOPE'
+            echo '- Exact read-back verifier: EXECUTED_TESTED_SCOPE'
+            echo '- Real external backend round-trip: UNKNOWN/GAP'
+            echo '- Production delivery/performance/privacy: UNKNOWN/GAP'
+            echo '- Deployment authority: NONE'
+          } >> "$GITHUB_STEP_SUMMARY"

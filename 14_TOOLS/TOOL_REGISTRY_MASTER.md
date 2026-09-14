@@ -8,7 +8,7 @@ source: 14_TOOLS
 origin_architect: Trang Phan
 steward: Trang Phan
 amos_core_target: v4.4
-status: ACTIVE_PRODUCTION_SPEC
+status: AMOS_MODEL_WITH_PARTIAL_EXECUTABLE_BINDINGS
 epistemic_class: AMOS_MODEL
 conclusion_class: DERIVED
 rscf:
@@ -33,54 +33,55 @@ tags:
 
 ## 1. Scope & Execution Tier Hierarchy
 
-`TOOL_REGISTRY_MASTER` is the authoritative manifest of all computational tools, code interpreters, and external API adapters approved for invocation by autonomous agents within AMOS OS. Every tool is strictly bounded by a **Sandboxed Capability Envelope** ($T_0$ through $T_4$) to enforce least-privilege security and prevent unauthorized filesystem, network, or kernel mutations.
+`TOOL_REGISTRY_MASTER` is the governed registry of declared AMOS computational tools, interpreters, and external adapters. Registry presence describes the intended capability envelope; it does **not** by itself prove that a tool is deployed, production-ready, authorized for the current caller, or backed by a cryptographic receipt. Executability and evidence status are row-specific.
 
 ```mermaid
 graph TD
     subgraph SecurityTiers ["5-Tier Sandboxed Capability Hierarchy"]
-        T0["Tier 0: Pure Informational (Read-only Schemas, MOCs, Documentation)"]
-        T1["Tier 1: Read-Only Vault Operations (Grep, AST Parser, Wikilink Linter)"]
-        T2["Tier 2: Ephemeral WASI Sandbox (Wasmtime, Zero Network, Strict Memory Limit)"]
-        T3["Tier 3: Networked / External API Connectors (gRPC, GitHub, ArXiv, FIX 4.4 Adapter)"]
-        T4["Tier 4: Consequential State Mutation (CAS Commit, Repository Mutation, OS Kernel Patch)"]
+        T0["Tier 0: Pure Informational"]
+        T1["Tier 1: Read-Only / Local Validation"]
+        T2["Tier 2: Ephemeral Sandboxed Compute"]
+        T3["Tier 3: Networked / External API"]
+        T4["Tier 4: Consequential State Mutation"]
     end
-
-    subgraph AdmissionGates ["Tool Invariant Admission Pipeline"]
-        VAL["JSON Schema Validation"] --> CAPS["WASI Capability Mask"]
-        CAPS --> TIME["Timeout & Memory Quota Bound"]
-        TIME --> AUTH["Plane 03 Control Authority Check"]
-        AUTH --> TELE["17_OBSERVABILITY Telemetry Hook"]
+    subgraph AdmissionGates ["Tool Admission Pipeline"]
+        VAL["Schema / Contract Validation"] --> CAPS["Capability Envelope"]
+        CAPS --> TIME["Resource Bound"]
+        TIME --> AUTH["Control-Plane Authority Check"]
+        AUTH --> TELE["Observability / Receipt"]
     end
 ```
 
----
+`CAPABILITY != AUTHORITY` and `REGISTRY_ENTRY != DEPLOYMENT` are non-compensatory invariants.
 
 ## 2. Master Admitted Tool Registry Table
 
-| Tool ID | Entry File | Tier | Capability Mask | Max Mem / Timeout | Executed Receipt |
+| Tool ID | Entry File | Tier | Capability Mask | Resource Bound | Executed Evidence |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **`amos-llm-wiki`** | [[14_TOOLS/AMOS_LLM_WIKI_TOOL]] | $T_1$ | `FS_READ_VAULT` | $64\text{ MB} / 500\text{ ms}$ | [[14_TOOLS/TOOLS_README]] |
-| **`amos-obsidian-linking`** | [[14_TOOLS/AMOS_OBSIDIAN_LINKING_PLUGINS]] | $T_1$ | `FS_READ_VAULT \| AST_PARSE` | $128\text{ MB} / 1000\text{ ms}$ | [[14_TOOLS/TOOLS_TOOL_CONTRACT]] |
-| **`amos-agent-interop-compiler`** | [[14_TOOLS/AMOS_AGENT_INTEROPERABILITY_COMPILER]] | $T_1$ | `FS_READ_AGENT_METADATA \| MANIFEST_VALIDATE \| MANIFEST_COMPILE` | bounded local process / 5000 ms default | local positive + negative fixture PASS; repository-wide compatibility pending CI |
-| **`amos-wasi-micro-sandbox`** | [[14_TOOLS/AMOS_SELF_HEALING_AUTONOMOUS_WASI_MICRO_SANDBOX_GUIDE]] | $T_2$ | `WASI_EPHEMERAL \| NO_NET` | $256\text{ MB} / 2500\text{ ms}$ | [[14_TOOLS/WASM_SANDBOX_CAPABILITY_LEDGER]] |
-| **`amos-sandbox-execution`** | [[14_TOOLS/SANDBOX_TOOL_EXECUTION_PROTOCOL]] | $T_2$ | `WASI_CORE_COMPUTE` | $512\text{ MB} / 5000\text{ ms}$ | [[14_TOOLS/SANDBOX_TOOL_EXECUTION_PROTOCOL]] |
-| **`amos-simulation-kernel`** | [[14_TOOLS/SIMULATION_KERNEL_DISCRETE_SYSTEM_DYNAMICS]] | $T_2$ | `ODE_SOLVE \| NUMPY_SIMD` | $1024\text{ MB} / 10000\text{ ms}$ | [[14_TOOLS/SIMULATION_KERNEL_DISCRETE_SYSTEM_DYNAMICS]] |
-| **`amos-github-research`** | [[14_TOOLS/GITHUB_REPOSITORY_RESEARCH_ADAPTER]] | $T_3$ | `GITHUB_REPO_DISCOVERY \| GITHUB_SOURCE_READ \| GITHUB_COMMIT_READ \| GITHUB_PR_READ` | bounded by connector / request timeout | `UNKNOWN/GAP` until connector-specific executed receipt is persisted |
-| **`amos-fix-zeromq`** | [[15_INTERFACES/FOREX_FIX44_ZEROMQ_SOCKET_ADAPTER]] | $T_3$ | `SOCKET_DMA \| L3_FEED` | $2048\text{ MB} / \text{Continuous}$ | [[15_INTERFACES/FIX_ZEROMQ_INTEGRATION_LOG]] |
-| **`amos-bci-decoder`** | [[15_INTERFACES/BCI_EXPRESSION_GATEWAY_ADAPTER]] | $T_3$ | `SHM_ATTACH \| BCI_10KHZ` | $4096\text{ MB} / \text{Continuous}$ | [[15_INTERFACES/NEUROMORPHIC_SPIKING_BCI_DECODER_LEDGER]] |
-| **`amos-cas-epoch-engine`** | [[12_STATE/DISTRIBUTED_SNAPSHOT_AND_CAS_EPOCH_ENGINE]] | $T_4$ | `CAS_COMMIT \| EPOCH_BUMP` | $512\text{ MB} / 100\text{ ms}$ | [[12_STATE/AMOS_RUNTIME_STATE_FRESHNESS_2026-09-03]] |
+| **`amos-llm-wiki`** | [[14_TOOLS/AMOS_LLM_WIKI_TOOL]] | T1 | `FS_READ_VAULT` | declared local bound | row-specific evidence required |
+| **`amos-obsidian-linking`** | [[14_TOOLS/AMOS_OBSIDIAN_LINKING_PLUGINS]] | T1 | `FS_READ_VAULT | AST_PARSE` | declared local bound | row-specific evidence required |
+| **`amos-agent-interop-compiler`** | [[14_TOOLS/AMOS_AGENT_INTEROPERABILITY_COMPILER]] | T1 | `FS_READ_AGENT_METADATA | MANIFEST_VALIDATE | MANIFEST_COMPILE` | bounded local process | local positive/negative fixtures + CI on active branch |
+| **`amos-wasi-micro-sandbox`** | [[14_TOOLS/AMOS_SELF_HEALING_AUTONOMOUS_WASI_MICRO_SANDBOX_GUIDE]] | T2 | `WASI_EPHEMERAL | NO_NET` | declared contract | deployment/runtime proof remains row-specific |
+| **`amos-sandbox-execution`** | [[14_TOOLS/SANDBOX_TOOL_EXECUTION_PROTOCOL]] | T2 | `WASI_CORE_COMPUTE` | declared contract | deployment/runtime proof remains row-specific |
+| **`amos-simulation-kernel`** | [[14_TOOLS/SIMULATION_KERNEL_DISCRETE_SYSTEM_DYNAMICS]] | T2 | `ODE_SOLVE | NUMPY_SIMD` | declared contract | benchmark/runtime proof remains row-specific |
+| **`amos-github-research`** | [[14_TOOLS/GITHUB_REPOSITORY_RESEARCH_ADAPTER]] | T3 | `GITHUB_REPO_DISCOVERY | GITHUB_SOURCE_READ | GITHUB_COMMIT_READ | GITHUB_PR_READ` | connector-bounded | connector execution observed; durable AMOS receipt remains `UNKNOWN/GAP` unless persisted |
+| **`amos-agent-trace-transport`** | [[14_TOOLS/AGENT_TRACE_TRANSPORT_VERIFIER]] | T3* | `TRACE_READ | OTLP_PROJECT | LOCAL_OUTBOX | TRANSPORT_VALIDATE | BACKEND_READBACK` | local deterministic operations plus separately authorized network call | 19 local regression tests before branch push; real external backend round-trip `UNKNOWN/GAP` until executed |
+| **`amos-fix-zeromq`** | [[15_INTERFACES/FOREX_FIX44_ZEROMQ_SOCKET_ADAPTER]] | T3 | `SOCKET_DMA | L3_FEED` | declared continuous bound | referenced integration evidence; current deployment status must be revalidated |
+| **`amos-bci-decoder`** | [[15_INTERFACES/BCI_EXPRESSION_GATEWAY_ADAPTER]] | T3 | `SHM_ATTACH | BCI_10KHZ` | declared continuous bound | referenced ledger; current deployment status must be revalidated |
+| **`amos-cas-epoch-engine`** | [[12_STATE/DISTRIBUTED_SNAPSHOT_AND_CAS_EPOCH_ENGINE]] | T4 | `CAS_COMMIT | EPOCH_BUMP` | declared contract | state-freshness evidence is version/regime bound |
+
+`T3*`: the trace transport tool is T1-like for local read/encode/validate operations, but any actual export or backend query crosses an external network boundary and must be governed as T3.
 
 The GitHub research adapter is read-only by contract. Repository mutation is a distinct T4 effect class and requires separate authority; read access must never be promoted into write authority by convenience.
 
 The interoperability compiler is T1 only when checking metadata or writing projections to stdout/ephemeral scratch. Persisting generated output into authoritative repository state remains a separately authorized write effect.
 
----
+The trace transport tool never stores transport credentials in its durable outbox or receipts. A network endpoint/header supplied by a caller does not become durable AMOS authority.
 
-## 3. Protocol Buffer Tool Descriptor & Execution Envelope
+## 3. Tool Descriptor Model
 
 ```protobuf
 syntax = "proto3";
-
 package amos.tools.registry;
 
 enum ExecutionTier {
@@ -102,42 +103,42 @@ message ToolDescriptor {
   int64 timeout_nanos = 7;
   string json_schema_parameters = 8;
   string json_schema_return = 9;
-  string wasm_binary_sha256 = 10;
+  string implementation_hash = 10;
 }
 
 message ToolExecutionRequest {
   string execution_id = 1;
   string tool_id = 2;
   string invoking_agent_role = 3;
-  string raw_input_json = 4;
-  string authority_token_jwt = 5;
+  string input_reference = 4;
+  string authority_reference = 5;
   int64 timestamp_utc_nanos = 6;
 }
 
 message ToolExecutionReceipt {
   string execution_id = 1;
   string tool_id = 2;
-  bool success = 3;
+  string outcome_state = 3;
   int64 duration_micros = 4;
-  uint64 memory_consumed_bytes = 5;
-  string output_payload_json = 6;
-  string error_message = 7;
-  bytes cryptographic_signature = 8;
+  string output_hash = 5;
+  string error_class = 6;
+  string provenance_reference = 7;
+  string authority_semantics = 8;
 }
 ```
 
----
+This descriptor is an AMOS model schema. It does not assert that every listed tool currently emits every field or that signatures exist unless the row-specific implementation proves it.
 
 ## 4. Operational Invariants & Governance Rules
 
-1. **Least-Privilege Enforcement**: No tool is invoked above its registered tier without cryptographic tier-escalation authorization signed by `03_CONTROL_PLANE`.
-2. **Deterministic WASI Sandboxing**: All Tier 2 computational scripts run in isolated WebAssembly runtimes with no ambient filesystem or environment access (`wasi:filesystem/preopens` restricted to scratch memory).
-3. **Receipt Emission**: Every tool invocation ($T_1 \dots T_4$) emits a cryptographically verifiable `ToolExecutionReceipt` to `17_OBSERVABILITY`.
-4. **Fail-Closed Default**: Any unregistered tool or malformed schema input fails closed with `UNKNOWN/GAP`.
-5. **Read/Write Separation**: External repository discovery/read capabilities do not imply branch, file, PR, issue, release, merge, or workflow-dispatch authority.
-6. **Projection Separation**: Exported A2A/MCP candidate manifests do not imply protocol conformance, deployed endpoints, executable handlers, credentials, or invocation authority.
-
----
+1. **Least privilege**: no tool may execute beyond the authority actually available to the current operation. Missing authority fails closed.
+2. **Tier separation**: local validation does not inherit network or mutation authority merely because the same tool family also supports T3/T4 actions.
+3. **Receipt truthfulness**: receipt type and strength are row-specific. `LOGGED != CRYPTOGRAPHICALLY_VERIFIED` and `TESTED != DEPLOYED`.
+4. **Fail closed**: malformed critical input, unknown tool binding, stale evidence, or unresolved authority is `UNKNOWN/GAP` or rejection rather than silent promotion.
+5. **Read/write separation**: discovery/read capability does not imply branch, file, PR, issue, backend-data, release, merge, or workflow-dispatch mutation authority.
+6. **Projection separation**: A2A/MCP/OTLP candidate projections do not imply protocol conformance or deployed endpoints unless independently executed and verified.
+7. **Transport separation**: `HTTP_ACK != BACKEND_READBACK_VERIFIED`; `IN_DOUBT != SAFE_TO_BLIND_RETRY`.
+8. **Authority-context separation**: persistent telemetry queues do not establish persistence of authorization context or caller permission.
 
 ## 5. Cross-Plane Architectural Bindings
 
@@ -145,6 +146,7 @@ message ToolExecutionReceipt {
 - **Tool Contract Specification**: [[14_TOOLS/TOOLS_TOOL_CONTRACT]]
 - **GitHub Research Adapter**: [[14_TOOLS/GITHUB_REPOSITORY_RESEARCH_ADAPTER]]
 - **Agent Interoperability Compiler**: [[14_TOOLS/AMOS_AGENT_INTEROPERABILITY_COMPILER]]
+- **Agent Trace Transport Verifier**: [[14_TOOLS/AGENT_TRACE_TRANSPORT_VERIFIER]]
 - **WASM Sandbox Capability Ledger**: [[14_TOOLS/WASM_SANDBOX_CAPABILITY_LEDGER]]
 - **Agent Mesh Protocol**: [[06_AGENTS/AGENT_ROLE_REGISTRY]]
 - **Security Control Access Bridge**: [[18_SECURITY/SECURITY_CONTROL_ACCESS_BRIDGE_GOVERNOR]]
