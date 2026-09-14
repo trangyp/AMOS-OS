@@ -1,0 +1,3 @@
+interface:
+  display_name: "AMOS Evaluator Calibration"
+  short_description: "Calibrate and audit judge reliability without promoting scores or labels into truth."
