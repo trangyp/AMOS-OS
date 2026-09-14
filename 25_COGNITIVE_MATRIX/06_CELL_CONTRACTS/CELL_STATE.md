@@ -1,67 +1,57 @@
 ---
 canon-group: meta
 canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
+rscf-state: derived
 rscf-provenance: AMOS_corpus
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: DERIVED
 topic: Cell State
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
+updated: 2026-09-14
 ---
----
----
 
-# CELL_STATE — Definition
+# CELL_STATE — Executable State Contract
 
-**Package:** `CELL_STATE_`
-**Class:** `COGNITIVE_MATRIX_CONTRACT`
-**Epistemic class:** `DERIVED / MODEL EXTENSION`
-**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
-**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
+**Origin architect / steward:** Trang Phan  
+**Status:** `IMPLEMENTED_BOUNDED / VALIDATED_BOUNDED`  
+**Runtime:** `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/matrix_registry_runtime.py`
 
-## Scope
+## State decomposition
 
-Covers the operation contract for this lifecycle operator.
-
-## Definition
-
-CELL_STATE
-
-This is a **contract-level definition**, not an implementation claim.
-
-## Hard boundaries
+Cell state is not one scalar. It is the product of an ordered maturity coordinate and an orthogonal condition coordinate.
 
 ```text
-CONTRACT_FILLED != IMPLEMENTED
-DOCUMENTED != EXECUTABLE
-MODEL != VERIFIED
-UNKNOWN/GAP != PASS
+Maturity = PLACEHOLDER
+         | SOURCE_BOUND
+         | CONTRACT_COMPLETE
+         | IMPLEMENTED
+         | VALIDATED_BOUNDED
+         | AUTHORIZED_BOUNDED
+
+Condition = ACTIVE
+          | STALE
+          | COMPETING
+          | QUARANTINED
+          | FALSIFIED
 ```
 
-______________________________________________________________________
+This prevents invalid equivalences such as `STALE = FALSE` or `IMPLEMENTED = AUTHORIZED`.
 
-[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+## Invariants
 
-______________________________________________________________________
+```text
+STALE != FALSIFIED
+COMPETING != FALSIFIED
+QUARANTINED != DELETED
+IMPLEMENTED != VALIDATED_BOUNDED
+VALIDATED_BOUNDED != AUTHORIZED_BOUNDED
+STATE_VERSION_REQUIRED
+```
 
-RSCF-NODE
-node_id: cell_state_contracts_definition
-node_type: note
-path: 06_CELL_CONTRACTS/CELL_STATE\_/CELL_STATE.md
-claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/06_CELL_CONTRACTS/CELL_STATE.md
+State version is load-bearing: evidence and authority witnesses must bind the same state version before they can validate or authorize that cell.
 
-______________________________________________________________________
+## Boundary
 
-**MOC:** [[25_COGNITIVE_MATRIX/06_CELL_CONTRACTS/06_CELL_CONTRACTS_MOC|06_CELL_CONTRACTS_MOC]]
+This is a bounded executable AMOS model for Cognitive Matrix bookkeeping. It does not establish empirical truth for cell content and does not mint external authority.
 
-______________________________________________________________________
-
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]]
