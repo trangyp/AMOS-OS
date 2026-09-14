@@ -22,7 +22,7 @@ created: 2026-08-22
 
 ## 0. Status
 
-Cognitive Matrix-plane contract for **DEPENDENCY GRAPH CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+Cognitive Matrix-plane contract for **DEPENDENCY GRAPH CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; bounded reference implementation exists for typed directed dependencies, strongly connected components, DAG ordering, descendant closure, and conditional selective invalidation. Graph structure is not causality unless a separate causal contract establishes that interpretation.
 
 ## 1. Scope
 
@@ -30,51 +30,66 @@ Governs primitives L00–L29, lifecycle operations O00–O16, control planes C01
 
 ## 2. Contract terms
 
-- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
-- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
-- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
-- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
-- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
+- **Edges are typed** — HARD, EVIDENCE, AUTHORITY, and SOFT edges retain distinct propagation semantics.
+- **Direction is explicit** — an edge is `dependency -> dependent`; file order, numeric primitive order, adjacency, similarity, or co-occurrence do not create dependency edges.
+- **Cycles are typed findings** — load-bearing cycles block topological ordering; a cycle is not automatically a causal loop.
+- **Reachability is structural** — graph reachability does not imply logical entailment or real-world causation.
+- **Selective invalidation is conditional** — descendant-only invalidation is licensed only for current, typed, sufficiently complete decision-relevant dependency graphs.
 
 ## 3. Invariants
 
-- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
-- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
-- Consequential effects emit receipts; rollback basin exists before mutation.
-- Competing hypotheses remain visible when evidence does not discriminate.
+- Self-dependency is rejected.
+- An existing edge cannot be silently retagged with a different dependency kind.
+- Topological ordering is returned only when the load-bearing subgraph is acyclic.
+- SOFT edges do not propagate staleness in the bounded reference model.
+- Invalidating a node may mark only demonstrated load-bearing descendants stale; unknown dependency coverage requires conservative quarantine rather than assumed locality.
+- `REACHABLE != ENTAILS != CAUSES`.
 
 ## 4. Executed reference
 
-No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
+Bounded executor and regression owners:
+
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/cognitive_matrix_runtime.py`
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/cognitive_matrix_contract_runtime.py`
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/test_cognitive_matrix_runtime.py`
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/test_cognitive_matrix_contract_runtime.py`
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/urk_relation_algebra.py` for finite Boolean reachability closure
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/cognitive_matrix_plane_registry.py`
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/test_cognitive_matrix_plane_registry.py`
+
+The 01–12 execution registry passed GitHub Actions run `34851961830` at commit `fdeeb0eaa501d124847e0ad9b0e244409cfd4311`. This validates bounded graph behavior only.
 
 ## 5. Gaps
 
-Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
+OPEN: complete repository-wide dependency extraction; proof that decision-relevant graphs are complete enough for local finality; temporal/versioned edge validity; dynamic dependency updates under concurrent state; causal-edge semantics where required; durable graph persistence; empirical validation of any domain-specific dependency claim.
 
 ## 6. Falsifiers
 
-F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
+F1: canonical source defines different semantics. F2: an edge is inferred solely from numeric/order adjacency. F3: reachability is promoted to entailment or causality. F4: selective invalidation is used despite unknown load-bearing edges. F5: a load-bearing cycle receives a DAG order.
 
 ## Worked semantics
 
-Given an operation touching `COGNITIVE MATRIX · DEPENDENCY GRAPH CONTRACT` within the Cognitive Matrix plane:
+Given a dependency operation:
 
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+1. **Declare nodes** by exact identity.
+1. **Admit edges** only from explicit evidence/contracts and assign a dependency kind.
+1. **Audit SCCs** before assuming a DAG.
+1. **Compute topological order** only for acyclic load-bearing structure.
+1. **Compute descendants** only over the propagation classes relevant to the operation.
+1. **Invalidate narrowly** only when dependency coverage is sufficient for that scope; otherwise quarantine a broader region or return UNKNOWN/GAP.
+1. **Never reinterpret** structural graph output as logical or causal proof without a separate mapping.
 
 ## Promotion-gate checklist
 
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+- [x] typed directed graph implemented
+- [x] SCC and load-bearing cycle audit implemented
+- [x] deterministic topological ordering implemented for DAGs
+- [x] bounded descendant invalidation implemented
+- [x] reachability/causality firewall documented and tested
+- [ ] repository-wide dependency completeness demonstrated
+- [ ] temporal/versioned edge persistence demonstrated
+- [ ] causal interpretation separately validated where used
+- [ ] local-finality claims carry dependency-completeness evidence
 
 ## Cross-plane bindings
 
@@ -95,7 +110,7 @@ ______________________________________________________________________
 ______________________________________________________________________
 
 RSCF-NODE
-node_id: cm\_\_matrix_09_dependency_graph_cognitive_matrix_dependency_graph_contract
+node_id: cm__matrix_09_dependency_graph_cognitive_matrix_dependency_graph_contract
 node_type: note
 path: 25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/COGNITIVE_MATRIX_DEPENDENCY_GRAPH_CONTRACT.md
 claim_class: AMOS_MODEL
