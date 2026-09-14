@@ -1,0 +1,3 @@
+interface:
+  display_name: "AMOS AIBOM Lifecycle Assurance"
+  short_description: "Verify AI/software supply-chain identity, provenance, attestations, vulnerabilities, drift, and output binding."
