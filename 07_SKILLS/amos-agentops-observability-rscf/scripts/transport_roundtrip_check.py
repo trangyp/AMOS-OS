@@ -7,13 +7,13 @@ HEX64=re.compile(r"^[0-9a-f]{64}$")
 TRANSPORT_STATES={"QUEUED","SENDING","ACKED","PARTIAL","RETRYABLE","PERMANENT_FAILURE","PROTOCOL_ERROR","IN_DOUBT","RECONCILED_PRESENT"}
 ROUNDTRIP_STATES={"VERIFIED_ROUNDTRIP","NOT_VERIFIED"}
 FORBIDDEN={"input_value","output_value","prompt","completion","raw_input","raw_output","input.value","output.value","authorization","api_key","token","password"}
-def _forbidden(v:Any,path:str="$')->list[str]:
+def _forbidden(v:Any,path:str="$ ")->list[str]:
     out=[]
     if isinstance(v,dict):
         for k,x in v.items():
-            p=f"{path}.{k}"; out += [p] if str(k).lower() in FORBIDDEN else []; out += _forbidden(x,p)
+            p=f"{path.rstrip()}.{k}"; out += [p] if str(k).lower() in FORBIDDEN else []; out += _forbidden(x,p)
     elif isinstance(v,list):
-        for i,x in enumerate(v): out += _forbidden(x,f"{path}[{i}]")
+        for i,x in enumerate(v): out += _forbidden(x,f"{path.rstrip()}[{i}]")
     return out
 def _h(v:Any)->bool:return bool(HEX64.fullmatch(str(v or "")))
 def validate_transport(o:dict[str,Any])->list[str]:
