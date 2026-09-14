@@ -1,191 +1,109 @@
 ---
 title: amos-aibom-lifecycle-assurance-rscf-workflow
 type: workflow
-source: 08_WORKFLOWS
-Type: Workflow
-Skill: amos-aibom-lifecycle-assurance-rscf
-Agent: amos-aibom-lifecycle-assurance-rscf-agent
-Trigger: When an AIBOM lifecycle claim must be classified, evidence validated, provenance traced, confidence assessed, falsifier detected, lifecycle managed, drift detected, or outputs validated; or when amos-rscf-epistemic-master routes to this capability
-Version: 1.0.0
-tags:
-  - type/workflow
-  - type/workflow
-  - domain/rscf-epistemic
-  - epistemic/source_claim
-  - hml/m
-  - epistemic/source_claim
-  - amos-os
-rscf:
-  state: AMOS_MODEL
-  claim_class: EMPIRICAL
-  provenance: AMOS_corpus
-  scope: workflow_process
+skill: amos-aibom-lifecycle-assurance-rscf
+agent: amos-aibom-lifecycle-assurance-rscf-agent
+status: IMPLEMENTED_LOCAL_REFERENCE
+version: 3.0.0
 origin_architect: Trang Phan
-epistemic_class: SOURCE_CLAIM
-version: 1.1.0
-rscf_state: SOURCE_CLAIM
-hml_level: M
-gmef_gates:
-  - L0_integrity
-  - L1_epistemic
-  - L2_provenance
-  - L5_scope
-  - L7_authority
-collapse_class: reversible
-qfm_gate_set: QFM_v43
-law_compliance:
-  - L0
-  - L1
-  - L2
-  - L4
-  - L5
-  - L7
-  - L16
-  - L17
-  - L18
-domain: rscf
+epistemic_class: AMOS_MODEL
 ---
 
-# Workflow: Aibom Lifecycle Assurance Rscf
+# Workflow: AMOS AIBOM Lifecycle Assurance
 
-## Identity
+## Objective
 
-Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+Produce the narrowest defensible AI/software supply-chain evidence object while keeping inventory, provenance, cryptographic verification, vulnerability applicability, reproducibility, runtime identity, output binding and authority separate.
 
-## Preconditions
+## State machine
 
-- The `amos-aibom-lifecycle-assurance-rscf` skill exists and is loaded.
-- The `amos-aibom-lifecycle-assurance-rscf-agent` agent is available and has valid content_hash.
-- The query falls within the skill's declared scope and domain.
-- All required vault sources (if any) are accessible.
-- Epistemic class labeling is enabled (SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL).
+```text
+INTAKE
+  -> BIND_IDENTITY
+  -> INVENTORY
+  -> NORMALIZE
+  -> PROVENANCE_BIND
+  -> VULNERABILITY_BIND
+  -> STRUCTURAL_GATE
+  -> SEAL
+  -> VERIFY
+  -> OUTPUT_BIND
+  -> DRIFT_GATE
+  -> RECEIPT
+  -> TERMINAL
+```
 
-## Steps
+## Gates
 
-1. **Intake**: Identify the problem and confirm it matches the Aibom Lifecycle Assurance Rscf scope.
-   - Classify the query against the AIBOM lifecycle capabilities: classify_claim, validate_evidence, trace_provenance, assess_confidence, detect_falsifier, manage_lifecycle, detect_drift, validate_outputs
-   - Route to the appropriate capability
-1. **Skill Invocation**: Load the `amos-aibom-lifecycle-assurance-rscf` skill.
-   - Read the skill content and validation gates
-   - Identify which capability is most relevant
-1. **Application**: Apply the Aibom Lifecycle Assurance Rscf capability.
-   - Tag every output with its epistemic status (SOURCE / DERIVED / AMOS_MODEL)
-   - Record provenance for every derived claim
-1. **Validation**: Check results against validation gates.
-   - Law of Law: no unresolved contradictions
-   - Epistemic class labels present
-   - Provenance recorded
-1. **Output**: Present results with full provenance and epistemic labeling.
-   - Include confidence ceiling
-   - Record source path for every derived claim
+### G1 — Identity
 
-## Operations
+Bind repository/source ref, build ID, root component and policy. Missing load-bearing identity -> `UNKNOWN/GAP`.
 
-1. **Intake**: Identify the problem and confirm it matches the Aibom Lifecycle Assurance Rscf scope. - Classify the query against the AIBOM lifecycle capabilities: classify_claim, validate_evidence, trace_provenance, assess_confidence, dete...
-1. **Skill Invocation**: Load the `amos-aibom-lifecycle-assurance-rscf` skill. - Read the skill content and validation gates - Identify which capability is most relevant
-1. **Application**: Apply the Aibom Lifecycle Assurance Rscf capability. - Tag every output with its epistemic status (SOURCE / DERIVED / AMOS_MODEL) - Record provenance for every derived claim
-1. **Validation**: Check results against validation gates. - Law of Law: no unresolved contradictions - Epistemic class labels present - Provenance recorded
-1. **Output**: Present results with full provenance and epistemic labeling. - Include confidence ceiling - Record source path for every derived claim
+### G2 — Inventory
 
-## Output
+Record component type, source format/reference and digest when available. Do not turn missing digests into synthetic identity.
 
-The workflow produces a structured result containing:
+### G3 — Provenance
 
-- `status` — VERIFIED / DERIVED / CONDITIONAL / UNKNOWN/GAP / REJECTED
-- `capability` — the capability that was executed
-- `summary` — human-readable summary of the result
-- `data` — structured output specific to the capability
-- `gaps` — list of unresolved gap identifiers
-- `warnings` — non-blocking advisory messages
-- `confidence_ceiling` — maximum confidence (capped at 0.95)
-- `provenance` — list of provenance references tracing to source evidence
+An in-toto attestation must bind a subject SHA-256 to the recorded component digest. `VERIFIED_EXTERNAL` requires external verifier identity, version and evidence reference.
 
-## Validation Gates
+### G4 — Vulnerability
 
-- **G1 (Intake)**: Problem confirmed within Aibom Lifecycle Assurance Rscf scope.
-- **G2 (Application)**: Outputs carry correct epistemic status tags.
-- **G3 (Validation)**: Results pass Law of Law and epistemic class checks.
-- **G4 (Output)**: Output format matches specification; provenance recorded.
+Record scanner identity/version and database snapshot. Applicability is tri-state and remains `UNKNOWN` if version/configuration evidence is incomplete.
 
-## Failure Paths
+### G5 — Structural integrity
 
-- If validation fails: downgrade confidence, flag the gap, escalate — do not force-fit.
-- If skill content is insufficient: mark as UNKNOWN/GAP and fail closed.
+Require root presence, digest syntax, closed recorded relations, valid attestation binding, supported signature claims, valid vulnerability attribution state and manifest-hash integrity.
 
-## Provenance
+### G6 — Policy completeness
 
-- **Workflow**: `amos-aibom-lifecycle-assurance-rscf-workflow.md`
-- **Skill**: `amos-aibom-lifecycle-assurance-rscf`
-- **Agent**: `amos-aibom-lifecycle-assurance-rscf-agent`
+Evaluate attestation, verified signature, vulnerability evidence, environment identity, output binding and replay evidence independently. A structural PASS cannot compensate for a required policy gap.
 
-______________________________________________________________________
+### G7 — Sealing
 
-**MOC:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
+Seal immutable canonical manifest content only after structural integrity passes. `SEALED != POLICY_COMPLETE`.
 
-## Orchestration Pattern
+### G8 — Output binding
 
-**Pattern**: Single-Agent with Validation Gates
+Bind execution output hash to the exact sealed AIBOM hash. Trace/evaluation receipt identity may be attached when available. `OUTPUT_BOUND != OUTPUT_CORRECT`.
 
-This workflow follows a single-agent orchestration with explicit validation gates between steps:
+### G9 — Lifecycle drift
 
-1. **Intake** -> validation gate -> **Skill Invocation** -> validation gate -> **Application** -> validation gate -> **Output**
-1. Each gate checks: epistemic labeling, provenance, scope compliance, confidence ceiling
-1. On gate failure: route to error handling or escalate to parent workflow
+Compare only sealed manifests with compatible source repository identity. Return explicit component drift; do not infer cause.
 
-## Evaluation Gates
+## Deterministic checks
 
-### Gate 1: Intake Validation
+```bash
+python 07_SKILLS/amos-aibom-lifecycle-assurance-rscf/scripts/aibom.py --self-test
+python 07_SKILLS/amos-aibom-lifecycle-assurance-rscf/scripts/audit_rscf.py --self-test
+python -m unittest -v 19_TESTS/test_aibom_lifecycle_runtime.py
+```
 
-- Query matches skill scope
-- Required inputs present
-- No scope violations detected
+## Terminal statuses
 
-### Gate 2: Skill Load Validation
+- `STRUCTURALLY_VALID`
+- `POLICY_COMPLETE`
+- `POLICY_INCOMPLETE`
+- `INVALIDATED_EVIDENCE`
+- `NOT_COMPARABLE`
+- `UNKNOWN/GAP`
 
-- Skill file exists and is valid
-- Agent binding is valid
-- Required vault sources accessible
+These are evidence statuses, not authority states.
 
-### Gate 3: Output Validation
+## Recovery
 
-- Epistemic class labels present
-- Provenance recorded for all derived claims
-- Confidence ceiling not exceeded
-- No unresolved CRITICAL_GAPs
-- Scope compliance verified
+- malformed or sensitive raw persisted fields -> reject;
+- missing component identity -> preserve gap;
+- attestation subject mismatch -> reject attestation;
+- unsupported signature claim -> reject claim;
+- stale/tampered sealed manifest -> invalidate evidence;
+- source identity mismatch -> `NOT_COMPARABLE`;
+- external scanner/verifier unavailable -> preserve `UNKNOWN/GAP` rather than fabricate evidence.
 
-## Error Handling
+## Terminal invariants
 
-| Error Type       | Detection                    | Recovery                              |
-| ---------------- | ---------------------------- | ------------------------------------- |
-| Scope violation  | Gate 1 check                 | Route to parent skill                 |
-| Missing evidence | Gate 3 check                 | Flag as GAP, reduce confidence to 0.5 |
-| Contradiction    | Gate 3 check                 | Flag as CRITICAL_GAP, halt            |
-| Provenance loss  | Gate 3 check                 | Mark as UNKNOWN, request human review |
-| Timeout          | Step budget exceeded         | Return partial result with warnings   |
-| Drift            | Confidence calibration check | Trigger drift alignment governor      |
+`AIBOM_EVIDENCE != AUTHORITY`
 
-## Human-in-the-Loop
+`POLICY_COMPLETE != DEPLOYMENT_VALIDITY`
 
-- **Default**: Automated execution without human intervention
-- **Escalation triggers**:
-  - CRITICAL_GAP detected
-  - Confidence below 0.3
-  - Scope violation requiring reclassification
-  - Contradiction that cannot be auto-resolved
-- **Review checkpoint**: After Gate 3, if any warnings are present
-
-## Monitoring
-
-- **Trace level**: Full (inputs, outputs, intermediate steps)
-- **Metrics**: Step count, token usage, confidence, gap count, execution time
-- **Alerts**: CRITICAL_GAP, confidence < 0.3, scope violation, timeout
-- **Provenance**: Every output traces back to source evidence via provenance chain
-
-## Composition
-
-- **Skill**: `amos-aibom-lifecycle-assurance-rscf`
-- **Agent**: `amos-aibom-lifecycle-assurance-rscf-agent`
-- **Parent workflow**: Routes via `AMOS_HOME` or parent skill workflow
-- **Chain depth**: Maximum 3 workflows in sequence without orchestrator approval
-- **Parallel execution**: Supported when independent capabilities are invoked
+`SIGNATURE_VERIFIED != SEMANTIC_CORRECTNESS`
