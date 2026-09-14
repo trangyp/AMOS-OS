@@ -1,55 +1,22 @@
 {
   "name": "amos-agentops-observability-rscf-agent",
   "display_name": "AMOS AgentOps Observability",
-  "description": "Read/audit-oriented AMOS agent for trace topology, privacy-aware telemetry, missingness, effect-state observations, receipts, and bounded observability projections.",
-  "version": "2.0.0",
+  "description": "Read/audit-oriented AMOS agent for trace topology, privacy-aware telemetry, durable transport state, OTLP projections, backend read-back, missingness, and evidence receipts.",
+  "version": "3.0.0",
   "origin_architect": "Trang Phan",
-  "skill_binding": {
-    "primary_skill": "amos-agentops-observability-rscf",
-    "skill_path": "07_SKILLS/amos-agentops-observability-rscf/SKILL.md"
-  },
+  "skill_binding": {"primary_skill": "amos-agentops-observability-rscf", "skill_path": "07_SKILLS/amos-agentops-observability-rscf/SKILL.md"},
   "capabilities": [
-    {
-      "name": "agentops_observability.trace_audit",
-      "description": "Audit agent/workflow/model/tool/memory/effect trace topology and receipt integrity.",
-      "side_effect": "read"
-    },
-    {
-      "name": "agentops_observability.privacy_audit",
-      "description": "Audit capture mode, redaction, sensitive-content exposure and telemetry missingness.",
-      "side_effect": "read"
-    },
-    {
-      "name": "agentops_observability.effect_observation",
-      "description": "Inspect observed effect states without treating telemetry as effect authorization.",
-      "side_effect": "read"
-    },
-    {
-      "name": "agentops_observability.projection_audit",
-      "description": "Review OpenTelemetry-compatible projections while preserving AMOS extensions and conformance boundaries.",
-      "side_effect": "read"
-    }
+    {"name":"agentops_observability.trace_audit","description":"Audit trace topology, lifecycle and receipt integrity.","side_effect":"read"},
+    {"name":"agentops_observability.privacy_audit","description":"Audit capture mode, redaction, persisted fields and telemetry missingness.","side_effect":"read"},
+    {"name":"agentops_observability.transport_audit","description":"Audit OTLP encoding, durable outbox state, retry classification, ambiguous delivery and transport receipts.","side_effect":"read"},
+    {"name":"agentops_observability.roundtrip_audit","description":"Audit backend read-back against exact trace, run, build, span topology and required AMOS attributes.","side_effect":"read"},
+    {"name":"agentops_observability.effect_observation","description":"Inspect observed effect states without treating telemetry as effect authorization.","side_effect":"read"}
   ],
   "depends_on_skills": ["amos-agentops-observability-rscf"],
   "depends_on_workflows": ["amos-agentops-observability-rscf-workflow.md"],
-  "governance": {
-    "risk_tier": "medium",
-    "approval_mode": "steward_review",
-    "promotion_state": "implemented_local_reference",
-    "deployment_authority": "none"
-  },
-  "observability": {
-    "capture_default": "METADATA_ONLY",
-    "raw_input_logging": false,
-    "raw_output_logging": false,
-    "raw_intermediate_logging": false,
-    "redacted_content_opt_in": true,
-    "missingness_required": true,
-    "authority_semantics": "OBSERVED_REFERENCE_ONLY"
-  },
-  "lifecycle": {
-    "status": "active",
-    "deprecated": false
-  },
+  "implementation": {"trace_runtime":"17_OBSERVABILITY/agent_trace_runtime.py","transport_runtime":"17_OBSERVABILITY/trace_transport_runtime.py","deployment_binding":"none"},
+  "governance": {"risk_tier":"medium","approval_mode":"steward_review","promotion_state":"implemented_local_reference","deployment_authority":"none"},
+  "observability": {"capture_default":"METADATA_ONLY","raw_input_logging":false,"raw_output_logging":false,"raw_intermediate_logging":false,"transport_secrets_persisted":false,"missingness_required":true,"authority_semantics":"OBSERVED_REFERENCE_ONLY","http_ack_is_roundtrip_verified":false},
+  "lifecycle": {"status":"active","deprecated":false},
   "epistemic_class": "AMOS_MODEL"
 }
