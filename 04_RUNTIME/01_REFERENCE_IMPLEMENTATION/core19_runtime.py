@@ -7,6 +7,11 @@ Core-19 substrate. It does not promote canon and does not claim complete ULK
 fragment implementations. Current fragment execution status is delegated to the
 evidence-bound ULK execution registry so this snapshot cannot become a second
 stale status owner.
+
+Mathematical type firewall:
+- an indexed coordinate/data field is not automatically an algebraic tensor;
+- structural adjacency is not point-set topology or causality;
+- a named invariant or governance rule is not a theorem merely by declaration.
 """
 from __future__ import annotations
 
@@ -225,12 +230,11 @@ def matrix_coordinate_count() -> int:
 
 
 @dataclass(frozen=True)
-class TensorCoordinate:
-    """Six-axis typed URK coordinate.
+class CoordinateFieldCoordinate:
+    """Six-axis coordinate in the URK partial data field.
 
-    Row/column/scale/context/regime/observer are separate semantic axes.  None
-    is interchangeable with another, and no numeric infinity-cardinality is
-    encoded by the coordinate type.
+    This is an indexed coordinate only. It carries no tensor-product,
+    multilinearity, scalar-field, covariance/contravariance, or basis semantics.
     """
 
     row: Core19
@@ -252,16 +256,116 @@ class TensorCoordinate:
                 raise ValueError(f"{axis} must be an explicit non-empty index")
 
 
+# Compatibility alias only. Historical callers used TensorCoordinate for an
+# indexed field coordinate. The alias does not grant algebraic tensor semantics.
+TensorCoordinate = CoordinateFieldCoordinate
+
+
 @dataclass(frozen=True)
-class TopologyEdge:
+class TensorDeclaration:
+    """Evidence references required before algebraic tensor language is admissible.
+
+    The referenced witnesses are claim identities, not proofs by string presence.
+    Structural completeness therefore remains AMOS_MODEL metadata until the
+    referenced mathematical evidence is independently validated.
+    """
+
+    scalar_structure_id: str
+    axis_module_structure_ids: Tuple[str, ...]
+    multilinearity_witness_id: str
+    tensor_product_witness_id: str
+    coordinate_basis_witness_id: Optional[str] = None
+
+    def __post_init__(self) -> None:
+        fields = (
+            self.scalar_structure_id,
+            self.multilinearity_witness_id,
+            self.tensor_product_witness_id,
+        )
+        if any(not isinstance(value, str) or not value.strip() for value in fields):
+            raise ValueError("tensor declaration requires non-empty structural witness ids")
+        if not self.axis_module_structure_ids:
+            raise ValueError("tensor declaration requires at least one module/vector-space axis witness")
+        if any(not isinstance(value, str) or not value.strip() for value in self.axis_module_structure_ids):
+            raise ValueError("tensor axis witness ids must be non-empty")
+        if self.coordinate_basis_witness_id is not None and not self.coordinate_basis_witness_id.strip():
+            raise ValueError("coordinate basis witness id must be non-empty when supplied")
+
+    def structural_failures(self, *, axis_count: int, coordinates_used: bool) -> Tuple[str, ...]:
+        failures = []
+        if not isinstance(axis_count, int) or axis_count < 1:
+            failures.append("TENSOR_AXIS_COUNT")
+        elif len(self.axis_module_structure_ids) != axis_count:
+            failures.append("TENSOR_AXIS_MODULE_WITNESS_COUNT")
+        if coordinates_used and self.coordinate_basis_witness_id is None:
+            failures.append("TENSOR_COORDINATE_BASIS_WITNESS")
+        return tuple(failures)
+
+
+@dataclass(frozen=True)
+class TensorStructureReceipt:
+    """Receipt for structural tensor declaration checks, not theorem verification."""
+
+    declaration: TensorDeclaration
+    axis_count: int
+    coordinates_used: bool
+    status: str = "STRUCTURALLY_TYPED_AMOS_MODEL"
+
+
+def bind_tensor_structure(
+    declaration: TensorDeclaration,
+    *,
+    axis_count: int,
+    coordinates_used: bool = False,
+) -> TensorStructureReceipt:
+    failures = declaration.structural_failures(
+        axis_count=axis_count,
+        coordinates_used=coordinates_used,
+    )
+    if failures:
+        raise ValueError(";".join(failures))
+    return TensorStructureReceipt(declaration, axis_count, coordinates_used)
+
+
+@dataclass(frozen=True)
+class StructuralAdjacencyEdge:
     src: Core19
     dst: Core19
     relation_id: str
     status: CellStatus
 
     def __post_init__(self) -> None:
-        if not self.relation_id.strip():
-            raise ValueError("topology relation_id must be non-empty")
+        if not isinstance(self.relation_id, str) or not self.relation_id.strip():
+            raise ValueError("structural adjacency relation_id must be non-empty")
+
+
+# Compatibility alias only. Historical TopologyEdge meant graph/relation
+# adjacency; it is not a point-set topology edge and does not imply causality.
+TopologyEdge = StructuralAdjacencyEdge
+
+
+@dataclass(frozen=True)
+class SelectiveInvalidationGate:
+    """Governance gate for dependency-based stale propagation.
+
+    This encodes when the AMOS_MODEL invalidation rule may be executed. It is not
+    a mathematical axiom that invalid parent claims make descendants false.
+    """
+
+    dependency_orientation_bound: bool
+    state_epoch_bound: bool
+    closure_algorithm_bound: bool
+    validation_receipt_bound: bool
+
+    def enforceable(self) -> bool:
+        return all(
+            (
+                self.dependency_orientation_bound,
+                self.state_epoch_bound,
+                self.closure_algorithm_bound,
+                self.validation_receipt_bound,
+            )
+        )
 
 
 class LogicFragment(Enum):
@@ -315,7 +419,7 @@ class PromotionEvidence:
 
 
 def validate_runtime_invariants() -> Tuple[str, ...]:
-    """Return invariant failures. Empty tuple means all bounded checks passed."""
+    """Return bounded invariant failures. Empty tuple means these checks passed."""
     failures = []
 
     if len(Core19) != 19:
@@ -344,5 +448,20 @@ def validate_runtime_invariants() -> Tuple[str, ...]:
         if normalize_unary(UnaryExpr.nlogic(UnaryExpr.nlogic(probe))) != normalized:
             failures.append("NLOGIC_INVOLUTION")
             break
+
+    probe_coord = CoordinateFieldCoordinate(
+        Core19.P01_EXISTENCE,
+        Core19.P03_CAUSALITY,
+        "H",
+        "ctx",
+        "normal",
+        "obs",
+    )
+    if not isinstance(probe_coord, CoordinateFieldCoordinate):
+        failures.append("COORDINATE_FIELD_IDENTITY")
+
+    gate = SelectiveInvalidationGate(True, True, True, True)
+    if not gate.enforceable():
+        failures.append("SELECTIVE_INVALIDATION_GATE")
 
     return tuple(dict.fromkeys(failures))
