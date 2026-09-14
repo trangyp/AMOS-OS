@@ -1,0 +1,150 @@
+name: Durable Workflow Contract
+
+on:
+  pull_request:
+    branches: [main, github-agent-ecosystem-upgrade, agent-interoperability-compiler, agent-runtime-policy-hardening, agent-eval-evidence-hardening]
+    paths:
+      - '04_RUNTIME/01_REFERENCE_IMPLEMENTATION/**'
+      - '07_SKILLS/amos-semantic-workflow-persistence-rscf/**'
+      - '08_WORKFLOWS/amos-semantic-workflow-persistence-rscf-workflow.md'
+      - '19_TESTS/test_durable_workflow_runtime.py'
+      - '26_WORKFLOWS/amos-semantic-workflow-persistence-rscf-workflow.md'
+      - '.github/agents/amos-durable-runtime-auditor.agent.md'
+      - '.github/workflows/durable-workflow-contract.yml'
+  push:
+    branches: [main]
+    paths:
+      - '04_RUNTIME/01_REFERENCE_IMPLEMENTATION/**'
+      - '07_SKILLS/amos-semantic-workflow-persistence-rscf/**'
+      - '08_WORKFLOWS/amos-semantic-workflow-persistence-rscf-workflow.md'
+      - '19_TESTS/test_durable_workflow_runtime.py'
+      - '26_WORKFLOWS/amos-semantic-workflow-persistence-rscf-workflow.md'
+      - '.github/agents/amos-durable-runtime-auditor.agent.md'
+      - '.github/workflows/durable-workflow-contract.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  durable-contract:
+    name: durable-contract
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Compile durable runtime surfaces
+        run: |
+          python -m py_compile \
+            04_RUNTIME/01_REFERENCE_IMPLEMENTATION/durable_workflow_runtime.py \
+            07_SKILLS/amos-semantic-workflow-persistence-rscf/scripts/durable_contract_check.py \
+            19_TESTS/test_durable_workflow_runtime.py
+
+      - name: Execute durable runtime regression suite
+        run: python -m unittest -v 19_TESTS/test_durable_workflow_runtime.py
+
+      - name: Execute Skill contract self-test
+        run: python 07_SKILLS/amos-semantic-workflow-persistence-rscf/scripts/durable_contract_check.py --self-test
+
+      - name: Reject unresolved external effect snapshot
+        run: |
+          cat > /tmp/ambiguous.json <<'JSON'
+          {
+            "workflow_id": "wf-ci",
+            "run_id": 1,
+            "code_version": "v1",
+            "status": "RUNNING",
+            "explicit_state_hash": "state",
+            "event_head": "event",
+            "steps": [
+              {
+                "step_id": "send",
+                "kind": "EFFECT",
+                "status": "AMBIGUOUS",
+                "effect_key": "send-1",
+                "output_hash": null
+              }
+            ]
+          }
+          JSON
+          if python 07_SKILLS/amos-semantic-workflow-persistence-rscf/scripts/durable_contract_check.py /tmp/ambiguous.json; then
+            echo 'ERROR: ambiguous external effect was admitted'
+            exit 1
+          fi
+
+      - name: Reject effect key reuse with different input
+        run: |
+          python - <<'PY'
+          import importlib.util
+          import sys
+          import tempfile
+          from pathlib import Path
+
+          path = Path('04_RUNTIME/01_REFERENCE_IMPLEMENTATION/durable_workflow_runtime.py')
+          spec = importlib.util.spec_from_file_location('durable_runtime_ci', path)
+          mod = importlib.util.module_from_spec(spec)
+          sys.modules[spec.name] = mod
+          spec.loader.exec_module(mod)
+
+          db = tempfile.NamedTemporaryFile(suffix='.sqlite3', delete=False)
+          db.close()
+          store = mod.DurableWorkflowStore(db.name)
+          ref = store.start('wf-key-conflict', 'v1', {})
+          store.execute_step(ref, 'e1', mod.StepKind.EFFECT, {'x': 1}, lambda x: x, effect_key='same-key')
+          try:
+              store.execute_step(ref, 'e2', mod.StepKind.EFFECT, {'x': 2}, lambda x: x, effect_key='same-key')
+          except mod.ReplayDivergence:
+              print('effect-key/input conflict rejected: PASS')
+          else:
+              raise SystemExit('effect-key/input conflict was not rejected')
+          finally:
+              store.close()
+          PY
+
+      - name: Reject code-version drift without patch
+        run: |
+          python - <<'PY'
+          import importlib.util
+          import sys
+          import tempfile
+          from pathlib import Path
+
+          path = Path('04_RUNTIME/01_REFERENCE_IMPLEMENTATION/durable_workflow_runtime.py')
+          spec = importlib.util.spec_from_file_location('durable_runtime_version_ci', path)
+          mod = importlib.util.module_from_spec(spec)
+          sys.modules[spec.name] = mod
+          spec.loader.exec_module(mod)
+
+          db = tempfile.NamedTemporaryFile(suffix='.sqlite3', delete=False)
+          db.close()
+          store = mod.DurableWorkflowStore(db.name)
+          ref = store.start('wf-version-ci', 'v1', {})
+          try:
+              store.resume(ref, 'v2')
+          except mod.VersionMismatch:
+              print('unpatched code-version drift rejected: PASS')
+          else:
+              raise SystemExit('unpatched code-version drift was not rejected')
+          finally:
+              store.close()
+          PY
+
+      - name: Record bounded evidence
+        run: |
+          {
+            echo '### Durable Workflow Contract'
+            echo '- Local SQLite reference semantics: EXECUTED_TESTED_SCOPE'
+            echo '- Ambiguous-effect blind retry: REJECTED'
+            echo '- Effect-key/input conflict: REJECTED'
+            echo '- Unpatched replay-version drift: REJECTED'
+            echo '- Distributed runtime: UNKNOWN/GAP'
+            echo '- Production durability: UNKNOWN/GAP'
+            echo '- Deployment authority: NONE'
+          } >> "$GITHUB_STEP_SUMMARY"
