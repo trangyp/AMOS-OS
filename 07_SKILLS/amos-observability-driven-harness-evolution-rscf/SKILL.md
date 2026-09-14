@@ -81,7 +81,7 @@ These are descriptive diagnostics, not causal proofs.
 
 Recommend `KEEP` only when all load-bearing evidence is usable, `F` is nonempty, `|F| > |R|`, and `C` is empty.
 
-Recommend `ROLLBACK` when a critical regression exists, or when comparable/reliable/isolated evidence shows `|R| > |F|`.
+Recommend `ROLLBACK` only when all load-bearing comparison, reliability, isolation, and attribution evidence is usable and either a critical regression exists or `|R| > |F|`.
 
 Otherwise return `INCONCLUSIVE`.
 
@@ -119,7 +119,7 @@ Return `UNKNOWN/GAP` or `INCONCLUSIVE` rather than guessing when:
 - rollback state cannot be bound to the pre-change hash;
 - reconciliation cannot prove the observed component state.
 
-Critical regression may justify a `ROLLBACK` recommendation, but never executes rollback.
+A critical regression may justify a `ROLLBACK` recommendation only when the bound comparison/reliability/isolation/attribution evidence is usable; otherwise return `INCONCLUSIVE`. A rollback recommendation never executes rollback.
 
 ## Output contract
 
