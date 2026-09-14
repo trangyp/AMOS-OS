@@ -1,67 +1,99 @@
 ---
 canon-group: meta
 canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
+rscf-state: derived
 rscf-provenance: AMOS_corpus
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: DERIVED
 topic: Coverage Model
 tags:
   - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
-  - rscf/state/source-claim
-  - misc
-created: 2026-08-22
----
----
+  - cognitive-matrix
+updated: 2026-09-14
 ---
 
-# COVERAGE_MODEL — Definition
+# COVERAGE_MODEL — Bounded Executable Contract
 
-**Package:** `COVERAGE_MODEL_`
-**Class:** `COGNITIVE_MATRIX_CONTRACT`
-**Epistemic class:** `DERIVED / MODEL EXTENSION`
-**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
-**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
+**Origin architect / steward:** Trang Phan  
+**Status:** `IMPLEMENTED_BOUNDED / VALIDATED_BOUNDED`  
+**Runtime:** `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/cognitive_matrix_runtime.py`
 
-## Scope
+## Purpose
 
-Covers the operation contract for this lifecycle operator.
+Coverage is represented as an ordered vector, not a single percentage that can hide missing implementation, validation, or authority.
 
-## Definition
+For a non-empty registered cell set `R`, define
 
-MODEL
+\[
+C(R) = (c_a,c_s,c_c,c_i,c_v,c_u)
+\]
 
-This is a **contract-level definition**, not an implementation claim.
+with coordinates:
 
-## Hard boundaries
+- `c_a`: address coverage;
+- `c_s`: source-bound coverage;
+- `c_c`: contract-complete coverage;
+- `c_i`: implemented coverage;
+- `c_v`: bounded-validated coverage;
+- `c_u`: bounded-authorized coverage.
+
+For maturity threshold `m`,
+
+\[
+c_m = \frac{|\{r \in R : M(r) \ge m\}|}{|R|}.
+\]
+
+For the empty set, every coordinate is defined as `0` by runtime convention to avoid division by zero and false completeness.
+
+## Maturity order
 
 ```text
-CONTRACT_FILLED != IMPLEMENTED
-DOCUMENTED != EXECUTABLE
-MODEL != VERIFIED
-UNKNOWN/GAP != PASS
+PLACEHOLDER
+< SOURCE_BOUND
+< CONTRACT_COMPLETE
+< IMPLEMENTED
+< VALIDATED_BOUNDED
+< AUTHORIZED_BOUNDED
 ```
 
-______________________________________________________________________
+Runtime condition is orthogonal to maturity:
 
-[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+```text
+ACTIVE | STALE | COMPETING | QUARANTINED | FALSIFIED
+```
 
-______________________________________________________________________
+Therefore a historically mature artifact can still become stale or quarantined without rewriting its recorded maturity.
 
-RSCF-NODE
-node_id: coverage_model_coverage_definition
-node_type: note
-path: 07_COVERAGE/COVERAGE_MODEL\_/COVERAGE_MODEL.md
-claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/07_COVERAGE/COVERAGE_MODEL.md
+## Invariants
 
-______________________________________________________________________
+- Every coverage coordinate lies in `[0,1]`.
+- `c_u <= c_v <= c_i <= c_c <= c_s <= c_a` for a consistently staged registry.
+- `address=1` alone never implies system completeness.
+- `complete=True` only when every coordinate equals `1`.
+- Coverage does not establish empirical truth.
+- Coverage does not grant authority.
+- Missing/unknown is not counted as pass.
 
-**MOC:** [[25_COGNITIVE_MATRIX/07_COVERAGE/07_COVERAGE_MOC|07_COVERAGE_MOC]]
+## Executed validation
 
-______________________________________________________________________
+A four-record mixed-maturity replay produced:
 
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+```text
+address        1.00
+source         1.00
+contract       1.00
+implementation 0.75
+validation     0.50
+authority      0.25
+complete       false
+```
+
+This directly prevents the earlier failure mode where package-leaf addressability could be described as overall completion.
+
+## Boundary
+
+The runtime computes coverage only for records actually supplied to it. It does not claim that all expected Cognitive Matrix artifacts have already been discovered or registered.
+
+[[25_COGNITIVE_MATRIX/07_COVERAGE/07_COVERAGE_MOC|07_COVERAGE_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
