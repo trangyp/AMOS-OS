@@ -1,0 +1,3 @@
+interface:
+  display_name: "AMOS Portable Agent Authorization"
+  short_description: "Bound delegated agent authority with commit-time revalidation"

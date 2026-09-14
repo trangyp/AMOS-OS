@@ -1,0 +1,51 @@
+name: Portable Agent Authorization Contract
+on:
+  pull_request:
+    paths:
+      - '07_SKILLS/amos-portable-agent-authorization-rscf/**'
+      - '06_AGENTS/amos-portable-agent-authorization-rscf-agent.json'
+      - '08_WORKFLOWS/amos-portable-agent-authorization-rscf-workflow.md'
+      - '26_WORKFLOWS/amos-portable-agent-authorization-rscf-workflow.md'
+      - '11_KNOWLEDGE/PORTABLE_AGENT_AUTHORIZATION_SOURCES.md'
+      - '14_TOOLS/PORTABLE_AGENT_AUTHORIZATION_VERIFIER.md'
+      - '14_TOOLS/PORTABLE_AGENT_AUTHORIZATION_REGISTRY_EXTENSION.md'
+      - '14_TOOLS/TOOL_REGISTRY_MASTER.md'
+      - '19_TESTS/test_portable_authorization.py'
+      - '.github/agents/amos-portable-agent-authorization-auditor.agent.md'
+      - '.github/workflows/portable-agent-authorization-contract.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  portable-agent-authorization-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: '3.12'
+      - name: Compile deterministic surfaces
+        run: |
+          python -m py_compile \
+            07_SKILLS/amos-portable-agent-authorization-rscf/scripts/portable_authorization.py \
+            07_SKILLS/amos-portable-agent-authorization-rscf/scripts/audit_rscf.py \
+            19_TESTS/test_portable_authorization.py
+      - name: Run authorization regression suite
+        env:
+          PYTHONWARNINGS: error::ResourceWarning
+        run: python -m unittest -q 19_TESTS/test_portable_authorization.py
+      - name: Run runtime and receipt self-tests
+        env:
+          PYTHONWARNINGS: error::ResourceWarning
+        run: |
+          python 07_SKILLS/amos-portable-agent-authorization-rscf/scripts/portable_authorization.py --self-test
+          python 07_SKILLS/amos-portable-agent-authorization-rscf/scripts/audit_rscf.py --self-test
+      - name: Enforce authority and observability firewalls
+        run: |
+          grep -q 'PREFLIGHT_ALLOW != COMMIT_TIME_ALLOW' 07_SKILLS/amos-portable-agent-authorization-rscf/SKILL.md
+          grep -q 'AUTHORIZATION_DECISION != COMMIT_AUTHORITY' 07_SKILLS/amos-portable-agent-authorization-rscf/SKILL.md
+          grep -q 'CAPABILITY != AUTHORITY' 07_SKILLS/amos-portable-agent-authorization-rscf/SKILL.md
+          grep -q '"execution_authority": "none"' 06_AGENTS/amos-portable-agent-authorization-rscf-agent.json
+          grep -q '"merge_authority": "none"' 06_AGENTS/amos-portable-agent-authorization-rscf-agent.json
+          ! grep -q 'log_inputs.*true' 06_AGENTS/amos-portable-agent-authorization-rscf-agent.json
+          ! grep -q 'log_outputs.*true' 06_AGENTS/amos-portable-agent-authorization-rscf-agent.json
