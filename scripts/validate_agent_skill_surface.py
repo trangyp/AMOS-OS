@@ -3,7 +3,7 @@
 
 The repository contains legacy AMOS skills that predate the portable Agent Skills
 frontmatter. Those files are reported as migration warnings by default. Skills
-using only portable `name`/`description` metadata receive stricter bundled-resource
+using only portable `name`/`description` metadata receive strict forward-integrity
 checks. Use --strict-legacy only for a dedicated migration change.
 """
 
@@ -36,9 +36,6 @@ def frontmatter(text: str) -> tuple[dict[str, str], str | None]:
         if not match:
             continue
         key, value = match.groups()
-        # Nested YAML/list values are deliberately ignored. We only need top-level
-        # scalar discovery keys plus enough metadata to distinguish extended legacy
-        # frontmatter from the portable two-key form.
         if value and not value.startswith(("[", "{")):
             result[key] = value.strip("'\"")
     return result, None
@@ -58,6 +55,13 @@ def agent_files(root: Path) -> Iterable[Path]:
     return sorted(agents_root.glob("*.agent.md"))
 
 
+def legacy_finding(message: str, strict_legacy: bool, errors: list[str], warnings: list[str]) -> None:
+    if strict_legacy:
+        errors.append(message)
+    else:
+        warnings.append(message)
+
+
 def validate_skill(
     path: Path, strict_legacy: bool
 ) -> tuple[list[str], list[str], str | None, bool]:
@@ -69,50 +73,66 @@ def validate_skill(
 
     meta, fm_error = frontmatter(text)
     if fm_error:
-        message = f"{path}: legacy/non-portable metadata ({fm_error}); migration deferred"
-        if strict_legacy:
-            return [message], warnings, None, False
-        return errors, [message], None, False
+        legacy_finding(
+            f"{path}: legacy/non-portable metadata ({fm_error}); migration deferred",
+            strict_legacy,
+            errors,
+            warnings,
+        )
+        return errors, warnings, None, False
 
     name = meta.get("name")
     description = meta.get("description")
     has_discovery_metadata = bool(name or description)
     portable = bool(name and description and set(meta) == PORTABLE_KEYS)
 
-    if has_discovery_metadata:
-        if not name:
-            errors.append(f"{path}: skill with discovery metadata is missing name")
-        elif not NAME.fullmatch(name):
-            errors.append(f"{path}: name must be lowercase-hyphenated: {name!r}")
-        elif path.parent.name != name:
-            errors.append(
-                f"{path}: skill name {name!r} must match directory {path.parent.name!r}"
+    name_problems: list[str] = []
+    if not name:
+        name_problems.append("missing name")
+    elif not NAME.fullmatch(name):
+        name_problems.append(f"name is not lowercase-hyphenated: {name!r}")
+    elif path.parent.name != name:
+        name_problems.append(
+            f"name {name!r} does not match directory {path.parent.name!r}"
+        )
+
+    description_problems: list[str] = []
+    if not description:
+        description_problems.append("missing description")
+    elif len(description) < 30:
+        description_problems.append("description is too short for reliable discovery")
+    elif len(description) > 1200:
+        description_problems.append("description is too large for discovery metadata")
+
+    if portable:
+        # Portable Skills opt in to the forward contract and therefore fail hard.
+        errors.extend(f"{path}: {problem}" for problem in name_problems)
+        errors.extend(f"{path}: {problem}" for problem in description_problems)
+        for reference in sorted(set(REFERENCE.findall(text))):
+            target = path.parent / reference
+            if not target.is_file():
+                errors.append(f"{path}: referenced local file does not exist: {reference}")
+    elif has_discovery_metadata:
+        for problem in [*name_problems, *description_problems]:
+            legacy_finding(
+                f"{path}: extended legacy metadata: {problem}",
+                strict_legacy,
+                errors,
+                warnings,
             )
-
-        if not description:
-            errors.append(f"{path}: skill with discovery metadata is missing description")
-        elif len(description) < 30:
-            errors.append(f"{path}: description is too short to be a reliable trigger")
-        elif len(description) > 1200:
-            errors.append(f"{path}: description is too large for discovery metadata")
-
-        if portable:
-            for reference in sorted(set(REFERENCE.findall(text))):
-                target = path.parent / reference
-                if not target.is_file():
-                    errors.append(f"{path}: referenced local file does not exist: {reference}")
-        else:
-            message = f"{path}: extended legacy frontmatter; portable two-key migration deferred"
-            if strict_legacy:
-                errors.append(message)
-            else:
-                warnings.append(message)
+        legacy_finding(
+            f"{path}: extended legacy frontmatter; portable two-key migration deferred",
+            strict_legacy,
+            errors,
+            warnings,
+        )
     else:
-        message = f"{path}: legacy frontmatter (no portable name/description); migration deferred"
-        if strict_legacy:
-            errors.append(message)
-        else:
-            warnings.append(message)
+        legacy_finding(
+            f"{path}: legacy frontmatter (no portable name/description); migration deferred",
+            strict_legacy,
+            errors,
+            warnings,
+        )
 
     return errors, warnings, name, portable
 
@@ -164,7 +184,7 @@ def main() -> int:
     root = args.root.resolve()
     errors: list[str] = []
     warnings: list[str] = []
-    names: dict[str, Path] = {}
+    names: dict[str, tuple[Path, bool]] = {}
     skill_count = 0
     portable_count = 0
 
@@ -178,9 +198,14 @@ def main() -> int:
         if name:
             previous = names.get(name)
             if previous:
-                errors.append(f"{path}: duplicate skill name {name!r}; first seen at {previous}")
+                previous_path, previous_portable = previous
+                finding = f"{path}: duplicate skill name {name!r}; first seen at {previous_path}"
+                if portable or previous_portable or args.strict_legacy:
+                    errors.append(finding)
+                else:
+                    warnings.append(finding + " (legacy duplication; migration debt)")
             else:
-                names[name] = path
+                names[name] = (path, portable)
 
     agent_count = 0
     for path in agent_files(root):
