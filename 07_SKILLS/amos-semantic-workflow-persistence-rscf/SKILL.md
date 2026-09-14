@@ -1,211 +1,206 @@
 ---
-canon-group: meta
-canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
-conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
-topic: Skill
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
-created: 2026-08-22
----
----
+name: amos-semantic-workflow-persistence-rscf
+description: Persist, resume, audit, replay, and recover long-running AMOS workflows as typed semantic state. Use for durable checkpoints, workflow/run identity, code-version replay compatibility, pure-versus-effect separation, explicit idempotency, ambiguous external effects, continue-as-new boundaries, persistent inference/approval records, provenance, and recovery after interruption. Preserve UNKNOWN/GAP and never treat checkpoint presence, replay success, or test pass as proof that an external effect committed or that a production runtime is valid.
 ---
 
-# Semantic Workflow Persistence Rscf
+# AMOS Semantic Workflow Persistence RSCF
 
-## Identity
+Apply:
 
-Origin architect: **Trang Phan**. Domain: rscf. Parent: amos-rscf-epistemic-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
+`integrity > completeness > fluency > speed > token savings`
 
-## When to Use
+## Core object
 
-- When classifying claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP)
-- When validating evidence chains for provenance, freshness, and scope
-- When assessing confidence ceilings based on epistemic class
-- When detecting falsifiers that would downgrade confidence
-- When the parent skill (`amos-rscf-epistemic-master`) routes to this specialized capability
-- When managing lifecycle operations across classify, validate, trace, assess, and detect
-- When detecting drift in evidence chains, provenance freshness, or confidence calibration
-- When validating outputs against domain constraints and epistemic class
+Treat a workflow as persistent typed knowledge, not an ephemeral chat trace:
 
-## Capabilities
+```text
+WorkflowExecution =
+  objective
+  + scope
+  + workflow_id
+  + run_id
+  + code_version
+  + explicit_state
+  + dependency_set
+  + event_history
+  + step_receipts
+  + effect_receipts
+  + provenance
+  + authority_state
+  + unresolved_gaps
+```
 
-- **semantic_workflow.classify_claim**: Classify claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP) and bind to evidence
-- **semantic_workflow.validate_evidence**: Validate evidence chains: provenance, freshness, scope, and regime validity
-- **semantic_workflow.trace_provenance**: Trace output provenance to vault sources and tag with content_hash
-- **semantic_workflow.assess_confidence**: Assess confidence ceiling based on epistemic class and evidence strength
-- **semantic_workflow.detect_falsifier**: Detect falsifiers and downgrade confidence when counter-evidence emerges
+Use H/M/L:
 
-> **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 91bde4294d2341db) for the full vault-sourced domain knowledge (9486 chars).
+- **H** — objective, scope, authority, hard invariants, termination condition.
+- **M** — workflow/run state, dependencies, checkpoints, provenance, competing hypotheses, recovery state.
+- **L** — exact step identity, input/output hashes, effect keys, receipts, failures, patch markers, commands.
 
-- **semantic_workflow.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-- **semantic_workflow.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-- **semantic_workflow.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+## Hard firewalls
 
-## Operations
+```text
+WORKFLOW_STATE != CONVERSATION_TEXT
+CHECKPOINT_PRESENT != EFFECT_COMMITTED
+HISTORY_REPLAY != EFFECT_REEXECUTION
+IDENTICAL_ARGUMENTS != IDENTICAL_OPERATION
+CAPABILITY != AUTHORITY
+PROPOSAL != COMMIT
+CODE_CHANGE != REPLAY_COMPATIBLE
+TEST_PASS != PRODUCTION_VALIDITY
+UNKNOWN/GAP != PASS
+AMBIGUOUS != FAILED
+```
 
-1. **semantic_workflow.classify_claim**: Classify claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP) and bind to evidence
-1. **semantic_workflow.validate_evidence**: Validate evidence chains: provenance, freshness, scope, and regime validity
-1. **semantic_workflow.trace_provenance**: Trace output provenance to vault sources and tag with content_hash
-1. **semantic_workflow.assess_confidence**: Assess confidence ceiling based on epistemic class and evidence strength
-1. **semantic_workflow.detect_falsifier**: Detect falsifiers and downgrade confidence when counter-evidence emerges
-1. **semantic_workflow.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-1. **semantic_workflow.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-1. **semantic_workflow.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+Do not compensate for a failed hard invariant with confidence, retries, popularity, or another passing metric.
 
-## 11_KNOWLEDGE Vault Content
+## Step classes
 
-> **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)
+Classify every executable step before running it.
 
-### RSCF Epistemic Substrate
+### PURE
 
-This RSCF engine operates on the AMOS RSCF (Reasoning, Scope, Claim, Falsifier) epistemic substrate.
+A local/deterministic computation with no consequential external effect.
 
-**RSCF objects**: claim / class / premises / evidence / provenance / scope / regime / freshness / dependencies / competing hypotheses / falsifiers / confidence ceiling.
+A `PURE` step may be retried after an interruption if its identity and input hash are unchanged.
 
-**RSCF state kinds**: OBSERVATION, SOURCE_CLAIM, DERIVED, MODEL, DECISION, UNKNOWN.
+### EFFECT
 
-**RSCF laws**:
+A step that may change external state: tool write, API mutation, message send, deployment, payment, file mutation, database write, etc.
 
-- `CLAIM != FACT`: a claim is not a fact; it must be labeled with epistemic class
-- `CONFIDENCE <= EVIDENCE`: confidence cannot exceed evidence support
-- `FALSIFIER_REQUIRED`: every claim must declare its falsifier
-- `SCOPE_BOUND`: every claim is valid only within its declared scope and regime
-- `PROVENANCE_REQUIRED`: every claim must have traceable provenance
+An `EFFECT` step requires:
 
-**RSCF validation gates**:
+- stable `step_id`;
+- explicit caller-owned `effect_key` / idempotency key;
+- input hash;
+- authority witness outside the Skill when the action is consequential;
+- durable completion receipt or explicit reconciliation result.
 
-- G1 (Law of Law): no unresolved contradictions
-- G2 (Epistemic class): all claims labeled, no class promotion without evidence
-- G3 (Provenance): source path recorded for every derived claim
-- G4 (Anti-overreach): no claim beyond declared scope
-- G5 (Equation firewall): equations carry status tags
-- G6 (Failure mode): on failure, downgrade, flag, escalate
+Never infer idempotency from tool name, arguments, prompt text, or semantic similarity.
 
-### Epistemic Boundary
+## Effect state machine
 
-This RSCF engine is an epistemic governance tool. It does not prove claims are true, that all falsifiers are known, or that the RSCF framework is complete.
+```text
+NEW -> STARTED -> COMPLETED(receipt)
+              \-> AMBIGUOUS -> RECONCILE
+                                -> COMPLETED
+                                -> RETRYABLE -> STARTED
+```
 
-## Failure Modes
+`STARTED + no durable completion receipt` is `AMBIGUOUS` for an external effect.
 
-- **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
-- **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
-- **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
-- **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
-- **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and relabel.
+Do not automatically retry an ambiguous effect. A timeout, worker crash, network error, or missing acknowledgement does not prove the target system was unchanged.
 
-## Validation Gates
+## Resume gate
 
-- **G1 (Law of Law)**: No unresolved contradictions within the skill's scope.
-- **G2 (Epistemic class)**: All claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL — never claim beyond evidence.
-- **G3 (Provenance)**: Source path recorded for every derived claim.
-- **G4 (Anti-overreach)**: No claim beyond the skill's declared scope and
+Resume only when all load-bearing predicates hold:
 
-______________________________________________________________________
+```text
+object_identity_stable
+AND checkpoint_valid
+AND dependencies_resolvable
+AND event_history_integrity_valid
+AND code_version_compatible
+AND no_unresolved_effect
+```
 
-**Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
+If any predicate is unresolved, return `UNKNOWN/GAP` or `AMBIGUOUS` and stop the unsafe transition.
 
-## Related
+## Code evolution
 
-- [[07_SKILLS/amos-semantic-workflow-persistence-rscf/amos-semantic-workflow-persistence-rscf_MOC|amos-semantic-workflow-persistence-rscf_MOC]]
+Stored execution history is version-bound.
 
-## Examples
+When workflow code changes:
 
-- **Scenario**: When classifying claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP)
+1. identify the prior `code_version`;
+2. determine whether replay semantics changed;
+3. require an explicit compatibility/patch marker for an in-flight run;
+4. preserve old history semantics during the compatibility window;
+5. re-run replay/regression tests before retiring legacy compatibility behavior.
 
-  - **Input**: A query matching this skill's domain (rscf)
-  - **Output**: Structured result with epistemic labels and provenance
+A patch marker is a deliberate compatibility declaration, not universal proof of semantic equivalence.
 
-- **Scenario**: When validating evidence chains for provenance, freshness, and scope
+## Continue-as-new
 
-  - **Input**: A query matching this skill's domain (rscf)
-  - **Output**: Structured result with epistemic labels and provenance
+Use a new run boundary for long-lived workflows when history/state should be compacted or a new execution epoch should begin.
 
-- **Scenario**: When assessing confidence ceilings based on epistemic class
+Carry only explicitly selected state.
 
-  - **Input**: A query matching this skill's domain (rscf)
-  - **Output**: Structured result with epistemic labels and provenance
+Do **not** silently carry:
 
-## Anti-Patterns
+- transient caches;
+- model outputs that are not declared state;
+- completed pure-step results merely because they have identical arguments;
+- unresolved effects.
 
-- **Do not use** for tasks outside the rscf domain
-- **Do not use** when the query requires empirical validation that this skill cannot provide
-- **Do not use** when a parent skill or higher-level orchestrator should route instead
-- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
-- **Do not chain** more than 3 skills without explicit orchestrator approval
+External effects may be reused across runs only through the same explicit effect key and matching input identity.
 
-## Composition
+## Operational workflow
 
-- **Parent**: `amos-rscf-epistemic-master` — routes to this skill when rscf specialization is needed
-- **Peers**: Other skills in the `rscf` domain may be composed in sequence
-- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
-- **Workflow**: Each skill has a corresponding workflow in `26_WORKFLOWS/`
-- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+1. **Bind identity** — objective, scope, workflow ID, run ID, code version.
+2. **Load minimal state** — checkpoint, dependencies, event head, unresolved effect set.
+3. **Classify step** — `PURE` or `EFFECT` before execution.
+4. **Gate authority** — consequential effect permission stays in the AMOS control plane.
+5. **Execute** — record `STARTED` before invoking work.
+6. **Persist receipt** — output hash and effect receipt on completion.
+7. **Recover** — pure steps may retry; ambiguous effects require reconciliation.
+8. **Replay/audit** — verify history/state hashes and version compatibility.
+9. **Continue or finalize** — no unresolved effect may cross finalization or continue-as-new.
+10. **Emit RSCF** — evidence class, scope, gaps, provenance, falsifier, bounded conclusion.
 
-## Evaluation
+## Deterministic checks
 
-### Success Criteria
+Use the repository executable surfaces when available:
 
-- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
-- Output includes provenance reference to source evidence
-- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
-- Output includes gap flags for unresolved unknowns
-- Output does not exceed declared scope
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/durable_workflow_runtime.py` — local executable durable reference.
+- `19_TESTS/test_durable_workflow_runtime.py` — restart/replay/effect adversarial tests.
+- `scripts/durable_contract_check.py` — validate a serialized workflow snapshot; unresolved effects quarantine the snapshot.
 
-### Failure Modes
+For generic semantic checks, preserve the installed AMOS rules:
 
-- **Overreach**: Output claims validity beyond its epistemic class
-- **Scope creep**: Output addresses questions outside the declared domain
-- **Provenance loss**: Output cannot trace back to source evidence
-- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+- deterministic operation -> `DERIVE`;
+- mediated LLM judgment -> `INFER`;
+- otherwise -> `UNKNOWN/GAP`;
+- direct state transitions require an executor-mediated declared slot.
 
-## Error Handling
+## Output contract
 
-- **On scope violation**: Reject the query and route back to parent skill
-- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
-- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
-- **On provenance loss**: Mark output as UNKNOWN and require human review
-- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+Return the smallest sufficient structure:
 
-## Do not use
+```yaml
+workflow_id: string
+run_id: integer
+status: RUNNING | COMPLETED | CONTINUED_AS_NEW | BLOCKED | UNKNOWN/GAP
+code_version: string
+step_state: optional
+unresolved_effects: []
+checkpoint_valid: true | false | unknown
+history_integrity: valid | invalid | unknown
+replay_compatibility: compatible | incompatible | unknown
+provenance: []
+gaps: []
+verdict: VERIFIED_TESTED_SCOPE | PARTIAL | CONDITIONAL | UNKNOWN/GAP | QUARANTINE
+```
 
-- For generic epistemic analysis outside the RSCF framework
-- To claim empirical validation of epistemic classification theories
-- As a substitute for domain-specific evidence or provenance validation
-- Outside RSCF epistemic domain reasoning
+`VERIFIED_TESTED_SCOPE` refers only to the exact executed reference/test boundary. Never promote it to distributed or production validity without new evidence.
 
-## References
+## Failure handling
 
-- `references/references_MOC.md` — loaded on demand
-- `references/vault_domain_knowledge.md` — loaded on demand
-- \`\` — skill Map of Content
-- `amos-rscf-epistemic-master` — parent skill
-- \`\` — corresponding workflow
-- `amos-semantic-workflow-persistence-rscf-agent` — corresponding agent
+- missing workflow/run identity -> `UNKNOWN/GAP`;
+- stale or mismatched input for the same step -> replay divergence;
+- reused effect key with different input -> hard conflict;
+- effect started without receipt -> `AMBIGUOUS`;
+- changed code without compatibility marker -> block resume;
+- history/state hash mismatch -> quarantine;
+- missing dependency -> `UNKNOWN/GAP`;
+- unresolved effect -> block finalization and continue-as-new;
+- production/distributed claim from local test -> reject overreach.
 
-______________________________________________________________________
+## Progressive references
 
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
+Read only when needed:
 
-**MOC:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
+- `references/durable-execution.md` — source lineage, Temporal/DBOS mechanisms, effect/replay failure modes.
+- `references/vault_domain_knowledge.md` — broader AMOS/RSCF knowledge.
+- `references/references_MOC.md` — package navigation.
 
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
-
-______________________________________________________________________
-
-RSCF-NODE
-node_id: amos-semantic-workflow-persistence-rscf
-node_type: skill
-path: 07_SKILLS/amos-semantic-workflow-persistence-rscf/SKILL.md
-RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-- CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
+External framework behavior is evidence input, never AMOS authority.
