@@ -3,8 +3,10 @@
 Origin architect / steward: Trang Phan.
 
 This module is an AMOS_MODEL reference implementation for the repaired bounded
-Core-19 substrate. It does not promote canon and does not claim that all ULK
-fragments are executable.
+Core-19 substrate. It does not promote canon and does not claim complete ULK
+fragment implementations. Current fragment execution status is delegated to the
+evidence-bound ULK execution registry so this snapshot cannot become a second
+stale status owner.
 """
 from __future__ import annotations
 
@@ -100,7 +102,6 @@ class Truth4:
         )
 
     def leq_information(self, other: "Truth4") -> bool:
-        """Information order: every support bit in self is also present in other."""
         return (
             (not self.supports_true or other.supports_true)
             and (not self.supports_false or other.supports_false)
@@ -172,20 +173,16 @@ def normalize_unary(expr: UnaryExpr) -> UnaryExpr:
       1. NLOGIC(NLOGIC(x)) reduces before child descent.
       2. Strict subterms are then normalized.
       3. A single NLOGIC toggles normalized truth negation.
-
-    This prevents the historical bottom-up shadowing defect.
     """
     if expr.kind is UnaryKind.ATOM:
         return expr
 
     assert expr.child is not None
-
     if expr.kind is UnaryKind.NLOGIC and expr.child.kind is UnaryKind.NLOGIC:
         assert expr.child.child is not None
         return normalize_unary(expr.child.child)
 
     normalized_child = normalize_unary(expr.child)
-
     if expr.kind is UnaryKind.NOT:
         return _toggle_not(normalized_child)
     if expr.kind is UnaryKind.NLOGIC:
@@ -267,16 +264,17 @@ class LogicFragment(Enum):
 
 class ImplementationStatus(Enum):
     EXECUTABLE_BOUNDED = "EXECUTABLE_BOUNDED"
+    EXECUTABLE_BOUNDED_CANDIDATE_REBOUND = "EXECUTABLE_BOUNDED_CANDIDATE_REBOUND"
     CANONICAL_BOUNDED_CLAIM_REBIND_PENDING = "CANONICAL_BOUNDED_CLAIM_REBIND_PENDING"
     SPECIFICATION_ONLY = "SPECIFICATION_ONLY"
 
 
 def implementation_status(fragment: LogicFragment) -> ImplementationStatus:
-    if fragment is LogicFragment.CLASSICAL_PROPOSITIONAL:
-        return ImplementationStatus.EXECUTABLE_BOUNDED
-    if fragment is LogicFragment.QUANTUM_LOGIC:
-        return ImplementationStatus.CANONICAL_BOUNDED_CLAIM_REBIND_PENDING
-    return ImplementationStatus.SPECIFICATION_ONLY
+    """Project current status from the single ULK execution-evidence owner."""
+    from ulk_fragment_execution_registry import Fragment, execution_binding
+
+    current = execution_binding(Fragment(fragment.value)).status.value
+    return ImplementationStatus(current)
 
 
 @dataclass(frozen=True)
