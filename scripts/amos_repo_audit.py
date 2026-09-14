@@ -143,7 +143,7 @@ def audit_workflow_references(repo: Path) -> list[Finding]:
 
 def list_changed(repo: Path, base: str) -> list[str]:
     proc = subprocess.run(
-        ["git", "-C", str(repo), "diff", "--name-only", f"{base}...HEAD"],
+        ["git", "-C", str(repo), "diff", "--name-only", base, "HEAD"],
         check=False,
         text=True,
         stdout=subprocess.PIPE,
