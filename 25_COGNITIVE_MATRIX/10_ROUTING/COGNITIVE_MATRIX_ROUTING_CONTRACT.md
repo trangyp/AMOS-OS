@@ -22,59 +22,81 @@ created: 2026-08-22
 
 ## 0. Status
 
-Cognitive Matrix-plane contract for **ROUTING CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+Cognitive Matrix-plane contract for **ROUTING CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation BOUNDED_PARTIAL. Bounded executors exist for gap routing and typed algorithm-capability routing. Routing selects a capability only; it cannot mint canon, execution, commit, or effect authority.
 
 ## 1. Scope
 
-Governs primitives L00–L29, lifecycle operations O00–O16, control planes C01–C09, scales, cell registry, routing, validation, generators as they bear on `ROUTING CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
+Governs primitives L00–L29, lifecycle operations O00–O16, control planes C01–C09, scales, cell registry, algorithm ingress, routing, validation, and generators as they bear on `ROUTING CONTRACT`. Conclusions inherit the weakest load-bearing premise.
 
 ## 2. Contract terms
 
-- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
-- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
-- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
-- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
-- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
+- **Problem family is explicit** — algorithms are selected only within a declared family.
+- **Preconditions are explicit** — a candidate is ineligible when any declared mathematical precondition is missing.
+- **Finite/infinite temporal semantics are separate** — finite-trace ALU03 execution may not satisfy an ordinary infinite-word LTL request.
+- **Local/external capability is separate** — an external-only registry entry is metadata until a runtime/tool binding is independently established.
+- **Guarantee class is preserved** — EXACT, EXACT_IF_PRECONDITIONS, SOLVER_STATUS_BOUND, and HEURISTIC are not interchangeable.
+- **No-match fails closed** — `NO_MATCH -> UNKNOWN/GAP`; the router may not guess a fallback.
+- **Capability ≠ authority** — routing never authorizes an effect.
 
 ## 3. Invariants
 
-- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
-- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
-- Consequential effects emit receipts; rollback basin exists before mutation.
-- Competing hypotheses remain visible when evidence does not discriminate.
+- `ELIGIBLE != CORRECT_FOR_UNSTATED_OBJECTIVE`.
+- `ROUTED != EXECUTED`.
+- `EXECUTED != VERIFIED_OUTSIDE_CONTRACT`.
+- `CAPABILITY != AUTHORITY`.
+- `REACHABLE != ENTAILS != CAUSES`.
+- Same algorithm name across libraries does not establish identical semantics or guarantees.
+- External solver status is preserved; `UNKNOWN` is not converted to success.
+- When `local_only=true`, external capability metadata is rejected rather than treated as executable.
 
 ## 4. Executed reference
 
-No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
+Bounded executor and regression owners:
+
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/cognitive_matrix_runtime.py` — typed gap routing; route never grants authority.
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/internet_algorithm_registry.py` — provenance-bound algorithm capability registry and mathematical preconditions.
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/foundational_algorithm_runtime.py` — bounded local deterministic reference algorithms.
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/algorithm_routing_runtime.py` — deterministic routing over the canonical algorithm-ingress registry.
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/test_cognitive_matrix_runtime.py`
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/test_internet_algorithm_registry.py`
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/test_foundational_algorithm_runtime.py`
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/test_algorithm_routing_runtime.py`
+
+The 01–12 execution registry previously passed GitHub Actions run `34851961830` at commit `fdeeb0eaa501d124847e0ad9b0e244409cfd4311`. New algorithm-routing changes require their own current regression result before being promoted to tested state.
 
 ## 5. Gaps
 
-Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
+OPEN: complete algorithm-family coverage; benchmark-aware cost/latency routing; hardware/runtime availability; solver installation and version binding for external capabilities; domain-specific objective functions; empirical solver-quality calibration; authority/effect integration; proof that the registry is exhaustive. “All algorithms on the internet” is not a finite or stable set and is represented as progressive provenance-bound ingress, not as a completion claim.
 
 ## 6. Falsifiers
 
-F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
+F1: canonical source defines different semantics. F2: a route is produced despite a missing declared precondition. F3: an external-only capability is represented as locally executable. F4: finite-trace and infinite-word temporal semantics are silently exchanged. F5: solver UNKNOWN is promoted to success. F6: routing grants effect/canon authority.
 
 ## Worked semantics
 
-Given an operation touching `COGNITIVE MATRIX · ROUTING CONTRACT` within the Cognitive Matrix plane:
+Given a routing request:
 
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+1. **Declare family** — shortest path, SAT, SMT, equality reasoning, term rewriting, constraint propagation, temporal model checking, etc.
+1. **Declare preconditions** — domain, finiteness, weight/capacity assumptions, theory support, trace semantics, rewrite validity, or other load-bearing assumptions.
+1. **Apply guarantee policy** — if exactness is required, reject heuristic/solver-status-only candidates unless policy explicitly allows them.
+1. **Apply locality policy** — if local execution is required, reject metadata-only external candidates.
+1. **Rank eligible candidates** deterministically under the declared routing policy.
+1. **Return route or UNKNOWN/GAP** — never invent an algorithm or missing binding.
+1. **Execute separately** — actual execution still requires an implementation/tool binding and any required authority gate.
 
 ## Promotion-gate checklist
 
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+- [x] typed problem-family registry exists
+- [x] explicit precondition checking exists
+- [x] guarantee classes remain distinct
+- [x] finite/infinite temporal semantics are separated
+- [x] local vs external capability is separated
+- [x] no-match returns UNKNOWN/GAP
+- [x] routing cannot grant authority
+- [ ] complete live runtime/tool availability registry exists
+- [ ] benchmark/resource-aware routing validated
+- [ ] external solver versions and installation identities bound
+- [ ] domain objective correctness independently validated
 
 ## Cross-plane bindings
 
