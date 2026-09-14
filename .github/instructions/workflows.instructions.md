@@ -1,6 +1,6 @@
 ---
 description: AMOS workflow state, authority, replay, recovery, observability, and agent handoff rules.
-applyTo: '08_WORKFLOWS/**'
+applyTo: '08_WORKFLOWS/**,26_WORKFLOWS/**'
 ---
 
 # AMOS Workflow Instructions
