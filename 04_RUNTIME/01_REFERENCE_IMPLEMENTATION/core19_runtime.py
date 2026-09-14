@@ -229,17 +229,28 @@ def matrix_coordinate_count() -> int:
 
 @dataclass(frozen=True)
 class TensorCoordinate:
-    """Typed coordinate. Scale/context/regime remain opaque caller-defined indices."""
+    """Six-axis typed URK coordinate.
+
+    The active repair candidate requires row, column, scale, context, regime,
+    and observer as non-interchangeable axes. The opaque string indices remain
+    caller-defined and this runtime projection remains AMOS_MODEL, not Canon.
+    """
 
     row: Core19
     col: Core19
     scale: str
     context: str
     regime: str
+    observer: str
 
     def __post_init__(self) -> None:
-        if not self.scale.strip() or not self.context.strip() or not self.regime.strip():
-            raise ValueError("scale, context, and regime must be explicit non-empty indices")
+        if any(
+            not value.strip()
+            for value in (self.scale, self.context, self.regime, self.observer)
+        ):
+            raise ValueError(
+                "scale, context, regime, and observer must be explicit non-empty indices"
+            )
 
 
 @dataclass(frozen=True)
