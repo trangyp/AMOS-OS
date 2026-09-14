@@ -3,6 +3,9 @@ import pathlib
 import unittest
 
 from ulk_fragment_execution_registry import (
+    ALU02_CHECKER_SHA256,
+    ALU04_CHECKER_SHA256,
+    ALU05_CHECKER_SHA256,
     ALU06_CHECKER_SHA256,
     ALU08_CHECKER_SHA256,
     ExecutionStatus,
@@ -13,16 +16,20 @@ from ulk_fragment_execution_registry import (
 
 
 class RegistryTests(unittest.TestCase):
-    def test_new_checker_hashes_bind_exact_files(self):
+    def test_standalone_checker_hashes_bind_exact_files(self):
         root = pathlib.Path(__file__).parent
-        self.assertEqual(
-            hashlib.sha256((root / "amos_ulk_alu06_dependent_pi_checker_v1.py").read_bytes()).hexdigest(),
-            ALU06_CHECKER_SHA256,
-        )
-        self.assertEqual(
-            hashlib.sha256((root / "amos_ulk_alu08_finite_category_heyting_checker_v1.py").read_bytes()).hexdigest(),
-            ALU08_CHECKER_SHA256,
-        )
+        expected = {
+            "amos_ulk_alu02_unification_reference_checker_v1.py": ALU02_CHECKER_SHA256,
+            "amos_ulk_alu04_finite_kripke_checker_v1.py": ALU04_CHECKER_SHA256,
+            "amos_ulk_alu05_dung_checker_v1.py": ALU05_CHECKER_SHA256,
+            "amos_ulk_alu06_dependent_pi_checker_v1.py": ALU06_CHECKER_SHA256,
+            "amos_ulk_alu08_finite_category_heyting_checker_v1.py": ALU08_CHECKER_SHA256,
+        }
+        actual = {
+            filename: hashlib.sha256((root / filename).read_bytes()).hexdigest()
+            for filename in expected
+        }
+        self.assertEqual(actual, expected)
 
     def test_all_eight_namespaces_have_bounded_or_rebound_evidence(self):
         self.assertEqual(
