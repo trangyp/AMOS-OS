@@ -1,0 +1,3 @@
+interface:
+  display_name: "AMOS AgentOps Observability"
+  short_description: "Audit typed agent traces, effects, missingness, privacy, and telemetry evidence."

@@ -1,54 +1,61 @@
 #!/usr/bin/env python3
+"""Portable structural preflight for the AMOS AgentOps Observability Skill.
+
+This hook validates only Skill packaging/discovery structure. It does not grant tool,
+telemetry-capture, or effect authority.
 """
-PreToolUse hook for amos-agentops-observability-rscf.
-Fires BEFORE skill execution. Exits non-zero to block.
-Per Skills-vs-MCP-vs-Hooks (2026): deterministic gate the model cannot skip.
-"""
+from __future__ import annotations
+
 import sys
-import re
 from pathlib import Path
 
-SKILL_DIR = Path(__file__).parent.parent
+SKILL_DIR = Path(__file__).resolve().parents[2]
 SKILL_MD = SKILL_DIR / "SKILL.md"
 
-def check_skill_exists():
-    """Verify SKILL.md exists and is valid."""
+
+def parse_frontmatter(text: str) -> dict[str, str]:
+    lines = text.splitlines()
+    if not lines or lines[0].strip() != "---":
+        raise ValueError("missing YAML frontmatter opening delimiter")
+    try:
+        end = next(i for i in range(1, len(lines)) if lines[i].strip() == "---")
+    except StopIteration as exc:
+        raise ValueError("missing YAML frontmatter closing delimiter") from exc
+    data: dict[str, str] = {}
+    for raw in lines[1:end]:
+        if not raw.strip() or raw.lstrip().startswith("#"):
+            continue
+        if raw[:1].isspace() or ":" not in raw:
+            raise ValueError(f"unsupported frontmatter syntax: {raw!r}")
+        key, value = raw.split(":", 1)
+        data[key.strip()] = value.strip().strip('"').strip("'")
+    return data
+
+
+def main() -> int:
     if not SKILL_MD.exists():
         print("BLOCK: SKILL.md not found")
-        return False
-    content = SKILL_MD.read_text(encoding='utf-8')
-    if not content.startswith("---\n"):
-        print("BLOCK: SKILL.md missing frontmatter")
-        return False
-    return True
-
-def check_description_present():
-    """Verify description field exists (required for discovery)."""
-    content = SKILL_MD.read_text(encoding='utf-8')
-    if not re.search(r'^description:', content, re.MULTILINE):
-        print("BLOCK: Missing description field")
-        return False
-    return True
-
-def check_no_oversized_body():
-    """Warn if SKILL.md body exceeds 500 lines (progressive disclosure)."""
-    lines = content.split('\n')
-    fm_end = 0
-    for i, line in enumerate(lines):
-        if i > 0 and line.strip() == '---':
-            fm_end = i
-            break
-    body_lines = len(lines) - fm_end - 1
-    if body_lines > 500:
-        print("WARN: SKILL.md body exceeds 500 lines")
-    return True  # Warn only, don't block
-
-def main():
-    if not check_skill_exists():
         return 1
-    if not check_description_present():
+    try:
+        text = SKILL_MD.read_text(encoding="utf-8")
+        frontmatter = parse_frontmatter(text)
+    except (OSError, UnicodeError, ValueError) as exc:
+        print(f"BLOCK: invalid SKILL.md: {exc}")
         return 1
+
+    if set(frontmatter) != {"name", "description"}:
+        print("BLOCK: portable Skill frontmatter must contain only name and description")
+        return 1
+    if frontmatter.get("name") != "amos-agentops-observability-rscf":
+        print("BLOCK: Skill name does not match directory identity")
+        return 1
+    if not frontmatter.get("description"):
+        print("BLOCK: Skill description is required")
+        return 1
+    if len(text.splitlines()) > 500:
+        print("WARN: SKILL.md exceeds 500 lines; use progressive references")
     return 0
 
+
 if __name__ == "__main__":
-    sys.exit(main())
+    raise SystemExit(main())

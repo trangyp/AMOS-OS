@@ -1,0 +1,152 @@
+name: Observability Trace Contract
+
+on:
+  pull_request:
+    paths:
+      - '17_OBSERVABILITY/**'
+      - '07_SKILLS/amos-agentops-observability-rscf/**'
+      - '06_AGENTS/amos-agentops-observability-rscf-agent.json'
+      - '06_AGENTS/amos-observability-telemetry-agent/**'
+      - '08_WORKFLOWS/amos-agentops-observability-rscf-workflow.md'
+      - '14_TOOLS/AGENT_TRACE_OBSERVABILITY_CONTRACT.md'
+      - '14_TOOLS/TOOL_REGISTRY_MASTER.md'
+      - '19_TESTS/test_agent_trace_runtime.py'
+      - '26_WORKFLOWS/amos-agentops-observability-rscf-workflow.md'
+      - '.github/agents/amos-observability-auditor.agent.md'
+      - '.github/workflows/observability-trace-contract.yml'
+  push:
+    branches: [main]
+    paths:
+      - '17_OBSERVABILITY/**'
+      - '07_SKILLS/amos-agentops-observability-rscf/**'
+      - '06_AGENTS/amos-agentops-observability-rscf-agent.json'
+      - '06_AGENTS/amos-observability-telemetry-agent/**'
+      - '08_WORKFLOWS/amos-agentops-observability-rscf-workflow.md'
+      - '14_TOOLS/AGENT_TRACE_OBSERVABILITY_CONTRACT.md'
+      - '14_TOOLS/TOOL_REGISTRY_MASTER.md'
+      - '19_TESTS/test_agent_trace_runtime.py'
+      - '26_WORKFLOWS/amos-agentops-observability-rscf-workflow.md'
+
+permissions:
+  contents: read
+
+jobs:
+  trace-contract:
+    name: trace-contract
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+
+      - name: Setup Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: '3.12'
+
+      - name: Compile trace surfaces
+        run: |
+          python -m py_compile \
+            17_OBSERVABILITY/agent_trace_runtime.py \
+            07_SKILLS/amos-agentops-observability-rscf/scripts/trace_contract.py \
+            07_SKILLS/amos-agentops-observability-rscf/scripts/hooks/pre_tool_use.py \
+            07_SKILLS/amos-agentops-observability-rscf/scripts/hooks/post_tool_use.py \
+            07_SKILLS/amos-agentops-observability-rscf/scripts/hooks/stop.py \
+            19_TESTS/test_agent_trace_runtime.py
+
+      - name: Run trace runtime regression suite
+        run: python -m unittest -v 19_TESTS/test_agent_trace_runtime.py
+
+      - name: Run trace contract self-test
+        run: python 07_SKILLS/amos-agentops-observability-rscf/scripts/trace_contract.py --self-test --repo .
+
+      - name: Run Skill hook preflight and stop gate
+        run: |
+          python 07_SKILLS/amos-agentops-observability-rscf/scripts/hooks/pre_tool_use.py
+          python 07_SKILLS/amos-agentops-observability-rscf/scripts/hooks/stop.py
+
+      - name: Reject raw tool content without capture authority
+        run: |
+          cat > /tmp/raw-content.json <<'JSON'
+          {
+            "trace_id": "11111111111111111111111111111111",
+            "spans": [
+              {
+                "trace_id": "11111111111111111111111111111111",
+                "span_id": "2222222222222222",
+                "parent_span_id": null,
+                "name": "tool",
+                "kind": "TOOL",
+                "start_time_ns": 1,
+                "end_time_ns": 2,
+                "status": "OK",
+                "capture_mode": "METADATA",
+                "attributes": {"gen_ai.tool.call.arguments": "secret"}
+              }
+            ]
+          }
+          JSON
+          if python 07_SKILLS/amos-agentops-observability-rscf/scripts/trace_contract.py /tmp/raw-content.json --repo .; then
+            echo 'ERROR: unauthorized raw content capture was admitted'
+            exit 1
+          fi
+
+      - name: Reject committed effect without authority receipt binding
+        run: |
+          cat > /tmp/unbound-effect.json <<'JSON'
+          {
+            "trace_id": "11111111111111111111111111111111",
+            "spans": [
+              {
+                "trace_id": "11111111111111111111111111111111",
+                "span_id": "2222222222222222",
+                "parent_span_id": null,
+                "name": "effect",
+                "kind": "EFFECT",
+                "start_time_ns": 1,
+                "end_time_ns": 2,
+                "status": "OK",
+                "effect_state": "COMMITTED",
+                "effect_id": "effect-ci",
+                "attributes": {}
+              }
+            ]
+          }
+          JSON
+          if python 07_SKILLS/amos-agentops-observability-rscf/scripts/trace_contract.py /tmp/unbound-effect.json --repo .; then
+            echo 'ERROR: authority-less committed effect evidence was admitted'
+            exit 1
+          fi
+
+      - name: Verify entropy sign and KL boundary
+        run: |
+          python - <<'PY'
+          import importlib.util
+          import sys
+          from pathlib import Path
+          p = Path('17_OBSERVABILITY/agent_trace_runtime.py')
+          s = importlib.util.spec_from_file_location('trace_math_ci', p)
+          m = importlib.util.module_from_spec(s)
+          sys.modules[s.name] = m
+          s.loader.exec_module(m)
+          assert m.entropy_delta_bits([0.5, 0.5], [0.9, 0.1]) < 0
+          assert m.entropy_delta_bits([0.9, 0.1], [0.5, 0.5]) > 0
+          assert m.kl_divergence_bits([0.9, 0.1], [0.5, 0.5]) >= 0
+          print('TRACE_MATH_PASS')
+          PY
+
+      - name: Record bounded evidence
+        if: always()
+        run: |
+          {
+            echo '### Observability Trace Contract'
+            echo '- Local typed trace semantics: EXECUTED_TESTED_SCOPE'
+            echo '- Raw content without capture authority: REJECTED'
+            echo '- Unbound committed effect evidence: REJECTED'
+            echo '- Missingness and receipt identity: TESTED_LOCAL_CONTRACT'
+            echo '- Entropy delta sign and KL domain: EXECUTED_MATH_CHECK'
+            echo '- Distributed propagation/exporter integration: UNKNOWN/GAP'
+            echo '- Production privacy/compliance: UNKNOWN/GAP'
+            echo '- Production overhead/completeness: UNKNOWN/GAP'
+            echo '- Deployment authority: NONE'
+          } >> "$GITHUB_STEP_SUMMARY"
