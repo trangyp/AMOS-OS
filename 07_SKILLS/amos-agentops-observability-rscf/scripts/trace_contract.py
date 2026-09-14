@@ -5,14 +5,17 @@ import argparse
 import importlib.util
 import json
 import sys
-import tempfile
 from pathlib import Path
 
 
-def load_runtime(repo: Path):
-    path = repo / "17_OBSERVABILITY" / "agent_trace_runtime.py"
-    if not path.exists():
-        raise RuntimeError(f"trace runtime not found: {path}")
+def load_runtime(repo: Path | None = None):
+    local = Path(__file__).resolve().with_name("agent_trace_runtime.py")
+    candidates = [local]
+    if repo is not None:
+        candidates.append(repo / "17_OBSERVABILITY" / "agent_trace_runtime.py")
+    path = next((candidate for candidate in candidates if candidate.exists()), None)
+    if path is None:
+        raise RuntimeError("trace runtime not found in Skill bundle or repository observability plane")
     spec = importlib.util.spec_from_file_location("amos_trace_contract_runtime", path)
     module = importlib.util.module_from_spec(spec)
     sys.modules[spec.name] = module
@@ -21,7 +24,7 @@ def load_runtime(repo: Path):
     return module
 
 
-def validate_file(path: Path, repo: Path) -> str:
+def validate_file(path: Path, repo: Path | None = None) -> str:
     mod = load_runtime(repo)
     data = json.loads(path.read_text(encoding="utf-8"))
     env = mod.TraceEnvelope.from_dict(data)
@@ -35,7 +38,7 @@ def validate_file(path: Path, repo: Path) -> str:
     )
 
 
-def self_test(repo: Path) -> int:
+def self_test(repo: Path | None = None) -> int:
     mod = load_runtime(repo)
     trace_id = "1" * 32
     root_id = "2" * 16
@@ -86,8 +89,7 @@ def self_test(repo: Path) -> int:
         print("SELF_TEST_FAIL: authority-less committed effect admitted", file=sys.stderr)
         return 1
 
-    self_test_math = mod.entropy_delta_bits([0.5, 0.5], [0.9, 0.1])
-    if not self_test_math < 0.0:
+    if not mod.entropy_delta_bits([0.5, 0.5], [0.9, 0.1]) < 0.0:
         print("SELF_TEST_FAIL: entropy delta sign assumption", file=sys.stderr)
         return 1
 
@@ -98,11 +100,11 @@ def self_test(repo: Path) -> int:
 def main() -> int:
     ap = argparse.ArgumentParser(description="Validate an AMOS agent trace contract document")
     ap.add_argument("trace", nargs="?", help="trace JSON file")
-    ap.add_argument("--repo", default=None, help="repository root; auto-detected when omitted")
+    ap.add_argument("--repo", default=None, help="optional AMOS repository root")
     ap.add_argument("--self-test", action="store_true")
     args = ap.parse_args()
 
-    repo = Path(args.repo).resolve() if args.repo else Path(__file__).resolve().parents[3]
+    repo = Path(args.repo).resolve() if args.repo else None
     try:
         if args.self_test:
             return self_test(repo)
