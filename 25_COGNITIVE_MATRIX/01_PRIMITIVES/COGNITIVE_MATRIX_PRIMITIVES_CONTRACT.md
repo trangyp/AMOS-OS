@@ -14,85 +14,147 @@ tags:
   - rscf/state/source-claim
   - misc
 created: 2026-08-22
----
----
+updated: 2026-09-14
 ---
 
 # COGNITIVE MATRIX PRIMITIVES CONTRACT
 
 ## 0. Status
 
-Cognitive Matrix-plane contract for **PRIMITIVES CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+Cognitive Matrix contract for primitives `L00`–`L29`.
+
+- Canonical class: `AMOS_MODEL / CONDITIONAL`.
+- Generic primitive contract runtime: `IMPLEMENTED / VALIDATED_BOUNDED`.
+- Per-primitive domain-semantic execution: `PARTIAL / UNKNOWN-GAP where not separately bound`.
+- Production/deployment validity: `NOT ESTABLISHED`.
+
+Origin architect / steward: **Trang Phan**.
 
 ## 1. Scope
 
-Governs primitives L00–L29, lifecycle operations O00–O16, control planes C01–C09, scales, cell registry, routing, validation, generators as they bear on `PRIMITIVES CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
+The primitive plane contains exactly 30 declared identities from `L00_REALITY_ENVIRONMENT` through `L29_EVOLUTION`.
 
-## 2. Contract terms
+The generic contract runtime governs primitive identity, typed artifact admission, provenance, state-version identity, scope, regime, epistemic preservation, explicit dependency binding, and the non-authority boundary.
 
-- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
-- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
-- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
-- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
-- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
+It does **not** infer that numbering defines causality, temporal order, control flow, or dependency.
 
-## 3. Invariants
+## 2. Hard firewalls
 
-- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
-- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
-- Consequential effects emit receipts; rollback basin exists before mutation.
-- Competing hypotheses remain visible when evidence does not discriminate.
+```text
+PRIMITIVE_ID != IMPLEMENTATION
+PRIMITIVE_ORDER != DEPENDENCY
+CAPABILITY != AUTHORITY
+ACTION_PRIMITIVE != EFFECT_AUTHORITY
+OBSERVATION != CURRENT_STATE
+REPRESENTATION != REALITY
+MODEL != VERIFIED
+UNKNOWN/GAP != PASS
+DOCUMENTED != EXECUTABLE
+GENERIC_CONTRACT_EXECUTABLE != ALL_PRIMITIVE_SEMANTICS_COMPLETE
+```
+
+Every primitive artifact must carry:
+
+- primitive identity;
+- artifact identity and type;
+- epistemic class;
+- state version;
+- scope;
+- regime;
+- provenance.
+
+No generic primitive operation may upgrade epistemic class or mint effect authority.
+
+## 3. Dependency semantics
+
+Dependencies are explicit typed edges only.
+
+The runtime does **not** generate edges from lexical or numeric order. `L00`, `L01`, ..., `L29` are identifiers, not a proof of a chain.
+
+Where dependencies are admitted, they use the Cognitive Matrix dependency graph and retain edge type. Dependency reachability may support stale/impact propagation under separately satisfied invalidation gates; it does not establish causality, logical entailment, or falsity.
 
 ## 4. Executed reference
 
-No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
+Repository-bound reference implementation:
 
-## 5. Gaps
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/primitive_contract_runtime.py`
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/test_primitive_contract_runtime.py`
 
-Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
+Executed CI evidence on 2026-09-14:
 
-## 6. Falsifiers
+- exact 30-primitive registry;
+- malformed identity/scope/regime/version/provenance rejection;
+- epistemic-class preservation;
+- `L18_ACTION` cannot mint effect authority;
+- numeric primitive order creates no dependency edges;
+- only explicit typed dependencies are admitted;
+- primitive self-dependency fails closed;
+- complete reference-runtime unittest discovery passed for commit `6e3eea239e796e7bcdd2eb2cc7dced10684804e4`.
 
-F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
+`TEST_PASS != TRUTH`: this receipt validates the bounded implementation contract only.
 
-## Worked semantics
+## 5. Mathematical typing boundary
 
-Given an operation touching `COGNITIVE MATRIX · PRIMITIVES CONTRACT` within the Cognitive Matrix plane:
+Primitive documents frequently use multidimensional record notation. Current URK repair rules apply:
 
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+```text
+INDEXED_FIELD != ALGEBRAIC_TENSOR
+STRUCTURAL_ADJACENCY != POINT_SET_TOPOLOGY
+STRUCTURAL_ADJACENCY != CAUSALITY
+```
 
-## Promotion-gate checklist
+Any primitive artifact claiming algebraic tensor semantics must bind scalar/module structure, multilinearity/tensor-product evidence, and a basis witness when coordinate coefficients are used. Record-like axes alone are not sufficient.
 
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+## 6. Remaining gaps
+
+The generic primitive substrate does not establish that all 30 primitive-specific semantic mechanisms are implemented.
+
+Open work remains per primitive where applicable, including:
+
+- domain-specific state/operator semantics;
+- source/canon reconciliation;
+- mathematical equation validation;
+- empirical/measurement validity;
+- cross-primitive dependency evidence;
+- authority and commit integration;
+- production persistence/concurrency;
+- recovery and rollback evidence.
+
+Unresolved items remain `UNKNOWN/GAP`; they are not converted to PASS by registry coverage.
+
+## 7. Promotion gates
+
+A primitive-specific semantic implementation may advance only when its load-bearing requirements are evidenced:
+
+- typed schema and semantic owner resolved;
+- source/provenance bound;
+- assumptions and mathematical types explicit;
+- negative and adversarial cases covered;
+- runtime implementation receipt present;
+- dependencies and epochs fresh;
+- authority witness present where consequential;
+- rollback/recovery demonstrated where mutation/effects occur.
+
+Canon promotion remains a separate `K_CANON` decision.
+
+## 8. Falsifiers
+
+This contract must be revised if:
+
+1. authoritative canon changes the primitive identity set;
+2. executable tests contradict an invariant declared here;
+3. runtime code infers dependency from primitive numbering;
+4. any primitive or generic contract mints authority by capability/name alone;
+5. an indexed record is promoted to algebraic tensor without the required mathematical structure;
+6. generic contract coverage is represented as complete semantic implementation.
 
 ## Cross-plane bindings
 
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-**Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
-
-______________________________________________________________________
+- Canon: `01_CANON/01_CORE_LAWS/LAW_HIERARCHY`
+- Cognitive runtime: `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/cognitive_matrix_runtime.py`
+- Primitive runtime: `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/primitive_contract_runtime.py`
+- Control-plane gates: `03_CONTROL_PLANE`
+- Observability remains evidence, never authority.
 
 RSCF-NODE
 node_id: cm_25_cognitive_matrix_01_primitives_cognitive_matrix_primitives_contract
@@ -100,10 +162,6 @@ node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/COGNITIVE_MATRIX_PRIMITIVES_CONTRACT.md
 claim_class: AMOS_MODEL
 
-______________________________________________________________________
-
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/01_PRIMITIVES_MOC|01_PRIMITIVES_MOC]]
-
-______________________________________________________________________
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
