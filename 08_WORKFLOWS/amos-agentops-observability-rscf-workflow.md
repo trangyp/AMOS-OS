@@ -1,191 +1,164 @@
 ---
 title: amos-agentops-observability-rscf-workflow
 type: workflow
-source: 08_WORKFLOWS
-Type: Workflow
-Skill: amos-agentops-observability-rscf
-Agent: amos-agentops-observability-rscf-agent
-Trigger: When runtime and os engine is needed within the runtime domain
-Version: 1.0.0
-tags:
-  - type/workflow
-  - type/workflow
-  - domain/agent-systems
-  - epistemic/source_claim
-  - hml/m
-  - epistemic/source_claim
-  - amos-os
-rscf:
-  state: AMOS_MODEL
-  claim_class: EMPIRICAL
-  provenance: AMOS_corpus
-  scope: workflow_process
+skill: amos-agentops-observability-rscf
+agent: amos-agentops-observability-rscf-agent
+version: 2.0.0
 origin_architect: Trang Phan
-epistemic_class: SOURCE_CLAIM
-version: 1.1.0
-rscf_state: SOURCE_CLAIM
-hml_level: M
-gmef_gates:
-  - L0_integrity
-  - L1_epistemic
-  - L2_provenance
-  - L5_scope
-  - L7_authority
-collapse_class: reversible
-qfm_gate_set: QFM_v43
-law_compliance:
-  - L0
-  - L1
-  - L2
-  - L4
-  - L5
-  - L7
-  - L16
-  - L17
-  - L18
-domain: agent
+epistemic_class: AMOS_MODEL
+status: IMPLEMENTED_LOCAL_REFERENCE
 ---
 
-# Workflow: Agentops Observability Rscf
+# Workflow: AMOS AgentOps Observability
 
-## Identity
+## State machine
 
-Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+```text
+INTAKE
+-> BIND_TARGET
+-> CLASSIFY_SIGNAL
+-> TRACE_VALIDATE
+-> CAPTURE_POLICY_GATE
+-> MISSINGNESS_GATE
+-> EFFECT_GATE
+-> EVALUATION_LINK
+-> FORENSICS
+-> VERDICT
+-> TERMINAL
+```
 
-## Preconditions
+## Gates
 
-- The `amos-agentops-observability-rscf` skill exists and is loaded.
-- The `amos-agentops-observability-rscf-agent` agent is available and has valid content_hash.
-- The query falls within the skill's declared scope and domain.
-- All required vault sources (if any) are accessible.
-- Epistemic class labeling is enabled (SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL).
+### BIND_TARGET
+Bind subject identity/version, environment, scope, regime, evidence source, and consequence.
 
-## Steps
+If identity is unresolved, return `UNKNOWN/GAP`.
 
-1. **Intake**: Identify the problem and confirm it matches the Agentops Observability Rscf scope.
-   - Classify the query against the runtime domain
-   - Route to the appropriate capability
-1. **Skill Invocation**: Load the `amos-agentops-observability-rscf` skill.
-   - Read the skill content and validation gates
-   - Identify which capability is most relevant
-1. **Application**: Apply the Agentops Observability Rscf capability.
-   - Tag every output with its epistemic status (SOURCE / DERIVED / AMOS_MODEL)
-   - Record provenance for every derived claim
-1. **Validation**: Check results against validation gates.
-   - Law of Law: no unresolved contradictions
-   - Epistemic class labels present
-   - Provenance recorded
-1. **Output**: Present results with full provenance and epistemic labeling.
-   - Include confidence ceiling
-   - Record source path for every derived claim
+### CLASSIFY_SIGNAL
+Classify each input as one of:
 
-## Operations
+```text
+SPECIFICATION
+RAW_EVENT
+SPAN
+TRACE
+METRIC
+RECEIPT
+EVALUATION
+ANNOTATION
+INCIDENT_EVIDENCE
+```
 
-1. **Intake**: Identify the problem and confirm it matches the Agentops Observability Rscf scope. - Classify the query against the runtime domain - Route to the appropriate capability
-1. **Skill Invocation**: Load the `amos-agentops-observability-rscf` skill. - Read the skill content and validation gates - Identify which capability is most relevant
-1. **Application**: Apply the Agentops Observability Rscf capability. - Tag every output with its epistemic status (SOURCE / DERIVED / AMOS_MODEL) - Record provenance for every derived claim
-1. **Validation**: Check results against validation gates. - Law of Law: no unresolved contradictions - Epistemic class labels present - Provenance recorded
-1. **Output**: Present results with full provenance and epistemic labeling. - Include confidence ceiling - Record source path for every derived claim
+Do not promote a specification into observed runtime evidence.
 
-## Output
+### TRACE_VALIDATE
+For compatible trace JSON, run:
 
-The workflow produces a structured result containing:
+```bash
+python 07_SKILLS/amos-agentops-observability-rscf/scripts/trace_contract.py trace.json --repo .
+```
 
-- `status` — VERIFIED / DERIVED / CONDITIONAL / UNKNOWN/GAP / REJECTED
-- `capability` — the capability that was executed
-- `summary` — human-readable summary of the result
-- `data` — structured output specific to the capability
-- `gaps` — list of unresolved gap identifiers
-- `warnings` — non-blocking advisory messages
-- `confidence_ceiling` — maximum confidence (capped at 0.95)
-- `provenance` — list of provenance references tracing to source evidence
+Failure -> `INVALID_TRACE_EVIDENCE` for the affected claim.
 
-## Validation Gates
+No executable trace artifact -> remain `MODEL` or `UNKNOWN/GAP`; do not fabricate one.
 
-- **G1 (Intake)**: Problem confirmed within Agentops Observability Rscf scope.
-- **G2 (Application)**: Outputs carry correct epistemic status tags.
-- **G3 (Validation)**: Results pass Law of Law and epistemic class checks.
-- **G4 (Output)**: Output format matches specification; provenance recorded.
+### CAPTURE_POLICY_GATE
+Default raw-content policy:
 
-## Failure Paths
+```text
+capture_mode = METADATA
+```
 
-- If validation fails: downgrade confidence, flag the gap, escalate — do not force-fit.
-- If skill content is insufficient: mark as UNKNOWN/GAP and fail closed.
+Raw prompt/input/output/tool content without explicit capture authority -> `REJECT_CAPTURE`.
 
-## Provenance
+`CAPTURE_AUTHORIZED != PRIVACY_SAFE`.
 
-- **Workflow**: `amos-agentops-observability-rscf-workflow.md`
-- **Skill**: `amos-agentops-observability-rscf`
-- **Agent**: `amos-agentops-observability-rscf-agent`
+### MISSINGNESS_GATE
+Preserve:
 
-______________________________________________________________________
+- expected spans when known;
+- observed spans;
+- dropped spans;
+- sampling;
+- collector gaps;
+- known uninstrumented paths.
+
+Unknown expected coverage -> `UNKNOWN`, not zero or complete.
+
+Any declared loss/gap -> `PARTIAL`.
+
+### EFFECT_GATE
+`SPAN_SUCCESS != EFFECT_COMMITTED`.
+
+A locally recorded `COMMITTED` effect requires `effect_id`, `authority_decision_id`, and `receipt_ref`.
+
+Ambiguous result -> `IN_DOUBT`; reconcile before retry.
+
+### EVALUATION_LINK
+Attach evaluations/annotations as later evidence bound to trace/span/session identity.
+
+```text
+ANNOTATION != ORIGINAL_OBSERVATION
+JUDGE_SCORE != GROUND_TRUTH
+```
+
+### FORENSICS
+Challenge:
+
+- broken parentage/cycles;
+- duplicate IDs;
+- stale trace context;
+- sampling/drop blind spots;
+- raw-content leakage;
+- effect/authority conflation;
+- hash/trust conflation;
+- trace-edge/causality conflation;
+- semantic claims unsupported by deterministic evidence.
+
+### VERDICT
+Use only the narrowest supported result:
+
+```text
+VERIFIED
+DERIVED
+MODEL
+CONDITIONAL
+COMPETING
+UNKNOWN/GAP
+```
+
+A PASS applies only to the contract that actually executed.
+
+## Outputs
+
+Return:
+
+- target identity and scope;
+- evidence class;
+- trace/receipt identity if available;
+- missingness state;
+- capture/privacy state;
+- effect state if relevant;
+- evaluation/annotation lineage;
+- failures/falsifiers;
+- provenance;
+- bounded verdict;
+- unresolved gaps.
+
+## Failure transitions
+
+```text
+INVALID TRACE STRUCTURE -> INVALID_TRACE_EVIDENCE
+RAW CONTENT + NO CAPTURE AUTHORITY -> REJECT_CAPTURE
+COMMITTED EFFECT + NO AUTHORITY/RECEIPT REF -> INVALID_EFFECT_EVIDENCE
+AMBIGUOUS EXTERNAL EFFECT -> IN_DOUBT
+UNKNOWN COVERAGE -> UNKNOWN
+SAMPLING/DROPS/GAPS -> PARTIAL
+PROVENANCE LOSS -> UNKNOWN/GAP
+```
+
+## Current boundary
+
+Local trace-contract semantics are executable. Distributed propagation, collector/exporter integration, production overhead, privacy/compliance sufficiency, and complete instrumentation coverage remain `UNKNOWN/GAP` until independently tested.
 
 **MOC:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
-
-## Orchestration Pattern
-
-**Pattern**: Single-Agent with Validation Gates
-
-This workflow follows a single-agent orchestration with explicit validation gates between steps:
-
-1. **Intake** -> validation gate -> **Skill Invocation** -> validation gate -> **Application** -> validation gate -> **Output**
-1. Each gate checks: epistemic labeling, provenance, scope compliance, confidence ceiling
-1. On gate failure: route to error handling or escalate to parent workflow
-
-## Evaluation Gates
-
-### Gate 1: Intake Validation
-
-- Query matches skill scope
-- Required inputs present
-- No scope violations detected
-
-### Gate 2: Skill Load Validation
-
-- Skill file exists and is valid
-- Agent binding is valid
-- Required vault sources accessible
-
-### Gate 3: Output Validation
-
-- Epistemic class labels present
-- Provenance recorded for all derived claims
-- Confidence ceiling not exceeded
-- No unresolved CRITICAL_GAPs
-- Scope compliance verified
-
-## Error Handling
-
-| Error Type       | Detection                    | Recovery                              |
-| ---------------- | ---------------------------- | ------------------------------------- |
-| Scope violation  | Gate 1 check                 | Route to parent skill                 |
-| Missing evidence | Gate 3 check                 | Flag as GAP, reduce confidence to 0.5 |
-| Contradiction    | Gate 3 check                 | Flag as CRITICAL_GAP, halt            |
-| Provenance loss  | Gate 3 check                 | Mark as UNKNOWN, request human review |
-| Timeout          | Step budget exceeded         | Return partial result with warnings   |
-| Drift            | Confidence calibration check | Trigger drift alignment governor      |
-
-## Human-in-the-Loop
-
-- **Default**: Automated execution without human intervention
-- **Escalation triggers**:
-  - CRITICAL_GAP detected
-  - Confidence below 0.3
-  - Scope violation requiring reclassification
-  - Contradiction that cannot be auto-resolved
-- **Review checkpoint**: After Gate 3, if any warnings are present
-
-## Monitoring
-
-- **Trace level**: Full (inputs, outputs, intermediate steps)
-- **Metrics**: Step count, token usage, confidence, gap count, execution time
-- **Alerts**: CRITICAL_GAP, confidence < 0.3, scope violation, timeout
-- **Provenance**: Every output traces back to source evidence via provenance chain
-
-## Composition
-
-- **Skill**: `amos-agentops-observability-rscf`
-- **Agent**: `amos-agentops-observability-rscf-agent`
-- **Parent workflow**: Routes via `AMOS_HOME` or parent skill workflow
-- **Chain depth**: Maximum 3 workflows in sequence without orchestrator approval
-- **Parallel execution**: Supported when independent capabilities are invoked
