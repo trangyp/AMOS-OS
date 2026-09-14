@@ -4,7 +4,7 @@ Origin architect / steward: Trang Phan.
 
 Implements a control-plane subset of GMEF: capability to change is not authority
 to change; a candidate cannot rewrite the rules used to approve itself; and a
-permitted transition still requires commit-time freshness.
+permitted transition still requires commit-time freshness and effect binding.
 """
 from __future__ import annotations
 
@@ -81,6 +81,11 @@ _ALLOWED_TRANSITIONS = {
 }
 
 
+def _require_text(name: str, value: str) -> None:
+    if not value.strip():
+        raise ValueError(f"{name} must be non-empty")
+
+
 @dataclass(frozen=True)
 class MutationPermissionProfile:
     mutation_class: MutationClass
@@ -92,10 +97,17 @@ class MutationPermissionProfile:
     monitoring_window: str
     policy_hash: str
 
+    def __post_init__(self) -> None:
+        _require_text("monitoring_window", self.monitoring_window)
+        _require_text("policy_hash", self.policy_hash)
+        if not self.allowed_targets:
+            raise ValueError("allowed_targets must be non-empty")
+
 
 @dataclass(frozen=True)
 class MutationCandidate:
     change_id: str
+    change_hash: str
     parent_hash: str
     mutation_class: MutationClass
     target: str
@@ -109,6 +121,10 @@ class MutationCandidate:
     requested_propagation: FrozenSet[str]
     modifies_governance_boundary: bool = False
 
+    def __post_init__(self) -> None:
+        for name in ("change_id", "change_hash", "parent_hash", "target"):
+            _require_text(name, getattr(self, name))
+
 
 @dataclass(frozen=True)
 class MutationAuthority:
@@ -117,13 +133,19 @@ class MutationAuthority:
     scopes: FrozenSet[str]
     policy_hash: str
 
+    def __post_init__(self) -> None:
+        _require_text("authority_id", self.authority_id)
+        _require_text("policy_hash", self.policy_hash)
+
 
 @dataclass(frozen=True)
 class PreparedMutation:
     change_id: str
+    change_hash: str
     parent_hash: str
     policy_hash: str
     authority_id: str
+    required_authority_level: AuthorityLevel
     target: str
     proposed_state: Lifecycle
 
@@ -182,9 +204,11 @@ def prepare_mutation(
         MutationDecision.PREPARED,
         prepared=PreparedMutation(
             change_id=candidate.change_id,
+            change_hash=candidate.change_hash,
             parent_hash=candidate.parent_hash,
             policy_hash=profile.policy_hash,
             authority_id=authority.authority_id,
+            required_authority_level=profile.approval_authority,
             target=candidate.target,
             proposed_state=candidate.proposed_state,
         ),
@@ -194,10 +218,14 @@ def prepare_mutation(
 def commit_guard(
     prepared: PreparedMutation,
     *,
+    current_change_hash: str,
     current_parent_hash: str,
     current_policy_hash: str,
     current_authority: Optional[MutationAuthority],
 ) -> MutationResult:
+    """Commit-time check: fresh, causally prior, effect-bound, eligible now."""
+    if current_change_hash != prepared.change_hash:
+        return MutationResult(MutationDecision.REVALIDATE, ("change_hash_changed",))
     if current_parent_hash != prepared.parent_hash:
         return MutationResult(MutationDecision.REVALIDATE, ("parent_hash_changed",))
     if current_policy_hash != prepared.policy_hash:
@@ -208,6 +236,8 @@ def commit_guard(
         return MutationResult(MutationDecision.REVALIDATE, ("authority_identity_changed",))
     if MUTATION_APPROVE_SCOPE not in current_authority.scopes:
         return MutationResult(MutationDecision.REVALIDATE, ("mutation_scope_missing_at_commit",))
+    if current_authority.level < prepared.required_authority_level:
+        return MutationResult(MutationDecision.REVALIDATE, ("authority_level_downgraded",))
     if current_authority.policy_hash != current_policy_hash:
         return MutationResult(MutationDecision.REVALIDATE, ("authority_policy_binding_changed",))
     return MutationResult(MutationDecision.COMMITTABLE)
