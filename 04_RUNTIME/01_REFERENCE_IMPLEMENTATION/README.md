@@ -25,7 +25,7 @@ Origin architect / steward: **Trang Phan**
 
 ## 0. Status
 
-The AMOS OS runtime reference plane contains executable bounded Core-19, URK finite-relation mathematics, Cognitive Matrix, and selected ULK fragment components.
+The AMOS OS runtime reference plane contains executable bounded Core-19, URK finite-relation/topology mathematics, Cognitive Matrix, and selected ULK fragment components.
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -52,25 +52,30 @@ Perceive -> Route -> Admit -> Plan -> Schedule -> Execute -> Observe -> Repair -
 
 - `core19_runtime.py` — bounded Core-19 repair runtime snapshot.
 - `classical_sat_firewall.py` — exact bounded propositional satisfiability firewall.
-- `core19_tensor_topology.py` — typed sparse Core-19 tensor/topology stores.
+- `core19_tensor_topology.py` — typed sparse six-axis Core-19 tensor/topology stores.
+- `finite_topology_runtime.py` — exact finite-carrier topology validation and specialization-preorder projection.
 - `urk_relation_algebra.py` — finite relation encoding, Boolean-semiring composition, and reflexive-transitive closure for URK-E1..E3.
 - `amos_ulk_alu02_unification_reference_checker_v1.py` — bounded first-order term unification with occurs-check.
 - `amos_ulk_alu03_finite_trace_ltl_checker_v1.py` — bounded finite-trace temporal/LTL evaluation.
+- `amos_ulk_alu04_finite_kripke_checker_v1.py` — bounded finite Kripke modal/epistemic evaluation.
+- `amos_ulk_alu05_dung_checker_v1.py` — bounded finite Dung abstract-argumentation evaluation.
 - `amos_ulk_alu07_reference_checker_current.py` — bounded classical finite-dimensional numerical ALU-07 reference checker.
 - `ulk_fragment_execution_registry.py` — current evidence-bound implementation status for the canonical ULK fragment namespaces.
 - `internet_algorithm_registry.py` — typed external-algorithm capability ingress with mathematical preconditions.
 - `cognitive_matrix_runtime.py` — bounded Cognitive Matrix state, dependency, coverage, gap and routing substrate.
 
-Primary bounded tests:
+Primary bounded tests include:
 
 - `test_core19_runtime.py`
 - `test_classical_sat_firewall.py`
 - `test_core19_tensor_topology.py`
+- `test_finite_topology_runtime.py`
 - `test_cognitive_matrix_runtime.py`
 - `test_urk_math_alu02_algorithms.py`
 - `test_alu03_alu07_rebind.py`
+- `test_ulk_alu04_alu05.py`
 
-### 2.2 Core-19 behavior
+### 2.2 Core-19 and tensor behavior
 
 - Exact 19-position semantic coordinate registry.
 - P02 remains `COMPETING` across source lineages and requires namespace/version binding.
@@ -78,7 +83,9 @@ Primary bounded tests:
 - `NLOGIC(NLOGIC(x))` precedence is repaired in the bounded unary normalizer.
 - Pairwise compatibility is separated from global satisfiability.
 - `19 x 19 = 361` denotes pair coordinates, not 361 established equations.
-- Tensor row/column/scale/context/regime identities are explicit.
+- Tensor coordinates bind six non-interchangeable axes:
+  `row x column x scale x context x regime x observer`.
+- Sparse absence means `UNBOUND`, not zero or false.
 - Topological adjacency is not causation.
 
 ### 2.3 URK finite mathematical layer
@@ -102,9 +109,12 @@ for finite relation composition over the Boolean semiring.
 
 URK-E3 is finite reflexive-transitive closure to a fixed point, checked for base-edge containment, reflexivity, transitivity, and idempotence.
 
+`finite_topology_runtime.py` adds exact bounded topology semantics for finite carriers. A finite open-set family must contain the empty set and full carrier and be closed under binary union and binary intersection; because the carrier is finite, arbitrary unions reduce to finite unions of distinct opens. The derived specialization relation is a preorder and remains a topological relation, never a causal edge by implication alone.
+
 ```text
 GRAPH_REACHABILITY != LOGICAL_ENTAILMENT
 GRAPH_REACHABILITY != CAUSATION
+TOPOLOGICAL_PREORDER != CAUSATION
 ```
 
 ### 2.4 ULK execution bindings
@@ -116,9 +126,9 @@ Current bounded state:
 - ALU-01 classical propositional: `EXECUTABLE_BOUNDED`.
 - ALU-02 first-order/unification: `EXECUTABLE_BOUNDED_CANDIDATE_REBOUND` for finite **term unification** with occurs-check only.
 - ALU-03 temporal/LTL: `EXECUTABLE_BOUNDED_CANDIDATE_REBOUND` for finite traces and `ATOM/NOT/AND/OR/IMPLIES/X/F/G/U` only.
-- ALU-07 quantum logic: `EXECUTABLE_BOUNDED_CANDIDATE_REBOUND` for the current classical finite-dimensional numerical reference checker over its explicitly enumerated 20 operator surfaces.
-- ALU-04 epistemic/modal: `SPECIFICATION_ONLY`.
-- ALU-05 non-monotonic/Dung: `SPECIFICATION_ONLY`.
+- ALU-04 epistemic/modal: `EXECUTABLE_BOUNDED_CANDIDATE_REBOUND` for finite Kripke models and propositional `NOT/AND/OR/IMPLIES/BOX/DIAMOND`; undeclared agents fail closed.
+- ALU-05 non-monotonic/Dung: `EXECUTABLE_BOUNDED_CANDIDATE_REBOUND` for finite Dung frameworks, grounded semantics, admissibility, and explicitly bounded preferred-extension enumeration.
+- ALU-07 quantum logic: `EXECUTABLE_BOUNDED_CANDIDATE_REBOUND` for the current classical finite-dimensional numerical reference checker over its explicitly enumerated operator surfaces.
 - ALU-06 dependent type: `SPECIFICATION_ONLY`.
 - ALU-08 categorical/topos: `SPECIFICATION_ONLY`.
 
@@ -126,21 +136,21 @@ ALU-02 does not establish full FOL theorem proving, quantifier inference, model 
 
 ALU-03 does not establish infinite-trace LTL model checking, CTL/CTL*, timed automata, future prediction, or temporal causality.
 
+ALU-04 does not establish common knowledge, dynamic epistemic logic, probabilistic epistemic logic, first-order modality, or infinite-model completeness.
+
+ALU-05 does not establish every non-monotonic formalism or unbounded preferred-extension enumeration.
+
 ALU-07 does not establish quantum-hardware execution, quantum advantage, physical state preparation, or universal quantum-logic completion.
 
 ### 2.5 Source identity hardening
 
-ALU-02 is bound to an exact standalone checker SHA-256.
+Executable evidence is bound to exact implementation identity wherever a stable standalone checker exists.
 
-ALU-03 and ALU-07 originate in a large evolving `unified_brain.py`. A previously recorded ALU-07 **whole-file** hash became stale after unrelated source evolution. The current repair therefore binds the fragment to:
+- ALU-02 is bound to an exact checker SHA-256.
+- ALU-04 and ALU-05 are bound to exact checker SHA-256 values and their tests recompute those hashes.
+- ALU-03 and ALU-07 originate in a large evolving source surface, so the registry binds exact source revision identity plus callable-AST identity rather than trusting a stale monolithic-file hash.
 
-- exact Drive file identity;
-- exact Drive revision identity;
-- current whole-file source hash for provenance;
-- normalized callable-AST hash for fragment semantic identity;
-- independent executable regression tests.
-
-This is deliberately narrower than trusting a stale monolithic-file receipt.
+Changing a hash-bound checker invalidates its old receipt and requires an explicit rebind; code repair without provenance repair is not accepted as complete.
 
 ### 2.6 External algorithm ingress
 
@@ -174,30 +184,30 @@ This runtime does not claim:
 - all eight canonical ULK fragments are executable;
 - finite term unification is complete FOL proof search;
 - finite-trace evaluation is full temporal-model-checking closure;
+- finite Kripke evaluation is complete epistemic-logic closure;
+- Dung grounded/preferred evaluation covers all non-monotonic reasoning;
 - numerical ALU-07 checking is quantum hardware;
 - internet algorithm availability licenses execution outside assumptions;
 - AMOS repository mutation changes the host model's neural weights.
 
 ## 4. Verification evidence
 
-Executed bounded verification on 2026-09-14 includes:
+Bounded execution evidence on 2026-09-14 includes the previously recorded Core-19, SAT, Cognitive Matrix, relation-algebra, ALU-02/03/07, and tensor/topology tests plus the current-main reconciliation checks below.
 
-- Core-19 runtime suite: 13 PASS.
-- Classical SAT firewall suite: 2 PASS.
-- Cognitive Matrix runtime suite: 16 PASS.
-- Core-19 tensor/topology suite: 8 PASS.
-- URK-E1..E3 / ALU-02 / algorithm-ingress suite: current regression suite PASS after execution-status reconciliation.
-- ALU-03/ALU-07 rebind suite: PASS.
-- ALU-02 exact source checker hash matched its receipt; 3,000 seeded unification symmetry/idempotence fuzz pairs passed.
-- ALU-03: 2,000 seeded randomized formulas matched an independent finite-trace evaluator.
-- ALU-07: all 20 bound operator surfaces passed positive cases; fail-closed negative cases passed; 250 seeded qubit-state trials preserved the tested Born-probability, fidelity-self, trace-distance symmetry/bounds, and unitary-evolution invariants.
-- URK relation composition was cross-checked against direct set composition over randomized finite relations.
-- URK closure was randomized over finite graphs and passed containment/reflexivity/transitivity/idempotence checks.
-- Earlier Core-19 repair included 50,000 seeded unary rewrite trees with no observed idempotence/double-NLOGIC failures.
+Current-main reconciliation locally reconstructed and executed:
 
-The AMOS math-audit harness continues to surface its known corpus-level T2 probability-labeling counterexample. That finding remains visible and is not attributed to the new URK/ULK runtime modules.
+- 38 focused functional tests PASS across Core-19, six-axis tensor storage, finite topology, finite Kripke modal semantics, and Dung argumentation.
+- The Core-19 suite retains 50,000 seeded unary rewrite probes with no observed idempotence/double-NLOGIC failures.
+- ALU-04 exact checker SHA-256 after fail-closed repair:
+  `869d095013dabdfdce089e1f4065350417b5e77722c26738d6beded0ec87eac0`.
+- ALU-05 exact checker SHA-256 after fail-closed repair:
+  `8e613729ca3a0ef9d24a8bafba432ab9b358fe3c2b4a8ac945ee7b1660ed658c`.
+- ALU-04 now rejects malformed formula objects and undeclared agents instead of silently allowing an empty accessibility relation.
+- ALU-05 now rejects unknown argument-set members and invalid enumeration bounds.
 
-No GitHub Actions receipt is asserted here. Local bounded execution is not universal proof, production deployment, or Canon promotion.
+The AMOS math-audit harness continues to surface its known corpus-level T2 probability-labeling counterexample. That finding remains visible and is not attributed to the new runtime modules.
+
+No full-repository CI receipt is asserted by this text. Focused local bounded execution is not universal proof, production deployment, or Canon promotion.
 
 ## 5. Source/canon boundary
 
@@ -205,18 +215,20 @@ Active lineage:
 
 - AMOS_CORE baseline: `v4.4`.
 - Canonical ULK artifact: `v2.1.0`.
-- URK mathematical substrate v1.1: candidate/model, not Canon by freshness.
-- ALU-02/03/07 runtime projections: bounded implementation evidence, not Canon promotion.
+- URK mathematical substrate repair: candidate/model, not Canon by freshness.
+- ALU-02/03/04/05/07 runtime projections: bounded implementation evidence, not Canon promotion.
 
-See `01_CANON/07_PROVENANCE/URK_CORE19_REPAIR_CANDIDATE_2026-09-14.md` for source IDs, revisions, and fragment hashes.
+`_00_AMOS_CANON_` is treated as a governed ingress/legacy route into candidate admission, not as an automatic payload authority. Candidate material must pass source identity, semantic/type/equation/tensor/topology/scope/provenance/authority/replay gates before it can become promotion-eligible; eligibility is still not promotion.
+
+See `01_CANON/07_PROVENANCE/URK_CORE19_REPAIR_CANDIDATE_2026-09-14.md` for source identity and candidate lineage.
 
 ## 6. Remaining gaps
 
 - Full FOL theorem-prover binding: `NOT_ESTABLISHED`.
-- ALU-04 epistemic/modal executable binding: `NOT_ESTABLISHED`.
-- ALU-05 non-monotonic/Dung executable binding: `NOT_ESTABLISHED`.
 - ALU-06 dependent-type executable binding: `NOT_ESTABLISHED`.
 - ALU-08 categorical/topos executable binding: `NOT_ESTABLISHED`.
+- Formal compilation of the current Lean-style URK candidate: `NOT_ESTABLISHED` in this runtime branch.
+- Candidate formal defects still requiring source-side repair include ill-typed cross-type P02 inequality, a definition-order dependency around `implementationStatus`, and remaining trivial/one-way topology invariants.
 - Remaining legacy v0 brain/agent semantic-owner migration: `PARTIAL`.
 - System-wide automated enforcement and executable closure: `NOT_ESTABLISHED`.
 
@@ -272,9 +284,12 @@ RSCF-RELATIONS:
 - IMPLEMENTS_BOUNDED: `core19_runtime.py`
 - IMPLEMENTS_BOUNDED: `classical_sat_firewall.py`
 - IMPLEMENTS_BOUNDED: `core19_tensor_topology.py`
+- IMPLEMENTS_BOUNDED: `finite_topology_runtime.py`
 - IMPLEMENTS_BOUNDED: `urk_relation_algebra.py`
 - IMPLEMENTS_BOUNDED: `amos_ulk_alu02_unification_reference_checker_v1.py`
 - IMPLEMENTS_BOUNDED: `amos_ulk_alu03_finite_trace_ltl_checker_v1.py`
+- IMPLEMENTS_BOUNDED: `amos_ulk_alu04_finite_kripke_checker_v1.py`
+- IMPLEMENTS_BOUNDED: `amos_ulk_alu05_dung_checker_v1.py`
 - IMPLEMENTS_BOUNDED: `amos_ulk_alu07_reference_checker_current.py`
 - IMPLEMENTS_BOUNDED: `cognitive_matrix_runtime.py`
 - BINDS_EXECUTION_STATUS: `ulk_fragment_execution_registry.py`
@@ -282,6 +297,8 @@ RSCF-RELATIONS:
 - VERIFIED_BY_BOUNDED: `test_core19_runtime.py`
 - VERIFIED_BY_BOUNDED: `test_classical_sat_firewall.py`
 - VERIFIED_BY_BOUNDED: `test_core19_tensor_topology.py`
+- VERIFIED_BY_BOUNDED: `test_finite_topology_runtime.py`
 - VERIFIED_BY_BOUNDED: `test_cognitive_matrix_runtime.py`
 - VERIFIED_BY_BOUNDED: `test_urk_math_alu02_algorithms.py`
 - VERIFIED_BY_BOUNDED: `test_alu03_alu07_rebind.py`
+- VERIFIED_BY_BOUNDED: `test_ulk_alu04_alu05.py`
