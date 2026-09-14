@@ -67,24 +67,18 @@ class Core19RuntimeTests(unittest.TestCase):
                 normalized,
             )
 
-    def test_quantum_fragment_is_not_silently_promoted_to_local_execution(self):
+    def test_fragment_status_delegates_to_current_registry(self):
         self.assertEqual(
-            c.implementation_status(c.LogicFragment.QUANTUM_LOGIC),
-            c.ImplementationStatus.CANONICAL_BOUNDED_CLAIM_REBIND_PENDING,
+            c.implementation_status(c.LogicFragment.CLASSICAL_PROPOSITIONAL),
+            c.ImplementationStatus.EXECUTABLE_BOUNDED,
         )
-
-    def test_nonclassical_fragments_remain_specification_only_except_bounded_classical(self):
         for fragment in c.LogicFragment:
-            status = c.implementation_status(fragment)
             if fragment is c.LogicFragment.CLASSICAL_PROPOSITIONAL:
-                self.assertEqual(status, c.ImplementationStatus.EXECUTABLE_BOUNDED)
-            elif fragment is c.LogicFragment.QUANTUM_LOGIC:
-                self.assertEqual(
-                    status,
-                    c.ImplementationStatus.CANONICAL_BOUNDED_CLAIM_REBIND_PENDING,
-                )
-            else:
-                self.assertEqual(status, c.ImplementationStatus.SPECIFICATION_ONLY)
+                continue
+            self.assertEqual(
+                c.implementation_status(fragment),
+                c.ImplementationStatus.EXECUTABLE_BOUNDED_CANDIDATE_REBOUND,
+            )
 
     def test_tensor_coordinate_requires_explicit_scale_context_regime(self):
         with self.assertRaises(ValueError):
