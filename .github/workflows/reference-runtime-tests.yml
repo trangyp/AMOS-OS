@@ -1,0 +1,36 @@
+name: Reference Runtime Tests
+
+on:
+  push:
+    paths:
+      - "04_RUNTIME/01_REFERENCE_IMPLEMENTATION/**"
+      - ".github/workflows/reference-runtime-tests.yml"
+  pull_request:
+    paths:
+      - "04_RUNTIME/01_REFERENCE_IMPLEMENTATION/**"
+      - ".github/workflows/reference-runtime-tests.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  bounded-reference-runtime:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    defaults:
+      run:
+        working-directory: 04_RUNTIME/01_REFERENCE_IMPLEMENTATION
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compile reference runtime
+        run: python -m py_compile *.py
+
+      - name: Run bounded reference tests
+        run: python -m unittest -v
