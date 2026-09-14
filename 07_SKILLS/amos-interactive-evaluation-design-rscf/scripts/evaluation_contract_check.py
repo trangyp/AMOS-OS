@@ -32,7 +32,7 @@ def _forbidden_paths(value: Any, path: str = "$") -> list[str]:
             found.extend(_forbidden_paths(child, child_path))
     elif isinstance(value, list):
         for i, child in enumerate(value):
-            found.extend(_forbidden_paths(child, f"{path}[{i}]")
+            found.extend(_forbidden_paths(child, f"{path}[{i}]"))
     return found
 
 
