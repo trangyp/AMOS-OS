@@ -65,7 +65,10 @@ def validate_skill(path: Path, strict_legacy: bool) -> tuple[list[str], list[str
 
     meta, fm_error = frontmatter(text)
     if fm_error:
-        return [f"{path}: {fm_error}"], warnings, None
+        message = f"{path}: legacy/non-portable metadata ({fm_error}); migration deferred"
+        if strict_legacy:
+            return [message], warnings, None
+        return errors, [message], None
 
     name = meta.get("name")
     description = meta.get("description")
@@ -87,17 +90,20 @@ def validate_skill(path: Path, strict_legacy: bool) -> tuple[list[str], list[str
             errors.append(f"{path}: description is too short to be a reliable trigger")
         elif len(description) > 1200:
             errors.append(f"{path}: description is too large for discovery metadata")
+
+        # Modern skills make a stronger portability claim, so local bundled
+        # references must actually exist. Legacy references are left as migration
+        # observations rather than causing unrelated historical failures.
+        for reference in sorted(set(REFERENCE.findall(text))):
+            target = path.parent / reference
+            if not target.is_file():
+                errors.append(f"{path}: referenced local file does not exist: {reference}")
     else:
         message = f"{path}: legacy frontmatter (no portable name/description); migration deferred"
         if strict_legacy:
             errors.append(message)
         else:
             warnings.append(message)
-
-    for reference in sorted(set(REFERENCE.findall(text))):
-        target = path.parent / reference
-        if not target.is_file():
-            errors.append(f"{path}: referenced local file does not exist: {reference}")
 
     return errors, warnings, name
 
