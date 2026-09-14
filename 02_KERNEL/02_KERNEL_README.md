@@ -14,6 +14,7 @@ tags:
   - rscf/state/source-claim
   - misc
 created: 2026-08-22
+updated: 2026-09-14
 ---
 ---
 ---
@@ -22,66 +23,102 @@ created: 2026-08-22
 
 ## Role
 
-The Kernel layer owns constrained computational primitives — the fundamental operations that execute AMOS reasoning. The kernel provides deterministic, auditable, fail-closed computation.
+The Kernel layer defines typed computational and logical primitives used by AMOS OS and binds them to bounded executable references where implementation evidence exists. It is not a blanket guarantee that every AMOS computation is deterministic, correct, recoverable, canon-compliant, or authorized.
+
+Runtime use must preserve these distinctions:
+
+```text
+SPECIFICATION != IMPLEMENTATION
+IMPLEMENTATION != VALIDATION
+VALIDATION != TRUTH
+CAPABILITY != AUTHORITY
+SOURCE_CLAIM != CANON
+GRAPH/ADJACENCY != POINT-SET TOPOLOGY
+REACHABILITY != ENTAILMENT != CAUSALITY
+INDEXED FIELD != ALGEBRAIC TENSOR
+```
 
 ## Scope
 
-### In Scope
+### In scope
 
-- Deterministic logic kernel (DLK) — axiom enforcement, proof trails
-- Meta-logic — inference rule catalog, non-monotonic consequence management
-- Causality — causal ordering, epoch management
-- State — state transition primitives
-- Memory — computational memory operations
-- Risk-repair — failure detection and recovery primitives
-- Authority — permission validation
-- Provenance — source tracking primitives
-- Integration — cross-layer composition
+- Logic and meta-logic specifications with per-fragment execution bounds
+- Core-19 semantic registry and executable AMOS_CORE syntax, kept as separate namespaces
+- State/concurrency primitives such as CAS/MVCC where explicitly implemented
+- Memory operation contracts and bounded lifecycle executors
+- Risk/repair primitives and recovery contracts
+- Authority-checking primitives without authority self-minting
+- Provenance/source tracking
+- Cross-layer integration contracts
+- Mathematical type, scope, and assumption firewalls
 
-### Out of Scope
+### Out of scope
 
-- Runtime execution state (04_RUNTIME) — Kernel defines primitives, Runtime executes them
-- Agent definitions (06_AGENTS) — Agents use Kernel primitives
-- Knowledge claims (11_KNOWLEDGE) — Kernel validates knowledge, doesn't contain it
+- Claiming every runtime path is deterministic
+- Treating LLM/probabilistic/external solver behavior as deterministic without a specific contract
+- Universal failure detection/recovery guarantees
+- Autonomous canon promotion
+- Effect/deployment authority
+- Empirical truth or causal truth from logical/graph structure alone
+- Full semantic completion merely because a file or executor exists
+
+## Logic namespace guards
+
+Do not merge these by name or cardinality:
+
+1. **Canonical root ULK** — `ULK_LOGIC_KERNEL.md` v2.1.0, eight logic-engine ALUs.
+2. **ULMK** — separate source family with eight Atomic Logic Units plus meta-laws/operators/patterns.
+3. **Core-19 semantic registry** — P01–P19 living-map vocabulary; 19×19 gives 361 possible ordered relation addresses, not 361 known semantics.
+4. **Executable AMOS_CORE AST** — implementation syntax with its own supported fragment boundary.
+
+Historical Absolute/MURK P02 `NonExistence` versus living-map P02 `Distinction` remains `COMPETING` unless the requested lineage/version resolves it.
 
 ## Structure
 
-```
+```text
 02_KERNEL/
-├── 00_INDEX/                  ← Navigation indices
-├── 01_META_LOGIC/             ← Inference rules and non-monotonic management
-├── 02_COGNITION/              ← Cognitive computation primitives
-├── 03_CAUSAL/                 ← Causal ordering and epoch management
-├── 04_STATE/                  ← State transition primitives
-├── 05_MEMORY/                 ← Computational memory operations
-├── 06_RISK_REPAIR/            ← Failure detection and recovery
-├── 07_AUTHORITY/              ← Permission validation
-├── 08_PROVENANCE/             ← Source tracking primitives
-├── 09_INTEGRATION/            ← Cross-layer composition
-├── K_CAS.md                   ← Compare-And-Swap atomic primitive
-├── K_MVCC.md                  ← Multiversion concurrency control
-├── MVCC_CAS.md                ← MVCC/CAS transaction integration
-├── K_FAILURE_RECOVERY.md      ← Failure recovery and rollback
-├── DETERMINISTIC_LOGIC_KERNEL.md ← Logic kernel specification
-└── [additional kernel files]
+├── 00_INDEX/                  navigation indices
+├── 01_META_LOGIC/             logic, meta-logic, repair overlays
+├── 02_COGNITION/              cognitive computation contracts
+├── 03_CAUSAL/                 causal-model contracts; not inferred from graph reachability
+├── 04_STATE/                  state transition primitives
+├── 05_MEMORY/                 computational memory operations
+├── 06_RISK_REPAIR/            failure/repair contracts
+├── 07_AUTHORITY/              permission validation primitives
+├── 08_PROVENANCE/             source/provenance primitives
+├── 09_INTEGRATION/            cross-layer composition
+├── K_CAS.md
+├── K_MVCC.md
+├── MVCC_CAS.md
+├── K_FAILURE_RECOVERY.md
+├── DETERMINISTIC_LOGIC_KERNEL.md
+└── additional source/model/kernel artifacts
 ```
 
-## Key Kernels
+## Key governed surfaces
 
-| Kernel | Function | Critical? |
-|--------|----------|-----------|
-| DETERMINISTIC_LOGIC_KERNEL | Axiom enforcement, proof trails | Yes |
-| K_CAS | Atomic state transitions | Yes |
-| K_MVCC | Snapshot-based concurrency | Yes |
-| K_FAILURE_RECOVERY | Failure detection and recovery | Yes |
-| K_AUTHORITY | Permission validation | Yes |
-| K_CANON | Canon compliance verification | Yes |
+| Surface | Bounded role | Boundary |
+|---|---|---|
+| ULK logic kernel | fragment routing/specification | each ALU keeps its own proof/execution scope |
+| Core-19 runtime | bounded executable logic subset | nonclassical/meta nodes are not silently reduced to Boolean SAT |
+| CAS/MVCC | state/concurrency primitives | implementation identity and concurrency assumptions matter |
+| Failure/repair | recovery mechanisms | handler existence does not prove total failure coverage |
+| Authority | permission checks | capability/validation cannot mint authority |
+| Canon admission | candidate eligibility | candidate cannot self-promote to Canon |
+| Provenance | source lineage | provenance does not itself establish truth |
 
-## Inter-Plane Connections
+## Execution and evidence
 
-- **Canon:** [[01_CANON/01_CANON_MOC|01_CANON_MOC]] — Kernel validates Canon compliance
-- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] — Control plane orchestrates Kernel
-- **Runtime:** [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]] — Runtime executes Kernel primitives
+Executable reference implementations live primarily under `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/` and related subsystem runtime owners. A documentation surface may therefore have an executor elsewhere; use the machine-checkable execution registries rather than assuming file locality.
+
+For mathematical claims, require definitions, domains/types, assumptions, derivation or executable recalculation, counterexample search, and result classification. For consequential claims, carry scope, regime, freshness, provenance, and authority separately.
+
+## Inter-plane connections
+
+- **Canon:** [[01_CANON/01_CANON_MOC|01_CANON_MOC]] — source/canon precedence and admissibility boundaries
+- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] — policy/authority/commit orchestration
+- **Runtime:** [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]] — executable implementations and state
+- **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]] — typed plane/cell routing and validation
 
 ______________________________________________________________________
 
