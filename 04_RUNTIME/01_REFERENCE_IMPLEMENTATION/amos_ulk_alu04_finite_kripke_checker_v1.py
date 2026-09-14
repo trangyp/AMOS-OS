@@ -22,18 +22,41 @@ class Formula:
     agent: str | None = None
     args: Tuple["Formula", ...] = ()
 
+    def __post_init__(self) -> None:
+        if not isinstance(self.kind, Kind):
+            raise ValueError("formula kind must be a Kind")
+        if self.kind is Kind.ATOM:
+            if not isinstance(self.atom, str) or not self.atom.strip() or self.agent is not None or self.args:
+                raise ValueError("ATOM requires one non-empty atom and no agent/args")
+            return
+        if self.atom is not None:
+            raise ValueError("non-ATOM formula cannot carry atom payload")
+        if self.kind is Kind.NOT:
+            if self.agent is not None or len(self.args) != 1:
+                raise ValueError("NOT requires exactly one argument and no agent")
+            return
+        if self.kind in (Kind.BOX, Kind.DIAMOND):
+            if not isinstance(self.agent, str) or not self.agent.strip() or len(self.args) != 1:
+                raise ValueError("modal operator requires one argument and a non-empty agent")
+            return
+        if self.kind in (Kind.AND, Kind.OR, Kind.IMPLIES):
+            if self.agent is not None or len(self.args) != 2:
+                raise ValueError("binary Boolean operator requires exactly two arguments and no agent")
+            return
+        raise ValueError(f"unsupported formula kind: {self.kind}")
+
     @staticmethod
     def atom_(name: str) -> "Formula":
-        if not name.strip(): raise ValueError("atom must be non-empty")
         return Formula(Kind.ATOM, atom=name)
+
     @staticmethod
     def unary(kind: Kind, x: "Formula", agent: str | None=None) -> "Formula":
-        if kind not in (Kind.NOT, Kind.BOX, Kind.DIAMOND): raise ValueError("not unary")
-        if kind in (Kind.BOX, Kind.DIAMOND) and (agent is None or not agent.strip()): raise ValueError("modal operator requires agent")
+        if not isinstance(x, Formula): raise ValueError("unary operand must be Formula")
         return Formula(kind, agent=agent, args=(x,))
+
     @staticmethod
     def binary(kind: Kind, a: "Formula", b: "Formula") -> "Formula":
-        if kind not in (Kind.AND, Kind.OR, Kind.IMPLIES): raise ValueError("not binary")
+        if not isinstance(a, Formula) or not isinstance(b, Formula): raise ValueError("binary operands must be Formula")
         return Formula(kind, args=(a,b))
 
 @dataclass(frozen=True)
@@ -44,21 +67,24 @@ class KripkeModel:
 
     def __post_init__(self) -> None:
         if not self.worlds: raise ValueError("worlds must be non-empty")
+        if any(not isinstance(w, str) or not w.strip() for w in self.worlds): raise ValueError("worlds must be non-empty strings")
         for agent, edges in self.relations.items():
-            if not agent.strip(): raise ValueError("agent must be non-empty")
+            if not isinstance(agent, str) or not agent.strip(): raise ValueError("agent must be non-empty")
             for u,v in edges:
                 if u not in self.worlds or v not in self.worlds: raise ValueError("relation endpoint outside worlds")
         for atom, true_worlds in self.valuation.items():
-            if not atom.strip(): raise ValueError("valuation atom must be non-empty")
+            if not isinstance(atom, str) or not atom.strip(): raise ValueError("valuation atom must be non-empty")
             if not true_worlds.issubset(self.worlds): raise ValueError("valuation world outside worlds")
 
     def successors(self, agent: str, world: str) -> FrozenSet[str]:
         if world not in self.worlds: raise KeyError(world)
-        return frozenset(v for u,v in self.relations.get(agent, frozenset()) if u == world)
+        if agent not in self.relations: raise KeyError(agent)
+        return frozenset(v for u,v in self.relations[agent] if u == world)
 
 
 def holds(model: KripkeModel, world: str, formula: Formula) -> bool:
     if world not in model.worlds: raise KeyError(world)
+    if not isinstance(formula, Formula): raise ValueError("formula must be Formula")
     k=formula.kind
     if k is Kind.ATOM:
         assert formula.atom is not None
