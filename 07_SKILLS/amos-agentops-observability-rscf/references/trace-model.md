@@ -1,14 +1,16 @@
 # Governed Agent Trace Model
 
-## Purpose
+## Runtime ownership
 
-Use this reference when agent/workflow observability needs executable trace structure, privacy-aware content capture, missingness accounting, effect evidence, or evaluation linkage.
+Canonical portable implementation:
 
-The local reference runtime is:
+```text
+scripts/agent_trace_runtime.py
+```
 
-`17_OBSERVABILITY/agent_trace_runtime.py`
+Within AMOS OS, `17_OBSERVABILITY/agent_trace_runtime.py` is a compatibility adapter that executes this same implementation.
 
-It is an AMOS local implementation model. It is not a claim of OpenTelemetry protocol conformance, collector deployment, complete instrumentation coverage, or production observability.
+This is a bounded implementation model. It is not evidence of OpenTelemetry end-to-end conformance, collector deployment, complete instrumentation, production durability, or commit authority.
 
 ## Hard boundaries
 
@@ -28,94 +30,93 @@ OBSERVED_SEQUENCE != UNIQUE_MECHANISM
 
 A bounded trace carries:
 
-- W3C-compatible trace/span identifier shapes;
-- one local AMOS root span;
-- typed child spans (`WORKFLOW`, `AGENT`, `MODEL`, `TOOL`, `MEMORY`, `EVALUATION`, `EFFECT`, `OTHER`);
-- explicit span status;
+- nonzero 32-hex trace and 16-hex span identifier shapes;
+- one root under the local AMOS trace contract;
+- typed `WORKFLOW`, `AGENT`, `MODEL`, `TOOL`, `MEMORY`, `EVALUATION`, `EFFECT`, or `OTHER` spans;
+- explicit span status and separate effect state;
 - explicit capture mode;
-- optional state epoch and provenance root;
-- effect state distinct from span status;
+- optional state epoch/provenance root;
 - explicit missingness metadata;
-- a canonical SHA-256 receipt identity.
+- canonical SHA-256 receipt identity.
 
-The SHA-256 receipt binds the serialized trace content. It does not prove source trust, correctness, completeness, authorization, or external finality.
+The digest binds serialized content under the local contract. It does not prove source trust, completeness, authorization, external finality, or semantic correctness.
 
 ## Content capture
 
-Default to `METADATA`.
+Default: `METADATA`.
 
 Modes:
 
-- `NONE`: no content payload.
-- `METADATA`: structured non-payload attributes only.
-- `HASH_ONLY`: payload omitted; a SHA-256 digest is retained.
-- `REDACTED`: only content already redacted by an upstream policy may be attached as non-raw metadata.
-- `FULL`: raw content is allowed only with an explicit `capture_authority_id`.
+- `NONE` — no payload.
+- `METADATA` — non-payload structural attributes.
+- `HASH_ONLY` — omit payload and retain its SHA-256 digest.
+- `REDACTED` — upstream policy has already removed sensitive payload content.
+- `FULL` — raw content; requires explicit `capture_authority_id`.
 
-`FULL` does not itself prove that collection is lawful, necessary, privacy-safe, or permitted by a downstream exporter.
+Raw prompts, completions, input/output, and tool argument/result fields are rejected outside `FULL`.
 
-Raw prompt, completion, input/output, and tool argument/result fields are rejected outside `FULL`.
+```text
+CAPTURE_AUTHORIZED != PRIVACY_SAFE
+CAPTURED != EXPORT_AUTHORIZED
+```
 
 ## Effect evidence
 
-An `EFFECT` span must carry an explicit effect state.
+An `EFFECT` span requires explicit effect state and `effect_id`.
 
-A `COMMITTED` effect requires:
+A locally recorded `COMMITTED` effect additionally requires:
 
-- `effect_id`;
 - `authority_decision_id`;
 - `receipt_ref`.
 
-This records evidence that an authority decision/receipt was associated with the effect. The observability layer does not mint that authority.
+These fields record evidence references. Observability does not mint or refresh authority.
 
-An ambiguous effect uses both:
+Ambiguous effects use:
 
 ```text
 effect_state = IN_DOUBT
 status = IN_DOUBT
 ```
 
-and must be reconciled by the control/runtime layer before blind retry.
+and must be reconciled before blind retry.
 
 ## Missingness
 
-When `expected_span_count` is unknown, coverage is `UNKNOWN`, not zero or complete.
+Unknown expected coverage remains `UNKNOWN`, not zero or complete.
 
-When it is known:
+When `N_expected > 0` is known, define local span coverage:
 
 ```text
-coverage = observed_span_count / expected_span_count
+C := N_observed / N_expected
 ```
 
-subject to the declared local counting contract.
-
-Sampling, drops, collector gaps, and known uninstrumented paths keep the trace `PARTIAL` even when observed spans are internally valid.
+Sampling, drops, collector gaps, and known uninstrumented paths keep the evidence `PARTIAL` even when all observed spans are internally valid.
 
 ## Mathematics
 
-For a normalized discrete distribution `p = (p_1, ..., p_n)`, Shannon entropy in bits is:
+For a normalized finite distribution `p = (p_1, ..., p_n)`:
 
 ```text
-H(p) = -sum_i p_i log2(p_i)
+H(p) := -sum_i p_i log2(p_i)
 ```
 
-with the standard convention `0 log 0 = 0`.
+with `0 log 0 := 0`.
 
-For successive distributions `p_t` and `p_(t+1)`, define:
+For successive distributions:
 
 ```text
-Delta_H_t = H(p_(t+1)) - H(p_t)
+Delta_H_t := H(p_(t+1)) - H(p_t)
 ```
 
-`Delta_H_t` may be negative, zero, or positive. No monotonic-decrease invariant is valid without additional assumptions.
+`Delta_H_t` may be negative, zero, or positive. No monotonic uncertainty-reduction invariant is valid without additional assumptions.
 
-For distributions `p` and `q` on the same finite support with `q_i > 0` whenever `p_i > 0`:
+For normalized `p` and `q` on the same finite index set, with `q_i > 0` whenever `p_i > 0`:
 
 ```text
-D_KL(p || q) = sum_i p_i log2(p_i / q_i) >= 0
+D_KL(p || q) := sum_i p_i log2(p_i / q_i) >= 0
 ```
 
-This is established mathematics. `D_KL` measures distributional divergence; it is not proof of truth gain, reasoning quality, or causal validity.
+This established non-negativity is not proof of truth gain, reasoning quality, or causal validity.
 
 ## Upstream mechanism provenance
 
@@ -123,66 +124,57 @@ Mechanisms are adapted, not vendored.
 
 ### OpenTelemetry semantic conventions
 
-Repository: `open-telemetry/semantic-conventions`
+Repository: `open-telemetry/semantic-conventions`  
+Pinned coordinate: `a11c510432b66cca046e79908898856bf0ebfd1a`
 
-Pinned research coordinate:
+Useful mechanisms:
 
-`a11c510432b66cca046e79908898856bf0ebfd1a`
-
-Relevant mechanisms:
-
-- standardized trace/span vocabulary;
-- GenAI operation vocabulary including agent invocation and tool execution;
+- trace/span vocabulary;
+- GenAI agent/tool operation vocabulary;
 - opt-in tool call argument/result attributes;
 - evaluation events;
-- explicit stability/deprecation metadata.
+- stability/deprecation metadata.
 
-The GenAI conventions observed at this coordinate include development/deprecated surfaces. AMOS must not label a local mapping protocol-conformant merely because names are similar.
+Observed GenAI surfaces include development/deprecated elements. Local naming similarity is not protocol-conformance evidence.
 
 ### OpenLLMetry
 
-Repository: `traceloop/openllmetry`
+Repository: `traceloop/openllmetry`  
+Pinned coordinate: `62e24c2ffde6c1ee04dc290e52d8d5dbda054cff`
 
-Pinned research coordinate:
+Useful mechanisms:
 
-`62e24c2ffde6c1ee04dc290e52d8d5dbda054cff`
+- agent/LLM/tool/MCP instrumentation;
+- content tracing separable from structural tracing;
+- configuration to disable content tracing.
 
-Relevant mechanisms:
-
-- OpenTelemetry instrumentation across LLM/agent/tool integrations;
-- MCP instrumentation;
-- explicit configuration to disable content tracing (`TRACELOOP_TRACE_CONTENT=false`).
-
-AMOS adopts the principle that content capture is separately governed from structural tracing. It does not inherit OpenLLMetry defaults or exporter trust assumptions.
+AMOS does not inherit exporter trust, privacy, or default-capture assumptions.
 
 ### Arize Phoenix
 
-Repository: `Arize-ai/phoenix`
+Repository: `Arize-ai/phoenix`  
+Pinned coordinate: `e12748298b366605cc0e2aa60e659f473efbff99`
 
-Pinned research coordinate:
-
-`e12748298b366605cc0e2aa60e659f473efbff99`
-
-Relevant mechanisms:
+Useful mechanisms:
 
 - trace/span/session views;
-- annotations and notes bound to trace entities;
+- annotations/notes linked to trace entities;
 - session-turn reconstruction;
 - evaluation and PII-detection surfaces;
 - agent-facing tracing Skills.
 
-AMOS adopts the separation of base telemetry from later annotations/evaluation. An annotation remains evidence/assessment, not a mutation of the original observation.
+Annotations/evaluations remain later evidence. They do not rewrite the original observation.
 
 ## Promotion boundary
 
-The following remain `UNKNOWN/GAP` until separately executed and evidenced:
+Still `UNKNOWN/GAP` until separately executed and evidenced:
 
-- full cross-tool trace propagation;
-- actual OpenTelemetry SDK/exporter integration;
-- collector durability and backpressure behavior;
+- full cross-tool/cross-host propagation;
+- OpenTelemetry SDK/exporter/collector conformance;
+- collector durability/backpressure;
 - production privacy/compliance sufficiency;
-- clock synchronization across hosts;
+- global clock/order correctness;
 - production trace completeness;
-- performance/overhead;
-- distributed effect finality;
+- telemetry performance/overhead;
+- deployed distributed-effect finality;
 - semantic quality of model/judge annotations.
