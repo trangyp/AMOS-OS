@@ -6,6 +6,12 @@ rscf-provenance: AMOS_corpus_plus_executable_repair
 conclusion_class: AMOS_MODEL
 epistemic_class: DERIVED
 topic: Runtime Reference Implementation
+tags:
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/derived
+  - runtime
 created: 2026-08-22
 updated: 2026-09-14
 origin_architect: Trang Phan
@@ -19,7 +25,7 @@ Origin architect / steward: **Trang Phan**
 
 ## 0. Status
 
-The AMOS OS runtime reference plane now contains an executable bounded Core-19 repair implementation in addition to architecture documentation.
+The AMOS OS runtime reference plane now contains executable bounded Core-19 repair components in addition to architecture documentation.
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -32,7 +38,7 @@ CAPABILITY != AUTHORITY
 UNKNOWN/GAP != PASS
 ```
 
-The new executable artifact does **not** establish system-wide AMOS executable closure and does **not** promote the 2026-09-14 repair material to Canon.
+The executable artifacts do **not** establish system-wide AMOS executable closure and do **not** promote the 2026-09-14 repair material to Canon.
 
 ## 1. Runtime pipeline
 
@@ -45,15 +51,20 @@ Perceive -> Route -> Admit -> Plan -> Schedule -> Execute -> Observe -> Repair -
 ### 2.1 Files
 
 - `core19_runtime.py` — executable bounded URK/Core-19 repair runtime.
-- `test_core19_runtime.py` — deterministic and adversarial regression tests.
+- `test_core19_runtime.py` — deterministic/property/adversarial regression tests.
+- `classical_sat_firewall.py` — exact bounded propositional satisfiability firewall.
+- `test_classical_sat_firewall.py` — pairwise-vs-global counterexample and bound tests.
 
 ### 2.2 Implemented bounded behavior
 
 - Exact 19-position Core-19 semantic coordinate registry.
 - P02 is `COMPETING` across source lineages and requires explicit namespace/version binding.
-- Four-valued evidence state `Truth4 = (supports_true, supports_false)` with involutive negation and information-order join.
+- Four-valued evidence state `Truth4 = (supports_true, supports_false)` with involutive negation, explicit information partial order, and information-order join.
+- No implicit Python total ordering is exposed for `Truth4`; lexicographic ordering is not substituted for the intended information order.
 - Corrected unary rewrite precedence: `NLOGIC(NLOGIC(x))` is reduced before recursive child normalization.
 - Normalizer idempotence checks for the bounded `ATOM | NOT | NLOGIC` fragment.
+- Exact bounded Boolean satisfiability for `ATOM | NOT | AND | OR | IMPLIES | BOTTOM` with a declared atom bound.
+- Pairwise compatibility is explicitly separated from global consistency.
 - 19 x 19 is treated as 361 pair coordinates, not 361 proven equations.
 - Tensor coordinates require explicit row, column, scale, context, and regime axes.
 - Topology edges remain typed relations and are not automatically causal edges.
@@ -78,14 +89,20 @@ This implementation does not claim:
 
 ## 3. Verification evidence
 
-Local reconstruction of the exact staged files on 2026-09-14 passed:
+Local reconstruction of the staged executable files on 2026-09-14 passed:
 
-- Python bytecode compilation.
-- 12 unit/property tests.
+- Python bytecode compilation for both runtime modules and both test files.
+- Core-19 runtime suite: 13 tests PASS, 0 FAIL.
+- Classical SAT firewall suite: 2 tests PASS, 0 FAIL.
+- Persisted bounded repair total: 15 tests PASS, 0 FAIL.
 - 50,000 seeded randomized unary rewrite trees with zero observed idempotence or double-NLOGIC involution failures.
-- Full four-state Truth4 negation and join-law checks used by the test suite.
+- Full four-state Truth4 negation, information-join, and explicit information-order checks.
+- Pairwise-compatible/global-inconsistent counterexample reproduced with `A`, `B`, and `NOT(A AND B)`.
+- SAT atom-limit boundary test fails closed.
 - Promotion-gate negative tests.
-- AMOS math-audit scan of 110 equation-like records with zero hard failures attributable to the changed files.
+- AMOS math-audit scan of the initial Core-19 runtime/test pair: 110 equation-like records with zero hard failures attributable to those changed files.
+
+No GitHub Actions workflow run is currently attached to this branch. These are bounded local reconstruction receipts, not CI receipts.
 
 These results are bounded to the staged repair implementation and test harness. They are not universal AMOS correctness evidence.
 
@@ -140,6 +157,8 @@ AMOS_CANON_INGESTION_RULE:
 - [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]]
 - [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 - [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+- [[00_ROOT/00_HOME|00_HOME]]
+- [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 RSCF-NODE
 
@@ -151,6 +170,10 @@ rscf_state: DERIVED
 canonical_status: CONDITIONAL
 
 RSCF-RELATIONS:
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 - IMPLEMENTS_BOUNDED: `core19_runtime.py`
+- IMPLEMENTS_BOUNDED: `classical_sat_firewall.py`
 - VERIFIED_BY_BOUNDED: `test_core19_runtime.py`
+- VERIFIED_BY_BOUNDED: `test_classical_sat_firewall.py`
