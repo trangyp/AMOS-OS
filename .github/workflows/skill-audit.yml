@@ -1,409 +1,86 @@
 name: Skill Audit
 
-# AMOS Skill Suite CI — validates all skills, agents, and workflows.
-#
-# Inspired by SOTA repos:
-#   - agent-ecosystem/skill-validator: pre-commit hook, per-platform schema
-#   - moonrunnerkc/skillcheck: frontmatter, sizing, references, capability graph
-#   - bitflight-devops/skilllint: GitHub Action, platform adapters, auto-fix
-#   - kriptoburak/agent-skill-validator: multi-ecosystem, registry compatibility
-#   - arash77/github-actions-skill: least-privilege, concurrency, timeout guards
-#   - Kevinweisl/claude-skills-cicd: lint+test, dependency audit, security scan
+# Executable AMOS repository contract gate.
+# External skill/MCP security scanning is intentionally separate in
+# external-skill-security.yml so structural validation is not conflated with
+# third-party threat detection.
 
 on:
-  push:
-    branches: [main, develop]
-    paths:
-      - '.devin/skills/**'
-      - '07_SKILLS/**'
-      - 'scripts/**'
-      - 'skills-lock.json'
   pull_request:
+    paths:
+      - '06_AGENTS/**'
+      - '07_SKILLS/**'
+      - '08_WORKFLOWS/**'
+      - '14_TOOLS/**'
+      - '26_WORKFLOWS/**'
+      - '.github/**'
+      - 'scripts/amos_repo_audit.py'
+  push:
     branches: [main]
     paths:
-      - '.devin/skills/**'
+      - '06_AGENTS/**'
       - '07_SKILLS/**'
-      - 'scripts/**'
-      - 'skills-lock.json'
-  schedule:
-    - cron: '0 6 * * 1'  # Weekly Monday 06:00 UTC
+      - '08_WORKFLOWS/**'
+      - '14_TOOLS/**'
+      - '26_WORKFLOWS/**'
+      - '.github/**'
+      - 'scripts/amos_repo_audit.py'
 
 concurrency:
   group: skill-audit-${{ github.ref }}
   cancel-in-progress: true
 
+permissions:
+  contents: read
+
 env:
   PYTHON_VERSION: '3.12'
-  TIMEOUT_MINUTES: 10
 
 jobs:
-  validate:
-    name: Validate Skills
+  repository-contract:
+    name: Repository Contract
     runs-on: ubuntu-latest
-    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
-    permissions:
-      contents: read
+    timeout-minutes: 10
     steps:
-      - name: Checkout
+      - name: Checkout exact head only
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          fetch-depth: 1
+
+      - name: Resolve comparison base
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            echo "BASE_SHA=${{ github.event.pull_request.base.sha }}" >> "$GITHUB_ENV"
+          else
+            echo "BASE_SHA=${{ github.event.before }}" >> "$GITHUB_ENV"
+          fi
+
+      - name: Fetch exact comparison base only
+        run: git fetch --no-tags --depth=1 origin "$BASE_SHA"
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
 
-      - name: Run structural validation (L1-L3)
-        run: |
-          python3 scripts/validate.py 2>&1 | tee validate.log
-          # Fail if any P1 errors
-          if grep -q "P1 errors: [1-9]" validate.log; then
-            echo "::error::P1 validation errors found"
-            exit 1
-          fi
+      - name: Compile audit executable
+        run: python -m py_compile scripts/amos_repo_audit.py
 
-      - name: Run vault graph audit
-        run: python3 scripts/vault_graph_audit.py 2>&1 || true
+      - name: Run audit self-test
+        run: python scripts/amos_repo_audit.py --self-test
 
-      - name: Upload validation log
-        uses: actions/upload-artifact@v4
+      - name: Audit changed contracts and workflow references
+        run: python scripts/amos_repo_audit.py --repo . --base "$BASE_SHA"
+
+      - name: Record bounded evidence
         if: always()
-        with:
-          name: validation-log
-          path: validate.log
-          retention-days: 30
-
-  security:
-    name: Security Scan
-    runs-on: ubuntu-latest
-    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
-    permissions:
-      contents: read
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: ${{ env.PYTHON_VERSION }}
-
-      - name: Run security scanner (40 patterns, 17 categories)
         run: |
-          python3 scripts/skill_security_scanner.py 2>&1 | tee security.log
-          # Fail if any critical findings
-          if grep -q "critical  : [1-9]" security.log; then
-            echo "::error::Critical security findings detected"
-            exit 1
-          fi
-
-      - name: Upload security report
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: security-report
-          path: |
-            security.log
-            *.sarif
-          retention-days: 30
-
-  integrity:
-    name: Lock File Verification
-    runs-on: ubuntu-latest
-    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
-    permissions:
-      contents: read
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: ${{ env.PYTHON_VERSION }}
-
-      - name: Verify skill integrity lock file
-        run: |
-          python3 scripts/skill_integrity_lock.py --verify 2>&1 | tee lock.log
-          # Fail if any mismatches
-          if grep -q "Mismatched:.*[1-9]" lock.log; then
-            echo "::error::Lock file mismatch — run skill_integrity_lock.py --output skills-lock.json"
-            exit 1
-          fi
-
-  dependency-graph:
-    name: Dependency Graph
-    runs-on: ubuntu-latest
-    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
-    permissions:
-      contents: read
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: ${{ env.PYTHON_VERSION }}
-
-      - name: Run dependency graph analysis
-        run: |
-          python3 scripts/skill_dependency_graph.py 2>&1 | tee deps.log
-          # Fail if cycles detected
-          if grep -qi "cycle" deps.log; then
-            echo "::error::Dependency cycle detected"
-            exit 1
-          fi
-
-  token-budget:
-    name: Token Budget Analysis
-    runs-on: ubuntu-latest
-    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
-    permissions:
-      contents: read
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: ${{ env.PYTHON_VERSION }}
-
-      - name: Run token budget analyzer
-        run: python3 scripts/token_budget_analyzer.py 2>&1 | tee token-budget.log || true
-
-      - name: Upload token budget report
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: token-budget-report
-          path: token-budget.log
-          retention-days: 30
-
-  eval-harness:
-    name: Eval Harness Check
-    runs-on: ubuntu-latest
-    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
-    permissions:
-      contents: read
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: ${{ env.PYTHON_VERSION }}
-
-      - name: Generate eval scaffolding summary
-        run: python3 scripts/skill_eval_harness.py --summary 2>&1 | tee eval.log || true
-
-  version-check:
-    name: Version & Manifest Check
-    runs-on: ubuntu-latest
-    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
-    permissions:
-      contents: read
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: ${{ env.PYTHON_VERSION }}
-
-      - name: Run version manager summary
-        run: python3 scripts/skill_version_manager.py --summary 2>&1 | tee version.log
-
-      - name: Check for stale skills (version drift)
-        run: |
-          python3 scripts/skill_version_manager.py --stale 2>&1 | tee stale.log
-          if grep -q "drift" stale.log | grep -v "None"; then
-            echo "::warning::Stale skills detected — manifest version != frontmatter version"
-          fi
-
-  bom-check:
-    name: BOM & Encoding Check
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    permissions:
-      contents: read
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: ${{ env.PYTHON_VERSION }}
-
-      - name: Check for BOM characters
-        run: |
-          python3 -c "
-          from pathlib import Path
-          boms = [str(f) for f in Path('.devin/skills').rglob('*.md') if open(f,'rb').read(3) == b'\xef\xbb\xbf']
-          if boms:
-            print('::error::BOM characters found:')
-            for b in boms:
-              print(f'  {b}')
-            exit(1)
-          print('No BOM characters found.')
-          "
-
-  regression-test:
-    name: Regression Tests
-    runs-on: ubuntu-latest
-    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
-    permissions:
-      contents: read
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: ${{ env.PYTHON_VERSION }}
-
-      - name: Run deterministic regression tests
-        run: |
-          python3 scripts/skill_regression_harness.py 2>&1 | tee regression.log
-          # Fail if any tests failed
-          if grep -q "Failed:       [1-9]" regression.log; then
-            echo "::error::Regression test failures detected"
-            exit 1
-          fi
-
-      - name: Run trigger evaluation
-        run: python3 scripts/skill_regression_harness.py --trigger-eval --summary 2>&1 | tee triggers.log
-
-      - name: Upload regression report
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: regression-report
-          path: |
-            regression.log
-            triggers.log
-          retention-days: 30
-
-  binding-check:
-    name: Binding Integrity
-    runs-on: ubuntu-latest
-    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
-    permissions:
-      contents: read
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: ${{ env.PYTHON_VERSION }}
-
-      - name: Run 1:1:1 binding check
-        run: |
-          python3 scripts/skill_binding_checker.py 2>&1 | tee binding.log
-          # Fail if binding rate < 100%
-          if grep -q "Fully bound.*[0-9][0-9]%" binding.log && ! grep -q "100.0%" binding.log; then
-            echo "::error::Binding rate below 100%"
-            exit 1
-          fi
-
-      - name: Run composition graph analysis
-        run: python3 scripts/skill_composition_graph.py --summary 2>&1 | tee composition.log
-
-  guardrail-check:
-    name: Guardrail Check
-    runs-on: ubuntu-latest
-    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
-    permissions:
-      contents: read
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: ${{ env.PYTHON_VERSION }}
-
-      - name: Run guardrail check (OWASP Agentic Top 10)
-        run: |
-          python3 scripts/skill_guardrail_checker.py --skip-references 2>&1 | tee guardrail.log
-          # Fail if any CRITICAL findings
-          if grep -q "CRITICAL: [1-9]" guardrail.log; then
-            echo "::error::Critical guardrail findings detected"
-            exit 1
-          fi
-
-      - name: Generate skill catalog
-        run: python3 scripts/skill_catalog_generator.py --output 07_SKILLS/skill-catalog.md --json 07_SKILLS/skill-catalog-index.json
-
-      - name: Upload catalog
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: skill-catalog
-          path: |
-            07_SKILLS/skill-catalog.md
-            07_SKILLS/skill-catalog-index.json
-          retention-days: 30
-
-  quality-score:
-    name: Quality Score
-    runs-on: ubuntu-latest
-    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
-    permissions:
-      contents: read
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: ${{ env.PYTHON_VERSION }}
-
-      - name: Run quality scorer
-        run: |
-          python3 scripts/skill_quality_scorer.py --report skill-quality-report.md --min-score 80 2>&1 | tee quality.log
-
-      - name: Upload quality report
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: skill-quality-report
-          path: skill-quality-report.md
-          retention-days: 30
-
-  summary:
-    name: Audit Summary
-    runs-on: ubuntu-latest
-    needs: [validate, security, integrity, dependency-graph, token-budget, eval-harness, version-check, bom-check, regression-test, binding-check, guardrail-check, quality-score]
-    if: always()
-    timeout-minutes: 5
-    permissions:
-      contents: read
-      pull-requests: write
-    steps:
-      - name: Audit Summary
-        run: |
-          echo "## Skill Audit Summary" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "| Check | Status |" >> $GITHUB_STEP_SUMMARY
-          echo "|-------|--------|" >> $GITHUB_STEP_SUMMARY
-          echo "| Validate | ${{ needs.validate.result }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| Security | ${{ needs.security.result }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| Integrity | ${{ needs.integrity.result }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| Dependencies | ${{ needs.dependency-graph.result }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| Token Budget | ${{ needs.token-budget.result }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| Eval Harness | ${{ needs.eval-harness.result }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| Version | ${{ needs.version-check.result }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| BOM Check | ${{ needs.bom-check.result }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| Regression | ${{ needs.regression-test.result }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| Binding | ${{ needs.binding-check.result }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| Guardrail | ${{ needs.guardrail-check.result }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| Quality Score | ${{ needs.quality-score.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo '## AMOS Skill Audit' >> "$GITHUB_STEP_SUMMARY"
+          echo '' >> "$GITHUB_STEP_SUMMARY"
+          echo '- Structural checks: executable repository contract' >> "$GITHUB_STEP_SUMMARY"
+          echo '- Scope: changed Skills/agents + global workflow Python-reference integrity' >> "$GITHUB_STEP_SUMMARY"
+          echo '- Fetch scope: exact head + exact comparison base; no full-history checkout' >> "$GITHUB_STEP_SUMMARY"
+          echo '- Security: evaluated separately by External Skill Security' >> "$GITHUB_STEP_SUMMARY"
+          echo '- A PASS is evidence for these checks only; it is not proof of semantic correctness or safety.' >> "$GITHUB_STEP_SUMMARY"

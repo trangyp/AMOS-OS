@@ -1,0 +1,63 @@
+name: Agent Gateway Policy Contract
+
+on:
+  pull_request:
+    paths:
+      - '14_TOOLS/AGENT_PROTOCOL_GATEWAY_POLICY.md'
+      - '14_TOOLS/agent_protocol_gateway_policy.json'
+      - 'scripts/validate_agent_gateway_policy.py'
+      - '.github/workflows/gateway-policy-contract.yml'
+  push:
+    branches: [main]
+    paths:
+      - '14_TOOLS/AGENT_PROTOCOL_GATEWAY_POLICY.md'
+      - '14_TOOLS/agent_protocol_gateway_policy.json'
+      - 'scripts/validate_agent_gateway_policy.py'
+      - '.github/workflows/gateway-policy-contract.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  gateway-policy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Compile validator
+        run: python -m py_compile scripts/validate_agent_gateway_policy.py
+
+      - name: Validate admitted candidate policy
+        run: python scripts/validate_agent_gateway_policy.py 14_TOOLS/agent_protocol_gateway_policy.json
+
+      - name: Negative authority-escalation fixture
+        run: |
+          python - <<'PY'
+          import json
+          p = '14_TOOLS/agent_protocol_gateway_policy.json'
+          d = json.load(open(p, encoding='utf-8'))
+          d['authority']['gateway_is_commit_authority'] = True
+          json.dump(d, open('/tmp/invalid-gateway-policy.json', 'w', encoding='utf-8'))
+          PY
+          if python scripts/validate_agent_gateway_policy.py /tmp/invalid-gateway-policy.json; then
+            echo 'Expected gateway commit-authority escalation to fail closed'
+            exit 1
+          fi
+
+      - name: Negative untrusted-auto-execution fixture
+        run: |
+          python - <<'PY'
+          import json
+          p = '14_TOOLS/agent_protocol_gateway_policy.json'
+          d = json.load(open(p, encoding='utf-8'))
+          d['discovery']['auto_execute_untrusted_config'] = True
+          json.dump(d, open('/tmp/invalid-discovery-policy.json', 'w', encoding='utf-8'))
+          PY
+          if python scripts/validate_agent_gateway_policy.py /tmp/invalid-discovery-policy.json; then
+            echo 'Expected untrusted MCP auto-execution policy to fail closed'
+            exit 1
+          fi
