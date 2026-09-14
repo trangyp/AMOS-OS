@@ -42,7 +42,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -56,7 +56,7 @@ jobs:
           BASE_REF: ${{ github.base_ref }}
         run: |
           if [ -n "$BASE_REF" ]; then
-            git fetch --no-tags origin "$BASE_REF"
+            git fetch --no-tags --depth=1 origin "$BASE_REF"
             python3 scripts/amos_repo_validator.py --base-ref "$BASE_REF"
           else
             python3 scripts/amos_repo_validator.py
