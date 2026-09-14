@@ -42,10 +42,23 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Checkout
+      - name: Checkout exact head only
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          fetch-depth: 1
+
+      - name: Resolve comparison base
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            echo "BASE_SHA=${{ github.event.pull_request.base.sha }}" >> "$GITHUB_ENV"
+          else
+            echo "BASE_SHA=${{ github.event.before }}" >> "$GITHUB_ENV"
+          fi
+
+      - name: Fetch exact comparison base only
+        run: git fetch --no-tags --depth=1 origin "$BASE_SHA"
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -58,16 +71,7 @@ jobs:
       - name: Run audit self-test
         run: python scripts/amos_repo_audit.py --self-test
 
-      - name: Audit pull-request change set
-        if: github.event_name == 'pull_request'
-        env:
-          BASE_SHA: ${{ github.event.pull_request.base.sha }}
-        run: python scripts/amos_repo_audit.py --repo . --base "$BASE_SHA"
-
-      - name: Audit pushed change set
-        if: github.event_name == 'push'
-        env:
-          BASE_SHA: ${{ github.event.before }}
+      - name: Audit changed contracts and workflow references
         run: python scripts/amos_repo_audit.py --repo . --base "$BASE_SHA"
 
       - name: Record bounded evidence
@@ -77,5 +81,6 @@ jobs:
           echo '' >> "$GITHUB_STEP_SUMMARY"
           echo '- Structural checks: executable repository contract' >> "$GITHUB_STEP_SUMMARY"
           echo '- Scope: changed Skills/agents + global workflow Python-reference integrity' >> "$GITHUB_STEP_SUMMARY"
+          echo '- Fetch scope: exact head + exact comparison base; no full-history checkout' >> "$GITHUB_STEP_SUMMARY"
           echo '- Security: evaluated separately by External Skill Security' >> "$GITHUB_STEP_SUMMARY"
           echo '- A PASS is evidence for these checks only; it is not proof of semantic correctness or safety.' >> "$GITHUB_STEP_SUMMARY"
