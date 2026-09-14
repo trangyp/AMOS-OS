@@ -149,18 +149,26 @@ class RegistryTests(unittest.TestCase):
         self.assertEqual(validate_execution_registry(), ())
 
     def test_rebound_and_unbound_fragments_are_distinct(self):
-        self.assertEqual(
-            execution_binding(Fragment.ALU03_TEMPORAL_LTL).status,
-            ExecutionStatus.EXECUTABLE_BOUNDED_CANDIDATE_REBOUND,
+        rebound = (
+            Fragment.ALU02_FIRST_ORDER_UNIFICATION,
+            Fragment.ALU03_TEMPORAL_LTL,
+            Fragment.ALU04_EPISTEMIC_MODAL,
+            Fragment.ALU05_NON_MONOTONIC_DUNG,
+            Fragment.ALU07_QUANTUM_LOGIC,
         )
-        self.assertEqual(
-            execution_binding(Fragment.ALU07_QUANTUM_LOGIC).status,
-            ExecutionStatus.EXECUTABLE_BOUNDED_CANDIDATE_REBOUND,
-        )
-        self.assertEqual(
-            execution_binding(Fragment.ALU04_EPISTEMIC_MODAL).status,
-            ExecutionStatus.SPECIFICATION_ONLY,
-        )
+        for fragment in rebound:
+            self.assertEqual(
+                execution_binding(fragment).status,
+                ExecutionStatus.EXECUTABLE_BOUNDED_CANDIDATE_REBOUND,
+            )
+        for fragment in (
+            Fragment.ALU06_DEPENDENT_TYPE,
+            Fragment.ALU08_CATEGORICAL_TOPOS,
+        ):
+            self.assertEqual(
+                execution_binding(fragment).status,
+                ExecutionStatus.SPECIFICATION_ONLY,
+            )
 
     def test_algorithm_precondition_gates(self):
         self.assertTrue(
