@@ -1,177 +1,46 @@
 {
   "name": "amos-information-exposure-control-agent",
   "display_name": "Information Exposure Control",
-  "description": "Information Exposure Control — Information theory engine. Bound to info domain. Use when information theory engine is needed within the AMOS framework.",
+  "description": "Bounded read-side agent for semantic-origin exposure accounting, proof joins, and commit-time exposure evidence.",
   "author": "Trang Phan",
   "steward": "Trang Phan",
   "system": "AMOS_OS",
-  "role": "Information Exposure Control — Information theory engine within the info domain.",
   "skill_binding": {
     "primary_skill": "amos-information-exposure-control",
-    "skill_path": ".devin/skills/amos-information-exposure-control/SKILL.md"
+    "skill_path": "07_SKILLS/amos-information-exposure-control/SKILL.md"
   },
   "capabilities": [
-    {
-      "name": "information_exposure.measure_entropy",
-      "description": "Measure entropy and lacunarity: information content, gaps, and structure",
-      "side_effect": "read"
-    },
-    {
-      "name": "information_exposure.analyze_topology",
-      "description": "Analyze information collapse topology: how information condenses and structures",
-      "side_effect": "read"
-    },
-    {
-      "name": "information_exposure.control_exposure",
-      "description": "Control information exposure: what is revealed, to whom, and under what conditions",
-      "side_effect": "read"
-    },
-    {
-      "name": "information_exposure.map_geometry",
-      "description": "Map information geometry: manifolds, distances, and projections in information space",
-      "side_effect": "read"
-    }
+    {"name": "exposure.resolve_origins", "side_effect": "read"},
+    {"name": "exposure.audit_accountant", "side_effect": "read"},
+    {"name": "exposure.preflight", "side_effect": "read"},
+    {"name": "exposure.validate_proof_join", "side_effect": "read"},
+    {"name": "exposure.validate_receipt", "side_effect": "read"}
   ],
-  "operations": [
-    {
-      "step": 1,
-      "action": "Load the amos-information-exposure-control skill and its content",
-      "gate": "skill_loaded"
-    },
-    {
-      "step": 2,
-      "action": "Classify the query against info sub-capabilities",
-      "gate": "domain_confirmed"
-    },
-    {
-      "step": 3,
-      "action": "Apply the appropriate capability with epistemic class labeling",
-      "gate": "epistemic_labeled"
-    },
-    {
-      "step": 4,
-      "action": "Validate results against domain validation gates",
-      "gate": "gates_passed"
-    },
-    {
-      "step": 5,
-      "action": "Present results with provenance and confidence ceiling",
-      "gate": "output_validated"
-    }
-  ],
-  "integrity_requirements": [
-    "Law of Law: no unresolved contradictions within the skill's scope",
-    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
-    "Provenance: source path recorded for every derived claim",
-    "Anti-overreach: no claim beyond the skill's declared scope",
-    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
-  ],
-  "safety_constraints": [
-    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
-    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
-  ],
-  "depends_on_skills": [
-    "amos-information-exposure-control"
-  ],
-  "depends_on_workflows": [
-    "amos-information-exposure-control-workflow.md"
-  ],
-  "epistemic_class": "AMOS_MODEL",
-  "claim_ceiling": 0.95,
-  "lifecycle": {
-    "status": "active",
-    "deprecated": false,
-    "deprecation_date": null,
-    "successor": null
-  },
   "governance": {
-    "owner_team": "AMOS_CORE",
-    "business_domain": "info",
-    "risk_tier": "medium",
-    "observability": "structured_logs+content_hash",
+    "risk_tier": "high",
     "approval_mode": "steward_review",
-    "promotion_state": "production"
-  },
-  "content_hash": "aa1628b3eda5e4bb",
-  "implementation": {
-    "type": "json",
-    "file": "amos-information-exposure-control-agent.json",
-    "class": null,
-    "executable": true
-  },
-  "version": "1.1.0",
-  "reasoning_pattern": "ReAct",
-  "termination_criteria": {
-    "max_steps": 10,
-    "max_tokens": 8000,
-    "stop_on_confidence_below": 0.3,
-    "stop_on_critical_gap": true,
-    "stop_on_scope_violation": true,
-    "human_in_the_loop": false
-  },
-  "error_recovery": {
-    "on_timeout": "return partial result with GAP flag",
-    "on_scope_violation": "reject and route to parent",
-    "on_contradiction": "flag CRITICAL_GAP and halt",
-    "on_provenance_loss": "mark as UNKNOWN and request human review",
-    "on_drift": "trigger drift alignment governor"
-  },
-  "context_management": {
-    "strategy": "progressive_disclosure",
-    "max_context_tokens": 4000,
-    "compaction_threshold": 0.8,
-    "scratchpad_enabled": true
-  },
-  "evaluation_metrics": {
-    "success_rate_target": 0.85,
-    "false_positive_rate_max": 0.1,
-    "avg_steps_target": 3.0,
-    "provenance_coverage_target": 1.0
-  },
-  "composition_rules": {
-    "can_delegate_to": [],
-    "can_receive_from": [],
-    "max_chain_depth": 3,
-    "requires_orchestrator": true
+    "promotion_state": "implemented_local_reference",
+    "execution_authority": "none",
+    "deployment_authority": "none",
+    "merge_authority": "none",
+    "canonical_promotion_authority": "none"
   },
   "observability": {
-    "trace_level": "full",
-    "log_inputs": true,
-    "log_outputs": true,
-    "log_intermediate": true,
+    "mode": "metadata_only",
+    "log_inputs": false,
+    "log_outputs": false,
+    "log_intermediate": false,
+    "content_hashes": true,
     "metrics_enabled": true
   },
-  "tags": [
-    "type/agent",
-    "canon/agent",
-    "domain/information-theory",
-    "rscf/source_claim",
-    "hml/m",
-    "epistemic/amos_model",
-    "amos_os"
+  "hard_firewalls": [
+    "AuthorizationAllow != ExposureAllow",
+    "SkillPassToken != CommitAuthority",
+    "AllLocalSkillPass != JointProofPass",
+    "DifferentAccount != IndependentExposureBudget",
+    "ExposureReceipt != EffectCommitted",
+    "PolicyUnit != DifferentialPrivacyEpsilon"
   ],
-  "origin_architect": "Trang Phan",
-  "rscf_state": "SOURCE_CLAIM",
-  "hml_level": "M",
-  "gmef_gates": [
-    "L0_integrity",
-    "L1_epistemic",
-    "L2_provenance",
-    "L5_scope",
-    "L7_authority"
-  ],
-  "collapse_class": "reversible",
-  "qfm_gate_set": "QFM_v43",
-  "law_compliance": [
-    "L0",
-    "L1",
-    "L2",
-    "L4",
-    "L5",
-    "L7",
-    "L16",
-    "L17",
-    "L18"
-  ],
-  "domain": "info"
+  "epistemic_class": "AMOS_MODEL",
+  "origin_architect": "Trang Phan"
 }
