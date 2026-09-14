@@ -73,36 +73,49 @@ class Core19RuntimeTests(unittest.TestCase):
             c.ImplementationStatus.CANONICAL_BOUNDED_CLAIM_REBIND_PENDING,
         )
 
-    def test_nonclassical_fragments_remain_specification_only_except_bounded_classical(self):
-        for fragment in c.LogicFragment:
-            status = c.implementation_status(fragment)
-            if fragment is c.LogicFragment.CLASSICAL_PROPOSITIONAL:
-                self.assertEqual(status, c.ImplementationStatus.EXECUTABLE_BOUNDED)
-            elif fragment is c.LogicFragment.QUANTUM_LOGIC:
-                self.assertEqual(
-                    status,
-                    c.ImplementationStatus.CANONICAL_BOUNDED_CLAIM_REBIND_PENDING,
-                )
-            else:
-                self.assertEqual(status, c.ImplementationStatus.SPECIFICATION_ONLY)
-
-    def test_tensor_coordinate_requires_explicit_scale_context_regime(self):
-        with self.assertRaises(ValueError):
-            c.TensorCoordinate(
-                c.Core19.P01_EXISTENCE,
-                c.Core19.P03_CAUSALITY,
-                "",
-                "ctx",
-                "r",
+    def test_fragment_status_matches_current_bounded_executors(self):
+        executable = {
+            c.LogicFragment.CLASSICAL_PROPOSITIONAL,
+            c.LogicFragment.FIRST_ORDER_UNIFICATION,
+            c.LogicFragment.TEMPORAL_LTL,
+            c.LogicFragment.EPISTEMIC_MODAL,
+            c.LogicFragment.NON_MONOTONIC_DUNG,
+        }
+        specification_only = {
+            c.LogicFragment.DEPENDENT_TYPE,
+            c.LogicFragment.CATEGORICAL_TOPOS,
+        }
+        for fragment in executable:
+            self.assertEqual(
+                c.implementation_status(fragment),
+                c.ImplementationStatus.EXECUTABLE_BOUNDED,
             )
+        for fragment in specification_only:
+            self.assertEqual(
+                c.implementation_status(fragment),
+                c.ImplementationStatus.SPECIFICATION_ONLY,
+            )
+
+    def test_tensor_coordinate_requires_all_six_typed_axes(self):
+        fields = ["H", "runtime", "active", "observer-1"]
+        for index in range(len(fields)):
+            candidate = list(fields)
+            candidate[index] = ""
+            with self.assertRaises(ValueError):
+                c.TensorCoordinate(
+                    c.Core19.P01_EXISTENCE,
+                    c.Core19.P03_CAUSALITY,
+                    *candidate,
+                )
         coord = c.TensorCoordinate(
             c.Core19.P01_EXISTENCE,
             c.Core19.P03_CAUSALITY,
             "H",
             "runtime",
             "active",
+            "observer-1",
         )
-        self.assertEqual(coord.scale, "H")
+        self.assertEqual(coord.observer, "observer-1")
 
     def test_promotion_requires_every_gate(self):
         full = dict(
