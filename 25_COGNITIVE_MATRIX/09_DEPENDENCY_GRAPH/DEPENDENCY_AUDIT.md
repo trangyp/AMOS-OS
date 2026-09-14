@@ -1,67 +1,77 @@
 ---
 canon-group: meta
 canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
+rscf-state: derived
+rscf-claim: bounded-validated
+rscf-provenance: AMOS_corpus_plus_executable_repair
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: DERIVED
 topic: Dependency Audit
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
+updated: 2026-09-14
+origin_architect: Trang Phan
 ---
----
----
 
-# DEPENDENCY_AUDIT — Definition
+# DEPENDENCY_AUDIT — Executable bounded contract
 
-**Package:** `DEPENDENCY_AUDIT_`
-**Class:** `COGNITIVE_MATRIX_CONTRACT`
-**Epistemic class:** `DERIVED / MODEL EXTENSION`
-**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
-**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
+**Class:** `COGNITIVE_MATRIX_CONTRACT`  
+**Status:** `IMPLEMENTED_BOUNDED / VALIDATED_BOUNDED`  
+**Runtime:** `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/cognitive_matrix_runtime.py` and `cognitive_matrix_contract_runtime.py`
 
-## Scope
+## Graph contract
 
-Covers the operation contract for this lifecycle operator.
+Edges are directed:
 
-## Definition
+```text
+dependency -> dependent
+```
 
-AUDIT
+Load-bearing edge kinds are:
 
-This is a **contract-level definition**, not an implementation claim.
+```text
+HARD | EVIDENCE | AUTHORITY
+```
+
+`SOFT` edges do not propagate staleness and do not participate in the load-bearing DAG requirement.
+
+The audit executes:
+
+1. Tarjan strongly-connected-component decomposition over load-bearing edges.
+2. Detection of any SCC with more than one node as a load-bearing dependency cycle.
+3. Kahn topological ordering only when no load-bearing cycle exists.
+
+Therefore:
+
+```text
+load_bearing_cycle_present -> no valid dependency topological order
+```
+
+This is a finite directed-graph result, not a causal or logical-entailment claim.
 
 ## Hard boundaries
 
 ```text
-CONTRACT_FILLED != IMPLEMENTED
-DOCUMENTED != EXECUTABLE
-MODEL != VERIFIED
-UNKNOWN/GAP != PASS
+DEPENDENCY != CAUSATION
+DEPENDENCY != LOGICAL_NECESSITY
+SOFT_EDGE != STALENESS_PROPAGATION
+CYCLE_DETECTED != COMPONENT_FALSE
+TOPOLOGICAL_ORDER != PROOF_ORDER
 ```
 
+Runtime bindings:
+- `DependencyGraph.strongly_connected_components`
+- `DependencyGraph.load_bearing_cycles`
+- `DependencyGraph.topological_order`
+- `audit_dependencies`
+
+Validation: `test_cognitive_matrix_runtime.py` and `test_cognitive_matrix_contract_runtime.py`.
+
 ______________________________________________________________________
 
-[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
+[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/09_DEPENDENCY_GRAPH_MOC|09_DEPENDENCY_GRAPH_MOC]]
 
 RSCF-NODE
 node_id: dependency_audit_graph_definition
-node_type: note
-path: 09_DEPENDENCY_GRAPH/DEPENDENCY_AUDIT\_/DEPENDENCY_AUDIT.md
-claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/DEPENDENCY_AUDIT.md
-
-______________________________________________________________________
-
-**MOC:** [[25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/09_DEPENDENCY_GRAPH_MOC|09_DEPENDENCY_GRAPH_MOC]]
-
-______________________________________________________________________
-
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+node_type: EXECUTABLE_CONTRACT
+claim_class: AMOS_MODEL
+rscf_state: VALIDATED_BOUNDED
