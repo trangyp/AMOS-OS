@@ -46,8 +46,8 @@ class ExecutionBinding:
 # in the corresponding bindings. Any checker-byte mutation invalidates its
 # receipt until this registry is explicitly rebound after regression testing.
 ALU02_CHECKER_SHA256 = "d85590549de8efb76ffb0b929fc7a53a036f21c34fcc3327527d08462d826b7c"
-ALU04_CHECKER_SHA256 = "d54bcc3d6eecd4a07a1f4174b3c36f6fe928d2683f01b98269da64e0e2797bbd"
-ALU05_CHECKER_SHA256 = "966f687c902988e5127a8e38df9984dbff3da6f6eeda22db25f92120b7faeec1"
+ALU04_CHECKER_SHA256 = "53dfa82f2aadf6558a6f57ab685e1a80451066344012cd582926f575078e893d"
+ALU05_CHECKER_SHA256 = "22c92a9ed88c6e605ae2abe206cb0299eb736d9448bfdab21b726e8edc7ed4c6"
 ALU06_CHECKER_SHA256 = "72cb28e12874d01144f2035049a1f88ea0ffdb4eea736b4355c119d1b29cd82c"
 ALU08_CHECKER_SHA256 = "644dd74e15718920a8885a0a4265acb3a1638fdf0797ac4db9e3ab0b974df895"
 UNIFIED_BRAIN_CURRENT_REVISION = "0B_FlOTCuYcaFdVpKNEFLOTNHcFM3Q01GVGx4TmpVTTBHVytrPQ"
@@ -83,14 +83,14 @@ _BINDINGS: Dict[Fragment, ExecutionBinding] = {
         ExecutionStatus.EXECUTABLE_BOUNDED_CANDIDATE_REBOUND,
         "amos_ulk_alu04_finite_kripke_checker_v1.py",
         ALU04_CHECKER_SHA256,
-        "finite Kripke-model propositional modal semantics for NOT/AND/OR/IMPLIES/BOX/DIAMOND; no dynamic/common-knowledge/probabilistic/infinite-model completeness claim",
+        "finite Kripke-model propositional modal semantics for NOT/AND/OR/IMPLIES/BOX/DIAMOND; malformed formulas and undeclared agents fail closed; no dynamic/common-knowledge/probabilistic/infinite-model completeness claim",
     ),
     Fragment.ALU05_NON_MONOTONIC_DUNG: ExecutionBinding(
         Fragment.ALU05_NON_MONOTONIC_DUNG,
         ExecutionStatus.EXECUTABLE_BOUNDED_CANDIDATE_REBOUND,
         "amos_ulk_alu05_dung_checker_v1.py",
         ALU05_CHECKER_SHA256,
-        "finite Dung abstract argumentation: conflict-free, defence, characteristic function, grounded extension, admissibility, bounded preferred enumeration",
+        "finite Dung abstract argumentation: conflict-free, defence, characteristic function, grounded extension, admissibility, bounded preferred enumeration; unknown arguments fail closed",
     ),
     Fragment.ALU06_DEPENDENT_TYPE: ExecutionBinding(
         Fragment.ALU06_DEPENDENT_TYPE,
