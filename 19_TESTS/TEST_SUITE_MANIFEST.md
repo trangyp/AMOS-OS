@@ -1,179 +1,115 @@
 ---
-title: "AMOS OS Canonical Test Suite Master Manifest"
+title: AMOS OS Test Suite Evidence Manifest
 type: test_manifest
-aliases:
-  - TEST_SUITE_MANIFEST
-  - Test Suite Manifest
-amos_core_target: v4.4
-artifact_id: AMOS-TEST-MANIFEST-2026
 origin_architect: Trang Phan
 steward: Trang Phan
-status: ACTIVE_SOTA_PRODUCTION
-conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance:
-    - 19_TESTS/TESTS_TEST_CONTRACT
-    - 03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT
-    - 25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT
-  scope: active__AMOS_OS
-tags:
-  - amos
-  - testing
-  - validation
-  - invariant-testing
-  - chaos-engineering
-  - formal-verification
-  - test-manifest
+status: CONDITIONAL
+epistemic_class: AMOS_MODEL
 ---
 
-# AMOS OS Canonical Test Suite Master Manifest
+# AMOS OS Test Suite Evidence Manifest
 
-## 1. Architectural Verification Hierarchy & MECE Domain Coverage
+This manifest is the human-readable view of `19_TESTS/EVAL_EVIDENCE_REGISTRY.json`.
 
-The **AMOS OS Test Harness** enforces continuous falsification-first verification across all 6 MECE Governance Domains ($A$ through $F$) and all 26 operating planes:
+The machine-readable registry is authoritative for evaluation-evidence classification. It is validated by `07_SKILLS/amos-interactive-evaluation-design-rscf/scripts/eval_registry.py`.
 
-```mermaid
-graph TD
-    subgraph MECE_Domains ["6 MECE Governance Verification Domains"]
-        DA["Domain A: Normative & Governance (01_CANON, 23_OPERATING_MODEL)"]
-        DB["Domain B: Execution Core & Effect (02_KERNEL, 03_CONTROL_PLANE, 04_RUNTIME)"]
-        DC["Domain C: Capability & Orchestration (05, 06, 07, 08, 21, 25)"]
-        DD["Domain D: State, Memory & Models (10, 11, 12, 13, 16)"]
-        DE["Domain E: Protocols, Tools & Security (09, 14, 15, 18)"]
-        DF["Domain F: Assurance & Lifecycle (17, 19, 20, 22, 24)"]
-    end
+## Protected distinctions
 
-    subgraph TestEngines ["Continuous Automated Test Execution Engines"]
-        E1["TS-01: Static Epistemic & Syntax Linter (0 unclosed fences, 0 broken links)"]
-        E2["TS-02: AuthZ & Epoch CAS Invariant Engine (17/17 Invariants)"]
-        E3["TS-03: Property-Based Randomized Fuzzing (Hypothesis / QuickCheck)"]
-        E4["TS-04: 137 Math Registry Analytical Suite (21/21 Blocks Passed)"]
-        E5["TS-05: Chaos & BFT Fault Injection Suite (Partition, Drop, Corrupt)"]
-        E6["TS-06: Post-Quantum Cryptographic & ZK Attestation Verifier"]
-    end
+`TEST_SPECIFIED != TEST_EXECUTED`
 
-    DA --> E1
-    DA --> E2
-    DB --> E2
-    DB --> E3
-    DC --> E3
-    DC --> E4
-    DD --> E2
-    DD --> E3
-    DE --> E5
-    DE --> E6
-    DF --> E1
-    DF --> E4
+`TEST_EXECUTED != TEST_REPRODUCIBLE`
+
+`TEST_PASS != TRUTH`
+
+`MODEL_TEST != PRODUCTION_RUNTIME_TEST`
+
+`SAMPLED_FORMULAS != COMPLETE_FORMAL_PROOF`
+
+`RECEIPT_PRESENT != HARNESS_PRESENT`
+
+`BENCHMARK_SCORE != DEPLOYMENT_VALIDITY`
+
+A result may be promoted only to the narrowest conclusion licensed by its harness, receipt, environment, source identity, raw outcome, and explicit non-coverage.
+
+## Evidence classes
+
+Use the benchmark-forensics evidence classes:
+
+- `CONCEPTUAL_DESIGN` — a test or architecture is specified but not executed.
+- `SYNTHETIC_SCENARIO` — an illustrative/simulated scenario was run but is not evidence about a deployed runtime.
+- `EXECUTED_MODEL` — executable reference/model logic was run.
+- `EXECUTED_RUNTIME` — the identified runtime artifact was actually run in a bound environment.
+- `UNKNOWN` — the available evidence does not establish a stronger class.
+
+## Verdicts
+
+- `VERIFIED_TESTED_SCOPE` — exact tested scope has executable, reproducible evidence sufficient for that bounded claim.
+- `PARTIAL` — useful executed evidence exists but the evidence envelope or coverage is incomplete.
+- `INVALIDATED_EVIDENCE` — the prior evidence cannot support the claimed conclusion.
+- `CONCEPTUAL_ONLY` — design/specification only.
+- `NON_REPRODUCIBLE` — a historical result/receipt exists but the active evidence set cannot reproduce it.
+- `UNKNOWN` — unresolved.
+
+## Current registry summary
+
+| Suite | Evidence | Verdict | Bounded interpretation |
+| --- | --- | --- | --- |
+| `TS-AUTHZ-02` | `EXECUTED_MODEL` | `PARTIAL` | In-tree reference harness + receipt record 17/17 selected authorization probes; original environment/commit were not fully bound. |
+| `TS-ROUTING-03` | `UNKNOWN` | `NON_REPRODUCIBLE` | Detailed 19/19 historical receipt exists, but the named validator is absent from the active repository. |
+| `TS-MATH-04` | `UNKNOWN` | `NON_REPRODUCIBLE` | Verification report is preserved, but no executable harness/raw evidence is bound and the visible report does not independently establish all 137 formulas. |
+| `TS-ARROW-06` | `CONCEPTUAL_DESIGN` | `CONCEPTUAL_ONLY` | Active specification contains performance/runtime claims but is not an executed benchmark receipt. |
+| `TS-ZK-07` | `CONCEPTUAL_DESIGN` | `CONCEPTUAL_ONLY` | Security architecture is a design specification, not executed cryptographic/runtime validation. |
+
+Do not replace these verdicts with `PASS` unless the machine registry can be updated with the required evidence and passes validation.
+
+## Evaluation architecture
+
+Evaluation should be split into independent lanes:
+
+1. **Deterministic contract tests** — schemas, invariants, authority firewalls, state machines, validators.
+2. **Trajectory/process evaluations** — tool choice, handoff quality, recoverability, wasted steps, authority/process compliance.
+3. **Adversarial/red-team evaluations** — prompt/tool poisoning, privilege escalation, data exfiltration, stale state, replay, ambiguous effects.
+4. **Model-dependent quality evaluations** — semantic quality, factuality, judge-based scoring; these require calibration and must not become hard truth automatically.
+5. **Runtime/performance benchmarks** — latency, throughput, resource usage; require exact runtime, hardware/environment, workload and raw measurements.
+6. **Production/deployment validation** — field behavior and operational validity; cannot be inferred from offline/model tests.
+
+External tooling such as Promptfoo may be used as a test runner or red-team generator when useful, but framework output remains evidence input to AMOS rather than an authority or truth source.
+
+## Promotion requirements
+
+Before a suite can receive `VERIFIED_TESTED_SCOPE`, bind all of:
+
+- exact target artifact identity;
+- in-tree or immutable harness identity;
+- executed receipt identity;
+- exact source/artifact hashes;
+- environment/runtime versions;
+- inputs/seeds/workload when applicable;
+- raw or recomputable result counts;
+- explicit non-coverage;
+- failure traces for failed cases;
+- validity/invalidation conditions.
+
+If any load-bearing item is unavailable, downgrade to the narrowest supported verdict instead of filling the gap narratively.
+
+## Machine validation
+
+```bash
+python 07_SKILLS/amos-interactive-evaluation-design-rscf/scripts/eval_registry.py \
+  19_TESTS/EVAL_EVIDENCE_REGISTRY.json \
+  --repo .
 ```
 
----
+The validator also computes Git blob hashes for bound harness/receipt files and rejects stale evidence identities.
 
-## 2. Master Test Suite Registry Table
+## External source pattern
 
-| Suite ID | Subsystem Target | Test Methodology | Invariant Gate | Executed Receipt Reference | Status |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **`TS-SYNTAX-01`** | `00_ROOT` $\to$ `25_COGNITIVE_MATRIX` | Parallel Regex & AST Parse | 0 unclosed fences, 0 broken links | [[20_OPERATIONS/AMOS_OS_AUDIT_2026-09-04_PHASE53_EXHAUSTIVE_REPAIR_AND_EXPANSION]] | **PASS (100%)** |
-| **`TS-AUTHZ-02`** | `03_CONTROL_PLANE/04_AUTHORITY` | Formal State Machine Reachability | CAPABILITY $\ne$ AUTHORITY, Epoch CAS | [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT]] | **PASS (17/17)** |
-| **`TS-ROUTING-03`** | `25_COGNITIVE_MATRIX/10_ROUTING` | Adjacency Tensor Contraction | Dependency closure $\le$ weakest premise | [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT]] | **PASS (19/19)** |
-| **`TS-MATH-04`** | `22_RESEARCH/01_MATHEMATICS` | SymPy / NumPy Analytical Proofs | 137 Core Registry Formulations | [[22_RESEARCH/01_MATHEMATICS/AMOS_137_MATH_VERIFICATION_REPORT]] | **PASS (21/21)** |
-| **`TS-CHAOS-05`** | `04_RUNTIME/06_EXECUTION` | Jepsen-style Network Fault Injection | Split-Brain Avoidance, CAS Rollback | [[19_TESTS/MUTATION_TESTING_FAULT_INJECTION_LEDGER]] | **ACTIVE** |
-| **`TS-ARROW-06`** | `04_RUNTIME/06_EXECUTION` | SIMD Memory Race Sanitizer | Sub-microsecond zero-copy integrity | [[04_RUNTIME/06_EXECUTION/ARROW_IPC_STATE_BUS_ENGINE]] | **PASS** |
-| **`TS-ZK-07`** | `18_SECURITY` | Groth16 / Plonky3 Proof Verifier | Zero-Knowledge Epistemic Attestation | [[18_SECURITY/POST_QUANTUM_LATTICE_CRYPTOGRAPHY_AND_NEURAL_ZK_ATTESTATION]] | **PASS** |
+The 2026 scan inspected `promptfoo/promptfoo` for reusable evaluation/red-team patterns: CLI/CI evaluation, adversarial testing, model comparison and local/private execution. AMOS imports the separation of evaluation lanes and CI-friendly test execution, not product claims or benchmark authority.
 
----
+## Cross-plane bindings
 
-## 3. Automated Property-Based Testing Protocol
-
-```python
-"""
-AMOS OS Property-Based Invariant Verification Harness.
-Target: Hypothesis / QuickCheck testing for AMOS Core Invariants.
-"""
-
-from hypothesis import given, strategies as st
-import math
-
-class TestAMOSCoreInvariants:
-    
-    @given(st.floats(min_value=0.0, max_value=1.0), st.floats(min_value=0.0, max_value=1.0))
-    def test_epistemic_confidence_ceiling_invariant(self, p1: float, p2: float):
-        """Invariant: Automated inferences must never exceed confidence ceiling c <= 0.95."""
-        combined_confidence = 1.0 - (1.0 - p1) * (1.0 - p2)
-        governed_confidence = min(combined_confidence, 0.95)
-        assert governed_confidence <= 0.95, f"Ceiling breach: {governed_confidence}"
-
-    @given(st.lists(st.tuples(st.text(min_size=1), st.floats(min_value=0.01, max_value=0.95)), min_size=1))
-    def test_weakest_link_deduction_rule(self, premises):
-        """Invariant: Deduction inherits the confidence of its weakest load-bearing premise."""
-        min_premise = min(c for _, c in premises)
-        deduction_confidence = min_premise * 0.98 # slight decay for inference step
-        assert deduction_confidence <= min_premise, "Deduction exceeded premise confidence"
-
-    @given(st.integers(min_value=1, max_value=10000), st.integers(min_value=1, max_value=10000))
-    def test_epoch_cas_monomorphic_ordering(self, epoch_a: int, epoch_b: int):
-        """Invariant: CAS mutation commits only if candidate_epoch > active_epoch."""
-        if epoch_b <= epoch_a:
-            commit_allowed = False
-        else:
-            commit_allowed = True
-        assert commit_allowed == (epoch_b > epoch_a), "Epoch CAS monotonicity failure"
-```
-
----
-
-## 4. Test Suite Execution Protocol Buffer Schema
-
-```protobuf
-syntax = "proto3";
-
-package amos.tests.manifest;
-
-enum TestResultStatus {
-  STATUS_UNSPECIFIED = 0;
-  STATUS_PASS = 1;
-  STATUS_FAIL = 2;
-  STATUS_SKIP = 3;
-  STATUS_ERROR = 4;
-}
-
-message TestCaseResult {
-  string test_id = 1;
-  string suite_id = 2;
-  string target_plane = 3;
-  TestResultStatus status = 4;
-  int64 execution_duration_micros = 5;
-  string error_trace = 6;
-  string verified_invariant_id = 7;
-}
-
-message TestSuiteRunReceipt {
-  uint64 run_epoch = 1;
-  int64 timestamp_utc_nanos = 2;
-  string git_commit_or_vault_hash = 3;
-  uint32 total_tests = 4;
-  uint32 passed_tests = 5;
-  uint32 failed_tests = 6;
-  repeated TestCaseResult test_results = 7;
-  bytes cryptographic_signature = 8;
-}
-```
-
----
-
-## 5. Invariants & Governance Rules
-
-1. **Falsification-First Gate**: Test suites are designed to actively attempt to disprove claims (`TEST_PASS != TRUTH`); no claim is admitted to canonical status without passing negative and fuzzing test cases.
-2. **Deterministic Replay**: Every test failure emits an execution trace containing seed parameters, CAS epoch, and input delta sufficient for deterministic replay.
-3. **Fail-Closed Reporting**: Unexecuted or timed-out test suites must report `UNKNOWN/GAP`, never speculative passes.
-
----
-
-## 6. Cross-Plane Architectural Bindings
-
-- **Master Testing MOC**: [[19_TESTS/19_TESTS_MOC]]
-- **Testing Contract**: [[19_TESTS/TESTS_TEST_CONTRACT]]
-- **Operations & Audit Ledger**: [[20_OPERATIONS/OPERATIONS_README]]
-- **Continuous Metamorphic Fuzzing**: [[19_TESTS/METAMORPHIC_FUZZING_AND_INVARIANT_TESTING]]
-- **Chaos Fault Injection**: [[19_TESTS/MUTATION_TESTING_FAULT_INJECTION_LEDGER]]
+- [[19_TESTS/TESTS_TEST_CONTRACT|Test Contract]]
+- `19_TESTS/EVAL_EVIDENCE_REGISTRY.json`
+- `07_SKILLS/amos-interactive-evaluation-design-rscf/SKILL.md`
+- [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|Observability]]
+- [[03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT|Control Plane]]
