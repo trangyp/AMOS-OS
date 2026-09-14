@@ -1,197 +1,73 @@
 {
   "name": "amos-aibom-lifecycle-assurance-rscf-agent",
-  "display_name": "Aibom Lifecycle Assurance Rscf",
-  "description": "RSCF epistemic engine for Aibom Lifecycle Assurance Rscf",
+  "display_name": "AMOS AIBOM Lifecycle Assurance",
+  "description": "Read-oriented AIBOM/SBOM provenance and lifecycle assurance agent for typed inventory, attestations, vulnerabilities, drift, reproducibility evidence, and output binding.",
   "author": "Trang Phan",
   "steward": "Trang Phan",
   "system": "AMOS_OS",
-  "role": "Aibom Lifecycle Assurance Rscf — Runtime and OS engine within the runtime domain.",
+  "role": "Audit and construct bounded AI/software supply-chain evidence without minting deployment, signing, merge, or promotion authority.",
   "skill_binding": {
     "primary_skill": "amos-aibom-lifecycle-assurance-rscf",
-    "skill_path": ".devin/skills/amos-aibom-lifecycle-assurance-rscf/SKILL.md"
+    "skill_path": "07_SKILLS/amos-aibom-lifecycle-assurance-rscf/SKILL.md"
   },
   "capabilities": [
-    {
-      "name": "aibom_lifecycle.classify_claim",
-      "description": "Classify claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP) and bind to evidence.",
-      "side_effect": "read"
-    },
-    {
-      "name": "aibom_lifecycle.validate_evidence",
-      "description": "Validate evidence chains: provenance, freshness, scope, and regime validity.",
-      "side_effect": "read"
-    },
-    {
-      "name": "aibom_lifecycle.trace_provenance",
-      "description": "Trace output provenance to vault sources and tag with content_hash.",
-      "side_effect": "read"
-    },
-    {
-      "name": "aibom_lifecycle.assess_confidence",
-      "description": "Assess confidence ceiling based on epistemic class and evidence strength.",
-      "side_effect": "read"
-    },
-    {
-      "name": "aibom_lifecycle.detect_falsifier",
-      "description": "Detect falsifiers and downgrade confidence when counter-evidence emerges.",
-      "side_effect": "read"
-    },
-    {
-      "name": "aibom_lifecycle.manage_lifecycle",
-      "description": "Manage AIBOM lifecycle: classify, validate, trace, assess, detect.",
-      "side_effect": "write"
-    },
-    {
-      "name": "aibom_lifecycle.detect_drift",
-      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
-      "side_effect": "read"
-    },
-    {
-      "name": "aibom_lifecycle.validate_outputs",
-      "description": "Validate AIBOM outputs against domain constraints and epistemic class.",
-      "side_effect": "read"
-    }
+    {"name": "aibom.inventory_normalize", "side_effect": "read", "description": "Normalize supplied CycloneDX/SPDX/AMOS inventory into typed local evidence."},
+    {"name": "aibom.attestation_audit", "side_effect": "read", "description": "Validate in-toto subject-digest binding and external verifier evidence."},
+    {"name": "aibom.vulnerability_applicability", "side_effect": "read", "description": "Classify bounded vulnerability applicability as APPLICABLE, NOT_APPLICABLE, or UNKNOWN."},
+    {"name": "aibom.manifest_verify", "side_effect": "read", "description": "Verify structural integrity, policy evidence dimensions, hashes, and local ledger state."},
+    {"name": "aibom.lifecycle_diff", "side_effect": "read", "description": "Compare sealed manifests and identify material component drift without causal claims."},
+    {"name": "aibom.output_binding_audit", "side_effect": "read", "description": "Check that execution output evidence binds to an exact sealed AIBOM hash and optional trace/evaluation identities."}
   ],
-  "operations": [
-    {
-      "step": 1,
-      "action": "Load the amos-aibom-lifecycle-assurance-rscf skill and its content",
-      "gate": "skill_loaded"
-    },
-    {
-      "step": 2,
-      "action": "Classify the query against runtime sub-capabilities",
-      "gate": "domain_confirmed"
-    },
-    {
-      "step": 3,
-      "action": "Apply the appropriate capability with epistemic class labeling",
-      "gate": "epistemic_labeled"
-    },
-    {
-      "step": 4,
-      "action": "Validate results against domain validation gates",
-      "gate": "gates_passed"
-    },
-    {
-      "step": 5,
-      "action": "Present results with provenance and confidence ceiling",
-      "gate": "output_validated"
-    }
-  ],
-  "integrity_requirements": [
-    "Law of Law: no unresolved contradictions within the skill's scope",
-    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
-    "Provenance: source path recorded for every derived claim",
-    "Anti-overreach: no claim beyond the skill's declared scope",
-    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
-  ],
-  "safety_constraints": [
-    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
-    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
-  ],
-  "depends_on_skills": [
-    "amos-aibom-lifecycle-assurance-rscf"
-  ],
-  "depends_on_workflows": [
-    "amos-aibom-lifecycle-assurance-rscf-workflow.md"
-  ],
-  "epistemic_class": "AMOS_MODEL",
-  "claim_ceiling": 0.95,
-  "lifecycle": {
-    "status": "active",
-    "deprecated": false,
-    "deprecation_date": null,
-    "successor": null
+  "implementation": {
+    "type": "python_reference",
+    "runtime": "07_SKILLS/amos-aibom-lifecycle-assurance-rscf/scripts/aibom.py",
+    "validator": "07_SKILLS/amos-aibom-lifecycle-assurance-rscf/scripts/audit_rscf.py",
+    "executable": true
   },
   "governance": {
     "owner_team": "AMOS_CORE",
-    "business_domain": "runtime",
     "risk_tier": "medium",
-    "observability": "structured_logs+content_hash",
     "approval_mode": "steward_review",
-    "promotion_state": "production"
+    "promotion_state": "implemented_local_reference",
+    "deployment_authority": "none",
+    "signing_authority": "none",
+    "merge_authority": "none",
+    "canonical_promotion_authority": "none"
   },
-  "content_hash": "8117d853cef5aa44",
-  "implementation": {
-    "type": "json",
-    "file": "amos-aibom-lifecycle-assurance-rscf-agent.json",
-    "class": null,
-    "executable": true
-  },
-  "version": "1.1.0",
-  "reasoning_pattern": "Plan-Execute",
-  "termination_criteria": {
-    "max_steps": 10,
-    "max_tokens": 8000,
-    "stop_on_confidence_below": 0.3,
-    "stop_on_critical_gap": true,
-    "stop_on_scope_violation": true,
-    "human_in_the_loop": false
-  },
-  "error_recovery": {
-    "on_timeout": "return partial result with GAP flag",
-    "on_scope_violation": "reject and route to parent",
-    "on_contradiction": "flag CRITICAL_GAP and halt",
-    "on_provenance_loss": "mark as UNKNOWN and request human review",
-    "on_drift": "trigger drift alignment governor"
-  },
-  "context_management": {
-    "strategy": "progressive_disclosure",
-    "max_context_tokens": 4000,
-    "compaction_threshold": 0.8,
-    "scratchpad_enabled": true
-  },
-  "evaluation_metrics": {
-    "success_rate_target": 0.85,
-    "false_positive_rate_max": 0.1,
-    "avg_steps_target": 3.0,
-    "provenance_coverage_target": 1.0
-  },
-  "composition_rules": {
-    "can_delegate_to": [],
-    "can_receive_from": [],
-    "max_chain_depth": 3,
-    "requires_orchestrator": true
-  },
+  "hard_firewalls": [
+    "BOM_PRESENT != COMPLETE_INVENTORY",
+    "DIGEST_MATCH != SIGNATURE_VERIFIED",
+    "SIGNATURE_VERIFIED != SEMANTIC_CORRECTNESS",
+    "VULNERABILITY_ID_MATCH != VULNERABILITY_APPLICABLE",
+    "BUILD_ATTESTATION != RUNTIME_IDENTITY",
+    "OUTPUT_BOUND != OUTPUT_CORRECT",
+    "AIBOM_SEALED != POLICY_COMPLETE",
+    "AIBOM_EVIDENCE != AUTHORITY"
+  ],
   "observability": {
-    "trace_level": "full",
-    "log_inputs": true,
-    "log_outputs": true,
-    "log_intermediate": true,
+    "trace_level": "metadata_only",
+    "log_inputs": false,
+    "log_outputs": false,
+    "log_intermediate": false,
+    "log_hashes_and_evidence_refs": true,
+    "log_missingness": true,
     "metrics_enabled": true
   },
-  "tags": [
-    "type/agent",
-    "canon/agent",
-    "domain/rscf-epistemic",
-    "rscf/source_claim",
-    "hml/m",
-    "epistemic/amos_model",
-    "amos_os"
-  ],
-  "origin_architect": "Trang Phan",
-  "rscf_state": "SOURCE_CLAIM",
-  "hml_level": "M",
-  "gmef_gates": [
-    "L0_integrity",
-    "L1_epistemic",
-    "L2_provenance",
-    "L5_scope",
-    "L7_authority"
-  ],
-  "collapse_class": "reversible",
-  "qfm_gate_set": "QFM_v43",
-  "law_compliance": [
-    "L0",
-    "L1",
-    "L2",
-    "L4",
-    "L5",
-    "L7",
-    "L16",
-    "L17",
-    "L18"
-  ],
-  "domain": "rscf"
+  "privacy": {
+    "raw_prompt_persistence": false,
+    "raw_output_persistence": false,
+    "credential_persistence": false,
+    "secret_persistence": false
+  },
+  "error_recovery": {
+    "on_missing_identity": "UNKNOWN/GAP",
+    "on_attestation_mismatch": "REJECT_EVIDENCE",
+    "on_signature_claim_without_verifier": "REJECT_EVIDENCE",
+    "on_vulnerability_applicability_gap": "UNKNOWN",
+    "on_manifest_hash_drift": "INVALIDATED_EVIDENCE",
+    "on_source_identity_mismatch": "NOT_COMPARABLE"
+  },
+  "version": "3.0.0",
+  "epistemic_class": "AMOS_MODEL",
+  "origin_architect": "Trang Phan"
 }
