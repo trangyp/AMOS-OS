@@ -35,7 +35,20 @@ jobs:
           python 07_SKILLS/amos-distributed-attack-composition-monitor-rscf/scripts/audit_rscf.py --self-test
       - name: Firewalls
         run: |
-          grep -q 'LOCAL_ALLOW != GLOBAL_SAFE' 07_SKILLS/amos-distributed-attack-composition-monitor-rscf/SKILL.md
-          grep -q 'COMPOSITION_MATCH != ADVERSARIAL_INTENT_PROOF' 07_SKILLS/amos-distributed-attack-composition-monitor-rscf/SKILL.md
-          grep -q '"execution_authority":"none"' 06_AGENTS/amos-distributed-attack-composition-monitor-rscf-agent.json
-          ! grep -q 'log_inputs.*true' 06_AGENTS/amos-distributed-attack-composition-monitor-rscf-agent.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          skill = Path('07_SKILLS/amos-distributed-attack-composition-monitor-rscf/SKILL.md').read_text()
+          agent = json.loads(Path('06_AGENTS/amos-distributed-attack-composition-monitor-rscf-agent.json').read_text())
+          assert 'LOCAL_ALLOW != GLOBAL_SAFE' in skill
+          assert 'COMPOSITION_MATCH != ADVERSARIAL_INTENT_PROOF' in skill
+          g = agent['governance']
+          assert g['execution_authority'] == 'none'
+          assert g['deployment_authority'] == 'none'
+          assert g['merge_authority'] == 'none'
+          assert g['canonical_promotion_authority'] == 'none'
+          o = agent['observability']
+          assert o['log_inputs'] is False
+          assert o['log_outputs'] is False
+          assert o['log_intermediate'] is False
+          PY
