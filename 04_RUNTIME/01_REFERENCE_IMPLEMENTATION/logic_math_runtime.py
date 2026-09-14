@@ -14,6 +14,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from heapq import heappop, heappush
 from math import inf, isfinite, isclose
+from types import MappingProxyType
 from typing import Dict, Iterable, Mapping, Sequence, Tuple
 
 
@@ -331,7 +332,7 @@ class SparseLogicTensor:
 
         object.__setattr__(self, "axes", axis_tuple)
         object.__setattr__(self, "shape", shape_tuple)
-        object.__setattr__(self, "values", normalized)
+        object.__setattr__(self, "values", MappingProxyType(normalized))
 
     @property
     def rank(self) -> int:
