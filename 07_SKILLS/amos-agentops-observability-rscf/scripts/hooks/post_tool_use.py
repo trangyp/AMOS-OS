@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Validate structured trace artifacts emitted by an AgentOps observability run.
 
-Non-trace outputs pass through. This hook does not score prose or infer semantic
-quality from keywords. Compatible trace JSON is validated deterministically.
+Non-trace outputs pass through. Compatible trace JSON is validated using the
+Skill-local runtime. The hook does not score prose or infer semantic quality.
 """
 from __future__ import annotations
 
@@ -12,8 +12,7 @@ import sys
 from pathlib import Path
 
 SKILL_DIR = Path(__file__).resolve().parents[2]
-REPO = SKILL_DIR.parents[1]
-RUNTIME = REPO / "17_OBSERVABILITY" / "agent_trace_runtime.py"
+RUNTIME = SKILL_DIR / "scripts" / "agent_trace_runtime.py"
 
 
 def load_runtime():
@@ -36,7 +35,7 @@ def main() -> int:
     if not isinstance(obj, dict) or "trace_id" not in obj or "spans" not in obj:
         return 0
     if not RUNTIME.exists():
-        print("BLOCK: agent_trace_runtime.py not found")
+        print("BLOCK: Skill-local agent_trace_runtime.py not found")
         return 1
     try:
         mod = load_runtime()
