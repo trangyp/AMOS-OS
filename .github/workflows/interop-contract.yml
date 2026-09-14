@@ -1,0 +1,52 @@
+name: Interoperability Contract
+
+on:
+  pull_request:
+    paths:
+      - '06_AGENTS/**'
+      - '07_SKILLS/amos-agent-interoperability-compiler/**'
+      - '14_TOOLS/**'
+      - '.github/workflows/interop-contract.yml'
+  push:
+    branches: [main]
+    paths:
+      - '06_AGENTS/**'
+      - '07_SKILLS/amos-agent-interoperability-compiler/**'
+      - '14_TOOLS/**'
+
+permissions:
+  contents: read
+
+jobs:
+  compiler-contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile script
+        run: python -m py_compile 07_SKILLS/amos-agent-interoperability-compiler/scripts/compile_interop.py
+      - name: Positive fixture
+        run: |
+          mkdir -p /tmp/interop/06_AGENTS
+          cat > /tmp/interop/06_AGENTS/test-agent.json <<'JSON'
+          {"name":"test-agent","display_name":"Test Agent","description":"fixture","version":"1.0.0","origin_architect":"Trang Phan","capabilities":[{"name":"test.read","description":"read only","side_effect":"read"}],"depends_on_skills":["fixture-skill"],"depends_on_workflows":["fixture-workflow.md"],"governance":{"risk_tier":"low","approval_mode":"steward_review","promotion_state":"test"},"lifecycle":{"status":"active"}}
+          JSON
+          python 07_SKILLS/amos-agent-interoperability-compiler/scripts/compile_interop.py --check /tmp/interop
+          python 07_SKILLS/amos-agent-interoperability-compiler/scripts/compile_interop.py --format a2a-candidate /tmp/interop | grep -q 'A2A_CANDIDATE_NOT_CONFORMANT'
+          python 07_SKILLS/amos-agent-interoperability-compiler/scripts/compile_interop.py --format mcp-candidate /tmp/interop | grep -q 'MCP_CANDIDATE_NOT_CALLABLE'
+      - name: Negative side-effect fixture
+        run: |
+          python - <<'PY'
+          import json
+          p='/tmp/interop/06_AGENTS/test-agent.json'
+          d=json.load(open(p))
+          d['capabilities'][0].pop('side_effect')
+          json.dump(d,open(p,'w'))
+          PY
+          if python 07_SKILLS/amos-agent-interoperability-compiler/scripts/compile_interop.py --check /tmp/interop; then
+            echo 'Expected fail-closed validation for missing side_effect'
+            exit 1
+          fi
