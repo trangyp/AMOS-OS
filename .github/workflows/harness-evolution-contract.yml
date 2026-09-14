@@ -10,6 +10,7 @@ on:
       - '14_TOOLS/TOOL_REGISTRY_MASTER.md'
       - '11_KNOWLEDGE/HARNESS_EVOLUTION_SOURCES.md'
       - '19_TESTS/test_harness_evolution_runtime.py'
+      - '19_TESTS/test_harness_evolution_guarded_runtime.py'
       - '.github/agents/amos-harness-evolution-auditor.agent.md'
       - '.github/workflows/harness-evolution-contract.yml'
   workflow_dispatch:
@@ -27,20 +28,26 @@ jobs:
         run: |
           python -m py_compile \
             07_SKILLS/amos-observability-driven-harness-evolution-rscf/scripts/harness_evolution_runtime.py \
+            07_SKILLS/amos-observability-driven-harness-evolution-rscf/scripts/harness_evolution_guarded_runtime.py \
             07_SKILLS/amos-observability-driven-harness-evolution-rscf/scripts/harness_evolution_contract_check.py \
-            19_TESTS/test_harness_evolution_runtime.py
-      - name: Run harness evolution regression suite
-        run: python -m unittest -q 19_TESTS/test_harness_evolution_runtime.py
-      - name: Run runtime self-tests
+            07_SKILLS/amos-observability-driven-harness-evolution-rscf/scripts/harness_evolution_guarded_contract_check.py \
+            19_TESTS/test_harness_evolution_runtime.py \
+            19_TESTS/test_harness_evolution_guarded_runtime.py
+      - name: Run harness evolution regression suites
+        run: python -m unittest -q 19_TESTS/test_harness_evolution_runtime.py 19_TESTS/test_harness_evolution_guarded_runtime.py
+      - name: Run runtime and validator self-tests
         run: |
           python 07_SKILLS/amos-observability-driven-harness-evolution-rscf/scripts/harness_evolution_runtime.py
           python 07_SKILLS/amos-observability-driven-harness-evolution-rscf/scripts/harness_evolution_contract_check.py --self-test
+          python 07_SKILLS/amos-observability-driven-harness-evolution-rscf/scripts/harness_evolution_guarded_contract_check.py --self-test
       - name: Enforce mutation authority and isolation firewalls
         run: |
           grep -q 'MUTATION_PROPOSAL != WRITE_AUTHORITY' 07_SKILLS/amos-observability-driven-harness-evolution-rscf/SKILL.md
           grep -q 'KEEP_RECOMMENDATION != MERGE_AUTHORITY' 07_SKILLS/amos-observability-driven-harness-evolution-rscf/SKILL.md
           grep -q 'ROLLBACK_RECOMMENDATION != ROLLBACK_EXECUTION' 07_SKILLS/amos-observability-driven-harness-evolution-rscf/SKILL.md
           grep -q 'VERIFIER_ARTIFACT_VISIBLE_TO_NEXT_AGENT != VALID_EVAL' 07_SKILLS/amos-observability-driven-harness-evolution-rscf/SKILL.md
+          grep -q 'Active fail-closed decision runtime' 07_SKILLS/amos-observability-driven-harness-evolution-rscf/SKILL.md
+          grep -q 'NOT G -> INCONCLUSIVE' 07_SKILLS/amos-observability-driven-harness-evolution-rscf/references/formal-contract.md
           grep -q '"write_authority": "none"' 06_AGENTS/amos-observability-driven-harness-evolution-rscf-agent.json
           grep -q '"merge_authority": "none"' 06_AGENTS/amos-observability-driven-harness-evolution-rscf-agent.json
           grep -q '"deployment_authority": "none"' 06_AGENTS/amos-observability-driven-harness-evolution-rscf-agent.json
