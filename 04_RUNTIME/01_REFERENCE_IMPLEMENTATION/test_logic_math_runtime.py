@@ -98,6 +98,8 @@ class LogicMathRuntimeTests(unittest.TestCase):
         self.assertEqual(t.get((0, 1, 2, 1)), 3.0)
         self.assertEqual(t.get((0, 0, 0, 0)), 0.0)
         self.assertEqual(t.frobenius_norm_sq(), 25.0)
+        with self.assertRaises(TypeError):
+            t.values[(0, 0, 0, 0)] = 1.0
         with self.assertRaises(m.MathInvariantError):
             m.SparseLogicTensor(axes=("x", "x"), shape=(2, 2))
         with self.assertRaises(m.MathInvariantError):
