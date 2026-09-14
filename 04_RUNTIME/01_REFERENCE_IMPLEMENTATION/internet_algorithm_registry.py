@@ -6,7 +6,7 @@ family and declared mathematical preconditions match. Availability never grants
 authority and an algorithm result never establishes a stronger claim than its
 mathematical contract.
 
-External source baseline for graph entries: NetworkX 3.6.1 documentation.
+External graph baseline: NetworkX 3.6.1 stable documentation, checked 2026-09-14.
 """
 from dataclasses import dataclass
 from enum import Enum
@@ -17,6 +17,7 @@ class ProblemFamily(Enum):
     SHORTEST_PATH = "SHORTEST_PATH"
     CONNECTIVITY = "CONNECTIVITY"
     STRONGLY_CONNECTED_COMPONENTS = "STRONGLY_CONNECTED_COMPONENTS"
+    TRANSITIVE_CLOSURE = "TRANSITIVE_CLOSURE"
     TOPOLOGICAL_ORDER = "TOPOLOGICAL_ORDER"
     SPANNING_TREE = "SPANNING_TREE"
     FLOW = "FLOW"
@@ -59,7 +60,7 @@ class AlgorithmSpec:
             raise ValueError("algorithm preconditions must be non-empty strings")
 
 
-NETWORKX_SOURCE = "NetworkX 3.6.1 official documentation"
+NETWORKX_SOURCE = "NetworkX 3.6.1 stable official documentation"
 
 REGISTRY: Dict[str, AlgorithmSpec] = {
     "bfs": AlgorithmSpec(
@@ -111,6 +112,17 @@ REGISTRY: Dict[str, AlgorithmSpec] = {
         "partitions a directed graph into strongly connected components; SCC relation is reachability structure, not causality",
         NETWORKX_SOURCE,
         implementation_binding="cognitive_matrix_runtime.py:strongly_connected_components",
+    ),
+    "warshall_reflexive_transitive_closure": AlgorithmSpec(
+        "warshall_reflexive_transitive_closure",
+        ProblemFamily.TRANSITIVE_CLOSURE,
+        frozenset({"finite_namespace", "boolean_relation", "reflexive_closure"}),
+        "computes finite reflexive graph reachability only; REACHABLE != ENTAILS and REACHABLE != CAUSES",
+        "NetworkX 3.6.1 transitive-closure semantics + Warshall-style finite Boolean closure",
+        guarantee=GuaranteeClass.EXACT,
+        determinism=DeterminismClass.DETERMINISTIC_GIVEN_INPUT_ORDER,
+        complexity="O(V^3)",
+        implementation_binding="urk_relation_algebra.py:reflexive_transitive_closure",
     ),
     "topological_sort": AlgorithmSpec(
         "topological_sort", ProblemFamily.TOPOLOGICAL_ORDER,
