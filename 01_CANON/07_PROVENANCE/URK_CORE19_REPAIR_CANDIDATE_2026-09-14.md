@@ -80,6 +80,22 @@ Origin architect / steward: **Trang Phan**.
 - ALU-07 callable AST bundle SHA-256: `754402e1a342f4eee7d4bf6c19c155a0ff6257cab82bcaf1f1e3bedbcec98410`
 - Status: executable source evidence for bounded projection only; not Canon promotion.
 
+### C7 — ALU-04 finite Kripke checker
+
+- Checker: `amos_ulk_alu04_finite_kripke_checker_v1.py`
+- Current checker SHA-256: `869d095013dabdfdce089e1f4065350417b5e77722c26738d6beded0ec87eac0`.
+- Scope: finite worlds/agents; propositional atoms; `NOT/AND/OR/IMPLIES/BOX/DIAMOND`.
+- Fail-closed repair: malformed formulas and undeclared agents are rejected; a declared agent with zero successors retains standard vacuous-BOX semantics.
+- Status: `EXECUTABLE_BOUNDED_CANDIDATE_REBOUND / NOT_CANON`.
+
+### C8 — ALU-05 finite Dung checker
+
+- Checker: `amos_ulk_alu05_dung_checker_v1.py`
+- Current checker SHA-256: `8e613729ca3a0ef9d24a8bafba432ab9b358fe3c2b4a8ac945ee7b1660ed658c`.
+- Scope: finite Dung argumentation; conflict freedom, defence, characteristic function, grounded extension, admissibility, explicitly bounded preferred-extension enumeration.
+- Fail-closed repair: unknown argument-set members, unknown arguments, and invalid enumeration bounds are rejected.
+- Status: `EXECUTABLE_BOUNDED_CANDIDATE_REBOUND / NOT_CANON`.
+
 ## Stale whole-file receipt repair
 
 The recursive mutation queue carried an earlier **whole-file** `unified_brain.py` hash for ALU-07. The Drive file subsequently changed, so that monolithic hash no longer identifies the current source.
@@ -98,7 +114,7 @@ The repair therefore does **not** silently accept the old receipt. Current ALU-0
 4. normalized callable-AST hashes for fragment-level semantic identity;
 5. independent current execution tests.
 
-This narrows invalidation: unrelated changes elsewhere in the monolithic source need not masquerade as logic-fragment semantic changes, while any change to the bound callable AST invalidates the corresponding execution binding.
+For standalone ALU-02/04/05 checkers, exact checker SHA-256 is the implementation identity. Any checker change invalidates the old hash binding and requires revalidation/rebinding.
 
 ## Candidate objects admitted for bounded runtime projection
 
@@ -123,7 +139,8 @@ This narrows invalidation: unrelated changes elsewhere in the monolithic source 
    - `1E∞` is not admitted as a standard tensor dimension.
 
 6. **Topology/causality firewall**
-   - relation, adjacency, temporal order, prediction, and reachability do not by themselves establish causation.
+   - relation, adjacency, temporal order, prediction, reachability, and specialization preorder do not by themselves establish causation.
+   - finite topology validation binds open-set semantics exactly for finite carriers before any topology-derived relation is used.
 
 7. **Finite relation algebra**
    - URK-E1 finite relation/Boolean-adjacency encoding.
@@ -138,8 +155,10 @@ This narrows invalidation: unrelated changes elsewhere in the monolithic source 
    - ALU-01: `EXECUTABLE_BOUNDED` for the bound classical propositional subset.
    - ALU-02: `EXECUTABLE_BOUNDED_CANDIDATE_REBOUND` for finite first-order **term unification**, not full FOL proof search.
    - ALU-03: `EXECUTABLE_BOUNDED_CANDIDATE_REBOUND` for finite-trace Boolean temporal semantics over `ATOM/NOT/AND/OR/IMPLIES/X/F/G/U`; not infinite-trace model checking, CTL, or timed logic.
+   - ALU-04: `EXECUTABLE_BOUNDED_CANDIDATE_REBOUND` for finite Kripke propositional modal/epistemic semantics; not dynamic/common-knowledge/probabilistic/infinite-model closure.
+   - ALU-05: `EXECUTABLE_BOUNDED_CANDIDATE_REBOUND` for finite Dung argumentation; preferred-extension enumeration remains explicitly bounded.
    - ALU-07: `EXECUTABLE_BOUNDED_CANDIDATE_REBOUND` for the current classical finite-dimensional numerical reference checker over its explicitly enumerated operator surface; not quantum hardware, quantum advantage, or universal quantum-logic completion.
-   - ALU-04, ALU-05, ALU-06, and ALU-08 remain `SPECIFICATION_ONLY` until separately rebound.
+   - ALU-06 and ALU-08 remain `SPECIFICATION_ONLY` until separately rebound.
 
 10. **Promotion gate**
    - evidence eligibility and Canon authority remain separate.
@@ -160,6 +179,8 @@ Not admitted as universal runtime laws:
 - graph reachability implies logical entailment or causation;
 - term unification implies complete FOL theorem proving;
 - finite-trace temporal evaluation implies infinite-trace LTL model checking;
+- finite Kripke evaluation implies complete epistemic logic;
+- finite Dung evaluation implies all non-monotonic reasoning;
 - a classical finite-dimensional numerical checker implies quantum hardware execution or quantum advantage;
 - source or executable evidence implies Canon promotion.
 
@@ -169,9 +190,12 @@ Current repository runtime components include:
 
 - `core19_runtime.py`
 - `core19_tensor_topology.py`
+- `finite_topology_runtime.py`
 - `urk_relation_algebra.py`
 - `amos_ulk_alu02_unification_reference_checker_v1.py`
 - `amos_ulk_alu03_finite_trace_ltl_checker_v1.py`
+- `amos_ulk_alu04_finite_kripke_checker_v1.py`
+- `amos_ulk_alu05_dung_checker_v1.py`
 - `amos_ulk_alu07_reference_checker_current.py`
 - `ulk_fragment_execution_registry.py`
 - `internet_algorithm_registry.py`
@@ -180,16 +204,19 @@ Bounded verifiers include:
 
 - `test_core19_runtime.py`
 - `test_core19_tensor_topology.py`
+- `test_finite_topology_runtime.py`
 - `test_urk_math_alu02_algorithms.py`
 - `test_alu03_alu07_rebind.py`
+- `test_ulk_alu04_alu05.py`
 
 Observed current verification includes:
 
 - ALU-02 exact checker hash matches its source receipt; receipt cases plus 3,000 seeded symmetry/idempotence fuzz pairs pass.
 - ALU-03 named cases plus 2,000 seeded randomized formulas match an independent finite-trace evaluator.
-- ALU-07 all 20 bound operator surfaces pass positive tests; malformed/unsupported cases fail closed; 250 seeded random qubit-state trials preserve tested Born-probability, fidelity-self, trace-distance, and unitary-evolution invariants.
+- ALU-04 and ALU-05 exact checker hashes are bound to the current repaired implementations; malformed/unknown inputs fail closed in the tested scope.
+- ALU-07 all bound operator surfaces pass its current positive/negative numerical tests within the declared bounded scope.
 - URK-E1..E3 randomized finite-relation checks pass within their finite domain.
-- Combined current URK/ALU registry regression suite passes after updating stale pre-rebind expectations.
+- Current-main reconciliation locally reconstructed 38 focused functional tests across Core-19, six-axis tensor storage, finite topology, ALU-04, and ALU-05 with 38 PASS / 0 FAIL.
 
 The global AMOS math-audit harness still intentionally exposes its historical T2 probability-labeling counterexample. That finding remains visible and is not misattributed to the current URK/ALU projections.
 
@@ -198,7 +225,7 @@ The global AMOS math-audit harness still intentionally exposes its historical T2
 Revalidate when any of the following changes:
 
 - bound Drive source revision or raw hash;
-- ALU-02 checker hash or term ABI;
+- ALU-02/04/05 checker hash or executable ABI;
 - `unified_brain.py` current revision when ALU-03 or ALU-07 is bound to it;
 - ALU-03 or ALU-07 callable AST hash;
 - canonical ULK version/status;
@@ -215,6 +242,10 @@ Revalidate when any of the following changes:
 `ALU02_TERM_UNIFICATION -> EXECUTABLE_BOUNDED_CANDIDATE_REBOUND`
 
 `ALU03_FINITE_TRACE_LTL -> EXECUTABLE_BOUNDED_CANDIDATE_REBOUND`
+
+`ALU04_FINITE_KRIPKE -> EXECUTABLE_BOUNDED_CANDIDATE_REBOUND`
+
+`ALU05_FINITE_DUNG -> EXECUTABLE_BOUNDED_CANDIDATE_REBOUND`
 
 `ALU07_FINITE_DIMENSIONAL_REFERENCE -> EXECUTABLE_BOUNDED_CANDIDATE_REBOUND`
 
