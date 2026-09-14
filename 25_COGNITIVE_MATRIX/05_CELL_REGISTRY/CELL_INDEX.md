@@ -1,67 +1,69 @@
 ---
 canon-group: meta
 canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
+rscf-state: derived
+rscf-provenance: AMOS_corpus_plus_executable_repair
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: DERIVED
 topic: Cell Index
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
+updated: 2026-09-14
+origin_architect: Trang Phan
+canonical_status: CONDITIONAL
 ---
----
----
 
-# CELL_INDEX — Definition
+# CELL_INDEX — Typed Cognitive Matrix Registry Contract
 
-**Package:** `CELL_INDEX_`
-**Class:** `COGNITIVE_MATRIX_CONTRACT`
-**Epistemic class:** `DERIVED / MODEL EXTENSION`
-**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
-**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
+## Status
 
-## Scope
+`IMPLEMENTED_BOUNDED AT SHARED-CELL CONTRACT / REGISTRY PERSISTENCE STILL OPEN`
 
-Enumerates cell IDs, status classes, and ownership. Cell = (L-primitive, O-operation, HML-scale) triple.
+The earlier generated definition reduced a cell to `(L-primitive, O-operation, HML-scale)`. That is insufficient for the active typed runtime and can alias states that differ by context, time, observer, or regime.
 
-## Definition
+## Cell coordinate
 
-CELL_INDEX
+The shared executable cell contract uses
 
-This is a **contract-level definition**, not an implementation claim.
+`CellCoordinate = (primitive, field, context, time_id, scale, observer, regime)`.
 
-## Hard boundaries
+Each axis is explicit and non-empty. Axis identity is preserved; one axis cannot silently substitute for another.
+
+A registry entry must preserve at least:
+- `cell_id`;
+- full typed coordinate;
+- semantic owner;
+- optional runtime owner;
+- optional authority owner;
+- cell status;
+- provenance;
+- source version;
+- evidence references;
+- dependency IDs.
+
+## Ownership firewall
 
 ```text
-CONTRACT_FILLED != IMPLEMENTED
-DOCUMENTED != EXECUTABLE
-MODEL != VERIFIED
-UNKNOWN/GAP != PASS
+SEMANTIC_OWNER != RUNTIME_OWNER != AUTHORITY_OWNER
+RUNTIME_CAPABILITY != EFFECT_AUTHORITY
+CELL_VALID != EFFECT_COMMITTABLE
 ```
 
-______________________________________________________________________
+## State firewall
 
-[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+```text
+UNBOUND != ZERO
+STALE != FALSE
+COMPETING != RESOLVED
+QUARANTINED != DELETED
+VERIFIED_BOUNDED != CANONICAL
+```
 
-______________________________________________________________________
+## Coverage binding
 
-RSCF-NODE
-node_id: cell_index_registry_definition
-node_type: note
-path: 05_CELL_REGISTRY/CELL_INDEX\_/CELL_INDEX.md
-claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/05_CELL_REGISTRY/CELL_INDEX.md
+`CELL_INDEX` supplies addressable records to the coverage runtime. Merely registering a cell does not satisfy an implementation/validation/governance requirement. Coverage stage is evaluated separately.
 
-______________________________________________________________________
+## Remaining gap
 
-**MOC:** [[25_COGNITIVE_MATRIX/05_CELL_REGISTRY/05_CELL_REGISTRY_MOC|05_CELL_REGISTRY_MOC]]
+A repository-wide persistent cell registry with collision detection, durable version identity, and commit-time authority binding is not yet established by the shared in-memory reference runtime.
 
-______________________________________________________________________
-
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+[[25_COGNITIVE_MATRIX/06_CELL_CONTRACTS/06_CELL_CONTRACTS_MOC|06_CELL_CONTRACTS_MOC]] · [[25_COGNITIVE_MATRIX/07_COVERAGE/COVERAGE_MODEL|COVERAGE_MODEL]]

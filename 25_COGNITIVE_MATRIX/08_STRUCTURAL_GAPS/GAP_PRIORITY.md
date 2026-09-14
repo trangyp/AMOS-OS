@@ -1,67 +1,47 @@
 ---
 canon-group: meta
 canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
+rscf-state: derived
+rscf-provenance: AMOS_corpus_plus_executable_repair
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: DERIVED
 topic: Gap Priority
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
+updated: 2026-09-14
+origin_architect: Trang Phan
+canonical_status: CONDITIONAL
 ---
----
----
 
-# GAP_PRIORITY — Definition
+# GAP_PRIORITY — Deterministic Structural Triage
 
-**Package:** `GAP_PRIORITY_`
-**Class:** `COGNITIVE_MATRIX_CONTRACT`
-**Epistemic class:** `DERIVED / MODEL EXTENSION`
-**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
-**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
+## Status
 
-## Scope
+`IMPLEMENTED_BOUNDED / LOCALLY_VALIDATED`
 
-Covers the operation contract for this lifecycle operator.
+The coverage runtime intentionally avoids an opaque weighted scalar score. Gaps are ordered lexicographically by:
+1. criticality;
+2. downstream dependency fan-out;
+3. blocker class;
+4. stable requirement ID tie-break.
 
-## Definition
+Criticality order:
 
-GAP_PRIORITY
+`CRITICAL > DECISION_RELEVANT > EXPLANATORY > COSMETIC`.
 
-This is a **contract-level definition**, not an implementation claim.
+For dependency-closure matrix `C`, downstream fan-out of requirement `r_j` is
 
-## Hard boundaries
+`fanout(r_j) = sum_{i != j} C[i,j]`.
+
+This counts how many declared requirements transitively depend on `r_j`. It is a topology measure only; it is **not** causal impact, business value, harm magnitude, urgency, or empirical repair benefit.
+
+## Repair-governor boundary
+
+Structural triage selects high-leverage candidates for investigation. A consequential repair decision still requires H/M/L target analysis, causal uncertainty, reversibility, repair externalities, authority, and rollback checks.
 
 ```text
-CONTRACT_FILLED != IMPLEMENTED
-DOCUMENTED != EXECUTABLE
-MODEL != VERIFIED
-UNKNOWN/GAP != PASS
+HIGH_FANOUT != ROOT_CAUSE
+HIGH_PRIORITY != AUTHORITY_TO_REPAIR
+STRUCTURAL_ORDER != EMPIRICAL_UTILITY_SCORE
 ```
 
-______________________________________________________________________
-
-[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-RSCF-NODE
-node_id: gap_priority_gaps_definition
-node_type: note
-path: 08_STRUCTURAL_GAPS/GAP_PRIORITY\_/GAP_PRIORITY.md
-claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/GAP_PRIORITY.md
-
-______________________________________________________________________
-
-**MOC:** [[25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/08_STRUCTURAL_GAPS_MOC|08_STRUCTURAL_GAPS_MOC]]
-
-______________________________________________________________________
-
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+[[25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/GAP_REGISTRY|GAP_REGISTRY]]

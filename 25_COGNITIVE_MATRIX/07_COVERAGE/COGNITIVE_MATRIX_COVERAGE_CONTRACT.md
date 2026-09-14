@@ -1,109 +1,110 @@
 ---
 canon-group: meta
 canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
+rscf-state: derived
+rscf-provenance: AMOS_corpus_plus_executable_repair
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: DERIVED
 topic: Cognitive Matrix Coverage Contract
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
----
----
+updated: 2026-09-14
+origin_architect: Trang Phan
+canonical_status: CONDITIONAL
 ---
 
 # COGNITIVE MATRIX COVERAGE CONTRACT
 
 ## 0. Status
 
-Cognitive Matrix-plane contract for **COVERAGE CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+`AMOS_MODEL / IMPLEMENTED_BOUNDED / LOCALLY_VALIDATED / CANON_PROMOTION_NOT_GRANTED`
 
 ## 1. Scope
 
-Governs primitives L00–L29, lifecycle operations O00–O16, control planes C01–C09, scales, cell registry, routing, validation, generators as they bear on `COVERAGE CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
+Governs scoped structural completeness across Cognitive Matrix requirements. It distinguishes contract presence, bounded implementation, validation, governance, unresolved states, and dependency closure.
 
-## 2. Contract terms
+This contract does **not** infer truth from file presence, implementation from documentation, authority from capability, or causation from dependency topology.
 
-- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
-- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
-- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
-- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
-- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
+## 2. Executable owner
 
-## 3. Invariants
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/cognitive_matrix_coverage_runtime.py`
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/test_cognitive_matrix_coverage_runtime.py`
 
-- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
-- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
-- Consequential effects emit receipts; rollback basin exists before mutation.
-- Competing hypotheses remain visible when evidence does not discriminate.
+## 3. Typed state
 
-## 4. Executed reference
+Completion states:
 
-No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
+```text
+COMPLETE_FOR_SCOPE
+CONDITIONAL
+INCOMPLETE
+CONTRADICTORY
+UNKNOWN/GAP
+```
 
-## 5. Gaps
+Active coverage stages:
 
-Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
+```text
+CONTRACT_ONLY
+IMPLEMENTED_BOUNDED
+VALIDATED_BOUNDED
+GOVERNED_BOUNDED
+```
 
-## 6. Falsifiers
+Exception states:
 
-F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
+```text
+UNBOUND
+STALE
+COMPETING
+FALSIFIED
+QUARANTINED
+```
 
-## Worked semantics
+## 4. Dependency topology
 
-Given an operation touching `COGNITIVE MATRIX · COVERAGE CONTRACT` within the Cognitive Matrix plane:
+For requirements `(r_1,...,r_n)`, adjacency `A[i,j]=1` iff `r_i` directly depends on `r_j`. Boolean transitive closure records dependency reachability. A dependency edge is not a causal edge.
 
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+Cycles and undeclared dependencies remain visible as `UNKNOWN/GAP`; the runtime does not invent fixed-point semantics.
 
-## Promotion-gate checklist
+## 5. Hard invariants
 
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+- requirement IDs are unique inside a scope;
+- dependency closure must be explicitly declared;
+- exactly one resolved record is required per requirement;
+- `UNKNOWN/GAP != PASS`;
+- `UNBOUND != ZERO`;
+- `STALE != FALSE`;
+- duplicate records are not independent evidence;
+- exception states are not silently ranked into the active promotion chain;
+- implementation/validation/governance receipts are cumulative;
+- file-count percentages never override a failed critical requirement;
+- runtime capability does not grant durable-effect authority;
+- local tests do not grant canon authority.
 
-## Cross-plane bindings
+## 6. Verification
 
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+2026-09-14 local bounded evidence:
+- 19 pytest cases passed / 0 failed;
+- 5,000 seeded random dependency graphs matched independent DFS reachability / 0 observed mismatches;
+- 128 promotion-state combinations checked / 0 observed invalid admissions.
 
-______________________________________________________________________
+No GitHub Actions receipt is attached to this change.
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+## 7. Remaining gaps
 
-______________________________________________________________________
+- repository-wide inventory materialization into the runtime is not yet complete;
+- persistent registry identity/version storage is not yet bound here;
+- CI evidence is not yet attached;
+- production receipt identity/freshness/authority semantics remain owned by the control plane;
+- Canon promotion remains governed separately.
 
-**Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
+## 8. Falsifiers
 
-______________________________________________________________________
+This contract must be revised or rejected if:
+1. a canonical source defines incompatible semantics;
+2. an executable counterexample violates a declared invariant;
+3. the runtime silently converts UNKNOWN/COMPETING/STALE into PASS;
+4. coverage promotion can occur without the declared cumulative receipts;
+5. dependency topology is used as causal proof.
 
-RSCF-NODE
-node_id: cm_25_cognitive_matrix_07_coverage_cognitive_matrix_coverage_contract
-node_type: note
-path: 25_COGNITIVE_MATRIX/07_COVERAGE/COGNITIVE_MATRIX_COVERAGE_CONTRACT.md
-claim_class: AMOS_MODEL
-
-______________________________________________________________________
-
-**MOC:** [[25_COGNITIVE_MATRIX/07_COVERAGE/07_COVERAGE_MOC|07_COVERAGE_MOC]]
-
-______________________________________________________________________
-
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+[[25_COGNITIVE_MATRIX/07_COVERAGE/COVERAGE_MODEL|COVERAGE_MODEL]] · [[25_COGNITIVE_MATRIX/07_COVERAGE/COVERAGE_AUDIT|COVERAGE_AUDIT]] · [[25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/GAP_REGISTRY|GAP_REGISTRY]]

@@ -1,67 +1,68 @@
 ---
 canon-group: meta
 canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
+rscf-state: derived
+rscf-provenance: AMOS_corpus_plus_executable_repair
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: DERIVED
 topic: Gap Registry
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
+updated: 2026-09-14
+origin_architect: Trang Phan
+canonical_status: CONDITIONAL
 ---
----
----
 
-# GAP_REGISTRY — Definition
+# GAP_REGISTRY — Executable Structural Gap Schema
 
-**Package:** `GAP_REGISTRY_`
-**Class:** `COGNITIVE_MATRIX_CONTRACT`
-**Epistemic class:** `DERIVED / MODEL EXTENSION`
-**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
-**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
+## Status
 
-## Scope
+`IMPLEMENTED_BOUNDED / LOCALLY_VALIDATED`
 
-Covers the operation contract for this lifecycle operator.
+Gap records are emitted by `cognitive_matrix_coverage_runtime.py` from declared scope requirements and observed coverage records.
 
-## Definition
+## Gap object
 
-REGISTRY
+Each gap preserves:
+- requirement ID;
+- reason;
+- criticality;
+- required stage;
+- current stage when known;
+- downstream dependency fan-out;
+- diagnostic detail.
 
-This is a **contract-level definition**, not an implementation claim.
-
-## Hard boundaries
+Current reasons:
 
 ```text
-CONTRACT_FILLED != IMPLEMENTED
-DOCUMENTED != EXECUTABLE
-MODEL != VERIFIED
-UNKNOWN/GAP != PASS
+MISSING
+BELOW_REQUIRED_STAGE
+DEPENDENCY_GAP
+UNDECLARED_DEPENDENCY
+INVALID_RECORD
+DUPLICATE_RECORD
+CYCLE
+STALE
+COMPETING
+FALSIFIED
+QUARANTINED
+UNBOUND
 ```
 
-______________________________________________________________________
+## Semantics
 
-[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+- `MISSING`: no record exists for a declared requirement.
+- `BELOW_REQUIRED_STAGE`: record is valid but the active stage is insufficient.
+- `DEPENDENCY_GAP`: the requirement's own gate passes but a declared prerequisite does not.
+- `UNDECLARED_DEPENDENCY`: the declared scope is not dependency-closed.
+- `INVALID_RECORD`: provenance/version/receipt structure is malformed.
+- `DUPLICATE_RECORD`: multiple unresolved records bind the same requirement; duplicates are not treated as independent evidence.
+- `CYCLE`: dependency closure contains a directed cycle and no explicit fixed-point/bootstrapping semantics are declared.
+- exception states retain their literal semantics; they are not collapsed into false/zero.
 
-______________________________________________________________________
+## Boundary
 
-RSCF-NODE
-node_id: gap_registry_gaps_definition
-node_type: note
-path: 08_STRUCTURAL_GAPS/GAP_REGISTRY\_/GAP_REGISTRY.md
-claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/GAP_REGISTRY.md
+`GAP_REGISTERED != GAP_CLOSED`.
 
-______________________________________________________________________
+The registry is structural. It does not prove the causal root of a failure and does not replace the higher-order AMOS Repair Priority Governor for consequential repair allocation.
 
-**MOC:** [[25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/08_STRUCTURAL_GAPS_MOC|08_STRUCTURAL_GAPS_MOC]]
-
-______________________________________________________________________
-
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+[[25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/GAP_PRIORITY|GAP_PRIORITY]] · [[25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/GAP_PROMOTION|GAP_PROMOTION]]

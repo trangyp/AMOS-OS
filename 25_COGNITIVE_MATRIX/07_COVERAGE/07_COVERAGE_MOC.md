@@ -1,41 +1,33 @@
 ---
 canon-group: meta
 canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
+rscf-state: derived
+rscf-provenance: AMOS_corpus_plus_executable_repair
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
-topic: 07 Coverage Moc
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
+epistemic_class: DERIVED
+topic: 07 Coverage MOC
 created: 2026-08-22
----
----
+updated: 2026-09-14
+origin_architect: Trang Phan
 ---
 
 # 07 Coverage — Map of Content
 
 **Path:** `25_COGNITIVE_MATRIX/07_COVERAGE`
-**Files:** 6 | **Subdirectories:** 1
 
-## Files
+## Active owners
 
-- [[25_COGNITIVE_MATRIX/07_COVERAGE/2026-08-26_CONTRACT_FILL_PASS|2026-08-26_CONTRACT_FILL_PASS]]
-- [[25_COGNITIVE_MATRIX/07_COVERAGE/COGNITIVE_MATRIX_COVERAGE_CONTRACT|COGNITIVE_MATRIX_COVERAGE_CONTRACT]]
-- [[25_COGNITIVE_MATRIX/07_COVERAGE/COVERAGE_AUDIT|COVERAGE_AUDIT]]
-- [[25_COGNITIVE_MATRIX/07_COVERAGE/COVERAGE_COGNITIVE_MATRIX_README|COVERAGE_COGNITIVE_MATRIX_README]]
-- [[25_COGNITIVE_MATRIX/07_COVERAGE/COVERAGE_MODEL|COVERAGE_MODEL]]
-- [[25_COGNITIVE_MATRIX/07_COVERAGE/COVERAGE_THRESHOLDS|COVERAGE_THRESHOLDS]]
+- [[25_COGNITIVE_MATRIX/07_COVERAGE/COGNITIVE_MATRIX_COVERAGE_CONTRACT|COGNITIVE_MATRIX_COVERAGE_CONTRACT]] — governing bounded contract.
+- [[25_COGNITIVE_MATRIX/07_COVERAGE/COVERAGE_MODEL|COVERAGE_MODEL]] — typed scope, stage, dependency-matrix, and completion semantics.
+- [[25_COGNITIVE_MATRIX/07_COVERAGE/COVERAGE_AUDIT|COVERAGE_AUDIT]] — executable audit procedure and evidence gates.
+- [[25_COGNITIVE_MATRIX/07_COVERAGE/COVERAGE_THRESHOLDS|COVERAGE_THRESHOLDS]] — per-requirement stage thresholds.
+- [[25_COGNITIVE_MATRIX/07_COVERAGE/COVERAGE_COGNITIVE_MATRIX_README|COVERAGE_COGNITIVE_MATRIX_README]] — package overview.
 
-## Subdirectories
+## Executable binding
 
-- [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/cognitive_matrix_coverage_runtime.py`
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/test_cognitive_matrix_coverage_runtime.py`
 
-______________________________________________________________________
+The historical contract-fill pass remains provenance, not current implementation authority.
 
 **Parent:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]

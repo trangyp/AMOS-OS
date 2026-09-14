@@ -1,67 +1,49 @@
 ---
 canon-group: meta
 canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
+rscf-state: derived
+rscf-provenance: AMOS_corpus_plus_executable_repair
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: DERIVED
 topic: Gap Promotion
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
+updated: 2026-09-14
+origin_architect: Trang Phan
+canonical_status: CONDITIONAL
 ---
----
----
 
-# GAP_PROMOTION — Definition
+# GAP_PROMOTION — Receipt-Gated Coverage Promotion
 
-**Package:** `GAP_PROMOTION_`
-**Class:** `COGNITIVE_MATRIX_CONTRACT`
-**Epistemic class:** `DERIVED / MODEL EXTENSION`
-**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
-**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
+## Status
 
-## Scope
+`IMPLEMENTED_BOUNDED / LOCALLY_VALIDATED`
 
-Covers the operation contract for this lifecycle operator.
+Promotion operates only on the active structural stage chain:
 
-## Definition
+`CONTRACT_ONLY -> IMPLEMENTED_BOUNDED -> VALIDATED_BOUNDED -> GOVERNED_BOUNDED`.
 
-PROMOTION
+## Gates
 
-This is a **contract-level definition**, not an implementation claim.
+A candidate stage must satisfy its cumulative receipts:
+- `IMPLEMENTED_BOUNDED`: implementation receipt;
+- `VALIDATED_BOUNDED`: implementation + validation receipts;
+- `GOVERNED_BOUNDED`: implementation + validation + governance receipts.
 
-## Hard boundaries
+Promotion may not decrease stage.
+
+## Exception-state firewall
+
+`STALE`, `COMPETING`, `FALSIFIED`, and `QUARANTINED` are not erased by calling promotion. Recovery requires a newly evidenced record through the appropriate repair/governance path.
 
 ```text
-CONTRACT_FILLED != IMPLEMENTED
-DOCUMENTED != EXECUTABLE
-MODEL != VERIFIED
-UNKNOWN/GAP != PASS
+STALE + NEW_TIMESTAMP != VALIDATED
+COMPETING + PREFERRED_SOURCE != RESOLVED
+FALSIFIED + RETRY != TRUE
+QUARANTINED + LOCAL_PASS != ADMITTED
 ```
 
-______________________________________________________________________
+## Authority boundary
 
-[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+The reference promotion function validates structural receipts only. It does not grant canon authority or durable-effect authority. Production promotion must bind exact receipt identity, freshness, provenance, policy/authority epoch, and commit-time control-plane gates.
 
-______________________________________________________________________
-
-RSCF-NODE
-node_id: gap_promotion_gaps_definition
-node_type: note
-path: 08_STRUCTURAL_GAPS/GAP_PROMOTION\_/GAP_PROMOTION.md
-claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/GAP_PROMOTION.md
-
-______________________________________________________________________
-
-**MOC:** [[25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/08_STRUCTURAL_GAPS_MOC|08_STRUCTURAL_GAPS_MOC]]
-
-______________________________________________________________________
-
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+[[25_COGNITIVE_MATRIX/07_COVERAGE/COVERAGE_THRESHOLDS|COVERAGE_THRESHOLDS]] · [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE]]

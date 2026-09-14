@@ -1,67 +1,62 @@
 ---
 canon-group: meta
 canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
+rscf-state: derived
+rscf-provenance: AMOS_corpus_plus_executable_repair
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: DERIVED
 topic: Coverage Thresholds
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
+updated: 2026-09-14
+origin_architect: Trang Phan
+canonical_status: CONDITIONAL
 ---
----
----
 
-# COVERAGE_THRESHOLDS — Definition
+# COVERAGE_THRESHOLDS — Requirement-Level Gates
 
-**Package:** `COVERAGE_THRESHOLDS_`
-**Class:** `COGNITIVE_MATRIX_CONTRACT`
-**Epistemic class:** `DERIVED / MODEL EXTENSION`
-**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
-**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
+## Status
 
-## Scope
+`IMPLEMENTED_BOUNDED / LOCALLY_VALIDATED`
 
-Covers the operation contract for this lifecycle operator.
+AMOS does not use a global file-count percentage as a completion threshold. Every declared requirement carries its own minimum active stage.
 
-## Definition
+## Active stage ordering
 
-THRESHOLDS
+For the active chain only:
 
-This is a **contract-level definition**, not an implementation claim.
+`CONTRACT_ONLY < IMPLEMENTED_BOUNDED < VALIDATED_BOUNDED < GOVERNED_BOUNDED`.
 
-## Hard boundaries
+Equivalent rank function:
+
+`rho : S_active -> {1,2,3,4}`
+
+with the order above.
+
+A record can satisfy requirement `r` only when
+
+`rho(current(r)) >= rho(required(r))`
+
+and its receipt/provenance gates pass.
+
+## Exception states
+
+`UNBOUND`, `STALE`, `COMPETING`, `FALSIFIED`, and `QUARANTINED` are not assigned promotion ranks. Treating any of them as numeric zero or as an automatically lower active stage is forbidden.
+
+## Completion threshold
+
+`COMPLETE_FOR_SCOPE` requires every declared requirement and its transitive dependency closure to satisfy its own threshold. No average may compensate for one failed critical requirement.
 
 ```text
-CONTRACT_FILLED != IMPLEMENTED
-DOCUMENTED != EXECUTABLE
-MODEL != VERIFIED
-UNKNOWN/GAP != PASS
+99% FILE PRESENCE + 1 MISSING CRITICAL AUTHORITY GATE
+!= COMPLETE_FOR_SCOPE
 ```
 
-______________________________________________________________________
+## Promotion receipts
 
-[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+- implementation threshold -> implementation receipt;
+- validation threshold -> implementation + validation receipts;
+- governance threshold -> implementation + validation + governance receipts.
 
-______________________________________________________________________
+The receipt booleans in the reference runtime are bounded structural witnesses only. Production authority must bind stronger receipt identity, freshness, provenance, and control-plane semantics.
 
-RSCF-NODE
-node_id: coverage_thresholds_coverage_definition
-node_type: note
-path: 07_COVERAGE/COVERAGE_THRESHOLDS\_/COVERAGE_THRESHOLDS.md
-claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/07_COVERAGE/COVERAGE_THRESHOLDS.md
-
-______________________________________________________________________
-
-**MOC:** [[25_COGNITIVE_MATRIX/07_COVERAGE/07_COVERAGE_MOC|07_COVERAGE_MOC]]
-
-______________________________________________________________________
-
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+[[25_COGNITIVE_MATRIX/07_COVERAGE/COVERAGE_MODEL|COVERAGE_MODEL]]

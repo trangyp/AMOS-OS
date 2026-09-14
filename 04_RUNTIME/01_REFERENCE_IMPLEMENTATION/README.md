@@ -19,13 +19,14 @@ Origin architect / steward: **Trang Phan**
 
 ## Status
 
-The reference plane now contains bounded executable repairs for:
+The reference plane contains bounded executable repairs for:
 
 1. URK/Core-19 typed state and rewrite semantics;
 2. bounded classical satisfiability;
 3. L09 inference routing and entailment;
 4. L10 world-model / reality-contact separation;
-5. shared Cognitive Matrix cell state/evidence/binding validation.
+5. shared Cognitive Matrix cell state/evidence/binding validation;
+6. Cognitive Matrix scoped coverage, dependency topology, structural gap accounting, and receipt-gated promotion.
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -35,150 +36,120 @@ MODEL != OBSERVATION
 CANON_CANDIDATE != CANONICAL
 CAPABILITY != AUTHORITY
 UNKNOWN/GAP != PASS
+DEPENDENCY != CAUSATION
 ```
 
-These modules are reference implementations. They do not establish system-wide AMOS executable closure.
+These modules are bounded reference implementations. They do not establish system-wide AMOS executable closure.
 
 ## Runtime components
 
 ### URK / Core-19
-
 - `core19_runtime.py`
 - `test_core19_runtime.py`
 
 Implements the 19-coordinate registry, P02 competing-lineage binding, four-valued evidence state, typed matrix/tensor/topology coordinates, fragment implementation status, promotion evidence gates, and repaired `NLOGIC` normalization order.
 
 ### Classical satisfiability firewall
-
 - `classical_sat_firewall.py`
 - `test_classical_sat_firewall.py`
 
 Implements exact truth-table satisfiability for the declared bounded Boolean grammar and separates pairwise compatibility from global consistency.
 
 ### L09 inference
-
 - `inference_runtime.py`
 - `test_inference_runtime.py`
 
 Implements fail-closed fragment routing, P02 binding, causal-claim separation, global premise consistency, bounded entailment, provenance/dependency carry, confidence ceiling/unknown, and atom-bound handling.
 
 ### L10 world modeling
-
 - `world_model_runtime.py`
 - `test_world_model_runtime.py`
 
 Implements representation classes, fidelity envelopes, reality-contact gating, commensurability, exact absolute discrepancy, tolerance classification, conservative provenance/generator ancestry, and tensor-coordinate validation.
 
 ### Cognitive Matrix cell contract
-
 - `cognitive_matrix_cell_runtime.py`
 - `test_cognitive_matrix_cell_runtime.py`
 
 Implements typed cell axes, epistemic/runtime statuses, evidence roots/freshness/receipts, semantic/runtime/authority owner separation, `UNBOUND != zero`, and safe transform gates.
 
+### Cognitive Matrix coverage and structural gaps
+- `cognitive_matrix_coverage_runtime.py`
+- `test_cognitive_matrix_coverage_runtime.py`
+
+Implements declared scopes/requirements, active-stage and exception-state separation, directed dependency adjacency and Boolean transitive closure, cycle/undeclared-dependency detection, record receipt validation, dependency-aware completion, typed structural gaps, deterministic triage, and receipt-gated promotion.
+
+## Source/canon owner separation
+
+The 2026-09-14 `_00_AMOS_CANON` repair material remains candidate source input, not automatic canon authority.
+
+```text
+URK -> mathematical/meta-structural substrate
+       equations, invariants, tensors, matrices, topology, state spaces, transforms
+ULK -> formal-logic fragment routing, inference/proof semantics, proof-status binding
+Core-19 -> typed semantic coordinate vocabulary, not a total algebra by coordinate existence
+```
+
+`URK_MATH != ULK_LOGIC`; mathematical validity, logical validity, empirical truth, and authority remain distinct.
+
 ## Core semantic repairs
 
 ### P02
-
-Cross-lineage P02 remains `COMPETING`:
-
-```text
-historical lineage -> NonExistence
-recovered living-map lineage -> Distinction
-```
-
-A namespace/version-local binding may choose one meaning locally. No global winner is inferred.
+Cross-lineage P02 remains `COMPETING`: historical `NonExistence` versus recovered `Distinction`. Namespace/version-local binding may select a local meaning; no global winner is inferred.
 
 ### Core-19 matrix
-
-```text
-19 x 19 = 361 coordinates
-```
-
-This is finite counting, not evidence for 361 semantic laws.
-
-### Tensor state
-
-Typed axes are explicit. Current repair surfaces use combinations of:
-
-```text
-primitive
-field
-row/column
-scale
-context
-time
-observer
-regime
-provenance
-validation status
-consequence
-```
-
-Axis order or cardinality is not empirical completeness.
+`19 x 19 = 361` coordinates. This is finite counting, not evidence for 361 semantic laws.
 
 ### Logic routing
-
 - Classical propositional: `EXECUTABLE_BOUNDED`.
 - Quantum logic: `CANONICAL_BOUNDED_CLAIM_REBIND_PENDING`.
 - FOL/unification, temporal/LTL, epistemic/modal, non-monotonic/Dung, dependent type, categorical/topos: `SPECIFICATION_ONLY` in this repair surface.
 
 ### Representation/reality boundary
+`OBSERVED_REALITY`, `MEASURED_PROXY`, `MODEL_STATE`, `SIMULATION`, `COUNTERFACTUAL`, `SYNTHETIC_DATA`, `DIGITAL_TWIN`, `FORECAST`, and `DEPLOYED_OUTCOME` remain distinct. Model consistency never silently upgrades a model into an observation.
 
-```text
-OBSERVED_REALITY
-MEASURED_PROXY
-MODEL_STATE
-SIMULATION
-COUNTERFACTUAL
-SYNTHETIC_DATA
-DIGITAL_TWIN
-FORECAST
-DEPLOYED_OUTCOME
-```
+### Coverage/completion boundary
+For ordered requirements `(r_1,...,r_n)`, `A[i,j]=1` iff `r_i` directly depends on `r_j`. Boolean transitive closure records dependency reachability only; it is not a causal matrix.
 
-These are separate representation classes. Model consistency never silently upgrades a model into an observation.
+Active chain:
+`CONTRACT_ONLY < IMPLEMENTED_BOUNDED < VALIDATED_BOUNDED < GOVERNED_BOUNDED`.
+
+Exception states remain outside the chain:
+`UNBOUND | STALE | COMPETING | FALSIFIED | QUARANTINED`.
+
+Completion is requirement- and dependency-gated, not percentage-gated.
 
 ## Verification evidence
 
-Local reconstruction on 2026-09-14:
+Local reconstructed evidence on 2026-09-14:
+- Core-19: **13 PASS / 0 FAIL**.
+- Classical SAT: **2 PASS / 0 FAIL**.
+- L09 inference: **10 PASS / 0 FAIL**.
+- L10 world model: **10 PASS / 0 FAIL**.
+- Cognitive Matrix shared cell: **12 PASS / 0 FAIL**.
+- New coverage/gap suite: **19 PASS / 0 FAIL**.
+- Prior bounded suites subtotal: **47 PASS / 0 FAIL**.
+- Cumulative local suite receipts represented here: **66 PASS / 0 FAIL**; this is a sum of local receipts, not one CI run.
+- Seeded unary rewrite stress: **50,000 trees / 0 observed failures** for the tested rewrite properties.
+- Coverage topology differential stress: **5,000 seeded graphs / 0 observed closure mismatches** against independent DFS reachability.
+- Coverage promotion state-space check: **128 combinations / 0 observed invalid admissions**.
 
-- Core-19 suite: **13 PASS / 0 FAIL**.
-- Classical SAT suite: **2 PASS / 0 FAIL**.
-- L09 inference suite: **10 PASS / 0 FAIL**.
-- L10 world-model suite: **10 PASS / 0 FAIL**.
-- Cognitive Matrix shared-cell suite: **12 PASS / 0 FAIL**.
-- Combined bounded suites: **47 PASS / 0 FAIL**.
-- Seeded unary rewrite stress: **50,000 trees / 0 observed idempotence or double-NLOGIC involution failures**.
-- Mathematical checks: `19 x 19 = 361`; four-state negation involution; information-join least-upper-bound behavior; pairwise/global SAT counterexample; bounded entailment countermodel criterion.
-
-No GitHub Actions run is attached to these staged changes. These are local reconstructed branch-artifact receipts, not CI receipts.
+No GitHub Actions run is attached to these staged changes.
 
 ```text
-47 LOCAL PASS
-!= UNIVERSAL AMOS CORRECTNESS
-!= ALL-FRAGMENT LOGIC PROOF
-!= DEPLOYMENT VALIDATION
-!= CANON PROMOTION
+LOCAL PASS != UNIVERSAL AMOS CORRECTNESS
+LOCAL PASS != ALL-FRAGMENT LOGIC PROOF
+LOCAL PASS != DEPLOYMENT VALIDATION
+LOCAL PASS != CANON PROMOTION
 ```
 
 ## Source / canon boundary
-
-The 2026-09-14 `_00_AMOS_CANON` revisions of `Reasoning kernel.txt` and `LOGIC.txt` are treated as candidate source inputs.
-
-Active coordinates remain:
-
 - AMOS_CORE governed baseline: `v4.4`.
 - Canonical ULK artifact: `v2.1.0`.
 - 2026-09-14 repair material: `ACTIVE_REPAIR_SPEC / AMOS_MODEL` until admitted through canon governance.
 
-Newer timestamp or filename does not create canon authority.
-
 ## Effect-authority boundary
-
-The Cognitive Matrix and reasoning runtimes can validate state and produce proposals. They do not authorize durable effects.
-
-Durable/external effects remain subordinate to the AMOS infrastructure/control plane for current intent/policy, observed read sets, semantic transaction lineage, fresh authority, idempotency, release state, receipts/reconciliation, and rollback/finality.
+Reasoning/Cognitive Matrix runtimes can validate state and produce proposals. They do not authorize durable effects. Durable/external effects remain subordinate to the AMOS infrastructure/control plane.
 
 ```text
 COMPUTE != AUTHORIZE
@@ -187,7 +158,6 @@ COMMITTABLE != COMMITTED
 ```
 
 ## Remaining high-value gaps
-
 - executable FOL/unification;
 - temporal/LTL model checking;
 - epistemic/modal engine;
@@ -199,7 +169,8 @@ COMMITTABLE != COMMITTED
 - cross-scale world-model transforms with information-loss contracts;
 - probabilistic world-state estimation and calibration;
 - sensor fusion / digital-twin synchronization;
-- Cognitive Matrix coverage and gap registries still largely generated-contract level;
+- repository-wide authoritative requirement extraction into the new coverage engine;
+- persistent Cognitive Matrix registry identity/version storage;
 - system-wide CI-bound executable closure.
 
 ## Canon ingestion rule
@@ -216,25 +187,20 @@ candidate_source:
     - executable_or_formal_evidence_when_claimed
     - canon_authority_for_promotion
 uncertainty:
-  preserve:
-    - UNKNOWN_GAP
-    - COMPETING
-    - STALE
-    - QUARANTINED
+  preserve: [UNKNOWN_GAP, COMPETING, STALE, QUARANTINED]
 ```
 
 ## Cross-references
-
 - [[02_KERNEL/02_KERNEL_MOC|02_KERNEL]]
 - [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE]]
 - [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]]
 - [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L09_INFERENCE/L09_INFERENCE_MOC|L09_INFERENCE]]
 - [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L10_WORLD_MODELING/L10_WORLD_MODELING_MOC|L10_WORLD_MODELING]]
 - [[25_COGNITIVE_MATRIX/06_CELL_CONTRACTS/06_CELL_CONTRACTS_MOC|CELL_CONTRACTS]]
-- [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- [[25_COGNITIVE_MATRIX/07_COVERAGE/07_COVERAGE_MOC|COVERAGE]]
+- [[25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/08_STRUCTURAL_GAPS_MOC|STRUCTURAL_GAPS]]
 
 RSCF-NODE
-
 node_id: amos_04_runtime_reference_core19_repair
 node_type: RUNTIME_REFERENCE
 path: 04_RUNTIME/01_REFERENCE_IMPLEMENTATION/README.md

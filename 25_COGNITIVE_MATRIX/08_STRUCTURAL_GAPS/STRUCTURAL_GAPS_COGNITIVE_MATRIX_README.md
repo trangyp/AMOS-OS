@@ -1,97 +1,48 @@
 ---
 canon-group: meta
 canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
+rscf-state: derived
+rscf-provenance: AMOS_corpus_plus_executable_repair
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: DERIVED
 topic: Structural Gaps Cognitive Matrix Readme
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
+updated: 2026-09-14
+origin_architect: Trang Phan
+canonical_status: CONDITIONAL
 ---
----
----
 
-# 08_STRUCTURAL_GAPS — Structural Gap Registry Contract Overview
+# 08_STRUCTURAL_GAPS — Executable Gap Registry and Triage
 
-**Package:** `08_STRUCTURAL_GAPS`
-**Class:** `COGNITIVE_MATRIX_INFRASTRUCTURE_CONTRACT`
-**Epistemic class:** `DERIVED / MODEL EXTENSION`
-**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
-**Filled by:** governed generator `12_GENERATORS/fill_infra_readmes.py` · **Date:** `2026-08-26`
+## Purpose
 
-## Scope
+Keep missing, insufficient, stale, competing, falsified, quarantined, cyclic, duplicate, and dependency-incomplete surfaces explicit until resolved by evidence.
 
-The Gap Registry records every declared-but-unfilled or filled-but-unvalidated Matrix surface with priority and promotion path. Gaps stay visible by design: UNKNOWN/GAP must remain distinguishable from PASS at every layer.
+## Runtime binding
 
-## Hard boundaries
+`cognitive_matrix_coverage_runtime.py` emits typed `Gap` objects and deterministic priority ordering from declared scope and coverage records.
+
+## Current guarantees in the bounded reference implementation
+
+- no missing requirement is converted to PASS;
+- no exception state is silently converted into an active promotion stage;
+- duplicate records do not become independent confirmation;
+- undeclared dependencies and cycles are surfaced;
+- dependent requirements fail when a prerequisite fails;
+- promotion requires cumulative structural receipts;
+- structural priority is explicit and reproducible.
+
+## Non-claims
 
 ```text
-GAP_REGISTERED != GAP_CLOSED
-GAP_PRIORITY ordering is DERIVED judgment, not measured fact
-Closing a documentation gap does not close its implementation/validation siblings
+GAP_PRIORITY != ROOT_CAUSE
+STRUCTURAL_FANOUT != CONSEQUENCE_MAGNITUDE
+PROMOTABLE_RECORD != AUTHORIZED_EFFECT
+LOCAL_TEST_PASS != DEPLOYMENT_VALIDATION
 ```
 
-## Dependency position
+## Next use
 
-- 07 coverage supplies gap candidates
-- 11 promotion gates govern gap closure claims
+Use the coverage/gap engine to scan the remaining generated Cognitive Matrix shells and select the highest decision-relevant upstream gaps for implementation, while preserving H/M/L externalities and control-plane authority.
 
-## RSCF completion state
-
-```yaml
-claim_class: DERIVED
-evidence: []            # no measured evidence at this layer
-provenance:
-  - AMOS canon corpus reconstruction
-scope: cognitive_matrix_infrastructure_package_contract
-regime: architecture-contract
-freshness: 2026-08-26
-dependencies: []
-competing: []
-falsifiers: []
-confidence_ceiling: 0.6   # contract-only status: no implementation, no validation
-```
-
-## Gap matrix
-
-| Surface                   | Status             |
-| ------------------------- | ------------------ |
-| Definition/contract       | FILLED (this pass) |
-| Executable implementation | UNKNOWN/GAP        |
-| Validation evidence       | UNKNOWN/GAP        |
-| Authority binding         | UNKNOWN/GAP        |
-| Runtime integration       | UNKNOWN/GAP        |
-
-```text
-CONTRACT_FILLED != IMPLEMENTED
-DOCUMENTED != EXECUTABLE
-MODEL != VERIFIED
-UNKNOWN/GAP != PASS
-```
-
-______________________________________________________________________
-
-[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-RSCF-NODE
-node_id: structural_gaps_infrastructure_readme
-node_type: note
-path: 25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/08_STRUCTURAL_GAPS_COGNITIVE_MATRIX_README.md
-claim_class: DERIVED
-
-______________________________________________________________________
-
-**MOC:** [[25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/08_STRUCTURAL_GAPS_MOC|08_STRUCTURAL_GAPS_MOC]]
-
-______________________________________________________________________
-
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+[[25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/GAP_REGISTRY|GAP_REGISTRY]] · [[25_COGNITIVE_MATRIX/07_COVERAGE/07_COVERAGE_MOC|07_COVERAGE_MOC]]

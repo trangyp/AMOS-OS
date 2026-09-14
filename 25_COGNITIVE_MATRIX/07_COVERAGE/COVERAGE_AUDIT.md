@@ -1,67 +1,68 @@
 ---
 canon-group: meta
 canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
+rscf-state: derived
+rscf-provenance: AMOS_corpus_plus_executable_repair
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: DERIVED
 topic: Coverage Audit
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
+updated: 2026-09-14
+origin_architect: Trang Phan
+canonical_status: CONDITIONAL
 ---
----
----
 
-# COVERAGE_AUDIT — Definition
+# COVERAGE_AUDIT — Executable Audit Contract
 
-**Package:** `COVERAGE_AUDIT_`
-**Class:** `COGNITIVE_MATRIX_CONTRACT`
-**Epistemic class:** `DERIVED / MODEL EXTENSION`
-**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
-**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
+## Status
 
-## Scope
+`IMPLEMENTED_BOUNDED / LOCALLY_VALIDATED`
 
-Covers the operation contract for this lifecycle operator.
+Executor: `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/cognitive_matrix_coverage_runtime.py`
 
-## Definition
+## Audit procedure
 
-AUDIT
+For a declared `CoverageScope`:
+1. require unique requirement IDs;
+2. require every dependency to be declared inside the scope;
+3. construct directed adjacency and Boolean transitive-closure matrices;
+4. surface cycle nodes instead of assuming recursive closure;
+5. resolve exactly one coverage record per requirement;
+6. validate provenance/source version and stage-specific receipts;
+7. reject exception states as active-stage evidence;
+8. compare active stage against the requirement-specific threshold;
+9. propagate dependency failure to dependent requirements;
+10. classify the scope as `COMPLETE_FOR_SCOPE`, `CONDITIONAL`, `INCOMPLETE`, `CONTRADICTORY`, or `UNKNOWN/GAP`;
+11. return explicit gaps ordered deterministically for triage.
 
-This is a **contract-level definition**, not an implementation claim.
-
-## Hard boundaries
+## Receipt rules
 
 ```text
-CONTRACT_FILLED != IMPLEMENTED
-DOCUMENTED != EXECUTABLE
-MODEL != VERIFIED
-UNKNOWN/GAP != PASS
+IMPLEMENTED_BOUNDED -> implementation_receipt
+VALIDATED_BOUNDED   -> implementation_receipt + validation_receipt
+GOVERNED_BOUNDED    -> implementation_receipt + validation_receipt + governance_receipt
 ```
 
-______________________________________________________________________
+`UNBOUND` may not carry fabricated provenance or promotion receipts.
 
-[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+## Audit firewalls
 
-______________________________________________________________________
+```text
+DUPLICATE_RECORD != INDEPENDENT_EVIDENCE
+STALE != FALSE
+QUARANTINED != DELETED
+COMPETING != RESOLVED
+LOCAL_TEST_PASS != CI_PASS
+DEPENDENCY_EDGE != CAUSAL_EDGE
+```
 
-RSCF-NODE
-node_id: coverage_audit_coverage_definition
-node_type: note
-path: 07_COVERAGE/COVERAGE_AUDIT\_/COVERAGE_AUDIT.md
-claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/07_COVERAGE/COVERAGE_AUDIT.md
+## Current executable evidence
 
-______________________________________________________________________
+2026-09-14 local run:
+- pytest: 19 passed / 0 failed;
+- random topology differential check: 5,000 graphs / 0 observed mismatches;
+- promotion-state enumeration: 128 combinations / 0 observed invalid admissions.
 
-**MOC:** [[25_COGNITIVE_MATRIX/07_COVERAGE/07_COVERAGE_MOC|07_COVERAGE_MOC]]
+The audit implementation does not authorize durable effects and does not promote Canon.
 
-______________________________________________________________________
-
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+[[25_COGNITIVE_MATRIX/07_COVERAGE/COVERAGE_MODEL|COVERAGE_MODEL]] · [[25_COGNITIVE_MATRIX/07_COVERAGE/COVERAGE_THRESHOLDS|COVERAGE_THRESHOLDS]]

@@ -1,109 +1,80 @@
 ---
 canon-group: meta
 canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
+rscf-state: derived
+rscf-provenance: AMOS_corpus_plus_executable_repair
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: DERIVED
 topic: Cognitive Matrix Structural Gaps Contract
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
----
----
+updated: 2026-09-14
+origin_architect: Trang Phan
+canonical_status: CONDITIONAL
 ---
 
 # COGNITIVE MATRIX STRUCTURAL GAPS CONTRACT
 
 ## 0. Status
 
-Cognitive Matrix-plane contract for **STRUCTURAL GAPS CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+`AMOS_MODEL / IMPLEMENTED_BOUNDED / LOCALLY_VALIDATED`
 
-## 1. Scope
+Structural gaps are now generated from an executable scoped-coverage model instead of being only generator-filled documentation shells.
 
-Governs primitives L00–L29, lifecycle operations O00–O16, control planes C01–C09, scales, cell registry, routing, validation, generators as they bear on `STRUCTURAL GAPS CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
+## 1. Gap production
 
-## 2. Contract terms
+The coverage runtime emits typed gaps for:
 
-- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
-- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
-- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
-- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
-- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
+```text
+MISSING
+BELOW_REQUIRED_STAGE
+DEPENDENCY_GAP
+UNDECLARED_DEPENDENCY
+INVALID_RECORD
+DUPLICATE_RECORD
+CYCLE
+STALE
+COMPETING
+FALSIFIED
+QUARANTINED
+UNBOUND
+```
 
-## 3. Invariants
+Each gap carries requirement identity, criticality, required/current stage, downstream dependency fan-out, and diagnostic detail.
 
-- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
-- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
-- Consequential effects emit receipts; rollback basin exists before mutation.
-- Competing hypotheses remain visible when evidence does not discriminate.
+## 2. Completion interaction
 
-## 4. Executed reference
+- `FALSIFIED` can drive `CONTRADICTORY`.
+- unresolved high-criticality cycle/duplicate/undeclared/stale/competing/quarantined state drives `UNKNOWN/GAP`.
+- known high-criticality missing or insufficient stage drives `INCOMPLETE`.
+- only explanatory/cosmetic gaps drive `CONDITIONAL`.
+- zero gaps after dependency closure yields `COMPLETE_FOR_SCOPE`.
 
-No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
+## 3. Priority
 
-## 5. Gaps
+Structural triage is lexicographic by criticality, downstream dependency fan-out, blocker class, and stable ID. It deliberately avoids a pseudo-precise weighted scalar.
 
-Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
+This local ordering is **not** causal root-cause proof and does not replace the AMOS Repair Priority Governor for consequential allocation.
 
-## 6. Falsifiers
+## 4. Promotion
 
-F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
+Gap closure claims are stage/receipt gated. `STALE`, `COMPETING`, `FALSIFIED`, and `QUARANTINED` cannot be erased by ordinary promotion; they require re-evidencing/reconciliation through the relevant governed path.
 
-## Worked semantics
+## 5. Firewalls
 
-Given an operation touching `COGNITIVE MATRIX · STRUCTURAL GAPS CONTRACT` within the Cognitive Matrix plane:
+```text
+GAP_REGISTERED != GAP_CLOSED
+HIGH_FANOUT != ROOT_CAUSE
+HIGH_PRIORITY != AUTHORITY_TO_REPAIR
+LOCAL_PASS != SYSTEM_COMPLETE
+COVERAGE_COMPLETE_FOR_SCOPE != CANONICAL
+```
 
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+## 6. Executed evidence
 
-## Promotion-gate checklist
+Bounded local evidence is shared with the coverage runtime: 19 tests, 5,000 random topology differential checks, and 128 promotion-state checks with no observed failures in the tested domain.
 
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+## 7. Remaining gaps
 
-## Cross-plane bindings
+Repository-scale automatic extraction of requirements from every Cognitive Matrix/OS surface is still open. Until that inventory is explicitly declared, completion claims remain scoped to supplied requirements only.
 
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-**Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
-
-______________________________________________________________________
-
-RSCF-NODE
-node_id: cm_ve_matrix_08_structural_gaps_cognitive_matrix_structural_gaps_contract
-node_type: note
-path: 25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/COGNITIVE_MATRIX_STRUCTURAL_GAPS_CONTRACT.md
-claim_class: AMOS_MODEL
-
-______________________________________________________________________
-
-**MOC:** [[25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/08_STRUCTURAL_GAPS_MOC|08_STRUCTURAL_GAPS_MOC]]
-
-______________________________________________________________________
-
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+[[25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/GAP_REGISTRY|GAP_REGISTRY]] · [[25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/GAP_PRIORITY|GAP_PRIORITY]] · [[25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/GAP_PROMOTION|GAP_PROMOTION]]

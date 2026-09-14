@@ -1,97 +1,67 @@
 ---
 canon-group: meta
 canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
+rscf-state: derived
+rscf-provenance: AMOS_corpus_plus_executable_repair
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: DERIVED
 topic: Coverage Cognitive Matrix Readme
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
+updated: 2026-09-14
+origin_architect: Trang Phan
+canonical_status: CONDITIONAL
 ---
----
----
 
-# 07_COVERAGE — Coverage Model Contract Overview
+# 07_COVERAGE — Executable Coverage Model
 
-**Package:** `07_COVERAGE`
-**Class:** `COGNITIVE_MATRIX_INFRASTRUCTURE_CONTRACT`
-**Epistemic class:** `DERIVED / MODEL EXTENSION`
-**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
-**Filled by:** governed generator `12_GENERATORS/fill_infra_readmes.py` · **Date:** `2026-08-26`
+## Purpose
 
-## Scope
+Measure declared Cognitive Matrix completeness without collapsing documentation, implementation, validation, governance, authority, or truth into one number.
 
-Coverage measures which declared Matrix addresses carry filled contracts vs placeholders vs executable implementations vs validation evidence — as four distinct axes that are never merged into one number.
+## Current implementation
+
+- typed `CoverageScope` and `ScopeRequirement`;
+- typed coverage stages and exception states;
+- directed dependency adjacency matrix;
+- Boolean transitive closure and cycle detection;
+- record provenance/version/receipt validation;
+- dependency-aware completion classification;
+- typed gap emission;
+- deterministic structural gap ordering;
+- receipt-gated stage promotion.
+
+Reference runtime: `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/cognitive_matrix_coverage_runtime.py`.
 
 ## Hard boundaries
 
 ```text
-COVERAGE_COUNTED != QUALITY_VALIDATED
-Contract coverage axis != implementation coverage axis != validation coverage axis
-100% contract coverage does not close implementation or validation gaps
-```
-
-## Dependency position
-
-- 01–04 packages supply the declared address space
-- 08 structural gaps consume coverage deltas
-
-## RSCF completion state
-
-```yaml
-claim_class: DERIVED
-evidence: []            # no measured evidence at this layer
-provenance:
-  - AMOS canon corpus reconstruction
-scope: cognitive_matrix_infrastructure_package_contract
-regime: architecture-contract
-freshness: 2026-08-26
-dependencies: []
-competing: []
-falsifiers: []
-confidence_ceiling: 0.6   # contract-only status: no implementation, no validation
-```
-
-## Gap matrix
-
-| Surface                   | Status             |
-| ------------------------- | ------------------ |
-| Definition/contract       | FILLED (this pass) |
-| Executable implementation | UNKNOWN/GAP        |
-| Validation evidence       | UNKNOWN/GAP        |
-| Authority binding         | UNKNOWN/GAP        |
-| Runtime integration       | UNKNOWN/GAP        |
-
-```text
-CONTRACT_FILLED != IMPLEMENTED
-DOCUMENTED != EXECUTABLE
-MODEL != VERIFIED
+CONTRACT != IMPLEMENTATION
+IMPLEMENTATION != VALIDATION
+VALIDATION != GOVERNANCE
+GOVERNANCE != CANON
+COUNT != COMPLETENESS
+DEPENDENCY != CAUSATION
 UNKNOWN/GAP != PASS
 ```
 
-______________________________________________________________________
+## Evidence
 
-[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+Local 2026-09-14 bounded checks:
+- 19/19 pytest;
+- 5,000/5,000 random topology comparisons;
+- 128/128 promotion-state safety checks.
 
-______________________________________________________________________
+No CI receipt is attached yet.
 
-RSCF-NODE
-node_id: coverage_infrastructure_readme
-node_type: note
-path: 25_COGNITIVE_MATRIX/07_COVERAGE/07_COVERAGE_COGNITIVE_MATRIX_README.md
-claim_class: DERIVED
+## Dependency position
 
-______________________________________________________________________
+- cell contracts/registry supply typed addressable state;
+- coverage evaluates declared requirement closure;
+- structural gaps consume failed coverage gates;
+- validation/governance/control-plane layers supply stronger evidence and authority.
 
-**MOC:** [[25_COGNITIVE_MATRIX/07_COVERAGE/07_COVERAGE_MOC|07_COVERAGE_MOC]]
+## Remaining scope boundary
 
-______________________________________________________________________
+The executor can audit a declared scope, but the entire repository has not yet been transformed into one authoritative machine-generated requirement inventory. Therefore `COMPLETE_FOR_SCOPE` must always name its scope.
 
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+[[25_COGNITIVE_MATRIX/07_COVERAGE/COVERAGE_MODEL|COVERAGE_MODEL]] · [[25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/08_STRUCTURAL_GAPS_MOC|08_STRUCTURAL_GAPS_MOC]]
