@@ -1,211 +1,73 @@
 ---
-canon-group: meta
-canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
-conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
-topic: Skill
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
-created: 2026-08-22
----
----
+name: amos-agentops-observability-rscf
+description: Govern and execute AMOS agent/runtime observability using typed traces, span lineage, missingness, privacy-aware capture, effect-state observations, receipts, and bounded OpenTelemetry projections. Use when instrumenting or auditing agents, workflows, model/tool/memory/effect calls, trace continuity, telemetry privacy, incident reconstruction, or claims based on runtime observations.
 ---
 
-# Agentops Observability Rscf
+# AMOS AgentOps Observability RSCF
 
-## Identity
+Origin architect/steward: **Trang Phan**.
 
-Origin architect: **Trang Phan**. Domain: agent. Parent: amos-agent-systems-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+Operate observability below AMOS infrastructure authority. Telemetry is evidence, never permission.
 
-## When to Use
+## Hard invariants
 
-- When governing agency: who acts, under what authority, consequences
-- When designing agent externalization: delegation and controls
-- When attributing agent ownership and responsibility
-- When verifying agentic skill structural consistency
-- When the parent skill (`amos-agent-systems-master`) routes to this specialized capability
-- When managing lifecycle operations across classify, validate, trace, assess, and detect
-- When detecting drift in evidence chains, provenance freshness, or confidence calibration
-- When validating outputs against domain constraints and epistemic class
+- `OBSERVABILITY != AUTHORITY`
+- `TRACE_EDGE != CAUSAL_PROOF`
+- `SPAN_SUCCESS != EFFECT_COMMITTED`
+- `CORRELATION_ID != AUTHORITY_WITNESS`
+- `NO_SPAN != NO_EVENT`
+- `RAW_CONTENT_CAPTURE != DEFAULT`
+- `OTEL_PROJECTION != OTLP_EXPORT`
+- `OTEL_PROJECTION != SEMANTIC_CONVENTION_CONFORMANCE`
+- `TOOL_OUTPUT != TRUSTED_INSTRUCTION`
+- `OBSERVED_EFFECT != AUTHORIZED_EFFECT`
 
-## Capabilities
+## Runtime
 
-- **agentops_observability.govern_agency**: Govern agency: who acts, under what authority, with what consequences
-- **agentops_observability.design_externalization**: Design agent externalization: what is delegated, to whom, with what controls
-- **agentops_observability.attribute_ownership**: Attribute agent ownership: who is responsible for each agent action
-- **agentops_observability.verify_agentic**: Verify agentic skill-lie algebroid: structural consistency of agent capabilities
+1. Bind the observed subject, version, environment, provenance root, and scope.
+2. Start one trace root and attach child spans with kinds `WORKFLOW|AGENT|MODEL|TOOL|MEMORY|EFFECT|EVAL`.
+3. Default to `METADATA_ONLY`. Store payload hashes, not raw inputs/outputs.
+4. Use `REDACTED_CONTENT` only when content inspection is decision-relevant and allowed. Redact secrets before persistence.
+5. Record `event_time` separately from observation/record time.
+6. Record expected/captured/dropped signals and explicit missingness reasons.
+7. For external effects, record `PROPOSED|COMMITTED|REJECTED|IN_DOUBT|COMPENSATED` only as observations. Authority remains control-plane-owned.
+8. Produce a receipt only after span/ledger integrity checks.
+9. If exporting to another telemetry system, preserve AMOS provenance/effect/authority-reference extensions and label the mapping as a compatibility projection unless protocol conformance is independently tested.
+10. Keep causal conclusions below the evidence licensed by the instrumentation design.
 
-> **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 08d4c1f5eefc947d) for the full vault-sourced domain knowledge (8774 chars).
+## Deterministic surfaces
 
-- **agentops_observability.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-- **agentops_observability.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-- **agentops_observability.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+- Reference runtime: `17_OBSERVABILITY/agent_trace_runtime.py`
+- Regression suite: `19_TESTS/test_agent_trace_runtime.py`
+- Receipt validator: `scripts/trace_contract_check.py`
 
-## Operations
+Run the regression suite when runtime semantics change. Run the receipt validator before relying on a generated observability receipt in consequential reasoning.
 
-1. **agentops_observability.govern_agency**: Govern agency: who acts, under what authority, with what consequences
-1. **agentops_observability.design_externalization**: Design agent externalization: what is delegated, to whom, with what controls
-1. **agentops_observability.attribute_ownership**: Attribute agent ownership: who is responsible for each agent action
-1. **agentops_observability.verify_agentic**: Verify agentic skill-lie algebroid: structural consistency of agent capabilities
-1. **agentops_observability.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-1. **agentops_observability.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-1. **agentops_observability.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+## Progressive references
 
-## 11_KNOWLEDGE Vault Content
+Read [references/observability-boundaries.md](references/observability-boundaries.md) when mapping OpenTelemetry/OpenInference/OpenLLMetry/Langfuse concepts, handling content capture, or deciding whether telemetry evidence can support a stronger claim.
 
-> **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)
+## Output contract
 
-### RSCF Epistemic Substrate
+Return the smallest useful capsule:
 
-This RSCF engine operates on the AMOS RSCF (Reasoning, Scope, Claim, Falsifier) epistemic substrate.
+- trace/receipt identity;
+- subject/version/environment;
+- span classes observed;
+- effect states observed;
+- missingness/coverage;
+- integrity status;
+- content-capture mode;
+- provenance roots;
+- unresolved gaps;
+- claim ceiling and falsifier.
 
-**RSCF objects**: claim / class / premises / evidence / provenance / scope / regime / freshness / dependencies / competing hypotheses / falsifiers / confidence ceiling.
+## Failure behavior
 
-**RSCF state kinds**: OBSERVATION, SOURCE_CLAIM, DERIVED, MODEL, DECISION, UNKNOWN.
-
-**RSCF laws**:
-
-- `CLAIM != FACT`: a claim is not a fact; it must be labeled with epistemic class
-- `CONFIDENCE <= EVIDENCE`: confidence cannot exceed evidence support
-- `FALSIFIER_REQUIRED`: every claim must declare its falsifier
-- `SCOPE_BOUND`: every claim is valid only within its declared scope and regime
-- `PROVENANCE_REQUIRED`: every claim must have traceable provenance
-
-**RSCF validation gates**:
-
-- G1 (Law of Law): no unresolved contradictions
-- G2 (Epistemic class): all claims labeled, no class promotion without evidence
-- G3 (Provenance): source path recorded for every derived claim
-- G4 (Anti-overreach): no claim beyond declared scope
-- G5 (Equation firewall): equations carry status tags
-- G6 (Failure mode): on failure, downgrade, flag, escalate
-
-### Epistemic Boundary
-
-This RSCF engine is an epistemic governance tool. It does not prove claims are true, that all falsifiers are known, or that the RSCF framework is complete.
-
-## Failure Modes
-
-- **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
-- **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
-- **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
-- **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
-- **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and relabel.
-
-## Validation Gates
-
-- **G1 (Law of Law)**: No unresolved contradictions within the skill's scope.
-- **G2 (Epistemic class)**: All claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL — never claim beyond evidence.
-- **G3 (Provenance)**: Source path recorded for every derived claim.
-- **G4 (Anti-overreach)**: No claim beyond the skill's declared scope and epistemic class.
-- **G5 (Equation firewall)**: Equations carry status tags (ESTABLISHED_MATH / SOURCE_DERIVED / AMOS_MODEL / EMPIRICALLY_CALIBRATED / UNVERIFIED).
-- **G6 (Failure mode)**: On validation failure,
-
-______________________________________________________________________
-
-**Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
-
-## Related
-
-- [[07_SKILLS/amos-agentops-observability-rscf/amos-agentops-observability-rscf_MOC|amos-agentops-observability-rscf_MOC]]
-
-## Examples
-
-- **Scenario**: When governing agency: who acts, under what authority, consequences
-
-  - **Input**: A query matching this skill's domain (agent)
-  - **Output**: Structured result with epistemic labels and provenance
-
-- **Scenario**: When designing agent externalization: delegation and controls
-
-  - **Input**: A query matching this skill's domain (agent)
-  - **Output**: Structured result with epistemic labels and provenance
-
-- **Scenario**: When attributing agent ownership and responsibility
-
-  - **Input**: A query matching this skill's domain (agent)
-  - **Output**: Structured result with epistemic labels and provenance
-
-## Anti-Patterns
-
-- **Do not use** for tasks outside the agent domain
-- **Do not use** when the query requires empirical validation that this skill cannot provide
-- **Do not use** when a parent skill or higher-level orchestrator should route instead
-- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
-- **Do not chain** more than 3 skills without explicit orchestrator approval
-
-## Composition
-
-- **Parent**: `amos-agent-systems-master` — routes to this skill when agent specialization is needed
-- **Peers**: Other skills in the `agent` domain may be composed in sequence
-- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
-- **Workflow**: Each skill has a corresponding workflow in `26_WORKFLOWS/`
-- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
-## Evaluation
-
-### Success Criteria
-
-- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
-- Output includes provenance reference to source evidence
-- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
-- Output includes gap flags for unresolved unknowns
-- Output does not exceed declared scope
-
-### Failure Modes
-
-- **Overreach**: Output claims validity beyond its epistemic class
-- **Scope creep**: Output addresses questions outside the declared domain
-- **Provenance loss**: Output cannot trace back to source evidence
-- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
-
-## Error Handling
-
-- **On scope violation**: Reject the query and route back to parent skill
-- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
-- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
-- **On provenance loss**: Mark output as UNKNOWN and require human review
-- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
-## Do not use
-
-- For generic agent fabrication outside the AMOS agent framework
-- To claim empirical validation of multi-agent theories
-- As a substitute for domain-specific agent design or delegation evidence
-- Outside agent systems domain reasoning
-
-## References
-
-- `references/references_MOC.md` — loaded on demand
-- `references/vault_domain_knowledge.md` — loaded on demand
-- \`\` — skill Map of Content
-- `amos-agent-systems-master` — parent skill
-- \`\` — corresponding workflow
-- `amos-agentops-observability-rscf-agent` — corresponding agent
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
-
-**MOC:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
-
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
-
-______________________________________________________________________
-
-RSCF-NODE
-node_id: amos-agentops-observability-rscf
-node_type: skill
-path: 07_SKILLS/amos-agentops-observability-rscf/SKILL.md
-RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-- CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
+- Missing parent, cross-trace parent, or stale/terminal parent attachment: reject.
+- Unknown span/effect state: reject.
+- Ledger/hash mismatch: `INVALIDATED_EVIDENCE`.
+- Dropped/uninstrumented signals: preserve missingness; never infer zero/failure absence.
+- Ambiguous external effect: `IN_DOUBT`; reconcile before retry/finalization.
+- Missing authority: record the gap; do not infer authority from telemetry.
+- Sensitive content without explicit capture justification: keep metadata-only.
