@@ -1,211 +1,141 @@
 ---
-canon-group: meta
-canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
-conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
-topic: Skill
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
-created: 2026-08-22
----
----
+name: amos-observability-driven-harness-evolution-rscf
+description: Govern and audit bounded evolution of agent harnesses by inventorying explicit mutable surfaces, freezing evidence-backed mutation manifests before evaluation, enforcing verifier/reward isolation, binding comparable PR19 evaluation receipts and PR22 evaluator-reliability evidence, recommending KEEP/ROLLBACK/INCONCLUSIVE, and reconciling what was actually applied. Use when changing system prompts, tool descriptions/implementations, middleware, Skills, sub-agent configuration, long-term memory, AMOS agent/workflow/policy/tool-registry surfaces, or when auditing self-improving harness loops without granting write, merge, rollback, deployment, or canonical authority.
 ---
 
-# Observability Driven Harness Evolution Rscf
+# AMOS Observability-Driven Harness Evolution RSCF
 
-## Identity
+Origin architect and steward: **Trang Phan**.
 
-Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+Operate as a deterministic evidence/control layer around harness mutation. Treat external harness frameworks as `SOURCE_CLAIM`; treat AMOS-specific orchestration and receipt composition as `AMOS_MODEL` unless executable evidence verifies the stated contract.
 
-## When to Use
+## Own this capability
 
-- When analyzing software architecture: patterns, dependencies, coupling
-- When discovering program behavior via black-box analysis or symbolic execution
-- When verifying code facts: type safety, memory safety, termination
-- When enforcing bounded code: resource, time, and capability limits
-- When the parent skill (`amos-c10-tech-engineering-master`) routes to this specialized capability
-- When managing lifecycle operations across classify, validate, trace, assess, and detect
-- When detecting drift in evidence chains, provenance freshness, or confidence calibration
-- When validating outputs against domain constraints and epistemic class
+Own the transition:
 
-## Capabilities
+`declared surfaces -> frozen mutation manifest -> isolation gate -> comparable evaluation -> evaluator reliability -> bounded verdict -> reconciliation`
 
-- **observability_driven.analyze_architecture**: Analyze software architecture: patterns, dependencies, coupling, cohesion
-- **observability_driven.discover_program**: Discover program behavior: black-box analysis, symbolic execution, fuzzing
-- **observability_driven.verify_code_facts**: Verify code facts: type safety, memory safety, termination, complexity
-- **observability_driven.optimize_performance**: Optimize performance: profiling, bottleneck analysis, and resource tuning
-- **observability_driven.enforce_bounds**: Enforce bounded code: resource limits, time limits, and capability limits
+Do not execute edits, evaluations, commits, merges, deployments, rollbacks, or canonical promotion. Those are separate authorities/effectors.
 
-> **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 9a7bb863c0df9b77) for the full vault-sourced domain knowledge (9536 chars).
+## Hard invariants
 
-- **observability_driven.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-- **observability_driven.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-- **observability_driven.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+- `MUTATION_PROPOSAL != WRITE_AUTHORITY`
+- `KEEP_RECOMMENDATION != MERGE_AUTHORITY`
+- `ROLLBACK_RECOMMENDATION != ROLLBACK_EXECUTION`
+- `NEXT_ROUND_DELTA != CAUSAL_PROOF`
+- `PREDICTION != OUTCOME`
+- `EDIT_RATIONALE != EVIDENCE`
+- `CROSS_COMPONENT_EDIT != SINGLE_COMPONENT_ATTRIBUTION`
+- `UNDECLARED_SURFACE != MUTABLE_SURFACE`
+- `VERIFIER_ARTIFACT_VISIBLE_TO_NEXT_AGENT != VALID_EVAL`
+- `CALIBRATION_PASS != GROUND_TRUTH`
+- `COMPARABLE_RUNS != DEPLOYMENT_VALIDITY`
+- `RAW_TRACE != DEFAULT_DURABLE_RECEIPT`
 
-## Operations
+## Component contract
 
-1. **observability_driven.analyze_architecture**: Analyze software architecture: patterns, dependencies, coupling, cohesion
-1. **observability_driven.discover_program**: Discover program behavior: black-box analysis, symbolic execution, fuzzing
-1. **observability_driven.verify_code_facts**: Verify code facts: type safety, memory safety, termination, complexity
-1. **observability_driven.optimize_performance**: Optimize performance: profiling, bottleneck analysis, and resource tuning
-1. **observability_driven.enforce_bounds**: Enforce bounded code: resource limits, time limits, and capability limits
-1. **observability_driven.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-1. **observability_driven.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-1. **observability_driven.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+Source-derived harness classes:
 
-## 11_KNOWLEDGE Vault Content
+`SYSTEM_PROMPT | TOOL_DESCRIPTION | TOOL_IMPLEMENTATION | MIDDLEWARE | SKILL | SUB_AGENT_CONFIG | LONG_TERM_MEMORY`
 
-> **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)
+AMOS extension classes:
 
-### RSCF Epistemic Substrate
+`AGENT_CONFIG | WORKFLOW | POLICY_CONFIG | TOOL_REGISTRY`
 
-This RSCF engine operates on the AMOS RSCF (Reasoning, Scope, Claim, Falsifier) epistemic substrate.
+Do not attribute the AMOS extensions to upstream AHE/NexAU sources. See [references/upstream-mechanisms.md](references/upstream-mechanisms.md).
 
-**RSCF objects**: claim / class / premises / evidence / provenance / scope / regime / freshness / dependencies / competing hypotheses / falsifiers / confidence ceiling.
+## Runtime
 
-**RSCF state kinds**: OBSERVATION, SOURCE_CLAIM, DERIVED, MODEL, DECISION, UNKNOWN.
+1. **Freeze experiment identity.** Bind target/version, harness baseline/candidate versions, suite/environment, base model/config, evaluator set/version, budget, task cohort, evidence archetype, expected task count, and calibrated evaluator identity/config.
+2. **Inventory surfaces.** Register every mutable file path with component class and baseline content hash. Unknown or undeclared paths fail closed.
+3. **Create mutation.** Bind root-cause evidence hash, evidence-bundle hash, predicted fix IDs, predicted regression IDs, and attribution mode before candidate evaluation.
+4. **Stage changes.** Require before-hash equality with the frozen baseline, a distinct after hash, and an exact rollback hash equal to the prior state.
+5. **Freeze manifest.** After freezing, reject additional staged changes. Cross-component mutations require `COUPLED_SET` plus an explicit coupling-reason hash.
+6. **Prove isolation.** Record whether prior verifier tests/rewards were hidden and whether agent-owned state was preserved. If shared-verifier residue existed, require sanitization before the next agent phase.
+7. **Execute evaluation externally.** This Skill does not run the model/evaluator. Use `amos-interactive-evaluation-design-rscf` for run/comparison evidence.
+8. **Bind evaluation evidence.** Require sealed, complete-coverage baseline/candidate run receipts and a hash-valid comparison receipt with all frozen axes matching except the declared harness version mutation.
+9. **Bind evaluator reliability.** Require a hash-valid held-out `VALIDATION` report and reliability-gate receipt from `amos-evaluator-calibration-rscf` matching the frozen evaluator identity/config.
+10. **Recommend verdict.** Return `KEEP`, `ROLLBACK`, or `INCONCLUSIVE` only. Never emit an authorization or perform the recommended action.
+11. **Reconcile observed state.** After another authorized system applies or declines the recommendation, record `KEPT|ROLLED_BACK|NOT_APPLIED`, observed version, exact changed-component hashes, and evidence hash.
+12. **Verify ledger.** Treat ledger tamper as a blocking integrity failure.
 
-**RSCF laws**:
+## Decision rule
 
-- `CLAIM != FACT`: a claim is not a fact; it must be labeled with epistemic class
-- `CONFIDENCE <= EVIDENCE`: confidence cannot exceed evidence support
-- `FALSIFIER_REQUIRED`: every claim must declare its falsifier
-- `SCOPE_BOUND`: every claim is valid only within its declared scope and regime
-- `PROVENANCE_REQUIRED`: every claim must have traceable provenance
+Let:
 
-**RSCF validation gates**:
+- `F` = observed fixed task IDs;
+- `R` = observed regressed task IDs;
+- `C` = critical regression task IDs;
+- `P_f` = predicted fix IDs;
+- `P_r` = predicted regression IDs.
 
-- G1 (Law of Law): no unresolved contradictions
-- G2 (Epistemic class): all claims labeled, no class promotion without evidence
-- G3 (Provenance): source path recorded for every derived claim
-- G4 (Anti-overreach): no claim beyond declared scope
-- G5 (Equation firewall): equations carry status tags
-- G6 (Failure mode): on failure, downgrade, flag, escalate
+The deterministic diagnostics are:
 
-### Epistemic Boundary
+`fix_precision = |P_f ∩ F| / max(1, |P_f|)`
 
-This RSCF engine is an epistemic governance tool. It does not prove claims are true, that all falsifiers are known, or that the RSCF framework is complete.
+`regression_recall = 1` when `R` is empty; otherwise
 
-## Failure Modes
+`regression_recall = |P_r ∩ R| / |R|`.
 
-- **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
-- **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
-- **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
-- **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
-- **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and relabel.
+These are descriptive diagnostics, not causal proofs.
 
-## Validation Gates
+Recommend `KEEP` only when all load-bearing evidence is usable, `F` is nonempty, `|F| > |R|`, and `C` is empty.
 
-- **G1 (Law of Law)**: No unresolved contradictions within the skill's scope.
-- **G2 (Epistemic class)**: All claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL — never claim beyond evidence.
-- **G3 (Provenance)**: Source path recorded for every derived claim.
-- -
+Recommend `ROLLBACK` when a critical regression exists, or when comparable/reliable/isolated evidence shows `|R| > |F|`.
 
-______________________________________________________________________
+Otherwise return `INCONCLUSIVE`.
 
-**Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
+Read [references/formal-contract.md](references/formal-contract.md) before changing verdict semantics.
 
-## Related
+## Deterministic surfaces
 
-- [[07_SKILLS/amos-observability-driven-harness-evolution-rscf/amos-observability-driven-harness-evolution-rscf_MOC|amos-observability-driven-harness-evolution-rscf_MOC]]
+- Runtime: `scripts/harness_evolution_runtime.py`
+- Receipt validator: `scripts/harness_evolution_contract_check.py`
+- Repository regression suite: `19_TESTS/test_harness_evolution_runtime.py`
 
-## Examples
+Run the runtime self-test, receipt-validator self-test, and repository regression suite after changing semantics.
 
-- **Scenario**: When analyzing software architecture: patterns, dependencies, coupling
+## Parent/dependency contract
 
-  - **Input**: A query matching this skill's domain (c10)
-  - **Output**: Structured result with epistemic labels and provenance
+Use with:
 
-- **Scenario**: When discovering program behavior via black-box analysis or symbolic execution
+- `amos-interactive-evaluation-design-rscf` for exact run/comparison evidence;
+- `amos-evaluator-calibration-rscf` for held-out evaluator reliability;
+- `amos-agentops-observability-rscf` when trace/observability evidence is needed.
 
-  - **Input**: A query matching this skill's domain (c10)
-  - **Output**: Structured result with epistemic labels and provenance
+Accept only explicit receipts/evidence. A sibling Skill's existence does not grant authority or prove its current runtime state.
 
-- **Scenario**: When verifying code facts: type safety, memory safety, termination
+## Failure behavior
 
-  - **Input**: A query matching this skill's domain (c10)
-  - **Output**: Structured result with epistemic labels and provenance
+Return `UNKNOWN/GAP` or `INCONCLUSIVE` rather than guessing when:
 
-## Anti-Patterns
+- a mutable path was not declared;
+- baseline/candidate axes are not comparable;
+- evaluation coverage is incomplete or unsealed;
+- verifier/reward contamination is possible;
+- evaluator reliability is not `PASS`;
+- attribution is not plausible;
+- a receipt hash is invalid;
+- rollback state cannot be bound to the pre-change hash;
+- reconciliation cannot prove the observed component state.
 
-- **Do not use** for tasks outside the c10 domain
-- **Do not use** when the query requires empirical validation that this skill cannot provide
-- **Do not use** when a parent skill or higher-level orchestrator should route instead
-- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
-- **Do not chain** more than 3 skills without explicit orchestrator approval
+Critical regression may justify a `ROLLBACK` recommendation, but never executes rollback.
 
-## Composition
+## Output contract
 
-- **Parent**: `amos-c10-tech-engineering-master` — routes to this skill when c10 specialization is needed
-- **Peers**: Other skills in the `c10` domain may be composed in sequence
-- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
-- **Workflow**: Each skill has a corresponding workflow in `26_WORKFLOWS/`
-- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+Return the smallest sufficient capsule:
 
-## Evaluation
+- experiment and mutation identity;
+- changed component paths/classes and before/after hashes;
+- predicted fixes/regressions;
+- isolation status;
+- frozen-axis comparison state;
+- evaluator-reliability verdict;
+- observed fixes/regressions/critical regressions;
+- fix precision and regression recall;
+- `KEEP|ROLLBACK|INCONCLUSIVE` recommendation;
+- reconciliation state if observed;
+- evidence/receipt hashes;
+- explicit authority ceiling and remaining gaps.
 
-### Success Criteria
-
-- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
-- Output includes provenance reference to source evidence
-- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
-- Output includes gap flags for unresolved unknowns
-- Output does not exceed declared scope
-
-### Failure Modes
-
-- **Overreach**: Output claims validity beyond its epistemic class
-- **Scope creep**: Output addresses questions outside the declared domain
-- **Provenance loss**: Output cannot trace back to source evidence
-- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
-
-## Error Handling
-
-- **On scope violation**: Reject the query and route back to parent skill
-- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
-- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
-- **On provenance loss**: Mark output as UNKNOWN and require human review
-- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
-## Do not use
-
-- For generic engineering analysis outside the tech/engineering framework
-- To claim empirical validation of software engineering laws
-- As a substitute for domain-specific technical or engineering evidence
-- Outside tech/engineering domain reasoning
-
-## References
-
-- `references/references_MOC.md` — loaded on demand
-- `references/vault_domain_knowledge.md` — loaded on demand
-- \`\` — skill Map of Content
-- `amos-c10-tech-engineering-master` — parent skill
-- \`\` — corresponding workflow
-- `amos-observability-driven-harness-evolution-rscf-agent` — corresponding agent
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
-
-**MOC:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
-
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
-
-______________________________________________________________________
-
-RSCF-NODE
-node_id: amos-observability-driven-harness-evolution-rscf
-node_type: skill
-path: 07_SKILLS/amos-observability-driven-harness-evolution-rscf/SKILL.md
-RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-- CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
+Read [references/upstream-mechanisms.md](references/upstream-mechanisms.md) for source provenance and [references/formal-contract.md](references/formal-contract.md) for state/receipt rules.
