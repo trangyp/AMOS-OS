@@ -1,67 +1,68 @@
 ---
 canon-group: meta
 canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
+rscf-state: derived
 rscf-provenance: AMOS_corpus
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: DERIVED
 topic: Cell Evidence
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
+updated: 2026-09-14
 ---
----
----
 
-# CELL_EVIDENCE — Definition
+# CELL_EVIDENCE — Executable Evidence Contract
 
-**Package:** `CELL_EVIDENCE_`
-**Class:** `COGNITIVE_MATRIX_CONTRACT`
-**Epistemic class:** `DERIVED / MODEL EXTENSION`
-**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
-**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
+**Origin architect / steward:** Trang Phan  
+**Status:** `IMPLEMENTED_BOUNDED / VALIDATED_BOUNDED`  
+**Runtime:** `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/matrix_registry_runtime.py`
 
-## Scope
-
-Covers the operation contract for this lifecycle operator.
-
-## Definition
-
-CELL_EVIDENCE
-
-This is a **contract-level definition**, not an implementation claim.
-
-## Hard boundaries
+## Typed evidence classes
 
 ```text
-CONTRACT_FILLED != IMPLEMENTED
-DOCUMENTED != EXECUTABLE
-MODEL != VERIFIED
-UNKNOWN/GAP != PASS
+SOURCE_CLAIM
+OBSERVATION
+DERIVED
+AMOS_MODEL
+EXECUTED_TEST
+FORMAL_PROOF
 ```
 
-______________________________________________________________________
+Every evidence reference binds:
 
-[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+```text
+evidence_id
+evidence_class
+source_id
+state_version
+fresh
+```
 
-______________________________________________________________________
+## Validation rule
 
-RSCF-NODE
-node_id: cell_evidence_contracts_definition
-node_type: note
-path: 06_CELL_CONTRACTS/CELL_EVIDENCE\_/CELL_EVIDENCE.md
-claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/06_CELL_CONTRACTS/CELL_EVIDENCE.md
+For every evidence ID attached to a cell, the executable validator requires that the evidence exists, is fresh, and binds the cell's exact `state_version`.
 
-______________________________________________________________________
+Failure states are explicit:
 
-**MOC:** [[25_COGNITIVE_MATRIX/06_CELL_CONTRACTS/06_CELL_CONTRACTS_MOC|06_CELL_CONTRACTS_MOC]]
+```text
+MISSING:<evidence_id>
+STATE_VERSION_MISMATCH:<evidence_id>
+STALE:<evidence_id>
+```
 
-______________________________________________________________________
+## Invariants
 
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+```text
+SOURCE_CLAIM != VERIFIED
+EXECUTED_TEST != FORMAL_PROOF
+EVIDENCE_FOR_VERSION_v1 != EVIDENCE_FOR_VERSION_v2
+STALE_EVIDENCE != CURRENT_EVIDENCE
+MISSING_EVIDENCE != PASS
+```
+
+The runtime preserves evidence type rather than collapsing all supporting material into a single confidence score.
+
+## Validation evidence
+
+The bounded test suite executes both positive and stale-evidence cases. Passing tests validate this evidence-binding mechanism only, not the truth of arbitrary domain claims carried by a cell.
+
+[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]]
