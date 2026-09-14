@@ -1,4 +1,4 @@
-import json,tempfile,unittest
+import json,re,tempfile,unittest
 from pathlib import Path
 import sys
 ROOT=Path(__file__).resolve().parents[1]
@@ -24,6 +24,10 @@ class T(unittest.TestCase):
  def test_parse_failure(self): self.assertEqual(self.run_case("if :",[])['verdict'],'VIOLATION')
  def test_receipt_hash(self): self.assertEqual(len(self.run_case("x=1",[])['receipt_hash']),64)
  def test_empty_contained(self): self.assertEqual(self.run_case("x=1",[])['verdict'],'CONTAINED')
+ def test_verifier_source_avoids_cross_skill_exfil_literals(self):
+  src=(S/'verify_skill.py').read_text(encoding='utf-8')
+  patterns=[r"requests\.(post|put)",r"urllib\.request",r"httpx\.(post|put)",r"socket\.send",r"aiohttp.*post"]
+  self.assertFalse(any(re.search(p,src,re.I) for p in patterns))
  def test_multiple_effects(self):
   r=self.run_case("import os,subprocess\nos.getenv('X')\nsubprocess.run(['x'])",['ENV_READ','PROCESS_EXEC']); self.assertEqual(r['verdict'],'CONTAINED')
 
