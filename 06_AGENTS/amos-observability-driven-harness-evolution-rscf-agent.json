@@ -1,182 +1,63 @@
 {
   "name": "amos-observability-driven-harness-evolution-rscf-agent",
-  "display_name": "Observability Driven Harness Evolution Rscf",
-  "description": "Observability Driven Harness Evolution Rscf — Tech-engineering engine. Bound to c10 domain. Use when tech-engineering engine is needed within the AMOS framework.",
+  "display_name": "AMOS Harness Evolution Auditor",
+  "description": "Deterministic harness-mutation, isolation, evaluation-binding, rollback-evidence, and reconciliation auditor.",
   "author": "Trang Phan",
   "steward": "Trang Phan",
   "system": "AMOS_OS",
-  "role": "Observability Driven Harness Evolution Rscf — Tech-engineering engine within the c10 domain.",
+  "role": "Audit bounded harness evolution without granting file-write, rollback, merge, deployment, or canonical-promotion authority.",
   "skill_binding": {
     "primary_skill": "amos-observability-driven-harness-evolution-rscf",
-    "skill_path": ".devin/skills/amos-observability-driven-harness-evolution-rscf/SKILL.md"
+    "skill_path": "07_SKILLS/amos-observability-driven-harness-evolution-rscf/SKILL.md"
   },
-  "capabilities": [
-    {
-      "name": "observability_driven.analyze_architecture",
-      "description": "Analyze software architecture: patterns, dependencies, coupling, cohesion",
-      "side_effect": "read"
-    },
-    {
-      "name": "observability_driven.discover_program",
-      "description": "Discover program behavior: black-box analysis, symbolic execution, fuzzing",
-      "side_effect": "read"
-    },
-    {
-      "name": "observability_driven.verify_code_facts",
-      "description": "Verify code facts: type safety, memory safety, termination, complexity",
-      "side_effect": "read"
-    },
-    {
-      "name": "observability_driven.optimize_performance",
-      "description": "Optimize performance: profiling, bottleneck analysis, and resource tuning",
-      "side_effect": "read"
-    },
-    {
-      "name": "observability_driven.enforce_bounds",
-      "description": "Enforce bounded code: resource limits, time limits, and capability limits",
-      "side_effect": "read"
-    }
+  "depends_on_skills": [
+    "amos-interactive-evaluation-design-rscf",
+    "amos-evaluator-calibration-rscf",
+    "amos-agentops-observability-rscf"
   ],
-  "operations": [
-    {
-      "step": 1,
-      "action": "Load the amos-observability-driven-harness-evolution-rscf skill and its content",
-      "gate": "skill_loaded"
-    },
-    {
-      "step": 2,
-      "action": "Classify the query against c10 sub-capabilities",
-      "gate": "domain_confirmed"
-    },
-    {
-      "step": 3,
-      "action": "Apply the appropriate capability with epistemic class labeling",
-      "gate": "epistemic_labeled"
-    },
-    {
-      "step": 4,
-      "action": "Validate results against domain validation gates",
-      "gate": "gates_passed"
-    },
-    {
-      "step": 5,
-      "action": "Present results with provenance and confidence ceiling",
-      "gate": "output_validated"
-    }
+  "capabilities": [
+    {"name": "harness_evolution.inventory", "side_effect": "read"},
+    {"name": "harness_evolution.mutation_manifest", "side_effect": "read"},
+    {"name": "harness_evolution.isolation_audit", "side_effect": "read"},
+    {"name": "harness_evolution.evaluation_bind", "side_effect": "read"},
+    {"name": "harness_evolution.verdict", "side_effect": "read"},
+    {"name": "harness_evolution.reconciliation_audit", "side_effect": "read"}
   ],
   "integrity_requirements": [
-    "Law of Law: no unresolved contradictions within the skill's scope",
-    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
-    "Provenance: source path recorded for every derived claim",
-    "Anti-overreach: no claim beyond the skill's declared scope",
-    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+    "Every mutated file is a declared mutable surface with a frozen baseline hash",
+    "Predicted fixes and regressions are frozen before candidate evaluation",
+    "Cross-component mutations use coupled-set attribution",
+    "Verifier tests and reward artifacts cannot leak into the next agent phase",
+    "Baseline/candidate run axes are frozen except for harness version",
+    "Evaluator reliability evidence is held-out and hash-bound",
+    "KEEP and ROLLBACK are recommendations, not effects",
+    "Observed reconciliation is separate from recommendation"
   ],
-  "safety_constraints": [
-    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
-    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
-  ],
-  "depends_on_skills": [
-    "amos-observability-driven-harness-evolution-rscf"
-  ],
-  "depends_on_workflows": [
-    "amos-observability-driven-harness-evolution-rscf-workflow.md"
-  ],
-  "epistemic_class": "AMOS_MODEL",
-  "claim_ceiling": 0.95,
-  "lifecycle": {
-    "status": "active",
-    "deprecated": false,
-    "deprecation_date": null,
-    "successor": null
-  },
   "governance": {
     "owner_team": "AMOS_CORE",
-    "business_domain": "c10",
-    "risk_tier": "medium",
-    "observability": "structured_logs+content_hash",
+    "risk_tier": "high",
     "approval_mode": "steward_review",
-    "promotion_state": "production"
-  },
-  "content_hash": "f87742cc0d8163a2",
-  "implementation": {
-    "type": "json",
-    "file": "amos-observability-driven-harness-evolution-rscf-agent.json",
-    "class": null,
-    "executable": true
-  },
-  "version": "1.1.0",
-  "reasoning_pattern": "ReAct",
-  "termination_criteria": {
-    "max_steps": 10,
-    "max_tokens": 8000,
-    "stop_on_confidence_below": 0.3,
-    "stop_on_critical_gap": true,
-    "stop_on_scope_violation": true,
-    "human_in_the_loop": false
-  },
-  "error_recovery": {
-    "on_timeout": "return partial result with GAP flag",
-    "on_scope_violation": "reject and route to parent",
-    "on_contradiction": "flag CRITICAL_GAP and halt",
-    "on_provenance_loss": "mark as UNKNOWN and request human review",
-    "on_drift": "trigger drift alignment governor"
-  },
-  "context_management": {
-    "strategy": "progressive_disclosure",
-    "max_context_tokens": 4000,
-    "compaction_threshold": 0.8,
-    "scratchpad_enabled": true
-  },
-  "evaluation_metrics": {
-    "success_rate_target": 0.85,
-    "false_positive_rate_max": 0.1,
-    "avg_steps_target": 3.0,
-    "provenance_coverage_target": 1.0
-  },
-  "composition_rules": {
-    "can_delegate_to": [],
-    "can_receive_from": [],
-    "max_chain_depth": 3,
-    "requires_orchestrator": true
+    "promotion_state": "implemented_local_reference",
+    "write_authority": "none",
+    "rollback_execution_authority": "none",
+    "merge_authority": "none",
+    "deployment_authority": "none",
+    "canonical_promotion_authority": "none"
   },
   "observability": {
-    "trace_level": "full",
-    "log_inputs": true,
-    "log_outputs": true,
-    "log_intermediate": true,
-    "metrics_enabled": true
+    "capture_mode": "METADATA_ONLY",
+    "log_inputs": false,
+    "log_outputs": false,
+    "log_intermediate": false,
+    "raw_content_default": false,
+    "hash_bound_evidence": true,
+    "sampling_missingness_required": true,
+    "reconciliation_required_for_effect_claim": true
   },
-  "tags": [
-    "type/agent",
-    "canon/agent",
-    "domain/tech-engineering",
-    "rscf/source_claim",
-    "hml/m",
-    "epistemic/amos_model",
-    "amos_os"
-  ],
+  "epistemic_class": "AMOS_MODEL",
+  "version": "3.0.0",
   "origin_architect": "Trang Phan",
-  "rscf_state": "SOURCE_CLAIM",
-  "hml_level": "M",
-  "gmef_gates": [
-    "L0_integrity",
-    "L1_epistemic",
-    "L2_provenance",
-    "L5_scope",
-    "L7_authority"
-  ],
-  "collapse_class": "reversible",
-  "qfm_gate_set": "QFM_v43",
-  "law_compliance": [
-    "L0",
-    "L1",
-    "L2",
-    "L4",
-    "L5",
-    "L7",
-    "L16",
-    "L17",
-    "L18"
-  ],
-  "domain": "c10"
+  "authority_semantics": "HARNESS_EVOLUTION_RECOMMENDATION_DOES_NOT_GRANT_WRITE_OR_MERGE_AUTHORITY",
+  "causal_semantics": "NEXT_ROUND_DELTA_DOES_NOT_PROVE_CAUSAL_ATTRIBUTION",
+  "rollback_semantics": "ROLLBACK_RECOMMENDATION_DOES_NOT_EXECUTE_ROLLBACK"
 }
