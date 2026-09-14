@@ -6,12 +6,6 @@ rscf-provenance: AMOS_corpus_plus_executable_repair
 conclusion_class: AMOS_MODEL
 epistemic_class: DERIVED
 topic: Runtime Reference Implementation
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/derived
-  - runtime
 created: 2026-08-22
 updated: 2026-09-14
 origin_architect: Trang Phan
@@ -25,7 +19,7 @@ Origin architect / steward: **Trang Phan**
 
 ## 0. Status
 
-The AMOS OS runtime reference plane now contains executable bounded Core-19 repair components in addition to architecture documentation.
+The AMOS OS runtime reference plane now contains executable bounded Core-19 and L09 inference repair components in addition to architecture documentation.
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -46,7 +40,7 @@ The executable artifacts do **not** establish system-wide AMOS executable closur
 Perceive -> Route -> Admit -> Plan -> Schedule -> Execute -> Observe -> Repair -> Audit -> Finalize
 ```
 
-## 2. Executable bounded Core-19 repair
+## 2. Executable bounded repair surface
 
 ### 2.1 Files
 
@@ -54,6 +48,8 @@ Perceive -> Route -> Admit -> Plan -> Schedule -> Execute -> Observe -> Repair -
 - `test_core19_runtime.py` — deterministic/property/adversarial regression tests.
 - `classical_sat_firewall.py` — exact bounded propositional satisfiability firewall.
 - `test_classical_sat_firewall.py` — pairwise-vs-global counterexample and bound tests.
+- `inference_runtime.py` — executable bounded L09 inference gate.
+- `test_inference_runtime.py` — L09 routing, consistency, P02, causal, confidence, and bound tests.
 
 ### 2.2 Implemented bounded behavior
 
@@ -65,6 +61,12 @@ Perceive -> Route -> Admit -> Plan -> Schedule -> Execute -> Observe -> Repair -
 - Normalizer idempotence checks for the bounded `ATOM | NOT | NLOGIC` fragment.
 - Exact bounded Boolean satisfiability for `ATOM | NOT | AND | OR | IMPLIES | BOTTOM` with a declared atom bound.
 - Pairwise compatibility is explicitly separated from global consistency.
+- Bounded classical entailment uses the unsatisfiable-countermodel criterion.
+- Inconsistent premise sets remain inspectable and are not promoted into an inference result.
+- L09 routes only to locally executable logic fragments and fails closed for specification-only or rebind-pending fragments.
+- L09 requires explicit P02 namespace/version binding when P02 is used.
+- L09 separates logical inference from causal claims and requires separate causal evidence binding for a causal result.
+- L09 carries dependency claim IDs, provenance, scope, regime, source version, consistency state, entailment state, and confidence ceiling/unknown.
 - 19 x 19 is treated as 361 pair coordinates, not 361 proven equations.
 - Tensor coordinates require explicit row, column, scale, context, and regime axes.
 - Topology edges remain typed relations and are not automatically causal edges.
@@ -81,26 +83,30 @@ This implementation does not claim:
 - that ULK, ULMK, Core-19 semantics, and the executable AST are the same namespace;
 - that `Distinction` and `NonExistence` are equivalent;
 - that paradox or dual logic is universally classical contradiction;
-- that adjacency, topology, temporal order, correlation, or prediction establishes causation;
+- that adjacency, topology, temporal order, correlation, prediction, or implication establishes causation;
 - that every 19 x 19 coordinate has semantics;
 - that `1E∞` is a valid standard mathematical tensor dimension;
 - that all eight canonical ULK logic fragments are executable;
+- that formal entailment is empirical truth;
 - that the host model's neural weights are self-modified by AMOS learning.
 
 ## 3. Verification evidence
 
 Local reconstruction of the staged executable files on 2026-09-14 passed:
 
-- Python bytecode compilation for both runtime modules and both test files.
 - Core-19 runtime suite: 13 tests PASS, 0 FAIL.
 - Classical SAT firewall suite: 2 tests PASS, 0 FAIL.
-- Persisted bounded repair total: 15 tests PASS, 0 FAIL.
+- L09 inference runtime suite: 10 tests PASS, 0 FAIL.
+- Persisted bounded repair total: **25 tests PASS, 0 FAIL** across the three suites.
 - 50,000 seeded randomized unary rewrite trees with zero observed idempotence or double-NLOGIC involution failures.
 - Full four-state Truth4 negation, information-join, and explicit information-order checks.
 - Pairwise-compatible/global-inconsistent counterexample reproduced with `A`, `B`, and `NOT(A AND B)`.
-- SAT atom-limit boundary test fails closed.
-- Promotion-gate negative tests.
-- AMOS math-audit scan of the initial Core-19 runtime/test pair: 110 equation-like records with zero hard failures attributable to those changed files.
+- SAT atom-limit boundary fails closed.
+- P02 unresolved/resolved routing checks.
+- Unsupported-fragment and quantum-rebind fail-closed checks.
+- Causal-evidence boundary check.
+- Confidence-ceiling/unknown checks.
+- Mathematical audit checks for `19 x 19 = 361`, Truth4 negation involution, information-join least-upper-bound behavior, the pairwise/global counterexample, and bounded entailment.
 
 No GitHub Actions workflow run is currently attached to this branch. These are bounded local reconstruction receipts, not CI receipts.
 
@@ -125,6 +131,8 @@ The active lineage remains:
 - Dependent-type executable binding: `NOT_ESTABLISHED` here.
 - Quantum checker/receipt rebind: `PENDING`.
 - Categorical/topos executable binding: `NOT_ESTABLISHED` here.
+- General abductive ranking/calibration: `NOT_ESTABLISHED` here.
+- Domain causal identification: separate engine/evidence required.
 - System-wide automated enforcement and executable closure: `NOT_ESTABLISHED`.
 
 ## 6. Ingestion rule
@@ -155,6 +163,7 @@ AMOS_CANON_INGESTION_RULE:
 - [[02_KERNEL/02_KERNEL_MOC|02_KERNEL]]
 - [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE]]
 - [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]]
+- [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L09_INFERENCE/L09_INFERENCE_MOC|L09_INFERENCE]]
 - [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 - [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
 - [[00_ROOT/00_HOME|00_HOME]]
@@ -175,5 +184,7 @@ RSCF-RELATIONS:
 - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 - IMPLEMENTS_BOUNDED: `core19_runtime.py`
 - IMPLEMENTS_BOUNDED: `classical_sat_firewall.py`
+- IMPLEMENTS_BOUNDED: `inference_runtime.py`
 - VERIFIED_BY_BOUNDED: `test_core19_runtime.py`
 - VERIFIED_BY_BOUNDED: `test_classical_sat_firewall.py`
+- VERIFIED_BY_BOUNDED: `test_inference_runtime.py`
