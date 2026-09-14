@@ -25,11 +25,10 @@ class RegistryTests(unittest.TestCase):
             "amos_ulk_alu06_dependent_pi_checker_v1.py": ALU06_CHECKER_SHA256,
             "amos_ulk_alu08_finite_category_heyting_checker_v1.py": ALU08_CHECKER_SHA256,
         }
-        actual = {
-            filename: hashlib.sha256((root / filename).read_bytes()).hexdigest()
-            for filename in expected
-        }
-        self.assertEqual(actual, expected)
+        for filename, expected_hash in expected.items():
+            with self.subTest(filename=filename):
+                actual_hash = hashlib.sha256((root / filename).read_bytes()).hexdigest()
+                self.assertEqual(actual_hash, expected_hash, filename)
 
     def test_all_eight_namespaces_have_bounded_or_rebound_evidence(self):
         self.assertEqual(
