@@ -43,7 +43,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Checkout exact head only
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           ref: ${{ github.event.pull_request.head.sha || github.sha }}
           fetch-depth: 1
@@ -61,7 +61,7 @@ jobs:
         run: git fetch --no-tags --depth=1 origin "$BASE_SHA"
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: ${{ env.PYTHON_VERSION }}
 
@@ -83,4 +83,5 @@ jobs:
           echo '- Scope: changed Skills/agents + global workflow Python-reference integrity' >> "$GITHUB_STEP_SUMMARY"
           echo '- Fetch scope: exact head + exact comparison base; no full-history checkout' >> "$GITHUB_STEP_SUMMARY"
           echo '- Security: evaluated separately by External Skill Security' >> "$GITHUB_STEP_SUMMARY"
+          echo '- Action dependencies: immutable commit SHAs' >> "$GITHUB_STEP_SUMMARY"
           echo '- A PASS is evidence for these checks only; it is not proof of semantic correctness or safety.' >> "$GITHUB_STEP_SUMMARY"
