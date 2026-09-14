@@ -1,4 +1,6 @@
 ---
+name: amos-github-rscf-ingestion
+description: Research, compare, ingest, and govern knowledge from GitHub repositories into AMOS. Use for repository discovery, SOTA scans, architecture comparison, source-grounded code reading, external agent/skill/tool/workflow evaluation, provenance-preserving ingestion, drift detection, and deciding whether an external mechanism should be rejected, quarantined, adapted, tested, or promoted.
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -6,206 +8,152 @@ rscf-claim: verified
 rscf-provenance: AMOS_corpus
 conclusion_class: AMOS_MODEL
 epistemic_class: SOURCE_CLAIM
-topic: Skill
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
 ---
----
----
 
-# Github Rscf Ingestion
+# AMOS GitHub RSCF Ingestion
 
-## Identity
+Origin architect/steward: **Trang Phan**. Parent: `amos-c10-tech-engineering-master`. This skill turns GitHub repositories into provenance-bound AMOS knowledge and candidate capabilities; it does not treat popularity, documentation, or source availability as proof of correctness or authority.
 
-Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+## Core invariants
 
-## When to Use
+- `REPOSITORY_DISCOVERED != REPOSITORY_TRUSTED`
+- `README_CLAIM != VERIFIED_BEHAVIOR`
+- `POPULAR != BEST_FIT`
+- `CAPABILITY != AUTHORITY`
+- `COPIED != INTEGRATED`
+- `TEST_PASS != GLOBAL_CORRECTNESS`
+- `LATEST != AUTHORITATIVE`
+- `UNKNOWN/GAP != PASS`
 
-- When analyzing software architecture: patterns, dependencies, coupling
-- When discovering program behavior via black-box analysis or symbolic execution
-- When verifying code facts: type safety, memory safety, termination
-- When enforcing bounded code: resource, time, and capability limits
-- When the parent skill (`amos-c10-tech-engineering-master`) routes to this specialized capability
-- When managing lifecycle operations across classify, validate, trace, assess, and detect
-- When detecting drift in evidence chains, provenance freshness, or confidence calibration
-- When validating outputs against domain constraints and epistemic class
+## Retrieval strategy
 
-## Capabilities
+Use progressive disclosure:
 
-- **github_ingestion.analyze_architecture**: Analyze software architecture: patterns, dependencies, coupling, cohesion
-- **github_ingestion.discover_program**: Discover program behavior: black-box analysis, symbolic execution, fuzzing
-- **github_ingestion.verify_code_facts**: Verify code facts: type safety, memory safety, termination, complexity
-- **github_ingestion.optimize_performance**: Optimize performance: profiling, bottleneck analysis, and resource tuning
-- **github_ingestion.enforce_bounds**: Enforce bounded code: resource limits, time limits, and capability limits
-- **github_ingestion.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-- **github_ingestion.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-- **github_ingestion.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **Identity** — repository, owner, default branch, license, current commit/tag, activity/freshness.
+2. **Structure** — README, manifests, architecture docs, entrypoints, major directories, tests, workflows, security policy.
+3. **Mechanism** — inspect only source files needed to understand the candidate pattern.
+4. **Evidence** — tests, benchmarks, CI, issues, releases, security advisories, reproducibility artifacts.
+5. **Integration** — map the mechanism to an existing AMOS owner before proposing new structure.
 
-> **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 127d503d8a4202be) for the full vault-sourced domain knowledge (4363 chars).
+Do not bulk-copy repositories into AMOS knowledge. Extract bounded knowledge cells:
 
-## Operations
+`Claim + Mechanism + Scope + Assumptions + Dependencies + FailureModes + Provenance + Falsifiers`
 
-1. **github_ingestion.analyze_architecture**: Analyze software architecture: patterns, dependencies, coupling, cohesion
-1. **github_ingestion.discover_program**: Discover program behavior: black-box analysis, symbolic execution, fuzzing
-1. **github_ingestion.verify_code_facts**: Verify code facts: type safety, memory safety, termination, complexity
-1. **github_ingestion.optimize_performance**: Optimize performance: profiling, bottleneck analysis, and resource tuning
-1. **github_ingestion.enforce_bounds**: Enforce bounded code: resource limits, time limits, and capability limits
-1. **github_ingestion.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-1. **github_ingestion.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-1. **github_ingestion.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+## Repository ranking
 
-## 11_KNOWLEDGE Vault Content
+Rank candidates by AMOS decision value, not stars alone. Consider:
 
-> **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)
+- source authority and maintainer credibility;
+- current activity and release discipline;
+- architecture relevance to the identified AMOS gap;
+- executable evidence and test quality;
+- security posture and dependency hygiene;
+- interoperability and portability;
+- implementation complexity and coupling cost;
+- license compatibility;
+- observability/replay support;
+- expected reduction in AMOS search, state, execution, or verification cost.
 
-### RSCF Epistemic Substrate
+Star count may be retained as a discovery signal only.
 
-This RSCF engine operates on the AMOS RSCF (Reasoning, Scope, Claim, Falsifier) epistemic substrate.
+## External agent/skill/tool/workflow admission
 
-**RSCF objects**: claim / class / premises / evidence / provenance / scope / regime / freshness / dependencies / competing hypotheses / falsifiers / confidence ceiling.
+For third-party agentic content use this lifecycle:
 
-**RSCF state kinds**: OBSERVATION, SOURCE_CLAIM, DERIVED, MODEL, DECISION, UNKNOWN.
+`DISCOVERED -> QUARANTINED -> STRUCTURALLY_VALID -> SECURITY_REVIEWED -> TESTED -> GOVERNANCE_APPROVED -> ACTIVE`
 
-**RSCF laws**:
+At minimum:
 
-- `CLAIM != FACT`: a claim is not a fact; it must be labeled with epistemic class
-- `CONFIDENCE <= EVIDENCE`: confidence cannot exceed evidence support
-- `FALSIFIER_REQUIRED`: every claim must declare its falsifier
-- `SCOPE_BOUND`: every claim is valid only within its declared scope and regime
-- `PROVENANCE_REQUIRED`: every claim must have traceable provenance
+1. bind source repository + immutable commit/ref;
+2. inspect license and dependencies;
+3. separate instructions from executable code, hooks, tools, MCP config, assets, and network effects;
+4. scan for prompt injection, data exfiltration, hidden execution, excessive agency, credential access, unsafe downloads, tool poisoning, and ambiguous authority;
+5. compare against existing AMOS capability to prevent duplication;
+6. adapt the smallest useful mechanism instead of vendoring the whole framework when possible;
+7. test deterministic behavior, negative cases, regression, replay, and recovery as applicable;
+8. preserve source lineage and unresolved gaps.
 
-**RSCF validation gates**:
+Automated scanners such as Cisco AI Defense Skill Scanner or SkillSpector are evidence providers, not security authorities. A clean scan does not establish safety.
 
-- G1 (Law of Law): no unresolved contradictions
-- G2 (Epistemic class): all claims labeled, no class promotion without evidence
-- G3 (Provenance): source path recorded for every derived claim
-- G4 (Anti-overreach): no claim beyond declared scope
-- G5 (Equation firewall): equations carry status tags
-- G6 (Failure mode): on failure, downgrade, flag, escalate
+## GitHub-native AMOS surfaces
 
-### Epistemic Boundary
+When working in `AMOS-OS`, use repository-native specialization where available:
 
-This RSCF engine is an epistemic governance tool. It does not prove claims are true, that all falsifiers are known, or that the RSCF framework is complete.
+- `.github/agents/amos-architect.agent.md` — architecture/ownership decisions;
+- `.github/agents/amos-skill-security-auditor.agent.md` — external admission/security review;
+- `.github/agents/amos-integration-engineer.agent.md` — approved implementation;
+- `.github/instructions/skills.instructions.md` — Agent Skills packaging/progressive disclosure;
+- `.github/instructions/tools.instructions.md` — tool capability/authority separation;
+- `.github/instructions/workflows.instructions.md` — workflow state/replay/recovery contract.
 
-## Failure Modes
+These roles do not grant themselves commit or deployment authority.
 
-- **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
-- **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
-- **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
-- **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
-- **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and relabel.
+## Capability set
 
-## Validation Gates
+### `github_ingestion.discover`
+Find candidate repositories for a declared AMOS gap and return a ranked shortlist with source identity and freshness.
 
-- **G1 (Law of Law)**: No unresolved contradictions within the skill's scope.
-- **G2 (Epistemic class)**: All claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL — never claim beyond evidence.
-- **G3 (Provenance)**: Source path recorded for every derived claim.
-- **G4 (Anti-overreach)**: No claim beyond the skill's declared scope and epistemic class.
-- **G5 (Equation firewall)**: Equations carry sta
+### `github_ingestion.map_repository`
+Build a deterministic structural map: modules, interfaces, dependencies, entrypoints, tests, configuration, workflows, and security surfaces.
 
-______________________________________________________________________
+### `github_ingestion.extract_mechanism`
+Extract reusable mechanisms and constraints without copying unnecessary source code.
 
-**Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
+### `github_ingestion.compare`
+Compare candidate mechanisms against current AMOS architecture and competing repositories.
 
-## Related
+### `github_ingestion.audit_agentic_content`
+Audit external skills, agents, hooks, MCP/tool declarations, and workflows before admission.
 
-- [[07_SKILLS/amos-github-rscf-ingestion/amos-github-rscf-ingestion_MOC|amos-github-rscf-ingestion_MOC]]
+### `github_ingestion.propose_integration`
+Map the candidate mechanism to the canonical AMOS owner and produce the minimum non-duplicative integration proposal.
 
-## Examples
+### `github_ingestion.detect_drift`
+Revalidate previously ingested knowledge when upstream commits, dependencies, licenses, APIs, benchmarks, or security conditions change.
 
-- **Scenario**: When analyzing software architecture: patterns, dependencies, coupling
+## Output contract
 
-  - **Input**: A query matching this skill's domain (c10)
-  - **Output**: Structured result with epistemic labels and provenance
+For each promoted finding return:
 
-- **Scenario**: When discovering program behavior via black-box analysis or symbolic execution
+- **claim / mechanism**;
+- **source repository + immutable ref**;
+- **epistemic class**;
+- **AMOS owner/gap addressed**;
+- **assumptions and dependencies**;
+- **security/authority implications**;
+- **competing alternatives**;
+- **falsifier or invalidation condition**;
+- **recommended state**: REJECT, WATCH, QUARANTINE, ADAPT, TEST, or PROMOTE;
+- **confidence ceiling** bounded by the weakest load-bearing evidence.
 
-  - **Input**: A query matching this skill's domain (c10)
-  - **Output**: Structured result with epistemic labels and provenance
+## Failure behavior
 
-- **Scenario**: When verifying code facts: type safety, memory safety, termination
-
-  - **Input**: A query matching this skill's domain (c10)
-  - **Output**: Structured result with epistemic labels and provenance
-
-## Anti-Patterns
-
-- **Do not use** for tasks outside the c10 domain
-- **Do not use** when the query requires empirical validation that this skill cannot provide
-- **Do not use** when a parent skill or higher-level orchestrator should route instead
-- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
-- **Do not chain** more than 3 skills without explicit orchestrator approval
-
-## Composition
-
-- **Parent**: `amos-c10-tech-engineering-master` — routes to this skill when c10 specialization is needed
-- **Peers**: Other skills in the `c10` domain may be composed in sequence
-- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
-- **Workflow**: Each skill has a corresponding workflow in `26_WORKFLOWS/`
-- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
-## Evaluation
-
-### Success Criteria
-
-- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
-- Output includes provenance reference to source evidence
-- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
-- Output includes gap flags for unresolved unknowns
-- Output does not exceed declared scope
-
-### Failure Modes
-
-- **Overreach**: Output claims validity beyond its epistemic class
-- **Scope creep**: Output addresses questions outside the declared domain
-- **Provenance loss**: Output cannot trace back to source evidence
-- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
-
-## Error Handling
-
-- **On scope violation**: Reject the query and route back to parent skill
-- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
-- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
-- **On provenance loss**: Mark output as UNKNOWN and require human review
-- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
-## Do not use
-
-- For generic engineering analysis outside the tech/engineering framework
-- To claim empirical validation of software engineering laws
-- As a substitute for domain-specific technical or engineering evidence
-- Outside tech/engineering domain reasoning
+- Missing source identity -> `UNKNOWN/GAP`, no ingestion.
+- Unclear license -> quarantine implementation reuse.
+- Repository docs disagree with executable behavior -> executable evidence wins for implementation claims; preserve the contradiction.
+- Security finding HIGH/CRITICAL unresolved -> fail closed.
+- Existing AMOS owner already covers the mechanism -> improve that owner rather than create a duplicate.
+- Benchmark cannot be reproduced or scope differs -> keep performance claim as SOURCE_CLAIM.
+- Upstream drift invalidates assumptions -> selectively invalidate dependent AMOS knowledge, not unrelated state.
 
 ## References
 
-- `references/references_MOC.md` — loaded on demand
-- `references/vault_domain_knowledge.md` — loaded on demand
-- \`\` — skill Map of Content
-- `amos-c10-tech-engineering-master` — parent skill
-- \`\` — corresponding workflow
-- `amos-github-rscf-ingestion-agent` — corresponding agent
+Load only when needed:
 
-______________________________________________________________________
+- `references/vault_domain_knowledge.md` — legacy vault-derived background.
+- `references/references_MOC.md` — reference map.
+- `11_KNOWLEDGE/SOTA_AGENT_TOOLING_REPOS.md` — prior GitHub SOTA inventory; refresh before relying on unstable facts.
+- `11_KNOWLEDGE/LLM_WIKI/wiki/SOTA_AGENT_SKILL_WORKFLOW_REPOS.md` — synthesized agent/skill/workflow research.
 
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
+## Composition
 
-**MOC:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
+- Parent: `amos-c10-tech-engineering-master`
+- Agent: `amos-github-rscf-ingestion-agent`
+- Workflow: `amos-github-rscf-ingestion-workflow.md`
+- Security peers: `amos-provenance-trust-firewall`, `amos-repair-substrate-capture-resistance-rscf`, `amos-information-exposure-control`
+- Engineering peers: `software-engineering-qa`, `amos-repository-knowledge-acquisition-rscf`, `amos-repository-ast-analysis-rscf`
 
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+## Success criteria
 
-______________________________________________________________________
-
-RSCF-NODE
-node_id: amos-github-rscf-ingestion
-node_type: skill
-path: 07_SKILLS/amos-github-rscf-ingestion/SKILL.md
-RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-- CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
+A successful run produces a smaller, better-grounded integration decision—not merely a larger repository list. No external mechanism is promoted without provenance, scope, security/authority analysis, and evidence appropriate to the claimed implementation state.
