@@ -1,0 +1,16 @@
+bundle_version: 1.0.0
+bundle_date: 2026-09-14
+schema_version: "1.0"
+compatible_with:
+  - chatgpt
+  - codex
+security_verdict: tested_local_reference
+epistemic_class: AMOS_MODEL
+steward: Trang Phan
+files:
+  - path: "SKILL.md"
+  - path: "agents/openai.yaml"
+  - path: "scripts/evaluator_calibration.py"
+  - path: "scripts/calibration_contract_check.py"
+  - path: "references/equations.md"
+  - path: "references/upstream-mechanisms.md"
