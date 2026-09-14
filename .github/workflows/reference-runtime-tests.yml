@@ -1,0 +1,41 @@
+name: Reference Runtime Tests
+
+on:
+  push:
+    paths:
+      - "04_RUNTIME/01_REFERENCE_IMPLEMENTATION/**"
+      - "01_CANON/07_PROVENANCE/URK_CORE19_REPAIR_CANDIDATE_2026-09-14.md"
+      - ".github/workflows/reference-runtime-tests.yml"
+  pull_request:
+    paths:
+      - "04_RUNTIME/01_REFERENCE_IMPLEMENTATION/**"
+      - "01_CANON/07_PROVENANCE/URK_CORE19_REPAIR_CANDIDATE_2026-09-14.md"
+      - ".github/workflows/reference-runtime-tests.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  bounded-reference-runtime:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: 04_RUNTIME/01_REFERENCE_IMPLEMENTATION
+    steps:
+      - name: Checkout exact revision
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install bounded runtime dependencies
+        run: python -m pip install --disable-pip-version-check numpy scipy
+
+      - name: Compile reference runtime
+        run: python -m compileall -q .
+
+      - name: Run complete reference-runtime unittest discovery
+        run: python -m unittest discover -v -p "test_*.py"
