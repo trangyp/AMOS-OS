@@ -148,24 +148,17 @@ class RegistryTests(unittest.TestCase):
         self.assertFalse(binding.canon_promoted)
         self.assertEqual(validate_execution_registry(), ())
 
-    def test_rebound_and_unbound_fragments_are_distinct(self):
-        rebound = (
-            Fragment.ALU02_FIRST_ORDER_UNIFICATION,
-            Fragment.ALU03_TEMPORAL_LTL,
-            Fragment.ALU04_EPISTEMIC_MODAL,
-            Fragment.ALU05_NON_MONOTONIC_DUNG,
-            Fragment.ALU07_QUANTUM_LOGIC,
-            Fragment.ALU08_CATEGORICAL_TOPOS,
-        )
-        for fragment in rebound:
-            self.assertEqual(
-                execution_binding(fragment).status,
-                ExecutionStatus.EXECUTABLE_BOUNDED_CANDIDATE_REBOUND,
-            )
-        self.assertEqual(
-            execution_binding(Fragment.ALU06_DEPENDENT_TYPE).status,
-            ExecutionStatus.SPECIFICATION_ONLY,
-        )
+    def test_all_nonclassical_fragments_are_bounded_rebounds(self):
+        for fragment in Fragment:
+            binding = execution_binding(fragment)
+            if fragment is Fragment.ALU01_CLASSICAL_PROPOSITIONAL:
+                self.assertEqual(binding.status, ExecutionStatus.EXECUTABLE_BOUNDED)
+            else:
+                self.assertEqual(
+                    binding.status,
+                    ExecutionStatus.EXECUTABLE_BOUNDED_CANDIDATE_REBOUND,
+                )
+                self.assertFalse(binding.canon_promoted)
 
     def test_algorithm_precondition_gates(self):
         self.assertTrue(
