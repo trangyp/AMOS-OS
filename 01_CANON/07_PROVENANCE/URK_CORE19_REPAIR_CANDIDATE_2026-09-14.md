@@ -16,19 +16,20 @@ updated: 2026-09-14
 
 This record admits source material into the **candidate** layer only. It does not promote candidate sources, repair specifications, executable projections, or validation receipts to Canon.
 
-Canonical precedence remains governed by `K_CANON`. Freshness, filename, apparent completeness, successful bounded tests, or a runtime binding are insufficient by themselves for canon promotion.
+Canonical precedence remains governed by `K_CANON`. Freshness, filename, apparent completeness, successful bounded tests, or runtime binding are insufficient by themselves for canon promotion.
 
 Origin architect / steward: **Trang Phan**.
 
-## Source inputs
+## Current source identities
 
 ### C1 — Reasoning kernel
 
-- Source collection: Google Drive `_00_AMOS_CANON:`
+- Collection: Google Drive `_00_AMOS_CANON:`
 - File: `Reasoning kernel.txt`
 - Drive file ID: `1Pbd9Tj03FDzgmV09vkVVZv5Ml2uak1-f`
-- Observed revision ID: `0B_FlOTCuYcaFUlU1NDFRalVkY0NOVzg1Wk9CMGd0WEpjYWNNPQ`
-- Observed modified time: `2026-09-14T06:31:43.759Z`
+- Current revision ID: `0B_FlOTCuYcaFdGZTc25IYkhWQVJZQTJaR090R2IzNTdhMXNJPQ`
+- Current modified time: `2026-09-14T11:24:42.693Z`
+- Previous revision ID: `0B_FlOTCuYcaFZmtzdVRRaTIvcW5rcDBVQ3VQbHBWMGE3VHhvPQ`
 - Declared source status: `ACTIVE_REPAIR_SPEC / AMOS_MODEL`
 - Target: `AMOS_CORE v4.4`
 
@@ -36,8 +37,9 @@ Origin architect / steward: **Trang Phan**.
 
 - File: `LOGIC.txt`
 - Drive file ID: `1t4ePB_idXl3alYpZHzgc9jm_0tJjsz6w`
-- Observed revision ID: `0B_FlOTCuYcaFZlcxL1RGUW1BUCs4TEFmVVFlZWZXMzBlUWtvPQ`
-- Observed modified time: `2026-09-14T06:31:35.546Z`
+- Current revision ID: `0B_FlOTCuYcaFZ2ZkelhpT1ZOOW13YWE3dkd0L1liSG40QzVrPQ`
+- Current modified time: `2026-09-14T11:30:15.504Z`
+- Previous revision ID: `0B_FlOTCuYcaFQUpnMVNOMjZVY29CczRMYjBIMmIzOGw3VlQ4PQ`
 - Declared source status: `ACTIVE_REPAIR_SPEC / AMOS_MODEL`
 - Target: `AMOS_CORE v4.4`
 
@@ -45,105 +47,106 @@ Origin architect / steward: **Trang Phan**.
 
 - File: `AMOS_URK_MATHEMATICAL_SUBSTRATE_CANDIDATE_v1.1.json`
 - Drive file ID: `1cEomX8WidF_nQurE2f7tJ8zMlAdfxc2V`
-- Raw SHA-256: `0ee4aea0cda88388e1bf5d116ed34d95dd87d90a61c2b210fc3c8ff0c55c9d59`
+- Recorded SHA-256: `0ee4aea0cda88388e1bf5d116ed34d95dd87d90a61c2b210fc3c8ff0c55c9d59`
 - Status: `PROPOSED_ARCHITECTURE / ACTIVE_CANON_CANDIDATE / NOT_CANON`
-- Validation receipt: `AMOS_URK_MATH_V1_1_VALIDATION_RECEIPT_2026-09-14.json`
-- Receipt Drive file ID: `1f2ue6Szb1B7YGq_L_DOHRQ-vzdOo3InG`
-- Receipt raw SHA-256: `f55fb040dcf1eb34f077bf3e6158da3bc2c90a8def10ea02f1693354545efbbb`
+- Validation receipt file ID: `1f2ue6Szb1B7YGq_L_DOHRQ-vzdOo3InG`
+- Recorded receipt SHA-256: `f55fb040dcf1eb34f077bf3e6158da3bc2c90a8def10ea02f1693354545efbbb`
 
-### C4 — ULK ALU-02 executable profile candidate
-
-- File: `ULK_ALU02_FIRST_ORDER_UNIFICATION_EXECUTABLE_PROFILE_V1_CANDIDATE.json`
-- Drive file ID: `12j8wV7m1nwbRN65N_pnhk_Gd8DXthIz0`
-- Raw SHA-256: `b29829139c8db4dc12e3dce4850a3491eb869e77fd30f40e8ea9c5c434ad7ac0`
-- Canonical semantic owner remains `ULK_LOGIC_KERNEL.md v2.1.0`.
-- Candidate scope: finite first-order **term unification** with occurs-check.
-- Status: `PARTIAL_EXECUTABLE_EVIDENCE_CANDIDATE / NOT_CANON`.
-
-### C5 — ALU-02 checker and receipt
-
-- Checker: `amos_ulk_alu02_unification_reference_checker_v1.py`
-- Drive file ID: `1O_z3t-O7Np_mrpmoem3rBFsIf4DE6dln`
-- Checker SHA-256: `002a4c72adf0afaa7ad1b33792008ea6a525ca43b69ae4eff301c1b06a135275`
-- Receipt: `AMOS_ULK_ALU02_UNIFICATION_VALIDATION_RECEIPT_2026-09-14.json`
-- Receipt Drive file ID: `1-5b0ygR2PDjQrPi-AdefC6_6EbBexOeU`
-- Receipt raw SHA-256: `7e280159e636e50ea46c4e67a3e52fc57c5958a5168ed521992ae8d4259d9489`
-
-### C6 — current unified brain source for ALU-03 and ALU-07
+### C4 — unified brain source for ALU-03 and ALU-07
 
 - File: `unified_brain.py`
 - Drive file ID: `1oDrxdqfF-1HFxwDbW5ooSfsfYfJm05iQ`
-- Current observed revision ID: `0B_FlOTCuYcaFdVpKNEFLOTNHcFM3Q01GVGx4TmpVTTBHVytrPQ`
-- Current revision modified time: `2026-09-14T07:20:40.501Z`
-- Current raw SHA-256: `c04cbe63b3a8d3b67095c17bcfb1c471ccb9841d78412aa086f44fcb35b14d8e`
+- Bound revision ID: `0B_FlOTCuYcaFdVpKNEFLOTNHcFM3Q01GVGx4TmpVTTBHVytrPQ`
+- Recorded whole-file SHA-256: `c04cbe63b3a8d3b67095c17bcfb1c471ccb9841d78412aa086f44fcb35b14d8e`
 - ALU-03 callable AST SHA-256: `9eecefbdc60faa0fe70ff758400174130ac536fc92debe7d85f22d55759c7f9f`
-- ALU-07 callable AST bundle SHA-256: `754402e1a342f4eee7d4bf6c19c155a0ff6257cab82bcaf1f1e3bedbcec98410`
-- Status: executable source evidence for bounded projection only; not Canon promotion.
+- ALU-07 callable AST SHA-256: `754402e1a342f4eee7d4bf6c19c155a0ff6257cab82bcaf1f1e3bedbcec98410`
 
-## Stale whole-file receipt repair
+## Latest source-delta admission
 
-The recursive mutation queue carried an earlier **whole-file** `unified_brain.py` hash for ALU-07. The Drive file subsequently changed, so that monolithic hash no longer identifies the current source.
+The current C1/C2 revisions strengthen the repaired mathematical/type boundaries. Candidate admission includes:
 
-Fail-closed disposition:
+1. **Coordinate field versus tensor**
+   - `URKField : Core19 × Core19 × Scale × Context × Regime × Observer ⇀ Value` is a typed partial coordinate/data field.
+   - an indexed field/array is not an algebraic tensor by shape or naming alone;
+   - algebraic tensor language requires a scalar structure, module/vector-space axis structures, multilinearity/tensor-product semantics, and a basis/variance witness when coordinate coefficients are used.
 
-```text
-STALE_WHOLE_FILE_RECEIPT != CURRENT_CHECKER_IDENTITY
-```
+2. **Structural adjacency versus point-set topology**
+   - the former `TopologyMatrix` name is compatibility terminology for a structural adjacency field only;
+   - graph adjacency/reachability, point-set topology, and causality remain separate mathematical/semantic objects.
 
-The repair therefore does **not** silently accept the old receipt. Current ALU-03 and ALU-07 execution bindings use:
+3. **Selective invalidation governance**
+   - dependency propagation is an AMOS governance/runtime rule, not a universal mathematical axiom;
+   - execution requires explicit dependency orientation, state/epoch binding, closure algorithm binding, and validation receipt;
+   - stale/affected descendants are not thereby proven false.
 
-1. exact Drive file identity;
-2. exact current revision identity;
-3. current whole-file SHA for source-state provenance;
-4. normalized callable-AST hashes for fragment-level semantic identity;
-5. independent current execution tests.
+4. **Partial Core-19 semantics**
+   - 19 positions produce 361 pair coordinates;
+   - coordinate existence does not prove 361 semantic equations;
+   - `UNBOUND` is a valid state.
 
-This narrows invalidation: unrelated changes elsewhere in the monolithic source need not masquerade as logic-fragment semantic changes, while any change to the bound callable AST invalidates the corresponding execution binding.
-
-## Candidate objects admitted for bounded runtime projection
-
-1. **Namespace separation**
-   - `URK_MATH != ULK_LOGIC`.
-   - canonical ULK ALUs, ULMK atomic units, Core-19 semantic coordinates, and executable AST/runtime surfaces remain distinct.
-
-2. **P02 conflict preservation**
-   - historical `NonExistence` and recovered `Distinction` remain `COMPETING` across source lineages.
+5. **P02 source competition**
+   - historical `NonExistence` and recovered `Distinction` remain `COMPETING` across source lineages;
    - namespace/version binding is required for local use.
 
-3. **Four-valued evidence state**
-   - `(supports_true, supports_false)` preserves neither/true-only/false-only/both.
+6. **Four-valued evidence state**
+   - `(supports_true, supports_false)` preserves neither/true-only/false-only/both;
+   - paradox and null states are not collapsed into classical booleans.
 
-4. **Core-19 matrix boundary**
-   - 19 semantic positions give 361 pair coordinates.
-   - coordinate existence does not prove 361 equations.
-   - `UNBOUND` remains valid.
+7. **Core-19 rewrite order**
+   - `NLOGIC(NLOGIC(x)) -> x` is resolved before child descent;
+   - the bounded normalizer is required to remain idempotent and involutive under the admitted fragment.
 
-5. **Typed tensor boundary**
-   - row, column, scale, context, regime, and observer axes remain typed and non-interchangeable.
-   - `1E∞` is not admitted as a standard tensor dimension.
+8. **Finite Boolean reachability**
+   - relation composition uses Boolean-semiring `OR/AND` semantics;
+   - reflexive transitive closure computes graph reachability only;
+   - `REACHABLE != ENTAILS` and `REACHABLE != CAUSES`.
 
-6. **Topology/causality firewall**
-   - relation, adjacency, temporal order, prediction, and reachability do not by themselves establish causation.
+## Current executable projection
 
-7. **Finite relation algebra**
-   - URK-E1 finite relation/Boolean-adjacency encoding.
-   - URK-E2 Boolean-semiring composition for finite relations.
-   - URK-E3 finite reflexive-transitive closure with containment, reflexivity, transitivity, and idempotence checks.
-   - reachability is not logical entailment or causation.
+Repository reference components include:
 
-8. **Core-19 rewrite repair**
-   - `NLOGIC(NLOGIC(x))` is resolved before child descent in the implemented unary fragment.
+- `core19_runtime.py`
+- `core19_tensor_topology.py` (legacy filename; canonical runtime semantics are coordinate field + structural adjacency)
+- `finite_topology_runtime.py`
+- `urk_relation_algebra.py`
+- `internet_algorithm_registry.py`
+- `primitive_contract_runtime.py`
+- `cognitive_matrix_runtime.py`
+- `cognitive_matrix_contract_runtime.py`
+- `ulk_fragment_execution_registry.py`
 
-9. **Logic-fragment execution status**
-   - ALU-01: `EXECUTABLE_BOUNDED` for the bound classical propositional subset.
-   - ALU-02: `EXECUTABLE_BOUNDED_CANDIDATE_REBOUND` for finite first-order **term unification**, not full FOL proof search.
-   - ALU-03: `EXECUTABLE_BOUNDED_CANDIDATE_REBOUND` for finite-trace Boolean temporal semantics over `ATOM/NOT/AND/OR/IMPLIES/X/F/G/U`; not infinite-trace model checking, CTL, or timed logic.
-   - ALU-07: `EXECUTABLE_BOUNDED_CANDIDATE_REBOUND` for the current classical finite-dimensional numerical reference checker over its explicitly enumerated operator surface; not quantum hardware, quantum advantage, or universal quantum-logic completion.
-   - ALU-04, ALU-05, ALU-06, and ALU-08 remain `SPECIFICATION_ONLY` until separately rebound.
+Current ULK execution projection, owned by `ulk_fragment_execution_registry.py`:
 
-10. **Promotion gate**
-   - evidence eligibility and Canon authority remain separate.
-   - executable evidence cannot mint Canon authority.
+- ALU-01 Classical Propositional: `EXECUTABLE_BOUNDED`.
+- ALU-02 First-Order Unification: `EXECUTABLE_BOUNDED_CANDIDATE_REBOUND` — finite first-order term unification with occurs-check, not complete FOL proving.
+- ALU-03 Temporal/LTL: `EXECUTABLE_BOUNDED_CANDIDATE_REBOUND` — finite-trace Boolean temporal semantics, not infinite-trace model checking.
+- ALU-04 Epistemic/Modal: `EXECUTABLE_BOUNDED_CANDIDATE_REBOUND` — finite Kripke propositional modal semantics; no dynamic/common-knowledge/probabilistic/infinite-model completeness claim.
+- ALU-05 Non-Monotonic/Dung: `EXECUTABLE_BOUNDED_CANDIDATE_REBOUND` — finite Dung argumentation subset.
+- ALU-06 Dependent Type: `EXECUTABLE_BOUNDED_CANDIDATE_REBOUND` — bounded dependent Pi-calculus subset, not Lean/Coq or full Calculus of Constructions.
+- ALU-07 Quantum Logic: `EXECUTABLE_BOUNDED_CANDIDATE_REBOUND` — classical finite-dimensional numerical reference subset; no quantum-hardware or quantum-advantage claim.
+- ALU-08 Categorical/Topos: `EXECUTABLE_BOUNDED_CANDIDATE_REBOUND` — finite small-category law + finite Heyting-algebra subset; not elementary-topos certification.
+
+Canonical fragment ownership remains `ULK_LOGIC_KERNEL.md v2.1.0`. Execution evidence does not rewrite Canon.
+
+## Current bounded validation evidence
+
+Repository CI currently exercises the complete reference-runtime unittest discovery. Relevant executed lanes include:
+
+- Core-19/P02/Truth4/rewrite regression tests;
+- coordinate-field versus algebraic-tensor type firewall;
+- structural-adjacency versus point-set-topology firewall;
+- finite topology checks;
+- finite relation algebra and Boolean closure;
+- ULK fragment checker bindings;
+- C01–C09 control-plane coverage registry;
+- generic L00–L29 primitive contract runtime;
+- adversarial primitive identity/provenance/dependency/authority tests.
+
+Latest math type-firewall CI receipt: commit `6047daa3700859139069a1708f44cdf62729b81d`, completed successfully on 2026-09-14.
+
+Latest primitive-contract CI receipt: commit `6e3eea239e796e7bcdd2eb2cc7dced10684804e4`, completed successfully on 2026-09-14.
+
+`TEST_PASS != TRUTH`: these receipts establish bounded executable behavior under their declared test domains only.
 
 ## Quarantined / rejected generalizations
 
@@ -156,67 +159,37 @@ Not admitted as universal runtime laws:
 - `Distinction == NonExistence` across lineages;
 - missing/unknown equals false, zero, or non-existence;
 - every Core-19 coordinate has a proven equation;
+- coordinate/indexed-array shape alone establishes tensor semantics;
+- graph adjacency/reachability establishes point-set topology, logical entailment, or causality;
 - pairwise satisfiability implies global satisfiability;
-- graph reachability implies logical entailment or causation;
-- term unification implies complete FOL theorem proving;
-- finite-trace temporal evaluation implies infinite-trace LTL model checking;
-- a classical finite-dimensional numerical checker implies quantum hardware execution or quantum advantage;
+- dependency invalidation proves descendants false;
+- bounded fragment execution implies complete logic-fragment semantics;
 - source or executable evidence implies Canon promotion.
-
-## Executable projection
-
-Current repository runtime components include:
-
-- `core19_runtime.py`
-- `core19_tensor_topology.py`
-- `urk_relation_algebra.py`
-- `amos_ulk_alu02_unification_reference_checker_v1.py`
-- `amos_ulk_alu03_finite_trace_ltl_checker_v1.py`
-- `amos_ulk_alu07_reference_checker_current.py`
-- `ulk_fragment_execution_registry.py`
-- `internet_algorithm_registry.py`
-
-Bounded verifiers include:
-
-- `test_core19_runtime.py`
-- `test_core19_tensor_topology.py`
-- `test_urk_math_alu02_algorithms.py`
-- `test_alu03_alu07_rebind.py`
-
-Observed current verification includes:
-
-- ALU-02 exact checker hash matches its source receipt; receipt cases plus 3,000 seeded symmetry/idempotence fuzz pairs pass.
-- ALU-03 named cases plus 2,000 seeded randomized formulas match an independent finite-trace evaluator.
-- ALU-07 all 20 bound operator surfaces pass positive tests; malformed/unsupported cases fail closed; 250 seeded random qubit-state trials preserve tested Born-probability, fidelity-self, trace-distance, and unitary-evolution invariants.
-- URK-E1..E3 randomized finite-relation checks pass within their finite domain.
-- Combined current URK/ALU registry regression suite passes after updating stale pre-rebind expectations.
-
-The global AMOS math-audit harness still intentionally exposes its historical T2 probability-labeling counterexample. That finding remains visible and is not misattributed to the current URK/ALU projections.
 
 ## Revalidation triggers
 
 Revalidate when any of the following changes:
 
-- bound Drive source revision or raw hash;
-- ALU-02 checker hash or term ABI;
-- `unified_brain.py` current revision when ALU-03 or ALU-07 is bound to it;
-- ALU-03 or ALU-07 callable AST hash;
+- current `LOGIC.txt` or `Reasoning kernel.txt` revision;
+- bound Drive source revision/hash/AST identity;
 - canonical ULK version/status;
 - `K_CANON` admission rules;
 - AMOS_CORE baseline;
 - P02 lineage evidence;
-- tensor/topology/relation-algebra contracts;
-- test harness, numerical tolerance, random seed, or test domain.
+- coordinate-field/tensor/topology/relation contracts;
+- checker identity or implementation scope;
+- dependency orientation or invalidation epoch;
+- test harness, tolerance, seed, or tested domain.
 
 ## Status
 
 `CANDIDATE_SOURCE -> ADMISSIBLE_BOUNDED_PROJECTION`
 
-`ALU02_TERM_UNIFICATION -> EXECUTABLE_BOUNDED_CANDIDATE_REBOUND`
+`CANONICAL_ULK_OWNER = ULK_LOGIC_KERNEL.md v2.1.0`
 
-`ALU03_FINITE_TRACE_LTL -> EXECUTABLE_BOUNDED_CANDIDATE_REBOUND`
+`ALU01 -> EXECUTABLE_BOUNDED`
 
-`ALU07_FINITE_DIMENSIONAL_REFERENCE -> EXECUTABLE_BOUNDED_CANDIDATE_REBOUND`
+`ALU02..ALU08 -> EXECUTABLE_BOUNDED_CANDIDATE_REBOUND`
 
 `NOT_PROMOTED_TO_CANON`
 
