@@ -1,0 +1,38 @@
+name: Memory Runtime Tests
+
+on:
+  push:
+    paths:
+      - "10_MEMORY/memory_lifecycle_runtime.py"
+      - "10_MEMORY/test_memory_lifecycle_runtime.py"
+      - ".github/workflows/memory-runtime-tests.yml"
+  pull_request:
+    paths:
+      - "10_MEMORY/memory_lifecycle_runtime.py"
+      - "10_MEMORY/test_memory_lifecycle_runtime.py"
+      - ".github/workflows/memory-runtime-tests.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  bounded-memory-runtime:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: 10_MEMORY
+    steps:
+      - name: Checkout exact revision
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compile memory runtime
+        run: python -m compileall -q .
+
+      - name: Run memory lifecycle tests
+        run: python -m unittest -v test_memory_lifecycle_runtime.py
