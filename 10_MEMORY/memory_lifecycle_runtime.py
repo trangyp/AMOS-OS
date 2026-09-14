@@ -15,9 +15,14 @@ from enum import Enum
 from hashlib import sha256
 import json
 import sqlite3
-from typing import Optional, Tuple
+from typing import Optional, Protocol, Tuple
 
-from matrix_registry_runtime import AuthorityWitness
+
+class AuthorityLike(Protocol):
+    witness_id: str
+    scope: Tuple[str, ...]
+    state_version: str
+    fresh: bool
 
 
 class MemoryState(Enum):
@@ -112,11 +117,15 @@ class MemoryLifecycleStore:
         self.conn.close()
 
     @staticmethod
-    def _require_scope(authority: AuthorityWitness, capability: str, scope: str, state_version: str) -> None:
-        if not isinstance(authority, AuthorityWitness):
-            raise MemoryOperationError("authority witness required")
+    def _require_scope(authority: AuthorityLike, capability: str, scope: str, state_version: str) -> None:
         required = f"memory:{capability}:{scope}"
-        if not authority.fresh or authority.state_version != state_version or required not in authority.scope:
+        try:
+            fresh = authority.fresh
+            witness_state = authority.state_version
+            witness_scopes = authority.scope
+        except AttributeError as exc:
+            raise MemoryOperationError("authority witness contract required") from exc
+        if type(fresh) is not bool or not fresh or witness_state != state_version or required not in witness_scopes:
             raise MemoryOperationError(f"missing fresh authority scope: {required}")
 
     @staticmethod
@@ -134,8 +143,7 @@ class MemoryLifecycleStore:
     @staticmethod
     def _validate_times(valid_from: str, valid_to: Optional[str], recorded_at: str) -> None:
         start = _parse_time(valid_from)
-        recorded = _parse_time(recorded_at)
-        del recorded
+        _parse_time(recorded_at)
         if valid_to is not None and _parse_time(valid_to) <= start:
             raise ValueError("valid_to must be later than valid_from")
 
@@ -159,7 +167,7 @@ class MemoryLifecycleStore:
         )
         return event_hash
 
-    def admit(self, *, authority: AuthorityWitness, state_version: str, memory_id: str, origin_id: str,
+    def admit(self, *, authority: AuthorityLike, state_version: str, memory_id: str, origin_id: str,
               scope: str, content: str, valid_from: str, valid_to: Optional[str], recorded_at: str,
               provenance_ids: Tuple[str, ...]) -> MemoryRecord:
         self._validate_identity(memory_id, origin_id, scope, content, provenance_ids)
@@ -177,7 +185,7 @@ class MemoryLifecycleStore:
         return self.get(authority=authority, state_version=state_version, memory_id=memory_id, version=1,
                         forensic=True, forensic_capability="admit")
 
-    def revise(self, *, authority: AuthorityWitness, state_version: str, memory_id: str, expected_version: int,
+    def revise(self, *, authority: AuthorityLike, state_version: str, memory_id: str, expected_version: int,
                content: str, valid_from: str, valid_to: Optional[str], recorded_at: str,
                provenance_ids: Tuple[str, ...]) -> MemoryRecord:
         current = self._current(memory_id)
@@ -204,7 +212,7 @@ class MemoryLifecycleStore:
         return self.get(authority=authority, state_version=state_version, memory_id=memory_id,
                         version=new_version, forensic=True, forensic_capability="revise")
 
-    def transition(self, *, authority: AuthorityWitness, state_version: str, memory_id: str,
+    def transition(self, *, authority: AuthorityLike, state_version: str, memory_id: str,
                    expected_version: int, target: MemoryState, recorded_at: str) -> MemoryRecord:
         if target not in (MemoryState.QUARANTINED, MemoryState.EXPIRED, MemoryState.TOMBSTONED):
             raise MemoryOperationError("unsupported transition target")
@@ -237,7 +245,7 @@ class MemoryLifecycleStore:
             raise MemoryOperationError("unknown memory_id")
         return self._row_to_record(row)
 
-    def get(self, *, authority: AuthorityWitness, state_version: str, memory_id: str,
+    def get(self, *, authority: AuthorityLike, state_version: str, memory_id: str,
             version: Optional[int] = None, forensic: bool = False,
             forensic_capability: str = "forensic") -> MemoryRecord:
         if version is None:
