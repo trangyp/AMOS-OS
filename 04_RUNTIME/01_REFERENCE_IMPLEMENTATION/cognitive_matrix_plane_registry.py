@@ -133,9 +133,19 @@ PLANE_BINDINGS: Mapping[str, PlaneBinding] = {
     ),
     "10_ROUTING": PlaneBinding(
         "10_ROUTING",
-        "Routing",
-        (_REF + "cognitive_matrix_runtime.py",),
-        (_REF + "test_cognitive_matrix_runtime.py",),
+        "Routing and algorithm capability selection",
+        (
+            _REF + "cognitive_matrix_runtime.py",
+            _REF + "internet_algorithm_registry.py",
+            _REF + "foundational_algorithm_runtime.py",
+            _REF + "algorithm_routing_runtime.py",
+        ),
+        (
+            _REF + "test_cognitive_matrix_runtime.py",
+            _REF + "test_internet_algorithm_registry.py",
+            _REF + "test_foundational_algorithm_runtime.py",
+            _REF + "test_algorithm_routing_runtime.py",
+        ),
         PlaneStatus.BOUNDED_PARTIAL,
     ),
     "11_VALIDATION": PlaneBinding(
