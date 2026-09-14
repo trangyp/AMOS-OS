@@ -1,6 +1,6 @@
 ---
 canon-group: meta
-canon-type: framework
+canon-type: runtime_reference
 rscf-state: derived
 rscf-provenance: AMOS_corpus_plus_executable_repair
 conclusion_class: AMOS_MODEL
@@ -17,157 +17,221 @@ canonical_status: CONDITIONAL
 
 Origin architect / steward: **Trang Phan**
 
-## 0. Status
+## Status
 
-The AMOS OS runtime reference plane now contains executable bounded Core-19 and L09 inference repair components in addition to architecture documentation.
+The reference plane now contains bounded executable repairs for:
+
+1. URK/Core-19 typed state and rewrite semantics;
+2. bounded classical satisfiability;
+3. L09 inference routing and entailment;
+4. L10 world-model / reality-contact separation;
+5. shared Cognitive Matrix cell state/evidence/binding validation.
 
 ```text
 PLACEHOLDER != IMPLEMENTED
-ADDRESSABLE != VALIDATED
-DOCUMENTED != ENFORCED
-MODEL != OBSERVATION
+DOCUMENTED != EXECUTABLE
 SOURCE_CLAIM != VERIFIED
+MODEL != OBSERVATION
 CANON_CANDIDATE != CANONICAL
 CAPABILITY != AUTHORITY
 UNKNOWN/GAP != PASS
 ```
 
-The executable artifacts do **not** establish system-wide AMOS executable closure and do **not** promote the 2026-09-14 repair material to Canon.
+These modules are reference implementations. They do not establish system-wide AMOS executable closure.
 
-## 1. Runtime pipeline
+## Runtime components
+
+### URK / Core-19
+
+- `core19_runtime.py`
+- `test_core19_runtime.py`
+
+Implements the 19-coordinate registry, P02 competing-lineage binding, four-valued evidence state, typed matrix/tensor/topology coordinates, fragment implementation status, promotion evidence gates, and repaired `NLOGIC` normalization order.
+
+### Classical satisfiability firewall
+
+- `classical_sat_firewall.py`
+- `test_classical_sat_firewall.py`
+
+Implements exact truth-table satisfiability for the declared bounded Boolean grammar and separates pairwise compatibility from global consistency.
+
+### L09 inference
+
+- `inference_runtime.py`
+- `test_inference_runtime.py`
+
+Implements fail-closed fragment routing, P02 binding, causal-claim separation, global premise consistency, bounded entailment, provenance/dependency carry, confidence ceiling/unknown, and atom-bound handling.
+
+### L10 world modeling
+
+- `world_model_runtime.py`
+- `test_world_model_runtime.py`
+
+Implements representation classes, fidelity envelopes, reality-contact gating, commensurability, exact absolute discrepancy, tolerance classification, conservative provenance/generator ancestry, and tensor-coordinate validation.
+
+### Cognitive Matrix cell contract
+
+- `cognitive_matrix_cell_runtime.py`
+- `test_cognitive_matrix_cell_runtime.py`
+
+Implements typed cell axes, epistemic/runtime statuses, evidence roots/freshness/receipts, semantic/runtime/authority owner separation, `UNBOUND != zero`, and safe transform gates.
+
+## Core semantic repairs
+
+### P02
+
+Cross-lineage P02 remains `COMPETING`:
 
 ```text
-Perceive -> Route -> Admit -> Plan -> Schedule -> Execute -> Observe -> Repair -> Audit -> Finalize
+historical lineage -> NonExistence
+recovered living-map lineage -> Distinction
 ```
 
-## 2. Executable bounded repair surface
+A namespace/version-local binding may choose one meaning locally. No global winner is inferred.
 
-### 2.1 Files
+### Core-19 matrix
 
-- `core19_runtime.py` — executable bounded URK/Core-19 repair runtime.
-- `test_core19_runtime.py` — deterministic/property/adversarial regression tests.
-- `classical_sat_firewall.py` — exact bounded propositional satisfiability firewall.
-- `test_classical_sat_firewall.py` — pairwise-vs-global counterexample and bound tests.
-- `inference_runtime.py` — executable bounded L09 inference gate.
-- `test_inference_runtime.py` — L09 routing, consistency, P02, causal, confidence, and bound tests.
+```text
+19 x 19 = 361 coordinates
+```
 
-### 2.2 Implemented bounded behavior
+This is finite counting, not evidence for 361 semantic laws.
 
-- Exact 19-position Core-19 semantic coordinate registry.
-- P02 is `COMPETING` across source lineages and requires explicit namespace/version binding.
-- Four-valued evidence state `Truth4 = (supports_true, supports_false)` with involutive negation, explicit information partial order, and information-order join.
-- No implicit Python total ordering is exposed for `Truth4`; lexicographic ordering is not substituted for the intended information order.
-- Corrected unary rewrite precedence: `NLOGIC(NLOGIC(x))` is reduced before recursive child normalization.
-- Normalizer idempotence checks for the bounded `ATOM | NOT | NLOGIC` fragment.
-- Exact bounded Boolean satisfiability for `ATOM | NOT | AND | OR | IMPLIES | BOTTOM` with a declared atom bound.
-- Pairwise compatibility is explicitly separated from global consistency.
-- Bounded classical entailment uses the unsatisfiable-countermodel criterion.
-- Inconsistent premise sets remain inspectable and are not promoted into an inference result.
-- L09 routes only to locally executable logic fragments and fails closed for specification-only or rebind-pending fragments.
-- L09 requires explicit P02 namespace/version binding when P02 is used.
-- L09 separates logical inference from causal claims and requires separate causal evidence binding for a causal result.
-- L09 carries dependency claim IDs, provenance, scope, regime, source version, consistency state, entailment state, and confidence ceiling/unknown.
-- 19 x 19 is treated as 361 pair coordinates, not 361 proven equations.
-- Tensor coordinates require explicit row, column, scale, context, and regime axes.
-- Topology edges remain typed relations and are not automatically causal edges.
-- Logic-fragment implementation status is explicit:
-  - classical propositional: `EXECUTABLE_BOUNDED`;
-  - quantum logic: `CANONICAL_BOUNDED_CLAIM_REBIND_PENDING`;
-  - other canonical ULK fragments: `SPECIFICATION_ONLY` in this repair surface.
-- Canon promotion requires every promotion-evidence gate; freshness alone cannot promote a candidate.
+### Tensor state
 
-### 2.3 Explicit non-claims
+Typed axes are explicit. Current repair surfaces use combinations of:
 
-This implementation does not claim:
+```text
+primitive
+field
+row/column
+scale
+context
+time
+observer
+regime
+provenance
+validation status
+consequence
+```
 
-- that ULK, ULMK, Core-19 semantics, and the executable AST are the same namespace;
-- that `Distinction` and `NonExistence` are equivalent;
-- that paradox or dual logic is universally classical contradiction;
-- that adjacency, topology, temporal order, correlation, prediction, or implication establishes causation;
-- that every 19 x 19 coordinate has semantics;
-- that `1E∞` is a valid standard mathematical tensor dimension;
-- that all eight canonical ULK logic fragments are executable;
-- that formal entailment is empirical truth;
-- that the host model's neural weights are self-modified by AMOS learning.
+Axis order or cardinality is not empirical completeness.
 
-## 3. Verification evidence
+### Logic routing
 
-Local reconstruction of the staged executable files on 2026-09-14 passed:
+- Classical propositional: `EXECUTABLE_BOUNDED`.
+- Quantum logic: `CANONICAL_BOUNDED_CLAIM_REBIND_PENDING`.
+- FOL/unification, temporal/LTL, epistemic/modal, non-monotonic/Dung, dependent type, categorical/topos: `SPECIFICATION_ONLY` in this repair surface.
 
-- Core-19 runtime suite: 13 tests PASS, 0 FAIL.
-- Classical SAT firewall suite: 2 tests PASS, 0 FAIL.
-- L09 inference runtime suite: 10 tests PASS, 0 FAIL.
-- Persisted bounded repair total: **25 tests PASS, 0 FAIL** across the three suites.
-- 50,000 seeded randomized unary rewrite trees with zero observed idempotence or double-NLOGIC involution failures.
-- Full four-state Truth4 negation, information-join, and explicit information-order checks.
-- Pairwise-compatible/global-inconsistent counterexample reproduced with `A`, `B`, and `NOT(A AND B)`.
-- SAT atom-limit boundary fails closed.
-- P02 unresolved/resolved routing checks.
-- Unsupported-fragment and quantum-rebind fail-closed checks.
-- Causal-evidence boundary check.
-- Confidence-ceiling/unknown checks.
-- Mathematical audit checks for `19 x 19 = 361`, Truth4 negation involution, information-join least-upper-bound behavior, the pairwise/global counterexample, and bounded entailment.
+### Representation/reality boundary
 
-No GitHub Actions workflow run is currently attached to this branch. These are bounded local reconstruction receipts, not CI receipts.
+```text
+OBSERVED_REALITY
+MEASURED_PROXY
+MODEL_STATE
+SIMULATION
+COUNTERFACTUAL
+SYNTHETIC_DATA
+DIGITAL_TWIN
+FORECAST
+DEPLOYED_OUTCOME
+```
 
-These results are bounded to the staged repair implementation and test harness. They are not universal AMOS correctness evidence.
+These are separate representation classes. Model consistency never silently upgrades a model into an observation.
 
-## 4. Source/canon boundary
+## Verification evidence
 
-The 2026-09-14 `_00_AMOS_CANON` `Reasoning kernel.txt` and `LOGIC.txt` revisions are treated as **candidate source inputs**. Their repair semantics may drive this runtime projection only where admissibility, typing, contradiction handling, and executable checks succeed.
+Local reconstruction on 2026-09-14:
 
-The active lineage remains:
+- Core-19 suite: **13 PASS / 0 FAIL**.
+- Classical SAT suite: **2 PASS / 0 FAIL**.
+- L09 inference suite: **10 PASS / 0 FAIL**.
+- L10 world-model suite: **10 PASS / 0 FAIL**.
+- Cognitive Matrix shared-cell suite: **12 PASS / 0 FAIL**.
+- Combined bounded suites: **47 PASS / 0 FAIL**.
+- Seeded unary rewrite stress: **50,000 trees / 0 observed idempotence or double-NLOGIC involution failures**.
+- Mathematical checks: `19 x 19 = 361`; four-state negation involution; information-join least-upper-bound behavior; pairwise/global SAT counterexample; bounded entailment countermodel criterion.
 
-- AMOS_CORE baseline: `v4.4`.
+No GitHub Actions run is attached to these staged changes. These are local reconstructed branch-artifact receipts, not CI receipts.
+
+```text
+47 LOCAL PASS
+!= UNIVERSAL AMOS CORRECTNESS
+!= ALL-FRAGMENT LOGIC PROOF
+!= DEPLOYMENT VALIDATION
+!= CANON PROMOTION
+```
+
+## Source / canon boundary
+
+The 2026-09-14 `_00_AMOS_CANON` revisions of `Reasoning kernel.txt` and `LOGIC.txt` are treated as candidate source inputs.
+
+Active coordinates remain:
+
+- AMOS_CORE governed baseline: `v4.4`.
 - Canonical ULK artifact: `v2.1.0`.
-- New repair material: `ACTIVE_REPAIR_SPEC / AMOS_MODEL` until separately admitted.
+- 2026-09-14 repair material: `ACTIVE_REPAIR_SPEC / AMOS_MODEL` until admitted through canon governance.
 
-## 5. Remaining gaps
+Newer timestamp or filename does not create canon authority.
 
-- FOL/unification executable binding: `NOT_ESTABLISHED` here.
-- Temporal/LTL executable binding: `NOT_ESTABLISHED` here.
-- Epistemic/modal executable binding: `NOT_ESTABLISHED` here.
-- Non-monotonic/Dung executable binding: `NOT_ESTABLISHED` here.
-- Dependent-type executable binding: `NOT_ESTABLISHED` here.
-- Quantum checker/receipt rebind: `PENDING`.
-- Categorical/topos executable binding: `NOT_ESTABLISHED` here.
-- General abductive ranking/calibration: `NOT_ESTABLISHED` here.
-- Domain causal identification: separate engine/evidence required.
-- System-wide automated enforcement and executable closure: `NOT_ESTABLISHED`.
+## Effect-authority boundary
 
-## 6. Ingestion rule
+The Cognitive Matrix and reasoning runtimes can validate state and produce proposals. They do not authorize durable effects.
+
+Durable/external effects remain subordinate to the AMOS infrastructure/control plane for current intent/policy, observed read sets, semantic transaction lineage, fresh authority, idempotency, release state, receipts/reconciliation, and rollback/finality.
+
+```text
+COMPUTE != AUTHORIZE
+CELL_VALID != EFFECT_COMMITTABLE
+COMMITTABLE != COMMITTED
+```
+
+## Remaining high-value gaps
+
+- executable FOL/unification;
+- temporal/LTL model checking;
+- epistemic/modal engine;
+- non-monotonic/Dung engine;
+- dependent-type checker;
+- quantum checker/receipt rebind;
+- categorical/topos execution;
+- general abductive ranking/calibration;
+- cross-scale world-model transforms with information-loss contracts;
+- probabilistic world-state estimation and calibration;
+- sensor fusion / digital-twin synchronization;
+- Cognitive Matrix coverage and gap registries still largely generated-contract level;
+- system-wide CI-bound executable closure.
+
+## Canon ingestion rule
 
 ```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_file:
-    preserve: true
-    overwrite: false
-  candidate_source:
-    promote_by_freshness: false
-    require:
-      - provenance_traceability
-      - typed_semantics
-      - contradiction_check
-      - dependency_check
-      - executable_or_formal_evidence_when_claimed
-      - canon_authority_for_promotion
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - QUARANTINE_IF_NEEDED
-      - NEVER_INVENT_CANON
+candidate_source:
+  promote_by_freshness: false
+  require:
+    - provenance_traceability
+    - typed_semantics
+    - contradiction_check
+    - dependency_check
+    - mathematical_checks_when_claimed
+    - executable_or_formal_evidence_when_claimed
+    - canon_authority_for_promotion
+uncertainty:
+  preserve:
+    - UNKNOWN_GAP
+    - COMPETING
+    - STALE
+    - QUARANTINED
 ```
 
-## 7. Cross-references
+## Cross-references
 
 - [[02_KERNEL/02_KERNEL_MOC|02_KERNEL]]
 - [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE]]
 - [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]]
 - [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L09_INFERENCE/L09_INFERENCE_MOC|L09_INFERENCE]]
+- [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L10_WORLD_MODELING/L10_WORLD_MODELING_MOC|L10_WORLD_MODELING]]
+- [[25_COGNITIVE_MATRIX/06_CELL_CONTRACTS/06_CELL_CONTRACTS_MOC|CELL_CONTRACTS]]
 - [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
-- [[00_ROOT/00_HOME|00_HOME]]
-- [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 RSCF-NODE
 
@@ -177,14 +241,3 @@ path: 04_RUNTIME/01_REFERENCE_IMPLEMENTATION/README.md
 claim_class: AMOS_MODEL
 rscf_state: DERIVED
 canonical_status: CONDITIONAL
-
-RSCF-RELATIONS:
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- IMPLEMENTS_BOUNDED: `core19_runtime.py`
-- IMPLEMENTS_BOUNDED: `classical_sat_firewall.py`
-- IMPLEMENTS_BOUNDED: `inference_runtime.py`
-- VERIFIED_BY_BOUNDED: `test_core19_runtime.py`
-- VERIFIED_BY_BOUNDED: `test_classical_sat_firewall.py`
-- VERIFIED_BY_BOUNDED: `test_inference_runtime.py`
