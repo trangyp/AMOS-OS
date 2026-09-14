@@ -1,0 +1,49 @@
+name: Harness Evolution Contract
+on:
+  pull_request:
+    paths:
+      - '07_SKILLS/amos-observability-driven-harness-evolution-rscf/**'
+      - '06_AGENTS/amos-observability-driven-harness-evolution-rscf-agent.json'
+      - '08_WORKFLOWS/amos-observability-driven-harness-evolution-rscf-workflow.md'
+      - '26_WORKFLOWS/amos-observability-driven-harness-evolution-rscf-workflow.md'
+      - '14_TOOLS/HARNESS_EVOLUTION_CONTROL_GATE.md'
+      - '14_TOOLS/TOOL_REGISTRY_MASTER.md'
+      - '11_KNOWLEDGE/HARNESS_EVOLUTION_SOURCES.md'
+      - '19_TESTS/test_harness_evolution_runtime.py'
+      - '.github/agents/amos-harness-evolution-auditor.agent.md'
+      - '.github/workflows/harness-evolution-contract.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  harness-evolution-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: '3.12'
+      - name: Compile deterministic surfaces
+        run: |
+          python -m py_compile \
+            07_SKILLS/amos-observability-driven-harness-evolution-rscf/scripts/harness_evolution_runtime.py \
+            07_SKILLS/amos-observability-driven-harness-evolution-rscf/scripts/harness_evolution_contract_check.py \
+            19_TESTS/test_harness_evolution_runtime.py
+      - name: Run harness evolution regression suite
+        run: python -m unittest -q 19_TESTS/test_harness_evolution_runtime.py
+      - name: Run runtime self-tests
+        run: |
+          python 07_SKILLS/amos-observability-driven-harness-evolution-rscf/scripts/harness_evolution_runtime.py
+          python 07_SKILLS/amos-observability-driven-harness-evolution-rscf/scripts/harness_evolution_contract_check.py --self-test
+      - name: Enforce mutation authority and isolation firewalls
+        run: |
+          grep -q 'MUTATION_PROPOSAL != WRITE_AUTHORITY' 07_SKILLS/amos-observability-driven-harness-evolution-rscf/SKILL.md
+          grep -q 'KEEP_RECOMMENDATION != MERGE_AUTHORITY' 07_SKILLS/amos-observability-driven-harness-evolution-rscf/SKILL.md
+          grep -q 'ROLLBACK_RECOMMENDATION != ROLLBACK_EXECUTION' 07_SKILLS/amos-observability-driven-harness-evolution-rscf/SKILL.md
+          grep -q 'VERIFIER_ARTIFACT_VISIBLE_TO_NEXT_AGENT != VALID_EVAL' 07_SKILLS/amos-observability-driven-harness-evolution-rscf/SKILL.md
+          grep -q '"write_authority": "none"' 06_AGENTS/amos-observability-driven-harness-evolution-rscf-agent.json
+          grep -q '"merge_authority": "none"' 06_AGENTS/amos-observability-driven-harness-evolution-rscf-agent.json
+          grep -q '"deployment_authority": "none"' 06_AGENTS/amos-observability-driven-harness-evolution-rscf-agent.json
+          ! grep -q '"promotion_state": "production"' 06_AGENTS/amos-observability-driven-harness-evolution-rscf-agent.json
+          ! grep -q 'log_inputs.*true' 06_AGENTS/amos-observability-driven-harness-evolution-rscf-agent.json
+          ! grep -q '\.devin/skills/' 06_AGENTS/amos-observability-driven-harness-evolution-rscf-agent.json
