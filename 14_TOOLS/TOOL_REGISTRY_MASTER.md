@@ -61,6 +61,7 @@ graph TD
 | **`amos-llm-wiki`** | [[14_TOOLS/AMOS_LLM_WIKI_TOOL]] | T1 | `FS_READ_VAULT` | declared local bound | row-specific evidence required |
 | **`amos-obsidian-linking`** | [[14_TOOLS/AMOS_OBSIDIAN_LINKING_PLUGINS]] | T1 | `FS_READ_VAULT | AST_PARSE` | declared local bound | row-specific evidence required |
 | **`amos-agent-interop-compiler`** | [[14_TOOLS/AMOS_AGENT_INTEROPERABILITY_COMPILER]] | T1 | `FS_READ_AGENT_METADATA | MANIFEST_VALIDATE | MANIFEST_COMPILE` | bounded local process | local positive/negative fixtures + CI on active branch |
+| **`amos-agent-evaluation-review`** | [[14_TOOLS/AGENT_EVALUATION_REVIEW_GATE]] | T1 | `EVAL_RUN_VALIDATE | REVIEW_RECORD_VALIDATE | JUDGE_DISAGREEMENT_AUDIT | SAMPLING_COVERAGE_AUDIT | BASELINE_CANDIDATE_COMPARE | HARNESS_MUTATION_VERDICT` | bounded local SQLite/reference validation | local 20-test regression suite + receipt validator; external judge validity remains separately governed |
 | **`amos-wasi-micro-sandbox`** | [[14_TOOLS/AMOS_SELF_HEALING_AUTONOMOUS_WASI_MICRO_SANDBOX_GUIDE]] | T2 | `WASI_EPHEMERAL | NO_NET` | declared contract | deployment/runtime proof remains row-specific |
 | **`amos-sandbox-execution`** | [[14_TOOLS/SANDBOX_TOOL_EXECUTION_PROTOCOL]] | T2 | `WASI_CORE_COMPUTE` | declared contract | deployment/runtime proof remains row-specific |
 | **`amos-simulation-kernel`** | [[14_TOOLS/SIMULATION_KERNEL_DISCRETE_SYSTEM_DYNAMICS]] | T2 | `ODE_SOLVE | NUMPY_SIMD` | declared contract | benchmark/runtime proof remains row-specific |
@@ -77,6 +78,8 @@ The GitHub research adapter is read-only by contract. Repository mutation is a d
 The interoperability compiler is T1 only when checking metadata or writing projections to stdout/ephemeral scratch. Persisting generated output into authoritative repository state remains a separately authorized write effect.
 
 The trace transport tool never stores transport credentials in its durable outbox or receipts. A network endpoint/header supplied by a caller does not become durable AMOS authority.
+
+The evaluation-review tool is local/read-oriented. `CONTINUE|TERMINATE|ESCALATE`, `KEEP|ROLLBACK|INCONCLUSIVE`, scores, and judge outputs are evaluation evidence only. External model judges or hosted evaluation runners are separate T3 operations and do not inherit authority from this T1 validator.
 
 ## 3. Tool Descriptor Model
 
@@ -139,6 +142,7 @@ This descriptor is an AMOS model schema. It does not assert that every listed to
 6. **Projection separation**: A2A/MCP/OTLP candidate projections do not imply protocol conformance or deployed endpoints unless independently executed and verified.
 7. **Transport separation**: `HTTP_ACK != BACKEND_READBACK_VERIFIED`; `IN_DOUBT != SAFE_TO_BLIND_RETRY`.
 8. **Authority-context separation**: persistent telemetry queues do not establish persistence of authorization context or caller permission.
+9. **Evaluation separation**: `REVIEW_DECISION != RUNTIME_AUTHORITY`; `MODEL_JUDGE_SCORE != GROUND_TRUTH`; `SAMPLED_PASS != COMPLETE_PASS`; `SCORE_DELTA != CAUSAL_ATTRIBUTION`; `EVAL_RESULT != DEPLOYMENT_AUTHORITY`.
 
 ## 5. Cross-Plane Architectural Bindings
 
@@ -146,6 +150,7 @@ This descriptor is an AMOS model schema. It does not assert that every listed to
 - **Tool Contract Specification**: [[14_TOOLS/TOOLS_TOOL_CONTRACT]]
 - **GitHub Research Adapter**: [[14_TOOLS/GITHUB_REPOSITORY_RESEARCH_ADAPTER]]
 - **Agent Interoperability Compiler**: [[14_TOOLS/AMOS_AGENT_INTEROPERABILITY_COMPILER]]
+- **Agent Evaluation Review Gate**: [[14_TOOLS/AGENT_EVALUATION_REVIEW_GATE]]
 - **Agent Trace Transport Verifier**: [[14_TOOLS/AGENT_TRACE_TRANSPORT_VERIFIER]]
 - **WASM Sandbox Capability Ledger**: [[14_TOOLS/WASM_SANDBOX_CAPABILITY_LEDGER]]
 - **Agent Mesh Protocol**: [[06_AGENTS/AGENT_ROLE_REGISTRY]]
