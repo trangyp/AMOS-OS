@@ -142,8 +142,8 @@ class ExecutiveResult:
             raise ValueError("C03 output must remain subject to C01 authorization")
         if self.status is ExecutiveStatus.SELECT_PROPOSAL and not self.selected_candidate_id:
             raise ValueError("SELECT_PROPOSAL requires selected_candidate_id")
-        if self.status is ExecutiveStatus.HOLD_COMPETING and len(self.competing_candidate_ids) < 2:
-            raise ValueError("HOLD_COMPETING requires at least two candidates")
+        if self.status is ExecutiveStatus.HOLD_COMPETING and not self.competing_candidate_ids:
+            raise ValueError("HOLD_COMPETING requires competing evidence or candidates")
 
 
 def _result(request: ExecutiveRequest, status: ExecutiveStatus, *reasons: str,
@@ -185,9 +185,10 @@ def evaluate_executive(request: ExecutiveRequest) -> ExecutiveResult:
             return _result(
                 request,
                 ExecutiveStatus.HOLD_COMPETING,
-                "CANDIDATE_COMPETING_PRESERVED",
+                "CANDIDATE_COMPETING_EVIDENCE_PRESERVED",
                 competing=(candidate.candidate_id,),
                 rejected=tuple(sorted(rejected)),
+                provenance=candidate.provenance_ids,
             )
         admissible.append(candidate)
 
