@@ -100,10 +100,11 @@ If uncertainty distributions are supplied, Shannon entropy change may be positiv
 
 Read `references/trace-model.md` for the exact entropy/KL definitions, assumptions, upstream GitHub provenance, privacy rules, and promotion boundary.
 
-## Progressive references
+## Progressive reference
 
-- `references/trace-model.md` — load for trace schema, mathematics, privacy, effect evidence, or OpenTelemetry/OpenLLMetry/Phoenix provenance.
-- `references/vault_domain_knowledge.md` — load only when historical AMOS AgentOps source claims are specifically needed.
+- `references/trace-model.md` — load for trace schema, mathematics, privacy, effect evidence, upstream observability provenance, or promotion boundaries.
+
+Historical corpus/MOC files may remain in the repository for lineage but are not part of the active runtime loading path.
 
 ## Output contract
 
