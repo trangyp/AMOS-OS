@@ -7,7 +7,6 @@ import sys
 from pathlib import Path
 
 SKILL_DIR = Path(__file__).resolve().parents[2]
-REPO = SKILL_DIR.parents[1]
 VALIDATOR = SKILL_DIR / "scripts" / "trace_contract.py"
 
 
@@ -16,7 +15,7 @@ def main() -> int:
         print("BLOCK: trace_contract.py not found")
         return 1
     result = subprocess.run(
-        [sys.executable, str(VALIDATOR), "--self-test", "--repo", str(REPO)],
+        [sys.executable, str(VALIDATOR), "--self-test"],
         capture_output=True,
         text=True,
         check=False,
