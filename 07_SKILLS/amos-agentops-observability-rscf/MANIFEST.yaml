@@ -17,4 +17,3 @@ files:
   - path: "agents/openai.yaml"
   - path: "references/observability-boundaries.md"
   - path: "scripts/trace_contract_check.py"
-  - path: "amos-agentops-observability-rscf_MOC.md"
