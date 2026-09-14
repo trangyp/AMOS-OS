@@ -1,3 +1,4 @@
+import dataclasses
 import itertools
 import random
 import unittest
@@ -80,7 +81,13 @@ class Core19RuntimeTests(unittest.TestCase):
                 c.ImplementationStatus.EXECUTABLE_BOUNDED_CANDIDATE_REBOUND,
             )
 
-    def test_tensor_coordinate_requires_explicit_scale_context_regime(self):
+    def test_tensor_coordinate_has_exactly_six_typed_axes(self):
+        self.assertEqual(
+            tuple(field.name for field in dataclasses.fields(c.TensorCoordinate)),
+            ("row", "col", "scale", "context", "regime", "observer"),
+        )
+
+    def test_tensor_coordinate_requires_explicit_scale_context_regime_observer(self):
         with self.assertRaises(ValueError):
             c.TensorCoordinate(
                 c.Core19.P01_EXISTENCE,
@@ -88,6 +95,16 @@ class Core19RuntimeTests(unittest.TestCase):
                 "",
                 "ctx",
                 "r",
+                "analyst",
+            )
+        with self.assertRaises(ValueError):
+            c.TensorCoordinate(
+                c.Core19.P01_EXISTENCE,
+                c.Core19.P03_CAUSALITY,
+                "H",
+                "ctx",
+                "r",
+                "",
             )
         coord = c.TensorCoordinate(
             c.Core19.P01_EXISTENCE,
@@ -95,8 +112,10 @@ class Core19RuntimeTests(unittest.TestCase):
             "H",
             "runtime",
             "active",
+            "analyst",
         )
         self.assertEqual(coord.scale, "H")
+        self.assertEqual(coord.observer, "analyst")
 
     def test_promotion_requires_every_gate(self):
         full = dict(
