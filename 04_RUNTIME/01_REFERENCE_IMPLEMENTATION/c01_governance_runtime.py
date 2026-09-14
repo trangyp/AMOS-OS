@@ -48,21 +48,21 @@ class GovernanceRequest:
         for value, name in (
             (self.request_id, "request_id"),
             (self.principal, "principal"),
-            (self.policy_hash, "policy_hash"),
             (self.state_version, "state_version"),
             (self.enforcement_root_id, "enforcement_root_id"),
             (self.precedence_version, "precedence_version"),
             (self.expected_precedence_version, "expected_precedence_version"),
-            (self.decision_receipt_id, "decision_receipt_id"),
             (self.observed_epoch, "observed_epoch"),
             (self.required_epoch, "required_epoch"),
         ):
             if not isinstance(value, str) or not value.strip():
                 raise ValueError(f"{name} must be a non-empty string")
+        if not isinstance(self.policy_hash, str) or not isinstance(self.decision_receipt_id, str):
+            raise ValueError("policy_hash and decision_receipt_id must be strings")
         if type(self.enforcement_root_attested) is not bool or type(self.enforcement_root_agent_write_excluded) is not bool:
             raise ValueError("enforcement-root gates must be bool")
-        if not self.scopes or any(not isinstance(scope, str) or not scope.strip() for scope in self.scopes):
-            raise ValueError("scopes must contain non-empty strings")
+        if any(not isinstance(scope, str) or not scope.strip() for scope in self.scopes):
+            raise ValueError("scope entries must be non-empty strings")
         if len(set(self.scopes)) != len(self.scopes):
             raise ValueError("scopes must be unique")
 
