@@ -1,192 +1,95 @@
 {
   "name": "amos-agent-memory-dynamics-rscf-engine-agent",
-  "display_name": "Agent Memory Dynamics Rscf Engine",
-  "description": "Agent Memory Dynamics Rscf Engine — Memory system engine. Bound to memory domain. Use when memory system engine is needed within the AMOS framework.",
+  "display_name": "AMOS Agent Memory Dynamics",
+  "description": "Govern versioned agent memory, temporal retrieval, context snapshots, provenance, conflicts, quarantine, tombstones, stale-write protection, and local integrity without treating memory as knowledge or granting write authority.",
+  "version": "2.0.0",
   "author": "Trang Phan",
-  "steward": "Trang Phan",
   "system": "AMOS_OS",
-  "role": "Agent Memory Dynamics Rscf Engine — Memory system engine within the memory domain.",
+  "domain": "memory",
   "skill_binding": {
     "primary_skill": "amos-agent-memory-dynamics-rscf-engine",
-    "skill_path": ".devin/skills/amos-agent-memory-dynamics-rscf-engine/SKILL.md"
+    "skill_path": "07_SKILLS/amos-agent-memory-dynamics-rscf-engine/SKILL.md"
   },
   "capabilities": [
     {
-      "name": "agent_memory.manage_memory",
-      "description": "Manage memory: storage, retrieval, decay, and consolidation",
+      "name": "agent_memory.retrieve",
+      "description": "Retrieve authorized memory revisions at a requested time and return them as observations.",
       "side_effect": "read"
     },
     {
-      "name": "agent_memory.resolve_conflict",
-      "description": "Resolve memory conflicts: contradictions, staleness, and priority",
+      "name": "agent_memory.assemble_context",
+      "description": "Assemble a bounded, hash-bound context snapshot from authorized active memory.",
       "side_effect": "read"
     },
     {
-      "name": "agent_memory.enforce_firewall",
-      "description": "Enforce memory firewall: prevent unauthorized access and tampering",
+      "name": "agent_memory.audit_lineage",
+      "description": "Audit revision, provenance, event-chain, conflict, and context-snapshot integrity.",
       "side_effect": "read"
     },
     {
-      "name": "agent_memory.track_dynamics",
-      "description": "Track memory dynamics: formation, consolidation, and forgetting curves",
-      "side_effect": "read"
+      "name": "agent_memory.admit",
+      "description": "Admit a new provenance-bound memory object after external write authority is established.",
+      "side_effect": "write"
     },
     {
-      "name": "agent_memory.manage_lifecycle",
-      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
-      "side_effect": "read"
+      "name": "agent_memory.revise",
+      "description": "Create a new memory revision using optimistic expected-revision control; never overwrite prior history.",
+      "side_effect": "write"
     },
     {
-      "name": "agent_memory.detect_drift",
-      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
-      "side_effect": "read"
+      "name": "agent_memory.quarantine",
+      "description": "Isolate a memory from normal retrieval while preserving lineage.",
+      "side_effect": "write"
     },
     {
-      "name": "agent_memory.validate_outputs",
-      "description": "Validate outputs against domain constraints and epistemic class.",
-      "side_effect": "read"
+      "name": "agent_memory.tombstone",
+      "description": "Make a memory terminal for normal retrieval without physically deleting historical revisions.",
+      "side_effect": "write"
     }
   ],
-  "operations": [
-    {
-      "step": 1,
-      "action": "Load the amos-agent-memory-dynamics-rscf-engine skill and its content",
-      "gate": "skill_loaded"
-    },
-    {
-      "step": 2,
-      "action": "Classify the query against memory sub-capabilities",
-      "gate": "domain_confirmed"
-    },
-    {
-      "step": 3,
-      "action": "Apply the appropriate capability with epistemic class labeling",
-      "gate": "epistemic_labeled"
-    },
-    {
-      "step": 4,
-      "action": "Validate results against domain validation gates",
-      "gate": "gates_passed"
-    },
-    {
-      "step": 5,
-      "action": "Present results with provenance and confidence ceiling",
-      "gate": "output_validated"
-    }
-  ],
-  "integrity_requirements": [
-    "Law of Law: no unresolved contradictions within the skill's scope",
-    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
-    "Provenance: source path recorded for every derived claim",
-    "Anti-overreach: no claim beyond the skill's declared scope",
-    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
-  ],
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "risk_tier": "medium",
+    "write_authority": "external_control_plane_required",
+    "promotion_state": "validated_local_reference",
+    "deployment_authority": "none"
+  },
+  "implementation": {
+    "type": "python",
+    "file": "07_SKILLS/amos-agent-memory-dynamics-rscf-engine/scripts/memory_lifecycle.py",
+    "executable": true,
+    "validated_scope": "local_sqlite_reference"
+  },
   "safety_constraints": [
-    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
-    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+    "Memory retrieval never promotes a claim to knowledge.",
+    "Write capability does not grant write authority.",
+    "Stale revisions fail closed.",
+    "Open conflicts preserve competing memory rather than selecting truth.",
+    "Quarantined and tombstoned memory is excluded from normal retrieval.",
+    "Do not log memory contents by default."
   ],
+  "observability": {
+    "trace_level": "metadata",
+    "log_inputs": false,
+    "log_outputs": false,
+    "log_intermediate": false,
+    "log_memory_content": false,
+    "metrics_enabled": true
+  },
+  "termination_criteria": {
+    "max_steps": 12,
+    "stop_on_authority_gap": true,
+    "stop_on_integrity_failure": true,
+    "stop_on_stale_write": true,
+    "stop_on_unresolved_conflict_for_promotion": true
+  },
   "depends_on_skills": [
-    "amos-agent-memory-dynamics-rscf-engine"
+    "amos-memory-conflict-governor",
+    "amos-information-boundary-governor"
   ],
   "depends_on_workflows": [
     "amos-agent-memory-dynamics-rscf-engine-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
-  "claim_ceiling": 0.95,
-  "lifecycle": {
-    "status": "active",
-    "deprecated": false,
-    "deprecation_date": null,
-    "successor": null
-  },
-  "governance": {
-    "owner_team": "AMOS_CORE",
-    "business_domain": "memory",
-    "risk_tier": "medium",
-    "observability": "structured_logs+content_hash",
-    "approval_mode": "steward_review",
-    "promotion_state": "production"
-  },
-  "content_hash": "f77f45f6bdba82c4",
-  "implementation": {
-    "type": "json",
-    "file": "amos-agent-memory-dynamics-rscf-engine-agent.json",
-    "class": null,
-    "executable": true
-  },
-  "version": "1.1.0",
-  "reasoning_pattern": "Plan-Execute",
-  "termination_criteria": {
-    "max_steps": 10,
-    "max_tokens": 8000,
-    "stop_on_confidence_below": 0.3,
-    "stop_on_critical_gap": true,
-    "stop_on_scope_violation": true,
-    "human_in_the_loop": false
-  },
-  "error_recovery": {
-    "on_timeout": "return partial result with GAP flag",
-    "on_scope_violation": "reject and route to parent",
-    "on_contradiction": "flag CRITICAL_GAP and halt",
-    "on_provenance_loss": "mark as UNKNOWN and request human review",
-    "on_drift": "trigger drift alignment governor"
-  },
-  "context_management": {
-    "strategy": "progressive_disclosure",
-    "max_context_tokens": 4000,
-    "compaction_threshold": 0.8,
-    "scratchpad_enabled": true
-  },
-  "evaluation_metrics": {
-    "success_rate_target": 0.85,
-    "false_positive_rate_max": 0.1,
-    "avg_steps_target": 3.0,
-    "provenance_coverage_target": 1.0
-  },
-  "composition_rules": {
-    "can_delegate_to": [],
-    "can_receive_from": [],
-    "max_chain_depth": 3,
-    "requires_orchestrator": true
-  },
-  "observability": {
-    "trace_level": "full",
-    "log_inputs": true,
-    "log_outputs": true,
-    "log_intermediate": true,
-    "metrics_enabled": true
-  },
-  "tags": [
-    "type/agent",
-    "canon/agent",
-    "domain/memory-systems",
-    "rscf/source_claim",
-    "hml/m",
-    "epistemic/amos_model",
-    "amos_os"
-  ],
-  "origin_architect": "Trang Phan",
-  "rscf_state": "SOURCE_CLAIM",
-  "hml_level": "M",
-  "gmef_gates": [
-    "L0_integrity",
-    "L1_epistemic",
-    "L2_provenance",
-    "L5_scope",
-    "L7_authority"
-  ],
-  "collapse_class": "reversible",
-  "qfm_gate_set": "QFM_v43",
-  "law_compliance": [
-    "L0",
-    "L1",
-    "L2",
-    "L4",
-    "L5",
-    "L7",
-    "L16",
-    "L17",
-    "L18"
-  ],
-  "domain": "memory"
+  "origin_architect": "Trang Phan"
 }
