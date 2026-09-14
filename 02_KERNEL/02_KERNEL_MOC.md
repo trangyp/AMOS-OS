@@ -14,6 +14,7 @@ tags:
   - rscf/state/source-claim
   - misc
 created: 2026-08-22
+updated: 2026-09-14
 ---
 ---
 ---
@@ -23,11 +24,21 @@ created: 2026-08-22
 **Path:** `02_KERNEL`  
 **Role:** Deterministic primitives, axiomatic logic, concurrency ALU, and invariant verification kernels under AMOS Core v4.4.
 
+## Active interpretation guard — 2026-09-14
+
+For URK/Core-19/MURK mathematical or logic interpretation, route through:
+
+- [[02_KERNEL/01_META_LOGIC/URK_CORE19_REPAIR_OVERLAY_2026-09-14|URK / Core-19 Repair Overlay — 2026-09-14]]
+- [[01_CANON/07_PROVENANCE/URK_CORE19_REPAIR_CANDIDATE_2026-09-14|URK / Core-19 Repair Candidate Provenance — 2026-09-14]]
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/core19_runtime.py` for the bounded executable projection.
+
+This guard does not delete or silently rewrite historical kernel artifacts. It prevents stale assumptions such as fixed cross-lineage P02, universal linear time, `1E∞` as standard tensor dimension, total 19×19 semantics, or bottom-up-only double-`NLOGIC` rewriting from being treated as current verified mathematics merely because an older source file contains them.
+
 ## Files & Computational Kernels
 
 - [[02_KERNEL/KERNEL_README|KERNEL_README]]
 - [[02_KERNEL/KERNEL_KERNEL_CONTRACT|KERNEL_KERNEL_CONTRACT]]
-- [[02_KERNEL/ABSOLUTE_LOGIC_KERNEL_19x19|ABSOLUTE_LOGIC_KERNEL_19x19]] — 19×19 Absolute Logic Dimension Kernel
+- [[02_KERNEL/ABSOLUTE_LOGIC_KERNEL_19x19|ABSOLUTE_LOGIC_KERNEL_19x19]] — preserved historical/source 19×19 kernel; apply the active repair overlay before governed runtime use
 - [[02_KERNEL/AMOS_LEGAL_ENGINE_KERNEL|AMOS_LEGAL_ENGINE_KERNEL]] — Formal Contract, Deontic Logic & Compliance Substrate
 - [[02_KERNEL/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]] — Atomic Multi-RSCF Proof Coordination
 - [[02_KERNEL/DETERMINISTIC_LOGIC_KERNEL|DETERMINISTIC_LOGIC_KERNEL]] — Deterministic Logic ALU
