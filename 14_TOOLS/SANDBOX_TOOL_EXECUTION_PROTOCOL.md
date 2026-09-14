@@ -1,164 +1,280 @@
 ---
-title: "Sandboxed Tool Execution Protocol & WASI Capability Attenuation"
+title: "Sandboxed Tool Execution Protocol & Backend-Neutral Execution ABI"
 type: tool_specification
 plane: 14_TOOLS
 amos_core_target: v4.4
 origin_architect: Trang Phan
 steward: Trang Phan
-status: ACTIVE_SPECIFICATION
+status: CONDITIONAL_SPECIFICATION
 epistemic_class: AMOS_MODEL
 conclusion_class: DERIVED
-rscf:
-  state: DERIVED
-  claim_class: AMOS_MODEL
-  provenance:
-    - authoritative_AMOS_OS_structure
-    - 03_CONTROL_PLANE/04_AUTHORITY
-    - 14_TOOLS/14_TOOLS_MOC
-    - 18_SECURITY/18_SECURITY_MOC
-  scope: sandboxed_tool_execution
-tags:
-  - amos-os
-  - tools
-  - sandboxing
-  - wasm
-  - wasi
-  - capability-attenuation
-  - seccomp
-  - firecracker
 ---
 
-# Sandboxed Tool Execution Protocol & WASI Capability Attenuation (STEP-01)
+# Sandboxed Tool Execution Protocol
 
-**Origin Architect & Steward:** Trang Phan
-**Target AMOS Lineage:** v4.4
-**Plane:** `14_TOOLS`
-**Status:** `ACTIVE_SPECIFICATION`
-**Epistemic Classification:** `AMOS_MODEL` / `DERIVED`
+**Origin Architect & Steward:** Trang Phan  
+**Plane:** `14_TOOLS`  
+**Status:** `CONDITIONAL_SPECIFICATION`  
+**Epistemic class:** `AMOS_MODEL`
 
----
+## 1. Purpose
 
-## 1. Executive Summary & Security Isolation Envelopes
+Define a backend-neutral execution contract for commands, scripts, interpreters, and tool processes invoked by AMOS agents.
 
-The **Sandboxed Tool Execution Protocol (STEP-01)** enforces zero-trust execution boundaries for all tool invocations made by autonomous cognitive agents. Tools execute within transient WebAssembly ($\text{WASM/WASI}$) micro-sandboxes or lightweight microVMs ($\text{Firecracker}$) with strict capability attenuation, deterministic filesystem redirection, and syscall whitelisting.
+The contract separates agent logic from execution infrastructure:
 
 ```text
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                    ZERO-TRUST TOOL EXECUTION PIPELINE                       │
-│                                                                             │
-│  [Autonomous Agent] ──► Submits JSON-RPC Tool Invocation Request            │
-│                               │                                             │
-│                               ▼                                             │
-│  [Control Plane Gate (03)] ──► Verifies Ed25519 Capability Token            │
-│                               │ Attenuates Privileges: T_tool ⊑ T_agent     │
-│                               ▼                                             │
-│  [WASI / Firecracker Sandbox] ──► Spawns Isolated Container                 │
-│                               │ - Seccomp-BPF: Only 12 allowed syscalls     │
-│                               │ - Memory Limit: 256 MB, CPU Timeout: 2.0 s  │
-│                               │ - Filesystem: Scratch-only virtual chroot   │
-│                               ▼                                             │
-│  [Deterministic Output]    ──► Emits BLAKE3 Execution Trace & Closes VM     │
-└─────────────────────────────────────────────────────────────────────────────┘
+Agent proposal
+    -> AMOS authority / capability gate
+    -> Execution ABI
+    -> Selected backend adapter
+    -> Environment-specific isolation
+    -> Typed execution result + receipt
+    -> Output admission
 ```
 
----
+The execution backend may be a local constrained process, WASI runtime, container, microVM, remote machine, cloud sandbox, or another admitted environment. The backend name alone is not evidence of isolation strength.
 
-## 2. Nine-Part AMOS Control Contract
+## 2. External source capsule
 
-### 2.1 ROLE
-Guarantees absolute process, memory, filesystem, and network isolation for all external tool executions invoked by autonomous agents.
+`SWE-agent/SWE-ReX@5c995c365dfb1fd5bc56fda688be5d8538f9931f` was inspected as `SOURCE_CLAIM` for the useful architectural pattern of separating agent logic from execution infrastructure while preserving one runtime interface across local/remote environments and multiple shell sessions.
 
-### 2.2 INTERFACES
-- `ISandboxSpawner`: Initializes and executes transient WASI / MicroVM instances.
-- `ICapabilityFilter`: Restricts tool capability tokens to the minimal required permission subset.
-- `IResourceGovernor`: Monitors and enforces real-time CPU, memory, and disk I/O quotas.
-- `ITraceSealer`: Collects standard out, error streams, and return values, producing signed BLAKE3 execution receipts.
+AMOS adopts the separation pattern only. It does not claim SWE-ReX behavior, performance, or security as AMOS runtime evidence.
 
-### 2.3 DEPENDENCIES
-- `03_CONTROL_PLANE`: Authority matrices and capability grant issuance.
-- `04_RUNTIME`: Process execution thread pools and event loop schedulers.
-- `14_TOOLS`: Tool registry and binary definition catalog.
-- `18_SECURITY`: Seccomp policies, cgroup configurations, and cryptographic token verification.
+## 3. Hard boundaries
 
-### 2.4 INVARIANTS
-1. **Capability Attenuation Invariant**: $T_{\text{tool}} \sqsubseteq T_{\text{agent}}$ and $\text{Scope}(T_{\text{tool}}) \subseteq \text{Scope}(T_{\text{agent}}) \cap \text{PermittedResources}(\text{ToolID})$.
-2. **Ephemeral Lifecycle Invariant**: Sandboxes are completely destroyed immediately after execution; no persistent state lingers across invocations.
-3. **No Unrestricted Network Invariant**: Tools cannot open raw TCP/UDP sockets; external network access is mediated exclusively via authenticated host proxy endpoints.
-4. **Deterministic Receipting**: Every tool invocation produces an immutable execution trace committed to [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY]].
+`AGENT_LOGIC != EXECUTION_BACKEND`
 
-### 2.5 AUTHORITY
-Governed by `AMOS_CORE v4.4`, origin architect **Trang Phan**.
+`SANDBOX_REQUESTED != ISOLATION_VERIFIED`
 
-### 2.6 PROVENANCE
-Engineered from Linux namespace isolation standards, WASI capability models, and Firecracker microVM hypervisor architectures.
+`PROCESS_STARTED != TASK_SUCCEEDED`
 
-### 2.7 TESTS
-- Escape resistance fuzzing under adversarial C/Rust WASM exploits.
-- Strict resource quota enforcement tests (OOM and CPU timeout termination).
-- Sandbox startup latency benchmark ($< 1.8\text{ ms}$ for WASI, $< 8.5\text{ ms}$ for Firecracker).
+`EXIT_CODE_0 != SEMANTIC_CORRECTNESS`
 
-### 2.8 FAILURE MODES
-- Tool process timeout or infinite loop.
-- Out-of-memory ($\text{OOM}$) allocation attempt.
-- Unauthorized syscall or filesystem escape attempt.
+`BACKEND_AVAILABLE != BACKEND_AUTHORIZED`
 
-### 2.9 RECOVERY
-- Immediate SIGKILL signal dispatched to sandbox process upon timeout or violation.
-- Emission of structured error receipt with stack trace to parent agent; no host system corruption.
+`SESSION_EXISTS != SESSION_FRESH`
 
----
+`TOOL_OUTPUT != TRUSTED_INSTRUCTION`
 
-## 3. Mathematical Capability Attenuation Lattice
+A sandbox label, container boundary, VM boundary, WASI runtime, or remote host is never promoted to a verified security claim without evidence for the exact backend/version/configuration.
 
-Let $\mathcal{C}$ be the capability lattice defined under the partial order $\sqsubseteq$ where $c_1 \sqsubseteq c_2$ indicates that privilege set $c_1$ is a strict subset of $c_2$.
+## 4. Typed execution ABI
 
-$$\text{Scope}(T_{\text{tool}}) = \text{Attenuate}(T_{\text{agent}}, \text{ToolPolicy}) = T_{\text{agent}} \sqcap T_{\text{tool\_def}}$$
+### 4.1 `ExecutionEnvironmentDescriptor`
 
-### Seccomp-BPF Syscall Filter Whitelist:
-Only 12 deterministic POSIX syscalls are permitted within the WASI environment:
-$$\text{SyscallWhitelist} = \{\text{read}, \text{write}, \text{close}, \text{fstat}, \text{lseek}, \text{mmap}, \text{munmap}, \text{exit\_group}, \text{clock\_gettime}, \text{sched\_yield}, \text{brk}, \text{futex}\}$$
+Every admitted backend instance must expose at least:
 
-All other syscalls (including `socket`, `connect`, `fork`, `execve`, `ptrace`) trigger an immediate hardware trap and container termination.
+```text
+backend_id
+backend_version
+adapter_version
+isolation_class
+platform_os
+platform_arch
+artifact_or_image_digest
+session_id
+session_generation
+filesystem_policy
+network_policy
+environment_policy
+resource_limits
+created_at
+expires_at | null
+provenance
+```
 
----
+`isolation_class` is descriptive until validated. Examples may include `LOCAL_RESTRICTED`, `WASI`, `CONTAINER`, `MICROVM`, `REMOTE_HOST`, or `UNKNOWN`.
 
-## 4. Resource Allocation Quotas & Latency SLAs
+### 4.2 `ExecutionRequest`
 
-| Quota Category | Strict Limit | Enforcement Mechanism | Violation Action |
-| :--- | :--- | :--- | :--- |
-| **Max Wall-Clock Time** | $2000\text{ ms}$ | POSIX timer / WASI fuel injection | Immediate SIGKILL & timeout receipt |
-| **Max Resident Memory** | $256\text{ MB}$ | Linux cgroup v2 `memory.max` | Immediate SIGKILL (`OOM_KILL`) |
-| **Max Scratch Disk Write**| $10\text{ MB}$ | Ephemeral `tmpfs` quota | Write error (`ENOSPC`) returned |
-| **Max Network Bandwidth**| $0\text{ B/s}$ (Raw) | Network namespace isolation | Socket creation blocked (`EPERM`) |
-| **Sandbox Boot Time** | $< 2.0\text{ ms}$ | Pre-warmed WASI engine pool | Latency alarm if $> 5.0\text{ ms}$ |
+```text
+execution_id
+principal
+task_id
+tool_id
+argv
+cwd
+stdin_policy
+environment_allowlist
+filesystem_grants
+network_grants
+timeout
+resource_budget
+capability_contract_hash
+authority_witness_ref
+expected_environment_hash
+idempotency_key | null
+```
 
----
+Shell text is not the canonical request form when a structured `argv` representation is possible.
 
-## 5. AMOS OS MECE Plane Integration
+### 4.3 `ExecutionResult`
 
-| AMOS Plane | Role & Responsibilities |
-| :--- | :--- |
-| **[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE]]** | Mints attenuated capability tokens and audits permission scopes. |
-| **[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME]]** | Manages asynchronous process execution threads and IPC streams. |
-| **[[14_TOOLS/14_TOOLS_MOC|14_TOOLS]]** | Host plane housing tool definitions, schemas, and WASM binaries. |
-| **[[18_SECURITY/18_SECURITY_MOC|18_SECURITY]]** | Configures seccomp filters, AppArmor profiles, and encryption keys. |
-| **[[20_OPERATIONS/20_OPERATIONS_MOC|20_OPERATIONS]]** | Logs resource usage statistics and audit trail receipts. |
+```text
+execution_id
+session_id
+session_generation
+environment_hash
+started_at
+finished_at
+termination_reason
+exit_code | null
+stdout_digest
+stderr_digest
+stdout_size
+stderr_size
+resource_observation
+side_effect_state
+receipt_ref
+```
 
----
+Allowed `termination_reason` values should distinguish at least:
 
-## 6. Structural Invariants & Governance
+`EXITED | TIMEOUT | CANCELLED | RESOURCE_LIMIT | POLICY_BLOCK | TRANSPORT_LOST | BACKEND_FAILURE | EXTERNALIZED_UNKNOWN`
 
-1. **Isolation Sovereignty**: A security failure in a tool container cannot compromise other agents or the kernel core.
-2. **Append-Only Telemetry**: Tool standard output and error streams are cryptographically signed before parent delivery.
-3. **No Unwarranted Promotion**: Successful tool execution proves operational completion, not epistemological truth.
-4. **Lineage**: Governed under AMOS v4.4; origin steward **Trang Phan**.
+Do not collapse these states into one boolean success flag.
 
----
+## 5. Capability attenuation
 
-## 7. Cross-Plane References
+Let all capability sets be subsets of one explicitly defined capability universe `U`.
 
-- Tools Plane MOC: [[14_TOOLS/14_TOOLS_MOC|14_TOOLS MOC]]
-- Tools Master Contract: [[14_TOOLS/TOOLS_TOOL_CONTRACT|TOOLS_TOOL_CONTRACT]]
-- Self-Healing WASI Micro-Sandbox: [[14_TOOLS/AMOS_SELF_HEALING_AUTONOMOUS_WASI_MICRO_SANDBOX_GUIDE|WASI Micro-Sandbox Guide]]
-- Task Handoff Protocol: [[09_PROTOCOLS/TASK_HANDOFF_PROTOCOL|TASK_HANDOFF_PROTOCOL]]
-- Security Plane MOC: [[18_SECURITY/18_SECURITY_MOC|18_SECURITY MOC]]
+For a request with agent capabilities `C_a`, tool-declared capabilities `C_t`, backend capabilities `C_b`, and task-authorized capabilities `C_q`, define:
+
+```text
+C_effective := C_a ∩ C_t ∩ C_b ∩ C_q
+```
+
+This is a set definition, not an empirical security guarantee.
+
+Execution is admissible only when every requested capability is contained in `C_effective` and the authority witness remains valid for the exact effect at dispatch/commit boundaries.
+
+A backend may further attenuate capabilities. It may never widen them.
+
+## 6. Filesystem, environment, and network rules
+
+### Filesystem
+
+- Default to no host filesystem access except explicitly granted roots.
+- Normalize paths before policy evaluation.
+- Prevent path traversal and symlink escape where the backend permits filesystem access.
+- Distinguish read, write, create, delete, and execute permission.
+- Persistent mounts require explicit state ownership and cleanup semantics.
+
+### Environment
+
+- Use allowlists for variables passed to tool processes.
+- Strip model/API tokens and unrelated credentials unless explicitly required and authorized.
+- Never copy the full parent environment by default for untrusted tooling.
+
+### Network
+
+- Default network policy is backend- and task-specific, not universally zero-network.
+- Distinguish DNS, destination, port/protocol, ingress, egress, and proxy-mediated access when material.
+- Remote API adapters are network capabilities and require their own authority/policy checks; they are not converted into local sandbox processes for conceptual uniformity.
+
+## 7. Session lifecycle
+
+Support two explicit classes:
+
+### Ephemeral execution
+
+A new environment/session is created for one bounded task or invocation and disposed afterward.
+
+### Managed persistent session
+
+Long-running shell/debugger/interpreter sessions may persist across multiple calls only when the session has:
+
+- stable identity and generation;
+- owner/principal binding;
+- capability envelope;
+- idle and absolute expiry;
+- resource budget;
+- cancellation path;
+- stale-session fencing;
+- provenance and receipt lineage.
+
+An expired or replaced session cannot commit new effects.
+
+## 8. Parallel execution
+
+Parallel sessions are allowed only when budgets and state interactions are explicit.
+
+Before concurrent execution, determine whether sessions can touch shared durable state. If shared writes are possible, use the applicable AMOS concurrency/commit control rather than assuming process isolation provides state isolation.
+
+`PROCESS_ISOLATION != STATE_INDEPENDENCE`
+
+## 9. MCP and agent-tool discovery
+
+Starting a local stdio MCP server to retrieve tool descriptions is process execution. Apply the same execution contract to discovery launches.
+
+For unresolved third-party trust:
+
+1. prefer static configuration inspection;
+2. require explicit launch authority;
+3. use an admitted disposable environment where practical;
+4. constrain environment/network/filesystem access;
+5. treat returned tool descriptions/prompts/resources as untrusted input;
+6. destroy or quarantine the environment after inspection according to policy.
+
+See [[14_TOOLS/AGENT_PROTOCOL_GATEWAY_POLICY|Agent Protocol Gateway Policy]].
+
+## 10. Recovery and ambiguous effects
+
+A timeout, transport loss, or backend crash does not prove that an external effect failed to occur.
+
+If a tool may have externalized a durable effect and completion is unknown:
+
+- return `EXTERNALIZED_UNKNOWN`;
+- preserve the idempotency/effect identity;
+- reconcile against the authoritative receiver/release ledger;
+- do not blind-retry.
+
+## 11. Verification requirements
+
+Isolation claims are backend-specific. Promote a backend from candidate to validated only after tests appropriate to its declared envelope, including where applicable:
+
+- filesystem traversal/symlink escape;
+- environment/credential leakage;
+- unauthorized network access;
+- timeout and cancellation;
+- memory/CPU/disk limits;
+- malformed process output;
+- session expiry and stale-session fencing;
+- concurrent-session interference;
+- transport loss and ambiguous effect reconciliation;
+- adversarial command/argument handling;
+- cleanup or persistent-state ownership.
+
+Performance numbers must be measured on the exact backend/version/environment and must not be embedded as universal AMOS constants.
+
+## 12. Result states
+
+Use bounded states rather than an unconditional `sandboxed=true` flag:
+
+- `ENVIRONMENT_ADMITTED`
+- `ENVIRONMENT_CONDITIONAL`
+- `BLOCK_CAPABILITY`
+- `BLOCK_AUTHORITY`
+- `BLOCK_ENVIRONMENT_IDENTITY`
+- `BLOCK_POLICY`
+- `TIMEOUT`
+- `RESOURCE_LIMIT`
+- `CANCELLED`
+- `EXTERNALIZED_UNKNOWN`
+- `UNKNOWN_GAP`
+
+## 13. Implementation boundary
+
+This specification does not prove that AMOS currently provides WASI, Firecracker, container, remote-host, or cloud-sandbox execution. Concrete backend adapters and their executed receipts must establish implementation status independently.
+
+No universal syscall whitelist, boot-time SLA, memory quota, or escape-resistance guarantee is asserted by this contract.
+
+## 14. Cross-plane bindings
+
+- [[14_TOOLS/TOOLS_TOOL_CONTRACT|Tools Tool Contract]]
+- [[14_TOOLS/AGENT_PROTOCOL_GATEWAY_POLICY|Agent Protocol Gateway Policy]]
+- [[03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT|Control Plane]]
+- [[04_RUNTIME/04_RUNTIME_MOC|Runtime]]
+- [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|Observability]]
+- [[18_SECURITY/18_SECURITY_MOC|Security]]
