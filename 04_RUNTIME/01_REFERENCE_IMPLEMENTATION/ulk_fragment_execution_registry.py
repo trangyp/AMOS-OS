@@ -43,8 +43,8 @@ class ExecutionBinding:
 
 
 ALU02_CHECKER_SHA256 = "002a4c72adf0afaa7ad1b33792008ea6a525ca43b69ae4eff301c1b06a135275"
-ALU04_CHECKER_SHA256 = "d54bcc3d6eecd4a07a1f4174b3c36f6fe928d2683f01b98269da64e0e2797bbd"
-ALU05_CHECKER_SHA256 = "966f687c902988e5127a8e38df9984dbff3da6f6eeda22db25f92120b7faeec1"
+ALU04_CHECKER_SHA256 = "869d095013dabdfdce089e1f4065350417b5e77722c26738d6beded0ec87eac0"
+ALU05_CHECKER_SHA256 = "8e613729ca3a0ef9d24a8bafba432ab9b358fe3c2b4a8ac945ee7b1660ed658c"
 ALU06_CHECKER_SHA256 = "12a0907cfce261d5b9dd2fea46ee9496994663735bf4bee7f8006f9b43e6fec3"
 ALU08_CHECKER_SHA256 = "d7ecd0cd5358b374c49a722e2fe084eb957b7719d903f386e263928625e1cd83"
 UNIFIED_BRAIN_CURRENT_REVISION = "0B_FlOTCuYcaFdVpKNEFLOTNHcFM3Q01GVGx4TmpVTTBHVytrPQ"
@@ -80,14 +80,14 @@ _BINDINGS: Dict[Fragment, ExecutionBinding] = {
         ExecutionStatus.EXECUTABLE_BOUNDED_CANDIDATE_REBOUND,
         "amos_ulk_alu04_finite_kripke_checker_v1.py",
         ALU04_CHECKER_SHA256,
-        "finite Kripke-model propositional modal semantics for NOT/AND/OR/IMPLIES/BOX/DIAMOND; no dynamic/common-knowledge/probabilistic/infinite-model completeness claim",
+        "finite Kripke-model propositional modal semantics for NOT/AND/OR/IMPLIES/BOX/DIAMOND; undeclared agents and malformed formula structure fail closed; no dynamic/common-knowledge/probabilistic/infinite-model completeness claim",
     ),
     Fragment.ALU05_NON_MONOTONIC_DUNG: ExecutionBinding(
         Fragment.ALU05_NON_MONOTONIC_DUNG,
         ExecutionStatus.EXECUTABLE_BOUNDED_CANDIDATE_REBOUND,
         "amos_ulk_alu05_dung_checker_v1.py",
         ALU05_CHECKER_SHA256,
-        "finite Dung abstract argumentation: conflict-free, defence, characteristic function, grounded extension, admissibility, bounded preferred enumeration",
+        "finite Dung abstract argumentation: conflict-free, defence, characteristic function, grounded extension, admissibility, bounded preferred enumeration with explicit argument-set validation",
     ),
     Fragment.ALU06_DEPENDENT_TYPE: ExecutionBinding(
         Fragment.ALU06_DEPENDENT_TYPE,
