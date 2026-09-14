@@ -1,0 +1,3 @@
+interface:
+  display_name: "AMOS Distributed Attack Composition Monitor"
+  short_description: "Detect harmful cross-agent/action composition without treating local allow as global safety"
