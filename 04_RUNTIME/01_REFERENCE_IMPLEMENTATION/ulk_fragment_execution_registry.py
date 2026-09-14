@@ -39,6 +39,7 @@ class ExecutionBinding:
 
 
 ALU02_CHECKER_SHA256 = "002a4c72adf0afaa7ad1b33792008ea6a525ca43b69ae4eff301c1b06a135275"
+SEMANTIC_FRAGMENT_CHECKER_SHA256 = "c45868caff137161d32d06f9cd4534b173efa7e5c605f073f259c2cebe9363b9"
 
 _BINDINGS: Dict[Fragment, ExecutionBinding] = {
     Fragment.ALU01_CLASSICAL_PROPOSITIONAL: ExecutionBinding(
@@ -54,6 +55,27 @@ _BINDINGS: Dict[Fragment, ExecutionBinding] = {
         "amos_ulk_alu02_unification_reference_checker_v1.py",
         ALU02_CHECKER_SHA256,
         "finite first-order term unification over variables/constants/function terms with occurs-check",
+    ),
+    Fragment.ALU03_TEMPORAL_LTL: ExecutionBinding(
+        Fragment.ALU03_TEMPORAL_LTL,
+        ExecutionStatus.EXECUTABLE_BOUNDED_CANDIDATE_REBOUND,
+        "ulk_semantic_fragments_runtime.py/evaluate_ltlf",
+        SEMANTIC_FRAGMENT_CHECKER_SHA256,
+        "finite non-empty traces; Boolean connectives plus strong X, F, G, and U semantics",
+    ),
+    Fragment.ALU04_EPISTEMIC_MODAL: ExecutionBinding(
+        Fragment.ALU04_EPISTEMIC_MODAL,
+        ExecutionStatus.EXECUTABLE_BOUNDED_CANDIDATE_REBOUND,
+        "ulk_semantic_fragments_runtime.py/evaluate_modal",
+        SEMANTIC_FRAGMENT_CHECKER_SHA256,
+        "finite relational Kripke semantics; agent accessibility is explicit; S5 is checked, never assumed",
+    ),
+    Fragment.ALU05_NON_MONOTONIC_DUNG: ExecutionBinding(
+        Fragment.ALU05_NON_MONOTONIC_DUNG,
+        ExecutionStatus.EXECUTABLE_BOUNDED_CANDIDATE_REBOUND,
+        "ulk_semantic_fragments_runtime.py/ArgumentationFramework.grounded_extension",
+        SEMANTIC_FRAGMENT_CHECKER_SHA256,
+        "finite Dung abstract argumentation grounded semantics only",
     ),
     Fragment.ALU07_QUANTUM_LOGIC: ExecutionBinding(
         Fragment.ALU07_QUANTUM_LOGIC,
@@ -80,18 +102,31 @@ def execution_binding(fragment: Fragment) -> ExecutionBinding:
 
 def validate_execution_registry() -> tuple[str, ...]:
     failures = []
+
     alu02 = execution_binding(Fragment.ALU02_FIRST_ORDER_UNIFICATION)
     if alu02.canon_promoted:
         failures.append("ALU02_CANDIDATE_MUST_NOT_SELF_PROMOTE_CANON")
     if alu02.checker_sha256 != ALU02_CHECKER_SHA256:
         failures.append("ALU02_CHECKER_HASH_MISMATCH")
+
     for frag in (
         Fragment.ALU03_TEMPORAL_LTL,
         Fragment.ALU04_EPISTEMIC_MODAL,
         Fragment.ALU05_NON_MONOTONIC_DUNG,
+    ):
+        binding = execution_binding(frag)
+        if binding.status is not ExecutionStatus.EXECUTABLE_BOUNDED_CANDIDATE_REBOUND:
+            failures.append(f"{frag.name}_BOUNDED_EXECUTION_BINDING_MISSING")
+        if binding.checker_sha256 != SEMANTIC_FRAGMENT_CHECKER_SHA256:
+            failures.append(f"{frag.name}_CHECKER_HASH_MISMATCH")
+        if binding.canon_promoted:
+            failures.append(f"{frag.name}_CANDIDATE_MUST_NOT_SELF_PROMOTE_CANON")
+
+    for frag in (
         Fragment.ALU06_DEPENDENT_TYPE,
         Fragment.ALU08_CATEGORICAL_TOPOS,
     ):
         if execution_binding(frag).status is not ExecutionStatus.SPECIFICATION_ONLY:
             failures.append(f"{frag.name}_UNSUPPORTED_EXECUTION_PROMOTION")
+
     return tuple(failures)
