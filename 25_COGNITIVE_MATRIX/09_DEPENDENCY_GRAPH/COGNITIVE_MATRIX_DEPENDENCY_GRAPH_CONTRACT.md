@@ -1,109 +1,89 @@
 ---
 canon-group: meta
 canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
+rscf-state: derived
+rscf-provenance: AMOS_corpus_plus_executable_repair
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: DERIVED
 topic: Cognitive Matrix Dependency Graph Contract
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
----
----
+updated: 2026-09-14
+origin_architect: Trang Phan
+canonical_status: CONDITIONAL
 ---
 
 # COGNITIVE MATRIX DEPENDENCY GRAPH CONTRACT
 
 ## 0. Status
 
-Cognitive Matrix-plane contract for **DEPENDENCY GRAPH CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+`AMOS_MODEL / IMPLEMENTED_BOUNDED / LOCALLY_VALIDATED / CANON_PROMOTION_NOT_GRANTED`
 
-## 1. Scope
+## 1. Purpose
 
-Governs primitives L00–L29, lifecycle operations O00–O16, control planes C01–C09, scales, cell registry, routing, validation, generators as they bear on `DEPENDENCY GRAPH CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
+Maintain typed relation topology for Cognitive Matrix state while preserving relation semantics, selective invalidation, provenance, uncertainty, and control-plane authority.
 
-## 2. Contract terms
+## 2. Executable owner
 
-- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
-- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
-- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
-- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
-- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/cognitive_matrix_dependency_runtime.py`
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/test_cognitive_matrix_dependency_runtime.py`
+- `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/test_dependency_coverage_integration.py`
 
-## 3. Invariants
+## 3. Core invariants
 
-- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
-- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
-- Consequential effects emit receipts; rollback basin exists before mutation.
-- Competing hypotheses remain visible when evidence does not discriminate.
+- every node/edge has stable explicit identity;
+- every edge endpoint resolves before use;
+- relation type is load-bearing state and may not be dropped;
+- load-bearing dependency is restricted to declared relations;
+- dependency topology is not causal topology;
+- contradiction preserves competing alternatives until discriminating evidence exists;
+- invalidation/supersession relations are proposals, not authority;
+- invalidating one node stales only its load-bearing descendants;
+- unrelated state is preserved;
+- cyclic load-bearing semantics fail closed unless a separate fixed-point contract exists;
+- provenance/source version travel with every node/edge;
+- graph validity does not grant Canon or effect authority.
 
-## 4. Executed reference
+## 4. Coverage binding
 
-No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
+`dependency_map(graph)` exports direct load-bearing prerequisites to the scoped coverage engine. The integration test verifies that missing upstream prerequisites propagate through coverage as dependency gaps while `SUPPORTING` edges are not silently promoted into mandatory coverage dependencies.
 
-## 5. Gaps
+## 5. State boundaries
 
-Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
+```text
+DEPENDENCY != CAUSATION
+CONTRADICTION != RESOLUTION
+STALE != FALSE
+SUPERSEDED != DELETED
+INVALIDATES != COMMITTED_INVALIDATION
+SUPPORTING != NECESSARY
+GRAPH_VALID != EFFECT_AUTHORIZED
+```
 
-## 6. Falsifiers
+## 6. Validation evidence
 
-F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
+2026-09-14 local bounded evidence:
+- 22 dependency/integration tests pass / 0 fail;
+- 5,000 stress DAGs;
+- 29,949 independent closure-node comparisons;
+- 5,000 independent selective-invalidation comparisons;
+- 0 observed mismatches.
 
-## Worked semantics
+## 7. Remaining gaps
 
-Given an operation touching `COGNITIVE MATRIX · DEPENDENCY GRAPH CONTRACT` within the Cognitive Matrix plane:
+- repository-wide persistent graph storage and identity/version transactions;
+- commit-time invalidation receipts and authority witnesses;
+- explicit fixed-point semantics for intentionally cyclic dependency structures;
+- richer evidence-weight recalculation for support/sufficiency loss;
+- repository-wide extraction/reconciliation of legacy untyped edges;
+- CI-bound execution receipts.
 
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+## 8. Falsifiers
 
-## Promotion-gate checklist
+Revise or reject this contract if an executed counterexample shows that:
+1. a non-load-bearing edge enters mandatory dependency closure;
+2. invalidation leaks into an unrelated node;
+3. a cycle is silently treated as an acyclic proof order;
+4. a contradiction edge selects truth without evidence;
+5. a proposal edge causes durable mutation without authority.
 
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-## Cross-plane bindings
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
-______________________________________________________________________
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-**Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
-
-______________________________________________________________________
-
-RSCF-NODE
-node_id: cm\_\_matrix_09_dependency_graph_cognitive_matrix_dependency_graph_contract
-node_type: note
-path: 25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/COGNITIVE_MATRIX_DEPENDENCY_GRAPH_CONTRACT.md
-claim_class: AMOS_MODEL
-
-______________________________________________________________________
-
-**MOC:** [[25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/09_DEPENDENCY_GRAPH_MOC|09_DEPENDENCY_GRAPH_MOC]]
-
-______________________________________________________________________
-
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+[[25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/DEPENDENCY_TYPES|DEPENDENCY_TYPES]] · [[25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/INVALIDATION_RULES|INVALIDATION_RULES]] · [[25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/DEPENDENCY_AUDIT|DEPENDENCY_AUDIT]]

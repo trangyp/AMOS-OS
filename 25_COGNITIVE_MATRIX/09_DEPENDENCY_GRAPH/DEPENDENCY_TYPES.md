@@ -1,67 +1,87 @@
 ---
 canon-group: meta
 canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
+rscf-state: derived
+rscf-provenance: AMOS_corpus_plus_executable_repair
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: DERIVED
 topic: Dependency Types
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
+updated: 2026-09-14
+origin_architect: Trang Phan
+canonical_status: CONDITIONAL
 ---
----
----
 
-# DEPENDENCY_TYPES — Definition
+# DEPENDENCY_TYPES — Typed Relation Algebra for the Cognitive Matrix
 
-**Package:** `DEPENDENCY_TYPES_`
-**Class:** `COGNITIVE_MATRIX_CONTRACT`
-**Epistemic class:** `DERIVED / MODEL EXTENSION`
-**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
-**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
+## Status
 
-## Scope
+`AMOS_MODEL / IMPLEMENTED_BOUNDED / LOCALLY_VALIDATED`
 
-Covers the operation contract for this lifecycle operator.
+Executable owner: `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/cognitive_matrix_dependency_runtime.py`.
 
-## Definition
+## Relation syntax
 
-TYPES
+Every active edge is a typed tuple
 
-This is a **contract-level definition**, not an implementation claim.
+`e = (edge_id, src, relation, dst, provenance, source_version)`.
 
-## Hard boundaries
+The surface syntax is read as
+
+`src RELATION dst`.
+
+The direction is relation-specific; a relation label may not be replaced by an untyped generic edge.
+
+## Relation registry
 
 ```text
-CONTRACT_FILLED != IMPLEMENTED
-DOCUMENTED != EXECUTABLE
-MODEL != VERIFIED
-UNKNOWN/GAP != PASS
+NECESSARY
+SUFFICIENT
+SUPPORTING
+ALTERNATIVE
+CONTRADICTING
+DERIVED_FROM
+OBSERVED_BY
+SUPERSEDES
+INVALIDATES
+CONDITIONED_ON
+CORRELATED_WITH
 ```
 
-______________________________________________________________________
+### Load-bearing dependency relations
 
-[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+For structural dependency closure, only
 
-______________________________________________________________________
+`D_load = {NECESSARY, DERIVED_FROM, CONDITIONED_ON}`
 
-RSCF-NODE
-node_id: dependency_types_graph_definition
-node_type: note
-path: 09_DEPENDENCY_GRAPH/DEPENDENCY_TYPES\_/DEPENDENCY_TYPES.md
-claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/DEPENDENCY_TYPES.md
+are load-bearing in this bounded runtime.
 
-______________________________________________________________________
+If `x NECESSARY y`, `x DERIVED_FROM y`, or `x CONDITIONED_ON y`, the direction means `x` depends on `y` for current validity/applicability.
 
-**MOC:** [[25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/09_DEPENDENCY_GRAPH_MOC|09_DEPENDENCY_GRAPH_MOC]]
+### Review-only evidence relations
 
-______________________________________________________________________
+`SUPPORTING` and `SUFFICIENT` can trigger re-evaluation when a source is lost, but source loss alone does not justify automatic staleness or falsity of the target.
 
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+### Non-dependency relations
+
+`ALTERNATIVE`, `CONTRADICTING`, `OBSERVED_BY`, `SUPERSEDES`, `INVALIDATES`, and `CORRELATED_WITH` do not enter load-bearing dependency closure by default.
+
+`INVALIDATES` is represented as an invalidation proposal relation; it is not self-executing authority.
+
+## Hard firewalls
+
+```text
+RELATION != CAUSATION
+CORRELATED_WITH != CAUSES
+SUPPORTING != NECESSARY
+SUFFICIENT_SOURCE_LOST != TARGET_FALSE
+CONTRADICTING(A,B) != TRUE(A) OR TRUE(B)
+INVALIDATES_EDGE != AUTHORIZED_COMMIT
+SUPERSEDES_EDGE != DELETION
+```
+
+## Scope boundary
+
+These relation classes are AMOS structural semantics. Domain-specific logic may refine them, but may not silently collapse them into one edge type.
+
+[[25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/INVALIDATION_RULES|INVALIDATION_RULES]] · [[25_COGNITIVE_MATRIX/07_COVERAGE/COVERAGE_MODEL|COVERAGE_MODEL]]

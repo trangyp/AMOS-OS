@@ -1,97 +1,65 @@
 ---
 canon-group: meta
 canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
+rscf-state: derived
+rscf-provenance: AMOS_corpus_plus_executable_repair
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: DERIVED
 topic: Dependency Graph Cognitive Matrix Readme
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
+updated: 2026-09-14
+origin_architect: Trang Phan
+canonical_status: CONDITIONAL
 ---
----
----
 
-# 09_DEPENDENCY_GRAPH — Dependency Graph Contract Overview
+# 09_DEPENDENCY_GRAPH — Typed Relations and Selective Invalidation
 
-**Package:** `09_DEPENDENCY_GRAPH`
-**Class:** `COGNITIVE_MATRIX_INFRASTRUCTURE_CONTRACT`
-**Epistemic class:** `DERIVED / MODEL EXTENSION`
-**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
-**Filled by:** governed generator `12_GENERATORS/fill_infra_readmes.py` · **Date:** `2026-08-26`
+## Purpose
 
-## Scope
+Represent which AMOS objects depend on, support, contradict, supersede, observe, invalidate, condition, correlate with, or provide alternatives to other objects without collapsing these relations into one generic edge.
 
-The Dependency Graph captures directed edges between Matrix surfaces so that invalidation propagates locally (descendants only) instead of globally. Edge presence is a structural claim; edge correctness requires validation evidence.
+## Current executable surface
+
+`cognitive_matrix_dependency_runtime.py` implements:
+- typed node and edge identity;
+- eleven relation classes;
+- load-bearing dependency filtering;
+- directed adjacency and transitive closure;
+- cycle detection;
+- contradiction/supersession/invalidation-proposal extraction;
+- direct dependency export to the coverage runtime;
+- selective stale propagation;
+- review-only handling for support/sufficiency loss;
+- unrelated-state preservation.
 
 ## Hard boundaries
 
 ```text
-EDGE_DECLARED != EDGE_VALIDATED
-Cycles in the dependency graph are defects
-Invalidation follows descendants only; unrelated state is preserved
+RELATION != CAUSATION
+DEPENDENCY != SUPPORT
+SUPPORT != PROOF
+CONTRADICTION != TRUTH_SELECTION
+INVALIDATION_PROPOSAL != COMMIT
+STALE != FALSE
 ```
+
+## Verification
+
+Local 2026-09-14 evidence:
+- 22/22 dependency + integration tests;
+- 5,000 stress DAGs;
+- 29,949 closure-node checks;
+- 5,000 selective-invalidation checks;
+- 0 observed stress mismatches.
+
+No CI receipt is attached.
 
 ## Dependency position
 
-- 01–04 package dependencies feed edges
-- 10 routing and 11 validation consume invalidation semantics
+- Cell registry supplies addressable nodes/state.
+- Dependency graph supplies typed load-bearing and non-load-bearing relations.
+- Coverage consumes only exported load-bearing prerequisites.
+- Structural gaps use dependency fan-out for local triage.
+- Control plane remains the authority owner for durable invalidation/supersession effects.
 
-## RSCF completion state
-
-```yaml
-claim_class: DERIVED
-evidence: []            # no measured evidence at this layer
-provenance:
-  - AMOS canon corpus reconstruction
-scope: cognitive_matrix_infrastructure_package_contract
-regime: architecture-contract
-freshness: 2026-08-26
-dependencies: []
-competing: []
-falsifiers: []
-confidence_ceiling: 0.6   # contract-only status: no implementation, no validation
-```
-
-## Gap matrix
-
-| Surface                   | Status             |
-| ------------------------- | ------------------ |
-| Definition/contract       | FILLED (this pass) |
-| Executable implementation | UNKNOWN/GAP        |
-| Validation evidence       | UNKNOWN/GAP        |
-| Authority binding         | UNKNOWN/GAP        |
-| Runtime integration       | UNKNOWN/GAP        |
-
-```text
-CONTRACT_FILLED != IMPLEMENTED
-DOCUMENTED != EXECUTABLE
-MODEL != VERIFIED
-UNKNOWN/GAP != PASS
-```
-
-______________________________________________________________________
-
-[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
-
-______________________________________________________________________
-
-RSCF-NODE
-node_id: dependency_graph_infrastructure_readme
-node_type: note
-path: 25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/09_DEPENDENCY_GRAPH_COGNITIVE_MATRIX_README.md
-claim_class: DERIVED
-
-______________________________________________________________________
-
-**MOC:** [[25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/09_DEPENDENCY_GRAPH_MOC|09_DEPENDENCY_GRAPH_MOC]]
-
-______________________________________________________________________
-
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+[[25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/09_DEPENDENCY_GRAPH_MOC|09_DEPENDENCY_GRAPH_MOC]] · [[25_COGNITIVE_MATRIX/07_COVERAGE/07_COVERAGE_MOC|07_COVERAGE_MOC]]

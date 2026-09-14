@@ -1,67 +1,78 @@
 ---
 canon-group: meta
 canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
+rscf-state: derived
+rscf-provenance: AMOS_corpus_plus_executable_repair
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: DERIVED
 topic: Invalidation Rules
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
+updated: 2026-09-14
+origin_architect: Trang Phan
+canonical_status: CONDITIONAL
 ---
----
----
 
-# INVALIDATION_RULES — Definition
+# INVALIDATION_RULES — Selective Dependency Invalidation
 
-**Package:** `INVALIDATION_RULES_`
-**Class:** `COGNITIVE_MATRIX_CONTRACT`
-**Epistemic class:** `DERIVED / MODEL EXTENSION`
-**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
-**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
+## Status
 
-## Scope
+`AMOS_MODEL / IMPLEMENTED_BOUNDED / LOCALLY_VALIDATED`
 
-Covers the operation contract for this lifecycle operator.
+The dependency runtime computes invalidation **proposals**. It does not authorize durable state mutation.
 
-## Definition
+## Load-bearing adjacency
 
-INVALIDATION
+Let ordered nodes be `(v_1,...,v_n)`. Define
 
-This is a **contract-level definition**, not an implementation claim.
+`A[i,j] = 1`
 
-## Hard boundaries
+iff there is an active edge from `v_i` to `v_j` whose relation is in
+
+`D_load = {NECESSARY, DERIVED_FROM, CONDITIONED_ON}`.
+
+Thus `A[i,j]=1` means `v_i` structurally depends on `v_j`.
+
+Let `C` be the Boolean transitive closure of `A`. Then
+
+`C[i,j]=1`
+
+means `v_i` transitively depends on `v_j`.
+
+For invalidated seed `v_j`, the structural descendant set is
+
+`Desc(v_j) = {v_i : i != j and C[i,j]=1}`.
+
+## Selective invalidation rule
+
+For an acyclic, structurally valid graph:
+
+`Invalidated(v_j) => STALE_PROPOSAL(Desc(v_j))`.
+
+This is **not** a falsity rule. A stale descendant must be revalidated against current evidence/state.
+
+## Review-only relations
+
+Loss of the source of `SUPPORTING` or `SUFFICIENT` emits a review proposal for the target, not automatic staleness or falsity.
+
+`ALTERNATIVE`, `CORRELATED_WITH`, `OBSERVED_BY`, `CONTRADICTING`, `SUPERSEDES`, and `INVALIDATES` do not participate in transitive stale propagation unless a separate typed rule explicitly binds them.
+
+## Cycle rule
+
+If `C[i,i]=1` for any node, the load-bearing graph contains a cycle. Without declared fixed-point/bootstrap semantics, invalidation propagation fails closed as `UNKNOWN/GAP` rather than inventing an evaluation order.
+
+## Preservation rule
+
+Nodes outside the invalidated seed, stale descendants, and review set remain preserved by this operation.
 
 ```text
-CONTRACT_FILLED != IMPLEMENTED
-DOCUMENTED != EXECUTABLE
-MODEL != VERIFIED
-UNKNOWN/GAP != PASS
+INVALIDATE_DESCENDANTS != INVALIDATE_UNRELATED_STATE
+STALE != FALSE
+REVIEW_REQUIRED != STALE
+PROPAGATION_PROPOSAL != COMMIT
 ```
 
-______________________________________________________________________
+## Authority boundary
 
-[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+Durable invalidation, supersession, quarantine, or deletion remains subordinate to control-plane authority, freshness, transaction, provenance, and rollback/finality gates.
 
-______________________________________________________________________
-
-RSCF-NODE
-node_id: invalidation_rules_graph_definition
-node_type: note
-path: 09_DEPENDENCY_GRAPH/INVALIDATION_RULES\_/INVALIDATION_RULES.md
-claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/INVALIDATION_RULES.md
-
-______________________________________________________________________
-
-**MOC:** [[25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/09_DEPENDENCY_GRAPH_MOC|09_DEPENDENCY_GRAPH_MOC]]
-
-______________________________________________________________________
-
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+[[25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/DEPENDENCY_AUDIT|DEPENDENCY_AUDIT]] · [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE]]
