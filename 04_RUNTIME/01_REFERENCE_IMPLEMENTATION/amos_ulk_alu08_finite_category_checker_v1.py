@@ -41,8 +41,8 @@ class Morphism:
     target: str
 
     def __post_init__(self) -> None:
-        if not self.name.strip() or not self.source.strip() or not self.target.strip():
-            raise CategoryInvariantError("morphism name/source/target must be non-empty")
+        if any(not isinstance(value, str) or not value.strip() for value in (self.name, self.source, self.target)):
+            raise CategoryInvariantError("morphism name/source/target must be non-empty strings")
 
 
 @dataclass(frozen=True)
@@ -60,8 +60,8 @@ class FiniteCategory:
         composition: Mapping[Tuple[str, str], str],
     ) -> None:
         objs = frozenset(objects)
-        if any(not obj.strip() for obj in objs):
-            raise CategoryInvariantError("object names must be non-empty")
+        if any(not isinstance(obj, str) or not obj.strip() for obj in objs):
+            raise CategoryInvariantError("object names must be non-empty strings")
 
         morphs = dict(morphisms)
         for key, morphism in morphs.items():
