@@ -226,17 +226,30 @@ def matrix_coordinate_count() -> int:
 
 @dataclass(frozen=True)
 class TensorCoordinate:
-    """Typed coordinate. Scale/context/regime remain opaque caller-defined indices."""
+    """Six-axis typed URK coordinate.
+
+    Row/column/scale/context/regime/observer are separate semantic axes.  None
+    is interchangeable with another, and no numeric infinity-cardinality is
+    encoded by the coordinate type.
+    """
 
     row: Core19
     col: Core19
     scale: str
     context: str
     regime: str
+    observer: str
 
     def __post_init__(self) -> None:
-        if not self.scale.strip() or not self.context.strip() or not self.regime.strip():
-            raise ValueError("scale, context, and regime must be explicit non-empty indices")
+        named = {
+            "scale": self.scale,
+            "context": self.context,
+            "regime": self.regime,
+            "observer": self.observer,
+        }
+        for axis, value in named.items():
+            if not isinstance(value, str) or not value.strip():
+                raise ValueError(f"{axis} must be an explicit non-empty index")
 
 
 @dataclass(frozen=True)
