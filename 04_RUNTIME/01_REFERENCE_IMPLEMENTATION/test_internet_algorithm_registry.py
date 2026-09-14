@@ -5,7 +5,7 @@ import internet_algorithm_registry as r
 
 class InternetAlgorithmRegistryTests(unittest.TestCase):
     def test_registry_entries_are_typed_and_bounded(self):
-        self.assertGreaterEqual(len(r.REGISTRY), 15)
+        self.assertGreaterEqual(len(r.REGISTRY), 16)
         for name, spec in r.REGISTRY.items():
             self.assertEqual(name, spec.name)
             self.assertTrue(spec.source)
@@ -35,6 +35,22 @@ class InternetAlgorithmRegistryTests(unittest.TestCase):
         self.assertTrue(r.eligible("topological_sort", frozenset({"directed_graph", "acyclic"})))
         self.assertFalse(r.eligible("minimum_spanning_tree", frozenset({"weighted"})))
         self.assertTrue(r.eligible("minimum_spanning_tree", frozenset({"undirected_graph", "weighted"})))
+
+    def test_reflexive_transitive_closure_has_exact_finite_contract(self):
+        name = "warshall_reflexive_transitive_closure"
+        partial = frozenset({"finite_namespace", "boolean_relation"})
+        self.assertEqual(r.missing_preconditions(name, partial), ("reflexive_closure",))
+        supplied = frozenset({"finite_namespace", "boolean_relation", "reflexive_closure"})
+        self.assertTrue(r.eligible(name, supplied))
+        spec = r.algorithm_spec(name)
+        self.assertEqual(spec.family, r.ProblemFamily.TRANSITIVE_CLOSURE)
+        self.assertEqual(spec.guarantee, r.GuaranteeClass.EXACT)
+        self.assertIn("REACHABLE != ENTAILS", spec.boundary)
+        self.assertIn("REACHABLE != CAUSES", spec.boundary)
+        self.assertEqual(
+            spec.implementation_binding,
+            "urk_relation_algebra.py:reflexive_transitive_closure",
+        )
 
     def test_flow_and_cut_require_capacity_contract(self):
         partial = frozenset({"graph", "source", "sink"})
