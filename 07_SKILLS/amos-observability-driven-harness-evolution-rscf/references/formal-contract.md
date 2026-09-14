@@ -105,9 +105,10 @@ Define the evidence-ready predicate:
 
 Then the local reference recommendation is:
 
-- `ROLLBACK` if `C` is nonempty;
-- otherwise `ROLLBACK` if `G` and `|R| > |F|`;
-- otherwise `KEEP` if `G`, `|F| > |R|`, and `|F| > 0`;
+- `INCONCLUSIVE` if `G` is false;
+- otherwise `ROLLBACK` if `C` is nonempty;
+- otherwise `ROLLBACK` if `|R| > |F|`;
+- otherwise `KEEP` if `|F| > |R|` and `|F| > 0`;
 - otherwise `INCONCLUSIVE`.
 
 This is an AMOS local policy, not an established universal optimization theorem.
@@ -134,3 +135,21 @@ A decision receipt is evidence/recommendation only:
 `RECONCILED != AUTHORIZED`
 
 The durable action must be performed by a separately authorized effect path.
+
+## Guarded verdict admission (v3.1)
+
+The base evidence-store runtime is preserved for lineage. Active verdict admission MUST use `harness_evolution_guarded_runtime.py` plus `harness_evolution_guarded_contract_check.py`.
+
+Define the usable-evidence gate:
+
+`G := Comparable AND EvaluatorReliable AND IsolationValid AND AttributionPlausible`.
+
+Then:
+
+- `NOT G -> INCONCLUSIVE`
+- `G AND critical_regression -> ROLLBACK`
+- `G AND |R| > |F| -> ROLLBACK`
+- `G AND |F| > |R| AND |F| > 0 -> KEEP`
+- otherwise `INCONCLUSIVE`.
+
+This is an `AMOS_MODEL` policy rule. It prevents contaminated, incomparable, or unreliable evidence from authorizing either positive or negative harness mutation recommendations.
