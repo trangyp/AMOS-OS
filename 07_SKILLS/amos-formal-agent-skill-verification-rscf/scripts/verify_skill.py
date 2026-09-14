@@ -9,13 +9,20 @@ CALL_EFFECTS={
  "open":None,"eval":"DYNAMIC_CODE","exec":"DYNAMIC_CODE","__import__":"DYNAMIC_IMPORT",
  "os.getenv":"ENV_READ","os.environ.get":"ENV_READ","subprocess.run":"PROCESS_EXEC","subprocess.Popen":"PROCESS_EXEC",
  "subprocess.call":"PROCESS_EXEC","subprocess.check_call":"PROCESS_EXEC","subprocess.check_output":"PROCESS_EXEC",
- "os.system":"PROCESS_EXEC","requests.get":"NETWORK","requests.post":"NETWORK","requests.put":"NETWORK","requests.delete":"NETWORK",
- "urllib.request.urlopen":"NETWORK","socket.socket":"NETWORK","pickle.load":"SERIALIZATION_UNSAFE","pickle.loads":"SERIALIZATION_UNSAFE",
+ "os.system":"PROCESS_EXEC","pickle.load":"SERIALIZATION_UNSAFE","pickle.loads":"SERIALIZATION_UNSAFE",
 }
 WRITE_METHODS={"write_text","write_bytes","unlink","rename","replace","mkdir","rmdir","touch"}
 READ_METHODS={"read_text","read_bytes","exists","is_file","is_dir","glob","rglob","iterdir"}
 
+NETWORK_PREFIXES=("requests.","httpx.","urllib.","socket.","aiohttp.","http.","ftplib.")
+
 class VError(RuntimeError): pass
+
+def call_effect(name:str)->str|None:
+    direct=CALL_EFFECTS.get(name)
+    if direct: return direct
+    if any(name.startswith(prefix) for prefix in NETWORK_PREFIXES): return "NETWORK"
+    return None
 
 def sha256_bytes(b:bytes)->str:return hashlib.sha256(b).hexdigest()
 def dotted(n:ast.AST)->str:
@@ -38,7 +45,7 @@ def effect_scan(path:Path)->dict[str,Any]:
                 if m.split('.')[0] in {"pickle","marshal"}: effects.add("SERIALIZATION_UNSAFE")
         if isinstance(node,ast.Call):
             name=dotted(node.func)
-            eff=CALL_EFFECTS.get(name)
+            eff=call_effect(name)
             if eff: effects.add(eff); findings.append({"line":getattr(node,"lineno",0),"call":name,"effect":eff})
             if name=="open":
                 mode="r"
