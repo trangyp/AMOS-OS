@@ -2,66 +2,79 @@
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
-rscf-claim: verified
+rscf-claim: conditional
 rscf-provenance: AMOS_corpus
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: AMOS_MODEL
 topic: C01 Governance Control Planes Cognitive Matrix Definition
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
----
----
+updated: 2026-09-14
 ---
 
-# C01 — Definition
+# C01 — Governance
 
-**Package:** `C01_GOVERNANCE`
-**Class:** `COGNITIVE_MATRIX_CONTRACT`
-**Epistemic class:** `DERIVED / MODEL EXTENSION`
-**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
-**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
+**Package:** `C01_GOVERNANCE`  
+**Class:** `COGNITIVE_MATRIX_CONTROL_PLANE`  
+**Origin architect / steward:** Trang Phan  
+**Status:** `EXECUTABLE_BOUNDED_REFERENCE / TESTED_LOCAL_SEMANTICS`
 
 ## Scope
 
-Covers law-stack enforcement (Law of Law, Rule of 2/4), authority envelopes, enforcement-root attestation, and fail-closed defaults.
+C01 validates a bounded authority request. It does not infer authority from confidence, capability, model output, or successful tests.
 
-## Definition
+A request may produce a fresh `AuthorityWitness` only when all of the following hold:
 
-GOVERNANCE
+1. the enforcement root is externally attested;
+2. the enforcement root is agent-write-excluded;
+3. the observed precedence version equals the expected precedence version;
+4. the governance epoch is fresh;
+5. the requested authority scopes are explicit and unique;
+6. the policy hash is explicit;
+7. the state version is explicit;
+8. a consequential-decision receipt is present.
 
-This is a **contract-level definition**, not an implementation claim.
+## Receipt identity
 
-## Hard boundaries
+The bounded reference computes a deterministic governance receipt
+
+`R = SHA256(canonical_json(decision_receipt_id, enforcement_root_id, policy_hash, precedence_version, principal, request_id, sorted(scopes), state_version))`.
+
+This receipt binds the validated request identity. It is not a receiver receipt and does not prove that any external effect occurred.
+
+## Authority boundary
+
+A successful C01 result creates only a scoped, state-bound authority witness.
 
 ```text
-CONTRACT_FILLED != IMPLEMENTED
-DOCUMENTED != EXECUTABLE
-MODEL != VERIFIED
-UNKNOWN/GAP != PASS
+MODEL_CONFIDENCE != AUTHORITY
+CAPABILITY != AUTHORITY
+TEST_PASS != AUTHORITY
+C01_AUTHORITY != C08_STAGE
+C01_AUTHORITY != EFFECT_COMMIT
 ```
 
-______________________________________________________________________
+Downstream effect release still requires the infrastructure commit/finality controls.
 
-[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+## Executable binding
 
-______________________________________________________________________
+Reference runtime:
 
-RSCF-NODE
-node_id: c01_planes_definition
-node_type: note
-path: 03_CONTROL_PLANES/C01_GOVERNANCE/C01_GOVERNANCE_CONTROL_PLANES_COGNITIVE_MATRIX_DEFINITION.md
-claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C01_GOVERNANCE/C01_GOVERNANCE_CONTROL_PLANES_COGNITIVE_MATRIX_DEFINITION.md
+`04_RUNTIME/01_REFERENCE_IMPLEMENTATION/c01_governance_runtime.py`
 
-______________________________________________________________________
+Adversarial tests:
 
-**MOC:** [[25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C01_GOVERNANCE/C01_GOVERNANCE_MOC|C01_GOVERNANCE_MOC]]
+`04_RUNTIME/01_REFERENCE_IMPLEMENTATION/test_c01_governance_runtime.py`
 
-______________________________________________________________________
+The GitHub reference-runtime lane passed the adversarial C01 test revision on 2026-09-14. This supports only the tested bounded implementation semantics.
 
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+## Remaining gaps
+
+- cryptographic enforcement-root attestation is not implemented here;
+- external trust-root independence is not established;
+- distributed revocation/finality is not established;
+- policy correctness itself is not proved by this validator;
+- production authorization deployment remains separately governed.
+
+These remain `UNKNOWN/GAP` outside the local bounded reference.
+
+[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
