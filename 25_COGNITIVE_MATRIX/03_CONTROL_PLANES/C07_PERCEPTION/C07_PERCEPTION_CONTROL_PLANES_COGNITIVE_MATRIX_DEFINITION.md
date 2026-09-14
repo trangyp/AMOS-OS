@@ -2,66 +2,96 @@
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
-rscf-claim: verified
+rscf-claim: conditional
 rscf-provenance: AMOS_corpus
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: AMOS_MODEL
 topic: C07 Perception Control Planes Cognitive Matrix Definition
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
 created: 2026-08-22
----
----
+updated: 2026-09-14
 ---
 
-# C07 — Definition
+# C07 — Perception
 
-**Package:** `C07_PERCEPTION`
-**Class:** `COGNITIVE_MATRIX_CONTRACT`
-**Epistemic class:** `DERIVED / MODEL EXTENSION`
-**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
-**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
+**Package:** `C07_PERCEPTION`  
+**Class:** `COGNITIVE_MATRIX_CONTROL_PLANE`  
+**Origin architect / steward:** Trang Phan  
+**Status:** `EXECUTABLE_BOUNDED_REFERENCE / TESTED`
 
 ## Scope
 
-Covers the operation contract for this lifecycle operator.
+C07 represents bounded perception inputs without inventing unavailable sensing.
 
-## Definition
+Domain tensor slice:
 
-PERCEPTION
+`T_UMPL[obj, modality, feature, primitive, time, observer, provenance, epistemic_origin, confidence, availability]`.
 
-This is a **contract-level definition**, not an implementation claim.
+The local reference implements the load-bearing subset:
 
-## Hard boundaries
+`Percept[obj, modality, feature, observer, provenance, origin, availability, confidence, intensity, valence, arousal, clarity]`.
+
+## Origin classes
+
+C07 preserves the distinction among:
+
+- `OBSERVED`
+- `USER_REPORTED`
+- `INFERRED`
+- `SIMULATED`
+- `UNOBSERVED`
+
+These labels are not interchangeable.
+
+## Availability invariant
+
+For modality `m`, availability is binary in the bounded schema:
+
+`A_m in {0,1}`.
+
+If `A_m = 0`, the modality must remain `UNOBSERVED` with confidence `0`.
+
+An unavailable modality cannot be silently filled by inference or simulation and relabeled as observation.
+
+## Fusion confidence
+
+For the available channels participating in one object/feature fusion:
+
+`C_fusion = min_i C_i`.
+
+This is the conservative AMOS_MODEL fusion rule used by the reference runtime. It prevents confidence inflation; it is not asserted as a universal empirical sensor-fusion law.
+
+Unavailable channels are excluded from the minimum rather than being treated as zero-valued observations.
+
+## Causal firewall
 
 ```text
-CONTRACT_FILLED != IMPLEMENTED
-DOCUMENTED != EXECUTABLE
-MODEL != VERIFIED
-UNKNOWN/GAP != PASS
+CROSS_MODAL_CORRELATION != CAUSATION
+INFERRED != OBSERVED
+SIMULATED != OBSERVED
+USER_REPORTED != SENSOR_OBSERVED
+UNAVAILABLE != NEGATIVE_OBSERVATION
 ```
 
-______________________________________________________________________
+The C07 fusion result is structurally unable to mint a causal claim.
 
-[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+## Executable binding
 
-______________________________________________________________________
+Reference runtime:
 
-RSCF-NODE
-node_id: c07_planes_definition
-node_type: note
-path: 03_CONTROL_PLANES/C07_PERCEPTION/C07_PERCEPTION_CONTROL_PLANES_COGNITIVE_MATRIX_DEFINITION.md
-claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C07_PERCEPTION/C07_PERCEPTION_CONTROL_PLANES_COGNITIVE_MATRIX_DEFINITION.md
+`04_RUNTIME/01_REFERENCE_IMPLEMENTATION/c07_perception_runtime.py`
 
-______________________________________________________________________
+Adversarial tests:
 
-**MOC:** [[25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C07_PERCEPTION/C07_PERCEPTION_MOC|C07_PERCEPTION_MOC]]
+`04_RUNTIME/01_REFERENCE_IMPLEMENTATION/test_c07_perception_runtime.py`
 
-______________________________________________________________________
+The complete reference-runtime CI passed the C07 adversarial revision on 2026-09-14.
 
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+## Remaining gaps
+
+- sensor calibration and physical measurement accuracy are not established;
+- cross-modal alignment quality is not empirically benchmarked here;
+- modality-specific units require domain validators;
+- unavailable modalities remain unavailable rather than synthesized as facts;
+- perception validity does not establish downstream causal or epistemic validity.
+
+[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
