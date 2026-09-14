@@ -1,4 +1,4 @@
-bundle_version: 3.0.0
+bundle_version: 3.1.0
 bundle_date: 2026-09-14
 schema_version: "1.0"
 epistemic_class: AMOS_MODEL
@@ -8,6 +8,8 @@ files:
   - path: "SKILL.md"
   - path: "agents/openai.yaml"
   - path: "scripts/harness_evolution_runtime.py"
+  - path: "scripts/harness_evolution_guarded_runtime.py"
   - path: "scripts/harness_evolution_contract_check.py"
+  - path: "scripts/harness_evolution_guarded_contract_check.py"
   - path: "references/upstream-mechanisms.md"
   - path: "references/formal-contract.md"
