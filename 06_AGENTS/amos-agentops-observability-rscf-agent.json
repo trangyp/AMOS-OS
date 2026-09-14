@@ -1,177 +1,55 @@
 {
   "name": "amos-agentops-observability-rscf-agent",
-  "display_name": "Agentops Observability Rscf",
-  "description": "Agent systems engine for Agentops Observability Rscf",
-  "author": "Trang Phan",
-  "steward": "Trang Phan",
-  "system": "AMOS_OS",
-  "role": "Agentops Observability Rscf — Runtime and OS engine within the runtime domain.",
+  "display_name": "AMOS AgentOps Observability",
+  "description": "Read/audit-oriented AMOS agent for trace topology, privacy-aware telemetry, missingness, effect-state observations, receipts, and bounded observability projections.",
+  "version": "2.0.0",
+  "origin_architect": "Trang Phan",
   "skill_binding": {
     "primary_skill": "amos-agentops-observability-rscf",
-    "skill_path": ".devin/skills/amos-agentops-observability-rscf/SKILL.md"
+    "skill_path": "07_SKILLS/amos-agentops-observability-rscf/SKILL.md"
   },
   "capabilities": [
     {
-      "name": "agentops_observability.govern_agency",
-      "description": "Govern agency: who acts, under what authority, with what consequences",
+      "name": "agentops_observability.trace_audit",
+      "description": "Audit agent/workflow/model/tool/memory/effect trace topology and receipt integrity.",
       "side_effect": "read"
     },
     {
-      "name": "agentops_observability.design_externalization",
-      "description": "Design agent externalization: what is delegated, to whom, with what controls",
+      "name": "agentops_observability.privacy_audit",
+      "description": "Audit capture mode, redaction, sensitive-content exposure and telemetry missingness.",
       "side_effect": "read"
     },
     {
-      "name": "agentops_observability.attribute_ownership",
-      "description": "Attribute agent ownership: who is responsible for each agent action",
+      "name": "agentops_observability.effect_observation",
+      "description": "Inspect observed effect states without treating telemetry as effect authorization.",
       "side_effect": "read"
     },
     {
-      "name": "agentops_observability.verify_agentic",
-      "description": "Verify agentic skill-lie algebroid: structural consistency of agent capabilities",
+      "name": "agentops_observability.projection_audit",
+      "description": "Review OpenTelemetry-compatible projections while preserving AMOS extensions and conformance boundaries.",
       "side_effect": "read"
     }
   ],
-  "operations": [
-    {
-      "step": 1,
-      "action": "Load the amos-agentops-observability-rscf skill and its content",
-      "gate": "skill_loaded"
-    },
-    {
-      "step": 2,
-      "action": "Classify the query against runtime sub-capabilities",
-      "gate": "domain_confirmed"
-    },
-    {
-      "step": 3,
-      "action": "Apply the appropriate capability with epistemic class labeling",
-      "gate": "epistemic_labeled"
-    },
-    {
-      "step": 4,
-      "action": "Validate results against domain validation gates",
-      "gate": "gates_passed"
-    },
-    {
-      "step": 5,
-      "action": "Present results with provenance and confidence ceiling",
-      "gate": "output_validated"
-    }
-  ],
-  "integrity_requirements": [
-    "Law of Law: no unresolved contradictions within the skill's scope",
-    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
-    "Provenance: source path recorded for every derived claim",
-    "Anti-overreach: no claim beyond the skill's declared scope",
-    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
-  ],
-  "safety_constraints": [
-    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
-    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
-  ],
-  "depends_on_skills": [
-    "amos-agentops-observability-rscf"
-  ],
-  "depends_on_workflows": [
-    "amos-agentops-observability-rscf-workflow.md"
-  ],
-  "epistemic_class": "AMOS_MODEL",
-  "claim_ceiling": 0.95,
-  "lifecycle": {
-    "status": "active",
-    "deprecated": false,
-    "deprecation_date": null,
-    "successor": null
-  },
+  "depends_on_skills": ["amos-agentops-observability-rscf"],
+  "depends_on_workflows": ["amos-agentops-observability-rscf-workflow.md"],
   "governance": {
-    "owner_team": "AMOS_CORE",
-    "business_domain": "runtime",
     "risk_tier": "medium",
-    "observability": "structured_logs+content_hash",
     "approval_mode": "steward_review",
-    "promotion_state": "production"
-  },
-  "content_hash": "9f067317af168a8b",
-  "implementation": {
-    "type": "json",
-    "file": "amos-agentops-observability-rscf-agent.json",
-    "class": null,
-    "executable": true
-  },
-  "version": "1.1.0",
-  "reasoning_pattern": "ReAct",
-  "termination_criteria": {
-    "max_steps": 10,
-    "max_tokens": 8000,
-    "stop_on_confidence_below": 0.3,
-    "stop_on_critical_gap": true,
-    "stop_on_scope_violation": true,
-    "human_in_the_loop": false
-  },
-  "error_recovery": {
-    "on_timeout": "return partial result with GAP flag",
-    "on_scope_violation": "reject and route to parent",
-    "on_contradiction": "flag CRITICAL_GAP and halt",
-    "on_provenance_loss": "mark as UNKNOWN and request human review",
-    "on_drift": "trigger drift alignment governor"
-  },
-  "context_management": {
-    "strategy": "progressive_disclosure",
-    "max_context_tokens": 4000,
-    "compaction_threshold": 0.8,
-    "scratchpad_enabled": true
-  },
-  "evaluation_metrics": {
-    "success_rate_target": 0.85,
-    "false_positive_rate_max": 0.1,
-    "avg_steps_target": 3.0,
-    "provenance_coverage_target": 1.0
-  },
-  "composition_rules": {
-    "can_delegate_to": [],
-    "can_receive_from": [],
-    "max_chain_depth": 3,
-    "requires_orchestrator": true
+    "promotion_state": "implemented_local_reference",
+    "deployment_authority": "none"
   },
   "observability": {
-    "trace_level": "full",
-    "log_inputs": true,
-    "log_outputs": true,
-    "log_intermediate": true,
-    "metrics_enabled": true
+    "capture_default": "METADATA_ONLY",
+    "raw_input_logging": false,
+    "raw_output_logging": false,
+    "raw_intermediate_logging": false,
+    "redacted_content_opt_in": true,
+    "missingness_required": true,
+    "authority_semantics": "OBSERVED_REFERENCE_ONLY"
   },
-  "tags": [
-    "type/agent",
-    "canon/agent",
-    "domain/agent-systems",
-    "rscf/source_claim",
-    "hml/m",
-    "epistemic/amos_model",
-    "amos_os"
-  ],
-  "origin_architect": "Trang Phan",
-  "rscf_state": "SOURCE_CLAIM",
-  "hml_level": "M",
-  "gmef_gates": [
-    "L0_integrity",
-    "L1_epistemic",
-    "L2_provenance",
-    "L5_scope",
-    "L7_authority"
-  ],
-  "collapse_class": "reversible",
-  "qfm_gate_set": "QFM_v43",
-  "law_compliance": [
-    "L0",
-    "L1",
-    "L2",
-    "L4",
-    "L5",
-    "L7",
-    "L16",
-    "L17",
-    "L18"
-  ],
-  "domain": "agent"
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false
+  },
+  "epistemic_class": "AMOS_MODEL"
 }
