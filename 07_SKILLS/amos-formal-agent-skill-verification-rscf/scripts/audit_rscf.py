@@ -2,7 +2,7 @@
 import json,sys
 REQ={"schema","skill","allowed_effects","observed_effects","violations","verdict","scope","receipt_hash"}
 def validate(d):
- m=REQ-set(d); return [] if not m else ["missing:"+","".join(sorted(m))]
+ m=REQ-set(d); return [] if not m else ["missing:"+",".join(sorted(m))]
 if __name__=='__main__':
  if '--self-test' in sys.argv:
   assert not validate({k:"x" for k in REQ}); print('formal_skill audit self-test: PASS'); raise SystemExit(0)
