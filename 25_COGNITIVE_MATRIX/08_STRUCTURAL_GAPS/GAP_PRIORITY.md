@@ -1,67 +1,100 @@
 ---
 canon-group: meta
 canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
+rscf-state: derived
 rscf-provenance: AMOS_corpus
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
+epistemic_class: DERIVED
 topic: Gap Priority
 tags:
   - canon-group/tech-ai
   - rscf/claim
   - rscf/provenance
-  - rscf/state/source-claim
-  - misc
-created: 2026-08-22
----
----
+  - cognitive-matrix
+updated: 2026-09-14
 ---
 
-# GAP_PRIORITY — Definition
+# GAP_PRIORITY — Bounded Executable Contract
 
-**Package:** `GAP_PRIORITY_`
-**Class:** `COGNITIVE_MATRIX_CONTRACT`
-**Epistemic class:** `DERIVED / MODEL EXTENSION`
-**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
-**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
+**Origin architect / steward:** Trang Phan  
+**Class:** `COGNITIVE_MATRIX_CONTRACT`  
+**Status:** `IMPLEMENTED_BOUNDED / VALIDATED_BOUNDED`  
+**Runtime binding:** `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/cognitive_matrix_runtime.py`  
+**Validation binding:** `04_RUNTIME/01_REFERENCE_IMPLEMENTATION/test_cognitive_matrix_runtime.py`
 
 ## Scope
 
-Covers the operation contract for this lifecycle operator.
+Ranks already-identified repair gaps. It does not discover truth, establish causation, promote Canon, or grant execution authority.
 
-## Definition
+## Typed input
 
-GAP_PRIORITY
+For each gap `g`, the runtime requires normalized values in `[0,1]`:
 
-This is a **contract-level definition**, not an implementation claim.
+- `S(g)`: safety consequence
+- `F(g)`: downstream dependency fan-out
+- `I(g)`: irreversibility
+- `U(g)`: unresolved uncertainty
+- `T(g)`: staleness
+- `H(g)`: user/system impact
+- `C(g)`: normalized repair effort
 
-## Hard boundaries
+A gap also carries a typed `GapKind` and stable `gap_id`.
 
-```text
-CONTRACT_FILLED != IMPLEMENTED
-DOCUMENTED != EXECUTABLE
-MODEL != VERIFIED
-UNKNOWN/GAP != PASS
-```
+## AMOS_MODEL equation
 
-______________________________________________________________________
+The bounded prioritisation model is
 
-[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
+\[
+U_g = 0.30S_g + 0.20F_g + 0.15I_g + 0.15U_g^{(unc)} + 0.10T_g + 0.10H_g
+\]
 
-______________________________________________________________________
+and
 
-RSCF-NODE
-node_id: gap_priority_gaps_definition
-node_type: note
-path: 08_STRUCTURAL_GAPS/GAP_PRIORITY\_/GAP_PRIORITY.md
-claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/GAP_PRIORITY.md
+\[
+E_g = \frac{U_g}{1+C_g}.
+\]
 
-______________________________________________________________________
+The superscript on `U_g^(unc)` distinguishes uncertainty from the urgency score `U_g`.
 
-**MOC:** [[25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/08_STRUCTURAL_GAPS_MOC|08_STRUCTURAL_GAPS_MOC]]
+Because all six urgency inputs lie in `[0,1]` and the non-negative weights sum to `1`, `U_g` lies in `[0,1]`. Since `C_g` lies in `[0,1]`, `E_g` also lies in `[0,1]`.
 
-______________________________________________________________________
+This is an **AMOS design model**, not an empirical universal law.
 
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+## Safety override
+
+If `S(g) >= 0.90`, the gap enters critical tier `0` before ordinary efficiency ordering. This prevents low repair cost from outranking a high-consequence defect.
+
+Within a tier, deterministic ordering uses:
+
+1. higher `E_g`;
+2. higher `U_g`;
+3. lexical `gap_id` as the final deterministic tie-break.
+
+## Hard invariants
+
+- `PRIORITY != TRUTH`.
+- `PRIORITY != AUTHORITY`.
+- Missing or non-finite inputs fail closed.
+- Inputs outside `[0,1]` fail closed.
+- Safety-critical gaps cannot be demoted solely by effort.
+- Ranking cannot silently rewrite `GapKind`.
+- The scoring model remains `AMOS_MODEL` unless independently validated for a domain.
+
+## Executed validation
+
+2026-09-14 bounded replay covered:
+
+- score bounds;
+- critical-tier override;
+- deterministic ranking;
+- 128 binary boundary corners of the seven normalized inputs;
+- coefficient sum `= 1.0`;
+- observed urgency range `[0,1]`;
+- observed efficiency range `[0,1]`;
+- zero boundary violations.
+
+## RSCF boundary
+
+`IMPLEMENTED_BOUNDED / VALIDATED_BOUNDED` applies only to the reference runtime functions `score_gap` and `prioritize_gaps`. It does not imply that all Cognitive Matrix gaps have been populated or that the whole matrix is validated.
+
+[[25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/08_STRUCTURAL_GAPS_MOC|08_STRUCTURAL_GAPS_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
