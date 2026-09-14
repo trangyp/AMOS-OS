@@ -1,244 +1,117 @@
 ---
-canon-group: meta
-canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
-conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
-topic: Skill
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
-created: 2026-08-22
----
----
+name: amos-aibom-lifecycle-assurance-rscf
+description: Construct, normalize, validate, diff, and audit AI Bills of Materials and AI/software supply-chain evidence across source, code, Skills, agents, workflows, tools, models, datasets, dependencies, runtimes, containers, configs, build artifacts, attestations, vulnerabilities, and execution outputs. Use for AIBOM/SBOM lifecycle assurance, build/runtime identity, CycloneDX or SPDX intake, in-toto/SLSA attestations, signature evidence, vulnerability applicability, dependency drift, output binding, reproducibility closure, and supply-chain promotion checks where inventory, provenance, trust, completeness, authority, and semantic correctness must remain distinct.
 ---
 
-# Aibom Lifecycle Assurance Rscf
+# AMOS AIBOM Lifecycle Assurance
 
-## Identity
+Origin architect: **Trang Phan**.
 
-Origin architect: **Trang Phan**. Domain: rscf. Parent: amos-rscf-epistemic-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
+Treat the AIBOM as an evidence-bound lifecycle graph, not a package list and not an authorization token.
 
-## When to Use
+## Operating sequence
 
-- When classifying AIBOM lifecycle claims by epistemic state and binding them to evidence
-- When validating evidence chains for provenance, freshness, scope, and regime validity
-- When tracing AIBOM output provenance to vault sources and content hashes
-- When assessing confidence ceilings based on epistemic class and evidence strength
-- When detecting falsifiers and downgrading confidence as counter-evidence emerges
-- When managing AIBOM lifecycle operations across classify, validate, trace, assess, and detect
-- When detecting drift in evidence chains, provenance freshness, or confidence calibration
-- When validating AIBOM outputs against domain constraints and epistemic class
-- When the parent skill (`amos-rscf-epistemic-master`) routes to this specialized capability
+1. **Bind identity.** Resolve repository/source ref, build ID, environment ID, root artifact and policy requirements.
+2. **Inventory.** Record typed components and digests. Preserve AI-specific objects such as models, datasets, model-card evidence, runtime/configuration and outputs separately from ordinary packages.
+3. **Normalize.** Import supported CycloneDX/SPDX evidence into AMOS component and relationship types without erasing source format or source reference.
+4. **Bind provenance.** Attach in-toto Statement/v1 evidence to exact component digests. Record signature verification only when an external verifier identity/version/evidence reference exists.
+5. **Bind vulnerability evidence.** Record scanner/version/database snapshot plus version/configuration applicability. Preserve `UNKNOWN` when applicability is unresolved.
+6. **Seal.** Seal only structurally valid manifests. Keep policy completeness separate from structural integrity.
+7. **Verify.** Validate manifest hash, lineage, attestation binding, vulnerability attribution and compact receipt semantics with `scripts/audit_rscf.py`.
+8. **Bind outputs.** Bind execution output hashes to the exact sealed AIBOM hash and, when available, trace/evaluation receipt identity.
+9. **Diff lifecycle state.** Compare sealed manifests only within compatible source identity. Report material drift without manufacturing causality.
+10. **Conclude narrowly.** State executed evidence, gaps, invalidators and authority boundary.
 
-## Capabilities
+Use `scripts/aibom.py` for deterministic local lifecycle operations and `scripts/audit_rscf.py` for receipt validation.
 
-- **aibom_lifecycle.classify_claim**: Classify claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP) and bind to evidence
-- **aibom_lifecycle.validate_evidence**: Validate evidence chains: provenance, freshness, scope, and regime validity
-- **aibom_lifecycle.trace_provenance**: Trace output provenance to vault sources and tag with content_hash
-- **aibom_lifecycle.assess_confidence**: Assess confidence ceiling based on epistemic class and evidence strength
-- **aibom_lifecycle.detect_falsifier**: Detect falsifiers and downgrade confidence when counter-evidence emerges
-- **aibom_lifecycle.manage_lifecycle**: Manage AIBOM lifecycle: classify, validate, trace, assess, detect
-- **aibom_lifecycle.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration
-- **aibom_lifecycle.validate_outputs**: Validate AIBOM outputs against domain constraints and epistemic class
+## Typed state
 
-## Operations
+Use these component kinds when applicable:
 
-1. **aibom_lifecycle.classify_claim**: Classify claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP) and bind to evidence
-1. **aibom_lifecycle.validate_evidence**: Validate evidence chains: provenance, freshness, scope, and regime validity
-1. **aibom_lifecycle.trace_provenance**: Trace output provenance to vault sources and tag with content_hash
-1. **aibom_lifecycle.assess_confidence**: Assess confidence ceiling based on epistemic class and evidence strength
-1. **aibom_lifecycle.detect_falsifier**: Detect falsifiers and downgrade confidence when counter-evidence emerges
-1. **aibom_lifecycle.manage_lifecycle**: Manage AIBOM lifecycle: classify, validate, trace, assess, detect
-1. **aibom_lifecycle.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration
-1. **aibom_lifecycle.validate_outputs**: Validate AIBOM outputs against domain constraints and epistemic class
+`SOURCE_REPO | CODE | SKILL | AGENT | WORKFLOW | TOOL | MODEL | DATASET | DEPENDENCY | RUNTIME | CONFIG | CONTAINER | BUILD_ARTIFACT | OUTPUT | OTHER`
 
-## Vault-Sourced Content
+Use explicit relations such as:
 
-### Source 1: Assurance, Debt Registers & Maturity Governance
+`DEPENDS_ON | BUILT_FROM | TRAINED_ON | CONFIGURED_BY | EXECUTES_ON | PACKAGED_IN | PRODUCES | USES_TOOL | EVALUATED_BY | DERIVED_FROM | DESCRIBES | CONTAINS`
 
-> Path: `dated/2026-08-22/2026-08-22 Assurance Debt Governance.md` | Size: 3711 chars | Match score: 5 | content_hash: a774828e5c7e1e7d
+Do not collapse model lineage, data lineage, software dependency, build identity, runtime identity, configuration and output provenance into one field.
 
-## Assurance, Debt Registers & Maturity Governance
+## Hard invariants
 
-## Overview
+- `BOM_PRESENT != COMPLETE_INVENTORY`
+- `SBOM_PARSEABLE != TRUSTED`
+- `DIGEST_MATCH != SIGNATURE_VERIFIED`
+- `SIGNATURE_VERIFIED != SEMANTIC_CORRECTNESS`
+- `ATTESTATION_PRESENT != ATTESTATION_VERIFIED`
+- `PROVENANCE_VERIFIED != REPRODUCIBLE`
+- `VULNERABILITY_ID_MATCH != VULNERABILITY_APPLICABLE`
+- `SCANNER_NO_FINDINGS != NO_VULNERABILITIES`
+- `MODEL_CARD_PRESENT != MODEL_SAFE`
+- `BUILD_ATTESTATION != RUNTIME_IDENTITY`
+- `RUNTIME_IDENTITY != OUTPUT_BINDING`
+- `OUTPUT_BOUND != OUTPUT_CORRECT`
+- `AIBOM_SEALED != POLICY_COMPLETE`
+- `AIBOM_SEALED != DEPLOYMENT_AUTHORITY`
+- `INVENTORY != AUTHORITY`
 
-The Assurance, Debt Registers & Maturity Governance module provides the final
-layer of the AMOS OS Kernel's governance stack. It ensures that assurance
-cases are properly reviewed, debt is tracked and managed, components reach
-appropriate maturity levels before promotion, evidence/benchmarks/policies
-are kept current, obsolete architecture is detected, and simplification
-opportunities are pursued.
+Missing evidence is `UNKNOWN/GAP`; it is never a pass.
 
-## Subsystems
+## Structural integrity vs policy completeness
 
-### 301 — Independent Falsifier Manager
+Keep two independent gates:
 
-Tracks independent falsifier access for scientific claims.
-Gate: CONDITIONAL if pending falsifier access.
+**Structural integrity** requires a valid root, digest syntax, closed recorded relations, bound attestation subjects, support for any claimed external signature verification, valid vulnerability attribution states, and a valid sealed manifest hash.
 
-### 302 — Red-Team Independence Manager
+**Policy completeness** evaluates required evidence dimensions independently: attestation, verified signature, vulnerability evidence, environment identity, output binding and replay evidence.
 
-Ensures red teams are independent from the development team.
-Gate: FAIL if non-independent red teams detected.
+A structurally valid AIBOM may be sealed while `policy_complete=false`. Never rewrite that state as VERIFIED.
 
-### 303 — Assurance Case Manager
+## Vulnerability applicability
 
-Manages assurance cases (draft/under_review/approved/rejected/expired).
-Gate: CONDITIONAL if unapproved or expired cases.
+For component-present state `C`, version match `V`, and configuration match `G`:
 
-### 304 — Certification Profile Manager
+- if any of `C,V,G` is unknown, applicability is `UNKNOWN`;
+- otherwise applicability is `APPLICABLE` iff `C and V and G`;
+- otherwise it is `NOT_APPLICABLE`.
 
-Tracks certifications (standard/level/certifier/valid_until).
-Gate: CONDITIONAL if expired certifications.
+A scanner finding must retain scanner identity/version, vulnerability database snapshot and evidence reference.
 
-### 305 — Residual Risk Acceptance Manager
+## Attestation and signature boundary
 
-Tracks residual risk acceptance by designated authority.
-Gate: CONDITIONAL if unaccepted residual risks.
+Accept only explicitly typed evidence. The portable runtime understands in-toto Statement/v1 subject-digest binding. `VERIFIED_EXTERNAL` means an external verifier was observed and its identity/version/evidence reference were captured; the local reference runtime does not itself perform cryptographic verification.
 
-### 306 — Known Gap Disclosure Manager
+Cryptographic verification proves a bounded identity/integrity claim. It does not prove model safety, code correctness, absence of vulnerabilities, benchmark validity, authorization or deployment fitness.
 
-Ensures known gaps are disclosed to appropriate audiences.
-Gate: FAIL if undisclosed known gaps.
+## Reproducibility closure
 
-### 307-310 — Debt Register Manager
+Represent closure as a boolean vector rather than a decorative scalar:
 
-Tracks four types of debt: epistemic, governance, security, architecture.
-Gate: FAIL if debt amount > 0.75 threshold.
+`component_inventory, environment_identity, model_lineage, runtime_capture, output_binding, replay_evidence`.
 
-### 311 — Debt Interaction Manager
+`closed` is true only if every required dimension is true. Preserve each failing dimension so repair remains localizable.
 
-Analyzes interactions between different types of debt.
-Gate: CONDITIONAL if high-severity interactions (> 0.5).
+## Lifecycle drift
 
-### 312 — Maturity State Manager
+Compare sealed manifests only when source repository identity is compatible. Preserve added, removed, digest-changed, version-changed and kind-changed component sets. Highlight changes in models, datasets, runtimes, configs, containers and build artifacts as material drift.
 
-Tracks component maturity (experimental/prototype/beta/production/legacy/deprecated).
-Gate: CONDITIONAL if immature components in use.
+`AIBOM_DRIFT_DOES_NOT_IDENTIFY_CAUSE`.
 
-### 313 — Promotion Evidence Manager
+## Privacy and persistence
 
-Manages promotion evidence standards (pending/promoted/demoted/quarantined/rejected).
-Gate: CONDITIONAL if pending promotions.
+Default to metadata, hashes and evidence references. Do not persist credentials, tokens, raw prompts, raw model outputs, hidden reasoning or secrets in the AIBOM runtime or receipts.
 
-### 314 — Demotion/Quarantine Manager
+## Evidence classes
 
-Manages demotion and quarantine rules with authority tracking.
-Gate: FAIL if quarantined without authority; CONDITIONAL if quarantined with authority.
+Keep these distinct:
 
-### 315 — Continuous Re
+- `SOURCE_CLAIM`: statements from external specifications/repositories.
+- `OBSERVATION`: executed parser/validator/test/runtime evidence.
+- `DERIVED`: conclusions that follow from bound evidence.
+- `AMOS_MODEL`: AMOS-specific representation or policy semantics.
+- `UNKNOWN/GAP`: unresolved evidence or unsupported claim.
 
-______________________________________________________________________
+No source or test grants authority.
 
-**Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
+## Required references
 
-## Related
-
-- [[07_SKILLS/amos-aibom-lifecycle-assurance-rscf/amos-aibom-lifecycle-assurance-rscf_MOC|amos-aibom-lifecycle-assurance-rscf_MOC]]
-
-## Examples
-
-- **Scenario**: When classifying AIBOM lifecycle claims by epistemic state and binding them to evidence
-
-  - **Input**: A query matching this skill's domain (rscf)
-  - **Output**: Structured result with epistemic labels and provenance
-
-- **Scenario**: When validating evidence chains for provenance, freshness, scope, and regime validity
-
-  - **Input**: A query matching this skill's domain (rscf)
-  - **Output**: Structured result with epistemic labels and provenance
-
-- **Scenario**: When tracing AIBOM output provenance to vault sources and content hashes
-
-  - **Input**: A query matching this skill's domain (rscf)
-  - **Output**: Structured result with epistemic labels and provenance
-
-## Validation Gates
-
-- **L0 Integrity**: All structural elements accounted for; no silent gaps
-- **L1 Epistemic**: Every claim tagged with epistemic class (SOURCE_CLAIM / DERIVED / AMOS_MODEL)
-- **L5 Scope**: Analysis confined to declared scope and domain
-- **L7 Authority**: No autonomous action beyond authority boundary
-
-## Anti-Patterns
-
-- **Do not use** for tasks outside the rscf domain
-- **Do not use** when the query requires empirical validation that this skill cannot provide
-- **Do not use** when a parent skill or higher-level orchestrator should route instead
-- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
-- **Do not chain** more than 3 skills without explicit orchestrator approval
-
-## Composition
-
-- **Parent**: `amos-rscf-epistemic-master` — routes to this skill when rscf specialization is needed
-- **Peers**: Other skills in the `rscf` domain may be composed in sequence
-- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
-- **Workflow**: Each skill has a corresponding workflow in `26_WORKFLOWS/`
-- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
-## Evaluation
-
-### Success Criteria
-
-- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
-- Output includes provenance reference to source evidence
-- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
-- Output includes gap flags for unresolved unknowns
-- Output does not exceed declared scope
-
-### Failure Modes
-
-- **Overreach**: Output claims validity beyond its epistemic class
-- **Scope creep**: Output addresses questions outside the declared domain
-- **Provenance loss**: Output cannot trace back to source evidence
-- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
-
-## Error Handling
-
-- **On scope violation**: Reject the query and route back to parent skill
-- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
-- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
-- **On provenance loss**: Mark output as UNKNOWN and require human review
-- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
-## Do not use
-
-- For generic epistemic analysis outside the RSCF framework
-- To claim empirical validation of epistemic classification theories
-- As a substitute for domain-specific evidence or provenance validation
-- Outside RSCF epistemic domain reasoning
-
-## References
-
-- `references/aibom_subsystems.md` — loaded on demand
-- `references/references_MOC.md` — loaded on demand
-- \`\` — skill Map of Content
-- `amos-rscf-epistemic-master` — parent skill
-- \`\` — corresponding workflow
-- `amos-aibom-lifecycle-assurance-rscf-agent` — corresponding agent
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
-
-**MOC:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
-
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
-
-______________________________________________________________________
-
-RSCF-NODE
-node_id: amos-aibom-lifecycle-assurance-rscf
-node_type: skill
-path: 07_SKILLS/amos-aibom-lifecycle-assurance-rscf/SKILL.md
-RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-- CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
+Read `references/assurance-boundaries.md` for state/equation semantics and `references/upstream-mechanisms.md` when source provenance or format boundaries matter.
