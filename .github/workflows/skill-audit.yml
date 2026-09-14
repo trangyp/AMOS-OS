@@ -15,6 +15,7 @@ on:
       - '26_WORKFLOWS/**'
       - '.github/**'
       - 'scripts/amos_repo_audit.py'
+      - 'scripts/validate_workflow_supply_chain.py'
   push:
     branches: [main]
     paths:
@@ -25,6 +26,7 @@ on:
       - '26_WORKFLOWS/**'
       - '.github/**'
       - 'scripts/amos_repo_audit.py'
+      - 'scripts/validate_workflow_supply_chain.py'
 
 concurrency:
   group: skill-audit-${{ github.ref }}
@@ -65,14 +67,22 @@ jobs:
         with:
           python-version: ${{ env.PYTHON_VERSION }}
 
-      - name: Compile audit executable
-        run: python -m py_compile scripts/amos_repo_audit.py
+      - name: Compile audit executables
+        run: |
+          python -m py_compile \
+            scripts/amos_repo_audit.py \
+            scripts/validate_workflow_supply_chain.py
 
-      - name: Run audit self-test
-        run: python scripts/amos_repo_audit.py --self-test
+      - name: Run audit self-tests
+        run: |
+          python scripts/amos_repo_audit.py --self-test
+          python scripts/validate_workflow_supply_chain.py --self-test
 
       - name: Audit changed contracts and workflow references
         run: python scripts/amos_repo_audit.py --repo . --base "$BASE_SHA"
+
+      - name: Enforce immutable action dependencies
+        run: python scripts/validate_workflow_supply_chain.py --repo .
 
       - name: Record bounded evidence
         if: always()
@@ -82,6 +92,6 @@ jobs:
           echo '- Structural checks: executable repository contract' >> "$GITHUB_STEP_SUMMARY"
           echo '- Scope: changed Skills/agents + global workflow Python-reference integrity' >> "$GITHUB_STEP_SUMMARY"
           echo '- Fetch scope: exact head + exact comparison base; no full-history checkout' >> "$GITHUB_STEP_SUMMARY"
+          echo '- External GitHub Actions: immutable 40-char commit-SHA pins required' >> "$GITHUB_STEP_SUMMARY"
           echo '- Security: evaluated separately by External Skill Security' >> "$GITHUB_STEP_SUMMARY"
-          echo '- Action dependencies: immutable commit SHAs' >> "$GITHUB_STEP_SUMMARY"
           echo '- A PASS is evidence for these checks only; it is not proof of semantic correctness or safety.' >> "$GITHUB_STEP_SUMMARY"
