@@ -13,7 +13,12 @@ on:
       - 'scripts/**'
       - '.github/**'
   push:
-    branches: [main, develop]
+    branches:
+      - main
+      - develop
+      - 'agent-*'
+      - 'github-*'
+      - 'integrate-*'
     paths:
       - '06_AGENTS/**'
       - '06_AGENT_SYSTEMS/**'
