@@ -81,6 +81,7 @@ Guarantees transactionality, epoch ordering, and durable state receipts:
 ## 3. Plane Contracts & Infrastructure Documentation
 
 - [[04_RUNTIME/RUNTIME_RUNTIME_CONTRACT|Runtime Plane Contract]] — Normative rules governing state transitions.
+- [[04_RUNTIME/AGENT_INTEROPERABILITY_ABI|Agent Interoperability ABI]] — Separates AMOS agent semantics and authority from A2A, MCP, and host-runtime protocol bindings.
 - [[04_RUNTIME/RUNTIME_README|Runtime Operating Model README]] — Operational lifecycle and error recovery.
 - [[04_RUNTIME/00_INDEX/RUNTIME_MAP|Runtime Navigation Map]] — Index mapping of runtime components.
 
