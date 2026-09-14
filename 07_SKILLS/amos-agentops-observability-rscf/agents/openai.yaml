@@ -1,0 +1,3 @@
+interface:
+  display_name: "AMOS AgentOps Observability"
+  short_description: "Trace agent/runtime activity with provenance, missingness, privacy and authority firewalls."
