@@ -1,0 +1,49 @@
+name: Managed Autonomy Escalation Contract
+on:
+  pull_request:
+    paths:
+      - '07_SKILLS/amos-managed-autonomy-escalation-rscf/**'
+      - '06_AGENTS/amos-managed-autonomy-escalation-rscf-agent.json'
+      - '08_WORKFLOWS/amos-managed-autonomy-escalation-rscf-workflow.md'
+      - '26_WORKFLOWS/amos-managed-autonomy-escalation-rscf-workflow.md'
+      - '11_KNOWLEDGE/MANAGED_AUTONOMY_ESCALATION_SOURCES.md'
+      - '14_TOOLS/MANAGED_AUTONOMY_LIFECYCLE_VERIFIER.md'
+      - '19_TESTS/test_managed_autonomy.py'
+      - '.github/agents/amos-managed-autonomy-auditor.agent.md'
+      - '.github/workflows/managed-autonomy-escalation-contract.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  managed-autonomy-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: '3.12'
+      - name: Compile deterministic surfaces
+        run: |
+          python -m py_compile \
+            07_SKILLS/amos-managed-autonomy-escalation-rscf/scripts/managed_autonomy.py \
+            07_SKILLS/amos-managed-autonomy-escalation-rscf/scripts/audit_rscf.py \
+            19_TESTS/test_managed_autonomy.py
+      - name: Run managed-autonomy regression suite
+        env:
+          PYTHONWARNINGS: error::ResourceWarning
+        run: python -m unittest -q 19_TESTS/test_managed_autonomy.py
+      - name: Run self-tests
+        run: |
+          python 07_SKILLS/amos-managed-autonomy-escalation-rscf/scripts/managed_autonomy.py --self-test
+          python 07_SKILLS/amos-managed-autonomy-escalation-rscf/scripts/audit_rscf.py --self-test
+      - name: Enforce authority firewalls
+        run: |
+          grep -q 'TERMINAL_SURRENDER != IN_PLACE_RESUME' 07_SKILLS/amos-managed-autonomy-escalation-rscf/SKILL.md
+          grep -q 'ESCALATION_RECEIPT != EXECUTION_AUTHORITY' 07_SKILLS/amos-managed-autonomy-escalation-rscf/SKILL.md
+          python - <<'PY'
+          import json
+          a=json.load(open('06_AGENTS/amos-managed-autonomy-escalation-rscf-agent.json'))
+          g=a['governance']; o=a['observability']
+          assert g['execution_authority']=='none' and g['merge_authority']=='none'
+          assert o['log_inputs'] is False and o['log_outputs'] is False and o['log_intermediate'] is False
+          PY

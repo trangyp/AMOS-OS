@@ -1,23 +1,14 @@
-bundle_version: 1.1.0
-bundle_date: 2026-08-28
+bundle_version: 3.0.0
 schema_version: "1.0"
-compatible_with:
-  - claude-code
-  - claude-chat
-  - codex
-  - gemini-cli
-  - copilot
-dependencies: []
-security_verdict: pass
-epistemic_class: SOURCE_CLAIM
+origin_architect: Trang Phan
 steward: Trang Phan
-license: MIT
+epistemic_class: AMOS_MODEL
+promotion_state: implemented_local_reference
+deployment_authority: none
 files:
-  - path: "SKILL.md"
-  - path: "amos-managed-autonomy-escalation-rscf_MOC.md"
-  - path: "references/references_MOC.md"
-  - path: "references/vault_domain_knowledge.md"
-  - path: "scripts/hooks/hooks_config.yaml"
-  - path: "scripts/hooks/post_tool_use.py"
-  - path: "scripts/hooks/pre_tool_use.py"
-  - path: "scripts/hooks/stop.py"
+  - SKILL.md
+  - agents/openai.yaml
+  - scripts/managed_autonomy.py
+  - scripts/audit_rscf.py
+  - references/lifecycle-contract.md
+  - references/upstream-mechanisms.md

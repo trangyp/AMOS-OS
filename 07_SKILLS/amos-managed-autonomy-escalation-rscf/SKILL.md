@@ -1,211 +1,82 @@
 ---
-canon-group: meta
-canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
-conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
-topic: Skill
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
-created: 2026-08-22
----
----
+name: amos-managed-autonomy-escalation-rscf
+description: Govern agent autonomy as an explicit finite-state lifecycle with stable operation, local recovery, assisted recovery, suspension, and regulated surrender. Use when epistemic validity degrades, persistent disagreement remains unresolved, recovery attempts fail, authority becomes stale, or an agent must decide whether to continue, recover, suspend, escalate, or relinquish authority without treating anomaly detection as action authority.
 ---
 
-# Managed Autonomy Escalation Rscf
+# AMOS Managed Autonomy Escalation RSCF
 
-## Identity
+Origin architect/steward: **Trang Phan**.
 
-Origin architect: **Trang Phan**. Domain: rscf. Parent: amos-rscf-epistemic-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
+## Purpose
 
-## When to Use
+Own the bounded autonomy-lifecycle decision between ordinary operation and relinquishing autonomous control. This Skill does not diagnose failures, authorize tools, or execute external effects.
 
-- When classifying claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP)
-- When validating evidence chains for provenance, freshness, and scope
-- When assessing confidence ceilings based on epistemic class
-- When detecting falsifiers that would downgrade confidence
-- When the parent skill (`amos-rscf-epistemic-master`) routes to this specialized capability
-- When managing lifecycle operations across classify, validate, trace, assess, and detect
-- When detecting drift in evidence chains, provenance freshness, or confidence calibration
-- When validating outputs against domain constraints and epistemic class
+## Runtime
 
-## Capabilities
+`BIND -> OBSERVE -> CLASSIFY -> DECIDE -> TRANSITION -> FENCE -> RECEIPT -> RECHECK`
 
-- **managed_autonomy.classify_claim**: Classify claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP) and bind to evidence
-- **managed_autonomy.validate_evidence**: Validate evidence chains: provenance, freshness, scope, and regime validity
-- **managed_autonomy.trace_provenance**: Trace output provenance to vault sources and tag with content_hash
-- **managed_autonomy.assess_confidence**: Assess confidence ceiling based on epistemic class and evidence strength
-- **managed_autonomy.detect_falsifier**: Detect falsifiers and downgrade confidence when counter-evidence emerges
+Use `scripts/managed_autonomy.py` for deterministic lifecycle checks and `scripts/audit_rscf.py` for receipt validation.
 
-> **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 36895d32f29b3702) for the full vault-sourced domain knowledge (9105 chars).
+States:
 
-- **managed_autonomy.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-- **managed_autonomy.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-- **managed_autonomy.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+`STABLE -> LOCAL_RECOVERY -> ASSISTED_RECOVERY -> SUSPENDED -> SURRENDERED`
 
-## Operations
+Transitions may skip upward when evidence requires stricter containment. Downward transitions require explicit recovery evidence and fresh authority. `SURRENDERED` is terminal for the lifecycle instance; resumption requires a new lifecycle identity.
 
-1. **managed_autonomy.classify_claim**: Classify claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP) and bind to evidence
-1. **managed_autonomy.validate_evidence**: Validate evidence chains: provenance, freshness, scope, and regime validity
-1. **managed_autonomy.trace_provenance**: Trace output provenance to vault sources and tag with content_hash
-1. **managed_autonomy.assess_confidence**: Assess confidence ceiling based on epistemic class and evidence strength
-1. **managed_autonomy.detect_falsifier**: Detect falsifiers and downgrade confidence when counter-evidence emerges
-1. **managed_autonomy.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-1. **managed_autonomy.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-1. **managed_autonomy.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+## Load-bearing evidence classes
 
-## 11_KNOWLEDGE Vault Content
+- `SOFT_DEGRADATION`
+- `RECOVERY_FAILURE`
+- `RECOVERY_SUCCESS`
+- `PERSISTENT_DISAGREEMENT`
+- `EVIDENCE_GAP`
+- `HARD_INVARIANT_FAILURE`
+- `AUTHORITY_STALE`
+- `EXTERNAL_BLOCK`
+- `ASSISTED_APPROVAL`
+- `ASSISTED_DENIAL`
 
-> **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)
+Do not infer severity from fluent text or confidence alone.
 
-### RSCF Epistemic Substrate
+## Decision rules
 
-This RSCF engine operates on the AMOS RSCF (Reasoning, Scope, Claim, Falsifier) epistemic substrate.
+1. Hard invariant failure, stale authority, or an external blocking proof can move directly to `SUSPENDED`.
+2. Soft degradation enters `LOCAL_RECOVERY` while local-attempt budget remains.
+3. Exhausted local recovery, persistent disagreement, or unresolved evidence gap enters `ASSISTED_RECOVERY`.
+4. Exhausted assisted recovery or explicit assisted denial enters `SURRENDERED`.
+5. `RECOVERY_SUCCESS` can de-escalate only if blocking evidence is cleared and authority/policy epochs are current.
+6. `SUSPENDED -> STABLE` requires explicit assisted approval plus current authority and no active hard block.
+7. Every transition increments a fencing epoch. Receipts from older epochs are stale.
 
-**RSCF objects**: claim / class / premises / evidence / provenance / scope / regime / freshness / dependencies / competing hypotheses / falsifiers / confidence ceiling.
+Detailed transition semantics are in `references/lifecycle-contract.md`.
 
-**RSCF state kinds**: OBSERVATION, SOURCE_CLAIM, DERIVED, MODEL, DECISION, UNKNOWN.
+## Hard invariants
 
-**RSCF laws**:
-
-- `CLAIM != FACT`: a claim is not a fact; it must be labeled with epistemic class
-- `CONFIDENCE <= EVIDENCE`: confidence cannot exceed evidence support
-- `FALSIFIER_REQUIRED`: every claim must declare its falsifier
-- `SCOPE_BOUND`: every claim is valid only within its declared scope and regime
-- `PROVENANCE_REQUIRED`: every claim must have traceable provenance
-
-**RSCF validation gates**:
-
-- G1 (Law of Law): no unresolved contradictions
-- G2 (Epistemic class): all claims labeled, no class promotion without evidence
-- G3 (Provenance): source path recorded for every derived claim
-- G4 (Anti-overreach): no claim beyond declared scope
-- G5 (Equation firewall): equations carry status tags
-- G6 (Failure mode): on failure, downgrade, flag, escalate
-
-### Epistemic Boundary
-
-This RSCF engine is an epistemic governance tool. It does not prove claims are true, that all falsifiers are known, or that the RSCF framework is complete.
-
-## Failure Modes
-
-- **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
-- **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
-- **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
-- **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
-- **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and relabel.
-
-## Validation Gates
-
-- **G1 (Law of Law)**: No unresolved contradictions within the skill's scope.
-- **G2 (Epistemic class)**: All claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL — never claim beyond evidence.
-- **G3 (Provenance)**: Source path recorded for every derived claim.
-- **G4 (Anti-overreach)**: No claim beyond the skill's declared scope and epistemic class
-
-______________________________________________________________________
-
-**Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
-
-## Related
-
-- [[07_SKILLS/amos-managed-autonomy-escalation-rscf/amos-managed-autonomy-escalation-rscf_MOC|amos-managed-autonomy-escalation-rscf_MOC]]
-
-## Examples
-
-- **Scenario**: When classifying claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP)
-
-  - **Input**: A query matching this skill's domain (rscf)
-  - **Output**: Structured result with epistemic labels and provenance
-
-- **Scenario**: When validating evidence chains for provenance, freshness, and scope
-
-  - **Input**: A query matching this skill's domain (rscf)
-  - **Output**: Structured result with epistemic labels and provenance
-
-- **Scenario**: When assessing confidence ceilings based on epistemic class
-
-  - **Input**: A query matching this skill's domain (rscf)
-  - **Output**: Structured result with epistemic labels and provenance
-
-## Anti-Patterns
-
-- **Do not use** for tasks outside the rscf domain
-- **Do not use** when the query requires empirical validation that this skill cannot provide
-- **Do not use** when a parent skill or higher-level orchestrator should route instead
-- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
-- **Do not chain** more than 3 skills without explicit orchestrator approval
+- `ANOMALY_DETECTED != RESPONSE_AUTHORITY`.
+- `RECOVERY_ATTEMPT != RECOVERY_SUCCESS`.
+- `MODEL_CONFIDENCE != AUTONOMY_PERMISSION`.
+- `LOCAL_RECOVERY_EXHAUSTED -> ASSISTED_RECOVERY_OR_STRICTER`.
+- `HARD_INVARIANT_FAILURE -> NO_AUTONOMOUS_CONTINUE`.
+- `STALE_AUTHORITY != VALID_AUTHORITY`.
+- `SUSPENDED != SURRENDERED`.
+- `SURRENDERED != PAUSED`.
+- `TERMINAL_SURRENDER != IN_PLACE_RESUME`.
+- `CHECKPOINT_PRESENT != SAFE_TO_RESUME`.
+- `RESUME != RESET_RECOVERY_BUDGET`.
+- `ESCALATION_RECEIPT != EXECUTION_AUTHORITY`.
 
 ## Composition
 
-- **Parent**: `amos-rscf-epistemic-master` — routes to this skill when rscf specialization is needed
-- **Peers**: Other skills in the `rscf` domain may be composed in sequence
-- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
-- **Workflow**: Each skill has a corresponding workflow in `26_WORKFLOWS/`
-- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+Accept evidence from exposure control, distributed-attack composition, evaluator reliability, authorization, or other specialist Skills only as typed evidence. Their PASS/BLOCK outputs do not become lifecycle authority automatically.
 
-## Evaluation
+For consequential external effects, return a lifecycle recommendation/evidence receipt to the AMOS infrastructure control plane. The infrastructure layer owns actual tool/effect authorization and commit.
 
-### Success Criteria
+## Epistemic boundary
 
-- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
-- Output includes provenance reference to source evidence
-- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
-- Output includes gap flags for unresolved unknowns
-- Output does not exceed declared scope
+The five-state lifecycle and transition policy are `AMOS_MODEL`. Upstream framework mechanisms are `SOURCE_CLAIM`. Local test execution is `EXECUTED_OBSERVATION`. Passing this runtime does not prove deployment safety, causal diagnosis, or optimal escalation thresholds.
 
-### Failure Modes
+## Stop outputs
 
-- **Overreach**: Output claims validity beyond its epistemic class
-- **Scope creep**: Output addresses questions outside the declared domain
-- **Provenance loss**: Output cannot trace back to source evidence
-- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+Return one of:
 
-## Error Handling
-
-- **On scope violation**: Reject the query and route back to parent skill
-- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
-- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
-- **On provenance loss**: Mark output as UNKNOWN and require human review
-- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
-## Do not use
-
-- For generic epistemic analysis outside the RSCF framework
-- To claim empirical validation of epistemic classification theories
-- As a substitute for domain-specific evidence or provenance validation
-- Outside RSCF epistemic domain reasoning
-
-## References
-
-- `references/references_MOC.md` — loaded on demand
-- `references/vault_domain_knowledge.md` — loaded on demand
-- \`\` — skill Map of Content
-- `amos-rscf-epistemic-master` — parent skill
-- \`\` — corresponding workflow
-- `amos-managed-autonomy-escalation-rscf-agent` — corresponding agent
-
-______________________________________________________________________
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
-
-**MOC:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
-
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
-
-______________________________________________________________________
-
-RSCF-NODE
-node_id: amos-managed-autonomy-escalation-rscf
-node_type: skill
-path: 07_SKILLS/amos-managed-autonomy-escalation-rscf/SKILL.md
-RSCF-RELATIONS:
-
-- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-- CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
+`CONTINUE_STABLE | ENTER_LOCAL_RECOVERY | REQUIRE_ASSISTED_RECOVERY | SUSPEND_AUTONOMY | SURRENDER_AUTONOMY | RESUME_STABLE | REMAIN_CONTAINED | UNKNOWN_GAP`
