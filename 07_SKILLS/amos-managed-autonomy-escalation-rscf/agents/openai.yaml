@@ -1,0 +1,3 @@
+interface:
+  display_name: "AMOS Managed Autonomy Escalation"
+  short_description: "Govern bounded recovery, suspension, and surrender states"
