@@ -1,0 +1,63 @@
+name: agent-reach-integration-gate
+
+on:
+  push:
+    paths:
+      - "14_TOOLS/AGENT_REACH_TOOL.md"
+      - "14_TOOLS/TOOL_REGISTRY_MASTER.md"
+      - "04_RUNTIME/01_BOOT/agent_reach_bootstrap.py"
+      - ".github/workflows/agent-reach-integration-gate.yml"
+  pull_request:
+    paths:
+      - "14_TOOLS/AGENT_REACH_TOOL.md"
+      - "14_TOOLS/TOOL_REGISTRY_MASTER.md"
+      - "04_RUNTIME/01_BOOT/agent_reach_bootstrap.py"
+      - ".github/workflows/agent-reach-integration-gate.yml"
+
+jobs:
+  validate-agent-reach-integration:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compile AMOS bootstrap
+        run: python -m py_compile 04_RUNTIME/01_BOOT/agent_reach_bootstrap.py
+
+      - name: Static authority-boundary checks
+        run: |
+          python - <<'PY'
+          import importlib.util
+          from pathlib import Path
+
+          path = Path("04_RUNTIME/01_BOOT/agent_reach_bootstrap.py")
+          text = path.read_text(encoding="utf-8")
+          spec = importlib.util.spec_from_file_location("agent_reach_bootstrap", path)
+          module = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(module)
+
+          assert module.UPSTREAM_COMMIT == "da5044d26fc6adddb6554d5679c94ac22e76e428"
+          assert module.EXPECTED_VERSION == "1.5.0"
+          assert module.parse_version("Agent Reach v1.5.0\n") == "1.5.0"
+          assert '"--system"' not in text
+          print("static boundary checks: PASS")
+          PY
+
+      - name: Install exact pinned upstream package in ephemeral venv
+        run: |
+          python -m venv /tmp/agent-reach-test
+          /tmp/agent-reach-test/bin/python -m pip install --upgrade pip
+          /tmp/agent-reach-test/bin/python -m pip install "https://github.com/Panniantong/Agent-Reach/archive/da5044d26fc6adddb6554d5679c94ac22e76e428.zip"
+
+      - name: Verify upstream identity
+        run: |
+          test "$(/tmp/agent-reach-test/bin/agent-reach version)" = "Agent Reach v1.5.0"
+
+      - name: Validate AMOS bootstrap against pinned CLI
+        env:
+          PATH: /tmp/agent-reach-test/bin:${{ env.PATH }}
+        run: |
+          python 04_RUNTIME/01_BOOT/agent_reach_bootstrap.py --skip-health-check
