@@ -41,8 +41,8 @@ graph TD
         T0["Tier 0: Pure Informational (Read-only Schemas, MOCs, Documentation)"]
         T1["Tier 1: Read-Only Vault Operations (Grep, AST Parser, Wikilink Linter)"]
         T2["Tier 2: Ephemeral WASI Sandbox (Wasmtime, Zero Network, Strict Memory Limit)"]
-        T3["Tier 3: Networked / External API Connectors (gRPC, ArXiv Scraper, FIX 4.4 Adapter)"]
-        T4["Tier 4: Consequential State Mutation (CAS Commit, Shard Partition, OS Kernel Patch)"]
+        T3["Tier 3: Networked / External API Connectors (gRPC, GitHub, ArXiv, FIX 4.4 Adapter)"]
+        T4["Tier 4: Consequential State Mutation (CAS Commit, Repository Mutation, OS Kernel Patch)"]
     end
 
     subgraph AdmissionGates ["Tool Invariant Admission Pipeline"]
@@ -64,9 +64,12 @@ graph TD
 | **`amos-wasi-micro-sandbox`** | [[14_TOOLS/AMOS_SELF_HEALING_AUTONOMOUS_WASI_MICRO_SANDBOX_GUIDE]] | $T_2$ | `WASI_EPHEMERAL \| NO_NET` | $256\text{ MB} / 2500\text{ ms}$ | [[14_TOOLS/WASM_SANDBOX_CAPABILITY_LEDGER]] |
 | **`amos-sandbox-execution`** | [[14_TOOLS/SANDBOX_TOOL_EXECUTION_PROTOCOL]] | $T_2$ | `WASI_CORE_COMPUTE` | $512\text{ MB} / 5000\text{ ms}$ | [[14_TOOLS/SANDBOX_TOOL_EXECUTION_PROTOCOL]] |
 | **`amos-simulation-kernel`** | [[14_TOOLS/SIMULATION_KERNEL_DISCRETE_SYSTEM_DYNAMICS]] | $T_2$ | `ODE_SOLVE \| NUMPY_SIMD` | $1024\text{ MB} / 10000\text{ ms}$ | [[14_TOOLS/SIMULATION_KERNEL_DISCRETE_SYSTEM_DYNAMICS]] |
+| **`amos-github-research`** | [[14_TOOLS/GITHUB_REPOSITORY_RESEARCH_ADAPTER]] | $T_3$ | `GITHUB_REPO_DISCOVERY \| GITHUB_SOURCE_READ \| GITHUB_COMMIT_READ \| GITHUB_PR_READ` | bounded by connector / request timeout | `UNKNOWN/GAP` until connector-specific executed receipt is persisted |
 | **`amos-fix-zeromq`** | [[15_INTERFACES/FOREX_FIX44_ZEROMQ_SOCKET_ADAPTER]] | $T_3$ | `SOCKET_DMA \| L3_FEED` | $2048\text{ MB} / \text{Continuous}$ | [[15_INTERFACES/FIX_ZEROMQ_INTEGRATION_LOG]] |
 | **`amos-bci-decoder`** | [[15_INTERFACES/BCI_EXPRESSION_GATEWAY_ADAPTER]] | $T_3$ | `SHM_ATTACH \| BCI_10KHZ` | $4096\text{ MB} / \text{Continuous}$ | [[15_INTERFACES/NEUROMORPHIC_SPIKING_BCI_DECODER_LEDGER]] |
 | **`amos-cas-epoch-engine`** | [[12_STATE/DISTRIBUTED_SNAPSHOT_AND_CAS_EPOCH_ENGINE]] | $T_4$ | `CAS_COMMIT \| EPOCH_BUMP` | $512\text{ MB} / 100\text{ ms}$ | [[12_STATE/AMOS_RUNTIME_STATE_FRESHNESS_2026-09-03]] |
+
+The GitHub research adapter is read-only by contract. Repository mutation is a distinct T4 effect class and requires separate authority; read access must never be promoted into write authority by convenience.
 
 ---
 
@@ -128,6 +131,7 @@ message ToolExecutionReceipt {
 2. **Deterministic WASI Sandboxing**: All Tier 2 computational scripts run in isolated WebAssembly runtimes with no ambient filesystem or environment access (`wasi:filesystem/preopens` restricted to scratch memory).
 3. **Receipt Emission**: Every tool invocation ($T_1 \dots T_4$) emits a cryptographically verifiable `ToolExecutionReceipt` to `17_OBSERVABILITY`.
 4. **Fail-Closed Default**: Any unregistered tool or malformed schema input fails closed with `UNKNOWN/GAP`.
+5. **Read/Write Separation**: External repository discovery/read capabilities do not imply branch, file, PR, issue, release, merge, or workflow-dispatch authority.
 
 ---
 
@@ -135,6 +139,7 @@ message ToolExecutionReceipt {
 
 - **Master Tools MOC**: [[14_TOOLS/14_TOOLS_MOC]]
 - **Tool Contract Specification**: [[14_TOOLS/TOOLS_TOOL_CONTRACT]]
+- **GitHub Research Adapter**: [[14_TOOLS/GITHUB_REPOSITORY_RESEARCH_ADAPTER]]
 - **WASM Sandbox Capability Ledger**: [[14_TOOLS/WASM_SANDBOX_CAPABILITY_LEDGER]]
 - **Agent Mesh Protocol**: [[06_AGENTS/AGENT_ROLE_REGISTRY]]
 - **Security Control Access Bridge**: [[18_SECURITY/SECURITY_CONTROL_ACCESS_BRIDGE_GOVERNOR]]
