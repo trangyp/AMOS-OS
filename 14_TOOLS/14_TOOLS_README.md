@@ -1,182 +1,228 @@
 ---
-canon-group: meta
-canon-type: framework
-rscf-state: source-claim
-rscf-claim: verified
-rscf-provenance: AMOS_corpus
+title: "14 Tools — README"
+type: readme
+source: 14_TOOLS
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE
 conclusion_class: AMOS_MODEL
-epistemic_class: SOURCE_CLAIM
-topic: 14 Tools Readme
-tags:
-  - canon-group/tech-ai
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - misc
-created: 2026-08-22
----
----
+epistemic_class: AMOS_MODEL
 ---
 
 # 14 Tools — README
 
 ## 1. Role
 
-Tools provide deterministic or external capability — filesystem, database, browser, search, compiler, calculator, API, connector, and runtime executor. The Tools Plane is the **execution layer** of the AMOS Full Brain OS, translating agent intentions into concrete operations on the environment.
+The Tools Plane represents deterministic executors and external capability transports: filesystem, database, browser, search, compiler, calculator, API, connector, MCP server, and runtime executor surfaces.
 
-The Tools Plane owns:
-- Tool registration and capability declaration
-- Tool invocation protocol enforcement
-- Resource budget management and tracking
-- Tool health monitoring and lifecycle management
-- Audit trail generation for all tool operations
+Tools execute bounded operations. They do not decide their own authority.
 
-## 2. Hard Rule
-
-```
-Tool Available != Tool Authorized
+```text
+TOOL_AVAILABLE != TOOL_AUTHORIZED
+TOOL_DISCOVERED != TOOL_SELECTED
+TOOL_SELECTED != TOOL_INVOKED
+TOOL_INVOKED != TOOL_SUCCEEDED
+TOOL_SUCCEEDED != OUTPUT_VERIFIED
+CREDENTIAL != AMOS_AUTHORITY
 ```
 
-Tool availability (the tool exists and is operational) is a **capability** property. Tool authorization (the agent is permitted to use the tool) is an **authority** property. These are checked separately and must both be true before invocation is permitted.
-
-## 3. Tool Categories
+## 2. Tool categories
 
 | Category | Description | Examples |
-| :--- | :--- | :--- |
-| **Storage** | Filesystem and database operations | File read/write, SQL queries, blob storage |
-| **Retrieval** | Search and lookup operations | Vector search, BM25, graph traversal |
-| **Computation** | Mathematical and logical operations | Calculator, SMT solver, type checker |
-| **Communication** | Network and messaging operations | HTTP client, message queue, pub/sub |
-| **Transformation** | Data conversion and parsing | JSON parser, markdown renderer, codec |
-| **Verification** | Validation and testing operations | Schema validator, linter, test runner |
-| **Integration** | External system connectors | BCI adapter, calendar, email |
+| --- | --- | --- |
+| Storage | Filesystem/database operations | file read/write, SQL, blob storage |
+| Retrieval | Search/lookup | code search, vector search, web retrieval |
+| Computation | Deterministic or bounded computation | calculator, solver, compiler |
+| Communication | Network/message transport | HTTP, queue, RPC |
+| Transformation | Parsing/serialization/conversion | JSON, document conversion |
+| Verification | Testing/static/dynamic checks | schema validator, linter, test runner |
+| Integration | External service connectors | GitHub, calendar, email |
+| Tool protocol | Capability discovery/invocation transport | MCP server/client |
 
-## 4. Tool Architecture
+A single provider may expose tools across multiple categories/effect classes. Do not authorize the provider as one blanket capability when finer partitioning exists.
 
-### 4.1 Component Overview
-
-```text
-┌─────────────────────────────────────────┐
-│              AGENT LAYER                │
-│  Agent discovers tools via registry     │
-│  Agent requests tool invocation        │
-└────────────┬────────────────────────────┘
-             │
-             ▼
-┌─────────────────────────────────────────┐
-│          AUTHORITY LAYER                │
-│  Authority token validation            │
-│  Scope coverage verification           │
-│  Budget allocation                     │
-└────────────┬────────────────────────────┘
-             │ PASS
-             ▼
-┌─────────────────────────────────────────┐
-│          TOOL EXECUTION LAYER          │
-│  Sandboxed tool execution              │
-│  Resource monitoring                   │
-│  Timeout enforcement                   │
-└────────────┬────────────────────────────┘
-             │
-             ▼
-┌─────────────────────────────────────────┐
-│          OUTPUT LAYER                  │
-│  Epistemic classification              │
-│  Audit trail generation                │
-│  Result delivery to agent              │
-└─────────────────────────────────────────┘
-```
-
-### 4.2 Tool Registry
-
-The central registry tracks all available tools:
-
-```yaml
-tool_registry:
-  registry_id: "AMOS-TOOL-REGISTRY-001"
-  version: "1.0.0"
-  last_updated: "2026-09-04"
-  tools:
-    - id: "obsidian-read-tool"
-      category: "storage"
-      status: "ACTIVE"
-      version: "2.1.0"
-    - id: "obsidian-write-tool"
-      category: "storage"
-      status: "ACTIVE"
-      version: "1.8.0"
-    - id: "web-search-tool"
-      category: "retrieval"
-      status: "ACTIVE"
-      version: "3.0.0"
-```
-
-## 5. Hard Boundaries
-
-- **Tool != Permission** — Having access to a tool does not mean you are authorized to use it
-- **Tool != Outcome** — Tool invocation may fail, timeout, or produce unexpected results
-- **Tool Output != Truth** — Tool outputs are observations, not verified facts
-- **Tool Registration != Tool Reliability** — Registered tools may become unhealthy
-- **Tool Capability != Tool Execution** — A tool known to an agent may not be executable in a given context
-- **Tool Ingest != Tool Absorb** — Tool output enters as OBSERVATION, not as validated knowledge
-
-## 6. Key Protocols
-
-- **Tool Discovery:** Agents query capability registry to find matching tools
-- **Authority Validation:** Authority token checked before every invocation
-- **Resource Budgeting:** Token, time, and memory budgets enforced per invocation
-- **Audit Trail:** Every invocation logged with full context and provenance
-- **Health Monitoring:** Tool health checked periodically; unhealthy tools throttled
-- **Version Negotiation:** Component-tool protocol version compatibility verified
-
-### 6.1 Tool Lifecycle
+## 3. Capability/authority pipeline
 
 ```text
-DECLARED → AVAILABLE → ACTIVE → THROTTLED → DEPRECATED → RETIRED
+AGENT/WORKFLOW REQUEST
+-> TOOL DISCOVERY
+-> NORMALIZE TOOL DESCRIPTOR
+-> RESOLVE AMOS CAPABILITY
+-> RESOLVE PRINCIPAL/CREDENTIAL CONTEXT
+-> RESOLVE AMOS AUTHORITY
+-> VALIDATE BUDGET + INPUT PROVENANCE
+-> EXECUTE
+-> CLASSIFY OUTPUT/EFFECT
+-> OBSERVE
+-> COMMIT/RECONCILE WHEN CONSEQUENTIAL
 ```
 
-- **DECLARED**: Tool registered with typed schema and capability declaration
-- **AVAILABLE**: Tool passes health check; resource budget allocated
-- **ACTIVE**: Tool receiving invocations; audit trail active
-- **THROTTLED**: Resource budget near limit; rate limiting active
-- **DEPRECATED**: Tool superseded; grace period for migration
-- **RETIRED**: No active invocations; capability removed; tombstone preserved
+## 4. Credentials versus authority
 
-### 6.2 Tool Invocation Sequence
+External systems may use reusable credentials such as:
 
 ```text
-AGENT REQUIRES TOOL
-        │
-        ▼
-1. TOOL DISCOVERY   → Query capability registry
-2. AUTHORITY CHECK  → Validate authority token + scope
-3. BUDGET CHECK     → Verify resource budget sufficient
-4. SANDBOX EXECUTE  → Execute in bounded environment
-5. CLASSIFY OUTPUT  → Classify by epistemic class
-6. INGEST RESULT    → Deliver to reasoning pipeline
+OAuth access/session token
+GitHub App installation token
+fine-grained PAT
+API key
+service identity
 ```
 
-**Detail:** [[09_PROTOCOLS/AGENT_TOOL_INTERACTION_PROTOCOL|AGENT_TOOL_INTERACTION_PROTOCOL]]
+Those credentials establish an external principal and upper-bound service permissions. They do **not** constitute AMOS task/effect authority.
 
-## 7. Key Invariants
+Conceptually:
 
-| ID | Invariant | Enforcement |
-| :--- | :--- | :--- |
-| `INV-TL-01` | `TOOL_AVAILABLE ≠ TOOL_AUTHORIZED` (M10) | Capability and authority checked separately |
-| `INV-TL-02` | Tool outputs classified before ingestion | Epistemic classifier on every output |
-| `INV-TL-03` | Tool execution sandboxed | No tool exceeds declared scope |
-| `INV-TL-04` | All invocations auditable | Full audit trail per invocation |
-| `INV-TL-05` | Authority tokens single-use | No reuse across invocations |
-| `INV-TL-06` | Budget and timeout hard limits | Execution terminates on violation |
+```text
+ExternalCredentialScope
+  intersection
+AMOSCapabilityScope
+  intersection
+FreshAMOSAuthority
+  -> EligibleToolInvocation
+```
 
-## 8. Inter-Plane Connections
+For consequential effects, AMOS authority should bind the operation/effect and be revalidated at commit. The underlying provider credential need not be single-use.
 
-- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] — Control plane authorizes tool use
-- **Agents:** [[06_AGENTS/06_AGENTS_MOC|06_AGENTS_MOC]] — Agents invoke tools
-- **Protocols:** [[09_PROTOCOLS/09_PROTOCOLS_MOC|09_PROTOCOLS_MOC]] — Tool interactions governed by protocols
-- **Security:** [[18_SECURITY/18_SECURITY_MOC|18_SECURITY_MOC]] — Tool access is security boundary
-- **Observability:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]] — Tool invocations produce observability data
+## 5. MCP/tool-server boundary
+
+MCP-like servers publish typed tool/context capabilities. AMOS treats them as transport/providers:
+
+```text
+ToolServer -> ToolDescriptors
+```
+
+not:
+
+```text
+ToolServer -> Authority
+```
+
+For each discovered tool normalize:
+
+- provider identity/version;
+- upstream tool name;
+- input/output schema identity;
+- effect class;
+- data/sensitivity scope;
+- principal/credential context;
+- provenance requirements;
+- AMOS capability mapping;
+- authority requirements.
+
+Unknown effect class fails closed before mutation.
+
+## 6. GitHub MCP
+
+The governed candidate adapter is:
+
+`[[14_TOOLS/GITHUB_MCP_ADAPTER|GITHUB_MCP_ADAPTER]]`
+
+It separates GitHub repository reads, collaboration reads, CI/security reads, collaboration writes, repository writes, and merge/release effects instead of exposing one undifferentiated `github` permission.
+
+Its upstream source identity is pinned in `11_KNOWLEDGE/EXTERNAL_AGENT_SOURCE_REGISTRY.json`.
+
+## 7. Tool lifecycle
+
+Track independent state dimensions rather than one convenience label:
+
+```text
+declaration
+implementation
+availability
+validation
+governance
+revocation
+```
+
+Typical operational lifecycle may include:
+
+```text
+DECLARED -> AVAILABLE -> ACTIVE -> DEGRADED/THROTTLED -> DEPRECATED -> RETIRED
+```
+
+But a tool can be implemented and available while still unvalidated or unauthorized.
+
+## 8. Effect classes
+
+At minimum distinguish:
+
+```text
+T0 / INFORMATIONAL
+T1 / READ_ONLY_LOCAL
+T2 / EPHEMERAL_COMPUTE
+T3 / EXTERNAL_NETWORK_OR_API
+T4 / CONSEQUENTIAL_MUTATION
+```
+
+A T3 provider can expose both read and write operations; effect classification is per capability/invocation, not merely per transport.
+
+See `[[14_TOOLS/TOOL_REGISTRY_MASTER|TOOL_REGISTRY_MASTER]]` for the registry/envelope specification.
+
+## 9. Output epistemics
+
+Tool output begins as an observation/result of an operation.
+
+```text
+TOOL_OUTPUT != TRUTH
+API_SUCCESS != SEMANTIC_CORRECTNESS
+REMOTE_STATUS != CURRENT_AFTER_DELAY
+TELEMETRY_PRESENT != OBSERVABILITY_COMPLETE
+```
+
+Attach source identity, time, scope, and uncertainty needed for downstream reasoning.
+
+## 10. Side-effect finality
+
+For durable/external mutation:
+
+- use a stable effect identity/idempotency strategy where supported;
+- bind exact target/resource state when possible;
+- revalidate authority and mutable constraints before dispatch;
+- distinguish dispatch from confirmed completion;
+- reconcile ambiguous effects rather than blind retry;
+- preserve receiver/service evidence when available.
+
+## 11. Resource and failure controls
+
+Tool invocation should declare/enforce material bounds:
+
+- timeout;
+- memory/CPU where locally enforceable;
+- request/rate budget;
+- retry budget;
+- data egress scope;
+- filesystem/network scope;
+- failure classification;
+- rollback/reconciliation strategy for mutation.
+
+A timeout is not proof that no external effect occurred.
+
+## 12. Inter-plane connections
+
+- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
+- **Agents:** [[06_AGENTS/06_AGENTS_MOC|06_AGENTS_MOC]]
+- **Agent systems:** [[06_AGENT_SYSTEMS/GITHUB_AGENT_SKILL_INTEROP|GITHUB_AGENT_SKILL_INTEROP]]
+- **Workflows:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
+- **Protocols:** [[09_PROTOCOLS/09_PROTOCOLS_MOC|09_PROTOCOLS_MOC]]
+- **Security:** [[18_SECURITY/18_SECURITY_MOC|18_SECURITY_MOC]]
+- **Observability:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]
+
+## 13. Hard invariants
+
+1. Capability never grants authority.
+2. External credential scope never expands AMOS task scope.
+3. Tool discovery never grants invocation permission.
+4. Tool output is classified before promotion into knowledge/decision state.
+5. Mutation uses commit-time authority/constraint revalidation.
+6. Ambiguous external effects are reconciled before retry.
+7. Provider/tool version and schema drift can invalidate prior adapters.
+8. Observability gaps remain visible.
+9. Secret material never enters source-controlled tool descriptors or logs.
+10. Registered/available does not imply empirically reliable.
 
 ______________________________________________________________________
 
+**Master registry:** [[14_TOOLS/TOOL_REGISTRY_MASTER|TOOL_REGISTRY_MASTER]]  
 **Parent:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
