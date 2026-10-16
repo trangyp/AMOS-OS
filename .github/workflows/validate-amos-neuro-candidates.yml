@@ -1,0 +1,17 @@
+name: Validate AMOS candidate skills
+on:
+  pull_request:
+    paths:
+      - 'skill-candidates/2026-10-16/**'
+      - '.github/workflows/validate-amos-neuro-candidates.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  structural-validation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check candidate contracts and promotion gates
+        run: python3 skill-candidates/2026-10-16/scripts/validate_candidates.py
