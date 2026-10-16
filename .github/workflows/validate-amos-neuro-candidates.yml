@@ -4,6 +4,8 @@ on:
     paths:
       - 'skill-candidates/2026-10-16/**'
       - '.github/workflows/validate-amos-neuro-candidates.yml'
+      - '07_SKILLS/00_INDEX/scientific_assurance_v12.py'
+      - '07_SKILLS/00_INDEX/test_scientific_assurance_v12.py'
   workflow_dispatch:
 permissions:
   contents: read
@@ -24,3 +26,6 @@ jobs:
 
       - name: Test V11 genomic and multiple testing math
         run: cd skill-candidates/2026-10-16/scientific-math-v11 && python3 -m unittest discover -s . -p 'test_*.py' -v
+
+      - name: Test installed repository skill math contracts
+        run: python3 -m unittest discover -s 07_SKILLS/00_INDEX -p 'test_scientific_assurance_v12.py' -v
