@@ -15,3 +15,6 @@ jobs:
       - uses: actions/checkout@v4
       - name: Check candidate contracts and promotion gates
         run: python3 skill-candidates/2026-10-16/scripts/validate_candidates.py
+
+      - name: Run isolated synthetic invariants
+        run: python3 -m unittest discover -s skill-candidates/2026-10-16/tests -p 'test_*.py' -v
