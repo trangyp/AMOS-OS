@@ -10,7 +10,7 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "capability-map.json"
 REQUIRED = ("## Contract", "## Procedure", "## Scientific guard", "## Failure mode")
-BANNED = ("curl | sh", "pip install --break-system-packages")
+BANNED_COMMANDS = ("curl | sh", "pip install --break-system-packages")
 
 def validate(root=ROOT):
     issues = []
