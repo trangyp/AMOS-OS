@@ -28,3 +28,6 @@ MOABB, Braindecode, pyRiemann. External packages require independent security/li
 
 ## Failure mode
 Unverified dependencies, ambiguous units or provenance, biological privacy concerns, schema mismatch or unvalidated performance: HOLD / QUARANTINE. Do not claim execution or installation.
+
+## Executable acceptance contract
+Upstream pins: MOABB `0e3b1d9ed798198413a8c4b0da6213a188ad76e8`; Braindecode `573215292ed6919c128cd97a6cc528414d852e10`; pyRiemann `acfcd1ac9bc05c19387e53c848b103cb91262b71`. Before running, lock Python/package builds and licenses. Split entire subjects into train/validation/test; nested model selection stays within training subjects; held-out subjects are evaluated exactly once. Report N subjects, sessions, class balance, paradigm, metrics, 95% uncertainty intervals and failure counts. Compare chance level, CSP + linear baseline, tangent-space + logistic baseline, and deep model only when resources permit. Test random-label shuffle and subject-ID permutation to detect leakage. Clinical outcomes and realtime device commands excluded.
