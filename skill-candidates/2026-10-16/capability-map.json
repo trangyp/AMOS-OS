@@ -1,0 +1,130 @@
+{
+  "schema": "amos.skill-candidate.v1",
+  "snapshot": "2026-10-16",
+  "origin_architect": "Trang Phan",
+  "status": "STAGED_NOT_INSTALLED",
+  "host": "trangyp/AMOS-OS",
+  "branch": "candidate/neuro-reasoning-bio-bci-20261016",
+  "existing_bridge_skills": [
+    "amos-reasoning-evidence-bridge",
+    "amos-neuroscience-analysis-bridge",
+    "amos-biology-omics-bridge",
+    "amos-bci-research-bridge"
+  ],
+  "registry_snapshot": {
+    "physical_identities": 342,
+    "navigation_identities": 703,
+    "identity_conflict": "unresolved alias and overlaps; snapshot from 2026-09"
+  },
+  "candidates": [
+    {
+      "name": "amos-reasoning-evaluation-upgrade",
+      "parent": "amos-reasoning-evidence-bridge",
+      "domain": "reasoning",
+      "kind": "candidate-child-skill",
+      "upstream": "Z3Prover/z3",
+      "effect": "NO_EXECUTION",
+      "validation": "NOT_EXECUTED",
+      "promotion": "HOLD"
+    },
+    {
+      "name": "amos-neural-electrophysiology-upgrade",
+      "parent": "amos-neuroscience-analysis-bridge",
+      "domain": "neuroscience",
+      "kind": "candidate-child-skill",
+      "upstream": "mne-tools/mne-python",
+      "effect": "NO_EXECUTION",
+      "validation": "NOT_EXECUTED",
+      "promotion": "HOLD"
+    },
+    {
+      "name": "amos-neuroimaging-connectomics-upgrade",
+      "parent": "amos-neuroscience-analysis-bridge",
+      "domain": "neuroscience",
+      "kind": "candidate-child-skill",
+      "upstream": "nilearn/nilearn",
+      "effect": "NO_EXECUTION",
+      "validation": "NOT_EXECUTED",
+      "promotion": "HOLD"
+    },
+    {
+      "name": "amos-spiking-neural-dynamics-upgrade",
+      "parent": "amos-neuroscience-analysis-bridge",
+      "domain": "neuroscience",
+      "kind": "candidate-child-skill",
+      "upstream": "brian-team/brian2",
+      "effect": "NO_EXECUTION",
+      "validation": "NOT_EXECUTED",
+      "promotion": "HOLD"
+    },
+    {
+      "name": "amos-bci-cross-subject-benchmark-upgrade",
+      "parent": "amos-bci-research-bridge",
+      "domain": "bci",
+      "kind": "candidate-child-skill",
+      "upstream": "NeuroTechX/moabb",
+      "effect": "NO_EXECUTION",
+      "validation": "NOT_EXECUTED",
+      "promotion": "HOLD"
+    },
+    {
+      "name": "amos-bci-streaming-safety-upgrade",
+      "parent": "amos-bci-research-bridge",
+      "domain": "bci",
+      "kind": "candidate-child-skill",
+      "upstream": "brainflow-dev/brainflow",
+      "effect": "HARDWARE_DISABLED",
+      "validation": "NOT_EXECUTED",
+      "promotion": "HOLD"
+    },
+    {
+      "name": "amos-single-cell-variational-upgrade",
+      "parent": "amos-biology-omics-bridge",
+      "domain": "biology",
+      "kind": "candidate-child-skill",
+      "upstream": "scverse/scvi-tools",
+      "effect": "NO_EXECUTION",
+      "validation": "NOT_EXECUTED",
+      "promotion": "HOLD"
+    },
+    {
+      "name": "amos-spatial-cell-fate-upgrade",
+      "parent": "amos-biology-omics-bridge",
+      "domain": "biology",
+      "kind": "candidate-child-skill",
+      "upstream": "scverse/squidpy",
+      "effect": "NO_EXECUTION",
+      "validation": "NOT_EXECUTED",
+      "promotion": "HOLD"
+    },
+    {
+      "name": "amos-molecular-bioinformatics-upgrade",
+      "parent": "amos-biology-omics-bridge",
+      "domain": "biology",
+      "kind": "candidate-child-skill",
+      "upstream": "biopython/biopython",
+      "effect": "NO_EXECUTION",
+      "validation": "NOT_EXECUTED",
+      "promotion": "HOLD"
+    },
+    {
+      "name": "amos-cross-modal-neurobio-integration",
+      "parent": "amos-full-brain-os",
+      "domain": "cross-modal",
+      "kind": "candidate-child-skill",
+      "upstream": "mne-tools/mne-python",
+      "effect": "NO_EXECUTION",
+      "validation": "NOT_EXECUTED",
+      "promotion": "HOLD"
+    }
+  ],
+  "checks": {
+    "unique_names": true,
+    "all_parent_identified": true,
+    "no_hardware_control": true,
+    "source_license_review": false,
+    "full_registry_reconciliation": false,
+    "scientific_test_execution": false,
+    "chatgpt_install": false
+  }
+}

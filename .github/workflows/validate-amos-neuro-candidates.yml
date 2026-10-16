@@ -1,0 +1,31 @@
+name: Validate AMOS candidate skills
+on:
+  pull_request:
+    paths:
+      - 'skill-candidates/2026-10-16/**'
+      - '.github/workflows/validate-amos-neuro-candidates.yml'
+      - '07_SKILLS/00_INDEX/scientific_assurance_v12.py'
+      - '07_SKILLS/00_INDEX/test_scientific_assurance_v12.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  structural-validation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check candidate contracts and promotion gates
+        run: python3 skill-candidates/2026-10-16/scripts/validate_candidates.py
+
+      - name: Run isolated synthetic invariants
+        run: python3 -m unittest discover -s skill-candidates/2026-10-16/tests -p 'test_*.py' -v
+
+      - name: Validate mathematical portfolio optimizer
+        run: cd skill-candidates/2026-10-16/scientific-math-v10 && python3 -m unittest discover -s . -p 'test_*.py' -v
+
+      - name: Test V11 genomic and multiple testing math
+        run: cd skill-candidates/2026-10-16/scientific-math-v11 && python3 -m unittest discover -s . -p 'test_*.py' -v
+
+      - name: Test installed repository skill math contracts
+        run: python3 -m unittest discover -s 07_SKILLS/00_INDEX -p 'test_scientific_assurance_v12.py' -v
