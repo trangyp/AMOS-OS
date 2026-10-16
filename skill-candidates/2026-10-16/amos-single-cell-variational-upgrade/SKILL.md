@@ -28,3 +28,6 @@ Scanpy, AnnData, scvi-tools, Muon. External packages require independent securit
 
 ## Failure mode
 Unverified dependencies, ambiguous units or provenance, biological privacy concerns, schema mismatch or unvalidated performance: HOLD / QUARANTINE. Do not claim execution or installation.
+
+## Executable acceptance contract
+Upstream pins: Scanpy `8ed52d9dad906c260e52405380ed4ed1e353d4e7`; scvi-tools `5555ecc11049b11ee98fedc1e64e56b65df6b591`. External K-Dense `scanpy` instruction Skill at `a1043ef544e3a100c28e70a736b6cf32554d0677` declares tested Scanpy 1.12.4 on Python 3.13 (source claim, not independently rerun here). Preserve raw count matrix separately from transformed data; record donor, batch, assay, genome build and feature provenance. Compare donor-aware pseudobulk baseline to latent-model inference. Never split one donor across train and held-out biological replication. Hold when cells are treated as independent biological replicates or batch mixing is misinterpreted as disease biology. Report uncertainty, negative markers and falsifiers.
