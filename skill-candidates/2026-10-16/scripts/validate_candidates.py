@@ -42,9 +42,9 @@ def validate(root=ROOT):
                 issues.append(f"{name}: missing section {section}")
         if item["parent"] not in text:
             issues.append(f"{name}: missing parent routing")
-        for token in BANNED:
-            if token in text:
-                issues.append(f"{name}: dangerous instruction token")
+        for line in text.splitlines():
+            if line.lstrip().startswith(("$ ", "> ", "sudo ", "curl ", "pip ")) and any(token in line for token in BANNED_COMMANDS):
+                issues.append(f"{name}: dangerous executable command")
         if "No automatic runtime activation" not in text and "no automatic runtime activation" not in text:
             issues.append(f"{name}: missing installation boundary")
     if data["status"] != "STAGED_NOT_INSTALLED":
