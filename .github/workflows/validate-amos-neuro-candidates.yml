@@ -21,3 +21,6 @@ jobs:
 
       - name: Validate mathematical portfolio optimizer
         run: cd skill-candidates/2026-10-16/scientific-math-v10 && python3 -m unittest discover -s . -p 'test_*.py' -v
+
+      - name: Test V11 genomic and multiple testing math
+        run: cd skill-candidates/2026-10-16/scientific-math-v11 && python3 -m unittest discover -s . -p 'test_*.py' -v
