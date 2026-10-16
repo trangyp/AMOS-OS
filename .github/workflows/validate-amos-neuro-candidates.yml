@@ -18,3 +18,6 @@ jobs:
 
       - name: Run isolated synthetic invariants
         run: python3 -m unittest discover -s skill-candidates/2026-10-16/tests -p 'test_*.py' -v
+
+      - name: Validate mathematical portfolio optimizer
+        run: cd skill-candidates/2026-10-16/scientific-math-v10 && python3 -m unittest discover -s . -p 'test_*.py' -v
